@@ -49,7 +49,7 @@ export const DashboardSidebar: React.FC<DashboardSidebarProps> = ({
       </nav>
 
       <div className={styles.footer}>
-        <p className={styles.footerText}>Step 2: Dashboard</p>
+        <p className={styles.footerText}>Step 3: Digital Notes</p>
       </div>
     </aside>
   )

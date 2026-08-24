@@ -120,7 +120,7 @@ export const NoteEditor: React.FC<NoteEditorProps> = ({ note, onBack }) => {
           <span>Title</span>
           <input
             value={note.title}
-            onChange={(event) => updateNote(note.id, { title: event.target.value || 'Untitled Note' })}
+            onChange={(event) => updateNote(note.id, { title: event.target.value })}
             placeholder="Untitled Note"
           />
         </label>

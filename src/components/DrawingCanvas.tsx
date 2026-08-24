@@ -194,7 +194,7 @@ export const DrawingCanvas: React.FC<DrawingCanvasProps> = ({ drawingBlock, onCh
     }
 
     const block: DrawingBlock = {
-      ...drawingBlock,
+      id: drawingBlock.id,
       width: surfaceSize.width,
       height: surfaceSize.height,
       actions,
@@ -202,7 +202,7 @@ export const DrawingCanvas: React.FC<DrawingCanvasProps> = ({ drawingBlock, onCh
     }
 
     onChange(block)
-  }, [actions, drawingBlock, onChange, redraw, surfaceSize.height, surfaceSize.width])
+  }, [actions, drawingBlock.id, onChange, redraw, surfaceSize.height, surfaceSize.width])
 
   const getPoint = (event: React.PointerEvent<HTMLCanvasElement>) => {
     const bounds = event.currentTarget.getBoundingClientRect()

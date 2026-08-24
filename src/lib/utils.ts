@@ -1,4 +1,3 @@
-// Theme utilities
 export function getColorVariable(name: string): string {
   return getComputedStyle(document.documentElement).getPropertyValue(`--color-${name}`).trim()
 }
@@ -11,36 +10,39 @@ export function getFontSizeVariable(name: string): string {
   return getComputedStyle(document.documentElement).getPropertyValue(`--font-size-${name}`).trim()
 }
 
-// Utility functions for common tasks
 export function cn(...classes: (string | undefined | null | false)[]): string {
   return classes.filter(Boolean).join(' ')
 }
 
-export function debounce<T extends (...args: any[]) => any>(
+export function debounce<T extends (...args: unknown[]) => void>(
   func: T,
-  wait: number
+  wait: number,
 ): (...args: Parameters<T>) => void {
-  let timeout: NodeJS.Timeout
+  let timeout: ReturnType<typeof setTimeout>
+
   return function executedFunction(...args: Parameters<T>) {
-    const later = () => {
-      clearTimeout(timeout)
-      func(...args)
-    }
     clearTimeout(timeout)
-    timeout = setTimeout(later, wait)
+    timeout = setTimeout(() => {
+      func(...args)
+    }, wait)
   }
 }
 
-export function throttle<T extends (...args: any[]) => any>(
+export function throttle<T extends (...args: unknown[]) => void>(
   func: T,
-  limit: number
+  limit: number,
 ): (...args: Parameters<T>) => void {
-  let inThrottle: boolean
-  return function (...args: Parameters<T>) {
-    if (!inThrottle) {
-      func(...args)
-      inThrottle = true
-      setTimeout(() => (inThrottle = false), limit)
+  let inThrottle = false
+
+  return function throttledFunction(...args: Parameters<T>) {
+    if (inThrottle) {
+      return
     }
+
+    func(...args)
+    inThrottle = true
+    setTimeout(() => {
+      inThrottle = false
+    }, limit)
   }
 }

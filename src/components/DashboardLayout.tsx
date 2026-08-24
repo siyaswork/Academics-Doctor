@@ -15,7 +15,7 @@ import styles from './DashboardLayout.module.css'
 const noteToWorkItem = (note: ReturnType<typeof useNotes>['notes'][number]): WorkItem => ({
   id: note.id,
   type: 'note',
-  title: note.title,
+  title: note.title || 'Untitled Note',
   subject: note.subject,
   lastEdited: note.updatedAt,
   preview: note.content.find((block) => block.type !== 'drawing')?.content.replace(/<[^>]+>/g, '') || 'Open your note',

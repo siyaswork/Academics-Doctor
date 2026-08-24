@@ -39,7 +39,7 @@ export const NoteCard: React.FC<NoteCardProps> = ({ note, onOpen }) => {
         <span className={styles.subject}>{subjectLabels[note.subject]}</span>
         {note.hasDrawings && <span className={styles.drawingBadge} title="Contains drawings" aria-label="Contains drawings">✎</span>}
       </span>
-      <span className={styles.title}>{note.title}</span>
+      <span className={styles.title}>{note.title || 'Untitled Note'}</span>
       <span className={styles.preview}>{preview}</span>
       <span className={styles.footer}>
         <span>Edited {formatDate(note.updatedAt)}</span>
