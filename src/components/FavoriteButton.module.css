@@ -1,0 +1,2 @@
+.button { min-width: 44px; min-height: 44px; border-radius: 999px; border: 1px solid var(--border); background: var(--bg-card); color: var(--text-muted); }
+.active { color: #f59e0b; background: rgba(245, 158, 11, 0.16); }

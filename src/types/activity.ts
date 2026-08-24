@@ -1,0 +1,1 @@
+export interface ActivityItem { id: string; type: 'note_created' | 'note_edited' | 'research_created' | 'research_edited' | 'source_added' | 'formula_saved' | 'work_updated' | 'subject_created' | 'study_session_completed' | 'event_created'; linkedId: string; linkedTitle: string; timestamp: string; subjectId?: string }

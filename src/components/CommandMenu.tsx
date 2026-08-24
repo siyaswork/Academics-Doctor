@@ -1,0 +1,11 @@
+import { useEffect, useMemo, useState } from 'react'
+import { useAppContext } from '../contexts/AppContext'
+import styles from './CommandMenu.module.css'
+
+export const CommandMenu = () => {
+  const { closeCommandMenu, openSearch, navigate, createNote, createResearch, createWorkItem, startStudySession } = useAppContext()
+  const commands = useMemo(() => [{ label: 'Search everything', action: () => { closeCommandMenu(); openSearch() } }, { label: 'New note', action: () => { createNote(); closeCommandMenu() } }, { label: 'New research', action: () => { createResearch(); closeCommandMenu() } }, { label: 'New work', action: () => { createWorkItem(); closeCommandMenu() } }, { label: 'Open calculator', action: () => { navigate('calculator'); closeCommandMenu() } }, { label: 'Start study session', action: () => { startStudySession(); closeCommandMenu() } }, { label: 'Open formulas', action: () => { navigate('formulas'); closeCommandMenu() } }], [closeCommandMenu, createNote, createResearch, createWorkItem, navigate, openSearch, startStudySession])
+  const [index, setIndex] = useState(0)
+  useEffect(() => { const listener = (event: KeyboardEvent) => { if (event.key === 'Escape') closeCommandMenu(); if (event.key === 'ArrowDown') { event.preventDefault(); setIndex((current) => (current + 1) % commands.length) } if (event.key === 'ArrowUp') { event.preventDefault(); setIndex((current) => (current - 1 + commands.length) % commands.length) } if (event.key === 'Enter') { event.preventDefault(); commands[index]?.action() } }; window.addEventListener('keydown', listener); return () => window.removeEventListener('keydown', listener) }, [closeCommandMenu, commands, index])
+  return <div className="modalOverlay" onClick={closeCommandMenu}><div className="modalCard" onClick={(event) => event.stopPropagation()}><div className={styles.header}><h2>Command menu</h2><p>Use ↑ ↓ and Enter</p></div><div className={styles.list} role="listbox" aria-label="Command menu">{commands.map((command, commandIndex) => <button key={command.label} type="button" className={`${styles.item} ${commandIndex === index ? styles.active : ''}`} onClick={command.action}>{command.label}</button>)}</div></div></div>
+}

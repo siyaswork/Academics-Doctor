@@ -1,0 +1,2 @@
+export interface ResearchProject { id: string; title: string; subjectId?: string; description: string; notes: string; sources: ResearchSource[]; createdAt: string; updatedAt: string; tags: string[]; isFavorited?: boolean }
+export interface ResearchSource { id: string; title: string; publication?: string; url?: string; description?: string; category: 'article' | 'website' | 'book' | 'paper' | 'other'; addedAt: string }

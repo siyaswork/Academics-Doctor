@@ -1,0 +1,1 @@
+export interface AppPreferences { theme: 'light' | 'dark' | 'system'; reducedMotion: boolean; defaultNoteColor: string; defaultDrawingColor: string; defaultStudyDuration: number; dashboardSections: { greeting: boolean; continuePlaying: boolean; upcoming: boolean; recentWork: boolean; subjects: boolean; studyActivity: boolean; favorites: boolean } }

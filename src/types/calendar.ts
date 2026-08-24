@@ -1,0 +1,1 @@
+export interface CalendarEvent { id: string; title: string; date: string; time?: string; type: 'exam' | 'assignment' | 'study' | 'personal'; subjectId?: string; description?: string; reminderId?: string }

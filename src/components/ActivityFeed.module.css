@@ -1,0 +1,4 @@
+.feed { display: flex; flex-direction: column; gap: 0.75rem; }
+.item { display: flex; justify-content: space-between; gap: 1rem; padding-bottom: 0.75rem; border-bottom: 1px solid var(--border); }
+.item:last-child { border-bottom: 0; padding-bottom: 0; }
+.item p, .item span { margin: 0.35rem 0 0; color: var(--text-muted); font-size: 0.92rem; }

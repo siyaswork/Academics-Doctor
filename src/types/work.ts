@@ -1,0 +1,1 @@
+export interface WorkItem { id: string; title: string; type: 'note' | 'research' | 'assignment' | 'project'; subjectId?: string; description: string; status: 'draft' | 'in-progress' | 'completed'; createdAt: string; updatedAt: string; tags: string[]; isFavorited?: boolean }

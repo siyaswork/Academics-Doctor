@@ -1,0 +1,5 @@
+.header { margin-bottom: 1rem; }
+.header p { margin: 0.35rem 0 0; color: var(--text-muted); }
+.list { display: flex; flex-direction: column; gap: 0.5rem; }
+.item { border: 1px solid var(--border); background: var(--bg-card); border-radius: 16px; text-align: left; padding: 1rem; }
+.active { background: var(--primary-light); color: var(--primary); }

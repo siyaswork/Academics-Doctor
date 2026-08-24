@@ -1,4 +1,3 @@
-// Notes workspace exports
 export { NotesLibrary } from './NotesLibrary'
 export { NoteCard } from './NoteCard'
 export { RichTextEditor } from './RichTextEditor'
