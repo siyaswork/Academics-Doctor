@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from 'react'
+import { plainTextFromHtml } from '../lib/richText'
 import { Note, NoteColor, SubjectType } from '../types/notes'
 import { NoteCard } from './NoteCard'
 import styles from './NotesLibrary.module.css'
@@ -18,8 +19,6 @@ const subjects: Array<{ value: SubjectType | 'all'; label: string }> = [
   { value: 'other', label: 'Other' },
 ]
 
-const stripHtml = (value: string) => value.replace(/<[^>]+>/g, ' ')
-
 export const NotesLibrary: React.FC<NotesLibraryProps> = ({ notes, onOpenNote, onCreateNote }) => {
   const [query, setQuery] = useState('')
   const [subject, setSubject] = useState<SubjectType | 'all'>('all')
@@ -28,7 +27,7 @@ export const NotesLibrary: React.FC<NotesLibraryProps> = ({ notes, onOpenNote, o
   const filteredNotes = useMemo(
     () =>
       notes.filter((note) => {
-        const searchableText = `${note.title} ${note.content.map((block) => stripHtml(block.content)).join(' ')}`.toLowerCase()
+        const searchableText = `${note.title} ${note.content.map((block) => plainTextFromHtml(block.content)).join(' ')}`.toLowerCase()
         const matchesQuery = searchableText.includes(query.toLowerCase())
         return matchesQuery && (subject === 'all' || note.subject === subject) && (color === 'all' || note.color === color)
       }),

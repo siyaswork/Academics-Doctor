@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from 'react'
 import { demoContinueItem, demoUser, demoWorkItems } from '../data/demoData'
 import { useNotes } from '../contexts/NotesContext'
+import { plainTextFromHtml } from '../lib/richText'
 import { WorkItem } from '../types/dashboard'
 import { ContinueCard } from './ContinueCard'
 import { DashboardHeader } from './DashboardHeader'
@@ -18,7 +19,7 @@ const noteToWorkItem = (note: ReturnType<typeof useNotes>['notes'][number]): Wor
   title: note.title || 'Untitled Note',
   subject: note.subject,
   lastEdited: note.updatedAt,
-  preview: note.content.find((block) => block.type !== 'drawing')?.content.replace(/<[^>]+>/g, '') || 'Open your note',
+  preview: plainTextFromHtml(note.content.find((block) => block.type !== 'drawing')?.content || 'Open your note'),
   metadata: {
     status: note.hasDrawings ? 'Has drawings' : 'Saved',
   },
