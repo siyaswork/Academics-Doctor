@@ -27,9 +27,10 @@ const colorClass: Record<Note['color'], string> = {
 }
 
 const formatDate = (date: Date) => new Intl.DateTimeFormat(undefined, { month: 'short', day: 'numeric' }).format(date)
+const stripHtml = (value: string) => value.replace(/<[^>]+>/g, ' ')
 
 export const NoteCard: React.FC<NoteCardProps> = ({ note, onOpen }) => {
-  const preview = note.content.find((block) => block.content.trim())?.content || 'Start writing your study notes…'
+  const preview = stripHtml(note.content.find((block) => block.type !== 'drawing' && block.content.trim())?.content || 'Start writing your study notes…')
 
   return (
     <button type="button" className={`${styles.card} ${colorClass[note.color]}`} onClick={() => onOpen(note.id)}>

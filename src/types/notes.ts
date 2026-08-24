@@ -4,6 +4,8 @@ export type SubjectType = 'math' | 'science' | 'history' | 'literature' | 'other
 
 export type DrawingTool = 'pen' | 'eraser' | 'line' | 'arrow' | 'rectangle' | 'circle' | 'triangle'
 
+export type TextAlignment = 'left' | 'center' | 'right' | 'justify'
+
 export interface DrawingAction {
   id: string
   type: DrawingTool
@@ -19,18 +21,17 @@ export interface DrawingBlock {
   width: number
   height: number
   actions: DrawingAction[]
-  imageData?: string // Base64 encoded canvas image
+  imageData?: string
 }
 
 export interface RichTextContent {
   type: 'paragraph' | 'heading' | 'list' | 'image' | 'drawing'
-  level?: number // For headings: 1-6
-  format?: 'bold' | 'italic' | 'underline' | 'code'
-  alignment?: 'left' | 'center' | 'right' | 'justify'
+  level?: number
+  alignment?: TextAlignment
   listType?: 'bullet' | 'numbered'
-  content: string // For text blocks
-  drawingBlockId?: string // For drawing blocks
-  imageUrl?: string // For image blocks
+  content: string
+  drawingBlockId?: string
+  imageUrl?: string
 }
 
 export interface Note {
@@ -52,17 +53,7 @@ export interface NotesState {
   notes: Note[]
   currentNoteId: string | null
   isEditing: boolean
-  undoStack: Note[]
-  redoStack: Note[]
+  lastSavedAt: Date | null
 }
 
-export interface DrawingState {
-  isDrawing: boolean
-  currentTool: DrawingTool
-  currentColor: string
-  strokeWidth: number
-  opacity: number
-  actions: DrawingAction[]
-  undoStack: DrawingAction[]
-  redoStack: DrawingAction[]
-}
+export type SaveStatus = 'idle' | 'saving' | 'saved' | 'error'

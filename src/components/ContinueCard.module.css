@@ -1,0 +1,62 @@
+.card {
+  display: grid;
+  gap: var(--spacing-md);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-xl);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  color: #fff;
+  box-shadow: var(--shadow-md);
+}
+
+.eyebrow {
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.title {
+  margin: var(--spacing-xs) 0;
+  color: #fff;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+.meta {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.progress {
+  height: 0.5rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+}
+
+.progress span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: #fff;
+}
+
+.button {
+  min-height: 44px;
+  width: fit-content;
+  padding: 0 var(--spacing-lg);
+  border: 0;
+  border-radius: var(--radius-md);
+  background: #fff;
+  color: var(--color-primary-dark);
+  font-weight: var(--font-weight-semibold);
+}
+
+.button:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+  .button {
+    width: 100%;
+  }
+}

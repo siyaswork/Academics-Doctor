@@ -1,6 +1,9 @@
-// Notes workspace exports
 export { NotesLibrary } from './NotesLibrary'
 export { NoteCard } from './NoteCard'
 export { RichTextEditor } from './RichTextEditor'
 export { DrawingCanvas } from './DrawingCanvas'
-export type { Note, NotesState, DrawingAction, DrawingBlock, DrawingTool, RichTextContent } from '../types/notes'
+export { NoteEditor } from './NoteEditor'
+export { NotesWorkspace } from './NotesWorkspace'
+export { CalculatorModal } from './CalculatorModal'
+export { NotesProvider, useNotes } from '../contexts/NotesContext'
+export type { DrawingAction, DrawingBlock, DrawingTool, Note, NotesState, RichTextContent } from '../types/notes'

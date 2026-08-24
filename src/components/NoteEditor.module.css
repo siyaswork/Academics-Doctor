@@ -1,0 +1,229 @@
+.page {
+  width: min(100% - 2rem, 1200px);
+  margin: 0 auto;
+  padding: var(--spacing-xl) 0 5rem;
+  display: grid;
+  gap: var(--spacing-lg);
+}
+
+.header,
+.settingsCard,
+.editorCard,
+.drawingsSection {
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-xl);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.header {
+  padding: var(--spacing-lg);
+  display: flex;
+  justify-content: space-between;
+  gap: var(--spacing-lg);
+}
+
+.headerMain {
+  display: grid;
+  gap: var(--spacing-sm);
+}
+
+.backButton,
+.headerActions button,
+.emptyDrawings button,
+.footerActions button {
+  min-height: 44px;
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+  padding: 0 var(--spacing-md);
+}
+
+.backButton,
+.backPrimary {
+  width: fit-content;
+}
+
+.backButton:hover,
+.headerActions button:hover,
+.emptyDrawings button:hover,
+.footerActions button:hover {
+  border-color: var(--color-primary);
+}
+
+.backButton:focus-visible,
+.headerActions button:focus-visible,
+.emptyDrawings button:focus-visible,
+.footerActions button:focus-visible,
+.colorOption:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.eyebrow {
+  color: var(--color-primary);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+}
+
+.status {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}
+
+.headerActions {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.headerActions button:last-child,
+.backPrimary {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.settingsCard,
+.editorCard,
+.drawingsSection {
+  padding: var(--spacing-lg);
+}
+
+.settingsCard {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--spacing-md);
+}
+
+.field {
+  display: grid;
+  gap: var(--spacing-xs);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.colorPicker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.colorOption {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 999px;
+  border: 2px solid transparent;
+  box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.08);
+}
+
+.colorOption.selected {
+  border-color: var(--color-text-primary);
+}
+
+.blue { background: #5b8def; }
+.green { background: #42b883; }
+.purple { background: #9b7bea; }
+.orange { background: #f19a4a; }
+.pink { background: #e879a9; }
+.yellow { background: #e6b84f; }
+.red { background: #e56b6f; }
+.neutral { background: #9ca3af; }
+
+.sectionHeading {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+}
+
+.sectionHeading h2 {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-xs);
+}
+
+.sectionHeading p,
+.shortcutHint {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}
+
+.drawingsStack {
+  display: grid;
+  gap: var(--spacing-md);
+}
+
+.emptyDrawings {
+  display: grid;
+  gap: var(--spacing-md);
+  place-items: start;
+  padding: var(--spacing-lg);
+  border: 1px dashed var(--color-border-default);
+  border-radius: var(--radius-lg);
+  color: var(--color-text-muted);
+}
+
+.footerActions {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--spacing-md);
+}
+
+.deleteButton {
+  color: var(--color-accent-error);
+}
+
+@media (max-width: 1024px) {
+  .settingsCard {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding-top: var(--spacing-lg);
+    padding-bottom: 7rem;
+  }
+
+  .header,
+  .sectionHeading,
+  .footerActions,
+  .settingsCard {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+
+  .settingsCard {
+    display: grid;
+  }
+
+  .headerActions,
+  .footerActions {
+    width: 100%;
+  }
+
+  .headerActions button,
+  .footerActions button,
+  .backButton,
+  .backPrimary,
+  .deleteButton {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header,
+  .settingsCard,
+  .editorCard,
+  .drawingsSection {
+    transition: none;
+  }
+}
