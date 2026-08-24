@@ -28,6 +28,17 @@ export type { SpinnerProps } from './Spinner.interface'
 
 export { ThemeToggle } from './ThemeToggle'
 
+// Dashboard
+export { DashboardLayout } from './DashboardLayout'
+export { DashboardSidebar } from './DashboardSidebar'
+export { MobileNavigation } from './MobileNavigation'
+export { DashboardHeader } from './DashboardHeader'
+export { ContinueCard } from './ContinueCard'
+export { QuickActions } from './QuickActions'
+export { WorkspaceCard } from './WorkspaceCard'
+export { EmptyState } from './EmptyState'
+export type { WorkItem, ContinueItem, DashboardUser, WorkItemType, SubjectType } from '../types/dashboard'
+
 // Layouts
 export { MainLayout } from '../layouts/MainLayout'
 export type { MainLayoutProps } from '../layouts/MainLayout.interface'

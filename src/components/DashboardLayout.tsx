@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { DashboardSidebar } from './DashboardSidebar'
+import { MobileNavigation } from './MobileNavigation'
 import { DashboardHeader } from './DashboardHeader'
 import { ContinueCard } from './ContinueCard'
 import { QuickActions } from './QuickActions'
@@ -13,7 +14,6 @@ export const DashboardLayout: React.FC = () => {
 
   const handleNavClick = (itemId: string) => {
     setActiveNav(itemId)
-    console.log(`Navigating to: ${itemId}`)
   }
 
   const handleCardClick = (cardId: string) => {
@@ -28,185 +28,79 @@ export const DashboardLayout: React.FC = () => {
     console.log(`Quick action: ${actionId}`)
   }
 
-  // Show different content based on navigation
-  const renderContent = () => {
-    switch (activeNav) {
-      case 'dashboard':
-        return (
-          <div className={styles.mainContent}>
-            <ContinueCard item={demoContinueItem} onContinue={handleContinue} />
-            <QuickActions onActionClick={handleQuickAction} />
-            <div className={styles.section}>
-              <h2 className={styles.sectionTitle}>Recent Work</h2>
-              <div className={styles.grid}>
-                {demoWorkItems.length > 0 ? (
-                  demoWorkItems.map((item) => (
-                    <WorkspaceCard
-                      key={item.id}
-                      item={item}
-                      onClick={() => handleCardClick(item.id)}
-                    />
-                  ))
-                ) : (
-                  <div className={styles.emptyContainer}>
-                    <EmptyState
-                      icon="📝"
-                      title="No work yet"
-                      description="Start creating notes, research, or work to see them here"
-                      actionLabel="Create your first note"
-                      onAction={() => handleQuickAction('note')}
-                    />
-                  </div>
-                )}
-              </div>
-            </div>
-          </div>
-        )
+  const renderItems = (type?: string) => {
+    const items = type ? demoWorkItems.filter((item) => item.type === type) : demoWorkItems
 
-      case 'notes':
-        return (
-          <div className={styles.mainContent}>
-            <div className={styles.section}>
-              <h2 className={styles.sectionTitle}>My Notes</h2>
-              <div className={styles.grid}>
-                {demoWorkItems.filter((i) => i.type === 'note').length > 0 ? (
-                  demoWorkItems
-                    .filter((i) => i.type === 'note')
-                    .map((item) => (
-                      <WorkspaceCard
-                        key={item.id}
-                        item={item}
-                        onClick={() => handleCardClick(item.id)}
-                      />
-                    ))
-                ) : (
-                  <EmptyState
-                    icon="📝"
-                    title="No notes yet"
-                    description="Create your first note to get started"
-                    actionLabel="New Note"
-                  />
-                )}
-              </div>
-            </div>
-          </div>
-        )
-
-      case 'research':
-        return (
-          <div className={styles.mainContent}>
-            <div className={styles.section}>
-              <h2 className={styles.sectionTitle}>Research</h2>
-              <div className={styles.grid}>
-                {demoWorkItems.filter((i) => i.type === 'research').length > 0 ? (
-                  demoWorkItems
-                    .filter((i) => i.type === 'research')
-                    .map((item) => (
-                      <WorkspaceCard
-                        key={item.id}
-                        item={item}
-                        onClick={() => handleCardClick(item.id)}
-                      />
-                    ))
-                ) : (
-                  <EmptyState
-                    icon="🔍"
-                    title="No research yet"
-                    description="Start building your research collection"
-                    actionLabel="New Research"
-                  />
-                )}
-              </div>
-            </div>
-          </div>
-        )
-
-      case 'work':
-        return (
-          <div className={styles.mainContent}>
-            <div className={styles.section}>
-              <h2 className={styles.sectionTitle}>My Work</h2>
-              <div className={styles.grid}>
-                {demoWorkItems.filter((i) => i.type === 'assignment').length > 0 ? (
-                  demoWorkItems
-                    .filter((i) => i.type === 'assignment')
-                    .map((item) => (
-                      <WorkspaceCard
-                        key={item.id}
-                        item={item}
-                        onClick={() => handleCardClick(item.id)}
-                      />
-                    ))
-                ) : (
-                  <EmptyState
-                    icon="✅"
-                    title="No work yet"
-                    description="Create your first assignment"
-                    actionLabel="New Work"
-                  />
-                )}
-              </div>
-            </div>
-          </div>
-        )
-
-      case 'saved':
-        return (
-          <div className={styles.mainContent}>
-            <div className={styles.section}>
-              <h2 className={styles.sectionTitle}>Saved Items</h2>
-              <div className={styles.grid}>
-                {demoWorkItems.filter((i) => i.type === 'saved').length > 0 ? (
-                  demoWorkItems
-                    .filter((i) => i.type === 'saved')
-                    .map((item) => (
-                      <WorkspaceCard
-                        key={item.id}
-                        item={item}
-                        onClick={() => handleCardClick(item.id)}
-                      />
-                    ))
-                ) : (
-                  <EmptyState
-                    icon="⭐"
-                    title="No saved items"
-                    description="Save your favorite materials for quick access"
-                  />
-                )}
-              </div>
-            </div>
-          </div>
-        )
-
-      case 'calculator':
-        return (
-          <div className={styles.mainContent}>
-            <div className={styles.section}>
-              <EmptyState
-                icon="🧮"
-                title="Calculator"
-                description="The calculator feature will be available soon"
-              />
-            </div>
-          </div>
-        )
-
-      case 'settings':
-        return (
-          <div className={styles.mainContent}>
-            <div className={styles.section}>
-              <EmptyState
-                icon="⚙️"
-                title="Settings"
-                description="Settings will be available soon"
-              />
-            </div>
-          </div>
-        )
-
-      default:
-        return null
+    if (items.length === 0) {
+      return (
+        <EmptyState
+          icon="📝"
+          title="No work here yet"
+          description="Create something new and it will appear in your workspace."
+          actionLabel="Create your first note"
+          onAction={() => handleQuickAction('note')}
+        />
+      )
     }
+
+    return items.map((item, index) => (
+      <WorkspaceCard
+        key={item.id}
+        item={item}
+        size={index === 0 ? 'large' : index % 3 === 0 ? 'small' : 'medium'}
+        onClick={() => handleCardClick(item.id)}
+      />
+    ))
+  }
+
+  const renderContent = () => {
+    if (activeNav === 'dashboard') {
+      return (
+        <div className={styles.mainContent}>
+          <ContinueCard item={demoContinueItem} onContinue={handleContinue} />
+          <QuickActions onActionClick={handleQuickAction} />
+          <section className={styles.section} aria-labelledby="recent-work-title">
+            <div className={styles.sectionHeader}>
+              <div>
+                <p className={styles.eyebrow}>Your workspace</p>
+                <h2 id="recent-work-title" className={styles.sectionTitle}>Recent work</h2>
+              </div>
+              <span className={styles.itemCount}>{demoWorkItems.length} items</span>
+            </div>
+            <div className={styles.grid}>{renderItems()}</div>
+          </section>
+        </div>
+      )
+    }
+
+    const contentByNav: Record<string, { title: string; type?: string; icon: string; description: string }> = {
+      notes: { title: 'My Notes', type: 'note', icon: '📝', description: 'Your saved notes will live here.' },
+      research: { title: 'Research', type: 'research', icon: '🔍', description: 'Organize research and sources in one place.' },
+      work: { title: 'My Work', type: 'assignment', icon: '✅', description: 'Track assignments and projects here.' },
+      saved: { title: 'Saved', type: 'saved', icon: '⭐', description: 'Keep useful materials close by.' },
+      calculator: { title: 'Calculator', icon: '🧮', description: 'The calculator will be available in a later step.' },
+      settings: { title: 'Settings', icon: '⚙️', description: 'Personal preferences will be available soon.' },
+    }
+
+    const page = contentByNav[activeNav] ?? contentByNav.dashboard
+
+    return (
+      <div className={styles.mainContent}>
+        <section className={styles.section} aria-labelledby="page-title">
+          <div className={styles.sectionHeader}>
+            <div>
+              <p className={styles.eyebrow}>Personal workspace</p>
+              <h2 id="page-title" className={styles.sectionTitle}>{page.title}</h2>
+            </div>
+          </div>
+          {page.type ? (
+            <div className={styles.grid}>{renderItems(page.type)}</div>
+          ) : (
+            <EmptyState icon={page.icon} title={page.title} description={page.description} />
+          )}
+        </section>
+      </div>
+    )
   }
 
   return (
@@ -216,6 +110,7 @@ export const DashboardLayout: React.FC = () => {
         <DashboardHeader userName={demoUser.name} />
         <div className={styles.workspace}>{renderContent()}</div>
       </div>
+      <MobileNavigation activeItem={activeNav} onItemClick={handleNavClick} />
     </div>
   )
 }

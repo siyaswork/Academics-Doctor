@@ -1,13 +1,13 @@
 import React from 'react'
 import { ThemeProvider } from './contexts/ThemeContext'
-import { FoundationDemo } from './pages/FoundationDemo'
+import { DashboardLayout } from './components/DashboardLayout'
 import './App.css'
 
 function App() {
   return (
     <ThemeProvider>
       <div className="app-container">
-        <FoundationDemo />
+        <DashboardLayout />
       </div>
     </ThemeProvider>
   )
