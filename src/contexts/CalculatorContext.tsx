@@ -25,6 +25,7 @@ interface CalculatorContextType {
   registerBlockInsertHandler: (handler: BlockInsertHandler | null) => void
   insertBlockIntoNote: (block: RichTextContent) => boolean
   hasInsertTarget: boolean
+  reuseResult: (entry: CalculatorHistoryEntry) => void
 }
 
 const CalculatorContext = createContext<CalculatorContextType | undefined>(undefined)
@@ -81,6 +82,10 @@ export const CalculatorProvider: React.FC<{ children: React.ReactNode }> = ({ ch
     return true
   }, [])
 
+  const reuseResult = useCallback((entry: CalculatorHistoryEntry) => {
+    openCalculator(entry.result)
+  }, [openCalculator])
+
   const value = useMemo<CalculatorContextType>(
     () => ({
       isOpen,
@@ -96,6 +101,7 @@ export const CalculatorProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       registerBlockInsertHandler,
       insertBlockIntoNote,
       hasInsertTarget,
+      reuseResult,
     }),
     [
       isOpen,
@@ -110,6 +116,7 @@ export const CalculatorProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       registerBlockInsertHandler,
       insertBlockIntoNote,
       hasInsertTarget,
+      reuseResult,
     ],
   )
 

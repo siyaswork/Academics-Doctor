@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react'
-import { DrawingAction, DrawingTool } from '../types/notes'
+import type { DrawingAction, DrawingTool } from '../types/notes'
 import {
   distance,
   getBoundingBox,

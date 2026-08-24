@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useCallback, useEffect, useRef } from 'react'
-import { Note, RichTextContent, SubjectType } from '../types/notes'
+import type { Note, RichTextContent, SubjectType } from '../types/notes'
 import { demoDemoNotes } from '../data/demoNotes'
 import { STORAGE_KEYS } from '../utils/storage'
 import { deserializeNotes, serializeNotes } from '../utils/notesSerialization'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Note, SubjectType } from '../types/notes'
+import type { Note, SubjectType } from '../types/notes'
 import styles from './NoteCard.module.css'
 
 interface NoteCardProps {

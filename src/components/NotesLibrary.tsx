@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react'
-import { Note, NoteColor, SubjectType } from '../types/notes'
+import type { Note, NoteColor, SubjectType } from '../types/notes'
 import { NoteCard } from './NoteCard'
 import styles from './NotesLibrary.module.css'
 

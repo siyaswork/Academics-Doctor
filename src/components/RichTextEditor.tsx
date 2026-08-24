@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { RichTextContent } from '../types/notes'
+import type { RichTextContent } from '../types/notes'
 import { MathToolbar } from './MathToolbar'
 import styles from './RichTextEditor.module.css'
 

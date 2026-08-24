@@ -1,4 +1,4 @@
-import { Note, RichTextContent, NoteColor, SubjectType } from '../types/notes'
+import type { Note, RichTextContent, NoteColor, SubjectType } from '../types/notes'
 
 const createDemoContent = (): RichTextContent[] => [
   {
