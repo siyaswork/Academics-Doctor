@@ -1,0 +1,141 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--color-bg-primary);
+}
+
+.main {
+  min-width: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.workspace {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.mainContent {
+  width: min(100% - 2rem, 1200px);
+  padding: var(--spacing-xl) 0 4rem;
+  margin: 0 auto;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--spacing-md);
+}
+
+.eyebrow {
+  margin: 0 0 var(--spacing-xs);
+  color: var(--color-primary);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.sectionTitle {
+  margin: 0;
+  color: var(--color-text-primary);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+}
+
+.itemCount {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-xs);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--spacing-lg);
+  width: 100%;
+}
+
+.grid > * {
+  grid-column: span 4;
+}
+
+.grid > :nth-child(3n + 1) {
+  grid-column: span 5;
+}
+
+.grid > :nth-child(3n + 2) {
+  grid-column: span 7;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .mainContent {
+    width: min(100% - 2rem, 900px);
+    padding-top: var(--spacing-lg);
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--spacing-md);
+  }
+
+  .grid > *,
+  .grid > :nth-child(3n + 1),
+  .grid > :nth-child(3n + 2) {
+    grid-column: span 1;
+  }
+}
+
+/* Phone */
+@media (max-width: 768px) {
+  .layout {
+    display: block;
+  }
+
+  .main {
+    min-height: 100vh;
+    overflow: visible;
+  }
+
+  .workspace {
+    overflow: visible;
+  }
+
+  .mainContent {
+    width: min(100% - 2rem, 560px);
+    padding: var(--spacing-lg) 0 7rem;
+  }
+
+  .sectionHeader {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+
+  .grid > *,
+  .grid > :nth-child(3n + 1),
+  .grid > :nth-child(3n + 2) {
+    grid-column: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .workspace {
+    scroll-behavior: auto;
+  }
+}
