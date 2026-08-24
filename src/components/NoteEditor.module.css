@@ -1,0 +1,28 @@
+.editor {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  min-width: 0;
+}
+
+.extraBlocks {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.addDivider {
+  align-self: flex-start;
+  min-height: 40px;
+  padding: 0 var(--spacing-sm);
+  border: 1px dashed var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--color-text-muted);
+  cursor: pointer;
+}
+
+.addDivider:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}

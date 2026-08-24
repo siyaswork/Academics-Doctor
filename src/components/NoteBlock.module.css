@@ -1,0 +1,38 @@
+.dividerRow {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.divider {
+  flex: 1;
+  border: none;
+  border-top: 1px solid var(--color-border-strong);
+  margin: var(--spacing-sm) 0;
+}
+
+.removeDivider {
+  min-width: 32px;
+  min-height: 32px;
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--color-text-muted);
+  cursor: pointer;
+}
+
+.heading {
+  color: var(--color-text-primary);
+}
+
+.list {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--color-text-primary);
+}
+
+.paragraph {
+  margin: 0;
+  color: var(--color-text-primary);
+  line-height: 1.6;
+}

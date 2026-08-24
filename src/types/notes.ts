@@ -2,16 +2,41 @@ export type NoteColor = 'blue' | 'green' | 'purple' | 'orange' | 'pink' | 'yello
 
 export type SubjectType = 'math' | 'science' | 'history' | 'literature' | 'other'
 
-export type DrawingTool = 'pen' | 'eraser' | 'line' | 'arrow' | 'rectangle' | 'circle' | 'triangle'
+/** All tools supported by the advanced drawing canvas (Step 5). */
+export type DrawingTool =
+  | 'select'
+  | 'pen'
+  | 'highlighter'
+  | 'eraser'
+  | 'line'
+  | 'arrow'
+  | 'double-arrow'
+  | 'dashed-line'
+  | 'connector'
+  | 'rectangle'
+  | 'rounded-rectangle'
+  | 'circle'
+  | 'ellipse'
+  | 'triangle'
+  | 'polygon'
+  | 'text-box'
+  | 'sticky-note'
 
 export interface DrawingAction {
   id: string
   type: DrawingTool
+  /** Freehand points for pen/highlighter/eraser, bbox corners for shapes, or vertices for polygons. */
   points: Array<{ x: number; y: number }>
   color: string
   strokeWidth: number
   opacity: number
   timestamp: number
+  /** Text content for text-box / sticky-note annotations. */
+  text?: string
+  /** Whether a polygon-in-progress has been closed (double-click). */
+  closed?: boolean
+  /** z-order among sibling actions; higher draws on top. Actions are kept sorted by this value. */
+  order?: number
 }
 
 export interface DrawingBlock {
@@ -22,15 +47,26 @@ export interface DrawingBlock {
   imageData?: string // Base64 encoded canvas image
 }
 
+/**
+ * Simple block model (Step 5, Feature 7). Existing note content only ever used
+ * 'paragraph' | 'heading' | 'list' | 'image' | 'drawing', so all of those keep
+ * working unchanged. 'formula' and 'divider' are new block kinds that can be
+ * appended to a note's content array from the Formula Library or Calculator.
+ */
 export interface RichTextContent {
-  type: 'paragraph' | 'heading' | 'list' | 'image' | 'drawing'
+  type: 'paragraph' | 'heading' | 'list' | 'image' | 'drawing' | 'formula' | 'divider'
   level?: number // For headings: 1-6
   format?: 'bold' | 'italic' | 'underline' | 'code'
   alignment?: 'left' | 'center' | 'right' | 'justify'
   listType?: 'bullet' | 'numbered'
-  content: string // For text blocks
+  content: string // For text blocks (and a plain-text fallback for formula blocks)
   drawingBlockId?: string // For drawing blocks
   imageUrl?: string // For image blocks
+  // Formula block fields
+  formulaId?: string
+  formulaName?: string
+  formulaText?: string
+  formulaSubject?: string
 }
 
 export interface Note {
