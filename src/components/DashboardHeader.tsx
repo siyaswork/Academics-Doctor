@@ -4,12 +4,10 @@ import styles from './DashboardHeader.module.css'
 
 interface DashboardHeaderProps {
   userName?: string
-  greeting?: string
 }
 
 export const DashboardHeader: React.FC<DashboardHeaderProps> = ({
   userName = 'Alex',
-  greeting = 'Good morning',
 }) => {
   const { theme, setTheme } = useTheme()
 

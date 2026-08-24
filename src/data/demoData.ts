@@ -1,4 +1,4 @@
-import { WorkItem, ContinueItem, DashboardUser, SubjectType } from '../types/dashboard'
+import { WorkItem, ContinueItem, DashboardUser } from '../types/dashboard'
 
 // Demo user
 export const demoUser: DashboardUser = {

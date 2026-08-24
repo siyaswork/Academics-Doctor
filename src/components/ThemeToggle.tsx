@@ -3,7 +3,7 @@ import { useTheme } from '../contexts/ThemeContext'
 import styles from './ThemeToggle.module.css'
 
 export const ThemeToggle: React.FC = () => {
-  const { theme, effectiveTheme, setTheme } = useTheme()
+  const { theme, setTheme } = useTheme()
 
   return (
     <div className={styles.container}>

@@ -124,8 +124,8 @@ export const FoundationDemo: React.FC = () => {
               <h3>Card with Content</h3>
               <div className={styles.cardContent}>
                 <p><strong>Feature:</strong> Clean and minimal design</p>
-                <p><strong>Theme:</strong> Light & Dark mode</strong></p>
-                <p><strong>Responsive:</strong> Mobile-first</strong></p>
+                <p><strong>Theme:</strong> Light & Dark mode</p>
+                <p><strong>Responsive:</strong> Mobile-first</p>
               </div>
             </Card>
           </div>
@@ -213,7 +213,7 @@ export const FoundationDemo: React.FC = () => {
             <p><strong>📱 Mobile:</strong> Single-column layout, large touch targets, compact spacing</p>
             <p className={styles.mt}><strong>📱 Tablet:</strong> Two-column layouts, portrait & landscape support</p>
             <p className={styles.mt}><strong>🖥️ Desktop:</strong> Multi-column layouts, expanded navigation, efficient use of space</p>
-            <p className={styles.mt} className="text-secondary">Resize your browser to see the responsive behavior in action.</p>
+            <p className={`${styles.mt} text-secondary`}>Resize your browser to see the responsive behavior in action.</p>
           </Card>
         </section>
 
