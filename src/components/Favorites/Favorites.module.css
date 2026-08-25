@@ -1,0 +1,86 @@
+.favoriteList {
+  display: grid;
+  gap: 1rem;
+}
+
+.emptyState {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  border: 2px dashed var(--color-border);
+}
+
+.emptyIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.emptyState p {
+  margin: 0.5rem 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.emptyState span {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  margin-top: 0.5rem;
+}
+
+.favoriteItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  transition: all 0.2s;
+  border-left: 4px solid var(--color-primary);
+}
+
+.favoriteItem:hover {
+  transform: translateX(4px);
+  box-shadow: var(--shadow-md);
+}
+
+.favoriteIcon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.favoriteContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.favoriteTitle {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.favoriteSubject {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+.removeButton {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+  padding: 0.25rem 0.5rem;
+  color: var(--color-danger, #ff6b6b);
+}
+
+.removeButton:hover {
+  opacity: 1;
+}

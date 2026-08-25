@@ -1,0 +1,142 @@
+.searchOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 10vh;
+  z-index: 1000;
+}
+
+.searchContainer {
+  width: 90%;
+  max-width: 600px;
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xl);
+  overflow: hidden;
+}
+
+.searchInput {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.searchIcon {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.searchInput input {
+  flex: 1;
+  border: none;
+  background: none;
+  font-size: 1.1rem;
+  color: var(--color-text);
+  outline: none;
+  font-family: inherit;
+}
+
+.searchInput input::placeholder {
+  color: var(--color-text-secondary);
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+  padding: 0.25rem 0.5rem;
+}
+
+.closeButton:hover {
+  opacity: 1;
+}
+
+.searchResults {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.loadingState,
+.emptyState {
+  padding: 2rem;
+  text-align: center;
+  color: var(--color-text-secondary);
+}
+
+.searchResult {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.searchResult:last-child {
+  border-bottom: none;
+}
+
+.searchResult:hover {
+  background-color: var(--color-background);
+}
+
+.resultIcon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.resultContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.resultType {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  letter-spacing: 0.05em;
+}
+
+.resultTitle {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.resultPreview {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  .searchOverlay {
+    padding-top: 0;
+    align-items: stretch;
+  }
+
+  .searchContainer {
+    width: 100%;
+    max-width: none;
+    border-radius: 0;
+    max-height: 100vh;
+  }
+
+  .searchResults {
+    max-height: calc(100vh - 80px);
+  }
+}

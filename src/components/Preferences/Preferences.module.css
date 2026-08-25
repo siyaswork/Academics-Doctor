@@ -1,0 +1,191 @@
+.settingsPage {
+  padding: 2rem;
+  background: var(--color-background);
+  min-height: 100vh;
+}
+
+.settingsContainer {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.settingsContainer h1 {
+  margin: 0 0 2rem 0;
+  font-size: 2rem;
+  color: var(--color-text);
+}
+
+.settingsSection {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  margin-bottom: 1rem;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--color-text);
+  transition: background-color 0.2s;
+  user-select: none;
+}
+
+.sectionHeader:hover {
+  background-color: var(--color-background);
+}
+
+.toggleIcon {
+  transition: transform 0.2s;
+}
+
+.sectionContent {
+  padding: 1.5rem;
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.settingItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.settingItem label {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.settingItem input[type='text'],
+.settingItem select {
+  padding: 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  font-family: inherit;
+  color: var(--color-text);
+  background: var(--color-background);
+}
+
+.settingItem input:focus,
+.settingItem select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.checkboxLabel input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.themeOptions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 0.75rem;
+}
+
+.themeButton {
+  padding: 0.75rem;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-background);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.themeButton:hover {
+  border-color: var(--color-primary);
+}
+
+.themeButton.active {
+  border-color: var(--color-primary);
+  background: var(--color-primary);
+  color: white;
+}
+
+.dataActions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.exportButton,
+.dangerButton {
+  flex: 1;
+  min-width: 150px;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.exportButton {
+  background: var(--color-primary);
+  color: white;
+}
+
+.exportButton:hover {
+  background: var(--color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.dangerButton {
+  background: #ff6b6b;
+  color: white;
+}
+
+.dangerButton:hover {
+  background: #ff5252;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.dataWarning {
+  padding: 1rem;
+  background: #fff3cd;
+  border-radius: var(--radius-md);
+  color: #856404;
+  margin: 0;
+  font-size: 0.9rem;
+  border-left: 4px solid #ffc107;
+}
+
+@media (max-width: 768px) {
+  .settingsPage {
+    padding: 1rem;
+  }
+
+  .settingsContainer h1 {
+    font-size: 1.5rem;
+  }
+
+  .dataActions {
+    flex-direction: column;
+  }
+
+  .exportButton,
+  .dangerButton {
+    width: 100%;
+  }
+}
