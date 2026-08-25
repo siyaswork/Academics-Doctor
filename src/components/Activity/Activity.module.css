@@ -1,0 +1,58 @@
+.activityFeed {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.emptyState {
+  padding: 2rem;
+  text-align: center;
+  color: var(--color-text-secondary);
+}
+
+.activityItem {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  transition: background-color 0.2s;
+}
+
+.activityItem:hover {
+  background-color: var(--color-background);
+}
+
+.activityIcon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.activityContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.activityAction {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.activityTitle {
+  font-weight: 500;
+  color: var(--color-primary);
+}
+
+.activityTime {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+.activityDivider {
+  grid-column: 1 / -1;
+  height: 1px;
+  background: var(--color-border);
+  margin: 0;
+}

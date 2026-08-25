@@ -1,0 +1,124 @@
+.studyTimer {
+  padding: 2rem;
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.timerDisplay {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: 'Monaco', 'Courier New', monospace;
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+  letter-spacing: 0.1em;
+}
+
+.timerControls {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.controlButton {
+  padding: 0.75rem 1.5rem;
+  background: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.controlButton:hover:not(:disabled) {
+  background: var(--color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.controlButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.studyStats {
+  padding: 2rem;
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.emptyState {
+  padding: 2rem;
+  text-align: center;
+  color: var(--color-text-secondary);
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.statCard {
+  padding: 1.5rem;
+  background: var(--color-background);
+  border-radius: var(--radius-md);
+  text-align: center;
+  border-left: 4px solid var(--color-primary);
+}
+
+.statLabel {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.statValue {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+.subjectBreakdown {
+  border-top: 1px solid var(--color-border);
+  padding-top: 2rem;
+}
+
+.subjectBreakdown h3 {
+  margin: 0 0 1.5rem 0;
+  color: var(--color-text);
+}
+
+.breakdownItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: var(--radius-md);
+  background: var(--color-background);
+  margin-bottom: 0.75rem;
+}
+
+.breakdownName {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.breakdownSessionCount {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  font-weight: 400;
+}
+
+.breakdownDuration {
+  font-weight: 600;
+  color: var(--color-primary);
+}
