@@ -1,0 +1,96 @@
+.favoritesPage {
+  padding: 2rem;
+  background: var(--color-background);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  margin: 0 0 2rem 0;
+  font-size: 2.5rem;
+  color: var(--color-text);
+}
+
+.emptyState {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  border: 2px dashed var(--color-border);
+}
+
+.emptyIcon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.emptyState p {
+  margin: 0.5rem 0;
+  color: var(--color-text);
+}
+
+.emptyState p:first-of-type {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.emptyDescription {
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+}
+
+.statsSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.statCard {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  border-left: 4px solid var(--color-primary);
+}
+
+.statIcon {
+  font-size: 1.5rem;
+}
+
+.statLabel {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
+
+.statValue {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+.favoritesSection {
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .favoritesPage {
+    padding: 1rem;
+  }
+
+  .container h1 {
+    font-size: 1.75rem;
+  }
+
+  .statsSection {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
