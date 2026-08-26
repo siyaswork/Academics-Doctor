@@ -1,4 +1,3 @@
-// src/services/notes.ts
 import { supabase } from '../lib/supabase/client'
 import { Note as DBNote, NoteBlock as DBNoteBlock } from '../types/database'
 import type { Note as FrontNote, RichTextContent } from '../types/notes'
@@ -15,7 +14,7 @@ function dbNoteToFront(note: DBNote): FrontNote {
   return {
     id: note.id,
     title: note.title ?? '',
-    subject: 'other' as any,
+    subject: 'other' as any, // subject_id mapping not implemented yet
     color: note.color ?? 'blue',
     content: [],
     drawings: new Map(),
