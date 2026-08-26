@@ -1,142 +1,167 @@
-import React, { createContext, useContext, useState, useCallback, useEffect, useRef } from 'react'
-import type { Note, RichTextContent, SubjectType } from '../types/notes'
-import { demoDemoNotes } from '../data/demoNotes'
-import { STORAGE_KEYS } from '../utils/storage'
-import { deserializeNotes, serializeNotes } from '../utils/notesSerialization'
-import { createId } from '../utils/id'
+import React, { createContext, useContext, useState, useCallback, useEffect } from 'react'
+import type { Note as FrontNote, RichTextContent } from '../types/notes'
+import * as notesService from '../services/notes'
+import { useDebouncedCallback } from '../lib/hooks/useDebouncedCallback'
 
-function loadInitialNotes(): Note[] {
-  if (typeof window === 'undefined') return demoDemoNotes
-  try {
-    const raw = window.localStorage.getItem(STORAGE_KEYS.notes)
-    if (!raw) return demoDemoNotes
-    const parsed = deserializeNotes(raw)
-    return parsed && parsed.length ? parsed : demoDemoNotes
-  } catch {
-    return demoDemoNotes
-  }
-}
-
-interface NotesContextType {
-  notes: Note[]
-  currentNote: Note | null
+type NotesContextType = {
+  notes: FrontNote[]
+  currentNote: FrontNote | null
   isEditing: boolean
-  createNote: (title: string, subject: string) => Note
-  updateNote: (noteId: string, updates: Partial<Note>) => void
-  deleteNote: (noteId: string) => void
+  saveStatus: 'idle' | 'saving' | 'saved' | 'error'
+  createNote: (title: string, subject: string) => Promise<FrontNote | null>
+  updateNote: (noteId: string, updates: Partial<FrontNote>) => void
+  deleteNote: (noteId: string) => Promise<void>
   setCurrentNote: (noteId: string | null) => void
   setIsEditing: (isEditing: boolean) => void
   updateNoteContent: (noteId: string, content: RichTextContent[]) => void
   appendBlock: (noteId: string, block: RichTextContent) => void
-  saveNote: (noteId: string) => void
+  saveNote: (noteId: string) => Promise<void>
 }
 
 const NotesContext = createContext<NotesContextType | undefined>(undefined)
 
-const isSubjectType = (value: string): value is SubjectType =>
-  value === 'math' || value === 'science' || value === 'history' || value === 'literature' || value === 'other'
-
 export const NotesProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [notes, setNotes] = useState<Note[]>(loadInitialNotes)
-  const [currentNoteId, setCurrentNoteId] = useState<string | null>(null)
+  const [notes, setNotes] = useState<FrontNote[]>([])
+  const [currentNote, setCurrentNoteState] = useState<FrontNote | null>(null)
   const [isEditing, setIsEditing] = useState(false)
-  const isFirstRender = useRef(true)
+  const [saveStatus, setSaveStatus] = useState<'idle' | 'saving' | 'saved' | 'error'>('idle')
 
-  const currentNote = currentNoteId ? notes.find((n) => n.id === currentNoteId) || null : null
-
-  // Persist to localStorage whenever notes change (skip the very first mount
-  // so we don't immediately re-write what we just loaded).
+  // Load notes on mount
   useEffect(() => {
-    if (isFirstRender.current) {
-      isFirstRender.current = false
+    let mounted = true
+    ;(async () => {
+      const { data } = await notesService.listNotes()
+      if (!mounted) return
+      if (data) setNotes(data as FrontNote[])
+    })()
+    return () => { mounted = false }
+  }, [])
+
+  // Set current note (load content blocks if needed)
+  const setCurrentNote = useCallback(async (noteId: string | null) => {
+    if (!noteId) {
+      setCurrentNoteState(null)
       return
     }
-    window.localStorage.setItem(STORAGE_KEYS.notes, serializeNotes(notes))
+    const meta = notes.find(n => n.id === noteId)
+    if (meta && meta.content && meta.content.length) {
+      setCurrentNoteState(meta)
+      return
+    }
+    const { note, blocks } = await notesService.getNoteWithBlocks(noteId)
+    if (!note) {
+      setCurrentNoteState(null)
+      return
+    }
+    const content = (blocks ?? []).map(b => (b.content as RichTextContent) || { type: 'paragraph', content: '' })
+    const front: FrontNote = {
+      id: note.id,
+      title: note.title ?? '',
+      subject: 'other' as any,
+      color: note.color ?? 'blue',
+      content,
+      drawings: new Map(),
+      createdAt: note.created_at ? new Date(note.created_at) : new Date(),
+      updatedAt: note.updated_at ? new Date(note.updated_at) : new Date(),
+      hasDrawings: false,
+    }
+    setNotes(prev => [front, ...prev.filter(n => n.id !== front.id)])
+    setCurrentNoteState(front)
   }, [notes])
 
-  const createNote = useCallback(
-    (title: string, subject: string): Note => {
-      const newNote: Note = {
-        id: createId('note'),
-        title: title || 'Untitled Note',
-        subject: isSubjectType(subject) ? subject : 'other',
-        color: 'blue',
-        content: [
-          {
-            type: 'paragraph',
-            content: '',
-          },
-        ],
-        drawings: new Map(),
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        hasDrawings: false,
-        tags: [subject],
-      }
+  // Save logic: immediate save (metadata + replace blocks)
+  const saveImmediate = useCallback(async (noteId: string) => {
+    setSaveStatus('saving')
+    try {
+      const note = (noteId === currentNote?.id) ? currentNote : notes.find(n => n.id === noteId) ?? null
+      if (!note) throw new Error('Note not found')
+      await notesService.updateNote(noteId, {
+        title: note.title,
+        color: (note as any).color,
+      })
+      await notesService.replaceBlocksForNote(noteId, note.content)
+      setSaveStatus('saved')
+      return true
+    } catch (err) {
+      setSaveStatus('error')
+      throw err
+    }
+  }, [currentNote, notes])
 
-      setNotes((prev) => [newNote, ...prev])
-      setCurrentNoteId(newNote.id)
-      setIsEditing(true)
-      return newNote
-    },
-    [],
-  )
+  // Debounced save (hook used inside component body)
+  const { call: debouncedSave } = useDebouncedCallback((noteId: string) => {
+    // run saveImmediate but do not await here
+    void saveImmediate(noteId).catch(() => {})
+  }, 1000)
 
-  const updateNote = useCallback((noteId: string, updates: Partial<Note>) => {
-    setNotes((prev) =>
-      prev.map((note) =>
-        note.id === noteId
-          ? {
-              ...note,
-              ...updates,
-              updatedAt: new Date(),
-            }
-          : note,
-      ),
-    )
+  const createNote = useCallback(async (title: string, subject: string) => {
+    const { data } = await notesService.createNote({ title, color: 'blue' })
+    if (!data) return null
+    const front: FrontNote = {
+      id: data.id,
+      title: data.title ?? title,
+      subject: 'other' as any,
+      color: data.color ?? 'blue',
+      content: [{ type: 'paragraph', content: '' }],
+      drawings: new Map(),
+      createdAt: data.created_at ? new Date(data.created_at) : new Date(),
+      updatedAt: data.updated_at ? new Date(data.updated_at) : new Date(),
+      hasDrawings: false,
+    }
+    setNotes(prev => [front, ...prev])
+    setCurrentNoteState(front)
+    setIsEditing(true)
+    return front
   }, [])
 
-  const updateNoteContent = useCallback(
-    (noteId: string, content: RichTextContent[]) => {
-      updateNote(noteId, { content })
-    },
-    [updateNote],
-  )
+  const updateNote = useCallback((noteId: string, updates: Partial<FrontNote>) => {
+    setNotes(prev => prev.map(n => n.id === noteId ? { ...n, ...updates, updatedAt: new Date() } : n))
+    if (currentNote && currentNote.id === noteId) {
+      setCurrentNoteState({ ...currentNote, ...updates, updatedAt: new Date() })
+    }
+    debouncedSave(noteId)
+  }, [currentNote, debouncedSave])
+
+  const updateNoteContent = useCallback((noteId: string, content: RichTextContent[]) => {
+    setNotes(prev => prev.map(n => n.id === noteId ? { ...n, content, updatedAt: new Date() } : n))
+    if (currentNote && currentNote.id === noteId) {
+      setCurrentNoteState({ ...currentNote, content, updatedAt: new Date() })
+    }
+    debouncedSave(noteId)
+  }, [currentNote, debouncedSave])
 
   const appendBlock = useCallback((noteId: string, block: RichTextContent) => {
-    setNotes((prev) =>
-      prev.map((note) =>
-        note.id === noteId
-          ? { ...note, content: [...note.content, block], updatedAt: new Date() }
-          : note,
-      ),
-    )
-  }, [])
-
-  const deleteNote = useCallback((noteId: string) => {
-    setNotes((prev) => prev.filter((note) => note.id !== noteId))
-    if (currentNoteId === noteId) {
-      setCurrentNoteId(null)
-      setIsEditing(false)
+    setNotes(prev => prev.map(n => n.id === noteId ? { ...n, content: [...n.content, block], updatedAt: new Date() } : n))
+    if (currentNote && currentNote.id === noteId) {
+      setCurrentNoteState({ ...currentNote, content: [...currentNote.content, block], updatedAt: new Date() })
     }
-  }, [currentNoteId])
+    debouncedSave(noteId)
+  }, [currentNote, debouncedSave])
 
-  const saveNote = useCallback(
-    (noteId: string) => {
-      updateNote(noteId, { updatedAt: new Date() })
-      setIsEditing(false)
-    },
-    [updateNote],
-  )
+  const deleteNote = useCallback(async (noteId: string) => {
+    setNotes(prev => prev.filter(n => n.id !== noteId))
+    if (currentNote?.id === noteId) setCurrentNoteState(null)
+    await notesService.deleteNote(noteId)
+  }, [currentNote])
+
+  const saveNote = useCallback(async (noteId: string) => {
+    setSaveStatus('saving')
+    try {
+      await saveImmediate(noteId)
+    } catch {
+      // saveImmediate already handles setting saveStatus
+    }
+  }, [saveImmediate])
 
   const value: NotesContextType = {
     notes,
     currentNote,
     isEditing,
+    saveStatus,
     createNote,
     updateNote,
     deleteNote,
-    setCurrentNote: setCurrentNoteId,
+    setCurrentNote,
     setIsEditing,
     updateNoteContent,
     appendBlock,
@@ -147,9 +172,7 @@ export const NotesProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 }
 
 export const useNotes = () => {
-  const context = useContext(NotesContext)
-  if (!context) {
-    throw new Error('useNotes must be used within NotesProvider')
-  }
-  return context
+  const ctx = useContext(NotesContext)
+  if (!ctx) throw new Error('useNotes must be used within NotesProvider')
+  return ctx
 }
