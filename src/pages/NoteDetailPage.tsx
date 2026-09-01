@@ -17,7 +17,7 @@ export const NoteDetailPage: React.FC = () => {
   const { notes, updateNote, deleteNote, setCurrentNote, saveStatus, loadNoteContent } = useNotes()
   const note = notes.find((item) => item.id === noteId)
   const [showDrawing, setShowDrawing] = useState(false)
-  const drawing = useNoteDrawing(noteId || 'scratch')
+  const { actions: drawingActions, save: saveDrawing, drawingSaveStatus } = useNoteDrawing(noteId || 'scratch')
 
   // Register this note as the current note and load its authoritative content from Supabase
   useEffect(() => {
@@ -52,7 +52,7 @@ export const NoteDetailPage: React.FC = () => {
           ← Back to My Notes
         </Link>
         <div className={styles.topActions}>
-          <SaveIndicator status={saveStatus} />
+          <SaveIndicator status={drawingSaveStatus !== 'idle' ? drawingSaveStatus : saveStatus} />
           <Link to="/workspace" className={styles.workspaceLink}>
             Open in Study Workspace
           </Link>
@@ -102,12 +102,12 @@ export const NoteDetailPage: React.FC = () => {
 
       <div className={styles.drawingSection}>
         <button type="button" className={styles.toggleDrawing} onClick={() => setShowDrawing((v) => !v)}>
-          {showDrawing ? 'Hide drawing' : note.hasDrawings ? 'Show drawing' : '＋ Add a drawing'}
+          {showDrawing ? 'Hide drawing' : drawingActions.length > 0 ? 'Show drawing' : '＋ Add a drawing'}
         </button>
         {showDrawing && (
           <DrawingCanvas
-            initialActions={drawing.actions}
-            onChange={drawing.save}
+            initialActions={drawingActions}
+            onChange={saveDrawing}
             onClose={() => setShowDrawing(false)}
           />
         )}
