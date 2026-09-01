@@ -51,7 +51,7 @@ export async function getFileUrl(bucket: string, path: string, expiresSeconds = 
     try {
       const publicRes = supabase.storage.from(bucket).getPublicUrl(path)
       return { publicUrl: publicRes.data?.publicUrl ?? null, signedUrl: null, error: err }
-    } catch (e) {
+    } catch {
       return { publicUrl: null, signedUrl: null, error: err }
     }
   }
