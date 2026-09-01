@@ -8,7 +8,7 @@ async function getCurrentUserId(): Promise<string | null> {
 }
 
 /**
- * Convert DB note to frontend Note stub (content is loaded separately).
+ * Convert DB note to frontend Note stub (content is loaded separately via dbBlocksToFrontContent).
  */
 function dbNoteToFront(note: DBNote): FrontNote {
   return {
@@ -25,6 +25,24 @@ function dbNoteToFront(note: DBNote): FrontNote {
     isPinned: false,
     hasDrawings: false,
   }
+}
+
+/**
+ * Convert an ordered array of DB note_blocks back into frontend RichTextContent[].
+ * Each block's `content` JSONB column stores the full RichTextContent object as
+ * written by replaceBlocksForNote, so we just extract it and sort by position.
+ */
+export function dbBlocksToFrontContent(blocks: DBNoteBlock[]): RichTextContent[] {
+  return [...blocks]
+    .sort((a, b) => (a.position ?? 0) - (b.position ?? 0))
+    .flatMap((block): RichTextContent[] => {
+      if (block.content != null && typeof block.content === 'object' && !Array.isArray(block.content)) {
+        const c = block.content as Partial<RichTextContent>
+        if (typeof c.type === 'string') return [c as RichTextContent]
+      }
+      // Fallback: reconstruct minimal block from DB column
+      return [{ type: block.block_type as RichTextContent['type'], content: '' }]
+    })
 }
 
 export async function listNotes() {
@@ -53,7 +71,7 @@ export async function getNoteWithBlocks(noteId: string) {
   if (!note) return { note: null, blocks: [], error: new Error('Note not found or access denied') }
 
   const { data: blocks, error: blocksError } = await supabase.from('note_blocks').select('*').eq('note_id', noteId).eq('user_id', userId).order('position', { ascending: true })
-  return { note, blocks: blocks ?? [], error: blocksError }
+  return { note, blocks: (blocks ?? []) as DBNoteBlock[], error: blocksError }
 }
 
 export async function updateNote(noteId: string, updates: Partial<DBNote>) {
@@ -66,59 +84,38 @@ export async function updateNote(noteId: string, updates: Partial<DBNote>) {
 export async function deleteNote(noteId: string) {
   const userId = await getCurrentUserId()
   if (!userId) return { data: null, error: new Error('Not authenticated') }
-  const { data, error } = await supabase.from('notes').delete().eq('id', noteId).eq('user_id', userId)
-  return { data, error }
-}
-
-/* Note blocks CRUD (DB shape) */
-export async function createNoteBlock(noteId: string, block: Partial<DBNoteBlock>) {
-  const userId = await getCurrentUserId()
-  if (!userId) return { data: null, error: new Error('Not authenticated') }
-
-  const payload = {
-    ...block,
-    note_id: noteId,
-    user_id: userId,
-  }
-  const { data, error } = await supabase.from('note_blocks').insert(payload).select().maybeSingle()
-  return { data, error }
-}
-
-export async function updateNoteBlock(blockId: string, updates: Partial<DBNoteBlock>) {
-  const userId = await getCurrentUserId()
-  if (!userId) return { data: null, error: new Error('Not authenticated') }
-  const { data, error } = await supabase.from('note_blocks').update(updates).eq('id', blockId).eq('user_id', userId).select().maybeSingle()
-  return { data, error }
-}
-
-export async function deleteNoteBlock(blockId: string) {
-  const userId = await getCurrentUserId()
-  if (!userId) return { data: null, error: new Error('Not authenticated') }
-  const { data, error } = await supabase.from('note_blocks').delete().eq('id', blockId).eq('user_id', userId)
-  return { data, error }
+  const { error } = await supabase.from('notes').delete().eq('id', noteId).eq('user_id', userId)
+  return { error }
 }
 
 /**
- * Replace blocks for a note: delete existing blocks for the note and insert the new ones.
- * Converts frontend RichTextContent -> DB note_block shape (block_type + content JSON).
+ * Replace all blocks for a note in Supabase.
+ *
+ * Converts frontend RichTextContent[] → DB note_block rows (block_type + content JSONB).
+ *
+ * NOTE: delete-then-insert is not atomic. If the insert fails after a successful
+ * delete, blocks will be empty in Supabase. Local state (React + localStorage) is
+ * unaffected, so the user does NOT lose data — the next autosave will retry.
  */
 export async function replaceBlocksForNote(noteId: string, content: RichTextContent[]) {
   const userId = await getCurrentUserId()
   if (!userId) return { error: new Error('Not authenticated') }
 
   // Delete existing blocks
-  const del = await supabase.from('note_blocks').delete().eq('note_id', noteId).eq('user_id', userId)
-  if (del.error) return { error: del.error }
+  const { error: delError } = await supabase.from('note_blocks').delete().eq('note_id', noteId).eq('user_id', userId)
+  if (delError) return { error: delError }
+
+  if (content.length === 0) return { error: null }
 
   // Insert new blocks
   const inserts = content.map((block, idx) => ({
     note_id: noteId,
     user_id: userId,
     block_type: block.type,
-    content: block, // store the RichTextContent object as JSON
+    content: block as unknown as Record<string, unknown>,
     position: idx,
   }))
 
-  const { data, error } = await supabase.from('note_blocks').insert(inserts).select()
-  return { data, error }
+  const { error } = await supabase.from('note_blocks').insert(inserts)
+  return { error }
 }

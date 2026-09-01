@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams, Link } from 'react-router-dom'
 import { useNotes } from '../contexts/NotesContext'
 import { useNoteDrawing } from '../hooks/useNoteDrawing'
 import { NoteEditor } from '../components/NoteEditor'
 import { DrawingCanvas } from '../components/DrawingCanvas'
+import { SaveIndicator } from '../components/SaveIndicator'
 import type { NoteColor, SubjectType } from '../types/notes'
 import styles from './NoteDetailPage.module.css'
 
@@ -13,10 +14,20 @@ const colorOptions: NoteColor[] = ['blue', 'green', 'purple', 'orange', 'pink', 
 export const NoteDetailPage: React.FC = () => {
   const { noteId } = useParams<{ noteId: string }>()
   const navigate = useNavigate()
-  const { notes, updateNote, deleteNote } = useNotes()
+  const { notes, updateNote, deleteNote, setCurrentNote, saveStatus, loadNoteContent } = useNotes()
   const note = notes.find((item) => item.id === noteId)
   const [showDrawing, setShowDrawing] = useState(false)
   const drawing = useNoteDrawing(noteId || 'scratch')
+
+  // Register this note as the current note and load its authoritative content from Supabase
+  useEffect(() => {
+    if (!noteId) return
+    setCurrentNote(noteId)
+    void loadNoteContent(noteId)
+    return () => setCurrentNote(null)
+  // loadNoteContent and setCurrentNote are stable callbacks — safe to omit from deps
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [noteId])
 
   if (!note) {
     return (
@@ -41,6 +52,7 @@ export const NoteDetailPage: React.FC = () => {
           ← Back to My Notes
         </Link>
         <div className={styles.topActions}>
+          <SaveIndicator status={saveStatus} />
           <Link to="/workspace" className={styles.workspaceLink}>
             Open in Study Workspace
           </Link>
