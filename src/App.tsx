@@ -35,7 +35,7 @@ export const App: React.FC = () => {
                     <Route path="/" element={<ProtectedRoute><Layout /></ProtectedRoute>}>
                       <Route index element={<Dashboard />} />
                       <Route path="notes" element={<NotesListPage />} />
-                      <Route path="notes/:id" element={<NoteDetailPage />} />
+                      <Route path="notes/:noteId" element={<NoteDetailPage />} />
                       <Route path="research" element={<ResearchPage />} />
                       <Route path="my-work" element={<MyWorkPage />} />
                       <Route path="workspace" element={<StudyWorkspace />} />
