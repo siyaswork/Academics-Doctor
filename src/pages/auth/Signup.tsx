@@ -25,7 +25,7 @@ export const Signup: React.FC = () => {
       setError('Unable to create account. Try again.')
       return
     }
-    navigate('/')
+    navigate('/dashboard')
   }
 
   return (

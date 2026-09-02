@@ -20,7 +20,7 @@ export const Login: React.FC = () => {
       setError('Unable to sign in. Check your credentials and try again.')
       return
     }
-    navigate('/')
+    navigate('/dashboard')
   }
 
   return (
