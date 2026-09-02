@@ -103,8 +103,8 @@ h1,h2,h3,h4 {
 .ad-btn:focus { box-shadow: var(--focus-ring); }
 
 /* Links */
-.ad-link { color: var(--color-primary); text-decoration: none; }
-.ad-link:hover, .ad-link:focus { text-decoration: underline; }
+.ad-link { color: var(--color-ink-navy); text-decoration: underline; text-underline-offset: 2px; }
+.ad-link:hover, .ad-link:focus { color: #000000; }
 
 /* Cards / borders */
 .ad-card { background: var(--color-surface-raised); border: 1px solid var(--color-border-subtle); }
