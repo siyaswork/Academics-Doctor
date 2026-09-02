@@ -6,12 +6,13 @@ import { AdvancedCalculator } from './AdvancedCalculator'
 import { CalculatorHistory } from './CalculatorHistory'
 import styles from './Layout.module.css'
 
+// Use relative paths so Layout can be nested under /dashboard
 const NAV_ITEMS = [
-  { to: '/', label: 'Dashboard', end: true },
-  { to: '/notes', label: 'My Notes' },
-  { to: '/research', label: 'Research' },
-  { to: '/my-work', label: 'My Work' },
-  { to: '/workspace', label: 'Study Workspace' },
+  { to: '', label: 'Dashboard', end: true },
+  { to: 'notes', label: 'My Notes' },
+  { to: 'research', label: 'Research' },
+  { to: 'my-work', label: 'My Work' },
+  { to: 'workspace', label: 'Study Workspace' },
 ]
 
 export const Layout: React.FC = () => {
