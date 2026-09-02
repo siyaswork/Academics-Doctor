@@ -1,26 +1,16 @@
 import React from 'react'
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'primary' | 'secondary'
+  variant?: 'primary' | 'secondary' | 'outline' | 'ghost' | 'destructive'
 }
 
-export const Button: React.FC<ButtonProps> = ({ variant = 'primary', children, ...props }) => {
+export const Button: React.FC<ButtonProps> = ({ variant = 'primary', children, className = '', ...props }) => {
+  const base = `ad-btn ad-btn--${variant}`
   return (
-    <button
-      {...props}
-      style={{
-        padding: '8px 20px',
-        borderRadius: 6,
-        border: 'none',
-        cursor: 'pointer',
-        fontSize: 14,
-        fontWeight: 600,
-        background: variant === 'primary' ? 'var(--color-primary, #4f46e5)' : 'transparent',
-        color: variant === 'primary' ? '#fff' : 'var(--color-primary, #4f46e5)',
-        ...props.style,
-      }}
-    >
+    <button {...props} className={`${base} ${className}`}>
       {children}
     </button>
   )
 }
+
+export default Button
