@@ -1,7 +1,6 @@
-import React from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
 
-export const PublicLayout: React.FC = () => {
+export default function PublicLayout() {
   return (
     <div>
       <header style={{ padding: 16, borderBottom: '1px solid #eee', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -31,4 +30,3 @@ export const PublicLayout: React.FC = () => {
     </div>
   )
 }
-export default PublicLayout

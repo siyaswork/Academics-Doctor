@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Subjects() {
@@ -10,7 +9,7 @@ export default function Subjects() {
         <li><Link to="/subjects/additional-mathematics">Additional Mathematics</Link></li>
         <li><Link to="/subjects/physics">Physics</Link></li>
         <li><Link to="/subjects/chemistry">Chemistry</Link></li>
-        <li><Link to="/subjects/design-technology">Design &amp; Technology</Link></li>
+        <li><Link to="/subjects/design-technology">Design & Technology</Link></li>
       </ul>
     </div>
   )
