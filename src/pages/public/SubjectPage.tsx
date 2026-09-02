@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import Container from '../../components/Container'
 import PageHeader from '../../components/PageHeader'
