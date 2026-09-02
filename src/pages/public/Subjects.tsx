@@ -1,16 +1,75 @@
+import React from 'react'
 import { Link } from 'react-router-dom'
+import Container from '../../components/Container'
+import PageHeader from '../../components/PageHeader'
+import Card from '../../components/Card'
+import Button from '../../components/Button'
+import subjects from '../../data/subjects'
 
 export default function Subjects() {
   return (
-    <div>
-      <h1>Subjects</h1>
-      <ul>
-        <li><Link to="/subjects/mathematics">Mathematics</Link></li>
-        <li><Link to="/subjects/additional-mathematics">Additional Mathematics</Link></li>
-        <li><Link to="/subjects/physics">Physics</Link></li>
-        <li><Link to="/subjects/chemistry">Chemistry</Link></li>
-        <li><Link to="/subjects/design-technology">Design & Technology</Link></li>
-      </ul>
-    </div>
+    <Container>
+      <div className="page-header">
+        <PageHeader
+          title="Subjects"
+          subtitle="Explore our subject library — structured lessons, worked examples, and clear explanations to support focused learning."
+        />
+        <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.75rem' }}>
+          <Link to="/signup">
+            <Button variant="primary">Start learning — free</Button>
+          </Link>
+          <Link to="/how-it-works">
+            <Button variant="secondary">How it works</Button>
+          </Link>
+        </div>
+      </div>
+
+      <section style={{ marginTop: '1.5rem' }}>
+        <h2 className="section-title">Subject catalogue</h2>
+        <p className="section-subtitle">Core subjects organised into clear categories so you can find a topic and start practicing quickly.</p>
+
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1rem', marginTop: '1rem' }}>
+          {subjects.map((s) => (
+            <Card key={s.slug} className="" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+              <div>
+                <h3 style={{ marginTop: 0, marginBottom: '0.5rem' }}>{s.name}</h3>
+                <p style={{ margin: 0, color: 'var(--color-text-secondary)' }}>{s.shortDescription}</p>
+
+                <div style={{ marginTop: '0.75rem' }}>
+                  <strong>Example areas:</strong>
+                  <ul style={{ marginTop: '0.5rem', paddingLeft: '1rem' }}>
+                    {s.exampleTopics.slice(0, 3).map((t) => (
+                      <li key={t} style={{ marginBottom: '0.25rem' }}>{t}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+
+              <div style={{ marginTop: '1rem', display: 'flex', justifyContent: 'flex-end' }}>
+                <Link to={`/subjects/${s.slug}`}>
+                  <Button variant="outline">Explore subject</Button>
+                </Link>
+              </div>
+            </Card>
+          ))}
+        </div>
+      </section>
+
+      <section style={{ marginTop: '2rem' }}>
+        <h2 className="section-title">How content is organised</h2>
+        <p className="section-subtitle">Subjects are divided into categories and topics. Each topic provides concise explanations, examples, and practice problems so you can learn progressively.</p>
+      </section>
+
+      <section style={{ marginTop: '2rem' }}>
+        <h2 className="section-title">Learning levels</h2>
+        <p className="section-subtitle">Academics Doctor supports learners from school-level foundations through advanced university-introductory material where appropriate. Content clearly indicates the typical level so you can choose the right starting point.</p>
+      </section>
+
+      <section style={{ marginTop: '2.5rem', textAlign: 'center' }}>
+        <Link to="/signup">
+          <Button variant="primary">Start learning — it’s free</Button>
+        </Link>
+      </section>
+    </Container>
   )
 }
