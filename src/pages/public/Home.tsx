@@ -1,7 +1,6 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Container from '../../components/Container'
-import PageHeader from '../../components/PageHeader'
 import Button from '../../components/Button'
 import Card from '../../components/Card'
 import subjects from '../../data/subjects'
