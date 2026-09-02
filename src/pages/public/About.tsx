@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+   import { useEffect } from 'react'
 import Container from '../../components/Container'
 import PageHeader from '../../components/PageHeader'
 import Button from '../../components/Button'
