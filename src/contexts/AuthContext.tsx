@@ -5,6 +5,7 @@ import { signIn, signOut as sbSignOut, signUp as sbSignUp, onAuthStateChanged } 
 type User = {
   id: string
   email?: string | null
+  displayName?: string | null
 }
 
 type AuthContextValue = {
@@ -33,13 +34,15 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       const { data } = await supabase.auth.getSession()
       if (!mounted) return
       const u = data.session?.user ?? null
-      setUser(u ? { id: u.id, email: u.email } : null)
+      const displayName = u?.user_metadata?.full_name ?? null
+      setUser(u ? { id: u.id, email: u.email, displayName } : null)
       setLoading(false)
     })()
 
     const { data: sub } = onAuthStateChanged((_event, session) => {
       const u = session?.user ?? null
-      setUser(u ? { id: u.id, email: u.email } : null)
+      const displayName = u?.user_metadata?.full_name ?? null
+      setUser(u ? { id: u.id, email: u.email, displayName } : null)
       setLoading(false)
     })
 
