@@ -1,40 +1,114 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import Container from '../../components/Container'
 import PageHeader from '../../components/PageHeader'
 import Card from '../../components/Card'
 import Button from '../../components/Button'
-import subjectsData from '../../data/subjects'
-import EmptyState from '../../components/EmptyState'
+import { supabase } from '../../lib/supabase'
 
 export default function SubjectPage() {
-  const { subject } = useParams()
-  const subj = subjectsData.find((s) => s.slug === subject)
+  const { subject: slug } = useParams()
+  const [subject, setSubject] = useState<any>(null)
+  const [topics, setTopics] = useState<any[]>([])
+  const [loading, setLoading] = useState(true)
+  const [notFound, setNotFound] = useState(false)
 
   useEffect(() => {
-    if (subj) {
-      document.title = `${subj.name} — Academics Doctor`
-    }
-  }, [subj])
+    async function fetchSubject() {
+      setLoading(true)
 
-  if (!subj) {
+      const { data: subjectData, error: subjectError } = await supabase
+        .from('content_subjects')
+        .select('*')
+        .eq('slug', slug)
+        .eq('is_published', true)
+        .single()
+
+      if (subjectError || !subjectData) {
+        setNotFound(true)
+        setLoading(false)
+        return
+      }
+
+      setSubject(subjectData)
+
+      const { data: topicsData, error: topicsError } = await supabase
+        .from('content_topics')
+        .select('*')
+        .eq('subject_id', subjectData.id)
+        .eq('is_published', true)
+
+      if (topicsError) console.error(topicsError)
+      else setTopics(topicsData ?? [])
+
+      setLoading(false)
+    }
+
+    if (slug) fetchSubject()
+  }, [slug])
+
+  if (loading) {
     return (
       <Container>
-        <EmptyState title="Subject not found" description="The subject you requested does not exist." />
+        <p>Loading subject...</p>
+      </Container>
+    )
+  }
+
+  if (notFound || !subject) {
+    return (
+      <Container>
+        <PageHeader title="Subject not found" subtitle="We couldn't find that subject." />
+        <Link to="/subjects">
+          <Button variant="secondary">Back to subjects</Button>
+        </Link>
       </Container>
     )
   }
 
   return (
     <Container>
-      <nav style={{ marginBottom: '1rem' }} aria-label="Breadcrumb">
-        <Link to="/subjects" className="ad-link">Subjects</Link> / <span style={{ color: 'var(--color-text-secondary)' }}>{subj.name}</span>
-      </nav>
+      <div className="page-header">
+        <PageHeader title={subject.name} subtitle={subject.description} />
+        <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.75rem' }}>
+          <Link to="/signup">
+            <Button variant="primary">Start learning — free</Button>
+          </Link>
+          <Link to="/subjects">
+            <Button variant="secondary">All subjects</Button>
+          </Link>
+        </div>
+      </div>
 
-      <PageHeader title={subj.name} subtitle={subj.shortDescription} />
+      <section style={{ marginTop: '1.5rem' }}>
+        <h2 className="section-title">Topics</h2>
+        <p className="section-subtitle">Topics covered under {subject.name}.</p>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 320px', gap: '1rem', marginTop: '1rem' }}>
-        <div>
+        {topics.length === 0 ? (
+          <p style={{ marginTop: '1rem', color: 'var(--color-text-secondary)' }}>
+            No topics published yet — check back soon.
+          </p>
+        ) : (
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1rem', marginTop: '1rem' }}>
+            {topics.map((t) => (
+              <Card key={t.id} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                <div>
+                  <h3 style={{ marginTop: 0, marginBottom: '0.5rem' }}>{t.topic}</h3>
+                  <p style={{ margin: 0, color: 'var(--color-text-secondary)' }}>{t.summary}</p>
+                </div>
+                <div style={{ marginTop: '1rem', display: 'flex', justifyContent: 'flex-end' }}>
+                  <Link to={`/learn/${subject.slug}/${t.slug}`}>
+                    <Button variant="outline">View topic</Button>
+                  </Link>
+                </div>
+              </Card>
+            ))}
+          </div>
+        )}
+      </section>
+    </Container>
+  )
+          }        <div>
           <Card>
             <h3 className="section-title">What you'll learn</h3>
             <p className="section-subtitle">Key subject areas and categories.</p>
