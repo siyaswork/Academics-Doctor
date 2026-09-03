@@ -10,21 +10,46 @@ export const Signup: React.FC = () => {
   const [password, setPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
   const [error, setError] = useState<string | null>(null)
+  const [loading, setLoading] = useState(false)
   const navigate = useNavigate()
   const { signUp } = useAuth()
+
+  function isValidEmail(e: string) {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)
+  }
 
   async function submit(e: React.FormEvent) {
     e.preventDefault()
     setError(null)
+
+    if (!isValidEmail(email)) {
+      setError('Please enter a valid email address.')
+      return
+    }
+
+    if (password.length < 6) {
+      setError('Password must be at least 6 characters.')
+      return
+    }
+
     if (password !== confirmPassword) {
-      setError('Passwords do not match')
+      setError('Passwords do not match.')
       return
     }
-    const { error } = await signUp(email, password, name)
-    if (error) {
-      setError('Unable to create account. Try again.')
+
+    setLoading(true)
+    const { error: sbError } = await signUp(email, password, name)
+    setLoading(false)
+
+    if (sbError) {
+      if (typeof sbError.message === 'string') {
+        setError(sbError.message)
+      } else {
+        setError('Unable to create account. Please try again.')
+      }
       return
     }
+
     navigate('/dashboard')
   }
 
@@ -38,7 +63,7 @@ export const Signup: React.FC = () => {
         <Input label="Confirm password" type="password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} />
         {error && <div style={{ color: 'red', marginTop: 8 }}>{error}</div>}
         <div style={{ marginTop: 12 }}>
-          <Button type="submit">Create account</Button>
+          <Button type="submit" disabled={loading}>{loading ? 'Creating...' : 'Create account'}</Button>
         </div>
       </form>
     </div>
