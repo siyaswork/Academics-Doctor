@@ -9,15 +9,22 @@ export const Login: React.FC = () => {
   const [password, setPassword] = useState('')
   const [showPassword, setShowPassword] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [loading, setLoading] = useState(false)
   const navigate = useNavigate()
   const { signIn } = useAuth()
 
   async function submit(e: React.FormEvent) {
     e.preventDefault()
     setError(null)
-    const { error } = await signIn(email, password)
-    if (error) {
-      setError('Unable to sign in. Check your credentials and try again.')
+    setLoading(true)
+    const { error: sbError } = await signIn(email, password)
+    setLoading(false)
+    if (sbError) {
+      if (typeof sbError.message === 'string') {
+        setError(sbError.message)
+      } else {
+        setError('Unable to sign in. Check your credentials and try again.')
+      }
       return
     }
     navigate('/dashboard')
@@ -34,7 +41,7 @@ export const Login: React.FC = () => {
         </label>
         {error && <div style={{ color: 'red', marginTop: 8 }}>{error}</div>}
         <div style={{ marginTop: 12 }}>
-          <Button type="submit">Sign in</Button>
+          <Button type="submit" disabled={loading}>{loading ? 'Signing in...' : 'Sign in'}</Button>
         </div>
       </form>
       <div style={{ marginTop: 12 }}>
