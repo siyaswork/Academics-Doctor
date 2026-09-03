@@ -56,7 +56,7 @@ export default function Subjects() {
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1rem', marginTop: '1rem' }}>
           {subjects.map((s) => (
-            <Card key={s.id} className="" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+            <Card key={s.id} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
               <div>
                 <h3 style={{ marginTop: 0, marginBottom: '0.5rem' }}>{s.name}</h3>
                 <p style={{ margin: 0, color: 'var(--color-text-secondary)' }}>{s.description}</p>
@@ -84,44 +84,7 @@ export default function Subjects() {
 
       <section style={{ marginTop: '2.5rem', textAlign: 'center' }}>
         <Link to="/signup">
-          <Button variant="primary">Start learning — it’s free</Button>
-        </Link>
-      </section>
-    </Container>
-  )
-            }                <div style={{ marginTop: '0.75rem' }}>
-                  <strong>Example areas:</strong>
-                  <ul style={{ marginTop: '0.5rem', paddingLeft: '1rem' }}>
-                    {s.exampleTopics.slice(0, 3).map((t) => (
-                      <li key={t} style={{ marginBottom: '0.25rem' }}>{t}</li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-
-              <div style={{ marginTop: '1rem', display: 'flex', justifyContent: 'flex-end' }}>
-                <Link to={`/subjects/${s.slug}`}>
-                  <Button variant="outline">Explore subject</Button>
-                </Link>
-              </div>
-            </Card>
-          ))}
-        </div>
-      </section>
-
-      <section style={{ marginTop: '2rem' }}>
-        <h2 className="section-title">How content is organised</h2>
-        <p className="section-subtitle">Subjects are divided into categories and topics. Each topic provides concise explanations, examples, and practice problems so you can learn progressively.</p>
-      </section>
-
-      <section style={{ marginTop: '2rem' }}>
-        <h2 className="section-title">Learning levels</h2>
-        <p className="section-subtitle">Academics Doctor supports learners from school-level foundations through advanced university-introductory material where appropriate. Content clearly indicates the typical level so you can choose the right starting point.</p>
-      </section>
-
-      <section style={{ marginTop: '2.5rem', textAlign: 'center' }}>
-        <Link to="/signup">
-          <Button variant="primary">Start learning — it’s free</Button>
+          <Button variant="primary">Start learning — it's free</Button>
         </Link>
       </section>
     </Container>
