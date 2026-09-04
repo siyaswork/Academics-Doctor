@@ -63,8 +63,8 @@ export default function Subjects() {
               </div>
 
               <div style={{ marginTop: '1rem', display: 'flex', justifyContent: 'flex-end' }}>
-                <Link to={`/subjects/${s.slug}`}>
-                  <Button variant="outline">Explore subject</Button>
+                <Link to="/signup">
+                  <Button variant="outline">Sign up to access</Button>
                 </Link>
               </div>
             </Card>

@@ -67,7 +67,7 @@ export const Dashboard: React.FC = () => {
               ['mathematics', 'additional-mathematics', 'physics', 'chemistry', 'design-technology'].includes(s.slug),
             )
             .map((s) => (
-              <Link key={s.slug} to={`/subjects/${s.slug}`} className={styles.featureCard}>
+              <Link key={s.slug} to={`/dashboard/subjects/${s.slug}`} className={styles.featureCard}>
                 <span className={styles.featureIcon} aria-hidden="true">📚</span>
                 <h2>{s.name}</h2>
                 <p>{s.shortDescription}</p>
@@ -86,11 +86,6 @@ export const Dashboard: React.FC = () => {
           <span className={styles.featureIcon} aria-hidden="true">🗒️</span>
           <h2>My Notes</h2>
           <p>Browse, search, and edit your notebook.</p>
-        </Link>
-        <Link to="/research" className={styles.featureCard}>
-          <span className={styles.featureIcon} aria-hidden="true">🔎</span>
-          <h2>Research</h2>
-          <p>Collect sources and quick findings for a topic.</p>
         </Link>
         <Link to="/my-work" className={styles.featureCard}>
           <span className={styles.featureIcon} aria-hidden="true">📋</span>
