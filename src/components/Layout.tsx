@@ -34,6 +34,16 @@ export const Layout: React.FC = () => {
         <div className={styles.brand}>
           <span aria-hidden="true">🩺</span> Academics Doctor
         </div>
+        <button
+          type="button"
+          className={styles.menuButton}
+          onClick={() => setIsNavOpen((open) => !open)}
+          aria-expanded={isNavOpen}
+          aria-controls="primary-nav"
+          aria-label={isNavOpen ? 'Close navigation menu' : 'Open navigation menu'}
+        >
+          {isNavOpen ? 'Close' : 'Menu'}
+        </button>
         <nav
           id="primary-nav"
           className={`${styles.nav} ${isNavOpen ? styles.navOpen : ''}`}
@@ -42,49 +52,40 @@ export const Layout: React.FC = () => {
             if (event.key === 'Escape') setIsNavOpen(false)
           }}
         >
-          {NAV_ITEMS.map((item) => (
-            <NavLink
-              key={item.to}
-              to={item.to}
-              end={item.end}
-              className={({ isActive }) => (isActive ? styles.navLinkActive : styles.navLink)}
+          <div className={styles.navLinks}>
+            {NAV_ITEMS.map((item) => (
+              <NavLink
+                key={item.to}
+                to={item.to}
+                end={item.end}
+                className={({ isActive }) => (isActive ? styles.navLinkActive : styles.navLink)}
+              >
+                {item.label}
+              </NavLink>
+            ))}
+          </div>
+          <div className={styles.actions}>
+            <button
+              type="button"
+              className={styles.searchButton}
+              onClick={() => navigate('/search')}
+              aria-label="Search notes"
             >
-              {item.label}
-            </NavLink>
-          ))}
+              Search
+            </button>
+            <button type="button" className={styles.calcButton} onClick={() => openCalculator()} aria-label="Open calculator">
+              Calculator
+            </button>
+            <button
+              type="button"
+              className={styles.themeButton}
+              onClick={toggleTheme}
+              aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
+            >
+              {theme === 'light' ? 'Dark mode' : 'Light mode'}
+            </button>
+          </div>
         </nav>
-        <div className={styles.actions}>
-          <button
-            type="button"
-            className={styles.searchButton}
-            onClick={() => navigate('/search')}
-            aria-label="Search notes"
-            title="Search notes"
-          >
-            🔍
-          </button>
-          <button type="button" className={styles.calcButton} onClick={() => openCalculator()} aria-label="Open calculator">
-            🧮
-          </button>
-          <button
-            type="button"
-            className={styles.themeButton}
-            onClick={toggleTheme}
-            aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
-          >
-            {theme === 'light' ? '🌙' : '☀️'}
-          </button>
-          <button
-            type="button"
-            className={styles.menuButton}
-            onClick={() => setIsNavOpen((open) => !open)}
-            aria-expanded={isNavOpen}
-            aria-controls="primary-nav"
-            aria-label={isNavOpen ? 'Close navigation menu' : 'Open navigation menu'}
-          >
-            <span aria-hidden="true">{isNavOpen ? '✕' : '☰'}</span>
-          </button>
-        </div>
       </header>
       <main id="main-content" className={styles.content}>
         <Outlet />
@@ -107,7 +108,7 @@ export const Layout: React.FC = () => {
             <div className={styles.calcModalHeader}>
               <h2>Calculator</h2>
               <button type="button" onClick={closeCalculator} aria-label="Close calculator">
-                ✕
+                Close
               </button>
             </div>
             <AdvancedCalculator />
