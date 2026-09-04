@@ -25,33 +25,30 @@ export default function Home() {
               Academics Doctor is a focused academic learning platform that helps students understand subjects in a structured, step-by-step way.
               Find concise explanations, worked examples and organised topic paths so you can study with purpose.
             </p>
-
-            <div style={{ display: 'flex', gap: 12, marginTop: 16 }}>
-              <Link to="/signup">
-                <Button variant="primary">Start Learning Free</Button>
-              </Link>
+            <div style={{ display: 'flex', gap: 12, marginTop: 16, flexWrap: 'wrap', alignItems: 'flex-start' }}>
+              <div>
+                <Link to="/signup">
+                  <Button variant="primary">Start studying</Button>
+                </Link>
+                <div style={{ fontSize: '0.85rem', color: 'var(--color-text-secondary)', marginTop: 6, textAlign: 'center' }}>
+                  1 month free trial, then $4.99/month
+                </div>
+              </div>
               <Link to="/subjects">
-                <Button variant="secondary">Explore Subjects</Button>
+                <Button variant="secondary">Explore subjects</Button>
               </Link>
             </div>
           </div>
+        </div>
 
-          {/* subtle product preview: subject cards */}
-          <div style={{ display: 'grid', gap: 12, gridTemplateColumns: '1fr', minWidth: 280 }}>
-            {coreSubjects.map((s) => (
-              <Card key={s.slug} style={{ padding: '12px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-                <div>
-                  <strong style={{ display: 'block', marginBottom: 6 }}>{s.name}</strong>
-                  <div style={{ color: 'var(--color-text-secondary)' }}>{s.shortDescription}</div>
-                </div>
-                <div style={{ marginTop: 10, display: 'flex', justifyContent: 'flex-end' }}>
-                  <Link to={`/subjects/${s.slug}`}>
-                    <Button variant="outline">View</Button>
-                  </Link>
-                </div>
-              </Card>
-            ))}
-          </div>
+        {/* subtle product preview: subject cards, listing only */}
+        <div style={{ display: 'grid', gap: 12, gridTemplateColumns: '1fr', minWidth: 280 }}>
+          {coreSubjects.map((s) => (
+            <Card key={s.slug} style={{ padding: '12px' }}>
+              <strong style={{ display: 'block', marginBottom: 6 }}>{s.name}</strong>
+              <div style={{ color: 'var(--color-text-secondary)' }}>{s.shortDescription}</div>
+            </Card>
+          ))}
         </div>
       </section>
 
@@ -71,16 +68,13 @@ export default function Home() {
       {/* SUBJECTS */}
       <section style={{ marginTop: 28 }}>
         <h2 className="section-title">Core subjects</h2>
-        <p className="section-subtitle">Five core areas to start from — each links to a public subject page with categories and example topics.</p>
+        <p className="section-subtitle">Five core areas to start from. Sign up to unlock the full subject pages, categories, and topics.</p>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 12, marginTop: 12 }}>
           {coreSubjects.map((s) => (
             <Card key={s.slug} style={{ padding: 12 }}>
               <h3 style={{ margin: '0 0 8px 0' }}>{s.name}</h3>
-              <div style={{ color: 'var(--color-text-secondary)', marginBottom: 12 }}>{s.shortDescription}</div>
-              <Link to={`/subjects/${s.slug}`}>
-                <Button variant="outline">Open subject</Button>
-              </Link>
+              <div style={{ color: 'var(--color-text-secondary)' }}>{s.shortDescription}</div>
             </Card>
           ))}
         </div>
@@ -99,7 +93,7 @@ export default function Home() {
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: 12, marginTop: 12 }}>
           <Card><strong>1. Choose a subject</strong><div style={{ color: 'var(--color-text-secondary)' }}>Pick from organised subject pages.</div></Card>
-          <Card><strong>2. Find the topic</strong><div style={{ color: 'var(--color-text-secondary)' }}>Navigate category → topic to target the concept you need.</div></Card>
+          <Card><strong>2. Find the topic</strong><div style={{ color: 'var(--color-text-secondary)' }}>Navigate category to topic to target the concept you need.</div></Card>
           <Card><strong>3. Learn with structure</strong><div style={{ color: 'var(--color-text-secondary)' }}>Concise explanations and worked examples.</div></Card>
           <Card><strong>4. Save & continue</strong><div style={{ color: 'var(--color-text-secondary)' }}>Save notes and return where supported.</div></Card>
         </div>
@@ -127,9 +121,9 @@ export default function Home() {
       {/* PRICING PREVIEW */}
       <section style={{ marginTop: 28 }}>
         <h2 className="section-title">Pricing</h2>
-        <p className="section-subtitle">Simple subscription pricing for full access. See the Pricing page for details.</p>
+        <p className="section-subtitle">1 month free trial, then $4.99/month for full access. See the Pricing page for details.</p>
         <div style={{ marginTop: 12 }}>
-          <Link to="/pricing"><Button variant="primary">View Pricing</Button></Link>
+          <Link to="/pricing"><Button variant="primary">View pricing</Button></Link>
         </div>
       </section>
 
@@ -153,14 +147,17 @@ export default function Home() {
           <div style={{ color: 'var(--color-text-secondary)', marginBottom: 8 }}>No — the public messaging emphasises a no-ads experience where applicable.</div>
 
           <strong>How does the subscription work?</strong>
-          <div style={{ color: 'var(--color-text-secondary)' }}>Subscription details are on the Pricing page. Payment and billing are handled through the existing checkout flow.</div>
+          <div style={{ color: 'var(--color-text-secondary)' }}>Get a 1 month free trial, then $4.99/month for full access. See the Pricing page for details.</div>
         </div>
       </section>
 
       {/* FINAL CTA */}
       <section style={{ marginTop: 28, textAlign: 'center' }}>
         <h3>Ready to study smarter?</h3>
-        <Link to="/signup"><Button variant="primary">Start Learning Free</Button></Link>
+        <Link to="/signup"><Button variant="primary">Start studying</Button></Link>
+        <div style={{ fontSize: '0.85rem', color: 'var(--color-text-secondary)', marginTop: 6 }}>
+          1 month free trial, then $4.99/month
+        </div>
       </section>
     </Container>
   )

@@ -1,27 +1,56 @@
+import { useState } from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
 import type { FC } from 'react'
+import styles from './PublicLayout.module.css'
 
 export const PublicLayout: FC = () => {
+  const [menuOpen, setMenuOpen] = useState(false)
+
+  const navItems = [
+    { to: '/', label: 'Home', end: true },
+    { to: '/subjects', label: 'Subjects' },
+    { to: '/how-it-works', label: 'How it works' },
+    { to: '/pricing', label: 'Pricing' },
+    { to: '/about', label: 'About' },
+  ]
+
   return (
     <div>
-      <header style={{ padding: 16, borderBottom: '1px solid #eee', display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}>
-        <div>
-          <NavLink to="/" style={{ fontWeight: 'bold', textDecoration: 'none', color: 'inherit' }}>Academics Doctor</NavLink>
-        </div>
+      <header className={styles.header}>
+        <NavLink to="/" className={styles.brand}>Academics Doctor</NavLink>
 
-        <nav style={{ display: 'flex', gap: 12, alignItems: 'center', flex: 1, justifyContent: 'center' }}>
-          <NavLink to="/" end style={{ textDecoration: 'none' }}>Home</NavLink>
-          <NavLink to="/subjects" style={{ textDecoration: 'none' }}>Subjects</NavLink>
-          <NavLink to="/how-it-works" style={{ textDecoration: 'none' }}>How It Works</NavLink>
-          <NavLink to="/pricing" style={{ textDecoration: 'none' }}>Pricing</NavLink>
-          <NavLink to="/about" style={{ textDecoration: 'none' }}>About</NavLink>
+        <nav className={styles.nav}>
+          {navItems.map((item) => (
+            <NavLink key={item.to} to={item.to} end={item.end} className={styles.navLink} style={{ textDecoration: 'none', color: 'inherit' }}>
+              {item.label}
+            </NavLink>
+          ))}
         </nav>
 
-        <div style={{ display: 'flex', gap: 8 }}>
-          <NavLink to="/login">Log In</NavLink>
-          <NavLink to="/signup">Start Learning</NavLink>
+        <div className={styles.authLinks}>
+          <NavLink to="/login" style={{ textDecoration: 'none', color: 'inherit' }}>Log in</NavLink>
+          <NavLink to="/signup" style={{ textDecoration: 'none', color: 'inherit' }}>Start studying</NavLink>
         </div>
+
+        <button
+          className={styles.menuButton}
+          onClick={() => setMenuOpen((v) => !v)}
+          aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+          aria-expanded={menuOpen}
+        >
+          {menuOpen ? '\u00d7' : '\u2630'}
+        </button>
       </header>
+
+      <div className={`${styles.mobilePanel} ${menuOpen ? styles.open : ''}`}>
+        {navItems.map((item) => (
+          <NavLink key={item.to} to={item.to} end={item.end} className={styles.navLink} onClick={() => setMenuOpen(false)} style={{ textDecoration: 'none', color: 'inherit' }}>
+            {item.label}
+          </NavLink>
+        ))}
+        <NavLink to="/login" onClick={() => setMenuOpen(false)} style={{ textDecoration: 'none', color: 'inherit', padding: '12px 4px' }}>Log in</NavLink>
+        <NavLink to="/signup" onClick={() => setMenuOpen(false)} style={{ textDecoration: 'none', color: 'inherit', padding: '12px 4px' }}>Start studying</NavLink>
+      </div>
 
       <main style={{ padding: 16 }}>
         <Outlet />
@@ -35,29 +64,25 @@ export const PublicLayout: FC = () => {
             <div><NavLink to="/how-it-works">How It Works</NavLink></div>
             <div><NavLink to="/pricing">Pricing</NavLink></div>
           </div>
-
           <div>
             <strong>Company</strong>
             <div><NavLink to="/about">About</NavLink></div>
             <div><NavLink to="/contact">Contact</NavLink></div>
           </div>
-
           <div>
             <strong>Legal</strong>
             <div><NavLink to="/terms">Terms</NavLink></div>
             <div><NavLink to="/privacy">Privacy</NavLink></div>
             <div><NavLink to="/refund-policy">Refund Policy</NavLink></div>
           </div>
-
           <div>
             <strong>Account</strong>
             <div><NavLink to="/login">Log In</NavLink></div>
             <div><NavLink to="/signup">Sign Up</NavLink></div>
           </div>
         </div>
-
         <div style={{ marginTop: 12, color: 'var(--color-text-secondary)' }}>
-          © {new Date().getFullYear()} Academics Doctor — All rights reserved.
+          &copy; {new Date().getFullYear()} Academics Doctor — All rights reserved.
         </div>
       </footer>
     </div>
