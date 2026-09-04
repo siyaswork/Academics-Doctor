@@ -38,11 +38,18 @@
   gap: 6px;
   color: var(--color-text-primary);
   font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-md);
+  font-size: clamp(1rem, 0.95rem + 0.5vw, var(--font-size-md));
   white-space: nowrap;
 }
 
 .nav {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.navLinks {
   display: flex;
   overflow-x: auto;
   flex: 1;
@@ -51,7 +58,8 @@
 
 .navLink,
 .navLinkActive {
-  min-height: 40px;
+  min-width: 44px;
+  min-height: 44px;
   padding: 0 var(--spacing-sm);
   border-radius: var(--radius-sm);
   color: var(--color-text-secondary);
@@ -77,17 +85,28 @@
   gap: var(--spacing-xs);
 }
 
+.searchButton,
 .calcButton,
-.themeButton {
-  display: grid;
+.themeButton,
+.menuButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   min-width: 44px;
   min-height: 44px;
-  place-items: center;
+  padding: 0 var(--spacing-md);
   border: 1px solid var(--color-border-subtle);
   border-radius: var(--radius-sm);
   background: var(--color-bg-secondary);
+  color: var(--color-text-primary);
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: var(--font-size-sm);
+  white-space: nowrap;
+}
+
+/* Hamburger is hidden on desktop; shown via media queries below */
+.menuButton {
+  display: none;
 }
 
 .content {
@@ -132,23 +151,137 @@
 }
 
 .calcModalHeader button {
-  display: grid;
-  min-width: 40px;
-  min-height: 40px;
-  place-items: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0 var(--spacing-md);
   border: 1px solid var(--color-border-subtle);
   border-radius: var(--radius-sm);
   background: var(--color-surface);
   color: var(--color-text-primary);
+  font-size: var(--font-size-sm);
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+/*
+ * Breakpoints
+ * >= 1024px : desktop — full horizontal nav bar + actions visible
+ * 640-1023px: tablet  — hamburger menu with dropdown panel
+ * < 640px   : phone   — hamburger menu with full-screen overlay panel
+ * 375-430px : small/standard phone tuning (tighter spacing, no overflow)
+ */
+
+/* Collapse the nav behind a hamburger for anything below desktop width */
+@media (max-width: 1023px) {
   .topBar {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-md);
   }
+
+  /* Hamburger replaces the inline nav + actions */
+  .menuButton {
+    display: inline-flex;
+    margin-left: auto;
+  }
+
+  /* Collapsed by default; opens as a dropdown panel anchored to the top bar */
   .nav {
-    order: 3;
+    display: none;
+  }
+
+  .nav.navOpen {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--spacing-sm);
+    max-height: calc(100vh - 64px);
+    padding: var(--spacing-md);
+    overflow-y: auto;
+    border-top: 1px solid var(--color-border-subtle);
+    background: var(--color-surface);
+    box-shadow: var(--shadow-md);
+  }
+
+  .nav.navOpen .navLinks {
+    overflow-x: visible;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+  }
+
+  .nav.navOpen .navLink,
+  .nav.navOpen .navLinkActive {
     width: 100%;
+    min-height: 44px;
+    padding: 0 var(--spacing-md);
+    white-space: normal;
+  }
+
+  .nav.navOpen .actions {
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    margin-top: var(--spacing-sm);
+    padding-top: var(--spacing-sm);
+    border-top: 1px solid var(--color-border-subtle);
+  }
+
+  .nav.navOpen .searchButton,
+  .nav.navOpen .calcButton,
+  .nav.navOpen .themeButton {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+/* Tablet: hamburger dropdown, comfortable spacing */
+@media (min-width: 640px) and (max-width: 1023px) {
+  .nav.navOpen {
+    width: min(360px, 100%);
+    left: auto;
+    border-left: 1px solid var(--color-border-subtle);
+    border-radius: 0 0 0 var(--radius-md);
+  }
+}
+
+/* Phone: full-screen overlay nav panel */
+@media (max-width: 639px) {
+  .brand {
+    font-size: clamp(0.95rem, 0.9rem + 1vw, 1.1rem);
+  }
+
+  .nav.navOpen {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 50;
+    max-height: none;
+    border-radius: 0;
+  }
+}
+
+/* Small/standard phone tuning */
+@media (max-width: 430px) {
+  .topBar {
+    padding: var(--spacing-sm);
+  }
+
+  .brand {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .menuButton {
+    padding: 0 var(--spacing-sm);
+    font-size: var(--font-size-xs);
   }
 }

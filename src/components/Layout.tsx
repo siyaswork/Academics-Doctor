@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink, Outlet } from 'react-router-dom'
+import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useTheme } from '../contexts/ThemeContext'
 import { useCalculator } from '../contexts/CalculatorContext'
 import { AdvancedCalculator } from './AdvancedCalculator'
@@ -16,6 +16,14 @@ const NAV_ITEMS = [
 export const Layout: React.FC = () => {
   const { theme, toggleTheme } = useTheme()
   const { isOpen, closeCalculator, openCalculator } = useCalculator()
+  const [isNavOpen, setIsNavOpen] = React.useState(false)
+  const location = useLocation()
+  const navigate = useNavigate()
+
+  // Close the mobile nav whenever the route changes
+  React.useEffect(() => {
+    setIsNavOpen(false)
+  }, [location.pathname])
 
   return (
     <div className={styles.shell}>
@@ -26,31 +34,58 @@ export const Layout: React.FC = () => {
         <div className={styles.brand}>
           <span aria-hidden="true">🩺</span> Academics Doctor
         </div>
-        <nav className={styles.nav} aria-label="Primary">
-          {NAV_ITEMS.map((item) => (
-            <NavLink
-              key={item.to}
-              to={item.to}
-              end={item.end}
-              className={({ isActive }) => (isActive ? styles.navLinkActive : styles.navLink)}
+        <button
+          type="button"
+          className={styles.menuButton}
+          onClick={() => setIsNavOpen((open) => !open)}
+          aria-expanded={isNavOpen}
+          aria-controls="primary-nav"
+          aria-label={isNavOpen ? 'Close navigation menu' : 'Open navigation menu'}
+        >
+          {isNavOpen ? 'Close' : 'Menu'}
+        </button>
+        <nav
+          id="primary-nav"
+          className={`${styles.nav} ${isNavOpen ? styles.navOpen : ''}`}
+          aria-label="Primary"
+          onKeyDown={(event) => {
+            if (event.key === 'Escape') setIsNavOpen(false)
+          }}
+        >
+          <div className={styles.navLinks}>
+            {NAV_ITEMS.map((item) => (
+              <NavLink
+                key={item.to}
+                to={item.to}
+                end={item.end}
+                className={({ isActive }) => (isActive ? styles.navLinkActive : styles.navLink)}
+              >
+                {item.label}
+              </NavLink>
+            ))}
+          </div>
+          <div className={styles.actions}>
+            <button
+              type="button"
+              className={styles.searchButton}
+              onClick={() => navigate('/search')}
+              aria-label="Search notes"
             >
-              {item.label}
-            </NavLink>
-          ))}
+              Search
+            </button>
+            <button type="button" className={styles.calcButton} onClick={() => openCalculator()} aria-label="Open calculator">
+              Calculator
+            </button>
+            <button
+              type="button"
+              className={styles.themeButton}
+              onClick={toggleTheme}
+              aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
+            >
+              {theme === 'light' ? 'Dark mode' : 'Light mode'}
+            </button>
+          </div>
         </nav>
-        <div className={styles.actions}>
-          <button type="button" className={styles.calcButton} onClick={() => openCalculator()} aria-label="Open calculator">
-            🧮
-          </button>
-          <button
-            type="button"
-            className={styles.themeButton}
-            onClick={toggleTheme}
-            aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
-          >
-            {theme === 'light' ? '🌙' : '☀️'}
-          </button>
-        </div>
       </header>
       <main id="main-content" className={styles.content}>
         <Outlet />
@@ -73,7 +108,7 @@ export const Layout: React.FC = () => {
             <div className={styles.calcModalHeader}>
               <h2>Calculator</h2>
               <button type="button" onClick={closeCalculator} aria-label="Close calculator">
-                ✕
+                Close
               </button>
             </div>
             <AdvancedCalculator />

@@ -68,7 +68,6 @@ export const Dashboard: React.FC = () => {
             )
             .map((s) => (
               <Link key={s.slug} to={`/dashboard/subjects/${s.slug}`} className={styles.featureCard}>
-                <span className={styles.featureIcon} aria-hidden="true">📚</span>
                 <h2>{s.name}</h2>
                 <p>{s.shortDescription}</p>
               </Link>
@@ -78,17 +77,14 @@ export const Dashboard: React.FC = () => {
 
       <div className={styles.grid}>
         <Link to="/workspace" className={styles.featureCard}>
-          <span className={styles.featureIcon} aria-hidden="true">🧠</span>
           <h2>Study Workspace</h2>
           <p>Write, draw, and calculate side-by-side in one focused session.</p>
         </Link>
         <Link to="/notes" className={styles.featureCard}>
-          <span className={styles.featureIcon} aria-hidden="true">🗒️</span>
           <h2>My Notes</h2>
           <p>Browse, search, and edit your notebook.</p>
         </Link>
         <Link to="/my-work" className={styles.featureCard}>
-          <span className={styles.featureIcon} aria-hidden="true">📋</span>
           <h2>My Work</h2>
           <p>A unified view of every note, formula, and drawing.</p>
         </Link>
