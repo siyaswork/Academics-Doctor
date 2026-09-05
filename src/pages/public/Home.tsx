@@ -41,15 +41,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* subtle product preview: subject cards, listing only */}
-        <div style={{ display: 'grid', gap: 12, gridTemplateColumns: '1fr', minWidth: 280 }}>
-          {coreSubjects.map((s) => (
-            <Card key={s.slug} style={{ padding: '12px' }}>
-              <strong style={{ display: 'block', marginBottom: 6 }}>{s.name}</strong>
-              <div style={{ color: 'var(--color-text-secondary)' }}>{s.shortDescription}</div>
-            </Card>
-          ))}
-        </div>
+
       </section>
 
       {/* PROBLEM / SOLUTION */}
