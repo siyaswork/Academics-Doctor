@@ -1,0 +1,45 @@
+<svg viewBox="0 0 750 380" xmlns="http://www.w3.org/2000/svg">
+<rect width="750" height="380" fill="#ffffff"/>
+<text x="190" y="30" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Diamond</text>
+<text x="560" y="30" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Graphite</text>
+<line x1="190" y1="90" x2="130" y2="150" stroke="#333" stroke-width="2"/>
+<line x1="190" y1="90" x2="250" y2="150" stroke="#333" stroke-width="2"/>
+<line x1="190" y1="90" x2="190" y2="210" stroke="#333" stroke-width="2"/>
+<line x1="130" y1="150" x2="130" y2="270" stroke="#333" stroke-width="2"/>
+<line x1="130" y1="150" x2="90" y2="210" stroke="#333" stroke-width="2"/>
+<line x1="250" y1="150" x2="250" y2="270" stroke="#333" stroke-width="2"/>
+<line x1="250" y1="150" x2="290" y2="210" stroke="#333" stroke-width="2"/>
+<line x1="190" y1="210" x2="130" y2="270" stroke="#333" stroke-width="2"/>
+<line x1="190" y1="210" x2="250" y2="270" stroke="#333" stroke-width="2"/>
+<circle cx="190" cy="90" r="9" fill="#8ecae6" stroke="#333"/>
+<circle cx="130" cy="150" r="9" fill="#8ecae6" stroke="#333"/>
+<circle cx="250" cy="150" r="9" fill="#8ecae6" stroke="#333"/>
+<circle cx="190" cy="210" r="9" fill="#8ecae6" stroke="#333"/>
+<circle cx="130" cy="270" r="9" fill="#8ecae6" stroke="#333"/>
+<circle cx="250" cy="270" r="9" fill="#8ecae6" stroke="#333"/>
+<circle cx="90" cy="210" r="9" fill="#8ecae6" stroke="#333"/>
+<circle cx="290" cy="210" r="9" fill="#8ecae6" stroke="#333"/>
+<text x="190" y="320" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="normal" fill="#1a1a1a">Every C atom: 4 strong covalent bonds</text>
+<text x="190" y="338" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="normal" fill="#1a1a1a">Rigid 3D network -> extremely hard, high mp</text>
+<path d="M 508,110 L 494,134 L 466,134 L 452,110 L 466,86 L 494,86 Z" fill="none" stroke="#333" stroke-width="1.5"/>
+<path d="M 568,110 L 554,134 L 526,134 L 512,110 L 526,86 L 554,86 Z" fill="none" stroke="#333" stroke-width="1.5"/>
+<path d="M 628,110 L 614,134 L 586,134 L 572,110 L 586,86 L 614,86 Z" fill="none" stroke="#333" stroke-width="1.5"/>
+<path d="M 688,110 L 674,134 L 646,134 L 632,110 L 646,86 L 674,86 Z" fill="none" stroke="#333" stroke-width="1.5"/>
+<line x1="450" y1="110" x2="700" y2="110" stroke="none"/>
+<path d="M 508,180 L 494,204 L 466,204 L 452,180 L 466,156 L 494,156 Z" fill="none" stroke="#333" stroke-width="1.5"/>
+<path d="M 568,180 L 554,204 L 526,204 L 512,180 L 526,156 L 554,156 Z" fill="none" stroke="#333" stroke-width="1.5"/>
+<path d="M 628,180 L 614,204 L 586,204 L 572,180 L 586,156 L 614,156 Z" fill="none" stroke="#333" stroke-width="1.5"/>
+<path d="M 688,180 L 674,204 L 646,204 L 632,180 L 646,156 L 674,156 Z" fill="none" stroke="#333" stroke-width="1.5"/>
+<line x1="450" y1="180" x2="700" y2="180" stroke="none"/>
+<path d="M 508,250 L 494,274 L 466,274 L 452,250 L 466,226 L 494,226 Z" fill="none" stroke="#333" stroke-width="1.5"/>
+<path d="M 568,250 L 554,274 L 526,274 L 512,250 L 526,226 L 554,226 Z" fill="none" stroke="#333" stroke-width="1.5"/>
+<path d="M 628,250 L 614,274 L 586,274 L 572,250 L 586,226 L 614,226 Z" fill="none" stroke="#333" stroke-width="1.5"/>
+<path d="M 688,250 L 674,274 L 646,274 L 632,250 L 646,226 L 674,226 Z" fill="none" stroke="#333" stroke-width="1.5"/>
+<line x1="450" y1="250" x2="700" y2="250" stroke="none"/>
+<line x1="470" y1="140" x2="470" y2="150" stroke="#e63946" stroke-width="1.5" stroke-dasharray="4,3"/>
+<text x="430" y="145" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" font-weight="normal" fill="#e63946">weak</text>
+<line x1="470" y1="210" x2="470" y2="220" stroke="#e63946" stroke-width="1.5" stroke-dasharray="4,3"/>
+<text x="430" y="215" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" font-weight="normal" fill="#e63946">weak</text>
+<text x="560" y="320" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="normal" fill="#1a1a1a">Each C: 3 bonds in flat hexagonal layers</text>
+<text x="560" y="338" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="normal" fill="#1a1a1a">Weak forces BETWEEN layers -> soft, slippery</text>
+</svg>
