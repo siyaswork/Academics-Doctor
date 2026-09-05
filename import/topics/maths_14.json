@@ -1,0 +1,1952 @@
+[
+  {
+    "id": 324,
+    "category": "Trigonometry",
+    "topic": "Trigonometric Ratios",
+    "explanation": "Trigonometric ratios describe the relationships between the angles and side lengths of a right-angled triangle. The three basic ratios \u2014 sine, cosine, and tangent \u2014 each compare two of the triangle's three sides relative to a chosen angle, forming the foundation of trigonometry.",
+    "key_concepts": [
+      "Trigonometric ratios apply specifically to right-angled triangles",
+      "The three sides relative to an angle \u03b8: opposite, adjacent, hypotenuse",
+      "Sine, cosine, and tangent are ratios of pairs of these sides",
+      "The ratios are constant for a given angle, regardless of the triangle's size (due to similar triangles)"
+    ],
+    "definitions": [
+      {
+        "term": "Opposite Side",
+        "definition": "The side of a right-angled triangle directly across from the angle being considered."
+      },
+      {
+        "term": "Adjacent Side",
+        "definition": "The side of a right-angled triangle next to the angle being considered (not the hypotenuse)."
+      },
+      {
+        "term": "Hypotenuse",
+        "definition": "The longest side of a right-angled triangle, opposite the right angle."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "In a right-angled triangle, angle \u03b8=40\u00b0. Identify which side is 'opposite' and which is 'adjacent' relative to \u03b8.",
+        "solution_steps": [
+          "The opposite side is directly across from \u03b8",
+          "The adjacent side is next to \u03b8 (touching the angle, but not the hypotenuse)"
+        ],
+        "answer": "Depends on the diagram, but generally: opposite = side facing away from \u03b8; adjacent = side touching \u03b8 and the right angle"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "In a right-angled triangle, which side is always the hypotenuse?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Why do trigonometric ratios stay the same for a given angle, regardless of the triangle's size?",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "The side opposite the right angle (the longest side).",
+      "Because any two right-angled triangles with the same angle are similar triangles, meaning their corresponding sides are always in the same ratio, regardless of overall size."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why the trigonometric ratios (sine, cosine, tangent) are useful for solving real-world problems involving right-angled triangles.",
+        "marks": 2,
+        "answer": "They allow us to find unknown side lengths or angles in a right-angled triangle using only limited given information (one angle and one side, or two sides), without needing to measure everything directly \u2014 useful in navigation, construction, and physics."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing which side is opposite versus adjacent (this depends on WHICH angle is being considered)",
+      "Forgetting the ratios only apply directly to right-angled triangles"
+    ],
+    "tips": [
+      "Always identify the RIGHT ANGLE and the ANGLE OF INTEREST first \u2014 this determines which side is the hypotenuse, adjacent, and opposite."
+    ],
+    "summary": "Trigonometric ratios (sine, cosine, tangent) relate the angles and sides of a right-angled triangle, based on similar triangle properties.",
+    "quick_revision_notes": [
+      "Opposite: across from angle",
+      "Adjacent: next to angle (not hypotenuse)",
+      "Hypotenuse: longest side, opposite right angle"
+    ],
+    "related_prerequisite_topics": [
+      "Right-Angled Triangles",
+      "Similar Triangles",
+      "SOH-CAH-TOA"
+    ],
+    "images": []
+  },
+  {
+    "id": 325,
+    "category": "Trigonometry",
+    "topic": "Sine",
+    "explanation": "The sine of an angle in a right-angled triangle is the ratio of the length of the opposite side to the length of the hypotenuse. Sine is one of the three primary trigonometric ratios, used to find missing sides or angles.",
+    "key_concepts": [
+      "sin(\u03b8) = opposite / hypotenuse",
+      "Values of sine range from -1 to 1 for all real angles",
+      "sin(0\u00b0)=0, sin(90\u00b0)=1",
+      "Used to find a missing side or angle when the opposite side and hypotenuse are involved"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Sine ratio",
+        "formula": "sin(\u03b8) = Opposite / Hypotenuse",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "In a right-angled triangle, the opposite side is 6cm and the hypotenuse is 10cm. Find sin(\u03b8).",
+        "solution_steps": [
+          "sin(\u03b8) = 6/10"
+        ],
+        "answer": "0.6"
+      },
+      {
+        "problem": "Find \u03b8 if sin(\u03b8) = 0.5.",
+        "solution_steps": [
+          "\u03b8 = sin\u207b\u00b9(0.5)"
+        ],
+        "answer": "30\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "In a right-angled triangle, opposite=8cm, hypotenuse=17cm. Find sin(\u03b8).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find \u03b8 if sin(\u03b8)=0.866 (to the nearest degree).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "0.4706 (8/17)",
+      "60\u00b0"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A ladder leans against a wall, making a 65\u00b0 angle with the ground. If the ladder is 4m long, find the height it reaches up the wall, to 2 decimal places.",
+        "marks": 3,
+        "answer": "height = 4\u00d7sin(65\u00b0) \u2248 4\u00d70.9063 \u2248 3.63 m"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing sine with cosine (mixing up opposite and adjacent)",
+      "Forgetting to use inverse sine (sin\u207b\u00b9) when solving for an angle rather than a side"
+    ],
+    "tips": [
+      "Remember SOH: Sine = Opposite/Hypotenuse \u2014 this simple mnemonic prevents mixing up the ratio."
+    ],
+    "summary": "Sine is the ratio of the opposite side to the hypotenuse in a right-angled triangle: sin(\u03b8)=Opposite/Hypotenuse.",
+    "quick_revision_notes": [
+      "sin(\u03b8) = Opposite/Hypotenuse"
+    ],
+    "related_prerequisite_topics": [
+      "Trigonometric Ratios",
+      "SOH-CAH-TOA",
+      "Cosine"
+    ],
+    "images": []
+  },
+  {
+    "id": 326,
+    "category": "Trigonometry",
+    "topic": "Cosine",
+    "explanation": "The cosine of an angle in a right-angled triangle is the ratio of the length of the adjacent side to the length of the hypotenuse. Cosine is one of the three primary trigonometric ratios, used to find missing sides or angles.",
+    "key_concepts": [
+      "cos(\u03b8) = adjacent / hypotenuse",
+      "Values of cosine range from -1 to 1 for all real angles",
+      "cos(0\u00b0)=1, cos(90\u00b0)=0",
+      "Used to find a missing side or angle when the adjacent side and hypotenuse are involved"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Cosine ratio",
+        "formula": "cos(\u03b8) = Adjacent / Hypotenuse",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "In a right-angled triangle, the adjacent side is 9cm and the hypotenuse is 15cm. Find cos(\u03b8).",
+        "solution_steps": [
+          "cos(\u03b8) = 9/15"
+        ],
+        "answer": "0.6"
+      },
+      {
+        "problem": "Find \u03b8 if cos(\u03b8) = 0.707.",
+        "solution_steps": [
+          "\u03b8 = cos\u207b\u00b9(0.707)"
+        ],
+        "answer": "45\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "In a right-angled triangle, adjacent=5cm, hypotenuse=13cm. Find cos(\u03b8).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find \u03b8 if cos(\u03b8)=0.5 (to the nearest degree).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "0.3846 (5/13)",
+      "60\u00b0"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A ramp makes an angle of 15\u00b0 with the ground. If the ramp's horizontal base is 6m, find the length of the ramp itself, to 2 decimal places.",
+        "marks": 3,
+        "answer": "cos(15\u00b0) = 6/hypotenuse \u2192 hypotenuse = 6/cos(15\u00b0) \u2248 6/0.9659 \u2248 6.21 m"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing cosine with sine (mixing up adjacent and opposite)",
+      "Forgetting to use inverse cosine (cos\u207b\u00b9) when solving for an angle"
+    ],
+    "tips": [
+      "Remember CAH: Cosine = Adjacent/Hypotenuse."
+    ],
+    "summary": "Cosine is the ratio of the adjacent side to the hypotenuse in a right-angled triangle: cos(\u03b8)=Adjacent/Hypotenuse.",
+    "quick_revision_notes": [
+      "cos(\u03b8) = Adjacent/Hypotenuse"
+    ],
+    "related_prerequisite_topics": [
+      "Trigonometric Ratios",
+      "SOH-CAH-TOA",
+      "Sine"
+    ],
+    "images": []
+  },
+  {
+    "id": 327,
+    "category": "Trigonometry",
+    "topic": "Tangent",
+    "explanation": "The tangent of an angle in a right-angled triangle is the ratio of the length of the opposite side to the length of the adjacent side. Tangent can also be expressed as sine divided by cosine, connecting all three primary trigonometric ratios.",
+    "key_concepts": [
+      "tan(\u03b8) = opposite / adjacent",
+      "tan(\u03b8) = sin(\u03b8) / cos(\u03b8)",
+      "tan(\u03b8) is undefined when cos(\u03b8)=0 (i.e. at \u03b8=90\u00b0)",
+      "Used to find a missing side or angle when the opposite and adjacent sides are involved"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Tangent ratio",
+        "formula": "tan(\u03b8) = Opposite / Adjacent",
+        "notes": ""
+      },
+      {
+        "name": "Tangent identity",
+        "formula": "tan(\u03b8) = sin(\u03b8) / cos(\u03b8)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "In a right-angled triangle, the opposite side is 7cm and the adjacent side is 24cm. Find tan(\u03b8).",
+        "solution_steps": [
+          "tan(\u03b8) = 7/24"
+        ],
+        "answer": "\u22480.2917"
+      },
+      {
+        "problem": "Find \u03b8 if tan(\u03b8) = 1.",
+        "solution_steps": [
+          "\u03b8 = tan\u207b\u00b9(1)"
+        ],
+        "answer": "45\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "In a right-angled triangle, opposite=5cm, adjacent=12cm. Find tan(\u03b8).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find \u03b8 if tan(\u03b8)=1.732 (to the nearest degree).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "\u22480.4167 (5/12)",
+      "60\u00b0"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A tree casts a shadow 12m long when the angle of elevation of the sun is 38\u00b0. Find the height of the tree, to 2 decimal places.",
+        "marks": 3,
+        "answer": "tan(38\u00b0) = height/12 \u2192 height = 12\u00d7tan(38\u00b0) \u2248 12\u00d70.7813 \u2248 9.38 m"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing tangent with sine or cosine (must use opposite AND adjacent, not the hypotenuse)",
+      "Forgetting tangent is undefined at exactly 90\u00b0"
+    ],
+    "tips": [
+      "Remember TOA: Tangent = Opposite/Adjacent \u2014 this is the only one of the three basic ratios that doesn't involve the hypotenuse."
+    ],
+    "summary": "Tangent is the ratio of the opposite side to the adjacent side in a right-angled triangle: tan(\u03b8)=Opposite/Adjacent = sin(\u03b8)/cos(\u03b8).",
+    "quick_revision_notes": [
+      "tan(\u03b8) = Opposite/Adjacent = sin(\u03b8)/cos(\u03b8)"
+    ],
+    "related_prerequisite_topics": [
+      "Sine",
+      "Cosine",
+      "SOH-CAH-TOA"
+    ],
+    "images": []
+  },
+  {
+    "id": 328,
+    "category": "Trigonometry",
+    "topic": "SOH-CAH-TOA",
+    "explanation": "SOH-CAH-TOA is a mnemonic device used to remember the three basic trigonometric ratios: Sine = Opposite/Hypotenuse (SOH), Cosine = Adjacent/Hypotenuse (CAH), and Tangent = Opposite/Adjacent (TOA). This memory aid helps students quickly select the correct ratio for a given problem.",
+    "key_concepts": [
+      "SOH: Sine = Opposite/Hypotenuse",
+      "CAH: Cosine = Adjacent/Hypotenuse",
+      "TOA: Tangent = Opposite/Adjacent",
+      "Choose the ratio based on which two sides (of the three: opposite, adjacent, hypotenuse) are known or needed"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "SOH-CAH-TOA",
+        "formula": "sin=O/H, cos=A/H, tan=O/A",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A right-angled triangle has a known angle, adjacent side, and unknown hypotenuse. Which ratio should be used?",
+        "solution_steps": [
+          "Adjacent and Hypotenuse are involved",
+          "This matches CAH: Cosine = Adjacent/Hypotenuse"
+        ],
+        "answer": "Cosine (CAH)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A problem gives the opposite side and asks for the adjacent side, with a known angle. Which ratio should be used?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A problem gives the hypotenuse and asks for the opposite side, with a known angle. Which ratio should be used?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Tangent (TOA), since opposite and adjacent are involved.",
+      "Sine (SOH), since opposite and hypotenuse are involved."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "For each of the following scenarios, state which ratio (SOH, CAH, or TOA) should be used: (a) known angle and hypotenuse, finding the opposite side; (b) known adjacent and opposite sides, finding the angle.",
+        "marks": 2,
+        "answer": "(a) SOH (Sine), since opposite and hypotenuse are involved. (b) TOA (Tangent), since opposite and adjacent are involved."
+      }
+    ],
+    "common_mistakes": [
+      "Selecting the wrong ratio because the opposite/adjacent sides weren't correctly identified relative to the angle",
+      "Forgetting SOH-CAH-TOA only applies directly to right-angled triangles"
+    ],
+    "tips": [
+      "Before choosing a ratio, always label which two sides are involved in the problem (known + unknown), then match this to SOH, CAH, or TOA."
+    ],
+    "summary": "SOH-CAH-TOA is a mnemonic for the three trigonometric ratios, helping to quickly select the correct one for a given problem.",
+    "quick_revision_notes": [
+      "SOH: sin=O/H",
+      "CAH: cos=A/H",
+      "TOA: tan=O/A"
+    ],
+    "related_prerequisite_topics": [
+      "Sine",
+      "Cosine",
+      "Tangent",
+      "Finding Missing Sides"
+    ],
+    "images": [
+      {
+        "filename": "sohcahtoa-328-diagram.svg",
+        "type": "diagram",
+        "description": "A right-angled triangle with the opposite, adjacent, and hypotenuse sides labelled relative to a marked angle.",
+        "purpose": "Shows how to identify the three key sides needed to apply SOH-CAH-TOA.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "category": "Trigonometry",
+    "topic": "Finding Missing Sides",
+    "explanation": "Finding missing sides in a right-angled triangle uses SOH-CAH-TOA: given one angle (other than the right angle) and one side length, the appropriate trigonometric ratio can be rearranged to solve for an unknown side.",
+    "key_concepts": [
+      "Identify the known angle, known side, and the side you need to find",
+      "Choose the correct ratio (SOH, CAH, or TOA) based on which sides are involved",
+      "Set up the equation and rearrange to solve for the unknown side",
+      "Use a calculator in degree mode to evaluate sin, cos, or tan of the given angle"
+    ],
+    "formulas": [],
+    "definitions": [],
+    "worked_examples": [
+      {
+        "problem": "A right-angled triangle has an angle of 35\u00b0 and a hypotenuse of 12cm. Find the length of the side opposite the 35\u00b0 angle.",
+        "solution_steps": [
+          "Opposite and hypotenuse are involved \u2192 use SOH: sin(\u03b8)=O/H",
+          "sin(35\u00b0) = O/12",
+          "O = 12 \u00d7 sin(35\u00b0)"
+        ],
+        "answer": "\u22486.88 cm"
+      },
+      {
+        "problem": "A right-angled triangle has an angle of 50\u00b0 and an opposite side of 8cm. Find the adjacent side.",
+        "solution_steps": [
+          "Opposite and adjacent are involved \u2192 use TOA: tan(\u03b8)=O/A",
+          "tan(50\u00b0) = 8/A",
+          "A = 8/tan(50\u00b0)"
+        ],
+        "answer": "\u22486.71 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A right-angled triangle has an angle of 28\u00b0 and hypotenuse 15cm. Find the adjacent side.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A right-angled triangle has an angle of 62\u00b0 and adjacent side 5cm. Find the hypotenuse.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "\u224813.24 cm (15\u00d7cos28\u00b0)",
+      "\u224810.65 cm (5/cos62\u00b0)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A kite string makes an angle of 42\u00b0 with the ground, and the string is 30m long. Find the height of the kite above the ground, to 2 decimal places.",
+        "marks": 3,
+        "answer": "sin(42\u00b0)=height/30 \u2192 height=30\u00d7sin(42\u00b0)\u224830\u00d70.6691\u224820.07 m"
+      }
+    ],
+    "common_mistakes": [
+      "Choosing the wrong ratio for the given sides",
+      "Forgetting to rearrange the equation correctly to isolate the unknown side"
+    ],
+    "tips": [
+      "Always write the full equation first (e.g. sin(35\u00b0)=O/12) before rearranging \u2014 this reduces errors compared to trying to skip straight to the answer."
+    ],
+    "summary": "Missing sides in right-angled triangles are found by selecting the correct trigonometric ratio (SOH-CAH-TOA) and rearranging to solve.",
+    "quick_revision_notes": [
+      "Identify known angle & side, choose ratio, rearrange, solve"
+    ],
+    "related_prerequisite_topics": [
+      "SOH-CAH-TOA",
+      "Sine",
+      "Cosine",
+      "Tangent"
+    ],
+    "images": []
+  },
+  {
+    "id": 330,
+    "category": "Trigonometry",
+    "topic": "Finding Missing Angles",
+    "explanation": "Finding a missing angle in a right-angled triangle uses the inverse trigonometric functions (sin\u207b\u00b9, cos\u207b\u00b9, tan\u207b\u00b9) after setting up the appropriate ratio using two known side lengths.",
+    "key_concepts": [
+      "Identify the two known sides and determine which ratio (SOH, CAH, or TOA) they correspond to",
+      "Set up the ratio equation using the known sides",
+      "Apply the inverse trigonometric function to solve for the angle",
+      "Inverse functions 'undo' sine, cosine, and tangent, converting a ratio back into an angle"
+    ],
+    "definitions": [
+      {
+        "term": "Inverse Trigonometric Function",
+        "definition": "A function (sin\u207b\u00b9, cos\u207b\u00b9, tan\u207b\u00b9) that finds the angle corresponding to a given trigonometric ratio."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A right-angled triangle has an opposite side of 5cm and a hypotenuse of 13cm. Find the angle \u03b8.",
+        "solution_steps": [
+          "sin(\u03b8) = 5/13",
+          "\u03b8 = sin\u207b\u00b9(5/13)"
+        ],
+        "answer": "\u224822.6\u00b0"
+      },
+      {
+        "problem": "A right-angled triangle has an adjacent side of 9cm and an opposite side of 12cm. Find the angle \u03b8.",
+        "solution_steps": [
+          "tan(\u03b8) = 12/9",
+          "\u03b8 = tan\u207b\u00b9(12/9)"
+        ],
+        "answer": "\u224853.1\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A right-angled triangle has adjacent=7cm, hypotenuse=25cm. Find \u03b8.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A right-angled triangle has opposite=15cm, adjacent=8cm. Find \u03b8.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "\u224873.7\u00b0 (cos\u207b\u00b9(7/25))",
+      "\u224861.9\u00b0 (tan\u207b\u00b9(15/8))"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A ladder 5m long leans against a wall, reaching 4.5m up the wall. Find the angle the ladder makes with the ground, to 1 decimal place.",
+        "marks": 3,
+        "answer": "sin(\u03b8)=4.5/5=0.9 \u2192 \u03b8=sin\u207b\u00b9(0.9)\u224864.2\u00b0"
+      }
+    ],
+    "common_mistakes": [
+      "Using the trigonometric function itself instead of its inverse when solving for an angle",
+      "Selecting the wrong ratio based on the two given sides"
+    ],
+    "tips": [
+      "Whenever you're solving for an ANGLE (not a side), you'll need to use the inverse function (sin\u207b\u00b9, cos\u207b\u00b9, or tan\u207b\u00b9) as the final step."
+    ],
+    "summary": "Missing angles in right-angled triangles are found using inverse trigonometric functions after setting up the correct ratio from known sides.",
+    "quick_revision_notes": [
+      "Set up ratio from known sides, apply inverse function (sin\u207b\u00b9, cos\u207b\u00b9, tan\u207b\u00b9)"
+    ],
+    "related_prerequisite_topics": [
+      "SOH-CAH-TOA",
+      "Finding Missing Sides"
+    ],
+    "images": []
+  },
+  {
+    "id": 331,
+    "category": "Trigonometry",
+    "topic": "Angles of Elevation",
+    "explanation": "The angle of elevation is the angle measured upward from a horizontal line to a point above, such as looking up at the top of a building or a bird in the sky. It is a key concept in real-world trigonometry problems involving height and distance.",
+    "key_concepts": [
+      "Measured from the horizontal, looking UPWARD to an object",
+      "Forms the angle inside a right-angled triangle, with the horizontal as the adjacent side",
+      "Used with SOH-CAH-TOA to find heights or distances",
+      "The observer's eye level is typically the starting point for the horizontal line"
+    ],
+    "definitions": [
+      {
+        "term": "Angle of Elevation",
+        "definition": "The angle measured upward from the horizontal to a point above the observer's eye level."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A person stands 20m from the base of a building and measures the angle of elevation to the top as 40\u00b0. Find the height of the building, to 2 decimal places.",
+        "solution_steps": [
+          "This forms a right-angled triangle with adjacent=20, angle=40\u00b0, opposite=height",
+          "tan(40\u00b0) = height/20",
+          "height = 20 \u00d7 tan(40\u00b0)"
+        ],
+        "answer": "\u224816.78 m"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A person stands 15m from a tower and measures the angle of elevation to the top as 55\u00b0. Find the tower's height, to 2 decimal places.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Explain what is meant by 'angle of elevation'.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "\u224821.42 m (15\u00d7tan55\u00b0)",
+      "The angle of elevation is the angle measured upward from a horizontal line to a point above the observer, such as the top of a building."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "From a point on the ground 50m from the base of a cliff, the angle of elevation to the top of the cliff is 32\u00b0. Find the height of the cliff, to 1 decimal place.",
+        "marks": 3,
+        "answer": "height = 50\u00d7tan(32\u00b0) \u2248 50\u00d70.6249 \u2248 31.2 m"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing the angle of elevation with the angle of depression (elevation looks UP, depression looks DOWN)",
+      "Incorrectly identifying which side of the triangle is opposite vs adjacent to the angle of elevation"
+    ],
+    "tips": [
+      "The angle of elevation is always measured from the horizontal UPWARD \u2014 if the angle appears to be measured from a slanted line instead, re-examine the diagram carefully."
+    ],
+    "summary": "The angle of elevation is measured upward from the horizontal to an object, used with trigonometric ratios to solve height/distance problems.",
+    "quick_revision_notes": [
+      "Measured UP from horizontal",
+      "Forms right-angled triangle with horizontal as adjacent"
+    ],
+    "related_prerequisite_topics": [
+      "SOH-CAH-TOA",
+      "Angles of Depression",
+      "Finding Missing Sides"
+    ],
+    "images": [
+      {
+        "filename": "anglesofelevation-331-diagram.svg",
+        "type": "diagram",
+        "description": "A diagram showing an observer looking upward at an angle to a distant object, with the angle of elevation marked at the horizontal line.",
+        "purpose": "Shows the correct visual setup for an angle of elevation problem.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 332,
+    "category": "Trigonometry",
+    "topic": "Angles of Depression",
+    "explanation": "The angle of depression is the angle measured downward from a horizontal line to a point below, such as looking down at a boat from a cliff top. It is the counterpart to the angle of elevation, and by alternate angle properties, the angle of depression from one point equals the angle of elevation from the other.",
+    "key_concepts": [
+      "Measured from the horizontal, looking DOWNWARD to an object",
+      "The angle of depression from point A to point B equals the angle of elevation from point B to point A (alternate angles, since the horizontal lines are parallel)",
+      "Used with SOH-CAH-TOA to find heights or distances",
+      "Common in problems involving cliffs, towers, or aircraft"
+    ],
+    "definitions": [
+      {
+        "term": "Angle of Depression",
+        "definition": "The angle measured downward from the horizontal to a point below the observer's eye level."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "From the top of a 50m cliff, the angle of depression to a boat is 25\u00b0. Find the horizontal distance from the base of the cliff to the boat, to 2 decimal places.",
+        "solution_steps": [
+          "By alternate angles, the angle of elevation from the boat to the cliff top is also 25\u00b0",
+          "This forms a right triangle with opposite=50 (height), angle=25\u00b0, adjacent=distance",
+          "tan(25\u00b0) = 50/distance",
+          "distance = 50/tan(25\u00b0)"
+        ],
+        "answer": "\u2248107.23 m"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "From a 30m tall tower, the angle of depression to a car is 20\u00b0. Find the horizontal distance to the car, to 2 decimal places.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Explain why the angle of depression equals the alternate angle of elevation.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "\u224882.42 m (30/tan20\u00b0)",
+      "The horizontal line from the observer and the horizontal line at the object's level are parallel. The angle of depression and the corresponding angle of elevation are alternate angles between these parallel lines and the line of sight, so they are equal."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "From the top of a lighthouse 45m tall, the angle of depression to a ship is 18\u00b0. Find the distance from the base of the lighthouse to the ship, to 1 decimal place.",
+        "marks": 3,
+        "answer": "distance = 45/tan(18\u00b0) \u2248 45/0.3249 \u2248 138.5 m"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing the angle of depression with the angle of elevation",
+      "Forgetting to use the ALTERNATE angle (equal to the angle of depression) when setting up the triangle from the object's perspective"
+    ],
+    "tips": [
+      "A helpful memory trick: draw the horizontal line at the OBSERVER's level first, then measure the angle of depression downward from there \u2014 don't measure from the object's position."
+    ],
+    "summary": "The angle of depression is measured downward from the horizontal; it equals the alternate angle of elevation from the object's viewpoint.",
+    "quick_revision_notes": [
+      "Measured DOWN from horizontal",
+      "Equals alternate angle of elevation"
+    ],
+    "related_prerequisite_topics": [
+      "Angles of Elevation",
+      "SOH-CAH-TOA",
+      "Angles on Parallel Lines"
+    ],
+    "images": [
+      {
+        "filename": "anglesofdepression-332-diagram.svg",
+        "type": "diagram",
+        "description": "A diagram showing an observer at a height looking downward at an angle to a distant object, with the angle of depression marked at the horizontal line.",
+        "purpose": "Shows the correct visual setup for an angle of depression problem.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 333,
+    "category": "Trigonometry",
+    "topic": "Bearings",
+    "explanation": "A bearing is a way of describing direction using a three-digit angle measured clockwise from North (0\u00b0). Bearings range from 000\u00b0 to 360\u00b0 and are commonly used in navigation, orienteering, and real-world trigonometry problems involving direction and distance.",
+    "key_concepts": [
+      "Bearings are measured CLOCKWISE from North",
+      "Always written as three digits (e.g. 045\u00b0, not 45\u00b0)",
+      "Range from 000\u00b0 to 360\u00b0",
+      "'Back bearings' (the reverse direction) differ by exactly 180\u00b0 from the original bearing"
+    ],
+    "definitions": [
+      {
+        "term": "Bearing",
+        "definition": "A three-digit angle measured clockwise from North, used to describe direction."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Back bearing",
+        "formula": "Back bearing = bearing \u00b1 180\u00b0",
+        "notes": "Add 180\u00b0 if original is <180\u00b0; subtract 180\u00b0 if original is \u2265180\u00b0"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A ship travels on a bearing of 070\u00b0. Find the back bearing (the bearing to return along the same path).",
+        "solution_steps": [
+          "Since 070\u00b0<180\u00b0, add 180\u00b0: 070+180"
+        ],
+        "answer": "250\u00b0"
+      },
+      {
+        "problem": "Point B is on a bearing of 300\u00b0 from point A. Find the bearing of A from B.",
+        "solution_steps": [
+          "Since 300\u00b0\u2265180\u00b0, subtract 180\u00b0: 300-180"
+        ],
+        "answer": "120\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A hiker walks on a bearing of 135\u00b0. Find the back bearing.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Point Q is on a bearing of 050\u00b0 from point P. Find the bearing of P from Q.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "315\u00b0 (135+180)",
+      "230\u00b0 (50+180)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A boat sails 15km on a bearing of 060\u00b0 from port. Using trigonometry, find how far north and how far east the boat has travelled, to 2 decimal places.",
+        "marks": 4,
+        "answer": "North distance = 15\u00d7cos(60\u00b0) = 7.5 km. East distance = 15\u00d7sin(60\u00b0) \u2248 12.99 km"
+      }
+    ],
+    "common_mistakes": [
+      "Writing bearings with fewer than 3 digits (e.g. writing '45\u00b0' instead of '045\u00b0')",
+      "Measuring counterclockwise instead of clockwise from North",
+      "Forgetting to check whether to add or subtract 180\u00b0 for a back bearing"
+    ],
+    "tips": [
+      "Always draw a quick sketch with North marked as a vertical line \u2014 this makes it much easier to visualize and correctly measure bearings clockwise."
+    ],
+    "summary": "A bearing is a three-digit clockwise angle from North, used for navigation; back bearings differ by exactly 180\u00b0.",
+    "quick_revision_notes": [
+      "Bearings: 3 digits, clockwise from North",
+      "Back bearing = bearing \u00b1 180\u00b0"
+    ],
+    "related_prerequisite_topics": [
+      "Angles",
+      "Sine Rule",
+      "Cosine Rule"
+    ],
+    "images": [
+      {
+        "filename": "bearings-333-diagram.svg",
+        "type": "diagram",
+        "description": "A diagram showing North as a vertical reference line, with a bearing of 060\u00b0 marked as a clockwise angle from North.",
+        "purpose": "Shows the correct convention for measuring and drawing a bearing.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 334,
+    "category": "Trigonometry",
+    "topic": "Sine Rule",
+    "explanation": "The Sine Rule relates the sides and angles of ANY triangle (not just right-angled ones), stating that the ratio of a side's length to the sine of its opposite angle is constant across the triangle. It is used to find missing sides or angles when a matching side-angle pair is known.",
+    "key_concepts": [
+      "a/sin(A) = b/sin(B) = c/sin(C), where each side is opposite its corresponding angle",
+      "Works for ANY triangle, not just right-angled ones",
+      "Used when you know a side and its opposite angle, plus one other piece of information",
+      "Can be inverted (sin(A)/a = sin(B)/b = sin(C)/c) for finding angles"
+    ],
+    "definitions": [
+      {
+        "term": "Sine Rule",
+        "definition": "The relationship a/sin(A) = b/sin(B) = c/sin(C) connecting the sides and opposite angles of any triangle."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Sine rule",
+        "formula": "a/sin(A) = b/sin(B) = c/sin(C)",
+        "notes": "a,b,c are sides; A,B,C are their opposite angles"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "In a triangle, angle A=40\u00b0, angle B=60\u00b0, and side a=8cm. Find side b.",
+        "solution_steps": [
+          "a/sin(A) = b/sin(B)",
+          "8/sin(40\u00b0) = b/sin(60\u00b0)",
+          "b = 8\u00d7sin(60\u00b0)/sin(40\u00b0)"
+        ],
+        "answer": "\u224810.78 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "In a triangle, angle A=50\u00b0, angle B=70\u00b0, side a=10cm. Find side b.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "In a triangle, side a=12cm, side b=15cm, angle A=35\u00b0. Find angle B.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "\u224812.26 cm (10\u00d7sin70/sin50)",
+      "\u224845.6\u00b0 (sin(B)=15\u00d7sin35/12\u22480.7169, B=sin\u207b\u00b9(0.7169))"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "In triangle ABC, angle A=55\u00b0, angle C=65\u00b0, and side c=20cm. Find side a, to 2 decimal places.",
+        "marks": 4,
+        "answer": "Angle B = 180-55-65=60\u00b0. Using a/sin(A)=c/sin(C): a=20\u00d7sin(55\u00b0)/sin(65\u00b0)\u224820\u00d70.8192/0.9063\u224818.08 cm"
+      }
+    ],
+    "common_mistakes": [
+      "Mismatching sides and angles (side a must pair with angle A, not any other angle)",
+      "Forgetting the sine rule requires a KNOWN side-angle PAIR to set up the equation"
+    ],
+    "tips": [
+      "The Sine Rule needs at least one complete side-angle pair (a known side AND its directly opposite angle) to work \u2014 check this before attempting to apply it."
+    ],
+    "summary": "The Sine Rule (a/sinA=b/sinB=c/sinC) relates sides and opposite angles in any triangle, useful when a side-angle pair is known.",
+    "quick_revision_notes": [
+      "a/sinA = b/sinB = c/sinC"
+    ],
+    "related_prerequisite_topics": [
+      "Trigonometric Ratios",
+      "Cosine Rule",
+      "Triangle Angle Sum"
+    ],
+    "images": []
+  },
+  {
+    "id": 335,
+    "category": "Trigonometry",
+    "topic": "Cosine Rule",
+    "explanation": "The Cosine Rule relates the three sides and one angle of any triangle, generalizing the Pythagorean theorem to non-right-angled triangles. It is used when the Sine Rule cannot be applied \u2014 specifically, when no complete side-angle pair is known.",
+    "key_concepts": [
+      "a\u00b2 = b\u00b2 + c\u00b2 - 2bc\u00b7cos(A), used to find a missing side",
+      "cos(A) = (b\u00b2+c\u00b2-a\u00b2) / (2bc), used to find a missing angle (rearranged form)",
+      "Works for ANY triangle, generalizing the Pythagorean theorem (which is the special case when A=90\u00b0, since cos(90\u00b0)=0)",
+      "Used when given two sides and the included angle (SAS), or three sides (SSS)"
+    ],
+    "definitions": [
+      {
+        "term": "Cosine Rule",
+        "definition": "The relationship a\u00b2=b\u00b2+c\u00b2-2bc\u00b7cos(A) connecting the three sides of a triangle and one of its angles."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Cosine rule (side)",
+        "formula": "a\u00b2 = b\u00b2 + c\u00b2 - 2bc\u00b7cos(A)",
+        "notes": ""
+      },
+      {
+        "name": "Cosine rule (angle)",
+        "formula": "cos(A) = (b\u00b2 + c\u00b2 - a\u00b2) / (2bc)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A triangle has sides b=7cm, c=9cm, and included angle A=50\u00b0. Find side a.",
+        "solution_steps": [
+          "a\u00b2 = 7\u00b2 + 9\u00b2 - 2(7)(9)cos(50\u00b0)",
+          "= 49+81-126\u00d70.6428",
+          "= 130-81.0"
+        ],
+        "answer": "a\u00b2 \u2248 49.0, so a \u2248 7.0 cm"
+      },
+      {
+        "problem": "A triangle has sides a=8cm, b=6cm, c=5cm. Find angle A.",
+        "solution_steps": [
+          "cos(A) = (6\u00b2+5\u00b2-8\u00b2)/(2\u00d76\u00d75) = (36+25-64)/60 = -3/60",
+          "cos(A) = -0.05",
+          "A = cos\u207b\u00b9(-0.05)"
+        ],
+        "answer": "\u224892.9\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A triangle has sides b=10cm, c=12cm, included angle A=60\u00b0. Find side a.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A triangle has sides a=9cm, b=10cm, c=11cm. Find angle A.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "\u224810.58 cm",
+      "\u224852.4\u00b0 (cos(A)=(100+121-81)/220=140/220\u22480.6364)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Two ships leave port at the same time, one travelling at 15km/h and the other at 20km/h, with the angle between their paths being 75\u00b0. Find the distance between them after 2 hours, to 1 decimal place.",
+        "marks": 5,
+        "answer": "Distances travelled: 30km and 40km. Using cosine rule: d\u00b2=30\u00b2+40\u00b2-2(30)(40)cos(75\u00b0)=900+1600-2400\u00d70.2588\u22482500-621.1\u22481878.9. d\u224843.3 km"
+      }
+    ],
+    "common_mistakes": [
+      "Using the Cosine Rule when the Sine Rule would be more appropriate (or vice versa) \u2014 check what information is given first",
+      "Sign errors, especially when the angle is obtuse (cos of an obtuse angle is negative)"
+    ],
+    "tips": [
+      "Use the Cosine Rule when you have SAS (two sides + included angle) or SSS (all three sides) \u2014 use the Sine Rule when you have a complete side-angle pair plus one more piece of information."
+    ],
+    "summary": "The Cosine Rule (a\u00b2=b\u00b2+c\u00b2-2bc\u00b7cosA) generalizes Pythagoras to any triangle, used for SAS or SSS situations.",
+    "quick_revision_notes": [
+      "a\u00b2 = b\u00b2+c\u00b2-2bc\u00b7cosA",
+      "cos(A) = (b\u00b2+c\u00b2-a\u00b2)/(2bc)"
+    ],
+    "related_prerequisite_topics": [
+      "Sine Rule",
+      "Pythagorean Theorem"
+    ],
+    "images": []
+  },
+  {
+    "id": 336,
+    "category": "Trigonometry",
+    "topic": "Area Rule",
+    "explanation": "The Area Rule (sometimes called the trigonometric area formula) calculates the area of any triangle using two sides and the included angle between them, without needing to know the triangle's height directly. This is especially useful for non-right-angled triangles.",
+    "key_concepts": [
+      "Area = (1/2) \u00d7 a \u00d7 b \u00d7 sin(C), where C is the angle INCLUDED between sides a and b",
+      "Works for ANY triangle, given two sides and the angle between them (SAS)",
+      "The 'included angle' must be between the two given sides \u2014 not any other angle",
+      "Derived from the standard area formula (\u00bd\u00d7base\u00d7height), using trigonometry to express height"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Area rule",
+        "formula": "Area = (1/2) \u00d7 a \u00d7 b \u00d7 sin(C)",
+        "notes": "C is the angle between sides a and b"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A triangle has sides 8cm and 10cm, with an included angle of 55\u00b0. Find its area.",
+        "solution_steps": [
+          "Area = (1/2) \u00d7 8 \u00d7 10 \u00d7 sin(55\u00b0)",
+          "= 40 \u00d7 0.8192"
+        ],
+        "answer": "\u224832.77 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A triangle has sides 6cm and 9cm, with an included angle of 70\u00b0. Find its area.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A triangle has area 24cm\u00b2, with two sides 8cm and 6cm. Find the included angle.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "\u224825.38 cm\u00b2",
+      "90\u00b0 (24 = 0.5\u00d78\u00d76\u00d7sinC = 24\u00d7sinC, so sinC=1, C=90\u00b0)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A triangular plot of land has two sides measuring 40m and 55m, with an included angle of 68\u00b0. Find its area, to the nearest m\u00b2.",
+        "marks": 3,
+        "answer": "Area = 0.5\u00d740\u00d755\u00d7sin(68\u00b0) \u2248 1100\u00d70.9272 \u2248 1,020 m\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Using an angle that is NOT actually between the two given sides",
+      "Forgetting the \u00bd in the formula"
+    ],
+    "tips": [
+      "Double-check the angle you're using is genuinely INCLUDED between (touching both of) the two given sides \u2014 using the wrong angle gives an incorrect area."
+    ],
+    "summary": "The Area Rule (\u00bdab\u00b7sinC) finds a triangle's area using two sides and their included angle, without needing the height.",
+    "quick_revision_notes": [
+      "Area = (1/2)ab\u00b7sin(C), C between sides a and b"
+    ],
+    "related_prerequisite_topics": [
+      "Area of Triangles",
+      "Sine Rule",
+      "Cosine Rule"
+    ],
+    "images": []
+  },
+  {
+    "id": 337,
+    "category": "Trigonometry",
+    "topic": "Exact Trigonometric Values",
+    "explanation": "Exact trigonometric values are the precise (surd or simple fraction) values of sine, cosine, and tangent for specific common angles \u2014 0\u00b0, 30\u00b0, 45\u00b0, 60\u00b0, and 90\u00b0 \u2014 derived from special right-angled triangles. These are frequently required in exams instead of decimal approximations.",
+    "key_concepts": [
+      "Derived from two special triangles: the 45-45-90 triangle and the 30-60-90 triangle",
+      "Common exact values involve simple fractions and surds like \u221a2, \u221a3",
+      "Memorizing (or being able to derive) this table saves significant time in exams",
+      "Exact values are required when a question says 'give your answer as a surd' or 'in exact form'"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Key exact values table",
+        "formula": "sin30=1/2, cos30=\u221a3/2, tan30=1/\u221a3; sin45=\u221a2/2, cos45=\u221a2/2, tan45=1; sin60=\u221a3/2, cos60=1/2, tan60=\u221a3",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "State the exact value of sin(60\u00b0).",
+        "solution_steps": [
+          "Recall from the 30-60-90 triangle (sides 1, \u221a3, 2): sin(60\u00b0) = opposite/hypotenuse = \u221a3/2"
+        ],
+        "answer": "\u221a3/2"
+      },
+      {
+        "problem": "State the exact value of tan(45\u00b0).",
+        "solution_steps": [
+          "From the 45-45-90 triangle (sides 1,1,\u221a2): tan(45\u00b0) = opposite/adjacent = 1/1"
+        ],
+        "answer": "1"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "State the exact value of cos(30\u00b0).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "State the exact value of sin(45\u00b0).",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "\u221a3/2",
+      "\u221a2/2 (or equivalently 1/\u221a2)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Without a calculator, evaluate sin(30\u00b0) + cos(60\u00b0), giving your answer as an exact fraction.",
+        "marks": 2,
+        "answer": "sin(30\u00b0)=1/2, cos(60\u00b0)=1/2. Sum = 1/2+1/2 = 1"
+      }
+    ],
+    "common_mistakes": [
+      "Mixing up which angle corresponds to which exact value",
+      "Giving a decimal approximation when an exact (surd) answer is specifically requested"
+    ],
+    "tips": [
+      "Draw the two special triangles (45-45-90 with sides 1,1,\u221a2; and 30-60-90 with sides 1,\u221a3,2) from memory whenever you need to derive an exact value \u2014 this is more reliable than pure memorization."
+    ],
+    "summary": "Exact trigonometric values for 0\u00b0, 30\u00b0, 45\u00b0, 60\u00b0, 90\u00b0 are derived from special right-angled triangles, expressed as fractions and surds.",
+    "quick_revision_notes": [
+      "30-60-90 triangle: sides 1,\u221a3,2",
+      "45-45-90 triangle: sides 1,1,\u221a2"
+    ],
+    "related_prerequisite_topics": [
+      "Sine",
+      "Cosine",
+      "Tangent",
+      "Surds"
+    ],
+    "images": []
+  },
+  {
+    "id": 338,
+    "category": "Trigonometry",
+    "topic": "Trigonometric Graphs",
+    "explanation": "Trigonometric graphs display how the sine, cosine, and tangent functions behave as the angle varies. These graphs are periodic (repeating in a regular pattern) and reveal key properties like amplitude, period, and symmetry that are essential for understanding trigonometric behavior beyond right-angled triangles.",
+    "key_concepts": [
+      "Trigonometric functions are periodic \u2014 their graphs repeat at regular intervals",
+      "Sine and cosine graphs have a period of 360\u00b0 (or 2\u03c0 radians) and oscillate between -1 and 1",
+      "Tangent has a period of 180\u00b0 (or \u03c0 radians) and is undefined at certain points (vertical asymptotes)",
+      "Amplitude measures the height of oscillation from the midline"
+    ],
+    "definitions": [
+      {
+        "term": "Period",
+        "definition": "The length of one complete repeating cycle of a periodic function's graph."
+      },
+      {
+        "term": "Amplitude",
+        "definition": "Half the distance between the maximum and minimum values of a periodic function's graph."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "State the period and amplitude of y=sin(x).",
+        "solution_steps": [
+          "Sine completes one full cycle every 360\u00b0",
+          "Sine oscillates between -1 and 1, so amplitude=(1-(-1))/2=1"
+        ],
+        "answer": "Period=360\u00b0, Amplitude=1"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "State the period of y=tan(x).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "State the amplitude of y=cos(x).",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "180\u00b0",
+      "1"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why the tangent graph has vertical asymptotes, but the sine and cosine graphs do not.",
+        "marks": 3,
+        "answer": "tan(\u03b8) = sin(\u03b8)/cos(\u03b8). At angles where cos(\u03b8)=0 (like 90\u00b0, 270\u00b0), tangent is undefined (division by zero), creating a vertical asymptote there. Sine and cosine themselves never involve division, so they are defined everywhere and have no such asymptotes."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming all trigonometric graphs have the same period (tangent's period differs from sine/cosine)",
+      "Confusing amplitude with the maximum value (amplitude is HALF the range, not the peak value itself, unless the midline is at 0)"
+    ],
+    "tips": [
+      "Sine and cosine graphs are identical in shape, just shifted horizontally by 90\u00b0 from each other \u2014 recognizing this relationship helps with sketching and transformations."
+    ],
+    "summary": "Trigonometric graphs are periodic; sine and cosine repeat every 360\u00b0 with amplitude 1, while tangent repeats every 180\u00b0 with asymptotes.",
+    "quick_revision_notes": [
+      "Sin/Cos: period 360\u00b0, amplitude 1",
+      "Tan: period 180\u00b0, has asymptotes"
+    ],
+    "related_prerequisite_topics": [
+      "Sine Graphs",
+      "Cosine Graphs",
+      "Tangent Graphs"
+    ],
+    "images": []
+  },
+  {
+    "id": 339,
+    "category": "Trigonometry",
+    "topic": "Sine Graphs",
+    "explanation": "The sine graph, y=sin(x), is a smooth, wave-like curve that oscillates between -1 and 1, completing one full cycle every 360\u00b0. It passes through the origin (0,0) and has a distinctive symmetric shape used to model periodic phenomena like sound waves and tides.",
+    "key_concepts": [
+      "y=sin(x) passes through (0,0), (90\u00b0,1), (180\u00b0,0), (270\u00b0,-1), (360\u00b0,0)",
+      "Period = 360\u00b0, Amplitude = 1",
+      "The graph is symmetric: sin(-x) = -sin(x) (an 'odd' function)",
+      "Transformations like y=a\u00b7sin(bx)+c change the amplitude, period, and vertical shift"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "General sine function",
+        "formula": "y = a\u00b7sin(bx) + c",
+        "notes": "a=amplitude, 360\u00b0/b=period, c=vertical shift"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "State the amplitude and period of y = 3sin(2x).",
+        "solution_steps": [
+          "Amplitude = |a| = 3",
+          "Period = 360\u00b0/b = 360\u00b0/2"
+        ],
+        "answer": "Amplitude=3, Period=180\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "State the amplitude and period of y=2sin(x).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "State the amplitude and period of y=sin(4x).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Amplitude=2, Period=360\u00b0",
+      "Amplitude=1, Period=90\u00b0"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Sketch the key features of y=sin(x) for one full period, stating the coordinates of the maximum, minimum, and x-intercepts.",
+        "marks": 4,
+        "answer": "Maximum at (90\u00b0,1). Minimum at (270\u00b0,-1). X-intercepts at (0\u00b0,0), (180\u00b0,0), (360\u00b0,0)."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the period changes when the coefficient of x changes (must divide 360\u00b0 by that coefficient)",
+      "Confusing amplitude changes (vertical stretch) with period changes (horizontal stretch)"
+    ],
+    "tips": [
+      "Memorize the 5 key points of one sine cycle (0,90,180,270,360 with values 0,1,0,-1,0) \u2014 this lets you quickly sketch or verify any sine graph."
+    ],
+    "summary": "The sine graph oscillates between -1 and 1 with period 360\u00b0, transformable via y=a\u00b7sin(bx)+c.",
+    "quick_revision_notes": [
+      "Key points: (0,0),(90,1),(180,0),(270,-1),(360,0)",
+      "y=a\u00b7sin(bx)+c: amplitude=a, period=360\u00b0/b"
+    ],
+    "related_prerequisite_topics": [
+      "Sine",
+      "Trigonometric Graphs"
+    ],
+    "images": [
+      {
+        "filename": "sinegraphs-339-graph.svg",
+        "type": "graph",
+        "description": "A graph of y=sin(\u03b8) over the range -360\u00b0 to 360\u00b0, showing its wave-like periodic shape.",
+        "purpose": "Shows the visual shape and periodicity of the sine function.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 340,
+    "category": "Trigonometry",
+    "topic": "Cosine Graphs",
+    "explanation": "The cosine graph, y=cos(x), is a smooth, wave-like curve identical in shape to the sine graph but shifted horizontally by 90\u00b0. It starts at its maximum value (1) when x=0, oscillates between -1 and 1, and completes one full cycle every 360\u00b0.",
+    "key_concepts": [
+      "y=cos(x) passes through (0,1), (90\u00b0,0), (180\u00b0,-1), (270\u00b0,0), (360\u00b0,1)",
+      "Period = 360\u00b0, Amplitude = 1",
+      "The graph is symmetric: cos(-x) = cos(x) (an 'even' function)",
+      "cos(x) = sin(x+90\u00b0), showing the horizontal shift relationship with sine"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "General cosine function",
+        "formula": "y = a\u00b7cos(bx) + c",
+        "notes": "a=amplitude, 360\u00b0/b=period, c=vertical shift"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "State the amplitude and period of y = 4cos(3x).",
+        "solution_steps": [
+          "Amplitude = |a| = 4",
+          "Period = 360\u00b0/b = 360\u00b0/3"
+        ],
+        "answer": "Amplitude=4, Period=120\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "State the amplitude and period of y=cos(2x).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "State the value of cos(0\u00b0) and explain what this means for the graph's starting point.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Amplitude=1, Period=180\u00b0",
+      "cos(0\u00b0)=1, meaning the cosine graph starts at its MAXIMUM value when x=0, unlike sine which starts at 0."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain the relationship between the sine and cosine graphs, referring to a horizontal shift.",
+        "marks": 3,
+        "answer": "The cosine graph is identical in shape to the sine graph, but shifted 90\u00b0 to the LEFT. This is because cos(x)=sin(x+90\u00b0) \u2014 cosine 'leads' sine by a quarter period."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing the starting values of sine (starts at 0) and cosine (starts at 1)",
+      "Forgetting cosine is an 'even' function (symmetric about the y-axis), unlike sine"
+    ],
+    "tips": [
+      "Remember: cosine starts at its PEAK (maximum) at x=0, while sine starts at ZERO \u2014 this is the easiest way to distinguish the two graphs at a glance."
+    ],
+    "summary": "The cosine graph oscillates between -1 and 1 with period 360\u00b0, shaped identically to sine but shifted 90\u00b0 horizontally.",
+    "quick_revision_notes": [
+      "Key points: (0,1),(90,0),(180,-1),(270,0),(360,1)",
+      "cos(x)=sin(x+90\u00b0)"
+    ],
+    "related_prerequisite_topics": [
+      "Cosine",
+      "Sine Graphs",
+      "Trigonometric Graphs"
+    ],
+    "images": [
+      {
+        "filename": "cosinegraphs-340-graph.svg",
+        "type": "graph",
+        "description": "A graph of y=cos(\u03b8) over the range -360\u00b0 to 360\u00b0, showing its wave-like periodic shape starting at a maximum.",
+        "purpose": "Shows the visual shape and periodicity of the cosine function.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 341,
+    "category": "Trigonometry",
+    "topic": "Tangent Graphs",
+    "explanation": "The tangent graph, y=tan(x), looks quite different from sine and cosine \u2014 it repeats every 180\u00b0 (not 360\u00b0) and has vertical asymptotes (undefined points) wherever cosine equals zero, such as at 90\u00b0 and 270\u00b0. Between these asymptotes, the graph rises steeply from negative to positive infinity.",
+    "key_concepts": [
+      "Period = 180\u00b0 (half that of sine/cosine)",
+      "Vertical asymptotes occur at 90\u00b0, 270\u00b0, and every 180\u00b0 interval from there (wherever cos(x)=0)",
+      "No defined amplitude, since the graph extends to infinity in both directions between asymptotes",
+      "Passes through the origin: tan(0\u00b0)=0"
+    ],
+    "definitions": [
+      {
+        "term": "Vertical Asymptote",
+        "definition": "A vertical line that a graph approaches but never touches, occurring where a function is undefined."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "State the period of y=tan(x), and explain why it differs from sine and cosine.",
+        "solution_steps": [
+          "Tangent repeats every 180\u00b0, since tan(x+180\u00b0)=tan(x) (unlike sine/cosine, which need a full 360\u00b0 to repeat)",
+          "This is because tan(x)=sin(x)/cos(x), and both sine and cosine flip sign together after 180\u00b0, cancelling out to give the same tangent value"
+        ],
+        "answer": "Period = 180\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "At which angles (between 0\u00b0 and 360\u00b0) does the tangent graph have vertical asymptotes?",
+        "difficulty": "medium"
+      },
+      {
+        "question": "State the value of tan(0\u00b0) and tan(180\u00b0).",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "90\u00b0 and 270\u00b0",
+      "Both equal 0"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why tan(x) is undefined at x=90\u00b0, referring to the definition tan(x)=sin(x)/cos(x).",
+        "marks": 2,
+        "answer": "At x=90\u00b0, cos(90\u00b0)=0. Since tan(x)=sin(x)/cos(x), this would require dividing by zero, which is undefined \u2014 hence the vertical asymptote at x=90\u00b0."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming tangent has the same period (360\u00b0) as sine and cosine",
+      "Forgetting the graph is undefined (has asymptotes) at specific points, unlike the continuous sine/cosine graphs"
+    ],
+    "tips": [
+      "Whenever cos(x)=0, expect a vertical asymptote on the tangent graph \u2014 this happens at 90\u00b0, 270\u00b0, 450\u00b0, etc. (every 180\u00b0 starting from 90\u00b0)."
+    ],
+    "summary": "The tangent graph repeats every 180\u00b0 with vertical asymptotes where cosine equals zero, unlike the continuous sine and cosine graphs.",
+    "quick_revision_notes": [
+      "Period=180\u00b0",
+      "Asymptotes at 90\u00b0, 270\u00b0, ... (where cos(x)=0)"
+    ],
+    "related_prerequisite_topics": [
+      "Tangent",
+      "Trigonometric Graphs",
+      "Sine Graphs"
+    ],
+    "images": [
+      {
+        "filename": "tangentgraphs-341-graph.svg",
+        "type": "graph",
+        "description": "A graph of y=tan(\u03b8) over the range -360\u00b0 to 360\u00b0, showing its repeating pattern with vertical asymptotes.",
+        "purpose": "Shows the visual shape, period, and asymptotes of the tangent function.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 342,
+    "category": "Trigonometry",
+    "topic": "Trigonometric Equations",
+    "explanation": "A trigonometric equation involves an unknown angle within a trigonometric function, such as sin(x)=0.5. Solving these requires using inverse trigonometric functions to find one solution, then applying knowledge of the function's periodicity and symmetry to find ALL solutions within a given range.",
+    "key_concepts": [
+      "Find one solution using the inverse function (sin\u207b\u00b9, cos\u207b\u00b9, tan\u207b\u00b9)",
+      "Use the CAST diagram or graph symmetry to find additional solutions within the given range",
+      "Sine and cosine equations typically have 2 solutions per 360\u00b0 range; tangent has 1 per 180\u00b0",
+      "Always check the specified range (e.g. 0\u00b0\u2264x\u2264360\u00b0) for how many solutions to find"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Solve sin(x) = 0.5 for 0\u00b0 \u2264 x \u2264 360\u00b0.",
+        "solution_steps": [
+          "First solution: x = sin\u207b\u00b9(0.5) = 30\u00b0",
+          "Sine is also positive in the second quadrant: second solution = 180-30 = 150\u00b0"
+        ],
+        "answer": "x = 30\u00b0 or x = 150\u00b0"
+      },
+      {
+        "problem": "Solve cos(x) = -0.5 for 0\u00b0 \u2264 x \u2264 360\u00b0.",
+        "solution_steps": [
+          "Reference angle: cos\u207b\u00b9(0.5) = 60\u00b0",
+          "Cosine is negative in the 2nd and 3rd quadrants: x=180-60=120\u00b0, and x=180+60=240\u00b0"
+        ],
+        "answer": "x = 120\u00b0 or x = 240\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve sin(x) = 0.707 for 0\u00b0 \u2264 x \u2264 360\u00b0.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Solve cos(x) = 0.866 for 0\u00b0 \u2264 x \u2264 360\u00b0.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "x=45\u00b0 or x=135\u00b0",
+      "x=30\u00b0 or x=330\u00b0"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve 2sin(x) - 1 = 0 for 0\u00b0 \u2264 x \u2264 360\u00b0.",
+        "marks": 4,
+        "answer": "sin(x)=0.5. x=30\u00b0 or x=150\u00b0 (sine positive in Q1 and Q2)"
+      }
+    ],
+    "common_mistakes": [
+      "Finding only one solution when the range requires multiple",
+      "Using the wrong quadrant rule for which function is positive/negative"
+    ],
+    "tips": [
+      "Use 'CAST' (Cosine All Sine Tangent, read counterclockwise from Q4) to remember which trigonometric functions are positive in each quadrant when finding all solutions."
+    ],
+    "summary": "Trigonometric equations are solved using inverse functions plus quadrant/symmetry rules to find all solutions in a given range.",
+    "quick_revision_notes": [
+      "Find reference angle via inverse function",
+      "Use CAST diagram for additional solutions in range"
+    ],
+    "related_prerequisite_topics": [
+      "Sine",
+      "Cosine",
+      "Tangent",
+      "Trigonometric Graphs"
+    ],
+    "images": []
+  },
+  {
+    "id": 343,
+    "category": "Trigonometry",
+    "topic": "Trigonometric Identities",
+    "explanation": "Trigonometric identities are equations involving trigonometric functions that are true for ALL values of the variable, used to simplify expressions and solve more complex equations. The two most fundamental identities are tan(\u03b8)=sin(\u03b8)/cos(\u03b8) and the Pythagorean identity sin\u00b2(\u03b8)+cos\u00b2(\u03b8)=1.",
+    "key_concepts": [
+      "tan(\u03b8) = sin(\u03b8)/cos(\u03b8)",
+      "Pythagorean identity: sin\u00b2(\u03b8) + cos\u00b2(\u03b8) = 1",
+      "These identities hold for ALL angles \u03b8, not just specific values",
+      "Used to simplify trigonometric expressions or prove other identities"
+    ],
+    "definitions": [
+      {
+        "term": "Pythagorean Identity",
+        "definition": "The identity sin\u00b2(\u03b8) + cos\u00b2(\u03b8) = 1, true for all angles \u03b8, derived from the Pythagorean theorem applied to the unit circle."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Quotient identity",
+        "formula": "tan(\u03b8) = sin(\u03b8)/cos(\u03b8)",
+        "notes": ""
+      },
+      {
+        "name": "Pythagorean identity",
+        "formula": "sin\u00b2(\u03b8) + cos\u00b2(\u03b8) = 1",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "If sin(\u03b8) = 0.6, find cos(\u03b8), using the Pythagorean identity (assume \u03b8 is acute).",
+        "solution_steps": [
+          "sin\u00b2(\u03b8)+cos\u00b2(\u03b8)=1",
+          "0.36 + cos\u00b2(\u03b8) = 1",
+          "cos\u00b2(\u03b8) = 0.64",
+          "cos(\u03b8) = \u221a0.64"
+        ],
+        "answer": "0.8"
+      },
+      {
+        "problem": "Simplify sin(\u03b8)/cos(\u03b8) \u00d7 cos(\u03b8)",
+        "solution_steps": [
+          "The cos(\u03b8) terms cancel",
+          "Left with sin(\u03b8)"
+        ],
+        "answer": "sin(\u03b8)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "If cos(\u03b8)=0.28, find sin(\u03b8) (assume \u03b8 is acute), to 2 decimal places.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Simplify sin\u00b2(\u03b8) + cos\u00b2(\u03b8) + 5.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "\u22480.96 (sin\u00b2=1-0.0784=0.9216, sin=\u221a0.9216\u22480.96)",
+      "6 (since sin\u00b2+cos\u00b2=1, so 1+5=6)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Prove that (sin\u03b8 + cos\u03b8)\u00b2 = 1 + 2sin\u03b8cos\u03b8, using the Pythagorean identity.",
+        "marks": 3,
+        "answer": "Expand: (sin\u03b8+cos\u03b8)\u00b2 = sin\u00b2\u03b8 + 2sin\u03b8cos\u03b8 + cos\u00b2\u03b8. Using the Pythagorean identity, sin\u00b2\u03b8+cos\u00b2\u03b8=1. So the expression simplifies to 1 + 2sin\u03b8cos\u03b8, proving the identity."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting these identities apply for ALL \u03b8 (treating them as equations to 'solve' for specific values)",
+      "Sign errors when taking a square root (forgetting to consider both \u00b1 possibilities unless the angle's quadrant restricts it)"
+    ],
+    "tips": [
+      "The Pythagorean identity (sin\u00b2\u03b8+cos\u00b2\u03b8=1) is one of the most useful tools for simplifying trigonometric expressions \u2014 always check if it can be applied when you see both sin\u00b2 and cos\u00b2 terms."
+    ],
+    "summary": "Trigonometric identities (like sin\u00b2\u03b8+cos\u00b2\u03b8=1 and tan\u03b8=sin\u03b8/cos\u03b8) hold for all angles and are used to simplify expressions and prove relationships.",
+    "quick_revision_notes": [
+      "tan\u03b8=sin\u03b8/cos\u03b8",
+      "sin\u00b2\u03b8+cos\u00b2\u03b8=1"
+    ],
+    "related_prerequisite_topics": [
+      "Sine",
+      "Cosine",
+      "Tangent",
+      "Algebraic Identities"
+    ],
+    "images": []
+  },
+  {
+    "id": 344,
+    "category": "Trigonometry",
+    "topic": "Compound Angles",
+    "explanation": "Compound angle formulae express the sine, cosine, or tangent of a SUM or DIFFERENCE of two angles in terms of the individual sine and cosine values of each angle. These formulae are essential for evaluating expressions that don't correspond to standard exact-value angles.",
+    "key_concepts": [
+      "sin(A\u00b1B) = sinA\u00b7cosB \u00b1 cosA\u00b7sinB",
+      "cos(A\u00b1B) = cosA\u00b7cosB \u2213 sinA\u00b7sinB (note the sign flips compared to sine)",
+      "tan(A\u00b1B) = (tanA \u00b1 tanB) / (1 \u2213 tanA\u00b7tanB)",
+      "Used to find exact values for angles like 15\u00b0 or 75\u00b0 by expressing them as sums/differences of known angles (e.g. 45\u00b0-30\u00b0=15\u00b0)"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Sine compound angle",
+        "formula": "sin(A\u00b1B) = sinA\u00b7cosB \u00b1 cosA\u00b7sinB",
+        "notes": ""
+      },
+      {
+        "name": "Cosine compound angle",
+        "formula": "cos(A\u00b1B) = cosA\u00b7cosB \u2213 sinA\u00b7sinB",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Use the compound angle formula to find the exact value of sin(75\u00b0), using 75\u00b0=45\u00b0+30\u00b0.",
+        "solution_steps": [
+          "sin(45\u00b0+30\u00b0) = sin45\u00b0cos30\u00b0 + cos45\u00b0sin30\u00b0",
+          "= (\u221a2/2)(\u221a3/2) + (\u221a2/2)(1/2)",
+          "= \u221a6/4 + \u221a2/4"
+        ],
+        "answer": "(\u221a6+\u221a2)/4"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Use the compound angle formula to find the exact value of cos(15\u00b0), using 15\u00b0=45\u00b0-30\u00b0.",
+        "difficulty": "hard"
+      },
+      {
+        "question": "State the compound angle formula for sin(A-B).",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "(\u221a6+\u221a2)/4",
+      "sin(A-B) = sinA\u00b7cosB - cosA\u00b7sinB"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Given sinA=3/5 and cosB=12/13 (both A and B acute), find sin(A+B).",
+        "marks": 4,
+        "answer": "cosA=4/5 (from Pythagorean identity), sinB=5/13. sin(A+B)=sinAcosB+cosAsinB=(3/5)(12/13)+(4/5)(5/13)=36/65+20/65=56/65"
+      }
+    ],
+    "common_mistakes": [
+      "Mixing up the sign pattern between the sine and cosine compound angle formulae",
+      "Forgetting to find missing sine/cosine values (using the Pythagorean identity) before applying the compound formula"
+    ],
+    "tips": [
+      "Notice cosine's formula has 'flipped' signs compared to sine's (\u00b1 becomes \u2213) \u2014 this is one of the most common sources of error, so double-check carefully."
+    ],
+    "summary": "Compound angle formulae express sin/cos/tan of A\u00b1B in terms of individual angle values, useful for exact values and identities.",
+    "quick_revision_notes": [
+      "sin(A\u00b1B)=sinAcosB\u00b1cosAsinB",
+      "cos(A\u00b1B)=cosAcosB\u2213sinAsinB"
+    ],
+    "related_prerequisite_topics": [
+      "Exact Trigonometric Values",
+      "Trigonometric Identities",
+      "Double-Angle Formulae"
+    ],
+    "images": []
+  },
+  {
+    "id": 345,
+    "category": "Trigonometry",
+    "topic": "Double-Angle Formulae",
+    "explanation": "Double-angle formulae are special cases of the compound angle formulae, used when both angles are equal (A=B), giving formulae for sin(2A), cos(2A), and tan(2A) in terms of single-angle values. These are widely used in calculus and further trigonometric simplification.",
+    "key_concepts": [
+      "sin(2A) = 2sinA\u00b7cosA",
+      "cos(2A) = cos\u00b2A - sin\u00b2A = 2cos\u00b2A - 1 = 1 - 2sin\u00b2A (three equivalent forms)",
+      "tan(2A) = 2tanA / (1-tan\u00b2A)",
+      "Derived directly by setting B=A in the compound angle formulae"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Double angle (sine)",
+        "formula": "sin(2A) = 2sinA\u00b7cosA",
+        "notes": ""
+      },
+      {
+        "name": "Double angle (cosine)",
+        "formula": "cos(2A) = cos\u00b2A - sin\u00b2A = 2cos\u00b2A - 1 = 1 - 2sin\u00b2A",
+        "notes": "Three equivalent forms"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "If sinA=3/5 and cosA=4/5, find sin(2A).",
+        "solution_steps": [
+          "sin(2A) = 2\u00d7(3/5)\u00d7(4/5) = 24/25"
+        ],
+        "answer": "24/25"
+      },
+      {
+        "problem": "If cosA=0.6, find cos(2A) using the form 2cos\u00b2A-1.",
+        "solution_steps": [
+          "cos(2A) = 2(0.6)\u00b2 - 1 = 2(0.36)-1 = 0.72-1"
+        ],
+        "answer": "-0.28"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "If sinA=0.5 and cosA=0.866, find sin(2A).",
+        "difficulty": "medium"
+      },
+      {
+        "question": "If sinA=0.8, find cos(2A) using the form 1-2sin\u00b2A.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "\u22480.866 (2\u00d70.5\u00d70.866)",
+      "-0.28 (1-2(0.64)=1-1.28)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Given that cosA=5/13 (A acute), find sin(2A) and cos(2A) as exact fractions.",
+        "marks": 4,
+        "answer": "sinA=12/13 (Pythagorean identity). sin(2A)=2(12/13)(5/13)=120/169. cos(2A)=2(5/13)\u00b2-1=50/169-1=-119/169"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting cos(2A) has THREE equivalent forms \u2014 choosing the wrong one for the given information can create extra unnecessary work",
+      "Sign errors when substituting into the various forms"
+    ],
+    "tips": [
+      "Choose the version of cos(2A) that matches what you already know: use cos\u00b2A form if you know cosA, sin\u00b2A form if you know sinA, avoiding the need to find the other value first."
+    ],
+    "summary": "Double-angle formulae (sin2A=2sinAcosA, cos2A=cos\u00b2A-sin\u00b2A, etc.) express double angles using single-angle trigonometric values.",
+    "quick_revision_notes": [
+      "sin2A=2sinAcosA",
+      "cos2A=cos\u00b2A-sin\u00b2A=2cos\u00b2A-1=1-2sin\u00b2A"
+    ],
+    "related_prerequisite_topics": [
+      "Compound Angles",
+      "Trigonometric Identities",
+      "Half-Angle Formulae"
+    ],
+    "images": []
+  },
+  {
+    "id": 346,
+    "category": "Trigonometry",
+    "topic": "Half-Angle Formulae",
+    "explanation": "Half-angle formulae express trigonometric functions of half an angle (A/2) in terms of the original angle A, derived by rearranging the double-angle formulae. These are useful for finding exact values of angles like 15\u00b0 (half of 30\u00b0) or simplifying certain integrals in calculus.",
+    "key_concepts": [
+      "sin\u00b2(A/2) = (1-cosA)/2",
+      "cos\u00b2(A/2) = (1+cosA)/2",
+      "tan(A/2) = sinA/(1+cosA) = (1-cosA)/sinA",
+      "Derived by rearranging the double-angle formulae, replacing A with A/2 throughout"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Half angle (sine squared)",
+        "formula": "sin\u00b2(A/2) = (1-cosA)/2",
+        "notes": ""
+      },
+      {
+        "name": "Half angle (cosine squared)",
+        "formula": "cos\u00b2(A/2) = (1+cosA)/2",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Given cosA=0.6, find cos\u00b2(A/2).",
+        "solution_steps": [
+          "cos\u00b2(A/2) = (1+0.6)/2 = 1.6/2"
+        ],
+        "answer": "0.8"
+      },
+      {
+        "problem": "Use the half-angle formula to find sin\u00b2(15\u00b0), given cos(30\u00b0)=\u221a3/2.",
+        "solution_steps": [
+          "sin\u00b2(15\u00b0) = (1-cos30\u00b0)/2 = (1-\u221a3/2)/2"
+        ],
+        "answer": "(2-\u221a3)/4"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Given cosA=0.28, find sin\u00b2(A/2).",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Use the half-angle formula to find cos\u00b2(22.5\u00b0), given cos(45\u00b0)=\u221a2/2.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "0.36 ((1-0.28)/2)",
+      "(2+\u221a2)/4 ((1+\u221a2/2)/2)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Given that cosA=0.8, find the exact value of tan(A/2) using the formula tan(A/2)=(1-cosA)/sinA, given sinA=0.6.",
+        "marks": 3,
+        "answer": "tan(A/2) = (1-0.8)/0.6 = 0.2/0.6 = 1/3"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting these formulae give sin\u00b2(A/2) or cos\u00b2(A/2), requiring a square root to find sin(A/2) or cos(A/2) directly (with attention to sign)",
+      "Mixing up which formula uses (1-cosA) versus (1+cosA)"
+    ],
+    "tips": [
+      "Remember: SINE half-angle uses (1-cosA); COSINE half-angle uses (1+cosA) \u2014 the 'S' in sine and 'minus' in (1-cosA) can help you recall this pairing."
+    ],
+    "summary": "Half-angle formulae express trigonometric functions of A/2 in terms of A, derived from rearranging the double-angle formulae.",
+    "quick_revision_notes": [
+      "sin\u00b2(A/2)=(1-cosA)/2",
+      "cos\u00b2(A/2)=(1+cosA)/2"
+    ],
+    "related_prerequisite_topics": [
+      "Double-Angle Formulae",
+      "Compound Angles"
+    ],
+    "images": []
+  },
+  {
+    "id": 347,
+    "category": "Trigonometry",
+    "topic": "Radians",
+    "explanation": "A radian is an alternative unit for measuring angles, defined as the angle subtended at the centre of a circle by an arc equal in length to the circle's radius. Radians are the preferred unit in advanced mathematics (especially calculus) because they simplify many trigonometric formulas.",
+    "key_concepts": [
+      "1 radian is the angle where the arc length equals the radius",
+      "\u03c0 radians = 180\u00b0",
+      "To convert degrees to radians: multiply by \u03c0/180",
+      "To convert radians to degrees: multiply by 180/\u03c0"
+    ],
+    "definitions": [
+      {
+        "term": "Radian",
+        "definition": "A unit of angle measurement defined as the angle subtended at a circle's centre by an arc equal in length to the radius; \u03c0 radians = 180\u00b0."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Degrees to radians",
+        "formula": "radians = degrees \u00d7 (\u03c0/180)",
+        "notes": ""
+      },
+      {
+        "name": "Radians to degrees",
+        "formula": "degrees = radians \u00d7 (180/\u03c0)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Convert 90\u00b0 to radians, in terms of \u03c0.",
+        "solution_steps": [
+          "radians = 90 \u00d7 (\u03c0/180)"
+        ],
+        "answer": "\u03c0/2 radians"
+      },
+      {
+        "problem": "Convert 3\u03c0/4 radians to degrees.",
+        "solution_steps": [
+          "degrees = (3\u03c0/4) \u00d7 (180/\u03c0) = 3\u00d7180/4"
+        ],
+        "answer": "135\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Convert 60\u00b0 to radians, in terms of \u03c0.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Convert 5\u03c0/6 radians to degrees.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "\u03c0/3 radians",
+      "150\u00b0"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Convert 210\u00b0 to radians in terms of \u03c0, and also as a decimal to 3 significant figures.",
+        "marks": 3,
+        "answer": "210 \u00d7 \u03c0/180 = 7\u03c0/6 \u2248 3.67 radians"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to multiply by \u03c0/180 (or 180/\u03c0) when converting, treating degrees and radians as directly interchangeable numbers",
+      "Calculator errors from being in the wrong mode (degrees vs radians) when evaluating trigonometric functions"
+    ],
+    "tips": [
+      "Always double check your calculator's angle mode (degrees or radians) before evaluating any trigonometric function \u2014 this is one of the most common sources of error in exams."
+    ],
+    "summary": "Radians measure angles based on arc length equal to the radius; \u03c0 radians = 180\u00b0, with straightforward conversion formulas.",
+    "quick_revision_notes": [
+      "\u03c0 radians = 180\u00b0",
+      "degrees\u2192radians: \u00d7\u03c0/180",
+      "radians\u2192degrees: \u00d7180/\u03c0"
+    ],
+    "related_prerequisite_topics": [
+      "Angles",
+      "Arc Length in Radians"
+    ],
+    "images": [
+      {
+        "filename": "radians-347-diagram.svg",
+        "type": "diagram",
+        "description": "A circle showing a 1-radian angle at the centre, where the arc length equals the radius.",
+        "purpose": "Visually demonstrates the definition of a radian.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 348,
+    "category": "Trigonometry",
+    "topic": "Arc Length in Radians",
+    "explanation": "When an angle is measured in radians, the arc length formula simplifies dramatically: arc length equals the radius multiplied directly by the angle in radians, without needing the '360\u00b0 fraction' used in the degree-based formula. This is one of the key reasons radians are preferred in advanced mathematics.",
+    "key_concepts": [
+      "Arc length = r \u00d7 \u03b8, where \u03b8 is in RADIANS",
+      "Much simpler than the degree-based formula (\u03b8/360\u00b0)\u00d72\u03c0r",
+      "Similarly, sector area = (1/2)r\u00b2\u03b8 in radians, another simplified formula",
+      "Always confirm the angle is in radians before using these simplified formulas"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Arc length (radians)",
+        "formula": "s = r\u03b8",
+        "notes": "\u03b8 must be in radians"
+      },
+      {
+        "name": "Sector area (radians)",
+        "formula": "A = (1/2)r\u00b2\u03b8",
+        "notes": "\u03b8 must be in radians"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the arc length of a sector with radius 8cm and angle 1.5 radians.",
+        "solution_steps": [
+          "s = r\u03b8 = 8 \u00d7 1.5"
+        ],
+        "answer": "12 cm"
+      },
+      {
+        "problem": "Find the area of a sector with radius 6cm and angle \u03c0/3 radians.",
+        "solution_steps": [
+          "A = (1/2)(6\u00b2)(\u03c0/3) = (1/2)(36)(\u03c0/3) = 18\u00d7\u03c0/3"
+        ],
+        "answer": "6\u03c0 cm\u00b2 (\u224818.85 cm\u00b2)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the arc length of a sector with radius 10cm and angle 0.8 radians.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the area of a sector with radius 5cm and angle 2 radians.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "8 cm",
+      "25 cm\u00b2"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A sector has radius 12cm and arc length 15cm. Find the angle in radians, and hence find the sector's area.",
+        "marks": 4,
+        "answer": "\u03b8 = s/r = 15/12 = 1.25 radians. Area = (1/2)(144)(1.25) = 90 cm\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Using the degree-based sector/arc formulas with an angle that's actually in radians (or vice versa)",
+      "Forgetting the simplified radian formulas don't need the '360\u00b0' or '\u03c0r\u00b2' fraction structure at all"
+    ],
+    "tips": [
+      "The radian-based formulas (s=r\u03b8, A=\u00bdr\u00b2\u03b8) are much simpler than their degree counterparts \u2014 always convert to radians first if it simplifies your calculation, especially for repeated calculations."
+    ],
+    "summary": "In radians, arc length simplifies to s=r\u03b8 and sector area to A=(1/2)r\u00b2\u03b8, both requiring the angle to be in radians.",
+    "quick_revision_notes": [
+      "s = r\u03b8 (radians)",
+      "A = (1/2)r\u00b2\u03b8 (radians)"
+    ],
+    "related_prerequisite_topics": [
+      "Radians",
+      "Arc Length",
+      "Sector Area"
+    ],
+    "images": []
+  }
+]

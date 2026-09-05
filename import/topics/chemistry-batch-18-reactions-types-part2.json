@@ -1,0 +1,412 @@
+{
+  "batch": "18",
+  "category": "Types of Chemical Reactions",
+  "topics_in_batch": 8,
+  "topics_completed_so_far": 185,
+  "topics_remaining_total": 314,
+  "category_status": "Types of Chemical Reactions category COMPLETE (16 topics)",
+  "topics": [
+
+    {
+      "id": "chem-179-irreversible-reactions",
+      "subject": "Chemistry",
+      "category": "Types of Chemical Reactions",
+      "title": "Irreversible Reactions",
+      "difficulty": "Foundation",
+      "description": "Reactions that proceed in one direction only, with products that do not spontaneously convert back into the original reactants.",
+      "learning_objectives": [
+        "Define an irreversible reaction",
+        "Contrast irreversible and reversible reactions",
+        "Give examples of common irreversible reactions"
+      ],
+      "explanation": "An irreversible reaction is a reaction that proceeds essentially completely in one direction only, converting reactants into products, without the products spontaneously reacting back to reform the original reactants under normal conditions. Most everyday chemical reactions studied at an introductory level are irreversible, including combustion (e.g. burning a fuel produces carbon dioxide and water, which do not spontaneously recombine to reform the fuel and oxygen), many precipitation reactions, and most acid-metal or acid-carbonate reactions. Irreversible reactions are typically shown with a single, one-way arrow (→) in their chemical equation, in contrast to reversible reactions, which are shown with a double arrow (⇌) and can proceed in both directions simultaneously, eventually reaching a dynamic equilibrium.",
+      "key_concepts": ["Proceeds in one direction only, essentially to completion", "Shown with single arrow (→)", "Most everyday/introductory reactions are irreversible"],
+      "definitions": [
+        {"term": "Irreversible reaction", "definition": "A reaction that proceeds essentially completely in one direction, with products that do not spontaneously convert back into the original reactants."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Most industrial reactions designed to produce a specific desired product rely on the reaction being effectively irreversible (or driven strongly towards products) to maximise product yield"],
+      "laboratory_applications": ["Observing that once a metal has fully reacted with excess acid to release hydrogen gas and form a salt solution, the reaction does not spontaneously reverse, confirming its irreversible nature under normal laboratory conditions"],
+      "common_mistakes": ["Assuming a reaction is irreversible simply because it appears to 'go to completion' in a school laboratory setting — some reactions that appear irreversible under everyday conditions are technically reversible to a very small, often undetectable extent, or become clearly reversible under different conditions (e.g. very high temperature)"],
+      "misconceptions": ["Believing all combustion or acid reactions are absolutely and permanently irreversible under any conceivable condition — while these reactions are irreversible for all practical purposes under normal conditions studied at introductory level, the formal distinction between 'irreversible' and 'reversible but strongly favouring one side' can become more nuanced at a more advanced level of study"],
+      "tips": ["Use a single arrow (→) for irreversible reactions and a double arrow (⇌) for reversible reactions consistently in your written equations, as a way of clearly communicating the nature of the reaction"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define an irreversible reaction.", "answer": "A reaction that proceeds essentially completely in one direction, with products that do not spontaneously convert back into the original reactants."},
+          {"question": "State the arrow symbol used to represent an irreversible reaction.", "answer": "A single arrow (→)"}
+        ],
+        "intermediate": [
+          {"question": "Give one example of a common irreversible reaction, and explain why it is classified as irreversible.", "answer": "The combustion of methane (CH4 + 2O2 → CO2 + 2H2O) is irreversible, since the products (carbon dioxide and water) do not spontaneously recombine under normal conditions to reform methane and oxygen gas; the reaction proceeds essentially completely and permanently in the forward direction only."},
+          {"question": "Explain the key difference between an irreversible reaction and a reversible reaction, in terms of the direction(s) the reaction can proceed.", "answer": "An irreversible reaction proceeds essentially completely in one direction only (reactants to products), with the products not spontaneously converting back to reactants under normal conditions. A reversible reaction can proceed in both directions simultaneously (reactants to products, and products back to reactants), eventually reaching a state of dynamic equilibrium where both the forward and reverse reactions continue to occur at equal rates, rather than the reaction going to completion in only one direction."}
+        ],
+        "advanced": [
+          {"question": "Explain why the thermal decomposition of calcium carbonate is generally treated as irreversible under typical laboratory conditions, but can, in principle, be reversed under specific different conditions.", "answer": "Under typical open laboratory conditions, the carbon dioxide gas produced during the thermal decomposition of calcium carbonate (CaCO3 → CaO + CO2) escapes freely into the surrounding atmosphere, meaning there is no significant concentration of carbon dioxide gas remaining in contact with the calcium oxide to drive any reverse reaction; the reaction therefore proceeds to completion in the forward direction only, and is treated as irreversible for practical purposes. However, if the reaction were instead carried out in a sealed container, preventing the carbon dioxide gas from escaping, the reverse reaction (calcium oxide reacting with carbon dioxide to reform calcium carbonate) could occur to a significant extent under suitable conditions, since carbon dioxide would be available in sufficient concentration to drive this reverse process; this illustrates that a reaction's apparent 'irreversibility' can, in some cases, depend on the specific reaction conditions (such as whether a product is able to escape the system) rather than being an absolute, universal property of the chemical reaction itself."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why the reaction between magnesium and dilute hydrochloric acid is classified as irreversible.", "marks": 2, "model_answer": "The reaction proceeds essentially completely in the forward direction, producing magnesium chloride solution and hydrogen gas (1 mark). Under normal conditions, these products do not spontaneously react back together to reform magnesium metal and hydrochloric acid, so the reaction is classified as irreversible (1 mark)."}
+      ],
+      "summary": "Irreversible reactions proceed essentially completely in one direction only, with products that do not spontaneously reform the original reactants under normal conditions, shown with a single arrow (→), in contrast to reversible reactions.",
+      "revision_notes": ["Irreversible: one direction only, products don't reform reactants, single arrow (→)", "Most everyday/introductory reactions (combustion, most acid reactions) are irreversible", "Contrast with reversible reactions (double arrow, ⇌)"],
+      "related_topics": ["Reversible Reactions", "Dynamic Equilibrium", "Types of Chemical Reactions"],
+      "prerequisites": ["Types of Chemical Reactions"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-180-chemical-change",
+      "subject": "Chemistry",
+      "category": "Types of Chemical Reactions",
+      "title": "Chemical Change",
+      "difficulty": "Foundation",
+      "description": "A change in which new substances are formed, with different chemical properties from the original substances, generally difficult to reverse by physical means.",
+      "learning_objectives": [
+        "Define a chemical change",
+        "Identify observable evidence that a chemical change has occurred",
+        "Distinguish chemical change from physical change"
+      ],
+      "explanation": "A chemical change is a change in which one or more new substances, with different chemical properties from the original substance(s), are formed; this occurs because chemical bonds are broken and/or new chemical bonds are formed, rearranging the atoms present into different molecules or compounds. Observable evidence that a chemical change has likely occurred includes: a colour change, formation of a gas (often seen as bubbling or fizzing), formation of a precipitate (an insoluble solid appearing in a solution), a noticeable temperature change (heat being released or absorbed), and, generally, the change being difficult or impossible to reverse by simple physical means (such as evaporation or filtration). Chemical changes are studied through chemical equations, which show the identity and quantity of the new substances (products) formed from the original substances (reactants).",
+      "key_concepts": ["New substance(s) formed, different chemical properties", "Evidence: colour change, gas produced, precipitate formed, temperature change", "Generally difficult to reverse by physical means"],
+      "definitions": [
+        {"term": "Chemical change", "definition": "A change in which one or more new substances, with different chemical properties, are formed from the original substance(s)."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Recognising and confirming chemical change is fundamental to all of chemical synthesis, analysis, and quality control across the chemical industry"],
+      "laboratory_applications": ["Observing and recording evidence of chemical change (colour change, gas production, precipitate formation, temperature change) during practical experiments, to confirm that a chemical reaction has genuinely taken place"],
+      "common_mistakes": ["Assuming any visible change (such as dissolving or melting) automatically indicates a chemical change — many visible changes are actually physical changes, where no new substance is formed and the change can generally be reversed"],
+      "misconceptions": ["Believing a temperature change alone is always sufficient, definitive evidence of a chemical change — some physical changes (such as dissolving certain substances, or changes of state) can also involve a noticeable temperature change, so this single piece of evidence should ideally be considered alongside other indicators when assessing whether a chemical change has genuinely occurred"],
+      "tips": ["When assessing whether a chemical change has occurred, look for MULTIPLE pieces of supporting evidence together (e.g. both a colour change AND a gas being produced) rather than relying on just one single observation alone"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a chemical change.", "answer": "A change in which one or more new substances, with different chemical properties, are formed from the original substance(s)."},
+          {"question": "State one piece of observable evidence that a chemical change may have occurred.", "answer": "Any one of: colour change, gas produced (bubbling/fizzing), precipitate formed, temperature change."}
+        ],
+        "intermediate": [
+          {"question": "A student mixes two colourless solutions and observes bubbles forming and the mixture becoming warm. Explain why this suggests a chemical change has occurred.", "answer": "The formation of bubbles suggests a new gaseous substance has been produced, which was not present in either original solution, and the temperature increase (mixture becoming warm) suggests an exothermic reaction is taking place, releasing energy as new chemical bonds form. Together, these two pieces of evidence strongly suggest a chemical change (a genuine chemical reaction forming new substances), rather than simply a physical mixing process."},
+          {"question": "Explain why melting ice into liquid water is classified as a physical change rather than a chemical change.", "answer": "When ice melts, the substance remains chemically identical throughout (still water, H2O); no new substance with different chemical properties is formed. Only the physical state changes (solid to liquid), and this change is easily reversed by cooling the water back down to reform ice, both of which are characteristic of a physical change rather than a chemical one."}
+        ],
+        "advanced": [
+          {"question": "A student burns a piece of magnesium ribbon and notices the solid ash produced has a greater mass than the original magnesium ribbon. Explain why this observation is still consistent with a chemical change, despite seemingly contradicting the idea that burning simply 'uses up' the original substance.", "answer": "The increase in mass observed is fully consistent with a chemical change, and specifically confirms that a genuine chemical reaction has occurred: magnesium reacts with oxygen gas from the surrounding air, and the oxygen atoms become chemically incorporated into the solid magnesium oxide product formed. Since mass is conserved overall (the law of conservation of mass), the total mass of magnesium oxide produced equals the mass of magnesium originally present PLUS the mass of oxygen that has combined with it from the air; the increase in the mass of the solid observed (comparing only the magnesium reactant to the magnesium oxide product, without accounting for the oxygen gas reactant, which is not usually weighed in a simple observation) is direct evidence that new chemical bonds have formed between magnesium and oxygen atoms, confirming a genuine chemical change has taken place, rather than contradicting it."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Describe two pieces of observable evidence that could indicate a chemical change has occurred when two solutions are mixed.", "marks": 2, "model_answer": "Any two of: a colour change occurs; a gas is produced (seen as bubbling); a precipitate (insoluble solid) forms; a noticeable temperature change occurs (1 mark each, up to 2 marks)."}
+      ],
+      "summary": "A chemical change forms new substances with different chemical properties, generally difficult to reverse, evidenced by colour change, gas production, precipitate formation, or temperature change — ideally confirmed using multiple pieces of evidence together.",
+      "revision_notes": ["Chemical change: new substance(s) formed, different properties, generally hard to reverse", "Evidence: colour change, gas, precipitate, temperature change (look for MULTIPLE clues)", "Mass is always conserved overall (law of conservation of mass)"],
+      "related_topics": ["Physical Change", "Types of Chemical Reactions", "Introduction to Matter"],
+      "prerequisites": ["Introduction to Matter"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-181-physical-change",
+      "subject": "Chemistry",
+      "category": "Types of Chemical Reactions",
+      "title": "Physical Change",
+      "difficulty": "Foundation",
+      "description": "A change in the physical state or appearance of a substance in which no new substance is formed, and which is generally reversible.",
+      "learning_objectives": [
+        "Define a physical change",
+        "Give examples of common physical changes",
+        "Distinguish physical change from chemical change using specific criteria"
+      ],
+      "explanation": "A physical change is a change in the physical state, form, or appearance of a substance in which no new substance is formed; the substance's chemical composition and properties remain unchanged throughout. Common examples include changes of state (melting, freezing, boiling, condensation, sublimation), dissolving a substance in a solvent, and physical processes such as cutting, crushing, or bending a material into a different shape. Physical changes are generally reversible by straightforward physical means (e.g. cooling a liquid back into a solid, or evaporating a solvent to leave behind a dissolved solute), reflecting the fact that no chemical bonds within the substance's molecules have been broken or newly formed — only the arrangement or physical state of the existing, unchanged particles has altered.",
+      "key_concepts": ["No new substance formed, same chemical composition throughout", "Generally reversible by physical means", "Examples: changes of state, dissolving, cutting/crushing/bending"],
+      "definitions": [
+        {"term": "Physical change", "definition": "A change in the physical state, form, or appearance of a substance in which no new substance is formed and the chemical composition remains unchanged."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Physical changes such as distillation, filtration, and crystallisation are exploited throughout separation and purification processes in both laboratory and industrial chemistry"],
+      "laboratory_applications": ["Distinguishing physical changes (e.g. dissolving sugar in water) from chemical changes (e.g. reacting sugar with concentrated sulfuric acid, which chemically decomposes it) through direct observation and testing"],
+      "common_mistakes": ["Assuming dissolving a substance always results in a new, different chemical substance being formed — dissolving is a physical change, since the dissolved solute retains its original chemical identity and composition, simply becoming dispersed among solvent molecules"],
+      "misconceptions": ["Believing physical changes never involve any energy transfer — many physical changes, such as melting or boiling, do involve significant energy transfer (as heat), even though no new chemical substance is formed; energy change alone is not sufficient to distinguish a physical from a chemical change"],
+      "tips": ["The most reliable test for distinguishing a physical from a chemical change: ask whether the original substance could, in principle, be recovered unchanged by a straightforward physical process (like evaporation, filtration, or cooling) — if yes, it is very likely a physical change"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a physical change.", "answer": "A change in the physical state, form, or appearance of a substance in which no new substance is formed and the chemical composition remains unchanged."},
+          {"question": "Give one example of a physical change.", "answer": "Any reasonable example, such as: melting ice, dissolving salt in water, cutting paper, or boiling water."}
+        ],
+        "intermediate": [
+          {"question": "Explain why dissolving sugar in water is classified as a physical change.", "answer": "When sugar dissolves in water, the sugar molecules simply disperse and become surrounded by water molecules, without any change to the sugar's own chemical composition or structure; no new chemical substance is formed. This change can be reversed by physical means (evaporating the water) to recover the original sugar unchanged, confirming it is a physical change rather than a chemical one."},
+          {"question": "Explain why crushing a piece of chalk into powder is a physical change, even though its appearance changes significantly.", "answer": "Crushing chalk changes only its physical form (from a solid lump into many smaller powder particles), without altering its chemical composition; the powder is still chemically identical to the original chalk (calcium carbonate), just physically broken into smaller pieces. No new substance is formed, and the process does not involve breaking or forming any chemical bonds within the calcium carbonate molecules themselves, confirming this is a physical change despite the dramatic change in appearance."}
+        ],
+        "advanced": [
+          {"question": "Discuss why the boiling of water, despite requiring a significant energy input (similar in scale to some chemical reactions), is still classified as a physical change rather than a chemical change.", "answer": "Although boiling water requires a substantial energy input (the latent heat of vaporisation) to overcome the intermolecular hydrogen bonds holding liquid water molecules together, this energy is used specifically to separate existing, unchanged water molecules from one another, converting them from the liquid to the gaseous state; the covalent O-H bonds WITHIN each individual water molecule remain completely intact throughout this process. Since no new chemical substance is formed (water vapour is chemically identical to liquid water, simply in a different physical state, and can be condensed back to liquid water by cooling, reversing the change), the process is classified as a physical change, illustrating that the amount of energy involved in a change is not, by itself, a reliable criterion for distinguishing physical from chemical changes; the key distinguishing factor remains whether a new chemical substance, with different chemical bonding and properties, has actually been formed."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why melting butter is classified as a physical change rather than a chemical change.", "marks": 2, "model_answer": "When butter melts, it changes from a solid to a liquid state, but its chemical composition remains completely unchanged; no new substance is formed (1 mark). This change can also be reversed by cooling the liquid butter back into a solid, confirming it is a physical, not chemical, change (1 mark)."}
+      ],
+      "summary": "A physical change alters a substance's state, form, or appearance without forming any new substance or changing its chemical composition, and is generally reversible by physical means, even though it may involve significant energy transfer.",
+      "revision_notes": ["Physical change: no new substance, same chemical composition throughout", "Generally reversible by physical means (evaporation, cooling, filtration, etc.)", "Energy transfer alone does NOT distinguish physical from chemical change"],
+      "related_topics": ["Chemical Change", "Changes of State and Particle Diagrams", "Solubility"],
+      "prerequisites": ["Chemical Change"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-182-reaction-conditions",
+      "subject": "Chemistry",
+      "category": "Types of Chemical Reactions",
+      "title": "Reaction Conditions",
+      "difficulty": "Higher",
+      "description": "The specific temperature, pressure, catalyst, and other physical parameters required for a chemical reaction to proceed as intended, at an appropriate rate and yield.",
+      "learning_objectives": [
+        "Explain why specifying reaction conditions is essential for describing a reaction fully",
+        "Identify key reaction conditions for common industrial and laboratory reactions",
+        "Explain how changing conditions can affect the products, rate, or yield of a reaction"
+      ],
+      "explanation": "Reaction conditions refer to the specific physical parameters — such as temperature, pressure, concentration, presence of a catalyst, and sometimes light exposure — under which a chemical reaction is carried out; these conditions can significantly affect whether a reaction proceeds at all, how quickly it proceeds (its rate), what specific products are formed, and how much product is obtained (yield, particularly for reversible/equilibrium reactions). Fully and accurately describing a chemical reaction typically requires specifying the relevant reaction conditions alongside the balanced equation, since the same reactants can sometimes give different products, or react at drastically different rates, under different conditions (for example, chlorine reacting with cold, dilute sodium hydroxide gives different products from chlorine reacting with hot, concentrated sodium hydroxide, as seen in Disproportionation).",
+      "key_concepts": ["Temperature, pressure, catalyst, concentration, light as key conditions", "Conditions affect rate, products, and yield", "Same reactants can give different results under different conditions"],
+      "definitions": [
+        {"term": "Reaction conditions", "definition": "The specific physical parameters (such as temperature, pressure, catalyst, concentration) under which a chemical reaction is carried out, affecting its rate, products, or yield."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Precisely specifying and controlling reaction conditions is essential throughout industrial chemistry, since even small changes in temperature, pressure, or catalyst use can significantly affect reaction rate, yield, and economic viability"],
+      "laboratory_applications": ["Systematically varying reaction conditions (e.g. temperature, concentration) in controlled experiments to investigate their effect on reaction rate"],
+      "common_mistakes": ["Omitting reaction conditions when writing or quoting an important chemical equation, when the specific conditions are actually essential for correctly predicting or explaining the products formed"],
+      "misconceptions": ["Believing reaction conditions only affect how FAST a reaction proceeds — for some reactions (e.g. chlorine with sodium hydroxide, or the Haber process equilibrium), reaction conditions can also determine WHICH specific products are formed, or the overall yield achieved, not just the reaction rate"],
+      "tips": ["When learning any important named industrial reaction (Haber process, Contact process, etc.), always learn the specific conditions (temperature, pressure, catalyst) alongside the equation itself, since these details are frequently and specifically examined"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Name three factors commonly considered as 'reaction conditions'.", "answer": "Any three of: temperature, pressure, catalyst, concentration, light."},
+          {"question": "State one reaction condition used in the Haber process.", "answer": "Any one of: approximately 450°C, approximately 200 atmospheres pressure, iron catalyst."}
+        ],
+        "intermediate": [
+          {"question": "Explain why the specific conditions of temperature and concentration matter when reacting chlorine with sodium hydroxide solution.", "answer": "Chlorine reacting with cold, dilute sodium hydroxide produces sodium chloride and sodium chlorate(I) (via disproportionation to oxidation states −1 and +1), while chlorine reacting with hot, concentrated sodium hydroxide instead produces sodium chloride and sodium chlorate(V) (via disproportionation to oxidation states −1 and +5). Since the specific products formed genuinely differ depending on these reaction conditions, both the temperature and concentration must be specified to correctly predict or describe which particular products will actually form."},
+          {"question": "Explain why the conditions used in the Haber process (moderate temperature, high pressure, iron catalyst) represent a compromise, rather than simply using the conditions that would give the highest possible equilibrium yield.", "answer": "The Haber process reaction (N2 + 3H2 ⇌ 2NH3) is exothermic, so, according to Le Chatelier's principle, a LOWER temperature would favour a higher equilibrium yield of ammonia; however, using too low a temperature would make the reaction proceed too slowly to be commercially practical, so a moderate, compromise temperature is used to balance a reasonably high yield against an acceptable reaction rate. Similarly, high pressure favours a higher equilibrium yield (since there are fewer moles of gas on the product side), but very high pressures are extremely costly and hazardous to generate and maintain industrially, so a high, but not maximal, pressure is used as an economic compromise. An iron catalyst is used specifically to increase the reaction rate (without affecting the equilibrium position or yield itself), helping to compensate for the rate limitations imposed by the moderate (rather than very high) temperature chosen."}
+        ],
+        "advanced": [
+          {"question": "Discuss why reaction conditions specified for an industrial process (e.g. the Haber process) often differ from the theoretically 'ideal' conditions that would maximise the equilibrium yield alone, referring to economic and practical factors.", "answer": "Industrial reaction conditions are chosen to optimise overall economic efficiency and practicality, rather than purely maximising theoretical equilibrium yield in isolation. Factors considered include: the cost of generating and safely maintaining extreme conditions (e.g. very high pressure requires expensive, robust equipment and carries greater safety risks); the trade-off between reaction rate and equilibrium yield (e.g. lower temperature may increase exothermic reaction yield but slows the rate unacceptably, requiring a compromise); the cost and availability of catalysts (which increase rate without needing extreme conditions, but come with their own costs, such as catalyst poisoning/replacement over time); and the overall balance between raw material/energy costs, plant capital costs, and the value of the product obtained per unit time. In practice, industrial conditions represent a carefully optimised compromise across all these interacting economic and practical factors, rather than conditions chosen to maximise any single one (such as equilibrium yield) in isolation."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why it is important to specify reaction conditions such as temperature and pressure when describing the Haber process, rather than simply giving the balanced equation alone.", "marks": 3, "model_answer": "The specific conditions used (moderate temperature, high pressure, iron catalyst) directly affect both the rate of the reaction and the equilibrium yield of ammonia obtained (1 mark). Different conditions would give a different balance of rate and yield, so specifying the exact conditions used is essential for accurately describing and reproducing the industrial process, and for understanding why these particular conditions were chosen as an economic compromise (2 marks)."}
+      ],
+      "summary": "Reaction conditions (temperature, pressure, catalyst, concentration, light) can determine a reaction's rate, products, and yield, and must be specified alongside a balanced equation for a full, accurate description; industrial conditions often represent an economic compromise between competing factors.",
+      "revision_notes": ["Key conditions: temperature, pressure, catalyst, concentration, light", "Conditions can affect RATE, PRODUCTS, and YIELD (not just speed)", "Industrial conditions = economic compromise (rate vs yield vs cost)"],
+      "related_topics": ["Rate of Reaction", "Chemical Equilibrium", "Haber Process", "Disproportionation"],
+      "prerequisites": ["Types of Chemical Reactions"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-183-reaction-mechanisms",
+      "subject": "Chemistry",
+      "category": "Types of Chemical Reactions",
+      "title": "Reaction Mechanisms",
+      "difficulty": "Advanced",
+      "description": "The detailed, step-by-step sequence of bond-breaking and bond-forming events by which reactants are converted into products.",
+      "learning_objectives": [
+        "Define a reaction mechanism",
+        "Describe simple reaction mechanisms using curly arrow notation",
+        "Explain the purpose and value of studying reaction mechanisms"
+      ],
+      "explanation": "A reaction mechanism describes the detailed, step-by-step sequence of individual bond-breaking and bond-forming events by which reactants are converted into products, often involving one or more short-lived intermediate species that are not shown in the overall balanced equation. Reaction mechanisms are commonly represented using curly arrow notation, in which a full-headed curly arrow represents the movement of a pair of electrons (e.g. in nucleophilic substitution or electrophilic addition mechanisms in organic chemistry), showing precisely how bonds break and form during each step. Understanding a reaction's mechanism provides deeper insight beyond simply knowing the overall reactants and products, helping to explain why certain reactions occur under specific conditions, predict the likely products of related, unfamiliar reactions, and understand factors affecting reaction rate.",
+      "key_concepts": ["Step-by-step sequence of bond-breaking/forming events", "Curly arrows represent electron pair movement", "May involve short-lived intermediates not shown in the overall equation"],
+      "definitions": [
+        {"term": "Reaction mechanism", "definition": "The detailed, step-by-step sequence of bond-breaking and bond-forming events by which reactants are converted into products."},
+        {"term": "Curly arrow", "definition": "A notation used in reaction mechanisms to represent the movement of a pair of electrons, with the arrow's head pointing towards where the electron pair moves to."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Understanding reaction mechanisms allows chemists to design new synthetic routes, predict the products of untested reactions, and understand the effects of catalysts at a molecular level, essential to drug design and industrial process development"],
+      "laboratory_applications": ["Investigating reaction kinetics (e.g. determining a rate equation) can provide indirect experimental evidence supporting or ruling out a proposed reaction mechanism"],
+      "common_mistakes": ["Confusing an overall balanced equation (showing only the starting reactants and final products) with a reaction mechanism (showing the detailed intermediate steps and electron movements involved)"],
+      "misconceptions": ["Believing a reaction mechanism can be directly 'seen' or observed in a single, simple experiment — mechanisms are generally proposed models, developed and supported through indirect experimental evidence (such as reaction kinetics data, isotopic labelling studies, or detection of proposed intermediates), rather than directly observed step-by-step in real time"],
+      "tips": ["When learning a specific reaction mechanism, focus on understanding the direction and meaning of each curly arrow (representing electron pair movement) at each individual step, rather than simply memorising the overall diagram"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a reaction mechanism.", "answer": "The detailed, step-by-step sequence of bond-breaking and bond-forming events by which reactants are converted into products."},
+          {"question": "State what a curly arrow represents in a reaction mechanism.", "answer": "The movement of a pair of electrons."}
+        ],
+        "intermediate": [
+          {"question": "Explain why a reaction mechanism can involve intermediate species that do not appear in the overall balanced equation.", "answer": "The overall balanced equation only shows the initial reactants and final products of a reaction, representing the net overall chemical change. However, the reaction may proceed via one or more short-lived, often highly reactive intermediate species that form during one step of the mechanism and are then consumed in a subsequent step; since these intermediates are formed and then used up entirely within the overall reaction sequence, they do not appear in the final, simplified overall equation, even though they are a genuine and often essential part of how the reaction actually proceeds at a molecular level."}
+        ],
+        "advanced": [
+          {"question": "Explain how experimental evidence, such as reaction rate data, can be used to support or challenge a proposed reaction mechanism.", "answer": "A proposed reaction mechanism, particularly one involving multiple steps, makes specific, testable predictions about how the overall reaction rate should depend on the concentration of different reactants (encapsulated in the reaction's rate equation, particularly which reactants' concentrations should influence rate, and to what order). If a mechanism proposes that a particular step (often the slowest step, called the rate-determining step) involves only certain specific reactants, this predicts that only the concentration of those specific reactants should significantly affect the overall measured reaction rate; experimentally measuring how the rate actually changes when different reactant concentrations are varied allows chemists to test this prediction, and if the experimental rate equation obtained matches what the proposed mechanism would predict, this provides supporting (though not absolutely definitive) evidence for that specific mechanism; if the experimental result does not match the prediction, the proposed mechanism must be reconsidered or revised."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain what is meant by a 'reaction mechanism', and state one reason why understanding a reaction's mechanism can be useful to chemists.", "marks": 2, "model_answer": "A reaction mechanism is the detailed, step-by-step sequence of bond-breaking and bond-forming events by which reactants are converted into products (1 mark). Understanding a reaction's mechanism can help chemists predict the products of similar, related reactions, or understand and control factors affecting the reaction's rate (1 mark, for any valid, reasonable use)."}
+      ],
+      "summary": "A reaction mechanism describes the detailed, step-by-step sequence of bond-breaking and bond-forming events converting reactants to products, often shown using curly arrows for electron movement, and may involve intermediates not seen in the overall equation.",
+      "revision_notes": ["Reaction mechanism: step-by-step detail (vs overall equation = just start/end)", "Curly arrows = electron pair movement", "May involve short-lived intermediates not shown in overall equation", "Supported/tested via kinetics (rate) data"],
+      "related_topics": ["Nucleophilic Substitution", "Electrophilic Substitution", "Rate Determination"],
+      "prerequisites": ["Covalent Bonding"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-184-chemical-reactivity",
+      "subject": "Chemistry",
+      "category": "Types of Chemical Reactions",
+      "title": "Chemical Reactivity",
+      "difficulty": "Foundation",
+      "description": "The tendency and ease with which a substance undergoes chemical reactions, influenced by factors such as electron configuration and bond strength.",
+      "learning_objectives": [
+        "Define chemical reactivity",
+        "Identify key factors that influence the reactivity of an element or compound",
+        "Compare relative reactivity within a group or across a period"
+      ],
+      "explanation": "Chemical reactivity describes the tendency and ease with which a substance undergoes chemical reactions, and can vary enormously between different elements and compounds. Several key factors influence reactivity: electron configuration (particularly the number and arrangement of valence electrons, and how readily they can be lost, gained, or shared to achieve a stable configuration); the strength of relevant bonds that must be broken or formed during a reaction (e.g. the very strong triple bond in N2 makes it kinetically unreactive, despite many nitrogen-forming reactions being thermodynamically favourable); and, related to electron configuration, an element's position on the periodic table, which allows reactivity trends to be predicted using established patterns (such as increasing metal reactivity down a group, or decreasing halogen reactivity down a group).",
+      "key_concepts": ["Tendency/ease of undergoing chemical reactions", "Key factors: electron configuration, bond strength, periodic position", "Predictable trends across periodic table groups"],
+      "definitions": [
+        {"term": "Chemical reactivity", "definition": "The tendency and ease with which a substance undergoes chemical reactions."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Understanding and predicting chemical reactivity underpins safe handling and storage practices for chemicals, as well as informing material and reagent choices throughout industrial chemistry"],
+      "laboratory_applications": ["Comparing the reactivity of different metals with water or dilute acid as a direct experimental method for establishing or verifying a reactivity series"],
+      "common_mistakes": ["Assuming reactivity is a single, simple, universal property that always behaves the same way for any type of reaction — reactivity can depend heavily on the SPECIFIC reaction or reagent being considered, and an element highly reactive towards one substance may be relatively unreactive towards another"],
+      "misconceptions": ["Believing chemical reactivity and thermodynamic favourability (whether a reaction releases or absorbs energy) are the same thing — a reaction can be thermodynamically very favourable (strongly exothermic overall) yet still proceed extremely slowly (kinetically unreactive) if it has a very high activation energy, as seen with nitrogen gas"],
+      "tips": ["When explaining reactivity trends, always link back to the underlying factors: electron configuration/valence electrons, bond strength (especially relevant for kinetic stability), and periodic trends in atomic radius/nuclear charge/shielding"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define chemical reactivity.", "answer": "The tendency and ease with which a substance undergoes chemical reactions."},
+          {"question": "State one factor that influences an element's chemical reactivity.", "answer": "Any one of: electron configuration/valence electrons, relevant bond strength, position on the periodic table."}
+        ],
+        "intermediate": [
+          {"question": "Explain why sodium is more reactive than magnesium, referring to electron configuration.", "answer": "Sodium has only one valence electron, which is relatively easy to lose to achieve a stable, full outer shell, making sodium highly reactive. Magnesium has two valence electrons, both of which must be lost to achieve a stable configuration, requiring somewhat more energy overall (higher combined ionisation energy) than losing sodium's single electron; sodium is therefore generally more reactive than magnesium in reactions involving electron loss."},
+          {"question": "Explain why nitrogen gas is considered relatively unreactive, despite many nitrogen compounds being thermodynamically stable and favourable to form.", "answer": "Nitrogen gas exists as N2 molecules held together by a very strong triple covalent bond, giving the molecule a very high bond energy and therefore a high activation energy for most reactions. This high activation energy makes N2 kinetically very stable and slow to react under normal conditions, even though many specific reactions forming nitrogen compounds (such as ammonia in the Haber process) are thermodynamically favourable (exothermic) overall; nitrogen's low reactivity is a kinetic barrier, not a thermodynamic one."}
+        ],
+        "advanced": [
+          {"question": "Discuss why chemical reactivity cannot always be predicted from a single factor alone, using examples from across the periodic table.", "answer": "Chemical reactivity depends on the interplay of multiple factors, which do not always point in the same direction, making single-factor predictions potentially misleading. For example, considering only electron configuration/valence electrons might suggest nitrogen (5 valence electrons, some tendency to react) should be moderately reactive, but the very high bond energy of its N2 triple bond makes it kinetically very unreactive under normal conditions, illustrating that bond strength (specifically for elements existing as strongly bonded molecules) can override predictions based on electron configuration alone. Similarly, comparing metallic reactivity purely by nuclear charge might suggest heavier, higher-nuclear-charge elements should be less reactive, but the overriding effects of increased atomic radius and shielding down a group (which more than compensate for increased nuclear charge) actually make heavier alkali metals like caesium MORE reactive than lighter ones like lithium. These examples illustrate that a full, accurate understanding and prediction of chemical reactivity generally requires considering multiple interacting factors together — electron configuration, bond strength, atomic radius, nuclear charge, and shielding — rather than relying on any single factor in isolation."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain, referring to atomic structure, why potassium is more reactive than sodium.", "marks": 3, "model_answer": "Potassium is below sodium in Group 1, so it has a greater atomic radius and more electron shielding than sodium (1 mark). This means potassium's single outer-shell electron is held less strongly by the nucleus and is easier to lose than sodium's (1 mark). Since reactivity of Group 1 metals depends on how easily this outer electron can be lost, potassium is more reactive than sodium (1 mark)."}
+      ],
+      "summary": "Chemical reactivity — the tendency of a substance to undergo reactions — depends on electron configuration, relevant bond strength (particularly for kinetic stability), and periodic position, with reactivity trends predictable across groups and periods, though not always from a single factor alone.",
+      "revision_notes": ["Key factors: electron configuration, bond strength, periodic position (radius, nuclear charge, shielding)", "Reactivity ≠ thermodynamic favourability (kinetic vs thermodynamic stability, e.g. N2)", "Multiple factors often interact; single-factor predictions can be misleading"],
+      "related_topics": ["Reactivity Series", "Periodic Trends in Reactivity", "Activation Energy"],
+      "prerequisites": ["Periodic Trends"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-185-reactivity-series",
+      "subject": "Chemistry",
+      "category": "Types of Chemical Reactions",
+      "title": "Reactivity Series",
+      "difficulty": "Foundation",
+      "description": "An ordered list of metals arranged by decreasing reactivity, used to predict the outcomes of displacement reactions and metal extraction methods.",
+      "learning_objectives": [
+        "State the order of the reactivity series for common metals",
+        "Use the reactivity series to predict whether a displacement reaction will occur",
+        "Relate the reactivity series to appropriate metal extraction methods"
+      ],
+      "explanation": "The reactivity series is an ordered list of metals, arranged from most to least reactive, based on experimentally observed reaction patterns such as reaction with water, dilute acid, and displacement reactions with other metal ions. A typical reactivity series (most to least reactive) includes: potassium, sodium, lithium, calcium, magnesium, aluminium, (carbon), zinc, iron, (hydrogen), copper, silver, gold (with carbon and hydrogen, non-metals, often included at specific points for reference and comparison purposes). The reactivity series is used to predict whether a displacement reaction will occur (a metal higher in the series will displace one lower down from its compound) and to determine an appropriate industrial extraction method for a given metal from its ore: metals below carbon in reactivity can typically be extracted by heating with carbon (reduction), while metals above carbon generally require electrolysis, since carbon is not a strong enough reducing agent to extract them.",
+      "key_concepts": ["Ordered list, most to least reactive metals", "Predicts displacement reactions (higher displaces lower)", "Position relative to carbon determines extraction method"],
+      "definitions": [
+        {"term": "Reactivity series", "definition": "An ordered list of metals arranged from most to least reactive, used to predict displacement reactions and appropriate extraction methods."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Using the reactivity series, explain why iron can be extracted from its ore by heating with carbon, but aluminium cannot.",
+          "working": "Iron is below carbon in the reactivity series, while aluminium is above carbon.",
+          "answer": "Since iron is less reactive than carbon, carbon can act as a reducing agent to remove oxygen from iron oxide, extracting the iron; since aluminium is more reactive than carbon, carbon cannot reduce aluminium oxide, so aluminium instead requires electrolysis for extraction."
+        }
+      ],
+      "practical_applications": ["The reactivity series directly informs the choice of industrial metal extraction method (thermal reduction with carbon vs electrolysis), a decision with major economic and energy implications"],
+      "laboratory_applications": ["Establishing or confirming the relative positions of unfamiliar metals in the reactivity series through systematic displacement reaction experiments"],
+      "common_mistakes": ["Forgetting the specific relative positions of carbon and hydrogen within the reactivity series, which are essential reference points for determining extraction methods and predicting certain displacement reactions"],
+      "misconceptions": ["Believing the reactivity series applies only to reactions with water or acid — it is a general ordering of overall metallic reactivity, and is used to predict a wide range of reaction outcomes, including displacement reactions between metals and metal compounds, not just reactions with water/acid specifically"],
+      "tips": ["Learn the reactivity series order thoroughly, including the specific positions of carbon and hydrogen as key reference points: this order underpins predictions across displacement reactions and metal extraction"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Name the most reactive metal commonly included in the reactivity series.", "answer": "Potassium"},
+          {"question": "State which metal extraction method is used for metals below carbon in reactivity.", "answer": "Heating with carbon (thermal reduction)"}
+        ],
+        "intermediate": [
+          {"question": "Using the reactivity series, predict whether a reaction occurs when copper is added to a solution of zinc sulfate, and explain your answer.", "answer": "No reaction occurs, since copper is less reactive than zinc, and a less reactive metal cannot displace a more reactive metal from its compound."},
+          {"question": "Explain why gold is found in the Earth's crust as the native (uncombined) element, unlike more reactive metals such as iron or aluminium.", "answer": "Gold is very low in the reactivity series (highly unreactive), meaning it has very little tendency to react with other elements (such as oxygen) to form compounds. As a result, gold tends to remain in its pure, uncombined (native) metallic form in the Earth's crust, rather than existing as a compound (ore) that requires extraction, unlike more reactive metals such as iron or aluminium, which readily react with oxygen and other elements to form stable compounds (ores) that must be chemically processed to extract the pure metal."}
+        ],
+        "advanced": [
+          {"question": "Explain why the position of a metal in the reactivity series can be used to predict both its likely method of industrial extraction and its resistance to corrosion.", "answer": "A metal's position in the reactivity series reflects its general tendency to lose electrons and react with other substances (including oxygen and water, contributing to corrosion, and with other metal ions in displacement reactions, relevant to extraction from a compound). Highly reactive metals readily lose electrons and react with their environment, making them prone to corrosion (such as reacting readily with oxygen and moisture) and requiring vigorous reduction methods (such as electrolysis, providing a large external energy input to force electrons onto the metal ion) for extraction, since a chemical reducing agent like carbon is not powerful enough to force these very reactive metal ions to gain electrons. Less reactive metals, having less tendency to lose electrons in the first place, are correspondingly more resistant to corrosion (more difficult to oxidise/react with their environment) and can often be extracted using a comparatively milder chemical reducing agent like carbon, since less energy is needed to reduce their ions back to the metal. This consistent underlying link — reactivity reflecting a metal's general tendency towards electron loss and reaction — connects both its extraction requirements and its corrosion resistance to the same fundamental position in the reactivity series."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Using the reactivity series, explain why aluminium is extracted by electrolysis, while iron is extracted by heating with carbon.", "marks": 3, "model_answer": "Aluminium is more reactive than carbon in the reactivity series, so carbon is not a strong enough reducing agent to extract aluminium from its oxide, meaning electrolysis (providing sufficient energy externally) is required instead (2 marks). Iron is less reactive than carbon, so carbon can act as a reducing agent, removing oxygen from iron oxide to extract the iron, making heating with carbon a suitable, more economical extraction method (1 mark)."}
+      ],
+      "summary": "The reactivity series orders metals from most to least reactive, used to predict displacement reactions (more reactive displaces less reactive) and to determine appropriate extraction methods, with a metal's position relative to carbon determining whether extraction by carbon reduction or electrolysis is required.",
+      "revision_notes": ["Order (most to least reactive, typical): K, Na, Li, Ca, Mg, Al, (C), Zn, Fe, (H), Cu, Ag, Au", "Higher metal displaces lower from its compound", "Below carbon: extract by heating with carbon; above carbon: extract by electrolysis"],
+      "related_topics": ["Displacement Reactions", "Extraction of Metals and the Reactivity Series", "Chemical Reactivity"],
+      "prerequisites": ["Chemical Reactivity", "Displacement Reactions"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-186-predicting-chemical-reactions",
+      "subject": "Chemistry",
+      "category": "Types of Chemical Reactions",
+      "title": "Predicting Chemical Reactions",
+      "difficulty": "Higher",
+      "description": "Using knowledge of reaction types, reactivity trends, and solubility rules together to predict the likely outcome of an unfamiliar chemical reaction.",
+      "learning_objectives": [
+        "Apply reaction type patterns and reactivity/solubility knowledge together to predict reaction outcomes",
+        "Justify a predicted reaction outcome using appropriate chemical reasoning",
+        "Recognise when a reaction is unlikely to occur, and explain why"
+      ],
+      "explanation": "Predicting the outcome of an unfamiliar chemical reaction draws together several strands of chemical knowledge covered throughout this category and related topics: recognising the likely reaction type (combination, decomposition, displacement, double displacement, etc.) from the given reactants; applying relevant reactivity trends (the reactivity series for metals, or the halogen reactivity trend) to determine whether a displacement reaction is feasible; applying solubility rules to predict whether a double displacement reaction will produce a visible precipitate; and considering whether the given conditions (temperature, catalyst, concentration) might favour a particular pathway or product. Successfully predicting reaction outcomes is a valuable, integrative skill that demonstrates genuine conceptual understanding, rather than simple memorisation of specific, previously encountered reactions.",
+      "key_concepts": ["Combines reaction type recognition + reactivity trends + solubility rules + conditions", "Justify predictions with clear chemical reasoning", "Recognise and explain when no reaction is expected"],
+      "definitions": [],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Predict whether a reaction occurs when solid copper is added to dilute hydrochloric acid, and explain your reasoning.",
+          "working": "Copper is below hydrogen in the reactivity series.",
+          "answer": "No reaction occurs, since copper is less reactive than hydrogen and cannot displace hydrogen from the acid to form a salt and hydrogen gas, unlike more reactive metals (e.g. magnesium or zinc), which readily react with dilute acids."
+        }
+      ],
+      "practical_applications": ["The ability to predict reaction outcomes reliably is essential for chemists designing new syntheses, assessing chemical compatibility and safety, and troubleshooting unexpected experimental results"],
+      "laboratory_applications": ["Making and then experimentally testing predictions about unfamiliar reaction combinations, as a way of developing and consolidating a genuine, transferable understanding of chemical principles rather than memorised facts"],
+      "common_mistakes": ["Attempting to predict a reaction outcome using only one single piece of knowledge (e.g. reactivity series alone) without also considering other potentially relevant factors (such as solubility rules, or specific reaction conditions) that might be equally important for that particular combination of reactants"],
+      "misconceptions": ["Believing that a reaction will always occur whenever two substances are mixed together — many combinations of substances do not react at all under normal conditions (e.g. mixing two soluble salts that do not form any insoluble product, or adding an unreactive metal to a dilute acid), and correctly predicting 'no reaction' with sound justification is just as valid and important a skill as predicting when a reaction does occur"],
+      "tips": ["When predicting an unfamiliar reaction, work through a systematic checklist: What type of substances are these (metal, non-metal, acid, base, salt)? What reaction type pattern might apply? Are relevant reactivity/solubility rules met? Do the given conditions matter?"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State one piece of chemical knowledge useful for predicting whether a displacement reaction will occur.", "answer": "The reactivity series (for metals) or the halogen reactivity trend (for halogens)."},
+          {"question": "State one piece of chemical knowledge useful for predicting whether a visible precipitate forms in a double displacement reaction.", "answer": "Solubility rules."}
+        ],
+        "intermediate": [
+          {"question": "Predict, with reasoning, whether a reaction occurs when solid silver is added to a solution of copper(II) sulfate.", "answer": "No reaction occurs, since silver is less reactive than copper in the reactivity series, and a less reactive metal cannot displace a more reactive metal from its compound."},
+          {"question": "Predict, with reasoning, the products (if any) formed when solutions of potassium nitrate and sodium chloride are mixed.", "answer": "No visible reaction/precipitate occurs. Swapping ions would give potassium chloride and sodium nitrate as potential products, but both of these compounds are soluble in water (following solubility rules for Group 1 salts and nitrates); since neither potential product is insoluble, no precipitate forms, and the ions simply remain mixed together in solution without any observable chemical change."}
+        ],
+        "advanced": [
+          {"question": "Predict, with full reasoning, what would be observed if excess concentrated ammonia solution were added to a solution of iron(III) chloride, drawing on relevant knowledge of transition metal chemistry.", "answer": "Adding ammonia solution to iron(III) chloride solution would be expected to produce a precipitate of iron(III) hydroxide, since ammonia in water partially ionises to produce a small concentration of hydroxide ions (NH3 + H2O ⇌ NH4+ + OH−), and iron(III) hydroxide is insoluble (as with most transition metal hydroxides, following relevant solubility rules). Unlike some other transition metals (such as copper(II) with ammonia), iron(III) hydroxide typically does NOT redissolve in excess ammonia to form a soluble ammine complex under normal conditions, since iron(III) does not readily form a stable ammonia complex analogous to those formed by copper(II); therefore, the reddish-brown precipitate of iron(III) hydroxide would be expected to persist and NOT dissolve even with a large excess of ammonia added, distinguishing this behaviour from other transition metal ions where excess ligand does cause the initial precipitate to redissolve via complex ion formation."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Predict, with full reasoning, whether a reaction occurs when magnesium ribbon is added to a solution of zinc sulfate.", "marks": 3, "model_answer": "A reaction is expected to occur (1 mark). Magnesium is more reactive than zinc in the reactivity series (1 mark), so magnesium can displace zinc from zinc sulfate solution, forming magnesium sulfate solution and depositing solid zinc metal (1 mark)."}
+      ],
+      "summary": "Predicting chemical reactions integrates knowledge of reaction type patterns, reactivity trends (metals and halogens), solubility rules, and reaction conditions, requiring careful, systematic reasoning — including recognising and justifying when no reaction is expected to occur.",
+      "revision_notes": ["Systematic approach: identify substance types → likely reaction pattern → check reactivity/solubility rules → consider conditions", "'No reaction' is a valid, important prediction, with its own justification", "Draws together reactivity series, solubility rules, and reaction type knowledge"],
+      "related_topics": ["Reactivity Series", "Solubility Rules", "Types of Chemical Reactions", "Displacement Reactions"],
+      "prerequisites": ["Reactivity Series", "Solubility Rules"],
+      "diagram_recommendations": [],
+      "images": []
+    }
+  ]
+}

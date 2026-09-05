@@ -1,0 +1,475 @@
+{
+  "batch": "05",
+  "category": "Periodic Table",
+  "topics_in_batch": 8,
+  "topics_completed_so_far": 57,
+  "topics_remaining_total": 446,
+  "schema_note": "Starting this batch, every topic includes an 'images' array per the updated content-generation instructions. Each non-empty entry corresponds to an actual generated SVG file (not a placeholder), saved alongside this JSON. Topics use images: [] where a visual would not add genuine understanding beyond the text/tables already in the topic.",
+  "topics": [
+
+    {
+      "id": "chem-050-development-of-periodic-table",
+      "subject": "Chemistry",
+      "category": "Periodic Table",
+      "title": "Development of the Periodic Table",
+      "difficulty": "Foundation",
+      "description": "How the periodic table evolved from early attempts at classification (Döbereiner, Newlands) through Mendeleev's predictive table to the modern table ordered by atomic number.",
+      "learning_objectives": [
+        "Describe early attempts to classify elements, including Döbereiner's triads and Newlands' octaves",
+        "Explain how Mendeleev's periodic table improved on earlier attempts, including his use of predicted elements",
+        "Explain why the modern periodic table is arranged by atomic number rather than atomic mass"
+      ],
+      "explanation": "Chemists have long sought to organise the elements according to their properties. Johann Döbereiner (1817) noticed that some elements could be grouped into 'triads' of three, where the middle element's properties and atomic mass were roughly the average of the other two (e.g. lithium, sodium, potassium). John Newlands (1864) arranged known elements in order of atomic mass and noticed that similar properties recurred every eighth element, which he called the 'Law of Octaves' — but this pattern broke down for heavier elements, and his table left no gaps for undiscovered elements, leading to it being poorly received at the time. Dmitri Mendeleev (1869) produced a far more successful periodic table by arranging elements in order of atomic mass but leaving gaps for elements not yet discovered, using the pattern of properties to predict their existence and properties (e.g. what he called 'eka-silicon', later confirmed as germanium) with remarkable accuracy — this predictive power was strong evidence in favour of his table. Mendeleev also swapped the order of a few elements where atomic mass order did not match observed chemical properties. Henry Moseley (1913), using X-ray spectroscopy, later showed that arranging elements by atomic number (rather than atomic mass) resolved these remaining inconsistencies completely, giving the modern periodic table its current basis.",
+      "key_concepts": ["Döbereiner's triads", "Newlands' Law of Octaves", "Mendeleev's periodic table and predicted elements", "Moseley's reordering by atomic number"],
+      "definitions": [
+        {"term": "Döbereiner's triads", "definition": "Early groupings of three elements with similar properties, where the middle element's atomic mass was roughly the average of the other two."},
+        {"term": "Law of Octaves", "definition": "Newlands' observation that, when elements are arranged in order of atomic mass, similar chemical properties recur every eighth element."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["The predictive success of Mendeleev's table established the periodic table as a central tool for anticipating the properties of newly discovered or synthesised elements"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Believing Mendeleev arranged his table by atomic number — he used atomic mass, with a few deliberate exceptions where mass order conflicted with observed properties; the atomic number-based table came later, from Moseley's work"],
+      "misconceptions": ["Believing Newlands' Law of Octaves was entirely wrong — it correctly identified a repeating pattern for lighter elements, but failed for heavier elements and did not allow for undiscovered elements, unlike Mendeleev's table"],
+      "tips": ["Remember the key distinguishing feature of Mendeleev's success: he left gaps for undiscovered elements and used his table to make testable predictions, which were later confirmed"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Name the scientist who arranged elements into groups of three called triads.", "answer": "Johann Döbereiner"},
+          {"question": "State what property Mendeleev primarily used to order his periodic table.", "answer": "Atomic mass (with a small number of exceptions based on chemical properties)."}
+        ],
+        "intermediate": [
+          {"question": "Explain why Newlands' Law of Octaves was not widely accepted by other scientists at the time.", "answer": "The pattern of repeating properties every eighth element broke down for elements heavier than calcium, and Newlands did not leave any gaps for elements that had not yet been discovered, forcing some dissimilar elements into the same group to maintain the pattern; this made his table appear inconsistent and less convincing than later, more flexible attempts."},
+          {"question": "Explain why Mendeleev's periodic table was more successful than earlier attempts.", "answer": "Mendeleev left gaps in his table for elements that had not yet been discovered, and used the patterns in his table to predict the properties of these missing elements. When elements matching these predictions (such as germanium) were later discovered with closely matching properties, this gave strong support to his table's underlying organisation, unlike earlier tables which did not make such successful testable predictions."}
+        ],
+        "advanced": [
+          {"question": "Explain how Moseley's work resolved inconsistencies that remained in Mendeleev's table.", "answer": "In a small number of cases, ordering elements strictly by atomic mass (as Mendeleev had done) placed them in a position that did not match their chemical properties (for example, tellurium and iodine, where strict atomic mass order would place iodine before tellurium, despite iodine's properties matching the halogen group better after tellurium). Moseley's X-ray spectroscopy allowed the atomic number (number of protons) of elements to be measured directly, and reordering the table by atomic number instead of atomic mass resolved these remaining inconsistencies, since atomic number more fundamentally determines electron arrangement and therefore chemical properties."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why Mendeleev's periodic table, despite being based on atomic mass, was later shown to sometimes place elements in the 'wrong' order compared to the modern periodic table based on atomic number.", "marks": 3, "model_answer": "Atomic mass depends on both the number of protons and neutrons in an atom, and does not always increase in exactly the same order as atomic number (number of protons), especially where isotopic composition varies between elements (1 mark). In a few cases, ordering by atomic mass placed an element out of step with where its chemical properties would suggest it belongs (1 mark). Ordering by atomic number instead, as shown by Moseley's later work, correctly resolves these cases, since chemical properties are fundamentally determined by electron arrangement, which is directly tied to atomic number (1 mark)."}
+      ],
+      "summary": "The periodic table developed through Döbereiner's triads, Newlands' Law of Octaves, Mendeleev's more successful table (which left gaps and predicted new elements), and finally Moseley's reordering by atomic number, which resolved remaining inconsistencies and gave the modern periodic table its basis.",
+      "revision_notes": ["Döbereiner: triads, middle mass = average of other two", "Newlands: octaves (repeat every 8th, by mass) - broke down for heavier elements", "Mendeleev: gaps for undiscovered elements, successful predictions (e.g. germanium)", "Moseley: reordered by atomic number, resolved inconsistencies"],
+      "related_topics": ["Modern Periodic Table", "Atomic Number", "History of Atomic Theory (Dalton to Bohr)"],
+      "prerequisites": ["Atomic Number"],
+      "diagram_recommendations": ["[DIAGRAM: Timeline of periodic table development from Döbereiner to the modern table]"],
+      "images": [
+        {
+          "filename": "chem-041-periodic-table-timeline.svg",
+          "type": "process_diagram",
+          "description": "A horizontal timeline with five labelled points: 1817 Döbereiner's Triads, 1864 Newlands' Octaves, 1869 Mendeleev's Periodic Table, 1913 Moseley: Atomic Number Order, and Present: Modern Periodic Table, connected by a single timeline bar with markers.",
+          "purpose": "Helps students see the chronological sequence of scientific contributions and understand that the periodic table was refined progressively through testable, evidence-based revisions rather than appearing all at once.",
+          "placement": "Immediately after the main explanation paragraph, before the key concepts list."
+        }
+      ]
+    },
+
+    {
+      "id": "chem-051-modern-periodic-table",
+      "subject": "Chemistry",
+      "category": "Periodic Table",
+      "title": "Modern Periodic Table",
+      "difficulty": "Foundation",
+      "description": "The layout of the modern periodic table, arranged by increasing atomic number into groups, periods, and s, p, d and f blocks.",
+      "learning_objectives": [
+        "Describe how the modern periodic table is arranged",
+        "Identify the s, p, d and f blocks of the periodic table",
+        "Explain how the table's structure reflects electron configuration"
+      ],
+      "explanation": "The modern periodic table arranges all known elements in order of increasing atomic number, from left to right and top to bottom. Elements are organised into vertical columns called groups (numbered 1–18), which contain elements with similar chemical properties due to having the same number of valence electrons, and horizontal rows called periods (numbered 1–7), where each successive element has one more proton and one more electron, generally added to the same outer shell. The table is also divided into blocks based on which subshell type is being filled by the outermost electrons: the s-block (Groups 1–2, plus helium), the p-block (Groups 13–18), the d-block (the transition metals, Groups 3–12), and the f-block (the lanthanides and actinides, usually shown as a separate two-row strip below the main table to keep the table a manageable width). This layout directly reflects the underlying pattern of electron configuration across the elements.",
+      "key_concepts": ["Arrangement by increasing atomic number", "Groups (columns) and periods (rows)", "s, p, d and f blocks", "Link between table structure and electron configuration"],
+      "definitions": [
+        {"term": "Group", "definition": "A vertical column of the periodic table, containing elements with the same number of valence electrons and similar chemical properties."},
+        {"term": "Period", "definition": "A horizontal row of the periodic table, in which atomic number increases by one across each successive element."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["The periodic table's structure allows chemists to predict unknown properties of elements based on their position, essential in materials science and drug design"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Believing the f-block elements (lanthanides/actinides) belong to a completely separate part of the table unrelated to periods 6 and 7 — they are shown separately purely for layout convenience, but fit into periods 6 and 7 at Group 3"],
+      "misconceptions": ["Assuming groups are numbered purely arbitrarily — group number for main-group elements (1-2, 13-18) directly relates to the number of valence electrons"],
+      "tips": ["To quickly identify an element's block, check which type of subshell its outermost/highest-energy electron occupies in its electron configuration"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State how many periods and how many groups the modern periodic table has.", "answer": "7 periods and 18 groups."},
+          {"question": "Which block of the periodic table contains the transition metals?", "answer": "The d-block."}
+        ],
+        "intermediate": [
+          {"question": "Explain why elements within the same group have similar chemical properties.", "answer": "Elements in the same group have the same number of valence (outer-shell) electrons, and since chemical properties and bonding behaviour are determined primarily by valence electrons, elements in the same group tend to react in similar ways and form similar types of compounds."},
+          {"question": "Explain why the periodic table is arranged in order of atomic number rather than atomic mass.", "answer": "Atomic number (number of protons) directly determines electron configuration in a neutral atom, which in turn determines chemical properties. Ordering by atomic number ensures elements are grouped correctly according to their properties in every case, whereas ordering strictly by atomic mass occasionally placed a small number of elements out of step with their chemical behaviour, historically resolved by Moseley's work."}
+        ],
+        "advanced": [
+          {"question": "Explain why the f-block is conventionally shown as a separate strip below the main body of the periodic table, rather than embedded within periods 6 and 7.", "answer": "If the 14 f-block elements of periods 6 and 7 were shown in their true position (within Group 3, immediately after barium/radium), the periodic table would become extremely wide (32 columns), making it impractical to print or display compactly. By convention, these elements are extracted and shown as a separate two-row strip below the main table, with a reference marker (e.g. '57-71' or '89-103') left in the main table's Group 3 position to indicate where they truly belong within periods 6 and 7."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Describe the overall layout of the modern periodic table, referring to groups, periods and blocks.", "marks": 4, "model_answer": "Elements are arranged in order of increasing atomic number (1 mark), in vertical columns called groups, which contain elements with the same number of valence electrons and similar properties (1 mark), and horizontal rows called periods (1 mark). The table is further divided into s, p, d and f blocks, according to which type of subshell is being filled by the outermost electrons of the elements in that region (1 mark)."}
+      ],
+      "summary": "The modern periodic table arranges elements by increasing atomic number into groups (similar valence electrons/properties) and periods (successive addition of protons/electrons), further organised into s, p, d and f blocks reflecting electron configuration.",
+      "revision_notes": ["Arranged by atomic number", "Groups = columns (similar properties, valence electrons); Periods = rows", "s, p, d, f blocks reflect which subshell is being filled", "f-block shown separately for practicality, but belongs to periods 6-7"],
+      "related_topics": ["Development of the Periodic Table", "Groups and Periods", "Electron Configuration"],
+      "prerequisites": ["Development of the Periodic Table", "Electron Configuration"],
+      "diagram_recommendations": ["[DIAGRAM: Full periodic table layout showing s, p, d and f blocks]"],
+      "images": [
+        {
+          "filename": "chem-042-modern-periodic-table-blocks.svg",
+          "type": "diagram",
+          "description": "A schematic periodic table grid (periods 1-7 as rows, groups 1-18 as columns) with cells colour-coded by block: s-block (orange), p-block (teal), d-block (yellow), and a separate two-row f-block strip (purple) below, with group numbers along the top, period numbers down the left side, and a colour-key legend.",
+          "purpose": "Gives students a clear visual reference for the block structure of the periodic table described in the text, showing exactly which groups/periods correspond to each block and how the f-block relates to periods 6 and 7.",
+          "placement": "After the main explanation paragraph, before the key concepts list."
+        }
+      ]
+    },
+
+    {
+      "id": "chem-052-groups-and-periods",
+      "subject": "Chemistry",
+      "category": "Periodic Table",
+      "title": "Groups and Periods",
+      "difficulty": "Foundation",
+      "description": "How groups (columns) and periods (rows) of the periodic table relate to valence electrons and electron shells respectively.",
+      "learning_objectives": [
+        "Explain what determines an element's group and period",
+        "State the relationship between group number and valence electron count for main group elements",
+        "State the relationship between period number and number of occupied electron shells"
+      ],
+      "explanation": "An element's group (vertical column) is determined by its number of valence electrons: elements in the same group have the same number of outer-shell electrons and consequently very similar chemical properties, since valence electrons govern bonding behaviour. For main group elements, group number relates directly to valence electron count. An element's period (horizontal row) corresponds to the number of electron shells that are occupied, at least partially, in a neutral atom of that element: Period 1 elements have electrons only in shell 1; Period 2 elements have electrons occupying shells 1 and 2; Period 3 elements occupy shells 1, 2 and 3, and so on. Moving across a period, atomic number increases by one at each step, with each additional electron generally being added to the same outer shell, until that shell is full and a new period begins.",
+      "key_concepts": ["Group = same valence electron count", "Period = number of occupied electron shells", "Increasing atomic number across a period, same outer shell"],
+      "definitions": [
+        {"term": "Group", "definition": "A vertical column of the periodic table, containing elements with the same number of valence electrons."},
+        {"term": "Period", "definition": "A horizontal row of the periodic table, corresponding to the number of electron shells occupied in a neutral atom of the elements in that row."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Predict the group and period of an element with electron shell arrangement 2,8,5.",
+          "working": "Number of shells occupied = 3 (Period 3). Number of valence (outer-shell) electrons = 5 (Group 15, since main groups 13-18 have valence electrons = group number − 10).",
+          "answer": "Period 3, Group 15 (this is phosphorus)."
+        }
+      ],
+      "practical_applications": ["Predicting an unfamiliar element's likely chemical behaviour and typical ion charge from its group position"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Confusing group and period — remembering that groups are vertical (columns, similar properties) and periods are horizontal (rows, same number of shells) is essential"],
+      "misconceptions": ["Believing period number relates to valence electrons, or group number relates to number of shells — it is the reverse: group ↔ valence electrons; period ↔ number of shells"],
+      "tips": ["A simple way to remember: 'Period' sounds like a chapter of time passing (rows going across, adding electrons over 'time'/atomic number); 'Group' means things clustered together with something in common (valence electrons)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State which is represented by columns on the periodic table: groups or periods?", "answer": "Groups"},
+          {"question": "An element has electron shell arrangement 2,1. State its period.", "answer": "Period 2 (two shells occupied)."}
+        ],
+        "intermediate": [
+          {"question": "Explain why silicon (electron arrangement 2,8,4) is placed in Period 3, Group 14.", "answer": "Silicon has electrons occupying three shells (Period 3), and has 4 electrons in its outer (valence) shell, corresponding to Group 14 (since group number for groups 13-18 equals valence electrons + 10)."}
+        ],
+        "advanced": [
+          {"question": "Explain why potassium (electron arrangement 2,8,8,1) is placed in Period 4 rather than Period 3, despite its outer shell containing only 1 electron, similar to lithium and sodium.", "answer": "Period number is determined by the number of electron shells that are occupied, not simply by the number of valence electrons. Potassium's electron arrangement shows electrons occupying four separate shells (2,8,8,1), meaning its outermost electron is in the fourth shell, placing it in Period 4. Although potassium shares Group 1 membership with lithium and sodium (all having 1 valence electron, and therefore similar reactivity), its period is determined by how many shells are occupied overall, which is greater than that of lithium (Period 2) or sodium (Period 3)."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "An atom has the electron shell arrangement 2,8,7. State its group and period, explaining your reasoning.", "marks": 3, "model_answer": "Period 3, since three shells are occupied (1 mark). Group 17, since there are 7 valence (outer-shell) electrons, and for groups 13-18, group number = valence electrons + 10 = 7 + 10 = 17 (1 mark). (This is chlorine) (1 mark for correctly identifying/justifying via the relationship)."}
+      ],
+      "summary": "Group (column) corresponds to the number of valence electrons, giving elements in the same group similar chemical properties. Period (row) corresponds to the number of occupied electron shells, with atomic number increasing across a period as the same outer shell fills.",
+      "revision_notes": ["Group = valence electrons (vertical, similar properties)", "Period = number of occupied shells (horizontal)", "Groups 13-18: group number = valence electrons + 10"],
+      "related_topics": ["Modern Periodic Table", "Valence Electrons", "Electron Shells"],
+      "prerequisites": ["Modern Periodic Table", "Valence Electrons"],
+      "diagram_recommendations": ["[DIAGRAM: Periodic table grid with one group column and one period row highlighted in different colours]"],
+      "images": [
+        {
+          "filename": "chem-043-groups-and-periods.svg",
+          "type": "diagram",
+          "description": "A periodic table grid (with the same layout as the block diagram) with Group 1 highlighted in one colour down its full column, and Period 3 highlighted in a different colour across its full row, with a legend explaining that the column represents shared valence electrons and the row represents a shared number of occupied shells.",
+          "purpose": "Visually distinguishes the geometric meaning of 'group' (vertical) from 'period' (horizontal), directly addressing the most common student confusion for this topic.",
+          "placement": "After the worked example, before the practice questions."
+        }
+      ]
+    },
+
+    {
+      "id": "chem-053-metals",
+      "subject": "Chemistry",
+      "category": "Periodic Table",
+      "title": "Metals",
+      "difficulty": "Foundation",
+      "description": "The physical and chemical properties shared by the majority of elements, which are classified as metals, and their position on the periodic table.",
+      "learning_objectives": [
+        "State the typical physical properties of metals",
+        "State the typical chemical properties of metals",
+        "Describe the general position of metals on the periodic table"
+      ],
+      "explanation": "Metals make up the majority of elements and are found on the left and centre of the periodic table (Groups 1–12, plus most of Groups 13–16). Typical physical properties of metals include: being solid at room temperature (except mercury, which is liquid); having a shiny appearance (metallic lustre) when freshly cut or polished; being good conductors of heat and electricity; being malleable (can be hammered into sheets) and ductile (can be drawn into wires); and generally having high melting and boiling points and high density, though there are exceptions (e.g. the alkali metals are relatively soft and have low melting points and densities). Chemically, metals tend to lose electrons to form positive ions (cations) when reacting, since they generally have few valence electrons, and their oxides are typically basic (forming alkaline solutions if soluble in water).",
+      "key_concepts": ["Physical properties: lustre, conductivity, malleability, ductility", "Chemical properties: form cations, basic oxides", "Position on periodic table (left/centre)"],
+      "definitions": [
+        {"term": "Malleable", "definition": "Able to be hammered or pressed into shape without breaking, a typical property of metals."},
+        {"term": "Ductile", "definition": "Able to be drawn out into a thin wire without breaking, a typical property of metals."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Metals' conductivity makes them essential for electrical wiring; malleability and ductility are exploited in construction, manufacturing and jewellery"],
+      "laboratory_applications": ["Testing electrical conductivity of a sample to help classify it as metallic or non-metallic", "Observing lustre, malleability and reaction with dilute acid as simple classification tests"],
+      "common_mistakes": ["Assuming all metals are hard, dense solids with high melting points — alkali metals are soft, low density, and have relatively low melting points compared to other metals"],
+      "misconceptions": ["Believing mercury being liquid at room temperature disqualifies it from being a metal — it is still classified as a metal based on its other physical and chemical properties, despite this one atypical physical property"],
+      "tips": ["Remember metals tend to LOSE electrons to form POSITIVE ions; a helpful way to recall this: metals are 'generous', giving away electrons"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Name one physical property typical of metals.", "answer": "Any one of: shiny/lustrous, good conductor of heat/electricity, malleable, ductile, high melting point, solid at room temperature."},
+          {"question": "State whether metal oxides are typically acidic or basic.", "answer": "Basic"}
+        ],
+        "intermediate": [
+          {"question": "Explain why metals are good conductors of electricity, referring to their structure.", "answer": "Metals have delocalised outer-shell electrons that are free to move throughout the metallic structure (see Metallic Bonding). When a voltage is applied, these free, mobile electrons can flow through the metal, carrying electric charge and making metals good conductors of electricity."},
+          {"question": "Explain why metals typically form positive ions when they react.", "answer": "Metal atoms generally have few valence electrons (1-3 for most metals) and relatively low ionisation energies compared to non-metals, so it is energetically favourable for them to lose these outer electrons, forming positive ions with a stable, full outer shell (usually matching the nearest noble gas configuration)."}
+        ],
+        "advanced": [
+          {"question": "Explain why the alkali metals (Group 1), although classified as metals, do not display all the 'typical' physical properties associated with metals such as transition metals.", "answer": "The alkali metals have only one, weakly held valence electron per atom and relatively large atomic radii for metals in general, which results in weaker metallic bonding (fewer delocalised electrons per atom, and larger ion cores spaced further apart) compared to transition metals. This weaker metallic bonding gives the alkali metals unusually low melting points, low densities, and softness compared to most other metals, even though they still share other core metallic characteristics such as high electrical conductivity and forming positive ions."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Describe two physical properties and one chemical property typical of metals.", "marks": 3, "model_answer": "Physical properties (any two): good conductor of electricity/heat; malleable; ductile; shiny/lustrous; high melting point (1 mark each, up to 2 marks). Chemical property: metals typically lose electrons to form positive ions (cations) when they react (1 mark)."}
+      ],
+      "summary": "Metals, found on the left and centre of the periodic table, are typically shiny, malleable, ductile, and good conductors of heat and electricity, and chemically tend to lose electrons to form positive ions with basic oxides.",
+      "revision_notes": ["Physical: lustrous, malleable, ductile, conductive, mostly high melting point/density (exceptions: alkali metals, mercury)", "Chemical: lose electrons → cations; oxides are basic", "Position: left/centre of periodic table"],
+      "related_topics": ["Non-Metals", "Metalloids", "Metallic Bonding", "Metallic Character"],
+      "prerequisites": ["Groups and Periods"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-054-non-metals",
+      "subject": "Chemistry",
+      "category": "Periodic Table",
+      "title": "Non-Metals",
+      "difficulty": "Foundation",
+      "description": "The physical and chemical properties shared by non-metal elements, found on the right of the periodic table.",
+      "learning_objectives": [
+        "State the typical physical properties of non-metals",
+        "State the typical chemical properties of non-metals",
+        "Describe the general position of non-metals on the periodic table"
+      ],
+      "explanation": "Non-metals are found on the upper right of the periodic table (Groups 14–18, mostly, plus hydrogen). They typically show physical properties opposite to those of metals: many are gases or brittle, dull solids at room temperature (with bromine being the one liquid non-metal); they are generally poor conductors of heat and electricity (with the notable exception of graphite, a form of carbon); and they usually have lower melting and boiling points and lower densities than metals, though there are exceptions such as diamond and graphite (forms of carbon), which have very high melting points due to their giant covalent structures. Chemically, non-metals tend to gain electrons to form negative ions (anions) when reacting with metals, or share electrons in covalent bonds when reacting with other non-metals, since they generally have many valence electrons (needing only a few more to complete an outer shell). Non-metal oxides are typically acidic.",
+      "key_concepts": ["Physical properties: often gases/brittle solids, poor conductors (except graphite)", "Chemical properties: form anions or covalent bonds, acidic oxides", "Position on periodic table (upper right)"],
+      "definitions": [
+        {"term": "Non-metal", "definition": "An element typically found on the upper right of the periodic table, generally a poor conductor of heat/electricity, forming negative ions or covalent bonds, with acidic oxides."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Non-metals such as oxygen, nitrogen and carbon are fundamental to biological molecules and respiration; silicon (a metalloid, chemically similar in some respects) and non-metals underpin semiconductor technology"],
+      "laboratory_applications": ["Testing electrical conductivity and observing brittleness to help classify a sample as a non-metal"],
+      "common_mistakes": ["Assuming all non-metals are poor conductors without exception — graphite (a form of carbon) is a good electrical conductor due to its delocalised electrons, despite being a non-metal"],
+      "misconceptions": ["Believing all non-metals have low melting points — giant covalent structures such as diamond and graphite (both forms of carbon, a non-metal) have extremely high melting points due to many strong covalent bonds throughout their structure"],
+      "tips": ["Remember non-metals tend to GAIN electrons to form NEGATIVE ions; a helpful way to recall this: non-metals are 'greedy', taking electrons"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Name one physical property typical of non-metals.", "answer": "Any one of: dull appearance, brittle (if solid), poor conductor of heat/electricity, often gas or low melting point solid at room temperature."},
+          {"question": "State whether non-metal oxides are typically acidic or basic.", "answer": "Acidic"}
+        ],
+        "intermediate": [
+          {"question": "Explain why non-metals typically form negative ions when reacting with metals.", "answer": "Non-metal atoms generally have many valence electrons (5-7 for most reactive non-metals) and high electronegativity, so it is energetically favourable for them to gain a small number of additional electrons, achieving a stable, full outer shell (usually matching the nearest noble gas configuration), forming negative ions."},
+          {"question": "Explain why graphite, unlike most non-metals, conducts electricity.", "answer": "Graphite has a giant covalent layered structure in which each carbon atom forms only three covalent bonds, leaving one delocalised electron per atom free to move within the layers. These delocalised electrons can carry electric charge, allowing graphite to conduct electricity, unlike typical non-metals, which do not have delocalised electrons available for conduction."}
+        ],
+        "advanced": [
+          {"question": "Explain why diamond and graphite, both forms of the non-metal carbon, have very high melting points, unlike most other non-metallic elements.", "answer": "Diamond and graphite are giant covalent structures, in which every atom is joined to its neighbours by a continuous, extensive network of strong covalent bonds throughout the entire structure, rather than existing as small, separate molecules. Melting such a structure requires breaking a very large number of strong covalent bonds throughout the lattice, which requires a great deal of energy, giving these forms of carbon very high melting points — in contrast to most other non-metals, which exist as small, discrete molecules (e.g. O2, Cl2) held together by weak intermolecular forces that require far less energy to overcome when melting or boiling."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Describe two physical properties and one chemical property typical of non-metals.", "marks": 3, "model_answer": "Physical properties (any two): dull appearance; brittle if solid; poor conductor of electricity/heat (except graphite); often low melting point/gas at room temperature (1 mark each, up to 2 marks). Chemical property: non-metals typically gain electrons to form negative ions (anions) when reacting with metals, or share electrons in covalent bonds with other non-metals (1 mark)."}
+      ],
+      "summary": "Non-metals, found on the upper right of the periodic table, are typically dull, brittle (if solid) and poor conductors, and chemically tend to gain electrons to form negative ions or share electrons covalently, with acidic oxides. Graphite and diamond are notable exceptions to some typical physical properties.",
+      "revision_notes": ["Physical: dull, brittle, poor conductors (exception: graphite), often low melting point (exceptions: diamond, graphite)", "Chemical: gain electrons → anions, or covalent bonding; oxides are acidic", "Position: upper right of periodic table"],
+      "related_topics": ["Metals", "Metalloids", "Covalent Bonding", "Giant Covalent Structures"],
+      "prerequisites": ["Metals"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-055-metalloids",
+      "subject": "Chemistry",
+      "category": "Periodic Table",
+      "title": "Metalloids",
+      "difficulty": "Foundation",
+      "description": "Elements with properties intermediate between metals and non-metals, located along the 'staircase' line of the periodic table.",
+      "learning_objectives": [
+        "Define a metalloid",
+        "Identify the approximate position of metalloids on the periodic table",
+        "Describe typical intermediate properties of metalloids, including semiconductor behaviour"
+      ],
+      "explanation": "Metalloids (sometimes called semi-metals) are elements with properties intermediate between those of metals and non-metals. They are found along the zig-zag 'staircase' line on the periodic table that separates the metals from the non-metals, roughly running from boron down to astatine/polonium (commonly cited examples include boron, silicon, germanium, arsenic, antimony and tellurium). Physically, metalloids often have some metallic appearance (a degree of lustre) but are typically brittle like non-metals rather than malleable. Chemically, they can display both metallic and non-metallic behaviour depending on the reaction, and their oxides can be amphoteric (able to react as either an acid or a base). A particularly important property of many metalloids, especially silicon and germanium, is that they behave as semiconductors, conducting electricity better than typical non-metals but not as well as metals, and with conductivity that increases with temperature (unlike true metals) — this property makes them essential to modern electronics.",
+      "key_concepts": ["Intermediate metal/non-metal properties", "Position along the periodic table's 'staircase'", "Amphoteric oxides", "Semiconductor behaviour"],
+      "definitions": [
+        {"term": "Metalloid", "definition": "An element with properties intermediate between those of metals and non-metals, typically located along the periodic table's staircase line."},
+        {"term": "Semiconductor", "definition": "A material with electrical conductivity between that of a conductor and an insulator, which typically increases with temperature."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Silicon and germanium, as semiconductors, are fundamental to computer chips, solar cells and other modern electronic devices"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Assuming metalloids form a single, sharply defined group or column — they instead form a diagonal band across several groups, since 'metalloid' describes a category of intermediate properties rather than a strict group of the periodic table"],
+      "misconceptions": ["Believing metalloids simply behave 'a bit like both' in every single property equally — different metalloids lean more towards metallic or non-metallic behaviour depending on the specific property and the element in question"],
+      "tips": ["Common metalloids to remember: boron (B), silicon (Si), germanium (Ge), arsenic (As), antimony (Sb), tellurium (Te) — these sit along the staircase line"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a metalloid.", "answer": "An element with properties intermediate between those of metals and non-metals."},
+          {"question": "Name one common metalloid element.", "answer": "Any one of: boron, silicon, germanium, arsenic, antimony, tellurium."}
+        ],
+        "intermediate": [
+          {"question": "Explain why silicon is described as a semiconductor rather than a conductor or an insulator.", "answer": "Silicon conducts electricity better than typical non-metallic insulators but far less well than true metallic conductors, placing its conductivity in an intermediate range. Unlike metals, whose conductivity decreases as temperature rises, silicon's conductivity increases with temperature, a characteristic behaviour of semiconductors caused by more electrons gaining enough energy to become mobile charge carriers as temperature increases."}
+        ],
+        "advanced": [
+          {"question": "Explain why the metalloids are positioned along a diagonal 'staircase' on the periodic table rather than forming a single vertical group.", "answer": "Metallic character generally decreases across a period (left to right) and increases down a group (top to bottom), due to changes in atomic radius, nuclear charge and shielding affecting how easily electrons are lost or shared. The transition from clearly metallic to clearly non-metallic behaviour therefore happens at a different group position in each successive period (moving further right in lower periods, since metallic character increases down each group), producing a diagonal boundary region — the staircase — along which the intermediate, metalloid elements are found, rather than a single vertical column."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain what is meant by the term 'metalloid' and describe one important practical use of metalloid elements.", "marks": 3, "model_answer": "A metalloid is an element with properties intermediate between those of metals and non-metals, found along the staircase line of the periodic table (1 mark). Metalloids such as silicon and germanium behave as semiconductors, with electrical conductivity between that of a metal and a non-metal, which increases with temperature (1 mark). This semiconductor behaviour makes them essential in the manufacture of computer chips and other electronic devices (1 mark)."}
+      ],
+      "summary": "Metalloids have properties intermediate between metals and non-metals, located along the periodic table's diagonal staircase line. They often show amphoteric oxides and, notably, semiconductor behaviour, making elements like silicon essential to electronics.",
+      "revision_notes": ["Metalloid: intermediate properties, along the staircase", "Examples: B, Si, Ge, As, Sb, Te", "Key property: semiconductor behaviour (conductivity increases with temperature)"],
+      "related_topics": ["Metals", "Non-Metals", "Metallic Character"],
+      "prerequisites": ["Metals", "Non-Metals"],
+      "diagram_recommendations": ["[DIAGRAM: Periodic table p-block region showing the staircase line and metalloid elements highlighted]"],
+      "images": [
+        {
+          "filename": "chem-046-metalloid-staircase.svg",
+          "type": "diagram",
+          "description": "A schematic of the p-block region of the periodic table (periods 2-6, groups 13-18) with cells colour-coded blue for metals, orange for metalloids, and green for non-metals, showing the diagonal staircase pattern the metalloids form, with a legend and group/period labels.",
+          "purpose": "Makes the diagonal, cross-group nature of the metalloid 'staircase' concrete and visible, directly supporting the explanation of why metalloids don't form a single vertical group.",
+          "placement": "After the main explanation paragraph, before the key concepts list."
+        }
+      ]
+    },
+
+    {
+      "id": "chem-056-periodic-trends-overview",
+      "subject": "Chemistry",
+      "category": "Periodic Table",
+      "title": "Periodic Trends",
+      "difficulty": "Higher",
+      "description": "An overview of how key atomic properties — atomic radius, ionisation energy, electronegativity and metallic character — vary systematically across periods and down groups.",
+      "learning_objectives": [
+        "Summarise the general trends in atomic radius, ionisation energy, electronegativity and metallic character across a period and down a group",
+        "Explain these trends in terms of nuclear charge, shielding and atomic radius",
+        "Use periodic trends to compare and predict properties of unfamiliar elements"
+      ],
+      "explanation": "Several important atomic properties show clear, predictable trends across the periodic table, all ultimately explained by the same three underlying factors: nuclear charge (number of protons), electron shielding (from inner-shell electrons), and atomic radius (distance of outer electrons from the nucleus). Across a period (left to right): nuclear charge increases while shielding stays roughly constant (electrons added to the same outer shell), so atomic radius decreases, and both ionisation energy and electronegativity increase, since outer electrons are held more tightly and the atom attracts additional/bonding electrons more strongly. Metallic character decreases across a period, since it becomes less favourable to lose electrons (higher ionisation energy) and more favourable to gain them. Down a group (top to bottom): an additional electron shell is added at each step, substantially increasing both atomic radius and shielding, which outweighs the increase in nuclear charge; as a result, both ionisation energy and electronegativity decrease, and metallic character increases, since it becomes easier to lose the more loosely held, more distant outer electrons.",
+      "key_concepts": ["Nuclear charge, shielding, atomic radius as the three underlying factors", "Across a period: radius decreases; IE and electronegativity increase; metallic character decreases", "Down a group: radius increases; IE and electronegativity decrease; metallic character increases"],
+      "definitions": [
+        {"term": "Periodic trend", "definition": "A predictable pattern in an atomic or chemical property observed across periods or down groups of the periodic table, arising from systematic changes in nuclear charge, shielding and atomic radius."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Without looking up data, predict whether phosphorus (Group 15, Period 3) or nitrogen (Group 15, Period 2) has the higher first ionisation energy, and explain why.",
+          "working": "Both elements are in the same group, so compare down the group: nitrogen is higher up the group (fewer shells, smaller atomic radius, less shielding), while phosphorus is lower down the group (more shells, larger atomic radius, more shielding).",
+          "answer": "Nitrogen has the higher first ionisation energy, because down a group ionisation energy decreases due to increasing atomic radius and shielding outweighing increasing nuclear charge; nitrogen, being higher up the group, has a smaller radius and less shielding, so its outer electrons are more strongly attracted and harder to remove."
+        }
+      ],
+      "practical_applications": ["Periodic trends allow chemists to predict the relative reactivity, bonding behaviour and physical properties of elements without needing individual experimental data for every element"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Trying to memorise trend directions without understanding the underlying cause (nuclear charge, shielding, radius) — this leads to errors when explaining exceptions or applying trends to unfamiliar elements"],
+      "misconceptions": ["Believing all periodic trends are perfectly smooth with no exceptions — small irregularities occur (e.g. in ionisation energy between Groups 2/13 and 15/16) due to subshell stability effects"],
+      "tips": ["Always explain periodic trends using the three linked ideas together: nuclear charge, shielding, and atomic radius — examiners generally want to see the causal chain, not just 'because it's a trend'"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State how atomic radius changes across a period, from left to right.", "answer": "It decreases."},
+          {"question": "State how ionisation energy changes down a group.", "answer": "It decreases."}
+        ],
+        "intermediate": [
+          {"question": "Explain why electronegativity increases across a period.", "answer": "Across a period, nuclear charge increases while electrons are added to the same outer shell, so shielding remains roughly constant; the increasing nuclear charge attracts the shared pair of electrons in a covalent bond more strongly, increasing electronegativity."},
+          {"question": "Explain why metallic character increases down a group.", "answer": "Down a group, atomic radius and shielding both increase, meaning outer-shell electrons are held less strongly by the nucleus (lower effective nuclear charge felt by the outer electron) and are more easily lost. Since metallic character is associated with the tendency to lose electrons, this tendency increases down a group, so metallic character increases."}
+        ],
+        "advanced": [
+          {"question": "Using the three underlying factors of nuclear charge, shielding and atomic radius, explain why ionisation energy increases across a period but decreases down a group, even though nuclear charge increases in both directions.", "answer": "Nuclear charge does increase in both directions, but the shielding effect behaves very differently in each case. Across a period, additional electrons are added to the same outer shell, where they shield each other only weakly, so the increasing nuclear charge is felt strongly by outer electrons, pulling them in and increasing ionisation energy. Down a group, each successive element gains an entire new outer shell, and shielding from the additional inner shells increases substantially; this stronger shielding, combined with the greater distance of the new outer shell from the nucleus, outweighs the simultaneous increase in nuclear charge, so the net attraction on the outer electron actually decreases, and ionisation energy falls."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Using ideas about nuclear charge, shielding and atomic radius, explain the general trend in ionisation energy across Period 3 and down Group 1.", "marks": 4, "model_answer": "Across Period 3: nuclear charge increases while shielding stays roughly constant (electrons added to the same outer shell), so atomic radius decreases and outer electrons are held more strongly, increasing ionisation energy (2 marks). Down Group 1: an additional shell is added at each element, increasing both atomic radius and shielding, which outweighs the increase in nuclear charge, so outer electrons are held less strongly, decreasing ionisation energy (2 marks)."}
+      ],
+      "summary": "Periodic trends in atomic radius, ionisation energy, electronegativity and metallic character all arise from the interplay of nuclear charge, shielding and atomic radius. Across a period, radius falls while ionisation energy and electronegativity rise (metallic character falls); down a group, the opposite pattern holds.",
+      "revision_notes": ["Three underlying factors: nuclear charge, shielding, atomic radius", "Across period: radius↓, IE↑, electronegativity↑, metallic character↓", "Down group: radius↑, IE↓, electronegativity↓, metallic character↑"],
+      "related_topics": ["Ionisation Energy", "Electronegativity", "Atomic Radius", "Metallic Character", "Periodic Trends in Atomic Radius", "Periodic Trends in Ionisation Energy"],
+      "prerequisites": ["Ionisation Energy", "Electronegativity", "Atomic Radius"],
+      "diagram_recommendations": ["[DIAGRAM: Periodic table with arrows showing the direction of increasing atomic radius, ionisation energy and electronegativity]"],
+      "images": [
+        {
+          "filename": "chem-047-periodic-trends-arrows.svg",
+          "type": "diagram",
+          "description": "A schematic periodic table box with a horizontal red arrow labelled 'ionisation energy and electronegativity increase; atomic radius decreases' running left to right, and a vertical blue arrow labelled 'atomic radius increases (ionisation energy, electronegativity decrease)' running top to bottom, with summary text below stating both trend directions explicitly.",
+          "purpose": "Gives students a single at-a-glance visual summary of the four/five key periodic trends and their directions, reinforcing the text explanation of the two trend directions before they attempt the practice questions.",
+          "placement": "After the worked example, before the practice questions."
+        }
+      ]
+    },
+
+    {
+      "id": "chem-057-group-1-elements",
+      "subject": "Chemistry",
+      "category": "Periodic Table",
+      "title": "Group 1 Elements",
+      "difficulty": "Foundation",
+      "description": "The alkali metals — lithium, sodium, potassium, rubidium and caesium — their shared properties, and their increasingly vigorous reactions with water and oxygen down the group.",
+      "learning_objectives": [
+        "State the general physical and chemical properties of Group 1 elements",
+        "Describe and explain the trend in reactivity down Group 1",
+        "Write word and balanced symbol equations for reactions of Group 1 metals with water and oxygen"
+      ],
+      "explanation": "Group 1 elements, the alkali metals (lithium, sodium, potassium, rubidium, caesium, and the rare, highly radioactive francium), all have a single valence electron, giving them very similar chemical properties: they are highly reactive metals, readily losing their one outer electron to form 1+ ions with a stable, full outer shell. Physically, they are soft (can be cut with a knife), have relatively low melting points and low densities compared to most metals (lithium, sodium and potassium are less dense than water), and are typically stored under oil to prevent reaction with moisture and oxygen in the air. Reactivity increases down the group, because atomic radius and shielding increase, making the single outer electron progressively easier to lose. All Group 1 metals react vigorously with water to produce a metal hydroxide solution and hydrogen gas (general equation: 2M(s) + 2H2O(l) → 2MOH(aq) + H2(g)), with the reaction becoming more vigorous (and eventually explosive with potassium and below) further down the group. They also react readily with oxygen in the air to form metal oxides, tarnishing quickly if not stored under oil.",
+      "key_concepts": ["One valence electron per atom", "Soft, low density, low melting point metals", "Increasing reactivity down the group", "General reactions with water and oxygen"],
+      "definitions": [
+        {"term": "Alkali metal", "definition": "An element in Group 1 of the periodic table, characterised by a single valence electron and high reactivity, forming strongly alkaline hydroxide solutions when reacted with water."}
+      ],
+      "formulae": [],
+      "equations": [
+        "General reaction with water: 2M(s) + 2H2O(l) → 2MOH(aq) + H2(g)",
+        "Example: 2Na(s) + 2H2O(l) → 2NaOH(aq) + H2(g)",
+        "General reaction with oxygen: 4M(s) + O2(g) → 2M2O(s)"
+      ],
+      "worked_examples": [
+        {
+          "problem": "Write the balanced symbol equation for the reaction of potassium with water.",
+          "working": "Follow the general Group 1 + water pattern: 2K(s) + 2H2O(l) → 2KOH(aq) + H2(g). Check atoms balance: 2 K, 4 H (2×2 from water) + balances with 2 in KOH + 2 in H2 = 4 H; 2 O balance.",
+          "answer": "2K(s) + 2H2O(l) → 2KOH(aq) + H2(g)"
+        }
+      ],
+      "practical_applications": ["Lithium compounds are used in rechargeable batteries; sodium and potassium compounds are essential for biological nerve function and are widely used in industry (e.g. sodium hydroxide in soap manufacture)"],
+      "laboratory_applications": ["Observing small pieces of lithium, sodium and potassium reacting with water in a trough (behind a safety screen), noting increasing vigour of reaction, fizzing/movement, and, for potassium, ignition of the hydrogen gas produced with a characteristic lilac flame"],
+      "common_mistakes": ["Forgetting to balance the hydrogen and oxygen atoms correctly in the water reaction equation — always double-check by counting atoms of each element on both sides"],
+      "misconceptions": ["Believing Group 1 metals are unreactive because they are 'just metals' — they are in fact among the most reactive of all metals, due to their single, loosely held valence electron"],
+      "tips": ["Remember the pattern of the general word equation: alkali metal + water → metal hydroxide + hydrogen, and that the resulting solution is strongly alkaline (turns universal indicator purple/blue)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the number of valence electrons in a Group 1 element.", "answer": "1"},
+          {"question": "Name the gas produced when a Group 1 metal reacts with water.", "answer": "Hydrogen"}
+        ],
+        "intermediate": [
+          {"question": "Write the word equation for the reaction of lithium with water.", "answer": "Lithium + water → lithium hydroxide + hydrogen"},
+          {"question": "Explain why reactivity increases down Group 1 from lithium to caesium.", "answer": "Down the group, atomic radius and electron shielding both increase, meaning the single outer-shell electron is held less strongly by the nucleus (weaker effective nuclear attraction) with each element further down the group. This makes the outer electron progressively easier to lose, so reactivity increases down the group."}
+        ],
+        "advanced": [
+          {"question": "Explain, in terms of atomic structure, why caesium reacts more vigorously with water than lithium, referring to nuclear charge as well as atomic radius and shielding.", "answer": "Although caesium has a much greater nuclear charge than lithium (55 protons vs 3 protons), caesium's single valence electron occupies a shell much further from the nucleus, and is shielded by many more inner-shell electrons, than lithium's valence electron. The combined effect of the far greater atomic radius and much stronger shielding in caesium outweighs its greater nuclear charge, resulting in a lower effective nuclear charge experienced by caesium's outer electron compared to lithium's. This makes caesium's outer electron considerably easier to remove (lower ionisation energy) than lithium's, so caesium loses its electron more readily and reacts more vigorously with water."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "A small piece of sodium is added to water in a trough. Describe two observations you would expect to see, and write the balanced symbol equation for the reaction.", "marks": 4, "model_answer": "Observations (any two): the sodium moves/fizzes rapidly across the surface of the water; it may melt into a small ball due to the heat released; effervescence/bubbling is seen as hydrogen gas is produced; the sodium may disappear as it reacts completely (2 marks). Equation: 2Na(s) + 2H2O(l) → 2NaOH(aq) + H2(g) (2 marks, 1 for correct formulae, 1 for correct balancing)."}
+      ],
+      "summary": "Group 1 elements (alkali metals) have one valence electron, are soft, low-density, low-melting-point metals, and react vigorously with water to form a metal hydroxide and hydrogen gas, with reactivity increasing down the group due to increasing atomic radius and shielding.",
+      "revision_notes": ["1 valence electron; soft, low density, low melting point", "General equation: 2M + 2H2O → 2MOH + H2", "Reactivity increases down the group (Li < Na < K < Rb < Cs)", "Store under oil; forms strongly alkaline solutions"],
+      "related_topics": ["Alkali Metals", "Periodic Trends", "Reactivity Series", "Group 2 Elements"],
+      "prerequisites": ["Periodic Trends"],
+      "diagram_recommendations": ["[DIAGRAM: Bar chart style diagram showing increasing reactivity of Group 1 metals with water, from lithium to caesium]"],
+      "images": [
+        {
+          "filename": "chem-048-group1-reactivity.svg",
+          "type": "chart",
+          "description": "A simple bar chart with five bars (Li, Na, K, Rb, Cs) of increasing height from left to right, representing increasing vigour of reaction with water, with a horizontal arrow beneath labelled 'Increasing reactivity down the group' and the general equation 2M(s) + 2H2O(l) -> 2MOH(aq) + H2(g) shown below.",
+          "purpose": "Visually reinforces the key trend (increasing reactivity down the group) alongside the general reaction equation, giving students a quick-reference summary distinct from the descriptive text.",
+          "placement": "After the worked example, before the practice questions."
+        }
+      ]
+    }
+  ]
+}

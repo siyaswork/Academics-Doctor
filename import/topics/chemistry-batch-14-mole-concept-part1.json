@@ -1,0 +1,457 @@
+{
+  "batch": "14",
+  "category": "Mole Concept and Quantitative Chemistry",
+  "topics_in_batch": 8,
+  "topics_completed_so_far": 148,
+  "topics_remaining_total": 351,
+  "topics": [
+
+    {
+      "id": "chem-142-relative-molecular-mass",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Relative Molecular Mass",
+      "difficulty": "Foundation",
+      "description": "The sum of the relative atomic masses of all atoms in a molecule, used for quantitative calculations involving molecular compounds.",
+      "learning_objectives": [
+        "Define relative molecular mass",
+        "Calculate relative molecular mass from a molecular formula",
+        "Distinguish relative molecular mass from relative formula mass (for ionic compounds)"
+      ],
+      "explanation": "Relative molecular mass (Mr) is the sum of the relative atomic masses of all the atoms present in a molecule, calculated by adding together the relative atomic mass (Ar) of each element, multiplied by the number of atoms of that element in the molecular formula. For example, the relative molecular mass of carbon dioxide, CO2, is calculated as (1 × 12) + (2 × 16) = 44. Like relative atomic mass, relative molecular mass has no units, since it is a ratio relative to 1/12th the mass of a carbon-12 atom. For ionic compounds, which do not exist as discrete molecules, the equivalent quantity is more accurately called relative formula mass, though it is calculated in exactly the same way, summing the relative atomic masses of all atoms/ions shown in the formula unit.",
+      "key_concepts": ["Sum of relative atomic masses in a molecule", "No units (ratio)", "Relative formula mass: equivalent term for ionic compounds"],
+      "definitions": [
+        {"term": "Relative molecular mass (Mr)", "definition": "The sum of the relative atomic masses of all atoms present in a molecule."},
+        {"term": "Relative formula mass", "definition": "The sum of the relative atomic masses of all atoms/ions in the formula unit of an ionic compound; calculated identically to relative molecular mass."}
+      ],
+      "formulae": [
+        {"name": "Relative molecular mass", "formula": "Mr = Σ (Ar × number of atoms of each element)", "description": "Sum the relative atomic mass of each element, multiplied by how many atoms of that element appear in the formula."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Calculate the relative molecular mass of glucose, C6H12O6 (Ar: C = 12, H = 1, O = 16).",
+          "working": "Mr = (6×12) + (12×1) + (6×16) = 72 + 12 + 96",
+          "answer": "Mr = 180"
+        }
+      ],
+      "practical_applications": ["Relative molecular mass is essential for all mole-based calculations, including determining reacting quantities in industrial and laboratory chemistry"],
+      "laboratory_applications": ["Using relative molecular mass to convert between mass and moles when preparing solutions of a precise, known concentration"],
+      "common_mistakes": ["Forgetting to multiply an element's relative atomic mass by the correct number of atoms shown in the formula, especially for atoms within brackets (e.g. forgetting that Ca(OH)2 has 2 oxygen and 2 hydrogen atoms, not 1 of each)"],
+      "misconceptions": ["Believing relative molecular mass has units (such as grams) — like relative atomic mass, it is a dimensionless ratio and has no units; only molar mass (numerically equal to relative molecular mass) has the unit g/mol"],
+      "tips": ["Work through a formula systematically, element by element, carefully accounting for any subscripts both inside and outside of brackets"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Calculate the relative molecular mass of water, H2O (Ar: H=1, O=16).", "answer": "Mr = (2×1) + 16 = 18"},
+          {"question": "State the units of relative molecular mass.", "answer": "No units (it is a ratio)."}
+        ],
+        "intermediate": [
+          {"question": "Calculate the relative molecular mass of sulfuric acid, H2SO4 (Ar: H=1, S=32, O=16).", "answer": "Mr = (2×1) + 32 + (4×16) = 2 + 32 + 64 = 98"},
+          {"question": "Calculate the relative formula mass of calcium hydroxide, Ca(OH)2 (Ar: Ca=40, O=16, H=1).", "answer": "Mr = 40 + 2×(16+1) = 40 + 2×17 = 40 + 34 = 74"}
+        ],
+        "advanced": [
+          {"question": "Calculate the relative formula mass of hydrated copper(II) sulfate, CuSO4·5H2O (Ar: Cu=64, S=32, O=16, H=1), and explain how the water of crystallisation is included in this calculation.", "answer": "Mr(CuSO4) = 64 + 32 + (4×16) = 64+32+64 = 160. Mr(5H2O) = 5×[(2×1)+16] = 5×18 = 90. Total Mr = 160 + 90 = 250. The water of crystallisation is included by calculating the mass contribution of all five water molecules separately (using the same method as any other part of the formula) and adding this to the mass of the anhydrous (water-free) compound, since the dot notation in a hydrate's formula indicates these water molecules are a genuine, stoichiometric part of the crystal's formula unit and must be included in the total relative formula mass."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Calculate the relative molecular mass of ammonium nitrate, NH4NO3 (Ar: N=14, H=1, O=16), showing your working.", "marks": 2, "model_answer": "Mr = 14 + (4×1) + 14 + (3×16) = 14+4+14+48 (1 mark) = 80 (1 mark)."}
+      ],
+      "summary": "Relative molecular mass (Mr) is the sum of the relative atomic masses of all atoms in a molecule (or formula unit, for ionic compounds, sometimes called relative formula mass), with no units, essential for mole-based calculations.",
+      "revision_notes": ["Mr = Σ(Ar × number of atoms), no units", "Include ALL atoms, including those in brackets and hydrates (e.g. ·5H2O)", "Relative formula mass = same calculation, used for ionic compounds"],
+      "related_topics": ["Relative Atomic Mass", "The Mole", "Molar Mass"],
+      "prerequisites": ["Relative Atomic Mass"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-143-the-mole",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "The Mole",
+      "difficulty": "Foundation",
+      "description": "The SI unit for the amount of substance, defined as containing exactly the Avogadro constant's number of particles.",
+      "learning_objectives": [
+        "Define the mole as a unit of amount of substance",
+        "State the significance of the Avogadro constant",
+        "Explain why the mole is useful for counting extremely large numbers of particles"
+      ],
+      "explanation": "The mole (symbol: mol) is the SI base unit for the amount of substance, defined as the amount containing exactly 6.02 × 10^23 particles (whether atoms, molecules, ions, or another specified type of particle) — this number is known as the Avogadro constant. Because atoms and molecules are so extremely small, any everyday, laboratory-scale sample of a substance contains an enormous number of particles (often trillions of trillions), making it impractical to count individual particles directly; the mole provides a convenient, standardised 'counting unit' (much like a 'dozen' represents a convenient counting unit of 12 items) that allows chemists to relate a measurable, practical quantity (mass) directly to a specific, known number of particles, forming the essential bridge between the microscopic (atomic/molecular) scale and the macroscopic (laboratory) scale in chemistry.",
+      "key_concepts": ["Mole: SI unit for amount of substance", "Avogadro constant: 6.02 × 10^23 particles per mole", "Bridges microscopic (particles) and macroscopic (mass) scales"],
+      "definitions": [
+        {"term": "Mole", "definition": "The SI base unit for amount of substance, defined as containing exactly the Avogadro constant's number of particles (6.02 × 10^23)."},
+        {"term": "Avogadro constant", "definition": "The number of particles in one mole of a substance, approximately 6.02 × 10^23 per mole."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "State the number of water molecules present in exactly 1 mole of water.",
+          "working": "One mole of any substance contains the Avogadro constant's number of particles (in this case, molecules of water).",
+          "answer": "6.02 × 10^23 water molecules"
+        }
+      ],
+      "practical_applications": ["The mole concept underlies all quantitative chemistry, from calculating reagent quantities in laboratory experiments to scaling up chemical reactions for industrial manufacturing"],
+      "laboratory_applications": ["Using the mole concept to convert between mass measurements (using a balance) and the number of particles/moles actually reacting, for any practical calculation involving reacting quantities"],
+      "common_mistakes": ["Confusing the mole (a specific number/counting unit) with mass or volume directly — the mole is a count of particles, and must be converted to/from mass or volume using additional relevant data (molar mass, molar gas volume, etc.)"],
+      "misconceptions": ["Believing the mole only applies to atoms — the mole can be used to count any specified type of particle, including molecules, ions, electrons, or formula units, as long as the type of particle being counted is made clear"],
+      "tips": ["Think of the mole as a 'chemist's dozen' — just as 'one dozen' always means 12 items regardless of what is being counted, 'one mole' always means 6.02 × 10^23 particles, regardless of what specific particle is being counted"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the value of the Avogadro constant.", "answer": "Approximately 6.02 × 10^23 per mole."},
+          {"question": "State what the mole is a unit of.", "answer": "Amount of substance."}
+        ],
+        "intermediate": [
+          {"question": "Explain why the mole is a useful concept in chemistry, given the extremely small size of atoms and molecules.", "answer": "Because atoms and molecules are so incredibly small, any laboratory-scale or everyday sample contains an enormous, impractically large number of individual particles. The mole provides a standard, convenient counting unit (6.02 × 10^23 particles) that allows this vast number of particles to be related directly and practically to a measurable mass, enabling chemists to perform meaningful, practical calculations without needing to count individual atoms or molecules directly."},
+          {"question": "State the number of chloride ions present in 2 moles of sodium chloride.", "answer": "Since each formula unit of NaCl contains one chloride ion, 2 moles of NaCl contains 2 moles of Cl− ions, which is 2 × 6.02×10^23 = 1.204×10^24 chloride ions."}
+        ],
+        "advanced": [
+          {"question": "Explain why the number of moles of ions in a sample of an ionic compound might differ from the number of moles of formula units, using magnesium chloride, MgCl2, as an example.", "answer": "One mole of MgCl2 formula units contains one mole of Mg2+ ions but two moles of Cl− ions, since each formula unit of MgCl2 contains one magnesium ion and two chloride ions. Therefore, while the number of moles of the overall compound (formula units) is a single well-defined quantity, the number of moles of each specific type of ion present can differ from this value and from each other, depending on the exact ratio of ions shown in the compound's formula; care must be taken to specify precisely which particle (formula units, specific ions, or something else) a given number of moles refers to."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain what is meant by 'one mole' of a substance, and state the approximate number of particles this represents.", "marks": 2, "model_answer": "One mole of a substance is the amount that contains a specific, fixed number of particles (atoms, molecules, ions, or another specified particle type) (1 mark). This number is the Avogadro constant, approximately 6.02 × 10^23 particles per mole (1 mark)."}
+      ],
+      "summary": "The mole is the SI unit for amount of substance, defined as containing the Avogadro constant's number of particles (6.02 × 10^23). It provides the essential link between the microscopic scale of atoms/molecules and the macroscopic scale of measurable mass used in the laboratory.",
+      "revision_notes": ["1 mole = 6.02 × 10^23 particles (Avogadro constant)", "Mole = amount of substance (any specified particle type)", "Bridges microscopic particle count and macroscopic (measurable) mass"],
+      "related_topics": ["Avogadro Constant", "Molar Mass", "Number of Particles"],
+      "prerequisites": ["Relative Molecular Mass"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-144-avogadro-constant",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Avogadro Constant",
+      "difficulty": "Foundation",
+      "description": "The number of particles contained in exactly one mole of a substance, approximately 6.02 × 10^23 per mole.",
+      "learning_objectives": [
+        "State the value of the Avogadro constant",
+        "Use the Avogadro constant to calculate the number of particles in a given number of moles",
+        "Explain the historical significance of the Avogadro constant"
+      ],
+      "explanation": "The Avogadro constant (given the symbol NA) is the number of particles (atoms, molecules, ions, or other specified particles) contained in exactly one mole of a substance, with an accepted value of approximately 6.02 × 10^23 per mole. The Avogadro constant links the amount of substance (in moles) directly to the actual number of particles present, via the equation: number of particles = number of moles × Avogadro constant. The constant is named after the Italian scientist Amedeo Avogadro, whose early 19th-century hypothesis (that equal volumes of gases at the same temperature and pressure contain equal numbers of particles) laid important groundwork for the eventual, precise determination of this constant, though Avogadro himself did not calculate its numerical value.",
+      "key_concepts": ["NA ≈ 6.02 × 10^23 per mole", "Number of particles = moles × NA", "Named after Amedeo Avogadro"],
+      "definitions": [],
+      "formulae": [
+        {"name": "Number of particles", "formula": "number of particles = number of moles × Avogadro constant (NA)", "description": "Converts an amount in moles to an actual count of particles."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Calculate the number of molecules present in 0.5 mol of carbon dioxide.",
+          "working": "number of particles = moles × NA = 0.5 × 6.02×10^23",
+          "answer": "3.01 × 10^23 molecules"
+        }
+      ],
+      "practical_applications": ["The Avogadro constant is fundamental to converting between laboratory-measurable quantities (mass, via moles) and the actual number of reacting particles, essential throughout quantitative chemistry"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Using an imprecise or incorrectly remembered value for the Avogadro constant, or making an error in the powers of ten when performing calculations involving it"],
+      "misconceptions": ["Believing Avogadro himself calculated the numerical value of the constant that bears his name — the constant was named in his honour due to his important contributions to molecular theory, but its precise numerical value was determined by later scientists using more advanced experimental techniques"],
+      "tips": ["Always double-check the power of ten (10^23) when performing calculations with the Avogadro constant, since an error here leads to answers that are wrong by many orders of magnitude"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the approximate value of the Avogadro constant.", "answer": "6.02 × 10^23 per mole"},
+          {"question": "Calculate the number of atoms in 2 moles of sodium.", "answer": "2 × 6.02×10^23 = 1.204×10^24 atoms"}
+        ],
+        "intermediate": [
+          {"question": "Calculate the number of molecules in 4.4 g of carbon dioxide (Mr = 44).", "answer": "Moles = 4.4/44 = 0.1 mol. Number of molecules = 0.1 × 6.02×10^23 = 6.02×10^22 molecules."},
+          {"question": "Calculate the number of oxygen atoms present in 0.2 mol of carbon dioxide, CO2.", "answer": "Each CO2 molecule contains 2 oxygen atoms. Moles of O atoms = 0.2 × 2 = 0.4 mol. Number of O atoms = 0.4 × 6.02×10^23 = 2.408×10^23 atoms."}
+        ],
+        "advanced": [
+          {"question": "A sample contains 1.505 × 10^23 molecules of ammonia, NH3. Calculate the mass of this sample (Ar: N=14, H=1).", "answer": "Moles = number of particles / NA = 1.505×10^23 / 6.02×10^23 = 0.25 mol. Mr(NH3) = 14 + (3×1) = 17. Mass = moles × Mr = 0.25 × 17 = 4.25 g."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Calculate the number of hydrogen atoms present in 0.1 mol of methane, CH4.", "marks": 3, "model_answer": "Each methane molecule contains 4 hydrogen atoms (1 mark). Moles of H atoms = 0.1 × 4 = 0.4 mol (1 mark). Number of H atoms = 0.4 × 6.02×10^23 = 2.408×10^23 atoms (1 mark)."}
+      ],
+      "summary": "The Avogadro constant (≈6.02 × 10^23 per mole) is the number of particles in one mole of a substance, providing the direct link between moles and actual particle count, essential throughout quantitative chemistry.",
+      "revision_notes": ["NA ≈ 6.02 × 10^23 per mole", "Number of particles = moles × NA", "Named after Amedeo Avogadro (who did not calculate its precise value himself)"],
+      "related_topics": ["The Mole", "Number of Particles", "Molar Mass"],
+      "prerequisites": ["The Mole"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-145-molar-mass",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Molar Mass",
+      "difficulty": "Foundation",
+      "description": "The mass of one mole of a substance, numerically equal to its relative atomic, molecular, or formula mass, with units of grams per mole.",
+      "learning_objectives": [
+        "Define molar mass",
+        "Calculate molar mass from a chemical formula",
+        "Use molar mass to convert between mass and number of moles"
+      ],
+      "explanation": "Molar mass (symbol M) is the mass of exactly one mole of a substance, expressed in units of grams per mole (g/mol). Numerically, molar mass is identical to the substance's relative atomic mass (for elements), relative molecular mass (for molecular compounds), or relative formula mass (for ionic compounds) — the key difference is that molar mass explicitly carries the unit g/mol, connecting the dimensionless relative mass ratio to an actual, measurable mass. Molar mass is used to convert between a measured mass (in grams) and the corresponding number of moles, using the equation: number of moles = mass ÷ molar mass, one of the most frequently used equations throughout quantitative chemistry.",
+      "key_concepts": ["Molar mass = mass of 1 mole, units g/mol", "Numerically equal to Ar/Mr, but with units", "Converts between mass and moles"],
+      "definitions": [
+        {"term": "Molar mass", "definition": "The mass of one mole of a substance, expressed in grams per mole (g/mol); numerically equal to relative atomic, molecular, or formula mass."}
+      ],
+      "formulae": [
+        {"name": "Moles from mass and molar mass", "formula": "moles = mass (g) / molar mass (g/mol)", "description": "The fundamental equation converting between mass and moles."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Calculate the number of moles in 36 g of water (molar mass = 18 g/mol).",
+          "working": "moles = mass / molar mass = 36 / 18",
+          "answer": "2 mol"
+        }
+      ],
+      "practical_applications": ["Molar mass calculations are used constantly in industrial chemistry and pharmaceutical manufacturing to determine the precise mass of reagents needed for a desired number of moles/reaction scale"],
+      "laboratory_applications": ["Weighing out a specific, calculated mass of a solid reagent to obtain a required number of moles for a practical experiment or to prepare a solution of known concentration"],
+      "common_mistakes": ["Confusing molar mass (units g/mol, a rate/ratio quantity) with the mass of a specific given sample (units g, an actual measured amount) — always keep clear which of these two related but distinct quantities is being referred to or calculated"],
+      "misconceptions": ["Believing molar mass and relative molecular mass are different, unrelated numbers — they are numerically identical, differing only in that molar mass explicitly includes the unit g/mol, converting the dimensionless ratio into an actual, usable mass value"],
+      "tips": ["Remember the rearranged versions of the core equation as needed: moles = mass/molar mass; mass = moles × molar mass; molar mass = mass/moles — practise rearranging fluently for different question types"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the units of molar mass.", "answer": "Grams per mole (g/mol)"},
+          {"question": "Calculate the molar mass of oxygen gas, O2 (Ar of O = 16).", "answer": "32 g/mol"}
+        ],
+        "intermediate": [
+          {"question": "Calculate the number of moles in 11 g of carbon dioxide (Ar: C=12, O=16).", "answer": "Molar mass of CO2 = 12 + (2×16) = 44 g/mol. Moles = 11/44 = 0.25 mol."},
+          {"question": "Calculate the mass of 0.3 mol of calcium carbonate, CaCO3 (Ar: Ca=40, C=12, O=16).", "answer": "Molar mass of CaCO3 = 40+12+(3×16) = 100 g/mol. Mass = moles × molar mass = 0.3 × 100 = 30 g."}
+        ],
+        "advanced": [
+          {"question": "A student has 5.85 g of an unknown compound, which is found to contain 0.1 mol of the substance. Calculate its molar mass and suggest a possible identity for the compound.", "answer": "Molar mass = mass/moles = 5.85/0.1 = 58.5 g/mol. This molar mass matches sodium chloride, NaCl (Mr = 23+35.5 = 58.5), suggesting the compound could be sodium chloride, though other compounds with the same relative formula mass could not be ruled out without further evidence (e.g. physical properties or a specific chemical test)."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Calculate the number of moles of magnesium oxide, MgO, present in 2.0 g of the compound (Ar: Mg=24, O=16), showing your working.", "marks": 2, "model_answer": "Molar mass of MgO = 24+16 = 40 g/mol (1 mark). Moles = mass/molar mass = 2.0/40 = 0.05 mol (1 mark)."}
+      ],
+      "summary": "Molar mass (g/mol) is the mass of one mole of a substance, numerically equal to relative atomic/molecular/formula mass. It is used via moles = mass/molar mass to convert between a measured mass and the corresponding number of moles.",
+      "revision_notes": ["Molar mass (g/mol) = Ar or Mr, numerically, but WITH units", "moles = mass ÷ molar mass (and rearrangements)", "Essential equation used throughout quantitative chemistry"],
+      "related_topics": ["The Mole", "Relative Molecular Mass", "Mole Calculations"],
+      "prerequisites": ["The Mole", "Relative Molecular Mass"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-146-number-of-particles",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Number of Particles",
+      "difficulty": "Higher",
+      "description": "Calculating the actual number of atoms, molecules, or ions in a given sample, using moles and the Avogadro constant.",
+      "learning_objectives": [
+        "Calculate the number of particles from a given mass and molar mass",
+        "Calculate the number of a specific type of atom/ion within a compound sample",
+        "Combine mass, molar mass and the Avogadro constant in multi-step calculations"
+      ],
+      "explanation": "The number of particles (atoms, molecules, or ions) in a sample can be calculated by first converting the given mass to moles (using molar mass: moles = mass ÷ molar mass), then converting moles to number of particles (using the Avogadro constant: number of particles = moles × NA). When calculating the number of a specific type of atom or ion within a compound (rather than the number of whole formula units/molecules), the number of moles of formula units/molecules must first be multiplied by however many of that specific atom/ion are present in each formula unit/molecule, before multiplying by the Avogadro constant.",
+      "key_concepts": ["Two-step process: mass → moles (÷molar mass) → particles (×NA)", "For specific atoms/ions within a compound: multiply moles by the number present per formula unit first"],
+      "definitions": [],
+      "formulae": [
+        {"name": "Number of particles (full process)", "formula": "number of particles = (mass / molar mass) × Avogadro constant", "description": "Combines the mass-to-moles and moles-to-particles conversions into a single calculation."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Calculate the number of oxygen atoms in 9.8 g of sulfuric acid, H2SO4 (Mr = 98).",
+          "working": "Moles of H2SO4 = 9.8/98 = 0.1 mol. Each H2SO4 molecule contains 4 oxygen atoms, so moles of O atoms = 0.1 × 4 = 0.4 mol.",
+          "answer": "Number of O atoms = 0.4 × 6.02×10^23 = 2.408×10^23 atoms"
+        }
+      ],
+      "practical_applications": ["Calculating particle numbers is used in nanotechnology, materials science, and pharmaceutical dosing calculations, where precise particle/molecule counts can be critical"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Forgetting to account for the number of a specific atom/ion present per formula unit when the question asks for a specific atom/ion count, rather than the count of whole molecules/formula units"],
+      "misconceptions": ["Believing 'number of particles' always refers to the number of whole molecules or formula units — a question may instead ask specifically for the number of a particular atom or ion within those molecules/formula units, requiring an additional multiplication step"],
+      "tips": ["Always re-read the question carefully to identify exactly which particle (whole molecule/formula unit, or one specific type of atom/ion within it) is being asked for, before finalising your calculation"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Calculate the number of molecules in 1 mole of any substance.", "answer": "6.02 × 10^23 molecules."},
+          {"question": "State the two main steps needed to calculate the number of particles from a given mass.", "answer": "(1) Convert mass to moles using molar mass; (2) convert moles to number of particles using the Avogadro constant."}
+        ],
+        "intermediate": [
+          {"question": "Calculate the number of formula units of sodium chloride in 11.7 g of NaCl (Mr = 58.5).", "answer": "Moles = 11.7/58.5 = 0.2 mol. Number of formula units = 0.2 × 6.02×10^23 = 1.204×10^23 formula units."},
+          {"question": "Calculate the number of chloride ions present in 11.7 g of sodium chloride, NaCl (Mr = 58.5).", "answer": "Moles of NaCl = 11.7/58.5 = 0.2 mol. Each formula unit contains 1 Cl− ion, so moles of Cl− = 0.2 mol. Number of Cl− ions = 0.2 × 6.02×10^23 = 1.204×10^23 ions."}
+        ],
+        "advanced": [
+          {"question": "Calculate the number of hydrogen atoms present in 4.9 g of hydrated copper(II) sulfate, CuSO4·5H2O (Mr = 250).", "answer": "Moles of CuSO4·5H2O = 4.9/250 = 0.0196 mol (approximately). Each formula unit contains 5 water molecules, each with 2 hydrogen atoms, giving 10 hydrogen atoms per formula unit. Moles of H atoms = 0.0196 × 10 = 0.196 mol. Number of H atoms = 0.196 × 6.02×10^23 ≈ 1.18×10^23 atoms."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Calculate the number of nitrogen atoms present in 8.0 g of ammonium nitrate, NH4NO3 (Mr = 80).", "marks": 3, "model_answer": "Moles of NH4NO3 = 8.0/80 = 0.1 mol (1 mark). Each formula unit contains 2 nitrogen atoms, so moles of N atoms = 0.1 × 2 = 0.2 mol (1 mark). Number of N atoms = 0.2 × 6.02×10^23 = 1.204×10^23 atoms (1 mark)."}
+      ],
+      "summary": "The number of particles in a sample is calculated by first converting mass to moles (using molar mass), then moles to particle number (using the Avogadro constant), with an additional multiplication step needed when counting a specific atom/ion within a compound rather than whole formula units.",
+      "revision_notes": ["Number of particles = (mass ÷ molar mass) × NA", "For specific atom/ion within a compound: multiply moles by atoms/ions per formula unit BEFORE multiplying by NA"],
+      "related_topics": ["Avogadro Constant", "Molar Mass", "The Mole"],
+      "prerequisites": ["Avogadro Constant", "Molar Mass"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-147-mole-calculations",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Mole Calculations",
+      "difficulty": "Higher",
+      "description": "A general overview of the core mole-based calculation methods used throughout quantitative chemistry, connecting mass, moles, particles, and reacting quantities.",
+      "learning_objectives": [
+        "Summarise the key equations relating mass, moles, molar mass and number of particles",
+        "Select and apply the correct mole equation for a given calculation",
+        "Combine multiple mole-based steps within a single multi-part calculation"
+      ],
+      "explanation": "Mole calculations form the quantitative foundation of chemistry, linking together several key equations: moles = mass ÷ molar mass (relating mass and moles); number of particles = moles × Avogadro constant (relating moles and particle count); and, for reactions in solution, moles = concentration × volume (relating moles and solution volume/concentration, covered further under Concentration); and, for gases, moles = volume ÷ molar gas volume (covered under Gas Volumes). Successfully solving mole-based problems typically requires identifying which of these core relationships is relevant to the given data and the quantity being asked for, sometimes requiring several steps combined together (e.g. calculating moles from a given mass, then using a balanced equation's mole ratio to find the moles of a different substance, then converting that back to a mass or volume).",
+      "key_concepts": ["Core equations: moles=mass/Mr; particles=moles×NA; moles=conc×volume; moles=gas volume/molar gas volume", "Selecting the correct equation for the given data", "Multi-step calculations combining several relationships"],
+      "definitions": [],
+      "formulae": [
+        {"name": "Summary of core mole equations", "formula": "moles = mass/molar mass; number of particles = moles × NA; moles = concentration × volume; moles = gas volume / molar gas volume", "description": "The four fundamental relationships used throughout mole-based quantitative chemistry calculations."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Calculate the mass of calcium oxide, CaO, produced when 5 g of calcium carbonate, CaCO3, is fully decomposed, given the equation CaCO3 → CaO + CO2 (Mr: CaCO3 = 100, CaO = 56).",
+          "working": "Moles of CaCO3 = 5/100 = 0.05 mol. From the balanced equation, the mole ratio of CaCO3:CaO is 1:1, so moles of CaO produced = 0.05 mol. Mass of CaO = moles × Mr = 0.05 × 56.",
+          "answer": "Mass of CaO = 2.8 g"
+        }
+      ],
+      "practical_applications": ["Mole calculations underpin virtually all quantitative work in chemistry, from academic laboratory experiments to large-scale industrial chemical manufacturing and quality control"],
+      "laboratory_applications": ["Planning and interpreting quantitative experiments (e.g. titrations, gravimetric analysis) requires fluent application of mole-based calculations throughout"],
+      "common_mistakes": ["Attempting to use mass directly in a mole ratio calculation without first converting to moles — mole ratios from a balanced equation apply specifically to moles, not directly to mass or volume"],
+      "misconceptions": ["Believing every mole calculation follows an identical, single-step process — many realistic calculations require combining two or more of the core equations in sequence, and correctly identifying which equations and in what order is often the main challenge"],
+      "tips": ["When approaching a multi-step mole calculation, write out a clear plan first: identify what you are given, what you need to find, and which sequence of core equations connects them, before starting the numerical working"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the equation relating moles, mass and molar mass.", "answer": "moles = mass ÷ molar mass"},
+          {"question": "State the equation relating moles and number of particles.", "answer": "number of particles = moles × Avogadro constant"}
+        ],
+        "intermediate": [
+          {"question": "Calculate the number of moles of oxygen gas, O2, needed to react completely with 0.4 mol of magnesium, given the equation 2Mg + O2 → 2MgO.", "answer": "From the mole ratio Mg:O2 = 2:1, moles of O2 needed = 0.4 ÷ 2 = 0.2 mol."},
+          {"question": "Calculate the mass of water produced when 0.2 mol of methane undergoes complete combustion, given CH4 + 2O2 → CO2 + 2H2O (Mr of H2O = 18).", "answer": "From the mole ratio CH4:H2O = 1:2, moles of H2O produced = 0.2 × 2 = 0.4 mol. Mass of H2O = 0.4 × 18 = 7.2 g."}
+        ],
+        "advanced": [
+          {"question": "Calculate the maximum mass of iron that can be produced from 32 g of iron(III) oxide, Fe2O3, in the reaction Fe2O3 + 3CO → 2Fe + 3CO2 (Mr: Fe2O3 = 160, Fe = 56).", "answer": "Moles of Fe2O3 = 32/160 = 0.2 mol. From the mole ratio Fe2O3:Fe = 1:2, moles of Fe produced = 0.2 × 2 = 0.4 mol. Mass of Fe = 0.4 × 56 = 22.4 g."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Calculate the mass of carbon dioxide produced when 10 g of calcium carbonate reacts completely with excess hydrochloric acid, given CaCO3 + 2HCl → CaCl2 + H2O + CO2 (Mr: CaCO3=100, CO2=44).", "marks": 3, "model_answer": "Moles of CaCO3 = 10/100 = 0.1 mol (1 mark). From the mole ratio CaCO3:CO2 = 1:1, moles of CO2 produced = 0.1 mol (1 mark). Mass of CO2 = 0.1 × 44 = 4.4 g (1 mark)."}
+      ],
+      "summary": "Mole calculations connect mass, moles, particle number, concentration/volume, and gas volume via a small set of core equations. Solving realistic problems often requires identifying and combining several of these relationships in a logical sequence, especially when using mole ratios from balanced equations.",
+      "revision_notes": ["Core equations: moles=mass/Mr; particles=moles×NA; moles=conc×vol; moles=gas vol/molar gas vol", "Mole ratios from balanced equations apply to MOLES, not mass/volume directly", "Multi-step problems: plan the sequence of equations needed first"],
+      "related_topics": ["Molar Mass", "Mass-Mole Calculations", "Stoichiometric Calculations", "Chemical Equation Stoichiometry"],
+      "prerequisites": ["Molar Mass", "Balancing Equations"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-148-mass-mole-calculations",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Mass-Mole Calculations",
+      "difficulty": "Higher",
+      "description": "Calculations converting between the mass of a substance and the corresponding number of moles, in either direction.",
+      "learning_objectives": [
+        "Convert a given mass to the corresponding number of moles",
+        "Convert a given number of moles to the corresponding mass",
+        "Apply mass-mole conversions within reacting quantity calculations"
+      ],
+      "explanation": "Mass-mole calculations involve converting between a substance's mass (in grams) and its corresponding amount in moles, using the equation moles = mass ÷ molar mass, or its rearranged form, mass = moles × molar mass. These conversions can be performed in either direction depending on which quantity is given and which is required, and are typically the first (or final) step in most reacting-quantity calculations involving balanced chemical equations, since a balanced equation's coefficients directly relate the number of MOLES of each reactant/product, not their masses.",
+      "key_concepts": ["moles = mass ÷ molar mass", "mass = moles × molar mass", "Essential first/final step linking mass data to mole-ratio calculations"],
+      "definitions": [],
+      "formulae": [
+        {"name": "Mass-mole conversion", "formula": "moles = mass (g) / molar mass (g/mol);  mass (g) = moles × molar mass (g/mol)", "description": "The two directions of conversion between mass and moles."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Calculate the mass of 0.25 mol of sodium hydroxide, NaOH (Mr = 40).",
+          "working": "mass = moles × molar mass = 0.25 × 40",
+          "answer": "10 g"
+        }
+      ],
+      "practical_applications": ["Mass-mole conversions are used every time a chemist weighs out a solid reagent to obtain a specific, calculated number of moles for a reaction or solution preparation"],
+      "laboratory_applications": ["Weighing a calculated mass of a solid on a balance to obtain a precise number of moles needed for an experiment"],
+      "common_mistakes": ["Using the wrong direction of the mass-mole equation (e.g. multiplying by molar mass when division was needed, or vice versa) — always double check which quantity (mass or moles) is given and which is required"],
+      "misconceptions": ["Believing mass and moles are interchangeable or directly proportional in the same numerical sense for every substance — the same MASS of two different substances corresponds to different numbers of MOLES, since their molar masses differ; the mass-to-mole conversion is always specific to that substance's molar mass"],
+      "tips": ["Set up mass-mole calculations with a clear triangle or formula reminder: mass = moles × molar mass, so covering 'moles' gives moles = mass/molar mass, and covering 'mass' confirms mass = moles × molar mass"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Calculate the number of moles in 20 g of calcium carbonate, CaCO3 (Mr = 100).", "answer": "20/100 = 0.2 mol"},
+          {"question": "Calculate the mass of 0.1 mol of sodium chloride, NaCl (Mr = 58.5).", "answer": "0.1 × 58.5 = 5.85 g"}
+        ],
+        "intermediate": [
+          {"question": "Calculate the mass of 0.05 mol of iron(III) oxide, Fe2O3 (Mr = 160).", "answer": "mass = 0.05 × 160 = 8 g"},
+          {"question": "A student weighs out 4.9 g of sulfuric acid, H2SO4 (Mr = 98). Calculate the number of moles this represents.", "answer": "moles = 4.9/98 = 0.05 mol"}
+        ],
+        "advanced": [
+          {"question": "A student needs exactly 0.02 mol of copper(II) sulfate pentahydrate, CuSO4·5H2O (Mr = 250), for an experiment. Calculate the mass they should weigh out, and explain why using the pentahydrate's molar mass (rather than the anhydrous CuSO4's molar mass) is essential for this calculation.", "answer": "Mass = moles × molar mass = 0.02 × 250 = 5 g. Using the correct molar mass (250 g/mol, for the hydrated form) is essential because the pentahydrate crystal actually contains the water of crystallisation as an integral part of its structure and mass; using the anhydrous compound's molar mass (160 g/mol) instead would give an incorrect mass, since the student would be weighing out solid CuSO4·5H2O crystals, whose total mass includes the associated water molecules, not just the CuSO4 portion alone."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Calculate the mass of 0.15 mol of magnesium oxide, MgO (Mr = 40), showing your working.", "marks": 2, "model_answer": "mass = moles × molar mass (1 mark) = 0.15 × 40 = 6 g (1 mark)."}
+      ],
+      "summary": "Mass-mole calculations convert between a substance's mass and its number of moles using moles = mass ÷ molar mass (or its rearrangement, mass = moles × molar mass), forming an essential step in most quantitative chemistry calculations.",
+      "revision_notes": ["moles = mass ÷ molar mass; mass = moles × molar mass", "Always molar-mass-specific: same mass ≠ same moles for different substances", "Essential first/last step in reacting-quantity calculations"],
+      "related_topics": ["Molar Mass", "Mole Calculations", "Stoichiometric Calculations"],
+      "prerequisites": ["Molar Mass", "Mole Calculations"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-149-gas-mole-calculations",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Gas-Mole Calculations",
+      "difficulty": "Higher",
+      "description": "Calculations converting between the volume of a gas and the corresponding number of moles, using the molar gas volume.",
+      "learning_objectives": [
+        "State the approximate molar gas volume at room temperature and pressure",
+        "Convert between gas volume and number of moles",
+        "Apply gas-mole conversions within reacting quantity calculations involving gases"
+      ],
+      "explanation": "For gases, the number of moles can be related directly to volume using the molar gas volume, which states that one mole of any gas occupies the same volume under the same conditions of temperature and pressure (a consequence of Avogadro's hypothesis, since equal volumes of gases at the same temperature and pressure contain equal numbers of particles). At room temperature and pressure (RTP, commonly taken as 20°C and 1 atmosphere pressure, though slightly different reference values are used by different sources/specifications), the molar gas volume is approximately 24 dm3 per mole (24,000 cm3/mol). This gives the relationship: moles = gas volume ÷ molar gas volume (with volume and molar gas volume in consistent units, both dm3 or both cm3).",
+      "key_concepts": ["Molar gas volume ≈ 24 dm3/mol at RTP", "Equal moles of any gas occupy equal volume at same temperature/pressure", "moles = gas volume ÷ molar gas volume"],
+      "definitions": [
+        {"term": "Molar gas volume", "definition": "The volume occupied by one mole of any gas under specified conditions of temperature and pressure; approximately 24 dm3/mol at room temperature and pressure."}
+      ],
+      "formulae": [
+        {"name": "Moles of gas from volume", "formula": "moles = gas volume (dm3) / molar gas volume (dm3/mol)", "description": "Converts a gas volume at RTP to the corresponding number of moles."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Calculate the number of moles in 6 dm3 of oxygen gas at room temperature and pressure (molar gas volume = 24 dm3/mol).",
+          "working": "moles = gas volume / molar gas volume = 6/24",
+          "answer": "0.25 mol"
+        }
+      ],
+      "practical_applications": ["Gas-mole calculations are used to determine the volume of gas produced or required in industrial gas-phase reactions and in laboratory gas collection experiments"],
+      "laboratory_applications": ["Measuring the volume of a gas produced in a reaction (e.g. using a gas syringe) and using this to calculate the number of moles of gas evolved, useful for determining reaction rates or confirming stoichiometry"],
+      "common_mistakes": ["Using inconsistent units for gas volume and molar gas volume (e.g. mixing cm3 and dm3 without converting), leading to answers that are incorrect by a factor of 1000"],
+      "misconceptions": ["Believing the molar gas volume value applies equally to solids, liquids, and gases — the fixed molar gas volume relationship applies specifically to gases (where the same number of moles of any gas occupies the same volume, since gas particles are widely spaced and volume is not primarily determined by particle size); solids and liquids do not follow this same simple, universal relationship, since their volumes depend heavily on particle size and packing"],
+      "tips": ["Always check the units carefully: if volume is given in cm3, either convert to dm3 first (divide by 1000) or use a molar gas volume of 24,000 cm3/mol to keep the units consistent"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the approximate molar gas volume at room temperature and pressure.", "answer": "24 dm3/mol (24,000 cm3/mol)"},
+          {"question": "Calculate the number of moles in 48 dm3 of carbon dioxide gas at RTP.", "answer": "48/24 = 2 mol"}
+        ],
+        "intermediate": [
+          {"question": "Calculate the volume, in dm3, occupied by 0.5 mol of hydrogen gas at room temperature and pressure.", "answer": "volume = moles × molar gas volume = 0.5 × 24 = 12 dm3"},
+          {"question": "Calculate the number of moles of gas present in 600 cm3 of nitrogen at RTP.", "answer": "Convert to dm3: 600 cm3 = 0.6 dm3. moles = 0.6/24 = 0.025 mol."}
+        ],
+        "advanced": [
+          {"question": "Calculate the volume of carbon dioxide gas (at RTP) produced when 5 g of calcium carbonate fully reacts with excess dilute hydrochloric acid, given CaCO3 + 2HCl → CaCl2 + H2O + CO2 (Mr of CaCO3 = 100; molar gas volume = 24 dm3/mol).", "answer": "Moles of CaCO3 = 5/100 = 0.05 mol. From the mole ratio CaCO3:CO2 = 1:1, moles of CO2 produced = 0.05 mol. Volume of CO2 = moles × molar gas volume = 0.05 × 24 = 1.2 dm3."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Calculate the volume of hydrogen gas (at RTP) produced when 2.4 g of magnesium reacts completely with excess dilute sulfuric acid, given Mg + H2SO4 → MgSO4 + H2 (Ar of Mg = 24; molar gas volume = 24 dm3/mol).", "marks": 3, "model_answer": "Moles of Mg = 2.4/24 = 0.1 mol (1 mark). From the mole ratio Mg:H2 = 1:1, moles of H2 produced = 0.1 mol (1 mark). Volume of H2 = 0.1 × 24 = 2.4 dm3 (1 mark)."}
+      ],
+      "summary": "Gas-mole calculations use the molar gas volume (≈24 dm3/mol at RTP) to convert between a gas's volume and its number of moles, via moles = gas volume ÷ molar gas volume, essential for reacting-quantity calculations involving gaseous reactants or products.",
+      "revision_notes": ["Molar gas volume ≈ 24 dm3/mol (24,000 cm3/mol) at RTP", "moles = gas volume ÷ molar gas volume (consistent units!)", "Applies specifically to gases; not solids/liquids"],
+      "related_topics": ["Gas Volumes", "Molar Gas Volume", "Ideal Gas Equation", "Mole Calculations"],
+      "prerequisites": ["Mole Calculations"],
+      "diagram_recommendations": [],
+      "images": []
+    }
+  ]
+}

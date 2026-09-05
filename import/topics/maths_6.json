@@ -1,0 +1,2031 @@
+[
+  {
+    "id": 134,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Index Notation",
+    "explanation": "Index notation (also called exponent or power notation) is a compact way of writing repeated multiplication of the same number. In a\u207f, 'a' is called the base and 'n' is called the index, power, or exponent, meaning a is multiplied by itself n times.",
+    "key_concepts": [
+      "a\u207f means a multiplied by itself n times",
+      "'a' is the base, 'n' is the index/power/exponent",
+      "a\u00b9 = a; a\u2070 = 1 (for a\u22600)",
+      "Index notation makes very large or repeated multiplications much easier to write and read"
+    ],
+    "definitions": [
+      {
+        "term": "Base",
+        "definition": "The number being multiplied by itself in index notation, e.g. the 'a' in a\u207f."
+      },
+      {
+        "term": "Index (Exponent/Power)",
+        "definition": "The number indicating how many times the base is multiplied by itself, e.g. the 'n' in a\u207f."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Index notation",
+        "formula": "a\u207f = a \u00d7 a \u00d7 a \u00d7 ... \u00d7 a (n times)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Write 5\u00d75\u00d75\u00d75 using index notation.",
+        "solution_steps": [
+          "5 is multiplied by itself 4 times"
+        ],
+        "answer": "5\u2074"
+      },
+      {
+        "problem": "Evaluate 2\u2075",
+        "solution_steps": [
+          "2\u00d72\u00d72\u00d72\u00d72 = 32"
+        ],
+        "answer": "32"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Write 3\u00d73\u00d73 using index notation.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Evaluate 4\u00b3.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "3\u00b3",
+      "64"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Evaluate 2\u2074 \u00d7 3\u00b2, showing your working.",
+        "marks": 2,
+        "answer": "2\u2074=16, 3\u00b2=9. 16\u00d79=144"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing a\u207f with a\u00d7n (e.g. thinking 2\u2074 = 2\u00d74 = 8, instead of 2\u00d72\u00d72\u00d72=16)",
+      "Miscounting the number of times the base is multiplied by itself"
+    ],
+    "tips": [
+      "Write out the repeated multiplication explicitly if unsure \u2014 this avoids the common 'base times exponent' mistake."
+    ],
+    "summary": "Index notation a\u207f represents repeated multiplication of a base a by itself n times.",
+    "quick_revision_notes": [
+      "a\u207f = a\u00d7a\u00d7...\u00d7a (n times)",
+      "a\u00b9=a, a\u2070=1"
+    ],
+    "related_prerequisite_topics": [
+      "Square Numbers",
+      "Cube Numbers",
+      "Laws of Indices"
+    ],
+    "images": []
+  },
+  {
+    "id": 135,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Laws of Indices",
+    "explanation": "The laws of indices are a set of rules for simplifying expressions involving powers, allowing multiplication, division, and other operations on indices without expanding them fully. These laws apply whenever the bases involved are the same.",
+    "key_concepts": [
+      "Multiplying powers with the same base: add the indices",
+      "Dividing powers with the same base: subtract the indices",
+      "Raising a power to another power: multiply the indices",
+      "A power of a product/quotient distributes to each factor"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Multiplication law",
+        "formula": "a\u1d50 \u00d7 a\u207f = a\u1d50\u207a\u207f",
+        "notes": ""
+      },
+      {
+        "name": "Division law",
+        "formula": "a\u1d50 \u00f7 a\u207f = a\u1d50\u207b\u207f",
+        "notes": ""
+      },
+      {
+        "name": "Power of a power",
+        "formula": "(a\u1d50)\u207f = a\u1d50\u207f",
+        "notes": ""
+      },
+      {
+        "name": "Power of a product",
+        "formula": "(ab)\u207f = a\u207fb\u207f",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Simplify x\u2075 \u00d7 x\u00b3",
+        "solution_steps": [
+          "Same base, add indices: 5+3=8"
+        ],
+        "answer": "x\u2078"
+      },
+      {
+        "problem": "Simplify y\u2079 \u00f7 y\u2074",
+        "solution_steps": [
+          "Same base, subtract indices: 9-4=5"
+        ],
+        "answer": "y\u2075"
+      },
+      {
+        "problem": "Simplify (x\u00b3)\u2074",
+        "solution_steps": [
+          "Multiply indices: 3\u00d74=12"
+        ],
+        "answer": "x\u00b9\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Simplify a\u2076 \u00d7 a\u00b2",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Simplify b\u2077 \u00f7 b\u00b3",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Simplify (x\u00b2)\u2075 \u00d7 x\u00b3",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "a\u2078",
+      "b\u2074",
+      "x\u00b9\u00b3 (x\u00b9\u2070\u00d7x\u00b3=x\u00b9\u00b3)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Simplify (2x\u00b3)\u00b2 \u00d7 x",
+        "marks": 3,
+        "answer": "(2x\u00b3)\u00b2=4x\u2076. 4x\u2076\u00d7x=4x\u2077"
+      }
+    ],
+    "common_mistakes": [
+      "Adding indices when the bases are different (the laws only apply to matching bases)",
+      "Multiplying indices instead of adding them when multiplying powers",
+      "Forgetting to apply a power to EVERY factor inside brackets, e.g. in (ab)\u207f"
+    ],
+    "tips": [
+      "Always check the bases are identical before applying any index law \u2014 these laws never apply across different bases (e.g. x\u2074 and y\u00b3 cannot be combined this way)."
+    ],
+    "summary": "The laws of indices simplify expressions with matching bases: add indices when multiplying, subtract when dividing, multiply when raising a power to a power.",
+    "quick_revision_notes": [
+      "a\u1d50\u00d7a\u207f=a\u1d50\u207a\u207f",
+      "a\u1d50\u00f7a\u207f=a\u1d50\u207b\u207f",
+      "(a\u1d50)\u207f=a\u1d50\u207f",
+      "(ab)\u207f=a\u207fb\u207f"
+    ],
+    "related_prerequisite_topics": [
+      "Index Notation",
+      "Zero Indices",
+      "Negative Indices"
+    ],
+    "images": []
+  },
+  {
+    "id": 136,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Zero Indices",
+    "explanation": "Any non-zero number raised to the power of zero equals 1. This rule follows directly from the division law of indices: since a\u207f\u00f7a\u207f=a\u2070, and any non-zero number divided by itself equals 1, it must be that a\u2070=1.",
+    "key_concepts": [
+      "a\u2070 = 1, for any non-zero base a",
+      "This follows from the division law: a\u207f/a\u207f = a\u207f\u207b\u207f = a\u2070, and a\u207f/a\u207f = 1",
+      "0\u2070 is generally considered undefined or is a special convention-dependent case",
+      "Applies to any base: numbers, variables, or expressions"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Zero index rule",
+        "formula": "a\u2070 = 1 (a \u2260 0)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Evaluate 7\u2070",
+        "solution_steps": [
+          "Any non-zero base raised to the power 0 equals 1"
+        ],
+        "answer": "1"
+      },
+      {
+        "problem": "Simplify (3x\u00b2)\u2070",
+        "solution_steps": [
+          "The entire expression is raised to the power 0, so it equals 1 (assuming x\u22600)"
+        ],
+        "answer": "1"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Evaluate 15\u2070.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Simplify (5x\u00b3y\u00b2)\u2070.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "1",
+      "1 (for x,y\u22600)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Use the division law of indices to explain why x\u2070=1 for x\u22600.",
+        "marks": 2,
+        "answer": "x\u207f\u00f7x\u207f = x\u207f\u207b\u207f = x\u2070. But any non-zero number divided by itself equals 1. So x\u2070 must equal 1."
+      }
+    ],
+    "common_mistakes": [
+      "Thinking a\u2070 = 0 (a common but incorrect assumption)",
+      "Forgetting the rule applies to the WHOLE base including any coefficients (e.g. (5x)\u2070=1, not 5)"
+    ],
+    "tips": [
+      "Any non-zero number or expression raised to the power 0 always equals exactly 1 \u2014 no exceptions (except the special case 0\u2070)."
+    ],
+    "summary": "Any non-zero base raised to the power of zero equals 1, a direct consequence of the division law of indices.",
+    "quick_revision_notes": [
+      "a\u2070=1 (a\u22600)"
+    ],
+    "related_prerequisite_topics": [
+      "Laws of Indices",
+      "Index Notation"
+    ],
+    "images": []
+  },
+  {
+    "id": 137,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Negative Indices",
+    "explanation": "A negative index indicates the reciprocal of the base raised to the corresponding positive index: a\u207b\u207f = 1/a\u207f. This rule follows from extending the division law of indices below zero, and allows very small numbers or fractional relationships to be expressed using index notation.",
+    "key_concepts": [
+      "a\u207b\u207f = 1/a\u207f (the reciprocal of a\u207f)",
+      "A negative index does NOT make the result negative \u2014 it makes it a reciprocal (fraction)",
+      "Follows from the division law: a\u2070\u00f7a\u207f = a\u207b\u207f, and a\u2070\u00f7a\u207f = 1/a\u207f",
+      "Also applies to fractions: (a/b)\u207b\u207f = (b/a)\u207f"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Negative index rule",
+        "formula": "a\u207b\u207f = 1/a\u207f",
+        "notes": ""
+      },
+      {
+        "name": "Negative index of a fraction",
+        "formula": "(a/b)\u207b\u207f = (b/a)\u207f",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Evaluate 2\u207b\u00b3",
+        "solution_steps": [
+          "2\u207b\u00b3 = 1/2\u00b3 = 1/8"
+        ],
+        "answer": "1/8"
+      },
+      {
+        "problem": "Simplify (3/4)\u207b\u00b2",
+        "solution_steps": [
+          "Flip the fraction and make the index positive: (4/3)\u00b2",
+          "= 16/9"
+        ],
+        "answer": "16/9"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Evaluate 5\u207b\u00b2",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Simplify (2/5)\u207b\u00b3",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "1/25",
+      "125/8 (flip to (5/2)\u00b3=125/8)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Simplify x\u2075 \u00d7 x\u207b\u2078, giving your answer with a positive index.",
+        "marks": 2,
+        "answer": "x\u2075\u207b\u2078 = x\u207b\u00b3 = 1/x\u00b3"
+      }
+    ],
+    "common_mistakes": [
+      "Thinking a negative index makes the base value negative (e.g. believing 2\u207b\u00b3=-8 instead of 1/8)",
+      "Forgetting to flip the fraction correctly when the base is itself a fraction"
+    ],
+    "tips": [
+      "A negative index always means 'reciprocal', never 'negative value' \u2014 2\u207b\u00b3 is a small positive fraction (1/8), not -8."
+    ],
+    "summary": "A negative index represents the reciprocal of the corresponding positive power: a\u207b\u207f = 1/a\u207f.",
+    "quick_revision_notes": [
+      "a\u207b\u207f = 1/a\u207f",
+      "(a/b)\u207b\u207f = (b/a)\u207f"
+    ],
+    "related_prerequisite_topics": [
+      "Laws of Indices",
+      "Zero Indices",
+      "Dividing Fractions"
+    ],
+    "images": []
+  },
+  {
+    "id": 138,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Fractional Indices",
+    "explanation": "A fractional index represents a root of the base. The index 1/n means the nth root, while a more general fractional index m/n means taking the nth root and then raising to the power m (or equivalently, raising to the power m first, then taking the nth root). Fractional indices connect the concepts of powers and roots.",
+    "key_concepts": [
+      "a^(1/n) = \u207f\u221aa (the nth root of a)",
+      "a^(m/n) = (\u207f\u221aa)\u1d50 = \u207f\u221a(a\u1d50)",
+      "Fractional indices combine the ideas of roots and powers into a single notation",
+      "The denominator of the fraction is the root; the numerator is the power"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Fractional index (root)",
+        "formula": "a^(1/n) = \u207f\u221aa",
+        "notes": ""
+      },
+      {
+        "name": "Fractional index (general)",
+        "formula": "a^(m/n) = (\u207f\u221aa)\u1d50",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Evaluate 27^(1/3)",
+        "solution_steps": [
+          "This means the cube root of 27",
+          "\u221b27 = 3"
+        ],
+        "answer": "3"
+      },
+      {
+        "problem": "Evaluate 16^(3/4)",
+        "solution_steps": [
+          "Take the 4th root first: 16^(1/4) = 2 (since 2\u2074=16)",
+          "Raise to the power 3: 2\u00b3 = 8"
+        ],
+        "answer": "8"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Evaluate 64^(1/2)",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Evaluate 8^(2/3)",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Evaluate 32^(4/5)",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "8",
+      "4 (\u221b8=2, 2\u00b2=4)",
+      "16 (32^(1/5)=2, 2\u2074=16)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Simplify 25^(3/2), showing your method clearly.",
+        "marks": 3,
+        "answer": "25^(1/2)=5 (square root). 5\u00b3=125"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing which part of the fraction is the root and which is the power",
+      "Attempting to raise to the power first when it's easier/smaller to take the root first"
+    ],
+    "tips": [
+      "It's usually easiest to take the root (denominator) FIRST, then apply the power (numerator) \u2014 this keeps the numbers smaller and more manageable."
+    ],
+    "summary": "Fractional indices represent roots and powers combined: a^(m/n) = (\u207f\u221aa)\u1d50, connecting root and power operations.",
+    "quick_revision_notes": [
+      "a^(1/n)=\u207f\u221aa",
+      "a^(m/n)=(\u207f\u221aa)\u1d50",
+      "Take root first, then power, for easier calculation"
+    ],
+    "related_prerequisite_topics": [
+      "Laws of Indices",
+      "Surds",
+      "Perfect Cubes"
+    ],
+    "images": []
+  },
+  {
+    "id": 139,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Powers of Powers",
+    "explanation": "'Powers of powers' refers to expressions where a power is itself raised to another power, such as (x\u00b3)\u2074. According to the laws of indices, this is simplified by multiplying the two indices together: (a\u1d50)\u207f = a\u1d50\u207f.",
+    "key_concepts": [
+      "(a\u1d50)\u207f = a\u1d50\u207f \u2014 multiply the indices",
+      "Applies even when there are coefficients or multiple factors inside the brackets",
+      "Different from a\u1d50 \u00d7 a\u207f (which ADDS the indices) \u2014 this is a common point of confusion",
+      "Can combine with other index laws in more complex expressions"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Power of a power",
+        "formula": "(a\u1d50)\u207f = a\u1d50\u207f",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Simplify (x\u2074)\u00b3",
+        "solution_steps": [
+          "Multiply the indices: 4\u00d73=12"
+        ],
+        "answer": "x\u00b9\u00b2"
+      },
+      {
+        "problem": "Simplify (2x\u00b2)\u00b3",
+        "solution_steps": [
+          "Apply the power to each factor: 2\u00b3 and (x\u00b2)\u00b3",
+          "2\u00b3=8, (x\u00b2)\u00b3=x\u2076"
+        ],
+        "answer": "8x\u2076"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Simplify (y\u2075)\u00b2",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Simplify (3x\u2074)\u00b2",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Simplify (2x\u00b3)\u00b2 \u00d7 (x\u00b2)\u2074",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "y\u00b9\u2070",
+      "9x\u2078",
+      "4x\u00b9\u2074 (4x\u2076 \u00d7 x\u2078)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Simplify (x\u00b2)\u00b3 \u00f7 (x\u2074), giving your answer in the form x\u207f.",
+        "marks": 3,
+        "answer": "(x\u00b2)\u00b3=x\u2076. x\u2076\u00f7x\u2074=x\u00b2. So the answer is x\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Adding the indices instead of multiplying them (confusing this with the multiplication law)",
+      "Forgetting to apply the outer power to a coefficient inside the brackets"
+    ],
+    "tips": [
+      "Remember: brackets raised to a power means MULTIPLY the indices; separate terms multiplied together means ADD the indices."
+    ],
+    "summary": "When a power is raised to another power, the indices are multiplied: (a\u1d50)\u207f = a\u1d50\u207f, applying to every factor within the brackets.",
+    "quick_revision_notes": [
+      "(a\u1d50)\u207f = a\u1d50\u207f (multiply indices)",
+      "Apply outer power to every factor inside brackets"
+    ],
+    "related_prerequisite_topics": [
+      "Laws of Indices",
+      "Index Notation"
+    ],
+    "images": []
+  },
+  {
+    "id": 140,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Standard Form",
+    "explanation": "Standard form (also called standard index form) expresses very large or very small numbers as a number between 1 and 10, multiplied by a power of 10. This makes extreme values easier to read, write, and compare. For example, 45,000 = 4.5 \u00d7 10\u2074, and 0.00032 = 3.2 \u00d7 10\u207b\u2074.",
+    "key_concepts": [
+      "Standard form: A \u00d7 10\u207f, where 1 \u2264 A < 10 and n is an integer",
+      "Large numbers have a positive power of 10",
+      "Small numbers (less than 1) have a negative power of 10",
+      "Used extensively in science, engineering, and any field with very large/small measurements"
+    ],
+    "definitions": [
+      {
+        "term": "Standard Form",
+        "definition": "A way of writing numbers as A \u00d7 10\u207f, where 1 \u2264 A < 10 and n is an integer."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Write template 6,300,000 in standard form.",
+        "solution_steps": [
+          "Move the decimal point so only one non-zero digit is before it: 6.3",
+          "Count how many places the decimal point moved: 6 places",
+          "Since the original number is large, the power of 10 is positive"
+        ],
+        "answer": "6.3 \u00d7 10\u2076"
+      },
+      {
+        "problem": "Write 0.0047 in standard form.",
+        "solution_steps": [
+          "Move decimal point to get 4.7",
+          "Count places moved: 3 places to the right (since it's a small number, index is negative)"
+        ],
+        "answer": "4.7 \u00d7 10\u207b\u00b3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Write 52,000 in standard form.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Write 0.00081 in standard form.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Write 3.4 \u00d7 10\u2075 as an ordinary number.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "5.2 \u00d7 10\u2074",
+      "8.1 \u00d7 10\u207b\u2074",
+      "340,000"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The population of a country is 6.8 \u00d7 10\u2077. Write this as an ordinary number.",
+        "marks": 1,
+        "answer": "68,000,000"
+      }
+    ],
+    "common_mistakes": [
+      "Writing the first number outside the range 1 \u2264 A < 10 (e.g. 63 \u00d7 10\u2075 instead of 6.3 \u00d7 10\u2076)",
+      "Using the wrong sign for the power of 10 (positive vs negative) for large vs small numbers"
+    ],
+    "tips": [
+      "Large numbers (\u226510) always get a POSITIVE power of 10; small numbers (between 0 and 1) always get a NEGATIVE power of 10."
+    ],
+    "summary": "Standard form writes numbers as A \u00d7 10\u207f (1\u2264A<10), making very large or small values easier to read and compare.",
+    "quick_revision_notes": [
+      "A \u00d7 10\u207f, 1\u2264A<10",
+      "Large numbers: positive n",
+      "Small numbers (<1): negative n"
+    ],
+    "related_prerequisite_topics": [
+      "Place Value",
+      "Laws of Indices",
+      "Scientific Notation"
+    ],
+    "images": []
+  },
+  {
+    "id": 141,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Scientific Notation",
+    "explanation": "Scientific notation is essentially the same concept as standard form, most commonly used in science and international contexts. It expresses a number as A \u00d7 10\u207f, where 1 \u2264 A < 10, and is especially useful for representing measurements at extreme scales, such as astronomical distances or atomic sizes.",
+    "key_concepts": [
+      "Same structure as standard form: A \u00d7 10\u207f, 1 \u2264 A < 10",
+      "Widely used in physics, chemistry, and engineering for very large/small measurements",
+      "Calculations with scientific notation use the laws of indices for the power-of-10 part",
+      "Calculators often display very large/small results in scientific notation automatically"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Multiplying in scientific notation",
+        "formula": "(A\u00d710\u1d50) \u00d7 (B\u00d710\u207f) = (A\u00d7B) \u00d7 10\u1d50\u207a\u207f",
+        "notes": "Then adjust so the result is back in the range 1\u2264result<10"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Calculate (3 \u00d7 10\u2074) \u00d7 (2 \u00d7 10\u00b3), giving your answer in scientific notation.",
+        "solution_steps": [
+          "Multiply the number parts: 3\u00d72=6",
+          "Add the powers of 10: 4+3=7"
+        ],
+        "answer": "6 \u00d7 10\u2077"
+      },
+      {
+        "problem": "Calculate (5 \u00d7 10\u2076) \u00d7 (4 \u00d7 10\u00b3), giving your answer in scientific notation.",
+        "solution_steps": [
+          "Multiply number parts: 5\u00d74=20",
+          "Add powers: 6+3=9",
+          "20 \u00d7 10\u2079 is not in standard form (20 is not between 1 and 10) \u2014 adjust: 20 = 2\u00d710\u00b9",
+          "So 20 \u00d7 10\u2079 = 2 \u00d7 10\u00b9\u2070"
+        ],
+        "answer": "2 \u00d7 10\u00b9\u2070"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Calculate (2\u00d710\u2075) \u00d7 (3\u00d710\u00b2), giving your answer in scientific notation.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "The mass of an electron is approximately 9.1\u00d710\u207b\u00b3\u00b9 kg. Write this as an ordinary decimal number.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "6\u00d710\u2077",
+      "0.00000000000000000000000000000091 kg"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The distance from Earth to the Sun is approximately 1.5 \u00d7 10\u2078 km. Calculate how many km light travels in this distance if light speed is 3\u00d710\u2075 km/s, giving your answer in seconds.",
+        "marks": 3,
+        "answer": "Time = distance/speed = (1.5\u00d710\u2078)/(3\u00d710\u2075) = 0.5\u00d710\u00b3 = 500 seconds"
+      }
+    ],
+    "common_mistakes": [
+      "Not adjusting the final answer back into the range 1\u2264A<10 after a calculation",
+      "Errors when adding/subtracting the powers of 10 during multiplication/division"
+    ],
+    "tips": [
+      "After any calculation, always double-check your final coefficient is between 1 and 10 \u2014 if not, adjust it and correct the power of 10 accordingly."
+    ],
+    "summary": "Scientific notation (same as standard form) expresses numbers as A\u00d710\u207f, widely used in scientific measurement and calculation.",
+    "quick_revision_notes": [
+      "A\u00d710\u207f, 1\u2264A<10",
+      "Multiply/divide number parts and powers of 10 separately, then adjust"
+    ],
+    "related_prerequisite_topics": [
+      "Standard Form",
+      "Laws of Indices"
+    ],
+    "images": []
+  },
+  {
+    "id": 142,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Estimation with Indices",
+    "explanation": "Estimation with indices uses standard form (or scientific notation) to quickly approximate the result of a calculation involving very large or small numbers, without needing exact precision. This is useful for sanity-checking calculator results or for quick mental approximations.",
+    "key_concepts": [
+      "Round each number to 1 significant figure in standard form before estimating",
+      "Multiply/divide the rounded coefficients and adjust the powers of 10 accordingly",
+      "Useful for checking whether a calculator answer is 'in the right ballpark'",
+      "Estimation trades precision for speed and simplicity"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Estimate 5,890,000 \u00d7 0.00021 by rounding each to 1 significant figure in standard form.",
+        "solution_steps": [
+          "Round: 5,890,000 \u2248 6\u00d710\u2076, 0.00021 \u2248 2\u00d710\u207b\u2074",
+          "Multiply: 6\u00d72=12, add powers: 6+(-4)=2",
+          "12\u00d710\u00b2 is not standard form; adjust: 12=1.2\u00d710\u00b9",
+          "So 1.2\u00d710\u00b9\u00d710\u00b2 = 1.2\u00d710\u00b3"
+        ],
+        "answer": "\u22481,200 (1.2\u00d710\u00b3)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Estimate 312,000 \u00d7 0.0043 by rounding to 1 significant figure.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Estimate 8,760,000 \u00f7 0.021 by rounding to 1 significant figure.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "\u22481,200 (3\u00d710\u2075 \u00d7 4\u00d710\u207b\u00b3=12\u00d710\u00b2=1.2\u00d710\u00b3\u22481,200)",
+      "\u2248450,000,000 (9\u00d710\u2076\u00f72\u00d710\u207b\u00b2=4.5\u00d710\u2078)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Estimate the value of (612,000 \u00d7 0.0032) \u00f7 4,900, rounding each number to 1 significant figure first.",
+        "marks": 4,
+        "answer": "\u2248(6\u00d710\u2075 \u00d7 3\u00d710\u207b\u00b3) \u00f7 (5\u00d710\u00b3) = (18\u00d710\u00b2)\u00f7(5\u00d710\u00b3) = 3.6\u00d710\u207b\u00b9 \u2248 0.36"
+      }
+    ],
+    "common_mistakes": [
+      "Rounding too many (or too few) significant figures for a 'quick' estimate",
+      "Forgetting to re-adjust the coefficient back into standard form after multiplying"
+    ],
+    "tips": [
+      "Estimation is a great way to sanity-check a full calculator answer \u2014 if your estimate and exact answer are wildly different, you likely made an error somewhere."
+    ],
+    "summary": "Estimating with indices rounds numbers to standard form (1 significant figure) to quickly approximate calculations involving extreme values.",
+    "quick_revision_notes": [
+      "Round to 1 sig fig in standard form",
+      "Calculate, then re-adjust to standard form"
+    ],
+    "related_prerequisite_topics": [
+      "Standard Form",
+      "Significant Figures",
+      "Laws of Indices"
+    ],
+    "images": []
+  },
+  {
+    "id": 143,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Surds",
+    "explanation": "A surd is an irrational root, such as \u221a2 or \u221b5, that cannot be simplified to a whole number or exact fraction. Surds are left in root form to preserve their exact value, rather than being approximated as a decimal, which would lose precision.",
+    "key_concepts": [
+      "A surd is an irrational number expressed using a root symbol (\u221a, \u221b, etc.)",
+      "\u221an is a surd only if n is not a perfect square (or perfect cube for cube roots, etc.)",
+      "Surds preserve EXACT values, unlike decimal approximations",
+      "Surds can be simplified, added, subtracted, multiplied, and rationalised, similar to algebraic terms"
+    ],
+    "definitions": [
+      {
+        "term": "Surd",
+        "definition": "An irrational root (such as \u221a2) that cannot be expressed exactly as a whole number or fraction, and is left in root form."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Which of the following are surds? \u221a16, \u221a10, \u221a25, \u221a7",
+        "solution_steps": [
+          "\u221a16=4 (perfect square, not a surd)",
+          "\u221a10 is irrational (10 isn't a perfect square) \u2192 surd",
+          "\u221a25=5 (perfect square, not a surd)",
+          "\u221a7 is irrational (7 isn't a perfect square) \u2192 surd"
+        ],
+        "answer": "\u221a10 and \u221a7 are surds"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is \u221a36 a surd? Explain.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Is \u221a11 a surd? Explain.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "No, \u221a36=6, a whole number, so it is not a surd.",
+      "Yes, since 11 is not a perfect square, \u221a11 is irrational and left in root form."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why leaving an answer as a surd (e.g. 3\u221a2) is often preferred over writing a decimal approximation in exam answers.",
+        "marks": 2,
+        "answer": "Surds represent the EXACT value of an irrational number, whereas a decimal approximation (e.g. 4.24...) is rounded and loses precision. Exams often require exact answers, so surd form is preferred."
+      }
+    ],
+    "common_mistakes": [
+      "Treating every square root as a surd, without checking whether the number is a perfect square",
+      "Rounding a surd to a decimal when an exact answer is required"
+    ],
+    "tips": [
+      "Always check whether the number under the root is a perfect square (or cube, etc.) first \u2014 if it is, it's not actually a surd."
+    ],
+    "summary": "A surd is an irrational root left in exact form (like \u221a7), rather than approximated as a decimal, preserving precision.",
+    "quick_revision_notes": [
+      "\u221an is a surd unless n is a perfect square",
+      "Surds preserve exact values"
+    ],
+    "related_prerequisite_topics": [
+      "Irrational Numbers",
+      "Perfect Squares",
+      "Simplifying Surds"
+    ],
+    "images": []
+  },
+  {
+    "id": 144,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Simplifying Surds",
+    "explanation": "Simplifying a surd means rewriting it in its simplest form by extracting the largest perfect square factor from underneath the root. This makes surds easier to compare, combine, and use in further calculations.",
+    "key_concepts": [
+      "Find the largest perfect square factor of the number under the root",
+      "Split the surd using \u221a(a\u00d7b) = \u221aa \u00d7 \u221ab",
+      "Simplify the perfect square part, leaving the remaining surd",
+      "A surd is fully simplified when no perfect square factor remains under the root"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Surd multiplication rule",
+        "formula": "\u221a(a\u00d7b) = \u221aa \u00d7 \u221ab",
+        "notes": "Used to extract perfect square factors"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Simplify \u221a50",
+        "solution_steps": [
+          "Find the largest perfect square factor: 50=25\u00d72",
+          "\u221a50 = \u221a25 \u00d7 \u221a2",
+          "\u221a25=5"
+        ],
+        "answer": "5\u221a2"
+      },
+      {
+        "problem": "Simplify \u221a180",
+        "solution_steps": [
+          "Find the largest perfect square factor: 180=36\u00d75",
+          "\u221a180 = \u221a36 \u00d7 \u221a5",
+          "\u221a36=6"
+        ],
+        "answer": "6\u221a5"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Simplify \u221a32.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Simplify \u221a75.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Simplify \u221a192.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "4\u221a2",
+      "5\u221a3",
+      "8\u221a3"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Simplify \u221a288 fully, showing your method.",
+        "marks": 3,
+        "answer": "288=144\u00d72. \u221a288=\u221a144\u00d7\u221a2=12\u221a2"
+      }
+    ],
+    "common_mistakes": [
+      "Not finding the LARGEST perfect square factor (leading to incomplete simplification)",
+      "Forgetting to simplify at all and leaving a 'simplifiable' surd as the final answer"
+    ],
+    "tips": [
+      "If you're unsure you've found the largest perfect square factor, check if the remaining surd can be simplified further \u2014 repeat the process if needed."
+    ],
+    "summary": "Simplifying surds extracts the largest perfect square factor from under the root, leaving the surd in its simplest exact form.",
+    "quick_revision_notes": [
+      "\u221a(a\u00d7b)=\u221aa\u00d7\u221ab",
+      "Find LARGEST perfect square factor first"
+    ],
+    "related_prerequisite_topics": [
+      "Surds",
+      "Perfect Squares"
+    ],
+    "images": []
+  },
+  {
+    "id": 145,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Adding Surds",
+    "explanation": "Surds can only be added or subtracted directly if they are 'like surds' \u2014 meaning they have the same number under the root. Before adding, each surd should be simplified as much as possible, since this may reveal like surds that weren't obvious at first.",
+    "key_concepts": [
+      "Only like surds (same number under the root) can be combined directly",
+      "Simplify all surds first \u2014 this can reveal hidden like surds",
+      "Add/subtract the coefficients in front of like surds, keeping the surd part unchanged",
+      "Similar to collecting like terms in algebra"
+    ],
+    "definitions": [
+      {
+        "term": "Like Surds",
+        "definition": "Surds that have the same number under the root, allowing their coefficients to be added or subtracted directly."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Simplify 3\u221a2 + 5\u221a2",
+        "solution_steps": [
+          "Both are like surds (\u221a2)",
+          "Add coefficients: 3+5=8"
+        ],
+        "answer": "8\u221a2"
+      },
+      {
+        "problem": "Simplify \u221a8 + \u221a18",
+        "solution_steps": [
+          "Simplify each surd first: \u221a8=2\u221a2, \u221a18=3\u221a2",
+          "Now they are like surds: 2\u221a2 + 3\u221a2 = 5\u221a2"
+        ],
+        "answer": "5\u221a2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Simplify 4\u221a3 + 2\u221a3.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Simplify \u221a12 + \u221a27.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "6\u221a3",
+      "5\u221a3 (\u221a12=2\u221a3, \u221a27=3\u221a3, sum=5\u221a3)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Simplify \u221a50 - \u221a8 + \u221a2, giving your answer as a single term.",
+        "marks": 3,
+        "answer": "\u221a50=5\u221a2, \u221a8=2\u221a2. 5\u221a2-2\u221a2+\u221a2 = 4\u221a2"
+      }
+    ],
+    "common_mistakes": [
+      "Trying to add unlike surds directly (e.g. incorrectly combining \u221a2 and \u221a3)",
+      "Forgetting to simplify surds first, missing hidden like surds"
+    ],
+    "tips": [
+      "Always fully simplify every surd BEFORE attempting to add or subtract them \u2014 this often reveals like surds that weren't visible in the original form."
+    ],
+    "summary": "Surds can be added/subtracted only when they are like surds (same root value), similar to collecting like terms in algebra.",
+    "quick_revision_notes": [
+      "Simplify first, then combine like surds",
+      "a\u221an + b\u221an = (a+b)\u221an"
+    ],
+    "related_prerequisite_topics": [
+      "Simplifying Surds",
+      "Like Terms"
+    ],
+    "images": []
+  },
+  {
+    "id": 146,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Multiplying Surds",
+    "explanation": "Multiplying surds uses the rule \u221aa \u00d7 \u221ab = \u221a(ab), combining the numbers under the roots into a single root, which can then often be simplified. Surds with coefficients are multiplied by multiplying the coefficients together and the surd parts together separately.",
+    "key_concepts": [
+      "\u221aa \u00d7 \u221ab = \u221a(ab)",
+      "Multiply coefficients together, and surd parts together, separately",
+      "Simplify the resulting surd if possible after multiplying",
+      "(\u221aa)\u00b2 = a, since squaring undoes the square root"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Surd multiplication rule",
+        "formula": "\u221aa \u00d7 \u221ab = \u221a(ab)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Simplify \u221a3 \u00d7 \u221a12",
+        "solution_steps": [
+          "Combine: \u221a(3\u00d712) = \u221a36",
+          "\u221a36=6"
+        ],
+        "answer": "6"
+      },
+      {
+        "problem": "Simplify 2\u221a5 \u00d7 3\u221a10",
+        "solution_steps": [
+          "Multiply coefficients: 2\u00d73=6",
+          "Multiply surds: \u221a5\u00d7\u221a10=\u221a50",
+          "Simplify \u221a50: \u221a50=5\u221a2",
+          "Combine: 6\u00d75\u221a2"
+        ],
+        "answer": "30\u221a2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Simplify \u221a2 \u00d7 \u221a8.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Simplify 3\u221a6 \u00d7 2\u221a3.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Simplify (2\u221a5)\u00b2",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "4 (\u221a16=4)",
+      "18\u221a2 (6\u00d7\u221a18=6\u00d73\u221a2)",
+      "20 (4\u00d75)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Simplify \u221a6 \u00d7 \u221a15, giving your answer in simplest surd form.",
+        "marks": 3,
+        "answer": "\u221a6\u00d7\u221a15=\u221a90=\u221a(9\u00d710)=3\u221a10"
+      }
+    ],
+    "common_mistakes": [
+      "Multiplying coefficients and surds together incorrectly (mixing them up)",
+      "Forgetting to simplify the resulting surd after multiplying"
+    ],
+    "tips": [
+      "Always check if the result of \u221aa\u00d7\u221ab is a perfect square \u2014 if so, it simplifies to a whole number, not a surd."
+    ],
+    "summary": "Multiplying surds combines the numbers under the root (\u221aa\u00d7\u221ab=\u221aab), then simplifies; coefficients multiply separately from surd parts.",
+    "quick_revision_notes": [
+      "\u221aa\u00d7\u221ab=\u221a(ab)",
+      "(\u221aa)\u00b2=a",
+      "Simplify after multiplying"
+    ],
+    "related_prerequisite_topics": [
+      "Simplifying Surds",
+      "Adding Surds"
+    ],
+    "images": []
+  },
+  {
+    "id": 147,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Rationalising Denominators",
+    "explanation": "Rationalising the denominator means rewriting a fraction so that its denominator no longer contains a surd, without changing the fraction's value. This is done by multiplying both the numerator and denominator by a suitable expression (often the surd itself, or its conjugate for more complex denominators).",
+    "key_concepts": [
+      "A rationalised fraction has no surd in the denominator",
+      "Multiply numerator and denominator by the surd (for a simple single-term denominator)",
+      "For denominators of the form a+\u221ab, multiply by the conjugate (a-\u221ab) to use difference of two squares",
+      "Multiplying by (surd/surd) or (conjugate/conjugate) equals multiplying by 1, so the fraction's value is unchanged"
+    ],
+    "definitions": [
+      {
+        "term": "Rationalising",
+        "definition": "The process of removing a surd from the denominator of a fraction, without changing its value."
+      },
+      {
+        "term": "Conjugate",
+        "definition": "For an expression a+\u221ab, its conjugate is a-\u221ab (and vice versa); their product eliminates the surd."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Rationalise 5/\u221a3",
+        "solution_steps": [
+          "Multiply top and bottom by \u221a3: (5\u00d7\u221a3)/(\u221a3\u00d7\u221a3)",
+          "\u221a3\u00d7\u221a3=3"
+        ],
+        "answer": "5\u221a3/3"
+      },
+      {
+        "problem": "Rationalise 4/(2+\u221a3) using the conjugate",
+        "solution_steps": [
+          "Multiply top and bottom by the conjugate (2-\u221a3): [4(2-\u221a3)] / [(2+\u221a3)(2-\u221a3)]",
+          "Denominator: (2+\u221a3)(2-\u221a3) = 4-3 = 1",
+          "Numerator: 4(2-\u221a3) = 8-4\u221a3"
+        ],
+        "answer": "8 - 4\u221a3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Rationalise 3/\u221a2.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Rationalise 6/(3+\u221a5) using the conjugate.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "3\u221a2/2",
+      "(18-6\u221a5)/4 = (9-3\u221a5)/2 (denominator: 9-5=4, numerator: 6(3-\u221a5)=18-6\u221a5, simplify by dividing by 2)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Rationalise the denominator of 7/\u221a5, and explain why this process doesn't change the value of the fraction.",
+        "marks": 3,
+        "answer": "7/\u221a5 \u00d7 \u221a5/\u221a5 = 7\u221a5/5. This doesn't change the value because \u221a5/\u221a5 = 1, and multiplying by 1 never changes a fraction's value."
+      }
+    ],
+    "common_mistakes": [
+      "Only multiplying the denominator by the surd/conjugate, forgetting to multiply the numerator too",
+      "Using the wrong conjugate sign (should flip only the sign between the two terms)",
+      "Forgetting to simplify the final fraction if possible"
+    ],
+    "tips": [
+      "Whatever you multiply the denominator by, you MUST multiply the numerator by the exact same thing \u2014 this keeps the fraction's value unchanged."
+    ],
+    "summary": "Rationalising a denominator removes surds from it by multiplying by the surd (or its conjugate) over itself, without changing the fraction's value.",
+    "quick_revision_notes": [
+      "Multiply by surd/surd or conjugate/conjugate",
+      "Conjugate of a+\u221ab is a-\u221ab",
+      "(a+\u221ab)(a-\u221ab)=a\u00b2-b"
+    ],
+    "related_prerequisite_topics": [
+      "Surds",
+      "Multiplying Surds",
+      "Difference of Two Squares"
+    ],
+    "images": []
+  },
+  {
+    "id": 148,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Surd Equations",
+    "explanation": "A surd equation is an equation where the unknown variable appears under a root (surd). These are solved by isolating the surd on one side, then squaring both sides to remove the root, before solving the resulting equation. Since squaring can introduce extra ('extraneous') solutions, all answers must be checked in the original equation.",
+    "key_concepts": [
+      "Isolate the surd term on one side of the equation before squaring",
+      "Square both sides to eliminate the root",
+      "Solve the resulting equation using standard techniques",
+      "ALWAYS check solutions in the original equation, since squaring can introduce extraneous (invalid) solutions"
+    ],
+    "definitions": [
+      {
+        "term": "Extraneous Solution",
+        "definition": "A solution produced by an algebraic process (like squaring) that does not actually satisfy the original equation."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Solve \u221a(x+3) = 5",
+        "solution_steps": [
+          "Square both sides: x+3 = 25",
+          "Subtract 3: x = 22",
+          "Check: \u221a(22+3)=\u221a25=5 \u2713"
+        ],
+        "answer": "x = 22"
+      },
+      {
+        "problem": "Solve \u221a(2x+1) = x - 1",
+        "solution_steps": [
+          "Square both sides: 2x+1 = (x-1)\u00b2 = x\u00b2-2x+1",
+          "Rearrange: 0 = x\u00b2-4x",
+          "Factorise: 0 = x(x-4)",
+          "x=0 or x=4",
+          "Check x=0: \u221a(1) = 1, but x-1=-1. 1\u2260-1, so x=0 is extraneous (invalid)",
+          "Check x=4: \u221a(9)=3, and x-1=3. 3=3 \u2713"
+        ],
+        "answer": "x = 4 (x=0 is rejected as extraneous)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve \u221a(x-2) = 4.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Solve \u221a(3x+4) = x, checking for extraneous solutions.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "x=18 (square both sides: x-2=16, x=18)",
+      "x=4 (squaring gives 3x+4=x\u00b2, x\u00b2-3x-4=0, (x-4)(x+1)=0, x=4 or x=-1; check x=-1: \u221a(1)=1 but x=-1, so -1 is extraneous; x=4 checks: \u221a16=4 \u2713)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve the equation \u221a(5x-1) = 3, and verify your solution.",
+        "marks": 3,
+        "answer": "Square both sides: 5x-1=9, so 5x=10, x=2. Check: \u221a(5(2)-1)=\u221a9=3 \u2713, valid solution."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to check solutions in the original equation (missing extraneous solutions)",
+      "Squaring before fully isolating the surd term",
+      "Sign errors when expanding squared binomials like (x-1)\u00b2"
+    ],
+    "tips": [
+      "ALWAYS check every solution to a surd equation in the ORIGINAL (unsquared) equation \u2014 squaring can create extra solutions that don't actually work."
+    ],
+    "summary": "Surd equations are solved by isolating the surd, squaring both sides, solving normally, and checking for extraneous solutions.",
+    "quick_revision_notes": [
+      "Isolate surd \u2192 square both sides \u2192 solve \u2192 CHECK in original equation"
+    ],
+    "related_prerequisite_topics": [
+      "Surds",
+      "Linear Equations",
+      "Quadratic Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 149,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Exponential Expressions",
+    "explanation": "An exponential expression has a variable in the exponent (power) rather than in the base, such as 3\u02e3 or 2^(x+1). This is fundamentally different from a polynomial expression (like x\u00b3), where the variable is the base. Exponential expressions model rapid growth or decay processes.",
+    "key_concepts": [
+      "In an exponential expression, the variable appears in the exponent: a\u02e3 (a is a constant base)",
+      "Different from power expressions like x\u207f, where the variable is the base",
+      "Follows the same laws of indices as numerical powers",
+      "Forms the basis of exponential equations, growth, and decay"
+    ],
+    "definitions": [
+      {
+        "term": "Exponential Expression",
+        "definition": "An expression in which a variable appears in the exponent, such as a\u02e3 for a constant base a."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Simplify 2\u02e3 \u00d7 2\u00b3",
+        "solution_steps": [
+          "Same base, add exponents: x+3"
+        ],
+        "answer": "2^(x+3)"
+      },
+      {
+        "problem": "Simplify (3\u02e3)\u00b2",
+        "solution_steps": [
+          "Multiply exponents: x\u00d72"
+        ],
+        "answer": "3^(2x)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Simplify 5\u02e3 \u00d7 5\u00b2",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Simplify (2\u02e3)\u00b3 \u00f7 2\u02e3",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "5^(x+2)",
+      "2^(2x) (2^(3x)\u00f72^x=2^(3x-x)=2^(2x))"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Simplify 4\u02e3 \u00d7 2^(x+1), giving your answer as a single power of 2.",
+        "marks": 3,
+        "answer": "4\u02e3=(2\u00b2)\u02e3=2^(2x). 2^(2x)\u00d72^(x+1)=2^(3x+1)"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing exponential expressions (variable in exponent) with power expressions (variable as base)",
+      "Applying index laws incorrectly when bases differ"
+    ],
+    "tips": [
+      "Always try to express all terms with the SAME base before combining exponential expressions using index laws."
+    ],
+    "summary": "Exponential expressions have a variable in the exponent (a\u02e3), following the same index laws as numerical powers, and model growth/decay.",
+    "quick_revision_notes": [
+      "Variable in the exponent: a\u02e3",
+      "Same index laws apply as with numbers"
+    ],
+    "related_prerequisite_topics": [
+      "Laws of Indices",
+      "Exponential Equations",
+      "Exponential Growth"
+    ],
+    "images": []
+  },
+  {
+    "id": 150,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Exponential Equations",
+    "explanation": "An exponential equation has the unknown variable in the exponent, such as 2\u02e3 = 32. These are typically solved by expressing both sides with the same base and then equating the exponents, or by using logarithms when the bases cannot easily be matched.",
+    "key_concepts": [
+      "If a\u02e3 = a\u02b8 (same base), then x = y",
+      "Express both sides of the equation using the same base wherever possible",
+      "When bases can't be matched, take logarithms of both sides to solve",
+      "Useful for population growth, compound interest, and decay problems"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Equal bases rule",
+        "formula": "If a\u02e3 = a\u02b8, then x = y",
+        "notes": "Valid for a>0, a\u22601"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Solve 2\u02e3 = 32",
+        "solution_steps": [
+          "Express 32 as a power of 2: 32=2\u2075",
+          "2\u02e3=2\u2075, so x=5"
+        ],
+        "answer": "x = 5"
+      },
+      {
+        "problem": "Solve 3^(2x-1) = 27",
+        "solution_steps": [
+          "Express 27 as a power of 3: 27=3\u00b3",
+          "3^(2x-1) = 3\u00b3",
+          "2x-1 = 3",
+          "2x = 4, x = 2"
+        ],
+        "answer": "x = 2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve 5\u02e3 = 125.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Solve 4^(x+1) = 64.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Solve 2^(3x) = 8^(x-1).",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "x=3",
+      "x=2 (4^(x+1)=4\u00b3, x+1=3)",
+      "No solution / all reals cancel differently: rewrite 8=2\u00b3, so 2^(3x)=2^(3x-3), giving 3x=3x-3, which is never true \u2192 no solution"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve the equation 9^x = 27^(x-1), expressing both sides with base 3.",
+        "marks": 4,
+        "answer": "9\u02e3=(3\u00b2)\u02e3=3^(2x). 27^(x-1)=(3\u00b3)^(x-1)=3^(3x-3). Equate exponents: 2x=3x-3 \u2192 x=3"
+      }
+    ],
+    "common_mistakes": [
+      "Trying to solve by taking the log of only one side",
+      "Errors when converting numbers to a common base (miscalculating the required exponent)"
+    ],
+    "tips": [
+      "Always look for a common base first (e.g. 4, 8, 16, 32 are all powers of 2) before resorting to logarithms \u2014 it's much faster when it works."
+    ],
+    "summary": "Exponential equations are solved by matching bases and equating exponents, or using logarithms when bases cannot be matched.",
+    "quick_revision_notes": [
+      "Match bases, then equate exponents",
+      "Use logs if bases can't be matched"
+    ],
+    "related_prerequisite_topics": [
+      "Exponential Expressions",
+      "Laws of Indices",
+      "Logarithms"
+    ],
+    "images": []
+  },
+  {
+    "id": 151,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Exponential Growth",
+    "explanation": "Exponential growth describes a quantity that increases by a constant percentage (or ratio) over equal time periods, causing it to grow faster and faster over time. This is modelled by the formula y = a(1+r)\u02e3, where a is the initial value and r is the growth rate, and appears in population growth, compound interest, and viral spread.",
+    "key_concepts": [
+      "Modelled by y = a(1+r)\u02e3, or more generally y = a\u00b7b\u02e3 where b>1",
+      "The growth rate increases faster over time (accelerating growth)",
+      "Graph shows a characteristic upward curve that gets steeper",
+      "Same underlying formula as compound interest"
+    ],
+    "definitions": [
+      {
+        "term": "Exponential Growth",
+        "definition": "Growth where a quantity increases by a constant proportion over equal time intervals, modelled by y=a\u00b7b\u02e3 with b>1."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Exponential growth model",
+        "formula": "y = a(1+r)\u02e3",
+        "notes": "a=initial value, r=growth rate (decimal), x=number of periods"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A bacteria colony starts at 200 and grows by 15% per hour. Find the population after 6 hours.",
+        "solution_steps": [
+          "y = 200(1.15)\u2076",
+          "1.15\u2076 \u2248 2.313"
+        ],
+        "answer": "\u2248462.7, so approximately 463 bacteria"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A population of 500 grows by 4% per year. Find the population after 10 years, to the nearest whole number.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "An investment of $1,000 grows at 6% per year. Find its value after 8 years.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "\u2248740",
+      "\u2248$1,593.85"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A city's population is currently 45,000 and is growing at 2.5% per year. Find the population after 15 years, and state after how many whole years the population first exceeds 60,000.",
+        "marks": 5,
+        "answer": "After 15 years: 45000\u00d7(1.025)^15 \u2248 65,132. Checking year by year, population exceeds 60,000 during year 13 (45000\u00d71.025^13\u224861,946; at year 12 it's \u224860,435, so it first exceeds 60,000 at year 12)."
+      }
+    ],
+    "common_mistakes": [
+      "Using (1-r) instead of (1+r) for growth",
+      "Forgetting the base must be greater than 1 for genuine growth"
+    ],
+    "tips": [
+      "Exponential growth always accelerates \u2014 if a graph shows an increasingly steep upward curve, it's a strong signal of exponential (not linear) growth."
+    ],
+    "summary": "Exponential growth models a quantity increasing by a constant proportion each period, described by y=a(1+r)\u02e3, accelerating over time.",
+    "quick_revision_notes": [
+      "y=a(1+r)\u02e3",
+      "Growth accelerates over time",
+      "Same as compound interest formula"
+    ],
+    "related_prerequisite_topics": [
+      "Compound Interest",
+      "Growth and Decay",
+      "Exponential Expressions"
+    ],
+    "images": [
+      {
+        "filename": "exponentialgrowth-151-graph.svg",
+        "type": "graph",
+        "description": "A graph of y=2^x showing the characteristic accelerating upward curve of exponential growth.",
+        "purpose": "Shows the shape of an exponential growth curve, increasingly steep as x increases.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Exponential Decay",
+    "explanation": "Exponential decay describes a quantity that decreases by a constant percentage over equal time periods, causing it to shrink rapidly at first and then more slowly as it approaches (but never quite reaches) zero. This is modelled by y = a(1-r)\u02e3, and appears in radioactive decay, depreciation, and cooling processes.",
+    "key_concepts": [
+      "Modelled by y = a(1-r)\u02e3, or more generally y = a\u00b7b\u02e3 where 0<b<1",
+      "The quantity decreases toward zero but never actually reaches it (approaches a horizontal asymptote at y=0)",
+      "Decay is fastest at the start and slows down over time",
+      "Same underlying formula as depreciation"
+    ],
+    "definitions": [
+      {
+        "term": "Exponential Decay",
+        "definition": "Decay where a quantity decreases by a constant proportion over equal time intervals, modelled by y=a\u00b7b\u02e3 with 0<b<1."
+      },
+      {
+        "term": "Asymptote",
+        "definition": "A line that a graph approaches but never actually touches or crosses; exponential decay approaches y=0."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Exponential decay model",
+        "formula": "y = a(1-r)\u02e3",
+        "notes": "a=initial value, r=decay rate (decimal), x=number of periods"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A radioactive substance of mass 500g decays by 8% per year. Find the remaining mass after 10 years.",
+        "solution_steps": [
+          "y = 500(0.92)\u00b9\u2070",
+          "0.92\u00b9\u2070 \u2248 0.4344"
+        ],
+        "answer": "\u2248217.2 g"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A car worth $30,000 depreciates by 12% per year. Find its value after 5 years.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A sample of 800g decays by 5% per hour. Find the remaining mass after 12 hours.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "\u2248$15,830",
+      "\u2248434.2 g (800\u00d70.95\u00b9\u00b2)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A drug in the bloodstream decreases by 20% every hour. If the initial dose is 200 mg, find the amount remaining after 5 hours, and explain why the amount will never reach exactly zero.",
+        "marks": 4,
+        "answer": "200\u00d7(0.8)\u2075 \u2248 65.5 mg. The amount never reaches exactly zero because each hour it's multiplied by 0.8 (not reduced to 0), so a small positive amount always remains, approaching zero as an asymptote."
+      }
+    ],
+    "common_mistakes": [
+      "Using (1+r) instead of (1-r) for decay",
+      "Believing the quantity eventually reaches exactly zero (it only approaches zero as an asymptote)"
+    ],
+    "tips": [
+      "Exponential decay graphs flatten out but never touch the x-axis \u2014 this 'never quite zero' behavior is a hallmark of exponential (not linear) decay."
+    ],
+    "summary": "Exponential decay models a quantity decreasing by a constant proportion each period, described by y=a(1-r)\u02e3, approaching zero without reaching it.",
+    "quick_revision_notes": [
+      "y=a(1-r)\u02e3",
+      "Approaches 0 (asymptote), never reaches it",
+      "Same as depreciation formula"
+    ],
+    "related_prerequisite_topics": [
+      "Depreciation",
+      "Growth and Decay",
+      "Exponential Growth"
+    ],
+    "images": [
+      {
+        "filename": "exponentialdecay-152-graph.svg",
+        "type": "graph",
+        "description": "A graph of y=0.5^x showing the characteristic decreasing curve of exponential decay approaching zero.",
+        "purpose": "Shows the shape of an exponential decay curve and its approach toward a horizontal asymptote at y=0.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Logarithms",
+    "explanation": "A logarithm is the inverse operation of exponentiation: it answers the question 'to what power must the base be raised to get this number?' The expression log_a(x) = y means a\u02b8 = x. Logarithms allow us to solve exponential equations and work with very large ranges of numbers on a more manageable scale.",
+    "key_concepts": [
+      "log_a(x) = y means a\u02b8 = x (logarithm and exponent are inverse operations)",
+      "'a' is called the base of the logarithm",
+      "log_a(1) = 0 for any base a (since a\u2070=1)",
+      "log_a(a) = 1 for any base a (since a\u00b9=a)"
+    ],
+    "definitions": [
+      {
+        "term": "Logarithm",
+        "definition": "The power to which a base must be raised to produce a given number; log_a(x)=y means a\u02b8=x."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Logarithm definition",
+        "formula": "log_a(x) = y  \u27fa  a\u02b8 = x",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Evaluate log\u2082(8)",
+        "solution_steps": [
+          "Ask: 2 to what power gives 8?",
+          "2\u00b3=8"
+        ],
+        "answer": "3"
+      },
+      {
+        "problem": "Write 5\u00b3=125 in logarithmic form.",
+        "solution_steps": [
+          "Base is 5, exponent is 3, result is 125",
+          "log_5(125)=3"
+        ],
+        "answer": "log\u2085(125) = 3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Evaluate log\u2083(9).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Write 2\u2076=64 in logarithmic form.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Evaluate log\u2085(1).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "2",
+      "log\u2082(64)=6",
+      "0 (since 5\u2070=1)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Evaluate log\u2084(64), showing your reasoning.",
+        "marks": 2,
+        "answer": "4 to what power gives 64? 4\u00b3=64, so log\u2084(64)=3"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing the base and the argument of a logarithm",
+      "Forgetting that log_a(1)=0 for any base"
+    ],
+    "tips": [
+      "Always rewrite log_a(x)=y as a\u02b8=x if you're unsure how to proceed \u2014 converting to exponential form often makes the problem clearer."
+    ],
+    "summary": "A logarithm is the inverse of exponentiation: log_a(x)=y means a\u02b8=x, answering 'what power gives this result?'",
+    "quick_revision_notes": [
+      "log_a(x)=y \u27fa a\u02b8=x",
+      "log_a(1)=0",
+      "log_a(a)=1"
+    ],
+    "related_prerequisite_topics": [
+      "Exponential Expressions",
+      "Laws of Logarithms",
+      "Exponential Equations"
+    ],
+    "images": [
+      {
+        "filename": "logarithms-153-graph.svg",
+        "type": "graph",
+        "description": "A graph of y=log\u2082(x), showing the characteristic slow-growing curve of a logarithmic function.",
+        "purpose": "Shows the shape of a logarithmic graph and its behaviour as x increases from near 0.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Laws of Logarithms",
+    "explanation": "The laws of logarithms are a set of rules that allow logarithmic expressions to be combined, split, or simplified, mirroring the laws of indices. These laws are essential for solving logarithmic equations and simplifying complex logarithmic expressions.",
+    "key_concepts": [
+      "Product law: log_a(xy) = log_a(x) + log_a(y)",
+      "Quotient law: log_a(x/y) = log_a(x) - log_a(y)",
+      "Power law: log_a(x\u207f) = n\u00b7log_a(x)",
+      "These laws mirror the index laws (multiplication\u2194addition, division\u2194subtraction, powers\u2194multiplication)"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Product law",
+        "formula": "log_a(xy) = log_a(x) + log_a(y)",
+        "notes": ""
+      },
+      {
+        "name": "Quotient law",
+        "formula": "log_a(x/y) = log_a(x) - log_a(y)",
+        "notes": ""
+      },
+      {
+        "name": "Power law",
+        "formula": "log_a(x\u207f) = n\u00b7log_a(x)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Write log\u2082(5) + log\u2082(3) as a single logarithm.",
+        "solution_steps": [
+          "Apply the product law: log\u2082(5\u00d73)"
+        ],
+        "answer": "log\u2082(15)"
+      },
+      {
+        "problem": "Write 3log(x) - log(y) as a single logarithm.",
+        "solution_steps": [
+          "Apply the power law to the first term: log(x\u00b3)",
+          "Apply the quotient law: log(x\u00b3) - log(y) = log(x\u00b3/y)"
+        ],
+        "answer": "log(x\u00b3/y)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Write log(8) + log(2) as a single logarithm and evaluate it.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Write 2log(x) + log(y) as a single logarithm.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "log(16) (and log(16)\u22481.204 in base 10, but exact form is log16)",
+      "log(x\u00b2y)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Simplify log(20) - log(4) + log(3), giving your answer as a single logarithm and evaluating it.",
+        "marks": 3,
+        "answer": "log(20/4)+log(3) = log(5)+log(3) = log(15)"
+      }
+    ],
+    "common_mistakes": [
+      "Incorrectly assuming log_a(x+y) = log_a(x) + log_a(y) (this is NOT a valid law \u2014 only multiplication/division work this way)",
+      "Forgetting to apply the power law before combining terms"
+    ],
+    "tips": [
+      "Log laws convert multiplication/division INSIDE the log into addition/subtraction OUTSIDE the log \u2014 they never apply directly to addition or subtraction inside a single log."
+    ],
+    "summary": "The laws of logarithms convert products, quotients, and powers inside a log into sums, differences, and multiples outside the log.",
+    "quick_revision_notes": [
+      "log(xy)=log x+log y",
+      "log(x/y)=log x-log y",
+      "log(x\u207f)=n log x"
+    ],
+    "related_prerequisite_topics": [
+      "Logarithms",
+      "Laws of Indices"
+    ],
+    "images": []
+  },
+  {
+    "id": 155,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Common Logarithms",
+    "explanation": "A common logarithm is a logarithm with base 10, written as log(x) or log\u2081\u2080(x) without needing to explicitly state the base. Common logarithms are widely used in science (like the pH scale and the Richter scale) because our number system is base-10.",
+    "key_concepts": [
+      "Common logarithm has base 10: log(x) means log\u2081\u2080(x)",
+      "When no base is written, base 10 is usually assumed",
+      "Used in real-world scales: pH (chemistry), decibels (sound), Richter scale (earthquakes)",
+      "Follows all the standard laws of logarithms"
+    ],
+    "definitions": [
+      {
+        "term": "Common Logarithm",
+        "definition": "A logarithm with base 10, typically written as log(x) without an explicit base."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Evaluate log(1000)",
+        "solution_steps": [
+          "Ask: 10 to what power gives 1000?",
+          "10\u00b3=1000"
+        ],
+        "answer": "3"
+      },
+      {
+        "problem": "Evaluate log(0.01)",
+        "solution_steps": [
+          "Ask: 10 to what power gives 0.01?",
+          "10\u207b\u00b2=0.01"
+        ],
+        "answer": "-2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Evaluate log(100).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Evaluate log(1).",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "2",
+      "0"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The pH of a solution is calculated using pH = -log[H\u207a], where [H\u207a] is the hydrogen ion concentration. Find the pH of a solution with [H\u207a]=1\u00d710\u207b\u2074.",
+        "marks": 2,
+        "answer": "pH = -log(10\u207b\u2074) = -(-4) = 4"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting that 'log' with no base written means base 10",
+      "Confusing common logarithms (base 10) with natural logarithms (base e)"
+    ],
+    "tips": [
+      "If you see 'log' with no small subscript number, it almost always means base 10 (common logarithm)."
+    ],
+    "summary": "A common logarithm has base 10, written log(x), widely used in real-world logarithmic scales like pH and decibels.",
+    "quick_revision_notes": [
+      "log(x) = log\u2081\u2080(x)",
+      "Used in pH, decibels, Richter scale"
+    ],
+    "related_prerequisite_topics": [
+      "Logarithms",
+      "Laws of Logarithms"
+    ],
+    "images": []
+  },
+  {
+    "id": 156,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Natural Logarithms",
+    "explanation": "A natural logarithm is a logarithm with base e (approximately 2.71828), written as ln(x). The constant e arises naturally in continuous growth and decay processes, making natural logarithms especially important in calculus, finance (continuous compound interest), and science.",
+    "key_concepts": [
+      "Natural logarithm has base e: ln(x) means log_e(x)",
+      "e is an irrational constant, approximately 2.71828...",
+      "ln(e) = 1, and ln(1) = 0",
+      "Used extensively in calculus, continuous growth/decay models, and advanced mathematics"
+    ],
+    "definitions": [
+      {
+        "term": "Natural Logarithm",
+        "definition": "A logarithm with base e (\u22482.71828), written ln(x)."
+      },
+      {
+        "term": "Euler's Number (e)",
+        "definition": "An important mathematical constant approximately equal to 2.71828, arising naturally in continuous growth processes."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Evaluate ln(e)",
+        "solution_steps": [
+          "ln(e) asks: e to what power gives e?",
+          "e\u00b9=e"
+        ],
+        "answer": "1"
+      },
+      {
+        "problem": "Evaluate ln(1)",
+        "solution_steps": [
+          "ln(1) asks: e to what power gives 1?",
+          "e\u2070=1"
+        ],
+        "answer": "0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Evaluate ln(e\u00b3).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Simplify ln(e\u00b2) + ln(e\u2075).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "3",
+      "7 (2+5, using power law and ln(e)=1)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve ln(x) = 3, giving your answer in terms of e.",
+        "marks": 2,
+        "answer": "x = e\u00b3"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing ln (base e) with log (base 10)",
+      "Forgetting e is an irrational constant, not a variable"
+    ],
+    "tips": [
+      "ln(x) and e\u02e3 are inverse functions \u2014 this is useful for solving equations, since ln(e\u02e3)=x and e^(ln x)=x."
+    ],
+    "summary": "A natural logarithm has base e (\u22482.71828), written ln(x), and is central to calculus and continuous growth/decay models.",
+    "quick_revision_notes": [
+      "ln(x) = log_e(x)",
+      "e \u2248 2.71828",
+      "ln(e)=1, ln(1)=0"
+    ],
+    "related_prerequisite_topics": [
+      "Logarithms",
+      "Exponential Growth",
+      "Common Logarithms"
+    ],
+    "images": []
+  },
+  {
+    "id": 157,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Logarithmic Equations",
+    "explanation": "A logarithmic equation contains the unknown variable inside a logarithm, such as log\u2082(x) = 5. These are solved by converting the equation into exponential form, or by using the laws of logarithms to combine multiple log terms into one before converting.",
+    "key_concepts": [
+      "Convert log_a(x) = y into exponential form: x = a\u02b8",
+      "Combine multiple logarithms using the laws of logarithms before converting",
+      "Always check solutions are valid (the argument of a logarithm must be positive)",
+      "Useful for solving problems involving pH, decibels, and exponential models"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Solve log\u2083(x) = 4",
+        "solution_steps": [
+          "Convert to exponential form: x = 3\u2074"
+        ],
+        "answer": "x = 81"
+      },
+      {
+        "problem": "Solve log(x) + log(x-3) = 1",
+        "solution_steps": [
+          "Combine using product law: log[x(x-3)] = 1",
+          "Convert to exponential form: x(x-3) = 10\u00b9 = 10",
+          "Expand: x\u00b2-3x-10=0",
+          "Factorise: (x-5)(x+2)=0",
+          "x=5 or x=-2",
+          "Check x=-2: log(-2) is undefined (negative argument), so reject",
+          "Check x=5: log(5)+log(2)=log(10)=1 \u2713"
+        ],
+        "answer": "x = 5 (x=-2 is rejected as invalid)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve log\u2082(x) = 6.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Solve log(x) + log(2) = 2.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Solve log\u2085(x+1) = 2.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "x=64",
+      "x=50 (log(2x)=2, 2x=100, x=50)",
+      "x=24 (x+1=25)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve log(x+1) - log(x-2) = 1, checking all solutions are valid.",
+        "marks": 4,
+        "answer": "log[(x+1)/(x-2)]=1 \u2192 (x+1)/(x-2)=10 \u2192 x+1=10x-20 \u2192 21=9x \u2192 x=21/9=7/3. Check: x-2=7/3-2=1/3>0, x+1=10/3>0, both valid, so x=7/3 is the solution."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to check that logarithm arguments must be positive (rejecting invalid solutions)",
+      "Errors when combining multiple logarithm terms using the laws"
+    ],
+    "tips": [
+      "After solving, always substitute back and confirm every logarithm in the original equation has a positive argument \u2014 negative or zero arguments are invalid."
+    ],
+    "summary": "Logarithmic equations are solved by converting to exponential form (after combining log terms if needed), then checking solutions are valid.",
+    "quick_revision_notes": [
+      "log_a(x)=y \u2192 x=a\u02b8",
+      "Combine logs first using log laws",
+      "Check arguments are positive"
+    ],
+    "related_prerequisite_topics": [
+      "Logarithms",
+      "Laws of Logarithms",
+      "Quadratic Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 158,
+    "category": "Indices, Surds & Logarithms",
+    "topic": "Change of Base",
+    "explanation": "The change of base formula allows a logarithm with any base to be rewritten using a different base \u2014 typically base 10 or base e \u2014 so it can be evaluated using a standard calculator, which usually only has log (base 10) and ln (base e) buttons.",
+    "key_concepts": [
+      "Most calculators only compute log (base 10) and ln (base e) directly",
+      "The change of base formula converts any log_a(x) into a ratio of common or natural logs",
+      "Useful for evaluating logarithms with unusual bases (e.g. log\u2087(20))",
+      "The formula works with any consistent base for both the numerator and denominator"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Change of base formula",
+        "formula": "log_a(x) = log(x) / log(a) = ln(x) / ln(a)",
+        "notes": "Works with any base, as long as numerator and denominator use the SAME new base"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Evaluate log\u2087(20) using the change of base formula (to 3 decimal places).",
+        "solution_steps": [
+          "log\u2087(20) = log(20) / log(7)",
+          "log(20) \u2248 1.301, log(7) \u2248 0.845",
+          "1.301 / 0.845 \u2248 1.540"
+        ],
+        "answer": "\u22481.540"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Evaluate log\u2085(30) using the change of base formula, to 3 decimal places.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Evaluate log\u2083(50) using the change of base formula, to 3 decimal places.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "\u22482.113",
+      "\u22483.561"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Use the change of base formula to solve 5\u02e3 = 40, giving your answer to 3 decimal places.",
+        "marks": 3,
+        "answer": "x = log(40)/log(5) \u2248 1.602/0.699 \u2248 2.292"
+      }
+    ],
+    "common_mistakes": [
+      "Mixing bases within the same calculation (numerator and denominator must use the SAME new base)",
+      "Rounding intermediate steps too early, causing inaccuracy in the final answer"
+    ],
+    "tips": [
+      "Keep as many decimal places as possible in intermediate steps, and only round your FINAL answer, to avoid compounding rounding errors."
+    ],
+    "summary": "The change of base formula rewrites log_a(x) as log(x)/log(a), allowing any logarithm to be evaluated using a standard calculator.",
+    "quick_revision_notes": [
+      "log_a(x) = log(x)/log(a) = ln(x)/ln(a)"
+    ],
+    "related_prerequisite_topics": [
+      "Logarithms",
+      "Common Logarithms",
+      "Natural Logarithms"
+    ],
+    "images": []
+  }
+]

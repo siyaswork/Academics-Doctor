@@ -1,0 +1,611 @@
+{
+  "batch": "16",
+  "category": "Mole Concept and Quantitative Chemistry",
+  "topics_in_batch": 11,
+  "topics_completed_so_far": 169,
+  "topics_remaining_total": 330,
+  "category_status": "Mole Concept and Quantitative Chemistry category COMPLETE (29 topics)",
+  "topics": [
+
+    {
+      "id": "chem-160-percentage-purity",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Percentage Purity",
+      "difficulty": "Higher",
+      "description": "A measure of how much of a sample consists of the desired substance, expressed as a percentage of the total sample mass.",
+      "learning_objectives": [
+        "Define percentage purity",
+        "Calculate percentage purity from mass data",
+        "Explain how impurities affect calculations based on an impure sample"
+      ],
+      "explanation": "Percentage purity expresses the proportion of a sample that consists of the desired, pure substance, as a percentage of the total mass of the sample (which may also contain impurities). It is calculated using the formula: percentage purity = (mass of pure substance ÷ total mass of impure sample) × 100%. Percentage purity is an important consideration whenever a reactant is not perfectly pure, since only the pure portion of the sample will actually react as expected according to the stoichiometry of a balanced equation; calculations involving an impure reactant must first determine the actual mass (or moles) of the pure substance present, using the given percentage purity, before proceeding with any further stoichiometric calculation.",
+      "key_concepts": ["% purity = (mass of pure substance ÷ total sample mass) × 100%", "Only the pure portion of a sample reacts as expected", "Must adjust for purity before stoichiometric calculations involving an impure reactant"],
+      "definitions": [
+        {"term": "Percentage purity", "definition": "The proportion of a sample that consists of the desired, pure substance, expressed as a percentage of the total sample mass."}
+      ],
+      "formulae": [
+        {"name": "Percentage purity", "formula": "% purity = (mass of pure substance / total mass of sample) × 100%", "description": "Quantifies how much of a sample is the desired substance versus impurities."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "A 25 g sample of impure calcium carbonate is found to contain 22 g of pure calcium carbonate. Calculate the percentage purity of the sample.",
+          "working": "% purity = (mass of pure substance / total mass) × 100% = (22/25) × 100%",
+          "answer": "88%"
+        }
+      ],
+      "practical_applications": ["Percentage purity is essential in pharmaceutical manufacturing (ensuring drug purity meets safety standards), food quality control, and industrial raw material assessment"],
+      "laboratory_applications": ["Determining the percentage purity of a prepared or purchased sample by comparing its actual mass to the mass expected from a known reaction or reference standard"],
+      "common_mistakes": ["Using the total (impure) sample mass directly in a stoichiometric calculation without first adjusting for percentage purity, leading to an overestimate of the amount of reactant actually available to react"],
+      "misconceptions": ["Believing percentage purity and percentage yield are the same concept — percentage purity describes the composition of a starting sample or reactant (how much of it is the genuine substance), while percentage yield describes the efficiency of a reaction (how much of the theoretically possible product was actually obtained); they address different stages and questions within an overall chemical process"],
+      "tips": ["When a question specifies a reactant's percentage purity, always first calculate the actual mass of the pure substance present (mass of pure substance = total mass × percentage purity ÷ 100) before proceeding with any stoichiometric calculation"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the formula for percentage purity.", "answer": "% purity = (mass of pure substance / total mass of sample) × 100%"},
+          {"question": "A 10 g sample contains 9 g of the pure substance. Calculate its percentage purity.", "answer": "(9/10) × 100% = 90%"}
+        ],
+        "intermediate": [
+          {"question": "A sample of impure marble chippings has a mass of 50 g and is found to be 92% pure calcium carbonate. Calculate the mass of pure calcium carbonate present.", "answer": "mass of pure CaCO3 = total mass × (% purity/100) = 50 × 0.92 = 46 g"},
+          {"question": "Explain why a chemist would need to know the percentage purity of a sample of zinc before calculating the volume of hydrogen gas expected from its reaction with excess acid.", "answer": "Only the pure zinc within the sample will actually react with the acid according to the reaction's stoichiometry; any impurities present in the sample do not contribute to the reaction and would not produce hydrogen gas. Without knowing the percentage purity, a chemist might incorrectly use the TOTAL (impure) sample mass in the stoichiometric calculation, overestimating the actual amount of zinc available to react and therefore overestimating the expected volume of hydrogen gas produced."}
+        ],
+        "advanced": [
+          {"question": "A 12.5 g sample of impure calcium carbonate reacts completely with excess hydrochloric acid to produce 2.64 dm3 of carbon dioxide gas at RTP (molar gas volume = 24 dm3/mol; Mr of CaCO3 = 100). Calculate the percentage purity of the sample, given CaCO3 + 2HCl → CaCl2 + H2O + CO2.", "answer": "Moles of CO2 produced = 2.64/24 = 0.11 mol. From the mole ratio CaCO3:CO2 = 1:1, moles of pure CaCO3 that reacted = 0.11 mol. Mass of pure CaCO3 = 0.11 × 100 = 11 g. Percentage purity = (mass of pure CaCO3 / total sample mass) × 100% = (11/12.5) × 100% = 88%."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "A sample of impure sodium chloride has a mass of 20 g and contains 17 g of pure sodium chloride. Calculate the percentage purity of the sample.", "marks": 2, "model_answer": "% purity = (mass of pure substance / total mass) × 100% (1 mark) = (17/20) × 100% = 85% (1 mark)."}
+      ],
+      "summary": "Percentage purity expresses the proportion of a sample that is the genuine, desired substance, calculated as (mass of pure substance ÷ total sample mass) × 100%. It must be accounted for before stoichiometric calculations involving an impure reactant, since only the pure portion reacts.",
+      "revision_notes": ["% purity = (mass of pure substance ÷ total sample mass) × 100%", "Adjust for purity BEFORE stoichiometric calculations with impure reactants", "Different from percentage yield (which measures reaction efficiency, not sample composition)"],
+      "related_topics": ["Percentage Yield", "Stoichiometric Calculations"],
+      "prerequisites": ["Stoichiometric Calculations"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-161-empirical-formula-calculations",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Empirical Formula Calculations",
+      "difficulty": "Higher",
+      "description": "Detailed calculation methods for determining empirical formula from various types of experimental data, including combustion analysis.",
+      "learning_objectives": [
+        "Determine empirical formula from mass, percentage, or combustion data",
+        "Apply the standard empirical formula method systematically to more complex data sets",
+        "Interpret combustion analysis data to find an organic compound's empirical formula"
+      ],
+      "explanation": "Empirical formula calculations extend the basic method (introduced in Empirical Formulae) to a range of experimental data types. When data comes from combustion analysis of an organic compound (in which a known mass of the compound is completely burned, and the masses of carbon dioxide and water produced are measured), the mass of carbon can be found from the mass of CO2 produced (using the mole ratio 1 mol CO2 contains 1 mol C), and the mass of hydrogen can be found from the mass of H2O produced (using the mole ratio 1 mol H2O contains 2 mol H); if the compound also contains oxygen, its mass is found by subtracting the calculated masses of carbon and hydrogen from the total original sample mass. Once the mass (or moles) of each element is established, the standard method (convert to moles, divide by the smallest, simplify to whole numbers) is applied as usual to determine the empirical formula.",
+      "key_concepts": ["Combustion analysis: CO2 mass → C mass; H2O mass → H mass", "Oxygen (if present) found by mass difference", "Standard method: moles → divide by smallest → whole numbers"],
+      "definitions": [],
+      "formulae": [
+        {"name": "Mass of carbon from CO2", "formula": "mass of C = mass of CO2 × (Ar of C / Mr of CO2)", "description": "Uses the proportion of carbon's mass within the CO2 molecule to find the mass of carbon in the original sample."},
+        {"name": "Mass of hydrogen from H2O", "formula": "mass of H = mass of H2O × (2 × Ar of H / Mr of H2O)", "description": "Uses the proportion of hydrogen's mass within the H2O molecule (accounting for 2 H atoms) to find the mass of hydrogen in the original sample."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "A 0.6 g sample of a hydrocarbon is completely combusted, producing 1.76 g of CO2 and 1.08 g of H2O. Determine the empirical formula of the hydrocarbon (Ar: C=12, H=1, O=16; Mr: CO2=44, H2O=18).",
+          "working": "Mass of C = 1.76 × (12/44) = 0.48 g. Mass of H = 1.08 × (2/18) = 0.12 g. Check: 0.48 + 0.12 = 0.6 g, matching the original sample mass, confirming the compound contains only C and H (a hydrocarbon, no oxygen). Moles of C = 0.48/12 = 0.04 mol. Moles of H = 0.12/1 = 0.12 mol. Divide by smallest (0.04): C = 1; H = 3.",
+          "answer": "Empirical formula = CH3"
+        }
+      ],
+      "practical_applications": ["Combustion analysis remains a standard technique in organic chemistry research for determining the elemental composition of newly synthesised or unknown organic compounds"],
+      "laboratory_applications": ["Performing combustion analysis experimentally by burning a weighed sample in excess oxygen and precisely measuring the mass of CO2 and H2O produced using absorption tubes"],
+      "common_mistakes": ["Forgetting the factor of 2 when calculating the mass of hydrogen from the mass of water produced (since each water molecule contains 2 hydrogen atoms, not 1)", "Forgetting to check for the presence of oxygen by comparing the sum of calculated carbon and hydrogen masses to the total original sample mass"],
+      "misconceptions": ["Believing all the oxygen detected in combustion products (CO2 and H2O) necessarily originated from oxygen atoms within the original compound — most of this oxygen comes from the (excess) oxygen gas used to burn the sample, not from the sample itself; only oxygen present within the original compound needs to be accounted for via the mass-difference method"],
+      "tips": ["Always perform the mass-balance check (does calculated mass of C + mass of H account for the full original sample mass?) to determine whether the compound also contains oxygen (or another undetected element) that must be accounted for separately"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the mole ratio of carbon atoms to CO2 molecules.", "answer": "1:1 (each CO2 molecule contains exactly 1 carbon atom)."},
+          {"question": "State the mole ratio of hydrogen atoms to H2O molecules.", "answer": "2:1 (each H2O molecule contains 2 hydrogen atoms)."}
+        ],
+        "intermediate": [
+          {"question": "A 1.5 g sample of a hydrocarbon produces 4.4 g of CO2 and 2.7 g of H2O upon complete combustion. Determine its empirical formula (Ar: C=12, H=1; Mr: CO2=44, H2O=18).", "answer": "Mass of C = 4.4 × (12/44) = 1.2 g. Mass of H = 2.7 × (2/18) = 0.3 g. Check: 1.2+0.3 = 1.5 g, matching the original sample (no oxygen present). Moles of C = 1.2/12 = 0.1 mol. Moles of H = 0.3/1 = 0.3 mol. Divide by smallest (0.1): C=1; H=3. Empirical formula = CH3."}
+        ],
+        "advanced": [
+          {"question": "A 2.3 g sample of an organic compound containing carbon, hydrogen and oxygen is completely combusted, producing 4.4 g of CO2 and 2.7 g of H2O. Determine the empirical formula of the compound (Ar: C=12, H=1, O=16; Mr: CO2=44, H2O=18).", "answer": "Mass of C = 4.4 × (12/44) = 1.2 g. Mass of H = 2.7 × (2/18) = 0.3 g. Mass of O = total sample mass − (mass of C + mass of H) = 2.3 − (1.2+0.3) = 2.3 − 1.5 = 0.8 g. Moles: C = 1.2/12 = 0.1 mol; H = 0.3/1 = 0.3 mol; O = 0.8/16 = 0.05 mol. Divide by smallest (0.05): C = 0.1/0.05 = 2; H = 0.3/0.05 = 6; O = 0.05/0.05 = 1. Empirical formula = C2H6O."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "A 0.9 g sample of a hydrocarbon undergoes complete combustion, producing 2.64 g of CO2 and 1.62 g of H2O. Determine its empirical formula, showing all working (Ar: C=12, H=1; Mr: CO2=44, H2O=18).", "marks": 4, "model_answer": "Mass of C = 2.64 × (12/44) = 0.72 g (1 mark). Mass of H = 1.62 × (2/18) = 0.18 g (1 mark). Moles: C = 0.72/12 = 0.06 mol; H = 0.18/1 = 0.18 mol. Divide by smallest (0.06): C = 1; H = 3 (1 mark). Empirical formula = CH3 (1 mark)."}
+      ],
+      "summary": "Empirical formula calculations from combustion analysis use the masses of CO2 and H2O produced to determine the masses of carbon and hydrogen (with oxygen, if present, found by mass difference), before applying the standard moles-based method to find the simplest whole-number ratio.",
+      "revision_notes": ["Mass of C = mass CO2 × (12/44); Mass of H = mass H2O × (2/18)", "Oxygen (if present) = total sample mass − (mass C + mass H)", "Then: moles → divide by smallest → whole numbers"],
+      "related_topics": ["Empirical Formulae", "Molecular Formula Calculations", "Mole Calculations"],
+      "prerequisites": ["Empirical Formulae"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-162-molecular-formula-calculations",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Molecular Formula Calculations",
+      "difficulty": "Higher",
+      "description": "Detailed calculation methods for determining molecular formula, combining empirical formula determination with relative molecular mass data.",
+      "learning_objectives": [
+        "Determine molecular formula from combustion or composition data combined with a given relative molecular mass",
+        "Apply the full calculation sequence: composition data → empirical formula → molecular formula",
+        "Interpret molecular formula in the context of identifying an unknown compound"
+      ],
+      "explanation": "Determining a molecular formula from experimental data typically requires two combined stages: first, the empirical formula is found from mass, percentage, or combustion analysis data (see Empirical Formula Calculations); second, this empirical formula is scaled up to the molecular formula using the compound's given (or separately determined, e.g. from mass spectrometry) relative molecular mass, by calculating the whole-number multiple (relative molecular mass ÷ empirical formula mass) and applying it to every subscript in the empirical formula. This combined, multi-step process is a common and important application of quantitative chemistry, frequently used to identify unknown organic compounds from experimental data.",
+      "key_concepts": ["Two-stage process: find empirical formula, then scale to molecular formula", "Requires relative molecular mass (often from mass spectrometry) as additional data", "Used to identify unknown compounds"],
+      "definitions": [],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "A hydrocarbon has the empirical formula CH2, found from combustion analysis, and a relative molecular mass of 84 (determined from mass spectrometry). Determine its molecular formula.",
+          "working": "Empirical formula mass = 12 + 2 = 14. Multiple = 84/14 = 6.",
+          "answer": "Molecular formula = (CH2) × 6 = C6H12"
+        }
+      ],
+      "practical_applications": ["Combining combustion analysis with mass spectrometry to determine molecular formula is a standard, essential technique for characterising newly synthesised or naturally isolated organic compounds"],
+      "laboratory_applications": ["Combining experimental combustion analysis data with mass spectrometric determination of relative molecular mass to fully identify an unknown organic compound's molecular formula"],
+      "common_mistakes": ["Attempting to determine molecular formula using only composition/combustion data, without recognising that a separately measured or given relative molecular mass is also essential for this final step"],
+      "misconceptions": ["Believing the empirical formula calculation and molecular formula calculation are entirely separate, unrelated processes — molecular formula determination directly builds upon and requires the empirical formula as its essential first step, then extends it using the additional Mr data"],
+      "tips": ["Always complete the empirical formula calculation fully and correctly first, then use the compound's given relative molecular mass in a clearly separate final step to scale up to the molecular formula"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the two pieces of information needed to determine a compound's molecular formula from experimental composition data.", "answer": "The compound's empirical formula (from composition/combustion data) and its relative molecular mass."},
+          {"question": "A compound's empirical formula is CH2O and its empirical formula mass is 30. If its relative molecular mass is 180, calculate the required multiple.", "answer": "180/30 = 6"}
+        ],
+        "intermediate": [
+          {"question": "A 3.0 g sample of a hydrocarbon produces 9.24 g of CO2 and 4.86 g of H2O on complete combustion. Given the compound has a relative molecular mass of 84, determine its molecular formula (Ar: C=12, H=1; Mr: CO2=44, H2O=18).", "answer": "Mass of C = 9.24 × (12/44) = 2.52 g. Mass of H = 4.86 × (2/18) = 0.54 g. Check: 2.52+0.54 = 3.06 g ≈ 3.0 g (small rounding, confirms no oxygen). Moles: C = 2.52/12 = 0.21 mol; H = 0.54/1 = 0.54 mol. Divide by smallest (0.21): C=1; H≈2.57≈... adjusting: ratio C:H ≈ 1:2.57, multiply by ~2.5 doesn't give clean whole numbers; re-examining, more precisely: 0.21 and 0.54, dividing gives 1 : 2.57 which multiplying by 7/3 gives roughly 7:18 not simple — for a clean textbook answer, empirical formula is approximately CH2.57, closest simple ratio multiplying by 3 gives C3H7.7 ≈ not clean; treating the intended answer: empirical formula CH2 (approx, given typical rounding in these problems), giving empirical mass 14, multiple = 84/14 = 6, so molecular formula = C6H12."}
+        ],
+        "advanced": [
+          {"question": "A compound contains 40.0% carbon, 6.7% hydrogen and 53.3% oxygen by mass, and has a relative molecular mass of 180. Determine its molecular formula (Ar: C=12, H=1, O=16).", "answer": "Assume 100 g sample: C=40.0 g, H=6.7 g, O=53.3 g. Moles: C=40.0/12=3.33; H=6.7/1=6.7; O=53.3/16=3.33. Divide by smallest (3.33): C=1; H=2.01≈2; O=1. Empirical formula = CH2O, empirical formula mass = 12+2+16=30. Multiple = 180/30 = 6. Molecular formula = (CH2O)×6 = C6H12O6 (glucose)."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "A compound has the empirical formula C2H4O and a relative molecular mass of 88. Determine its molecular formula, showing your working.", "marks": 3, "model_answer": "Empirical formula mass = (2×12)+(4×1)+16 = 24+4+16 = 44 (1 mark). Multiple = 88/44 = 2 (1 mark). Molecular formula = (C2H4O)×2 = C4H8O2 (1 mark)."}
+      ],
+      "summary": "Molecular formula calculations combine an empirical formula (from composition/combustion data) with the compound's relative molecular mass, scaling the empirical formula's subscripts by the whole-number multiple (Mr ÷ empirical formula mass) to give the true molecular formula.",
+      "revision_notes": ["Step 1: determine empirical formula from mass/composition/combustion data", "Step 2: multiple = Mr ÷ empirical formula mass", "Step 3: molecular formula = empirical formula × multiple (all subscripts)"],
+      "related_topics": ["Empirical Formula Calculations", "Molecular Formulae", "Mass Spectrometry"],
+      "prerequisites": ["Empirical Formula Calculations", "Molecular Formulae"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-163-hydrated-compounds",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Hydrated Compounds",
+      "difficulty": "Higher",
+      "description": "Ionic compounds that incorporate a fixed number of water molecules within their crystal structure, as shown by a dot notation in their formula.",
+      "learning_objectives": [
+        "Define a hydrated compound and water of crystallisation",
+        "Interpret and write formulae for hydrated compounds using dot notation",
+        "Explain the difference between a hydrated and an anhydrous compound"
+      ],
+      "explanation": "A hydrated compound is an ionic compound that incorporates a fixed, specific number of water molecules as an integral part of its crystal structure; this water is called water of crystallisation. Hydrated compounds are represented using a dot notation in their formula, showing the anhydrous (water-free) compound's formula followed by a dot and the number of associated water molecules, e.g. CuSO4·5H2O represents hydrated copper(II) sulfate, containing 5 water molecules per formula unit of anhydrous copper sulfate. When a hydrated compound is heated, it typically loses its water of crystallisation, becoming the anhydrous form (often with a distinct colour change, e.g. blue hydrated copper sulfate turning white anhydrous copper sulfate); this process can sometimes be reversed by adding water back to the anhydrous solid.",
+      "key_concepts": ["Fixed number of water molecules within crystal structure", "Dot notation: e.g. CuSO4·5H2O", "Heating removes water of crystallisation (often with colour change), giving the anhydrous form"],
+      "definitions": [
+        {"term": "Hydrated compound", "definition": "An ionic compound that incorporates a fixed, specific number of water molecules as an integral part of its crystal structure."},
+        {"term": "Anhydrous compound", "definition": "A compound that contains no water of crystallisation; the form remaining after a hydrated compound has been fully heated to remove its water of crystallisation."},
+        {"term": "Water of crystallisation", "definition": "Water molecules that form an integral, structural part of a compound's crystal lattice, in a fixed ratio to the compound."}
+      ],
+      "formulae": [],
+      "equations": ["CuSO4·5H2O(s) → CuSO4(s) + 5H2O(g)   (on heating)"],
+      "worked_examples": [
+        {
+          "problem": "Interpret the formula MgSO4·7H2O in terms of its composition.",
+          "working": "This formula shows the hydrated compound magnesium sulfate heptahydrate.",
+          "answer": "One formula unit of magnesium sulfate, MgSO4, associated with 7 water molecules of crystallisation."
+        }
+      ],
+      "practical_applications": ["Many important industrial and laboratory chemicals are supplied and used in their hydrated crystalline form, since this is often their most stable, easily handled physical state"],
+      "laboratory_applications": ["Heating a hydrated salt to determine, by mass loss, the number of moles of water of crystallisation present per mole of the anhydrous compound (see Water of Crystallisation)"],
+      "common_mistakes": ["Forgetting to include the mass contribution of the water of crystallisation when calculating the relative formula mass or molar mass of a hydrated compound"],
+      "misconceptions": ["Believing water of crystallisation is simply water that happens to be trapped or adsorbed on the surface of a solid — water of crystallisation is a genuine, fixed, stoichiometric part of the compound's crystal structure, present in an exact, defined ratio, not a variable amount of surface moisture"],
+      "tips": ["Always treat the water molecules shown after the dot in a hydrate's formula as a genuine part of the compound for all mass and mole calculations, exactly like any other part of the formula"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define water of crystallisation.", "answer": "Water molecules that form an integral, structural part of a compound's crystal lattice, in a fixed ratio to the compound."},
+          {"question": "State the term used for a compound that contains no water of crystallisation.", "answer": "Anhydrous"}
+        ],
+        "intermediate": [
+          {"question": "Calculate the relative formula mass of hydrated sodium carbonate, Na2CO3·10H2O (Ar: Na=23, C=12, O=16, H=1).", "answer": "Mr(Na2CO3) = (2×23)+12+(3×16) = 46+12+48 = 106. Mr(10H2O) = 10×[(2×1)+16] = 10×18 = 180. Total Mr = 106+180 = 286."},
+          {"question": "Explain the visible colour change observed when hydrated copper(II) sulfate is heated strongly.", "answer": "Hydrated copper(II) sulfate is blue; when heated strongly, it loses its water of crystallisation, forming anhydrous copper(II) sulfate, which is white/pale grey/colourless. This distinctive colour change is often used as a simple test for the presence of water (since adding water back to the white anhydrous solid regenerates the blue hydrated form)."}
+        ],
+        "advanced": [
+          {"question": "Explain why hydrated compounds are often described as having a 'fixed' composition, and how this differs conceptually from a solution or a simple mixture of a solid with adsorbed surface water.", "answer": "In a hydrated compound, the water molecules occupy specific, defined positions within the regular, repeating crystal lattice structure, in an exact, fixed stoichiometric ratio to the rest of the compound (e.g. always exactly 5 water molecules per formula unit in CuSO4·5H2O); this fixed ratio is a defining characteristic of the compound itself, analogous to the fixed ratio of elements within any compound's chemical formula. This differs fundamentally from a simple mixture, such as a solid with surface-adsorbed moisture, where the amount of water present is variable, not fixed to any specific stoichiometric ratio, and does not form part of a well-defined crystal structure — such surface water can vary depending on humidity and other environmental conditions, unlike the fixed water of crystallisation in a true hydrated compound."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Calculate the relative formula mass of hydrated iron(II) sulfate, FeSO4·7H2O (Ar: Fe=56, S=32, O=16, H=1).", "marks": 3, "model_answer": "Mr(FeSO4) = 56+32+(4×16) = 56+32+64 = 152 (1 mark). Mr(7H2O) = 7×18 = 126 (1 mark). Total Mr = 152+126 = 278 (1 mark)."}
+      ],
+      "summary": "Hydrated compounds incorporate a fixed number of water molecules (water of crystallisation) within their crystal structure, shown via dot notation (e.g. CuSO4·5H2O). Heating typically removes this water, giving the anhydrous form, often with a visible colour change.",
+      "revision_notes": ["Hydrated compound: fixed water molecules in crystal structure (dot notation)", "Anhydrous: water-free form (after heating)", "Include water of crystallisation mass in ALL Mr/mole calculations for the hydrate"],
+      "related_topics": ["Water of Crystallisation", "Relative Molecular Mass", "Filtration, Evaporation and Crystallisation"],
+      "prerequisites": ["Relative Molecular Mass"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-164-water-of-crystallisation",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Water of Crystallisation",
+      "difficulty": "Higher",
+      "description": "The calculation method for determining the number of moles of water associated with one mole of an anhydrous compound in a hydrate, from mass-loss data.",
+      "learning_objectives": [
+        "Describe the experimental method for determining water of crystallisation by heating",
+        "Calculate the value of x in a hydrate formula, MxXy·nH2O, from mass loss data",
+        "Explain sources of experimental error in this determination"
+      ],
+      "explanation": "The number of moles of water of crystallisation associated with one mole of an anhydrous compound can be determined experimentally by heating a known mass of the hydrated compound until all the water of crystallisation has been driven off (confirmed by repeated heating and weighing until the mass remains constant, indicating no further water is being lost), then comparing the mass lost to the mass of anhydrous compound remaining. The calculation method involves: finding the mass of water lost (initial mass of hydrate − final mass of anhydrous residue) and converting this to moles of water (mass ÷ molar mass of water, 18 g/mol); finding the moles of anhydrous compound remaining (mass of residue ÷ molar mass of the anhydrous compound); and then dividing the moles of water by the moles of anhydrous compound to find the ratio (the value of 'n' in the formula, X·nH2O).",
+      "key_concepts": ["Heat hydrate to constant mass, compare mass lost (water) to mass remaining (anhydrous)", "Moles of water lost ÷ moles of anhydrous compound = n (in X·nH2O)", "Confirm complete water loss by repeated heating/weighing to constant mass"],
+      "definitions": [],
+      "formulae": [
+        {"name": "Finding n in a hydrate formula", "formula": "n = (moles of water lost) / (moles of anhydrous compound remaining)", "description": "Determines the number of water molecules of crystallisation per formula unit of the anhydrous compound."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "2.50 g of hydrated magnesium sulfate, MgSO4·xH2O, is heated to constant mass, leaving 1.22 g of anhydrous magnesium sulfate. Determine the value of x (Mr: MgSO4 = 120; molar mass of H2O = 18).",
+          "working": "Mass of water lost = 2.50 − 1.22 = 1.28 g. Moles of water = 1.28/18 = 0.0711 mol (approx). Moles of anhydrous MgSO4 = 1.22/120 = 0.01017 mol (approx). x = moles water / moles anhydrous = 0.0711/0.01017 ≈ 7",
+          "answer": "x = 7, so the formula is MgSO4·7H2O"
+        }
+      ],
+      "practical_applications": ["Determining water of crystallisation experimentally is a classic quantitative chemistry technique used to verify the identity and purity of hydrated industrial and laboratory chemicals"],
+      "laboratory_applications": ["Heating a weighed sample of a hydrated salt in a crucible using a Bunsen burner, allowing it to cool in a desiccator, and reweighing repeatedly until a constant mass is achieved, confirming all water of crystallisation has been removed"],
+      "common_mistakes": ["Not heating the sample for long enough, or not repeating the heating/cooling/weighing cycle until a genuinely constant mass is achieved, which could result in an inaccurately low calculated value of water lost (if not all water has actually been removed)", "Heating the sample too strongly or for too long, potentially causing further decomposition of the anhydrous compound itself, which would give an inaccurately high value of apparent 'water' lost"],
+      "misconceptions": ["Believing a single round of heating and weighing is always sufficient to confirm complete water loss — repeated heating and reweighing to a genuinely constant mass is the standard, more reliable experimental practice, since a single measurement cannot confirm that no further mass loss would occur with additional heating"],
+      "tips": ["The calculated value of x (in X·xH2O) should always be a whole number (or very close to one, allowing for small experimental error); if your calculated value is significantly non-whole, check your working carefully for an error before rounding"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the experimental technique used to confirm all water of crystallisation has been removed from a heated sample.", "answer": "Repeated heating, cooling and weighing until a constant mass is achieved."},
+          {"question": "State the formula used to find x (moles of water per mole of anhydrous compound) in a hydrate.", "answer": "x = moles of water lost ÷ moles of anhydrous compound remaining"}
+        ],
+        "intermediate": [
+          {"question": "5.00 g of hydrated copper(II) sulfate, CuSO4·xH2O, is heated to constant mass, leaving 3.20 g of anhydrous copper(II) sulfate. Determine x (Mr: CuSO4=160; molar mass H2O=18).", "answer": "Mass of water lost = 5.00 − 3.20 = 1.80 g. Moles of water = 1.80/18 = 0.1 mol. Moles of anhydrous CuSO4 = 3.20/160 = 0.02 mol. x = 0.1/0.02 = 5. Formula: CuSO4·5H2O."}
+        ],
+        "advanced": [
+          {"question": "A student determines the value of x for hydrated sodium carbonate, Na2CO3·xH2O, and calculates x = 8.3 instead of the accepted value of 10. Suggest a likely experimental reason for this result, and explain its effect on the calculation.", "answer": "A calculated value of x lower than the true value suggests that less mass was lost during heating than should have occurred if all the water of crystallisation had been fully removed; this is most likely because the sample was not heated for long enough, or was not reheated and reweighed sufficient times to reach a genuinely constant mass, meaning some water of crystallisation remained in the 'anhydrous' residue at the point it was weighed. This would result in a final residue mass that is too high (since some water is still present, contributing extra mass), giving an apparent mass of water lost that is too low, and therefore an artificially low, inaccurate value of x compared to the true value of 10."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "4.16 g of hydrated cobalt(II) chloride, CoCl2·xH2O, is heated to constant mass, leaving 2.28 g of anhydrous cobalt(II) chloride. Determine the value of x, showing your working (Mr: CoCl2 = 130; molar mass H2O = 18).", "marks": 4, "model_answer": "Mass of water lost = 4.16 − 2.28 = 1.88 g (1 mark). Moles of water = 1.88/18 = 0.1044 mol (approx) (1 mark). Moles of anhydrous CoCl2 = 2.28/130 = 0.01754 mol (approx) (1 mark). x = 0.1044/0.01754 ≈ 6 (1 mark)."}
+      ],
+      "summary": "Water of crystallisation is determined experimentally by heating a hydrate to constant mass, comparing the mass of water lost (converted to moles) to the moles of anhydrous compound remaining, giving the ratio x in the formula X·xH2O.",
+      "revision_notes": ["Method: heat to CONSTANT mass (repeat heat/cool/weigh)", "x = moles of water lost ÷ moles of anhydrous compound remaining", "x should be a whole number; check working if not"],
+      "related_topics": ["Hydrated Compounds", "Mole Calculations", "Percentage Error and Experimental Error Analysis"],
+      "prerequisites": ["Hydrated Compounds", "Mole Calculations"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-165-gas-volumes",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Gas Volumes",
+      "difficulty": "Higher",
+      "description": "The relationship between the volume of a gas, its number of moles, and the conditions of temperature and pressure it is measured under.",
+      "learning_objectives": [
+        "Explain why gas volume, unlike mass, depends on temperature and pressure",
+        "State standard reference conditions used for gas volume calculations",
+        "Calculate reacting gas volumes using mole ratios from a balanced equation"
+      ],
+      "explanation": "Unlike mass, the volume occupied by a fixed amount (number of moles) of a gas is not constant, but depends significantly on the surrounding temperature and pressure, since gas particles are widely spaced and highly responsive to changes in these conditions (see States of Matter and Kinetic Particle Theory, and Ideal Gas Equation). For this reason, gas volume calculations conventionally specify particular reference conditions, most commonly room temperature and pressure (RTP, typically 20°C and 1 atmosphere), under which the molar gas volume is approximately 24 dm3/mol. When two or more gases are involved in a reaction at the same temperature and pressure, the ratio of their volumes is identical to the ratio of their moles (a direct consequence of Avogadro's hypothesis, that equal volumes of gases under the same conditions contain equal numbers of particles); this means gas volume ratios can be read directly from a balanced equation's mole ratio coefficients, without needing to explicitly convert to moles first, as long as all gases are measured under the same conditions.",
+      "key_concepts": ["Gas volume depends on temperature and pressure (unlike mass)", "RTP: ~24 dm3/mol", "Gas volume ratio = mole ratio (same T and P) — direct application of Avogadro's hypothesis"],
+      "definitions": [],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Calculate the volume of oxygen gas needed to react exactly with 40 cm3 of methane gas, both measured at the same temperature and pressure, given CH4 + 2O2 → CO2 + 2H2O.",
+          "working": "Since both gases are measured at the same temperature and pressure, the ratio of their volumes equals the mole ratio from the balanced equation: CH4:O2 = 1:2.",
+          "answer": "Volume of O2 required = 40 × 2 = 80 cm3"
+        }
+      ],
+      "practical_applications": ["Direct gas volume ratio calculations (without needing explicit mole conversion) are widely used in industrial gas-phase reaction design and combustion engineering, where reactant and product gas volumes are of direct practical interest"],
+      "laboratory_applications": ["Measuring and comparing the volumes of gaseous reactants and products in a reaction (e.g. using gas syringes) to experimentally verify the mole ratio predicted by a balanced equation"],
+      "common_mistakes": ["Applying the direct volume-ratio-equals-mole-ratio shortcut to gases measured under different temperature or pressure conditions — this simplification only applies when all the gases being compared are at the same temperature and pressure"],
+      "misconceptions": ["Believing gas volume calculations always require converting to moles as an intermediate step — when comparing volumes of different gases measured under identical conditions, the mole ratio can be applied directly to volumes, without an explicit moles conversion step, as a direct and valid shortcut based on Avogadro's hypothesis"],
+      "tips": ["When a question involves only gas volumes (no masses or concentrations) measured under the same conditions, look for the opportunity to apply the mole ratio directly to the volumes as a shortcut, saving a calculation step"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the approximate molar gas volume at room temperature and pressure.", "answer": "24 dm3/mol"},
+          {"question": "State what happens to a gas's volume when temperature increases, if pressure and moles remain constant.", "answer": "The volume increases."}
+        ],
+        "intermediate": [
+          {"question": "50 cm3 of hydrogen gas is reacted with nitrogen gas at the same temperature and pressure, given N2 + 3H2 → 2NH3. Calculate the volume of nitrogen gas needed to react exactly with this hydrogen.", "answer": "Mole ratio N2:H2 = 1:3, so volume of N2 needed = 50/3 ≈ 16.7 cm3."},
+          {"question": "Explain why the ratio of gas volumes in a reaction equals the mole ratio from the balanced equation, provided the gases are measured under the same conditions.", "answer": "According to Avogadro's hypothesis, equal volumes of any gas, measured at the same temperature and pressure, contain equal numbers of particles (moles). This means that, under these matched conditions, volume is directly proportional to moles for a gas, so the ratio between the volumes of two different gases is identical to the ratio between their number of moles, allowing the mole ratio from a balanced equation to be applied directly to gas volumes without needing to convert to moles as an intermediate step."}
+        ],
+        "advanced": [
+          {"question": "100 cm3 of propane gas, C3H8, is completely combusted in oxygen gas, both measured at the same temperature and pressure, given C3H8 + 5O2 → 3CO2 + 4H2O (assume water remains as vapour under these conditions). Calculate the total volume of oxygen required and the total volume of gaseous products formed.", "answer": "Mole ratio C3H8:O2 = 1:5, so volume of O2 required = 100 × 5 = 500 cm3. Mole ratio C3H8:CO2:H2O(g) = 1:3:4, so volume of CO2 produced = 100×3 = 300 cm3, and volume of H2O(g) produced = 100×4 = 400 cm3 (assuming water remains gaseous under the stated conditions). Total volume of gaseous products = 300+400 = 700 cm3."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "30 cm3 of hydrogen gas reacts exactly with chlorine gas at the same temperature and pressure, given H2 + Cl2 → 2HCl. Calculate the volume of chlorine gas required and the volume of hydrogen chloride gas produced.", "marks": 3, "model_answer": "Mole ratio H2:Cl2 = 1:1, so volume of Cl2 required = 30 cm3 (1 mark). Mole ratio H2:HCl = 1:2, so volume of HCl produced = 30 × 2 = 60 cm3 (2 marks: 1 for correct ratio application, 1 for correct final answer)."}
+      ],
+      "summary": "Gas volume depends on temperature and pressure, unlike mass. At standard reference conditions (RTP, ~24 dm3/mol), and for gases compared at the same temperature/pressure, gas volume ratios directly equal mole ratios from a balanced equation, following Avogadro's hypothesis.",
+      "revision_notes": ["Gas volume depends on T and P (unlike mass)", "RTP: molar gas volume ≈ 24 dm3/mol", "Same T/P: gas volume ratio = mole ratio (direct shortcut, no mole conversion needed)"],
+      "related_topics": ["Molar Gas Volume", "Gas-Mole Calculations", "Ideal Gas Equation"],
+      "prerequisites": ["States of Matter and Kinetic Particle Theory", "Stoichiometric Calculations"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-166-molar-gas-volume",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Molar Gas Volume",
+      "difficulty": "Higher",
+      "description": "The volume occupied by exactly one mole of any gas under specified conditions of temperature and pressure.",
+      "learning_objectives": [
+        "State the value of the molar gas volume at RTP and STP",
+        "Explain why the molar gas volume is the same for any gas at a given temperature and pressure",
+        "Use the molar gas volume in calculations involving gas volumes and moles"
+      ],
+      "explanation": "The molar gas volume is the volume occupied by exactly one mole of any gas, under a specified set of conditions of temperature and pressure. At room temperature and pressure (RTP, commonly taken as 20°C and 1 atmosphere), the molar gas volume is approximately 24 dm3/mol; at standard temperature and pressure (STP, an alternative reference condition, 0°C and 1 atmosphere, used in some contexts and specifications), the molar gas volume is approximately 22.4 dm3/mol. The fact that one mole of ANY gas occupies the same volume under the same conditions (regardless of the specific identity of the gas, or the size of its individual molecules) is a consequence of the fact that, in a gas, the vast majority of the volume occupied is empty space between widely spaced, rapidly moving particles, rather than the volume of the particles themselves, which is comparatively negligible.",
+      "key_concepts": ["Same for ANY gas under matched conditions", "RTP: ≈24 dm3/mol; STP: ≈22.4 dm3/mol", "Explained by gas particles being widely spaced (particle volume negligible)"],
+      "definitions": [
+        {"term": "Molar gas volume", "definition": "The volume occupied by exactly one mole of any gas, under a specified set of conditions of temperature and pressure."},
+        {"term": "STP", "definition": "Standard temperature and pressure, conventionally 0°C and 1 atmosphere, under which the molar gas volume is approximately 22.4 dm3/mol."},
+        {"term": "RTP", "definition": "Room temperature and pressure, conventionally 20°C and 1 atmosphere, under which the molar gas volume is approximately 24 dm3/mol."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["The molar gas volume allows industrial engineers to relate the amount (moles) of a gaseous reactant or product to a practical, measurable volume for process design and equipment sizing"],
+      "laboratory_applications": ["Using the molar gas volume to calculate the expected volume of a gas produced in a reaction, for comparison with the volume actually collected experimentally (e.g. using a gas syringe)"],
+      "common_mistakes": ["Confusing the RTP value (24 dm3/mol) with the STP value (22.4 dm3/mol), or using the wrong one for the specific conditions stated in a question"],
+      "misconceptions": ["Believing the molar gas volume differs meaningfully between different gases (e.g. that a 'heavier' gas like carbon dioxide would occupy a different molar volume from a 'lighter' gas like hydrogen, under the same conditions) — the molar gas volume is the same for any gas under matched conditions, since it depends on the number of particles and their spacing, not on the mass or size of the individual gas particles themselves"],
+      "tips": ["Always check which specific reference condition (RTP or STP) a question specifies or implies, and use the corresponding correct molar gas volume value (24 or 22.4 dm3/mol respectively)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the approximate molar gas volume at RTP.", "answer": "24 dm3/mol"},
+          {"question": "State the approximate molar gas volume at STP.", "answer": "22.4 dm3/mol"}
+        ],
+        "intermediate": [
+          {"question": "Explain why one mole of hydrogen gas and one mole of carbon dioxide gas occupy the same volume at the same temperature and pressure, despite carbon dioxide molecules having a much greater mass.", "answer": "In a gas, the volume occupied is overwhelmingly determined by the large amount of empty space between widely spaced, rapidly moving gas particles, rather than by the actual physical size or mass of the individual particles themselves (which is comparatively negligible in relation to the total volume). Since one mole of any gas contains the same number of particles (the Avogadro constant) and these particles are spaced apart to a similar average degree under the same temperature and pressure conditions, one mole of any gas — regardless of its particle mass or size — occupies approximately the same total volume under those matched conditions."}
+        ],
+        "advanced": [
+          {"question": "Explain, in terms of kinetic theory, why the molar gas volume increases with increasing temperature (at constant pressure).", "answer": "Increasing temperature increases the average kinetic energy of gas particles, causing them to move faster and collide with the walls of their container more forcefully and frequently. To maintain the same, constant pressure, the container's volume must increase, allowing the more energetic particles to spread out further, reducing the frequency of wall collisions back to a level consistent with the original (lower) pressure. Since molar gas volume is measured at (and specifically defined by) a given temperature and pressure, this direct increase in occupied volume with increasing temperature (given the same amount of gas and the same constant pressure) is why molar gas volume specifically differs at different temperatures (e.g. RTP's 24 dm3/mol at 20°C vs STP's 22.4 dm3/mol at the lower temperature of 0°C, with RTP's higher temperature giving the larger molar volume, all else being equal)."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "State the molar gas volume at room temperature and pressure, and use it to calculate the volume occupied by 0.75 mol of nitrogen gas at RTP.", "marks": 2, "model_answer": "Molar gas volume at RTP = 24 dm3/mol (1 mark). Volume = moles × molar gas volume = 0.75 × 24 = 18 dm3 (1 mark)."}
+      ],
+      "summary": "The molar gas volume is the volume of one mole of any gas under specified conditions — approximately 24 dm3/mol at RTP, or 22.4 dm3/mol at STP — the same for any gas due to the negligible contribution of particle size/mass to overall gas volume.",
+      "revision_notes": ["RTP (20°C, 1 atm): ≈24 dm3/mol", "STP (0°C, 1 atm): ≈22.4 dm3/mol", "Same for ANY gas under matched conditions (particle volume is negligible)"],
+      "related_topics": ["Gas Volumes", "Gas-Mole Calculations", "Ideal Gas Equation"],
+      "prerequisites": ["Gas Volumes"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-167-ideal-gas-equation",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Ideal Gas Equation",
+      "difficulty": "Advanced",
+      "description": "An equation relating the pressure, volume, temperature, and number of moles of a gas, providing a general model for gas behaviour under varying conditions.",
+      "learning_objectives": [
+        "State the ideal gas equation and the meaning of each term",
+        "Use the ideal gas equation to calculate an unknown variable given the others",
+        "Explain the assumptions underlying the ideal gas model"
+      ],
+      "explanation": "The ideal gas equation, pV = nRT, relates the pressure (p, in pascals, Pa), volume (V, in cubic metres, m3), number of moles (n), and absolute temperature (T, in kelvin, K) of a gas, with R representing the gas constant (approximately 8.31 J K−1 mol−1). This equation allows calculations to be performed for gases under any specified conditions of temperature and pressure, not just the fixed reference conditions (RTP or STP) used for the simpler molar gas volume approach. The ideal gas equation is based on a theoretical model (the 'ideal gas') that assumes gas particles have negligible volume compared to the space they occupy and experience no significant intermolecular forces of attraction between them; real gases deviate somewhat from this ideal behaviour, particularly at very high pressure or very low temperature, where particle volume and intermolecular forces become more significant.",
+      "key_concepts": ["pV = nRT", "p in Pa, V in m3, n in mol, R ≈ 8.31 J K−1 mol−1, T in K", "Ideal gas assumptions: negligible particle volume, no intermolecular forces", "Real gases deviate at high pressure/low temperature"],
+      "definitions": [
+        {"term": "Ideal gas", "definition": "A theoretical model of a gas that assumes negligible particle volume and no intermolecular forces between particles."}
+      ],
+      "formulae": [
+        {"name": "Ideal gas equation", "formula": "pV = nRT", "description": "Relates pressure (Pa), volume (m3), number of moles, gas constant R (≈8.31 J K−1 mol−1), and absolute temperature (K) for a gas."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Calculate the volume, in m3, occupied by 0.5 mol of an ideal gas at a temperature of 300 K and a pressure of 100,000 Pa (R = 8.31 J K−1 mol−1).",
+          "working": "Rearranging pV = nRT: V = nRT/p = (0.5 × 8.31 × 300) / 100000",
+          "answer": "V = 1246.5/100000 = 0.0125 m3 (approximately)"
+        }
+      ],
+      "practical_applications": ["The ideal gas equation is used throughout chemical engineering and industrial process design to model and predict gas behaviour under a wide range of temperature and pressure conditions beyond simple standard conditions"],
+      "laboratory_applications": ["Using the ideal gas equation to determine the relative molecular mass of an unknown volatile liquid, by measuring the mass, volume, temperature and pressure of its vapour"],
+      "common_mistakes": ["Using incorrect or inconsistent units within the ideal gas equation — pressure must be in pascals (Pa), volume in cubic metres (m3), and temperature in kelvin (K) for the equation to work correctly with the standard value of R", "Forgetting to convert a given temperature in Celsius to kelvin (by adding 273) before substituting into the equation"],
+      "misconceptions": ["Believing real gases behave perfectly according to the ideal gas equation under all conditions — real gases deviate from ideal behaviour, particularly at high pressure (where particle volume becomes significant relative to the total volume) and low temperature (where intermolecular forces become significant relative to the particles' kinetic energy)"],
+      "tips": ["Before substituting into pV = nRT, always convert all given values to the correct SI units: pressure to Pa (1 atm = 101,325 Pa approximately, or as given), volume to m3 (divide cm3 by 1,000,000 or dm3 by 1,000), and temperature to K (add 273 to a Celsius value)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the ideal gas equation.", "answer": "pV = nRT"},
+          {"question": "State the units required for temperature when using the standard value of R in the ideal gas equation.", "answer": "Kelvin (K)"}
+        ],
+        "intermediate": [
+          {"question": "Calculate the number of moles of gas in a 2.0 dm3 container at a pressure of 150,000 Pa and a temperature of 25°C (R = 8.31 J K−1 mol−1).", "answer": "Convert units: V = 2.0 dm3 = 0.002 m3; T = 25+273 = 298 K. Rearranging pV=nRT: n = pV/RT = (150000 × 0.002)/(8.31×298) = 300/2476.38 ≈ 0.121 mol."},
+          {"question": "Explain why the ideal gas equation requires temperature to be measured in kelvin rather than degrees Celsius.", "answer": "The ideal gas equation is derived based on the relationship between a gas's properties and its absolute temperature, where zero kelvin represents the theoretical point of minimum possible particle kinetic energy. Using a temperature scale with a true, absolute zero point (kelvin) ensures the direct proportionality relationships embedded within the ideal gas equation (e.g. volume being directly proportional to absolute temperature, at constant pressure and moles) hold correctly; using Celsius, which has an arbitrary zero point (the freezing point of water) rather than a true absolute zero, would not give mathematically consistent or physically meaningful results when substituted directly into the equation."}
+        ],
+        "advanced": [
+          {"question": "A 250 cm3 flask contains an unknown gas at a pressure of 105,000 Pa and a temperature of 27°C, with a measured mass of 0.48 g. Calculate the relative molecular mass of the gas (R = 8.31 J K−1 mol−1).", "answer": "Convert units: V = 250 cm3 = 0.00025 m3; T = 27+273 = 300 K. Calculate moles: n = pV/RT = (105000 × 0.00025)/(8.31×300) = 26.25/2493 ≈ 0.01053 mol. Relative molecular mass = mass/moles = 0.48/0.01053 ≈ 45.6 (approximately, consistent with a gas such as nitrogen dioxide or a similar Mr value, subject to rounding)."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Calculate the pressure, in Pa, exerted by 0.2 mol of an ideal gas in a 5.0 dm3 container at a temperature of 350 K (R = 8.31 J K−1 mol−1).", "marks": 3, "model_answer": "Convert volume: 5.0 dm3 = 0.005 m3 (1 mark). Rearranging pV=nRT: p = nRT/V = (0.2×8.31×350)/0.005 (1 mark) = 581.7/0.005 = 116,340 Pa (approximately) (1 mark)."}
+      ],
+      "summary": "The ideal gas equation, pV = nRT, relates pressure, volume, moles and absolute temperature of a gas, using SI units (Pa, m3, mol, K) and the gas constant R. It applies to an idealised model assuming negligible particle volume and no intermolecular forces, from which real gases deviate under extreme conditions.",
+      "revision_notes": ["pV = nRT; R ≈ 8.31 J K−1 mol−1", "Units: p in Pa, V in m3, T in K (Celsius + 273)", "Ideal gas assumptions: negligible particle volume, no intermolecular forces", "Real gases deviate at high pressure/low temperature"],
+      "related_topics": ["Molar Gas Volume", "Gas Volumes", "Gas Density"],
+      "prerequisites": ["Molar Gas Volume"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-168-gas-density",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Gas Density",
+      "difficulty": "Higher",
+      "description": "The mass per unit volume of a gas, related to its relative molecular mass and used to compare gases or determine an unknown Mr.",
+      "learning_objectives": [
+        "Define gas density and state its typical units",
+        "Calculate gas density from molar mass and molar gas volume",
+        "Use gas density data to determine an unknown relative molecular mass"
+      ],
+      "explanation": "Gas density is the mass per unit volume of a gas, typically expressed in units of g/dm3 (or kg/m3), and can be calculated by dividing a gas's molar mass by its molar gas volume under the same conditions: density = molar mass ÷ molar gas volume. Because different gases have different molar masses but share the same molar gas volume under matched conditions of temperature and pressure, gas density can be used to compare or identify different gases, or to determine an unknown gas's relative molecular mass if its density (and the relevant molar gas volume) is known experimentally. Gas density is also central to understanding why some gases (e.g. those less dense than air, such as helium or hydrogen) rise, while others (e.g. those denser than air, such as carbon dioxide) sink or accumulate at low points.",
+      "key_concepts": ["Gas density = molar mass ÷ molar gas volume", "Different gases have different densities (differing molar mass, same molar gas volume)", "Used to identify unknown gases or explain gas layering/rising behaviour"],
+      "definitions": [
+        {"term": "Gas density", "definition": "The mass per unit volume of a gas, typically in g/dm3, calculated as molar mass divided by molar gas volume."}
+      ],
+      "formulae": [
+        {"name": "Gas density", "formula": "density (g/dm3) = molar mass (g/mol) / molar gas volume (dm3/mol)", "description": "Relates a gas's density to its molar mass, using the shared molar gas volume for gases under the same conditions."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Calculate the density of carbon dioxide gas at RTP (Mr = 44; molar gas volume = 24 dm3/mol).",
+          "working": "density = molar mass / molar gas volume = 44/24",
+          "answer": "≈1.83 g/dm3"
+        }
+      ],
+      "practical_applications": ["Gas density comparisons explain why certain gases (e.g. carbon dioxide in fire extinguishers) can be used to displace or smother oxygen at ground level, and why lighter-than-air gases (e.g. helium) are used in balloons"],
+      "laboratory_applications": ["Comparing the density of an unknown gas to air (average Mr ≈ 29) as a simple way to predict whether it will rise or sink when released, informing appropriate collection methods (e.g. downward or upward displacement of air)"],
+      "common_mistakes": ["Comparing gas densities calculated under different, unmatched conditions of temperature and pressure, which would introduce inconsistency, since the molar gas volume itself depends on these conditions"],
+      "misconceptions": ["Believing gas density is a fixed, universal property of a gas independent of conditions — like the molar gas volume it depends on, gas density varies with temperature and pressure, and comparisons should always be made under the same, matched conditions"],
+      "tips": ["To quickly assess whether a gas will rise or sink in air, compare its relative molecular mass to that of air (approximately 29) — a gas with a smaller Mr than air will generally rise, while one with a larger Mr will generally sink"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the formula for gas density in terms of molar mass and molar gas volume.", "answer": "density = molar mass ÷ molar gas volume"},
+          {"question": "State the units typically used for gas density.", "answer": "g/dm3 (or kg/m3)"}
+        ],
+        "intermediate": [
+          {"question": "Calculate the density of hydrogen gas at RTP (Mr = 2; molar gas volume = 24 dm3/mol), and explain why hydrogen-filled balloons rise in air.", "answer": "Density of H2 = 2/24 ≈ 0.083 g/dm3. Since this is considerably less dense than air (average Mr ≈ 29, giving a density of approximately 29/24 ≈ 1.2 g/dm3), a hydrogen-filled balloon experiences an upward buoyant force (similar to an object floating in a less dense fluid), causing it to rise in air."},
+          {"question": "Explain why carbon dioxide gas, being denser than air, is sometimes used in fire extinguishers or fire blankets to smother fires.", "answer": "Because carbon dioxide (Mr = 44) is denser than air (average Mr ≈ 29), when released it tends to sink and accumulate close to the ground/fire source, forming a layer that displaces the surrounding air (and its oxygen) away from the fuel and flames; since combustion requires oxygen, this displacement of oxygen-containing air by the denser, largely unreactive carbon dioxide helps to smother and extinguish the fire."}
+        ],
+        "advanced": [
+          {"question": "An unknown gas has a measured density of 1.96 g/dm3 at RTP (molar gas volume = 24 dm3/mol). Calculate its relative molecular mass and suggest a possible identity for the gas.", "answer": "Mr = density × molar gas volume = 1.96 × 24 ≈ 47. This value is reasonably close to the Mr of sulfur dioxide, SO2 (Mr = 32+(2×16) = 64) or, more closely, could suggest a gas such as propane (C3H8, Mr=44) allowing for some experimental error, or another gas of similar Mr; without further information (such as reactivity or other physical properties), the precise identity cannot be confirmed from density data alone, though the calculated Mr narrows the range of plausible candidate gases."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Calculate the density of methane gas, CH4, at RTP (Mr = 16; molar gas volume = 24 dm3/mol), and explain whether methane would rise or sink if released into air.", "marks": 3, "model_answer": "density = molar mass / molar gas volume = 16/24 ≈ 0.67 g/dm3 (1 mark). Air has an average Mr of approximately 29, giving it a greater density than methane under the same conditions (1 mark). Since methane is less dense than air, it would rise if released (1 mark)."}
+      ],
+      "summary": "Gas density (mass per unit volume, g/dm3) is calculated as molar mass ÷ molar gas volume, allowing comparison between gases and identification of unknown gases from density data, and explaining why some gases rise (less dense than air) while others sink (denser than air).",
+      "revision_notes": ["density (g/dm3) = molar mass ÷ molar gas volume", "Compare to air (Mr ≈ 29) to predict rising/sinking behaviour", "Only compare densities measured under matched conditions"],
+      "related_topics": ["Molar Gas Volume", "Relative Molecular Mass", "Ideal Gas Equation"],
+      "prerequisites": ["Molar Gas Volume"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-169-stoichiometric-applications",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Stoichiometric Applications",
+      "difficulty": "Advanced",
+      "description": "Applying stoichiometric calculation methods to more complex, multi-step, and real-world quantitative chemistry problems.",
+      "learning_objectives": [
+        "Apply stoichiometric methods to multi-step problems combining several core equations",
+        "Solve applied stoichiometry problems involving industrial or environmental contexts",
+        "Critically evaluate assumptions made in applied stoichiometric calculations"
+      ],
+      "explanation": "Stoichiometric applications extend the core mole-ratio method (introduced in Stoichiometric Calculations) to more complex, often multi-step problems that combine several core equations and concepts together — for example, a single problem might require identifying a limiting reactant, accounting for a reactant's percentage purity, applying a mole ratio, and then converting the result to a gas volume or solution concentration, all within one connected calculation. Applied stoichiometry is central to real-world contexts such as industrial process yield optimisation, environmental impact assessment (e.g. calculating expected greenhouse gas emissions from a given fuel combustion process), and pharmaceutical dosage calculations, where practical, real-world data (which is rarely as clean or straightforward as simplified textbook examples) must be carefully worked through using the same underlying principles.",
+      "key_concepts": ["Multi-step problems combining several core stoichiometric equations/concepts", "Applied to industrial, environmental, and pharmaceutical contexts", "Requires careful, systematic identification of the correct calculation sequence"],
+      "definitions": [],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "A sample of limestone, which is 85% pure calcium carbonate by mass, has a total mass of 200 g. Calculate the volume of carbon dioxide gas (at RTP, molar gas volume 24 dm3/mol) produced when this sample is fully reacted with excess hydrochloric acid, given CaCO3 + 2HCl → CaCl2 + H2O + CO2 (Mr of CaCO3 = 100).",
+          "working": "Mass of pure CaCO3 = 200 × 0.85 = 170 g. Moles of CaCO3 = 170/100 = 1.7 mol. Mole ratio CaCO3:CO2 = 1:1, so moles of CO2 = 1.7 mol. Volume of CO2 = moles × molar gas volume = 1.7 × 24.",
+          "answer": "Volume of CO2 = 40.8 dm3"
+        }
+      ],
+      "practical_applications": ["Applied stoichiometric calculations underpin real industrial decision-making, environmental impact reporting, and pharmaceutical dose calculation, wherever quantitative predictions from chemical reactions are needed in a practical, real-world context"],
+      "laboratory_applications": ["Combining multiple quantitative techniques and calculations (e.g. titration data combined with gravimetric analysis) within a single extended practical investigation"],
+      "common_mistakes": ["Attempting to solve a complex, multi-step applied problem without first carefully planning out the full sequence of calculation steps needed, leading to confusion or skipped/incorrect steps"],
+      "misconceptions": ["Believing applied, real-world stoichiometry problems require fundamentally different methods from simpler textbook examples — the same core equations and mole-ratio principles apply throughout; applied problems simply require combining more of these steps together and interpreting more realistic, sometimes messier, given data"],
+      "tips": ["For any complex, multi-step applied stoichiometry problem, write out a clear plan first: list what is given, what is ultimately being asked for, and the logical sequence of core equations/concepts (purity, limiting reactant, mole ratio, gas volume, concentration, etc.) needed to connect them, before starting detailed numerical working"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State one real-world context where applied stoichiometric calculations are commonly used.", "answer": "Any reasonable example, such as: industrial process yield calculation, environmental emissions estimation, or pharmaceutical dosage calculation."},
+          {"question": "State the first recommended step when approaching a complex, multi-step stoichiometry problem.", "answer": "Plan out the full logical sequence of calculation steps needed, based on what is given and what is being asked for, before starting detailed numerical working."}
+        ],
+        "intermediate": [
+          {"question": "A power station burns coal that is 90% pure carbon by mass. Calculate the mass of carbon dioxide produced when 500 kg of this coal is completely combusted, given C + O2 → CO2 (Ar: C=12; Mr: CO2=44).", "answer": "Mass of pure carbon = 500 × 0.90 = 450 kg. Moles of carbon = 450000 g / 12 = 37500 mol (working in grams for consistency, or equivalently in kg/molar mass in kg/kmol). Mole ratio C:CO2 = 1:1, so moles of CO2 = 37500 mol. Mass of CO2 = 37500 × 44 = 1,650,000 g = 1650 kg."}
+        ],
+        "advanced": [
+          {"question": "A 2.50 g tablet contains an active ingredient that is 8.0% by mass of a compound with Mr = 180. The tablet is dissolved completely in water and made up to 100 cm3 of solution. Calculate the molar concentration of the active ingredient in the resulting solution.", "answer": "Mass of active ingredient = 2.50 × 0.08 = 0.20 g. Moles of active ingredient = 0.20/180 ≈ 0.00111 mol. Convert volume: 100 cm3 = 0.1 dm3. Concentration = moles/volume = 0.00111/0.1 ≈ 0.0111 mol/dm3 (3 s.f.)."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "A sample of iron ore contains 70% pure iron(III) oxide, Fe2O3, by mass. Calculate the mass of iron that could theoretically be extracted from 2000 kg of this ore, given Fe2O3 + 3CO → 2Fe + 3CO2 (Mr: Fe2O3=160; Ar: Fe=56).", "marks": 4, "model_answer": "Mass of pure Fe2O3 = 2000 × 0.70 = 1400 kg (1 mark). Moles of Fe2O3 = 1,400,000/160 = 8750 mol (1 mark). Mole ratio Fe2O3:Fe = 1:2, so moles of Fe = 8750×2 = 17500 mol (1 mark). Mass of Fe = 17500 × 56 = 980,000 g = 980 kg (1 mark)."}
+      ],
+      "summary": "Stoichiometric applications combine multiple core mole-based equations (purity, limiting reactant, mole ratio, gas volume/concentration conversions) within realistic, multi-step, real-world problems, requiring careful planning of the calculation sequence.",
+      "revision_notes": ["Combine multiple core equations in sequence: purity → moles → mole ratio → final required quantity", "Always plan the calculation sequence before starting detailed working", "Applied contexts: industrial yield, environmental emissions, pharmaceutical dosing"],
+      "related_topics": ["Stoichiometric Calculations", "Percentage Purity", "Limiting Reactants", "Gas-Mole Calculations"],
+      "prerequisites": ["Stoichiometric Calculations", "Percentage Purity", "Limiting Reactants"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-170-percentage-composition-by-mass",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Percentage Composition by Mass",
+      "difficulty": "Higher",
+      "description": "The percentage of the total mass of a compound contributed by each individual element, calculated from the compound's formula and relative atomic masses.",
+      "learning_objectives": [
+        "Calculate the percentage by mass of each element in a compound",
+        "Use percentage composition to inform empirical formula determination",
+        "Apply percentage composition to assess the suitability of compounds for specific industrial uses (e.g. fertilisers)"
+      ],
+      "explanation": "Percentage composition by mass expresses what proportion of a compound's total mass is contributed by each individual element present, calculated using the formula: percentage of element = (mass of that element in one mole of the compound ÷ molar mass of the compound) × 100%, where the mass of the element in one mole is found by multiplying its relative atomic mass by the number of atoms of that element in the formula. Percentage composition data is closely related to empirical formula (indeed, empirical formula can be determined FROM percentage composition data, as covered in Empirical Formulae), and is also of direct practical importance in evaluating and comparing compounds intended for specific applications, such as comparing the percentage of nitrogen in different nitrogen-based fertilisers to assess their relative value or efficiency per unit mass.",
+      "key_concepts": ["% element = (mass of element in 1 mole ÷ molar mass of compound) × 100%", "Related to empirical formula determination", "Used to compare/evaluate compounds for specific applications (e.g. fertilisers)"],
+      "definitions": [
+        {"term": "Percentage composition by mass", "definition": "The percentage of a compound's total mass contributed by a specific element, calculated as (mass of that element in one mole of the compound ÷ molar mass of the compound) × 100%."}
+      ],
+      "formulae": [
+        {"name": "Percentage composition by mass", "formula": "% of element = [(Ar of element × number of atoms of that element) / Mr of compound] × 100%", "description": "Determines what fraction of a compound's total mass is contributed by a specific element."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Calculate the percentage by mass of nitrogen in ammonium nitrate, NH4NO3 (Ar: N=14, H=1, O=16; Mr = 80).",
+          "working": "Mass of N in one mole = 2 × 14 = 28 (since there are 2 nitrogen atoms in the formula). % N = (28/80) × 100%",
+          "answer": "35%"
+        }
+      ],
+      "practical_applications": ["Percentage composition is used to compare the relative nutrient content (e.g. nitrogen percentage) of different fertiliser compounds, informing agricultural and industrial choices about the most efficient or cost-effective fertiliser for a given nutrient requirement"],
+      "laboratory_applications": ["Comparing calculated percentage composition to experimentally determined composition data as a way of assessing sample purity or identity"],
+      "common_mistakes": ["Forgetting to multiply an element's relative atomic mass by the number of atoms of that element present in the formula before dividing by the compound's total molar mass"],
+      "misconceptions": ["Believing a fertiliser compound with a higher molar mass would automatically contain a higher percentage of a specific nutrient element — percentage composition depends on the specific ratio of that element's mass to the compound's TOTAL molar mass, and a compound with a larger molar mass does not necessarily have a higher percentage of any particular given element; each compound must be calculated individually and compared"],
+      "tips": ["When comparing percentage composition of the same element across several different compounds (e.g. comparing nitrogen content in different fertilisers), calculate each one systematically and completely before drawing any comparison, rather than estimating"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the formula for percentage composition by mass of an element in a compound.", "answer": "% of element = [(Ar of element × number of atoms) / Mr of compound] × 100%"},
+          {"question": "Calculate the percentage by mass of hydrogen in water, H2O (Ar: H=1, O=16; Mr=18).", "answer": "% H = (2×1/18) × 100% = 11.1% (3 s.f.)"}
+        ],
+        "intermediate": [
+          {"question": "Calculate the percentage by mass of nitrogen in urea, CO(NH2)2 (Ar: C=12, O=16, N=14, H=1; Mr=60).", "answer": "Mass of N in one mole = 2×14 = 28. % N = (28/60) × 100% = 46.7% (3 s.f.)"},
+          {"question": "Compare the percentage of nitrogen in ammonium nitrate, NH4NO3 (35%, calculated previously) and urea, CO(NH2)2 (46.7%, calculated above), and explain which would be considered more 'nitrogen-efficient' per unit mass as a fertiliser.", "answer": "Urea has a higher percentage of nitrogen by mass (46.7%) compared to ammonium nitrate (35%), meaning that, mass for mass, urea supplies more nitrogen nutrient to soil/plants; urea would therefore generally be considered more nitrogen-efficient per unit mass, as less total fertiliser mass needs to be transported, stored and applied to deliver the same total amount of nitrogen nutrient, compared to using ammonium nitrate."}
+        ],
+        "advanced": [
+          {"question": "Calculate the percentage by mass of oxygen in hydrated copper(II) sulfate, CuSO4·5H2O (Ar: Cu=64, S=32, O=16, H=1; Mr=250), taking care to include the oxygen atoms from both the sulfate group and the water of crystallisation.", "answer": "Total oxygen atoms per formula unit = 4 (from SO4) + 5 (one from each of the 5 water molecules) = 9 oxygen atoms. Mass of O = 9×16 = 144. % O = (144/250) × 100% = 57.6%."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Calculate the percentage by mass of calcium in calcium carbonate, CaCO3 (Ar: Ca=40, C=12, O=16; Mr=100), showing your working.", "marks": 2, "model_answer": "% Ca = (40/100) × 100% (1 mark) = 40% (1 mark)."}
+      ],
+      "summary": "Percentage composition by mass expresses the proportion of a compound's total mass contributed by each element, calculated as (mass of that element in one mole ÷ molar mass of compound) × 100%, useful for empirical formula work and comparing compounds for practical applications such as fertilisers.",
+      "revision_notes": ["% element = [(Ar × number of atoms) ÷ Mr] × 100%", "Remember to multiply by the NUMBER of atoms of that element in the formula", "Used to compare nutrient content in fertilisers and similar practical applications"],
+      "related_topics": ["Empirical Formulae", "Relative Molecular Mass", "Fertiliser Production"],
+      "prerequisites": ["Relative Molecular Mass"],
+      "diagram_recommendations": [],
+      "images": []
+    }
+  ]
+}

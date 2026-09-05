@@ -1,0 +1,452 @@
+{
+  "batch": "17",
+  "category": "Types of Chemical Reactions",
+  "topics_in_batch": 8,
+  "topics_completed_so_far": 177,
+  "topics_remaining_total": 322,
+  "topics": [
+
+    {
+      "id": "chem-171-types-of-chemical-reactions",
+      "subject": "Chemistry",
+      "category": "Types of Chemical Reactions",
+      "title": "Types of Chemical Reactions",
+      "difficulty": "Foundation",
+      "description": "An overview classifying chemical reactions into broad categories based on the pattern of how reactants transform into products.",
+      "learning_objectives": [
+        "Name the main categories used to classify chemical reactions",
+        "Identify the reaction type from a given equation",
+        "Explain why classifying reactions into types is a useful tool in chemistry"
+      ],
+      "explanation": "Chemical reactions can be classified into several broad categories, based on the general pattern of how reactants are rearranged into products, regardless of the specific substances involved. Common categories include: combination (synthesis) reactions, where two or more substances combine to form a single product; decomposition reactions, where a single substance breaks down into two or more simpler substances; displacement reactions, where one element displaces another from a compound; double displacement (precipitation) reactions, where two compounds exchange ions to form two new compounds; combustion reactions, involving reaction with oxygen, usually releasing energy; and neutralisation reactions, between an acid and a base. Classifying reactions in this way helps chemists recognise general patterns, predict likely products for an unfamiliar but similarly patterned reaction, and organise the vast diversity of chemical reactions into a more manageable conceptual framework.",
+      "key_concepts": ["Combination, decomposition, displacement, double displacement, combustion, neutralisation as broad reaction categories", "Classification is based on the general PATTERN of reactant-to-product transformation", "Useful for prediction and organisation"],
+      "definitions": [],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Classify the reaction 2Mg(s) + O2(g) → 2MgO(s).",
+          "working": "Two separate reactant substances (magnesium and oxygen) combine to form a single product (magnesium oxide).",
+          "answer": "This is a combination (synthesis) reaction (also classifiable as a combustion reaction, since it involves reaction with oxygen and release of energy)."
+        }
+      ],
+      "practical_applications": ["Recognising reaction type patterns helps chemists in both education and research quickly predict likely products and plan appropriate experimental approaches for unfamiliar reactions"],
+      "laboratory_applications": ["Using knowledge of reaction type patterns to predict expected products and plan appropriate safety precautions before carrying out an unfamiliar reaction"],
+      "common_mistakes": ["Assuming every reaction fits neatly and exclusively into just one single category — some reactions can reasonably be classified under more than one category simultaneously (e.g. a combustion reaction is often also a combination/synthesis reaction)"],
+      "misconceptions": ["Believing reaction type categories are rigid, mutually exclusive boxes with no overlap — the categories are useful, flexible descriptive tools for recognising patterns, and some reactions genuinely fit more than one category"],
+      "tips": ["When classifying an unfamiliar reaction, focus on the general PATTERN of how many separate reactant substances there are compared to how many separate product substances there are, as a first, quick clue to its likely category"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Name one broad category used to classify chemical reactions.", "answer": "Any one of: combination, decomposition, displacement, double displacement, combustion, neutralisation."},
+          {"question": "State the general pattern of a decomposition reaction.", "answer": "A single substance breaks down into two or more simpler substances."}
+        ],
+        "intermediate": [
+          {"question": "Classify the reaction CaCO3(s) → CaO(s) + CO2(g), explaining your reasoning.", "answer": "This is a decomposition reaction, since a single substance (calcium carbonate) breaks down into two separate, simpler products (calcium oxide and carbon dioxide)."},
+          {"question": "Explain why classifying chemical reactions into general types is a useful skill for a chemistry student.", "answer": "Recognising the general pattern or type of an unfamiliar reaction allows a student to draw on their existing knowledge of similar, previously studied reactions to predict likely products, write a plausible balanced equation, and anticipate typical reaction conditions or safety considerations, even without having encountered that exact specific reaction before; this pattern-recognition approach is more efficient and generalisable than needing to memorise every individual reaction separately."}
+        ],
+        "advanced": [
+          {"question": "Explain why the reaction Zn(s) + CuSO4(aq) → ZnSO4(aq) + Cu(s) could be classified as both a displacement reaction and a redox reaction, and discuss whether these classifications are in conflict.", "answer": "This reaction is a displacement reaction because zinc displaces copper from copper sulfate solution, following the general 'element + compound → different element + different compound' pattern. It is also a redox reaction because zinc is oxidised (loses electrons, forming Zn2+) while copper(II) ions are reduced (gain electrons, forming Cu). These two classifications are not in conflict; rather, they describe the same reaction from two different, complementary perspectives — one focusing on the general PATTERN of substances involved (displacement), and the other focusing on the underlying MECHANISM of electron transfer (redox). Many displacement reactions are, in fact, also redox reactions, since displacing an element from a compound typically involves electron transfer; the two classification systems overlap rather than being mutually exclusive alternatives."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Classify the reaction AgNO3(aq) + NaCl(aq) → AgCl(s) + NaNO3(aq), and explain your reasoning.", "marks": 2, "model_answer": "This is a double displacement (precipitation) reaction (1 mark), since two compounds in solution exchange ions (silver and sodium 'swap partners') to form two new compounds, one of which (silver chloride) is insoluble and precipitates out (1 mark)."}
+      ],
+      "summary": "Chemical reactions can be classified into broad categories (combination, decomposition, displacement, double displacement, combustion, neutralisation) based on the general pattern of reactant-to-product transformation, aiding prediction and conceptual organisation, though some reactions fit more than one category.",
+      "revision_notes": ["Combination: 2+ substances → 1 product", "Decomposition: 1 substance → 2+ products", "Displacement: element + compound → different element + compound", "Double displacement: 2 compounds exchange ions → 2 new compounds", "Categories can overlap (e.g. combustion is often also combination)"],
+      "related_topics": ["Combination Reactions", "Decomposition Reactions", "Displacement Reactions", "Double Displacement"],
+      "prerequisites": ["Balancing Equations"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-172-combination-reactions",
+      "subject": "Chemistry",
+      "category": "Types of Chemical Reactions",
+      "title": "Combination Reactions",
+      "difficulty": "Foundation",
+      "description": "Reactions in which two or more reactant substances combine to form a single product, also called synthesis reactions.",
+      "learning_objectives": [
+        "Define a combination (synthesis) reaction",
+        "Write equations for simple combination reactions",
+        "Identify combination reactions from examples"
+      ],
+      "explanation": "A combination reaction (also called a synthesis reaction) is a reaction in which two or more reactant substances (which may be elements or compounds) combine to form a single product. The general pattern can be written as: A + B → AB. Common examples include the combination of two elements to form a compound (e.g. 2Mg + O2 → 2MgO), or the combination of two compounds to form a single new compound (e.g. CaO + CO2 → CaCO3). Combination reactions are typically exothermic, since forming new bonds generally releases energy, though the overall energy change depends on the balance between bond breaking (in any reactant molecules) and bond forming (in the single product).",
+      "key_concepts": ["General pattern: A + B → AB", "Two or more reactants form a single product", "Often exothermic (new bonds form)"],
+      "definitions": [
+        {"term": "Combination (synthesis) reaction", "definition": "A reaction in which two or more reactant substances combine to form a single product."}
+      ],
+      "formulae": [],
+      "equations": ["Example: 2Na(s) + Cl2(g) → 2NaCl(s)"],
+      "worked_examples": [
+        {
+          "problem": "Write a balanced equation for the combination reaction between hydrogen and oxygen to form water.",
+          "working": "Two hydrogen molecules combine with one oxygen molecule to form two water molecules, following the general A+B→AB pattern (with correct stoichiometric balancing).",
+          "answer": "2H2(g) + O2(g) → 2H2O(l)"
+        }
+      ],
+      "practical_applications": ["Combination reactions are fundamental to numerous industrial processes, including the manufacture of ammonia (Haber process) and various metal oxides"],
+      "laboratory_applications": ["Observing simple combination reactions, such as burning magnesium ribbon in air to form magnesium oxide, as an introductory demonstration of chemical reaction and mass conservation"],
+      "common_mistakes": ["Confusing a combination reaction with a decomposition reaction — remembering the direction (multiple reactants combining into ONE product, versus one reactant splitting into MULTIPLE products) is key to distinguishing them"],
+      "misconceptions": ["Believing combination reactions always involve only elements as reactants — combination reactions can also occur between two compounds, or between an element and a compound, as long as the overall pattern results in a single product forming"],
+      "tips": ["Look for the defining pattern: MULTIPLE separate reactant substances combining to form ONE single product substance"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a combination reaction.", "answer": "A reaction in which two or more reactant substances combine to form a single product."},
+          {"question": "Write the general pattern for a combination reaction.", "answer": "A + B → AB"}
+        ],
+        "intermediate": [
+          {"question": "Write a balanced equation for the combination reaction between calcium oxide and water to form calcium hydroxide.", "answer": "CaO(s) + H2O(l) → Ca(OH)2(s)"},
+          {"question": "Explain why the reaction between sulfur dioxide and oxygen to form sulfur trioxide (2SO2 + O2 → 2SO3) is classified as a combination reaction.", "answer": "Two separate reactant substances, sulfur dioxide and oxygen, combine together to form a single product, sulfur trioxide, matching the defining pattern of a combination reaction (multiple reactants forming one product)."}
+        ],
+        "advanced": [
+          {"question": "Explain why combination reactions are generally, though not universally, exothermic, using bond energy concepts.", "answer": "In a combination reaction, new chemical bonds are formed as the separate reactant substances join together into a single product; bond formation is always an exothermic process, releasing energy. If the reactants require little or no significant bond-breaking beforehand (e.g. combining separate atoms, or where existing bonds broken are relatively weak), the energy released from forming new, often stronger bonds in the single product typically exceeds any energy absorbed in breaking initial bonds, giving an overall exothermic reaction. However, if significant, strong bonds must first be broken within the reactants before new bonds can form (requiring a larger energy input), the overall reaction could in principle be endothermic if this bond-breaking energy exceeds the bond-forming energy released, illustrating why combination reactions are generally, but not absolutely universally, exothermic."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Write a balanced equation for the combination reaction between carbon and oxygen to form carbon dioxide, and explain why this is classified as a combination reaction.", "marks": 2, "model_answer": "C(s) + O2(g) → CO2(g) (1 mark). This is a combination reaction because two separate reactant substances (carbon and oxygen) combine to form a single product (carbon dioxide) (1 mark)."}
+      ],
+      "summary": "Combination (synthesis) reactions follow the pattern A + B → AB, where two or more reactants combine to form a single product, typically releasing energy (exothermic) as new bonds form.",
+      "revision_notes": ["Pattern: A + B → AB (multiple reactants → 1 product)", "Generally exothermic (new bonds form)", "Can involve elements + elements, elements + compounds, or compounds + compounds"],
+      "related_topics": ["Types of Chemical Reactions", "Decomposition Reactions", "Combustion"],
+      "prerequisites": ["Types of Chemical Reactions"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-173-decomposition-reactions",
+      "subject": "Chemistry",
+      "category": "Types of Chemical Reactions",
+      "title": "Decomposition Reactions",
+      "difficulty": "Foundation",
+      "description": "Reactions in which a single reactant substance breaks down into two or more simpler products.",
+      "learning_objectives": [
+        "Define a decomposition reaction",
+        "Write equations for simple decomposition reactions",
+        "Distinguish decomposition reactions requiring heat, light, or electricity"
+      ],
+      "explanation": "A decomposition reaction is a reaction in which a single reactant substance breaks down into two or more simpler products. The general pattern can be written as: AB → A + B. Decomposition reactions typically require an energy input to proceed, since breaking bonds within the original substance requires energy; this energy can be supplied as heat (thermal decomposition, e.g. the decomposition of calcium carbonate: CaCO3 → CaO + CO2), light (photodecomposition, e.g. the breakdown of silver halides in photographic film), or electricity (electrolytic decomposition, e.g. the electrolysis of water into hydrogen and oxygen). Because bond-breaking requires energy, decomposition reactions are typically endothermic overall.",
+      "key_concepts": ["General pattern: AB → A + B", "Typically requires energy input (heat, light, or electricity)", "Generally endothermic"],
+      "definitions": [
+        {"term": "Decomposition reaction", "definition": "A reaction in which a single reactant substance breaks down into two or more simpler products."}
+      ],
+      "formulae": [],
+      "equations": ["Example: CaCO3(s) → CaO(s) + CO2(g)"],
+      "worked_examples": [
+        {
+          "problem": "Write a balanced equation for the thermal decomposition of copper(II) carbonate.",
+          "working": "Copper(II) carbonate breaks down on heating into copper(II) oxide and carbon dioxide, following the general AB→A+B pattern.",
+          "answer": "CuCO3(s) → CuO(s) + CO2(g)"
+        }
+      ],
+      "practical_applications": ["Thermal decomposition of limestone (calcium carbonate) to produce quicklime (calcium oxide) is a major industrial process, essential to cement and construction industries"],
+      "laboratory_applications": ["Heating various metal carbonates and observing thermal decomposition, testing the gas produced (carbon dioxide, using limewater) to confirm the reaction"],
+      "common_mistakes": ["Confusing decomposition with combination reactions — decomposition takes ONE reactant and breaks it into MULTIPLE products, the reverse pattern to combination"],
+      "misconceptions": ["Believing all decomposition reactions require heat specifically — while thermal decomposition is common, decomposition can also be driven by light (photodecomposition) or electrical energy (electrolytic decomposition), depending on the specific substance and reaction"],
+      "tips": ["Look for the defining pattern: ONE reactant substance breaking down into TWO OR MORE separate product substances"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a decomposition reaction.", "answer": "A reaction in which a single reactant substance breaks down into two or more simpler products."},
+          {"question": "Name the type of energy input required for thermal decomposition.", "answer": "Heat"}
+        ],
+        "intermediate": [
+          {"question": "Write a balanced equation for the electrolytic decomposition of water into hydrogen and oxygen gas.", "answer": "2H2O(l) → 2H2(g) + O2(g)"},
+          {"question": "Explain why decomposition reactions are generally endothermic.", "answer": "Decomposition involves breaking the chemical bonds within the original reactant substance to form two or more simpler products; breaking bonds always requires an input of energy. Since bond formation in the resulting simpler products is often less extensive or forms weaker overall bonding compared to the energy required to break the original substance's bonds, decomposition reactions are generally endothermic overall, requiring a net energy input (commonly supplied as heat) to proceed."}
+        ],
+        "advanced": [
+          {"question": "Explain why different metal carbonates decompose thermally at different temperatures, using the general trend related to metal reactivity.", "answer": "The thermal stability of a metal carbonate (and therefore the temperature required to decompose it) is generally related to the reactivity of the metal cation involved: more reactive metals form stronger ionic bonds with the carbonate ion (often related to a smaller, more polarising cation being less able to distort/destabilise the carbonate ion's structure, in the case of highly reactive Group 1 metals, or conversely a more complex relationship involving cation charge density for other metals), making their carbonates more thermally stable and requiring higher temperatures to decompose. Generally, carbonates of highly reactive metals (e.g. Group 1 metals such as sodium) are very thermally stable and decompose only at extremely high temperatures (if at all under normal laboratory conditions), while carbonates of less reactive metals (e.g. copper) decompose at relatively lower, more readily achievable temperatures, reflecting the underlying trend in reactivity and cation-anion interaction strength across the reactivity series."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Write a balanced equation for the thermal decomposition of zinc carbonate, and state the type of energy input required for this reaction.", "marks": 2, "model_answer": "ZnCO3(s) → ZnO(s) + CO2(g) (1 mark). Heat (thermal energy) is required (1 mark)."}
+      ],
+      "summary": "Decomposition reactions follow the pattern AB → A + B, where one reactant breaks down into two or more simpler products, requiring an energy input (heat, light, or electricity) and generally being endothermic overall.",
+      "revision_notes": ["Pattern: AB → A + B (1 reactant → multiple products)", "Requires energy input: heat (thermal), light (photo-), or electricity (electrolytic)", "Generally endothermic (bond breaking)"],
+      "related_topics": ["Types of Chemical Reactions", "Thermal Decomposition", "Combination Reactions"],
+      "prerequisites": ["Types of Chemical Reactions"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-174-displacement-reactions",
+      "subject": "Chemistry",
+      "category": "Types of Chemical Reactions",
+      "title": "Displacement Reactions",
+      "difficulty": "Foundation",
+      "description": "Reactions in which a more reactive element displaces a less reactive element from a compound.",
+      "learning_objectives": [
+        "Define a displacement reaction",
+        "Predict whether a displacement reaction will occur using a reactivity series",
+        "Write equations for metal and halogen displacement reactions"
+      ],
+      "explanation": "A displacement reaction occurs when a more reactive element displaces (takes the place of) a less reactive element from a compound, following the general pattern: A + BC → AC + B (where A is more reactive than B). Displacement reactions can involve metals (e.g. a more reactive metal displacing a less reactive metal from a solution of its salt, such as zinc displacing copper from copper sulfate solution: Zn + CuSO4 → ZnSO4 + Cu) or halogens (e.g. a more reactive halogen displacing a less reactive halide from solution, such as chlorine displacing bromide ions: Cl2 + 2KBr → 2KCl + Br2). Whether a displacement reaction will occur can be predicted using a reactivity series (for metals) or the known reactivity trend of halogens (decreasing down Group 17), since a less reactive element can never displace a more reactive one.",
+      "key_concepts": ["General pattern: A + BC → AC + B (A more reactive than B)", "Metal displacement (reactivity series) and halogen displacement (Group 17 trend)", "More reactive element always displaces less reactive"],
+      "definitions": [
+        {"term": "Displacement reaction", "definition": "A reaction in which a more reactive element displaces a less reactive element from a compound."}
+      ],
+      "formulae": [],
+      "equations": ["Example: Zn(s) + CuSO4(aq) → ZnSO4(aq) + Cu(s)"],
+      "worked_examples": [
+        {
+          "problem": "Predict whether a reaction occurs when iron is added to a solution of magnesium sulfate, and explain your reasoning.",
+          "working": "Compare the reactivity of iron and magnesium using the reactivity series: magnesium is more reactive than iron.",
+          "answer": "No reaction occurs, since iron (the less reactive metal) cannot displace magnesium (the more reactive metal) from its compound."
+        }
+      ],
+      "practical_applications": ["Displacement reactions are used industrially in metal extraction (e.g. thermite reaction) and in testing/identifying relative reactivity of unknown metals or halogens"],
+      "laboratory_applications": ["Carrying out metal displacement reactions in test tubes (adding a metal to a solution of another metal's salt) to experimentally establish or confirm a reactivity series"],
+      "common_mistakes": ["Assuming a displacement reaction will always occur regardless of relative reactivity — a reaction only proceeds if the added, free element is MORE reactive than the element currently combined in the compound"],
+      "misconceptions": ["Believing displacement reactions only apply to metals — halogen displacement reactions, following a similar underlying principle but with the reactivity trend running in the opposite direction down the group, are equally valid and important examples of this reaction type"],
+      "tips": ["Before predicting a displacement reaction, always first check the relative reactivity of the two elements involved using the appropriate reference (reactivity series for metals; Group 17 trend for halogens) — a reaction only occurs if the free element added is more reactive than the one currently in the compound"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a displacement reaction.", "answer": "A reaction in which a more reactive element displaces a less reactive element from a compound."},
+          {"question": "State whether a reaction occurs if a less reactive metal is added to a solution containing ions of a more reactive metal.", "answer": "No, no reaction occurs."}
+        ],
+        "intermediate": [
+          {"question": "Write a balanced equation for the displacement reaction between magnesium and copper(II) sulfate solution.", "answer": "Mg(s) + CuSO4(aq) → MgSO4(aq) + Cu(s)"},
+          {"question": "Explain why chlorine can displace bromide ions from solution, but bromine cannot displace chloride ions.", "answer": "Chlorine is more reactive than bromine (higher up Group 17, with a smaller atomic radius and less shielding, making it a stronger oxidising agent). Since displacement only occurs when a more reactive element displaces a less reactive one, chlorine can displace the less reactive bromide ions, but bromine, being less reactive than chlorine, cannot displace the more reactive chloride ions from solution."}
+        ],
+        "advanced": [
+          {"question": "Explain, in terms of electron transfer, what occurs during the displacement reaction between zinc metal and copper(II) sulfate solution.", "answer": "Zinc atoms each lose two electrons, being oxidised to form Zn2+ ions (Zn → Zn2+ + 2e−), since zinc is more reactive than copper and more readily loses electrons. These electrons are transferred directly to copper(II) ions in solution, which are reduced, each gaining two electrons to form neutral copper atoms (Cu2+ + 2e− → Cu), which then deposit as solid copper metal. This electron transfer between the two species, occurring simultaneously as an oxidation and a reduction process, confirms that the displacement reaction is fundamentally a redox reaction, driven by the greater reactivity (and therefore greater tendency to lose electrons) of zinc compared to copper."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain, using the reactivity series, why iron filings added to a solution of copper(II) sulfate result in a displacement reaction, and write the balanced equation.", "marks": 3, "model_answer": "Iron is more reactive than copper (higher in the reactivity series) (1 mark), so iron can displace copper from copper(II) sulfate solution, since a more reactive element always displaces a less reactive one from its compound (1 mark). Equation: Fe(s) + CuSO4(aq) → FeSO4(aq) + Cu(s) (1 mark)."}
+      ],
+      "summary": "Displacement reactions occur when a more reactive element displaces a less reactive element from a compound, following A + BC → AC + B. This applies to both metals (via the reactivity series) and halogens (via the Group 17 reactivity trend), with reactions proceeding only in the direction from more to less reactive.",
+      "revision_notes": ["Pattern: A + BC → AC + B (A more reactive than B)", "Metal displacement: use reactivity series", "Halogen displacement: reactivity decreases down Group 17", "Reaction only occurs more reactive → less reactive, never the reverse"],
+      "related_topics": ["Reactivity Series", "Group 17 Elements", "Redox Reactions"],
+      "prerequisites": ["Types of Chemical Reactions", "Reactivity Series"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-175-double-displacement",
+      "subject": "Chemistry",
+      "category": "Types of Chemical Reactions",
+      "title": "Double Displacement",
+      "difficulty": "Foundation",
+      "description": "Reactions in which two ionic compounds in solution exchange ions to form two new compounds, often producing a precipitate.",
+      "learning_objectives": [
+        "Define a double displacement reaction",
+        "Predict the products of a double displacement reaction using solubility rules",
+        "Write balanced equations for double displacement (precipitation) reactions"
+      ],
+      "explanation": "A double displacement reaction (also called a metathesis reaction) occurs when two ionic compounds in solution exchange their positive and negative ions, forming two new compounds, following the general pattern: AB + CD → AD + CB. Double displacement reactions are frequently used to describe precipitation reactions, in which one of the two newly formed compounds is insoluble and precipitates out of solution as a solid, while the other remains dissolved. Predicting whether a double displacement reaction produces a visible precipitate typically requires applying solubility rules (see Solubility Rules) to determine whether either of the two newly combined ion pairs forms an insoluble compound.",
+      "key_concepts": ["General pattern: AB + CD → AD + CB (ions 'swap partners')", "Often produces a precipitate (insoluble product)", "Requires solubility rules to predict products"],
+      "definitions": [
+        {"term": "Double displacement reaction", "definition": "A reaction in which two ionic compounds in solution exchange ions to form two new compounds."}
+      ],
+      "formulae": [],
+      "equations": ["Example: AgNO3(aq) + NaCl(aq) → AgCl(s) + NaNO3(aq)"],
+      "worked_examples": [
+        {
+          "problem": "Predict the products, and whether a precipitate forms, when solutions of barium chloride and sodium sulfate are mixed.",
+          "working": "Ions exchange partners: barium combines with sulfate; sodium combines with chloride. Check solubility: barium sulfate is insoluble (known exception); sodium chloride is soluble.",
+          "answer": "BaCl2(aq) + Na2SO4(aq) → BaSO4(s) + 2NaCl(aq); a white precipitate of barium sulfate forms, while sodium chloride remains dissolved in solution."
+        }
+      ],
+      "practical_applications": ["Double displacement (precipitation) reactions are used extensively in qualitative analysis to identify unknown ions, and in industrial processes to selectively remove or separate specific ions from solution"],
+      "laboratory_applications": ["Mixing two solutions and observing precipitate formation as a standard qualitative test to identify the presence of specific ions"],
+      "common_mistakes": ["Forgetting to check the solubility of BOTH newly formed compounds using solubility rules, rather than assuming a precipitate automatically forms simply because a double displacement reaction is occurring"],
+      "misconceptions": ["Believing every double displacement reaction produces a visible precipitate — a double displacement reaction only produces an observable precipitate if at least one of the two newly formed compounds is actually insoluble; if both new compounds remain soluble, no visible precipitate forms, even though ion exchange has technically occurred"],
+      "tips": ["To predict double displacement products, systematically swap the cations (positive ions) between the two original compounds, then check the solubility of each newly formed combination using solubility rules"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a double displacement reaction.", "answer": "A reaction in which two ionic compounds in solution exchange ions to form two new compounds."},
+          {"question": "State the general pattern of a double displacement reaction.", "answer": "AB + CD → AD + CB"}
+        ],
+        "intermediate": [
+          {"question": "Predict the products, and write a balanced equation, for the reaction between solutions of lead(II) nitrate and potassium iodide.", "answer": "Pb(NO3)2(aq) + 2KI(aq) → PbI2(s) + 2KNO3(aq); a yellow precipitate of lead(II) iodide forms, since lead(II) iodide is insoluble, while potassium nitrate remains dissolved."},
+          {"question": "Explain why mixing solutions of sodium chloride and potassium nitrate does not produce a visible precipitation reaction.", "answer": "Swapping ions between these two compounds would give sodium nitrate and potassium chloride as the potential new products; however, both of these compounds are soluble in water (following the general solubility rules for nitrates and most chlorides/Group 1 salts). Since neither potential product is insoluble, no visible precipitate forms, even though the ions are technically present together in the same mixed solution."}
+        ],
+        "advanced": [
+          {"question": "Explain why double displacement (precipitation) reactions are often better represented and understood using an ionic equation rather than the full equation.", "answer": "In a double displacement reaction, one or more of the ions present (the spectator ions) do not actually undergo any chemical change, remaining dissolved and unchanged in solution throughout the reaction; only the specific ions that combine to form the insoluble precipitate genuinely react. Writing the full equation includes these unreacted spectator ions as part of complete compound formulae, which can obscure the essential nature of the reaction. An ionic equation, by removing the spectator ions and showing only the ions that actually combine to form the precipitate, more clearly and concisely represents the true underlying chemical change taking place, and reveals that the same ionic equation applies to any combination of reactants that provides the same two combining ions, regardless of which specific spectator ions happen to be present."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Predict the products of the reaction between solutions of calcium chloride and sodium carbonate, and write a balanced equation, stating which product (if any) is a precipitate.", "marks": 3, "model_answer": "CaCl2(aq) + Na2CO3(aq) → CaCO3(s) + 2NaCl(aq) (2 marks: 1 for correct formulae, 1 for correct balancing). Calcium carbonate is the precipitate, since it is insoluble, while sodium chloride remains dissolved in solution (1 mark)."}
+      ],
+      "summary": "Double displacement reactions occur when two ionic compounds in solution exchange ions (AB + CD → AD + CB), often producing a precipitate if one of the new products is insoluble, as predicted using solubility rules.",
+      "revision_notes": ["Pattern: AB + CD → AD + CB (ions swap partners)", "Precipitate forms only if a new product is insoluble (check solubility rules)", "Represented concisely via ionic equations (spectator ions removed)"],
+      "related_topics": ["Solubility Rules", "Precipitation Reactions", "Ionic Equations"],
+      "prerequisites": ["Types of Chemical Reactions", "Solubility Rules"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-176-combustion",
+      "subject": "Chemistry",
+      "category": "Types of Chemical Reactions",
+      "title": "Combustion",
+      "difficulty": "Foundation",
+      "description": "Exothermic reactions between a substance and oxygen, typically releasing energy as heat and light, including complete and incomplete combustion of fuels.",
+      "learning_objectives": [
+        "Define combustion",
+        "Distinguish complete and incomplete combustion of hydrocarbons",
+        "Explain the products and dangers associated with incomplete combustion"
+      ],
+      "explanation": "Combustion is an exothermic reaction between a substance (typically a fuel) and oxygen, usually releasing energy rapidly as both heat and light. For hydrocarbon fuels, complete combustion occurs when there is a plentiful, sufficient supply of oxygen, producing carbon dioxide and water as the only products (e.g. CH4 + 2O2 → CO2 + 2H2O); incomplete combustion occurs when the oxygen supply is limited/insufficient, producing a mixture of products that can include carbon monoxide (a toxic, colourless, odourless gas), solid carbon (soot), water, and sometimes some carbon dioxide as well, depending on the exact degree of oxygen limitation. Incomplete combustion is particularly dangerous in enclosed spaces (e.g. faulty gas heaters or boilers), since the carbon monoxide produced can cause serious poisoning without any obvious warning signs (being colourless and odourless), making functioning carbon monoxide detectors an important safety measure wherever fuel is burned indoors.",
+      "key_concepts": ["Exothermic reaction with oxygen (heat and light released)", "Complete combustion: sufficient O2, CO2 + H2O", "Incomplete combustion: limited O2, produces CO and/or soot (carbon)"],
+      "definitions": [
+        {"term": "Combustion", "definition": "An exothermic reaction between a substance and oxygen, typically releasing energy as heat and light."},
+        {"term": "Complete combustion", "definition": "Combustion occurring with a sufficient oxygen supply, producing only carbon dioxide and water from a hydrocarbon fuel."},
+        {"term": "Incomplete combustion", "definition": "Combustion occurring with a limited oxygen supply, producing carbon monoxide and/or solid carbon (soot) in addition to or instead of carbon dioxide."}
+      ],
+      "formulae": [],
+      "equations": [
+        "Complete combustion: CH4(g) + 2O2(g) → CO2(g) + 2H2O(l)",
+        "Incomplete combustion (example): 2CH4(g) + 3O2(g) → 2CO(g) + 4H2O(l)"
+      ],
+      "worked_examples": [
+        {
+          "problem": "Explain the danger of using a gas heater with insufficient ventilation.",
+          "working": "Insufficient ventilation limits the oxygen supply available for combustion of the fuel gas.",
+          "answer": "With limited oxygen, incomplete combustion occurs, producing toxic carbon monoxide gas instead of (or in addition to) carbon dioxide; since carbon monoxide is colourless and odourless, it can build up undetected and cause serious poisoning or death, making adequate ventilation and functioning carbon monoxide detectors essential safety measures."
+        }
+      ],
+      "practical_applications": ["Combustion of fossil fuels remains the dominant source of energy for transportation, electricity generation, and heating worldwide, despite growing use of alternative energy sources"],
+      "laboratory_applications": ["Observing the different flame colour and soot production between complete combustion (clean blue flame) and incomplete combustion (yellow, sooty flame) of a hydrocarbon fuel such as methane"],
+      "common_mistakes": ["Assuming incomplete combustion always produces only carbon monoxide — depending on the specific degree of oxygen limitation, incomplete combustion can produce a mixture of carbon dioxide, carbon monoxide, and solid carbon (soot), not necessarily one single alternative product exclusively"],
+      "misconceptions": ["Believing carbon monoxide poisoning is easily detectable due to an obvious smell or visible sign — carbon monoxide is specifically dangerous because it is colourless and odourless, giving no direct sensory warning of its presence, unlike some other hazardous gases"],
+      "tips": ["Remember the key distinguishing feature: complete combustion (plenty of oxygen) gives CO2 + H2O only; incomplete combustion (limited oxygen) can additionally or instead produce toxic CO gas and/or solid carbon (soot)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the two products of complete combustion of a hydrocarbon fuel.", "answer": "Carbon dioxide and water."},
+          {"question": "Name the toxic gas that can be produced during incomplete combustion.", "answer": "Carbon monoxide."}
+        ],
+        "intermediate": [
+          {"question": "Explain why incomplete combustion of a hydrocarbon fuel can produce solid carbon (soot) as well as, or instead of, carbon monoxide.", "answer": "With a sufficiently limited oxygen supply, there may not be enough oxygen available even to fully oxidise all the carbon atoms in the fuel to carbon monoxide; some carbon atoms may remain entirely unoxidised, released as solid carbon particles (soot), particularly under conditions of severe oxygen shortage, in addition to or instead of carbon monoxide formation, depending on the precise extent of the oxygen limitation."},
+          {"question": "Write balanced equations for both the complete and incomplete combustion (producing CO) of propane, C3H8.", "answer": "Complete: C3H8 + 5O2 → 3CO2 + 4H2O. Incomplete (producing CO): 2C3H8 + 7O2 → 6CO + 8H2O."}
+        ],
+        "advanced": [
+          {"question": "Explain why carbon monoxide is particularly dangerous to human health, referring to its interaction with haemoglobin.", "answer": "Carbon monoxide binds to haemoglobin in red blood cells far more strongly (with a much greater binding affinity) than oxygen does, forming a stable complex called carboxyhaemoglobin. This means that even relatively low concentrations of carbon monoxide in inhaled air can occupy a significant proportion of the body's haemoglobin binding sites, substantially reducing the blood's capacity to transport oxygen to body tissues and organs. Since carbon monoxide is colourless and odourless, a person can be exposed to dangerous, rising levels without any direct sensory warning, and the resulting reduction in oxygen delivery to vital organs (including the brain) can cause symptoms ranging from headache and confusion to unconsciousness and death, depending on the concentration and duration of exposure."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain the difference between complete and incomplete combustion of a hydrocarbon fuel, including the conditions required for each and the products formed.", "marks": 4, "model_answer": "Complete combustion occurs when there is a sufficient, plentiful supply of oxygen, producing only carbon dioxide and water as products (2 marks). Incomplete combustion occurs when the oxygen supply is limited or insufficient, producing a mixture that can include carbon monoxide and/or solid carbon (soot), in addition to or instead of carbon dioxide, along with water (2 marks)."}
+      ],
+      "summary": "Combustion is an exothermic reaction with oxygen, releasing heat and light. Complete combustion (sufficient oxygen) of a hydrocarbon produces only carbon dioxide and water; incomplete combustion (limited oxygen) produces toxic carbon monoxide and/or solid carbon (soot) as well, posing a serious health hazard.",
+      "revision_notes": ["Combustion: exothermic reaction with O2 (heat + light)", "Complete (enough O2): CO2 + H2O only", "Incomplete (limited O2): CO and/or soot (C) produced — CO is toxic, colourless, odourless"],
+      "related_topics": ["Combustion of Alkanes", "Fuels", "Air Pollution"],
+      "prerequisites": ["Types of Chemical Reactions"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-177-thermal-decomposition",
+      "subject": "Chemistry",
+      "category": "Types of Chemical Reactions",
+      "title": "Thermal Decomposition",
+      "difficulty": "Foundation",
+      "description": "The breakdown of a compound into two or more simpler substances specifically using heat energy.",
+      "learning_objectives": [
+        "Define thermal decomposition specifically as decomposition driven by heat",
+        "Write equations for common thermal decomposition reactions",
+        "Explain the industrial significance of the thermal decomposition of limestone"
+      ],
+      "explanation": "Thermal decomposition is a specific type of decomposition reaction in which a compound breaks down into two or more simpler substances when heated, following the general pattern AB → A + B, with heat as the specific energy source required. A classic and industrially important example is the thermal decomposition of calcium carbonate (limestone) to form calcium oxide (quicklime) and carbon dioxide: CaCO3(s) → CaO(s) + CO2(g), a reaction carried out on a massive industrial scale in lime kilns, since calcium oxide has extensive uses in construction (cement, mortar), agriculture (soil treatment), and various chemical manufacturing processes. Many metal carbonates and some metal hydroxides and nitrates also undergo thermal decomposition, generally requiring higher temperatures for carbonates of more reactive metals (see Reactivity Series for the underlying trend).",
+      "key_concepts": ["Decomposition specifically driven by heat", "Pattern: AB → A + B (with heat)", "Industrially important example: limestone → quicklime + CO2"],
+      "definitions": [
+        {"term": "Thermal decomposition", "definition": "The breakdown of a compound into two or more simpler substances specifically as a result of heating."}
+      ],
+      "formulae": [],
+      "equations": ["CaCO3(s) → CaO(s) + CO2(g)"],
+      "worked_examples": [
+        {
+          "problem": "Write the equation for the thermal decomposition of magnesium carbonate.",
+          "working": "Magnesium carbonate decomposes on strong heating into magnesium oxide and carbon dioxide.",
+          "answer": "MgCO3(s) → MgO(s) + CO2(g)"
+        }
+      ],
+      "practical_applications": ["The industrial thermal decomposition of limestone in lime kilns is fundamental to cement, glass, steel, and construction industries worldwide, representing one of the largest-scale industrial chemical reactions"],
+      "laboratory_applications": ["Heating a range of different metal carbonates in the laboratory, testing the gas produced (using limewater to confirm carbon dioxide) and observing differences in the temperature required for each to decompose, to investigate reactivity trends"],
+      "common_mistakes": ["Assuming all compounds undergo thermal decomposition at a similar, moderate temperature — the required temperature varies considerably depending on the specific compound and metal reactivity, from readily achieved laboratory Bunsen burner temperatures to extremely high industrial furnace temperatures"],
+      "misconceptions": ["Believing thermal decomposition is the only type of decomposition reaction — decomposition can also be driven by light (photodecomposition) or electricity (electrolytic decomposition), with thermal decomposition being one specific, common category driven by heat"],
+      "tips": ["Learn the key industrial example thoroughly: CaCO3(s) → CaO(s) + CO2(g), including its major industrial applications and significance, since this is one of the most frequently referenced thermal decomposition reactions in chemistry"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define thermal decomposition.", "answer": "The breakdown of a compound into two or more simpler substances specifically as a result of heating."},
+          {"question": "Write the equation for the thermal decomposition of calcium carbonate.", "answer": "CaCO3(s) → CaO(s) + CO2(g)"}
+        ],
+        "intermediate": [
+          {"question": "Explain the industrial significance of the thermal decomposition of limestone.", "answer": "The thermal decomposition of limestone (calcium carbonate) into quicklime (calcium oxide) and carbon dioxide is carried out on a huge industrial scale in lime kilns, since calcium oxide is a crucial raw material for cement and mortar production (essential to the construction industry), for treating acidic soils in agriculture, and as a starting material in various further chemical manufacturing processes, including the production of calcium hydroxide and other calcium compounds."},
+          {"question": "Explain why sodium carbonate is much more thermally stable (resistant to decomposition) than copper(II) carbonate.", "answer": "Sodium, being a highly reactive Group 1 metal, forms a particularly strong ionic bond with the carbonate ion, making sodium carbonate very thermally stable and requiring an extremely high temperature (well beyond typical laboratory conditions) to decompose. Copper, being a much less reactive metal, forms a comparatively weaker interaction with the carbonate ion, meaning copper(II) carbonate decomposes at a much lower, more readily achievable temperature (e.g. easily reached using a standard laboratory Bunsen burner)."}
+        ],
+        "advanced": [
+          {"question": "Explain why the general trend of increasing thermal stability of metal carbonates with increasing metal reactivity is consistent with the reactivity series, using the concept of ionic bond strength.", "answer": "More reactive metals generally form ions that create particularly strong ionic bonds within their carbonate compounds, in part because their tendency to hold onto their electron configuration as simple ions (rather than being polarised or distorted) helps stabilise the carbonate ion's own structure against decomposition. As metal reactivity decreases down the reactivity series, cations (particularly smaller, more highly charged transition metal or p-block cations) increasingly distort or polarise the electron cloud of the large carbonate anion, weakening the carbonate ion's internal bonding and making the overall compound less thermally stable, requiring less thermal energy (a lower temperature) to trigger decomposition into the metal oxide and carbon dioxide. This trend — more reactive metal, generally greater thermal stability of its carbonate — is broadly consistent across the reactivity series, providing a useful predictive tool for estimating relative decomposition temperatures of unfamiliar metal carbonates."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain what is meant by thermal decomposition, and describe one major industrial application of this type of reaction.", "marks": 3, "model_answer": "Thermal decomposition is the breakdown of a compound into two or more simpler substances as a result of heating (1 mark). A major industrial application is the decomposition of limestone (calcium carbonate) into quicklime (calcium oxide) and carbon dioxide in lime kilns (1 mark), with the calcium oxide produced being essential for cement and mortar manufacture in the construction industry (1 mark)."}
+      ],
+      "summary": "Thermal decomposition is decomposition driven specifically by heat, following AB → A + B, with the industrially crucial decomposition of limestone (CaCO3 → CaO + CO2) as a key example. Thermal stability of carbonates generally increases with increasing metal reactivity.",
+      "revision_notes": ["Thermal decomposition: decomposition driven by HEAT specifically", "Key example: CaCO3 → CaO + CO2 (industrially vital, lime kilns)", "More reactive metal carbonates are generally MORE thermally stable (need higher temp to decompose)"],
+      "related_topics": ["Decomposition Reactions", "Reactivity Series", "Industrial Chemistry"],
+      "prerequisites": ["Decomposition Reactions"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-178-catalytic-reactions",
+      "subject": "Chemistry",
+      "category": "Types of Chemical Reactions",
+      "title": "Catalytic Reactions",
+      "difficulty": "Foundation",
+      "description": "Reactions that proceed with the aid of a catalyst, which increases reaction rate without being consumed, by providing a lower activation energy pathway.",
+      "learning_objectives": [
+        "Define a catalyst and explain its role in a reaction",
+        "Explain why catalysts increase reaction rate without being used up",
+        "Give industrial examples of catalytic reactions"
+      ],
+      "explanation": "A catalytic reaction is a reaction whose rate is increased by the presence of a catalyst: a substance that speeds up a chemical reaction without itself being permanently chemically changed or consumed by the reaction. Catalysts work by providing an alternative reaction pathway with a lower activation energy than the uncatalysed reaction, allowing a greater proportion of reactant particles to have sufficient energy to react successfully at a given temperature, thereby increasing the rate of reaction without requiring the temperature itself to be increased (though catalysts do not affect the overall equilibrium position or the overall enthalpy change of a reversible reaction, only the rate at which equilibrium is reached). Catalysts are of enormous industrial importance, allowing many crucial reactions (such as the Haber process for ammonia synthesis, using an iron catalyst, and catalytic converters in vehicles, using platinum, palladium and rhodium) to proceed economically viably, at lower temperatures/pressures and faster rates than would otherwise be possible.",
+      "key_concepts": ["Catalyst: speeds up reaction, not consumed", "Provides alternative pathway with lower activation energy", "Does not affect equilibrium position or overall enthalpy change", "Industrially vital (Haber process, catalytic converters)"],
+      "definitions": [
+        {"term": "Catalyst", "definition": "A substance that increases the rate of a chemical reaction without itself being permanently chemically changed or consumed, by providing an alternative reaction pathway with lower activation energy."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Explain why manganese(IV) oxide increases the rate of decomposition of hydrogen peroxide without itself being used up.",
+          "working": "Manganese(IV) oxide acts as a catalyst, providing an alternative reaction pathway with lower activation energy for the decomposition of hydrogen peroxide.",
+          "answer": "The manganese(IV) oxide is regenerated at the end of the catalytic cycle (it may temporarily participate in intermediate steps of the reaction mechanism, but is chemically unchanged once the overall reaction is complete), so it remains available afterwards, unconsumed, to catalyse further decomposition of additional hydrogen peroxide."
+        }
+      ],
+      "practical_applications": ["Catalysts are essential to numerous large-scale industrial processes, including the Haber process (ammonia), Contact process (sulfuric acid), and catalytic converters that reduce harmful vehicle emissions"],
+      "laboratory_applications": ["Investigating the effect of a catalyst (e.g. manganese(IV) oxide) on the rate of decomposition of hydrogen peroxide, measuring the rate of oxygen gas production with and without the catalyst present"],
+      "common_mistakes": ["Believing a catalyst is consumed or used up during a reaction, similar to a reactant — a catalyst is regenerated by the end of the overall reaction and can continue to catalyse further reaction, even though it may temporarily take part in intermediate steps of the reaction mechanism"],
+      "misconceptions": ["Believing catalysts affect the overall yield or equilibrium position of a reversible reaction — catalysts only affect the RATE at which a reaction (or equilibrium) is reached; they do not change the overall equilibrium position, the enthalpy change, or the maximum theoretical yield of a reaction"],
+      "tips": ["Always emphasise in exam answers that a catalyst provides an alternative reaction pathway with LOWER ACTIVATION ENERGY — this is the specific mechanism by which catalysts increase reaction rate"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a catalyst.", "answer": "A substance that increases the rate of a chemical reaction without itself being permanently chemically changed or consumed."},
+          {"question": "Name the catalyst used in the Haber process.", "answer": "Iron"}
+        ],
+        "intermediate": [
+          {"question": "Explain how a catalyst increases the rate of a chemical reaction.", "answer": "A catalyst provides an alternative reaction pathway with a lower activation energy than the uncatalysed reaction. Since a greater proportion of reactant particles will have sufficient energy to overcome this lower activation energy at a given temperature, more successful collisions occur per unit time, increasing the overall rate of reaction."},
+          {"question": "Explain why catalysts are economically important in industrial chemical processes.", "answer": "By increasing reaction rate (via lowering activation energy), catalysts allow industrial reactions to proceed at a commercially viable rate using lower temperatures and/or pressures than would otherwise be required, significantly reducing energy costs and equipment demands, while still achieving an acceptable rate of product formation, making many industrial processes considerably more economically efficient and cost-effective."}
+        ],
+        "advanced": [
+          {"question": "Explain why a catalyst does not affect the equilibrium position or the overall enthalpy change of a reversible reaction, even though it increases the rate at which equilibrium is reached.", "answer": "A catalyst provides an alternative reaction pathway with lower activation energy, but this lower activation energy pathway applies EQUALLY to both the forward and the reverse reaction of a reversible process; the catalyst speeds up both directions of the reaction by the same proportional factor. Since the equilibrium position is determined by the relative rates of the forward and reverse reactions becoming equal, and both rates are increased equally by the catalyst, the equilibrium position itself (the relative amounts of reactants and products present at equilibrium) remains unchanged; only the TIME taken to reach that same equilibrium position is reduced. Similarly, the overall enthalpy change of the reaction (the energy difference between reactants and products) is a property of the reactants and products themselves, determined by their relative bond energies, and is entirely independent of the specific reaction pathway taken (with or without a catalyst) to get from reactants to products, so a catalyst cannot alter this fixed overall enthalpy change."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain, in terms of activation energy, how a catalyst increases the rate of a chemical reaction, and state one industrial process that relies on a catalyst.", "marks": 3, "model_answer": "A catalyst provides an alternative reaction pathway with a lower activation energy than the uncatalysed reaction (1 mark). This means a greater proportion of reactant particles have sufficient energy to react successfully at a given temperature, increasing the rate of reaction (1 mark). Example: the Haber process, which uses an iron catalyst to increase the rate of ammonia production (1 mark)."}
+      ],
+      "summary": "Catalytic reactions proceed faster in the presence of a catalyst, which provides a lower-activation-energy pathway without being permanently consumed or changing the overall equilibrium position or enthalpy change. Catalysts are of major industrial importance, enabling economically viable reaction conditions.",
+      "revision_notes": ["Catalyst: increases rate, not consumed, lowers activation energy", "Does NOT affect equilibrium position or overall enthalpy change (affects rate only)", "Key industrial examples: Fe (Haber process), catalytic converters (Pt/Pd/Rh)"],
+      "related_topics": ["Catalysts", "Activation Energy", "Rate of Reaction"],
+      "prerequisites": ["Types of Chemical Reactions"],
+      "diagram_recommendations": [],
+      "images": []
+    }
+  ]
+}

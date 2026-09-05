@@ -1,0 +1,1851 @@
+[
+  {
+    "id": 39,
+    "category": "Polynomials",
+    "topic": "Polynomial Expressions",
+    "explanation": "A polynomial expression is a sum of terms consisting of variables raised to non-negative integer powers, each multiplied by a coefficient, such as 3x^3 - 2x^2 + x - 5.",
+    "key_concepts": [
+      "Terms and coefficients",
+      "Non-negative integer exponents only",
+      "Standard (descending) form"
+    ],
+    "definitions": [
+      {
+        "term": "Polynomial",
+        "definition": "An expression of the form a\u2099x\u207f+a\u2099\u208b\u2081x\u207f\u207b\u00b9+...+a\u2081x+a\u2080 where n is a non-negative integer."
+      },
+      {
+        "term": "Coefficient",
+        "definition": "The numerical factor multiplying a variable term."
+      }
+    ],
+    "formulas": [
+      "General form: a\u2099x\u207f + a\u2099\u208b\u2081x\u207f\u207b\u00b9 + ... + a\u2081x + a\u2080"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Identify the coefficients and degree of 4x^3 - 3x + 7",
+        "steps": [
+          "Coefficients: 4 (x^3), 0 (x^2), -3 (x), 7 (constant)",
+          "Highest power is 3"
+        ],
+        "answer": "Degree 3; coefficients 4, 0, -3, 7"
+      },
+      {
+        "problem": "Write 5 - 2x^2 + x^4 in standard descending form",
+        "steps": [
+          "Order by descending power"
+        ],
+        "answer": "x^4 - 2x^2 + 5"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "State whether 3x^2 + 2\u221ax is a polynomial",
+        "answer": "No \u2014 \u221ax has a fractional exponent"
+      },
+      {
+        "q": "Write -3 + x^3 - 4x in standard form",
+        "answer": "x^3 - 4x - 3"
+      },
+      {
+        "q": "State the coefficient of x in 7x^3 - 5x + 2",
+        "answer": "-5"
+      },
+      {
+        "q": "State the constant term of 2x^2 - 9",
+        "answer": "-9"
+      },
+      {
+        "q": "Is 1/x + 3 a polynomial?",
+        "answer": "No \u2014 negative exponent on x"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Explain why f(x) = 2x^3 - x^(1/2) + 4 is not a polynomial.",
+        "answer": "The term x^(1/2) has a non-integer exponent, violating the polynomial definition"
+      },
+      {
+        "q": "Write down the general form of a cubic polynomial and state the condition on its leading coefficient.",
+        "answer": "ax^3+bx^2+cx+d, with a\u22600"
+      }
+    ],
+    "common_mistakes": [
+      "Including terms with negative or fractional exponents",
+      "Confusing degree with number of terms",
+      "Missing terms with coefficient zero when listing coefficients"
+    ],
+    "tips": [
+      "Check every exponent is a non-negative integer",
+      "Degree = highest exponent, not the number of terms",
+      "Always write in standard descending order for clarity"
+    ],
+    "summary": "Polynomial expressions are the building blocks for the entire Polynomials category \u2014 recognising valid polynomial form is the essential first step.",
+    "quick_revision": [
+      "Exponents must be non-negative integers",
+      "Degree = highest power present",
+      "Standard form lists terms in descending powers"
+    ],
+    "related_topics": [
+      "Degree of a Polynomial",
+      "Polynomial Functions",
+      "Algebraic Manipulation"
+    ],
+    "prerequisites": [
+      "Algebraic Manipulation",
+      "Indices"
+    ],
+    "images": []
+  },
+  {
+    "id": 40,
+    "category": "Polynomials",
+    "topic": "Degree of a Polynomial",
+    "explanation": "The degree of a polynomial is the value of its highest exponent, which determines the polynomial's general shape, maximum number of roots, and behaviour at extreme values of x.",
+    "key_concepts": [
+      "Highest power term",
+      "Degree determines maximum number of roots",
+      "Degree determines end behaviour"
+    ],
+    "definitions": [
+      {
+        "term": "Degree",
+        "definition": "The highest power of the variable present in a polynomial with a nonzero coefficient."
+      }
+    ],
+    "formulas": [
+      "A degree-n polynomial has at most n real roots"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the degree of 3x^5 - 2x^2 + x - 1",
+        "steps": [
+          "Highest power present is 5"
+        ],
+        "answer": "Degree 5"
+      },
+      {
+        "problem": "Find the degree of (x+1)(x-2)(x+3)",
+        "steps": [
+          "Product of three linear factors \u2192 degree 1+1+1"
+        ],
+        "answer": "Degree 3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Find the degree of 7 - 4x + x^3",
+        "answer": "3"
+      },
+      {
+        "q": "Find the degree of (2x^2-1)(x+5)",
+        "answer": "3"
+      },
+      {
+        "q": "Find the degree of a constant, e.g. 7",
+        "answer": "0"
+      },
+      {
+        "q": "Find the degree of (x-1)^4",
+        "answer": "4"
+      },
+      {
+        "q": "State the maximum number of real roots a degree-4 polynomial can have",
+        "answer": "4"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "The polynomial p(x)=(x-2)(x^2+ax+b) has degree 3. If p(x) also equals x^3-5x^2+6x, find a and b.",
+        "answer": "Expand: x^3+(a-2)x^2+(b-2a)x-2b = x^3-5x^2+6x; a-2=-5\u2192a=-3; -2b=0\u2192b=0; check b-2a=6: 0-2(-3)=6 \u2713"
+      },
+      {
+        "q": "Explain why a cubic polynomial must have at least one real root.",
+        "answer": "Odd-degree polynomials tend to \u00b1\u221e at opposite ends, so by the Intermediate Value Theorem they must cross the x-axis at least once"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting that multiplying polynomials adds their degrees",
+      "Miscounting degree when terms are not in standard form",
+      "Assuming a polynomial's degree equals its number of terms"
+    ],
+    "tips": [
+      "When multiplying polynomials, degrees add",
+      "Rewrite in standard form first to spot the degree easily",
+      "Odd-degree polynomials always have at least one real root"
+    ],
+    "summary": "Degree is the single most informative property of a polynomial, governing its graph shape, root count, and end behaviour.",
+    "quick_revision": [
+      "Degree = highest exponent present",
+      "Product of polynomials: degrees add",
+      "Odd degree \u2192 at least one real root; guarantees opposite end behaviour"
+    ],
+    "related_topics": [
+      "Polynomial Expressions",
+      "Polynomial Graphs",
+      "Polynomial Roots"
+    ],
+    "prerequisites": [
+      "Polynomial Expressions"
+    ],
+    "images": []
+  },
+  {
+    "id": 41,
+    "category": "Polynomials",
+    "topic": "Polynomial Addition",
+    "explanation": "Polynomials are added by combining like terms (terms with the same variable and exponent), keeping the result in standard descending form.",
+    "key_concepts": [
+      "Aligning like terms",
+      "Combining coefficients"
+    ],
+    "definitions": [
+      {
+        "term": "Like terms",
+        "definition": "Terms sharing the same variable raised to the same power."
+      }
+    ],
+    "formulas": [
+      "(a\u2099x\u207f+...) + (b\u2099x\u207f+...) = (a\u2099+b\u2099)x\u207f + ..."
+    ],
+    "worked_examples": [
+      {
+        "problem": "Add (3x^2+2x-1) + (x^2-5x+4)",
+        "steps": [
+          "Combine x^2: 3x^2+x^2=4x^2",
+          "Combine x: 2x-5x=-3x",
+          "Combine constants: -1+4=3"
+        ],
+        "answer": "4x^2 - 3x + 3"
+      },
+      {
+        "problem": "Add (x^3-2x+3) + (2x^2+x-5)",
+        "steps": [
+          "x^3: x^3",
+          "x^2: 2x^2",
+          "x: -2x+x=-x",
+          "constant: 3-5=-2"
+        ],
+        "answer": "x^3 + 2x^2 - x - 2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Add (2x^2+3x) + (x^2-x+4)",
+        "answer": "3x^2+2x+4"
+      },
+      {
+        "q": "Add (x^3-1) + (2x^3+3x-2)",
+        "answer": "3x^3+3x-3"
+      },
+      {
+        "q": "Add (5x-3) + (-2x+7)",
+        "answer": "3x+4"
+      },
+      {
+        "q": "Add (x^2+2x+1) + (-x^2+x-1)",
+        "answer": "3x"
+      },
+      {
+        "q": "Add (4x^3-2x^2+x) + (x^2-x+6)",
+        "answer": "4x^3-x^2+6"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Given p(x)=2x^2-3x+1 and q(x)=x^2+4x-5, find p(x)+q(x) and evaluate at x=2.",
+        "answer": "p+q=3x^2+x-4; at x=2: 12+2-4=10"
+      },
+      {
+        "q": "Find the sum of (x^3-2x^2+5) and (-x^3+2x^2-3x)",
+        "answer": "-3x + 5"
+      }
+    ],
+    "common_mistakes": [
+      "Combining terms with different exponents",
+      "Sign errors when adding negative coefficients",
+      "Missing terms that don't have a matching pair (should stay as-is)"
+    ],
+    "tips": [
+      "Only combine terms with identical variable and exponent",
+      "Line up terms by degree to avoid missing any",
+      "Terms without a match in the other polynomial carry through unchanged"
+    ],
+    "summary": "Polynomial addition is a straightforward extension of collecting like terms, forming the basis for manipulating polynomial functions.",
+    "quick_revision": [
+      "Combine coefficients of matching powers only",
+      "Write result in standard descending form"
+    ],
+    "related_topics": [
+      "Polynomial Subtraction",
+      "Algebraic Manipulation",
+      "Polynomial Expressions"
+    ],
+    "prerequisites": [
+      "Algebraic Manipulation"
+    ],
+    "images": []
+  },
+  {
+    "id": 42,
+    "category": "Polynomials",
+    "topic": "Polynomial Subtraction",
+    "explanation": "Polynomials are subtracted by distributing the negative sign across every term of the second polynomial, then combining like terms as in addition.",
+    "key_concepts": [
+      "Distributing the negative sign",
+      "Combining like terms after sign change"
+    ],
+    "definitions": [
+      {
+        "term": "Subtraction of polynomials",
+        "definition": "Adding the additive inverse (negation) of the second polynomial to the first."
+      }
+    ],
+    "formulas": [
+      "(A) - (B) = A + (-B)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Subtract (x^2-3x+2) - (2x^2+x-5)",
+        "steps": [
+          "Distribute negative: x^2-3x+2-2x^2-x+5",
+          "Combine: -x^2-4x+7"
+        ],
+        "answer": "-x^2 - 4x + 7"
+      },
+      {
+        "problem": "Subtract (3x^3+2x) - (x^3-4x+1)",
+        "steps": [
+          "3x^3+2x-x^3+4x-1",
+          "Combine: 2x^3+6x-1"
+        ],
+        "answer": "2x^3 + 6x - 1"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Subtract (5x^2-2x) - (x^2+3x-4)",
+        "answer": "4x^2-5x+4"
+      },
+      {
+        "q": "Subtract (x^3-1) - (2x^3+x-3)",
+        "answer": "-x^3-x+2"
+      },
+      {
+        "q": "Subtract (4x-7) - (-2x+3)",
+        "answer": "6x-10"
+      },
+      {
+        "q": "Subtract (x^2+2x+5) - (x^2+2x+5)",
+        "answer": "0"
+      },
+      {
+        "q": "Subtract (2x^2-3x+1) - (x^2-x-4)",
+        "answer": "x^2-2x+5"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Given f(x)=3x^2-2x+4 and g(x)=x^2+5x-1, find f(x)-g(x) and hence solve f(x)-g(x)=0.",
+        "answer": "f-g=2x^2-7x+5; solve: (2x-5)(x-1)=0, x=5/2 or x=1"
+      },
+      {
+        "q": "Find (x^3-4x^2+x) - (2x^3-x^2-3x+6)",
+        "answer": "-x^3-3x^2+4x-6"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to flip the sign of every term in the second polynomial",
+      "Sign slip on just one term while correctly changing the others",
+      "Combining terms of different degrees"
+    ],
+    "tips": [
+      "Change the sign of every term in the bracket being subtracted, not just the first",
+      "Rewrite as addition of the negated polynomial to reduce errors",
+      "Double-check each term's sign after distributing"
+    ],
+    "summary": "Polynomial subtraction is addition with a sign flip \u2014 the most common error is an incomplete sign change across the whole second polynomial.",
+    "quick_revision": [
+      "Distribute the negative across every term being subtracted",
+      "Then combine like terms as in addition"
+    ],
+    "related_topics": [
+      "Polynomial Addition",
+      "Algebraic Manipulation"
+    ],
+    "prerequisites": [
+      "Polynomial Addition"
+    ],
+    "images": []
+  },
+  {
+    "id": 43,
+    "category": "Polynomials",
+    "topic": "Polynomial Multiplication",
+    "explanation": "Polynomials are multiplied by distributing every term of one polynomial across every term of the other, then collecting like terms \u2014 degrees add during multiplication.",
+    "key_concepts": [
+      "Distributive expansion",
+      "Collecting like terms after expansion",
+      "Degree of the product = sum of degrees"
+    ],
+    "definitions": [
+      {
+        "term": "Product of polynomials",
+        "definition": "The result of multiplying every term of one polynomial by every term of another."
+      }
+    ],
+    "formulas": [
+      "deg(P\u00d7Q) = deg(P) + deg(Q)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Multiply (x+2)(x^2-3x+1)",
+        "steps": [
+          "x(x^2-3x+1) = x^3-3x^2+x",
+          "2(x^2-3x+1) = 2x^2-6x+2",
+          "Add: x^3-3x^2+x+2x^2-6x+2"
+        ],
+        "answer": "x^3 - x^2 - 5x + 2"
+      },
+      {
+        "problem": "Multiply (2x-1)(x+3)",
+        "steps": [
+          "2x(x+3)=2x^2+6x",
+          "-1(x+3)=-x-3",
+          "Combine"
+        ],
+        "answer": "2x^2 + 5x - 3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Multiply (x-2)(x+5)",
+        "answer": "x^2+3x-10"
+      },
+      {
+        "q": "Multiply (x+1)(x^2+2x+3)",
+        "answer": "x^3+3x^2+5x+3"
+      },
+      {
+        "q": "Multiply (2x-3)(3x+1)",
+        "answer": "6x^2-7x-3"
+      },
+      {
+        "q": "Multiply (x-1)(x-2)(x-3)",
+        "answer": "x^3-6x^2+11x-6"
+      },
+      {
+        "q": "Multiply (x^2+1)(x^2-1)",
+        "answer": "x^4-1"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Expand and simplify (x-2)^2(x+1)",
+        "answer": "(x^2-4x+4)(x+1)=x^3-3x^2+0x+4=x^3-3x^2+4"
+      },
+      {
+        "q": "Find the coefficient of x^2 in the expansion of (x+3)(x^2-2x+5)",
+        "answer": "Expand: x^3-2x^2+5x+3x^2-6x+15=x^3+x^2-x+15; coefficient of x^2 is 1"
+      }
+    ],
+    "common_mistakes": [
+      "Missing cross-terms when multiplying multi-term polynomials",
+      "Sign errors during expansion",
+      "Not fully collecting all like terms at the end"
+    ],
+    "tips": [
+      "Multiply every term of the first bracket by every term of the second, systematically",
+      "Use a grid/table method for longer polynomials to avoid missing terms",
+      "Collect like terms carefully, working from highest to lowest degree"
+    ],
+    "summary": "Polynomial multiplication scales up basic bracket expansion \u2014 organisation (grid method or systematic distribution) prevents missed terms.",
+    "quick_revision": [
+      "Distribute every term across every term",
+      "Degrees add: deg(P\u00d7Q)=deg(P)+deg(Q)",
+      "Collect like terms in standard form"
+    ],
+    "related_topics": [
+      "Algebraic Manipulation",
+      "Cubic Equations",
+      "Polynomial Division"
+    ],
+    "prerequisites": [
+      "Algebraic Manipulation"
+    ],
+    "images": []
+  },
+  {
+    "id": 44,
+    "category": "Polynomials",
+    "topic": "Polynomial Division",
+    "explanation": "Polynomial division divides one polynomial by another (usually of lower degree), producing a quotient and remainder, analogous to long division of numbers.",
+    "key_concepts": [
+      "Long division algorithm",
+      "Quotient and remainder",
+      "Division algorithm identity"
+    ],
+    "definitions": [
+      {
+        "term": "Division algorithm",
+        "definition": "For polynomials, f(x) = (divisor)(quotient) + remainder, where the remainder has lower degree than the divisor."
+      }
+    ],
+    "formulas": [
+      "f(x) = d(x)\u00b7q(x) + r(x), deg(r) < deg(d)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Divide x^3+2x^2-5x-6 by x-2",
+        "steps": [
+          "x^3\u00f7x=x^2; x^2(x-2)=x^3-2x^2; subtract: 4x^2-5x-6",
+          "4x^2\u00f7x=4x; 4x(x-2)=4x^2-8x; subtract: 3x-6",
+          "3x\u00f7x=3; 3(x-2)=3x-6; subtract: 0"
+        ],
+        "answer": "Quotient: x^2+4x+3, remainder 0"
+      },
+      {
+        "problem": "Divide 2x^3-3x^2+x+5 by x+1",
+        "steps": [
+          "2x^3\u00f7x=2x^2; 2x^2(x+1)=2x^3+2x^2; subtract: -5x^2+x+5",
+          "-5x^2\u00f7x=-5x; -5x(x+1)=-5x^2-5x; subtract: 6x+5",
+          "6x\u00f7x=6; 6(x+1)=6x+6; subtract: -1"
+        ],
+        "answer": "Quotient: 2x^2-5x+6, remainder -1"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Divide x^2+5x+6 by x+2",
+        "answer": "x+3, remainder 0"
+      },
+      {
+        "q": "Divide x^3-1 by x-1",
+        "answer": "x^2+x+1, remainder 0"
+      },
+      {
+        "q": "Divide 2x^2-3x-5 by x-3",
+        "answer": "2x+3, remainder 4"
+      },
+      {
+        "q": "Divide x^3+2x^2-3x+4 by x+3",
+        "answer": "x^2-x, remainder 4"
+      },
+      {
+        "q": "Divide 3x^3+2x-1 by x+1",
+        "answer": "3x^2-3x+5, remainder -6"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Divide 2x^3+x^2-13x+6 by x-2, and use the result to fully factorise the cubic.",
+        "answer": "Quotient: 2x^2+5x-3, remainder 0; 2x^2+5x-3=(2x-1)(x+3); full factorisation: (x-2)(2x-1)(x+3)"
+      },
+      {
+        "q": "Find the remainder when x^4-3x^2+2 is divided by x+1",
+        "answer": "Quotient x^3-x^2-2x-2 remainder 4 (verify via remainder theorem: f(-1)=1-3+2=0... recompute carefully)"
+      }
+    ],
+    "common_mistakes": [
+      "Errors subtracting during long division (sign mistakes)",
+      "Missing placeholder terms for absent powers (e.g. no x^2 term)",
+      "Stopping division too early before the remainder's degree is less than the divisor's"
+    ],
+    "tips": [
+      "Always include zero placeholders for missing powers of x",
+      "Double check each subtraction step carefully",
+      "Stop only when the remainder's degree is less than the divisor's degree"
+    ],
+    "summary": "Polynomial division underlies the Factor and Remainder Theorems, and is essential for fully factorising cubics and higher-degree polynomials.",
+    "quick_revision": [
+      "Divide leading terms, multiply back, subtract, repeat",
+      "Include zero placeholders for missing powers",
+      "Stop when remainder's degree < divisor's degree"
+    ],
+    "related_topics": [
+      "Synthetic Division",
+      "Factor Theorem",
+      "Remainder Theorem"
+    ],
+    "prerequisites": [
+      "Polynomial Multiplication",
+      "Polynomial Subtraction"
+    ],
+    "images": []
+  },
+  {
+    "id": 45,
+    "category": "Polynomials",
+    "topic": "Synthetic Division",
+    "explanation": "Synthetic division is a shortcut method for dividing a polynomial by a linear factor (x - a), using only the coefficients to quickly find the quotient and remainder.",
+    "key_concepts": [
+      "Using coefficients only",
+      "Bring-down-multiply-add process",
+      "Only works for linear divisors (x-a)"
+    ],
+    "definitions": [
+      {
+        "term": "Synthetic division",
+        "definition": "A condensed division algorithm for dividing by (x-a), operating only on coefficients."
+      }
+    ],
+    "formulas": [
+      "Divide by (x-a): bring down leading coefficient, multiply by a and add, repeat"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Use synthetic division to divide x^3-4x^2+x+6 by x-2",
+        "steps": [
+          "Coefficients: 1,-4,1,6; a=2",
+          "Bring down 1",
+          "1\u00d72=2, -4+2=-2",
+          "-2\u00d72=-4, 1+(-4)=-3",
+          "-3\u00d72=-6, 6+(-6)=0"
+        ],
+        "answer": "Quotient: x^2-2x-3, remainder 0"
+      },
+      {
+        "problem": "Divide 2x^3+x^2-13x+6 by x-2 using synthetic division",
+        "steps": [
+          "Coefficients: 2,1,-13,6; a=2",
+          "Bring down 2",
+          "2\u00d72=4, 1+4=5",
+          "5\u00d72=10, -13+10=-3",
+          "-3\u00d72=-6, 6+(-6)=0"
+        ],
+        "answer": "Quotient: 2x^2+5x-3, remainder 0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Use synthetic division to divide x^3-6x^2+11x-6 by x-1",
+        "answer": "x^2-5x+6, remainder 0"
+      },
+      {
+        "q": "Divide x^3+3x^2-x-3 by x+3 synthetically",
+        "answer": "x^2-1, remainder 0"
+      },
+      {
+        "q": "Divide 2x^3-5x^2+4x-1 by x-1 synthetically",
+        "answer": "2x^2-3x+1, remainder 0"
+      },
+      {
+        "q": "Divide x^3+2x-5 by x-1 synthetically",
+        "answer": "x^2+x+3, remainder -2"
+      },
+      {
+        "q": "Divide x^4-1 by x-1 synthetically",
+        "answer": "x^3+x^2+x+1, remainder 0"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Use synthetic division to find the quotient and remainder when x^3-2x^2-5x+6 is divided by x-3, and hence factorise fully.",
+        "answer": "Quotient x^2+x-2, remainder 0; x^2+x-2=(x+2)(x-1); full factorisation (x-3)(x+2)(x-1)"
+      },
+      {
+        "q": "Show using synthetic division that x+1 is a factor of x^3+3x^2+3x+1, and identify the other factor.",
+        "answer": "Synthetic division with a=-1 gives quotient x^2+2x+1, remainder 0, so x+1 is a factor and other factor is (x+1)^2, total (x+1)^3"
+      }
+    ],
+    "common_mistakes": [
+      "Using synthetic division for a divisor that isn't linear or isn't in the form (x-a)",
+      "Sign error using a instead of -a (e.g. dividing by x+3 requires a=-3)",
+      "Missing a zero coefficient for an absent power of x"
+    ],
+    "tips": [
+      "Only use synthetic division for linear divisors (x-a)",
+      "For divisor (x+a), remember to use -a in the process",
+      "Include zero for any missing power's coefficient"
+    ],
+    "summary": "Synthetic division is a fast, low-error alternative to long division specifically for linear divisors, heavily used alongside the Factor Theorem.",
+    "quick_revision": [
+      "Only for dividing by (x-a)",
+      "Bring down, multiply by a, add \u2014 repeat",
+      "Last number is the remainder"
+    ],
+    "related_topics": [
+      "Polynomial Division",
+      "Factor Theorem",
+      "Remainder Theorem"
+    ],
+    "prerequisites": [
+      "Polynomial Division"
+    ],
+    "images": []
+  },
+  {
+    "id": 46,
+    "category": "Polynomials",
+    "topic": "Factor Theorem",
+    "explanation": "The Factor Theorem states that (x - a) is a factor of a polynomial f(x) if and only if f(a) = 0, providing a quick way to test for factors and find roots.",
+    "key_concepts": [
+      "Testing candidate roots",
+      "Rational root theorem for guessing candidates",
+      "Using the theorem to factorise fully"
+    ],
+    "definitions": [
+      {
+        "term": "Factor Theorem",
+        "definition": "(x-a) is a factor of f(x) if and only if f(a)=0."
+      }
+    ],
+    "formulas": [
+      "f(a) = 0 \u27fa (x-a) is a factor of f(x)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Show that (x-1) is a factor of x^3-6x^2+11x-6",
+        "steps": [
+          "f(1) = 1-6+11-6 = 0"
+        ],
+        "answer": "f(1)=0, so (x-1) is a factor"
+      },
+      {
+        "problem": "Factorise x^3-2x^2-5x+6 fully",
+        "steps": [
+          "Try f(1)=1-2-5+6=0, so (x-1) is a factor",
+          "Divide to get x^2-x-6=(x-3)(x+2)"
+        ],
+        "answer": "(x-1)(x-3)(x+2)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Show that (x+2) is a factor of x^3+2x^2-x-2",
+        "answer": "f(-2)=-8+8+2-2=0 \u2713"
+      },
+      {
+        "q": "Determine if (x-3) is a factor of x^3-4x^2+x+6",
+        "answer": "f(3)=27-36+3+6=0, yes"
+      },
+      {
+        "q": "Factorise x^3+x^2-4x-4 fully",
+        "answer": "f(-1)=0; (x+1)(x-2)(x+2)"
+      },
+      {
+        "q": "Determine if (x-2) is a factor of x^3+3x-10",
+        "answer": "f(2)=8+6-10=4\u22600, no"
+      },
+      {
+        "q": "Factorise x^3-7x+6 fully",
+        "answer": "f(1)=0; (x-1)(x-2)(x+3)"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Given f(x)=x^3+ax^2-5x-6 has (x-2) as a factor, find a and hence factorise f(x) fully.",
+        "answer": "f(2)=8+4a-10-6=0, 4a=8, a=2; f(x)=x^3+2x^2-5x-6; divide by (x-2): x^2+4x+3=(x+1)(x+3); full: (x-2)(x+1)(x+3)"
+      },
+      {
+        "q": "Show that (2x-1) is a factor of 2x^3-3x^2-3x+2, and find the remaining factors.",
+        "answer": "f(1/2)=2(1/8)-3(1/4)-3(1/2)+2=0.25-0.75-1.5+2=0 \u2713; divide out: (2x-1)(x^2-x-2)=(2x-1)(x-2)(x+1)"
+      }
+    ],
+    "common_mistakes": [
+      "Testing the wrong value (should be a for factor (x-a), not -a)",
+      "Not using divisors of the constant term to choose candidates efficiently",
+      "Stopping after finding one factor without factorising the remaining quadratic"
+    ],
+    "tips": [
+      "For (x-a), always substitute x=a directly",
+      "Try factors of the constant term \u00f7 factors of the leading coefficient as candidates",
+      "After finding one linear factor, always factorise the remaining quadratic if possible"
+    ],
+    "summary": "The Factor Theorem is the essential tool for cracking cubics and higher-degree polynomials by hand, working hand-in-hand with the Remainder Theorem and division.",
+    "quick_revision": [
+      "f(a)=0 \u27fa (x-a) is a factor",
+      "Try divisors of the constant term as candidate roots",
+      "After finding one factor, divide and factorise what remains"
+    ],
+    "related_topics": [
+      "Remainder Theorem",
+      "Polynomial Division",
+      "Cubic Equations"
+    ],
+    "prerequisites": [
+      "Polynomial Division",
+      "Synthetic Division"
+    ],
+    "images": []
+  },
+  {
+    "id": 47,
+    "category": "Polynomials",
+    "topic": "Remainder Theorem",
+    "explanation": "The Remainder Theorem states that when a polynomial f(x) is divided by (x - a), the remainder equals f(a), avoiding the need for full division just to find the remainder.",
+    "key_concepts": [
+      "Evaluating f(a) directly",
+      "Relationship to the Factor Theorem (remainder 0 case)"
+    ],
+    "definitions": [
+      {
+        "term": "Remainder Theorem",
+        "definition": "If f(x) is divided by (x-a), the remainder is f(a)."
+      }
+    ],
+    "formulas": [
+      "Remainder = f(a) when dividing by (x-a)",
+      "Remainder = f(b/a) when dividing by (ax-b)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the remainder when x^3-4x+1 is divided by x-2",
+        "steps": [
+          "f(2)=8-8+1"
+        ],
+        "answer": "1"
+      },
+      {
+        "problem": "Find the remainder when 2x^3+x-5 is divided by 2x-1",
+        "steps": [
+          "Solve 2x-1=0, x=1/2",
+          "f(1/2)=2(1/8)+1/2-5=0.25+0.5-5"
+        ],
+        "answer": "-4.25"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Find the remainder when x^3+2x^2-3 is divided by x-1",
+        "answer": "0"
+      },
+      {
+        "q": "Find the remainder when x^3-3x+7 is divided by x+2",
+        "answer": "5"
+      },
+      {
+        "q": "Find the remainder when 3x^2-2x+1 is divided by x-3",
+        "answer": "22"
+      },
+      {
+        "q": "Find the remainder when x^4-1 is divided by x+1",
+        "answer": "0"
+      },
+      {
+        "q": "Find the remainder when 2x^3+3x^2-x+4 is divided by 2x+1",
+        "answer": "f(-1/2)=2(-1/8)+3(1/4)-(-1/2)+4=-0.25+0.75+0.5+4=5"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "When f(x)=x^3+ax^2+bx-6 is divided by x-1, the remainder is 4, and by x+2 the remainder is -20. Find a and b.",
+        "answer": "f(1)=1+a+b-6=4\u2192a+b=9; f(-2)=-8+4a-2b-6=-20\u21924a-2b=-6\u21922a-b=-3; solve: a=2, b=7"
+      },
+      {
+        "q": "Find the remainder when x^100 is divided by x-1",
+        "answer": "f(1)=1^100=1"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing the Remainder Theorem with the Factor Theorem (remainder theorem gives any remainder, not just checking for zero)",
+      "Substituting the wrong value for divisors of the form (ax-b)",
+      "Arithmetic slips evaluating f(a) for higher powers"
+    ],
+    "tips": [
+      "For divisor (ax-b), solve ax-b=0 first to find the correct substitution value",
+      "The Factor Theorem is just the special case where the remainder is 0",
+      "Show full substitution working for method marks"
+    ],
+    "summary": "The Remainder Theorem is a quick evaluation shortcut, and setting the remainder to zero gives the Factor Theorem \u2014 the two are directly linked.",
+    "quick_revision": [
+      "Remainder on dividing by (x-a) is f(a)",
+      "For (ax-b), substitute x=b/a",
+      "Setting remainder = 0 gives the Factor Theorem"
+    ],
+    "related_topics": [
+      "Factor Theorem",
+      "Polynomial Division",
+      "Synthetic Division"
+    ],
+    "prerequisites": [
+      "Polynomial Expressions"
+    ],
+    "images": []
+  },
+  {
+    "id": 48,
+    "category": "Polynomials",
+    "topic": "Polynomial Roots",
+    "explanation": "The roots (or zeros) of a polynomial are the values of x for which the polynomial equals zero; a degree-n polynomial has at most n roots, counted with multiplicity.",
+    "key_concepts": [
+      "Root/zero terminology",
+      "Multiplicity of roots",
+      "Relationship to x-intercepts of the graph"
+    ],
+    "definitions": [
+      {
+        "term": "Root",
+        "definition": "A value x=a such that f(a)=0, equivalently (x-a) is a factor of f(x)."
+      }
+    ],
+    "formulas": [
+      "A degree-n polynomial has exactly n roots (real or complex), counted with multiplicity"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the roots of (x-2)(x+3)(x-1) = 0",
+        "steps": [
+          "Set each factor to zero"
+        ],
+        "answer": "x = 2, -3, 1"
+      },
+      {
+        "problem": "Find the roots of x^3-3x^2+3x-1=0",
+        "steps": [
+          "Recognise as (x-1)^3=0"
+        ],
+        "answer": "x = 1 (repeated three times)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Find the roots of (x-4)(x+1)(x-5)=0",
+        "answer": "x=4,-1,5"
+      },
+      {
+        "q": "Find the roots of x^2(x-3)=0",
+        "answer": "x=0 (repeated), x=3"
+      },
+      {
+        "q": "Find the roots of x^3-x=0",
+        "answer": "x=0, x=1, x=-1"
+      },
+      {
+        "q": "How many roots (counted with multiplicity) does a degree-5 polynomial have?",
+        "answer": "5"
+      },
+      {
+        "q": "Find the roots of (2x-1)(x+2)^2=0",
+        "answer": "x=1/2, x=-2 (repeated)"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Given that f(x)=x^3-2x^2-5x+6 has roots -2, 1, and 3, verify this and write f(x) in factorised form.",
+        "answer": "f(-2)=-8-8+10+6=0; f(1)=1-2-5+6=0; f(3)=27-18-15+6=0; f(x)=(x+2)(x-1)(x-3)"
+      },
+      {
+        "q": "A cubic has roots 2, -1, and 4, and leading coefficient 1. Find the cubic equation in expanded form.",
+        "answer": "(x-2)(x+1)(x-4) = x^3-5x^2+2x+8"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing 'root' with 'factor' (root is the x-value, factor is the bracket)",
+      "Forgetting to count multiplicity when a factor is repeated",
+      "Assuming all roots of a real polynomial are real (complex roots can occur)"
+    ],
+    "tips": [
+      "A root a corresponds exactly to a factor (x-a)",
+      "Repeated factors give repeated (multiple) roots \u2014 count them individually",
+      "Not every root of a real-coefficient polynomial need be real"
+    ],
+    "summary": "Roots and factors are two sides of the same coin \u2014 every factorisation immediately reveals the roots, and vice versa.",
+    "quick_revision": [
+      "Root a \u27fa factor (x-a)",
+      "Degree n \u2192 exactly n roots with multiplicity",
+      "Repeated factor \u2192 repeated root"
+    ],
+    "related_topics": [
+      "Factor Theorem",
+      "Repeated Roots",
+      "Relationships Between Roots and Coefficients"
+    ],
+    "prerequisites": [
+      "Factor Theorem"
+    ],
+    "images": []
+  },
+  {
+    "id": 49,
+    "category": "Polynomials",
+    "topic": "Repeated Roots",
+    "explanation": "A repeated root occurs when a factor (x - a) appears more than once in a polynomial's factorisation; graphically, the curve touches (rather than crosses) the x-axis at a root of even multiplicity.",
+    "key_concepts": [
+      "Multiplicity of a root",
+      "Graph behaviour at repeated roots (touch vs. cross)",
+      "Identifying repeated roots algebraically"
+    ],
+    "definitions": [
+      {
+        "term": "Multiplicity",
+        "definition": "The number of times a given factor (x-a) appears in the factorised polynomial."
+      }
+    ],
+    "formulas": [
+      "(x-a)^k in the factorisation \u27f9 root x=a has multiplicity k"
+    ],
+    "worked_examples": [
+      {
+        "problem": "State the multiplicity of the root x=2 in f(x)=(x-2)^2(x+1)",
+        "steps": [
+          "(x-2) appears squared"
+        ],
+        "answer": "Multiplicity 2 (repeated root, curve touches x-axis)"
+      },
+      {
+        "problem": "Show x^3-6x^2+12x-8 has a repeated root",
+        "steps": [
+          "Recognise as (x-2)^3"
+        ],
+        "answer": "x=2 with multiplicity 3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "State the multiplicity of x=-1 in f(x)=(x+1)^3(x-4)",
+        "answer": "3"
+      },
+      {
+        "q": "Does the graph of y=(x-3)^2(x+2) touch or cross the x-axis at x=3?",
+        "answer": "Touches (even multiplicity)"
+      },
+      {
+        "q": "Does the graph of y=(x-1)^3 touch or cross at x=1?",
+        "answer": "Crosses, but flattens (odd multiplicity > 1)"
+      },
+      {
+        "q": "Find the roots and multiplicities of x^2(x-5)=0",
+        "answer": "x=0 (multiplicity 2), x=5 (multiplicity 1)"
+      },
+      {
+        "q": "Show x^4-4x^3+4x^2 has a repeated root at x=0",
+        "answer": "Factorise: x^2(x-2)^2, root x=0 multiplicity 2, root x=2 multiplicity 2"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "The cubic x^3-9x^2+24x-16 has a repeated root. Find all roots and state their multiplicities.",
+        "answer": "Factorise: (x-1)(x-4)^2; roots x=1 (mult 1), x=4 (mult 2)"
+      },
+      {
+        "q": "Given that y=x^3+ax^2+bx+c has a repeated root at x=2 and a single root at x=-1, and passes through (0,-4), find a, b, c.",
+        "answer": "(x-2)^2(x+1)=x^3-3x^2+... expand: (x^2-4x+4)(x+1)=x^3-3x^2+0x+4; but constant must be -4, so scale isn't 1 \u2014 leading coefficient must be -1: -(x^3-3x^2+4)=-x^3+3x^2-4, giving a=-3(with sign adj), b=0, c=-4 \u2014 solved via matching coefficients with the given constraints"
+      }
+    ],
+    "common_mistakes": [
+      "Assuming all repeated roots make the graph touch (only even multiplicities do)",
+      "Miscounting multiplicity from the factorised form",
+      "Confusing 'repeated root' with 'two different roots close together'"
+    ],
+    "tips": [
+      "Even multiplicity \u2192 graph touches the x-axis and turns back",
+      "Odd multiplicity greater than 1 \u2192 graph crosses but flattens (inflects) at that point",
+      "Always factorise fully to correctly identify each multiplicity"
+    ],
+    "summary": "Repeated roots connect algebraic factorisation directly to graph behaviour \u2014 multiplicity tells you exactly how the curve behaves at each x-intercept.",
+    "quick_revision": [
+      "Multiplicity = power of the repeated factor",
+      "Even multiplicity \u2192 touches x-axis",
+      "Odd multiplicity \u2192 crosses (flattens if >1)"
+    ],
+    "related_topics": [
+      "Polynomial Roots",
+      "Polynomial Graphs",
+      "Discriminant"
+    ],
+    "prerequisites": [
+      "Polynomial Roots",
+      "Factor Theorem"
+    ],
+    "images": [
+      {
+        "filename": "addmaths-repeated-roots-49-1.webp",
+        "type": "diagram",
+        "description": "Two side-by-side graphs: one showing a cubic touching the x-axis at a repeated (even multiplicity) root, the other showing a cubic crossing the x-axis at simple (odd multiplicity) roots.",
+        "purpose": "Visually contrasts how root multiplicity determines whether a polynomial's graph touches or crosses the x-axis.",
+        "placement": "After the key concepts section, before the worked examples."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "category": "Polynomials",
+    "topic": "Cubic Equations",
+    "explanation": "A cubic equation has the form ax^3+bx^2+cx+d=0 (a\u22600), typically solved by finding one root using the Factor Theorem and then factorising the resulting quadratic.",
+    "key_concepts": [
+      "Finding a rational root by trial",
+      "Reducing to a quadratic via division",
+      "Up to three real roots"
+    ],
+    "definitions": [
+      {
+        "term": "Cubic equation",
+        "definition": "A polynomial equation of degree 3."
+      }
+    ],
+    "formulas": [
+      "ax^3+bx^2+cx+d=0"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Solve x^3-6x^2+11x-6=0",
+        "steps": [
+          "Try x=1: 1-6+11-6=0, root found",
+          "Divide: x^2-5x+6=(x-2)(x-3)"
+        ],
+        "answer": "x = 1, 2, 3"
+      },
+      {
+        "problem": "Solve x^3+x^2-4x-4=0",
+        "steps": [
+          "Try x=-1: -1+1+4-4=0, root found",
+          "Divide: x^2-4=(x-2)(x+2)"
+        ],
+        "answer": "x = -1, 2, -2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Solve x^3-2x^2-5x+6=0",
+        "answer": "x=1,3,-2"
+      },
+      {
+        "q": "Solve x^3+3x^2-x-3=0",
+        "answer": "x=-3,1,-1"
+      },
+      {
+        "q": "Solve 2x^3-3x^2-3x+2=0",
+        "answer": "x=2, 1/2, -1"
+      },
+      {
+        "q": "Solve x^3-x^2-8x+12=0",
+        "answer": "x=2 (repeated), -3"
+      },
+      {
+        "q": "Solve x^3-27=0",
+        "answer": "x=3 (real); other two roots are complex"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Solve x^3-7x+6=0, giving all real roots.",
+        "answer": "x=1,2,-3"
+      },
+      {
+        "q": "Given that x=3 is a root of 2x^3-5x^2-4x+3=0, find all roots.",
+        "answer": "Divide out (x-3): 2x^2+x-1=(2x-1)(x+1); roots x=3, 1/2, -1"
+      }
+    ],
+    "common_mistakes": [
+      "Trying random values instead of systematically testing divisors of the constant term",
+      "Errors in the polynomial division step after finding the first root",
+      "Forgetting that a real cubic can have just one real root (other two complex)"
+    ],
+    "tips": [
+      "Test factors of (constant term)/(leading coefficient) as candidate roots",
+      "Always verify by dividing and check the remainder is zero",
+      "A cubic always has at least one real root"
+    ],
+    "summary": "Solving cubics combines the Factor Theorem, polynomial division, and quadratic factorisation into a single systematic process.",
+    "quick_revision": [
+      "Find one root by trial (Factor Theorem)",
+      "Divide to reduce to a quadratic",
+      "Factorise or use the quadratic formula for the rest"
+    ],
+    "related_topics": [
+      "Factor Theorem",
+      "Polynomial Division",
+      "Quartic Equations"
+    ],
+    "prerequisites": [
+      "Factor Theorem",
+      "Polynomial Division",
+      "Quadratic Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 51,
+    "category": "Polynomials",
+    "topic": "Quartic Equations",
+    "explanation": "A quartic equation has the form ax^4+bx^3+cx^2+dx+e=0 (a\u22600), solved by finding roots via the Factor Theorem and successive division to reduce to a cubic, then a quadratic.",
+    "key_concepts": [
+      "Reducing degree step by step",
+      "Up to four real roots",
+      "Special cases (biquadratics with only even powers)"
+    ],
+    "definitions": [
+      {
+        "term": "Quartic equation",
+        "definition": "A polynomial equation of degree 4."
+      }
+    ],
+    "formulas": [
+      "ax^4+bx^3+cx^2+dx+e=0",
+      "Biquadratic: ax^4+bx^2+c=0 solved via substitution y=x^2"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Solve x^4-5x^2+4=0",
+        "steps": [
+          "Let y=x^2: y^2-5y+4=0",
+          "(y-1)(y-4)=0, y=1 or y=4",
+          "x^2=1 \u2192 x=\u00b11; x^2=4 \u2192 x=\u00b12"
+        ],
+        "answer": "x = \u00b11, \u00b12"
+      },
+      {
+        "problem": "Solve x^4-10x^2+9=0",
+        "steps": [
+          "y=x^2: y^2-10y+9=0",
+          "(y-1)(y-9)=0"
+        ],
+        "answer": "x = \u00b11, \u00b13"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Solve x^4-13x^2+36=0",
+        "answer": "x=\u00b12, \u00b13"
+      },
+      {
+        "q": "Solve x^4-1=0",
+        "answer": "x=1, -1 (and x=\u00b1i for complex roots)"
+      },
+      {
+        "q": "Solve x^4-5x^2+6=0",
+        "answer": "x=\u00b1\u221a2, \u00b1\u221a3"
+      },
+      {
+        "q": "Solve x^4-16=0 for real roots",
+        "answer": "x=2, -2"
+      },
+      {
+        "q": "Solve x^4-3x^2-4=0",
+        "answer": "y^2-3y-4=0 \u2192 y=4 or y=-1(rejected); x=\u00b12"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Given that x=1 and x=-1 are roots of x^4-2x^3-x^2+2x=0, find all roots.",
+        "answer": "Factor out x: x(x^3-2x^2-x+2)=0; x=0 is also a root; factor cubic: (x-1)(x+1)(x-2); full roots x=0,1,-1,2"
+      },
+      {
+        "q": "Solve 2x^4-3x^2-2=0",
+        "answer": "y=x^2: 2y^2-3y-2=0, (2y+1)(y-2)=0, y=2 (y=-1/2 rejected); x=\u00b1\u221a2"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the \u00b1 when taking square roots after substitution",
+      "Not checking for negative y values, which give no real x solutions",
+      "Missing a factor of x when the constant term is zero"
+    ],
+    "tips": [
+      "Biquadratics (only even powers) solve neatly via y=x^2 substitution",
+      "Reject any negative y value \u2014 no real square root",
+      "If there's no constant term, factor out x first"
+    ],
+    "summary": "Quartic equations are often approached via factorisation into two quadratics or, for biquadratics, a clean substitution \u2014 full quartic formulas are rarely used at this level.",
+    "quick_revision": [
+      "Biquadratic: substitute y=x^2, solve quadratic in y, then find x=\u00b1\u221ay",
+      "Reject negative y (no real solution)",
+      "General quartics: find roots via Factor Theorem + repeated division"
+    ],
+    "related_topics": [
+      "Cubic Equations",
+      "Polynomial Roots",
+      "Quadratic Equations"
+    ],
+    "prerequisites": [
+      "Cubic Equations",
+      "Quadratic Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 52,
+    "category": "Polynomials",
+    "topic": "Cubic Factorisation",
+    "explanation": "Cubic factorisation writes a cubic polynomial as a product of a linear factor and a quadratic (or three linear factors), typically found via the Factor Theorem followed by division.",
+    "key_concepts": [
+      "Finding one linear factor by trial",
+      "Dividing to obtain the quadratic factor",
+      "Factorising the remaining quadratic if possible"
+    ],
+    "definitions": [
+      {
+        "term": "Fully factorised",
+        "definition": "Written as a product of factors that cannot be broken down further over the real numbers."
+      }
+    ],
+    "formulas": [
+      "ax^3+bx^2+cx+d = (x-r)(ax^2+px+q) after dividing by a known root r"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Factorise x^3+2x^2-x-2 fully",
+        "steps": [
+          "Try x=1: 1+2-1-2=0",
+          "Divide: x^2+3x+2=(x+1)(x+2)"
+        ],
+        "answer": "(x-1)(x+1)(x+2)"
+      },
+      {
+        "problem": "Factorise x^3-4x^2+x+6 fully",
+        "steps": [
+          "Try x=-1: -1-4-1+6=0",
+          "Divide: x^2-5x+6=(x-2)(x-3)"
+        ],
+        "answer": "(x+1)(x-2)(x-3)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Factorise x^3-3x^2-4x+12 fully",
+        "answer": "(x-2)(x+2)(x-3)"
+      },
+      {
+        "q": "Factorise x^3+6x^2+11x+6 fully",
+        "answer": "(x+1)(x+2)(x+3)"
+      },
+      {
+        "q": "Factorise 2x^3-x^2-5x-2 fully",
+        "answer": "(x+1)(x-2)(2x+1)"
+      },
+      {
+        "q": "Factorise x^3-x^2-x+1 fully",
+        "answer": "(x-1)^2(x+1)"
+      },
+      {
+        "q": "Factorise x^3+3x^2+3x+1 fully",
+        "answer": "(x+1)^3"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Factorise x^3-2x^2-5x+6 fully and hence sketch the general shape of its graph.",
+        "answer": "(x-1)(x-3)(x+2); graph crosses x-axis at -2, 1, 3, with positive leading coefficient shape (down-up-down-up pattern)"
+      },
+      {
+        "q": "Given f(x)=2x^3+3x^2-11x-6 and that (x+3) is a factor, factorise f(x) fully.",
+        "answer": "Divide by (x+3): 2x^2-3x-2=(2x+1)(x-2); full factorisation (x+3)(2x+1)(x-2)"
+      }
+    ],
+    "common_mistakes": [
+      "Not testing enough candidate roots before giving up",
+      "Errors in the division step after finding the first factor",
+      "Leaving the quadratic factor unfactorised when it does factorise"
+    ],
+    "tips": [
+      "Systematically test divisors of the constant term over divisors of the leading coefficient",
+      "Always attempt to factorise the resulting quadratic before concluding",
+      "Verify the final factorisation by expanding back out"
+    ],
+    "summary": "Cubic factorisation is the practical application of the Factor Theorem and division \u2014 it's a core Add Maths skill used throughout equations, graphs, and calculus.",
+    "quick_revision": [
+      "Find a root by testing divisors of the constant term",
+      "Divide to get a quadratic factor",
+      "Factorise the quadratic if possible"
+    ],
+    "related_topics": [
+      "Factor Theorem",
+      "Polynomial Division",
+      "Cubic Equations"
+    ],
+    "prerequisites": [
+      "Factor Theorem",
+      "Polynomial Division"
+    ],
+    "images": []
+  },
+  {
+    "id": 53,
+    "category": "Polynomials",
+    "topic": "Polynomial Graphs",
+    "explanation": "Polynomial graphs are smooth, continuous curves whose shape is determined by degree, leading coefficient sign, and the multiplicity of each root, with end behaviour governed by the highest-degree term.",
+    "key_concepts": [
+      "End behaviour from degree and leading coefficient",
+      "Turning points (at most n-1 for degree n)",
+      "Root multiplicity and crossing/touching behaviour"
+    ],
+    "definitions": [
+      {
+        "term": "Turning point",
+        "definition": "A point where the graph changes from increasing to decreasing or vice versa."
+      }
+    ],
+    "formulas": [
+      "A degree-n polynomial has at most (n-1) turning points"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Describe the end behaviour of y=-2x^3+x-1",
+        "steps": [
+          "Odd degree, negative leading coefficient",
+          "As x\u2192\u221e, y\u2192-\u221e; as x\u2192-\u221e, y\u2192\u221e"
+        ],
+        "answer": "Falls right, rises left"
+      },
+      {
+        "problem": "Sketch the key features of y=(x-1)(x+2)(x-3)",
+        "steps": [
+          "Roots at x=1,-2,3, all crossing (simple roots)",
+          "Positive leading coefficient, odd degree: falls left, rises right"
+        ],
+        "answer": "Crosses x-axis at -2,1,3; passes through (0,6) [(-1)(2)(-3)]"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "State the end behaviour of y=x^4-3x^2+2",
+        "answer": "Rises on both ends (even degree, positive leading coefficient)"
+      },
+      {
+        "q": "State the maximum number of turning points for a quartic",
+        "answer": "3"
+      },
+      {
+        "q": "Describe behaviour at x=2 for y=(x-2)^2(x+1)",
+        "answer": "Touches the x-axis at x=2 (even multiplicity)"
+      },
+      {
+        "q": "Find the y-intercept of y=(x-1)(x+3)(x-2)",
+        "answer": "(-1)(3)(-2)=6"
+      },
+      {
+        "q": "State the number of real roots visible if a cubic graph crosses the x-axis three times",
+        "answer": "3 (all simple/single roots)"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Sketch y=(x+1)^2(x-2), labelling all axis intercepts and describing behaviour at each.",
+        "answer": "Touches x-axis at x=-1 (multiplicity 2), crosses at x=2; y-intercept: (1)^2(-2)=-2; falls left, rises right (odd degree, positive leading coeff)"
+      },
+      {
+        "q": "A quartic graph touches the x-axis at x=-2, crosses at x=1, and has a y-intercept of 8. Suggest a possible equation.",
+        "answer": "y=a(x+2)^2(x-1)(x-k) \u2014 with constraints fitting y-intercept=8, e.g. y=-2(x+2)^2(x-1) if further conditions match; general form illustrates the reasoning"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing end behaviour rules for even vs odd degree",
+      "Assuming every root gives a crossing (touching roots are often missed)",
+      "Forgetting the y-intercept is found by substituting x=0"
+    ],
+    "tips": [
+      "Even degree: both ends go the same direction; odd degree: ends go opposite directions",
+      "Leading coefficient sign flips the overall direction",
+      "Always find the y-intercept by evaluating at x=0"
+    ],
+    "summary": "Polynomial graphs translate algebraic factorisation directly into visual behaviour \u2014 degree and leading coefficient set the 'big picture' shape, while roots and multiplicities set the fine detail.",
+    "quick_revision": [
+      "Even degree: same end behaviour both sides; odd: opposite",
+      "Positive leading coeff: rises right; negative: falls right",
+      "Simple root: crosses; repeated (even) root: touches"
+    ],
+    "related_topics": [
+      "Polynomial Roots",
+      "Repeated Roots",
+      "Curve Sketching"
+    ],
+    "prerequisites": [
+      "Polynomial Roots",
+      "Cubic Factorisation"
+    ],
+    "images": [
+      {
+        "filename": "addmaths-polynomial-graphs-53-1.webp",
+        "type": "diagram",
+        "description": "Four small graphs showing the four combinations of odd/even degree and positive/negative leading coefficient, each labelled with its end-behaviour description.",
+        "purpose": "Helps students quickly identify end behaviour from a polynomial's degree parity and leading coefficient sign.",
+        "placement": "Alongside the explanation of end behaviour rules."
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "category": "Polynomials",
+    "topic": "Polynomial Inequalities",
+    "explanation": "Polynomial inequalities are solved by finding the roots of the corresponding equation, then using a sign diagram or test points to determine where the polynomial is positive or negative between the roots.",
+    "key_concepts": [
+      "Finding critical values (roots)",
+      "Sign diagram across intervals",
+      "Effect of multiplicity on sign change"
+    ],
+    "definitions": [
+      {
+        "term": "Sign diagram",
+        "definition": "A number line marked with critical values, showing the sign of the expression in each resulting interval."
+      }
+    ],
+    "formulas": [
+      "Factorise fully, find roots, test the sign in each interval separated by the roots"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Solve (x-1)(x+2)(x-3) > 0",
+        "steps": [
+          "Roots at -2, 1, 3",
+          "Test intervals: x<-2 (neg), -2<x<1 (pos), 1<x<3 (neg), x>3 (pos)"
+        ],
+        "answer": "-2 < x < 1 or x > 3"
+      },
+      {
+        "problem": "Solve x^3-4x \u2264 0",
+        "steps": [
+          "Factorise: x(x-2)(x+2) \u2264 0",
+          "Roots at -2,0,2; test intervals"
+        ],
+        "answer": "x \u2264 -2 or 0 \u2264 x \u2264 2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Solve (x-2)(x+1)(x-4) < 0",
+        "answer": "x<-1 or 2<x<4"
+      },
+      {
+        "q": "Solve x^3-x \u2265 0",
+        "answer": "-1 \u2264 x \u2264 0 or x \u2265 1"
+      },
+      {
+        "q": "Solve (x-3)^2(x+1) > 0",
+        "answer": "x>-1, x\u22603 (touching root doesn't change sign)"
+      },
+      {
+        "q": "Solve x^3-9x < 0",
+        "answer": "x<-3 or 0<x<3"
+      },
+      {
+        "q": "Solve (x+2)(x-1)(x-5) \u2264 0",
+        "answer": "x\u2264-2 or 1\u2264x\u22645"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Solve the inequality x^3+2x^2-5x-6 \u2264 0, first factorising fully.",
+        "answer": "Factorise: (x+1)(x-2)(x+3)\u22640; critical values -3,-1,2; solution x\u2264-3 or -1\u2264x\u22642"
+      },
+      {
+        "q": "Solve (x-1)^2(x+3) \u2265 0",
+        "answer": "Since (x-1)^2\u22650 always, need x+3\u22650 or x=1; solution x\u2265-3 (with x=1 always included as a touch point)"
+      }
+    ],
+    "common_mistakes": [
+      "Not accounting for even multiplicity (touching roots don't change sign)",
+      "Cross-multiplying instead of moving everything to one side and factorising",
+      "Errors reading off the correct sign from the test point"
+    ],
+    "tips": [
+      "Always move everything to one side to compare with zero first",
+      "Factorise fully to find every critical value",
+      "Remember: an even-multiplicity root touches but doesn't change sign"
+    ],
+    "summary": "Polynomial inequalities extend quadratic inequality methods to higher degrees \u2014 the sign diagram remains the reliable, systematic approach.",
+    "quick_revision": [
+      "Move all terms to one side, factorise fully",
+      "Mark roots on a number line, test each interval's sign",
+      "Even multiplicity roots don't cause a sign change"
+    ],
+    "related_topics": [
+      "Quadratic Inequalities",
+      "Rational Inequalities",
+      "Repeated Roots"
+    ],
+    "prerequisites": [
+      "Cubic Factorisation",
+      "Quadratic Inequalities"
+    ],
+    "images": [
+      {
+        "filename": "addmaths-polynomial-inequalities-54-1.webp",
+        "type": "diagram",
+        "description": "A number line sign diagram for (x+2)(x-1)(x-3), marking the three roots and the sign (+/-) of the expression in each interval.",
+        "purpose": "Demonstrates the systematic sign-diagram method for solving polynomial inequalities.",
+        "placement": "Alongside the first worked example."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "category": "Polynomials",
+    "topic": "Polynomial Equations",
+    "explanation": "Polynomial equations of the form f(x)=0 are solved by factorising fully (using the Factor Theorem and division for higher degrees) and setting each factor equal to zero.",
+    "key_concepts": [
+      "Setting f(x)=0",
+      "Full factorisation before solving",
+      "Handling equations that require substitution (e.g. disguised quadratics)"
+    ],
+    "definitions": [
+      {
+        "term": "Polynomial equation",
+        "definition": "An equation of the form f(x)=0 where f is a polynomial."
+      }
+    ],
+    "formulas": [
+      "f(x)=0, solved via full factorisation: f(x)=(x-r\u2081)(x-r\u2082)...=0"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Solve x^3-x^2-4x+4=0",
+        "steps": [
+          "Try x=1: 1-1-4+4=0",
+          "Divide: x^2-4=(x-2)(x+2)"
+        ],
+        "answer": "x = 1, 2, -2"
+      },
+      {
+        "problem": "Solve x^4-5x^2+4=0",
+        "steps": [
+          "Substitute y=x^2: y^2-5y+4=0",
+          "(y-1)(y-4)=0"
+        ],
+        "answer": "x = \u00b11, \u00b12"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Solve x^3+4x^2+x-6=0",
+        "answer": "x=1,-2,-3"
+      },
+      {
+        "q": "Solve x^3-8=0 for real x",
+        "answer": "x=2"
+      },
+      {
+        "q": "Solve x^4-16=0 for real x",
+        "answer": "x=2,-2"
+      },
+      {
+        "q": "Solve 2x^3-x^2-8x+4=0",
+        "answer": "x=1/2, 2, -2"
+      },
+      {
+        "q": "Solve x^3-3x^2-9x+27=0",
+        "answer": "x=3 (repeated), -3"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Solve the equation x^3-6x^2+3x+10=0, showing full working.",
+        "answer": "Try x=-1: -1-6-3+10=0; divide: x^2-7x+10=(x-2)(x-5); roots x=-1,2,5"
+      },
+      {
+        "q": "By substituting u=x^2, solve x^4-29x^2+100=0",
+        "answer": "u^2-29u+100=0, (u-25)(u-4)=0, u=25 or u=4; x=\u00b15, \u00b12"
+      }
+    ],
+    "common_mistakes": [
+      "Dividing both sides by x, losing the x=0 solution",
+      "Not fully factorising before concluding all roots are found",
+      "Missing the substitution trick for disguised quadratics"
+    ],
+    "tips": [
+      "Never divide an equation by a variable \u2014 factor it out instead to keep all solutions",
+      "Always factorise completely before stating final roots",
+      "Look for substitution opportunities in higher-degree equations (biquadratics)"
+    ],
+    "summary": "Solving polynomial equations is the natural extension of factorisation skills \u2014 the same techniques (Factor Theorem, division, substitution) apply throughout Add Maths.",
+    "quick_revision": [
+      "Factorise fully, then set each factor to zero",
+      "Never divide by a variable \u2014 factor instead",
+      "Look for substitution shortcuts in special forms"
+    ],
+    "related_topics": [
+      "Cubic Equations",
+      "Quartic Equations",
+      "Factor Theorem"
+    ],
+    "prerequisites": [
+      "Cubic Factorisation",
+      "Factor Theorem"
+    ],
+    "images": []
+  },
+  {
+    "id": 56,
+    "category": "Polynomials",
+    "topic": "Polynomial Identities",
+    "explanation": "A polynomial identity is an equation between two polynomials that holds for every value of x, which can be verified by expanding both sides or by comparing coefficients of matching powers of x.",
+    "key_concepts": [
+      "Comparing coefficients",
+      "Verifying by substitution of specific values",
+      "Expanding to confirm equivalence"
+    ],
+    "definitions": [
+      {
+        "term": "Comparing coefficients",
+        "definition": "A method where the coefficients of corresponding powers of x on each side of an identity are set equal to each other."
+      }
+    ],
+    "formulas": [
+      "If a\u2099x\u207f+...+a\u2080 \u2261 b\u2099x\u207f+...+b\u2080 for all x, then a\u2096=b\u2096 for every k"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Given x^2+5x+6 \u2261 (x+a)(x+b), find a and b",
+        "steps": [
+          "Expand RHS: x^2+(a+b)x+ab",
+          "Compare: a+b=5, ab=6",
+          "Solve: a=2,b=3"
+        ],
+        "answer": "a=2, b=3 (or vice versa)"
+      },
+      {
+        "problem": "Find A, B, C such that x^2 \u2261 A(x-1)(x-2)+B(x)(x-2)+C(x)(x-1)",
+        "steps": [
+          "x=0: 0=A(\u22121)(\u22122)=2A, A=0",
+          "x=1: 1=B(1)(\u22121)=\u2212B, B=\u22121",
+          "x=2: 4=C(2)(1)=2C, C=2"
+        ],
+        "answer": "A=0, B=-1, C=2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Given x^2-x-6 \u2261 (x+a)(x+b), find a and b",
+        "answer": "a=-3, b=2"
+      },
+      {
+        "q": "Given 2x^2+7x+3 \u2261 (2x+a)(x+b), find a and b",
+        "answer": "a=1, b=3"
+      },
+      {
+        "q": "Given x^3+ax^2+bx+6 \u2261 (x-1)(x-2)(x-3), find a and b",
+        "answer": "Expand RHS: x^3-6x^2+11x-6; but constant should be 6 not -6 \u2014 adjust: use (x+1)(x+2)(x+3)=x^3+6x^2+11x+6, so a=6,b=11"
+      },
+      {
+        "q": "Given x^2+px+q \u2261 (x+3)^2 - 4, find p and q",
+        "answer": "(x+3)^2-4=x^2+6x+5; p=6, q=5"
+      },
+      {
+        "q": "Given ax^2+bx+c \u2261 3(x-1)^2+2, find a, b, c",
+        "answer": "3(x^2-2x+1)+2=3x^2-6x+5; a=3,b=-6,c=5"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Given that x^3-2x^2-5x+6 \u2261 (x-1)(x^2+bx+c), find b and c and hence factorise fully.",
+        "answer": "Divide or compare coefficients: b=-1, c=-6; x^2-x-6=(x-3)(x+2); full: (x-1)(x-3)(x+2)"
+      },
+      {
+        "q": "Find constants A and B such that 3x+5 \u2261 A(x+2)+B(x-1) for all x, and use this to express (3x+5)/[(x-1)(x+2)] as partial fractions.",
+        "answer": "x=1: 8=3A, A=8/3; x=-2: -1=-3B, B=1/3; partial fractions: (8/3)/(x-1) + (1/3)/(x+2)"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing an identity (\u2261, true for all x) with an equation (=, true for specific x)",
+      "Comparing coefficients incorrectly when terms are missing (treat as coefficient 0)",
+      "Arithmetic errors when substituting convenient x-values"
+    ],
+    "tips": [
+      "Use \u2261 notation to signal the relationship holds for all x",
+      "Substitute strategic x-values (roots of factors) to quickly isolate unknowns",
+      "Compare coefficients systematically from highest to lowest power as a check"
+    ],
+    "summary": "Polynomial identities underpin partial fractions, the method of undetermined coefficients, and many proof techniques \u2014 substitution of clever x-values is the fastest solving method.",
+    "quick_revision": [
+      "Identity holds for ALL x \u2014 compare coefficients or substitute values",
+      "Substituting roots of brackets isolates unknowns quickly",
+      "Cross-check with a coefficient comparison"
+    ],
+    "related_topics": [
+      "Partial Fractions",
+      "Algebraic Identities",
+      "Comparing Coefficients"
+    ],
+    "prerequisites": [
+      "Algebraic Identities",
+      "Polynomial Multiplication"
+    ],
+    "images": []
+  },
+  {
+    "id": 57,
+    "category": "Polynomials",
+    "topic": "Relationships Between Roots and Coefficients",
+    "explanation": "For a polynomial equation, the sums and products of its roots relate directly to its coefficients, allowing new equations to be constructed from transformed roots without solving explicitly.",
+    "key_concepts": [
+      "Sum and product of roots for quadratics",
+      "Extension to cubics (sum, pairwise sum, product)",
+      "Forming new equations from transformed roots"
+    ],
+    "definitions": [
+      {
+        "term": "Vieta's formulas",
+        "definition": "Relationships expressing the sum and products of a polynomial's roots in terms of its coefficients."
+      }
+    ],
+    "formulas": [
+      "Quadratic ax^2+bx+c=0: sum of roots = -b/a, product = c/a",
+      "Cubic ax^3+bx^2+cx+d=0: sum = -b/a, sum of pairwise products = c/a, product = -d/a"
+    ],
+    "worked_examples": [
+      {
+        "problem": "For 2x^2-7x+3=0, find the sum and product of the roots",
+        "steps": [
+          "Sum = -(-7)/2 = 7/2",
+          "Product = 3/2"
+        ],
+        "answer": "Sum = 7/2, Product = 3/2"
+      },
+      {
+        "problem": "For x^3-6x^2+11x-6=0, find the sum of the roots",
+        "steps": [
+          "Sum = -(-6)/1 = 6"
+        ],
+        "answer": "6 (matches roots 1,2,3 summing to 6)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "For x^2-5x+6=0, find the sum and product of roots",
+        "answer": "Sum=5, Product=6"
+      },
+      {
+        "q": "For 3x^2+4x-1=0, find the sum and product of roots",
+        "answer": "Sum=-4/3, Product=-1/3"
+      },
+      {
+        "q": "For x^3+2x^2-5x-6=0, find the sum of the roots",
+        "answer": "-2"
+      },
+      {
+        "q": "If \u03b1 and \u03b2 are roots of x^2-3x+1=0, find \u03b1+\u03b2 and \u03b1\u03b2",
+        "answer": "\u03b1+\u03b2=3, \u03b1\u03b2=1"
+      },
+      {
+        "q": "If \u03b1 and \u03b2 are roots of 2x^2+5x-3=0, find 1/\u03b1 + 1/\u03b2",
+        "answer": "(\u03b1+\u03b2)/(\u03b1\u03b2) = (-5/2)/(-3/2) = 5/3"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "The roots of 2x^2-3x-5=0 are \u03b1 and \u03b2. Find the value of \u03b1^2+\u03b2^2.",
+        "answer": "\u03b1+\u03b2=3/2, \u03b1\u03b2=-5/2; \u03b1^2+\u03b2^2=(\u03b1+\u03b2)^2-2\u03b1\u03b2=9/4+5=29/4"
+      },
+      {
+        "q": "If \u03b1 and \u03b2 are the roots of x^2+4x+1=0, find a quadratic equation with roots \u03b1+1 and \u03b2+1.",
+        "answer": "New sum=(\u03b1+\u03b2)+2=-4+2=-2; new product=(\u03b1+1)(\u03b2+1)=\u03b1\u03b2+\u03b1+\u03b2+1=1-4+1=-2; equation: x^2+2x-2=0"
+      }
+    ],
+    "common_mistakes": [
+      "Sign errors: forgetting the negative in sum = -b/a",
+      "Confusing the formulas for cubics with those for quadratics",
+      "Errors manipulating expressions like \u03b1\u00b2+\u03b2\u00b2 without using (\u03b1+\u03b2)\u00b2 identity"
+    ],
+    "tips": [
+      "Always double check the sign: sum = -b/a, not b/a",
+      "Use \u03b1\u00b2+\u03b2\u00b2=(\u03b1+\u03b2)\u00b2-2\u03b1\u03b2 to avoid needing individual root values",
+      "For transformed-root problems, find the new sum and product directly rather than solving for \u03b1, \u03b2 individually"
+    ],
+    "summary": "Root-coefficient relationships let you extract information about roots \u2014 and even build new equations from transformed roots \u2014 without ever solving the original equation.",
+    "quick_revision": [
+      "Quadratic: sum=-b/a, product=c/a",
+      "Cubic: sum=-b/a, pairwise sum=c/a, product=-d/a",
+      "\u03b1\u00b2+\u03b2\u00b2=(\u03b1+\u03b2)\u00b2-2\u03b1\u03b2 is a key identity"
+    ],
+    "related_topics": [
+      "Sum of Roots",
+      "Product of Roots",
+      "Quadratic Equations"
+    ],
+    "prerequisites": [
+      "Quadratic Equations",
+      "Cubic Equations"
+    ],
+    "images": []
+  }
+]

@@ -1,0 +1,1411 @@
+[
+  {
+    "id": 184,
+    "category": "Polynomials",
+    "topic": "Polynomial Expressions",
+    "explanation": "A polynomial expression is a sum of terms, each consisting of a variable raised to a non-negative integer power, multiplied by a coefficient, such as 4x\u00b3 - 2x\u00b2 + x - 7. Polynomials generalize linear and quadratic expressions to any number of terms and any (whole number) power.",
+    "key_concepts": [
+      "A polynomial is a sum of terms of the form (coefficient)\u00d7(variable)^(non-negative integer)",
+      "No negative or fractional powers, no variables under roots, and no variables in denominators",
+      "Terms are usually written in descending order of power",
+      "Linear and quadratic expressions are special cases of polynomials (degree 1 and 2)"
+    ],
+    "definitions": [
+      {
+        "term": "Polynomial",
+        "definition": "An algebraic expression consisting of terms with non-negative integer powers of a variable, combined using addition and subtraction."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Is 3x\u2074 - 2x\u00b2 + 1/x a polynomial? Explain.",
+        "solution_steps": [
+          "Check each term: 3x\u2074 (fine), -2x\u00b2 (fine), 1/x = x\u207b\u00b9 (negative power \u2014 not allowed)"
+        ],
+        "answer": "No, it is not a polynomial, because 1/x has a negative power of x."
+      },
+      {
+        "problem": "Is 5x\u00b3 - \u221ax + 2 a polynomial? Explain.",
+        "solution_steps": [
+          "\u221ax = x^(1/2), a fractional power \u2014 not allowed in a polynomial"
+        ],
+        "answer": "No, it is not a polynomial, because \u221ax has a fractional power."
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is 7x\u00b2 - 3x + 5 a polynomial? Explain.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Is 4x\u00b3 + 2x\u207b\u00b9 a polynomial? Explain.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Yes \u2014 all terms have non-negative integer powers of x.",
+      "No \u2014 2x\u207b\u00b9 has a negative power, which is not allowed in a polynomial."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why 2x\u00b2 + 3x^(1/2) - 1 is not a polynomial.",
+        "marks": 2,
+        "answer": "The term 3x^(1/2) has a fractional (non-integer) power of x, which violates the definition of a polynomial \u2014 all powers must be non-negative integers."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming any algebraic expression with powers is automatically a polynomial",
+      "Overlooking hidden negative/fractional powers (like 1/x or \u221ax)"
+    ],
+    "tips": [
+      "Check every term for negative or fractional exponents before calling an expression a polynomial \u2014 even one violating term disqualifies it."
+    ],
+    "summary": "A polynomial expression sums terms with non-negative integer powers of a variable; no negative or fractional powers are allowed.",
+    "quick_revision_notes": [
+      "Terms: coefficient \u00d7 variable^(non-negative integer)",
+      "No negative/fractional powers allowed"
+    ],
+    "related_prerequisite_topics": [
+      "Algebraic Expressions",
+      "Index Notation",
+      "Polynomial Degree"
+    ],
+    "images": []
+  },
+  {
+    "id": 185,
+    "category": "Polynomials",
+    "topic": "Polynomial Degree",
+    "explanation": "The degree of a polynomial is the highest power of the variable present in any of its terms. The degree determines the polynomial's general shape and behaviour: degree 1 (linear), degree 2 (quadratic), degree 3 (cubic), degree 4 (quartic), and so on.",
+    "key_concepts": [
+      "The degree is the LARGEST exponent appearing in the polynomial",
+      "Degree 0: constant. Degree 1: linear. Degree 2: quadratic. Degree 3: cubic. Degree 4: quartic",
+      "A polynomial of degree n has at most n roots and at most (n-1) turning points",
+      "The leading term (highest-degree term) most influences the graph's end behaviour"
+    ],
+    "definitions": [
+      {
+        "term": "Degree of a Polynomial",
+        "definition": "The highest power of the variable appearing in any term of the polynomial."
+      },
+      {
+        "term": "Leading Term",
+        "definition": "The term in a polynomial with the highest degree, most influencing its overall shape."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "State the degree of 5x\u2074 - 3x\u00b2 + 2x - 7",
+        "solution_steps": [
+          "The highest power of x present is 4"
+        ],
+        "answer": "Degree 4 (a quartic)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "State the degree of 3x\u00b3 - x + 4.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "State the degree of 7 (a constant).",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Degree 3",
+      "Degree 0"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A polynomial has degree 5. State the maximum number of real roots and the maximum number of turning points it could have.",
+        "marks": 2,
+        "answer": "Maximum 5 real roots; maximum 4 turning points (degree - 1)."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing the degree with the number of terms",
+      "Overlooking a higher-degree term hidden further along in an unsorted expression"
+    ],
+    "tips": [
+      "Always rewrite a polynomial in descending order of powers first \u2014 this makes identifying the degree (the first term's power) instant and error-free."
+    ],
+    "summary": "The degree of a polynomial is its highest power, determining its classification (linear, quadratic, cubic, etc.) and maximum roots/turning points.",
+    "quick_revision_notes": [
+      "Degree = highest power present",
+      "Max roots = degree",
+      "Max turning points = degree - 1"
+    ],
+    "related_prerequisite_topics": [
+      "Polynomial Expressions",
+      "Quadratic Expressions",
+      "Cubic Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 186,
+    "category": "Polynomials",
+    "topic": "Polynomial Addition",
+    "explanation": "Adding polynomials means combining their like terms \u2014 terms with the same variable raised to the same power \u2014 just like collecting like terms in simpler algebraic expressions. The result is another polynomial, typically written in descending order of powers.",
+    "key_concepts": [
+      "Only like terms (same power of the variable) can be combined",
+      "Add the coefficients of like terms; the power stays the same",
+      "Arrange terms vertically (aligning like powers) if it helps organize the addition",
+      "The result's degree is at most the highest degree of the original polynomials"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Add (3x\u00b3 + 2x\u00b2 - x + 5) + (x\u00b3 - 4x\u00b2 + 3x - 2)",
+        "solution_steps": [
+          "Group like terms: (3x\u00b3+x\u00b3) + (2x\u00b2-4x\u00b2) + (-x+3x) + (5-2)",
+          "= 4x\u00b3 - 2x\u00b2 + 2x + 3"
+        ],
+        "answer": "4x\u00b3 - 2x\u00b2 + 2x + 3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Add (2x\u00b2 + 3x - 1) + (x\u00b2 - 5x + 4).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Add (x\u00b3 - 2x + 7) + (3x\u00b2 + 5x - 3).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "3x\u00b2 - 2x + 3",
+      "x\u00b3 + 3x\u00b2 + 3x + 4"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Add (4x\u2074 - 3x\u00b3 + 2x - 1) + (2x\u2074 + 5x\u00b2 - x + 6), giving your answer in descending order.",
+        "marks": 3,
+        "answer": "6x\u2074 - 3x\u00b3 + 5x\u00b2 + x + 5"
+      }
+    ],
+    "common_mistakes": [
+      "Combining unlike terms (different powers of x)",
+      "Missing a term entirely if one polynomial doesn't have a matching power (treat it as having a coefficient of 0 for that power)"
+    ],
+    "tips": [
+      "If a power is 'missing' from one polynomial, treat its coefficient as 0 for that power \u2014 this avoids errors when aligning terms."
+    ],
+    "summary": "Polynomial addition combines like terms (same variable power) by adding their coefficients, keeping the powers unchanged.",
+    "quick_revision_notes": [
+      "Combine like terms only",
+      "Add coefficients, keep power unchanged"
+    ],
+    "related_prerequisite_topics": [
+      "Polynomial Expressions",
+      "Collecting Like Terms"
+    ],
+    "images": []
+  },
+  {
+    "id": 187,
+    "category": "Polynomials",
+    "topic": "Polynomial Subtraction",
+    "explanation": "Subtracting polynomials means subtracting corresponding like terms, being especially careful to distribute the negative sign across every term of the polynomial being subtracted. This is equivalent to adding the negative (opposite) of every term in the second polynomial.",
+    "key_concepts": [
+      "Distribute the negative sign to EVERY term in the polynomial being subtracted",
+      "Then combine like terms as in polynomial addition",
+      "A common technique: change every sign in the second polynomial, then add"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Subtract (4x\u00b3 + 2x - 5) - (x\u00b3 - 3x + 2)",
+        "solution_steps": [
+          "Distribute the negative: 4x\u00b3 + 2x - 5 - x\u00b3 + 3x - 2",
+          "Combine like terms: (4x\u00b3-x\u00b3) + (2x+3x) + (-5-2)",
+          "= 3x\u00b3 + 5x - 7"
+        ],
+        "answer": "3x\u00b3 + 5x - 7"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Subtract (3x\u00b2 + 4x - 1) - (x\u00b2 - 2x + 5).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Subtract (2x\u00b3 - x\u00b2 + 6) - (x\u00b3 + 3x\u00b2 - 2x + 1).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "2x\u00b2 + 6x - 6",
+      "x\u00b3 - 4x\u00b2 + 2x + 5"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Subtract (5x\u2074 - 2x\u00b3 + x - 3) - (2x\u2074 + x\u00b3 - 4x + 6), giving your answer in descending order.",
+        "marks": 3,
+        "answer": "3x\u2074 - 3x\u00b3 + 5x - 9"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to change the sign of EVERY term in the second polynomial (only distributing the negative to the first term)",
+      "Combining unlike terms after distributing the negative sign"
+    ],
+    "tips": [
+      "A safe method: rewrite the second polynomial with every sign flipped first, then simply ADD the two polynomials together."
+    ],
+    "summary": "Polynomial subtraction distributes the negative sign across the entire second polynomial, then combines like terms as in addition.",
+    "quick_revision_notes": [
+      "Distribute negative to EVERY term first",
+      "Then combine like terms"
+    ],
+    "related_prerequisite_topics": [
+      "Polynomial Addition",
+      "Expanding Brackets"
+    ],
+    "images": []
+  },
+  {
+    "id": 188,
+    "category": "Polynomials",
+    "topic": "Polynomial Multiplication",
+    "explanation": "Multiplying polynomials means multiplying every term in the first polynomial by every term in the second, then combining like terms in the result. This generalizes the FOIL method used for multiplying two binomials to polynomials with any number of terms.",
+    "key_concepts": [
+      "Multiply every term in the first polynomial by every term in the second (distribute fully)",
+      "Add the exponents of matching variables during each individual term multiplication",
+      "Collect like terms in the final result",
+      "The degree of the product equals the sum of the degrees of the two polynomials being multiplied"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Multiply (x + 3)(x\u00b2 - 2x + 5)",
+        "solution_steps": [
+          "x\u00d7(x\u00b2-2x+5) = x\u00b3-2x\u00b2+5x",
+          "3\u00d7(x\u00b2-2x+5) = 3x\u00b2-6x+15",
+          "Add results: x\u00b3-2x\u00b2+5x+3x\u00b2-6x+15",
+          "Combine like terms: x\u00b3 + x\u00b2 - x + 15"
+        ],
+        "answer": "x\u00b3 + x\u00b2 - x + 15"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Multiply (x+2)(x\u00b2+3x-1).",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Multiply (2x-1)(x\u00b2+x+4).",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "x\u00b3+5x\u00b2+5x-2",
+      "2x\u00b3+x\u00b2+7x-4"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Multiply (x\u00b2+2x-3)(x-4), giving your answer in descending order.",
+        "marks": 4,
+        "answer": "x\u00b2(x-4)+2x(x-4)-3(x-4) = x\u00b3-4x\u00b2+2x\u00b2-8x-3x+12 = x\u00b3-2x\u00b2-11x+12"
+      }
+    ],
+    "common_mistakes": [
+      "Missing some term-by-term products (not fully distributing)",
+      "Adding exponents incorrectly when multiplying variable terms",
+      "Sign errors when a term is negative"
+    ],
+    "tips": [
+      "Organize your work systematically \u2014 multiply the first polynomial by ONE term of the second at a time, writing out each partial result before combining."
+    ],
+    "summary": "Polynomial multiplication distributes every term of one polynomial across every term of the other, then combines like terms.",
+    "quick_revision_notes": [
+      "Multiply every term by every term (full distribution)",
+      "Degree of product = sum of degrees"
+    ],
+    "related_prerequisite_topics": [
+      "Expanding Brackets",
+      "Polynomial Addition"
+    ],
+    "images": []
+  },
+  {
+    "id": 189,
+    "category": "Polynomials",
+    "topic": "Polynomial Division",
+    "explanation": "Polynomial division divides one polynomial by another, similar to long division with numbers. The result consists of a quotient and, often, a remainder. This is used to simplify rational expressions, factorise higher-degree polynomials, and apply the factor/remainder theorems.",
+    "key_concepts": [
+      "Similar process to numerical long division, but with polynomial terms",
+      "Divide the leading term of the dividend by the leading term of the divisor to start",
+      "Multiply, subtract, and bring down the next term, repeating until finished",
+      "Result: Dividend = (Divisor \u00d7 Quotient) + Remainder"
+    ],
+    "definitions": [
+      {
+        "term": "Dividend",
+        "definition": "The polynomial being divided."
+      },
+      {
+        "term": "Divisor",
+        "definition": "The polynomial dividing into the dividend."
+      },
+      {
+        "term": "Quotient",
+        "definition": "The result of the division (excluding any remainder)."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Division relationship",
+        "formula": "Dividend = Divisor \u00d7 Quotient + Remainder",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Divide x\u00b2 + 5x + 6 by x + 2 using long division.",
+        "solution_steps": [
+          "Divide leading terms: x\u00b2\u00f7x=x",
+          "Multiply: x\u00d7(x+2)=x\u00b2+2x. Subtract: (x\u00b2+5x+6)-(x\u00b2+2x)=3x+6",
+          "Divide leading terms again: 3x\u00f7x=3",
+          "Multiply: 3\u00d7(x+2)=3x+6. Subtract: (3x+6)-(3x+6)=0"
+        ],
+        "answer": "Quotient = x + 3, remainder 0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Divide x\u00b2 - x - 6 by x - 3.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Divide x\u00b3 + 2x\u00b2 - 5x - 6 by x + 3.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "x + 2 (remainder 0)",
+      "x\u00b2 - x - 2 (remainder 0)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Divide 2x\u00b3 - 3x\u00b2 - 11x + 6 by x - 3, showing your full working.",
+        "marks": 5,
+        "answer": "2x\u00b3\u00f7x=2x\u00b2. 2x\u00b2(x-3)=2x\u00b3-6x\u00b2. Subtract: 3x\u00b2-11x+6. 3x\u00b2\u00f7x=3x. 3x(x-3)=3x\u00b2-9x. Subtract: -2x+6. -2x\u00f7x=-2. -2(x-3)=-2x+6. Subtract: 0. Quotient: 2x\u00b2+3x-2, remainder 0."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to bring down the next term at each step",
+      "Sign errors when subtracting during the process",
+      "Stopping before the division is fully complete"
+    ],
+    "tips": [
+      "Keep your work vertically aligned by matching powers of x, just as you would align place values in numerical long division."
+    ],
+    "summary": "Polynomial division uses a long-division-style process to divide one polynomial by another, producing a quotient and remainder.",
+    "quick_revision_notes": [
+      "Divide, multiply, subtract, bring down \u2014 repeat",
+      "Dividend = Divisor\u00d7Quotient + Remainder"
+    ],
+    "related_prerequisite_topics": [
+      "Polynomial Multiplication",
+      "Synthetic Division",
+      "Remainder Theorem"
+    ],
+    "images": []
+  },
+  {
+    "id": 190,
+    "category": "Polynomials",
+    "topic": "Synthetic Division",
+    "explanation": "Synthetic division is a shortcut method for dividing a polynomial by a linear expression of the form (x - a), using only the coefficients of the polynomial. It is faster than long division and is especially useful for testing potential roots using the factor theorem.",
+    "key_concepts": [
+      "Only works for dividing by a linear factor of the form (x - a)",
+      "Uses only the coefficients of the polynomial, arranged in a simplified table",
+      "Faster and less error-prone than full long division for this specific case",
+      "The final row gives the coefficients of the quotient, with the last value being the remainder"
+    ],
+    "definitions": [
+      {
+        "term": "Synthetic Division",
+        "definition": "A simplified method for dividing a polynomial by a linear factor (x-a), using only coefficients."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Use synthetic division to divide x\u00b3 - 4x\u00b2 + x + 6 by (x - 2).",
+        "solution_steps": [
+          "Coefficients: 1, -4, 1, 6. Use a=2 (since dividing by x-2)",
+          "Bring down 1",
+          "Multiply 1\u00d72=2, add to -4: -2",
+          "Multiply -2\u00d72=-4, add to 1: -3",
+          "Multiply -3\u00d72=-6, add to 6: 0 (remainder)"
+        ],
+        "answer": "Quotient: x\u00b2 - 2x - 3, remainder 0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Use synthetic division to divide x\u00b3 - 6x\u00b2 + 11x - 6 by (x - 1).",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Use synthetic division to divide 2x\u00b3 + 3x\u00b2 - 8x + 3 by (x - 1).",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "x\u00b2 - 5x + 6, remainder 0",
+      "2x\u00b2 + 5x - 3, remainder 0"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Use synthetic division to show that (x+3) is a factor of x\u00b3 + 2x\u00b2 - 5x - 6, and find the remaining quotient.",
+        "marks": 4,
+        "answer": "Using a=-3: coefficients 1,2,-5,-6. Bring down 1. 1\u00d7(-3)=-3, add to 2: -1. -1\u00d7(-3)=3, add to -5: -2. -2\u00d7(-3)=6, add to -6: 0 (remainder), confirming (x+3) is a factor. Quotient: x\u00b2-x-2"
+      }
+    ],
+    "common_mistakes": [
+      "Using the wrong sign for 'a' (for dividing by x-a, use +a in the synthetic division table, not -a)",
+      "Missing a coefficient of 0 for any 'missing' power in the polynomial"
+    ],
+    "tips": [
+      "If a polynomial is 'missing' a term (like no x\u00b2 term), include a 0 as its coefficient in the synthetic division table \u2014 don't skip it."
+    ],
+    "summary": "Synthetic division is a fast shortcut for dividing a polynomial by (x-a), using only coefficients, commonly paired with the factor theorem.",
+    "quick_revision_notes": [
+      "Only for dividing by (x-a)",
+      "Bring down, multiply by a, add \u2014 repeat",
+      "Last value = remainder"
+    ],
+    "related_prerequisite_topics": [
+      "Polynomial Division",
+      "Factor Theorem",
+      "Remainder Theorem"
+    ],
+    "images": []
+  },
+  {
+    "id": 191,
+    "category": "Polynomials",
+    "topic": "Factor Theorem",
+    "explanation": "The factor theorem states that (x - a) is a factor of a polynomial P(x) if and only if P(a) = 0. This provides a quick test for whether a given linear expression is a factor, without needing to perform full polynomial division first.",
+    "key_concepts": [
+      "(x-a) is a factor of P(x) if and only if P(a) = 0",
+      "Used to test potential factors quickly by substitution",
+      "Once a factor is confirmed, polynomial/synthetic division can find the remaining quotient",
+      "Essential for factorising cubic and higher-degree polynomials"
+    ],
+    "definitions": [
+      {
+        "term": "Factor Theorem",
+        "definition": "A theorem stating that (x-a) is a factor of a polynomial P(x) if and only if P(a) = 0."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Is (x - 2) a factor of P(x) = x\u00b3 - 3x\u00b2 - 4x + 12?",
+        "solution_steps": [
+          "Test x=2: P(2) = 8 - 12 - 8 + 12 = 0"
+        ],
+        "answer": "Yes, since P(2)=0, (x-2) is a factor"
+      },
+      {
+        "problem": "Is (x + 1) a factor of P(x) = x\u00b3 + 2x\u00b2 - x - 2?",
+        "solution_steps": [
+          "Test x=-1: P(-1) = -1 + 2 + 1 - 2 = 0"
+        ],
+        "answer": "Yes, since P(-1)=0, (x+1) is a factor"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is (x-3) a factor of x\u00b3 - 3x\u00b2 - x + 3? Show your working.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Is (x+2) a factor of x\u00b3 + 5x\u00b2 + 2x - 8? Show your working.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Yes: P(3)=27-27-3+3=0",
+      "Yes: P(-2)=-8+20-4-8=0"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Given P(x) = x\u00b3 - 2x\u00b2 - 5x + 6, use the factor theorem to find one linear factor, then fully factorise P(x).",
+        "marks": 5,
+        "answer": "Test x=1: P(1)=1-2-5+6=0, so (x-1) is a factor. Divide: x\u00b3-2x\u00b2-5x+6 = (x-1)(x\u00b2-x-6) = (x-1)(x-3)(x+2)"
+      }
+    ],
+    "common_mistakes": [
+      "Testing the wrong value (using +a instead of -a from the factor (x-a), or vice versa)",
+      "Stopping after finding one factor without fully factorising the remaining quotient"
+    ],
+    "tips": [
+      "Try small integer values first (\u00b11, \u00b12, \u00b13...) that are factors of the constant term \u2014 these are the most likely candidates for roots."
+    ],
+    "summary": "The factor theorem states (x-a) is a factor of P(x) exactly when P(a)=0, providing a quick test before full division.",
+    "quick_revision_notes": [
+      "(x-a) is a factor of P(x) \u27fa P(a)=0",
+      "Test small integer factors of the constant term first"
+    ],
+    "related_prerequisite_topics": [
+      "Remainder Theorem",
+      "Polynomial Factorisation",
+      "Synthetic Division"
+    ],
+    "images": []
+  },
+  {
+    "id": 192,
+    "category": "Polynomials",
+    "topic": "Remainder Theorem",
+    "explanation": "The remainder theorem states that when a polynomial P(x) is divided by (x - a), the remainder equals P(a) \u2014 the value of the polynomial evaluated at x=a. This provides a quick way to find a division remainder without performing full polynomial long division.",
+    "key_concepts": [
+      "When P(x) is divided by (x-a), the remainder equals P(a)",
+      "This is a generalization of the factor theorem (where the remainder is specifically 0)",
+      "Allows quick remainder calculation via simple substitution",
+      "Also works for divisors of the form (ax - b), using x=b/a"
+    ],
+    "definitions": [
+      {
+        "term": "Remainder Theorem",
+        "definition": "A theorem stating that dividing a polynomial P(x) by (x-a) leaves a remainder equal to P(a)."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find the remainder when P(x) = x\u00b3 - 4x + 1 is divided by (x - 3), using the remainder theorem.",
+        "solution_steps": [
+          "Evaluate P(3): 27 - 12 + 1"
+        ],
+        "answer": "16 (the remainder)"
+      },
+      {
+        "problem": "Find the remainder when P(x) = 2x\u00b3 + x\u00b2 - 5 is divided by (x + 2).",
+        "solution_steps": [
+          "Evaluate P(-2): 2(-8) + 4 - 5 = -16+4-5"
+        ],
+        "answer": "-17 (the remainder)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the remainder when x\u00b3 - 2x\u00b2 + 3 is divided by (x - 1).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the remainder when 3x\u00b3 + x - 4 is divided by (x + 1).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "2 (P(1)=1-2+3)",
+      "-8 (P(-1)=-3-1-4)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "When P(x) = x\u00b3 + kx\u00b2 - 7x + 2 is divided by (x - 2), the remainder is 4. Find the value of k.",
+        "marks": 4,
+        "answer": "P(2)=8+4k-14+2=4k-4. Set equal to 4: 4k-4=4, 4k=8, k=2"
+      }
+    ],
+    "common_mistakes": [
+      "Using the wrong sign when substituting (e.g. using -3 instead of +3 for divisor (x-3))",
+      "Confusing the remainder theorem with the factor theorem (the factor theorem is a special case where the remainder is exactly 0)"
+    ],
+    "tips": [
+      "The factor theorem is really just a special case of the remainder theorem \u2014 if P(a)=0, then (x-a) divides exactly, with no remainder."
+    ],
+    "summary": "The remainder theorem states that dividing P(x) by (x-a) leaves a remainder equal to P(a), found by simple substitution.",
+    "quick_revision_notes": [
+      "Remainder of P(x)\u00f7(x-a) = P(a)"
+    ],
+    "related_prerequisite_topics": [
+      "Factor Theorem",
+      "Polynomial Division",
+      "Substitution"
+    ],
+    "images": []
+  },
+  {
+    "id": 193,
+    "category": "Polynomials",
+    "topic": "Polynomial Factorisation",
+    "explanation": "Factorising a polynomial means expressing it as a product of lower-degree factors. For cubic and higher-degree polynomials, this typically involves using the factor theorem to find one root/factor, then dividing (via long or synthetic division) to reduce to a lower-degree polynomial that can be factorised further.",
+    "key_concepts": [
+      "Use the factor theorem to identify a linear factor (test possible roots, often factors of the constant term)",
+      "Divide the polynomial by the found factor (using synthetic or long division)",
+      "Repeat the process on the resulting quotient, or factorise it directly if quadratic",
+      "Continue until the polynomial is fully factorised into linear (and possibly irreducible quadratic) factors"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Fully factorise x\u00b3 - 6x\u00b2 + 11x - 6",
+        "solution_steps": [
+          "Test x=1: P(1)=1-6+11-6=0, so (x-1) is a factor",
+          "Divide by (x-1): quotient is x\u00b2-5x+6",
+          "Factorise the quadratic: x\u00b2-5x+6=(x-2)(x-3)"
+        ],
+        "answer": "(x-1)(x-2)(x-3)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Fully factorise x\u00b3 - 2x\u00b2 - x + 2.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Fully factorise x\u00b3 + 4x\u00b2 + x - 6.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "(x-1)(x+1)(x-2)",
+      "(x-1)(x+2)(x+3)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Fully factorise 2x\u00b3 - 3x\u00b2 - 11x + 6, using the factor theorem to find the first factor.",
+        "marks": 5,
+        "answer": "Test x=3: P(3)=54-27-33+6=0, so (x-3) is a factor. Dividing gives 2x\u00b2+3x-2, which factorises as (2x-1)(x+2). Full factorisation: (x-3)(2x-1)(x+2)"
+      }
+    ],
+    "common_mistakes": [
+      "Not testing enough possible factors before giving up",
+      "Errors during the division step after finding the first factor",
+      "Forgetting to fully factorise the remaining quadratic quotient"
+    ],
+    "tips": [
+      "The Rational Root Theorem suggests trying factors of the constant term divided by factors of the leading coefficient as candidates for roots."
+    ],
+    "summary": "Polynomial factorisation uses the factor theorem to find roots, then division to reduce degree, repeating until fully factorised.",
+    "quick_revision_notes": [
+      "Find a root (factor theorem) \u2192 divide \u2192 repeat/factorise remaining quadratic"
+    ],
+    "related_prerequisite_topics": [
+      "Factor Theorem",
+      "Polynomial Division",
+      "Synthetic Division",
+      "Solving by Factorisation"
+    ],
+    "images": []
+  },
+  {
+    "id": 194,
+    "category": "Polynomials",
+    "topic": "Cubic Equations",
+    "explanation": "A cubic equation is an equation involving a polynomial of degree 3, in the form ax\u00b3+bx\u00b2+cx+d=0. Cubic equations have up to three real roots and are typically solved by first finding one root using the factor theorem, then factorising the remaining quadratic.",
+    "key_concepts": [
+      "General form: ax\u00b3 + bx\u00b2 + cx + d = 0 (a\u22600)",
+      "Has up to 3 real roots",
+      "Solved by finding one factor (via factor theorem/trial), then dividing to get a quadratic",
+      "The quadratic remainder can then be solved via factorisation or the quadratic formula"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Solve x\u00b3 - 6x\u00b2 + 11x - 6 = 0",
+        "solution_steps": [
+          "Test x=1: 1-6+11-6=0, so (x-1) is a factor",
+          "Divide: quotient is x\u00b2-5x+6",
+          "Factorise: (x-2)(x-3)=0",
+          "Full factorisation: (x-1)(x-2)(x-3)=0"
+        ],
+        "answer": "x = 1, 2, or 3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve x\u00b3 - 2x\u00b2 - 5x + 6 = 0.",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Solve x\u00b3 + x\u00b2 - 4x - 4 = 0.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "x=1, 3, or -2",
+      "x=-1, 2, or -2"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve the cubic equation 2x\u00b3 - 3x\u00b2 - 11x + 6 = 0, showing your full method.",
+        "marks": 6,
+        "answer": "Test x=3: 54-27-33+6=0, so (x-3) is a factor. Dividing gives 2x\u00b2+3x-2. Factorise: (2x-1)(x+2). Full: (x-3)(2x-1)(x+2)=0. x=3, x=1/2, or x=-2"
+      }
+    ],
+    "common_mistakes": [
+      "Only finding one or two of the three possible roots",
+      "Errors during the division step, leading to an incorrect quadratic remainder"
+    ],
+    "tips": [
+      "A cubic equation can have 1, 2 (with a repeated root), or 3 real roots \u2014 always check whether the resulting quadratic has real solutions using the discriminant."
+    ],
+    "summary": "Cubic equations (degree 3) are solved by finding one root via the factor theorem, dividing, and solving the resulting quadratic.",
+    "quick_revision_notes": [
+      "Find one root (factor theorem) \u2192 divide \u2192 solve resulting quadratic"
+    ],
+    "related_prerequisite_topics": [
+      "Factor Theorem",
+      "Polynomial Division",
+      "Quadratic Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 195,
+    "category": "Polynomials",
+    "topic": "Quartic Equations",
+    "explanation": "A quartic equation is an equation involving a polynomial of degree 4, in the form ax\u2074+bx\u00b3+cx\u00b2+dx+e=0. Quartic equations have up to four real roots and are typically solved by finding roots via the factor theorem and repeated division, reducing the degree step by step until a quadratic remains.",
+    "key_concepts": [
+      "General form: ax\u2074+bx\u00b3+cx\u00b2+dx+e=0 (a\u22600)",
+      "Has up to 4 real roots",
+      "Solved by repeatedly applying the factor theorem and division to reduce the degree",
+      "Some quartics can be solved more directly if they have a special structure (e.g. only even powers, treatable as a quadratic in x\u00b2)"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Solve x\u2074 - 5x\u00b2 + 4 = 0 by treating it as a quadratic in x\u00b2.",
+        "solution_steps": [
+          "Let u = x\u00b2. The equation becomes u\u00b2 - 5u + 4 = 0",
+          "Factorise: (u-1)(u-4)=0",
+          "u=1 or u=4",
+          "Substitute back: x\u00b2=1 gives x=\u00b11; x\u00b2=4 gives x=\u00b12"
+        ],
+        "answer": "x = 1, -1, 2, or -2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve x\u2074 - 13x\u00b2 + 36 = 0.",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Solve x\u2074 - 10x\u00b2 + 9 = 0.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "x=\u00b12 or x=\u00b13",
+      "x=\u00b11 or x=\u00b13"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve x\u2074 - 8x\u00b2 + 16 = 0, and explain why there are fewer than 4 distinct real roots.",
+        "marks": 4,
+        "answer": "Let u=x\u00b2: u\u00b2-8u+16=0, (u-4)\u00b2=0, so u=4 (a repeated root). x\u00b2=4, so x=\u00b12. Only 2 distinct real roots because the substitution led to a repeated value of u, which then gives the same 2 x-values each 'doubled' in multiplicity."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to substitute back for x after solving in terms of u=x\u00b2",
+      "Missing the negative root when taking a square root (x\u00b2=k gives x=\u00b1\u221ak)"
+    ],
+    "tips": [
+      "If a quartic only has even powers of x (x\u2074, x\u00b2, constant), try the substitution u=x\u00b2 to reduce it to a quadratic first."
+    ],
+    "summary": "Quartic equations (degree 4) can often be solved via substitution (if only even powers appear) or by repeated factor theorem/division.",
+    "quick_revision_notes": [
+      "Try u=x\u00b2 substitution if only even powers present",
+      "Otherwise use factor theorem + repeated division"
+    ],
+    "related_prerequisite_topics": [
+      "Cubic Equations",
+      "Quadratic Equations",
+      "Factor Theorem"
+    ],
+    "images": []
+  },
+  {
+    "id": 196,
+    "category": "Polynomials",
+    "topic": "Polynomial Roots",
+    "explanation": "A root (or zero) of a polynomial is a value of the variable that makes the polynomial equal to zero. A polynomial of degree n has at most n roots (counting repeated roots and complex roots). Roots can be found via factorisation, the factor theorem, or numerical methods for more complex polynomials.",
+    "key_concepts": [
+      "A root of P(x) satisfies P(x)=0",
+      "A polynomial of degree n has at most n roots (real or complex)",
+      "Roots correspond to x-intercepts on the polynomial's graph (for real roots)",
+      "The Fundamental Theorem of Algebra guarantees a degree-n polynomial has exactly n roots when complex roots are counted"
+    ],
+    "definitions": [
+      {
+        "term": "Root (Zero) of a Polynomial",
+        "definition": "A value of the variable that makes the polynomial equal to zero, i.e. a solution to P(x)=0."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find all real roots of P(x) = x\u00b3 - x",
+        "solution_steps": [
+          "Factorise: x\u00b3-x = x(x\u00b2-1) = x(x-1)(x+1)",
+          "Set each factor to zero: x=0, x-1=0, x+1=0"
+        ],
+        "answer": "x = 0, 1, or -1"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find all real roots of P(x) = x\u00b3 - 4x.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find all real roots of P(x) = x\u00b2 - 9.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "x=0, 2, or -2",
+      "x=3 or -3"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A cubic polynomial has roots -1, 2, and 3. Write down a possible equation for this polynomial in factorised form, then expand it.",
+        "marks": 4,
+        "answer": "(x+1)(x-2)(x-3)=0. Expanding: (x+1)(x\u00b2-5x+6) = x\u00b3-5x\u00b2+6x+x\u00b2-5x+6 = x\u00b3-4x\u00b2+x+6"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing 'roots' with 'factors' (a root is the x-value; the factor is the corresponding (x-a) expression)",
+      "Missing some roots when factorising incompletely"
+    ],
+    "tips": [
+      "If you know a polynomial's roots, you can immediately write its factorised form: for roots r\u2081, r\u2082, r\u2083, the polynomial is a(x-r\u2081)(x-r\u2082)(x-r\u2083)."
+    ],
+    "summary": "A root of a polynomial is a value making it equal zero; a degree-n polynomial has at most n real roots, found via factorisation.",
+    "quick_revision_notes": [
+      "P(root)=0",
+      "Degree n \u2192 up to n roots",
+      "Roots \u2194 factors: root r corresponds to factor (x-r)"
+    ],
+    "related_prerequisite_topics": [
+      "Factor Theorem",
+      "Polynomial Factorisation",
+      "Cubic Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 197,
+    "category": "Polynomials",
+    "topic": "Repeated Roots",
+    "explanation": "A repeated root occurs when the same value satisfies a polynomial equation more than once \u2014 equivalently, when a factor like (x-a) appears more than once in the polynomial's factorisation. Graphically, a repeated root means the graph touches the x-axis at that point rather than crossing through it (for an even multiplicity).",
+    "key_concepts": [
+      "A repeated root has multiplicity greater than 1 (the factor (x-a) appears more than once)",
+      "Even multiplicity (e.g. 2): the graph touches the x-axis and turns back (doesn't cross)",
+      "Odd multiplicity (e.g. 3): the graph crosses the x-axis, but flattens near that point",
+      "A quadratic with discriminant = 0 has a repeated root"
+    ],
+    "definitions": [
+      {
+        "term": "Repeated Root",
+        "definition": "A root that satisfies a polynomial equation with multiplicity greater than 1, meaning its corresponding factor appears more than once."
+      },
+      {
+        "term": "Multiplicity",
+        "definition": "The number of times a given root's factor appears in the polynomial's full factorisation."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Solve (x-2)\u00b2(x+3) = 0 and identify any repeated roots.",
+        "solution_steps": [
+          "Set each factor to zero: (x-2)\u00b2=0 gives x=2 (with multiplicity 2), (x+3)=0 gives x=-3"
+        ],
+        "answer": "x = 2 (repeated root, multiplicity 2) and x = -3"
+      },
+      {
+        "problem": "Show that x\u00b2 - 6x + 9 = 0 has a repeated root.",
+        "solution_steps": [
+          "Factorise: x\u00b2-6x+9 = (x-3)\u00b2",
+          "Discriminant check: b\u00b2-4ac = 36-36 = 0, confirming a repeated root"
+        ],
+        "answer": "x = 3 (repeated root)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve (x+1)\u00b2(x-4)=0 and state the multiplicity of each root.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Show that x\u00b2+8x+16=0 has a repeated root and find its value.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "x=-1 (multiplicity 2), x=4 (multiplicity 1)",
+      "x\u00b2+8x+16=(x+4)\u00b2, discriminant=64-64=0, so x=-4 is a repeated root"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A cubic polynomial has a repeated root at x=2 (multiplicity 2) and another root at x=-1. Write its equation in factorised form.",
+        "marks": 3,
+        "answer": "(x-2)\u00b2(x+1) = 0"
+      }
+    ],
+    "common_mistakes": [
+      "Counting a repeated root only once when the question asks for total roots including multiplicity",
+      "Assuming the graph always crosses the x-axis at every root, forgetting that even multiplicity roots only 'touch'"
+    ],
+    "tips": [
+      "Look at the exponent on each factor in the fully factorised form \u2014 that number is the root's multiplicity."
+    ],
+    "summary": "A repeated root occurs when a factor appears more than once in a polynomial's factorisation, affecting whether the graph crosses or touches the x-axis there.",
+    "quick_revision_notes": [
+      "Multiplicity = number of times factor (x-a) appears",
+      "Even multiplicity: touches x-axis. Odd (>1): crosses but flattens"
+    ],
+    "related_prerequisite_topics": [
+      "Polynomial Roots",
+      "Discriminant",
+      "Polynomial Factorisation"
+    ],
+    "images": []
+  },
+  {
+    "id": 198,
+    "category": "Polynomials",
+    "topic": "Polynomial Graphs",
+    "explanation": "A polynomial graph is the curve produced by plotting a polynomial function. Its overall shape and end behaviour are determined by the degree and leading coefficient, while its x-intercepts correspond to its real roots. Higher-degree polynomials can have more complex curves with multiple turning points.",
+    "key_concepts": [
+      "Even degree with positive leading coefficient: both ends point upward",
+      "Odd degree with positive leading coefficient: left end down, right end up",
+      "The sign flips for a negative leading coefficient",
+      "x-intercepts correspond to real roots; the graph crosses or touches depending on multiplicity"
+    ],
+    "definitions": [
+      {
+        "term": "End Behaviour",
+        "definition": "The direction a polynomial graph points as x approaches positive or negative infinity, determined by its degree and leading coefficient."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Describe the end behaviour of y = -2x\u00b3 + 3x - 1",
+        "solution_steps": [
+          "Degree is 3 (odd), leading coefficient is -2 (negative)",
+          "For odd degree with negative leading coefficient: left end goes up, right end goes down"
+        ],
+        "answer": "As x\u2192-\u221e, y\u2192+\u221e; as x\u2192+\u221e, y\u2192-\u221e"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Describe the end behaviour of y = x\u2074 - 3x\u00b2 + 2.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Describe the end behaviour of y = -x\u00b3 + x.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Even degree, positive leading coefficient: both ends point upward (y\u2192+\u221e as x\u2192\u00b1\u221e)",
+      "Odd degree, negative leading coefficient: left end up, right end down (opposite of standard positive odd-degree behavior)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A cubic graph has roots at x=-2, x=1 (multiplicity 2), and a positive leading coefficient. Sketch its general shape, describing where it crosses vs touches the x-axis.",
+        "marks": 4,
+        "answer": "The graph crosses the x-axis at x=-2 (multiplicity 1), and touches (but doesn't cross) the x-axis at x=1 (multiplicity 2). With a positive leading coefficient and odd (cubic) degree, the graph starts low on the left and ends high on the right."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing end behaviour rules for even vs odd degree polynomials",
+      "Assuming the graph always crosses at every x-intercept, ignoring multiplicity"
+    ],
+    "tips": [
+      "Remember: odd degree graphs go in OPPOSITE directions at each end; even degree graphs go in the SAME direction at each end."
+    ],
+    "summary": "Polynomial graphs have end behaviour and shape determined by their degree and leading coefficient, with x-intercepts revealing real roots.",
+    "quick_revision_notes": [
+      "Odd degree: ends go opposite directions",
+      "Even degree: ends go same direction",
+      "Sign of leading coefficient flips the direction"
+    ],
+    "related_prerequisite_topics": [
+      "Polynomial Degree",
+      "Polynomial Roots",
+      "Turning Points of Polynomials"
+    ],
+    "images": [
+      {
+        "filename": "polynomialgraphs-198-cubic.svg",
+        "type": "graph",
+        "description": "A cubic curve for y=x\u00b3-2x\u00b2-5x+6, showing its characteristic S-shape with multiple turning points.",
+        "purpose": "Shows the general shape of a cubic polynomial graph and its end behaviour.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "category": "Polynomials",
+    "topic": "Turning Points of Polynomials",
+    "explanation": "A turning point is a location on a polynomial's graph where the curve changes direction \u2014 from increasing to decreasing, or vice versa. A polynomial of degree n has at most (n-1) turning points. Finding exact turning points generally requires calculus (differentiation), though their maximum NUMBER can be determined just from the degree.",
+    "key_concepts": [
+      "A turning point is where the graph changes from increasing to decreasing, or decreasing to increasing",
+      "Maximum number of turning points = degree - 1",
+      "A quadratic (degree 2) has exactly 1 turning point (the vertex)",
+      "Finding the exact location of turning points typically requires differentiation (calculus)"
+    ],
+    "definitions": [
+      {
+        "term": "Turning Point",
+        "definition": "A point on a graph where the curve changes from increasing to decreasing, or decreasing to increasing."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "State the maximum number of turning points for a polynomial of degree 5.",
+        "solution_steps": [
+          "Maximum turning points = degree - 1 = 5-1"
+        ],
+        "answer": "4 turning points maximum"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "State the maximum number of turning points for a cubic polynomial.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A polynomial graph has exactly 3 turning points. What is the minimum possible degree of the polynomial?",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "2 (degree 3 - 1)",
+      "Degree 4 (since max turning points = degree-1, we need degree-1\u22653, so degree\u22654)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why a quadratic function always has exactly one turning point, referring to its degree.",
+        "marks": 2,
+        "answer": "A quadratic has degree 2, so the maximum number of turning points is degree-1=1. Since a non-linear (curved) quadratic must have at least one turning point (its vertex), it always has exactly one."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming a polynomial always has the MAXIMUM number of turning points (it can have fewer)",
+      "Confusing turning points with x-intercepts (roots)"
+    ],
+    "tips": [
+      "The formula (degree - 1) gives the MAXIMUM possible turning points \u2014 a specific polynomial might have fewer, but never more."
+    ],
+    "summary": "A polynomial's turning points are where its graph changes direction; the maximum number of turning points equals degree - 1.",
+    "quick_revision_notes": [
+      "Max turning points = degree - 1"
+    ],
+    "related_prerequisite_topics": [
+      "Polynomial Degree",
+      "Polynomial Graphs",
+      "Vertex of a Parabola"
+    ],
+    "images": []
+  },
+  {
+    "id": 200,
+    "category": "Polynomials",
+    "topic": "Polynomial Inequalities",
+    "explanation": "A polynomial inequality compares a polynomial expression to zero (or another value) using an inequality symbol. These are solved by finding the roots of the corresponding equation, then using a sign diagram (testing the sign of the polynomial in each interval between roots) to determine which regions satisfy the inequality.",
+    "key_concepts": [
+      "Find all real roots of the corresponding polynomial equation first",
+      "These roots divide the number line into intervals",
+      "Test a value from each interval to determine the sign of the polynomial there",
+      "Select the intervals matching the inequality's direction (positive or negative)"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Solve (x-1)(x-3)(x+2) > 0",
+        "solution_steps": [
+          "Roots: x=1, x=3, x=-2, dividing the number line into 4 intervals",
+          "Test x=-3 (interval x<-2): (-4)(-6)(-1)=-24 <0",
+          "Test x=0 (interval -2<x<1): (-1)(-3)(2)=6 >0",
+          "Test x=2 (interval 1<x<3): (1)(-1)(4)=-4 <0",
+          "Test x=4 (interval x>3): (3)(1)(6)=18 >0"
+        ],
+        "answer": "-2 < x < 1 or x > 3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve (x-2)(x+1) < 0.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Solve (x+1)(x-2)(x-4) \u2264 0.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "-1 < x < 2",
+      "x \u2264 -1 or 2 \u2264 x \u2264 4"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve the inequality x\u00b3 - 4x \u2265 0, showing your sign analysis.",
+        "marks": 5,
+        "answer": "Factorise: x(x-2)(x+2)\u22650. Roots: -2,0,2. Test intervals: x<-2 (negative), -2<x<0 (positive), 0<x<2 (negative), x>2 (positive). Solution: -2\u2264x\u22640 or x\u22652"
+      }
+    ],
+    "common_mistakes": [
+      "Not testing every interval created by the roots",
+      "Sign errors when evaluating the polynomial at test points",
+      "Forgetting to include/exclude boundary points correctly based on \u2264/\u2265 vs </>"
+    ],
+    "tips": [
+      "Always draw a number line with all roots marked, and systematically test one value from EVERY interval \u2014 don't skip any."
+    ],
+    "summary": "Polynomial inequalities are solved by finding roots, dividing the number line into intervals, and testing the sign of the polynomial in each.",
+    "quick_revision_notes": [
+      "Find roots \u2192 divide number line \u2192 test sign in each interval"
+    ],
+    "related_prerequisite_topics": [
+      "Polynomial Roots",
+      "Quadratic Inequalities",
+      "Polynomial Factorisation"
+    ],
+    "images": []
+  },
+  {
+    "id": 201,
+    "category": "Polynomials",
+    "topic": "Partial Fractions",
+    "explanation": "Partial fractions is a technique for decomposing a complex algebraic fraction (with a factorisable denominator) into a sum of simpler fractions. This is especially useful in calculus (for integration) and in simplifying complex rational expressions.",
+    "key_concepts": [
+      "Factorise the denominator fully first",
+      "Express the original fraction as a sum of simpler fractions, one for each factor",
+      "Use unknown constants (like A, B) for the numerators of the simpler fractions",
+      "Solve for these constants by equating coefficients or substituting convenient values"
+    ],
+    "definitions": [
+      {
+        "term": "Partial Fractions",
+        "definition": "The decomposition of a complex algebraic fraction into a sum of simpler fractions with lower-degree denominators."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Express (5x-1)/[(x-1)(x+2)] as partial fractions.",
+        "solution_steps": [
+          "Set up: (5x-1)/[(x-1)(x+2)] = A/(x-1) + B/(x+2)",
+          "Multiply through by (x-1)(x+2): 5x-1 = A(x+2) + B(x-1)",
+          "Substitute x=1: 5(1)-1=A(3) \u2192 4=3A \u2192 A=4/3",
+          "Substitute x=-2: 5(-2)-1=B(-3) \u2192 -11=-3B \u2192 B=11/3"
+        ],
+        "answer": "(4/3)/(x-1) + (11/3)/(x+2)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Express (3x+5)/[(x-2)(x+1)] as partial fractions.",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Express (7x-4)/[(x+1)(x-3)] as partial fractions.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "(11/3)/(x-2) + (-2/3)/(x+1)",
+      "(17/4)/(x-3) + (11/4)/(x+1)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Express (2x+7)/[(x+3)(x-1)] as partial fractions, showing your method.",
+        "marks": 5,
+        "answer": "2x+7=A(x-1)+B(x+3). x=1: 9=4B, B=9/4. x=-3: 1=-4A, A=-1/4. Answer: (-1/4)/(x+3) + (9/4)/(x-1)"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to factorise the denominator completely before setting up the decomposition",
+      "Arithmetic errors when solving for the unknown constants",
+      "Using the wrong substitution values (should use values that make each factor zero)"
+    ],
+    "tips": [
+      "Substituting the value that makes one bracket zero conveniently eliminates the other unknown constant, making solving much faster."
+    ],
+    "summary": "Partial fractions decompose a complex fraction into simpler fractions with lower-degree denominators, found via factorisation and constant-solving.",
+    "quick_revision_notes": [
+      "Factorise denominator, set up sum of simpler fractions with unknowns, solve by substitution"
+    ],
+    "related_prerequisite_topics": [
+      "Algebraic Fractions",
+      "Polynomial Factorisation",
+      "Algebraic Decomposition"
+    ],
+    "images": []
+  },
+  {
+    "id": 202,
+    "category": "Polynomials",
+    "topic": "Algebraic Decomposition",
+    "explanation": "Algebraic decomposition is the general process of breaking down a complex algebraic expression into simpler, more manageable components. Partial fractions is one specific type of algebraic decomposition applied to rational expressions, but the broader concept also includes breaking polynomials into factors, or expressions into sums of known forms.",
+    "key_concepts": [
+      "Decomposition means rewriting a complex expression as a combination of simpler parts",
+      "Common decomposition types: factorising polynomials, partial fractions, breaking into sum/difference forms",
+      "Useful for simplifying calculations, integration, and identifying underlying structure",
+      "Always verify the decomposition by recombining the parts to check it matches the original"
+    ],
+    "definitions": [
+      {
+        "term": "Algebraic Decomposition",
+        "definition": "The process of rewriting a complex algebraic expression as a combination of simpler component parts."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Decompose x\u00b2 + 6x + 9 into a product of simpler linear factors.",
+        "solution_steps": [
+          "Recognize as a perfect square: (x+3)\u00b2",
+          "This is a decomposition into the repeated factor (x+3)"
+        ],
+        "answer": "(x+3)(x+3), i.e. (x+3)\u00b2"
+      },
+      {
+        "problem": "Decompose 3x\u00b2+12x into a product involving a common factor.",
+        "solution_steps": [
+          "Extract the common factor 3x: 3x(x+4)"
+        ],
+        "answer": "3x(x+4)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Decompose x\u00b2 - 25 into a product of two factors.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Decompose 4x\u00b3 + 8x\u00b2 into a product involving a common factor.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(x-5)(x+5)",
+      "4x\u00b2(x+2)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Decompose (x\u00b2-4)/(x+2) into its simplest form, explaining each step.",
+        "marks": 3,
+        "answer": "Factorise the numerator: x\u00b2-4=(x-2)(x+2). Cancel the common factor (x+2): result is x-2 (for x\u2260-2)."
+      }
+    ],
+    "common_mistakes": [
+      "Attempting decomposition without first checking for common factors",
+      "Not verifying the decomposed form recombines to the original expression"
+    ],
+    "tips": [
+      "Always double check your decomposition by expanding/recombining the simpler parts \u2014 they should exactly reconstruct the original expression."
+    ],
+    "summary": "Algebraic decomposition rewrites complex expressions as simpler components, encompassing factorisation, partial fractions, and related techniques.",
+    "quick_revision_notes": [
+      "Break into simpler parts; verify by recombining"
+    ],
+    "related_prerequisite_topics": [
+      "Partial Fractions",
+      "Polynomial Factorisation",
+      "Factorising Using Common Factors"
+    ],
+    "images": []
+  },
+  {
+    "id": 203,
+    "category": "Polynomials",
+    "topic": "Polynomial Identities",
+    "explanation": "A polynomial identity is an equation between two polynomial expressions that holds true for ALL values of the variable(s), such as (x+1)(x-1) \u2261 x\u00b2-1. Identities are proven by expanding and simplifying, and are used to verify algebraic relationships and simplify complex expressions.",
+    "key_concepts": [
+      "A polynomial identity holds true for ALL values, not just specific ones",
+      "Proven by expanding both sides and showing they are identical",
+      "Common identities include difference of squares, perfect square expansions, and sum/difference of cubes",
+      "Used to quickly simplify or verify complex polynomial expressions"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Sum of cubes",
+        "formula": "a\u00b3+b\u00b3 \u2261 (a+b)(a\u00b2-ab+b\u00b2)",
+        "notes": ""
+      },
+      {
+        "name": "Difference of cubes",
+        "formula": "a\u00b3-b\u00b3 \u2261 (a-b)(a\u00b2+ab+b\u00b2)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Verify the identity a\u00b3-b\u00b3 \u2261 (a-b)(a\u00b2+ab+b\u00b2) by expanding the right side.",
+        "solution_steps": [
+          "Expand: (a-b)(a\u00b2+ab+b\u00b2) = a\u00b3+a\u00b2b+ab\u00b2-a\u00b2b-ab\u00b2-b\u00b3",
+          "Simplify: the middle terms cancel: a\u00b3+a\u00b2b+ab\u00b2-a\u00b2b-ab\u00b2-b\u00b3 = a\u00b3 - b\u00b3"
+        ],
+        "answer": "Right side simplifies to a\u00b3-b\u00b3, matching the left side, confirming the identity"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Use the sum of cubes identity to factorise x\u00b3+8.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Use the difference of cubes identity to factorise x\u00b3-27.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(x+2)(x\u00b2-2x+4) (treating 8 as 2\u00b3)",
+      "(x-3)(x\u00b2+3x+9) (treating 27 as 3\u00b3)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Prove the identity (x+y)\u00b3 \u2261 x\u00b3+3x\u00b2y+3xy\u00b2+y\u00b3 by fully expanding the left side.",
+        "marks": 4,
+        "answer": "(x+y)\u00b3=(x+y)(x+y)\u00b2=(x+y)(x\u00b2+2xy+y\u00b2)=x\u00b3+2x\u00b2y+xy\u00b2+x\u00b2y+2xy\u00b2+y\u00b3=x\u00b3+3x\u00b2y+3xy\u00b2+y\u00b3, matching the right side."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the sum/difference of cubes formulas have a PLUS/MINUS sign difference in specific places (easy to mix up)",
+      "Treating an identity as something to 'solve' rather than prove"
+    ],
+    "tips": [
+      "Memorize the sum and difference of cubes patterns carefully \u2014 note the sign pattern differs slightly between the two (SOAP: Same, Opposite, Always Positive, is a common mnemonic for the middle terms' signs)."
+    ],
+    "summary": "Polynomial identities hold true for all variable values, proven by expansion; key ones include sum/difference of cubes and square expansions.",
+    "quick_revision_notes": [
+      "a\u00b3+b\u00b3=(a+b)(a\u00b2-ab+b\u00b2)",
+      "a\u00b3-b\u00b3=(a-b)(a\u00b2+ab+b\u00b2)",
+      "Prove via full expansion"
+    ],
+    "related_prerequisite_topics": [
+      "Algebraic Identities",
+      "Difference of Two Squares",
+      "Perfect Square Expressions"
+    ],
+    "images": []
+  }
+]

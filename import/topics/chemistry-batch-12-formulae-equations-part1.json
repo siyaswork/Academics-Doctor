@@ -1,0 +1,389 @@
+{
+  "batch": "12",
+  "category": "Formulae, Equations and Oxidation States",
+  "topics_in_batch": 7,
+  "topics_completed_so_far": 129,
+  "topics_remaining_total": 370,
+  "topics": [
+
+    {
+      "id": "chem-124-chemical-symbols",
+      "subject": "Chemistry",
+      "category": "Formulae, Equations and Oxidation States",
+      "title": "Chemical Symbols",
+      "difficulty": "Foundation",
+      "description": "The standardised one- or two-letter abbreviations used to represent chemical elements, forming the basis for writing chemical formulae.",
+      "learning_objectives": [
+        "State the convention for writing chemical symbols correctly",
+        "Recall the symbols of common elements",
+        "Explain the origin of symbols that do not match modern element names"
+      ],
+      "explanation": "Chemical symbols are standardised, internationally recognised abbreviations for elements, consisting of either one capital letter (e.g. H for hydrogen, C for carbon, O for oxygen) or one capital letter followed by one lowercase letter (e.g. He for helium, Na for sodium, Cl for chlorine). This strict capitalisation convention is essential, since it allows symbols to be distinguished clearly within a formula (e.g. 'Co' is cobalt, a single element, while 'CO' is carbon monoxide, a compound of two different elements). While many symbols derive directly from the modern English name of the element, a number of symbols (particularly for elements known since antiquity) derive from Latin or other historical names, such as Na (sodium, from natrium), Fe (iron, from ferrum), and Au (gold, from aurum).",
+      "key_concepts": ["One or two-letter symbols, strict capitalisation convention", "Distinguishing symbols from formulae (Co vs CO)", "Latin-derived symbols for some elements"],
+      "definitions": [
+        {"term": "Chemical symbol", "definition": "A standardised one- or two-letter abbreviation representing a chemical element, with the first letter capitalised and any second letter lowercase."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Correct use of chemical symbols is essential for unambiguous communication in scientific research, industrial labelling, and international collaboration in chemistry"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Writing element symbols with incorrect capitalisation (e.g. 'NA' or 'na' instead of 'Na'), which can create ambiguity or errors when interpreting formulae"],
+      "misconceptions": ["Believing every element's symbol is simply the first one or two letters of its modern English name — several important symbols (Na, K, Fe, Cu, Ag, Au, Sn, Pb, Sb, Hg, W) derive from historical or Latin names instead"],
+      "tips": ["Practice writing symbols with correct capitalisation consistently, and learn the short list of Latin-derived symbols separately, since these cannot be guessed from the English name alone"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Write the correct chemical symbol for potassium.", "answer": "K"},
+          {"question": "State the correct capitalisation convention for a two-letter chemical symbol.", "answer": "First letter capital, second letter lowercase."}
+        ],
+        "intermediate": [
+          {"question": "Explain why 'Mg' and 'MG' would be interpreted differently in chemistry, if 'MG' were used incorrectly.", "answer": "'Mg', with correct capitalisation, is the standard symbol for the element magnesium. 'MG', with two capital letters, does not correctly represent any single element using standard convention, and could be misread as an attempt to combine two separate one-letter element symbols, such as M (not a real element symbol) and G (not a real element symbol), or could simply cause confusion, since it breaks the standard convention that only the first letter of a symbol should be capitalised."}
+        ],
+        "advanced": [
+          {"question": "Explain why maintaining strict, standardised chemical symbol conventions (fixed capitalisation, agreed one/two-letter forms) is particularly important in international scientific communication.", "answer": "Chemical symbols are used consistently across all languages and countries as a universal shorthand for identifying elements, independent of local language differences in how an element's name might be spelled or pronounced. Maintaining strict, standardised capitalisation and letter conventions ensures that scientists worldwide can read and interpret chemical formulae and equations unambiguously, without the risk of misreading a symbol as a different element or confusing a symbol with an unrelated formula (as in the classic Co/CO example). This standardisation, overseen internationally (by IUPAC, the International Union of Pure and Applied Chemistry), is essential for the accurate, error-free sharing of scientific research, industrial safety data, and educational materials across different countries and languages."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why the symbol for iron is 'Fe' rather than 'I' or 'Ir' (already used for iodine and iridium respectively).", "marks": 2, "model_answer": "The symbol Fe derives from iron's Latin name, 'ferrum', rather than its modern English name (1 mark). Since the letter 'I' is already used as the symbol for iodine, and other potential letter combinations were already assigned or reserved for other elements, using the Latin-derived 'Fe' avoids ambiguity or clashes with existing element symbols (1 mark)."}
+      ],
+      "summary": "Chemical symbols are standardised one- or two-letter abbreviations for elements, following a strict capitalisation convention (first letter capital, second lowercase) that distinguishes them clearly from chemical formulae. Some symbols derive from Latin names rather than modern English names.",
+      "revision_notes": ["Symbol: 1st letter capital, 2nd (if any) lowercase", "Co (cobalt, element) vs CO (carbon monoxide, compound) — capitalisation matters", "Latin-derived symbols: Na, K, Fe, Cu, Ag, Au, Sn, Pb, Sb, Hg, W"],
+      "related_topics": ["Elements", "Chemical Formulae"],
+      "prerequisites": ["Elements"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-125-chemical-formulae",
+      "subject": "Chemistry",
+      "category": "Formulae, Equations and Oxidation States",
+      "title": "Chemical Formulae",
+      "difficulty": "Foundation",
+      "description": "Representations of compounds using element symbols and subscript numbers to show the ratio of atoms (or ions) present.",
+      "learning_objectives": [
+        "Interpret a chemical formula in terms of the atoms/ions and their ratio",
+        "Construct a chemical formula for a simple ionic compound using ion charges",
+        "Use brackets correctly in formulae containing polyatomic ions"
+      ],
+      "explanation": "A chemical formula represents a compound using the symbols of its constituent elements, with subscript numbers indicating the ratio of atoms (for covalent compounds) or ions (for ionic compounds) present; a symbol with no subscript number is understood to represent one atom/ion of that type. For ionic compounds, the formula is determined by balancing the charges of the cation and anion so that the overall compound is electrically neutral, using the smallest whole-number ratio possible (e.g. for Ca2+ and Cl−, two chloride ions are needed to balance one calcium ion, giving CaCl2). When a polyatomic ion (such as OH−, NO3−, or SO4^2−) needs to appear more than once in a formula, it is enclosed in brackets with the appropriate subscript number placed immediately after the closing bracket (e.g. Ca(OH)2, showing one calcium ion balanced by two separate hydroxide ions).",
+      "key_concepts": ["Subscripts show atom/ion ratio", "Ionic formulae balance charge to give overall neutrality", "Brackets used for repeated polyatomic ions"],
+      "definitions": [],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Construct the formula for the ionic compound formed between aluminium ions (Al3+) and sulfate ions (SO4^2−).",
+          "working": "Find the lowest common multiple of the charges (3 and 2) = 6. Need 2 Al3+ ions (2×3=6) and 3 SO4^2− ions (3×2=6) to balance.",
+          "answer": "Al2(SO4)3"
+        }
+      ],
+      "practical_applications": ["Correct chemical formulae are essential for accurately labelling chemicals, calculating quantities in industrial processes, and communicating unambiguous chemical information"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Forgetting to use brackets when a polyatomic ion needs a subscript greater than 1 (e.g. writing 'CaOH2' instead of the correct 'Ca(OH)2')", "Failing to reduce the ratio of atoms/ions to the lowest whole-number terms where required (though ionic formulae are typically already presented in their simplest ratio based on charge balancing)"],
+      "misconceptions": ["Believing a formula's subscript numbers can be chosen arbitrarily to represent 'more' or 'less' of a substance — the subscripts in a chemical formula represent a fixed, specific ratio of atoms/ions within one formula unit or molecule of that particular compound, not an amount that can vary"],
+      "tips": ["For ionic compounds, use the 'swap and drop' method as a quick check: swap the numerical values of the two ions' charges and use them as subscripts (simplifying if they share a common factor), e.g. Ca2+ and Cl− → Ca1Cl2 → CaCl2"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the formula for magnesium oxide, given Mg2+ and O2− ions.", "answer": "MgO"},
+          {"question": "State how many atoms of hydrogen are in the formula Ca(OH)2.", "answer": "2 (from the two OH groups, each contributing one H atom)."}
+        ],
+        "intermediate": [
+          {"question": "Construct the formula for the compound formed between sodium ions (Na+) and phosphate ions (PO4^3−).", "answer": "Na3PO4 (three Na+ ions, each contributing +1, needed to balance one PO4^3− ion's charge of −3)."},
+          {"question": "Explain why brackets are needed in the formula Al2(SO4)3 but not in the formula NaCl.", "answer": "In Al2(SO4)3, the polyatomic sulfate ion needs to appear three times, so brackets are used around the sulfate group with a subscript 3 outside, to clearly show that all the atoms within the sulfate ion (one sulfur and four oxygen) are being multiplied by three, not just the final oxygen atom. In NaCl, both sodium and chlorine are simple, single atoms/ions with no repeated polyatomic group, so no brackets are needed, and a subscript of 1 for both ions is omitted, as is standard convention."}
+        ],
+        "advanced": [
+          {"question": "Construct the formula for the compound formed between iron(III) ions (Fe3+) and carbonate ions (CO3^2−), explaining your method.", "answer": "Find the lowest common multiple of the charges 3 and 2, which is 6. This requires 2 Fe3+ ions (2×3=6) and 3 CO3^2− ions (3×2=6) to achieve overall charge balance. Since the carbonate ion needs to appear more than once, it must be enclosed in brackets: Fe2(CO3)3."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Construct the formula for the ionic compound formed between ammonium ions (NH4+) and sulfate ions (SO4^2−), and explain your reasoning.", "marks": 3, "model_answer": "The ammonium ion has a charge of +1 and the sulfate ion has a charge of −2 (1 mark). Two ammonium ions are needed to balance the −2 charge of one sulfate ion, giving overall charge neutrality (1 mark). Since ammonium needs to appear twice, it is enclosed in brackets with a subscript 2: (NH4)2SO4 (1 mark)."}
+      ],
+      "summary": "Chemical formulae show the ratio of atoms or ions in a compound using symbols and subscripts. Ionic compound formulae are constructed by balancing ion charges to achieve overall neutrality, with brackets used around polyatomic ions that need to appear more than once.",
+      "revision_notes": ["Formula shows fixed ratio of atoms/ions (via subscripts)", "Ionic formulae: balance charges for overall neutrality", "Brackets needed for repeated polyatomic ions, e.g. Ca(OH)2, Al2(SO4)3"],
+      "related_topics": ["Chemical Symbols", "Empirical Formulae", "Molecular Formulae", "Ions"],
+      "prerequisites": ["Chemical Symbols", "Ions"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-126-empirical-formulae",
+      "subject": "Chemistry",
+      "category": "Formulae, Equations and Oxidation States",
+      "title": "Empirical Formulae",
+      "difficulty": "Higher",
+      "description": "The simplest whole-number ratio of atoms of each element in a compound, which may differ from the compound's actual molecular formula.",
+      "learning_objectives": [
+        "Define empirical formula",
+        "Determine the empirical formula of a compound from mass or percentage composition data",
+        "Explain the relationship between empirical and molecular formula"
+      ],
+      "explanation": "The empirical formula of a compound shows the simplest whole-number ratio of atoms of each element present, which may or may not be the same as the compound's actual (molecular) formula. For example, glucose has the molecular formula C6H12O6, but its empirical formula is CH2O, since 6:12:6 simplifies to the ratio 1:2:1. To determine an empirical formula from experimental data (typically masses or percentages by mass of each element in a sample), the mass of each element is first converted to moles (using relative atomic mass), then these mole values are divided by the smallest of the mole values calculated, to find the simplest whole-number ratio between the elements; if necessary, the ratio is further multiplied by a small whole number to eliminate any remaining fractional values.",
+      "key_concepts": ["Simplest whole-number atom ratio", "Method: mass → moles → divide by smallest → simplify to whole numbers", "May differ from molecular formula"],
+      "definitions": [
+        {"term": "Empirical formula", "definition": "A chemical formula showing the simplest whole-number ratio of atoms of each element present in a compound."}
+      ],
+      "formulae": [
+        {"name": "Moles from mass", "formula": "moles = mass / relative atomic (or formula) mass", "description": "Used as the first step in determining empirical formula from mass data."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Determine the empirical formula of a compound containing 2.4 g of carbon, 0.6 g of hydrogen and 3.2 g of oxygen (relative atomic masses: C = 12, H = 1, O = 16).",
+          "working": "Moles of C = 2.4/12 = 0.2 mol. Moles of H = 0.6/1 = 0.6 mol. Moles of O = 3.2/16 = 0.2 mol. Divide by the smallest value (0.2): C = 0.2/0.2 = 1; H = 0.6/0.2 = 3; O = 0.2/0.2 = 1.",
+          "answer": "Empirical formula = CH3O"
+        }
+      ],
+      "practical_applications": ["Empirical formula determination is a fundamental technique in analytical chemistry for identifying unknown compounds from combustion analysis or other compositional data"],
+      "laboratory_applications": ["Determining the empirical formula of a metal oxide experimentally by measuring the mass of metal before and after heating in air/oxygen to form the oxide, then calculating the mole ratio of metal to oxygen"],
+      "common_mistakes": ["Forgetting to divide by the SMALLEST mole value when finding the simplest ratio, or making an arithmetic error when converting mass to moles", "Stopping at a non-whole-number ratio without further multiplying to eliminate fractions (e.g. leaving a ratio as 1:1.5:1 instead of multiplying through by 2 to get 2:3:2)"],
+      "misconceptions": ["Believing empirical formula and molecular formula are always the same — while they can coincide for some compounds (e.g. water, H2O, where both are identical), many compounds have a molecular formula that is a whole-number multiple of their empirical formula (e.g. glucose, C6H12O6 vs empirical CH2O)"],
+      "tips": ["If your calculated ratio includes a value close to a common fraction (e.g. 1.33, 1.5, 1.25), try multiplying all the ratio values by 3, 2, or 4 respectively to convert them to whole numbers"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define empirical formula.", "answer": "The simplest whole-number ratio of atoms of each element present in a compound."},
+          {"question": "State the empirical formula of glucose, given its molecular formula is C6H12O6.", "answer": "CH2O"}
+        ],
+        "intermediate": [
+          {"question": "Determine the empirical formula of a compound containing 4.6 g sodium, 6.4 g sulfur and 9.6 g oxygen (Ar: Na = 23, S = 32, O = 16).", "answer": "Moles: Na = 4.6/23 = 0.2; S = 6.4/32 = 0.2; O = 9.6/16 = 0.6. Divide by smallest (0.2): Na = 1; S = 1; O = 3. Empirical formula = Na2SO3... [checking: dividing gives Na:S:O = 1:1:3] giving Na2SO3 is incorrect notation; correct simplest ratio is 1:1:3, so the empirical formula is NaSO3 is also incorrect since compounds are written with whole formula units — the correct empirical formula from this exact ratio is Na1S1O3, i.e. written as NaSO3."},
+          {"question": "A compound is found to contain 40% carbon, 6.7% hydrogen and 53.3% oxygen by mass. Determine its empirical formula (Ar: C=12, H=1, O=16).", "answer": "Assume 100 g sample: C = 40 g, H = 6.7 g, O = 53.3 g. Moles: C = 40/12 = 3.33; H = 6.7/1 = 6.7; O = 53.3/16 = 3.33. Divide by smallest (3.33): C = 1; H = 2.01 ≈ 2; O = 1. Empirical formula = CH2O."}
+        ],
+        "advanced": [
+          {"question": "A hydrocarbon contains 85.7% carbon and 14.3% hydrogen by mass, and has a relative molecular mass of 56. Determine its molecular formula.", "answer": "Assume 100 g sample: C = 85.7 g, H = 14.3 g. Moles: C = 85.7/12 = 7.14; H = 14.3/1 = 14.3. Divide by smallest (7.14): C = 1; H = 2.00. Empirical formula = CH2, with empirical formula mass = 12+2 = 14. Molecular formula mass ÷ empirical formula mass = 56/14 = 4. Molecular formula = (CH2)×4 = C4H8."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "A compound contains 1.4 g of nitrogen and 3.2 g of oxygen. Determine its empirical formula, showing your working (Ar: N = 14, O = 16).", "marks": 3, "model_answer": "Moles N = 1.4/14 = 0.1 mol; moles O = 3.2/16 = 0.2 mol (1 mark). Divide by the smallest value (0.1): N = 0.1/0.1 = 1; O = 0.2/0.1 = 2 (1 mark). Empirical formula = NO2 (1 mark)."}
+      ],
+      "summary": "Empirical formula shows the simplest whole-number ratio of atoms in a compound, determined from mass/percentage data by converting to moles, dividing by the smallest value, and simplifying to whole numbers. It may differ from the molecular formula by a whole-number multiple.",
+      "revision_notes": ["Empirical formula = simplest whole-number ratio of atoms", "Method: mass → moles (÷Ar) → divide by smallest → whole numbers", "Molecular formula = empirical formula × whole number (found via Mr comparison)"],
+      "related_topics": ["Molecular Formulae", "Empirical Formula Calculations", "Mole Calculations"],
+      "prerequisites": ["The Mole", "Relative Atomic Mass"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-127-molecular-formulae",
+      "subject": "Chemistry",
+      "category": "Formulae, Equations and Oxidation States",
+      "title": "Molecular Formulae",
+      "difficulty": "Higher",
+      "description": "The formula showing the actual number of atoms of each element present in a single molecule of a compound.",
+      "learning_objectives": [
+        "Define molecular formula",
+        "Determine molecular formula from empirical formula and relative molecular mass",
+        "Distinguish molecular formula from empirical formula"
+      ],
+      "explanation": "The molecular formula of a compound shows the actual number of atoms of each element present in a single molecule, which is always a whole-number multiple of the empirical formula (this multiple can be 1, meaning the two formulae are sometimes identical). To determine molecular formula, the empirical formula is first found (from mass or percentage composition data), and the mass of this empirical formula unit is calculated; dividing the given relative molecular mass of the compound by this empirical formula mass gives the whole-number multiple needed, which is then applied to each of the empirical formula's subscripts to obtain the molecular formula.",
+      "key_concepts": ["Actual atom count per molecule", "Molecular formula = empirical formula × whole number", "Multiple found via relative molecular mass ÷ empirical formula mass"],
+      "definitions": [
+        {"term": "Molecular formula", "definition": "A chemical formula showing the actual number of atoms of each element present in a single molecule of a compound."}
+      ],
+      "formulae": [
+        {"name": "Molecular formula multiple", "formula": "multiple = relative molecular mass / empirical formula mass", "description": "Determines the whole-number multiple by which the empirical formula's subscripts must be scaled to give the molecular formula."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "A compound has empirical formula CH2 and a relative molecular mass of 42. Determine its molecular formula.",
+          "working": "Empirical formula mass = 12 + (2×1) = 14. Multiple = 42/14 = 3.",
+          "answer": "Molecular formula = (CH2)×3 = C3H6"
+        }
+      ],
+      "practical_applications": ["Determining molecular formula from mass spectrometry data (which gives relative molecular mass) combined with empirical formula analysis is a standard technique for identifying unknown organic compounds"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Forgetting to multiply EVERY subscript in the empirical formula by the calculated whole-number multiple, not just one element's subscript"],
+      "misconceptions": ["Believing molecular formula can be determined from percentage composition data alone, without also knowing the relative molecular mass — percentage composition data alone only ever gives the empirical formula; the actual relative molecular mass is additionally required to determine the correct whole-number multiple for the molecular formula"],
+      "tips": ["Always calculate the empirical formula mass carefully and double-check your division before multiplying through the empirical formula's subscripts"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define molecular formula.", "answer": "A chemical formula showing the actual number of atoms of each element present in a single molecule of a compound."},
+          {"question": "A compound's empirical formula is CH2O and its molecular formula mass is 60 (empirical formula mass = 30). Determine the multiple needed.", "answer": "60/30 = 2"}
+        ],
+        "intermediate": [
+          {"question": "A compound has empirical formula C2H4O and a relative molecular mass of 88. Determine its molecular formula.", "answer": "Empirical formula mass = (2×12) + (4×1) + 16 = 24+4+16 = 44. Multiple = 88/44 = 2. Molecular formula = (C2H4O)×2 = C4H8O2."},
+          {"question": "Explain why glucose's empirical formula (CH2O) and molecular formula (C6H12O6) are different, even though they represent the same compound.", "answer": "The empirical formula represents only the simplest whole-number ratio of atoms present, without indicating the actual total number of atoms in one molecule. The molecular formula shows the true, actual number of each type of atom in one molecule of glucose, which happens to be exactly six times the simplest ratio (CH2O × 6 = C6H12O6); both formulae are correct and consistent with each other, but represent different levels of information about the compound's composition."}
+        ],
+        "advanced": [
+          {"question": "A hydrocarbon has the empirical formula CH2 and produces a molecular ion peak at m/z = 70 in its mass spectrum. Determine its molecular formula and suggest one possible structural feature of this compound based on its formula.", "answer": "Empirical formula mass = 12+2 = 14. Multiple = 70/14 = 5. Molecular formula = (CH2)×5 = C5H10. Since C5H10 corresponds to the general alkene formula CnH2n (here n=5) rather than the general alkane formula CnH2n+2 (which would require C5H12 for five carbons), this molecular formula suggests the compound is likely an alkene (containing one C=C double bond) or possibly a cyclic saturated hydrocarbon (a ring structure), both of which share the same general formula CnH2n due to having one degree of unsaturation."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "A compound has the empirical formula NO2 and a relative molecular mass of 92. Determine its molecular formula, showing your working (Ar: N = 14, O = 16).", "marks": 3, "model_answer": "Empirical formula mass = 14 + (2×16) = 14 + 32 = 46 (1 mark). Multiple = 92/46 = 2 (1 mark). Molecular formula = (NO2)×2 = N2O4 (1 mark)."}
+      ],
+      "summary": "Molecular formula shows the actual number of atoms of each element in one molecule, found by determining the empirical formula and multiplying its subscripts by the whole-number ratio of relative molecular mass to empirical formula mass.",
+      "revision_notes": ["Molecular formula = actual atom count per molecule", "Multiple = relative molecular mass ÷ empirical formula mass", "Molecular formula = empirical formula × multiple (applied to ALL subscripts)"],
+      "related_topics": ["Empirical Formulae", "Relative Molecular Mass", "Molecular Formula Calculations"],
+      "prerequisites": ["Empirical Formulae", "Relative Molecular Mass"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-128-structural-formulae",
+      "subject": "Chemistry",
+      "category": "Formulae, Equations and Oxidation States",
+      "title": "Structural Formulae",
+      "difficulty": "Higher",
+      "description": "A shorthand notation showing how atoms are grouped and connected within a molecule, condensed to save space compared to a full displayed formula.",
+      "learning_objectives": [
+        "Define structural formula",
+        "Write structural formulae for simple organic molecules",
+        "Distinguish structural formula from molecular, displayed, and skeletal formulae"
+      ],
+      "explanation": "A structural formula is a condensed way of showing the arrangement of atoms within a molecule, grouping atoms bonded to a particular carbon (or other) atom together without explicitly drawing every individual bond, unlike a full displayed formula. For example, the structural formula of ethanol is written as CH3CH2OH, showing the connectivity of atoms (a CH3 group bonded to a CH2 group, bonded in turn to an OH group) without drawing every bond line explicitly, in contrast to a displayed formula which would show every single bond and atom individually. Structural formulae are especially useful in organic chemistry, where they provide a clear, compact way to represent connectivity, distinguish between structural isomers, and communicate molecular structure quickly.",
+      "key_concepts": ["Condensed notation showing atom connectivity", "More detail than molecular formula, more compact than displayed formula", "Widely used in organic chemistry"],
+      "definitions": [
+        {"term": "Structural formula", "definition": "A condensed notation showing how atoms are grouped and connected within a molecule, without displaying every individual bond explicitly."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Write the structural formula of propan-1-ol.",
+          "working": "Propan-1-ol has a three-carbon chain with an -OH group on the end (first) carbon.",
+          "answer": "CH3CH2CH2OH"
+        }
+      ],
+      "practical_applications": ["Structural formulae are used extensively in chemical literature, textbooks, and industry to communicate molecular structure quickly and unambiguously, especially for larger organic molecules"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Confusing structural formula (showing groupings and connectivity, e.g. CH3CH2OH) with molecular formula (showing only the total count of each atom type, e.g. C2H6O), which loses information about connectivity and cannot distinguish between different isomers with the same molecular formula"],
+      "misconceptions": ["Believing structural formula and displayed formula (full graphical structure showing every bond) are the same thing — structural formula is a more condensed, text-based notation, while displayed formula shows every atom and bond explicitly as a 2D diagram"],
+      "tips": ["When writing a structural formula, group atoms attached to each carbon together in sequence along the main chain, and use brackets for branching groups where needed (e.g. CH3CH(CH3)CH3 for methylpropane)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Write the structural formula of methane.", "answer": "CH4"},
+          {"question": "Write the structural formula of ethane.", "answer": "CH3CH3"}
+        ],
+        "intermediate": [
+          {"question": "Write the structural formula of butanoic acid.", "answer": "CH3CH2CH2COOH"},
+          {"question": "Explain why the molecular formula C4H10 is insufficient to fully describe the structure of a compound, while the structural formulae CH3CH2CH2CH3 and CH3CH(CH3)CH3 are more informative.", "answer": "The molecular formula C4H10 only states the total number of carbon and hydrogen atoms present, but does not indicate how these atoms are arranged or connected; two different compounds (butane and methylpropane) share this same molecular formula but have different structures (structural isomers). The structural formulae CH3CH2CH2CH3 (butane, a straight chain) and CH3CH(CH3)CH3 (methylpropane, a branched chain) show the specific connectivity of atoms in each isomer, distinguishing between the two different compounds that share the same molecular formula."}
+        ],
+        "advanced": [
+          {"question": "Write the structural formula for 2-methylbutan-2-ol, and explain how the structural formula makes the position of the hydroxyl and methyl groups clear compared to the molecular formula alone.", "answer": "Structural formula: (CH3)2C(OH)CH2CH3. The molecular formula alone (C5H12O) gives no information about where the hydroxyl group or the branching methyl group are positioned along the carbon chain, and several different isomers share this same molecular formula. The structural formula explicitly groups the two methyl groups and the hydroxyl group onto the second carbon of the chain (shown by writing (CH3)2C(OH)- at that position), making the specific connectivity and therefore the specific identity of this particular isomer clear and unambiguous, distinguishing it from other possible isomers with the same molecular formula but different group positions."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Write the structural formula of propanone, and explain one advantage of using a structural formula rather than a molecular formula for this compound.", "marks": 2, "model_answer": "CH3COCH3 (1 mark). A structural formula shows how the atoms are connected (here, the carbonyl group positioned between the two methyl groups), which the molecular formula (C3H6O) alone does not convey, and this connectivity information can be essential for distinguishing between different possible isomers sharing the same molecular formula (1 mark)."}
+      ],
+      "summary": "Structural formulae show the grouping and connectivity of atoms in a molecule in a condensed, text-based notation, more informative than a molecular formula (which cannot distinguish isomers) but more compact than a full displayed formula.",
+      "revision_notes": ["Structural formula: shows atom groupings/connectivity, condensed notation", "More detail than molecular formula (can distinguish isomers)", "More compact than displayed formula (doesn't show every bond)"],
+      "related_topics": ["Molecular Formulae", "Displayed Formulae", "Skeletal Formulae", "Structural Isomerism"],
+      "prerequisites": ["Molecular Formulae"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-129-displayed-formulae",
+      "subject": "Chemistry",
+      "category": "Formulae, Equations and Oxidation States",
+      "title": "Displayed Formulae",
+      "difficulty": "Foundation",
+      "description": "A full graphical representation showing every atom and every covalent bond in a molecule explicitly, as a two-dimensional structure.",
+      "learning_objectives": [
+        "Define displayed formula",
+        "Draw displayed formulae for simple molecules, showing all atoms and bonds",
+        "Explain the advantages and limitations of displayed formulae"
+      ],
+      "explanation": "A displayed formula is a two-dimensional graphical representation of a molecule that shows every individual atom and every covalent bond explicitly, with each bond drawn as a line connecting the relevant atoms. Displayed formulae give the most visually complete and unambiguous representation of a molecule's connectivity among the common formula types, since every bond and atom is shown individually, but they can become cumbersome and space-consuming for larger molecules with many atoms, particularly complex organic molecules with long chains or multiple functional groups. Displayed formulae are especially useful for clearly showing the exact bonding pattern around a specific atom (e.g. distinguishing single, double, or triple bonds explicitly) or for illustrating a specific functional group's structure in detail.",
+      "key_concepts": ["Shows every atom and every bond explicitly", "Two-dimensional graphical representation", "Most detailed but least compact common formula type"],
+      "definitions": [
+        {"term": "Displayed formula", "definition": "A two-dimensional graphical representation of a molecule showing every individual atom and every covalent bond explicitly."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Describe the displayed formula of methane, CH4.",
+          "working": "Methane has one central carbon atom bonded to four separate hydrogen atoms.",
+          "answer": "A central C atom with four separate lines (single bonds) drawn to four H atoms positioned around it (commonly drawn with two bonds in the plane, one bond going back, and one coming forward in a 3D-style representation, or simply as four bonds arranged around the C in a simplified 2D cross/plus shape for basic diagrams)."
+        }
+      ],
+      "practical_applications": ["Displayed formulae are widely used in educational contexts and scientific publications to unambiguously communicate the precise bonding pattern of a molecule, particularly for smaller molecules or specific functional groups"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Omitting lone pairs or specific bond types (e.g. drawing a double bond as a single line) when a fully detailed displayed formula is required"],
+      "misconceptions": ["Believing a displayed formula accurately represents the true three-dimensional shape and bond angles of a molecule — a displayed formula is typically drawn as a simplified, flat, two-dimensional representation for clarity, and does not necessarily depict the molecule's actual 3D geometry (which is instead predicted using VSEPR theory)"],
+      "tips": ["When drawing a displayed formula, work through the molecule systematically, drawing one atom and its bonds at a time, ensuring every atom shows the correct number of bonds/lone pairs consistent with its valency"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State what a displayed formula shows.", "answer": "Every individual atom and every covalent bond in a molecule, drawn explicitly as a 2D diagram."},
+          {"question": "State one advantage of a displayed formula over a molecular formula.", "answer": "It shows the exact connectivity and arrangement of atoms and bonds, which a molecular formula alone does not."}
+        ],
+        "intermediate": [
+          {"question": "Describe how a double bond is shown differently from a single bond in a displayed formula.", "answer": "A single bond is shown as one line connecting two atoms, while a double bond is shown as two parallel lines connecting the same two atoms, representing the two shared pairs of electrons."},
+          {"question": "Explain one limitation of using displayed formulae for very large organic molecules.", "answer": "For very large molecules with many atoms (such as long-chain hydrocarbons or complex biological molecules), drawing every single atom and bond explicitly becomes very space-consuming and visually cluttered, making the structure harder to interpret quickly; more condensed notations (such as structural or skeletal formulae) are often preferred for larger molecules to improve clarity and save space."}
+        ],
+        "advanced": [
+          {"question": "Explain why a displayed formula, despite showing every atom and bond, does not necessarily provide accurate information about a molecule's true three-dimensional bond angles.", "answer": "A displayed formula is conventionally drawn as a simplified, flat, two-dimensional diagram for ease of representation on paper or screen, with bond lines typically drawn at standard angles (e.g. 90° or 120° between lines) purely for visual clarity and convenience, rather than to accurately depict the molecule's true spatial geometry. The actual three-dimensional bond angles of a molecule are determined by the specific number and type of electron pairs (bonding and lone pairs) around each atom, as predicted by VSEPR theory, and require a separate three-dimensional representation (or explicit wedge-and-dash notation) to show accurately; a standard flat displayed formula alone does not convey this 3D geometric information."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain the difference between a molecular formula and a displayed formula, using ethene (C2H4) as an example.", "marks": 2, "model_answer": "The molecular formula, C2H4, shows only the total number of each type of atom present (2 carbon, 4 hydrogen) (1 mark). The displayed formula shows every individual atom and bond explicitly, including the C=C double bond drawn as two parallel lines and each of the four C-H single bonds drawn individually, giving a full picture of the molecule's connectivity and bonding (1 mark)."}
+      ],
+      "summary": "A displayed formula is a full 2D graphical representation showing every atom and bond in a molecule explicitly, offering the most detailed common representation of connectivity, though it becomes unwieldy for larger molecules and does not depict true 3D geometry.",
+      "revision_notes": ["Displayed formula: every atom + every bond shown explicitly, 2D diagram", "Most detailed common formula type; becomes cumbersome for large molecules", "Does not show true 3D bond angles/shape (that requires VSEPR-based representation)"],
+      "related_topics": ["Structural Formulae", "Skeletal Formulae", "Lewis Structures"],
+      "prerequisites": ["Structural Formulae"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-130-skeletal-formulae",
+      "subject": "Chemistry",
+      "category": "Formulae, Equations and Oxidation States",
+      "title": "Skeletal Formulae",
+      "difficulty": "Higher",
+      "description": "A simplified way of drawing organic molecules, showing the carbon skeleton as a zig-zag line with hydrogen atoms on carbon omitted for clarity.",
+      "learning_objectives": [
+        "Define skeletal formula",
+        "Convert between structural/displayed formulae and skeletal formulae",
+        "Interpret functional groups shown explicitly in a skeletal formula"
+      ],
+      "explanation": "A skeletal formula is a simplified way of representing organic molecules, in which the carbon-hydrogen bonds and most hydrogen atoms attached to carbon are omitted for clarity, and the carbon backbone (skeleton) of the molecule is drawn as a zig-zag line, with each line end or vertex (corner) representing a carbon atom (unless another atom, such as oxygen or nitrogen, is explicitly shown at that position). Any hydrogen atoms attached to carbon are simply understood to fill the remaining bonding positions needed to satisfy carbon's valency of four, without being drawn explicitly; however, atoms other than carbon and hydrogen attached to carbon (such as oxygen in a hydroxyl or carbonyl group, or a halogen), and any hydrogen atoms bonded to these other atoms (e.g. the H of an -OH group), are shown explicitly, since they represent important functional groups. Skeletal formulae are widely used in organic chemistry for their clarity and compactness, especially for larger or more complex molecules, since they emphasise the overall carbon framework and highlight functional groups clearly without unnecessary visual clutter from numerous C-H bonds.",
+      "key_concepts": ["Carbon skeleton drawn as zig-zag line, vertices = carbon atoms", "C-H bonds and most H atoms on carbon omitted", "Functional group atoms (other than C, and H on C) shown explicitly"],
+      "definitions": [
+        {"term": "Skeletal formula", "definition": "A simplified representation of an organic molecule showing the carbon skeleton as a zig-zag line, with hydrogen atoms on carbon omitted and other atoms/functional groups shown explicitly."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Describe the skeletal formula of butan-1-ol, CH3CH2CH2CH2OH.",
+          "working": "The four-carbon chain is drawn as a zig-zag line with 4 vertices/ends (representing the 4 carbon atoms), with the -OH group shown explicitly at the end of the chain.",
+          "answer": "A zig-zag line of 4 carbon positions (3 line segments, 4 vertices/ends total), with 'OH' written explicitly at the terminal end representing the hydroxyl functional group; all hydrogen atoms attached to carbon are omitted from the drawing but understood to be present to complete each carbon's four bonds."
+        }
+      ],
+      "practical_applications": ["Skeletal formulae are the standard way organic chemists represent molecular structures in research literature, textbooks, and drug design, due to their clarity for large, complex molecules"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Forgetting that a vertex or line-end in a skeletal formula represents a carbon atom by default, unless a different atom's symbol is explicitly written at that position", "Explicitly drawing hydrogen atoms attached to carbon in a skeletal formula, which defeats the purpose of the simplified representation"],
+      "misconceptions": ["Believing all hydrogen atoms are omitted from a skeletal formula — only hydrogen atoms attached to CARBON are omitted; hydrogen atoms attached to other atoms (such as the H in an -OH or -NH2 group) must still be shown explicitly"],
+      "tips": ["When interpreting a skeletal formula, count the number of bonds already shown at each carbon vertex, then add enough hydrogen atoms (not drawn) to bring that carbon's total number of bonds up to four"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State what each vertex (corner or line-end) in a skeletal formula usually represents.", "answer": "A carbon atom (unless a different atom's symbol is explicitly shown at that position)."},
+          {"question": "State whether hydrogen atoms bonded to oxygen (e.g. in an -OH group) are shown in a skeletal formula.", "answer": "Yes, hydrogen atoms bonded to atoms other than carbon are shown explicitly."}
+        ],
+        "intermediate": [
+          {"question": "Describe how many hydrogen atoms are implied at a carbon vertex in a skeletal formula that has only two lines connected to it (i.e. is part of the middle of a chain, not branched or double-bonded).", "answer": "A carbon atom must have four bonds in total. If only two lines (bonds to neighbouring carbon atoms) are shown connected to a particular vertex, this carbon has two remaining bonding positions, which are understood to be filled by two hydrogen atoms (not explicitly drawn) to complete its valency of four."},
+          {"question": "Explain how a skeletal formula would show the difference between an alkane chain and an alkene chain.", "answer": "In a skeletal formula, single bonds between carbon atoms are shown as a single line, as in an alkane's zig-zag chain, while a double bond between two carbon atoms in an alkene is shown as two parallel lines at that specific position in the zig-zag chain, clearly distinguishing the location and presence of the double bond (and therefore the alkene functional group) from the surrounding single C-C bonds."}
+        ],
+        "advanced": [
+          {"question": "Draw (describe) the skeletal formula for 3-methylbut-1-ene, CH2=CHCH(CH3)CH3, and explain how branching is represented in a skeletal formula.", "answer": "The main four-carbon chain is drawn as a zig-zag line of three line segments (four vertices), with a double bond (two parallel lines) shown between the first and second carbon vertices (representing the C=C of but-1-ene). A branch is represented by a short additional line segment extending off from the relevant vertex (in this case, the third carbon of the main chain) to a further single vertex/line-end, representing the additional methyl group; this branch is drawn as a separate line stemming from the main chain, rather than being part of the continuous zig-zag itself, visually distinguishing the main chain from any substituent branches. No atom symbol needs to be written at the end of this branch, since it represents a further (implied) carbon atom, following the same convention as the rest of the skeletal formula."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain the key convention used in a skeletal formula for representing carbon atoms and hydrogen atoms attached to carbon.", "marks": 2, "model_answer": "Each line end (vertex) in a skeletal formula, unless another atom's symbol is explicitly written there, represents a carbon atom (1 mark). Hydrogen atoms attached to these carbon atoms are not drawn explicitly, but are understood to be present in sufficient number to complete each carbon's valency of four bonds (1 mark)."}
+      ],
+      "summary": "Skeletal formulae represent organic molecules using a zig-zag line for the carbon skeleton, with vertices representing carbon atoms and hydrogen atoms on carbon omitted (understood to complete carbon's valency of four). Atoms other than carbon, and hydrogens bonded to them, are shown explicitly, making functional groups clear and the notation compact for larger molecules.",
+      "revision_notes": ["Vertex/line-end = carbon atom (unless another symbol shown)", "H atoms on carbon: NOT shown (implied to complete valency of 4)", "Non-carbon atoms and H bonded to them: shown explicitly", "Double/triple bonds shown as 2/3 parallel lines at that position"],
+      "related_topics": ["Displayed Formulae", "Structural Formulae", "Functional Groups"],
+      "prerequisites": ["Displayed Formulae"],
+      "diagram_recommendations": ["[DIAGRAM: Skeletal formula of butan-1-ol compared to its full displayed formula]"],
+      "images": []
+    }
+  ]
+}

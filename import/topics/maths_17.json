@@ -1,0 +1,1411 @@
+[
+  {
+    "id": 384,
+    "category": "Coordinate Geometry",
+    "topic": "Perpendicular Bisector of a Line Segment",
+    "explanation": "The perpendicular bisector of a line segment is a line that crosses the segment at exactly its midpoint, at a right angle (90\u00b0). Every point on the perpendicular bisector is equidistant from both endpoints of the original segment, making it useful for locus problems and geometric constructions.",
+    "key_concepts": [
+      "Passes through the midpoint of the segment",
+      "Perpendicular to the original segment (negative reciprocal gradient)",
+      "Every point on the perpendicular bisector is equidistant from both endpoints",
+      "To find its equation: find the midpoint, find the perpendicular gradient, then use point-slope form"
+    ],
+    "definitions": [
+      {
+        "term": "Perpendicular Bisector",
+        "definition": "A line that crosses a segment at its midpoint, at a right angle, with every point on it equidistant from the segment's endpoints."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find the equation of the perpendicular bisector of the segment joining A(2,4) and B(6,8).",
+        "solution_steps": [
+          "Midpoint: ((2+6)/2, (4+8)/2) = (4,6)",
+          "Gradient of AB: (8-4)/(6-2) = 4/4 = 1",
+          "Perpendicular gradient: -1/1 = -1",
+          "Using point-slope form with (4,6): y-6 = -1(x-4)",
+          "y = -x+4+6"
+        ],
+        "answer": "y = -x + 10"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the equation of the perpendicular bisector of the segment joining (0,0) and (4,6).",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find the midpoint and gradient needed as the first steps for the perpendicular bisector of (1,1) and (7,5).",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "y = -2/3 x + 13/3 (midpoint=(2,3), gradient AB=1.5, perp gradient=-2/3, y-3=-2/3(x-2))",
+      "Midpoint=(4,3), gradient of segment=2/3, so perpendicular gradient=-3/2"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Find the equation of the perpendicular bisector of the segment joining P(-2,3) and Q(4,-5), giving your answer in the form y=mx+c.",
+        "marks": 5,
+        "answer": "Midpoint=(1,-1). Gradient PQ=(-5-3)/(4-(-2))=-8/6=-4/3. Perpendicular gradient=3/4. y-(-1)=3/4(x-1) \u2192 y=3/4x-3/4-1=3/4x-7/4"
+      }
+    ],
+    "common_mistakes": [
+      "Using the original gradient instead of its negative reciprocal",
+      "Errors when calculating the midpoint (forgetting to average, or dividing incorrectly)"
+    ],
+    "tips": [
+      "The perpendicular bisector always requires TWO calculations first \u2014 the midpoint AND the perpendicular gradient \u2014 before you can apply point-slope form."
+    ],
+    "summary": "The perpendicular bisector passes through a segment's midpoint at a right angle, found using the midpoint and negative reciprocal gradient.",
+    "quick_revision_notes": [
+      "Find midpoint, find perpendicular gradient, use point-slope form"
+    ],
+    "related_prerequisite_topics": [
+      "Midpoint Formula",
+      "Gradient Formula",
+      "Perpendicular Lines (Gradient Condition)"
+    ],
+    "images": []
+  },
+  {
+    "id": 385,
+    "category": "Coordinate Geometry",
+    "topic": "Distance Formula",
+    "explanation": "This topic focuses on applying the distance formula \u2014 derived from the Pythagorean theorem \u2014 to solve a range of coordinate geometry problems, including finding side lengths of shapes, verifying triangle types, and comparing distances between multiple points.",
+    "key_concepts": [
+      "d = \u221a[(x\u2082-x\u2081)\u00b2 + (y\u2082-y\u2081)\u00b2]",
+      "Order of subtraction doesn't matter, since differences are squared",
+      "Used to find side lengths, verify shape properties (like equilateral or isosceles triangles), and solve locus problems",
+      "Extends directly to 3D with an additional z-term"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Distance formula",
+        "formula": "d = \u221a[(x\u2082-x\u2081)\u00b2 + (y\u2082-y\u2081)\u00b2]",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the distance between (1,2) and (7,10).",
+        "solution_steps": [
+          "d = \u221a[(7-1)\u00b2+(10-2)\u00b2] = \u221a[36+64] = \u221a100"
+        ],
+        "answer": "10"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the distance between (-2,3) and (4,-5).",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Points A(0,0), B(6,0), C(3,3\u221a3) form a triangle. Show that it is equilateral using the distance formula.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "10 (\u221a[36+64])",
+      "AB=6. AC=\u221a[9+27]=\u221a36=6. BC=\u221a[(3-6)\u00b2+(3\u221a3)\u00b2]=\u221a[9+27]=\u221a36=6. All sides equal 6, confirming an equilateral triangle."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Points A(1,5), B(4,1), C(8,4) form a triangle. Use the distance formula to determine what TYPE of triangle ABC is.",
+        "marks": 5,
+        "answer": "AB=\u221a[(4-1)\u00b2+(1-5)\u00b2]=\u221a[9+16]=5. BC=\u221a[(8-4)\u00b2+(4-1)\u00b2]=\u221a[16+9]=5. AC=\u221a[(8-1)\u00b2+(4-5)\u00b2]=\u221a[49+1]=\u221a50. Since AB=BC=5, the triangle is isosceles."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to square the differences before adding",
+      "Errors when using the formula to verify shape properties (misapplying which sides to compare)"
+    ],
+    "tips": [
+      "When verifying triangle types, calculate ALL THREE side lengths systematically before drawing conclusions about equal sides or right angles."
+    ],
+    "summary": "Applying the distance formula to solve coordinate geometry problems involving side lengths and shape classification.",
+    "quick_revision_notes": [
+      "d = \u221a[(x\u2082-x\u2081)\u00b2+(y\u2082-y\u2081)\u00b2]"
+    ],
+    "related_prerequisite_topics": [
+      "Distance Between Points",
+      "Pythagorean Theorem"
+    ],
+    "images": []
+  },
+  {
+    "id": 386,
+    "category": "Coordinate Geometry",
+    "topic": "Midpoint Formula",
+    "explanation": "This topic focuses on applying the midpoint formula to a range of coordinate geometry problems, including finding an unknown endpoint given the midpoint and one endpoint, and verifying properties of shapes like parallelograms (whose diagonals bisect each other).",
+    "key_concepts": [
+      "M = ((x\u2081+x\u2082)/2, (y\u2081+y\u2082)/2)",
+      "Can be rearranged to find a missing endpoint if the midpoint and one endpoint are known",
+      "Used to verify parallelogram properties (diagonals share the same midpoint)",
+      "A foundational tool combined with other coordinate geometry formulas in multi-step problems"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Midpoint formula",
+        "formula": "M = ((x\u2081+x\u2082)/2, (y\u2081+y\u2082)/2)",
+        "notes": ""
+      },
+      {
+        "name": "Finding a missing endpoint",
+        "formula": "x\u2082 = 2(Mx) - x\u2081, y\u2082 = 2(My) - y\u2081",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "The midpoint of AB is (5,3), and A=(2,1). Find B.",
+        "solution_steps": [
+          "x\u2082 = 2(5)-2 = 8",
+          "y\u2082 = 2(3)-1 = 5"
+        ],
+        "answer": "B = (8, 5)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "The midpoint of CD is (4,-1), and C=(0,3). Find D.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Quadrilateral PQRS has vertices P(0,0), Q(4,0), R(6,4), S(2,4). Verify it is a parallelogram by showing the diagonals PR and QS share the same midpoint.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "(8,-5)",
+      "Midpoint of PR = ((0+6)/2,(0+4)/2)=(3,2). Midpoint of QS = ((4+2)/2,(0+4)/2)=(3,2). Since both diagonals share the same midpoint, PQRS is confirmed as a parallelogram."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The midpoint of EF is (3,7). If E=(-1,2), find F, then find the length of EF using the distance formula.",
+        "marks": 4,
+        "answer": "F = (2(3)-(-1), 2(7)-2) = (7,12). EF = \u221a[(7-(-1))\u00b2+(12-2)\u00b2] = \u221a[64+100] = \u221a164 \u2248 12.81"
+      }
+    ],
+    "common_mistakes": [
+      "Errors when rearranging the midpoint formula to find a missing endpoint (forgetting to double the midpoint first)",
+      "Mixing up which point is being solved for"
+    ],
+    "tips": [
+      "To find a missing endpoint, always double the midpoint coordinates FIRST (2M), then subtract the known endpoint \u2014 never subtract before doubling."
+    ],
+    "summary": "Applying the midpoint formula to find missing endpoints and verify geometric properties like parallelogram diagonals.",
+    "quick_revision_notes": [
+      "M = ((x\u2081+x\u2082)/2,(y\u2081+y\u2082)/2)",
+      "Missing endpoint: 2M - known point"
+    ],
+    "related_prerequisite_topics": [
+      "Midpoint of a Line Segment",
+      "Parallelograms"
+    ],
+    "images": []
+  },
+  {
+    "id": 387,
+    "category": "Coordinate Geometry",
+    "topic": "Gradient Formula",
+    "explanation": "This topic focuses on applying the gradient formula to a range of coordinate geometry problems, including determining if points are collinear (constant gradient between consecutive pairs), and combining gradient calculations with parallel/perpendicular line conditions.",
+    "key_concepts": [
+      "m = (y\u2082-y\u2081)/(x\u2082-x\u2081)",
+      "Collinear points have the SAME gradient between any pair of them",
+      "Used alongside parallel (equal gradients) and perpendicular (negative reciprocal gradients) conditions",
+      "A vertical line has an undefined gradient; a horizontal line has a gradient of 0"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Gradient formula",
+        "formula": "m = (y\u2082-y\u2081)/(x\u2082-x\u2081)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Determine if points A(1,2), B(3,6), C(5,10) are collinear, using the gradient formula.",
+        "solution_steps": [
+          "Gradient AB = (6-2)/(3-1) = 4/2 = 2",
+          "Gradient BC = (10-6)/(5-3) = 4/2 = 2",
+          "Both gradients are equal"
+        ],
+        "answer": "Yes, A, B, C are collinear (equal gradients, and they share point B)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Determine if points P(0,1), Q(2,5), R(5,10) are collinear.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find the gradient of the line through (3,7) and (3,-2). What does this tell you about the line?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "No \u2014 gradient PQ=(5-1)/(2-0)=2, gradient QR=(10-5)/(5-2)=5/3, these are different, so not collinear.",
+      "The gradient is undefined (division by zero, since x doesn't change), meaning the line is VERTICAL."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Line L1 passes through (1,2) and (4,11). Line L2 passes through (0,5) and (3,-4). Determine whether L1 and L2 are parallel, perpendicular, or neither.",
+        "marks": 4,
+        "answer": "Gradient L1 = (11-2)/(4-1)=9/3=3. Gradient L2 = (-4-5)/(3-0)=-9/3=-3. Product of gradients = 3\u00d7(-3)=-9, not -1, so NOT perpendicular. Since gradients aren't equal either, they are NEITHER parallel nor perpendicular."
+      }
+    ],
+    "common_mistakes": [
+      "Subtracting coordinates in an inconsistent order (must keep the SAME order for both x and y differences)",
+      "Confusing collinearity (points on the same line) with parallel lines (different lines, same gradient)"
+    ],
+    "tips": [
+      "To check collinearity of 3+ points using gradients, calculate the gradient between EVERY consecutive pair and confirm they're all equal \u2014 this also implicitly confirms they share the necessary common points."
+    ],
+    "summary": "Applying the gradient formula to determine collinearity and analyze relationships (parallel/perpendicular) between lines.",
+    "quick_revision_notes": [
+      "m = (y\u2082-y\u2081)/(x\u2082-x\u2081)",
+      "Collinear: equal gradients + shared points"
+    ],
+    "related_prerequisite_topics": [
+      "Gradient",
+      "Collinearity",
+      "Parallel Lines"
+    ],
+    "images": []
+  },
+  {
+    "id": 388,
+    "category": "Coordinate Geometry",
+    "topic": "Equation of a Line",
+    "explanation": "This topic consolidates the various methods for finding the equation of a straight line in coordinate geometry \u2014 using a gradient and one point, using two points, or using specific geometric conditions (parallel, perpendicular, passing through a particular feature) \u2014 into a unified problem-solving approach.",
+    "key_concepts": [
+      "y = mx+c (gradient-intercept) or y-y\u2081=m(x-x\u2081) (point-slope) are the two main working forms",
+      "Given two points: find gradient first, then use either form with one of the points",
+      "Given a condition (parallel/perpendicular to another line): find the required gradient first, using that condition",
+      "Always simplify the final equation into a standard, clearly readable form"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find the equation of the line through (2,-1) that is parallel to y=3x+5.",
+        "solution_steps": [
+          "Parallel lines share the same gradient: m=3",
+          "Use point-slope: y-(-1)=3(x-2)",
+          "y+1=3x-6",
+          "y=3x-7"
+        ],
+        "answer": "y = 3x - 7"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the equation of the line through (4,5) perpendicular to y=2x-1.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find the equation of the line through (0,3) and (6,15).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "y = -1/2 x + 7 (perpendicular gradient=-1/2, using (4,5): 5=-2+c, c=7)",
+      "y = 2x + 3 (gradient=(15-3)/6=2, using (0,3): c=3)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Find the equation of the line passing through the point (3,4) that is perpendicular to the line joining (1,1) and (5,9).",
+        "marks": 5,
+        "answer": "Gradient of given line = (9-1)/(5-1)=8/4=2. Perpendicular gradient=-1/2. Using (3,4): 4=-1/2(3)+c \u2192 4=-1.5+c \u2192 c=5.5. Equation: y=-1/2x+5.5"
+      }
+    ],
+    "common_mistakes": [
+      "Not correctly applying the parallel/perpendicular gradient condition before proceeding",
+      "Errors in the final algebraic simplification"
+    ],
+    "tips": [
+      "Always identify FIRST whether you need to find a gradient from two points, use a given gradient directly, or derive a gradient from a parallel/perpendicular condition \u2014 this determines your very first step."
+    ],
+    "summary": "Finding a line's equation combines gradient-finding methods (from points or conditions) with point-slope or gradient-intercept form.",
+    "quick_revision_notes": [
+      "Find gradient (from points/condition), then use point-slope form"
+    ],
+    "related_prerequisite_topics": [
+      "Gradient Formula",
+      "Parallel Line Equations",
+      "Perpendicular Line Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 389,
+    "category": "Coordinate Geometry",
+    "topic": "Parallel Line Equations",
+    "explanation": "This topic focuses specifically on finding the equation of a line parallel to a given line, using the fact that parallel lines always share the same gradient. This is combined with a known point to fully determine the new line's equation.",
+    "key_concepts": [
+      "Parallel lines have EQUAL gradients",
+      "Rearrange the given line into y=mx+c form first to identify its gradient",
+      "Use the same gradient with the new point, via point-slope or gradient-intercept form",
+      "The y-intercept (c) will generally differ between parallel lines (unless they are the exact same line)"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find the equation of the line parallel to 2x+y=7, passing through (3,4).",
+        "solution_steps": [
+          "Rearrange: y=-2x+7, so gradient=-2",
+          "Use point-slope: y-4=-2(x-3)",
+          "y-4=-2x+6",
+          "y=-2x+10"
+        ],
+        "answer": "y = -2x + 10"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the equation of the line parallel to y=4x-3, passing through (1,5).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the equation of the line parallel to 3x-2y=8, passing through (4,1).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "y=4x+1",
+      "y=1.5x-5 (gradient of original: y=1.5x-4, so gradient=1.5; using (4,1): 1=6+c, c=-5)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Line L has equation 5x+2y=10. Find the equation of the line parallel to L that passes through the point (2,-3), giving your answer in the form ax+by=c.",
+        "marks": 4,
+        "answer": "Rearrange L: y=-2.5x+5, gradient=-2.5. New line: y-(-3)=-2.5(x-2) \u2192 y+3=-2.5x+5 \u2192 y=-2.5x+2. In the form: 2.5x+y=2, or equivalently 5x+2y=4"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to rearrange the given line into y=mx+c form first to correctly identify its gradient",
+      "Sign errors when the given line's equation isn't already in a simple form"
+    ],
+    "tips": [
+      "Always rearrange the GIVEN line's equation into y=mx+c form as your very first step \u2014 this makes identifying the gradient for the parallel line immediate and error-free."
+    ],
+    "summary": "Finding a parallel line's equation uses the same gradient as the given line, combined with a known point via point-slope form.",
+    "quick_revision_notes": [
+      "Parallel: same gradient. Find m from given line, use point-slope with new point."
+    ],
+    "related_prerequisite_topics": [
+      "Parallel Lines",
+      "Equation of a Line",
+      "Gradient Formula"
+    ],
+    "images": []
+  },
+  {
+    "id": 390,
+    "category": "Coordinate Geometry",
+    "topic": "Perpendicular Line Equations",
+    "explanation": "This topic focuses specifically on finding the equation of a line perpendicular to a given line, using the negative reciprocal gradient relationship. This is combined with a known point to fully determine the new line's equation.",
+    "key_concepts": [
+      "Perpendicular lines have gradients that multiply to -1 (negative reciprocals)",
+      "Rearrange the given line into y=mx+c form first to identify its gradient",
+      "Find the negative reciprocal of this gradient for the perpendicular line",
+      "Use the new gradient with the given point, via point-slope or gradient-intercept form"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find the equation of the line perpendicular to y=4x-1, passing through (8,3).",
+        "solution_steps": [
+          "Original gradient: m=4",
+          "Perpendicular gradient: -1/4",
+          "Use point-slope: y-3=-1/4(x-8)",
+          "y-3=-1/4x+2",
+          "y=-1/4x+5"
+        ],
+        "answer": "y = -1/4 x + 5"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the equation of the line perpendicular to y=2x+3, passing through (4,1).",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find the equation of the line perpendicular to 3y=x-6, passing through (2,-3).",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "y=-1/2x+3 (perpendicular gradient=-1/2, using (4,1): 1=-2+c, c=3)",
+      "y=-3x+3 (original: y=x/3-2, gradient=1/3, perpendicular gradient=-3; using (2,-3): -3=-6+c, c=3)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Line L has equation 2x-5y=10. Find the equation of the line perpendicular to L, passing through the point (4,6), giving your answer in the form y=mx+c.",
+        "marks": 5,
+        "answer": "Rearrange L: y=0.4x-2, gradient=0.4=2/5. Perpendicular gradient=-5/2. Using (4,6): 6=-5/2(4)+c \u2192 6=-10+c \u2192 c=16. Equation: y=-5/2x+16"
+      }
+    ],
+    "common_mistakes": [
+      "Only inverting the gradient without also negating it (forgetting BOTH steps of 'negative reciprocal')",
+      "Errors when the original gradient is itself a fraction, complicating the reciprocal calculation"
+    ],
+    "tips": [
+      "To find a perpendicular gradient: FLIP the fraction (reciprocal), then CHANGE the sign \u2014 always both steps, every time."
+    ],
+    "summary": "Finding a perpendicular line's equation uses the negative reciprocal of the given line's gradient, combined with a known point.",
+    "quick_revision_notes": [
+      "Perpendicular: m\u2081\u00d7m\u2082=-1. Find m from given line, negate and reciprocate, use point-slope."
+    ],
+    "related_prerequisite_topics": [
+      "Perpendicular Lines (Gradient Condition)",
+      "Equation of a Line",
+      "Parallel Line Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 391,
+    "category": "Coordinate Geometry",
+    "topic": "Intersection of Lines",
+    "explanation": "The intersection of two lines is the single point where they cross, found by solving their equations simultaneously. This connects coordinate geometry directly to the algebra of simultaneous equations.",
+    "key_concepts": [
+      "Solve the two line equations as simultaneous equations to find the intersection point",
+      "Two lines with different gradients always intersect at exactly one point",
+      "Parallel lines (same gradient) never intersect, unless they are the exact same line",
+      "The intersection point satisfies BOTH equations simultaneously"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find the intersection of the lines y=2x+1 and y=-x+7.",
+        "solution_steps": [
+          "Set equal: 2x+1 = -x+7",
+          "3x = 6",
+          "x = 2",
+          "Substitute into either equation: y=2(2)+1=5"
+        ],
+        "answer": "(2, 5)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the intersection of y=3x-2 and y=x+4.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find the intersection of 2x+y=8 and x-y=1.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(3,7)",
+      "(3,2)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Line L1: 3x+2y=12. Line L2: x-y=1. Find their point of intersection.",
+        "marks": 4,
+        "answer": "From L2: x=y+1. Substitute into L1: 3(y+1)+2y=12 \u2192 3y+3+2y=12 \u2192 5y=9 \u2192 y=1.8. x=2.8. Point: (2.8, 1.8)"
+      }
+    ],
+    "common_mistakes": [
+      "Errors when solving the simultaneous equations (algebra mistakes)",
+      "Forgetting to substitute back to find BOTH coordinates of the intersection point"
+    ],
+    "tips": [
+      "After finding one coordinate, always substitute back into one of the ORIGINAL equations (not a rearranged version) to find the other coordinate, and check your answer satisfies BOTH original equations."
+    ],
+    "summary": "The intersection of two lines is found by solving their equations simultaneously, giving the single point where they cross.",
+    "quick_revision_notes": [
+      "Set equations equal (or solve simultaneously) to find intersection point"
+    ],
+    "related_prerequisite_topics": [
+      "Simultaneous Equations",
+      "Equation of a Line",
+      "Parallel Lines"
+    ],
+    "images": []
+  },
+  {
+    "id": 392,
+    "category": "Coordinate Geometry",
+    "topic": "Coordinate Proof",
+    "explanation": "Coordinate proof uses algebraic techniques (distance formula, gradient formula, midpoint formula) applied to specific coordinates to prove geometric properties, such as showing a triangle is isosceles, a quadrilateral is a parallelogram, or two lines are perpendicular.",
+    "key_concepts": [
+      "Assign or use given coordinates for the relevant points",
+      "Apply the appropriate formula (distance, gradient, midpoint) to establish the required property",
+      "Clearly state the geometric conclusion based on the calculated values",
+      "Common proof goals: shape classification, parallel/perpendicular relationships, congruence"
+    ],
+    "definitions": [
+      {
+        "term": "Coordinate Proof",
+        "definition": "A method of proving geometric properties using algebraic calculations (distance, gradient, midpoint) applied to specific coordinates."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Prove that the triangle with vertices A(0,0), B(4,0), C(2,2\u221a3) is equilateral.",
+        "solution_steps": [
+          "AB = \u221a[(4-0)\u00b2+0\u00b2] = 4",
+          "AC = \u221a[(2-0)\u00b2+(2\u221a3)\u00b2] = \u221a[4+12] = \u221a16 = 4",
+          "BC = \u221a[(2-4)\u00b2+(2\u221a3)\u00b2] = \u221a[4+12] = \u221a16 = 4",
+          "All three sides equal 4"
+        ],
+        "answer": "Since AB=AC=BC=4, triangle ABC is equilateral"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Prove that the quadrilateral with vertices (0,0), (4,0), (4,3), (0,3) is a rectangle (show all angles are 90\u00b0, using gradients).",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Prove that the points (1,1), (4,1), (4,5) form a right-angled triangle.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Gradients of adjacent sides: bottom side gradient=0, right side gradient=undefined (vertical), confirming a right angle; similarly for the other corners, all angles are 90\u00b0, confirming a rectangle.",
+      "Side lengths: (1,1)-(4,1)=3, (4,1)-(4,5)=4, (1,1)-(4,5)=\u221a(9+16)=5. Since 3\u00b2+4\u00b2=5\u00b2, by the converse of Pythagoras, this is a right-angled triangle."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Prove that the quadrilateral with vertices P(0,0), Q(5,0), R(8,4), S(3,4) is a parallelogram, using gradients.",
+        "marks": 5,
+        "answer": "Gradient PQ = (0-0)/(5-0)=0. Gradient SR = (4-4)/(8-3)=0. PQ is parallel to SR. Gradient PS = (4-0)/(3-0)=4/3. Gradient QR = (4-0)/(8-5)=4/3. PS is parallel to QR. Since both pairs of opposite sides are parallel, PQRS is a parallelogram."
+      }
+    ],
+    "common_mistakes": [
+      "Not clearly stating the final geometric conclusion after the calculations",
+      "Using the wrong formula for the property being proven (e.g. using distance when gradient is needed to prove parallel/perpendicular)"
+    ],
+    "tips": [
+      "Choose your formula based on what you're proving: DISTANCE for equal sides/shape type; GRADIENT for parallel/perpendicular relationships; MIDPOINT for bisecting diagonals."
+    ],
+    "summary": "Coordinate proof applies distance, gradient, and midpoint formulas to specific points to establish geometric properties algebraically.",
+    "quick_revision_notes": [
+      "Distance\u2192side lengths/shape type",
+      "Gradient\u2192parallel/perpendicular",
+      "Midpoint\u2192bisection"
+    ],
+    "related_prerequisite_topics": [
+      "Distance Formula",
+      "Gradient Formula",
+      "Midpoint Formula"
+    ],
+    "images": []
+  },
+  {
+    "id": 393,
+    "category": "Coordinate Geometry",
+    "topic": "Circle Equations",
+    "explanation": "The equation of a circle describes all points equidistant (the radius) from a fixed centre point. In standard form, (x-a)\u00b2+(y-b)\u00b2=r\u00b2, where (a,b) is the centre and r is the radius, this equation is derived directly from the distance formula.",
+    "key_concepts": [
+      "Standard form: (x-a)\u00b2 + (y-b)\u00b2 = r\u00b2, centre (a,b), radius r",
+      "A circle centred at the origin simplifies to x\u00b2 + y\u00b2 = r\u00b2",
+      "Derived from the distance formula: every point (x,y) on the circle is exactly r units from the centre",
+      "Expanding the standard form gives the general form: x\u00b2+y\u00b2+Dx+Ey+F=0"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Standard equation of a circle",
+        "formula": "(x-a)\u00b2 + (y-b)\u00b2 = r\u00b2",
+        "notes": "Centre (a,b), radius r"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Write the equation of a circle with centre (3,-2) and radius 5.",
+        "solution_steps": [
+          "Substitute into standard form: (x-3)\u00b2+(y-(-2))\u00b2=5\u00b2"
+        ],
+        "answer": "(x-3)\u00b2 + (y+2)\u00b2 = 25"
+      },
+      {
+        "problem": "Find the centre and radius of the circle (x+1)\u00b2+(y-4)\u00b2=49.",
+        "solution_steps": [
+          "Compare to standard form: a=-1, b=4, r\u00b2=49"
+        ],
+        "answer": "Centre (-1,4), radius 7"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Write the equation of a circle with centre (0,0) and radius 6.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the centre and radius of (x-5)\u00b2+(y+3)\u00b2=16.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "x\u00b2+y\u00b2=36",
+      "Centre (5,-3), radius 4"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A circle has centre (2,3) and passes through the point (6,6). Find the equation of the circle.",
+        "marks": 4,
+        "answer": "Find radius: r=\u221a[(6-2)\u00b2+(6-3)\u00b2]=\u221a[16+9]=\u221a25=5. Equation: (x-2)\u00b2+(y-3)\u00b2=25"
+      }
+    ],
+    "common_mistakes": [
+      "Sign errors when identifying the centre from the standard form (e.g. (x+1)\u00b2 means centre x-coordinate is -1, not +1)",
+      "Forgetting to square the radius on the right side of the equation"
+    ],
+    "tips": [
+      "Remember the signs in the standard form are OPPOSITE to the centre coordinates: (x-a)\u00b2+(y-b)\u00b2 has centre (a,b), so (x+3)\u00b2 actually means a=-3."
+    ],
+    "summary": "The circle equation (x-a)\u00b2+(y-b)\u00b2=r\u00b2 describes all points a fixed radius r from centre (a,b), derived from the distance formula.",
+    "quick_revision_notes": [
+      "(x-a)\u00b2+(y-b)\u00b2=r\u00b2, centre (a,b), radius r"
+    ],
+    "related_prerequisite_topics": [
+      "Distance Formula",
+      "Circle Terminology",
+      "Tangent Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 394,
+    "category": "Coordinate Geometry",
+    "topic": "Tangent Equations",
+    "explanation": "The equation of a tangent to a circle at a given point can be found using the fact that the tangent is always perpendicular to the radius at that point. This connects the circle's centre, the point of tangency, and the perpendicular gradient condition.",
+    "key_concepts": [
+      "The tangent is perpendicular to the radius at the point of tangency",
+      "Find the gradient of the radius (from centre to the point), then find its negative reciprocal for the tangent's gradient",
+      "Use the point of tangency and this gradient in point-slope form to find the tangent's equation",
+      "Essential technique: combine circle geometry with coordinate geometry line equations"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find the equation of the tangent to the circle x\u00b2+y\u00b2=25 at the point (3,4).",
+        "solution_steps": [
+          "Centre is (0,0). Gradient of radius to (3,4): (4-0)/(3-0)=4/3",
+          "Tangent gradient (perpendicular): -3/4",
+          "Point-slope with (3,4): y-4=-3/4(x-3)",
+          "y-4=-3/4x+9/4",
+          "y=-3/4x+9/4+16/4"
+        ],
+        "answer": "y = -3/4 x + 25/4"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the equation of the tangent to the circle x\u00b2+y\u00b2=169 at the point (5,12).",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Explain why the tangent-radius perpendicularity property is essential for finding a tangent's equation.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "y = -5/12 x + 169/12 (radius gradient=12/5, tangent gradient=-5/12, using (5,12): 12=-25/12+c, c=169/12)",
+      "Without this property, we would have no way to determine the tangent's gradient, since a tangent line touches the circle at only one point and provides no other direct gradient information \u2014 the perpendicular relationship with the radius is the key link needed."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A circle has equation (x-2)\u00b2+(y-1)\u00b2=20. Find the equation of the tangent at the point (6,3).",
+        "marks": 6,
+        "answer": "Centre=(2,1). Radius gradient=(3-1)/(6-2)=2/4=1/2. Tangent gradient=-2. Using (6,3): y-3=-2(x-6) \u2192 y-3=-2x+12 \u2192 y=-2x+15"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to find the gradient of the RADIUS first before finding the perpendicular tangent gradient",
+      "Sign errors when calculating the negative reciprocal"
+    ],
+    "tips": [
+      "Always start by identifying the circle's centre \u2014 the tangent equation calculation is impossible without first finding the gradient of the radius connecting the centre to the point of tangency."
+    ],
+    "summary": "A tangent's equation is found using its perpendicularity to the radius at the point of tangency, combined with point-slope form.",
+    "quick_revision_notes": [
+      "Tangent \u22a5 radius at point of tangency",
+      "Find radius gradient, negate/reciprocate, use point-slope"
+    ],
+    "related_prerequisite_topics": [
+      "Circle Equations",
+      "Tangents",
+      "Perpendicular Line Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 395,
+    "category": "Coordinate Geometry",
+    "topic": "Chord Equations",
+    "explanation": "The equation of a chord (a line connecting two points on a circle) can be found using the standard two-point method, once the two endpoints are known or determined by intersecting the circle's equation with another line or condition.",
+    "key_concepts": [
+      "A chord is found using the same two-point line equation method as any other line, once endpoints are known",
+      "If only one endpoint and the circle equation are known, may need to solve simultaneously to find the other endpoint",
+      "The perpendicular from the centre to a chord bisects it \u2014 useful for finding chord properties",
+      "Distinguish chord equations from tangent equations (chord connects two circle points; tangent touches at only one)"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find the equation of the chord connecting the points (3,4) and (-4,3) on the circle x\u00b2+y\u00b2=25.",
+        "solution_steps": [
+          "Gradient = (3-4)/(-4-3) = -1/-7 = 1/7",
+          "Using point-slope with (3,4): y-4 = 1/7(x-3)",
+          "7y-28 = x-3",
+          "7y = x+25"
+        ],
+        "answer": "7y = x + 25 (or y = x/7 + 25/7)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the equation of the chord connecting (5,0) and (0,5) on the circle x\u00b2+y\u00b2=25.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Explain how the perpendicular bisector of a chord relates to the circle's centre.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "y = -x + 5",
+      "The perpendicular bisector of ANY chord always passes through the circle's centre, since the centre is equidistant from both endpoints of the chord."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A circle has equation x\u00b2+y\u00b2=50. Find the equation of the chord connecting the points (5,5) and (-5,5) on the circle, and describe what type of chord this is.",
+        "marks": 4,
+        "answer": "Gradient = (5-5)/(-5-5)=0. This means the chord is horizontal: y=5. This chord is a HORIZONTAL chord (not a diameter, since it doesn't pass through the origin/centre)."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing chord equations with tangent equations (a chord has two circle points; a tangent has only one)",
+      "Errors in the standard two-point line equation method"
+    ],
+    "tips": [
+      "A chord equation problem is really just a standard 'equation of a line through two points' problem \u2014 the fact that the points happen to be on a circle doesn't change the line-finding method itself."
+    ],
+    "summary": "A chord's equation uses the standard two-point method; its perpendicular bisector always passes through the circle's centre.",
+    "quick_revision_notes": [
+      "Standard two-point line method",
+      "Perpendicular bisector of chord passes through centre"
+    ],
+    "related_prerequisite_topics": [
+      "Chords",
+      "Circle Equations",
+      "Equation of a Line"
+    ],
+    "images": []
+  },
+  {
+    "id": 396,
+    "category": "Coordinate Geometry",
+    "topic": "Parabola Equations",
+    "explanation": "A parabola can be described algebraically not just by the familiar y=ax\u00b2+bx+c form, but also by a geometric definition based on a fixed point (the focus) and a fixed line (the directrix). The standard form y\u00b2=4ax (or x\u00b2=4ay) describes a parabola with vertex at the origin, opening along an axis.",
+    "key_concepts": [
+      "Standard form (opening right/left): y\u00b2 = 4ax, with focus (a,0) and directrix x=-a",
+      "Standard form (opening up/down): x\u00b2 = 4ay, with focus (0,a) and directrix y=-a",
+      "A parabola is the set of all points equidistant from the focus and the directrix",
+      "The familiar y=ax\u00b2+bx+c form is a different (but related) way of describing parabolas, more common in earlier algebra"
+    ],
+    "definitions": [
+      {
+        "term": "Focus",
+        "definition": "A fixed point used in the geometric definition of a parabola, from which every point on the curve is equidistant to the directrix."
+      },
+      {
+        "term": "Directrix",
+        "definition": "A fixed line used in the geometric definition of a parabola, from which every point on the curve is equidistant to the focus."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Standard parabola (opens right)",
+        "formula": "y\u00b2 = 4ax",
+        "notes": "Focus (a,0), directrix x=-a"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the focus and directrix of the parabola y\u00b2=12x.",
+        "solution_steps": [
+          "Compare to y\u00b2=4ax: 4a=12, so a=3",
+          "Focus=(3,0), Directrix: x=-3"
+        ],
+        "answer": "Focus (3,0), Directrix x=-3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the focus and directrix of the parabola y\u00b2=8x.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find the equation of a parabola with focus (5,0) and directrix x=-5.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Focus (2,0), Directrix x=-2 (4a=8, a=2)",
+      "y\u00b2=20x (since a=5, 4a=20)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A parabola has equation x\u00b2=16y. Find its focus and directrix, and explain the direction it opens.",
+        "marks": 3,
+        "answer": "Compare to x\u00b2=4ay: 4a=16, a=4. Focus=(0,4), Directrix: y=-4. Since the equation is in the form x\u00b2=4ay, the parabola opens UPWARD."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing which standard form (y\u00b2=4ax vs x\u00b2=4ay) corresponds to horizontal vs vertical opening",
+      "Sign errors when identifying the focus and directrix from the value of a"
+    ],
+    "tips": [
+      "If y is squared, the parabola opens left/right; if x is squared, it opens up/down \u2014 use this to quickly identify orientation."
+    ],
+    "summary": "A parabola (y\u00b2=4ax or x\u00b2=4ay) is defined by equidistance from a focus point and a directrix line.",
+    "quick_revision_notes": [
+      "y\u00b2=4ax: focus(a,0), directrix x=-a",
+      "x\u00b2=4ay: focus(0,a), directrix y=-a"
+    ],
+    "related_prerequisite_topics": [
+      "Quadratic Graphs",
+      "Distance Formula",
+      "Locus Problems"
+    ],
+    "images": []
+  },
+  {
+    "id": 397,
+    "category": "Coordinate Geometry",
+    "topic": "Hyperbola Equations",
+    "explanation": "A hyperbola is a curve consisting of two separate branches, defined as the set of points where the DIFFERENCE of distances to two fixed points (foci) is constant. Its standard equation resembles that of an ellipse but with a subtraction instead of addition.",
+    "key_concepts": [
+      "Standard form: x\u00b2/a\u00b2 - y\u00b2/b\u00b2 = 1 (opens left/right) or y\u00b2/a\u00b2 - x\u00b2/b\u00b2 = 1 (opens up/down)",
+      "Has two branches, never touching each other",
+      "Has asymptotes (lines the curve approaches but never touches) given by y=\u00b1(b/a)x for the horizontal form",
+      "Defined by a constant DIFFERENCE of distances to two foci (unlike an ellipse, which uses a constant SUM)"
+    ],
+    "definitions": [
+      {
+        "term": "Hyperbola",
+        "definition": "A curve with two branches, defined as the set of points where the difference of distances to two fixed foci is constant."
+      },
+      {
+        "term": "Asymptote",
+        "definition": "A line that a curve approaches but never touches, as the curve extends toward infinity."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Standard hyperbola (horizontal)",
+        "formula": "x\u00b2/a\u00b2 - y\u00b2/b\u00b2 = 1",
+        "notes": "Asymptotes: y=\u00b1(b/a)x"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the asymptotes of the hyperbola x\u00b2/9 - y\u00b2/16 = 1.",
+        "solution_steps": [
+          "a\u00b2=9 so a=3; b\u00b2=16 so b=4",
+          "Asymptotes: y=\u00b1(b/a)x = \u00b1(4/3)x"
+        ],
+        "answer": "y = (4/3)x and y = -(4/3)x"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the values of a and b for the hyperbola x\u00b2/25 - y\u00b2/4 = 1.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find the asymptotes of the hyperbola x\u00b2/4 - y\u00b2/9 = 1.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "a=5, b=2",
+      "y=\u00b1(3/2)x"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A hyperbola has equation y\u00b2/16 - x\u00b2/9 = 1. Explain how this hyperbola differs in orientation from x\u00b2/16 - y\u00b2/9 = 1.",
+        "marks": 3,
+        "answer": "In y\u00b2/16-x\u00b2/9=1, the y\u00b2 term is positive, meaning the hyperbola opens UP and DOWN (vertically), with branches above and below the centre. In x\u00b2/16-y\u00b2/9=1, the x\u00b2 term is positive, meaning the hyperbola opens LEFT and RIGHT (horizontally)."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing hyperbola equations with ellipse equations (subtraction vs addition of the squared terms)",
+      "Getting the asymptote formula's ratio backward (b/a vs a/b)"
+    ],
+    "tips": [
+      "The sign of the equation (which term is positive) tells you the orientation: positive x\u00b2 term means the hyperbola opens horizontally; positive y\u00b2 term means it opens vertically."
+    ],
+    "summary": "A hyperbola (x\u00b2/a\u00b2-y\u00b2/b\u00b2=1 or similar) has two branches and asymptotes, defined by a constant difference of distances to two foci.",
+    "quick_revision_notes": [
+      "x\u00b2/a\u00b2-y\u00b2/b\u00b2=1: opens left/right, asymptotes y=\u00b1(b/a)x"
+    ],
+    "related_prerequisite_topics": [
+      "Circle Equations",
+      "Parabola Equations",
+      "Rational Functions"
+    ],
+    "images": []
+  },
+  {
+    "id": 398,
+    "category": "Coordinate Geometry",
+    "topic": "Locus Problems",
+    "explanation": "A locus is the set of all points that satisfy a given geometric condition, such as being a fixed distance from a point (forming a circle) or equidistant from two points (forming a perpendicular bisector). Locus problems require translating a geometric description into an algebraic equation.",
+    "key_concepts": [
+      "A locus is a path or region defined by a condition, not a single point",
+      "Common loci: fixed distance from a point (circle), equidistant from two points (perpendicular bisector), equidistant from a point and a line (parabola)",
+      "Translate the geometric condition into an equation using the distance formula",
+      "Simplify the resulting equation to identify the type of curve (circle, line, parabola, etc.)"
+    ],
+    "definitions": [
+      {
+        "term": "Locus",
+        "definition": "The set of all points satisfying a given geometric condition, forming a path, curve, or region."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find the locus of points equidistant from A(0,0) and B(6,0).",
+        "solution_steps": [
+          "Let point P=(x,y). Set distance PA = distance PB",
+          "\u221a(x\u00b2+y\u00b2) = \u221a[(x-6)\u00b2+y\u00b2]",
+          "Square both sides: x\u00b2+y\u00b2 = (x-6)\u00b2+y\u00b2",
+          "x\u00b2 = x\u00b2-12x+36",
+          "0 = -12x+36",
+          "x = 3"
+        ],
+        "answer": "x = 3 (the perpendicular bisector of AB, a vertical line)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the locus of points that are always 5 units from the origin.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the locus of points equidistant from C(2,0) and D(-2,0).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "x\u00b2+y\u00b2=25 (a circle of radius 5, centred at the origin)",
+      "x=0 (the y-axis, the perpendicular bisector of CD)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Find the locus of points P(x,y) such that the distance from P to (0,4) is always twice the distance from P to (0,1).",
+        "marks": 6,
+        "answer": "Set up: \u221a[x\u00b2+(y-4)\u00b2] = 2\u221a[x\u00b2+(y-1)\u00b2]. Square both sides: x\u00b2+(y-4)\u00b2=4[x\u00b2+(y-1)\u00b2]. Expand: x\u00b2+y\u00b2-8y+16=4x\u00b2+4y\u00b2-8y+4. Simplify: -3x\u00b2-3y\u00b2+12=0, so x\u00b2+y\u00b2=4 \u2014 a circle of radius 2 centred at the origin."
+      }
+    ],
+    "common_mistakes": [
+      "Errors when squaring both sides of a distance equation (expanding brackets incorrectly)",
+      "Not fully simplifying the resulting equation to identify the locus type clearly"
+    ],
+    "tips": [
+      "Always set up the locus condition as an equation FIRST (in terms of a general point (x,y)), then simplify algebraically \u2014 don't try to guess the answer geometrically without the algebra."
+    ],
+    "summary": "A locus problem translates a geometric condition into an equation using the distance formula, revealing curves like circles or lines.",
+    "quick_revision_notes": [
+      "Set up distance condition for general point (x,y), simplify algebraically"
+    ],
+    "related_prerequisite_topics": [
+      "Distance Formula",
+      "Perpendicular Bisector of a Line Segment",
+      "Circle Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 399,
+    "category": "Coordinate Geometry",
+    "topic": "Distance from a Point to a Line",
+    "explanation": "The perpendicular distance from a point to a line is the shortest possible distance between them, measured along a line segment perpendicular to the given line. This can be calculated directly using a specific formula involving the line's equation coefficients.",
+    "key_concepts": [
+      "The shortest distance from a point to a line is always along the PERPENDICULAR from that point to the line",
+      "For a line ax+by+c=0 and point (x\u2081,y\u2081): distance = |ax\u2081+by\u2081+c| / \u221a(a\u00b2+b\u00b2)",
+      "The absolute value ensures the distance is always non-negative",
+      "Useful for finding the radius of a circle tangent to a given line, among other applications"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Distance from a point to a line",
+        "formula": "d = |ax\u2081 + by\u2081 + c| / \u221a(a\u00b2 + b\u00b2)",
+        "notes": "For line ax+by+c=0 and point (x\u2081,y\u2081)"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the distance from the point (3,4) to the line 3x+4y-12=0.",
+        "solution_steps": [
+          "a=3, b=4, c=-12, x\u2081=3, y\u2081=4",
+          "d = |3(3)+4(4)-12| / \u221a(3\u00b2+4\u00b2) = |9+16-12| / \u221a25 = |13|/5"
+        ],
+        "answer": "2.6"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the distance from the point (0,0) to the line 5x+12y-26=0.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find the distance from the point (2,-1) to the line x-y+3=0.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "2 (|0+0-26|/\u221a169=26/13)",
+      "\u22484.24 (|2-(-1)+3|/\u221a2=6/\u221a2\u22484.24)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A circle has centre (1,2) and is tangent to the line 3x-4y+7=0. Find the radius of the circle.",
+        "marks": 4,
+        "answer": "d = |3(1)-4(2)+7| / \u221a(9+16) = |3-8+7|/5 = 2/5 = 0.4. The radius equals this perpendicular distance: r=0.4"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the absolute value, potentially getting a negative distance",
+      "Using the wrong form of the line's equation (must be ax+by+c=0, not y=mx+c)"
+    ],
+    "tips": [
+      "If the line is given in y=mx+c form, rearrange it first into ax+by+c=0 form before applying the distance formula."
+    ],
+    "summary": "The perpendicular distance from a point to a line uses the formula d=|ax\u2081+by\u2081+c|/\u221a(a\u00b2+b\u00b2), for line ax+by+c=0.",
+    "quick_revision_notes": [
+      "d = |ax\u2081+by\u2081+c| / \u221a(a\u00b2+b\u00b2)"
+    ],
+    "related_prerequisite_topics": [
+      "Equation of a Line",
+      "Perpendicular Lines (Gradient Condition)",
+      "Tangent Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 400,
+    "category": "Coordinate Geometry",
+    "topic": "Area Using Coordinates",
+    "explanation": "The area of a polygon (especially a triangle) can be calculated directly from the coordinates of its vertices, using the Shoelace Formula, without needing to find the base and height separately. This is particularly efficient for irregularly shaped or tilted polygons.",
+    "key_concepts": [
+      "For a triangle with vertices (x\u2081,y\u2081), (x\u2082,y\u2082), (x\u2083,y\u2083): Area = (1/2)|x\u2081(y\u2082-y\u2083)+x\u2082(y\u2083-y\u2081)+x\u2083(y\u2081-y\u2082)|",
+      "The absolute value ensures the area is always positive, regardless of the order the vertices are listed",
+      "Can be extended (the general 'Shoelace Formula') to find the area of any polygon given its vertices in order",
+      "Avoids the need to separately calculate base and perpendicular height"
+    ],
+    "definitions": [
+      {
+        "term": "Shoelace Formula",
+        "definition": "A formula for calculating a polygon's area directly from its vertices' coordinates."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Triangle area from coordinates",
+        "formula": "Area = (1/2)|x\u2081(y\u2082-y\u2083)+x\u2082(y\u2083-y\u2081)+x\u2083(y\u2081-y\u2082)|",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the area of the triangle with vertices (1,1), (5,1), (3,6).",
+        "solution_steps": [
+          "Area = (1/2)|1(1-6)+5(6-1)+3(1-1)|",
+          "= (1/2)|1(-5)+5(5)+3(0)|",
+          "= (1/2)|-5+25+0|",
+          "= (1/2)(20)"
+        ],
+        "answer": "10 square units"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the area of the triangle with vertices (0,0), (6,0), (3,4).",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find the area of the triangle with vertices (2,3), (7,3), (5,8).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "12 square units",
+      "12.5 square units"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Find the area of the quadrilateral with vertices (0,0), (5,0), (6,4), (1,4), using the general Shoelace Formula.",
+        "marks": 5,
+        "answer": "Using the shoelace method: Area = (1/2)|x1(y2-y4)+x2(y3-y1)+x3(y4-y2)+x4(y1-y3)| = (1/2)|0(0-4)+5(4-0)+6(4-0)+1(0-4)| = (1/2)|0+20+24-4| = (1/2)(40) = 20 square units"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the absolute value (getting a negative area if vertices are listed in a different order)",
+      "Errors in the systematic multiplication and subtraction within the formula"
+    ],
+    "tips": [
+      "Always double-check your formula substitution carefully \u2014 it's easy to mismatch which y-values pair with which x-values in the multi-term formula."
+    ],
+    "summary": "A polygon's area can be calculated directly from vertex coordinates using the Shoelace Formula, avoiding separate base/height calculations.",
+    "quick_revision_notes": [
+      "Area = (1/2)|x\u2081(y\u2082-y\u2083)+x\u2082(y\u2083-y\u2081)+x\u2083(y\u2081-y\u2082)|"
+    ],
+    "related_prerequisite_topics": [
+      "Area of Triangles",
+      "Coordinates"
+    ],
+    "images": []
+  },
+  {
+    "id": 401,
+    "category": "Coordinate Geometry",
+    "topic": "Collinearity",
+    "explanation": "This topic focuses on determining whether three or more points lie on the same straight line (are collinear) using coordinate geometry methods \u2014 specifically, checking that the gradient between every pair of consecutive points is the same.",
+    "key_concepts": [
+      "Points are collinear if the gradient between any two pairs (sharing a common point) is equal",
+      "Alternative method: use the area formula \u2014 if three points are collinear, the 'triangle' they form has an area of exactly 0",
+      "Both methods (gradient and area) give equivalent results and can be used to check or verify each other",
+      "Extends the concept of collinearity from vector geometry into a coordinate-based approach"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Collinearity via zero area",
+        "formula": "x\u2081(y\u2082-y\u2083)+x\u2082(y\u2083-y\u2081)+x\u2083(y\u2081-y\u2082) = 0",
+        "notes": "For collinear points (x\u2081,y\u2081), (x\u2082,y\u2082), (x\u2083,y\u2083)"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Determine if the points (1,2), (3,6), (5,10) are collinear, using the gradient method.",
+        "solution_steps": [
+          "Gradient between (1,2) and (3,6): (6-2)/(3-1)=2",
+          "Gradient between (3,6) and (5,10): (10-6)/(5-3)=2",
+          "Both gradients are equal"
+        ],
+        "answer": "Yes, the points are collinear"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Determine if (0,1), (2,5), (4,10) are collinear.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Use the zero-area method to check if (1,1), (2,3), (4,7) are collinear.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "No \u2014 gradient between first pair=2, gradient between second pair=2.5, these differ, so not collinear.",
+      "Area formula: 1(3-7)+2(7-1)+4(1-3) = 1(-4)+2(6)+4(-2) = -4+12-8 = 0. Since the area is 0, the points ARE collinear."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Find the value of k such that the points (2,3), (4,7), (6,k) are collinear.",
+        "marks": 4,
+        "answer": "Gradient between (2,3) and (4,7) = (7-3)/(4-2)=2. For collinearity, gradient between (4,7) and (6,k) must also be 2: (k-7)/(6-4)=2 \u2192 k-7=4 \u2192 k=11"
+      }
+    ],
+    "common_mistakes": [
+      "Comparing the wrong pairs of points when checking gradients (must share a common point between the two gradient calculations)",
+      "Sign or arithmetic errors in the zero-area formula"
+    ],
+    "tips": [
+      "Either the equal-gradients method or the zero-area method works reliably for checking collinearity \u2014 choose whichever fits the given information more conveniently."
+    ],
+    "summary": "Collinearity in coordinate geometry is checked via equal gradients between point pairs, or equivalently, a zero enclosed area.",
+    "quick_revision_notes": [
+      "Equal gradients between consecutive pairs, OR zero area formula"
+    ],
+    "related_prerequisite_topics": [
+      "Gradient Formula",
+      "Area Using Coordinates",
+      "Collinear Points"
+    ],
+    "images": []
+  },
+  {
+    "id": 402,
+    "category": "Coordinate Geometry",
+    "topic": "Graphing Linear Inequalities (Regions)",
+    "explanation": "Graphing a linear inequality involves shading a region of the coordinate plane that satisfies the inequality, bounded by the corresponding line. A solid line is used for \u2264 or \u2265 (boundary included); a dashed line is used for < or > (boundary excluded). This technique is essential for linear programming and feasible region problems.",
+    "key_concepts": [
+      "First graph the boundary line (as if it were an equation)",
+      "Use a SOLID line for \u2264 or \u2265 (boundary included); a DASHED line for < or > (boundary excluded)",
+      "Test a point (like the origin, if not on the line) to determine which side to shade",
+      "Combining multiple inequalities creates a 'feasible region' where all conditions are satisfied simultaneously"
+    ],
+    "definitions": [
+      {
+        "term": "Feasible Region",
+        "definition": "The region of a graph satisfying all given inequality constraints simultaneously, used in linear programming."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Describe how to graph the inequality y > 2x - 3.",
+        "solution_steps": [
+          "Graph the line y=2x-3 as a DASHED line (since the inequality is strict, >)",
+          "Test the origin (0,0): 0 > 2(0)-3 \u2192 0 > -3, which is TRUE",
+          "Since the origin satisfies the inequality, shade the region containing the origin"
+        ],
+        "answer": "Dashed line y=2x-3, shading the region above/left containing the origin"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Describe how to graph the inequality y \u2264 x + 4.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Explain when to use a solid line versus a dashed line for a linear inequality's boundary.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Graph y=x+4 as a SOLID line (since \u2264 includes the boundary). Test origin: 0\u22640+4 is TRUE, so shade the region containing the origin (below/on the line).",
+      "Use a SOLID line for \u2264 or \u2265 (boundary values are included in the solution). Use a DASHED line for < or > (boundary values are excluded)."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Find and describe the feasible region satisfying both y \u2264 2x+1 and y \u2265 -x+3.",
+        "marks": 4,
+        "answer": "Graph y=2x+1 (solid line), shade below/on it. Graph y=-x+3 (solid line), shade above/on it. The feasible region is the overlapping area satisfying BOTH conditions simultaneously \u2014 above/on y=-x+3 AND below/on y=2x+1."
+      }
+    ],
+    "common_mistakes": [
+      "Using a solid line when a dashed line is needed (or vice versa)",
+      "Shading the wrong side of the line (forgetting to test a point to confirm the correct region)"
+    ],
+    "tips": [
+      "Testing the origin (0,0) is usually the fastest way to determine which side of the line to shade \u2014 just make sure the line doesn't actually pass through the origin first."
+    ],
+    "summary": "Graphing linear inequalities shades a region bounded by a line (solid for \u2264/\u2265, dashed for </>), determined by testing a point.",
+    "quick_revision_notes": [
+      "Solid line: \u2264,\u2265. Dashed line: <,>.",
+      "Test a point (e.g. origin) to determine shading side"
+    ],
+    "related_prerequisite_topics": [
+      "Linear Inequalities",
+      "Equation of a Line",
+      "Linear Graphs"
+    ],
+    "images": []
+  },
+  {
+    "id": 403,
+    "category": "Coordinate Geometry",
+    "topic": "Polar Coordinates",
+    "explanation": "Polar coordinates describe a point's position using a distance from a fixed origin (called the pole) and an angle from a fixed reference direction, rather than horizontal and vertical distances as in Cartesian coordinates. This system is especially useful for describing circular or rotational patterns.",
+    "key_concepts": [
+      "A polar coordinate is written (r, \u03b8): r=distance from the origin (pole), \u03b8=angle from the positive x-axis",
+      "Conversion to Cartesian: x = r\u00b7cos(\u03b8), y = r\u00b7sin(\u03b8)",
+      "Conversion to polar: r = \u221a(x\u00b2+y\u00b2), \u03b8 = tan\u207b\u00b9(y/x) (adjusted for the correct quadrant)",
+      "Especially useful for describing circles, spirals, and other rotationally symmetric curves"
+    ],
+    "definitions": [
+      {
+        "term": "Polar Coordinates",
+        "definition": "A coordinate system describing a point's position using a distance (r) from the origin and an angle (\u03b8) from a fixed reference direction."
+      },
+      {
+        "term": "Pole",
+        "definition": "The fixed reference point (origin) in the polar coordinate system."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Polar to Cartesian",
+        "formula": "x = r\u00b7cos(\u03b8), y = r\u00b7sin(\u03b8)",
+        "notes": ""
+      },
+      {
+        "name": "Cartesian to polar",
+        "formula": "r = \u221a(x\u00b2+y\u00b2), \u03b8 = tan\u207b\u00b9(y/x)",
+        "notes": "Adjust \u03b8 based on the correct quadrant"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Convert the polar coordinate (5, 60\u00b0) to Cartesian coordinates.",
+        "solution_steps": [
+          "x = 5\u00d7cos(60\u00b0) = 5\u00d70.5 = 2.5",
+          "y = 5\u00d7sin(60\u00b0) = 5\u00d70.866 \u2248 4.33"
+        ],
+        "answer": "(2.5, 4.33) approximately"
+      },
+      {
+        "problem": "Convert the Cartesian coordinate (3,4) to polar coordinates.",
+        "solution_steps": [
+          "r = \u221a(9+16) = \u221a25 = 5",
+          "\u03b8 = tan\u207b\u00b9(4/3) \u2248 53.13\u00b0"
+        ],
+        "answer": "(5, 53.13\u00b0) approximately"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Convert the polar coordinate (10, 30\u00b0) to Cartesian coordinates, to 2 decimal places.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Convert the Cartesian coordinate (6,8) to polar coordinates.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "\u2248(8.66, 5.00)",
+      "(10, 53.13\u00b0) (r=\u221a(36+64)=10, \u03b8=tan\u207b\u00b9(8/6)\u224853.13\u00b0)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A point has polar coordinates (8, 135\u00b0). Find its Cartesian coordinates, to 2 decimal places.",
+        "marks": 3,
+        "answer": "x = 8\u00d7cos(135\u00b0) \u2248 8\u00d7(-0.7071) \u2248 -5.66. y = 8\u00d7sin(135\u00b0) \u2248 8\u00d70.7071 \u2248 5.66. Cartesian: (-5.66, 5.66)"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to adjust the angle \u03b8 for the correct quadrant when converting from Cartesian to polar (tan\u207b\u00b9 alone doesn't always give the right quadrant)",
+      "Calculator mode errors (degrees vs radians) when evaluating trigonometric functions"
+    ],
+    "tips": [
+      "When converting Cartesian to polar, always sketch or consider which quadrant the point is in \u2014 the basic tan\u207b\u00b9(y/x) calculation may need adjusting by adding or subtracting 180\u00b0 to get the correct angle."
+    ],
+    "summary": "Polar coordinates (r,\u03b8) describe position via distance from the origin and angle, convertible to/from Cartesian coordinates using trigonometry.",
+    "quick_revision_notes": [
+      "x=r\u00b7cos\u03b8, y=r\u00b7sin\u03b8",
+      "r=\u221a(x\u00b2+y\u00b2), \u03b8=tan\u207b\u00b9(y/x) (check quadrant)"
+    ],
+    "related_prerequisite_topics": [
+      "Coordinates",
+      "Trigonometric Ratios",
+      "Radians"
+    ],
+    "images": []
+  }
+]

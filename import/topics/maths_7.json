@@ -1,0 +1,1901 @@
+[
+  {
+    "id": 159,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Coordinates",
+    "explanation": "A coordinate is a pair of numbers, written (x, y), that describes the exact position of a point relative to two perpendicular reference lines (axes). The first number (x-coordinate) shows horizontal position; the second (y-coordinate) shows vertical position.",
+    "key_concepts": [
+      "A coordinate pair is written (x, y), always with x first",
+      "x-coordinate: horizontal distance from the origin",
+      "y-coordinate: vertical distance from the origin",
+      "The origin is the point (0, 0), where both axes cross"
+    ],
+    "definitions": [
+      {
+        "term": "Coordinate",
+        "definition": "An ordered pair of numbers (x, y) that specifies a point's position relative to a set of axes."
+      },
+      {
+        "term": "Origin",
+        "definition": "The point (0, 0), where the x-axis and y-axis intersect."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "State the x-coordinate and y-coordinate of the point (5, -3).",
+        "solution_steps": [
+          "x-coordinate is the first number: 5",
+          "y-coordinate is the second number: -3"
+        ],
+        "answer": "x-coordinate = 5, y-coordinate = -3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "State the coordinates of the origin.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which coordinate (x or y) tells you the vertical position of a point?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "(0, 0)",
+      "The y-coordinate"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A point has an x-coordinate of 0. What does this tell you about its position?",
+        "marks": 1,
+        "answer": "The point lies on the y-axis (since it has no horizontal displacement from the origin)."
+      }
+    ],
+    "common_mistakes": [
+      "Writing coordinates in the wrong order (y before x)",
+      "Confusing which axis each coordinate refers to"
+    ],
+    "tips": [
+      "Remember 'x comes before y in the alphabet, and before y in a coordinate' \u2014 always write (x,y), never (y,x)."
+    ],
+    "summary": "A coordinate (x, y) describes a point's position using horizontal (x) and vertical (y) distances from the origin.",
+    "quick_revision_notes": [
+      "(x, y) \u2014 x first, y second",
+      "Origin = (0,0)"
+    ],
+    "related_prerequisite_topics": [
+      "Cartesian Planes",
+      "Plotting Points"
+    ],
+    "images": []
+  },
+  {
+    "id": 160,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Cartesian Planes",
+    "explanation": "A Cartesian plane is a two-dimensional grid formed by two perpendicular number lines: a horizontal x-axis and a vertical y-axis. These axes divide the plane into four regions called quadrants, and together allow any point in the plane to be precisely located using coordinates.",
+    "key_concepts": [
+      "The x-axis is horizontal; the y-axis is vertical",
+      "The plane is divided into 4 quadrants, numbered I, II, III, IV counterclockwise from the top-right",
+      "Quadrant I: (+,+); Quadrant II: (-,+); Quadrant III: (-,-); Quadrant IV: (+,-)",
+      "The origin (0,0) is where the axes intersect"
+    ],
+    "definitions": [
+      {
+        "term": "Cartesian Plane",
+        "definition": "A two-dimensional coordinate system formed by a horizontal x-axis and vertical y-axis, used to locate points using coordinates."
+      },
+      {
+        "term": "Quadrant",
+        "definition": "One of the four regions the Cartesian plane is divided into by the x-axis and y-axis."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Which quadrant does the point (-3, 5) lie in?",
+        "solution_steps": [
+          "x is negative, y is positive",
+          "This matches Quadrant II"
+        ],
+        "answer": "Quadrant II"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Which quadrant does (4, -2) lie in?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which quadrant does (-5, -6) lie in?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Quadrant IV",
+      "Quadrant III"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A point lies on the negative y-axis. What are the signs of its x and y coordinates?",
+        "marks": 1,
+        "answer": "x = 0, y is negative"
+      }
+    ],
+    "common_mistakes": [
+      "Mixing up the order/direction of the quadrants",
+      "Forgetting points ON an axis (not in a quadrant) have one coordinate equal to zero"
+    ],
+    "tips": [
+      "Quadrants are numbered counterclockwise starting from the top-right (where both coordinates are positive)."
+    ],
+    "summary": "The Cartesian plane uses perpendicular x and y axes to divide space into four quadrants, enabling precise location of points via coordinates.",
+    "quick_revision_notes": [
+      "QI:(+,+) QII:(-,+) QIII:(-,-) QIV:(+,-)",
+      "Origin=(0,0)"
+    ],
+    "related_prerequisite_topics": [
+      "Coordinates",
+      "Plotting Points"
+    ],
+    "images": [
+      {
+        "filename": "cartesianplanes-160-grid.svg",
+        "type": "diagram",
+        "description": "A labelled Cartesian grid showing the x-axis and y-axis crossing at the origin, with gridlines.",
+        "purpose": "Introduces the layout of the Cartesian plane before points are plotted on it.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Plotting Points",
+    "explanation": "Plotting a point means marking its exact location on a Cartesian plane, using its coordinates (x, y). Starting at the origin, move horizontally according to the x-coordinate, then vertically according to the y-coordinate, to find the point's position.",
+    "key_concepts": [
+      "Start at the origin (0,0)",
+      "Move horizontally first (right for positive x, left for negative x)",
+      "Then move vertically (up for positive y, down for negative y)",
+      "Mark the final position with a dot"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Plot the point (-4, 3) on a Cartesian plane.",
+        "solution_steps": [
+          "Start at the origin",
+          "Move 4 units left (since x=-4)",
+          "Move 3 units up (since y=3)",
+          "Mark the point"
+        ],
+        "answer": "The point is located 4 units left and 3 units up from the origin, in Quadrant II"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Describe how to plot the point (5, -2).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Describe how to plot the point (0, -6).",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Move 5 units right, then 2 units down from the origin.",
+      "Stay on the y-axis (x=0) and move 6 units down."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Plot the points A(2,3), B(-3,1), C(-2,-4), and D(4,-2) and state which quadrant each lies in.",
+        "marks": 4,
+        "answer": "A(2,3): Quadrant I. B(-3,1): Quadrant II. C(-2,-4): Quadrant III. D(4,-2): Quadrant IV."
+      }
+    ],
+    "common_mistakes": [
+      "Moving vertically before horizontally (should always move horizontally first, per the x-coordinate)",
+      "Losing track of direction with negative coordinates"
+    ],
+    "tips": [
+      "Always move along the x-axis direction FIRST, then the y-axis direction \u2014 this matches the (x,y) order of the coordinate pair."
+    ],
+    "summary": "Plotting a point involves moving from the origin horizontally (x) then vertically (y) to mark its exact location on the Cartesian plane.",
+    "quick_revision_notes": [
+      "Move horizontally (x) first, then vertically (y)"
+    ],
+    "related_prerequisite_topics": [
+      "Coordinates",
+      "Cartesian Planes"
+    ],
+    "images": [
+      {
+        "filename": "plottingpoints-161-points.svg",
+        "type": "diagram",
+        "description": "A Cartesian grid with four labelled points plotted, one in each quadrant.",
+        "purpose": "Shows how coordinates translate into specific positions across all four quadrants.",
+        "placement": "After the Worked Example"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Linear Graphs",
+    "explanation": "A linear graph is the graph of a linear equation, always forming a straight line. Every point on the line satisfies the equation, and the line's steepness and direction are determined by its gradient, while its vertical position is determined by its y-intercept.",
+    "key_concepts": [
+      "A linear equation always produces a straight-line graph",
+      "The general form is y = mx + c, where m is the gradient and c is the y-intercept",
+      "To plot a linear graph, find at least two points that satisfy the equation and draw a line through them",
+      "The graph extends infinitely in both directions unless restricted"
+    ],
+    "definitions": [
+      {
+        "term": "Linear Graph",
+        "definition": "The straight-line graph representing all points that satisfy a linear equation."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find two points on the line y = 2x - 1 and use them to describe the line.",
+        "solution_steps": [
+          "When x=0: y=2(0)-1=-1, giving point (0,-1)",
+          "When x=2: y=2(2)-1=3, giving point (2,3)",
+          "Draw a straight line through these two points"
+        ],
+        "answer": "The line passes through (0,-1) and (2,3)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the y-value when x=3 on the line y=4x-5.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find two points on the line y = -x + 6 to help sketch its graph.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "y=7",
+      "e.g. (0,6) and (6,0)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Sketch the graph of y = 3x + 2 by finding the y-intercept and one other point.",
+        "marks": 3,
+        "answer": "y-intercept: (0,2). Another point, e.g. x=1: y=5, giving (1,5). Draw a straight line through (0,2) and (1,5)."
+      }
+    ],
+    "common_mistakes": [
+      "Plotting only one point (a single point cannot define a line \u2014 at least two are needed)",
+      "Calculation errors when finding y-values for a given x"
+    ],
+    "tips": [
+      "The y-intercept (where x=0) is often the easiest point to find first when sketching a linear graph."
+    ],
+    "summary": "A linear graph is the straight-line representation of a linear equation, fully determined by its gradient and y-intercept.",
+    "quick_revision_notes": [
+      "y=mx+c produces a straight line",
+      "Need at least 2 points to draw the line"
+    ],
+    "related_prerequisite_topics": [
+      "Coordinates",
+      "Gradient",
+      "Intercepts"
+    ],
+    "images": [
+      {
+        "filename": "lineargraphs-162-graph.svg",
+        "type": "graph",
+        "description": "A straight-line graph of y=2x-1 with the y-intercept marked.",
+        "purpose": "Shows how a linear equation translates into a straight-line graph with a visible y-intercept.",
+        "placement": "After the Worked Example"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Gradient",
+    "explanation": "The gradient (or slope) of a line measures its steepness \u2014 how much the y-value changes for each unit change in x. It is calculated as the 'rise' (vertical change) divided by the 'run' (horizontal change) between any two points on the line. A positive gradient rises left to right; a negative gradient falls left to right.",
+    "key_concepts": [
+      "Gradient = rise/run = (change in y)/(change in x)",
+      "Positive gradient: line rises left to right",
+      "Negative gradient: line falls left to right",
+      "Zero gradient: horizontal line; undefined gradient: vertical line"
+    ],
+    "definitions": [
+      {
+        "term": "Gradient",
+        "definition": "A measure of a line's steepness, calculated as the change in y divided by the change in x between two points."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Gradient formula",
+        "formula": "m = (y\u2082-y\u2081)/(x\u2082-x\u2081)",
+        "notes": "Using two points (x\u2081,y\u2081) and (x\u2082,y\u2082) on the line"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the gradient of the line through (1, 2) and (4, 11).",
+        "solution_steps": [
+          "m = (11-2)/(4-1) = 9/3"
+        ],
+        "answer": "m = 3"
+      },
+      {
+        "problem": "Find the gradient of the line through (-2, 5) and (3, -5).",
+        "solution_steps": [
+          "m = (-5-5)/(3-(-2)) = -10/5"
+        ],
+        "answer": "m = -2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the gradient of the line through (0,0) and (5,10).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the gradient of the line through (-1,4) and (2,-2).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "m=2",
+      "m=-2"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A line passes through (2,-3) and (a,5), and has a gradient of 4. Find the value of a.",
+        "marks": 3,
+        "answer": "4=(5-(-3))/(a-2) \u2192 4=8/(a-2) \u2192 4(a-2)=8 \u2192 a-2=2 \u2192 a=4"
+      }
+    ],
+    "common_mistakes": [
+      "Subtracting coordinates in the wrong order (mixing up which point is 1 and which is 2, causing a sign error)",
+      "Dividing change in x by change in y (inverting the formula)"
+    ],
+    "tips": [
+      "Whichever point you subtract second in the y-values, subtract second in the x-values too \u2014 keep the order consistent to avoid sign errors."
+    ],
+    "summary": "Gradient measures a line's steepness as (change in y)/(change in x), with sign indicating whether the line rises or falls.",
+    "quick_revision_notes": [
+      "m = (y\u2082-y\u2081)/(x\u2082-x\u2081)",
+      "Positive: rises; Negative: falls; Zero: horizontal"
+    ],
+    "related_prerequisite_topics": [
+      "Coordinates",
+      "Linear Graphs",
+      "Equation of a Straight Line"
+    ],
+    "images": [
+      {
+        "filename": "gradient-163-triangle.svg",
+        "type": "diagram",
+        "description": "A right-angled triangle drawn under a line segment, showing the 'rise' and 'run' used to calculate gradient.",
+        "purpose": "Visually demonstrates the rise-over-run concept behind the gradient formula.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Intercepts",
+    "explanation": "An intercept is the point where a graph crosses one of the axes. The y-intercept is where the graph crosses the y-axis (where x=0); the x-intercept is where the graph crosses the x-axis (where y=0). Intercepts are key reference points for sketching and interpreting graphs.",
+    "key_concepts": [
+      "y-intercept: set x=0 and solve for y",
+      "x-intercept: set y=0 and solve for x",
+      "In y=mx+c, the y-intercept is simply (0,c)",
+      "A line can have at most one y-intercept and one x-intercept (unless it's horizontal or vertical)"
+    ],
+    "definitions": [
+      {
+        "term": "y-intercept",
+        "definition": "The point where a graph crosses the y-axis, found by setting x=0."
+      },
+      {
+        "term": "x-intercept",
+        "definition": "The point where a graph crosses the x-axis, found by setting y=0."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find the x-intercept and y-intercept of y = 3x - 6",
+        "solution_steps": [
+          "y-intercept: set x=0: y=3(0)-6=-6, so (0,-6)",
+          "x-intercept: set y=0: 0=3x-6, 3x=6, x=2, so (2,0)"
+        ],
+        "answer": "y-intercept: (0,-6); x-intercept: (2,0)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the y-intercept of y = 5x + 10.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the x-intercept of y = 4x - 20.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(0,10)",
+      "(5,0)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A line has equation 2x + 3y = 12. Find its x-intercept and y-intercept.",
+        "marks": 3,
+        "answer": "x-intercept (y=0): 2x=12, x=6, so (6,0). y-intercept (x=0): 3y=12, y=4, so (0,4)"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing which variable to set to zero for each type of intercept",
+      "Writing the intercept as just a single number instead of a coordinate pair"
+    ],
+    "tips": [
+      "Remember: to find the intercept ON an axis, set the OTHER variable to zero (x-intercept: set y=0; y-intercept: set x=0)."
+    ],
+    "summary": "Intercepts are the points where a graph crosses the axes: y-intercept (x=0) and x-intercept (y=0).",
+    "quick_revision_notes": [
+      "y-intercept: x=0",
+      "x-intercept: y=0"
+    ],
+    "related_prerequisite_topics": [
+      "Linear Graphs",
+      "Equation of a Straight Line"
+    ],
+    "images": []
+  },
+  {
+    "id": 165,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Equation of a Straight Line",
+    "explanation": "The equation of a straight line describes the relationship between x and y for every point on the line. It can be written in several forms, most commonly gradient-intercept form (y=mx+c), and can be found from a graph, a gradient and one point, or two known points.",
+    "key_concepts": [
+      "Common forms: y=mx+c (gradient-intercept), y-y\u2081=m(x-x\u2081) (point-slope)",
+      "Need either the gradient and one point, or two points, to fully determine a line's equation",
+      "Every point (x,y) on the line satisfies the equation; no points off the line do",
+      "Can convert between forms as needed"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Gradient-intercept form",
+        "formula": "y = mx + c",
+        "notes": "m=gradient, c=y-intercept"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the equation of the line with gradient 3 that passes through (2, 5).",
+        "solution_steps": [
+          "Use y=mx+c with m=3: y=3x+c",
+          "Substitute the point (2,5): 5=3(2)+c",
+          "5=6+c, so c=-1"
+        ],
+        "answer": "y = 3x - 1"
+      },
+      {
+        "problem": "Find the equation of the line passing through (1,4) and (3,10).",
+        "solution_steps": [
+          "Find gradient: m=(10-4)/(3-1)=6/2=3",
+          "Use y=mx+c with a point, e.g. (1,4): 4=3(1)+c",
+          "4=3+c, so c=1"
+        ],
+        "answer": "y = 3x + 1"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the equation of the line with gradient 2 passing through (0,5).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the equation of the line passing through (2,3) and (4,9).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "y=2x+5",
+      "y=3x-3 (gradient=3, using (2,3): 3=6+c, c=-3)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Find the equation of the line passing through (-1,-4) and (3,8), giving your answer in the form y=mx+c.",
+        "marks": 4,
+        "answer": "m=(8-(-4))/(3-(-1))=12/4=3. Using (3,8): 8=3(3)+c, c=-1. Equation: y=3x-1"
+      }
+    ],
+    "common_mistakes": [
+      "Substituting incorrectly when solving for c",
+      "Sign errors when finding the gradient with negative coordinates"
+    ],
+    "tips": [
+      "Once you have the gradient, substitute ANY known point on the line into y=mx+c to solve for c \u2014 the choice of point doesn't matter."
+    ],
+    "summary": "The equation of a straight line (commonly y=mx+c) is determined by its gradient and a known point, or by two points on the line.",
+    "quick_revision_notes": [
+      "y=mx+c",
+      "Find m first, then substitute a point to find c"
+    ],
+    "related_prerequisite_topics": [
+      "Gradient",
+      "Intercepts",
+      "Gradient-Intercept Form"
+    ],
+    "images": []
+  },
+  {
+    "id": 166,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Gradient-Intercept Form",
+    "explanation": "Gradient-intercept form is the most common way to write a linear equation: y = mx + c, where m is the gradient and c is the y-intercept. This form makes it easy to instantly read off both the steepness and starting height of a line without further calculation.",
+    "key_concepts": [
+      "y = mx + c: m is the gradient, c is the y-intercept",
+      "Instantly identifies both key features of a line",
+      "Any linear equation can be rearranged into this form",
+      "Useful for quickly sketching graphs or comparing lines"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Gradient-intercept form",
+        "formula": "y = mx + c",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Rearrange 2x + y = 7 into gradient-intercept form and state the gradient and y-intercept.",
+        "solution_steps": [
+          "Subtract 2x from both sides: y = -2x + 7"
+        ],
+        "answer": "y = -2x + 7; gradient = -2, y-intercept = 7"
+      },
+      {
+        "problem": "Rearrange 3x - 2y = 8 into gradient-intercept form.",
+        "solution_steps": [
+          "Subtract 3x: -2y = -3x + 8",
+          "Divide by -2: y = 1.5x - 4"
+        ],
+        "answer": "y = 1.5x - 4"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Rearrange x + y = 10 into gradient-intercept form.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Rearrange 4x - 2y = 12 into gradient-intercept form.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "y = -x + 10",
+      "y = 2x - 6"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Rearrange 5x + 2y = 10 into gradient-intercept form, and state the gradient and y-intercept.",
+        "marks": 3,
+        "answer": "2y=-5x+10 \u2192 y=-2.5x+5. Gradient=-2.5, y-intercept=5"
+      }
+    ],
+    "common_mistakes": [
+      "Sign errors when moving terms across the equation",
+      "Forgetting to divide EVERY term by the coefficient of y"
+    ],
+    "tips": [
+      "Once in y=mx+c form, m and c can be read off directly \u2014 no further calculation needed."
+    ],
+    "summary": "Gradient-intercept form (y=mx+c) directly displays a line's gradient (m) and y-intercept (c).",
+    "quick_revision_notes": [
+      "y=mx+c: m=gradient, c=y-intercept"
+    ],
+    "related_prerequisite_topics": [
+      "Equation of a Straight Line",
+      "Gradient",
+      "Intercepts"
+    ],
+    "images": []
+  },
+  {
+    "id": 167,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Point-Slope Form",
+    "explanation": "Point-slope form is a way of writing a linear equation using a known gradient (slope) and a single known point on the line: y - y\u2081 = m(x - x\u2081). This form is especially useful when you know a point and gradient but haven't yet solved for the y-intercept.",
+    "key_concepts": [
+      "y - y\u2081 = m(x - x\u2081), where m is the gradient and (x\u2081,y\u2081) is a known point",
+      "Can be rearranged into gradient-intercept form (y=mx+c) if needed",
+      "Directly usable without first solving for the y-intercept",
+      "Useful in coordinate geometry and calculus (tangent lines)"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Point-slope form",
+        "formula": "y - y\u2081 = m(x - x\u2081)",
+        "notes": "m=gradient, (x\u2081,y\u2081)=known point on the line"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Write the equation of the line with gradient 4 passing through (3, -2), in point-slope form, then convert to y=mx+c form.",
+        "solution_steps": [
+          "Point-slope form: y - (-2) = 4(x - 3)",
+          "y + 2 = 4x - 12",
+          "y = 4x - 14"
+        ],
+        "answer": "Point-slope: y+2=4(x-3); Gradient-intercept: y=4x-14"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Write the point-slope equation for gradient 2, passing through (1,5).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Convert y - 3 = 2(x - 4) into gradient-intercept form.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "y - 5 = 2(x-1)",
+      "y = 2x - 5"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A line has gradient -3 and passes through (-2, 6). Write its equation in point-slope form, then convert to y=mx+c form.",
+        "marks": 3,
+        "answer": "Point-slope: y-6=-3(x-(-2))=-3(x+2). Expand: y-6=-3x-6, so y=-3x"
+      }
+    ],
+    "common_mistakes": [
+      "Sign errors with negative coordinates when substituting into the formula",
+      "Forgetting to fully expand and simplify when converting to gradient-intercept form"
+    ],
+    "tips": [
+      "Point-slope form is often the fastest way to write an equation immediately after finding a gradient and a point \u2014 you can always convert to y=mx+c afterward if needed."
+    ],
+    "summary": "Point-slope form (y-y\u2081=m(x-x\u2081)) writes a line's equation directly from a known gradient and point, convertible to gradient-intercept form.",
+    "quick_revision_notes": [
+      "y - y\u2081 = m(x - x\u2081)"
+    ],
+    "related_prerequisite_topics": [
+      "Gradient",
+      "Equation of a Straight Line",
+      "Gradient-Intercept Form"
+    ],
+    "images": []
+  },
+  {
+    "id": 168,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Parallel Lines",
+    "explanation": "Parallel lines are lines that never intersect, no matter how far they are extended, because they have exactly the same gradient. If two lines have the same gradient but different y-intercepts, they are parallel; if they have the same gradient AND the same y-intercept, they are actually the same line.",
+    "key_concepts": [
+      "Parallel lines have EQUAL gradients",
+      "Parallel lines never intersect (unless they are the exact same line)",
+      "Different y-intercepts (with the same gradient) confirm two distinct parallel lines",
+      "Used to find equations of new lines parallel to a given line"
+    ],
+    "definitions": [
+      {
+        "term": "Parallel Lines",
+        "definition": "Lines with the same gradient that never intersect."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find the equation of the line parallel to y=3x+2 that passes through (1,10).",
+        "solution_steps": [
+          "Parallel lines share the same gradient: m=3",
+          "Use y=mx+c: 10=3(1)+c",
+          "10=3+c, so c=7"
+        ],
+        "answer": "y = 3x + 7"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Are the lines y=5x-2 and y=5x+7 parallel? Explain.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the equation of the line parallel to y=-2x+1 passing through (3,4).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Yes, both have gradient 5, so they are parallel (and distinct, since they have different y-intercepts).",
+      "y = -2x + 10 (using m=-2 and point (3,4): 4=-6+c, c=10)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Line L1 has equation 2x + y = 5. Find the equation of a line L2 parallel to L1, passing through (4, 3).",
+        "marks": 4,
+        "answer": "Rearrange L1: y=-2x+5, so gradient=-2. L2: y=-2x+c. Substitute (4,3): 3=-8+c, c=11. L2: y=-2x+11"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to rearrange an equation into y=mx+c form before comparing gradients",
+      "Assuming lines with the same y-intercept but different gradients are parallel (they are not \u2014 they intersect at the y-intercept)"
+    ],
+    "tips": [
+      "Always rearrange BOTH lines into y=mx+c form first \u2014 this makes comparing their gradients immediate and reliable."
+    ],
+    "summary": "Parallel lines share the same gradient but different y-intercepts, and never intersect.",
+    "quick_revision_notes": [
+      "Same gradient (m\u2081=m\u2082) = parallel",
+      "Different y-intercepts = distinct lines"
+    ],
+    "related_prerequisite_topics": [
+      "Gradient",
+      "Equation of a Straight Line",
+      "Perpendicular Lines (Gradient Condition)"
+    ],
+    "images": []
+  },
+  {
+    "id": 169,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Perpendicular Lines (Gradient Condition)",
+    "explanation": "Two lines are perpendicular if they meet at a right angle (90\u00b0). This occurs precisely when the product of their gradients equals -1 \u2014 equivalently, each gradient is the 'negative reciprocal' of the other. For example, a line with gradient 2 is perpendicular to a line with gradient -1/2.",
+    "key_concepts": [
+      "Perpendicular lines meet at exactly 90\u00b0",
+      "Gradient condition: m\u2081 \u00d7 m\u2082 = -1",
+      "Equivalently, m\u2082 = -1/m\u2081 (negative reciprocal)",
+      "A horizontal line (gradient 0) is perpendicular to a vertical line (undefined gradient)"
+    ],
+    "definitions": [
+      {
+        "term": "Perpendicular Lines",
+        "definition": "Lines that intersect at a right angle (90\u00b0), with gradients that are negative reciprocals of each other."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Perpendicular gradient condition",
+        "formula": "m\u2081 \u00d7 m\u2082 = -1",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the gradient of a line perpendicular to y = 4x + 3.",
+        "solution_steps": [
+          "Original gradient: m\u2081=4",
+          "Perpendicular gradient: m\u2082=-1/4 (negative reciprocal)"
+        ],
+        "answer": "m\u2082 = -1/4"
+      },
+      {
+        "problem": "Find the equation of the line perpendicular to y=2x-5, passing through (4,1).",
+        "solution_steps": [
+          "Perpendicular gradient: m=-1/2",
+          "Use y=mx+c with point (4,1): 1=(-1/2)(4)+c",
+          "1=-2+c, so c=3"
+        ],
+        "answer": "y = -1/2 x + 3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the gradient of a line perpendicular to y=3x-1.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the equation of the line perpendicular to y=-4x+2, passing through (8,5).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "m=-1/3",
+      "y=1/4 x + 3 (m=1/4, using point (8,5): 5=2+c, c=3)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Line L1 passes through (0,4) and (2,8). Find the equation of a line L2 perpendicular to L1, passing through (2,8).",
+        "marks": 5,
+        "answer": "Gradient of L1: (8-4)/(2-0)=2. Perpendicular gradient: -1/2. Using point (2,8): 8=(-1/2)(2)+c, 8=-1+c, c=9. L2: y=-1/2 x+9"
+      }
+    ],
+    "common_mistakes": [
+      "Only inverting the gradient without also changing its sign (forgetting the 'negative' part of negative reciprocal)",
+      "Confusing the perpendicular condition with the parallel condition"
+    ],
+    "tips": [
+      "Two steps for a perpendicular gradient: (1) flip the fraction, (2) change the sign \u2014 do both, every time."
+    ],
+    "summary": "Perpendicular lines meet at 90\u00b0, with gradients satisfying m\u2081\u00d7m\u2082=-1 (negative reciprocals of each other).",
+    "quick_revision_notes": [
+      "m\u2081\u00d7m\u2082=-1",
+      "Perpendicular gradient = negative reciprocal of the original"
+    ],
+    "related_prerequisite_topics": [
+      "Gradient",
+      "Parallel Lines",
+      "Equation of a Straight Line"
+    ],
+    "images": []
+  },
+  {
+    "id": 170,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Distance Between Points",
+    "explanation": "The distance between two points on a Cartesian plane is found using the distance formula, which is derived from the Pythagorean theorem. It calculates the straight-line (Euclidean) distance between the two points based on their coordinates.",
+    "key_concepts": [
+      "Distance formula is based on the Pythagorean theorem: d\u00b2 = (\u0394x)\u00b2 + (\u0394y)\u00b2",
+      "\u0394x = x\u2082-x\u2081 and \u0394y = y\u2082-y\u2081 (the horizontal and vertical differences)",
+      "The order of subtraction doesn't matter, since differences are squared",
+      "Gives the straight-line ('as the crow flies') distance"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Distance formula",
+        "formula": "d = \u221a[(x\u2082-x\u2081)\u00b2 + (y\u2082-y\u2081)\u00b2]",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the distance between (1, 2) and (4, 6).",
+        "solution_steps": [
+          "\u0394x=4-1=3, \u0394y=6-2=4",
+          "d=\u221a(3\u00b2+4\u00b2)=\u221a(9+16)=\u221a25"
+        ],
+        "answer": "d = 5"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the distance between (0,0) and (6,8).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the distance between (-3,2) and (1,-1).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "10 (\u221a(36+64)=\u221a100)",
+      "5 (\u221a(16+9)=\u221a25)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Show that the points A(1,1), B(4,5), and C(-3,4) form an isosceles triangle by comparing side lengths.",
+        "marks": 4,
+        "answer": "AB=\u221a((4-1)\u00b2+(5-1)\u00b2)=\u221a(9+16)=5. AC=\u221a((-3-1)\u00b2+(4-1)\u00b2)=\u221a(16+9)=5. BC=\u221a((-3-4)\u00b2+(4-5)\u00b2)=\u221a(49+1)=\u221a50. Since AB=AC=5, the triangle is isosceles."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to square the differences before adding",
+      "Sign errors when calculating \u0394x or \u0394y"
+    ],
+    "tips": [
+      "The distance formula is really just the Pythagorean theorem applied to the horizontal and vertical differences between two points."
+    ],
+    "summary": "The distance between two points is calculated using d=\u221a[(x\u2082-x\u2081)\u00b2+(y\u2082-y\u2081)\u00b2], derived from the Pythagorean theorem.",
+    "quick_revision_notes": [
+      "d=\u221a[(\u0394x)\u00b2+(\u0394y)\u00b2]"
+    ],
+    "related_prerequisite_topics": [
+      "Coordinates",
+      "Pythagorean Theorem",
+      "Midpoint of a Line Segment"
+    ],
+    "images": []
+  },
+  {
+    "id": 171,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Midpoint of a Line Segment",
+    "explanation": "The midpoint of a line segment is the point exactly halfway between its two endpoints. It is found by averaging the x-coordinates and averaging the y-coordinates of the two endpoints separately.",
+    "key_concepts": [
+      "Midpoint = average of the x-coordinates, average of the y-coordinates",
+      "The midpoint lies exactly halfway along the segment, equidistant from both endpoints",
+      "Useful in geometry proofs, coordinate geometry, and finding centers of shapes"
+    ],
+    "definitions": [
+      {
+        "term": "Midpoint",
+        "definition": "The point exactly halfway between two given points, found by averaging their x-coordinates and y-coordinates separately."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Midpoint formula",
+        "formula": "M = ((x\u2081+x\u2082)/2, (y\u2081+y\u2082)/2)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the midpoint of (2, 3) and (8, 11).",
+        "solution_steps": [
+          "x-coordinate: (2+8)/2 = 5",
+          "y-coordinate: (3+11)/2 = 7"
+        ],
+        "answer": "(5, 7)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the midpoint of (0,0) and (10,6).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the midpoint of (-4,3) and (2,-7).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(5,3)",
+      "(-1,-2)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The midpoint of A(2,5) and B(x,y) is (6,3). Find the coordinates of B.",
+        "marks": 3,
+        "answer": "(2+x)/2=6 \u2192 x=10. (5+y)/2=3 \u2192 y=1. B=(10,1)"
+      }
+    ],
+    "common_mistakes": [
+      "Adding the coordinates but forgetting to divide by 2",
+      "Averaging x with y (mixing up which coordinates to average together)"
+    ],
+    "tips": [
+      "Average the x's together and the y's together separately \u2014 never mix an x-coordinate with a y-coordinate."
+    ],
+    "summary": "The midpoint of a line segment is found by averaging the x-coordinates and y-coordinates of its two endpoints.",
+    "quick_revision_notes": [
+      "M = ((x\u2081+x\u2082)/2, (y\u2081+y\u2082)/2)"
+    ],
+    "related_prerequisite_topics": [
+      "Coordinates",
+      "Distance Between Points"
+    ],
+    "images": []
+  },
+  {
+    "id": 172,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Quadratic Expressions",
+    "explanation": "A quadratic expression is an algebraic expression where the highest power of the variable is 2, such as x\u00b2 + 3x - 4. Quadratic expressions form the basis of quadratic equations and parabolic graphs, and can be expanded, factorised, or evaluated using standard algebraic techniques.",
+    "key_concepts": [
+      "General form: ax\u00b2 + bx + c, where a\u22600",
+      "The highest power of the variable is exactly 2",
+      "a is the coefficient of x\u00b2, b is the coefficient of x, c is the constant term",
+      "Can be factorised, expanded, or completed into square form depending on the task"
+    ],
+    "definitions": [
+      {
+        "term": "Quadratic Expression",
+        "definition": "An algebraic expression of the form ax\u00b2+bx+c, where a\u22600, with the variable's highest power being 2."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Identify a, b, and c in the quadratic expression 3x\u00b2 - 7x + 2",
+        "solution_steps": [
+          "Compare to ax\u00b2+bx+c: a=3, b=-7, c=2"
+        ],
+        "answer": "a=3, b=-7, c=2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Identify a, b, c in 5x\u00b2 + 2x - 9.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Is 4x\u00b3 + 2x - 1 a quadratic expression? Explain.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "a=5, b=2, c=-9",
+      "No \u2014 the highest power is 3, not 2, making it a cubic expression."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Write a quadratic expression with a=1, b=-5, c=6, and factorise it.",
+        "marks": 3,
+        "answer": "x\u00b2-5x+6, which factorises to (x-2)(x-3)"
+      }
+    ],
+    "common_mistakes": [
+      "Assuming any expression with an x\u00b2 term is automatically quadratic (must check no higher powers are present)",
+      "Confusing the roles of a, b, and c"
+    ],
+    "tips": [
+      "Quadratic expressions always have their highest power as exactly x\u00b2 \u2014 never higher, and the x\u00b2 term must have a non-zero coefficient."
+    ],
+    "summary": "A quadratic expression has the general form ax\u00b2+bx+c (a\u22600), forming the foundation for quadratic equations and parabolic graphs.",
+    "quick_revision_notes": [
+      "ax\u00b2+bx+c, a\u22600",
+      "Highest power is exactly 2"
+    ],
+    "related_prerequisite_topics": [
+      "Algebraic Expressions",
+      "Expanding Brackets",
+      "Factorising Expressions"
+    ],
+    "images": []
+  },
+  {
+    "id": 173,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Quadratic Equations",
+    "explanation": "A quadratic equation is an equation involving a quadratic expression set equal to zero (or another value), such as x\u00b2 - 5x + 6 = 0. Quadratic equations typically have up to two solutions (roots), and can be solved using factorisation, completing the square, or the quadratic formula.",
+    "key_concepts": [
+      "Standard form: ax\u00b2 + bx + c = 0 (a\u22600)",
+      "Can have 0, 1, or 2 real solutions, depending on the discriminant",
+      "Three main solving methods: factorisation, completing the square, quadratic formula",
+      "Solutions are also called 'roots' of the equation"
+    ],
+    "definitions": [
+      {
+        "term": "Quadratic Equation",
+        "definition": "An equation of the form ax\u00b2+bx+c=0 (a\u22600), typically having up to two solutions."
+      },
+      {
+        "term": "Root",
+        "definition": "A value of the variable that satisfies an equation, making it true."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Solve x\u00b2 - 5x + 6 = 0 by factorisation.",
+        "solution_steps": [
+          "Find two numbers that multiply to 6 and add to -5: -2 and -3",
+          "Factorise: (x-2)(x-3)=0",
+          "Set each factor to zero: x-2=0 or x-3=0"
+        ],
+        "answer": "x = 2 or x = 3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve x\u00b2 - 7x + 12 = 0.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Solve x\u00b2 + 2x - 15 = 0.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "x=3 or x=4",
+      "x=3 or x=-5"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve the quadratic equation x\u00b2 - 9 = 0, and explain which factorisation pattern applies.",
+        "marks": 3,
+        "answer": "This is a difference of two squares: x\u00b2-9=(x-3)(x+3)=0, so x=3 or x=-3."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting a quadratic can have TWO solutions, only finding one",
+      "Sign errors when factorising"
+    ],
+    "tips": [
+      "Always rearrange the equation so it equals zero on one side before attempting to solve \u2014 this is essential for factorisation and the quadratic formula to work correctly."
+    ],
+    "summary": "A quadratic equation (ax\u00b2+bx+c=0) is solved via factorisation, completing the square, or the quadratic formula, yielding up to two roots.",
+    "quick_revision_notes": [
+      "ax\u00b2+bx+c=0",
+      "Up to 2 solutions",
+      "3 solving methods: factorise, complete the square, quadratic formula"
+    ],
+    "related_prerequisite_topics": [
+      "Quadratic Expressions",
+      "Solving by Factorisation",
+      "Quadratic Formula"
+    ],
+    "images": []
+  },
+  {
+    "id": 174,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Solving by Factorisation",
+    "explanation": "Solving a quadratic equation by factorisation involves rewriting it as a product of two brackets equal to zero, then using the fact that if the product of two factors is zero, at least one of them must be zero. This is often the fastest method when the quadratic factorises nicely.",
+    "key_concepts": [
+      "Rearrange the equation so it equals zero",
+      "Factorise the quadratic expression into two brackets",
+      "Apply the zero product rule: if AB=0, then A=0 or B=0",
+      "Solve each resulting simple equation"
+    ],
+    "definitions": [
+      {
+        "term": "Zero Product Rule",
+        "definition": "If the product of two factors equals zero, then at least one of the factors must equal zero."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Solve x\u00b2 + 3x - 10 = 0 by factorisation.",
+        "solution_steps": [
+          "Find two numbers multiplying to -10 and adding to 3: 5 and -2",
+          "Factorise: (x+5)(x-2)=0",
+          "Apply zero product rule: x+5=0 or x-2=0"
+        ],
+        "answer": "x = -5 or x = 2"
+      },
+      {
+        "problem": "Solve 2x\u00b2 - 8x = 0 by factorisation.",
+        "solution_steps": [
+          "Take out the common factor: 2x(x-4)=0",
+          "Apply zero product rule: 2x=0 or x-4=0"
+        ],
+        "answer": "x = 0 or x = 4"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve x\u00b2 - x - 6 = 0 by factorisation.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Solve x\u00b2 - 8x = 0 by factorisation.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Solve 2x\u00b2 + 5x - 3 = 0 by factorisation.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "x=3 or x=-2",
+      "x=0 or x=8",
+      "x=1/2 or x=-3 (factorise: (2x-1)(x+3)=0)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve 3x\u00b2 - 12 = 0 by factorisation, showing your method.",
+        "marks": 3,
+        "answer": "Take out common factor 3: 3(x\u00b2-4)=0. Difference of two squares: 3(x-2)(x+2)=0. So x=2 or x=-2"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to check for a common factor before attempting to factorise into two brackets",
+      "Sign errors when finding the two numbers that multiply/add correctly"
+    ],
+    "tips": [
+      "Always check for a common factor FIRST \u2014 it's often the fastest step and simplifies the remaining factorisation."
+    ],
+    "summary": "Solving by factorisation rewrites a quadratic as a product of brackets equal to zero, then applies the zero product rule to find solutions.",
+    "quick_revision_notes": [
+      "Factorise, then use: if AB=0, A=0 or B=0"
+    ],
+    "related_prerequisite_topics": [
+      "Quadratic Equations",
+      "Factorising Expressions",
+      "Factorising Using Common Factors"
+    ],
+    "images": []
+  },
+  {
+    "id": 175,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Completing the Square",
+    "explanation": "Completing the square rewrites a quadratic expression in the form a(x+p)\u00b2 + q, which reveals the vertex of the parabola directly and allows quadratic equations to be solved without factorisation. This technique is also the basis for deriving the quadratic formula.",
+    "key_concepts": [
+      "For x\u00b2+bx+c, completing the square gives (x+b/2)\u00b2 - (b/2)\u00b2 + c",
+      "The vertex form a(x+p)\u00b2+q directly shows the vertex at (-p, q)",
+      "Useful when a quadratic doesn't factorise nicely",
+      "Also used to solve quadratic equations by isolating the squared term"
+    ],
+    "definitions": [
+      {
+        "term": "Vertex Form",
+        "definition": "A quadratic expression written as a(x+p)\u00b2+q, which directly reveals the vertex of the parabola at (-p, q)."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Completing the square (a=1)",
+        "formula": "x\u00b2 + bx + c = (x + b/2)\u00b2 - (b/2)\u00b2 + c",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Complete the square for x\u00b2 + 6x + 5",
+        "solution_steps": [
+          "Half of 6 is 3; square it: 9",
+          "x\u00b2+6x+5 = (x+3)\u00b2 - 9 + 5",
+          "= (x+3)\u00b2 - 4"
+        ],
+        "answer": "(x+3)\u00b2 - 4"
+      },
+      {
+        "problem": "Solve x\u00b2 - 4x - 5 = 0 by completing the square.",
+        "solution_steps": [
+          "Complete the square: x\u00b2-4x-5 = (x-2)\u00b2 - 4 - 5 = (x-2)\u00b2 - 9",
+          "Set equal to zero: (x-2)\u00b2 - 9 = 0",
+          "(x-2)\u00b2 = 9",
+          "x-2 = \u00b13",
+          "x = 2+3=5 or x = 2-3=-1"
+        ],
+        "answer": "x = 5 or x = -1"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Complete the square for x\u00b2 + 8x + 10.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Solve x\u00b2 - 6x + 4 = 0 by completing the square.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "(x+4)\u00b2 - 6",
+      "x = 3\u00b1\u221a5 ((x-3)\u00b2-9+4=0, (x-3)\u00b2=5, x-3=\u00b1\u221a5)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Express 2x\u00b2 + 8x + 3 in the form a(x+p)\u00b2 + q, and hence state the minimum value of the expression.",
+        "marks": 4,
+        "answer": "2x\u00b2+8x+3 = 2(x\u00b2+4x)+3 = 2[(x+2)\u00b2-4]+3 = 2(x+2)\u00b2-8+3 = 2(x+2)\u00b2-5. Minimum value is -5 (when x=-2)."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to adjust for a coefficient in front of x\u00b2 (a\u22601) before completing the square",
+      "Sign errors when moving the subtracted square term back outside the bracket",
+      "Forgetting the \u00b1 when taking the square root during equation solving"
+    ],
+    "tips": [
+      "When a\u22601, factor it out of the x\u00b2 and x terms FIRST, before completing the square inside the bracket."
+    ],
+    "summary": "Completing the square rewrites a quadratic as a(x+p)\u00b2+q, revealing the vertex directly and enabling equation-solving without factorisation.",
+    "quick_revision_notes": [
+      "x\u00b2+bx+c = (x+b/2)\u00b2 - (b/2)\u00b2 + c",
+      "Vertex form reveals vertex at (-p,q)"
+    ],
+    "related_prerequisite_topics": [
+      "Quadratic Expressions",
+      "Perfect Square Expressions",
+      "Vertex of a Parabola"
+    ],
+    "images": []
+  },
+  {
+    "id": 176,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Quadratic Formula",
+    "explanation": "The quadratic formula provides a direct method for solving any quadratic equation of the form ax\u00b2+bx+c=0, using the coefficients a, b, and c. It always works, even when a quadratic doesn't factorise nicely, and is derived from the completing the square method.",
+    "key_concepts": [
+      "x = [-b \u00b1 \u221a(b\u00b2-4ac)] / (2a)",
+      "Works for ANY quadratic equation, regardless of whether it factorises",
+      "The term b\u00b2-4ac inside the square root is called the discriminant",
+      "The \u00b1 symbol indicates there are generally two solutions"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Quadratic formula",
+        "formula": "x = [-b \u00b1 \u221a(b\u00b2 - 4ac)] / (2a)",
+        "notes": "For ax\u00b2+bx+c=0, a\u22600"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Solve 2x\u00b2 + 5x - 3 = 0 using the quadratic formula.",
+        "solution_steps": [
+          "Identify a=2, b=5, c=-3",
+          "Discriminant: b\u00b2-4ac = 25-4(2)(-3) = 25+24 = 49",
+          "x = [-5 \u00b1 \u221a49] / (2\u00d72) = [-5 \u00b1 7] / 4",
+          "x = (2)/4 = 0.5 or x = (-12)/4 = -3"
+        ],
+        "answer": "x = 0.5 or x = -3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve x\u00b2 + 4x - 5 = 0 using the quadratic formula.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Solve 3x\u00b2 - 2x - 1 = 0 using the quadratic formula.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "x=1 or x=-5",
+      "x=1 or x=-1/3"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve x\u00b2 + 2x - 6 = 0 using the quadratic formula, giving your answer in exact surd form.",
+        "marks": 4,
+        "answer": "a=1,b=2,c=-6. Discriminant=4+24=28. x=(-2\u00b1\u221a28)/2=(-2\u00b12\u221a7)/2=-1\u00b1\u221a7"
+      }
+    ],
+    "common_mistakes": [
+      "Sign errors when identifying a, b, c (especially when c is negative)",
+      "Forgetting to divide the ENTIRE numerator (-b\u00b1\u221a...) by 2a, not just part of it",
+      "Arithmetic errors calculating the discriminant"
+    ],
+    "tips": [
+      "Write out a, b, and c explicitly (with correct signs) BEFORE substituting into the formula \u2014 this prevents sign errors."
+    ],
+    "summary": "The quadratic formula x=[-b\u00b1\u221a(b\u00b2-4ac)]/(2a) solves any quadratic equation, using its coefficients a, b, and c.",
+    "quick_revision_notes": [
+      "x = [-b \u00b1 \u221a(b\u00b2-4ac)] / (2a)"
+    ],
+    "related_prerequisite_topics": [
+      "Quadratic Equations",
+      "Discriminant",
+      "Completing the Square"
+    ],
+    "images": []
+  },
+  {
+    "id": 177,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Discriminant",
+    "explanation": "The discriminant is the expression b\u00b2-4ac from the quadratic formula, and it determines the number and nature of solutions to a quadratic equation without needing to solve it fully. A positive discriminant gives two real solutions, zero gives exactly one repeated solution, and a negative discriminant gives no real solutions.",
+    "key_concepts": [
+      "Discriminant = b\u00b2 - 4ac",
+      "Discriminant > 0: two distinct real roots",
+      "Discriminant = 0: one repeated real root (the parabola touches the x-axis at one point)",
+      "Discriminant < 0: no real roots (the parabola doesn't cross the x-axis)"
+    ],
+    "definitions": [
+      {
+        "term": "Discriminant",
+        "definition": "The expression b\u00b2-4ac from the quadratic formula, used to determine the number and type of solutions of a quadratic equation."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Discriminant",
+        "formula": "\u0394 = b\u00b2 - 4ac",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the discriminant of x\u00b2 - 4x + 4 = 0 and describe the nature of its roots.",
+        "solution_steps": [
+          "a=1, b=-4, c=4",
+          "Discriminant = (-4)\u00b2 - 4(1)(4) = 16-16 = 0"
+        ],
+        "answer": "Discriminant = 0, so there is one repeated real root"
+      },
+      {
+        "problem": "Find the discriminant of 2x\u00b2 + 3x + 5 = 0 and describe the nature of its roots.",
+        "solution_steps": [
+          "a=2, b=3, c=5",
+          "Discriminant = 9 - 4(2)(5) = 9-40 = -31"
+        ],
+        "answer": "Discriminant = -31 (negative), so there are no real roots"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the discriminant of x\u00b2 - 6x + 9 = 0 and describe its roots.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find the discriminant of x\u00b2 + x + 1 = 0 and describe its roots.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Discriminant=0, one repeated root",
+      "Discriminant=1-4=-3 (negative), no real roots"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Find the value(s) of k for which x\u00b2 + kx + 9 = 0 has exactly one repeated root.",
+        "marks": 4,
+        "answer": "Discriminant=0: k\u00b2-4(1)(9)=0 \u2192 k\u00b2=36 \u2192 k=\u00b16"
+      }
+    ],
+    "common_mistakes": [
+      "Sign errors when calculating b\u00b2-4ac, especially with negative b or c",
+      "Confusing the meaning of a positive, zero, or negative discriminant"
+    ],
+    "tips": [
+      "Remember the three cases with a simple mental model: positive\u21922 crossings, zero\u21921 touch, negative\u2192no crossing (of the x-axis)."
+    ],
+    "summary": "The discriminant (b\u00b2-4ac) reveals the number of real roots a quadratic has: 2 (positive), 1 (zero), or 0 (negative).",
+    "quick_revision_notes": [
+      "\u0394=b\u00b2-4ac",
+      "\u0394>0: 2 roots. \u0394=0: 1 root. \u0394<0: no real roots"
+    ],
+    "related_prerequisite_topics": [
+      "Quadratic Formula",
+      "Roots of Quadratics",
+      "Quadratic Graphs"
+    ],
+    "images": []
+  },
+  {
+    "id": 178,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Quadratic Graphs",
+    "explanation": "A quadratic graph, also called a parabola, is the U-shaped (or upside-down U-shaped) curve produced by graphing a quadratic function. If the coefficient of x\u00b2 is positive, the parabola opens upward; if negative, it opens downward. Key features include the vertex, axis of symmetry, and x/y-intercepts.",
+    "key_concepts": [
+      "Positive leading coefficient (a>0): parabola opens upward (U-shape)",
+      "Negative leading coefficient (a<0): parabola opens downward (\u2229-shape)",
+      "The graph is symmetric about a vertical line through the vertex",
+      "Key features to identify: vertex, axis of symmetry, x-intercepts (roots), y-intercept"
+    ],
+    "definitions": [
+      {
+        "term": "Parabola",
+        "definition": "The U-shaped (or inverted U-shaped) curve produced by graphing a quadratic function."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Describe the shape and key features of the graph y = x\u00b2 - 2x - 3",
+        "solution_steps": [
+          "a=1 (positive), so the parabola opens upward",
+          "y-intercept: set x=0, y=-3, so (0,-3)",
+          "x-intercepts: solve x\u00b2-2x-3=0, factorise (x-3)(x+1)=0, so x=3 or x=-1"
+        ],
+        "answer": "Opens upward, y-intercept at (0,-3), x-intercepts at (3,0) and (-1,0)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Does y = -2x\u00b2 + 3x - 1 open upward or downward? Explain.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the y-intercept of y = 3x\u00b2 - 5x + 2.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Downward, since a=-2 is negative.",
+      "(0,2)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "For the graph y = x\u00b2 + 2x - 8, find the y-intercept and both x-intercepts, and state whether the parabola opens upward or downward.",
+        "marks": 4,
+        "answer": "Opens upward (a=1>0). y-intercept: (0,-8). x-intercepts: x\u00b2+2x-8=0, (x+4)(x-2)=0, x=-4 or x=2, so (-4,0) and (2,0)"
+      }
+    ],
+    "common_mistakes": [
+      "Assuming all parabolas open upward (must check the sign of 'a')",
+      "Confusing x-intercepts with the vertex"
+    ],
+    "tips": [
+      "The sign of 'a' (the coefficient of x\u00b2) instantly tells you the direction the parabola opens \u2014 positive is upward, negative is downward."
+    ],
+    "summary": "A quadratic graph is a parabola, opening upward (a>0) or downward (a<0), with key features including intercepts, vertex, and axis of symmetry.",
+    "quick_revision_notes": [
+      "a>0: opens up. a<0: opens down.",
+      "Key features: vertex, axis of symmetry, intercepts"
+    ],
+    "related_prerequisite_topics": [
+      "Quadratic Expressions",
+      "Vertex of a Parabola",
+      "Axis of Symmetry"
+    ],
+    "images": [
+      {
+        "filename": "quadraticgraphs-178-parabola.svg",
+        "type": "graph",
+        "description": "A parabola for y=x\u00b2-2x-3, with the vertex and x-intercepts (roots) marked.",
+        "purpose": "Shows the overall U-shape of a quadratic graph along with its key features.",
+        "placement": "After the Worked Example"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Vertex of a Parabola",
+    "explanation": "The vertex of a parabola is its turning point \u2014 the minimum point if the parabola opens upward, or the maximum point if it opens downward. The vertex can be found using the formula x=-b/(2a), or directly from vertex form a(x+p)\u00b2+q, where the vertex is at (-p, q).",
+    "key_concepts": [
+      "The vertex is the parabola's minimum (opens up) or maximum (opens down) point",
+      "x-coordinate of the vertex: x = -b/(2a)",
+      "Substitute this x-value back into the equation to find the y-coordinate",
+      "In vertex form a(x+p)\u00b2+q, the vertex is directly at (-p, q)"
+    ],
+    "definitions": [
+      {
+        "term": "Vertex",
+        "definition": "The turning point of a parabola \u2014 its minimum point if it opens upward, or maximum point if it opens downward."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Vertex x-coordinate",
+        "formula": "x = -b / (2a)",
+        "notes": "Substitute back into the equation to find the y-coordinate"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the vertex of y = x\u00b2 - 4x + 1",
+        "solution_steps": [
+          "a=1, b=-4",
+          "x = -(-4)/(2\u00d71) = 4/2 = 2",
+          "Substitute x=2: y = 4 - 8 + 1 = -3"
+        ],
+        "answer": "Vertex = (2, -3)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the vertex of y = x\u00b2 + 6x + 5.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find the vertex of y = -2x\u00b2 + 8x - 3.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "(-3,-4)",
+      "(2,5)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Find the vertex of y = 2x\u00b2 - 12x + 7, and state whether it is a minimum or maximum point.",
+        "marks": 4,
+        "answer": "x=-(-12)/(2\u00d72)=12/4=3. y=2(9)-36+7=18-36+7=-11. Vertex=(3,-11), a minimum (since a=2>0)"
+      }
+    ],
+    "common_mistakes": [
+      "Sign errors when computing -b/(2a), especially with negative b",
+      "Forgetting to substitute back into the ORIGINAL equation to find the y-coordinate"
+    ],
+    "tips": [
+      "Once you find the vertex's x-coordinate, substitute it back into the full quadratic equation carefully \u2014 this gives you the y-coordinate."
+    ],
+    "summary": "The vertex of a parabola (its minimum or maximum point) is found using x=-b/(2a), then substituting back to find y.",
+    "quick_revision_notes": [
+      "x=-b/(2a)",
+      "Substitute back for y-coordinate",
+      "Min if a>0, Max if a<0"
+    ],
+    "related_prerequisite_topics": [
+      "Quadratic Graphs",
+      "Completing the Square",
+      "Axis of Symmetry"
+    ],
+    "images": [
+      {
+        "filename": "vertexofaparabola-179-graph.svg",
+        "type": "graph",
+        "description": "A parabola with its vertex clearly marked and labelled with its coordinates.",
+        "purpose": "Shows exactly where the vertex sits on a quadratic graph.",
+        "placement": "After the Worked Example"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Axis of Symmetry",
+    "explanation": "The axis of symmetry is a vertical line that divides a parabola into two mirror-image halves, passing directly through the vertex. Its equation is x = -b/(2a), matching the x-coordinate of the vertex.",
+    "key_concepts": [
+      "The axis of symmetry is a vertical line: x = constant",
+      "Passes through the vertex of the parabola",
+      "Equation: x = -b/(2a)",
+      "Every point on the parabola has a mirror-image point reflected across this line"
+    ],
+    "definitions": [
+      {
+        "term": "Axis of Symmetry",
+        "definition": "The vertical line passing through the vertex of a parabola, about which the parabola is symmetric."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Axis of symmetry",
+        "formula": "x = -b / (2a)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the axis of symmetry of y = x\u00b2 - 6x + 8",
+        "solution_steps": [
+          "a=1, b=-6",
+          "x = -(-6)/(2\u00d71) = 3"
+        ],
+        "answer": "x = 3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the axis of symmetry of y = x\u00b2 + 8x + 12.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the axis of symmetry of y = 3x\u00b2 - 12x + 5.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "x=-4",
+      "x=2"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A parabola has x-intercepts at x=-2 and x=6. Use symmetry to find the equation of its axis of symmetry.",
+        "marks": 2,
+        "answer": "The axis of symmetry lies exactly halfway between the two x-intercepts: x=(-2+6)/2=2"
+      }
+    ],
+    "common_mistakes": [
+      "Writing the axis of symmetry as a point instead of a vertical line equation (x=...)",
+      "Forgetting the axis of symmetry can be found as the midpoint of the two x-intercepts, if known"
+    ],
+    "tips": [
+      "If you know both x-intercepts of a parabola, the axis of symmetry is simply their midpoint \u2014 often faster than using -b/(2a)."
+    ],
+    "summary": "The axis of symmetry is the vertical line x=-b/(2a) passing through a parabola's vertex, dividing it into two mirror-image halves.",
+    "quick_revision_notes": [
+      "x = -b/(2a)",
+      "= midpoint of the two x-intercepts (if real)"
+    ],
+    "related_prerequisite_topics": [
+      "Vertex of a Parabola",
+      "Quadratic Graphs",
+      "Roots of Quadratics"
+    ],
+    "images": [
+      {
+        "filename": "axisofsymmetry-180-graph.svg",
+        "type": "graph",
+        "description": "A parabola with a dashed vertical line drawn through its vertex, representing the axis of symmetry.",
+        "purpose": "Shows how the axis of symmetry divides the parabola into two mirror-image halves.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Roots of Quadratics",
+    "explanation": "The roots of a quadratic equation are the values of x that make the equation equal to zero \u2014 equivalently, the x-intercepts of its graph. A quadratic can have two distinct real roots, one repeated real root, or no real roots, depending on its discriminant.",
+    "key_concepts": [
+      "Roots are the solutions to ax\u00b2+bx+c=0",
+      "Graphically, roots are where the parabola crosses (or touches) the x-axis",
+      "Number of real roots is determined by the discriminant (b\u00b2-4ac)",
+      "The sum and product of roots relate directly to a, b, and c"
+    ],
+    "definitions": [
+      {
+        "term": "Root",
+        "definition": "A solution to an equation; for a quadratic, the x-values where the graph crosses or touches the x-axis."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Sum of roots",
+        "formula": "\u03b1 + \u03b2 = -b/a",
+        "notes": "For ax\u00b2+bx+c=0 with roots \u03b1, \u03b2"
+      },
+      {
+        "name": "Product of roots",
+        "formula": "\u03b1\u03b2 = c/a",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the sum and product of the roots of 2x\u00b2 - 7x + 3 = 0 without solving the equation.",
+        "solution_steps": [
+          "a=2, b=-7, c=3",
+          "Sum = -b/a = 7/2",
+          "Product = c/a = 3/2"
+        ],
+        "answer": "Sum = 3.5, Product = 1.5"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the sum and product of the roots of x\u00b2 - 5x + 6 = 0.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A quadratic has roots 4 and -2. Find its equation in the form x\u00b2+bx+c=0.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "Sum=5, Product=6",
+      "x\u00b2-2x-8=0 (sum of roots=2=-b, so b=-2; product=-8=c)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The roots of 3x\u00b2 + kx - 12 = 0 have a sum of 2/3 more than double their product. Given the product of roots is c/a, verify the product for this equation, and explain why the product does not depend on k.",
+        "marks": 3,
+        "answer": "Product of roots = c/a = -12/3 = -4. This value does not depend on k because k is the coefficient of the linear (x) term, which only affects the SUM of roots (-b/a), not the product (c/a)."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing sum of roots (-b/a) with product of roots (c/a)",
+      "Sign errors, especially forgetting the negative in the sum formula"
+    ],
+    "tips": [
+      "Sum and product of roots formulas let you find or check properties of a quadratic's solutions WITHOUT actually solving it \u2014 useful for quick verification."
+    ],
+    "summary": "The roots of a quadratic are its solutions, related to the coefficients via sum=-b/a and product=c/a, with their number determined by the discriminant.",
+    "quick_revision_notes": [
+      "Sum of roots = -b/a",
+      "Product of roots = c/a"
+    ],
+    "related_prerequisite_topics": [
+      "Quadratic Equations",
+      "Discriminant",
+      "Quadratic Formula"
+    ],
+    "images": []
+  },
+  {
+    "id": 182,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Quadratic Inequalities",
+    "explanation": "A quadratic inequality compares a quadratic expression to zero (or another value) using an inequality symbol, such as x\u00b2 - 4 > 0. These are solved by finding the roots of the corresponding equation, then using the shape of the parabola (or a sign diagram/number line) to determine which intervals satisfy the inequality.",
+    "key_concepts": [
+      "Find the roots of the corresponding quadratic equation first",
+      "Sketch or visualize the parabola's shape (upward or downward) to determine the sign of the expression in each interval",
+      "For an upward parabola: expression is negative BETWEEN the roots, positive OUTSIDE",
+      "For a downward parabola: the reverse applies"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Solve x\u00b2 - 4 > 0",
+        "solution_steps": [
+          "Find roots: x\u00b2-4=0 \u2192 (x-2)(x+2)=0 \u2192 x=2 or x=-2",
+          "Parabola opens upward (a=1>0)",
+          "Expression is positive OUTSIDE the roots (since it opens upward)"
+        ],
+        "answer": "x < -2 or x > 2"
+      },
+      {
+        "problem": "Solve x\u00b2 - x - 6 \u2264 0",
+        "solution_steps": [
+          "Find roots: (x-3)(x+2)=0 \u2192 x=3 or x=-2",
+          "Parabola opens upward (a=1>0)",
+          "Expression is negative (or zero) BETWEEN the roots"
+        ],
+        "answer": "-2 \u2264 x \u2264 3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve x\u00b2 - 9 < 0.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Solve x\u00b2 + 2x - 8 \u2265 0.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "-3 < x < 3",
+      "x \u2264 -4 or x \u2265 2"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve the inequality 2x\u00b2 - 5x - 3 \u2264 0, showing your method.",
+        "marks": 4,
+        "answer": "Factorise: (2x+1)(x-3)\u22640. Roots at x=-1/2 and x=3. Parabola opens upward, so expression \u22640 between the roots: -1/2 \u2264 x \u2264 3"
+      }
+    ],
+    "common_mistakes": [
+      "Treating a quadratic inequality like a linear one (forgetting the solution is often an interval or two separate ranges, not a simple direction)",
+      "Getting the 'inside vs outside the roots' rule backwards"
+    ],
+    "tips": [
+      "Always sketch a quick parabola shape (upward or downward) and mark the roots \u2014 this makes it visually obvious which regions satisfy the inequality."
+    ],
+    "summary": "Quadratic inequalities are solved by finding the roots of the related equation, then using the parabola's shape to identify satisfying intervals.",
+    "quick_revision_notes": [
+      "Find roots first",
+      "Upward parabola: negative between roots, positive outside",
+      "Downward parabola: reverse"
+    ],
+    "related_prerequisite_topics": [
+      "Quadratic Equations",
+      "Quadratic Graphs",
+      "Linear Inequalities"
+    ],
+    "images": []
+  },
+  {
+    "id": 183,
+    "category": "Linear & Quadratic Functions",
+    "topic": "Simultaneous Linear and Quadratic Equations",
+    "explanation": "Simultaneous linear and quadratic equations involve solving a linear equation and a quadratic equation together, finding the point(s) where a straight line intersects a parabola. This is typically done using the substitution method: solve the linear equation for one variable, then substitute into the quadratic equation.",
+    "key_concepts": [
+      "Solve the linear equation for one variable (usually y)",
+      "Substitute this expression into the quadratic equation",
+      "Solve the resulting quadratic equation for the remaining variable",
+      "Substitute back to find the corresponding values of the other variable",
+      "Geometrically, solutions represent the intersection point(s) of a line and a parabola"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Solve simultaneously: y = x + 1 and y = x\u00b2 - 5",
+        "solution_steps": [
+          "Substitute y=x+1 into the quadratic equation: x+1 = x\u00b2-5",
+          "Rearrange: x\u00b2-x-6=0",
+          "Factorise: (x-3)(x+2)=0",
+          "x=3 or x=-2",
+          "Find corresponding y values: when x=3, y=4; when x=-2, y=-1"
+        ],
+        "answer": "(3, 4) and (-2, -1)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve simultaneously: y = 2x - 1 and y = x\u00b2 - 4.",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Find the point(s) of intersection between y = x + 2 and y = x\u00b2.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(3,5) and (-1,-3) (substituting: 2x-1=x\u00b2-4 \u2192 x\u00b2-2x-3=0 \u2192 (x-3)(x+1)=0)",
+      "(2,4) and (-1,1) \u2014 substituting x+2=x\u00b2 gives x\u00b2-x-2=0, which factorises as (x-2)(x+1)=0, so x=2 or x=-1."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Find the coordinates where the line y = 3x - 2 intersects the parabola y = x\u00b2 - 2x + 1.",
+        "marks": 5,
+        "answer": "3x-2 = x\u00b2-2x+1 \u2192 x\u00b2-5x+3=0. Using quadratic formula: x=(5\u00b1\u221a13)/2. Substituting back gives corresponding y-values using y=3x-2."
+      }
+    ],
+    "common_mistakes": [
+      "Substituting incorrectly (mixing up which equation to substitute into which)",
+      "Forgetting to find the y-value for EACH x-value found (each x needs a matching y)",
+      "Errors in solving the resulting quadratic equation"
+    ],
+    "tips": [
+      "After finding your x-values, always substitute EACH one back into the simpler (usually linear) equation to find the matching y-value \u2014 don't forget any solutions."
+    ],
+    "summary": "Simultaneous linear and quadratic equations are solved via substitution, finding the intersection point(s) of a line and a parabola.",
+    "quick_revision_notes": [
+      "Substitute linear into quadratic",
+      "Solve resulting quadratic",
+      "Find matching y-values for each x"
+    ],
+    "related_prerequisite_topics": [
+      "Simultaneous Equations",
+      "Quadratic Equations",
+      "Linear Equations"
+    ],
+    "images": []
+  }
+]

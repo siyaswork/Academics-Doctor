@@ -1,0 +1,1695 @@
+[
+  {
+    "id": "phy-036",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Newton's Third Law",
+    "difficulty": "Foundational",
+    "description": "The principle that forces always occur in equal and opposite pairs acting on two different objects.",
+    "learning_objectives": [
+      "State Newton's third law",
+      "Identify action-reaction force pairs in a given scenario",
+      "Explain why action-reaction pairs do not cancel each other out"
+    ],
+    "explanation": "Newton's third law states that when one object exerts a force on a second object, the second object simultaneously exerts a force of equal magnitude but opposite direction back on the first object. These are often called an action-reaction pair. A key point students often find confusing is that these two forces act on two different objects, not on the same object, which is why they do not cancel out or result in zero motion. For example, when a swimmer pushes backward on the water, the water simultaneously pushes forward on the swimmer with an equal-sized force, propelling them through the pool; the two forces act on different objects (the water and the swimmer), so they do not cancel, and the swimmer accelerates forward. Similarly, a rocket expels exhaust gas downward and backward, and the gas pushes the rocket upward and forward with an equal and opposite force.",
+    "key_concepts": [
+      "Forces occur in equal, opposite pairs",
+      "Action and reaction act on two different objects",
+      "Action-reaction pairs never cancel each other out"
+    ],
+    "definitions": [
+      {
+        "term": "Newton's third law",
+        "definition": "When one object exerts a force on a second object, the second object exerts a force of equal magnitude and opposite direction on the first object."
+      },
+      {
+        "term": "Action-reaction pair",
+        "definition": "The two equal and opposite forces described by Newton's third law, acting on two different interacting objects."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A rocket engine expels exhaust gas downward with a force of 500,000 N. State the size and direction of the force the gas exerts on the rocket, and explain your reasoning.",
+        "steps": [
+          "Identify the action force: the rocket pushes the exhaust gas downward with 500,000 N.",
+          "Apply Newton's third law: the reaction force is equal in magnitude and opposite in direction.",
+          "The reaction force therefore acts upward on the rocket, with the same magnitude as the action force."
+        ],
+        "answer": "500,000 N, acting upward on the rocket."
+      }
+    ],
+    "practical_applications": [
+      "Rocket and jet engine propulsion",
+      "Walking, which relies on the ground pushing back on your foot as you push backward on the ground",
+      "Swimming and rowing, which rely on pushing water backward to be pushed forward"
+    ],
+    "common_mistakes": [
+      "Believing action-reaction pairs act on the same object and should therefore cancel out",
+      "Confusing an action-reaction pair (Newton's third law, two different objects) with a pair of balanced forces on a single object (Newton's first law)"
+    ],
+    "misconceptions": [
+      "That Newton's third law explains why an object is in equilibrium (stationary or at constant velocity) — this is actually explained by Newton's first law, using balanced forces on a single object; the third law describes a completely separate pair of forces acting on two different objects, and these forces are always equal, regardless of whether either object is accelerating."
+    ],
+    "tips": [
+      "When identifying an action-reaction pair, always check that the two forces act on two different objects — if both forces you've identified act on the same object, you have found a pair of balanced forces (Newton's first law), not a Newton's third law pair."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State Newton's third law."
+      ],
+      "intermediate": [
+        "A person leans against a wall, pushing on it with a force of 200 N. State the size and direction of the force the wall exerts on the person."
+      ],
+      "advanced": [
+        "Explain why, if action and reaction forces are always equal and opposite, a person can still accelerate forward when pushing off the ground while walking."
+      ]
+    },
+    "exam_questions": [
+      "Using Newton's third law, explain why a swimmer is propelled forward through the water when they push backward against it."
+    ],
+    "answers": {
+      "basic": [
+        "When one object exerts a force on a second object, the second object exerts an equal and opposite force back on the first object."
+      ],
+      "intermediate": [
+        "200 N, acting away from the wall (back onto the person)."
+      ],
+      "advanced": [
+        "The action-reaction pair (the person's foot pushing the ground backward, and the ground pushing the person's foot forward) acts on two different objects (the ground and the person) and does not cancel; the forward reaction force from the ground acts on the person alone, and since this is often the only significant horizontal force acting on the person, it produces their forward acceleration in accordance with Newton's second law."
+      ],
+      "exam": [
+        "When the swimmer pushes backward on the water (the action force), Newton's third law states that the water simultaneously pushes forward on the swimmer with an equal and opposite force (the reaction force); since this reaction force acts on the swimmer (a different object from the water), it is not cancelled and results in the swimmer accelerating forward."
+      ]
+    },
+    "summary": "Newton's third law states that forces always occur in equal, opposite pairs, with each force in the pair acting on a different object. Because the two forces act on different objects, they never cancel each other out.",
+    "revision_notes": [
+      "Every force has an equal, opposite reaction force",
+      "Action and reaction act on DIFFERENT objects",
+      "They never cancel (each acts on a separate object)"
+    ],
+    "related_topics": [
+      "Newton's First Law",
+      "Newton's Second Law",
+      "Force"
+    ],
+    "prerequisites": [
+      "Newton's First Law",
+      "Force"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A swimmer pushing water backward with one arrow, and the water pushing the swimmer forward with an equal-length arrow in the opposite direction]"
+    ],
+    "images": [
+      {
+        "filename": "physics-newtons-third-law-036-01.webp",
+        "type": "diagram",
+        "description": "A simple figure in the water with a blue arrow labelled 'swimmer pushes water backward' and a red arrow of equal length pointing the opposite way labelled 'water pushes swimmer forward', with a caption noting the forces act on different objects.",
+        "purpose": "Directly illustrates the core idea that action-reaction forces are equal, opposite, and act on two separate objects, addressing the most common misconception about this law.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-037",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Force",
+    "difficulty": "Foundational",
+    "description": "A push or pull acting on an object, capable of changing its motion, shape, or direction.",
+    "learning_objectives": [
+      "Define force as a vector quantity",
+      "Identify common types of force",
+      "Explain the effects a force can have on an object"
+    ],
+    "explanation": "A force is a push or pull that one object exerts on another. Force is a vector quantity, requiring both a magnitude and a direction to be fully described, and is measured in newtons (N). A force acting on an object can have several possible effects: it can change the object's speed (speeding it up or slowing it down), change its direction of motion, or change its shape (stretching, compressing, or bending it). Forces can act through direct contact (contact forces, such as friction, tension, normal reaction, and air resistance) or without direct contact, across a distance (non-contact or 'field' forces, such as gravitational force, electrostatic force, and magnetic force). Multiple forces can act on an object simultaneously, and their combined effect is described by the resultant force.",
+    "key_concepts": [
+      "Force = a push or pull, vector quantity",
+      "Can change speed, direction, or shape",
+      "Contact forces vs non-contact (field) forces"
+    ],
+    "definitions": [
+      {
+        "term": "Force",
+        "definition": "A push or pull exerted by one object on another, capable of changing an object's motion or shape."
+      },
+      {
+        "term": "Contact force",
+        "definition": "A force that requires the two interacting objects to be physically touching, such as friction or tension."
+      },
+      {
+        "term": "Non-contact (field) force",
+        "definition": "A force that acts between two objects without them touching, such as gravitational or magnetic force."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Classify each of the following as a contact force or a non-contact force: (a) friction between a book and a table, (b) the gravitational pull between the Earth and the Moon.",
+        "steps": [
+          "(a) Friction requires the book and table surfaces to be physically touching, so it is a contact force.",
+          "(b) The Earth and Moon exert a gravitational force on each other despite being separated by a large distance with no physical contact, so it is a non-contact force."
+        ],
+        "answer": "(a) Contact force; (b) Non-contact (field) force."
+      }
+    ],
+    "practical_applications": [
+      "Structural engineering, where forces on beams and supports must be calculated",
+      "Vehicle design, accounting for driving, braking, and resistive forces",
+      "Sports science analysis of forces involved in throwing, kicking, or jumping"
+    ],
+    "common_mistakes": [
+      "Describing a force with only a magnitude, omitting direction",
+      "Confusing mass (how much matter an object contains) with the gravitational force (weight) acting on it"
+    ],
+    "misconceptions": [
+      "That a force is only present when something is visibly moving or changing — balanced forces can be present and significant (e.g. holding an object stationary) even when there is no resulting motion."
+    ],
+    "tips": [
+      "When identifying forces on an object, separate them into contact forces (surfaces touching) and non-contact/field forces (acting at a distance) to avoid missing any."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the SI unit of force."
+      ],
+      "intermediate": [
+        "List three effects a force can have on an object."
+      ],
+      "advanced": [
+        "Explain why magnetic force is classified as a non-contact force, using an example."
+      ]
+    },
+    "exam_questions": [
+      "Define force, and give one example each of a contact force and a non-contact force."
+    ],
+    "answers": {
+      "basic": [
+        "Newton (N)."
+      ],
+      "intermediate": [
+        "Any three of: change an object's speed, change its direction, change its shape (stretch/compress/bend)."
+      ],
+      "advanced": [
+        "Magnetic force can act between two magnets, or between a magnet and a magnetic material, even when they are not physically touching and are separated by a gap (or even by a non-magnetic barrier such as a piece of card), which is why it is classified as a non-contact (field) force."
+      ],
+      "exam": [
+        "A force is a push or pull exerted by one object on another; example contact force: friction; example non-contact force: gravitational force."
+      ]
+    },
+    "summary": "A force is a push or pull, measured in newtons, capable of changing an object's speed, direction, or shape. Forces can be classified as contact forces (requiring touching objects) or non-contact/field forces (acting across a distance).",
+    "revision_notes": [
+      "Force = push or pull, vector, unit: newton (N)",
+      "Can change speed, direction, or shape",
+      "Contact forces (touching) vs non-contact/field forces (at a distance)"
+    ],
+    "related_topics": [
+      "Resultant Force",
+      "Newton's First Law",
+      "Mass",
+      "Weight"
+    ],
+    "prerequisites": [
+      "Vectors"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-038",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Resultant Force",
+    "difficulty": "Foundational",
+    "description": "The single overall force equivalent to the combined effect of all the individual forces acting on an object.",
+    "learning_objectives": [
+      "Define resultant force",
+      "Calculate the resultant of forces acting along the same line",
+      "Explain the significance of the resultant force being zero or non-zero"
+    ],
+    "explanation": "When more than one force acts on an object, its overall behaviour is determined not by the individual forces separately, but by their combined effect, called the resultant force (or net force). For forces acting along the same straight line, the resultant is found by adding forces acting in the same direction and subtracting those acting in the opposite direction. If the resultant force is zero, the forces are described as balanced, and by Newton's first law, the object's motion will not change. If the resultant force is non-zero, the forces are unbalanced, and by Newton's second law, the object will accelerate in the direction of the resultant force, with a magnitude of acceleration given by a = F/m. For forces that do not act along the same line, the resultant must be found using vector addition methods, as covered in Vector Addition and Resolution.",
+    "key_concepts": [
+      "Resultant force = combined effect of all forces acting on an object",
+      "Same-direction forces add; opposite-direction forces subtract",
+      "Zero resultant = balanced; non-zero resultant = unbalanced, causes acceleration"
+    ],
+    "definitions": [
+      {
+        "term": "Resultant force",
+        "definition": "The single force that has the same overall effect as all the individual forces acting on an object combined."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Resultant force along a line",
+        "equation": "resultant = sum of forces in positive direction − sum of forces in negative direction",
+        "variables": {}
+      }
+    ],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A box has a 30 N force pulling it to the right and an 18 N friction force acting to the left. Calculate the resultant force on the box.",
+        "steps": [
+          "Take the rightward direction as positive.",
+          "Resultant = 30 - 18."
+        ],
+        "answer": "12 N to the right"
+      }
+    ],
+    "practical_applications": [
+      "Calculating the net thrust needed for a vehicle or rocket to accelerate as required",
+      "Structural engineering analysis of combined loads on a beam or support",
+      "Analysing tug-of-war and other multi-force competitive scenarios"
+    ],
+    "common_mistakes": [
+      "Adding all forces together regardless of direction, instead of subtracting opposing forces",
+      "Forgetting to define a positive direction before combining forces with different signs"
+    ],
+    "misconceptions": [
+      "That a resultant force of zero means no forces are acting on the object at all — it means the forces present are exactly balanced, not absent."
+    ],
+    "tips": [
+      "Always define a positive direction before combining forces, and treat forces acting in the opposite direction as negative."
+    ],
+    "practice_questions": {
+      "basic": [
+        "Two forces of 10 N and 4 N act on an object in the same direction. Calculate the resultant force."
+      ],
+      "intermediate": [
+        "A skydiver experiences 800 N of weight downward and 500 N of air resistance upward. Calculate the resultant force, stating its direction."
+      ],
+      "advanced": [
+        "A tug-of-war team pulls with 2400 N and the opposing team pulls with 2550 N. Calculate the resultant force and describe what would happen to the rope."
+      ]
+    },
+    "exam_questions": [
+      "Explain what is meant by 'resultant force', and state what can be concluded about an object's motion if the resultant force acting on it is zero."
+    ],
+    "answers": {
+      "basic": [
+        "10 + 4 = 14 N."
+      ],
+      "intermediate": [
+        "800 - 500 = 300 N downward."
+      ],
+      "advanced": [
+        "2550 - 2400 = 150 N, in the direction of the stronger team; the rope (and both teams) would accelerate toward the stronger team."
+      ],
+      "exam": [
+        "Resultant force is the single overall force equivalent to the combined effect of all individual forces acting on an object; if the resultant force is zero, the object's velocity will not change (by Newton's first law) — it will remain at rest, or continue moving at constant velocity, if it was already doing so."
+      ]
+    },
+    "summary": "The resultant force is the overall combined effect of all forces acting on an object. For forces along the same line, same-direction forces add and opposite-direction forces subtract. A zero resultant means balanced forces (no change in motion); a non-zero resultant causes acceleration.",
+    "revision_notes": [
+      "Resultant = combine all forces (same direction add, opposite direction subtract)",
+      "Zero resultant = balanced, no change in motion",
+      "Non-zero resultant = acceleration (F = ma)"
+    ],
+    "related_topics": [
+      "Balanced Forces",
+      "Unbalanced Forces",
+      "Newton's Second Law"
+    ],
+    "prerequisites": [
+      "Force"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-039",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Balanced Forces",
+    "difficulty": "Foundational",
+    "description": "Forces acting on an object that combine to give a resultant force of zero, so the object's motion does not change.",
+    "learning_objectives": [
+      "Define balanced forces",
+      "Identify examples of objects with balanced forces acting on them",
+      "Explain the consequence of balanced forces using Newton's first law"
+    ],
+    "explanation": "Forces are described as balanced when they combine to produce a resultant force of zero. This does not necessarily mean no forces are acting on the object — it means that all the forces present cancel each other out exactly. By Newton's first law, an object with balanced forces acting on it will not change its motion: if it was stationary, it remains stationary; if it was moving at a constant velocity, it continues at that same constant velocity. Common examples include a book resting on a table (weight balanced by the normal reaction force from the table), and a car travelling at a genuinely constant speed on a flat road (driving force balanced by resistive forces such as friction and air resistance).",
+    "key_concepts": [
+      "Balanced forces = resultant force of zero",
+      "Object's motion does not change (Newton's first law)",
+      "Balanced does not mean 'no forces' — it means forces cancel"
+    ],
+    "definitions": [
+      {
+        "term": "Balanced forces",
+        "definition": "Two or more forces acting on an object that combine to give a resultant force of zero."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A picture frame hangs stationary on a wall, supported by a single nail. Explain, in terms of forces, why the frame remains stationary.",
+        "steps": [
+          "The frame's weight acts downward.",
+          "The nail exerts a supporting force on the frame, acting upward.",
+          "Since the frame remains stationary (its motion does not change), by Newton's first law the resultant force on it must be zero.",
+          "This means the upward supporting force from the nail must be exactly equal in magnitude to the frame's downward weight."
+        ],
+        "answer": "The frame's weight and the nail's supporting force are balanced (equal and opposite), giving a resultant force of zero, so by Newton's first law the frame's stationary state does not change."
+      }
+    ],
+    "practical_applications": [
+      "Structural engineering, ensuring supports balance the loads (weights) they carry",
+      "Designing stable, stationary structures such as bridges and buildings",
+      "Explaining why an object moving at constant velocity requires balanced, not zero, forces"
+    ],
+    "common_mistakes": [
+      "Assuming balanced forces means an object cannot be moving — a moving object at constant velocity also has balanced forces acting on it",
+      "Assuming balanced forces means the forces are equal in every respect other than direction (they must be equal in magnitude and exactly opposite in direction, and act along the same line, to cancel completely)"
+    ],
+    "misconceptions": [
+      "That an object with balanced forces experiences no forces at all — balanced forces can be very large, as long as they are equal and opposite."
+    ],
+    "tips": [
+      "Whenever a problem states an object is stationary or moving at constant velocity, immediately conclude the forces on it are balanced (resultant = zero) and use this to find any unknown force."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the resultant force on an object with balanced forces acting on it."
+      ],
+      "intermediate": [
+        "A crate rests on the floor with a weight of 400 N. State the size of the normal reaction force from the floor, explaining your reasoning."
+      ],
+      "advanced": [
+        "A parachutist falls at a constant velocity. Explain, in terms of balanced forces, what this tells you about their weight and air resistance."
+      ]
+    },
+    "exam_questions": [
+      "Explain what is meant by 'balanced forces', and state the effect they have on an object's motion, referring to Newton's first law."
+    ],
+    "answers": {
+      "basic": [
+        "Zero."
+      ],
+      "intermediate": [
+        "400 N, since the crate is stationary (not accelerating), the resultant force must be zero, so the upward normal reaction force must exactly balance the downward weight."
+      ],
+      "advanced": [
+        "Since the parachutist's velocity is constant, the resultant force on them must be zero, meaning their weight (downward) and air resistance (upward) must be equal in magnitude."
+      ],
+      "exam": [
+        "Balanced forces are two or more forces acting on an object that combine to give a resultant force of zero; by Newton's first law, an object with balanced forces acting on it will not change its motion — it will remain at rest if it was already at rest, or continue moving at constant velocity if it was already doing so."
+      ]
+    },
+    "summary": "Balanced forces combine to give a resultant force of zero. By Newton's first law, an object with balanced forces acting on it experiences no change in motion, whether it is stationary or moving at constant velocity.",
+    "revision_notes": [
+      "Balanced forces: resultant = 0",
+      "No change in motion (Newton's first law)",
+      "Can apply to stationary OR constant-velocity objects"
+    ],
+    "related_topics": [
+      "Unbalanced Forces",
+      "Resultant Force",
+      "Newton's First Law"
+    ],
+    "prerequisites": [
+      "Resultant Force",
+      "Newton's First Law"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A box with two equal-length arrows pointing in opposite directions, labelled with equal force values, showing a resultant of zero]"
+    ],
+    "images": [
+      {
+        "filename": "physics-balanced-unbalanced-forces-039-01.webp",
+        "type": "diagram",
+        "description": "Two side-by-side diagrams of a box with horizontal force arrows: the left panel shows two equal-length arrows in opposite directions labelled with equal force values and 'resultant = 0'; the right panel shows two unequal-length arrows with a labelled resultant arrow showing the net force and direction.",
+        "purpose": "Directly contrasts balanced and unbalanced force scenarios in one image, showing exactly how the resultant is found and what it means for the object's motion.",
+        "placement": "Directly after the explanation paragraph, before the worked example. (This image is shared with the Unbalanced Forces topic.)"
+      }
+    ]
+  },
+  {
+    "id": "phy-040",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Unbalanced Forces",
+    "difficulty": "Foundational",
+    "description": "Forces acting on an object that combine to give a non-zero resultant force, causing the object to accelerate.",
+    "learning_objectives": [
+      "Define unbalanced forces",
+      "Explain why unbalanced forces cause acceleration, using Newton's second law",
+      "Calculate the acceleration produced by a given set of unbalanced forces"
+    ],
+    "explanation": "Forces are described as unbalanced when they combine to give a resultant force that is not zero. By Newton's second law, a non-zero resultant force always produces an acceleration, calculated using F = ma, where F is the resultant (unbalanced) force. The direction of this acceleration is always the same as the direction of the resultant force. This means an object with unbalanced forces acting on it must be changing its velocity in some way: speeding up, slowing down, or changing direction. A common example is a car accelerating away from traffic lights, where the driving force from the engine exceeds the resistive forces acting against it, producing a net forward force and therefore a forward acceleration.",
+    "key_concepts": [
+      "Unbalanced forces = non-zero resultant force",
+      "Produces acceleration (Newton's second law, F = ma)",
+      "Acceleration direction matches resultant force direction"
+    ],
+    "definitions": [
+      {
+        "term": "Unbalanced forces",
+        "definition": "Two or more forces acting on an object that combine to give a resultant force that is not zero."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Acceleration from unbalanced (resultant) force",
+        "equation": "a = F / m",
+        "variables": {
+          "a": "acceleration, m/s^2",
+          "F": "resultant (unbalanced) force, N",
+          "m": "mass, kg"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A 1000 kg car experiences a driving force of 4500 N and a total resistive force of 1500 N. Calculate the car's acceleration.",
+        "steps": [
+          "Calculate the resultant (unbalanced) force: F = 4500 - 1500 = 3000 N.",
+          "Use Newton's second law: a = F / m.",
+          "Substitute: a = 3000 / 1000."
+        ],
+        "answer": "3 m/s^2"
+      }
+    ],
+    "practical_applications": [
+      "Calculating vehicle acceleration and braking performance",
+      "Rocket launch calculations, where thrust must exceed weight to achieve lift-off",
+      "Analysing the initial acceleration phase of any object starting from rest"
+    ],
+    "common_mistakes": [
+      "Using the total (rather than resultant) force when applying F = ma",
+      "Forgetting that an object can be unbalanced (accelerating) even while still moving in what looks like a steady direction, if its speed is changing"
+    ],
+    "misconceptions": [
+      "That an unbalanced force is needed just to keep an object moving — an unbalanced force is only needed to change an object's velocity (speed and/or direction); a constant velocity requires balanced forces, not unbalanced ones."
+    ],
+    "tips": [
+      "Whenever a problem states or implies an object is speeding up, slowing down, or changing direction, conclude that unbalanced forces are acting and that Newton's second law (F = ma) applies."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State what type of force (balanced or unbalanced) is needed to cause an object to accelerate."
+      ],
+      "intermediate": [
+        "A 5 kg object experiences a driving force of 30 N and a resistive force of 10 N. Calculate its acceleration."
+      ],
+      "advanced": [
+        "A rocket of mass 50,000 kg has an engine thrust of 700,000 N. Given the rocket's weight is 490,000 N, calculate its initial acceleration at launch."
+      ]
+    },
+    "exam_questions": [
+      "Explain, using Newton's second law, why unbalanced forces acting on an object cause it to accelerate."
+    ],
+    "answers": {
+      "basic": [
+        "Unbalanced forces (a non-zero resultant force)."
+      ],
+      "intermediate": [
+        "Resultant = 30 - 10 = 20 N. a = F/m = 20/5 = 4 m/s^2."
+      ],
+      "advanced": [
+        "Resultant (unbalanced) force = 700,000 - 490,000 = 210,000 N. a = F/m = 210,000 / 50,000 = 4.2 m/s^2."
+      ],
+      "exam": [
+        "By Newton's second law, F = ma; if the resultant force acting on an object is non-zero (unbalanced), then since mass cannot be zero, the equation requires a non-zero acceleration — unbalanced forces therefore always produce a change in velocity (acceleration), in the same direction as the resultant force."
+      ]
+    },
+    "summary": "Unbalanced forces combine to give a non-zero resultant force. By Newton's second law, this always produces an acceleration in the direction of the resultant force, calculated using a = F/m.",
+    "revision_notes": [
+      "Unbalanced forces: resultant not equal to 0",
+      "Produces acceleration: a = F/m",
+      "Acceleration direction = resultant force direction"
+    ],
+    "related_topics": [
+      "Balanced Forces",
+      "Resultant Force",
+      "Newton's Second Law"
+    ],
+    "prerequisites": [
+      "Resultant Force",
+      "Newton's Second Law"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-041",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Mass",
+    "difficulty": "Foundational",
+    "description": "The scalar quantity measuring the amount of matter in an object, and its resistance to a change in motion (inertia).",
+    "learning_objectives": [
+      "Define mass",
+      "Explain the relationship between mass and inertia",
+      "Distinguish mass from weight"
+    ],
+    "explanation": "Mass is a scalar quantity that measures the amount of matter contained in an object, measured in kilograms (kg). Mass is also directly linked to an object's inertia — its resistance to a change in its state of motion, as described in Newton's first law. An object with greater mass requires a greater force to produce the same acceleration as an object with smaller mass, as shown by Newton's second law, F = ma. Importantly, an object's mass is the same everywhere in the universe (on Earth, on the Moon, or in deep space), because it depends only on the amount of matter the object contains, unlike weight, which depends on the local gravitational field strength and therefore varies from place to place.",
+    "key_concepts": [
+      "Mass = amount of matter, scalar, unit: kg",
+      "Mass determines inertia (resistance to acceleration)",
+      "Mass is constant everywhere; weight is not"
+    ],
+    "definitions": [
+      {
+        "term": "Mass",
+        "definition": "A scalar quantity measuring the amount of matter contained in an object, measured in kilograms."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "mass",
+        "si_unit": "kilogram",
+        "symbol": "kg"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "An astronaut has a mass of 80 kg on Earth. State their mass on the Moon, explaining your reasoning.",
+        "steps": [
+          "Recall that mass depends only on the amount of matter in an object, not on the local gravitational field.",
+          "The astronaut's body contains exactly the same amount of matter on the Moon as on Earth.",
+          "Therefore their mass is unchanged."
+        ],
+        "answer": "80 kg (mass does not change with location, unlike weight)"
+      }
+    ],
+    "practical_applications": [
+      "Determining the payload capacity of vehicles, aircraft, and spacecraft",
+      "Calculating forces needed to accelerate objects of different mass in engineering",
+      "Distinguishing mass and weight correctly in scientific and medical contexts"
+    ],
+    "common_mistakes": [
+      "Using 'mass' and 'weight' interchangeably",
+      "Assuming an object's mass changes when it is taken to a location with different gravity, such as the Moon"
+    ],
+    "misconceptions": [
+      "That mass is measured in newtons — mass is measured in kilograms; newtons are the unit of force (including weight)."
+    ],
+    "tips": [
+      "Remember: mass never changes with location; weight always does, because weight depends on local gravitational field strength."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the SI unit of mass."
+      ],
+      "intermediate": [
+        "Explain why a 10 kg object has the same mass on Mars as it does on Earth."
+      ],
+      "advanced": [
+        "Explain, using Newton's second law, why a fully loaded truck accelerates more slowly than an empty truck under the same driving force."
+      ]
+    },
+    "exam_questions": [
+      "Explain the difference between mass and weight, referring to how each is affected (or not affected) by location."
+    ],
+    "answers": {
+      "basic": [
+        "Kilogram (kg)."
+      ],
+      "intermediate": [
+        "Mass depends only on the amount of matter in the object, which does not change when the object is moved to a different location, regardless of the gravitational field strength there."
+      ],
+      "advanced": [
+        "A fully loaded truck has a greater mass than an empty truck; by F = ma, for the same driving force F, a greater mass m results in a smaller acceleration a, so the loaded truck accelerates more slowly."
+      ],
+      "exam": [
+        "Mass is the amount of matter in an object, measured in kilograms, and does not change regardless of location; weight is the gravitational force acting on that mass, measured in newtons, and varies depending on the local gravitational field strength (e.g. an object's weight on the Moon is less than on Earth, even though its mass is unchanged)."
+      ]
+    },
+    "summary": "Mass is a scalar quantity measuring the amount of matter in an object, measured in kilograms. It determines an object's inertia and remains constant regardless of location, unlike weight.",
+    "revision_notes": [
+      "Mass = amount of matter, scalar, unit: kg",
+      "Determines inertia (resistance to acceleration)",
+      "Constant everywhere (unlike weight)"
+    ],
+    "related_topics": [
+      "Weight",
+      "Newton's First Law",
+      "Newton's Second Law"
+    ],
+    "prerequisites": [
+      "Scalars"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-042",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Weight",
+    "difficulty": "Foundational",
+    "description": "The gravitational force acting on an object's mass, which varies depending on the local gravitational field strength.",
+    "learning_objectives": [
+      "Define weight and state its formula",
+      "Calculate weight from mass and gravitational field strength",
+      "Distinguish weight from mass, and explain why weight varies with location"
+    ],
+    "explanation": "Weight is the force of gravity acting on an object's mass, and unlike mass, it is a vector quantity that always acts toward the centre of the gravitational body (e.g. straight down toward the Earth's centre). It is calculated using W = mg, where m is the object's mass and g is the gravitational field strength (numerically equal to the acceleration due to gravity) at that location. Because g varies from place to place — it is approximately 9.8 N/kg on Earth's surface, but only about 1.6 N/kg on the Moon, and essentially zero far out in deep space — an object's weight also varies with its location, even though its mass stays exactly the same. Weight is measured in newtons (N), the same unit as any other force, and is typically measured using a spring balance or force meter (called a newtonmeter), which measures force directly, as distinct from a mass balance, which compares mass.",
+    "key_concepts": [
+      "Weight = gravitational force on mass, vector, unit: N",
+      "W = mg",
+      "Weight varies with location (depends on g); mass does not"
+    ],
+    "definitions": [
+      {
+        "term": "Weight",
+        "definition": "The force of gravity acting on an object's mass, calculated as W = mg."
+      },
+      {
+        "term": "Gravitational field strength (g)",
+        "definition": "The gravitational force acting per unit mass at a given location, measured in N/kg, numerically equal to the local acceleration due to gravity."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Weight",
+        "equation": "W = mg",
+        "variables": {
+          "W": "weight, N",
+          "m": "mass, kg",
+          "g": "gravitational field strength, N/kg (approximately 9.8 N/kg on Earth's surface)"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "weight",
+        "si_unit": "newton",
+        "symbol": "N"
+      },
+      {
+        "quantity": "gravitational field strength",
+        "si_unit": "newton per kilogram",
+        "symbol": "N/kg"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Calculate the weight of a 60 kg person (a) on Earth, where g = 9.8 N/kg, and (b) on the Moon, where g = 1.6 N/kg.",
+        "steps": [
+          "(a) Use W = mg: W = 60 x 9.8.",
+          "(b) Use W = mg: W = 60 x 1.6."
+        ],
+        "answer": "(a) 588 N on Earth; (b) 96 N on the Moon (the person's mass, 60 kg, is unchanged in both cases)"
+      }
+    ],
+    "practical_applications": [
+      "Calculating structural loads in engineering, which depend on the weight of materials and occupants",
+      "Understanding why astronauts weigh less on the Moon despite having the same mass",
+      "Designing spring balances and force meters that measure weight directly"
+    ],
+    "common_mistakes": [
+      "Using mass (kg) directly as though it were weight (N)",
+      "Forgetting to use the correct local value of g for a given location"
+    ],
+    "misconceptions": [
+      "That an object becomes 'weightless' in space because it has no mass there — an object's mass is unchanged in space; apparent weightlessness in orbit is actually due to the object and its surroundings being in continuous free fall together, not due to zero gravitational field strength (which is still present, just weaker, at orbital altitude)."
+    ],
+    "tips": [
+      "Always check the units in a problem: if given in kg, that's mass; if given in N, that's weight (or another force)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation linking weight, mass, and gravitational field strength."
+      ],
+      "intermediate": [
+        "Calculate the weight of a 15 kg object on Earth, using g = 9.8 N/kg."
+      ],
+      "advanced": [
+        "A rock has a weight of 245 N on Earth (g = 9.8 N/kg). Calculate its mass, and state what its weight would be on the Moon (g = 1.6 N/kg)."
+      ]
+    },
+    "exam_questions": [
+      "Explain why an object's weight would be different on the Moon compared to on Earth, even though its mass is unchanged."
+    ],
+    "answers": {
+      "basic": [
+        "W = mg."
+      ],
+      "intermediate": [
+        "W = 15 x 9.8 = 147 N."
+      ],
+      "advanced": [
+        "m = W/g = 245/9.8 = 25 kg. Weight on the Moon = 25 x 1.6 = 40 N."
+      ],
+      "exam": [
+        "Weight depends on both an object's mass and the local gravitational field strength (W = mg); since the Moon has a smaller gravitational field strength than Earth (approximately 1.6 N/kg compared to 9.8 N/kg), an object of the same mass experiences a smaller gravitational force, and therefore has a smaller weight, on the Moon than on Earth."
+      ]
+    },
+    "summary": "Weight is the gravitational force acting on an object's mass, calculated as W = mg, and measured in newtons. Because gravitational field strength varies with location, an object's weight varies too, even though its mass remains constant.",
+    "revision_notes": [
+      "W = mg",
+      "Weight is a force (N); varies with location",
+      "g approximately 9.8 N/kg on Earth's surface"
+    ],
+    "related_topics": [
+      "Mass",
+      "Gravitational Field Strength",
+      "Acceleration Due to Gravity"
+    ],
+    "prerequisites": [
+      "Mass",
+      "Force"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-043",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Free-Body Diagrams",
+    "difficulty": "Intermediate",
+    "description": "Simplified diagrams showing all the forces acting on a single object, used to analyse and solve force problems.",
+    "learning_objectives": [
+      "Draw a free-body diagram for an object in a given scenario",
+      "Represent forces as labelled arrows with lengths reflecting their relative magnitude",
+      "Use a free-body diagram to find the resultant force on an object"
+    ],
+    "explanation": "A free-body diagram is a simplified sketch that isolates a single object of interest and shows all the forces acting directly on it, represented as labelled arrows. Each arrow's direction shows the direction of that force, and its length is often drawn roughly proportional to the force's magnitude, making it easier to spot at a glance whether the forces are balanced or unbalanced. Only forces acting on the object itself are included — forces the object exerts on other things (such as the reaction-pair partner from Newton's third law) are left out, since a free-body diagram focuses on a single object in isolation. Common forces included are weight (always acting straight down), normal reaction force (perpendicular to the surface the object rests on), applied forces, tension, friction, and air resistance or drag. Free-body diagrams are an essential first step in solving almost any problem involving multiple forces, since they make the resultant force, and therefore the object's likely acceleration, immediately clearer.",
+    "key_concepts": [
+      "Isolates a single object and shows only forces acting ON it",
+      "Arrows show direction; length can indicate relative magnitude",
+      "First step in analysing multi-force problems"
+    ],
+    "definitions": [
+      {
+        "term": "Free-body diagram",
+        "definition": "A simplified diagram showing a single object and all the forces acting directly on it, represented as labelled arrows."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A box of weight 50 N sits on a horizontal floor and is pushed with a horizontal force of 20 N, experiencing 8 N of friction. Describe the free-body diagram for this box, and state whether the box accelerates horizontally.",
+        "steps": [
+          "Vertically: draw the weight (50 N) pointing down, and the normal reaction force pointing up; since the box does not move vertically, these must be equal, so the normal reaction force is also 50 N.",
+          "Horizontally: draw the applied force (20 N) in the direction of the push, and friction (8 N) in the opposite direction.",
+          "Calculate the horizontal resultant: 20 - 8 = 12 N, in the direction of the push.",
+          "Since the horizontal resultant is non-zero, the box accelerates horizontally, in the direction of the applied force."
+        ],
+        "answer": "The free-body diagram shows four arrows (weight down, normal reaction up, applied force and friction horizontal); the box accelerates horizontally, since the horizontal forces are unbalanced (resultant = 12 N)."
+      }
+    ],
+    "practical_applications": [
+      "Engineering analysis of forces on structural components, vehicles, and machines",
+      "Solving physics problems systematically before applying Newton's laws",
+      "Analysing forces on objects on inclined surfaces (ramps)"
+    ],
+    "common_mistakes": [
+      "Including forces the object exerts on something else, rather than only forces acting on the object itself",
+      "Omitting a force (such as friction or air resistance) that is present but not explicitly mentioned in the problem",
+      "Drawing forces from the wrong point of application or in an inconsistent direction"
+    ],
+    "misconceptions": [
+      "That a free-body diagram needs to show the object's surroundings in detail — a free-body diagram deliberately simplifies the object to a single point or basic shape, with only the force arrows shown, to keep the focus on the forces alone."
+    ],
+    "tips": [
+      "Draw weight first (always straight down from the centre of the object), then work through contact forces systematically (normal reaction, friction, applied forces, tension) to avoid missing any."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State what a free-body diagram is used to show."
+      ],
+      "intermediate": [
+        "Sketch, in words, the free-body diagram for a ball falling through the air, before it reaches terminal velocity."
+      ],
+      "advanced": [
+        "Explain why the reaction-pair force from Newton's third law (e.g. the force the box exerts on the floor) is not included in a free-body diagram of the box."
+      ]
+    },
+    "exam_questions": [
+      "Draw and label, in words, the free-body diagram for a car travelling at constant velocity along a flat road, and use it to explain what this indicates about the forces acting on the car."
+    ],
+    "answers": {
+      "basic": [
+        "All the forces acting directly on a single, isolated object."
+      ],
+      "intermediate": [
+        "Two arrows: weight, pointing straight down (large, since it is unopposed early in the fall) and air resistance, pointing straight up (small at low speed, growing as speed increases)."
+      ],
+      "advanced": [
+        "A free-body diagram shows only the forces acting ON the chosen object (the box); the force the box exerts on the floor acts on a different object (the floor), not on the box, so it belongs on a free-body diagram of the floor, not of the box."
+      ],
+      "exam": [
+        "Four force arrows: weight (down), normal reaction (up, equal to weight since the car doesn't move vertically), driving force (forward), and resistive forces such as air resistance and friction (backward); since the car moves at constant velocity, by Newton's first law all forces must be balanced — the driving force must exactly equal the total resistive force, and weight must exactly equal the normal reaction force."
+      ]
+    },
+    "summary": "A free-body diagram isolates a single object and shows all the forces acting on it as labelled arrows, making it easier to find the resultant force and predict the object's motion using Newton's laws.",
+    "revision_notes": [
+      "Shows only forces acting ON the chosen object",
+      "Weight always drawn straight down",
+      "First step for solving multi-force problems"
+    ],
+    "related_topics": [
+      "Force",
+      "Resultant Force",
+      "Newton's Second Law"
+    ],
+    "prerequisites": [
+      "Force",
+      "Resultant Force"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A box on a surface with labelled arrows for weight, normal reaction, an applied force, and friction]"
+    ],
+    "images": [
+      {
+        "filename": "physics-free-body-diagrams-043-01.webp",
+        "type": "diagram",
+        "description": "A grey box resting on a horizontal surface, with four labelled coloured arrows: a red downward arrow for Weight, a green upward arrow for Normal reaction, a blue rightward arrow for Applied force, and an orange leftward arrow for Friction.",
+        "purpose": "Provides a clear worked example of exactly how a free-body diagram should look, showing all four common forces correctly positioned and labelled.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-044",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Friction",
+    "difficulty": "Foundational",
+    "description": "The resistive contact force that opposes relative motion (or attempted motion) between two surfaces in contact.",
+    "learning_objectives": [
+      "Define friction and state the direction in which it acts",
+      "Explain the factors that affect the size of friction",
+      "Describe advantages and disadvantages of friction in real situations"
+    ],
+    "explanation": "Friction is a contact force that opposes relative motion, or attempted motion, between two surfaces that are touching. It always acts in the direction opposing the motion (or attempted motion) of the object relative to the surface. Friction arises from the microscopic roughness of even seemingly smooth surfaces, which interlock and resist sliding past one another. The size of friction depends on the roughness of the two surfaces in contact (rougher surfaces generally produce greater friction) and the force pressing the surfaces together (a greater normal force generally increases friction). Friction is often undesirable, since it causes energy to be dissipated as heat and can wear down moving parts (which is why lubricants are used to reduce friction in machinery), but it is also essential in many everyday situations, such as walking, driving (tyres gripping the road), and holding objects in place.",
+    "key_concepts": [
+      "Friction opposes relative motion or attempted motion",
+      "Depends on surface roughness and the force pressing surfaces together",
+      "Can be reduced by lubrication or smoother surfaces"
+    ],
+    "definitions": [
+      {
+        "term": "Friction",
+        "definition": "A contact force that opposes the relative motion, or attempted motion, of two surfaces in contact with each other."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A worker tries to push a heavy crate across a rough floor by applying a 100 N force, but the crate does not move. Explain, in terms of friction, why this happens.",
+        "steps": [
+          "Since the crate does not move, its velocity is unchanged, so by Newton's first law the resultant force on it must be zero.",
+          "The applied force (100 N) must therefore be exactly balanced by an opposing force.",
+          "This opposing force is friction, acting between the crate and the floor, opposing the crate's attempted motion.",
+          "Friction in this case (before the crate starts to slide) adjusts up to a maximum value to match the applied force, keeping the resultant force at zero."
+        ],
+        "answer": "Friction between the crate and floor exactly balances the 100 N applied force, giving a resultant force of zero, so the crate remains stationary."
+      }
+    ],
+    "practical_applications": [
+      "Vehicle tyre design, which relies on friction (grip) with the road for acceleration, braking, and steering",
+      "Lubrication in engines and machinery to reduce unwanted friction and wear",
+      "Designing shoe soles and flooring to provide appropriate friction (grip) for safety"
+    ],
+    "common_mistakes": [
+      "Assuming friction always acts to slow an object down in an absolute sense, rather than opposing relative motion between the specific surfaces in contact",
+      "Believing friction is always undesirable, when it is often essential (e.g. for walking or braking)"
+    ],
+    "misconceptions": [
+      "That friction only exists once an object is already sliding — friction (specifically, static friction) can also act on a stationary object to prevent it from starting to move, up to a certain maximum value, before it 'gives way' and the object begins to slide."
+    ],
+    "tips": [
+      "Draw the friction arrow opposing the direction of motion (or the direction an object would move if friction were absent), not necessarily opposite to any single applied force."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the direction in which friction acts relative to an object's motion."
+      ],
+      "intermediate": [
+        "Explain why a rough surface generally produces more friction than a smooth, polished surface."
+      ],
+      "advanced": [
+        "Explain why oiling the moving parts of a bicycle chain reduces friction, and describe one disadvantage of friction that this addresses."
+      ]
+    },
+    "exam_questions": [
+      "Describe one situation in which friction is useful, and one situation in which friction is undesirable, explaining your reasoning in each case."
+    ],
+    "answers": {
+      "basic": [
+        "Opposing the object's relative motion (or attempted motion) relative to the surface it is in contact with."
+      ],
+      "intermediate": [
+        "A rough surface has more microscopic irregularities that interlock with the irregularities of the other surface, increasing the resistance to sliding, and therefore increasing friction."
+      ],
+      "advanced": [
+        "Oil creates a thin layer between the moving metal surfaces, reducing the direct contact and interlocking between their microscopic irregularities, which reduces friction; this addresses the disadvantage that friction between moving mechanical parts generates heat and causes wear, reducing the lifespan and efficiency of the mechanism."
+      ],
+      "exam": [
+        "Useful: friction between shoes and the ground allows a person to walk without slipping, since the grip prevents the foot sliding backward when pushing off. Undesirable: friction inside a car engine between moving parts generates heat and wastes energy, reducing the engine's efficiency, which is why engines use oil as a lubricant."
+      ]
+    },
+    "summary": "Friction is a contact force that opposes relative motion or attempted motion between two touching surfaces. It depends on surface roughness and the force pressing the surfaces together, and can be both useful (grip) and undesirable (energy loss, wear).",
+    "revision_notes": [
+      "Friction opposes relative motion/attempted motion",
+      "Depends on surface roughness and normal force",
+      "Reduced by lubrication or smoother surfaces"
+    ],
+    "related_topics": [
+      "Drag",
+      "Force",
+      "Free-Body Diagrams"
+    ],
+    "prerequisites": [
+      "Force"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-045",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Drag",
+    "difficulty": "Foundational",
+    "description": "The resistive force that opposes the motion of an object moving through a fluid, such as air or water.",
+    "learning_objectives": [
+      "Define drag as a resistive fluid force",
+      "Identify factors affecting the size of drag",
+      "Distinguish drag from friction between solid surfaces"
+    ],
+    "explanation": "Drag is a resistive force that acts on an object moving through a fluid (a liquid or a gas), opposing its direction of motion through that fluid. Air resistance, covered in its own topic, is a specific and very common example of drag, but the same principle applies to objects moving through water or any other fluid. Like friction, drag opposes motion, but drag specifically arises from an object pushing through a fluid's molecules rather than from two solid surfaces sliding against each other. The size of drag depends on the object's speed (increasing sharply as speed increases), its shape and cross-sectional area (streamlined shapes reduce drag), and the density and viscosity of the fluid it is moving through (thicker, denser fluids produce more drag for the same speed and shape).",
+    "key_concepts": [
+      "Drag opposes motion through a fluid",
+      "Increases with speed, cross-sectional area, and fluid density/viscosity",
+      "Reduced by streamlining"
+    ],
+    "definitions": [
+      {
+        "term": "Drag",
+        "definition": "A resistive force that opposes the motion of an object moving through a fluid (liquid or gas)."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain why a submarine designed to move efficiently through water has a smooth, streamlined, torpedo-like shape rather than a boxy shape.",
+        "steps": [
+          "A boxy shape has a larger effective cross-sectional area pushing directly against the water as it moves, and creates more turbulent flow around it.",
+          "A smooth, streamlined shape allows water to flow around the submarine more easily, with less turbulence.",
+          "Both effects reduce the drag force acting on the submarine for a given speed.",
+          "Lower drag means less force (and therefore less energy) is needed to maintain a given speed underwater."
+        ],
+        "answer": "The streamlined shape reduces drag, allowing the submarine to move through water more efficiently, using less force and energy for a given speed."
+      }
+    ],
+    "practical_applications": [
+      "Streamlined design of ships, submarines, and aircraft to reduce fuel consumption",
+      "Swimwear and swimming technique designed to reduce drag through water",
+      "Engineering of pipelines and fluid transport systems, where drag affects flow efficiency"
+    ],
+    "common_mistakes": [
+      "Treating drag and friction as exactly the same phenomenon, rather than recognising drag specifically involves motion through a fluid",
+      "Assuming drag is the same in water and air for objects of the same shape and speed, ignoring the difference in fluid density"
+    ],
+    "misconceptions": [
+      "That drag only matters for fast-moving objects like aircraft or racing cars — drag affects any object moving through any fluid, including slow-moving objects like a person walking through water, even if its effect is less dramatic at lower speeds."
+    ],
+    "tips": [
+      "Remember that air resistance is simply a specific, very common example of the more general concept of drag, which applies to motion through any fluid."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the general term for a resistive force opposing motion through a fluid."
+      ],
+      "intermediate": [
+        "Explain why a swimmer wearing a rough, baggy swimsuit experiences more drag than one wearing a smooth, fitted swimsuit."
+      ],
+      "advanced": [
+        "Explain why drag on a boat's hull is typically much greater than air resistance on a car travelling at the same speed, even though both experience 'drag' in a general sense."
+      ]
+    },
+    "exam_questions": [
+      "Define drag, and describe two factors that affect the size of the drag force acting on a moving object."
+    ],
+    "answers": {
+      "basic": [
+        "Drag."
+      ],
+      "intermediate": [
+        "The rough, baggy swimsuit increases the effective surface area and turbulence around the swimmer's body, increasing drag, whereas a smooth, fitted swimsuit reduces both, resulting in less drag for the same swimming speed."
+      ],
+      "advanced": [
+        "Water is far denser and more viscous than air, so for the same speed and a broadly similar frontal area, an object moving through water experiences a much larger drag force than an object moving through air, since drag increases with the density of the fluid the object is moving through."
+      ],
+      "exam": [
+        "Drag is a resistive force that opposes the motion of an object moving through a fluid, such as air or water; it is affected by the object's speed (drag increases as speed increases) and by the density/viscosity of the fluid (a denser or more viscous fluid produces more drag for the same speed and shape)."
+      ]
+    },
+    "summary": "Drag is a resistive force opposing the motion of an object through a fluid, increasing with speed, cross-sectional area, and fluid density/viscosity, and reduced by streamlining. Air resistance is a specific, common example of drag.",
+    "revision_notes": [
+      "Drag opposes motion through a fluid (liquid or gas)",
+      "Increases with speed, area, fluid density/viscosity",
+      "Air resistance is a specific example of drag"
+    ],
+    "related_topics": [
+      "Air Resistance",
+      "Friction",
+      "Terminal Velocity"
+    ],
+    "prerequisites": [
+      "Air Resistance"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-046",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Tension",
+    "difficulty": "Foundational",
+    "description": "The pulling force transmitted through a rope, cable, string, or similar object when it is stretched taut.",
+    "learning_objectives": [
+      "Define tension",
+      "Identify tension forces in common scenarios such as ropes and cables",
+      "Explain how tension acts equally along a light, inextensible string"
+    ],
+    "explanation": "Tension is the pulling force transmitted along a rope, string, cable, or similar flexible connector when it is pulled taut by forces at each end. Tension acts along the length of the connector and pulls inward on whatever is attached at each end, rather than pushing (a rope cannot 'push' the way a rigid rod can). For an idealised light (massless) and inextensible string, the tension is the same at every point along its length, meaning it pulls equally on the objects at both ends. Tension is commonly encountered in problems involving objects hanging from strings or cables, objects connected by a rope over a pulley, and towing scenarios where one vehicle pulls another.",
+    "key_concepts": [
+      "Tension = pulling force along a rope/string/cable",
+      "Acts inward, along the length of the connector",
+      "Uniform throughout a light, inextensible string"
+    ],
+    "definitions": [
+      {
+        "term": "Tension",
+        "definition": "The pulling force transmitted through a rope, string, cable, or similar connector when it is stretched taut."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A 2 kg mass hangs stationary from a light string attached to the ceiling. Calculate the tension in the string (use g = 9.8 N/kg).",
+        "steps": [
+          "Since the mass is stationary, by Newton's first law the resultant force on it is zero.",
+          "The two forces acting on the mass are its weight (downward) and the tension in the string (upward), so these must be equal.",
+          "Calculate the weight: W = mg = 2 x 9.8.",
+          "Since tension balances weight, tension = weight."
+        ],
+        "answer": "Tension = 19.6 N"
+      }
+    ],
+    "practical_applications": [
+      "Designing cranes, lifts, and cable systems to withstand the required tension safely",
+      "Analysing suspension bridges, where cables experience large tension forces",
+      "Rock climbing and rigging, where rope tension must be understood for safety"
+    ],
+    "common_mistakes": [
+      "Treating a rope or string as capable of pushing an object, when it can only pull (exert tension)",
+      "Assuming tension is different at each end of a light, frictionless string over a pulley, when it is actually the same throughout"
+    ],
+    "misconceptions": [
+      "That a heavier object always increases the tension throughout an entire system of connected ropes and pulleys equally — the tension in each specific section of rope depends on the specific forces and motion of that section, and different sections can have different tensions in more complex systems (e.g. with multiple pulleys or masses)."
+    ],
+    "tips": [
+      "Remember that a string or rope can only pull, never push — always draw tension arrows pointing inward, along the direction of the rope, from the object toward the point of attachment."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State whether a rope can push or pull an object connected to it."
+      ],
+      "intermediate": [
+        "A 5 kg lamp hangs stationary from a cable. Calculate the tension in the cable, using g = 9.8 N/kg."
+      ],
+      "advanced": [
+        "Two people pull on opposite ends of a rope with equal and opposite 200 N forces, and the rope does not move. State the tension throughout the rope, explaining your reasoning."
+      ]
+    },
+    "exam_questions": [
+      "Define tension, and explain why the tension is the same throughout a light, inextensible string passing over a frictionless pulley."
+    ],
+    "answers": {
+      "basic": [
+        "A rope can only pull (exert tension), not push."
+      ],
+      "intermediate": [
+        "Weight = mg = 5 x 9.8 = 49 N; since the lamp is stationary, tension = weight = 49 N."
+      ],
+      "advanced": [
+        "200 N throughout the rope; since the string is light (massless) and the pulley/rope is frictionless, no energy or force is lost along its length, so the same tension is transmitted from one end to the other."
+      ],
+      "exam": [
+        "Tension is the pulling force transmitted through a rope, string, or cable when it is stretched taut; for a light (massless), inextensible string, since it has no mass to accelerate and does not stretch, the net force on any small section of the string must be zero, which requires the pulling force (tension) to be the same at every point along its length, including over a frictionless pulley, which does not add or remove force from the string."
+      ]
+    },
+    "summary": "Tension is the pulling force transmitted along a taut rope, string, or cable, acting inward at each end. For a light, inextensible string, the tension is the same throughout its length.",
+    "revision_notes": [
+      "Tension = pulling force along a rope/string/cable",
+      "Can only pull, never push",
+      "Uniform along a light, inextensible string"
+    ],
+    "related_topics": [
+      "Force",
+      "Free-Body Diagrams",
+      "Equilibrium"
+    ],
+    "prerequisites": [
+      "Force"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-047",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Normal Reaction Force",
+    "difficulty": "Foundational",
+    "description": "The contact force exerted by a surface on an object resting on it, acting perpendicular to the surface.",
+    "learning_objectives": [
+      "Define the normal reaction force",
+      "Explain why the normal reaction force always acts perpendicular to the supporting surface",
+      "Calculate the normal reaction force for an object resting on a horizontal surface"
+    ],
+    "explanation": "The normal reaction force (often just called the 'normal force') is the contact force exerted by a surface on an object that is resting on, or pressing against, it. This force always acts perpendicular (at a right angle) to the surface, regardless of the surface's orientation — for a horizontal surface, the normal force acts straight up; for a sloped surface, it acts at an angle, perpendicular to that slope. The normal reaction force arises as a consequence of Newton's third law: the object presses down on the surface (due to its weight and any other downward forces), and the surface simultaneously pushes back on the object with an equal and opposite force. For an object resting on a horizontal surface with no other vertical forces present, the normal reaction force is equal in magnitude to the object's weight, since the object does not accelerate vertically.",
+    "key_concepts": [
+      "Acts perpendicular to the surface",
+      "Arises from Newton's third law (object pushes on surface, surface pushes back)",
+      "For horizontal surface with no other vertical forces: normal force = weight"
+    ],
+    "definitions": [
+      {
+        "term": "Normal reaction force",
+        "definition": "The contact force exerted by a surface on an object resting on it, acting perpendicular to that surface."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Normal force on a flat horizontal surface (no other vertical forces)",
+        "equation": "N = W",
+        "variables": {
+          "N": "normal reaction force, N",
+          "W": "weight of the object, N"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A 4 kg object rests on a horizontal table, with no other vertical forces acting on it. Calculate the normal reaction force from the table (use g = 9.8 N/kg).",
+        "steps": [
+          "Calculate the weight of the object: W = mg = 4 x 9.8.",
+          "Since the object is stationary and there are no other vertical forces, the normal reaction force must balance the weight exactly."
+        ],
+        "answer": "Weight = 39.2 N, so normal reaction force N = 39.2 N"
+      }
+    ],
+    "practical_applications": [
+      "Structural engineering, calculating the support forces (reactions) at the base of buildings and bridges",
+      "Analysing objects on inclined surfaces (ramps), where the normal force must be resolved using trigonometry",
+      "Understanding why objects feel 'heavier' or 'lighter' in an accelerating lift, due to a changing normal reaction force"
+    ],
+    "common_mistakes": [
+      "Assuming the normal reaction force always equals weight, even when other vertical forces (such as a downward or upward applied force) are also present",
+      "Drawing the normal reaction force in the wrong direction on an inclined surface (it should be perpendicular to the slope, not straight up)"
+    ],
+    "misconceptions": [
+      "That the normal reaction force is always equal to weight in every situation — this is only true when the surface is horizontal and no other vertical forces are acting; if there is an additional vertical force (e.g. someone pressing down on the object) or the surface is sloped, the normal force will be different from the object's weight."
+    ],
+    "tips": [
+      "Remember 'normal' here means perpendicular (a mathematical use of the word), not 'typical' — always draw this force at a right angle to the specific surface in the problem."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the direction in which the normal reaction force acts, relative to the surface."
+      ],
+      "intermediate": [
+        "A 7 kg box rests on a horizontal floor, with someone also pressing down on it with an additional 20 N force. Calculate the normal reaction force from the floor (use g = 9.8 N/kg)."
+      ],
+      "advanced": [
+        "Explain why the normal reaction force on a book resting on a sloped ramp is less than the book's weight."
+      ]
+    },
+    "exam_questions": [
+      "Explain, using Newton's third law, why a surface exerts a normal reaction force on an object resting on it."
+    ],
+    "answers": {
+      "basic": [
+        "Perpendicular (at a right angle) to the surface."
+      ],
+      "intermediate": [
+        "Weight = 7 x 9.8 = 68.6 N. Total downward force = 68.6 + 20 = 88.6 N. Since the box is stationary, normal reaction force N = 88.6 N."
+      ],
+      "advanced": [
+        "On a sloped surface, the normal reaction force acts perpendicular to the slope, not directly opposite to the book's weight (which acts straight down); resolving the weight into components perpendicular and parallel to the slope shows that only part of the weight (the perpendicular component) is balanced by the normal reaction force, so the normal reaction force is smaller than the full weight."
+      ],
+      "exam": [
+        "By Newton's third law, when an object presses down on a surface (exerting a force on the surface due to its weight and any other downward forces), the surface simultaneously exerts an equal and opposite force back on the object; this reaction force, acting perpendicular to the surface, is the normal reaction force."
+      ]
+    },
+    "summary": "The normal reaction force is the perpendicular contact force a surface exerts on an object resting on it, arising from Newton's third law. On a horizontal surface with no other vertical forces, it equals the object's weight.",
+    "revision_notes": [
+      "Normal force acts perpendicular to the surface",
+      "Arises from Newton's third law",
+      "N = W only for horizontal surface, no other vertical forces"
+    ],
+    "related_topics": [
+      "Newton's Third Law",
+      "Weight",
+      "Free-Body Diagrams"
+    ],
+    "prerequisites": [
+      "Newton's Third Law",
+      "Weight"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-048",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Elastic Forces",
+    "difficulty": "Foundational",
+    "description": "The restoring forces exerted by a stretched or compressed elastic object, such as a spring, as it tends to return to its original shape.",
+    "learning_objectives": [
+      "Define an elastic force",
+      "Explain the direction in which an elastic (restoring) force acts",
+      "Distinguish elastic deformation from plastic deformation at an introductory level"
+    ],
+    "explanation": "An elastic force is the restoring force exerted by an object, such as a spring or an elastic band, when it is stretched or compressed away from its natural (unstretched) shape. This force always acts in the direction that would return the object to its original shape: a stretched spring pulls inward at both ends (trying to shorten back to its natural length), while a compressed spring pushes outward at both ends (trying to expand back to its natural length). As long as an object is not stretched or compressed beyond its elastic limit, it will return completely to its original shape once the deforming force is removed, and the relationship between the applied force and the resulting extension or compression is often linear, as described by Hooke's law. If stretched beyond the elastic limit, the object undergoes permanent (plastic) deformation and will not fully return to its original shape.",
+    "key_concepts": [
+      "Elastic force acts to restore original shape",
+      "Stretched object pulls inward; compressed object pushes outward",
+      "Only fully reversible below the elastic limit"
+    ],
+    "definitions": [
+      {
+        "term": "Elastic force",
+        "definition": "The restoring force exerted by a deformed elastic object, acting in the direction that would return it to its original shape."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A spring is stretched by pulling both ends outward. Describe the direction of the elastic force the spring exerts on each hand pulling it.",
+        "steps": [
+          "The spring's elastic force acts to restore its original (shorter) length.",
+          "This means the spring pulls inward at both ends, back toward its centre.",
+          "The force on each hand is therefore directed inward, opposing the stretching."
+        ],
+        "answer": "The spring pulls inward on both hands, opposing the stretching force applied to it."
+      }
+    ],
+    "practical_applications": [
+      "Spring-based mechanisms such as scales, suspension systems, and mattresses",
+      "Elastic materials in clothing and sports equipment (e.g. bungee cords, trampolines)",
+      "Engineering design of components that must flex and return to shape repeatedly, such as vehicle suspension"
+    ],
+    "common_mistakes": [
+      "Assuming a stretched spring pushes outward rather than pulling inward",
+      "Assuming an elastic force is constant regardless of how far an object is stretched or compressed"
+    ],
+    "misconceptions": [
+      "That all deformed materials will always return to their original shape once released — this is only true for elastic deformation, below the material's elastic limit; beyond this point, the deformation becomes permanent (plastic)."
+    ],
+    "tips": [
+      "Always draw an elastic (restoring) force pointing toward the object's natural, undeformed shape, whether it has been stretched or compressed."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the direction in which the elastic force of a stretched spring acts."
+      ],
+      "intermediate": [
+        "A trampoline surface is pushed down by a jumper. Describe the direction of the elastic force the trampoline surface exerts in response."
+      ],
+      "advanced": [
+        "Explain why an elastic band that has been stretched far beyond its elastic limit does not return to its original length when released."
+      ]
+    },
+    "exam_questions": [
+      "Explain what is meant by an elastic force, and describe the direction in which it acts for both a stretched and a compressed spring."
+    ],
+    "answers": {
+      "basic": [
+        "Inward (pulling), toward its natural, unstretched length."
+      ],
+      "intermediate": [
+        "The trampoline surface, having been stretched downward, exerts an elastic force pushing back upward, toward its original (flatter) shape, which is what propels the jumper back upward."
+      ],
+      "advanced": [
+        "Once stretched beyond its elastic limit, the material undergoes permanent (plastic) deformation — the internal structure of the material has been permanently altered, so it can no longer fully return to its original shape and length even once the stretching force is removed."
+      ],
+      "exam": [
+        "An elastic force is the restoring force exerted by a deformed elastic object, acting in the direction that would return it to its original shape; a stretched spring exerts an inward (pulling) force at each end, trying to shorten back to its natural length, while a compressed spring exerts an outward (pushing) force at each end, trying to expand back to its natural length."
+      ]
+    },
+    "summary": "An elastic force is the restoring force exerted by a stretched or compressed object, acting to return it to its original shape. It only produces full reversible restoration below the object's elastic limit.",
+    "revision_notes": [
+      "Stretched spring: pulls inward; compressed spring: pushes outward",
+      "Restoring force acts toward original (undeformed) shape",
+      "Only reversible below the elastic limit"
+    ],
+    "related_topics": [
+      "Hooke's Law",
+      "Spring Constant",
+      "Elastic Limit",
+      "Elastic Deformation"
+    ],
+    "prerequisites": [
+      "Force"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-049",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Hooke's Law",
+    "difficulty": "Intermediate",
+    "description": "The principle that the extension of a spring is directly proportional to the force applied to it, up to its elastic limit.",
+    "learning_objectives": [
+      "State Hooke's law and its equation",
+      "Calculate the force, extension, or spring constant using Hooke's law",
+      "Interpret a force-extension graph, including the elastic limit"
+    ],
+    "explanation": "Hooke's law states that the extension of a spring (or other elastic object) is directly proportional to the force applied to it, as long as the object is not stretched beyond its elastic limit. This relationship is expressed by the equation F = kx, where F is the applied force, x is the extension (the increase in length from the object's natural, unstretched length), and k is the spring constant, a measure of the spring's stiffness. On a force-extension graph, this relationship appears as a straight line passing through the origin, for as long as Hooke's law is obeyed. Beyond a certain point, called the elastic limit (or limit of proportionality), the relationship between force and extension is no longer linear, and the graph curves away from the straight line; stretching a spring beyond its elastic limit also means it will not return fully to its original length once the force is removed, as covered in Elastic Limit and Plastic Deformation.",
+    "key_concepts": [
+      "F = kx",
+      "Extension directly proportional to force, up to the elastic limit",
+      "Straight line through origin on force-extension graph, up to elastic limit"
+    ],
+    "definitions": [
+      {
+        "term": "Hooke's law",
+        "definition": "The extension of a spring is directly proportional to the force applied to it, provided the elastic limit is not exceeded."
+      },
+      {
+        "term": "Extension",
+        "definition": "The increase in the length of a spring or elastic object from its original, natural (unstretched) length."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Hooke's law",
+        "equation": "F = kx",
+        "variables": {
+          "F": "applied force (or the spring's elastic/restoring force), N",
+          "k": "spring constant, N/m",
+          "x": "extension, m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      },
+      {
+        "quantity": "extension",
+        "si_unit": "metre",
+        "symbol": "m"
+      },
+      {
+        "quantity": "spring constant",
+        "si_unit": "newton per metre",
+        "symbol": "N/m"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A spring with a spring constant of 40 N/m is stretched by a force of 6 N. Calculate the extension of the spring, assuming the elastic limit is not exceeded.",
+        "steps": [
+          "Use F = kx, rearranged to find x: x = F / k.",
+          "Substitute the values: x = 6 / 40."
+        ],
+        "answer": "0.15 m"
+      }
+    ],
+    "practical_applications": [
+      "Designing springs for scales, suspension systems, and mechanical devices with a known, predictable response to force",
+      "Calibrating force meters (newtonmeters), which typically use a spring obeying Hooke's law",
+      "Engineering safety margins to ensure components stay within their elastic limit under normal use"
+    ],
+    "common_mistakes": [
+      "Applying F = kx beyond the elastic limit, where the relationship is no longer linear and the equation no longer applies",
+      "Confusing extension (the increase in length) with the total, final length of the spring"
+    ],
+    "misconceptions": [
+      "That Hooke's law applies to any amount of stretching of a spring — it is only valid up to the elastic limit; beyond this point, force and extension are no longer directly proportional, and F = kx cannot be used to make accurate predictions."
+    ],
+    "tips": [
+      "Always check whether a problem states or implies the elastic limit has been exceeded before applying F = kx.",
+      "Remember that x represents the change in length (extension), not the spring's total length."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State Hooke's law in words."
+      ],
+      "intermediate": [
+        "A spring extends by 0.08 m when a force of 12 N is applied. Calculate the spring constant."
+      ],
+      "advanced": [
+        "A spring obeys Hooke's law up to an extension of 0.2 m, beyond which its behaviour becomes non-linear. Explain what would happen to the shape of a force-extension graph for this spring if it were stretched to 0.3 m, and why F = kx could no longer be used accurately for that portion of the graph."
+      ]
+    },
+    "exam_questions": [
+      "A spring has a spring constant of 25 N/m. Calculate the force needed to extend it by 0.12 m, and state the condition under which this calculation is valid."
+    ],
+    "answers": {
+      "basic": [
+        "The extension of a spring is directly proportional to the force applied to it, provided its elastic limit is not exceeded."
+      ],
+      "intermediate": [
+        "k = F / x = 12 / 0.08 = 150 N/m."
+      ],
+      "advanced": [
+        "Up to 0.2 m extension, the graph would be a straight line through the origin; beyond 0.2 m (up to 0.3 m), the graph would curve away from this straight line, since the extension is no longer directly proportional to the applied force — F = kx assumes a constant, linear relationship (a fixed spring constant), which no longer accurately describes the spring's behaviour once this proportionality breaks down beyond the elastic limit."
+      ],
+      "exam": [
+        "F = kx = 25 x 0.12 = 3 N; this calculation is valid provided the spring's elastic limit has not been exceeded by this extension, so that force and extension remain directly proportional."
+      ]
+    },
+    "summary": "Hooke's law states that the extension of a spring is directly proportional to the applied force, expressed as F = kx, up to the spring's elastic limit. Beyond this limit, the relationship is no longer linear.",
+    "revision_notes": [
+      "F = kx",
+      "Only valid up to the elastic limit",
+      "Straight line through origin on force-extension graph (within limit)"
+    ],
+    "related_topics": [
+      "Spring Constant",
+      "Elastic Limit",
+      "Elastic Forces",
+      "Elastic Deformation"
+    ],
+    "prerequisites": [
+      "Elastic Forces"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A force-extension graph showing a straight line through the origin up to the elastic limit, then curving beyond it]"
+    ],
+    "images": [
+      {
+        "filename": "physics-hookes-law-049-01.webp",
+        "type": "graph",
+        "description": "A force-extension graph with a straight blue line through the origin up to a marked 'elastic limit', beyond which a red curved line shows the non-linear region, with a legend distinguishing the two regions.",
+        "purpose": "Shows students exactly where Hooke's law applies (the linear region) and where it breaks down (beyond the elastic limit), reinforcing the key condition attached to the law.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-050",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Spring Constant",
+    "difficulty": "Intermediate",
+    "description": "A measure of the stiffness of a spring, defined as the force required to produce a unit extension, within Hooke's law.",
+    "learning_objectives": [
+      "Define the spring constant and state its unit",
+      "Calculate the spring constant from force and extension data, or from a force-extension graph",
+      "Compare the stiffness of different springs using their spring constants"
+    ],
+    "explanation": "The spring constant, given the symbol k, is a measure of how stiff a spring is — specifically, how much force is required to produce a given extension. It appears in Hooke's law, F = kx, and is calculated by rearranging this equation: k = F/x. A spring with a large spring constant is stiff, requiring a large force to produce even a small extension; a spring with a small spring constant is soft, or 'floppy', stretching a lot for only a small applied force. The spring constant can also be found from the gradient of a force-extension graph (for the straight-line, Hooke's-law-obeying portion of the graph), since gradient = change in force / change in extension, which is exactly the definition of k. The spring constant is a fixed property of a particular spring (depending on its material, thickness, and coil geometry), and remains constant only within the region where Hooke's law is obeyed.",
+    "key_concepts": [
+      "k = F/x (rearranged Hooke's law)",
+      "Large k = stiff spring; small k = soft spring",
+      "k = gradient of the linear region of a force-extension graph"
+    ],
+    "definitions": [
+      {
+        "term": "Spring constant",
+        "definition": "A measure of a spring's stiffness, equal to the force required to produce a unit extension, calculated as k = F/x."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Spring constant",
+        "equation": "k = F / x",
+        "variables": {
+          "k": "spring constant, N/m",
+          "F": "applied force, N",
+          "x": "extension, m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "spring constant",
+        "si_unit": "newton per metre",
+        "symbol": "N/m"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A spring extends by 0.05 m when a 10 N force is applied. Calculate the spring constant.",
+        "steps": [
+          "Use k = F / x.",
+          "Substitute the values: k = 10 / 0.05."
+        ],
+        "answer": "200 N/m"
+      },
+      {
+        "problem": "A force-extension graph for a spring shows a straight line passing through (0 m, 0 N) and (0.1 m, 15 N). Find the spring constant.",
+        "steps": [
+          "Recognise that the spring constant equals the gradient of this straight-line section.",
+          "gradient = change in force / change in extension = (15 - 0) / (0.1 - 0)."
+        ],
+        "answer": "150 N/m"
+      }
+    ],
+    "practical_applications": [
+      "Selecting appropriately stiff springs for vehicle suspension, mattresses, and weighing scales",
+      "Designing force sensors and newtonmeters with a known, calibrated spring constant",
+      "Comparing materials engineering for springs used in different mechanical applications"
+    ],
+    "common_mistakes": [
+      "Confusing the spring constant with force or extension individually, rather than recognising it as their ratio",
+      "Calculating the spring constant using data from beyond the elastic limit, where Hooke's law (and therefore this constant relationship) no longer applies"
+    ],
+    "misconceptions": [
+      "That a spring's spring constant changes depending on how much force is applied to it — within the region where Hooke's law is obeyed, the spring constant is a fixed property of that particular spring and does not change with the applied force; it only becomes unreliable once the elastic limit is exceeded."
+    ],
+    "tips": [
+      "Use the gradient of the straight-line (Hooke's-law-obeying) section of a force-extension graph to find the spring constant efficiently, rather than calculating F/x for a single data point if a graph is available."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the SI unit of the spring constant."
+      ],
+      "intermediate": [
+        "A spring stretches by 0.03 m under a force of 9 N. Calculate its spring constant."
+      ],
+      "advanced": [
+        "Two springs, A and B, are stretched by the same 20 N force. Spring A extends by 0.1 m and spring B extends by 0.4 m. State which spring is stiffer, and calculate the spring constant of each."
+      ]
+    },
+    "exam_questions": [
+      "Explain what the spring constant of a spring represents, and describe how it can be determined from a force-extension graph."
+    ],
+    "answers": {
+      "basic": [
+        "Newton per metre (N/m)."
+      ],
+      "intermediate": [
+        "k = F/x = 9 / 0.03 = 300 N/m."
+      ],
+      "advanced": [
+        "Spring A is stiffer, since it extends less for the same applied force. k(A) = 20/0.1 = 200 N/m. k(B) = 20/0.4 = 50 N/m."
+      ],
+      "exam": [
+        "The spring constant represents how stiff a spring is — the force needed to produce a unit extension; it can be determined from a force-extension graph by calculating the gradient of the straight-line (Hooke's-law-obeying) section of the graph, since gradient = change in force / change in extension, which is exactly the definition of the spring constant, k = F/x."
+      ]
+    },
+    "summary": "The spring constant, k, measures a spring's stiffness, calculated as k = F/x (Hooke's law rearranged) or found from the gradient of the linear region of a force-extension graph. A larger spring constant means a stiffer spring.",
+    "revision_notes": [
+      "k = F/x",
+      "Large k = stiff; small k = soft",
+      "k = gradient of linear region of force-extension graph"
+    ],
+    "related_topics": [
+      "Hooke's Law",
+      "Elastic Forces",
+      "Elastic Limit"
+    ],
+    "prerequisites": [
+      "Hooke's Law"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  }
+]

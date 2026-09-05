@@ -1,0 +1,1559 @@
+[
+  {
+    "id": 284,
+    "category": "Mensuration",
+    "topic": "Perimeter",
+    "explanation": "Perimeter is the total distance around the outside of a two-dimensional shape, found by adding together the lengths of all its sides. Perimeter is measured in linear units (like cm or m), distinguishing it from area, which is measured in square units.",
+    "key_concepts": [
+      "Perimeter = sum of all side lengths",
+      "Measured in linear units (cm, m, km, etc.), not square units",
+      "For regular shapes, can be calculated as (number of sides) \u00d7 (side length)",
+      "Different from area, which measures enclosed space, not boundary length"
+    ],
+    "definitions": [
+      {
+        "term": "Perimeter",
+        "definition": "The total distance around the outside boundary of a two-dimensional shape."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find the perimeter of a rectangle with length 8cm and width 5cm.",
+        "solution_steps": [
+          "Perimeter = 2\u00d7(length+width) = 2\u00d7(8+5) = 2\u00d713"
+        ],
+        "answer": "26 cm"
+      },
+      {
+        "problem": "Find the perimeter of a regular pentagon with side length 6cm.",
+        "solution_steps": [
+          "Perimeter = 5 \u00d7 side length = 5\u00d76"
+        ],
+        "answer": "30 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the perimeter of a square with side length 9cm.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the perimeter of a triangle with sides 5cm, 7cm, and 9cm.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "36 cm",
+      "21 cm"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A rectangular garden has a perimeter of 60m. If its length is 20m, find its width.",
+        "marks": 2,
+        "answer": "60=2(20+w) \u2192 30=20+w \u2192 w=10m"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing perimeter (linear units) with area (square units)",
+      "Forgetting to add ALL sides, especially for irregular shapes"
+    ],
+    "tips": [
+      "For any irregular shape, simply add up the lengths of every single side \u2014 there's no shortcut formula unless the shape has a regular, repeating structure."
+    ],
+    "summary": "Perimeter is the total boundary distance around a shape, found by summing all side lengths, measured in linear units.",
+    "quick_revision_notes": [
+      "Perimeter = sum of all sides",
+      "Linear units (not squared)"
+    ],
+    "related_prerequisite_topics": [
+      "Area",
+      "Rectangles",
+      "Regular Polygons"
+    ],
+    "images": []
+  },
+  {
+    "id": 285,
+    "category": "Mensuration",
+    "topic": "Area",
+    "explanation": "Area is the amount of two-dimensional space enclosed within a shape's boundary, measured in square units (like cm\u00b2 or m\u00b2). Different shapes have specific area formulas, all ultimately derived from the basic principle of counting unit squares that fit inside the shape.",
+    "key_concepts": [
+      "Area measures enclosed 2D space, in square units",
+      "Different shapes require different formulas (rectangle, triangle, circle, etc.)",
+      "Compound shapes can be split into simpler shapes to find total area",
+      "Area is always a non-negative quantity"
+    ],
+    "definitions": [
+      {
+        "term": "Area",
+        "definition": "The amount of two-dimensional space enclosed within a shape's boundary, measured in square units."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A rectangle measures 6cm by 4cm. Find its area.",
+        "solution_steps": [
+          "Area = length \u00d7 width = 6\u00d74"
+        ],
+        "answer": "24 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A rectangle measures 10cm by 3cm. Find its area.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Convert an area of 2 m\u00b2 into cm\u00b2.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "30 cm\u00b2",
+      "20,000 cm\u00b2 (1m\u00b2=10,000cm\u00b2, so 2m\u00b2=20,000cm\u00b2)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why area is measured in square units, using a 1cm \u00d7 1cm square as an example.",
+        "marks": 2,
+        "answer": "A 1cm\u00d71cm square has an area of exactly 1 square centimetre (1cm\u00b2) by definition \u2014 it's the basic unit of area. Any shape's area is measured by counting how many of these unit squares (or fractions of them) fit inside it, hence the 'squared' unit."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to square the unit conversion factor when converting between area units (e.g. m\u00b2 to cm\u00b2 requires \u00d710,000, not \u00d7100)",
+      "Confusing area with perimeter"
+    ],
+    "tips": [
+      "When converting area units, remember to SQUARE the linear conversion factor (e.g. 1m=100cm, so 1m\u00b2=100\u00b2=10,000cm\u00b2)."
+    ],
+    "summary": "Area measures the 2D space enclosed by a shape, in square units, calculated using shape-specific formulas.",
+    "quick_revision_notes": [
+      "Measured in square units",
+      "Unit conversion requires squaring the linear factor"
+    ],
+    "related_prerequisite_topics": [
+      "Perimeter",
+      "Area of Rectangles",
+      "Compound Areas"
+    ],
+    "images": []
+  },
+  {
+    "id": 286,
+    "category": "Mensuration",
+    "topic": "Area of Rectangles",
+    "explanation": "The area of a rectangle is found by multiplying its length by its width. This simple formula forms the basis for understanding area more generally, since a rectangle's area corresponds directly to counting unit squares arranged in a grid.",
+    "key_concepts": [
+      "Area = length \u00d7 width",
+      "Both measurements must be in the SAME units before multiplying",
+      "The formula directly counts the number of unit squares fitting inside the rectangle",
+      "Squares are a special case of rectangles (length = width)"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Area of a rectangle",
+        "formula": "A = l \u00d7 w",
+        "notes": "l=length, w=width"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the area of a rectangle with length 12cm and width 7cm.",
+        "solution_steps": [
+          "A = 12 \u00d7 7"
+        ],
+        "answer": "84 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the area of a rectangle with length 15cm and width 4cm.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A rectangle has area 48cm\u00b2 and width 6cm. Find its length.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "60 cm\u00b2",
+      "8 cm (48\u00f76)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A rectangular room measures 5.5m by 4m. Find the area of carpet needed to cover the floor.",
+        "marks": 2,
+        "answer": "5.5 \u00d7 4 = 22 m\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Using different units for length and width without converting first",
+      "Confusing length \u00d7 width with the perimeter formula"
+    ],
+    "tips": [
+      "Always double-check both measurements are in the same unit before multiplying to find area."
+    ],
+    "summary": "The area of a rectangle is length \u00d7 width, the foundational area formula from which many others are derived.",
+    "quick_revision_notes": [
+      "A = l \u00d7 w"
+    ],
+    "related_prerequisite_topics": [
+      "Area",
+      "Perimeter",
+      "Area of Squares"
+    ],
+    "images": [
+      {
+        "filename": "areaofrectangles-286-diagram.svg",
+        "type": "diagram",
+        "description": "A rectangle with its length and width labelled.",
+        "purpose": "Shows the two measurements multiplied together to find a rectangle's area.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 287,
+    "category": "Mensuration",
+    "topic": "Area of Squares",
+    "explanation": "The area of a square is found by squaring the length of one side, since all four sides are equal. This is a special case of the rectangle area formula, where length and width are identical.",
+    "key_concepts": [
+      "Area = side\u00b2",
+      "A special case of the rectangle formula (length = width = side)",
+      "Given the area, the side length can be found by taking the square root",
+      "Squares are the only rectangles with all four sides equal"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Area of a square",
+        "formula": "A = s\u00b2",
+        "notes": "s = side length"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the area of a square with side length 9cm.",
+        "solution_steps": [
+          "A = 9\u00b2"
+        ],
+        "answer": "81 cm\u00b2"
+      },
+      {
+        "problem": "A square has an area of 144cm\u00b2. Find its side length.",
+        "solution_steps": [
+          "s = \u221a144"
+        ],
+        "answer": "12 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the area of a square with side length 14cm.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A square has an area of 225cm\u00b2. Find its side length.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "196 cm\u00b2",
+      "15 cm"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A square garden has a perimeter of 48m. Find its area.",
+        "marks": 3,
+        "answer": "Side = 48/4 = 12m. Area = 12\u00b2 = 144 m\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Doubling the side length instead of squaring it (2s instead of s\u00b2)",
+      "Forgetting to take the square root when working backward from area to find the side length"
+    ],
+    "tips": [
+      "If given the perimeter instead of the side length, divide by 4 first to find the side, then square it for area."
+    ],
+    "summary": "The area of a square is the side length squared (s\u00b2), a special case of the rectangle area formula.",
+    "quick_revision_notes": [
+      "A = s\u00b2"
+    ],
+    "related_prerequisite_topics": [
+      "Area of Rectangles",
+      "Square Numbers",
+      "Squares"
+    ],
+    "images": []
+  },
+  {
+    "id": 288,
+    "category": "Mensuration",
+    "topic": "Area of Triangles",
+    "explanation": "The area of a triangle is found using the formula A = \u00bd \u00d7 base \u00d7 height, where the height is measured perpendicular to the chosen base. This formula comes from the fact that a triangle is exactly half of a parallelogram with the same base and height.",
+    "key_concepts": [
+      "Area = \u00bd \u00d7 base \u00d7 height",
+      "Height must be measured PERPENDICULAR to the base, not along a slanted side",
+      "Any side can be chosen as the 'base', as long as the corresponding perpendicular height is used",
+      "For triangles where the height isn't obvious, may need trigonometry or the Area Rule instead"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Area of a triangle",
+        "formula": "A = (1/2) \u00d7 base \u00d7 height",
+        "notes": "Height is perpendicular to the base"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the area of a triangle with base 10cm and height 6cm.",
+        "solution_steps": [
+          "A = (1/2) \u00d7 10 \u00d7 6"
+        ],
+        "answer": "30 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the area of a triangle with base 8cm and height 5cm.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A triangle has area 42cm\u00b2 and base 12cm. Find its height.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "20 cm\u00b2",
+      "7 cm (42=0.5\u00d712\u00d7h, 42=6h, h=7)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A triangular sail has a base of 3.5m and a height of 4m. Find its area.",
+        "marks": 2,
+        "answer": "A = 0.5 \u00d7 3.5 \u00d7 4 = 7 m\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Using a slanted side length instead of the perpendicular height",
+      "Forgetting the \u00bd in the formula (calculating base \u00d7 height instead)"
+    ],
+    "tips": [
+      "The height must always be measured as a perpendicular (right-angle) distance from the base to the opposite vertex \u2014 never along a slanted side."
+    ],
+    "summary": "The area of a triangle is \u00bd \u00d7 base \u00d7 perpendicular height, half of the equivalent parallelogram's area.",
+    "quick_revision_notes": [
+      "A = \u00bd \u00d7 base \u00d7 height (perpendicular)"
+    ],
+    "related_prerequisite_topics": [
+      "Triangles",
+      "Area of Parallelograms",
+      "Area Rule"
+    ],
+    "images": [
+      {
+        "filename": "areaoftriangles-288-diagram.svg",
+        "type": "diagram",
+        "description": "A triangle with its base and perpendicular height labelled, showing the height as a dashed line from the apex to the base.",
+        "purpose": "Clarifies that height must be measured perpendicular to the base, not along a slanted side.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 289,
+    "category": "Mensuration",
+    "topic": "Area of Parallelograms",
+    "explanation": "The area of a parallelogram is found using the formula A = base \u00d7 height, where the height is the perpendicular distance between the two parallel sides used as the base. This is analogous to a rectangle's area, since a parallelogram can be transformed into a rectangle of equal area by 'cutting and shifting' a triangular piece.",
+    "key_concepts": [
+      "Area = base \u00d7 height",
+      "Height must be the PERPENDICULAR distance between the base and its opposite parallel side",
+      "NOT simply base \u00d7 slant side length (a common error)",
+      "Can be shown equal to a rectangle's area by rearranging a cut triangular piece"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Area of a parallelogram",
+        "formula": "A = base \u00d7 height",
+        "notes": "Height is perpendicular to the base"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the area of a parallelogram with base 12cm and perpendicular height 5cm.",
+        "solution_steps": [
+          "A = 12 \u00d7 5"
+        ],
+        "answer": "60 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the area of a parallelogram with base 9cm and height 6cm.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A parallelogram has area 84cm\u00b2 and height 7cm. Find its base.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "54 cm\u00b2",
+      "12 cm (84\u00f77)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A parallelogram-shaped field has a base of 40m and a slant side of 25m, with a perpendicular height of 20m. Find the area of the field, explaining why the slant side is not used.",
+        "marks": 3,
+        "answer": "Area = 40\u00d720 = 800 m\u00b2. The slant side (25m) is not used because the area formula requires the PERPENDICULAR height between the parallel sides, not the length of the slanted connecting side."
+      }
+    ],
+    "common_mistakes": [
+      "Using the slant side length instead of the perpendicular height",
+      "Confusing the parallelogram area formula with the triangle formula (forgetting there's no \u00bd for a parallelogram)"
+    ],
+    "tips": [
+      "Unlike a triangle, a parallelogram's area formula has NO \u00bd \u2014 it's simply base \u00d7 (perpendicular) height."
+    ],
+    "summary": "The area of a parallelogram is base \u00d7 perpendicular height, similar to a rectangle but requiring the perpendicular (not slant) height.",
+    "quick_revision_notes": [
+      "A = base \u00d7 height (perpendicular, no \u00bd)"
+    ],
+    "related_prerequisite_topics": [
+      "Parallelograms",
+      "Area of Rectangles",
+      "Area of Triangles"
+    ],
+    "images": [
+      {
+        "filename": "areaofparallelograms-289-diagram.svg",
+        "type": "diagram",
+        "description": "A parallelogram with its base and perpendicular height labelled with a dashed line.",
+        "purpose": "Clarifies that height must be measured perpendicular to the base, not along the slanted side.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 290,
+    "category": "Mensuration",
+    "topic": "Area of Trapeziums",
+    "explanation": "The area of a trapezium is found using the formula A = \u00bd(a+b)h, where a and b are the lengths of the two parallel sides, and h is the perpendicular distance (height) between them. This formula effectively averages the two parallel sides and multiplies by the height.",
+    "key_concepts": [
+      "Area = \u00bd \u00d7 (sum of parallel sides) \u00d7 height",
+      "a and b are the two parallel sides ('bases'); h is the perpendicular height between them",
+      "Can be thought of as averaging the two parallel sides, then multiplying by height (like a 'rectangle' with an averaged width)",
+      "Height must be perpendicular between the two parallel sides"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Area of a trapezium",
+        "formula": "A = (1/2)(a+b)h",
+        "notes": "a, b = parallel sides; h = perpendicular height between them"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the area of a trapezium with parallel sides 8cm and 12cm, and height 5cm.",
+        "solution_steps": [
+          "A = (1/2)(8+12)(5) = (1/2)(20)(5)"
+        ],
+        "answer": "50 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the area of a trapezium with parallel sides 6cm and 10cm, and height 4cm.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A trapezium has area 90cm\u00b2, parallel sides 10cm and 14cm. Find its height.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "32 cm\u00b2",
+      "7.5 cm (90=0.5\u00d724\u00d7h, 90=12h, h=7.5)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A trapezoidal garden bed has parallel sides 3.5m and 5.5m, with a perpendicular height of 2m. Find its area.",
+        "marks": 2,
+        "answer": "A = 0.5\u00d7(3.5+5.5)\u00d72 = 0.5\u00d79\u00d72 = 9 m\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to add the two parallel sides before halving and multiplying by height",
+      "Using a non-parallel (slant) side instead of one of the true parallel sides"
+    ],
+    "tips": [
+      "Correctly identify WHICH two sides are parallel before applying the formula \u2014 in an irregular-looking trapezium, this isn't always the most obvious pair visually."
+    ],
+    "summary": "The area of a trapezium is \u00bd(a+b)h, averaging the two parallel sides and multiplying by the perpendicular height.",
+    "quick_revision_notes": [
+      "A = \u00bd(a+b)h"
+    ],
+    "related_prerequisite_topics": [
+      "Trapeziums",
+      "Area of Parallelograms"
+    ],
+    "images": [
+      {
+        "filename": "areaoftrapeziums-290-diagram.svg",
+        "type": "diagram",
+        "description": "A trapezium with its two parallel sides (a and b) and perpendicular height (h) labelled.",
+        "purpose": "Shows all three measurements needed to apply the trapezium area formula.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 291,
+    "category": "Mensuration",
+    "topic": "Area of Rhombuses",
+    "explanation": "The area of a rhombus can be found in two ways: using base \u00d7 perpendicular height (like a parallelogram, since a rhombus is a special parallelogram), or using half the product of its diagonals (\u00bd \u00d7 d\u2081 \u00d7 d\u2082), taking advantage of the fact that a rhombus's diagonals are perpendicular.",
+    "key_concepts": [
+      "Method 1 (like a parallelogram): Area = base \u00d7 height",
+      "Method 2 (using diagonals): Area = \u00bd \u00d7 d\u2081 \u00d7 d\u2082",
+      "The diagonal method works because a rhombus's diagonals are always perpendicular",
+      "Choose whichever method matches the given information"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Area of a rhombus (base-height)",
+        "formula": "A = base \u00d7 height",
+        "notes": ""
+      },
+      {
+        "name": "Area of a rhombus (diagonals)",
+        "formula": "A = (1/2) \u00d7 d\u2081 \u00d7 d\u2082",
+        "notes": "d\u2081, d\u2082 = the two diagonals"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the area of a rhombus with diagonals 10cm and 14cm.",
+        "solution_steps": [
+          "A = (1/2) \u00d7 10 \u00d7 14"
+        ],
+        "answer": "70 cm\u00b2"
+      },
+      {
+        "problem": "Find the area of a rhombus with side (base) 8cm and perpendicular height 5cm.",
+        "solution_steps": [
+          "A = base \u00d7 height = 8\u00d75"
+        ],
+        "answer": "40 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the area of a rhombus with diagonals 6cm and 16cm.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A rhombus has area 90cm\u00b2 and one diagonal 12cm. Find the other diagonal.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "48 cm\u00b2",
+      "15 cm (90=0.5\u00d712\u00d7d, 90=6d, d=15)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A rhombus-shaped kite frame has diagonals of length 40cm and 60cm. Find the area of fabric needed to cover the kite.",
+        "marks": 2,
+        "answer": "A = 0.5 \u00d7 40 \u00d7 60 = 1,200 cm\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Using the side length instead of the perpendicular height in the base-height method",
+      "Forgetting the \u00bd in the diagonal method formula"
+    ],
+    "tips": [
+      "If given the two diagonals, always use the \u00bd\u00d7d\u2081\u00d7d\u2082 formula \u2014 it's usually faster than trying to find a base and perpendicular height separately."
+    ],
+    "summary": "A rhombus's area can be found via base\u00d7height (parallelogram method) or \u00bd\u00d7d\u2081\u00d7d\u2082 (diagonal method), whichever data is available.",
+    "quick_revision_notes": [
+      "A = base \u00d7 height, OR A = \u00bdd\u2081d\u2082"
+    ],
+    "related_prerequisite_topics": [
+      "Rhombuses",
+      "Area of Parallelograms",
+      "Area of Kites"
+    ],
+    "images": []
+  },
+  {
+    "id": 292,
+    "category": "Mensuration",
+    "topic": "Area of Kites",
+    "explanation": "The area of a kite is found using the formula A = \u00bd \u00d7 d\u2081 \u00d7 d\u2082, where d\u2081 and d\u2082 are the lengths of its two diagonals. This works because a kite's diagonals are always perpendicular, splitting the kite into four right-angled triangles whose combined area gives this formula.",
+    "key_concepts": [
+      "Area = \u00bd \u00d7 d\u2081 \u00d7 d\u2082, using the two diagonals",
+      "Works because a kite's diagonals are always perpendicular",
+      "Identical formula structure to the rhombus's diagonal-based area formula",
+      "Both diagonals must be fully measured (not just half-diagonals)"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Area of a kite",
+        "formula": "A = (1/2) \u00d7 d\u2081 \u00d7 d\u2082",
+        "notes": "d\u2081, d\u2082 = the two diagonals"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the area of a kite with diagonals 9cm and 14cm.",
+        "solution_steps": [
+          "A = (1/2) \u00d7 9 \u00d7 14"
+        ],
+        "answer": "63 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the area of a kite with diagonals 8cm and 15cm.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A kite has area 72cm\u00b2 and one diagonal 16cm. Find the other diagonal.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "60 cm\u00b2",
+      "9 cm (72=0.5\u00d716\u00d7d, 72=8d, d=9)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A kite-shaped garden plot has diagonals of 18m and 24m. Find its area.",
+        "marks": 2,
+        "answer": "A = 0.5 \u00d7 18 \u00d7 24 = 216 m\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Using half-diagonal lengths instead of full diagonal lengths",
+      "Forgetting the \u00bd in the formula"
+    ],
+    "tips": [
+      "The kite and rhombus share the exact same area formula (\u00bdd\u2081d\u2082), since both shapes have perpendicular diagonals."
+    ],
+    "summary": "The area of a kite is \u00bd \u00d7 d\u2081 \u00d7 d\u2082, using its two (perpendicular) diagonals.",
+    "quick_revision_notes": [
+      "A = \u00bdd\u2081d\u2082"
+    ],
+    "related_prerequisite_topics": [
+      "Kites",
+      "Area of Rhombuses"
+    ],
+    "images": []
+  },
+  {
+    "id": 293,
+    "category": "Mensuration",
+    "topic": "Compound Areas",
+    "explanation": "A compound (or composite) shape is made up of two or more simpler shapes combined. To find its area, split the compound shape into recognizable simple shapes (rectangles, triangles, circles, etc.), calculate each area separately, then add (or subtract, for cut-out regions) them together.",
+    "key_concepts": [
+      "Split the compound shape into simple, recognizable shapes",
+      "Calculate each simple shape's area using the appropriate formula",
+      "Add areas together for combined shapes; subtract for 'holes' or cut-out sections",
+      "Carefully determine any missing dimensions using the given information"
+    ],
+    "definitions": [
+      {
+        "term": "Compound Shape",
+        "definition": "A shape made up of two or more simpler shapes combined together."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "An L-shaped room is made of a 6m\u00d74m rectangle with a 2m\u00d72m square cut out of one corner. Find its area.",
+        "solution_steps": [
+          "Full rectangle area: 6\u00d74=24",
+          "Cut-out square area: 2\u00d72=4",
+          "Subtract: 24-4"
+        ],
+        "answer": "20 m\u00b2"
+      },
+      {
+        "problem": "A shape consists of a rectangle 8cm\u00d75cm with a semicircle of diameter 5cm attached to one end. Find the total area (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "Rectangle area: 8\u00d75=40",
+          "Semicircle radius: 5/2=2.5. Semicircle area = 0.5\u00d7\u03c0\u00d72.5\u00b2 = 0.5\u00d73.14\u00d76.25=9.8125",
+          "Total: 40+9.8125"
+        ],
+        "answer": "\u224849.81 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A shape is a 10cm\u00d76cm rectangle with a 3cm\u00d73cm square removed from a corner. Find its area.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A shape consists of a rectangle 12cm\u00d74cm with a semicircle of radius 2cm attached to one short end. Find the total area (use \u03c0\u22483.14).",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "51 cm\u00b2 (60-9)",
+      "\u224854.28 cm\u00b2 (48+6.28)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A garden is shaped like a rectangle 15m by 10m, with a triangular section (base 6m, height 4m) removed from one corner. Find the remaining garden area.",
+        "marks": 4,
+        "answer": "Rectangle area=150m\u00b2. Triangle area=0.5\u00d76\u00d74=12m\u00b2. Remaining area=150-12=138m\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Adding areas when a section should actually be subtracted (cut-out regions)",
+      "Missing or miscalculating a needed dimension not directly given"
+    ],
+    "tips": [
+      "Draw a rough sketch and clearly mark the 'pieces' you're splitting the shape into \u2014 this prevents double-counting or missing sections."
+    ],
+    "summary": "Compound areas are found by splitting a shape into simpler components, calculating each area, then adding or subtracting as appropriate.",
+    "quick_revision_notes": [
+      "Split into simple shapes",
+      "Add for combined regions, subtract for cut-outs"
+    ],
+    "related_prerequisite_topics": [
+      "Area of Rectangles",
+      "Area of Triangles",
+      "Area of a Circle"
+    ],
+    "images": []
+  },
+  {
+    "id": 294,
+    "category": "Mensuration",
+    "topic": "Surface Area",
+    "explanation": "Surface area is the total area of all the outer faces (surfaces) of a three-dimensional solid. It is calculated by finding the area of each individual face and adding them all together, and is measured in square units.",
+    "key_concepts": [
+      "Surface area = sum of the areas of all outer faces of a 3D solid",
+      "Different solids have specific surface area formulas (cube, cuboid, cylinder, etc.)",
+      "For solids with flat faces, use nets to visualize and calculate each face's area separately",
+      "Measured in square units, just like 2D area"
+    ],
+    "definitions": [
+      {
+        "term": "Surface Area",
+        "definition": "The total area of all outer faces (surfaces) of a three-dimensional solid."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A cube has side length 4cm. Find its total surface area.",
+        "solution_steps": [
+          "A cube has 6 identical square faces",
+          "Area of one face: 4\u00b2=16",
+          "Total surface area: 6\u00d716"
+        ],
+        "answer": "96 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A cube has side length 5cm. Find its total surface area.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain how a net can help calculate the surface area of a 3D solid.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "150 cm\u00b2 (6\u00d725)",
+      "A net shows all the faces of a 3D solid laid out flat and unfolded. This makes it easy to see and calculate the area of each individual face using 2D area formulas, then add them all together for the total surface area."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A rectangular box (cuboid) has dimensions 6cm \u00d7 4cm \u00d7 3cm. Find its total surface area, considering all 6 faces.",
+        "marks": 4,
+        "answer": "Faces: 2\u00d7(6\u00d74) + 2\u00d7(6\u00d73) + 2\u00d7(4\u00d73) = 2\u00d724+2\u00d718+2\u00d712 = 48+36+24 = 108 cm\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to include ALL faces of the solid (missing the top, bottom, or a side)",
+      "Confusing surface area (total of all outer faces) with volume (space enclosed)"
+    ],
+    "tips": [
+      "Drawing or imagining the solid's NET (unfolded flat version) helps ensure every face is accounted for exactly once."
+    ],
+    "summary": "Surface area is the total area of all outer faces of a 3D solid, calculated by summing each face's individual area.",
+    "quick_revision_notes": [
+      "Sum of areas of ALL faces",
+      "Use nets to visualize and calculate systematically"
+    ],
+    "related_prerequisite_topics": [
+      "Nets of Solids",
+      "Surface Area of Prisms",
+      "Volume"
+    ],
+    "images": []
+  },
+  {
+    "id": 295,
+    "category": "Mensuration",
+    "topic": "Volume",
+    "explanation": "Volume is the amount of three-dimensional space enclosed within a solid, measured in cubic units (like cm\u00b3 or m\u00b3). Different solids have specific volume formulas, generally based on the area of a cross-section multiplied by a relevant length or height.",
+    "key_concepts": [
+      "Volume measures enclosed 3D space, in cubic units",
+      "Many solids (prisms, cylinders) use: Volume = cross-sectional area \u00d7 length/height",
+      "Other solids (pyramids, cones, spheres) have their own specific formulas",
+      "Volume conversions require CUBING the linear conversion factor (e.g. 1m\u00b3=1,000,000 cm\u00b3)"
+    ],
+    "definitions": [
+      {
+        "term": "Volume",
+        "definition": "The amount of three-dimensional space enclosed within a solid, measured in cubic units."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A cuboid has dimensions 5cm \u00d7 3cm \u00d7 4cm. Find its volume.",
+        "solution_steps": [
+          "Volume = length \u00d7 width \u00d7 height = 5\u00d73\u00d74"
+        ],
+        "answer": "60 cm\u00b3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A cuboid has dimensions 6cm \u00d7 2cm \u00d7 5cm. Find its volume.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Convert a volume of 3 m\u00b3 into cm\u00b3.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "60 cm\u00b3",
+      "3,000,000 cm\u00b3 (1m\u00b3=100\u00b3=1,000,000cm\u00b3, so 3m\u00b3=3,000,000cm\u00b3)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why volume unit conversions require cubing the linear conversion factor, using the conversion from m\u00b3 to cm\u00b3 as an example.",
+        "marks": 2,
+        "answer": "Volume involves three dimensions (length \u00d7 width \u00d7 height), so converting units affects all three dimensions simultaneously. Since 1m=100cm, converting m\u00b3 to cm\u00b3 requires multiplying by 100 three times (100\u00b3=1,000,000), not just once."
+      }
+    ],
+    "common_mistakes": [
+      "Using the same conversion factor for volume as for length (forgetting to cube it)",
+      "Confusing volume (3D, cubic units) with area (2D, square units)"
+    ],
+    "tips": [
+      "Always cube the linear conversion factor when converting volume units \u2014 this is a very common source of errors."
+    ],
+    "summary": "Volume measures the 3D space enclosed by a solid, in cubic units, calculated using solid-specific formulas.",
+    "quick_revision_notes": [
+      "Measured in cubic units",
+      "Unit conversion requires CUBING the linear factor"
+    ],
+    "related_prerequisite_topics": [
+      "Surface Area",
+      "Volume of Prisms",
+      "Cubes"
+    ],
+    "images": []
+  },
+  {
+    "id": 296,
+    "category": "Mensuration",
+    "topic": "Cubes",
+    "explanation": "A cube is a three-dimensional solid with six identical square faces, twelve equal edges, and eight vertices. It is a special type of cuboid (rectangular box) where all side lengths are equal, making its volume and surface area formulas especially simple.",
+    "key_concepts": [
+      "6 identical square faces, 12 equal edges, 8 vertices",
+      "Volume = s\u00b3 (side length cubed)",
+      "Surface area = 6s\u00b2 (6 square faces)",
+      "A special case of a cuboid with all dimensions equal"
+    ],
+    "definitions": [
+      {
+        "term": "Cube",
+        "definition": "A three-dimensional solid with six identical square faces, twelve equal edges, and eight vertices."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Volume of a cube",
+        "formula": "V = s\u00b3",
+        "notes": "s = side length"
+      },
+      {
+        "name": "Surface area of a cube",
+        "formula": "SA = 6s\u00b2",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the volume and surface area of a cube with side length 5cm.",
+        "solution_steps": [
+          "Volume = 5\u00b3 = 125",
+          "Surface area = 6\u00d75\u00b2 = 6\u00d725"
+        ],
+        "answer": "Volume = 125 cm\u00b3, Surface area = 150 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the volume of a cube with side length 6cm.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A cube has a volume of 216cm\u00b3. Find its side length.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "216 cm\u00b3",
+      "6 cm (\u221b216=6)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A cube-shaped storage box has a surface area of 96cm\u00b2. Find its side length and volume.",
+        "marks": 4,
+        "answer": "6s\u00b2=96 \u2192 s\u00b2=16 \u2192 s=4cm. Volume=4\u00b3=64cm\u00b3"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing cube volume (s\u00b3) with cube surface area (6s\u00b2)",
+      "Forgetting to cube (not square) the side length for volume"
+    ],
+    "tips": [
+      "Remember: volume uses the side length CUBED (3D), surface area uses it SQUARED (multiplied by 6 for the six faces)."
+    ],
+    "summary": "A cube has 6 equal square faces; its volume is s\u00b3 and surface area is 6s\u00b2.",
+    "quick_revision_notes": [
+      "V = s\u00b3",
+      "SA = 6s\u00b2"
+    ],
+    "related_prerequisite_topics": [
+      "Cuboids",
+      "Volume",
+      "Surface Area"
+    ],
+    "images": [
+      {
+        "filename": "cubes-296-diagram.svg",
+        "type": "diagram",
+        "description": "A 3D wireframe diagram of a cube showing its edges and vertices.",
+        "purpose": "Shows the basic 3D structure of a cube.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "category": "Mensuration",
+    "topic": "Cuboids",
+    "explanation": "A cuboid (rectangular box or rectangular prism) is a three-dimensional solid with six rectangular faces, where opposite faces are identical. Its volume and surface area formulas depend on its three dimensions: length, width, and height.",
+    "key_concepts": [
+      "6 rectangular faces, in 3 pairs of identical opposite faces",
+      "Volume = length \u00d7 width \u00d7 height",
+      "Surface area = 2(lw + lh + wh), summing the areas of all 3 pairs of faces",
+      "A cube is a special case of a cuboid with all dimensions equal"
+    ],
+    "definitions": [
+      {
+        "term": "Cuboid",
+        "definition": "A three-dimensional solid with six rectangular faces, defined by its length, width, and height."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Volume of a cuboid",
+        "formula": "V = l \u00d7 w \u00d7 h",
+        "notes": ""
+      },
+      {
+        "name": "Surface area of a cuboid",
+        "formula": "SA = 2(lw + lh + wh)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the volume and surface area of a cuboid with length 8cm, width 5cm, height 3cm.",
+        "solution_steps": [
+          "Volume = 8\u00d75\u00d73 = 120",
+          "Surface area = 2[(8\u00d75)+(8\u00d73)+(5\u00d73)] = 2[40+24+15] = 2\u00d779"
+        ],
+        "answer": "Volume = 120 cm\u00b3, Surface area = 158 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the volume of a cuboid with dimensions 10cm \u00d7 4cm \u00d7 6cm.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A cuboid has volume 180cm\u00b3, length 9cm, and width 5cm. Find its height.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "240 cm\u00b3",
+      "4 cm (180\u00f745)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A rectangular fish tank measures 60cm \u00d7 30cm \u00d7 40cm. Find its volume in litres (1 litre = 1000 cm\u00b3).",
+        "marks": 3,
+        "answer": "Volume = 60\u00d730\u00d740 = 72,000 cm\u00b3 = 72 litres"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to multiply by 2 in the surface area formula (missing that each face type appears twice)",
+      "Mixing up which dimension is length, width, or height"
+    ],
+    "tips": [
+      "A cuboid has exactly 3 DIFFERENT face shapes (each appearing twice) \u2014 calculate each unique face's area once, then double the total."
+    ],
+    "summary": "A cuboid has 6 rectangular faces; volume = lwh, surface area = 2(lw+lh+wh).",
+    "quick_revision_notes": [
+      "V = l\u00d7w\u00d7h",
+      "SA = 2(lw+lh+wh)"
+    ],
+    "related_prerequisite_topics": [
+      "Cubes",
+      "Volume",
+      "Surface Area"
+    ],
+    "images": []
+  },
+  {
+    "id": 298,
+    "category": "Mensuration",
+    "topic": "Prisms",
+    "explanation": "A prism is a three-dimensional solid with two identical, parallel end faces (called the 'cross-section') connected by rectangular side faces. The volume of any prism is found by multiplying the cross-sectional area by the length (or height) of the prism.",
+    "key_concepts": [
+      "Two identical, parallel cross-sections connected by rectangular sides",
+      "Volume = cross-sectional area \u00d7 length",
+      "Named by the shape of their cross-section (triangular prism, hexagonal prism, etc.)",
+      "A cuboid is a special case of a prism with a rectangular cross-section"
+    ],
+    "definitions": [
+      {
+        "term": "Prism",
+        "definition": "A three-dimensional solid with two identical, parallel cross-sections connected by rectangular faces."
+      },
+      {
+        "term": "Cross-Section",
+        "definition": "The consistent 2D shape that, when extended along a prism's length, forms the 3D solid."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Volume of a prism",
+        "formula": "V = cross-sectional area \u00d7 length",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A triangular prism has a triangular cross-section with area 15cm\u00b2, and a length of 10cm. Find its volume.",
+        "solution_steps": [
+          "V = 15 \u00d7 10"
+        ],
+        "answer": "150 cm\u00b3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A prism has cross-sectional area 20cm\u00b2 and length 8cm. Find its volume.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A triangular prism has a triangular cross-section with base 6cm and height 4cm, and length 12cm. Find its volume.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "160 cm\u00b3",
+      "144 cm\u00b3 (cross-section area=0.5\u00d76\u00d74=12, volume=12\u00d712)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A prism has a trapezoidal cross-section with parallel sides 5cm and 9cm, height 4cm, and the prism's length is 15cm. Find the volume.",
+        "marks": 4,
+        "answer": "Cross-section area = 0.5\u00d7(5+9)\u00d74 = 28cm\u00b2. Volume = 28\u00d715 = 420 cm\u00b3"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing the prism's 'length' with a dimension of the cross-section itself",
+      "Using the wrong 2D area formula for the specific cross-section shape"
+    ],
+    "tips": [
+      "Always calculate the cross-sectional area FIRST (using the appropriate 2D shape formula), then multiply by the prism's length \u2014 never combine these into one step."
+    ],
+    "summary": "A prism has a constant cross-section along its length; its volume is cross-sectional area \u00d7 length.",
+    "quick_revision_notes": [
+      "V = cross-sectional area \u00d7 length"
+    ],
+    "related_prerequisite_topics": [
+      "Cuboids",
+      "Volume of Prisms",
+      "Area of Triangles"
+    ],
+    "images": []
+  },
+  {
+    "id": 299,
+    "category": "Mensuration",
+    "topic": "Cylinders",
+    "explanation": "A cylinder is a three-dimensional solid with two identical, parallel circular faces connected by a curved surface. It can be thought of as a special type of prism with a circular cross-section, and its volume and surface area formulas involve \u03c0.",
+    "key_concepts": [
+      "Two identical circular faces connected by a curved side surface",
+      "Volume = \u03c0r\u00b2h (circular cross-sectional area \u00d7 height)",
+      "Surface area = 2\u03c0r\u00b2 (two circles) + 2\u03c0rh (curved surface, 'unrolled' into a rectangle)",
+      "Essentially a 'circular prism'"
+    ],
+    "definitions": [
+      {
+        "term": "Cylinder",
+        "definition": "A three-dimensional solid with two identical, parallel circular faces connected by a curved surface."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Volume of a cylinder",
+        "formula": "V = \u03c0r\u00b2h",
+        "notes": "r=radius, h=height"
+      },
+      {
+        "name": "Surface area of a cylinder",
+        "formula": "SA = 2\u03c0r\u00b2 + 2\u03c0rh",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the volume of a cylinder with radius 4cm and height 10cm (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "V = 3.14 \u00d7 4\u00b2 \u00d7 10 = 3.14\u00d716\u00d710"
+        ],
+        "answer": "502.4 cm\u00b3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the volume of a cylinder with radius 3cm and height 8cm (use \u03c0\u22483.14).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the surface area of a cylinder with radius 5cm and height 12cm (use \u03c0\u22483.14).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "226.08 cm\u00b3",
+      "533.80 cm\u00b2 (2\u03c0r\u00b2=157.0, 2\u03c0rh=376.8, total=533.8 cm\u00b2)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A cylindrical water tank has radius 1.5m and height 2.5m. Find its volume in cubic metres, to 2 decimal places (use \u03c0\u22483.14159).",
+        "marks": 3,
+        "answer": "V = \u03c0\u00d71.5\u00b2\u00d72.5 \u2248 3.14159\u00d72.25\u00d72.5 \u2248 17.67 m\u00b3"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to square the radius in the volume formula",
+      "Missing one of the two circular end faces in the surface area formula"
+    ],
+    "tips": [
+      "Think of a cylinder's surface area as three parts: the top circle, the bottom circle, and the curved side (which 'unrolls' into a rectangle of width = circumference and height = cylinder height)."
+    ],
+    "summary": "A cylinder's volume is \u03c0r\u00b2h; its surface area is 2\u03c0r\u00b2 (two circles) plus 2\u03c0rh (curved surface).",
+    "quick_revision_notes": [
+      "V = \u03c0r\u00b2h",
+      "SA = 2\u03c0r\u00b2 + 2\u03c0rh"
+    ],
+    "related_prerequisite_topics": [
+      "Area of a Circle",
+      "Circumference of a Circle",
+      "Prisms"
+    ],
+    "images": [
+      {
+        "filename": "cylinders-299-diagram.svg",
+        "type": "diagram",
+        "description": "A 3D wireframe diagram of a cylinder showing its two circular ends and curved surface.",
+        "purpose": "Shows the basic 3D structure of a cylinder.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 300,
+    "category": "Mensuration",
+    "topic": "Pyramids",
+    "explanation": "A pyramid is a three-dimensional solid with a polygonal base and triangular faces that meet at a single point called the apex. Its volume is exactly one-third of a prism with the same base and height, due to the tapering shape toward the apex.",
+    "key_concepts": [
+      "Has a polygonal base and triangular side faces meeting at an apex",
+      "Volume = (1/3) \u00d7 base area \u00d7 height",
+      "Named by the shape of its base (square pyramid, triangular pyramid, etc.)",
+      "Height is measured perpendicular from the apex to the base, NOT along a slanted edge"
+    ],
+    "definitions": [
+      {
+        "term": "Pyramid",
+        "definition": "A three-dimensional solid with a polygonal base and triangular faces meeting at a single apex point."
+      },
+      {
+        "term": "Apex",
+        "definition": "The single point at the top of a pyramid or cone where all the side faces/surface meet."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Volume of a pyramid",
+        "formula": "V = (1/3) \u00d7 base area \u00d7 height",
+        "notes": "Height is perpendicular from apex to base"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A square pyramid has a base side of 6cm and a perpendicular height of 9cm. Find its volume.",
+        "solution_steps": [
+          "Base area = 6\u00b2 = 36",
+          "V = (1/3) \u00d7 36 \u00d7 9"
+        ],
+        "answer": "108 cm\u00b3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A pyramid has base area 40cm\u00b2 and height 12cm. Find its volume.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A pyramid has volume 100cm\u00b3 and base area 30cm\u00b2. Find its height.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "160 cm\u00b3",
+      "10 cm (100=(1/3)(30)h, 100=10h, h=10)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A rectangular-based pyramid has a base of 8cm \u00d7 5cm and a perpendicular height of 15cm. Find its volume.",
+        "marks": 3,
+        "answer": "Base area = 8\u00d75=40. Volume = (1/3)\u00d740\u00d715 = 200 cm\u00b3"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the \u2153 factor in the volume formula",
+      "Using a slanted edge length instead of the perpendicular height"
+    ],
+    "tips": [
+      "A pyramid's volume is always exactly \u2153 of the volume of a prism with the same base and height \u2014 a useful way to remember the formula."
+    ],
+    "summary": "A pyramid's volume is \u2153 \u00d7 base area \u00d7 perpendicular height, one-third that of an equivalent prism.",
+    "quick_revision_notes": [
+      "V = (1/3) \u00d7 base area \u00d7 height"
+    ],
+    "related_prerequisite_topics": [
+      "Prisms",
+      "Area",
+      "Cones"
+    ],
+    "images": []
+  },
+  {
+    "id": 301,
+    "category": "Mensuration",
+    "topic": "Cones",
+    "explanation": "A cone is a three-dimensional solid with a circular base tapering smoothly to a single apex point. It can be thought of as a special pyramid with a circular base, and its volume formula reflects this: exactly one-third of the corresponding cylinder's volume.",
+    "key_concepts": [
+      "A circular base tapering to a single apex point",
+      "Volume = (1/3)\u03c0r\u00b2h",
+      "Surface area = \u03c0r\u00b2 (base) + \u03c0rl (curved surface, where l is the slant height)",
+      "The slant height l relates to r and h via the Pythagorean theorem: l\u00b2 = r\u00b2 + h\u00b2"
+    ],
+    "definitions": [
+      {
+        "term": "Cone",
+        "definition": "A three-dimensional solid with a circular base tapering to a single apex point."
+      },
+      {
+        "term": "Slant Height",
+        "definition": "The distance from the apex of a cone to any point on the edge of its circular base, measured along the curved surface."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Volume of a cone",
+        "formula": "V = (1/3)\u03c0r\u00b2h",
+        "notes": "h = perpendicular height"
+      },
+      {
+        "name": "Surface area of a cone",
+        "formula": "SA = \u03c0r\u00b2 + \u03c0rl",
+        "notes": "l = slant height"
+      },
+      {
+        "name": "Slant height",
+        "formula": "l\u00b2 = r\u00b2 + h\u00b2",
+        "notes": "Pythagorean relationship"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the volume of a cone with radius 6cm and height 10cm (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "V = (1/3) \u00d7 3.14 \u00d7 6\u00b2 \u00d7 10 = (1/3) \u00d7 3.14 \u00d7 36 \u00d7 10"
+        ],
+        "answer": "376.8 cm\u00b3"
+      },
+      {
+        "problem": "A cone has radius 3cm and height 4cm. Find its slant height.",
+        "solution_steps": [
+          "l\u00b2 = 3\u00b2 + 4\u00b2 = 9+16 = 25",
+          "l = \u221a25"
+        ],
+        "answer": "5 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the volume of a cone with radius 5cm and height 9cm (use \u03c0\u22483.14).",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A cone has radius 6cm and slant height 10cm. Find its perpendicular height.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "235.5 cm\u00b3",
+      "8 cm (10\u00b2=6\u00b2+h\u00b2, h\u00b2=64, h=8)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "An ice cream cone has radius 3cm and slant height 8cm. Find its curved surface area (use \u03c0\u22483.14).",
+        "marks": 3,
+        "answer": "Curved SA = \u03c0rl = 3.14\u00d73\u00d78 = 75.36 cm\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing the perpendicular height with the slant height (they are only equal for a degenerate 'flat' cone, never in practice)",
+      "Forgetting the \u2153 factor in the volume formula"
+    ],
+    "tips": [
+      "Always check whether a problem gives the perpendicular height or the slant height \u2014 if you need the other one, use the Pythagorean relationship l\u00b2=r\u00b2+h\u00b2 to convert."
+    ],
+    "summary": "A cone's volume is \u2153\u03c0r\u00b2h; its surface area involves both the base circle and the curved surface (using slant height).",
+    "quick_revision_notes": [
+      "V = (1/3)\u03c0r\u00b2h",
+      "SA = \u03c0r\u00b2 + \u03c0rl",
+      "l\u00b2 = r\u00b2 + h\u00b2"
+    ],
+    "related_prerequisite_topics": [
+      "Pyramids",
+      "Cylinders",
+      "Pythagorean Theorem"
+    ],
+    "images": [
+      {
+        "filename": "cones-301-diagram.svg",
+        "type": "diagram",
+        "description": "A 3D wireframe diagram of a cone showing its circular base and apex.",
+        "purpose": "Shows the basic 3D structure of a cone.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "category": "Mensuration",
+    "topic": "Spheres",
+    "explanation": "A sphere is a perfectly round three-dimensional solid, where every point on its surface is equidistant from its centre. Its volume and surface area formulas are among the most elegant in mensuration, both derived using calculus but expressed simply in terms of the radius.",
+    "key_concepts": [
+      "Every point on the surface is equidistant (the radius) from the centre",
+      "Volume = (4/3)\u03c0r\u00b3",
+      "Surface area = 4\u03c0r\u00b2",
+      "A hemisphere is exactly half a sphere, with volume and surface area formulas adjusted accordingly"
+    ],
+    "definitions": [
+      {
+        "term": "Sphere",
+        "definition": "A perfectly round three-dimensional solid where every point on the surface is equidistant from the centre."
+      },
+      {
+        "term": "Hemisphere",
+        "definition": "Exactly half of a sphere, cut through its centre."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Volume of a sphere",
+        "formula": "V = (4/3)\u03c0r\u00b3",
+        "notes": ""
+      },
+      {
+        "name": "Surface area of a sphere",
+        "formula": "SA = 4\u03c0r\u00b2",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the volume of a sphere with radius 6cm (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "V = (4/3) \u00d7 3.14 \u00d7 6\u00b3 = (4/3) \u00d7 3.14 \u00d7 216"
+        ],
+        "answer": "\u2248904.32 cm\u00b3"
+      },
+      {
+        "problem": "Find the surface area of a sphere with radius 5cm (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "SA = 4 \u00d7 3.14 \u00d7 5\u00b2= 4\u00d73.14\u00d725"
+        ],
+        "answer": "314 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the volume of a sphere with radius 3cm (use \u03c0\u22483.14).",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find the surface area of a sphere with radius 10cm (use \u03c0\u22483.14).",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "\u2248113.04 cm\u00b3",
+      "1,256 cm\u00b2"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A spherical ball has a volume of 4,186.67 cm\u00b3. Find its radius, to 1 decimal place (use \u03c0\u22483.14159).",
+        "marks": 4,
+        "answer": "4186.67 = (4/3)\u03c0 r\u00b3 \u2192 r\u00b3 = 4186.67\u00d73/(4\u00d73.14159) \u2248 999.0 \u2192 r \u2248 \u221b999 \u2248 10.0 cm"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the (4/3) factor in the volume formula",
+      "Confusing sphere formulas with those of a circle (missing the extra dimension/power)"
+    ],
+    "tips": [
+      "Memorize both formulas carefully: volume uses r\u00b3 (cubic, since it's 3D) with a (4/3) factor; surface area uses r\u00b2 (like a circle) with a factor of 4."
+    ],
+    "summary": "A sphere's volume is (4/3)\u03c0r\u00b3; its surface area is 4\u03c0r\u00b2, both derived from its constant radius property.",
+    "quick_revision_notes": [
+      "V = (4/3)\u03c0r\u00b3",
+      "SA = 4\u03c0r\u00b2"
+    ],
+    "related_prerequisite_topics": [
+      "Area of a Circle",
+      "Cones",
+      "Volume"
+    ],
+    "images": [
+      {
+        "filename": "spheres-302-diagram.svg",
+        "type": "diagram",
+        "description": "A 3D wireframe diagram of a sphere showing its perfectly round surface.",
+        "purpose": "Shows the basic 3D structure of a sphere.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "category": "Mensuration",
+    "topic": "Frustums",
+    "explanation": "A frustum is the solid remaining when the top of a cone (or pyramid) is sliced off by a plane parallel to its base. Its volume is found by subtracting the volume of the smaller, removed cone (or pyramid) from the volume of the original larger one.",
+    "key_concepts": [
+      "Formed by cutting the top off a cone or pyramid with a plane parallel to the base",
+      "Volume of frustum = Volume of full (large) cone/pyramid - Volume of removed (small) cone/pyramid",
+      "The removed small cone/pyramid is similar to the original large one, so scale factor techniques apply",
+      "Has two parallel circular (or polygonal) faces of different sizes"
+    ],
+    "definitions": [
+      {
+        "term": "Frustum",
+        "definition": "The solid remaining after slicing off the top of a cone or pyramid with a plane parallel to its base."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Volume of a frustum",
+        "formula": "V = V(large cone/pyramid) - V(small removed cone/pyramid)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A cone with height 12cm and base radius 8cm has its top 4cm (height) sliced off, leaving a frustum. The small removed cone is similar to the original, with height 4cm. Find the frustum's volume (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "Scale factor of small cone to large cone (by height): 4/12=1/3",
+          "Small cone's radius = 8 \u00d7 1/3 = 8/3",
+          "Large cone volume: (1/3)\u00d73.14\u00d78\u00b2\u00d712 = (1/3)\u00d73.14\u00d764\u00d712 = 803.84",
+          "Small cone volume: (1/3)\u00d73.14\u00d7(8/3)\u00b2\u00d74 = (1/3)\u00d73.14\u00d77.111\u00d74 \u2248 29.77",
+          "Frustum volume: 803.84 - 29.77"
+        ],
+        "answer": "\u2248774.07 cm\u00b3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Explain how a frustum is formed from a cone.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A large cone has volume 900cm\u00b3. A similar small cone (removed from the top) has volume 100cm\u00b3. Find the frustum's volume.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "A frustum is formed by slicing off the top of a cone with a plane parallel to its base, leaving the bottom portion.",
+      "800 cm\u00b3 (900-100)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A large pyramid has a square base of side 12cm and height 18cm. It is cut by a plane parallel to the base at a height of 6cm from the apex, forming a small similar pyramid and a frustum. Find the frustum's volume, given the small pyramid has a base side of 4cm.",
+        "marks": 6,
+        "answer": "Large pyramid volume = (1/3)\u00d7144\u00d718 = 864 cm\u00b3. Small pyramid: base area=16, height=6, volume=(1/3)\u00d716\u00d76=32 cm\u00b3. Frustum volume = 864-32 = 832 cm\u00b3"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the removed small cone/pyramid is SIMILAR to the original, requiring scale factor calculations for its dimensions",
+      "Adding instead of subtracting the two volumes"
+    ],
+    "tips": [
+      "Always find the scale factor between the small (removed) and large (original) cone/pyramid FIRST \u2014 this lets you find all the small shape's dimensions before calculating its volume."
+    ],
+    "summary": "A frustum's volume is found by subtracting a similar smaller cone/pyramid's volume from the original larger one's volume.",
+    "quick_revision_notes": [
+      "V(frustum) = V(large) - V(small, similar)",
+      "Use scale factor to find small shape's dimensions"
+    ],
+    "related_prerequisite_topics": [
+      "Cones",
+      "Pyramids",
+      "Similar Solids",
+      "Scale Factors in 3D"
+    ],
+    "images": []
+  }
+]

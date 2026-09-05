@@ -1,0 +1,1734 @@
+[
+  {
+    "id": "phy-111",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Vertical Circular Motion",
+    "difficulty": "Advanced",
+    "description": "Circular motion in a vertical plane, where the effect of gravity on the required centripetal force varies continuously around the circle.",
+    "learning_objectives": [
+      "Explain why the tension (or other supporting force) in vertical circular motion varies around the circle",
+      "Calculate the minimum speed required at the top of a vertical circle to maintain contact/tension",
+      "Compare the forces acting at the top and bottom of a vertical circular path"
+    ],
+    "explanation": "Vertical circular motion describes circular motion in a vertical plane, such as a ball on a string being swung in a vertical circle, or a roller coaster car looping around a vertical loop. Unlike horizontal circular motion, where gravity acts uniformly perpendicular to the plane of the circle throughout, in vertical circular motion the direction of gravity relative to the circular path continuously changes as the object moves around the loop, meaning the contribution of gravity to the required centripetal force also changes throughout the motion. At the bottom of the circle, gravity acts directly away from the centre (outward), so the supporting force (such as tension) must provide both the full centripetal force and support against gravity, making it at its maximum value there. At the top of the circle, gravity acts directly toward the centre, so gravity itself contributes to (or can even fully provide) the required centripetal force, meaning the supporting force can be at its minimum value there — for a ball on a string, there is a minimum speed at the top of the loop below which the string would need to push rather than pull (which it cannot do), causing it to go slack.",
+    "key_concepts": [
+      "Gravity's contribution to centripetal force varies around a vertical circle",
+      "Maximum tension at the bottom; minimum tension at the top",
+      "Minimum speed at the top: gravity alone provides just enough centripetal force"
+    ],
+    "definitions": [
+      {
+        "term": "Vertical circular motion",
+        "definition": "Circular motion occurring in a vertical plane, where the direction of gravity relative to the circular path continuously changes around the loop."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Tension at the bottom of a vertical circle",
+        "equation": "T = (mv^2/r) + mg",
+        "variables": {
+          "T": "tension, N",
+          "m": "mass, kg",
+          "v": "speed, m/s",
+          "r": "radius, m",
+          "g": "gravitational field strength, N/kg"
+        }
+      },
+      {
+        "name": "Tension at the top of a vertical circle",
+        "equation": "T = (mv^2/r) - mg",
+        "variables": {}
+      },
+      {
+        "name": "Minimum speed at the top of a vertical circle (T=0)",
+        "equation": "v(min) = root(gr)",
+        "variables": {
+          "v(min)": "minimum speed at the top, m/s"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "tension",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A 0.2 kg ball is swung in a vertical circle of radius 0.6 m. Calculate the minimum speed the ball must have at the top of the circle to keep the string taut (use g = 9.8 N/kg).",
+        "steps": [
+          "At the minimum speed, tension is zero, and gravity alone provides the full centripetal force: mg = mv^2/r.",
+          "Use v(min) = root(gr).",
+          "Substitute: v(min) = root(9.8 x 0.6)."
+        ],
+        "answer": "Approximately 2.42 m/s"
+      }
+    ],
+    "practical_applications": [
+      "Roller coaster loop design, ensuring cars maintain sufficient speed to complete vertical loops safely",
+      "Analysing the forces on a pilot or aircraft performing a vertical loop manoeuvre",
+      "Understanding the physics behind swinging objects on a rope or chain in a vertical circle"
+    ],
+    "common_mistakes": [
+      "Using the same tension equation at every point around the vertical circle, ignoring how gravity's contribution changes",
+      "Forgetting that at the top of the loop, gravity acts toward the centre, reducing (not adding to) the required supporting force"
+    ],
+    "misconceptions": [
+      "That the tension (or supporting force) in vertical circular motion is constant throughout the loop, just as it might be assumed to be in simple horizontal circular motion — the changing direction of gravity relative to the circular path means the required supporting force genuinely varies continuously as the object moves around a vertical loop, reaching a maximum at the bottom and a minimum at the top."
+    ],
+    "tips": [
+      "Always draw a free-body diagram for both the top and bottom of a vertical circle separately, since the direction of gravity relative to the centre is different (and therefore its effect on the required tension is different) at each point."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State at which point in a vertical circle (top or bottom) the tension is at its maximum."
+      ],
+      "intermediate": [
+        "A 0.15 kg mass moves in a vertical circle of radius 0.4 m at the bottom, with a speed of 3 m/s. Calculate the tension at this point (use g = 9.8 N/kg)."
+      ],
+      "advanced": [
+        "Explain why a roller coaster car must maintain a minimum speed at the top of a vertical loop to avoid losing contact with the track."
+      ]
+    },
+    "exam_questions": [
+      "Derive the expression for the minimum speed required at the top of a vertical circular loop for an object on a string, explaining your reasoning."
+    ],
+    "answers": {
+      "basic": [
+        "The bottom of the circle."
+      ],
+      "intermediate": [
+        "T = (mv^2/r) + mg = (0.15 x 3^2 / 0.4) + (0.15 x 9.8) = (0.15 x 9 / 0.4) + 1.47 = 3.375 + 1.47 = 4.845 N."
+      ],
+      "advanced": [
+        "At the top of the loop, the roller coaster car needs a centripetal force directed downward, toward the centre of the loop; both gravity and the track's normal force can contribute to this, but if the car's speed is too low, the required centripetal force is smaller than gravity alone would provide, meaning gravity alone would pull the car away from (below) the required circular path, causing it to lose contact with the track before completing the loop, unless a minimum speed is maintained so that gravity alone does not exceed the required centripetal force."
+      ],
+      "exam": [
+        "At the top of the loop, both tension and weight act toward the centre (downward): T + mg = mv^2/r. At the minimum speed, the string is on the verge of going slack, so T = 0, giving mg = mv^2/r; the mass, m, cancels from both sides, leaving g = v^2/r, which rearranges to v(min) = root(gr)."
+      ]
+    },
+    "summary": "Vertical circular motion involves a continuously varying supporting force (such as tension), since gravity's direction relative to the centre changes throughout the loop — maximum at the bottom, minimum at the top. There is a minimum speed at the top of the loop, below which the required centripetal force cannot be maintained.",
+    "revision_notes": [
+      "T(bottom) = mv^2/r + mg; T(top) = mv^2/r - mg",
+      "v(min) at top = root(gr)",
+      "Gravity's contribution to centripetal force varies around the loop"
+    ],
+    "related_topics": [
+      "Centripetal Force",
+      "Circular Motion",
+      "Tension"
+    ],
+    "prerequisites": [
+      "Centripetal Force",
+      "Tension"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A vertical circle with an object at the top and bottom, showing tension and weight arrows at each position]"
+    ],
+    "images": [
+      {
+        "filename": "physics-vertical-circular-motion-111-01.webp",
+        "type": "diagram",
+        "description": "A dashed circle representing a vertical circular path, with an object shown at the top and at the bottom, each with a blue tension arrow pointing toward the centre and a red dashed weight arrow pointing straight down.",
+        "purpose": "Shows clearly how the direction of weight relative to the centre-directed tension differs between the top and bottom positions, explaining why tension varies around the loop.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-112",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Horizontal Circular Motion",
+    "difficulty": "Intermediate",
+    "description": "Circular motion occurring in a horizontal plane, where gravity acts uniformly perpendicular to the plane of motion throughout.",
+    "learning_objectives": [
+      "Describe the forces acting on an object undergoing horizontal circular motion",
+      "Apply centripetal force equations to horizontal circular motion problems",
+      "Explain why gravity's role in horizontal circular motion is simpler than in vertical circular motion"
+    ],
+    "explanation": "Horizontal circular motion describes circular motion occurring entirely within a horizontal plane, such as a ball being swung around on a string at a constant height, or a car travelling around a flat, horizontal roundabout. Unlike vertical circular motion, gravity in horizontal circular motion acts uniformly downward, perpendicular to the plane of the circular path, throughout the entire motion — its direction relative to the circle does not change as the object moves around. This means gravity plays no direct role in providing the centripetal force in idealised horizontal circular motion (which acts entirely within the horizontal plane); instead, gravity is balanced separately by another vertical force (such as the normal reaction force from a road, or the vertical component of tension in an angled string, as in a conical pendulum), while a separate horizontal force (such as friction, the horizontal component of tension, or the horizontal component of normal force on a banked surface) provides the centripetal force needed to maintain the circular path.",
+    "key_concepts": [
+      "Gravity acts perpendicular to the horizontal plane of motion throughout",
+      "Gravity balanced separately (vertically); centripetal force provided horizontally",
+      "Simpler analysis than vertical circular motion (forces don't vary in direction around the circle)"
+    ],
+    "definitions": [
+      {
+        "term": "Horizontal circular motion",
+        "definition": "Circular motion occurring entirely within a horizontal plane, where gravity acts uniformly perpendicular to the plane of motion throughout."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Centripetal force (horizontal circular motion)",
+        "equation": "F = mv^2 / r",
+        "variables": {
+          "F": "centripetal force, N",
+          "m": "mass, kg",
+          "v": "speed, m/s",
+          "r": "radius, m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A 1000 kg car travels around a flat, horizontal roundabout of radius 20 m at a constant speed of 8 m/s. Identify the force providing the centripetal force, and calculate its size.",
+        "steps": [
+          "On a flat road, the horizontal force needed to keep the car moving in a circle must be provided by friction between the tyres and the road surface.",
+          "Use F = mv^2/r.",
+          "Substitute: F = (1000)(8^2)/20 = (1000)(64)/20."
+        ],
+        "answer": "The centripetal force is provided by friction; F = 3200 N"
+      }
+    ],
+    "practical_applications": [
+      "Analysing vehicles travelling around flat roundabouts and bends",
+      "Designing rotating machinery and centrifuges operating in a horizontal plane",
+      "Fairground rides involving horizontal circular motion, such as a rotating platform"
+    ],
+    "common_mistakes": [
+      "Forgetting to separately account for the vertical forces (weight and normal reaction, or vertical tension component) balancing each other, in addition to the horizontal centripetal force calculation",
+      "Applying vertical circular motion equations (which include weight directly) to a horizontal circular motion problem"
+    ],
+    "misconceptions": [
+      "That gravity contributes directly to the centripetal force in horizontal circular motion, in the same way it does at various points of a vertical circle — in idealised horizontal circular motion, gravity acts perpendicular to the plane of the circular motion and is balanced separately (vertically) rather than contributing to the horizontal centripetal force itself."
+    ],
+    "tips": [
+      "For horizontal circular motion, treat the vertical forces (weight vs. normal reaction or vertical tension component) and horizontal forces (friction, horizontal tension component, centripetal force) as two separate, independent equilibrium/force analyses."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the direction, relative to the plane of horizontal circular motion, in which gravity acts."
+      ],
+      "intermediate": [
+        "A 0.3 kg toy car moves in a horizontal circle of radius 0.5 m at 2 m/s on a track. Calculate the centripetal force required."
+      ],
+      "advanced": [
+        "Explain why, on a flat (unbanked) road, there is a maximum speed at which a car can travel around a bend of a given radius without skidding."
+      ]
+    },
+    "exam_questions": [
+      "Explain why gravity does not contribute directly to the centripetal force required for an object undergoing horizontal circular motion."
+    ],
+    "answers": {
+      "basic": [
+        "Vertically downward, perpendicular to the plane of the circular motion."
+      ],
+      "intermediate": [
+        "F = mv^2/r = (0.3)(2^2)/0.5 = (0.3)(4)/0.5 = 2.4 N."
+      ],
+      "advanced": [
+        "The maximum centripetal force available on a flat road is limited by the maximum friction force between the tyres and the road surface; since required centripetal force increases with speed squared (F = mv^2/r), there is a speed beyond which the required centripetal force exceeds the maximum available friction, at which point the car can no longer maintain the circular path and will skid outward."
+      ],
+      "exam": [
+        "In horizontal circular motion, gravity acts vertically, perpendicular to the horizontal plane in which the circular motion is occurring, and does not have any component acting toward the centre of the (horizontal) circle; gravity is instead balanced by a separate vertical force (such as the normal reaction force from a surface), while an entirely separate horizontal force provides the centripetal force needed to maintain the circular path."
+      ]
+    },
+    "summary": "Horizontal circular motion occurs entirely within a horizontal plane, with gravity acting perpendicular to this plane throughout and balanced separately by a vertical force. A separate horizontal force provides the centripetal force required, calculated as F = mv^2/r.",
+    "revision_notes": [
+      "Gravity acts perpendicular to plane of motion (balanced vertically, separately)",
+      "Horizontal force provides centripetal force: F = mv^2/r",
+      "Simpler than vertical circular motion (no changing direction of gravity relative to circle)"
+    ],
+    "related_topics": [
+      "Centripetal Force",
+      "Conical Pendulums",
+      "Banking of Roads"
+    ],
+    "prerequisites": [
+      "Centripetal Force"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-113",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Conical Pendulums",
+    "difficulty": "Advanced",
+    "description": "A mass suspended from a string, moving in a horizontal circle while the string traces out the surface of a cone.",
+    "learning_objectives": [
+      "Describe the motion and forces involved in a conical pendulum",
+      "Resolve tension into vertical and horizontal components to analyse a conical pendulum",
+      "Calculate the period of a conical pendulum from its geometry"
+    ],
+    "explanation": "A conical pendulum consists of a mass attached to a string (or light rod) suspended from a fixed point, moving in a horizontal circle at a constant speed while the string itself sweeps out the surface of a cone, with the fixed suspension point at the cone's apex. Unlike a simple vertical pendulum swinging back and forth, a conical pendulum's mass moves continuously around a horizontal circular path, with the string maintaining a constant angle to the vertical throughout. Analysing a conical pendulum requires resolving the tension in the string into two components: a vertical component, T cos(theta), which must balance the mass's weight (since the mass does not move vertically), and a horizontal component, T sin(theta), which provides the centripetal force needed to maintain the horizontal circular motion. Combining these two equations (and eliminating tension) allows the period of the conical pendulum's motion to be found in terms of the string's length, its angle to the vertical, and g.",
+    "key_concepts": [
+      "Vertical component of tension balances weight: T cos(theta) = mg",
+      "Horizontal component of tension provides centripetal force: T sin(theta) = mv^2/r",
+      "Combining equations gives the period in terms of length, angle, and g"
+    ],
+    "definitions": [
+      {
+        "term": "Conical pendulum",
+        "definition": "A mass suspended from a string, moving in a horizontal circle at constant speed while the string sweeps out the surface of a cone."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Vertical equilibrium (conical pendulum)",
+        "equation": "T cos(theta) = mg",
+        "variables": {
+          "T": "tension, N",
+          "theta": "angle of the string from the vertical",
+          "m": "mass, kg",
+          "g": "gravitational field strength, N/kg"
+        }
+      },
+      {
+        "name": "Horizontal (centripetal) equation",
+        "equation": "T sin(theta) = mv^2/r",
+        "variables": {
+          "v": "speed, m/s",
+          "r": "radius of the horizontal circle, m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "tension",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A conical pendulum has a string that makes a constant angle of 30 degrees with the vertical. Explain, using the two resolved equations, how the tension in the string could be found if the mass is known.",
+        "steps": [
+          "Write the vertical equation: T cos(30) = mg.",
+          "Rearrange to make T the subject: T = mg / cos(30).",
+          "This gives the tension directly in terms of the known mass, m, the known angle (30 degrees), and g, without needing to know the speed or radius."
+        ],
+        "answer": "T = mg / cos(30), which can be evaluated directly once the mass is known."
+      }
+    ],
+    "practical_applications": [
+      "Analysing certain types of mechanical governors historically used to regulate engine speed",
+      "Understanding the physics behind swing-ride fairground attractions, which behave similarly to conical pendulums",
+      "A classic physics problem used to develop skills in resolving forces for circular motion analysis"
+    ],
+    "common_mistakes": [
+      "Forgetting to resolve tension into both vertical and horizontal components, and instead treating the full tension as either purely vertical or purely horizontal",
+      "Mixing up which trigonometric function (sine or cosine) applies to the vertical versus horizontal component"
+    ],
+    "misconceptions": [
+      "That a conical pendulum eventually settles into a simple, straight, vertical hang like an ordinary pendulum at rest — by design, a conical pendulum's defining feature is its continuous horizontal circular motion, maintained by a constant angle between the string and the vertical, rather than swinging back and forth or hanging straight down."
+    ],
+    "tips": [
+      "Always draw a clear diagram showing the string, its angle from the vertical, and the resolved vertical and horizontal components of tension before setting up the two governing equations."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the two forces acting on the mass of a conical pendulum."
+      ],
+      "intermediate": [
+        "A conical pendulum's string makes an angle of 40 degrees with the vertical, and the mass is 0.25 kg. Calculate the tension in the string (use g = 9.8 N/kg)."
+      ],
+      "advanced": [
+        "Explain, using the two resolved equations for a conical pendulum, how the radius of the circular path could be found if the string's length and angle to the vertical are known."
+      ]
+    },
+    "exam_questions": [
+      "Derive an expression for tan(theta) in terms of v, r, and g for a conical pendulum, by combining the vertical and horizontal force equations."
+    ],
+    "answers": {
+      "basic": [
+        "Tension in the string, and the weight of the mass."
+      ],
+      "intermediate": [
+        "T = mg / cos(40) = (0.25 x 9.8) / cos(40) = 2.45 / 0.766 approx 3.2 N."
+      ],
+      "advanced": [
+        "The radius, r, is related to the string's length, L, and the angle, theta, by simple trigonometry: r = L sin(theta), since the string, the vertical line from the suspension point, and the radius form a right-angled triangle, with the string as the hypotenuse."
+      ],
+      "exam": [
+        "Dividing the horizontal equation by the vertical equation: (T sin theta) / (T cos theta) = (mv^2/r) / (mg); the T and m terms cancel, and sin(theta)/cos(theta) = tan(theta), giving tan(theta) = v^2 / (rg)."
+      ]
+    },
+    "summary": "A conical pendulum's mass moves in a horizontal circle while the string maintains a constant angle to the vertical. Resolving tension into vertical (balancing weight) and horizontal (providing centripetal force) components allows the pendulum's motion to be fully analysed.",
+    "revision_notes": [
+      "T cos(theta) = mg (vertical)",
+      "T sin(theta) = mv^2/r (horizontal, centripetal)",
+      "tan(theta) = v^2/(rg) (combined)"
+    ],
+    "related_topics": [
+      "Centripetal Force",
+      "Horizontal Circular Motion",
+      "Tension"
+    ],
+    "prerequisites": [
+      "Horizontal Circular Motion",
+      "Vector Addition and Resolution"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-114",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Banking of Roads",
+    "difficulty": "Advanced",
+    "description": "The sloping (tilting) of a road or track surface at a bend, allowing the normal reaction force to contribute to the centripetal force needed for cornering.",
+    "learning_objectives": [
+      "Explain why banking a road at a bend helps vehicles corner safely",
+      "Resolve the normal force on a banked road into vertical and horizontal components",
+      "Calculate the ideal banking angle for a given speed and radius, assuming no friction is needed"
+    ],
+    "explanation": "Banking a road means tilting its surface at a bend, so that the outer edge is raised higher than the inner edge, rather than leaving the road completely flat and horizontal. On a flat road, the entire centripetal force needed to keep a vehicle turning must be provided by friction between the tyres and the road, which has a maximum possible value and can fail (causing skidding) at high speeds or on a slippery surface. On a banked road, the normal reaction force from the road surface, which acts perpendicular to the (now tilted) road, has both a vertical component (helping to support the vehicle's weight) and a horizontal component (which now also contributes toward providing the centripetal force needed for cornering), reducing or even eliminating the need to rely on friction. For an ideal banking angle at a given speed and radius, the entire required centripetal force is provided by the horizontal component of the normal force alone, with no friction needed at all, giving the relationship tan(theta) = v^2/(rg), analogous to the conical pendulum's equation.",
+    "key_concepts": [
+      "Banking tilts the road so normal force has a centripetal (horizontal) component",
+      "Reduces reliance on friction for cornering, especially at high speed",
+      "Ideal banking angle (no friction needed): tan(theta) = v^2/(rg)"
+    ],
+    "definitions": [
+      {
+        "term": "Banking (of a road or track)",
+        "definition": "The tilting of a road or track surface at a bend, so that the normal reaction force contributes a horizontal component toward the required centripetal force."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Ideal banking angle (no friction required)",
+        "equation": "tan(theta) = v^2 / (rg)",
+        "variables": {
+          "theta": "banking angle from horizontal",
+          "v": "vehicle speed, m/s",
+          "r": "radius of the bend, m",
+          "g": "gravitational field strength, N/kg"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Calculate the ideal banking angle for a bend of radius 80 m, designed for vehicles travelling at 20 m/s with no reliance on friction (use g = 9.8 N/kg).",
+        "steps": [
+          "Use tan(theta) = v^2 / (rg).",
+          "Substitute: tan(theta) = (20^2) / (80 x 9.8) = 400 / 784.",
+          "Calculate: tan(theta) = 0.510.",
+          "Find theta: theta = tan^-1(0.510)."
+        ],
+        "answer": "Approximately 27.1 degrees"
+      }
+    ],
+    "practical_applications": [
+      "Racetrack and motorway bend design, allowing higher safe cornering speeds",
+      "Railway track design, banking curves to reduce lateral forces on trains and passengers",
+      "Velodrome (cycling track) design, using steep banking to allow high-speed cornering"
+    ],
+    "common_mistakes": [
+      "Assuming friction plays no role at all on a banked road at any speed, rather than recognising the 'ideal' angle only eliminates the need for friction at one specific design speed",
+      "Confusing the banking angle (from horizontal) with the angle from vertical used in some other circular motion contexts"
+    ],
+    "misconceptions": [
+      "That a banked road removes the need for friction at all speeds — the ideal banking angle is calculated for one specific design speed; at speeds different from this ideal, some friction is still required (acting either inward, if travelling faster, or outward, if travelling slower, than the design speed) to prevent skidding."
+    ],
+    "tips": [
+      "Remember the analogy with the conical pendulum: both use the same underlying equation, tan(theta) = v^2/(rg), because in both cases a single force (tension, or normal force) is resolved into a vertical component balancing weight and a horizontal component providing centripetal force."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State one advantage of banking a road at a bend, compared with leaving it flat."
+      ],
+      "intermediate": [
+        "Calculate the ideal banking angle for a bend of radius 150 m designed for a speed of 25 m/s (use g = 9.8 N/kg)."
+      ],
+      "advanced": [
+        "Explain why a vehicle travelling exactly at the design speed for a banked bend requires no friction force to maintain its circular path."
+      ]
+    },
+    "exam_questions": [
+      "Explain, using the concept of resolving forces, why banking a road at a bend allows vehicles to corner more safely at higher speeds than an equivalent flat road."
+    ],
+    "answers": {
+      "basic": [
+        "It reduces the reliance on friction to provide the centripetal force needed for cornering, allowing higher safe speeds (or reducing the risk of skidding)."
+      ],
+      "intermediate": [
+        "tan(theta) = 25^2 / (150 x 9.8) = 625 / 1470 = 0.425. theta = tan^-1(0.425) approx 23.0 degrees."
+      ],
+      "advanced": [
+        "At exactly the design speed, the horizontal component of the normal reaction force alone provides exactly the centripetal force required for the vehicle's circular motion at that speed and radius, meaning no additional horizontal force (friction) is needed to supplement it; the vertical component of the normal force also exactly balances the vehicle's weight, so the vehicle is in full vertical and horizontal force balance without any contribution from friction."
+      ],
+      "exam": [
+        "On a banked road, the normal reaction force acts perpendicular to the tilted road surface, giving it both a vertical component (supporting the vehicle's weight) and a horizontal component (directed toward the centre of the bend); this horizontal component contributes toward, or can even fully provide, the centripetal force needed for cornering, reducing the demand placed on friction (which has a maximum value and can fail at high speed) compared with a flat road, where friction alone must provide the entire centripetal force."
+      ]
+    },
+    "summary": "Banking a road tilts its surface so the normal reaction force gains a horizontal component that contributes to the centripetal force needed for cornering, reducing reliance on friction. The ideal banking angle for a given speed and radius, requiring no friction, is tan(theta) = v^2/(rg).",
+    "revision_notes": [
+      "Banking: tilts road so normal force has centripetal component",
+      "Reduces reliance on friction at the design speed",
+      "tan(theta) = v^2/(rg) for the ideal (no-friction) banking angle"
+    ],
+    "related_topics": [
+      "Centripetal Force",
+      "Conical Pendulums",
+      "Normal Reaction Force"
+    ],
+    "prerequisites": [
+      "Centripetal Force",
+      "Normal Reaction Force"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A cross-section of a banked road with the normal force resolved into vertical and horizontal components]"
+    ],
+    "images": [
+      {
+        "filename": "physics-banking-roads-114-01.webp",
+        "type": "diagram",
+        "description": "A cross-sectional view of a banked (tilted) road surface, with a green normal force arrow perpendicular to the road surface and a red weight arrow pointing straight down from a point representing a vehicle on the road.",
+        "purpose": "Shows how the normal force, being perpendicular to the tilted road rather than purely vertical, naturally gains a horizontal (centripetal) component, which is the key insight of banking.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-115",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Orbital Motion",
+    "difficulty": "Intermediate",
+    "description": "The motion of an object, such as a satellite or planet, moving in a circular or elliptical path around a larger body due to gravitational attraction.",
+    "learning_objectives": [
+      "Explain how gravitational force provides the centripetal force for an orbiting body",
+      "Derive the relationship between orbital speed, orbital radius, and the mass of the central body",
+      "Explain why a stable circular orbit requires a specific speed for a given radius"
+    ],
+    "explanation": "Orbital motion describes the circular (or elliptical) motion of an object, such as a satellite, moon, or planet, around a much larger central body, such as a planet or star, caused entirely by gravitational attraction. For a stable circular orbit, the gravitational force of attraction between the orbiting body and the central body provides exactly the centripetal force required to maintain that circular path, meaning GMm/r^2 (Newton's law of gravitation) equals mv^2/r (the centripetal force equation). Setting these equal and simplifying (the orbiting body's mass, m, cancels from both sides) gives v = root(GM/r), showing that the orbital speed needed for a stable circular orbit depends only on the mass of the central body, M, and the orbital radius, r, not on the mass of the orbiting object itself. This means a stable orbit at a given radius requires one specific speed — too fast, and the object would move to a higher, wider orbit (or escape entirely); too slow, and it would spiral inward toward the central body.",
+    "key_concepts": [
+      "Gravitational force provides the centripetal force for orbital motion",
+      "v = root(GM/r): orbital speed depends only on central mass and radius",
+      "One specific speed is required for a stable circular orbit at a given radius"
+    ],
+    "definitions": [
+      {
+        "term": "Orbital motion",
+        "definition": "The motion of a body around a larger central body, maintained by gravitational attraction providing the necessary centripetal force."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Orbital speed",
+        "equation": "v = root(GM/r)",
+        "variables": {
+          "v": "orbital speed, m/s",
+          "G": "gravitational constant, 6.67 x 10^-11 N m^2/kg^2",
+          "M": "mass of the central body, kg",
+          "r": "orbital radius, m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "speed",
+        "si_unit": "metre per second",
+        "symbol": "m/s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Show, by equating gravitational force to centripetal force, that the orbital speed for a stable circular orbit is v = root(GM/r).",
+        "steps": [
+          "Gravitational force provides centripetal force: GMm/r^2 = mv^2/r.",
+          "Cancel one factor of r from each side: GMm/r = mv^2.",
+          "Divide both sides by m (the orbiting body's mass cancels): GM/r = v^2.",
+          "Take the square root of both sides: v = root(GM/r)."
+        ],
+        "answer": "v = root(GM/r), showing orbital speed does not depend on the orbiting body's own mass."
+      }
+    ],
+    "practical_applications": [
+      "Calculating the required speed for satellites to maintain a stable orbit at a given altitude",
+      "Understanding planetary orbits within the solar system",
+      "Space mission planning, determining orbital insertion speeds for spacecraft"
+    ],
+    "common_mistakes": [
+      "Assuming a heavier satellite needs a different orbital speed than a lighter one at the same radius, when in fact the orbiting body's mass cancels out of the equation entirely",
+      "Confusing the mass of the central body, M, with the mass of the orbiting body, m, in the orbital speed equation"
+    ],
+    "misconceptions": [
+      "That a satellite's mass affects the speed required for it to maintain a stable orbit at a given radius — since the orbiting body's mass, m, cancels out of the derivation entirely, orbital speed depends only on the mass of the central body being orbited and the orbital radius, not on the mass of the satellite or planet doing the orbiting."
+    ],
+    "tips": [
+      "Remember that the derivation of v = root(GM/r) relies on the orbiting body's mass cancelling out, which is why all objects (regardless of their own mass) require the same orbital speed at a given radius around a particular central body."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for orbital speed in terms of G, M, and r."
+      ],
+      "intermediate": [
+        "Calculate the orbital speed of a satellite orbiting the Earth (mass 6.0 x 10^24 kg) at a radius of 7.0 x 10^6 m (use G = 6.67 x 10^-11 N m^2/kg^2)."
+      ],
+      "advanced": [
+        "Explain why doubling the mass of a satellite, while keeping its orbital radius unchanged, would not change the speed required to maintain a stable orbit."
+      ]
+    },
+    "exam_questions": [
+      "Derive the expression v = root(GM/r) for the orbital speed of a satellite in a stable circular orbit, starting from the equations for gravitational force and centripetal force."
+    ],
+    "answers": {
+      "basic": [
+        "v = root(GM/r)."
+      ],
+      "intermediate": [
+        "v = root((6.67x10^-11 x 6.0x10^24) / 7.0x10^6) = root(5.72x10^7) approx 7560 m/s."
+      ],
+      "advanced": [
+        "The orbiting body's mass, m, appears on both sides of the equation GMm/r^2 = mv^2/r and cancels completely during the derivation, meaning the resulting expression for orbital speed, v = root(GM/r), does not include the orbiting body's mass at all — doubling this mass therefore has no effect on the required orbital speed."
+      ],
+      "exam": [
+        "Setting gravitational force equal to the required centripetal force: GMm/r^2 = mv^2/r. Cancelling one factor of r from both sides: GMm/r = mv^2. Dividing both sides by the orbiting mass, m: GM/r = v^2. Taking the square root of both sides gives v = root(GM/r)."
+      ]
+    },
+    "summary": "Orbital motion is maintained by gravitational force providing the centripetal force needed for a body's circular path around a larger central body. The required orbital speed, v = root(GM/r), depends only on the central body's mass and the orbital radius, not on the orbiting body's own mass.",
+    "revision_notes": [
+      "Gravitational force = centripetal force for stable orbit",
+      "v = root(GM/r)",
+      "Orbital speed independent of orbiting body's own mass"
+    ],
+    "related_topics": [
+      "Newton's Law of Gravitation",
+      "Centripetal Force",
+      "Artificial Satellites"
+    ],
+    "prerequisites": [
+      "Centripetal Force"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-116",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Artificial Satellites",
+    "difficulty": "Intermediate",
+    "description": "Human-made objects placed into orbit around the Earth or another body, used for communication, navigation, observation, and research.",
+    "learning_objectives": [
+      "Describe the purpose of different types of artificial satellite",
+      "Explain the relationship between a satellite's orbital altitude and its orbital speed/period",
+      "Distinguish low Earth orbit from higher orbits in terms of typical use and characteristics"
+    ],
+    "explanation": "Artificial satellites are human-made objects deliberately placed into orbit around the Earth (or another astronomical body), maintained in orbit by gravitational attraction providing the necessary centripetal force, exactly as described in Orbital Motion. Different orbital altitudes suit different purposes: satellites in low Earth orbit (a few hundred kilometres up) orbit relatively quickly (with orbital periods of around 90 minutes) and are commonly used for Earth observation, scientific research, and low-latency communication, since their proximity to Earth's surface allows detailed imaging and reduces signal delay; satellites at much higher altitudes, including those in a geostationary orbit (covered in its own topic), are used where a longer orbital period, or a fixed position relative to a point on Earth's surface, is more useful, such as for weather monitoring or television broadcast satellites. In general, since orbital speed depends on radius (v = root(GM/r)), satellites at a lower altitude (smaller r) must travel faster, and correspondingly complete their orbit in a shorter period, than satellites at a higher altitude.",
+    "key_concepts": [
+      "Maintained in orbit by gravitational force (centripetal force)",
+      "Low Earth orbit: fast, short period, used for observation/research",
+      "Higher orbit (e.g. geostationary): longer period, used for fixed positioning/broadcast"
+    ],
+    "definitions": [
+      {
+        "term": "Artificial satellite",
+        "definition": "A human-made object placed into orbit around the Earth or another astronomical body, maintained by gravitational force acting as the centripetal force."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "orbital period",
+        "si_unit": "second",
+        "symbol": "s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain why a satellite in a low Earth orbit has a much shorter orbital period than a satellite in a much higher orbit.",
+        "steps": [
+          "A satellite in a lower orbit has a smaller orbital radius, r.",
+          "Since orbital speed v = root(GM/r), a smaller r results in a greater required orbital speed.",
+          "A smaller orbital radius also directly means a shorter total distance to travel for one complete orbit (circumference = 2(pi)r).",
+          "The combination of a greater speed and a shorter distance to travel means the satellite completes each orbit in a much shorter time (shorter period) than a satellite in a higher, larger orbit, which moves more slowly and has further to travel."
+        ],
+        "answer": "A low-orbit satellite has both a greater orbital speed and a shorter total orbital distance to travel than a high-orbit satellite, resulting in a much shorter orbital period."
+      }
+    ],
+    "practical_applications": [
+      "GPS and satellite navigation systems",
+      "Weather monitoring and Earth observation satellites",
+      "Television, radio, and internet communication satellites"
+    ],
+    "common_mistakes": [
+      "Assuming all artificial satellites orbit at the same altitude and speed, ignoring the wide range of orbits suited to different purposes",
+      "Confusing orbital period (time for one orbit) with orbital speed (linear speed around the orbit)"
+    ],
+    "misconceptions": [
+      "That a higher-altitude satellite is always 'better' or more capable than a low-altitude one — the choice of orbital altitude depends entirely on the satellite's purpose: low orbits give detailed imaging and low communication delay, while higher orbits (such as geostationary) offer a fixed relative position or wider coverage area, each with its own trade-offs."
+    ],
+    "tips": [
+      "Relate a satellite's altitude to its likely purpose: fast-moving, low-altitude satellites are generally used for detailed observation or rapid communication, while slower, higher-altitude satellites are used where a longer period or wide, stable coverage is more valuable."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the force responsible for keeping an artificial satellite in orbit."
+      ],
+      "intermediate": [
+        "Explain one advantage of a low Earth orbit satellite compared with a higher orbit satellite for Earth observation purposes."
+      ],
+      "advanced": [
+        "Explain why a satellite cannot remain in a stable orbit without a sufficient orbital speed for its given altitude."
+      ]
+    },
+    "exam_questions": [
+      "Describe one practical use of artificial satellites, and explain why the chosen orbital altitude is suitable for that use."
+    ],
+    "answers": {
+      "basic": [
+        "Gravitational force (acting as the centripetal force)."
+      ],
+      "intermediate": [
+        "A low Earth orbit satellite is much closer to the Earth's surface, allowing it to capture more detailed images (higher resolution) of specific locations than a satellite at a much higher altitude."
+      ],
+      "advanced": [
+        "If a satellite's speed is too low for its given orbital radius, the gravitational force acting on it will exceed the centripetal force required for that radius, causing the satellite to be pulled inward (toward a lower orbit, or ultimately toward the Earth) rather than maintaining its intended circular path, since gravity and the required centripetal force would no longer be in balance."
+      ],
+      "exam": [
+        "Weather monitoring satellites are often placed in geostationary orbit, at a high altitude with a 24-hour orbital period matching the Earth's rotation, allowing the satellite to remain positioned above the same point on Earth's surface continuously, providing a stable, uninterrupted view of a specific weather region."
+      ]
+    },
+    "summary": "Artificial satellites are placed into orbit around the Earth using gravitational force as the centripetal force, with orbital altitude chosen based on the satellite's purpose. Lower orbits are faster with shorter periods; higher orbits (such as geostationary) offer longer periods and fixed relative positioning.",
+    "revision_notes": [
+      "Maintained by gravity (centripetal force)",
+      "Low orbit: fast, short period, detailed observation",
+      "High orbit (e.g. geostationary): slow, long period, fixed positioning"
+    ],
+    "related_topics": [
+      "Orbital Motion",
+      "Geostationary Satellites",
+      "Polar Satellites"
+    ],
+    "prerequisites": [
+      "Orbital Motion"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-117",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Geostationary Satellites",
+    "difficulty": "Intermediate",
+    "description": "Satellites in a specific equatorial orbit whose orbital period exactly matches the Earth's rotation, keeping them positioned above a fixed point on the equator.",
+    "learning_objectives": [
+      "Define a geostationary orbit",
+      "State the key requirements for a geostationary orbit (period, plane, direction)",
+      "Explain the practical usefulness of geostationary satellites"
+    ],
+    "explanation": "A geostationary satellite is a satellite placed in a very specific orbit, called a geostationary orbit, such that it appears to remain permanently fixed above the same point on the Earth's equator, as seen from the ground. For this to happen, three conditions must all be satisfied: the satellite's orbital period must be exactly equal to the Earth's rotational period (approximately 24 hours, or more precisely one sidereal day, about 23 hours 56 minutes); the satellite must orbit in the same direction as the Earth's rotation (west to east); and the orbit must lie directly in the plane of the Earth's equator. Satisfying the period condition alone fixes the required orbital radius (via the relationship between orbital period and radius, since a longer period requires a larger radius), which works out to approximately 35,800 km above the Earth's surface. Because a geostationary satellite maintains a fixed position relative to the ground, it is especially useful for applications requiring a satellite dish or antenna to remain pointed in a constant direction, such as television broadcasting and some communication and weather-monitoring systems.",
+    "key_concepts": [
+      "Orbital period = Earth's rotational period (~24 hours)",
+      "Orbits in the plane of the equator, same direction as Earth's rotation",
+      "Fixed altitude (~35,800 km) and fixed position relative to the ground"
+    ],
+    "definitions": [
+      {
+        "term": "Geostationary orbit",
+        "definition": "An equatorial orbit with a period equal to the Earth's rotational period, in the same direction as the Earth's rotation, causing a satellite to remain above a fixed point on the equator."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "orbital period",
+        "si_unit": "second",
+        "symbol": "s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain why a satellite in a geostationary orbit must have an orbital period of approximately 24 hours.",
+        "steps": [
+          "A geostationary satellite must remain positioned above the same point on the Earth's surface at all times.",
+          "This requires the satellite to complete exactly one full orbit in the same time it takes the Earth to complete one full rotation on its axis.",
+          "Since the Earth rotates once approximately every 24 hours, the satellite's orbital period must also be approximately 24 hours to stay synchronised with the Earth's rotation."
+        ],
+        "answer": "The satellite's orbital period must match the Earth's rotational period (approximately 24 hours) so that it completes exactly one orbit for every one rotation of the Earth, keeping it above the same surface point."
+      }
+    ],
+    "practical_applications": [
+      "Television and satellite broadcast, allowing fixed home satellite dishes to remain pointed at a constant location in the sky",
+      "Some weather satellites, providing continuous monitoring of a specific region",
+      "Certain communication satellite networks requiring a fixed relative position"
+    ],
+    "common_mistakes": [
+      "Assuming any satellite with a 24-hour orbital period is automatically geostationary, forgetting the additional requirements of an equatorial orbit and matching rotational direction",
+      "Confusing geostationary orbit with low Earth orbit in terms of altitude and typical uses"
+    ],
+    "misconceptions": [
+      "That a geostationary orbit can be achieved at any altitude, as long as the direction and plane are correct — the specific 24-hour period requirement, combined with the physics of orbital motion (linking period and radius), fixes the geostationary altitude at one particular value (approximately 35,800 km), not a range of possible altitudes."
+    ],
+    "tips": [
+      "Remember all three conditions for a true geostationary orbit: correct period (~24 hours), correct plane (equatorial), and correct direction (same as Earth's rotation) — satisfying only some of these results in a different type of orbit, not a geostationary one."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the approximate orbital period required for a geostationary satellite."
+      ],
+      "intermediate": [
+        "Explain why a geostationary satellite must orbit directly above the Earth's equator, rather than at some other latitude."
+      ],
+      "advanced": [
+        "Explain why a satellite with the correct 24-hour period but orbiting in a plane tilted away from the equator would not be truly geostationary."
+      ]
+    },
+    "exam_questions": [
+      "State the three conditions required for a satellite to be in a geostationary orbit, and explain the practical benefit this provides for satellite communication."
+    ],
+    "answers": {
+      "basic": [
+        "Approximately 24 hours."
+      ],
+      "intermediate": [
+        "Orbiting directly above the equator is required for the satellite's circular path to remain centred on the Earth's rotational axis in a way that keeps it above a single, fixed point on the ground; an orbit tilted away from the equator would cause the satellite's position, as seen from the ground, to drift north and south over each day, even with the correct period."
+      ],
+      "advanced": [
+        "Even with the correct 24-hour period, a satellite in a tilted orbital plane would trace out a path that moves north and south relative to the equator over the course of each orbit (as seen from the ground), rather than remaining fixed above a single point; only an orbit exactly in the equatorial plane, combined with the correct period and direction, produces a truly stationary position relative to a point on the ground."
+      ],
+      "exam": [
+        "The three conditions are: an orbital period equal to the Earth's rotational period (approximately 24 hours), an orbit in the plane of the Earth's equator, and orbiting in the same direction as the Earth's rotation; the practical benefit is that a satellite dish or antenna on the ground can be pointed at a single, fixed position in the sky and requires no tracking mechanism to follow the satellite's motion, since the satellite always appears in the same place."
+      ]
+    },
+    "summary": "A geostationary satellite orbits with a period matching the Earth's rotation (about 24 hours), directly above the equator and in the same direction as Earth's rotation, at a fixed altitude of approximately 35,800 km, keeping it positioned above a fixed point on the ground.",
+    "revision_notes": [
+      "Period = ~24 hours, equatorial plane, same rotational direction",
+      "Fixed altitude ~35,800 km",
+      "Used for broadcast, fixed-position communication"
+    ],
+    "related_topics": [
+      "Orbital Motion",
+      "Artificial Satellites",
+      "Polar Satellites"
+    ],
+    "prerequisites": [
+      "Orbital Motion",
+      "Artificial Satellites"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: The Earth with a geostationary orbit shown as an equatorial circle, and a polar orbit shown as a circle passing over the poles]"
+    ],
+    "images": [
+      {
+        "filename": "physics-satellites-117-01.webp",
+        "type": "diagram",
+        "description": "The Earth shown as a blue sphere, with a red circular orbit path drawn around the equator labelled 'Geostationary (equatorial)', and a blue circular orbit path drawn passing over the poles labelled 'Polar orbit (pole to pole)'.",
+        "purpose": "Directly contrasts the two orbit orientations covered across this and the Polar Satellites topic, clarifying the key geometric difference between them.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-118",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Polar Satellites",
+    "difficulty": "Intermediate",
+    "description": "Satellites in a low-altitude orbit that passes over or near the Earth's North and South poles, allowing them to scan the entire planet's surface over successive orbits.",
+    "learning_objectives": [
+      "Describe a polar orbit",
+      "Explain how a polar satellite can observe the entire surface of the Earth over time",
+      "Compare polar orbits with geostationary orbits in terms of altitude, period, and typical use"
+    ],
+    "explanation": "A polar satellite orbits the Earth in a path that passes over, or very close to, the North and South poles, rather than around the equator as a geostationary satellite does. Polar orbits are typically at a much lower altitude than geostationary orbits, and therefore have a much shorter orbital period (often around 90 to 100 minutes). Because the Earth itself rotates on its axis beneath the satellite's orbit, and the orbital plane of a polar satellite stays roughly fixed in space while the Earth rotates underneath it, each successive orbit passes over a different strip of the Earth's surface; over the course of many orbits (typically completing a full coverage cycle within about a day), a polar satellite can scan and image the entire surface of the planet, including the polar regions that a geostationary satellite (fixed above the equator) cannot usefully observe. This makes polar orbits especially well suited to global mapping, environmental and climate monitoring, and reconnaissance applications requiring complete surface coverage.",
+    "key_concepts": [
+      "Orbits pass near/over the North and South poles",
+      "Lower altitude, shorter period than geostationary satellites",
+      "Earth's rotation beneath the fixed orbital plane gives full surface coverage over time"
+    ],
+    "definitions": [
+      {
+        "term": "Polar orbit",
+        "definition": "A satellite orbit that passes over or near the Earth's North and South poles, allowing coverage of the entire planet's surface as the Earth rotates beneath the orbit."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "orbital period",
+        "si_unit": "second",
+        "symbol": "s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain why a polar satellite is able to observe the entire surface of the Earth over a series of orbits, even though each individual orbit only passes over a narrow strip of the planet.",
+        "steps": [
+          "The satellite's orbital plane remains roughly fixed relative to distant space as it orbits.",
+          "Meanwhile, the Earth continues to rotate on its axis beneath the satellite's orbit.",
+          "Because of this rotation, each successive orbit of the satellite passes over a different north-south strip of the Earth's surface, slightly shifted from the previous orbit.",
+          "Over many orbits (as the Earth completes a full rotation), the satellite's accumulated ground track covers the entire surface of the planet."
+        ],
+        "answer": "Because the Earth rotates beneath the satellite's roughly fixed orbital plane, each orbit covers a different strip of the surface, and over time these strips combine to cover the whole planet."
+      }
+    ],
+    "practical_applications": [
+      "Global weather and climate monitoring satellites",
+      "Earth mapping and environmental monitoring, including deforestation and ice sheet tracking",
+      "Military and civilian reconnaissance satellites requiring global coverage"
+    ],
+    "common_mistakes": [
+      "Assuming a polar orbit and a geostationary orbit serve the same purpose, or have similar altitudes and periods",
+      "Forgetting that a single orbit of a polar satellite only covers a narrow strip, not the whole planet at once"
+    ],
+    "misconceptions": [
+      "That a polar satellite images the entire Earth's surface within a single orbit — each individual orbit only passes over one narrow, roughly north-south strip of the Earth; complete global coverage is only achieved cumulatively, after many orbits, as the Earth's rotation shifts each successive strip to a new location."
+    ],
+    "tips": [
+      "Contrast polar orbits (low altitude, short period, full global coverage over time, fixed orbital plane relative to space) directly with geostationary orbits (high altitude, ~24-hour period, fixed position relative to the ground) to keep the two concepts clearly distinct."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the region of the Earth that a polar orbit passes over or near."
+      ],
+      "intermediate": [
+        "Explain why polar satellites are well suited to global environmental monitoring."
+      ],
+      "advanced": [
+        "Explain why a polar satellite typically has a much shorter orbital period than a geostationary satellite."
+      ]
+    },
+    "exam_questions": [
+      "Explain how a polar-orbiting satellite is able to provide complete coverage of the Earth's surface over time, despite each individual orbital pass covering only a narrow strip."
+    ],
+    "answers": {
+      "basic": [
+        "The North and South poles."
+      ],
+      "intermediate": [
+        "Because a polar satellite passes over the entire range of latitudes on each orbit, and the Earth rotates beneath it, the satellite's accumulated coverage over many orbits includes the whole planet, making it well suited to tracking global environmental changes such as ice sheet extent, deforestation, or weather patterns everywhere on Earth, not just one fixed region."
+      ],
+      "advanced": [
+        "Polar satellites typically orbit at a much lower altitude than geostationary satellites; since orbital speed and period both depend on orbital radius (via v = root(GM/r) and the relationship between speed, radius, and period), a smaller orbital radius results in a shorter orbital period, giving polar satellites periods of around 90-100 minutes compared with the roughly 24-hour period of a geostationary satellite."
+      ],
+      "exam": [
+        "As the polar satellite completes each individual orbit, it passes over a narrow, roughly north-south strip of the Earth's surface; because the satellite's orbital plane stays roughly fixed in space while the Earth continues rotating beneath it, each successive orbit's strip is shifted slightly relative to the previous one, and after enough orbits (as the Earth completes a full rotation), these shifted strips combine to give complete coverage of the entire surface of the planet."
+      ]
+    },
+    "summary": "A polar satellite orbits over or near the Earth's poles at low altitude with a short period. As the Earth rotates beneath its roughly fixed orbital plane, successive orbits cover different strips of the surface, together providing complete global coverage over time.",
+    "revision_notes": [
+      "Passes over/near the poles; low altitude, short period (~90-100 min)",
+      "Earth rotates beneath fixed orbital plane -> full global coverage over time",
+      "Used for mapping, environmental monitoring, reconnaissance"
+    ],
+    "related_topics": [
+      "Geostationary Satellites",
+      "Artificial Satellites",
+      "Orbital Motion"
+    ],
+    "prerequisites": [
+      "Artificial Satellites"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-119",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Gravitational Force",
+    "difficulty": "Foundational",
+    "description": "The attractive force that exists between any two objects that have mass.",
+    "learning_objectives": [
+      "Describe gravitational force as a universal, always-attractive force between masses",
+      "Explain how gravitational force depends on mass and distance",
+      "Identify examples of gravitational force at different scales"
+    ],
+    "explanation": "Gravitational force is the attractive force that exists between any two objects that have mass, pulling them toward each other. Unlike some other forces, gravitational force is always attractive (never repulsive) and acts between every pair of masses in the universe, however small, though its effect is only noticeable for objects with very large mass, such as planets, stars, and moons, since gravitational force between everyday objects (such as two people standing near each other) is far too small to detect without extremely sensitive equipment. Gravitational force is responsible for keeping planets in orbit around the Sun, moons in orbit around planets, and objects held to the surface of the Earth (experienced as weight). The exact size of the gravitational force between two objects depends on both of their masses and the distance between them, as described quantitatively by Newton's law of gravitation, covered in its own topic.",
+    "key_concepts": [
+      "Always attractive, acts between any two masses",
+      "Noticeable only for very large masses (planets, stars)",
+      "Depends on mass and distance (Newton's law of gravitation)"
+    ],
+    "definitions": [
+      {
+        "term": "Gravitational force",
+        "definition": "The universal, always-attractive force that exists between any two objects that have mass."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain why two people standing near each other do not notice any gravitational attraction between them, even though gravitational force technically exists between any two masses.",
+        "steps": [
+          "Gravitational force exists between any two masses, including two people.",
+          "However, gravitational force is extremely small unless at least one of the objects involved has a very large mass (such as a planet).",
+          "Since human bodies have a relatively very small mass compared with astronomical objects, the gravitational force between two people is far too small to be felt or detected without highly sensitive scientific instruments."
+        ],
+        "answer": "The gravitational force between two people does exist, but is far too small to detect directly, since neither person has anywhere near the mass required (such as that of a planet) to produce a noticeable gravitational effect."
+      }
+    ],
+    "practical_applications": [
+      "Explaining planetary and lunar orbits throughout the solar system",
+      "Understanding weight and why objects fall toward the Earth",
+      "Precision experiments (such as torsion balance experiments) used to measure gravitational force directly in a laboratory"
+    ],
+    "common_mistakes": [
+      "Assuming gravitational force only exists for very large objects, rather than existing (but being negligibly small) between all masses",
+      "Confusing gravitational force with weight, which is specifically the gravitational force acting on an object due to a nearby large body such as the Earth"
+    ],
+    "misconceptions": [
+      "That gravitational force can be repulsive under certain conditions — as far as classical (non-relativistic) physics is concerned, gravitational force between masses is always attractive, pulling objects toward each other, never pushing them apart."
+    ],
+    "tips": [
+      "Remember that gravitational force technically exists between every pair of masses in the universe, but is only significant (and therefore noticeable or important) when at least one of the masses involved is extremely large, such as a planet or star."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State whether gravitational force is attractive, repulsive, or can be either."
+      ],
+      "intermediate": [
+        "Explain why the gravitational force between the Earth and the Sun is far more significant than the gravitational force between two nearby buildings."
+      ],
+      "advanced": [
+        "Explain why astronauts in orbit still experience a significant gravitational force from the Earth, even though they appear to be 'weightless'."
+      ]
+    },
+    "exam_questions": [
+      "Describe gravitational force, and explain why its effects are only noticeable for objects with very large mass."
+    ],
+    "answers": {
+      "basic": [
+        "Always attractive."
+      ],
+      "intermediate": [
+        "The Sun (and to a lesser extent the Earth) has an enormously greater mass than either of the two buildings, and since gravitational force depends strongly on the masses involved, the resulting gravitational force between the Earth and the Sun is vastly larger and more significant than the negligible gravitational force between two ordinary buildings."
+      ],
+      "advanced": [
+        "Astronauts in low Earth orbit are still well within the Earth's significant gravitational field, and this gravitational force is what provides the centripetal force keeping them in orbit; the sensation of 'weightlessness' arises because both the astronaut and their spacecraft are in continuous free fall together around the Earth, not because gravity has become negligible or absent."
+      ],
+      "exam": [
+        "Gravitational force is the universal, always-attractive force that exists between any two objects with mass; its effects are only noticeable for objects with very large mass because the size of the gravitational force is proportional to the product of the two masses involved, and for everyday objects (with relatively tiny mass compared with planets and stars), this product — and therefore the resulting force — is far too small to detect without extremely sensitive instruments."
+      ]
+    },
+    "summary": "Gravitational force is the universal, always-attractive force between any two masses. It is significant only for very large masses, such as planets and stars, and is responsible for weight, orbits, and the large-scale structure of the universe.",
+    "revision_notes": [
+      "Always attractive, exists between all masses",
+      "Only noticeable for very large masses",
+      "Responsible for weight, orbits, planetary motion"
+    ],
+    "related_topics": [
+      "Newton's Law of Gravitation",
+      "Weight",
+      "Gravitational Field Strength"
+    ],
+    "prerequisites": [
+      "Mass",
+      "Force"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-120",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Newton's Law of Gravitation",
+    "difficulty": "Intermediate",
+    "description": "The equation describing the gravitational force between two point masses, proportional to the product of their masses and inversely proportional to the square of the distance between them.",
+    "learning_objectives": [
+      "State Newton's law of gravitation and its equation",
+      "Calculate the gravitational force between two masses given their separation",
+      "Explain how gravitational force changes as the distance between two masses changes"
+    ],
+    "explanation": "Newton's law of gravitation states that the gravitational force of attraction between any two point masses is directly proportional to the product of their masses, and inversely proportional to the square of the distance between their centres. This is expressed by the equation F = Gm1m2/r^2, where m1 and m2 are the two masses, r is the distance between their centres, and G is the gravitational constant, a fixed value (approximately 6.67 x 10^-11 N m^2/kg^2) that determines the overall strength of gravity throughout the universe. The 'inverse square' relationship means gravitational force falls off very rapidly with increasing distance: doubling the distance between two masses reduces the gravitational force between them to one quarter of its original value, while tripling the distance reduces it to one ninth. This equation applies exactly for point masses (or, equivalently, for any spherically symmetric object, treating its entire mass as if concentrated at its centre, measuring distance from that centre), and provides the theoretical foundation for orbital motion, weight, and gravitational field strength.",
+    "key_concepts": [
+      "F = Gm1m2/r^2",
+      "Inverse square law: doubling distance quarters the force",
+      "G is a universal constant, same everywhere"
+    ],
+    "definitions": [
+      {
+        "term": "Newton's law of gravitation",
+        "definition": "The gravitational force between two point masses is directly proportional to the product of their masses and inversely proportional to the square of the distance between them, F = Gm1m2/r^2."
+      },
+      {
+        "term": "Gravitational constant (G)",
+        "definition": "A universal physical constant, approximately 6.67 x 10^-11 N m^2/kg^2, determining the overall strength of gravitational force between masses."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Newton's law of gravitation",
+        "equation": "F = Gm1m2 / r^2",
+        "variables": {
+          "F": "gravitational force, N",
+          "G": "gravitational constant, 6.67 x 10^-11 N m^2/kg^2",
+          "m1, m2": "the two masses, kg",
+          "r": "distance between the centres of the two masses, m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Calculate the gravitational force between two masses of 500 kg and 800 kg, with their centres separated by 2 m (use G = 6.67 x 10^-11 N m^2/kg^2).",
+        "steps": [
+          "Use F = Gm1m2/r^2.",
+          "Substitute: F = (6.67x10^-11)(500)(800) / (2^2) = (6.67x10^-11)(400,000) / 4."
+        ],
+        "answer": "Approximately 6.67 x 10^-6 N"
+      }
+    ],
+    "practical_applications": [
+      "Calculating gravitational forces between astronomical bodies (planets, moons, stars)",
+      "Determining satellite orbital parameters and mission trajectories",
+      "Precision measurements of G in laboratory experiments, such as the Cavendish experiment"
+    ],
+    "common_mistakes": [
+      "Forgetting to square the distance, r, in the denominator",
+      "Confusing the gravitational constant, G, with gravitational field strength, g, which are related but distinct quantities with very different values and units"
+    ],
+    "misconceptions": [
+      "That gravitational force decreases in direct (linear) proportion to distance — Newton's law of gravitation is an inverse SQUARE law, meaning force decreases much more rapidly than distance increases; doubling the distance reduces the force to a quarter, not to a half."
+    ],
+    "tips": [
+      "Always square the distance before dividing, and double-check whether a problem is asking for a change resulting from a change in distance (using the inverse square relationship as a ratio) or a full numerical calculation using the equation directly."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State Newton's law of gravitation as an equation, defining each symbol."
+      ],
+      "intermediate": [
+        "Two masses experience a gravitational force of 4 x 10^-5 N at a certain separation. Calculate the new force if the separation is doubled, with the masses unchanged."
+      ],
+      "advanced": [
+        "Calculate the gravitational force between the Earth (mass 6.0 x 10^24 kg) and a 70 kg person standing on its surface, at a distance of 6.4 x 10^6 m from the Earth's centre (use G = 6.67 x 10^-11 N m^2/kg^2), and compare this with the person's weight calculated using W = mg."
+      ]
+    },
+    "exam_questions": [
+      "Explain, using Newton's law of gravitation, why the gravitational force between two objects decreases rapidly as the distance between them increases."
+    ],
+    "answers": {
+      "basic": [
+        "F = Gm1m2/r^2, where F is gravitational force in N, G is the gravitational constant, m1 and m2 are the two masses in kg, and r is the distance between their centres in m."
+      ],
+      "intermediate": [
+        "Since force is inversely proportional to the square of distance, doubling the distance reduces the force to 1/(2^2) = 1/4 of its original value: new force = 4x10^-5 / 4 = 1x10^-5 N."
+      ],
+      "advanced": [
+        "F = (6.67x10^-11)(6.0x10^24)(70) / (6.4x10^6)^2 = 2.8014x10^13 / 4.096x10^13 approx 684 N. Using W = mg = 70 x 9.8 = 686 N, these two values are very close (the small difference is due to rounding), confirming that gravitational force calculated from Newton's law of gravitation matches the everyday weight equation."
+      ],
+      "exam": [
+        "Because gravitational force is inversely proportional to the SQUARE of the distance (F is proportional to 1/r^2), any increase in distance causes a much larger decrease in force than a simple, direct (linear) relationship would produce — for example, doubling the distance reduces the force to only a quarter of its original value, not to half, because the distance term is squared in the denominator of the equation."
+      ]
+    },
+    "summary": "Newton's law of gravitation states that gravitational force between two masses is F = Gm1m2/r^2, directly proportional to the product of the masses and inversely proportional to the square of their separation. This inverse square relationship means force falls off rapidly with increasing distance.",
+    "revision_notes": [
+      "F = Gm1m2/r^2",
+      "G = 6.67 x 10^-11 N m^2/kg^2 (universal constant)",
+      "Inverse square law: double distance -> force / 4"
+    ],
+    "related_topics": [
+      "Gravitational Force",
+      "Gravitational Field Strength",
+      "Weight"
+    ],
+    "prerequisites": [
+      "Gravitational Force"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-121",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Gravitational Field Strength",
+    "difficulty": "Intermediate",
+    "description": "The gravitational force acting per unit mass at a point in a gravitational field, describing the strength of gravity at that location.",
+    "learning_objectives": [
+      "Define gravitational field strength and state its unit",
+      "Calculate gravitational field strength at a point around a spherical mass using Newton's law of gravitation",
+      "Explain how gravitational field strength varies with distance from a mass"
+    ],
+    "explanation": "Gravitational field strength, given the symbol g, is defined as the gravitational force acting per unit mass at a particular point within a gravitational field, calculated as g = F/m, where F is the gravitational force experienced by a small test mass, m, placed at that point. Gravitational field strength is measured in newtons per kilogram (N/kg), and is numerically equal to the local acceleration due to gravity (m/s^2 and N/kg are dimensionally equivalent units). Combining the definition of gravitational field strength with Newton's law of gravitation (F = GMm/r^2, where M is the mass creating the field) gives g = GM/r^2, showing that gravitational field strength around a spherical mass depends only on the mass creating the field and the distance from its centre, not on the mass of the small test object placed within the field. Because of the inverse-square relationship, gravitational field strength decreases rapidly with increasing distance from the central mass, which is why g is measurably (though only slightly) smaller at high altitude than at sea level, and dramatically smaller far out in space.",
+    "key_concepts": [
+      "g = F/m (N/kg)",
+      "g = GM/r^2 (from combining with Newton's law of gravitation)",
+      "Numerically equal to local acceleration due to gravity"
+    ],
+    "definitions": [
+      {
+        "term": "Gravitational field strength",
+        "definition": "The gravitational force acting per unit mass at a point within a gravitational field, calculated as g = F/m, measured in N/kg."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Gravitational field strength (definition)",
+        "equation": "g = F / m",
+        "variables": {
+          "g": "gravitational field strength, N/kg",
+          "F": "gravitational force experienced, N",
+          "m": "mass of the object experiencing the force, kg"
+        }
+      },
+      {
+        "name": "Gravitational field strength around a spherical mass",
+        "equation": "g = GM / r^2",
+        "variables": {
+          "G": "gravitational constant",
+          "M": "mass creating the field, kg",
+          "r": "distance from the centre of the mass, m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "gravitational field strength",
+        "si_unit": "newton per kilogram",
+        "symbol": "N/kg"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Calculate the gravitational field strength at the Earth's surface, given the Earth's mass is 6.0 x 10^24 kg and its radius is 6.4 x 10^6 m (use G = 6.67 x 10^-11 N m^2/kg^2).",
+        "steps": [
+          "Use g = GM/r^2.",
+          "Substitute: g = (6.67x10^-11)(6.0x10^24) / (6.4x10^6)^2 = 4.002x10^14 / 4.096x10^13."
+        ],
+        "answer": "Approximately 9.77 N/kg (close to the standard value of 9.8 N/kg)"
+      }
+    ],
+    "practical_applications": [
+      "Calculating weight at different locations, including other planets and altitudes",
+      "Understanding variations in g used in precise geophysical surveys",
+      "Space mission planning, accounting for changing gravitational field strength with altitude"
+    ],
+    "common_mistakes": [
+      "Confusing gravitational field strength, g (N/kg), with the gravitational constant, G (N m^2/kg^2), which are different quantities",
+      "Assuming gravitational field strength is exactly the same at every point on or near the Earth's surface"
+    ],
+    "misconceptions": [
+      "That gravitational field strength depends on the mass of the object experiencing the force — since g = GM/r^2 (derived by combining the definition of g with Newton's law of gravitation), gravitational field strength depends only on the mass creating the field and the distance from it, not on the mass of any test object placed within that field, which is why all objects experience the same g at a given location, regardless of their own mass."
+    ],
+    "tips": [
+      "Remember gravitational field strength and acceleration due to gravity are numerically equal and can be used interchangeably (N/kg and m/s^2 are equivalent units in this context)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for gravitational field strength in terms of force and mass."
+      ],
+      "intermediate": [
+        "Calculate the gravitational field strength on the surface of the Moon, given its mass is 7.3 x 10^22 kg and its radius is 1.74 x 10^6 m (use G = 6.67 x 10^-11 N m^2/kg^2)."
+      ],
+      "advanced": [
+        "Explain why gravitational field strength decreases with increasing altitude above the Earth's surface, referring to the equation g = GM/r^2."
+      ]
+    },
+    "exam_questions": [
+      "Explain why the gravitational field strength experienced by any object at a given point above the Earth's surface does not depend on the object's own mass."
+    ],
+    "answers": {
+      "basic": [
+        "g = F/m."
+      ],
+      "intermediate": [
+        "g = GM/r^2 = (6.67x10^-11)(7.3x10^22) / (1.74x10^6)^2 = 4.87x10^12 / 3.03x10^12 approx 1.61 N/kg."
+      ],
+      "advanced": [
+        "As altitude increases, the distance, r, from the centre of the Earth increases; since g = GM/r^2, and r appears squared in the denominator, increasing r causes g to decrease, following an inverse square relationship (though the effect is small for typical altitudes compared with the Earth's radius)."
+      ],
+      "exam": [
+        "Combining the definition g = F/m with Newton's law of gravitation, F = GMm/r^2, gives g = (GMm/r^2)/m = GM/r^2 — the object's own mass, m, cancels out of this expression entirely, showing that gravitational field strength at a given point depends only on the mass creating the field, M, and the distance from it, r, not on the mass of any object placed at that point."
+      ]
+    },
+    "summary": "Gravitational field strength, g, is the gravitational force per unit mass at a point (g = F/m), measured in N/kg. Combined with Newton's law of gravitation, g = GM/r^2, showing it depends only on the mass creating the field and distance, not on the test object's mass.",
+    "revision_notes": [
+      "g = F/m (N/kg)",
+      "g = GM/r^2",
+      "Independent of the test object's own mass"
+    ],
+    "related_topics": [
+      "Newton's Law of Gravitation",
+      "Acceleration Due to Gravity",
+      "Weight"
+    ],
+    "prerequisites": [
+      "Newton's Law of Gravitation",
+      "Weight"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-122",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Gravitational Potential",
+    "difficulty": "Advanced",
+    "description": "The gravitational potential energy per unit mass at a point in a gravitational field, always negative and increasing (toward zero) with distance from the source mass.",
+    "learning_objectives": [
+      "Define gravitational potential",
+      "State and apply the equation for gravitational potential around a spherical mass",
+      "Explain why gravitational potential is defined as negative, with zero at infinity"
+    ],
+    "explanation": "Gravitational potential, given the symbol V (or sometimes phi), is defined as the gravitational potential energy per unit mass at a point within a gravitational field, calculated as V = -GM/r, where M is the mass creating the field and r is the distance from its centre. Gravitational potential is always negative (for any finite distance from a mass) and increases toward zero as distance, r, approaches infinity, which is taken as the reference point where gravitational potential is defined to be exactly zero. This negative convention reflects the fact that gravitational force is always attractive: energy must be put in (work done against gravity) to move a mass from close to the source mass out to an infinite distance away, meaning any point closer than infinity has a comparatively 'lower' (more negative) potential energy per unit mass. Gravitational potential is a scalar quantity (unlike gravitational field strength, which is a vector), which can make certain calculations, particularly involving multiple masses, more straightforward, since potentials from different sources simply add algebraically.",
+    "key_concepts": [
+      "V = -GM/r (always negative, zero at infinity)",
+      "Scalar quantity (potentials from multiple sources add directly)",
+      "Negative sign reflects the attractive nature of gravity"
+    ],
+    "definitions": [
+      {
+        "term": "Gravitational potential",
+        "definition": "The gravitational potential energy per unit mass at a point within a gravitational field, calculated as V = -GM/r, with zero defined at infinite distance."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Gravitational potential",
+        "equation": "V = -GM / r",
+        "variables": {
+          "V": "gravitational potential, J/kg",
+          "G": "gravitational constant",
+          "M": "mass creating the field, kg",
+          "r": "distance from the centre of the mass, m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "gravitational potential",
+        "si_unit": "joule per kilogram",
+        "symbol": "J/kg"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Calculate the gravitational potential at a distance of 4.0 x 10^7 m from the centre of the Earth (mass 6.0 x 10^24 kg), using G = 6.67 x 10^-11 N m^2/kg^2.",
+        "steps": [
+          "Use V = -GM/r.",
+          "Substitute: V = -(6.67x10^-11)(6.0x10^24) / (4.0x10^7) = -4.002x10^14 / 4.0x10^7."
+        ],
+        "answer": "Approximately -1.0 x 10^7 J/kg"
+      }
+    ],
+    "practical_applications": [
+      "Calculating the energy required for spacecraft to escape a planet's gravitational field",
+      "Analysing orbital energy and stability in astrophysics",
+      "Calculating gravitational potential energy changes for objects moving significant distances (where the uniform-field approximation, GPE = mgh, is no longer valid)"
+    ],
+    "common_mistakes": [
+      "Forgetting the negative sign in the gravitational potential equation",
+      "Confusing gravitational potential (a scalar, J/kg) with gravitational potential energy (a scalar, but in joules, specific to a particular mass, not per unit mass)"
+    ],
+    "misconceptions": [
+      "That a negative gravitational potential represents some kind of 'negative' or nonsensical physical quantity — the negative sign is simply a consequence of the chosen reference point (zero at infinite distance) combined with gravity always being attractive; a more negative potential simply means a location is 'deeper' within the gravitational field (closer to the source mass) and therefore requires more energy input to escape to infinity from that point."
+    ],
+    "tips": [
+      "Remember that gravitational potential always increases (becomes less negative, approaching zero) as distance from the source mass increases, reflecting that less energy is needed to move further away, toward the reference point at infinity."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for gravitational potential, defining each symbol."
+      ],
+      "intermediate": [
+        "Explain why gravitational potential is defined to be zero at an infinite distance from a mass, rather than at some other reference point."
+      ],
+      "advanced": [
+        "Calculate the gravitational potential at the surface of the Moon (mass 7.3 x 10^22 kg, radius 1.74 x 10^6 m), using G = 6.67 x 10^-11 N m^2/kg^2."
+      ]
+    },
+    "exam_questions": [
+      "Explain why gravitational potential is always negative at any finite distance from a mass, using the concept of work done against gravity."
+    ],
+    "answers": {
+      "basic": [
+        "V = -GM/r, where V is gravitational potential in J/kg, G is the gravitational constant, M is the mass creating the field in kg, and r is the distance from its centre in m."
+      ],
+      "intermediate": [
+        "Infinite distance is chosen as the reference point because it represents the point at which an object experiences no further gravitational influence from the mass at all, providing a single, unambiguous, and universally consistent reference point for comparing gravitational potential at any finite distance."
+      ],
+      "advanced": [
+        "V = -GM/r = -(6.67x10^-11)(7.3x10^22) / (1.74x10^6) = -4.87x10^12 / 1.74x10^6 approx -2.80x10^6 J/kg."
+      ],
+      "exam": [
+        "Since gravitational force is always attractive, positive work must be done (energy input required) to move a mass away from a source mass, out to an infinite distance, against this attractive pull; since gravitational potential is defined to be exactly zero at infinity, and energy had to be added to reach that point from any closer position, any finite distance must therefore represent a lower (more negative) potential energy state per unit mass than the zero reference point at infinity."
+      ]
+    },
+    "summary": "Gravitational potential is the gravitational potential energy per unit mass at a point, V = -GM/r, always negative with zero defined at infinite distance. This reflects the energy needed to move a mass away from an attractive gravitational source to infinity.",
+    "revision_notes": [
+      "V = -GM/r (J/kg)",
+      "Always negative; zero at infinity",
+      "Scalar quantity; potentials from multiple sources add directly"
+    ],
+    "related_topics": [
+      "Gravitational Field Strength",
+      "Gravitational Potential Energy (Radial Field)",
+      "Escape Velocity"
+    ],
+    "prerequisites": [
+      "Gravitational Field Strength"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-123",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Gravitational Potential Energy (Radial Field)",
+    "difficulty": "Advanced",
+    "description": "The gravitational potential energy of a mass within a radial (non-uniform) gravitational field, applicable over large distances such as those involved in orbital and space physics.",
+    "learning_objectives": [
+      "State the equation for gravitational potential energy in a radial field",
+      "Explain why this equation differs from the simpler GPE = mgh used in a uniform field",
+      "Calculate the gravitational potential energy of a mass at a given distance from a large body"
+    ],
+    "explanation": "While the simpler equation GPE = mgh (covered in Work, Energy and Power) works well for everyday heights near the Earth's surface, where the gravitational field can be treated as uniform, it becomes increasingly inaccurate over large distances, such as those involved in satellite orbits or interplanetary travel, where the gravitational field strength itself changes significantly with distance (following an inverse square relationship, as covered in Gravitational Field Strength). For these situations, the more general and accurate equation for gravitational potential energy is GPE = -GMm/r, where M is the mass of the large central body (such as a planet), m is the mass of the smaller object, r is the distance between their centres, and G is the gravitational constant. This equation is directly related to gravitational potential, V = -GM/r, since gravitational potential energy is simply gravitational potential multiplied by the mass of the object placed within the field: GPE = Vm. Like gravitational potential itself, this radial-field GPE is always negative for any finite separation, with zero defined at an infinite distance between the two masses.",
+    "key_concepts": [
+      "GPE = -GMm/r (radial field, valid at any distance)",
+      "GPE = Vm (gravitational potential x mass)",
+      "Always negative; zero at infinite separation"
+    ],
+    "definitions": [
+      {
+        "term": "Gravitational potential energy (radial field)",
+        "definition": "The gravitational potential energy of a mass at a distance r from a large central mass M, calculated as GPE = -GMm/r, valid for any distance and always negative, with zero defined at infinite separation."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Gravitational potential energy (radial field)",
+        "equation": "GPE = -GMm / r",
+        "variables": {
+          "GPE": "gravitational potential energy, J",
+          "G": "gravitational constant",
+          "M": "mass of the large central body, kg",
+          "m": "mass of the smaller object, kg",
+          "r": "distance between the centres of the two masses, m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "gravitational potential energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Calculate the gravitational potential energy of a 500 kg satellite at a distance of 7.0 x 10^6 m from the centre of the Earth (mass 6.0 x 10^24 kg), using G = 6.67 x 10^-11 N m^2/kg^2.",
+        "steps": [
+          "Use GPE = -GMm/r.",
+          "Substitute: GPE = -(6.67x10^-11)(6.0x10^24)(500) / (7.0x10^6) = -2.001x10^17 / 7.0x10^6."
+        ],
+        "answer": "Approximately -2.86 x 10^10 J"
+      }
+    ],
+    "practical_applications": [
+      "Calculating the total energy of satellites and spacecraft in orbit",
+      "Determining the energy required for interplanetary missions and gravitational slingshot manoeuvres",
+      "Understanding the energy changes involved in a spacecraft escaping a planet's gravitational field entirely"
+    ],
+    "common_mistakes": [
+      "Applying the simpler GPE = mgh equation over very large distances, where g cannot be treated as constant",
+      "Forgetting the negative sign, or incorrectly interpreting what a negative GPE value physically represents"
+    ],
+    "misconceptions": [
+      "That GPE = mgh and GPE = -GMm/r are simply two unrelated formulas for the same quantity that happen to both exist — GPE = mgh is actually a close approximation of the more general GPE = -GMm/r equation, valid specifically for small height changes near a large body's surface, where g can be treated as approximately constant; the two are connected rather than entirely separate."
+    ],
+    "tips": [
+      "Use GPE = mgh only for relatively small height changes near a planet's surface, where g is approximately constant; use GPE = -GMm/r for any situation involving large distances or significant changes in gravitational field strength, such as orbital mechanics."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for gravitational potential energy in a radial field, defining each symbol."
+      ],
+      "intermediate": [
+        "Calculate the gravitational potential energy of a 1000 kg spacecraft at a distance of 1.0 x 10^7 m from the centre of the Earth (mass 6.0 x 10^24 kg), using G = 6.67 x 10^-11 N m^2/kg^2."
+      ],
+      "advanced": [
+        "Explain why the gravitational potential energy of an object increases (becomes less negative) as it moves further from a planet, connecting this to the work done against gravity."
+      ]
+    },
+    "exam_questions": [
+      "Explain why the equation GPE = mgh is not suitable for calculating the gravitational potential energy change of a satellite moving between two very different orbital altitudes, and state the equation that should be used instead."
+    ],
+    "answers": {
+      "basic": [
+        "GPE = -GMm/r, where GPE is gravitational potential energy in J, G is the gravitational constant, M is the mass of the large central body in kg, m is the mass of the smaller object in kg, and r is the distance between their centres in m."
+      ],
+      "intermediate": [
+        "GPE = -(6.67x10^-11)(6.0x10^24)(1000) / (1.0x10^7) = -4.002x10^17 / 1.0x10^7 approx -4.0x10^10 J."
+      ],
+      "advanced": [
+        "As an object moves further from the planet, work must be done against the attractive gravitational force to increase the separation; this work done is transferred to the object's gravitational potential energy, increasing it (making it less negative, moving toward zero as r approaches infinity), consistent with the object needing to gain energy to move to a position of higher (less negative) gravitational potential energy."
+      ],
+      "exam": [
+        "GPE = mgh assumes gravitational field strength, g, remains approximately constant over the height change involved, which is a reasonable approximation only for small height changes near a planet's surface; for a satellite moving between very different orbital altitudes, g changes significantly (following an inverse square relationship) over that range, so the more general equation GPE = -GMm/r, which accounts for this changing field strength, must be used instead."
+      ]
+    },
+    "summary": "Gravitational potential energy in a radial field is GPE = -GMm/r, valid at any distance from a large mass, unlike the approximate GPE = mgh used for small heights near a surface. It is always negative, with zero defined at infinite separation.",
+    "revision_notes": [
+      "GPE = -GMm/r (radial field, any distance)",
+      "GPE = mgh is an approximation, valid only for small height changes near a surface",
+      "Always negative; zero at infinite separation"
+    ],
+    "related_topics": [
+      "Gravitational Potential",
+      "Gravitational Potential Energy (Uniform Field)",
+      "Escape Velocity"
+    ],
+    "prerequisites": [
+      "Gravitational Potential"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-124",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Gravitational Fields",
+    "difficulty": "Intermediate",
+    "description": "The region of space surrounding a mass within which another mass would experience a gravitational force, represented visually using field lines.",
+    "learning_objectives": [
+      "Define a gravitational field",
+      "Describe how gravitational field lines represent the direction and strength of a gravitational field",
+      "Distinguish a uniform gravitational field from a radial gravitational field"
+    ],
+    "explanation": "A gravitational field is the region of space surrounding a mass within which another mass placed at any point would experience a gravitational force of attraction. Gravitational fields are represented visually using gravitational field lines, which show the direction a small test mass would be pulled at any given point (always pointing toward the source mass, since gravity is always attractive), with the spacing of the lines indicating the relative strength of the field — closely spaced lines represent a stronger field, while widely spaced lines represent a weaker field. Around a single, isolated spherical mass (such as a planet), the field lines point radially inward toward the centre of the mass from every direction, becoming more widely spaced (indicating a weakening field) further from the source; this is called a radial field. Very close to the surface of a large body, over a small enough region (such as the surface of the Earth in everyday, small-scale situations), the field lines can be treated as approximately parallel and evenly spaced, an approximation known as a uniform field, which underlies the simpler GPE = mgh and constant g approximations used in introductory mechanics.",
+    "key_concepts": [
+      "Gravitational field: region where a mass experiences gravitational force",
+      "Field lines: point toward the source mass, spacing shows relative strength",
+      "Radial field (around a point/spherical mass) vs uniform field (small region near a large surface, approximation)"
+    ],
+    "definitions": [
+      {
+        "term": "Gravitational field",
+        "definition": "The region of space surrounding a mass within which another mass would experience a gravitational force."
+      },
+      {
+        "term": "Uniform gravitational field",
+        "definition": "An approximation of a gravitational field, valid over a small region near a large mass's surface, in which the field lines are treated as parallel and evenly spaced, and g is treated as constant."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "Describe the difference in appearance between the gravitational field lines around an isolated planet (viewed from a large distance) and the gravitational field lines just above the Earth's surface, over a small local area (such as a school laboratory).",
+        "steps": [
+          "Around an isolated planet, viewed from a large distance, the field lines point radially inward toward the centre of the planet from every direction, and clearly converge (get closer together) as they approach the centre — a radial field.",
+          "Just above the Earth's surface, over a small local area, the curvature of these radial lines is far too gradual to notice, so the field lines appear to be parallel to each other and pointing straight down, evenly spaced — a uniform field approximation."
+        ],
+        "answer": "The full radial field around an isolated planet shows converging field lines pointing toward its centre, while the small-scale view near the Earth's surface approximates this as parallel, evenly-spaced, downward-pointing lines (a uniform field)."
+      }
+    ],
+    "practical_applications": [
+      "Visualising and communicating the strength and direction of gravitational effects in astrophysics and engineering",
+      "Justifying the use of the simpler GPE = mgh and constant g approximations for everyday, small-scale physics problems",
+      "Comparing gravitational fields around different astronomical bodies"
+    ],
+    "common_mistakes": [
+      "Assuming the uniform field approximation is valid over very large distances, rather than only very close to a large body's surface",
+      "Drawing gravitational field lines pointing away from a mass, rather than toward it (a common error, since some other field types, such as certain electric fields, do point outward)"
+    ],
+    "misconceptions": [
+      "That the Earth's gravitational field is genuinely uniform, rather than radial — the Earth's true gravitational field is radial (field lines converge toward its centre), and only appears uniform as a very good, useful approximation over the small distances typically involved in everyday, small-scale physics problems near its surface."
+    ],
+    "tips": [
+      "Remember gravitational field lines always point toward the source mass (since gravity is only ever attractive), and their spacing (closer = stronger, wider = weaker) shows the relative strength of the field at different points."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the direction in which gravitational field lines point, relative to the source mass."
+      ],
+      "intermediate": [
+        "Explain why gravitational field lines around an isolated planet get closer together nearer to the planet's surface."
+      ],
+      "advanced": [
+        "Explain why the uniform field approximation is reasonable for a school laboratory experiment, but would not be reasonable for calculating a satellite's motion at a very high orbital altitude."
+      ]
+    },
+    "exam_questions": [
+      "Sketch, in words, the gravitational field lines around an isolated spherical planet, and explain what the spacing of these lines represents."
+    ],
+    "answers": {
+      "basic": [
+        "Toward the source mass (inward)."
+      ],
+      "intermediate": [
+        "Field line spacing represents the relative strength of the gravitational field, with closer spacing indicating a stronger field; since gravitational field strength increases closer to a planet's centre (by g = GM/r^2), the field lines must correspondingly become more closely spaced as they approach the surface."
+      ],
+      "advanced": [
+        "Over the small height range involved in a school laboratory (typically a few metres), the change in distance from the Earth's centre is negligibly small compared with the Earth's radius, so g barely changes and can reasonably be treated as constant (a uniform field); at a very high orbital altitude, however, the distance from the Earth's centre may change very significantly relative to the Earth's radius, causing g to vary substantially, so the uniform field approximation would introduce significant errors and the full radial field equations must be used instead."
+      ],
+      "exam": [
+        "Gravitational field lines around an isolated spherical planet point radially inward, converging toward the centre of the planet from every direction; the spacing of these lines represents the relative strength of the gravitational field at different points, with more closely spaced lines (found nearer the planet's surface/centre) indicating a stronger gravitational field, and more widely spaced lines (found further away) indicating a weaker field."
+      ]
+    },
+    "summary": "A gravitational field is the region around a mass where another mass experiences a gravitational force, represented by field lines pointing toward the source, with spacing indicating relative field strength. A radial field describes the true field around a mass; a uniform field is a useful approximation valid over small regions near a large body's surface.",
+    "revision_notes": [
+      "Field lines point toward the source mass",
+      "Closer spacing = stronger field",
+      "Radial field (true) vs uniform field (small-region approximation)"
+    ],
+    "related_topics": [
+      "Gravitational Force",
+      "Gravitational Field Strength",
+      "Gravitational Potential Energy (Uniform Field)"
+    ],
+    "prerequisites": [
+      "Gravitational Force"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-125",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Escape Velocity",
+    "difficulty": "Advanced",
+    "description": "The minimum speed an object must be given to completely escape a body's gravitational field, without any further propulsion.",
+    "learning_objectives": [
+      "Define escape velocity",
+      "Derive the equation for escape velocity using conservation of energy",
+      "Calculate the escape velocity for a given astronomical body"
+    ],
+    "explanation": "Escape velocity is the minimum speed an object must be launched at, from the surface of a planet or other astronomical body, to completely escape that body's gravitational field and never fall back, assuming no further propulsion or energy input after launch, and ignoring air resistance. Escape velocity can be derived using conservation of energy: an object has just enough energy to escape if its initial kinetic energy exactly equals the magnitude of its (negative) gravitational potential energy at the surface, since this allows it to reach an infinite distance (where GPE = 0) with exactly zero kinetic energy remaining. Setting (1/2)mv^2 = GMm/r (the magnitude of GPE at the surface) and solving for v gives the escape velocity equation, v(escape) = root(2GM/r), where M is the mass of the body being escaped and r is the distance from its centre (typically its radius, for launch from the surface). Escape velocity depends only on the mass and radius of the astronomical body, not on the mass of the escaping object, and it is worth noting that 'escape velocity' describes the minimum initial speed needed, not a speed that must be continuously maintained.",
+    "key_concepts": [
+      "Minimum speed to escape a gravitational field entirely (no further propulsion)",
+      "Derived from conservation of energy: KE = |GPE| at the surface",
+      "v(escape) = root(2GM/r); independent of the escaping object's own mass"
+    ],
+    "definitions": [
+      {
+        "term": "Escape velocity",
+        "definition": "The minimum speed an object must be given to completely escape a body's gravitational field, without further propulsion, calculated as v(escape) = root(2GM/r)."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Escape velocity",
+        "equation": "v(escape) = root(2GM/r)",
+        "variables": {
+          "v(escape)": "escape velocity, m/s",
+          "G": "gravitational constant",
+          "M": "mass of the body being escaped, kg",
+          "r": "distance from the centre of the body (often its radius), m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "escape velocity",
+        "si_unit": "metre per second",
+        "symbol": "m/s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Derive the escape velocity equation, v(escape) = root(2GM/r), starting from conservation of energy.",
+        "steps": [
+          "At the minimum escape condition, the object's initial kinetic energy exactly equals the magnitude of its gravitational potential energy at the surface: (1/2)mv^2 = GMm/r.",
+          "Cancel the mass, m, from both sides: (1/2)v^2 = GM/r.",
+          "Multiply both sides by 2: v^2 = 2GM/r.",
+          "Take the square root of both sides: v = root(2GM/r)."
+        ],
+        "answer": "v(escape) = root(2GM/r), and since m cancels, this is independent of the escaping object's own mass."
+      },
+      {
+        "problem": "Calculate the escape velocity from the Earth's surface, given the Earth's mass is 6.0 x 10^24 kg and radius 6.4 x 10^6 m (use G = 6.67 x 10^-11 N m^2/kg^2).",
+        "steps": [
+          "Use v(escape) = root(2GM/r).",
+          "Substitute: v(escape) = root(2 x 6.67x10^-11 x 6.0x10^24 / 6.4x10^6) = root(8.004x10^14/6.4x10^6) = root(1.25x10^8)."
+        ],
+        "answer": "Approximately 11,200 m/s (11.2 km/s)"
+      }
+    ],
+    "practical_applications": [
+      "Calculating the launch speed required for spacecraft to leave Earth's orbit entirely, such as for interplanetary missions",
+      "Explaining why some planets and moons cannot retain certain gases in their atmosphere (if average molecular speeds approach the escape velocity)",
+      "Understanding the physics of black holes, where escape velocity would need to exceed the speed of light"
+    ],
+    "common_mistakes": [
+      "Assuming escape velocity must be continuously maintained throughout the entire journey away from a planet, rather than being the minimum required initial launch speed",
+      "Forgetting to include the factor of 2 in the escape velocity equation (a very common error, confusing it with the orbital speed equation)"
+    ],
+    "misconceptions": [
+      "That reaching escape velocity means an object is 'immune' to further gravitational influence — an object launched at exactly escape velocity is still slowed down by gravity throughout its entire journey away from the planet, but has just enough initial kinetic energy that its speed only reaches exactly zero as it approaches an infinite distance, meaning it will never fall back, without needing any further propulsion after launch."
+    ],
+    "tips": [
+      "Remember the escape velocity derivation relies on the object's kinetic energy exactly matching the magnitude of its (negative) gravitational potential energy, so that its total energy (KE + GPE) is exactly zero — the minimum total energy needed to reach an infinite distance."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for escape velocity, defining each symbol."
+      ],
+      "intermediate": [
+        "Calculate the escape velocity from the Moon's surface, given its mass is 7.3 x 10^22 kg and radius 1.74 x 10^6 m (use G = 6.67 x 10^-11 N m^2/kg^2)."
+      ],
+      "advanced": [
+        "Explain why escape velocity does not depend on the direction in which an object is launched (ignoring air resistance and the shape of the astronomical body)."
+      ]
+    },
+    "exam_questions": [
+      "Explain, using the principle of conservation of energy, why an object launched at exactly the escape velocity from a planet's surface will just barely reach an infinite distance with zero remaining kinetic energy."
+    ],
+    "answers": {
+      "basic": [
+        "v(escape) = root(2GM/r), where v(escape) is escape velocity in m/s, G is the gravitational constant, M is the mass of the body being escaped in kg, and r is the distance from its centre in m."
+      ],
+      "intermediate": [
+        "v(escape) = root(2 x 6.67x10^-11 x 7.3x10^22 / 1.74x10^6) = root(9.74x10^12/1.74x10^6) = root(5.60x10^6) approx 2370 m/s."
+      ],
+      "advanced": [
+        "Escape velocity is derived purely from energy considerations (total energy exactly equal to zero) and the object's distance from the centre of the astronomical body, neither of which inherently depends on the direction of launch; in practice, however, launching in certain directions (such as with the rotation of the planet) can provide a useful additional boost to the object's actual speed relative to space, even though the underlying escape velocity value itself, based purely on distance from the centre, does not change with direction."
+      ],
+      "exam": [
+        "By conservation of energy, an object's total energy (kinetic + gravitational potential) remains constant as it moves away from the planet, assuming no other forces do work on it; if launched with kinetic energy exactly equal in magnitude to its initial (negative) gravitational potential energy, its total energy is exactly zero, and since gravitational potential energy approaches zero as distance approaches infinity, conservation of energy requires that its kinetic energy must also approach zero at that same infinite distance, meaning the object's speed decreases continuously but never quite reaches zero before infinity, and never falls back."
+      ]
+    },
+    "summary": "Escape velocity is the minimum initial speed needed to completely escape a body's gravitational field, calculated as v(escape) = root(2GM/r) using conservation of energy. It depends only on the mass and radius of the body being escaped, not on the escaping object's own mass.",
+    "revision_notes": [
+      "v(escape) = root(2GM/r)",
+      "Derived from KE = |GPE| at the surface (total energy = 0)",
+      "Independent of the escaping object's own mass"
+    ],
+    "related_topics": [
+      "Gravitational Potential Energy (Radial Field)",
+      "Orbital Motion",
+      "Conservation of Energy"
+    ],
+    "prerequisites": [
+      "Gravitational Potential Energy (Radial Field)",
+      "Conservation of Energy"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  }
+]

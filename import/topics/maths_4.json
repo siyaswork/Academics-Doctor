@@ -1,0 +1,2068 @@
+[
+  {
+    "id": 101,
+    "category": "Algebra",
+    "topic": "Algebraic Notation",
+    "explanation": "Algebraic notation is the set of conventions used to write mathematical expressions involving letters (variables) that represent unknown or changing values. Understanding these conventions \u2014 such as how multiplication and division are written \u2014 is the foundation for all further algebra.",
+    "key_concepts": [
+      "Letters (like x, y, a, b) represent unknown or variable numbers",
+      "Multiplication is written without a \u00d7 symbol: 3 \u00d7 x is written 3x",
+      "Division is usually written as a fraction: a \u00f7 b is written a/b",
+      "Powers are written with a small raised number: x \u00d7 x = x\u00b2",
+      "Terms are separated by + or - signs"
+    ],
+    "definitions": [
+      {
+        "term": "Variable",
+        "definition": "A letter used to represent an unknown or changeable numerical value."
+      },
+      {
+        "term": "Coefficient",
+        "definition": "The number multiplying a variable in a term, e.g. 5 in 5x."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Write 'a number x multiplied by 4, then divided by 3' using algebraic notation.",
+        "solution_steps": [
+          "Multiplication: 4 \u00d7 x = 4x",
+          "Divide by 3: write as a fraction"
+        ],
+        "answer": "4x/3"
+      },
+      {
+        "problem": "Write 'the square of y, plus 5' using algebraic notation.",
+        "solution_steps": [
+          "Square of y: y\u00b2",
+          "Add 5"
+        ],
+        "answer": "y\u00b2 + 5"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Write 'x multiplied by itself three times' using algebraic notation.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Write '7 less than twice a number n' using algebraic notation.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "x\u00b3",
+      "2n - 7"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why 3x means the same as x+x+x, using an example.",
+        "marks": 2,
+        "answer": "3x means 3 multiplied by x, which by definition of multiplication is x added to itself 3 times: x+x+x. E.g. if x=4, 3x=12 and 4+4+4=12."
+      }
+    ],
+    "common_mistakes": [
+      "Writing multiplication signs unnecessarily (e.g. 3\u00d7x instead of 3x)",
+      "Confusing 2x (2 times x) with x\u00b2 (x times x)"
+    ],
+    "tips": [
+      "Always write coefficients before variables (5x, not x5), and combine numbers and letters without a multiplication symbol between them."
+    ],
+    "summary": "Algebraic notation uses letters to represent variables, with specific conventions for multiplication, division, and powers.",
+    "quick_revision_notes": [
+      "3\u00d7x = 3x",
+      "a\u00f7b = a/b",
+      "x\u00d7x = x\u00b2"
+    ],
+    "related_prerequisite_topics": [
+      "Algebraic Expressions",
+      "Substitution"
+    ],
+    "images": []
+  },
+  {
+    "id": 102,
+    "category": "Algebra",
+    "topic": "Algebraic Expressions",
+    "explanation": "An algebraic expression is a combination of numbers, variables, and mathematical operations, without an equals sign \u2014 such as 3x + 5 or 2y\u00b2 - 7. Unlike an equation, an expression cannot be 'solved' for a value; it can only be simplified or evaluated for given variable values.",
+    "key_concepts": [
+      "An expression contains numbers, variables, and operations, but no equals sign",
+      "Expressions can be simplified (combining like terms) but not 'solved'",
+      "Expressions become equations when set equal to another expression or value",
+      "Evaluating an expression means substituting specific values for its variables"
+    ],
+    "definitions": [
+      {
+        "term": "Algebraic Expression",
+        "definition": "A mathematical phrase combining numbers, variables, and operations, without an equals sign."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Simplify the expression 4x + 3y - 2x + y",
+        "solution_steps": [
+          "Group like terms: (4x-2x) + (3y+y)",
+          "4x-2x=2x, 3y+y=4y"
+        ],
+        "answer": "2x + 4y"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Simplify 5a + 2b - a + 4b.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Write an expression for 'the sum of twice a number and 6'.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "4a + 6b",
+      "2n + 6"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain the difference between an expression and an equation, using 3x+2 and 3x+2=11 as examples.",
+        "marks": 2,
+        "answer": "3x+2 is an expression \u2014 it has no equals sign and cannot be 'solved', only simplified or evaluated. 3x+2=11 is an equation \u2014 it states two expressions are equal and can be solved to find x (x=3)."
+      }
+    ],
+    "common_mistakes": [
+      "Trying to 'solve' an expression as if it were an equation",
+      "Combining unlike terms (e.g. adding x and y as if they were the same)"
+    ],
+    "tips": [
+      "An expression has no equals sign; if you see one, you're dealing with an equation instead."
+    ],
+    "summary": "An algebraic expression combines variables, numbers, and operations without an equals sign, and can be simplified or evaluated but not solved.",
+    "quick_revision_notes": [
+      "No equals sign",
+      "Simplify by combining like terms",
+      "Evaluate by substituting values"
+    ],
+    "related_prerequisite_topics": [
+      "Algebraic Notation",
+      "Like Terms",
+      "Collecting Like Terms"
+    ],
+    "images": []
+  },
+  {
+    "id": 103,
+    "category": "Algebra",
+    "topic": "Terms and Coefficients",
+    "explanation": "A term is a single part of an algebraic expression, separated from other parts by + or - signs, such as 3x, -5y\u00b2, or 7. The coefficient of a term is the numerical factor multiplying its variable(s); a term with no variable is called a constant.",
+    "key_concepts": [
+      "A term is a single component of an expression, separated by + or -",
+      "The coefficient is the number multiplying the variable(s) in a term",
+      "A constant term has no variable attached (just a number)",
+      "The sign (+/-) immediately before a term belongs to that term"
+    ],
+    "definitions": [
+      {
+        "term": "Term",
+        "definition": "A single part of an algebraic expression, separated from other parts by + or - signs."
+      },
+      {
+        "term": "Coefficient",
+        "definition": "The numerical factor multiplying the variable(s) in a term."
+      },
+      {
+        "term": "Constant",
+        "definition": "A term in an expression that has no variable, i.e. a fixed number."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Identify the terms, coefficients, and constant in the expression 5x\u00b2 - 3x + 8",
+        "solution_steps": [
+          "Terms: 5x\u00b2, -3x, 8",
+          "Coefficient of x\u00b2 is 5; coefficient of x is -3",
+          "Constant term is 8"
+        ],
+        "answer": "Terms: 5x\u00b2, -3x, 8. Coefficients: 5 and -3. Constant: 8"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "How many terms are in the expression 4a - 7b + 2c - 9?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "State the coefficient of y in the expression 6x - 9y + 1.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "4 terms",
+      "-9"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "In the expression 3x\u00b2 - 4x + 5x\u00b3 - 7, list all terms and identify the constant.",
+        "marks": 2,
+        "answer": "Terms: 3x\u00b2, -4x, 5x\u00b3, -7. Constant term: -7"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to include the sign (+/-) as part of the term",
+      "Confusing the coefficient with the whole term"
+    ],
+    "tips": [
+      "Always read the sign directly to the LEFT of a term as belonging to that term."
+    ],
+    "summary": "A term is a single component of an expression; its coefficient is the number multiplying its variable, and constants have no variable at all.",
+    "quick_revision_notes": [
+      "Terms separated by + or -",
+      "Coefficient = number in front of variable",
+      "Constant = no variable"
+    ],
+    "related_prerequisite_topics": [
+      "Algebraic Expressions",
+      "Like Terms"
+    ],
+    "images": []
+  },
+  {
+    "id": 104,
+    "category": "Algebra",
+    "topic": "Like Terms",
+    "explanation": "Like terms are terms that contain exactly the same variable(s) raised to exactly the same power(s), such as 3x and 7x, or 2x\u00b2y and -5x\u00b2y. Like terms can be combined by adding or subtracting their coefficients; unlike terms (such as x and x\u00b2) cannot be combined.",
+    "key_concepts": [
+      "Like terms have identical variable parts (same letters, same powers)",
+      "Only the coefficients of like terms are added/subtracted; the variable part stays the same",
+      "3x and 3x\u00b2 are NOT like terms (different powers of x)",
+      "xy and yx ARE like terms (multiplication order doesn't matter)"
+    ],
+    "definitions": [
+      {
+        "term": "Like Terms",
+        "definition": "Terms that have exactly the same variable(s) raised to the same power(s), differing only in their coefficient."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Identify the like terms in: 3x, 5x\u00b2, -2x, 7, 4x\u00b2",
+        "solution_steps": [
+          "Group by variable part: x-terms are 3x and -2x; x\u00b2-terms are 5x\u00b2 and 4x\u00b2; 7 is a constant on its own"
+        ],
+        "answer": "Like terms: {3x, -2x} and {5x\u00b2, 4x\u00b2}"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Are 4ab and 7ba like terms? Explain.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Are 6x\u00b2 and 6x like terms? Explain.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Yes \u2014 multiplication order doesn't matter, so ab and ba represent the same variable combination.",
+      "No \u2014 they have different powers of x (x\u00b2 vs x\u00b9), so they are not like terms."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "From the list 2xy, 3x, -5yx, x\u00b2, 7, list all pairs of like terms.",
+        "marks": 2,
+        "answer": "2xy and -5yx are like terms (both are xy-terms). No other pairs match."
+      }
+    ],
+    "common_mistakes": [
+      "Treating terms with different powers as like terms",
+      "Not recognizing that xy and yx are like terms due to different letter order"
+    ],
+    "tips": [
+      "Check both the letters AND their powers match exactly before calling two terms 'like terms'."
+    ],
+    "summary": "Like terms share identical variable parts (same letters and powers) and can be combined by adding/subtracting coefficients.",
+    "quick_revision_notes": [
+      "Same variable(s) + same power(s) = like terms",
+      "Order of letters doesn't matter (xy=yx)"
+    ],
+    "related_prerequisite_topics": [
+      "Terms and Coefficients",
+      "Collecting Like Terms"
+    ],
+    "images": []
+  },
+  {
+    "id": 105,
+    "category": "Algebra",
+    "topic": "Collecting Like Terms",
+    "explanation": "Collecting like terms is the process of simplifying an algebraic expression by combining all like terms into a single term. This is done by adding or subtracting the coefficients of terms that share the same variable part, resulting in a simpler, equivalent expression.",
+    "key_concepts": [
+      "Identify all like terms in the expression first",
+      "Add or subtract their coefficients, keeping the variable part unchanged",
+      "Unlike terms remain separate in the simplified expression",
+      "Order of terms in the final simplified answer doesn't matter, but is often written from highest to lowest power"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Simplify 7x + 3y - 2x + 5y - 4",
+        "solution_steps": [
+          "Group like terms: (7x-2x) + (3y+5y) + (-4)",
+          "7x-2x=5x, 3y+5y=8y"
+        ],
+        "answer": "5x + 8y - 4"
+      },
+      {
+        "problem": "Simplify 3x\u00b2 + 5x - x\u00b2 + 2x - 7",
+        "solution_steps": [
+          "Group: (3x\u00b2-x\u00b2) + (5x+2x) + (-7)",
+          "3x\u00b2-x\u00b2=2x\u00b2, 5x+2x=7x"
+        ],
+        "answer": "2x\u00b2 + 7x - 7"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Simplify 6a - 3b + 2a + 7b.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Simplify 4x\u00b2 - 3x + 2x\u00b2 + 5x - 6.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "8a + 4b",
+      "6x\u00b2 + 2x - 6"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Simplify fully: 5p\u00b2 - 3p + 4 + 2p\u00b2 + 6p - 9",
+        "marks": 2,
+        "answer": "7p\u00b2 + 3p - 5"
+      }
+    ],
+    "common_mistakes": [
+      "Combining unlike terms (e.g. adding x and x\u00b2 together)",
+      "Sign errors when a term is being subtracted"
+    ],
+    "tips": [
+      "Underline or color-code each group of like terms before combining, to avoid missing any or mixing them up."
+    ],
+    "summary": "Collecting like terms simplifies an expression by combining terms with identical variable parts through addition/subtraction of coefficients.",
+    "quick_revision_notes": [
+      "Group like terms, then add/subtract coefficients",
+      "Variable part stays unchanged"
+    ],
+    "related_prerequisite_topics": [
+      "Like Terms",
+      "Terms and Coefficients"
+    ],
+    "images": []
+  },
+  {
+    "id": 106,
+    "category": "Algebra",
+    "topic": "Expanding Brackets",
+    "explanation": "Expanding brackets means removing brackets from an expression by multiplying every term inside the bracket by the term(s) outside it, using the distributive law. When two brackets are multiplied together, every term in the first bracket must be multiplied by every term in the second (often remembered using FOIL for two binomials).",
+    "key_concepts": [
+      "Single bracket: multiply the term outside by each term inside: a(b+c) = ab + ac",
+      "Double brackets: multiply every term in the first bracket by every term in the second",
+      "FOIL (First, Outer, Inner, Last) is a memory aid for expanding two binomials",
+      "Always collect like terms after expanding"
+    ],
+    "definitions": [
+      {
+        "term": "Distributive Law",
+        "definition": "The rule that a(b+c) = ab + ac, used to expand brackets."
+      },
+      {
+        "term": "FOIL",
+        "definition": "A mnemonic for expanding two binomials: multiply the First terms, Outer terms, Inner terms, and Last terms."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Single bracket expansion",
+        "formula": "a(b+c) = ab + ac",
+        "notes": ""
+      },
+      {
+        "name": "Double bracket expansion (FOIL)",
+        "formula": "(a+b)(c+d) = ac + ad + bc + bd",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Expand 3(2x + 5)",
+        "solution_steps": [
+          "Multiply 3 by each term inside: 3\u00d72x=6x, 3\u00d75=15"
+        ],
+        "answer": "6x + 15"
+      },
+      {
+        "problem": "Expand (x+4)(x-3)",
+        "solution_steps": [
+          "First: x\u00d7x = x\u00b2",
+          "Outer: x\u00d7(-3) = -3x",
+          "Inner: 4\u00d7x = 4x",
+          "Last: 4\u00d7(-3) = -12",
+          "Combine: x\u00b2 - 3x + 4x - 12"
+        ],
+        "answer": "x\u00b2 + x - 12"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Expand 5(3x - 2)",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Expand (x+2)(x+7)",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Expand (2x-3)(3x+1)",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "15x - 10",
+      "x\u00b2 + 9x + 14",
+      "6x\u00b2 - 7x - 3"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Expand and simplify (x+5)(x-5), and explain why the middle terms cancel.",
+        "marks": 3,
+        "answer": "x\u00b2-5x+5x-25 = x\u00b2-25. The middle terms (-5x and +5x) cancel because they are equal and opposite \u2014 this is the 'difference of two squares' pattern."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to multiply the outer term by EVERY term inside the bracket",
+      "Sign errors when expanding brackets with negative terms",
+      "Forgetting to collect like terms after expanding double brackets"
+    ],
+    "tips": [
+      "Use FOIL as a checklist for double brackets \u2014 make sure you've done all four multiplications before combining terms."
+    ],
+    "summary": "Expanding brackets uses the distributive law to multiply out terms; double brackets require all four FOIL multiplications before simplifying.",
+    "quick_revision_notes": [
+      "a(b+c)=ab+ac",
+      "FOIL: First, Outer, Inner, Last",
+      "Collect like terms after expanding"
+    ],
+    "related_prerequisite_topics": [
+      "Algebraic Expressions",
+      "Collecting Like Terms",
+      "Factorising Expressions"
+    ],
+    "images": []
+  },
+  {
+    "id": 107,
+    "category": "Algebra",
+    "topic": "Factorising Expressions",
+    "explanation": "Factorising is the reverse process of expanding brackets: it means writing an expression as a product of its factors, usually by finding a common factor or recognizing a special pattern (like difference of two squares). Factorising is essential for solving equations and simplifying algebraic fractions.",
+    "key_concepts": [
+      "Factorising is the opposite of expanding",
+      "Common approaches: common factor extraction, difference of two squares, quadratic factorisation",
+      "A fully factorised expression cannot be factorised further",
+      "Always check by expanding your factorised answer to confirm it matches the original"
+    ],
+    "definitions": [
+      {
+        "term": "Factorising",
+        "definition": "Writing an expression as a product of its factors, the reverse process of expanding brackets."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Factorise 6x + 15",
+        "solution_steps": [
+          "Find the HCF of 6 and 15: 3",
+          "Take out the common factor: 3(2x+5)"
+        ],
+        "answer": "3(2x + 5)"
+      },
+      {
+        "problem": "Factorise x\u00b2 + 7x + 12",
+        "solution_steps": [
+          "Find two numbers that multiply to 12 and add to 7: 3 and 4",
+          "Write as two brackets: (x+3)(x+4)"
+        ],
+        "answer": "(x+3)(x+4)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Factorise 8x + 12.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Factorise x\u00b2 + 9x + 20.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Factorise x\u00b2 - 5x - 24.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "4(2x+3)",
+      "(x+4)(x+5)",
+      "(x-8)(x+3)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Factorise fully: 2x\u00b2 + 14x + 20",
+        "marks": 3,
+        "answer": "First take out common factor 2: 2(x\u00b2+7x+10). Then factorise the quadratic: 2(x+2)(x+5)"
+      }
+    ],
+    "common_mistakes": [
+      "Not fully factorising (missing a common factor before factorising a quadratic)",
+      "Sign errors when finding the two numbers that multiply/add correctly",
+      "Forgetting to check the answer by expanding it back out"
+    ],
+    "tips": [
+      "Always look for a common factor FIRST, before attempting any other factorisation method."
+    ],
+    "summary": "Factorising rewrites an expression as a product of factors, using common factor extraction or pattern recognition, and reverses expanding.",
+    "quick_revision_notes": [
+      "Opposite of expanding",
+      "Check common factor first",
+      "Verify by expanding back"
+    ],
+    "related_prerequisite_topics": [
+      "Expanding Brackets",
+      "Factorising Using Common Factors",
+      "Difference of Two Squares"
+    ],
+    "images": []
+  },
+  {
+    "id": 108,
+    "category": "Algebra",
+    "topic": "Factorising Using Common Factors",
+    "explanation": "Factorising using common factors means identifying the highest common factor (HCF) shared by every term in an expression and 'taking it out' in front of a bracket. This is usually the first and simplest step in any factorising problem.",
+    "key_concepts": [
+      "Find the HCF of the numerical coefficients across all terms",
+      "Find the highest common power of any shared variable",
+      "Write the HCF outside a bracket, with each original term divided by the HCF inside",
+      "Always check by expanding the factorised form back out"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Factorise 12x\u00b2 + 8x",
+        "solution_steps": [
+          "HCF of 12 and 8 is 4",
+          "Highest common power of x is x\u00b9 (since the second term only has x\u00b9)",
+          "Overall HCF = 4x",
+          "12x\u00b2\u00f74x=3x, 8x\u00f74x=2"
+        ],
+        "answer": "4x(3x + 2)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Factorise 15x + 25.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Factorise 18x\u00b2y - 12xy\u00b2.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "5(3x+5)",
+      "6xy(3x - 2y)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Factorise fully: 20x\u00b3 + 15x\u00b2 - 10x",
+        "marks": 3,
+        "answer": "HCF = 5x. 20x\u00b3\u00f75x=4x\u00b2, 15x\u00b2\u00f75x=3x, 10x\u00f75x=2. Answer: 5x(4x\u00b2+3x-2)"
+      }
+    ],
+    "common_mistakes": [
+      "Taking out a factor that isn't the HIGHEST common factor (leaving the expression not fully factorised)",
+      "Forgetting to include a common variable factor, not just a numerical one",
+      "Sign errors when a term is negative"
+    ],
+    "tips": [
+      "After factorising, always mentally expand your answer to double-check it matches the original expression."
+    ],
+    "summary": "Factorising using common factors extracts the HCF (numerical and variable) shared by all terms, placing it outside a bracket.",
+    "quick_revision_notes": [
+      "Find HCF of coefficients",
+      "Find lowest shared power of variables",
+      "Divide each term by the HCF inside the bracket"
+    ],
+    "related_prerequisite_topics": [
+      "Common Factors",
+      "Factorising Expressions",
+      "Greatest Common Divisor"
+    ],
+    "images": []
+  },
+  {
+    "id": 109,
+    "category": "Algebra",
+    "topic": "Difference of Two Squares",
+    "explanation": "The difference of two squares is a special factorising pattern for expressions of the form a\u00b2 - b\u00b2, which always factorises into (a+b)(a-b). This pattern arises because when (a+b)(a-b) is expanded, the middle terms cancel out, leaving only a\u00b2 - b\u00b2.",
+    "key_concepts": [
+      "a\u00b2 - b\u00b2 = (a+b)(a-b)",
+      "Only applies to a SUBTRACTION of two perfect squares (not addition)",
+      "Recognizable by two perfect square terms separated by a minus sign",
+      "Can apply to numbers, single variables, or more complex expressions"
+    ],
+    "definitions": [
+      {
+        "term": "Difference of Two Squares",
+        "definition": "An expression of the form a\u00b2 - b\u00b2, which factorises as (a+b)(a-b)."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Difference of two squares",
+        "formula": "a\u00b2 - b\u00b2 = (a+b)(a-b)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Factorise x\u00b2 - 49",
+        "solution_steps": [
+          "Recognize x\u00b2 and 49=7\u00b2 as perfect squares",
+          "Apply the pattern: a=x, b=7"
+        ],
+        "answer": "(x+7)(x-7)"
+      },
+      {
+        "problem": "Factorise 4x\u00b2 - 25y\u00b2",
+        "solution_steps": [
+          "4x\u00b2 = (2x)\u00b2, 25y\u00b2 = (5y)\u00b2",
+          "Apply the pattern: a=2x, b=5y"
+        ],
+        "answer": "(2x+5y)(2x-5y)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Factorise x\u00b2 - 16.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Factorise 9x\u00b2 - 1.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Factorise 100 - 4x\u00b2.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "(x+4)(x-4)",
+      "(3x+1)(3x-1)",
+      "4(25-x\u00b2)=4(5+x)(5-x)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Use the difference of two squares to evaluate 97 \u00d7 103 without a calculator.",
+        "marks": 3,
+        "answer": "97\u00d7103 = (100-3)(100+3) = 100\u00b2-3\u00b2 = 10000-9 = 9991"
+      }
+    ],
+    "common_mistakes": [
+      "Trying to apply this pattern to a SUM of two squares (a\u00b2+b\u00b2 does not factorise this way over the reals)",
+      "Forgetting to check for a common factor first before applying the pattern",
+      "Not recognizing non-obvious perfect squares (like 121=11\u00b2)"
+    ],
+    "tips": [
+      "This pattern can be used as a mental-maths shortcut: numbers close to a nice round number can be multiplied via (round number - gap)(round number + gap)."
+    ],
+    "summary": "The difference of two squares pattern factorises a\u00b2-b\u00b2 into (a+b)(a-b), applicable whenever two perfect squares are subtracted.",
+    "quick_revision_notes": [
+      "a\u00b2-b\u00b2 = (a+b)(a-b)",
+      "Only for subtraction of squares, not addition"
+    ],
+    "related_prerequisite_topics": [
+      "Perfect Squares",
+      "Factorising Expressions",
+      "Expanding Brackets"
+    ],
+    "images": []
+  },
+  {
+    "id": 110,
+    "category": "Algebra",
+    "topic": "Perfect Square Expressions",
+    "explanation": "A perfect square expression is a quadratic expression that results from squaring a binomial, such as (x+3)\u00b2 = x\u00b2 + 6x + 9. Recognizing this pattern allows quick expansion and factorisation without using the general FOIL method or trial and error.",
+    "key_concepts": [
+      "(a+b)\u00b2 = a\u00b2 + 2ab + b\u00b2",
+      "(a-b)\u00b2 = a\u00b2 - 2ab + b\u00b2",
+      "To recognize a perfect square trinomial: the first and last terms are perfect squares, and the middle term is twice the product of their square roots",
+      "Used in completing the square and quadratic factorisation"
+    ],
+    "definitions": [
+      {
+        "term": "Perfect Square Trinomial",
+        "definition": "A three-term quadratic expression that results from squaring a binomial, e.g. x\u00b2+6x+9=(x+3)\u00b2."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Square of a sum",
+        "formula": "(a+b)\u00b2 = a\u00b2 + 2ab + b\u00b2",
+        "notes": ""
+      },
+      {
+        "name": "Square of a difference",
+        "formula": "(a-b)\u00b2 = a\u00b2 - 2ab + b\u00b2",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Expand (x+5)\u00b2 using the perfect square pattern.",
+        "solution_steps": [
+          "a=x, b=5",
+          "a\u00b2=x\u00b2, 2ab=2\u00d7x\u00d75=10x, b\u00b2=25"
+        ],
+        "answer": "x\u00b2 + 10x + 25"
+      },
+      {
+        "problem": "Factorise x\u00b2 - 14x + 49, recognizing it as a perfect square.",
+        "solution_steps": [
+          "Check: x\u00b2 is a perfect square, 49=7\u00b2 is a perfect square",
+          "Check middle term: 2\u00d7x\u00d77=14x, matches (with a minus sign)"
+        ],
+        "answer": "(x - 7)\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Expand (x+4)\u00b2 using the perfect square pattern.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Factorise x\u00b2 + 20x + 100, recognizing it as a perfect square.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "x\u00b2 + 8x + 16",
+      "(x+10)\u00b2"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Show that 4x\u00b2 + 12x + 9 is a perfect square, and write it in factorised form.",
+        "marks": 3,
+        "answer": "4x\u00b2=(2x)\u00b2, 9=3\u00b2, middle term check: 2\u00d72x\u00d73=12x, matches. So 4x\u00b2+12x+9 = (2x+3)\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the middle term entirely (assuming (a+b)\u00b2=a\u00b2+b\u00b2, missing the 2ab term)",
+      "Sign errors when the binomial involves subtraction"
+    ],
+    "tips": [
+      "Always check the middle term matches 2\u00d7\u221a(first term)\u00d7\u221a(last term) before concluding an expression is a perfect square."
+    ],
+    "summary": "Perfect square expressions arise from squaring a binomial: (a\u00b1b)\u00b2 = a\u00b2 \u00b1 2ab + b\u00b2, recognizable by matching first, middle, and last terms.",
+    "quick_revision_notes": [
+      "(a+b)\u00b2=a\u00b2+2ab+b\u00b2",
+      "(a-b)\u00b2=a\u00b2-2ab+b\u00b2",
+      "Check middle term = 2\u00d7\u221a(first)\u00d7\u221a(last)"
+    ],
+    "related_prerequisite_topics": [
+      "Expanding Brackets",
+      "Perfect Squares",
+      "Completing the Square"
+    ],
+    "images": []
+  },
+  {
+    "id": 111,
+    "category": "Algebra",
+    "topic": "Algebraic Fractions",
+    "explanation": "An algebraic fraction is a fraction that contains algebraic expressions in the numerator, denominator, or both, such as (x+2)/(x-3). Algebraic fractions follow the same operational rules as numerical fractions, but require factorising skills to simplify and combine them.",
+    "key_concepts": [
+      "An algebraic fraction has at least one variable in the numerator or denominator",
+      "Simplify by factorising the numerator and denominator, then cancelling common factors",
+      "Adding/subtracting requires a common denominator, just like numerical fractions",
+      "The denominator can never equal zero \u2014 this restricts the values a variable can take"
+    ],
+    "definitions": [
+      {
+        "term": "Algebraic Fraction",
+        "definition": "A fraction in which the numerator, denominator, or both contain algebraic expressions."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Add the algebraic fractions 1/x + 2/(x+1)",
+        "solution_steps": [
+          "Common denominator: x(x+1)",
+          "Convert: 1/x = (x+1)/[x(x+1)], 2/(x+1) = 2x/[x(x+1)]",
+          "Add numerators: (x+1) + 2x = 3x+1"
+        ],
+        "answer": "(3x+1) / [x(x+1)]"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Add 2/x + 3/(2x)",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Subtract 3/(x+2) - 1/x",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "7/(2x)",
+      "(2x-2) / [x(x+2)]"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "State the value(s) of x for which the fraction 5/(x-3) is undefined, and explain why.",
+        "marks": 2,
+        "answer": "x=3, because it would make the denominator zero, and division by zero is undefined."
+      }
+    ],
+    "common_mistakes": [
+      "Cancelling terms instead of common FACTORS (e.g. incorrectly cancelling the x in (x+3)/x)",
+      "Forgetting to state restrictions on the variable (values that make the denominator zero)"
+    ],
+    "tips": [
+      "Only cancel factors that are multiplied throughout the entire numerator and denominator \u2014 never cancel individual terms within a sum."
+    ],
+    "summary": "Algebraic fractions combine variables with fraction operations, requiring factorisation for simplification and common denominators for addition/subtraction.",
+    "quick_revision_notes": [
+      "Denominator \u2260 0 (restriction)",
+      "Factorise before simplifying/cancelling",
+      "Common denominator for adding/subtracting"
+    ],
+    "related_prerequisite_topics": [
+      "Simplifying Algebraic Fractions",
+      "Factorising Expressions",
+      "Adding Fractions"
+    ],
+    "images": []
+  },
+  {
+    "id": 112,
+    "category": "Algebra",
+    "topic": "Simplifying Algebraic Fractions",
+    "explanation": "Simplifying an algebraic fraction means reducing it to its lowest terms by factorising the numerator and denominator, then cancelling any common factors. This is analogous to simplifying numerical fractions, but requires factorising skills rather than simple division.",
+    "key_concepts": [
+      "Factorise both the numerator and denominator fully first",
+      "Cancel any factors that appear in both the numerator and denominator",
+      "Never cancel individual terms \u2014 only whole factors (things multiplied, not added)",
+      "State any values that would make the denominator zero (excluded values)"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Simplify (x\u00b2 - 9) / (x + 3)",
+        "solution_steps": [
+          "Factorise the numerator using difference of two squares: x\u00b2-9 = (x+3)(x-3)",
+          "Expression becomes: (x+3)(x-3) / (x+3)",
+          "Cancel the common factor (x+3)"
+        ],
+        "answer": "x - 3 (for x \u2260 -3)"
+      },
+      {
+        "problem": "Simplify (2x\u00b2 + 6x) / (x\u00b2 + x - 6)",
+        "solution_steps": [
+          "Factorise numerator: 2x(x+3)",
+          "Factorise denominator: (x+3)(x-2)",
+          "Cancel common factor (x+3)"
+        ],
+        "answer": "2x / (x-2) (for x \u2260 -3, x \u2260 2)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Simplify (x\u00b2-16)/(x-4).",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Simplify (x\u00b2+5x+6)/(x\u00b2+4x+3).",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "x+4 (for x\u22604)",
+      "(x+2)/(x+1) (for x\u2260-3, x\u2260-1)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Simplify fully: (3x\u00b2-12) / (x\u00b2+4x+4), stating any restrictions on x.",
+        "marks": 4,
+        "answer": "Numerator: 3(x\u00b2-4)=3(x+2)(x-2). Denominator: (x+2)\u00b2. Cancel (x+2): 3(x-2)/(x+2), for x\u2260-2."
+      }
+    ],
+    "common_mistakes": [
+      "Cancelling terms that are added/subtracted instead of whole multiplied factors",
+      "Forgetting to fully factorise before attempting to cancel",
+      "Not stating restricted values (where the denominator would be zero)"
+    ],
+    "tips": [
+      "If you can't factor an expression into a product, you cannot cancel any part of it \u2014 cancellation only works on multiplied factors."
+    ],
+    "summary": "Simplifying algebraic fractions requires factorising numerator and denominator, then cancelling shared factors \u2014 never individual terms.",
+    "quick_revision_notes": [
+      "Factorise fully first",
+      "Cancel common FACTORS only",
+      "State excluded values (denominator \u2260 0)"
+    ],
+    "related_prerequisite_topics": [
+      "Algebraic Fractions",
+      "Factorising Expressions",
+      "Difference of Two Squares"
+    ],
+    "images": []
+  },
+  {
+    "id": 113,
+    "category": "Algebra",
+    "topic": "Substitution",
+    "explanation": "Substitution means replacing a variable in an algebraic expression or formula with a specific numerical value, then evaluating the result. Substitution is used to check answers, evaluate formulas (like area or speed), and verify solutions to equations.",
+    "key_concepts": [
+      "Replace every instance of the variable with the given value",
+      "Use brackets around substituted values, especially negative numbers, to avoid sign errors",
+      "Follow the order of operations (BODMAS/PEMDAS) after substituting",
+      "Used to check whether a value is a solution to an equation"
+    ],
+    "definitions": [
+      {
+        "term": "Substitution",
+        "definition": "The process of replacing a variable in an expression with a specific value and evaluating the result."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Evaluate 3x\u00b2 - 2x + 5 when x = 4",
+        "solution_steps": [
+          "Substitute x=4: 3(4)\u00b2 - 2(4) + 5",
+          "= 3(16) - 8 + 5",
+          "= 48 - 8 + 5"
+        ],
+        "answer": "45"
+      },
+      {
+        "problem": "Evaluate 2x\u00b2 + 3x when x = -3",
+        "solution_steps": [
+          "Substitute using brackets: 2(-3)\u00b2 + 3(-3)",
+          "= 2(9) + (-9)",
+          "= 18 - 9"
+        ],
+        "answer": "9"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Evaluate 5x + 3 when x = 6.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Evaluate x\u00b2 - 4x + 1 when x = -2.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "33",
+      "13 (4+8+1)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The formula for the area of a trapezium is A = 1/2(a+b)h. Find A when a=6, b=10, h=4.",
+        "marks": 2,
+        "answer": "A = 1/2(6+10)(4) = 1/2(16)(4) = 32"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to use brackets around negative substituted values, causing sign errors",
+      "Not following order of operations correctly after substituting",
+      "Substituting into only part of an expression"
+    ],
+    "tips": [
+      "Always put brackets around any value you substitute, especially negative numbers \u2014 this prevents sign errors when squaring or applying other operations."
+    ],
+    "summary": "Substitution replaces variables with specific values in an expression, then evaluates the result following the order of operations.",
+    "quick_revision_notes": [
+      "Replace variable with value (use brackets)",
+      "Apply BODMAS/PEMDAS after substituting"
+    ],
+    "related_prerequisite_topics": [
+      "Algebraic Notation",
+      "Order of Operations (BODMAS/PEMDAS)",
+      "Evaluating Expressions"
+    ],
+    "images": []
+  },
+  {
+    "id": 114,
+    "category": "Algebra",
+    "topic": "Evaluating Expressions",
+    "explanation": "Evaluating an expression means finding its numerical value by substituting given values for its variables and simplifying using the order of operations. This is essentially the outcome of applying substitution, and is a key skill for checking formulas, verifying solutions, and working with real-world models.",
+    "key_concepts": [
+      "Substitute the given values for each variable",
+      "Apply the order of operations (BODMAS/PEMDAS) to compute the final numerical result",
+      "Multiple variables may need to be substituted at once",
+      "Always double-check by re-substituting if the expression involves several steps"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Evaluate 2a\u00b2 - 3b + 1 when a=3 and b=-2.",
+        "solution_steps": [
+          "Substitute: 2(3)\u00b2 - 3(-2) + 1",
+          "= 2(9) + 6 + 1",
+          "= 18 + 6 + 1"
+        ],
+        "answer": "25"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Evaluate 4x + 2y when x=5, y=-3.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Evaluate a\u00b2b - 2ab when a=2, b=5.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "14",
+      "0 (4\u00d75 - 2\u00d72\u00d75 = 20-20)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The formula for kinetic energy is E=1/2 mv\u00b2. Find E when m=8 and v=5.",
+        "marks": 2,
+        "answer": "E = 1/2(8)(5)\u00b2 = 1/2(8)(25) = 100"
+      }
+    ],
+    "common_mistakes": [
+      "Order of operations errors after substitution",
+      "Sign errors with negative values"
+    ],
+    "tips": [
+      "Write out the substituted expression fully before simplifying \u2014 don't try to combine substitution and simplification in your head."
+    ],
+    "summary": "Evaluating an expression means substituting given values and computing the numerical result using the correct order of operations.",
+    "quick_revision_notes": [
+      "Substitute then apply BODMAS/PEMDAS"
+    ],
+    "related_prerequisite_topics": [
+      "Substitution",
+      "Order of Operations (BODMAS/PEMDAS)"
+    ],
+    "images": []
+  },
+  {
+    "id": 115,
+    "category": "Algebra",
+    "topic": "Algebraic Identities",
+    "explanation": "An algebraic identity is an equation that is true for all values of the variable(s) involved, unlike a regular equation which is only true for specific values. Common identities include the difference of two squares and perfect square expansions, and they are often denoted with the symbol \u2261 to distinguish them from equations that must be solved.",
+    "key_concepts": [
+      "An identity is true for ALL values of the variable, not just specific ones",
+      "Denoted with \u2261 (identical to) rather than = in formal notation, though = is commonly used informally",
+      "Key identities: (a+b)\u00b2\u2261a\u00b2+2ab+b\u00b2, (a-b)\u00b2\u2261a\u00b2-2ab+b\u00b2, a\u00b2-b\u00b2\u2261(a+b)(a-b)",
+      "Proving an identity means showing both sides are always equal, usually by expanding one side"
+    ],
+    "definitions": [
+      {
+        "term": "Algebraic Identity",
+        "definition": "An equation that holds true for all values of its variables, such as a\u00b2-b\u00b2\u2261(a+b)(a-b)."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Square of a sum",
+        "formula": "(a+b)\u00b2 \u2261 a\u00b2 + 2ab + b\u00b2",
+        "notes": ""
+      },
+      {
+        "name": "Difference of squares",
+        "formula": "a\u00b2 - b\u00b2 \u2261 (a+b)(a-b)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Prove the identity (x+1)\u00b2 - (x-1)\u00b2 \u2261 4x",
+        "solution_steps": [
+          "Expand left side: (x\u00b2+2x+1) - (x\u00b2-2x+1)",
+          "= x\u00b2+2x+1-x\u00b2+2x-1",
+          "= 4x"
+        ],
+        "answer": "Left side simplifies to 4x, matching the right side, so the identity is proven."
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Prove that (a+b)\u00b2 - (a-b)\u00b2 \u2261 4ab.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Explain the difference between an equation and an identity, using x+2=5 and 2(x+3)\u22612x+6 as examples.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "(a\u00b2+2ab+b\u00b2)-(a\u00b2-2ab+b\u00b2) = 4ab, proven.",
+      "x+2=5 is only true when x=3 (an equation to solve); 2(x+3)\u22612x+6 is true for every value of x (an identity)."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Show that (x+2)(x-2) + 4 \u2261 x\u00b2 is an identity.",
+        "marks": 3,
+        "answer": "Expand: (x\u00b2-4)+4 = x\u00b2. This matches the right side for all x, so it is an identity."
+      }
+    ],
+    "common_mistakes": [
+      "Treating an identity like an equation to 'solve' for a specific x value",
+      "Forgetting an identity must hold for ALL values, not just a few tested ones"
+    ],
+    "tips": [
+      "To prove an identity, fully expand and simplify one (or both) sides until they are visibly identical \u2014 don't just test a couple of numbers."
+    ],
+    "summary": "An algebraic identity is true for every value of its variable(s), proven by expanding and simplifying rather than solved like an equation.",
+    "quick_revision_notes": [
+      "True for ALL values (not just specific ones)",
+      "Prove by expanding/simplifying both sides"
+    ],
+    "related_prerequisite_topics": [
+      "Expanding Brackets",
+      "Difference of Two Squares",
+      "Perfect Square Expressions"
+    ],
+    "images": []
+  },
+  {
+    "id": 116,
+    "category": "Algebra",
+    "topic": "Linear Expressions",
+    "explanation": "A linear expression is an algebraic expression in which the variable(s) appear only to the first power \u2014 no squares, cubes, or other powers, and no variables multiplied together. Examples include 3x + 2 and 5 - 2y. Linear expressions form the building blocks of linear equations and linear graphs.",
+    "key_concepts": [
+      "Variables appear only to the power of 1 (no x\u00b2, \u221ax, 1/x, or xy terms)",
+      "General form: ax + b, where a and b are constants",
+      "Can be simplified using collecting like terms and expanding brackets",
+      "Forms the basis of linear equations and straight-line graphs"
+    ],
+    "definitions": [
+      {
+        "term": "Linear Expression",
+        "definition": "An algebraic expression where the variable(s) appear only to the first power, with no products of variables or higher powers."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Is 3x\u00b2 + 2 a linear expression?",
+        "solution_steps": [
+          "The variable x appears to the power of 2",
+          "This violates the 'first power only' requirement"
+        ],
+        "answer": "No, it is not linear (it is quadratic)"
+      },
+      {
+        "problem": "Simplify the linear expression 2(x+3) - 5",
+        "solution_steps": [
+          "Expand: 2x+6-5",
+          "Simplify: 2x+1"
+        ],
+        "answer": "2x + 1"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is 4x - 7 a linear expression? Explain.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Simplify the linear expression 3(2x-1) + 4x.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Yes \u2014 x appears only to the power of 1.",
+      "10x - 3"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why xy is not a linear expression in two variables, even though each variable individually appears to the power of 1.",
+        "marks": 2,
+        "answer": "In a linear expression, variables cannot be multiplied together. xy is a product of two variables, making it a second-degree (quadratic-type) term, not linear."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming any expression with no visible exponent is automatically linear (forgetting to check for products of variables)",
+      "Confusing linear expressions with linear equations (an expression has no equals sign)"
+    ],
+    "tips": [
+      "A quick test for linearity: if you graphed y = expression, would it be a straight line? If yes, it's linear."
+    ],
+    "summary": "A linear expression contains variables only to the first power, with no products of variables, forming the basis of linear equations and graphs.",
+    "quick_revision_notes": [
+      "ax+b form",
+      "No x\u00b2, xy, or 1/x terms"
+    ],
+    "related_prerequisite_topics": [
+      "Algebraic Expressions",
+      "Linear Equations",
+      "Collecting Like Terms"
+    ],
+    "images": []
+  },
+  {
+    "id": 117,
+    "category": "Algebra",
+    "topic": "Linear Equations",
+    "explanation": "A linear equation is an equation involving a variable to the first power only, such as 3x + 5 = 20. Solving a linear equation means finding the value of the variable that makes the equation true, using inverse operations to isolate the variable while keeping both sides balanced.",
+    "key_concepts": [
+      "A linear equation has the variable to the power of 1 only",
+      "Solve by applying the same inverse operation to both sides, keeping the equation balanced",
+      "The goal is to isolate the variable on one side",
+      "Always check the solution by substituting it back into the original equation"
+    ],
+    "definitions": [
+      {
+        "term": "Linear Equation",
+        "definition": "An equation in which the variable appears only to the first power, typically solvable by a sequence of inverse operations."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Solve 3x + 5 = 20",
+        "solution_steps": [
+          "Subtract 5 from both sides: 3x = 15",
+          "Divide both sides by 3: x = 5"
+        ],
+        "answer": "x = 5"
+      },
+      {
+        "problem": "Solve 2x - 7 = 3x + 1",
+        "solution_steps": [
+          "Subtract 2x from both sides: -7 = x + 1",
+          "Subtract 1 from both sides: -8 = x"
+        ],
+        "answer": "x = -8"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve 4x - 3 = 17.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Solve 5x + 2 = 2x + 17.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "x=5",
+      "x=5"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve the equation 6x + 4 = 4x + 18, showing each step.",
+        "marks": 3,
+        "answer": "6x-4x=18-4 \u2192 2x=14 \u2192 x=7"
+      }
+    ],
+    "common_mistakes": [
+      "Not applying the same operation to BOTH sides of the equation",
+      "Sign errors when moving terms across the equals sign",
+      "Forgetting to check the solution by substituting back in"
+    ],
+    "tips": [
+      "Whatever you do to one side of the equation, you must do to the other \u2014 think of the equals sign as a perfectly balanced scale."
+    ],
+    "summary": "A linear equation is solved by using inverse operations to isolate the variable, keeping both sides balanced at every step.",
+    "quick_revision_notes": [
+      "Keep both sides balanced",
+      "Use inverse operations to isolate the variable",
+      "Check by substituting back"
+    ],
+    "related_prerequisite_topics": [
+      "Linear Expressions",
+      "Collecting Like Terms",
+      "Forming Equations"
+    ],
+    "images": [
+      {
+        "filename": "linearequations-117-balance.svg",
+        "type": "diagram",
+        "description": "A balance-scale diagram showing the expression x+3 on one side and 7 on the other, illustrating that both sides of an equation must stay equal.",
+        "purpose": "Reinforces the idea that solving an equation means keeping both sides balanced.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "category": "Algebra",
+    "topic": "Equations with Brackets",
+    "explanation": "Equations with brackets require expanding the brackets first (using the distributive law) before solving using standard inverse-operation techniques. Expanding correctly is critical, since any sign or multiplication error at this stage will lead to an incorrect solution.",
+    "key_concepts": [
+      "Expand all brackets first, before attempting to isolate the variable",
+      "Take extra care with negative numbers multiplying into brackets",
+      "After expanding, collect like terms if needed",
+      "Then solve as a standard linear equation"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Solve 3(x + 4) = 27",
+        "solution_steps": [
+          "Expand: 3x + 12 = 27",
+          "Subtract 12: 3x = 15",
+          "Divide by 3: x = 5"
+        ],
+        "answer": "x = 5"
+      },
+      {
+        "problem": "Solve 2(x - 3) - 4 = 3(x + 1)",
+        "solution_steps": [
+          "Expand both sides: 2x - 6 - 4 = 3x + 3",
+          "Simplify left side: 2x - 10 = 3x + 3",
+          "Subtract 2x from both sides: -10 = x + 3",
+          "Subtract 3: -13 = x"
+        ],
+        "answer": "x = -13"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve 4(x + 2) = 28.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Solve 5(x - 1) = 2(x + 7).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "x=5",
+      "x = 19/3 (5x-5=2x+14 \u2192 3x=19 \u2192 x=19/3)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve 3(2x - 1) + 4 = 2(x + 5)",
+        "marks": 3,
+        "answer": "6x-3+4=2x+10 \u2192 6x+1=2x+10 \u2192 4x=9 \u2192 x=9/4=2.25"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to multiply EVERY term inside the bracket by the term outside",
+      "Sign errors when a negative number is outside the bracket",
+      "Trying to solve before fully expanding all brackets"
+    ],
+    "tips": [
+      "Expand every bracket completely as your very first step \u2014 don't try to combine expansion and solving in the same line."
+    ],
+    "summary": "Equations with brackets are solved by first expanding fully, then applying standard linear equation solving techniques.",
+    "quick_revision_notes": [
+      "Expand brackets first",
+      "Then collect like terms and solve normally"
+    ],
+    "related_prerequisite_topics": [
+      "Linear Equations",
+      "Expanding Brackets"
+    ],
+    "images": []
+  },
+  {
+    "id": 119,
+    "category": "Algebra",
+    "topic": "Equations with Fractions",
+    "explanation": "Equations with fractions can be solved by first clearing the fractions \u2014 multiplying every term in the equation by the lowest common denominator (LCM) of all the fractions involved. This converts the equation into a simpler, fraction-free linear equation that can be solved normally.",
+    "key_concepts": [
+      "Find the LCM of all denominators in the equation",
+      "Multiply every term (on both sides) by this LCM to clear all fractions",
+      "Simplify and solve the resulting equation using standard methods",
+      "Always check the solution in the ORIGINAL equation (with fractions)"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Solve x/3 + 1 = 5",
+        "solution_steps": [
+          "Subtract 1: x/3 = 4",
+          "Multiply both sides by 3: x = 12"
+        ],
+        "answer": "x = 12"
+      },
+      {
+        "problem": "Solve x/4 + x/6 = 5",
+        "solution_steps": [
+          "LCM of 4 and 6 is 12",
+          "Multiply every term by 12: 12(x/4) + 12(x/6) = 12(5)",
+          "3x + 2x = 60",
+          "5x = 60",
+          "x = 12"
+        ],
+        "answer": "x = 12"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve x/5 - 2 = 3.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Solve x/2 + x/3 = 10.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "x=25",
+      "x=12"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve (2x+1)/3 = (x-2)/2",
+        "marks": 4,
+        "answer": "Multiply both sides by 6: 2(2x+1)=3(x-2) \u2192 4x+2=3x-6 \u2192 x=-8"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to multiply EVERY term by the LCM, not just the fraction terms",
+      "Using the wrong LCM (not the actual lowest common multiple of the denominators)",
+      "Not checking the final solution in the original fractional equation"
+    ],
+    "tips": [
+      "Clearing all fractions in one single step (multiplying every term by the full LCM at once) avoids messy intermediate fractions."
+    ],
+    "summary": "Equations with fractions are solved by multiplying every term by the LCM of the denominators to clear fractions, then solving normally.",
+    "quick_revision_notes": [
+      "Multiply every term by LCM of denominators",
+      "Then solve as a standard equation"
+    ],
+    "related_prerequisite_topics": [
+      "Linear Equations",
+      "Lowest Common Multiple",
+      "Adding Fractions"
+    ],
+    "images": []
+  },
+  {
+    "id": 120,
+    "category": "Algebra",
+    "topic": "Equations with Unknowns on Both Sides",
+    "explanation": "Some linear equations have the variable appearing on both sides, such as 5x + 3 = 2x + 18. These are solved by first collecting all variable terms onto one side and all constant terms onto the other, using inverse operations, before isolating the variable as usual.",
+    "key_concepts": [
+      "Move all variable terms to one side (usually the side with the larger coefficient, to avoid negatives)",
+      "Move all constant terms to the other side",
+      "Simplify and solve for the variable",
+      "Always verify by substituting the solution into the ORIGINAL equation"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Solve 5x + 3 = 2x + 18",
+        "solution_steps": [
+          "Subtract 2x from both sides: 3x + 3 = 18",
+          "Subtract 3 from both sides: 3x = 15",
+          "Divide by 3: x = 5"
+        ],
+        "answer": "x = 5"
+      },
+      {
+        "problem": "Solve 4x - 9 = 7x + 6",
+        "solution_steps": [
+          "Subtract 4x from both sides: -9 = 3x + 6",
+          "Subtract 6 from both sides: -15 = 3x",
+          "Divide by 3: -5 = x"
+        ],
+        "answer": "x = -5"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve 6x - 4 = 3x + 11.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Solve 2x + 15 = 8x - 9.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "x=5",
+      "x=4"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve 3(x+2) = 5x - 4, showing all steps.",
+        "marks": 3,
+        "answer": "3x+6=5x-4 \u2192 6+4=5x-3x \u2192 10=2x \u2192 x=5"
+      }
+    ],
+    "common_mistakes": [
+      "Moving terms across the equals sign without changing their sign",
+      "Attempting to solve before collecting all variable terms onto one side"
+    ],
+    "tips": [
+      "Choose to collect variable terms on whichever side has the larger coefficient \u2014 this keeps the final coefficient positive and avoids extra sign errors."
+    ],
+    "summary": "Equations with unknowns on both sides are solved by collecting variable terms on one side and constants on the other, then isolating the variable.",
+    "quick_revision_notes": [
+      "Collect variables on one side, constants on the other",
+      "Then solve normally"
+    ],
+    "related_prerequisite_topics": [
+      "Linear Equations",
+      "Equations with Brackets"
+    ],
+    "images": []
+  },
+  {
+    "id": 121,
+    "category": "Algebra",
+    "topic": "Simultaneous Equations",
+    "explanation": "Simultaneous equations are two or more equations that share the same variables, solved together to find values that satisfy all equations at once. Common methods include substitution (replacing one variable using the other equation) and elimination (adding or subtracting equations to remove one variable).",
+    "key_concepts": [
+      "Simultaneous equations have a common solution that satisfies every equation at once",
+      "Substitution method: solve one equation for one variable, substitute into the other",
+      "Elimination method: add or subtract equations (after scaling) to eliminate one variable",
+      "Graphically, the solution is the point(s) where the lines/curves intersect"
+    ],
+    "definitions": [
+      {
+        "term": "Simultaneous Equations",
+        "definition": "A set of two or more equations with shared variables, solved together to find values satisfying all equations."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Solve simultaneously: 2x + y = 11 and x - y = 1 (elimination method)",
+        "solution_steps": [
+          "Add the two equations to eliminate y: (2x+y)+(x-y) = 11+1",
+          "3x = 12, so x = 4",
+          "Substitute x=4 into x-y=1: 4-y=1, so y=3"
+        ],
+        "answer": "x = 4, y = 3"
+      },
+      {
+        "problem": "Solve simultaneously: y = 2x + 1 and 3x + y = 16 (substitution method)",
+        "solution_steps": [
+          "Substitute y=2x+1 into the second equation: 3x + (2x+1) = 16",
+          "5x + 1 = 16",
+          "5x = 15, so x = 3",
+          "Substitute back: y = 2(3)+1 = 7"
+        ],
+        "answer": "x = 3, y = 7"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve simultaneously: x + y = 10 and x - y = 2.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Solve simultaneously: y = 3x - 2 and 2x + y = 18.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "x=6, y=4",
+      "x=4, y=10"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve the simultaneous equations 3x + 2y = 16 and 5x - 2y = 8.",
+        "marks": 4,
+        "answer": "Add equations: 8x=24, x=3. Substitute into first: 9+2y=16, 2y=7, y=3.5"
+      }
+    ],
+    "common_mistakes": [
+      "Not scaling equations correctly before eliminating a variable (coefficients must match to cancel)",
+      "Sign errors when adding or subtracting equations",
+      "Forgetting to substitute back to find the second variable"
+    ],
+    "tips": [
+      "Before eliminating, check whether adding or subtracting the equations will actually cancel a variable \u2014 you may need to multiply one or both equations first."
+    ],
+    "summary": "Simultaneous equations are solved using substitution or elimination to find variable values that satisfy multiple equations at once.",
+    "quick_revision_notes": [
+      "Substitution: solve for one variable, plug into the other equation",
+      "Elimination: add/subtract to cancel a variable"
+    ],
+    "related_prerequisite_topics": [
+      "Linear Equations",
+      "Forming Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 122,
+    "category": "Algebra",
+    "topic": "Linear Inequalities",
+    "explanation": "A linear inequality is similar to a linear equation, but uses an inequality symbol (<, >, \u2264, \u2265) instead of an equals sign, representing a range of possible solutions rather than a single value. Inequalities are solved using the same inverse-operation techniques as equations, with one crucial difference: multiplying or dividing both sides by a negative number reverses the inequality sign.",
+    "key_concepts": [
+      "Solve using the same steps as a linear equation",
+      "CRITICAL RULE: multiplying or dividing by a negative number flips the inequality sign",
+      "Solutions represent a range of values, often shown on a number line",
+      "< and > are strict (excluding the boundary); \u2264 and \u2265 include the boundary"
+    ],
+    "definitions": [
+      {
+        "term": "Linear Inequality",
+        "definition": "A mathematical statement comparing two expressions using <, >, \u2264, or \u2265, where the variable appears to the first power."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Solve 2x + 3 < 11",
+        "solution_steps": [
+          "Subtract 3: 2x < 8",
+          "Divide by 2: x < 4"
+        ],
+        "answer": "x < 4"
+      },
+      {
+        "problem": "Solve -3x + 6 \u2265 15",
+        "solution_steps": [
+          "Subtract 6: -3x \u2265 9",
+          "Divide by -3 (flip the inequality): x \u2264 -3"
+        ],
+        "answer": "x \u2264 -3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve 4x - 5 > 11.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Solve -2x + 7 < 1.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "x > 4",
+      "x > 3 (subtract 7: -2x<-6, divide by -2 and flip: x>3)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve the inequality 5 - 2x \u2264 13, and represent the solution on a number line.",
+        "marks": 3,
+        "answer": "-2x \u2264 8 \u2192 x \u2265 -4 (divide by -2, flip sign). Number line: closed circle at -4, arrow pointing right."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to flip the inequality sign when multiplying/dividing by a negative number",
+      "Treating < and \u2264 the same way when representing solutions on a number line (open vs closed circles)"
+    ],
+    "tips": [
+      "Whenever you multiply or divide both sides by a negative number, immediately flip the inequality sign \u2014 this is the single most commonly forgotten rule."
+    ],
+    "summary": "Linear inequalities are solved like linear equations, except multiplying/dividing by a negative number reverses the inequality sign.",
+    "quick_revision_notes": [
+      "Solve like an equation",
+      "Flip sign when multiplying/dividing by a negative"
+    ],
+    "related_prerequisite_topics": [
+      "Linear Equations",
+      "Inequality Number Lines"
+    ],
+    "images": []
+  },
+  {
+    "id": 123,
+    "category": "Algebra",
+    "topic": "Inequality Number Lines",
+    "explanation": "An inequality can be represented visually on a number line, showing the full range of values that satisfy it. An open circle indicates the boundary value is NOT included (< or >), while a closed (filled) circle indicates it IS included (\u2264 or \u2265). An arrow shows the direction of all remaining solutions.",
+    "key_concepts": [
+      "Open circle = strict inequality (< or >), boundary value excluded",
+      "Closed (filled) circle = inclusive inequality (\u2264 or \u2265), boundary value included",
+      "Arrow points in the direction of all satisfying values",
+      "Combined inequalities use two circles connected by a line segment"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Represent x > 2 on a number line.",
+        "solution_steps": [
+          "Draw an open circle at 2 (since 2 is not included)",
+          "Draw an arrow pointing right (since values greater than 2 are included)"
+        ],
+        "answer": "Open circle at 2, arrow pointing right"
+      },
+      {
+        "problem": "Represent -1 \u2264 x < 4 on a number line.",
+        "solution_steps": [
+          "Draw a closed circle at -1 (included)",
+          "Draw an open circle at 4 (not included)",
+          "Draw a line segment connecting the two circles"
+        ],
+        "answer": "Closed circle at -1, open circle at 4, connected by a line"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Describe how to represent x \u2264 5 on a number line.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Describe how to represent 2 < x \u2264 6 on a number line.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Closed circle at 5, with an arrow pointing left.",
+      "Open circle at 2, closed circle at 6, connected by a line segment."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A number line shows a closed circle at -3 and an open circle at 2, connected by a line. Write the inequality this represents.",
+        "marks": 2,
+        "answer": "-3 \u2264 x < 2"
+      }
+    ],
+    "common_mistakes": [
+      "Using the wrong circle type (open vs closed) for \u2264/\u2265 versus </>",
+      "Drawing the arrow in the wrong direction"
+    ],
+    "tips": [
+      "Remember: a closed (filled-in) circle matches an inequality symbol that has a line under it (\u2264, \u2265) \u2014 'filled matches the line.'"
+    ],
+    "summary": "Inequalities are shown on number lines using open circles (strict) or closed circles (inclusive), with arrows or line segments showing the solution range.",
+    "quick_revision_notes": [
+      "Open circle: < or >",
+      "Closed circle: \u2264 or \u2265",
+      "Arrow shows direction of solutions"
+    ],
+    "related_prerequisite_topics": [
+      "Linear Inequalities",
+      "Number Lines"
+    ],
+    "images": [
+      {
+        "filename": "inequalitynumberlines-123-line.svg",
+        "type": "diagram",
+        "description": "A number line with an open circle at 2 and an arrow extending to the right, representing x > 2.",
+        "purpose": "Shows the correct open-circle convention for a strict inequality.",
+        "placement": "After the Worked Examples section"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "category": "Algebra",
+    "topic": "Compound Inequalities",
+    "explanation": "A compound inequality combines two inequality conditions into a single statement, such as -2 < x \u2264 5, meaning x is greater than -2 AND less than or equal to 5. Compound inequalities can be solved by applying the same operation to all three parts simultaneously, or by splitting into two separate inequalities.",
+    "key_concepts": [
+      "A compound inequality shows a range bounded on both sides (e.g. a < x < b)",
+      "Solve by performing the same operation on ALL parts of the inequality at once",
+      "Can also be split into two separate inequalities and solved individually, then combined",
+      "Represents an interval on the number line, bounded by the two given values"
+    ],
+    "definitions": [
+      {
+        "term": "Compound Inequality",
+        "definition": "An inequality combining two conditions into one statement, showing a range with both an upper and lower bound."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Solve -7 \u2264 2x - 1 < 9",
+        "solution_steps": [
+          "Add 1 to all three parts: -6 \u2264 2x < 10",
+          "Divide all three parts by 2: -3 \u2264 x < 5"
+        ],
+        "answer": "-3 \u2264 x < 5"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve 3 < x + 2 \u2264 9.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Solve -10 \u2264 3x + 2 < 8.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "1 < x \u2264 7",
+      "-4 \u2264 x < 2"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve -5 \u2264 4 - 3x < 10, showing all working.",
+        "marks": 4,
+        "answer": "Subtract 4 from all parts: -9 \u2264 -3x < 6. Divide by -3, flipping BOTH inequality signs: 3 \u2265 x > -2, i.e. -2 < x \u2264 3"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to apply an operation to ALL THREE parts of the inequality",
+      "Forgetting to flip BOTH inequality signs when dividing/multiplying by a negative number"
+    ],
+    "tips": [
+      "Whatever you do to solve, do it to all three parts of the compound inequality at the same time, in the same step."
+    ],
+    "summary": "Compound inequalities represent a bounded range, solved by applying the same operations to all three parts simultaneously.",
+    "quick_revision_notes": [
+      "a < expression < b",
+      "Apply operations to all 3 parts at once",
+      "Flip both signs if multiplying/dividing by a negative"
+    ],
+    "related_prerequisite_topics": [
+      "Linear Inequalities",
+      "Inequality Number Lines"
+    ],
+    "images": []
+  },
+  {
+    "id": 125,
+    "category": "Algebra",
+    "topic": "Algebraic Word Problems",
+    "explanation": "Algebraic word problems require translating a real-world scenario described in words into an algebraic equation, then solving it. The key skill is carefully identifying the unknown quantity, assigning it a variable, and expressing all other information in terms of that variable before forming an equation.",
+    "key_concepts": [
+      "Identify the unknown quantity and assign it a variable (e.g. let x = ...)",
+      "Translate the words into a mathematical equation",
+      "Solve the equation using standard algebraic techniques",
+      "Check the solution makes sense in the context of the original problem"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A number is doubled, then 7 is added, giving a result of 25. Find the number.",
+        "solution_steps": [
+          "Let the number be x",
+          "Form the equation: 2x + 7 = 25",
+          "Solve: 2x = 18, x = 9"
+        ],
+        "answer": "9"
+      },
+      {
+        "problem": "The perimeter of a rectangle is 36 cm. Its length is 3 cm more than its width. Find the width.",
+        "solution_steps": [
+          "Let width = x, so length = x+3",
+          "Perimeter formula: 2(length+width) = 36",
+          "2(x+3+x) = 36",
+          "2(2x+3) = 36",
+          "4x+6=36",
+          "4x=30, x=7.5"
+        ],
+        "answer": "Width = 7.5 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A number is tripled and then 4 is subtracted, giving 17. Find the number.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "The sum of two consecutive numbers is 45. Find the two numbers.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "7",
+      "22 and 23"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Sarah is 5 years older than her brother Tom. The sum of their ages is 33. Find each of their ages.",
+        "marks": 3,
+        "answer": "Let Tom's age = x, Sarah's age = x+5. x+(x+5)=33 \u2192 2x+5=33 \u2192 2x=28 \u2192 x=14. Tom is 14, Sarah is 19."
+      }
+    ],
+    "common_mistakes": [
+      "Misidentifying which quantity should be the variable",
+      "Setting up the equation incorrectly by misreading the word problem",
+      "Not checking whether the final answer makes sense in context (e.g. a negative age)"
+    ],
+    "tips": [
+      "Always define your variable explicitly ('Let x = ...') at the start \u2014 this keeps the rest of your working clear and easy to check."
+    ],
+    "summary": "Algebraic word problems require translating real-world descriptions into equations, solving them, and checking the answer makes sense.",
+    "quick_revision_notes": [
+      "Define variable clearly",
+      "Translate words to equation",
+      "Solve and check in context"
+    ],
+    "related_prerequisite_topics": [
+      "Forming Equations",
+      "Linear Equations",
+      "Consecutive Numbers"
+    ],
+    "images": []
+  },
+  {
+    "id": 126,
+    "category": "Algebra",
+    "topic": "Forming Equations",
+    "explanation": "Forming equations is the process of translating a real-world situation or geometric relationship into algebraic form, ready to be solved. This requires practice reading problems carefully, identifying constant and variable quantities, and correctly representing relationships (such as 'more than', 'less than', or 'twice as much') using algebraic symbols.",
+    "key_concepts": [
+      "Assign a variable to the unknown quantity",
+      "Translate key phrases into operations: 'more than' \u2192 +, 'less than' \u2192 -, 'twice' \u2192 \u00d72",
+      "Use given relationships (e.g. perimeter, angle sums) to build the equation",
+      "Ensure units are consistent throughout"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "The angles of a triangle are x, 2x, and 3x degrees. Form and solve an equation to find x.",
+        "solution_steps": [
+          "Angles in a triangle sum to 180\u00b0",
+          "x + 2x + 3x = 180",
+          "6x = 180",
+          "x = 30"
+        ],
+        "answer": "x = 30 (angles are 30\u00b0, 60\u00b0, 90\u00b0)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Three consecutive integers sum to 60. Form an equation and solve for the smallest integer.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A rectangle's length is twice its width, and its perimeter is 60 cm. Form an equation and find the width.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "19 (x+(x+1)+(x+2)=60, 3x+3=60, x=19)",
+      "10 cm (2(2x+x)=60, 6x=60, x=10)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A number is increased by 8, and the result is then doubled to give 40. Form an equation and solve for the original number.",
+        "marks": 3,
+        "answer": "2(x+8)=40 \u2192 x+8=20 \u2192 x=12"
+      }
+    ],
+    "common_mistakes": [
+      "Mistranslating word phrases into the wrong operation (e.g. writing 'x-8' for '8 less than x' correctly, but reversing it by mistake)",
+      "Forgetting a necessary geometric fact (like angle sums) needed to form the equation"
+    ],
+    "tips": [
+      "Read word problems slowly, phrase by phrase, translating each piece into algebra before combining them into a full equation."
+    ],
+    "summary": "Forming equations translates real-world or geometric relationships into algebraic form, ready for solving using standard techniques.",
+    "quick_revision_notes": [
+      "'More than'\u2192+, 'less than'\u2192-, 'twice'\u2192\u00d72",
+      "Use known formulas/facts (angle sums, perimeter) to build equations"
+    ],
+    "related_prerequisite_topics": [
+      "Algebraic Word Problems",
+      "Linear Equations",
+      "Triangle Angle Sum"
+    ],
+    "images": []
+  },
+  {
+    "id": 127,
+    "category": "Algebra",
+    "topic": "Changing the Subject of a Formula",
+    "explanation": "Changing the subject of a formula means rearranging an equation to isolate a different variable, making it the 'subject' (the variable alone on one side). This uses the same inverse-operation principles as solving equations, but the result is a general formula rather than a specific numerical answer.",
+    "key_concepts": [
+      "Use inverse operations to isolate the desired variable, just like solving an equation",
+      "Treat all other variables as if they were constants",
+      "If the desired variable appears more than once, factorise to combine the terms first",
+      "Square/square root operations must be undone carefully, considering \u00b1 where appropriate"
+    ],
+    "definitions": [
+      {
+        "term": "Subject of a Formula",
+        "definition": "The variable that is isolated alone on one side of an equation, expressed in terms of the other variables."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Make x the subject of y = 3x + 7",
+        "solution_steps": [
+          "Subtract 7 from both sides: y - 7 = 3x",
+          "Divide both sides by 3: (y-7)/3 = x"
+        ],
+        "answer": "x = (y-7)/3"
+      },
+      {
+        "problem": "Make r the subject of A = \u03c0r\u00b2",
+        "solution_steps": [
+          "Divide both sides by \u03c0: A/\u03c0 = r\u00b2",
+          "Take the square root of both sides: r = \u221a(A/\u03c0)"
+        ],
+        "answer": "r = \u221a(A/\u03c0)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Make x the subject of y = 2x - 5.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Make h the subject of V = lwh.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Make x the subject of y = (x+3)/2 - 4.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "x = (y+5)/2",
+      "h = V/(lw)",
+      "x = 2(y+4) - 3 = 2y+5"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The formula for the area of a trapezium is A = 1/2(a+b)h. Rearrange to make b the subject.",
+        "marks": 4,
+        "answer": "2A = (a+b)h \u2192 2A/h = a+b \u2192 b = 2A/h - a"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to apply an inverse operation to EVERY term on both sides",
+      "Sign errors when isolating a variable that has a negative coefficient",
+      "Forgetting the \u00b1 when taking a square root"
+    ],
+    "tips": [
+      "Approach it exactly like solving an equation \u2014 just remember your 'answer' is a formula, not a single number."
+    ],
+    "summary": "Changing the subject of a formula uses inverse operations to isolate a different variable, treating all others as constants.",
+    "quick_revision_notes": [
+      "Same technique as solving equations",
+      "Isolate the desired variable using inverse operations",
+      "Watch for \u00b1 with square roots"
+    ],
+    "related_prerequisite_topics": [
+      "Linear Equations",
+      "Literal Equations",
+      "Substitution"
+    ],
+    "images": []
+  }
+]

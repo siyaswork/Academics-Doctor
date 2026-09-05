@@ -1,0 +1,563 @@
+{
+  "batch": "15",
+  "category": "Mole Concept and Quantitative Chemistry",
+  "topics_in_batch": 10,
+  "topics_completed_so_far": 158,
+  "topics_remaining_total": 341,
+  "topics": [
+
+    {
+      "id": "chem-150-concentration",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Concentration",
+      "difficulty": "Foundation",
+      "description": "A measure of how much solute is dissolved in a given volume of solution, expressible in different units depending on context.",
+      "learning_objectives": [
+        "Define concentration",
+        "Distinguish concentrated and dilute solutions qualitatively",
+        "Identify common units used to express concentration"
+      ],
+      "explanation": "Concentration is a measure of the amount of solute dissolved in a given volume of solution; a solution with a relatively large amount of solute dissolved in a given volume is described as concentrated, while a solution with relatively little solute dissolved in the same volume is described as dilute. Concentration can be expressed in various units depending on the context and purpose: molar concentration (mol/dm3), expressing the number of moles of solute per unit volume of solution, is most commonly used in chemical calculations, while mass concentration (g/dm3) expresses the mass of solute per unit volume, sometimes more practical for everyday or industrial contexts. Both measures relate the amount of solute present to the volume of solution it is dissolved in, and can be interconverted using the solute's molar mass.",
+      "key_concepts": ["Concentration = solute amount per volume of solution", "Concentrated vs dilute (qualitative)", "Common units: mol/dm3 (molar) and g/dm3 (mass)"],
+      "definitions": [
+        {"term": "Concentration", "definition": "A measure of the amount of solute dissolved in a given volume of solution."},
+        {"term": "Concentrated solution", "definition": "A solution containing a relatively large amount of solute per unit volume."},
+        {"term": "Dilute solution", "definition": "A solution containing a relatively small amount of solute per unit volume."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Concentration is a fundamental concept underpinning drug dosing in medicine, environmental pollutant monitoring, and countless industrial process control applications"],
+      "laboratory_applications": ["Preparing and diluting solutions of known concentration for titrations and other quantitative laboratory procedures"],
+      "common_mistakes": ["Confusing 'concentrated' with simply 'a lot of solution' (large volume) — concentration relates the AMOUNT of solute to the VOLUME it occupies, not the total volume alone"],
+      "misconceptions": ["Believing 'concentrated' and 'strong' are always interchangeable terms in chemistry — 'concentrated'/'dilute' refer specifically to the amount of solute per volume, while 'strong'/'weak' (for acids and bases) refer to the extent of ionisation, a related but distinct concept"],
+      "tips": ["Always check which unit of concentration a question is using (mol/dm3 or g/dm3) before starting a calculation, since the appropriate formula and any necessary conversions differ"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define concentration.", "answer": "A measure of the amount of solute dissolved in a given volume of solution."},
+          {"question": "State two common units used to express concentration.", "answer": "mol/dm3 (molar concentration) and g/dm3 (mass concentration)."}
+        ],
+        "intermediate": [
+          {"question": "Explain the difference between a concentrated and a dilute solution of the same solute.", "answer": "A concentrated solution contains a relatively large amount of solute dissolved in a given volume of solution, while a dilute solution contains a relatively small amount of the same solute in the same volume of solution; both solutions contain the same solute and solvent, differing only in the ratio of solute to solution volume."}
+        ],
+        "advanced": [
+          {"question": "Explain why two solutions with the same mass concentration (g/dm3) of two different solutes would generally have different molar concentrations (mol/dm3).", "answer": "Mass concentration expresses the mass of solute per unit volume, while molar concentration expresses the number of moles of solute per unit volume; converting between these requires dividing (or multiplying) by the solute's molar mass. Since different solutes generally have different molar masses, the same mass concentration (e.g. 10 g/dm3) will correspond to a different number of moles (and therefore a different molar concentration) for each different solute, since a given mass of a solute with a smaller molar mass contains more moles than the same mass of a solute with a larger molar mass."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain what is meant by the term 'concentration' of a solution, and state one common unit used to express it.", "marks": 2, "model_answer": "Concentration is a measure of the amount of solute dissolved in a given volume of solution (1 mark). Common units include mol/dm3 or g/dm3 (1 mark, for either correct unit)."}
+      ],
+      "summary": "Concentration measures the amount of solute per volume of solution, described qualitatively as concentrated or dilute, and quantitatively in units such as mol/dm3 (molar concentration) or g/dm3 (mass concentration).",
+      "revision_notes": ["Concentration = solute amount ÷ solution volume", "Concentrated = more solute per volume; dilute = less", "Units: mol/dm3 (molar) or g/dm3 (mass)"],
+      "related_topics": ["Molar Concentration", "Mass Concentration", "Solution Preparation", "Dilution"],
+      "prerequisites": ["The Mole"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-151-molar-concentration",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Molar Concentration",
+      "difficulty": "Higher",
+      "description": "The number of moles of solute dissolved per cubic decimetre (litre) of solution, the standard unit of concentration used in chemical calculations.",
+      "learning_objectives": [
+        "Define molar concentration",
+        "Calculate molar concentration from moles and volume",
+        "Rearrange the molar concentration equation to find moles or volume"
+      ],
+      "explanation": "Molar concentration (often simply called 'concentration' in a chemistry context, and given the symbol c) is defined as the number of moles of solute dissolved per cubic decimetre (dm3, equivalent to one litre) of solution, with units of mol/dm3 (sometimes also written as mol dm−3 or M, standing for 'molar'). Molar concentration is calculated using the equation: concentration (mol/dm3) = moles of solute ÷ volume of solution (dm3). This equation can be rearranged as needed to find moles (moles = concentration × volume) or volume (volume = moles ÷ concentration), and forms one of the core equations used throughout quantitative chemistry, particularly in titration calculations.",
+      "key_concepts": ["Concentration (mol/dm3) = moles ÷ volume (dm3)", "Symbol c; units mol/dm3 or M", "Rearrangements: moles = c×V; volume = moles/c"],
+      "definitions": [
+        {"term": "Molar concentration", "definition": "The number of moles of solute dissolved per cubic decimetre of solution, with units of mol/dm3."}
+      ],
+      "formulae": [
+        {"name": "Molar concentration", "formula": "concentration (mol/dm3) = moles of solute / volume of solution (dm3)", "description": "The core equation for molar concentration, rearranged to find moles or volume as needed."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Calculate the molar concentration of a solution containing 0.5 mol of sodium hydroxide dissolved in 250 cm3 of solution.",
+          "working": "Convert volume to dm3: 250 cm3 = 0.25 dm3. concentration = moles / volume = 0.5 / 0.25",
+          "answer": "2 mol/dm3"
+        }
+      ],
+      "practical_applications": ["Molar concentration is used throughout analytical chemistry, pharmaceutical dosing, and industrial process control to precisely specify and control the amount of a dissolved substance"],
+      "laboratory_applications": ["Calculating and preparing a solution of a specific, required molar concentration for use in titrations and other quantitative experiments"],
+      "common_mistakes": ["Forgetting to convert a volume given in cm3 to dm3 (by dividing by 1000) before substituting into the concentration equation, since the standard unit of concentration (mol/dm3) requires volume in dm3"],
+      "misconceptions": ["Believing molar concentration and mass concentration are numerically the same for a given solution — they are different quantities (moles per volume vs mass per volume) and are only directly related to each other via the solute's molar mass"],
+      "tips": ["Always double-check and convert volume units (cm3 to dm3, dividing by 1000) as the very first step in any molar concentration calculation, before applying the main equation"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the equation for molar concentration.", "answer": "concentration (mol/dm3) = moles of solute ÷ volume of solution (dm3)"},
+          {"question": "Calculate the concentration of a solution containing 2 mol of solute in 1 dm3 of solution.", "answer": "2 mol/dm3"}
+        ],
+        "intermediate": [
+          {"question": "Calculate the number of moles of hydrochloric acid present in 200 cm3 of a 0.5 mol/dm3 solution.", "answer": "Convert volume: 200 cm3 = 0.2 dm3. moles = concentration × volume = 0.5 × 0.2 = 0.1 mol."},
+          {"question": "Calculate the volume of a 2 mol/dm3 solution of sulfuric acid that contains 0.4 mol of the acid.", "answer": "volume = moles / concentration = 0.4 / 2 = 0.2 dm3 (200 cm3)."}
+        ],
+        "advanced": [
+          {"question": "A student dissolves 4.0 g of sodium hydroxide (Mr = 40) in water and makes the solution up to a total volume of 500 cm3. Calculate the molar concentration of the resulting solution.", "answer": "Moles of NaOH = mass/Mr = 4.0/40 = 0.1 mol. Convert volume: 500 cm3 = 0.5 dm3. Concentration = moles/volume = 0.1/0.5 = 0.2 mol/dm3."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Calculate the molar concentration of a solution made by dissolving 0.2 mol of potassium hydroxide in enough water to make 400 cm3 of solution.", "marks": 3, "model_answer": "Convert volume: 400 cm3 = 0.4 dm3 (1 mark). concentration = moles / volume = 0.2 / 0.4 (1 mark) = 0.5 mol/dm3 (1 mark)."}
+      ],
+      "summary": "Molar concentration (mol/dm3) expresses the number of moles of solute per cubic decimetre of solution, calculated via concentration = moles ÷ volume, a core equation used throughout quantitative chemistry, particularly in titrations.",
+      "revision_notes": ["c (mol/dm3) = moles ÷ volume (dm3) — ALWAYS convert cm3 to dm3 (÷1000)", "Rearrangements: moles = c×V; V = moles/c"],
+      "related_topics": ["Concentration", "Mass Concentration", "Acid-Base Titrations", "Titration Calculations"],
+      "prerequisites": ["Concentration", "The Mole"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-152-mass-concentration",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Mass Concentration",
+      "difficulty": "Higher",
+      "description": "The mass of solute dissolved per unit volume of solution, expressed in grams per cubic decimetre.",
+      "learning_objectives": [
+        "Define mass concentration",
+        "Calculate mass concentration from mass and volume",
+        "Convert between mass concentration and molar concentration using molar mass"
+      ],
+      "explanation": "Mass concentration expresses the mass of solute dissolved per unit volume of solution, most commonly in units of grams per cubic decimetre (g/dm3), calculated using the equation: mass concentration (g/dm3) = mass of solute (g) ÷ volume of solution (dm3). Mass concentration can be converted to molar concentration (and vice versa) using the solute's molar mass: molar concentration (mol/dm3) = mass concentration (g/dm3) ÷ molar mass (g/mol). Mass concentration is often more practical or intuitive in certain contexts, such as environmental water quality reporting (e.g. concentrations of pollutants in mg/dm3 or µg/dm3) or everyday product labelling, where expressing amounts directly by mass may be more meaningful to a general audience than a molar quantity.",
+      "key_concepts": ["Mass concentration (g/dm3) = mass of solute ÷ volume", "Convert to/from molar concentration using molar mass", "Used in environmental/practical contexts"],
+      "definitions": [
+        {"term": "Mass concentration", "definition": "The mass of solute dissolved per unit volume of solution, typically expressed in grams per cubic decimetre (g/dm3)."}
+      ],
+      "formulae": [
+        {"name": "Mass concentration", "formula": "mass concentration (g/dm3) = mass of solute (g) / volume of solution (dm3)", "description": "The core equation for mass concentration."},
+        {"name": "Converting mass to molar concentration", "formula": "molar concentration (mol/dm3) = mass concentration (g/dm3) / molar mass (g/mol)", "description": "Used to convert between the two common units of concentration."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Calculate the mass concentration of a solution containing 5 g of sodium chloride dissolved in 250 cm3 of solution.",
+          "working": "Convert volume to dm3: 250 cm3 = 0.25 dm3. mass concentration = mass / volume = 5 / 0.25",
+          "answer": "20 g/dm3"
+        }
+      ],
+      "practical_applications": ["Mass concentration is used extensively in environmental monitoring (e.g. reporting pollutant or nutrient levels in water), medical dosing, and everyday product labelling (e.g. nutritional information)"],
+      "laboratory_applications": ["Reporting the concentration of a prepared solution in g/dm3 when the practical context (e.g. an industrial or environmental application) favours mass-based rather than mole-based units"],
+      "common_mistakes": ["Confusing mass concentration (g/dm3) with molar concentration (mol/dm3) — these are numerically different unless the solute's molar mass happens to equal 1, and must be converted using molar mass when switching between them"],
+      "misconceptions": ["Believing mass concentration is always the 'simpler' or more fundamentally useful measure of concentration in chemistry — while intuitive, molar concentration is generally more directly useful for chemical calculations (such as reacting quantities via mole ratios), since chemical reactions occur according to mole ratios, not mass ratios directly"],
+      "tips": ["To convert between mass concentration and molar concentration, always use the specific solute's molar mass — divide mass concentration by molar mass to get molar concentration, or multiply molar concentration by molar mass to get mass concentration"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the equation for mass concentration.", "answer": "mass concentration (g/dm3) = mass of solute (g) ÷ volume of solution (dm3)"},
+          {"question": "Calculate the mass concentration of a solution containing 10 g of solute in 1 dm3 of solution.", "answer": "10 g/dm3"}
+        ],
+        "intermediate": [
+          {"question": "Calculate the mass concentration, in g/dm3, of a solution with a molar concentration of 0.5 mol/dm3 of sodium hydroxide (Mr = 40).", "answer": "mass concentration = molar concentration × molar mass = 0.5 × 40 = 20 g/dm3"},
+          {"question": "A solution has a mass concentration of 4.9 g/dm3 of sulfuric acid (Mr = 98). Calculate its molar concentration.", "answer": "molar concentration = mass concentration / molar mass = 4.9/98 = 0.05 mol/dm3"}
+        ],
+        "advanced": [
+          {"question": "A river sample is found to have a nitrate concentration of 25 mg/dm3. Convert this to molar concentration in mol/dm3 (Mr of NO3− = 62), and comment on why mass concentration might be reported in this environmental context rather than molar concentration.", "answer": "Convert mg to g: 25 mg = 0.025 g. Molar concentration = mass concentration / molar mass = 0.025/62 ≈ 4.03×10^-4 mol/dm3. Mass concentration (in mg/dm3) is commonly used and reported in environmental monitoring because regulatory water quality standards and general public communication are typically expressed in mass-based units, which are often more intuitive and directly comparable to established safety/regulatory thresholds, without requiring the audience to understand or convert molar quantities."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Calculate the mass concentration, in g/dm3, of a solution made by dissolving 2.4 g of magnesium sulfate in enough water to make 300 cm3 of solution.", "marks": 3, "model_answer": "Convert volume: 300 cm3 = 0.3 dm3 (1 mark). mass concentration = mass / volume = 2.4 / 0.3 (1 mark) = 8 g/dm3 (1 mark)."}
+      ],
+      "summary": "Mass concentration (g/dm3) expresses the mass of solute per unit volume of solution, calculated via mass concentration = mass ÷ volume, and can be converted to/from molar concentration using the solute's molar mass.",
+      "revision_notes": ["Mass concentration (g/dm3) = mass of solute ÷ volume (dm3)", "Convert to molar concentration: divide by molar mass", "Convert to mass concentration: multiply molar concentration by molar mass", "Common in environmental/practical contexts"],
+      "related_topics": ["Concentration", "Molar Concentration", "Molar Mass"],
+      "prerequisites": ["Concentration", "Molar Mass"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-153-solution-preparation",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Solution Preparation",
+      "difficulty": "Higher",
+      "description": "The practical method for accurately preparing a solution of a known, specific concentration using a volumetric flask.",
+      "learning_objectives": [
+        "Describe the practical method for preparing a standard solution of known concentration",
+        "Calculate the mass of solute needed to prepare a solution of a specified concentration and volume",
+        "Explain the purpose and correct use of a volumetric flask"
+      ],
+      "explanation": "To prepare a solution of accurately known concentration (a 'standard solution'), the required mass of solute is first calculated (using moles = concentration × volume, then mass = moles × molar mass) and then carefully weighed out, typically using an analytical balance for precision. The solute is dissolved in a quantity of the solvent (usually distilled or deionised water) somewhat less than the final required volume, using a beaker and stirring rod, before being transferred quantitatively (including thorough rinsing of the beaker and stirring rod to ensure no solute is lost) into a volumetric flask of the exact required total volume. Additional solvent is then added carefully up to the calibration mark on the neck of the volumetric flask (using a dropping pipette for the final few drops, to avoid overshooting), and the flask is stoppered and inverted several times to ensure the solution is fully and evenly mixed.",
+      "key_concepts": ["Calculate required mass (moles = c×V, then mass = moles×Mr)", "Dissolve, then transfer quantitatively to a volumetric flask", "Make up to calibration mark precisely, then mix thoroughly"],
+      "definitions": [
+        {"term": "Standard solution", "definition": "A solution of accurately and precisely known concentration."},
+        {"term": "Volumetric flask", "definition": "A piece of glassware with a single calibration mark, designed to contain one precise, specific volume of solution when filled correctly to that mark."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Calculate the mass of sodium carbonate, Na2CO3 (Mr = 106), needed to prepare 250 cm3 of a 0.1 mol/dm3 standard solution.",
+          "working": "Convert volume to dm3: 250 cm3 = 0.25 dm3. Moles needed = concentration × volume = 0.1 × 0.25 = 0.025 mol. Mass = moles × Mr = 0.025 × 106.",
+          "answer": "2.65 g"
+        }
+      ],
+      "practical_applications": ["Accurate solution preparation is fundamental to analytical chemistry, quality control in manufacturing, and pharmaceutical formulation, wherever a precisely known concentration is required"],
+      "laboratory_applications": ["Preparing a standard solution to use as the known concentration in a titration, or for calibrating analytical instruments"],
+      "common_mistakes": ["Making up the solution's final volume in an ordinary beaker or measuring cylinder rather than a volumetric flask, resulting in a significantly less precise final volume", "Failing to thoroughly rinse the beaker and stirring rod used to dissolve the solute, potentially leaving some solute behind and giving an inaccurately low final concentration"],
+      "misconceptions": ["Believing the exact order of dissolving and diluting does not matter significantly — dissolving the solute completely in a smaller volume of solvent first (before making up to the final volume in the volumetric flask) helps avoid problems such as the final volume being reached before the solute has fully dissolved"],
+      "tips": ["Always use a dropping pipette for the final small additions of solvent when approaching the calibration mark on a volumetric flask, to avoid overshooting the precise required volume"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Name the piece of apparatus used to make up a solution to a precise, known volume.", "answer": "A volumetric flask"},
+          {"question": "State why the beaker used to dissolve the solute should be rinsed and the washings added to the volumetric flask.", "answer": "To ensure that all of the solute is transferred into the final solution, without any being left behind in the beaker, which would otherwise result in a less concentrated (inaccurate) final solution."}
+        ],
+        "intermediate": [
+          {"question": "Describe the steps involved in preparing 500 cm3 of a standard solution of a solid solute of known required concentration.", "answer": "Calculate the required mass of solute using moles = concentration × volume, then mass = moles × molar mass. Weigh out this mass accurately using a balance. Dissolve the solute in a beaker using a volume of water somewhat less than 500 cm3, stirring until fully dissolved. Transfer this solution into a 500 cm3 volumetric flask, rinsing the beaker and stirring rod with a small amount of additional water and adding these rinsings to the flask to ensure complete transfer. Carefully add further water up to the calibration mark on the flask, using a dropping pipette for the final additions. Stopper the flask and invert it several times to ensure the solution is thoroughly and evenly mixed."},
+          {"question": "Explain why a volumetric flask is more suitable than a measuring cylinder for preparing a standard solution.", "answer": "A volumetric flask is designed and calibrated to contain one very precise, specific volume when filled exactly to its single calibration mark, giving a much smaller uncertainty than a measuring cylinder, which is designed for approximate volume measurements across a wider range and has a correspondingly larger uncertainty; the higher precision of a volumetric flask is essential for preparing a solution of accurately known concentration."}
+        ],
+        "advanced": [
+          {"question": "Explain why it is important to allow a solution to cool to room temperature before making it up to the final volume in a volumetric flask, if the solute was dissolved using warm water to speed up dissolving.", "answer": "Liquids (including water and solutions) generally expand slightly in volume as temperature increases; if a warm solution is made up to the calibration mark of a volumetric flask while still warm, the solution will contract slightly as it cools to room temperature, resulting in the liquid level falling below the calibration mark and the true final volume being slightly less than intended, once cooled. Since volumetric flasks are calibrated to their marked volume at a specific standard temperature (usually room temperature), allowing the solution to cool to room temperature before making the final volume adjustment ensures the solution's volume (and therefore its calculated concentration) is accurate once the flask is correctly filled to the mark at that standard temperature."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Describe how you would prepare 250 cm3 of a 0.2 mol/dm3 standard solution of sodium hydroxide (Mr = 40) from solid sodium hydroxide pellets, including any relevant calculations.", "marks": 5, "model_answer": "Calculate moles needed: convert 250 cm3 to 0.25 dm3; moles = concentration × volume = 0.2 × 0.25 = 0.05 mol (1 mark). Calculate mass needed: mass = moles × Mr = 0.05 × 40 = 2 g (1 mark). Weigh out 2 g of sodium hydroxide pellets accurately using a balance (1 mark). Dissolve the pellets in a beaker using less than 250 cm3 of water, then transfer to a 250 cm3 volumetric flask, rinsing the beaker and adding the rinsings to the flask (1 mark). Make up to the 250 cm3 calibration mark with water (using a dropping pipette for the final additions), stopper, and invert to mix thoroughly (1 mark)."}
+      ],
+      "summary": "Preparing a standard solution involves calculating the required mass of solute, dissolving it completely, transferring it quantitatively (with rinsings) to a volumetric flask, making up carefully to the calibration mark, and mixing thoroughly, ensuring an accurately known final concentration.",
+      "revision_notes": ["Calculate mass: moles = c×V, then mass = moles×Mr", "Dissolve fully → transfer (rinse!) to volumetric flask → make up to mark → mix", "Volumetric flask: precise single volume, more accurate than measuring cylinder"],
+      "related_topics": ["Molar Concentration", "Common Laboratory Apparatus and Techniques", "Dilution"],
+      "prerequisites": ["Molar Concentration", "Common Laboratory Apparatus and Techniques"],
+      "diagram_recommendations": ["[DIAGRAM: Steps for preparing a standard solution, from dissolving to making up to the mark in a volumetric flask]"],
+      "images": []
+    },
+
+    {
+      "id": "chem-154-dilution",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Dilution",
+      "difficulty": "Higher",
+      "description": "The process of reducing the concentration of a solution by adding more solvent, and the calculations used to determine dilution volumes.",
+      "learning_objectives": [
+        "Explain what happens to moles of solute during dilution",
+        "Calculate the new concentration or volume needed for a specific dilution",
+        "Describe the practical method for accurately diluting a solution"
+      ],
+      "explanation": "Dilution is the process of reducing a solution's concentration by adding more solvent, without changing the total number of moles of solute present (since no solute is added or removed, only additional solvent). This principle allows dilution calculations to be based on the equation: concentration1 × volume1 = concentration2 × volume2 (often written as c1V1 = c2V2), since the number of moles of solute (concentration × volume) remains constant before and after dilution. Practically, a precise, known volume of the original (more concentrated) solution is measured accurately using a pipette, transferred into a volumetric flask of the desired larger final volume, and made up carefully to the calibration mark with additional solvent, then mixed thoroughly, following a very similar precise method to solution preparation from a solid solute.",
+      "key_concepts": ["Moles of solute unchanged during dilution", "c1V1 = c2V2", "Practical method: pipette original solution into a larger volumetric flask, make up to mark"],
+      "definitions": [
+        {"term": "Dilution", "definition": "The process of reducing the concentration of a solution by adding more solvent, without changing the total number of moles of solute present."}
+      ],
+      "formulae": [
+        {"name": "Dilution equation", "formula": "concentration1 × volume1 = concentration2 × volume2 (c1V1 = c2V2)", "description": "Relates the concentration and volume before and after dilution, since moles of solute remain constant."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Calculate the volume of a 2 mol/dm3 stock solution of hydrochloric acid needed to prepare 500 cm3 of a 0.1 mol/dm3 solution by dilution.",
+          "working": "Using c1V1 = c2V2: (2)(V1) = (0.1)(500). Solve for V1: V1 = (0.1×500)/2 = 50/2.",
+          "answer": "V1 = 25 cm3 of the stock solution should be diluted to a total volume of 500 cm3."
+        }
+      ],
+      "practical_applications": ["Dilution calculations are used throughout analytical chemistry, pharmaceutical preparation, and everyday scenarios (e.g. diluting concentrated cleaning products or fruit juice concentrate to a usable strength)"],
+      "laboratory_applications": ["Preparing a series of standard solutions of different, precisely known concentrations from a single, more concentrated stock solution, for example to construct a calibration curve for colorimetric analysis"],
+      "common_mistakes": ["Confusing which volume in the c1V1 = c2V2 equation refers to the original (smaller) volume of concentrated solution and which refers to the final (larger) total volume after dilution", "Using inconsistent units for volume (or concentration) between the two sides of the dilution equation"],
+      "misconceptions": ["Believing the number of moles of solute changes during dilution — dilution only adds solvent, so the total number of moles of solute (and therefore the total mass of solute) remains exactly the same before and after dilution; only the volume (and therefore the concentration) changes"],
+      "tips": ["Remember dilution keeps moles constant: concentration × volume (before) = concentration × volume (after) — as long as you keep the units of volume and concentration consistent on both sides"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State what happens to the number of moles of solute when a solution is diluted.", "answer": "It stays the same (unchanged) — only the volume (and therefore concentration) changes."},
+          {"question": "State the dilution equation.", "answer": "concentration1 × volume1 = concentration2 × volume2 (c1V1 = c2V2)"}
+        ],
+        "intermediate": [
+          {"question": "Calculate the concentration of the solution formed when 20 cm3 of a 1.5 mol/dm3 solution is diluted to a total volume of 300 cm3.", "answer": "Using c1V1 = c2V2: (1.5)(20) = c2(300). c2 = (1.5×20)/300 = 30/300 = 0.1 mol/dm3."},
+          {"question": "Explain why measuring the original volume of concentrated solution accurately (e.g. using a pipette) is essential for an accurate dilution.", "answer": "The dilution calculation and the resulting final concentration depend directly on the exact volume of the original, concentrated solution used; any inaccuracy in measuring this initial volume (e.g. from using a less precise measuring cylinder instead of a pipette) would introduce a proportional error into the number of moles of solute actually transferred, and therefore into the accuracy of the final diluted concentration achieved."}
+        ],
+        "advanced": [
+          {"question": "A stock solution of sulfuric acid has a concentration of 5.0 mol/dm3. Describe how you would use this stock solution to accurately prepare exactly 250 cm3 of a 0.25 mol/dm3 solution, including any relevant calculation.", "answer": "Using c1V1 = c2V2: (5.0)(V1) = (0.25)(250). Solve for V1: V1 = (0.25×250)/5.0 = 62.5/5.0 = 12.5 cm3. Using a pipette, accurately measure 12.5 cm3 of the 5.0 mol/dm3 stock solution and transfer it into a 250 cm3 volumetric flask. Add water carefully up to the 250 cm3 calibration mark (using a dropping pipette for the final additions), then stopper the flask and invert several times to ensure the solution is fully and evenly mixed, giving an accurately prepared 0.25 mol/dm3 solution."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Calculate the volume of water that must be added to 50 cm3 of a 4 mol/dm3 solution to dilute it to a concentration of 0.5 mol/dm3.", "marks": 3, "model_answer": "Using c1V1 = c2V2: (4)(50) = (0.5)(V2) (1 mark). Solve for V2: V2 = (4×50)/0.5 = 200/0.5 = 400 cm3 total final volume (1 mark). Volume of water added = final volume − original volume = 400 − 50 = 350 cm3 (1 mark)."}
+      ],
+      "summary": "Dilution reduces a solution's concentration by adding solvent, without changing the moles of solute present, described by c1V1 = c2V2. Practical dilution uses a pipette to measure the original solution accurately, diluting it to the desired final volume in a volumetric flask.",
+      "revision_notes": ["Dilution: moles of solute constant, only volume/concentration change", "c1V1 = c2V2 (keep units consistent)", "Practical method: pipette original solution into larger volumetric flask, make up to mark"],
+      "related_topics": ["Molar Concentration", "Solution Preparation"],
+      "prerequisites": ["Molar Concentration", "Solution Preparation"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-155-stoichiometric-calculations",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Stoichiometric Calculations",
+      "difficulty": "Higher",
+      "description": "Using the mole ratios shown by a balanced chemical equation to calculate reacting quantities of reactants and products.",
+      "learning_objectives": [
+        "Explain what stoichiometry means in the context of a balanced equation",
+        "Use mole ratios from a balanced equation to calculate quantities of reactants or products",
+        "Apply stoichiometric calculations to problems involving mass, gas volume, or solution concentration"
+      ],
+      "explanation": "Stoichiometry refers to the quantitative relationships between reactants and products in a chemical reaction, as shown by the coefficients (numbers in front of each formula) in a correctly balanced chemical equation; these coefficients give the exact mole ratio in which substances react and are produced. Stoichiometric calculations use this mole ratio, combined with other core equations (mass = moles × molar mass; gas volume = moles × molar gas volume; moles = concentration × volume for solutions), to determine an unknown quantity (mass, volume, or concentration) of one substance in a reaction, given a known quantity of another substance involved in the same reaction. The general approach involves: converting the given quantity of the known substance to moles; using the mole ratio from the balanced equation to find the moles of the substance being asked about; then converting this new number of moles to whatever final quantity (mass, volume, concentration) is required.",
+      "key_concepts": ["Stoichiometry: mole ratios from a balanced equation's coefficients", "General method: given quantity → moles → mole ratio → moles of unknown → required quantity", "Combines with mass, gas volume, and concentration equations"],
+      "definitions": [
+        {"term": "Stoichiometry", "definition": "The quantitative relationship between reactants and products in a chemical reaction, as shown by the mole ratios in a balanced equation."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Calculate the volume of 0.1 mol/dm3 hydrochloric acid needed to react exactly with 25 cm3 of 0.2 mol/dm3 sodium hydroxide solution, given NaOH + HCl → NaCl + H2O.",
+          "working": "Moles of NaOH = concentration × volume = 0.2 × (25/1000) = 0.005 mol. From the 1:1 mole ratio, moles of HCl needed = 0.005 mol. Volume of HCl = moles / concentration = 0.005 / 0.1.",
+          "answer": "Volume of HCl = 0.05 dm3 = 50 cm3"
+        }
+      ],
+      "practical_applications": ["Stoichiometric calculations are essential throughout industrial chemical manufacturing to determine the correct quantities of raw materials required and to predict expected product yields"],
+      "laboratory_applications": ["Performing titration calculations to determine an unknown concentration, using the stoichiometric mole ratio between the acid and base (or other reacting species) involved"],
+      "common_mistakes": ["Using the mole ratio directly with masses or volumes, rather than first converting to moles — the coefficients in a balanced equation relate strictly to MOLES, and this conversion step must never be skipped"],
+      "misconceptions": ["Believing stoichiometric calculations only apply to simple mass-to-mass problems — the same underlying mole-ratio method applies equally to problems involving gas volumes, solution concentrations, or any combination of these different types of quantity within the same overall calculation"],
+      "tips": ["Always write out the balanced equation first (if not already given) and clearly identify the mole ratio between the two substances of interest before starting any numerical calculation"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State what the coefficients in a balanced chemical equation represent.", "answer": "The mole ratio in which the reactants react and the products are formed."},
+          {"question": "State the general first step in any stoichiometric calculation.", "answer": "Convert the given quantity of the known substance into moles."}
+        ],
+        "intermediate": [
+          {"question": "Calculate the mass of calcium oxide produced when 20 g of calcium carbonate is fully decomposed, given CaCO3 → CaO + CO2 (Mr: CaCO3=100, CaO=56).", "answer": "Moles of CaCO3 = 20/100 = 0.2 mol. Mole ratio CaCO3:CaO = 1:1, so moles of CaO = 0.2 mol. Mass of CaO = 0.2 × 56 = 11.2 g."},
+          {"question": "Calculate the volume of oxygen gas (at RTP) needed to completely combust 0.1 mol of propane, C3H8, given C3H8 + 5O2 → 3CO2 + 4H2O (molar gas volume = 24 dm3/mol).", "answer": "Mole ratio C3H8:O2 = 1:5, so moles of O2 needed = 0.1 × 5 = 0.5 mol. Volume of O2 = 0.5 × 24 = 12 dm3."}
+        ],
+        "advanced": [
+          {"question": "Calculate the concentration of a sodium hydroxide solution if 22.5 cm3 of it exactly neutralises 25.0 cm3 of a 0.15 mol/dm3 solution of sulfuric acid, given the equation 2NaOH + H2SO4 → Na2SO4 + 2H2O.", "answer": "Moles of H2SO4 = concentration × volume = 0.15 × (25.0/1000) = 0.00375 mol. From the mole ratio NaOH:H2SO4 = 2:1, moles of NaOH = 0.00375 × 2 = 0.0075 mol. Concentration of NaOH = moles/volume = 0.0075/(22.5/1000) = 0.0075/0.0225 = 0.333 mol/dm3 (3 s.f.)."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Calculate the mass of sodium chloride produced when 4.6 g of sodium reacts completely with excess chlorine gas, given 2Na + Cl2 → 2NaCl (Ar: Na=23; Mr: NaCl=58.5).", "marks": 3, "model_answer": "Moles of Na = 4.6/23 = 0.2 mol (1 mark). Mole ratio Na:NaCl = 2:2 = 1:1, so moles of NaCl produced = 0.2 mol (1 mark). Mass of NaCl = 0.2 × 58.5 = 11.7 g (1 mark)."}
+      ],
+      "summary": "Stoichiometric calculations use mole ratios from a balanced equation's coefficients, combined with the mass, gas volume, and concentration equations, to determine unknown reacting quantities: known quantity → moles → mole ratio → moles of unknown → required quantity.",
+      "revision_notes": ["Stoichiometry = mole ratio from balanced equation coefficients", "Method: given quantity → MOLES → mole ratio → moles of unknown → required quantity", "Applies to mass, gas volume, and solution concentration problems alike"],
+      "related_topics": ["Chemical Equation Stoichiometry", "Limiting Reactants", "Titration Calculations"],
+      "prerequisites": ["Mole Calculations", "Balancing Equations"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-156-limiting-reactants",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Limiting Reactants",
+      "difficulty": "Higher",
+      "description": "The reactant that is completely used up first in a reaction, determining the maximum possible amount of product that can form.",
+      "learning_objectives": [
+        "Define limiting reactant and excess reactant",
+        "Identify the limiting reactant given starting quantities of two or more reactants",
+        "Use the limiting reactant to calculate the maximum theoretical yield of product"
+      ],
+      "explanation": "In many reactions, reactants are not supplied in the exact stoichiometric ratio required by the balanced equation; the limiting reactant is the reactant that is completely used up first, at which point the reaction stops, since there is no more of this reactant available to continue reacting, even though some of the other reactant(s) — the excess reactant(s) — remain unreacted and left over. The limiting reactant directly determines the maximum possible amount of product that can be formed (the theoretical yield), since production of further product cannot continue once the limiting reactant is exhausted. To identify the limiting reactant, the number of moles of each reactant actually available is compared to the mole ratio required by the balanced equation; whichever reactant would run out first (produces the smaller amount of product, if calculated independently for each reactant) is the limiting reactant.",
+      "key_concepts": ["Limiting reactant: used up first, stops the reaction", "Excess reactant: remains unreacted, left over", "Limiting reactant determines maximum theoretical yield"],
+      "definitions": [
+        {"term": "Limiting reactant", "definition": "The reactant that is completely used up first in a reaction, limiting the amount of product that can form."},
+        {"term": "Excess reactant", "definition": "A reactant that remains partially unreacted once the limiting reactant has been completely used up."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Identify the limiting reactant when 4 mol of hydrogen is reacted with 1 mol of nitrogen, given N2 + 3H2 → 2NH3.",
+          "working": "The required mole ratio is N2:H2 = 1:3. For 1 mol N2, exactly 3 mol H2 would be needed. Since 4 mol H2 is available (more than the 3 mol required), nitrogen will run out first.",
+          "answer": "Nitrogen (N2) is the limiting reactant; hydrogen is in excess (1 mol of hydrogen remains unreacted once all the nitrogen has reacted)."
+        }
+      ],
+      "practical_applications": ["Identifying the limiting reactant is essential for industrial process optimisation, ensuring the most expensive or scarce reactant is fully utilised while calculating the maximum achievable product yield"],
+      "laboratory_applications": ["Calculating theoretical yield in synthesis experiments by first identifying the limiting reactant among the starting materials used"],
+      "common_mistakes": ["Assuming the reactant present in the smallest overall quantity (by mass or moles) is automatically the limiting reactant, without properly comparing to the required mole RATIO from the balanced equation — a reactant present in a smaller absolute amount is not necessarily the limiting one if the balanced equation requires even less of it"],
+      "misconceptions": ["Believing the limiting reactant is always the substance with the smallest number of moles present — the limiting reactant is determined specifically by comparing the AVAILABLE mole ratio to the REQUIRED mole ratio from the balanced equation, not simply the raw mole quantities in isolation"],
+      "tips": ["To identify the limiting reactant reliably, calculate the theoretical amount of product that WOULD be formed from each reactant individually (assuming the other reactant were in unlimited excess); whichever reactant gives the SMALLER calculated amount of product is the actual limiting reactant"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define limiting reactant.", "answer": "The reactant that is completely used up first in a reaction, limiting the amount of product that can form."},
+          {"question": "State what happens to the excess reactant once the limiting reactant is used up.", "answer": "It remains partially unreacted, left over after the reaction stops."}
+        ],
+        "intermediate": [
+          {"question": "3 mol of magnesium is reacted with 2 mol of oxygen gas. Identify the limiting reactant, given 2Mg + O2 → 2MgO.", "answer": "The required mole ratio is Mg:O2 = 2:1. For 3 mol Mg, 1.5 mol O2 would be needed. Since 2 mol O2 is available (more than the 1.5 mol required), magnesium will run out first, so magnesium is the limiting reactant."},
+          {"question": "Explain why identifying the limiting reactant is essential before calculating the theoretical yield of a reaction.", "answer": "The theoretical yield of a product depends specifically on the amount of the limiting reactant available, since the reaction can only continue producing product until the limiting reactant is fully used up; calculating theoretical yield using the amount of an excess reactant instead would give an incorrect, too-high result, since not all of the excess reactant will actually react (some remains left over once the limiting reactant runs out)."}
+        ],
+        "advanced": [
+          {"question": "5 g of magnesium (Ar = 24) is reacted with 5 g of sulfur (Ar = 32) to form magnesium sulfide, given the equation Mg + S → MgS. Determine the limiting reactant, showing your working.", "answer": "Moles of Mg = 5/24 ≈ 0.208 mol. Moles of S = 5/32 ≈ 0.156 mol. The required mole ratio is Mg:S = 1:1. Since only 0.156 mol of sulfur is available, but 0.208 mol would be needed to react with all the magnesium present, sulfur will run out first. Sulfur is the limiting reactant, and magnesium is in excess (approximately 0.208 − 0.156 = 0.052 mol of magnesium will remain unreacted)."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "2.0 g of hydrogen gas is reacted with 20.0 g of oxygen gas, given 2H2 + O2 → 2H2O (Ar: H=1, O=16). Determine the limiting reactant, showing your working.", "marks": 3, "model_answer": "Moles of H2 = 2.0/2 = 1.0 mol (1 mark). Moles of O2 = 20.0/32 = 0.625 mol (1 mark). The required mole ratio is H2:O2 = 2:1, so 1.0 mol H2 would require 0.5 mol O2; since 0.625 mol O2 is available (more than required), hydrogen is the limiting reactant, and oxygen is in excess (1 mark)."}
+      ],
+      "summary": "The limiting reactant is used up first, stopping the reaction and determining the maximum theoretical yield of product; any other reactant remains partially unreacted (in excess). Identifying the limiting reactant requires comparing available mole quantities to the required mole ratio from the balanced equation.",
+      "revision_notes": ["Limiting reactant: used up first, determines max product (theoretical yield)", "Excess reactant: left over, unreacted", "Compare AVAILABLE mole ratio to REQUIRED mole ratio (not just raw amounts) to identify limiting reactant"],
+      "related_topics": ["Excess Reactants", "Theoretical Yield", "Percentage Yield", "Stoichiometric Calculations"],
+      "prerequisites": ["Stoichiometric Calculations"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-157-excess-reactants",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Excess Reactants",
+      "difficulty": "Higher",
+      "description": "The reactant present in a greater amount than needed to react completely with the limiting reactant, leaving some unreacted once the reaction stops.",
+      "learning_objectives": [
+        "Define excess reactant",
+        "Calculate the amount of excess reactant remaining after a reaction",
+        "Explain practical reasons for deliberately using a reactant in excess"
+      ],
+      "explanation": "An excess reactant is a reactant supplied in a greater amount than is required to react completely with the limiting reactant, according to the balanced equation's mole ratio; once the limiting reactant is fully consumed, the reaction stops, and some of the excess reactant remains unreacted. The exact amount of excess reactant remaining can be calculated by first determining how much of the excess reactant would be needed to react completely with the limiting reactant (using the mole ratio), then subtracting this amount from the total amount of excess reactant originally supplied. In practical and industrial chemistry, reactants are often deliberately supplied in excess for specific reasons: to ensure that a more expensive, scarce, or otherwise important reactant (the limiting reactant) reacts as completely as possible, maximising its conversion into useful product, even though this means some of the (typically cheaper or more readily available) excess reactant is left unreacted or must be recovered and reused.",
+      "key_concepts": ["Present in more than the required amount, some remains unreacted", "Calculate remaining excess: original amount − amount reacted", "Often used deliberately to maximise conversion of the limiting (valuable) reactant"],
+      "definitions": [],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "In a reaction where 0.5 mol of nitrogen is reacted with 2 mol of hydrogen, given N2 + 3H2 → 2NH3, calculate the amount of excess reactant remaining once the reaction is complete.",
+          "working": "Required H2 for 0.5 mol N2 (mole ratio 1:3) = 0.5 × 3 = 1.5 mol. Since 2 mol H2 was supplied, hydrogen is in excess.",
+          "answer": "Excess hydrogen remaining = 2 − 1.5 = 0.5 mol"
+        }
+      ],
+      "practical_applications": ["Industrial processes often use one reactant in excess, such as excess oxygen in combustion or excess acid in some neutralisation processes, to maximise the conversion of a more costly or otherwise significant reactant"],
+      "laboratory_applications": ["Deliberately using a reactant in excess (e.g. excess acid to ensure a metal or carbonate reacts completely) in preparative chemistry, to maximise the yield of the desired product from the other, limiting reactant"],
+      "common_mistakes": ["Forgetting to first correctly identify the limiting reactant before attempting to calculate how much of the excess reactant remains, since this calculation depends directly on knowing which reactant runs out first"],
+      "misconceptions": ["Believing using an excess reactant is always wasteful or undesirable — in many industrial contexts, deliberately using an inexpensive reactant in excess is a sound strategy to maximise the conversion (and therefore yield) of a more expensive or scarce limiting reactant, even though some of the excess reactant is not consumed"],
+      "tips": ["Always identify the limiting reactant first; the calculation for excess reactant remaining is always: (original amount of excess reactant supplied) − (amount of excess reactant actually needed to react with all of the limiting reactant)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define excess reactant.", "answer": "A reactant supplied in a greater amount than is required to react completely with the limiting reactant, so some remains unreacted."},
+          {"question": "State what determines when a reaction stops, if one reactant is in excess.", "answer": "The reaction stops once the limiting reactant is completely used up, regardless of how much excess reactant remains."}
+        ],
+        "intermediate": [
+          {"question": "2 mol of magnesium is reacted with 3 mol of hydrochloric acid, given Mg + 2HCl → MgCl2 + H2. Calculate the amount of excess reactant remaining.", "answer": "Required HCl for 2 mol Mg (mole ratio 1:2) = 2×2 = 4 mol. Since only 3 mol HCl is available (less than the 4 mol required), HCl is actually the limiting reactant, not magnesium, and magnesium is in excess. Magnesium reacted = 3/2 = 1.5 mol (using the 1:2 ratio in reverse from the available 3 mol HCl). Excess magnesium remaining = 2 − 1.5 = 0.5 mol."},
+          {"question": "Explain one practical reason why a chemist might deliberately use excess acid when reacting it with a fixed amount of a metal carbonate.", "answer": "Using excess acid ensures that all of the metal carbonate (which may be the more significant, limited or valuable reactant being investigated or produced from) reacts completely, maximising the conversion of the carbonate into its products (a salt, water and carbon dioxide); any leftover excess acid can often be more easily removed, neutralised, or is simply less costly to have left over, compared to leaving some of the carbonate unreacted, which would reduce the yield of the desired products."}
+        ],
+        "advanced": [
+          {"question": "10 g of calcium carbonate (Mr = 100) is reacted with 50 cm3 of 2.5 mol/dm3 hydrochloric acid, given CaCO3 + 2HCl → CaCl2 + H2O + CO2. Determine the limiting reactant and calculate the amount of excess reactant remaining.", "answer": "Moles of CaCO3 = 10/100 = 0.1 mol. Moles of HCl = concentration × volume = 2.5 × (50/1000) = 0.125 mol. Required HCl for 0.1 mol CaCO3 (mole ratio 1:2) = 0.1×2 = 0.2 mol. Since only 0.125 mol HCl is available (less than the 0.2 mol required), HCl is the limiting reactant, and CaCO3 is in excess. CaCO3 actually reacted = 0.125/2 = 0.0625 mol (using the ratio in reverse from available HCl). Excess CaCO3 remaining = 0.1 − 0.0625 = 0.0375 mol."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "1.0 mol of zinc is reacted with 1.5 mol of hydrochloric acid, given Zn + 2HCl → ZnCl2 + H2. Identify the excess reactant and calculate the amount remaining once the reaction is complete.", "marks": 3, "model_answer": "Required HCl for 1.0 mol Zn (mole ratio 1:2) = 1.0×2 = 2.0 mol; since only 1.5 mol HCl is available, HCl is actually the limiting reactant, and zinc is in excess (1 mark). Zinc actually reacted = 1.5/2 = 0.75 mol (1 mark). Excess zinc remaining = 1.0 − 0.75 = 0.25 mol (1 mark)."}
+      ],
+      "summary": "An excess reactant is supplied in a greater amount than needed, with some remaining unreacted once the limiting reactant is used up. The amount of excess remaining is calculated as the original amount minus the amount actually consumed reacting with the limiting reactant; excess reactants are often used deliberately in industry to maximise conversion of a more valuable limiting reactant.",
+      "revision_notes": ["Excess remaining = original amount supplied − amount actually reacted", "Always identify the limiting reactant FIRST", "Industrially: excess of a cheap reactant maximises conversion of the valuable, limiting one"],
+      "related_topics": ["Limiting Reactants", "Theoretical Yield", "Stoichiometric Calculations"],
+      "prerequisites": ["Limiting Reactants"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-158-theoretical-yield",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Theoretical Yield",
+      "difficulty": "Higher",
+      "description": "The maximum possible amount of product that could be formed from a given amount of limiting reactant, calculated using stoichiometry, assuming the reaction goes to completion with no losses.",
+      "learning_objectives": [
+        "Define theoretical yield",
+        "Calculate theoretical yield from a given mass or amount of limiting reactant",
+        "Explain why actual yield is often lower than theoretical yield in practice"
+      ],
+      "explanation": "Theoretical yield is the maximum possible amount of product that could be obtained from a given amount of limiting reactant, calculated purely from the stoichiometry of the balanced equation, assuming the reaction proceeds completely and with 100% efficiency, with no losses of any kind. Theoretical yield is calculated using the standard stoichiometric method: converting the given mass (or amount) of limiting reactant to moles, using the balanced equation's mole ratio to find the moles of product that would form, and converting this to whatever unit (mass, volume) is required. In real, practical experiments, the actual yield obtained is almost always somewhat lower than the theoretical yield, due to a variety of unavoidable practical factors (see Percentage Yield for further discussion), such as incomplete reactions, side reactions producing other, unwanted products, or physical loss of product during transfer, filtration, or purification steps.",
+      "key_concepts": ["Maximum possible product, calculated from stoichiometry", "Assumes 100% efficiency, no losses", "Real (actual) yield is typically lower in practice"],
+      "definitions": [
+        {"term": "Theoretical yield", "definition": "The maximum possible amount of product that could be obtained from a given amount of limiting reactant, calculated from the stoichiometry of a balanced equation, assuming complete reaction with no losses."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Calculate the theoretical yield of copper produced when 8 g of copper(II) oxide is fully reduced by excess hydrogen, given CuO + H2 → Cu + H2O (Mr: CuO=80, Ar: Cu=64).",
+          "working": "Moles of CuO = 8/80 = 0.1 mol. Mole ratio CuO:Cu = 1:1, so moles of Cu = 0.1 mol. Mass of Cu = 0.1 × 64.",
+          "answer": "Theoretical yield of copper = 6.4 g"
+        }
+      ],
+      "practical_applications": ["Calculating theoretical yield is a fundamental step in industrial process planning, allowing manufacturers to predict expected output and assess the efficiency of an actual production run"],
+      "laboratory_applications": ["Calculating the theoretical yield of a synthesis experiment before carrying it out, to allow later comparison with the actual mass of product obtained (used to calculate percentage yield)"],
+      "common_mistakes": ["Calculating theoretical yield based on the mass/moles of an excess reactant rather than the limiting reactant — theoretical yield must always be based on the limiting reactant, since this determines the maximum amount of product that can actually form"],
+      "misconceptions": ["Believing theoretical yield represents a realistic, achievable target that should always be closely matched in a real experiment — theoretical yield is a maximum, idealised value assuming perfect conditions and no losses whatsoever, which is essentially never achieved in practice due to unavoidable practical factors"],
+      "tips": ["Always double-check that you are using the LIMITING reactant's mass/moles (not an excess reactant's) as the starting point for any theoretical yield calculation"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define theoretical yield.", "answer": "The maximum possible amount of product that could be obtained from a given amount of limiting reactant, calculated from the stoichiometry of a balanced equation, assuming complete reaction with no losses."},
+          {"question": "State which reactant's quantity should be used to calculate theoretical yield.", "answer": "The limiting reactant."}
+        ],
+        "intermediate": [
+          {"question": "Calculate the theoretical yield of magnesium oxide produced when 6 g of magnesium is fully combusted, given 2Mg + O2 → 2MgO (Ar: Mg=24; Mr: MgO=40).", "answer": "Moles of Mg = 6/24 = 0.25 mol. Mole ratio Mg:MgO = 2:2 = 1:1, so moles of MgO = 0.25 mol. Mass of MgO (theoretical yield) = 0.25 × 40 = 10 g."},
+          {"question": "Explain why theoretical yield is described as an idealised, maximum value rather than a realistic prediction of the actual mass of product a chemist would obtain.", "answer": "Theoretical yield assumes that the reaction proceeds completely (100% conversion of the limiting reactant) with absolutely no losses of product during the reaction or any subsequent handling, purification, or transfer steps. In reality, reactions are often not 100% complete (an equilibrium may be reached, or the reaction may simply not go to full completion in the time available), unwanted side reactions may consume some reactant to form different products, and some product is almost always physically lost during steps such as filtration, transfer between containers, or purification. Because of these unavoidable practical factors, the actual mass of product obtained in a real experiment (the actual yield) is almost always somewhat lower than the theoretical yield."}
+        ],
+        "advanced": [
+          {"question": "Calculate the theoretical yield of ethyl ethanoate produced when 6.0 g of ethanoic acid (Mr = 60) reacts with excess ethanol, given CH3COOH + C2H5OH → CH3COOC2H5 + H2O (Mr of ethyl ethanoate = 88), and explain why an excess of ethanol is used in this preparation.", "answer": "Moles of ethanoic acid = 6.0/60 = 0.1 mol. Mole ratio ethanoic acid:ethyl ethanoate = 1:1, so moles of ethyl ethanoate = 0.1 mol. Theoretical yield = 0.1 × 88 = 8.8 g. Excess ethanol is used to help drive the reaction further towards completion (esterification is a reversible, equilibrium reaction), maximising the conversion of ethanoic acid (potentially the more limited or significant reactant in this context) into the ester product, in line with Le Chatelier's principle, since increasing the concentration of one reactant (ethanol) shifts the equilibrium position towards the products, increasing the actual yield of ester obtained relative to what would be achieved using only the exact stoichiometric ratio of reactants."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Calculate the theoretical yield of aluminium oxide, Al2O3, formed when 5.4 g of aluminium is fully reacted with excess oxygen, given 4Al + 3O2 → 2Al2O3 (Ar: Al=27; Mr: Al2O3=102).", "marks": 3, "model_answer": "Moles of Al = 5.4/27 = 0.2 mol (1 mark). From the mole ratio Al:Al2O3 = 4:2 = 2:1, moles of Al2O3 = 0.2/2 = 0.1 mol (1 mark). Theoretical yield of Al2O3 = 0.1 × 102 = 10.2 g (1 mark)."}
+      ],
+      "summary": "Theoretical yield is the maximum possible mass of product calculable from the limiting reactant via stoichiometry, assuming perfect, complete reaction with no losses. Real (actual) yields are almost always lower, due to incomplete reactions, side reactions, and practical losses during handling.",
+      "revision_notes": ["Theoretical yield: max possible product, from LIMITING reactant, via stoichiometry", "Assumes 100% efficiency, no losses — an idealised maximum, not a realistic target", "Actual yield is virtually always lower in real experiments"],
+      "related_topics": ["Percentage Yield", "Limiting Reactants", "Stoichiometric Calculations"],
+      "prerequisites": ["Limiting Reactants", "Stoichiometric Calculations"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-159-percentage-yield",
+      "subject": "Chemistry",
+      "category": "Mole Concept and Quantitative Chemistry",
+      "title": "Percentage Yield",
+      "difficulty": "Higher",
+      "description": "A measure of the efficiency of a reaction, expressing the actual yield of product obtained as a percentage of the maximum theoretical yield.",
+      "learning_objectives": [
+        "Define percentage yield",
+        "Calculate percentage yield given actual and theoretical yield",
+        "Explain common reasons why percentage yield is typically less than 100%"
+      ],
+      "explanation": "Percentage yield expresses the actual yield of product obtained in a real reaction as a percentage of the maximum theoretical yield calculated from stoichiometry, providing a measure of how efficiently the reaction proceeded and how successfully the product was recovered. It is calculated using the formula: percentage yield = (actual yield ÷ theoretical yield) × 100%. Percentage yield is almost always less than 100% in real experiments, for several common reasons: the reaction may not go to completion (particularly for reversible/equilibrium reactions); unwanted side reactions may consume some of the reactant to form different, unintended products; and product is often physically lost during practical steps such as filtration, transfer between containers, or purification (e.g. recrystallisation), since some product inevitably remains on apparatus surfaces or is lost during these processes.",
+      "key_concepts": ["% yield = (actual yield ÷ theoretical yield) × 100%", "Almost always less than 100%", "Reasons: incomplete reaction, side reactions, physical losses during handling/purification"],
+      "definitions": [
+        {"term": "Percentage yield", "definition": "The actual yield of product obtained in a reaction, expressed as a percentage of the maximum theoretical yield."}
+      ],
+      "formulae": [
+        {"name": "Percentage yield", "formula": "% yield = (actual yield / theoretical yield) × 100%", "description": "Compares the practically obtained yield to the maximum, idealised theoretical yield."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "A student calculates a theoretical yield of 10 g for a preparation, but actually obtains 7.5 g of pure product. Calculate the percentage yield.",
+          "working": "% yield = (actual yield / theoretical yield) × 100% = (7.5/10) × 100%",
+          "answer": "75%"
+        }
+      ],
+      "practical_applications": ["Percentage yield is a key metric in industrial process evaluation and optimisation, used to assess and improve the cost-effectiveness and environmental impact of chemical manufacturing processes"],
+      "laboratory_applications": ["Calculating percentage yield after a preparative organic or inorganic synthesis experiment, to evaluate the efficiency of the specific technique and conditions used"],
+      "common_mistakes": ["Confusing the numerator and denominator in the percentage yield formula (i.e. dividing theoretical by actual, rather than actual by theoretical)", "Forgetting to ensure both the actual and theoretical yield values are expressed in the same units before calculating the ratio"],
+      "misconceptions": ["Believing a percentage yield significantly below 100% always indicates a mistake or poor technique — while very low yields can indicate procedural issues, some percentage yield loss is expected and normal in any real chemical process, due to unavoidable practical factors such as incomplete reactions, side reactions, or handling losses"],
+      "tips": ["Always calculate (or confirm) the theoretical yield first, using the limiting reactant and correct stoichiometry, before calculating percentage yield from the given or measured actual yield"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the formula for percentage yield.", "answer": "% yield = (actual yield / theoretical yield) × 100%"},
+          {"question": "State whether percentage yield is usually less than, equal to, or greater than 100% in a real experiment.", "answer": "Usually less than 100%."}
+        ],
+        "intermediate": [
+          {"question": "A reaction has a theoretical yield of 15.0 g, but the actual yield obtained is 12.3 g. Calculate the percentage yield.", "answer": "% yield = (12.3/15.0) × 100% = 82%"},
+          {"question": "Explain two reasons why the percentage yield of a preparative reaction might be less than 100%.", "answer": "Any two of: the reaction may not go to completion (especially for reversible reactions reaching equilibrium before all reactant is converted); unwanted side reactions may occur, consuming some reactant to form different products instead of the desired one; product may be physically lost during practical steps such as filtration, transfer between containers, or purification (e.g. recrystallisation), since some product inevitably remains on apparatus or is lost in these processes."}
+        ],
+        "advanced": [
+          {"question": "A student prepares aspirin from salicylic acid and calculates a theoretical yield of 5.20 g, but obtains only 3.64 g of pure, dry aspirin after recrystallisation. Calculate the percentage yield, and suggest why the recrystallisation step, despite improving purity, likely reduced the yield further.", "answer": "% yield = (3.64/5.20) × 100% = 70%. Recrystallisation, while effective at removing impurities and improving the purity of the final product, inherently involves dissolving the crude product in a hot solvent and then allowing pure crystals to reform on cooling; during this process, a small amount of the desired product remains dissolved in the mother liquor (the remaining solution after crystals have formed) rather than crystallising out, and is lost when this liquid is filtered away from the solid crystals. This unavoidable loss of some dissolved product during recrystallisation, in exchange for improved purity of the remaining product, is a common trade-off that further reduces the overall percentage yield compared to the crude (unpurified) product yield."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "A student calculates a theoretical yield of 8.5 g of a product but obtains 6.8 g in practice. Calculate the percentage yield and suggest one reason why the yield was not 100%.", "marks": 3, "model_answer": "% yield = (6.8/8.5) × 100% = 80% (2 marks: 1 for correct method, 1 for correct answer). Reason (any one): the reaction may not have gone to completion; some product may have been lost during transfer or purification steps; a side reaction may have consumed some of the reactant (1 mark)."}
+      ],
+      "summary": "Percentage yield expresses the actual yield of product as a percentage of the theoretical (maximum possible) yield, calculated via % yield = (actual/theoretical) × 100%. It is almost always below 100% in practice, due to incomplete reactions, side reactions, and physical losses during handling and purification.",
+      "revision_notes": ["% yield = (actual yield ÷ theoretical yield) × 100%", "Almost always < 100% in real experiments", "Causes: incomplete/reversible reaction, side reactions, physical losses (filtration, transfer, purification)"],
+      "related_topics": ["Theoretical Yield", "Percentage Purity", "Limiting Reactants"],
+      "prerequisites": ["Theoretical Yield"],
+      "diagram_recommendations": [],
+      "images": []
+    }
+  ]
+}

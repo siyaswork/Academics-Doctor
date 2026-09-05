@@ -1,0 +1,313 @@
+{
+  "batch": "10",
+  "category": "Structure and Properties of Materials",
+  "topics_in_batch": 6,
+  "topics_completed_so_far": 111,
+  "topics_remaining_total": 388,
+  "topics": [
+
+    {
+      "id": "chem-107-simple-molecular-structures",
+      "subject": "Chemistry",
+      "category": "Structure and Properties of Materials",
+      "title": "Simple Molecular Structures",
+      "difficulty": "Foundation",
+      "description": "Substances made of small, discrete covalently bonded molecules held to each other only by weak intermolecular forces, giving characteristically low melting and boiling points.",
+      "learning_objectives": [
+        "Describe the structure of a simple molecular substance",
+        "Explain the typical physical properties of simple molecular substances",
+        "Explain why simple molecular substances do not conduct electricity"
+      ],
+      "explanation": "Simple molecular structures consist of small, discrete molecules (such as H2O, CO2, I2, or organic molecules), in which atoms within each molecule are joined by strong covalent bonds, but separate molecules are held to one another only by comparatively weak intermolecular forces (London dispersion forces, permanent dipole-dipole forces, or hydrogen bonding, depending on the substance). Because only these weak intermolecular forces need to be overcome to change state, simple molecular substances typically have low melting and boiling points compared to ionic or giant covalent structures, and are often gases, liquids, or low-melting solids at room temperature. Simple molecular substances do not conduct electricity in any state, since they contain no free ions or delocalised electrons capable of carrying charge; the electrons are all held within either the covalent bonds inside each molecule or as lone pairs, with none free to move throughout the structure as a whole.",
+      "key_concepts": ["Small, discrete molecules", "Strong covalent bonds within molecules; weak intermolecular forces between them", "Low melting/boiling points", "Do not conduct electricity in any state"],
+      "definitions": [],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Explain why solid carbon dioxide (dry ice) sublimes at a relatively low temperature, compared to a giant covalent structure like silicon dioxide.",
+          "working": "Carbon dioxide is a simple molecular structure; the strong C=O covalent bonds within each molecule remain intact during sublimation, only the weak intermolecular forces between molecules are overcome.",
+          "answer": "Only the weak London dispersion forces between separate CO2 molecules need to be overcome for the solid to sublime, requiring relatively little energy and giving a low sublimation temperature, unlike silicon dioxide's giant covalent structure, where many strong covalent bonds throughout the whole structure would need to be broken."
+        }
+      ],
+      "practical_applications": ["Simple molecular substances make up the vast majority of everyday gases and liquids, including water, the gases in air, and most organic solvents and fuels"],
+      "laboratory_applications": ["Testing electrical conductivity of a simple molecular substance (e.g. sugar solution, which does not conduct as sugar molecules remain intact and uncharged) as a distinguishing test from ionic compounds"],
+      "common_mistakes": ["Believing simple molecular substances have weak covalent bonds — the covalent bonds within each molecule are just as strong as in any other covalent structure; it is only the forces between separate molecules that are weak"],
+      "misconceptions": ["Believing sugar dissolving in water means it ionises, allowing the solution to conduct electricity — sugar is a simple molecular substance that dissolves as intact, uncharged molecules, so a sugar solution does not conduct electricity, unlike an ionic compound dissolving to release free ions"],
+      "tips": ["Whenever describing why a simple molecular substance has a low melting/boiling point, explicitly state that only weak intermolecular forces between molecules are overcome — the strong covalent bonds within each molecule remain unbroken"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State whether simple molecular substances typically have high or low melting points.", "answer": "Low melting points."},
+          {"question": "State whether simple molecular substances conduct electricity.", "answer": "No, they do not conduct electricity in any state."}
+        ],
+        "intermediate": [
+          {"question": "Explain why iodine, I2, has a low melting point despite the strong covalent bond within each iodine molecule.", "answer": "When iodine melts, only the weak London dispersion forces between separate I2 molecules are overcome; the strong covalent bond joining the two iodine atoms within each molecule remains intact. Since only weak intermolecular forces need to be overcome, relatively little energy is required, giving iodine a comparatively low melting point despite the strength of the covalent bond within each molecule."}
+        ],
+        "advanced": [
+          {"question": "Explain why sugar (a simple molecular substance) dissolves in water but does not make the resulting solution conduct electricity, whereas sodium chloride (an ionic compound) dissolves in water and does make the solution conduct.", "answer": "When sugar dissolves in water, individual sugar molecules separate from each other and become surrounded by water molecules, but each sugar molecule remains a complete, uncharged, covalently bonded unit; there are no free-moving charged particles present in the solution to carry electric current. When sodium chloride dissolves, the ionic lattice breaks apart into individual, freely moving Na+ and Cl− ions, which are surrounded by water molecules but remain charged and mobile; these free ions can move through the solution and carry electric charge, allowing the solution to conduct electricity, unlike the sugar solution."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why methane, CH4, has a very low boiling point, and state whether liquid methane would conduct electricity.", "marks": 3, "model_answer": "Methane is a simple molecular substance, with weak London dispersion forces between separate CH4 molecules (the strong covalent C-H bonds within each molecule are not involved) (1 mark). Only a small amount of energy is needed to overcome these weak intermolecular forces, giving methane a low boiling point (1 mark). Liquid methane would not conduct electricity, since it contains no free ions or delocalised electrons able to carry charge (1 mark)."}
+      ],
+      "summary": "Simple molecular structures consist of small molecules held together internally by strong covalent bonds but to each other only by weak intermolecular forces, giving low melting/boiling points and no electrical conductivity in any state, since no free ions or delocalised electrons are present.",
+      "revision_notes": ["Small discrete molecules: strong covalent bonds WITHIN, weak intermolecular forces BETWEEN", "Low melting/boiling point (only weak forces overcome)", "Never conducts electricity (no free ions/delocalised electrons)"],
+      "related_topics": ["Covalent Structures", "Giant Covalent Structures", "Intermolecular Forces"],
+      "prerequisites": ["Covalent Structures", "Intermolecular Forces"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-108-giant-covalent-structures",
+      "subject": "Chemistry",
+      "category": "Structure and Properties of Materials",
+      "title": "Giant Covalent Structures",
+      "difficulty": "Foundation",
+      "description": "Substances consisting of a continuous network of atoms joined throughout by strong covalent bonds, giving extremely high melting points.",
+      "learning_objectives": [
+        "Describe the structure of a giant covalent substance",
+        "Explain the typical physical properties of giant covalent substances",
+        "Give examples of giant covalent structures and their specific properties"
+      ],
+      "explanation": "Giant covalent structures (also called macromolecular structures) consist of a vast, continuous network of atoms, all joined throughout the entire structure by strong covalent bonds, with no separate small molecules present. Common examples include diamond and graphite (both forms of carbon), silicon dioxide, and graphene. Because breaking a giant covalent structure requires breaking a very large number of strong covalent bonds throughout the whole structure (not just weak intermolecular forces, as in simple molecular substances), giant covalent structures typically have extremely high melting and boiling points, and are generally very hard (with graphite being a notable exception, due to its distinctive layered structure — see Graphite). Most giant covalent structures do not conduct electricity, since their electrons are generally held within localised covalent bonds rather than being free to move (again, graphite is the well-known exception, having delocalised electrons within its layers).",
+      "key_concepts": ["Continuous network of covalently bonded atoms", "Extremely high melting/boiling points", "Generally very hard (graphite is the exception)", "Generally do not conduct electricity (graphite is the exception)"],
+      "definitions": [
+        {"term": "Giant covalent structure", "definition": "A structure consisting of a continuous network of atoms joined throughout by strong covalent bonds, with no separate small molecules present."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Giant covalent structures such as diamond (cutting tools) and silicon dioxide (glass, electronics) are exploited for their extreme hardness or specific electronic properties"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Assuming all giant covalent structures conduct electricity, since they contain many strong bonds — most giant covalent structures (e.g. diamond, silicon dioxide) do not conduct electricity, since their electrons are held in localised bonds; graphite is the notable exception due to its specific layered structure with delocalised electrons"],
+      "misconceptions": ["Believing giant covalent structures and ionic structures are similar simply because both are 'giant' and have high melting points — the underlying bonding is fundamentally different: strong covalent bonds throughout a network (giant covalent) vs strong electrostatic attraction between ions throughout a lattice (ionic), and their electrical conductivity properties differ significantly as a result"],
+      "tips": ["Whenever asked to explain the very high melting point of a giant covalent structure, be specific: state that a large number of strong covalent bonds throughout the entire structure must be broken, not simply that 'it has strong bonds'"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Name two examples of giant covalent structures.", "answer": "Any two of: diamond, graphite, silicon dioxide, graphene."},
+          {"question": "State whether giant covalent structures typically have high or low melting points.", "answer": "High (typically extremely high) melting points."}
+        ],
+        "intermediate": [
+          {"question": "Explain why silicon dioxide has a very high melting point.", "answer": "Silicon dioxide is a giant covalent structure, in which every silicon and oxygen atom is joined to its neighbours by strong covalent bonds throughout an extensive, continuous network. Melting silicon dioxide requires breaking a very large number of these strong covalent bonds throughout the structure, which requires a great deal of energy, giving silicon dioxide a very high melting point."}
+        ],
+        "advanced": [
+          {"question": "Explain why most giant covalent structures do not conduct electricity, even though they contain a very large number of electrons overall.", "answer": "Although giant covalent structures contain a vast number of electrons, in most cases (e.g. diamond, silicon dioxide) every valence electron is involved in forming a localised covalent bond between two specific, neighbouring atoms; there are no free or delocalised electrons available to move throughout the structure and carry electric charge. Electrical conductivity requires charge carriers (such as free-moving electrons or ions) that are able to move through the material; since the electrons in most giant covalent structures are fixed in place within specific covalent bonds, no charge can be carried, and the structure does not conduct electricity."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why diamond has an extremely high melting point, referring to its structure and bonding.", "marks": 3, "model_answer": "Diamond is a giant covalent structure, in which every carbon atom is joined to four neighbouring carbon atoms by strong covalent bonds, extending throughout the entire structure (1 mark). Melting diamond would require breaking a very large number of these strong covalent bonds throughout the whole structure (1 mark). This requires an enormous amount of energy, giving diamond an extremely high melting point (1 mark)."}
+      ],
+      "summary": "Giant covalent structures consist of a continuous network of strongly, covalently bonded atoms, giving extremely high melting points and (with the exception of graphite) generally no electrical conductivity, since electrons are held in localised bonds rather than being free to move.",
+      "revision_notes": ["Giant covalent: continuous network, strong covalent bonds throughout", "Extremely high melting/boiling points (many strong bonds to break)", "Generally do not conduct electricity (exception: graphite)"],
+      "related_topics": ["Simple Molecular Structures", "Diamond", "Graphite", "Silicon Dioxide"],
+      "prerequisites": ["Covalent Structures"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-109-diamond",
+      "subject": "Chemistry",
+      "category": "Structure and Properties of Materials",
+      "title": "Diamond",
+      "difficulty": "Foundation",
+      "description": "A giant covalent allotrope of carbon in which every carbon atom forms four covalent bonds in a rigid, three-dimensional tetrahedral network.",
+      "learning_objectives": [
+        "Describe the structure and bonding of diamond",
+        "Explain diamond's exceptional hardness and high melting point",
+        "Explain why diamond does not conduct electricity"
+      ],
+      "explanation": "Diamond is a giant covalent allotrope of carbon in which each carbon atom forms four strong covalent bonds to four neighbouring carbon atoms, arranged tetrahedrally (bond angles of 109.5°), extending throughout the entire structure in a rigid, three-dimensional network. This structure gives diamond its characteristic extreme hardness, since a very large number of strong covalent bonds must be broken to separate the atoms or scratch the surface, and its extremely high melting point (above 3500°C), since melting would require breaking this extensive network of strong bonds. Diamond does not conduct electricity, because every one of carbon's four valence electrons is used to form a covalent bond with a neighbouring atom, leaving no delocalised or free electrons available to carry electric charge through the structure.",
+      "key_concepts": ["Each C atom: 4 covalent bonds, tetrahedral arrangement", "Rigid 3D network → extreme hardness, very high melting point", "No delocalised electrons → does not conduct electricity"],
+      "definitions": [],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Diamond's extreme hardness makes it valuable for cutting, grinding and drilling tools; its optical properties are prized in jewellery"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Believing diamond conducts electricity because it is made of carbon (like graphite) — diamond's structure (all four electrons used in bonding) is fundamentally different from graphite's (one delocalised electron per atom), so diamond does not conduct while graphite does"],
+      "misconceptions": ["Believing diamond and graphite, both forms of carbon, should have very similar properties — despite being made of the same element, their dramatically different bonding arrangements (4 bonds per atom in a 3D network vs 3 bonds per atom in layers) give them very different physical properties (hardness, conductivity)"],
+      "tips": ["Always link diamond's properties directly to its structure: hardness and high melting point come from the extensive 3D network of strong bonds; lack of conductivity comes from all four valence electrons being used in bonding, leaving none delocalised"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the number of covalent bonds each carbon atom forms in diamond.", "answer": "4"},
+          {"question": "State whether diamond conducts electricity.", "answer": "No, diamond does not conduct electricity."}
+        ],
+        "intermediate": [
+          {"question": "Explain why diamond is extremely hard.", "answer": "In diamond, each carbon atom is joined to four neighbouring carbon atoms by strong covalent bonds, extending throughout the structure in a rigid, three-dimensional network. This extensive network of strong bonds resists deformation or fracture, since a very large number of strong bonds throughout the structure would need to be broken simultaneously, giving diamond its extreme hardness."},
+          {"question": "Explain why diamond does not conduct electricity.", "answer": "Every one of carbon's four valence electrons in diamond is used to form a covalent bond with a neighbouring carbon atom; there are no delocalised or free electrons available to move through the structure and carry electric charge, so diamond does not conduct electricity."}
+        ],
+        "advanced": [
+          {"question": "Explain, using ideas about bond angles and structure, why diamond's tetrahedral arrangement gives it particular strength and rigidity compared to a hypothetical structure with a different bond angle.", "answer": "The tetrahedral arrangement, with bond angles of 109.5°, represents the geometry that maximises the separation between the four bonding electron pairs around each carbon atom (minimising electron pair repulsion, consistent with VSEPR theory), giving the most stable, lowest-energy arrangement for four single bonds. This tetrahedral geometry also allows the structure to extend efficiently and symmetrically in three dimensions, with each atom's four bonds directed towards the corners of a tetrahedron, distributing the network's rigidity evenly in all directions throughout the structure. This even, three-dimensional distribution of strong bonds (rather than, for example, bonds concentrated within flat layers, as in graphite) is what gives diamond its exceptional overall rigidity and resistance to deformation from any direction, contributing to its extreme hardness."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Describe the structure and bonding in diamond, and use this to explain both its hardness and its lack of electrical conductivity.", "marks": 4, "model_answer": "Diamond is a giant covalent structure in which each carbon atom forms four strong covalent bonds to four neighbouring carbon atoms in a rigid, tetrahedral, three-dimensional network (2 marks). This extensive network of strong bonds throughout the structure gives diamond its extreme hardness, since breaking or deforming it would require breaking a very large number of these bonds (1 mark). Diamond does not conduct electricity, because all four of each carbon atom's valence electrons are used in covalent bonding, leaving no delocalised electrons free to carry electric charge (1 mark)."}
+      ],
+      "summary": "Diamond is a giant covalent structure with each carbon atom bonded to four neighbours in a rigid tetrahedral network, giving it extreme hardness and a very high melting point. It does not conduct electricity, since all valence electrons are used in localised covalent bonds.",
+      "revision_notes": ["Diamond: each C bonded to 4 others, tetrahedral, 3D network", "Extreme hardness, very high melting point (many strong bonds)", "Does not conduct: all 4 valence electrons used in bonding"],
+      "related_topics": ["Graphite", "Giant Covalent Structures", "Group 14 Elements"],
+      "prerequisites": ["Giant Covalent Structures"],
+      "diagram_recommendations": ["[DIAGRAM: Diamond's tetrahedral 3D bonding network compared to graphite's layered structure]"],
+      "images": [
+        {
+          "filename": "chem-107-diamond-graphite-comparison.svg",
+          "type": "diagram",
+          "description": "Side-by-side comparison: on the left, diamond's tetrahedral network shown as interconnected atoms with 4 bonds each; on the right, graphite's hexagonal layered structure shown as three stacked hexagonal sheets with dashed red lines indicating weak forces between layers, each side captioned with the key structural feature and resulting property.",
+          "purpose": "Directly visualises the structural contrast between diamond and graphite that explains their dramatically different properties despite both being pure carbon, supporting both this topic and the Graphite topic.",
+          "placement": "After the main explanation paragraph, before the key concepts list."
+        }
+      ]
+    },
+
+    {
+      "id": "chem-110-graphite",
+      "subject": "Chemistry",
+      "category": "Structure and Properties of Materials",
+      "title": "Graphite",
+      "difficulty": "Foundation",
+      "description": "A giant covalent allotrope of carbon consisting of layered hexagonal sheets, in which each carbon forms three covalent bonds, leaving a delocalised electron that gives graphite its electrical conductivity.",
+      "learning_objectives": [
+        "Describe the structure and bonding of graphite",
+        "Explain why graphite is soft and slippery, unlike diamond",
+        "Explain why graphite conducts electricity, unlike diamond"
+      ],
+      "explanation": "Graphite is a giant covalent allotrope of carbon in which each carbon atom forms three strong covalent bonds to three neighbouring carbon atoms, arranged in flat, hexagonal layers (bond angles of 120°, giving a trigonal planar arrangement within each layer). Since each carbon atom uses only three of its four valence electrons for covalent bonding within a layer, the fourth electron becomes delocalised, free to move throughout each layer (though not readily between layers); these delocalised electrons make graphite a good conductor of electricity, unlike diamond. The separate hexagonal layers in graphite are held to one another only by weak intermolecular (London dispersion) forces, allowing the layers to slide over one another relatively easily when force is applied; this gives graphite its characteristic softness and slippery, lubricating feel, in sharp contrast to diamond's extreme hardness.",
+      "key_concepts": ["Each C atom: 3 covalent bonds, hexagonal layers, 120° angles", "Delocalised 4th electron per atom → conducts electricity", "Weak forces between layers → soft, slippery, used as a lubricant"],
+      "definitions": [],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Graphite is used as a lubricant, in pencil 'lead', as electrodes in batteries and electrolysis (due to its conductivity and relative chemical inertness), and in high-temperature applications due to its high melting point"],
+      "laboratory_applications": ["Using graphite (carbon) electrodes in electrolysis experiments, exploiting both its electrical conductivity and general chemical unreactivity"],
+      "common_mistakes": ["Believing graphite's softness means its covalent bonds are weak — the covalent bonds WITHIN each layer are just as strong as those in diamond; it is only the weak forces BETWEEN separate layers that are weak, allowing the layers to slide"],
+      "misconceptions": ["Believing graphite conducts electricity equally well in all directions — since the delocalised electrons are largely confined to moving within each flat layer (rather than between layers), graphite conducts electricity considerably better along the layers than perpendicular to them"],
+      "tips": ["Remember the key numerical distinction from diamond: graphite = 3 bonds per carbon atom (leaving 1 delocalised electron); diamond = 4 bonds per carbon atom (leaving none delocalised) — this single difference explains graphite's conductivity and softness"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the number of covalent bonds each carbon atom forms in graphite.", "answer": "3"},
+          {"question": "State whether graphite conducts electricity.", "answer": "Yes, graphite conducts electricity."}
+        ],
+        "intermediate": [
+          {"question": "Explain why graphite conducts electricity, while diamond does not.", "answer": "In graphite, each carbon atom forms only three covalent bonds, using three of its four valence electrons; the fourth electron becomes delocalised and is free to move throughout each layer, allowing graphite to conduct electricity. In diamond, all four valence electrons of every carbon atom are used in covalent bonding, leaving no delocalised electrons available to carry charge, so diamond does not conduct electricity."},
+          {"question": "Explain why graphite is soft and can be used as a lubricant.", "answer": "Graphite consists of flat hexagonal layers of carbon atoms, held to one another only by weak intermolecular forces between the layers (the strong covalent bonds are only within each layer). These weak forces allow the layers to slide over one another relatively easily when force is applied, giving graphite a soft, slippery texture suitable for use as a lubricant."}
+        ],
+        "advanced": [
+          {"question": "Explain why graphite has a very high melting point, similar to diamond, despite being soft and easily able to have its layers separated.", "answer": "Graphite's very high melting point arises from the strong covalent bonds WITHIN each hexagonal layer, which extend throughout each layer in a continuous network; melting graphite would require breaking these strong covalent bonds, requiring a large amount of energy, similar to diamond. However, graphite's softness and ability to have layers separated (e.g. when used as a pencil 'lead', leaving marks on paper, or as a lubricant) relates only to overcoming the much weaker intermolecular forces BETWEEN separate layers, which requires far less energy than breaking covalent bonds. These are two entirely separate properties governed by different types of force within the same structure: melting point depends on the strong intra-layer covalent bonds, while softness/layer separation depends on the weak inter-layer forces."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why graphite is used as an electrode material in electrolysis, referring to its structure and bonding.", "marks": 3, "model_answer": "Graphite has one delocalised electron per carbon atom (since each carbon forms only three covalent bonds within its hexagonal layer), which is free to move and carry electric charge, making graphite a good electrical conductor (1 mark). This allows graphite to conduct the electric current needed for electrolysis (1 mark). Graphite also has a very high melting point (due to the strong covalent bonds within each layer) and is relatively chemically unreactive, making it suitable to withstand the conditions of electrolysis without melting or reacting easily (1 mark)."}
+      ],
+      "summary": "Graphite is a giant covalent structure of hexagonal carbon layers, each carbon forming three covalent bonds and leaving one delocalised electron per atom, giving graphite electrical conductivity. Weak forces between layers allow them to slide, giving graphite its characteristic softness, unlike diamond.",
+      "revision_notes": ["Graphite: each C bonded to 3 others, hexagonal layers, 120°", "1 delocalised electron per C atom → conducts electricity (mainly along layers)", "Weak forces BETWEEN layers → soft, slippery, lubricant", "Strong bonds WITHIN layers → still very high melting point"],
+      "related_topics": ["Diamond", "Graphene", "Giant Covalent Structures"],
+      "prerequisites": ["Diamond"],
+      "diagram_recommendations": ["[DIAGRAM: Graphite's layered hexagonal structure with delocalised electrons and weak interlayer forces]"],
+      "images": []
+    },
+
+    {
+      "id": "chem-111-graphene",
+      "subject": "Chemistry",
+      "category": "Structure and Properties of Materials",
+      "title": "Graphene",
+      "difficulty": "Higher",
+      "description": "A single, two-dimensional layer of graphite, one atom thick, with exceptional strength, electrical conductivity and other remarkable properties.",
+      "learning_objectives": [
+        "Describe the structure of graphene",
+        "Explain graphene's exceptional strength and electrical conductivity",
+        "Describe potential applications of graphene"
+      ],
+      "explanation": "Graphene is a single, two-dimensional layer of carbon atoms, essentially one isolated layer of graphite's hexagonal structure, just one atom thick. Like graphite, each carbon atom in graphene forms three covalent bonds to its neighbours within the layer, leaving one delocalised electron per atom, giving graphene excellent electrical conductivity — in fact, graphene is an outstanding conductor, since its delocalised electrons can move very freely within its single, extremely thin, defect-free layer. Graphene is also exceptionally strong for its mass (among the strongest materials known relative to its thickness), due to the extensive network of strong covalent bonds within its single layer, and is extremely lightweight, flexible and largely transparent. Because of this unusual combination of properties, graphene has significant potential in applications such as flexible and transparent electronics, highly sensitive sensors, and composite materials requiring high strength with minimal added weight.",
+      "key_concepts": ["Single layer of graphite, one atom thick", "Each C atom: 3 bonds, 1 delocalised electron (as in graphite)", "Exceptional strength, conductivity, flexibility, transparency", "Emerging applications: electronics, sensors, composites"],
+      "definitions": [
+        {"term": "Graphene", "definition": "A single, two-dimensional layer of carbon atoms arranged in a hexagonal structure, essentially one isolated layer of graphite, one atom thick."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Graphene's potential applications include flexible electronic displays, highly efficient sensors, lightweight composite materials for aerospace, and improved battery electrodes"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Confusing graphene (a single, isolated layer) with graphite (many stacked layers) — graphene specifically refers to just one layer, isolated from the bulk graphite structure"],
+      "misconceptions": ["Believing graphene and graphite have identical properties simply because graphene is 'made from' graphite — isolating a single layer removes the weak interlayer forces present in bulk graphite and changes how the material behaves mechanically and electronically, giving graphene distinctly different (often enhanced) properties compared to bulk graphite"],
+      "tips": ["Remember the simple relationship: graphene = a single isolated layer of graphite's hexagonal carbon structure, one atom thick"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Describe graphene's basic structure.", "answer": "A single, two-dimensional layer of carbon atoms arranged in a hexagonal pattern, one atom thick."},
+          {"question": "State one property of graphene that makes it useful for electronics.", "answer": "Excellent electrical conductivity (due to its delocalised electrons)."}
+        ],
+        "intermediate": [
+          {"question": "Explain why graphene conducts electricity very well, using ideas about its bonding.", "answer": "Like graphite, each carbon atom in graphene forms only three covalent bonds to its neighbouring carbon atoms within the layer, leaving one delocalised electron per atom free to move throughout the structure. Because graphene consists of just a single, extremely thin layer with minimal disruption from stacking or interlayer effects, these delocalised electrons can move exceptionally freely, giving graphene outstanding electrical conductivity, even better than that of bulk graphite in many respects."}
+        ],
+        "advanced": [
+          {"question": "Explain why graphene, despite being only one atom thick, is exceptionally strong relative to its mass.", "answer": "Within its single layer, every carbon atom is joined to its three neighbours by strong covalent bonds, extending throughout the entire two-dimensional sheet in a continuous, evenly distributed hexagonal network. Because there is no weaker interlayer structure to fail (unlike bulk graphite, where layers can separate relatively easily), any applied force must be resisted entirely by this extensive network of strong covalent bonds within the single layer. Combined with graphene's extremely low mass (being only one atom thick), this gives it an exceptionally high strength-to-weight ratio, making it one of the strongest materials known relative to its mass, despite its extreme thinness."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why graphene is considered to have significant potential for use in flexible electronic devices, referring to its structure and properties.", "marks": 3, "model_answer": "Graphene has excellent electrical conductivity, due to its delocalised electrons being free to move throughout its single, thin hexagonal carbon layer, similar to graphite (1 mark). Graphene is also extremely thin (one atom thick), lightweight, and flexible, allowing it to bend without breaking, since a single layer can flex more readily than a rigid, bulk 3D structure (1 mark). This combination of excellent conductivity with flexibility and low weight makes graphene well-suited to flexible electronic displays and devices, where both electrical performance and physical bendability are required (1 mark)."}
+      ],
+      "summary": "Graphene is a single, one-atom-thick layer of graphite's hexagonal carbon structure, sharing graphite's delocalised-electron bonding but showing exceptional strength, conductivity, flexibility and transparency due to its isolated, two-dimensional form, giving it significant potential in advanced material applications.",
+      "revision_notes": ["Graphene = single isolated layer of graphite (one atom thick)", "Same bonding as graphite (3 bonds/atom, 1 delocalised electron) but enhanced properties", "Exceptional strength-to-weight ratio, conductivity, flexibility, transparency", "Applications: flexible electronics, sensors, lightweight composites"],
+      "related_topics": ["Graphite", "Diamond", "Giant Covalent Structures"],
+      "prerequisites": ["Graphite"],
+      "diagram_recommendations": ["[DIAGRAM: Single hexagonal layer of graphene, one atom thick]"],
+      "images": [
+        {
+          "filename": "chem-109-graphene-layer.svg",
+          "type": "diagram",
+          "description": "A single flat sheet of interconnected hexagonal outlines representing carbon atoms bonded in graphene's structure, with a caption noting it is one atom thick, each carbon bonded to three neighbours, and an excellent conductor.",
+          "purpose": "Visually distinguishes graphene as a single flat layer from graphite's multi-layer stacked structure, reinforcing the key structural distinction covered in the text.",
+          "placement": "After the main explanation paragraph, before the key concepts list."
+        }
+      ]
+    },
+
+    {
+      "id": "chem-112-silicon-dioxide",
+      "subject": "Chemistry",
+      "category": "Structure and Properties of Materials",
+      "title": "Silicon Dioxide",
+      "difficulty": "Foundation",
+      "description": "A giant covalent structure, similar to diamond, in which each silicon atom is bonded to four oxygen atoms, giving it a very high melting point and hardness.",
+      "learning_objectives": [
+        "Describe the structure and bonding of silicon dioxide",
+        "Explain why silicon dioxide has physical properties similar to diamond",
+        "Describe common uses of silicon dioxide"
+      ],
+      "explanation": "Silicon dioxide (SiO2), found naturally as quartz and as the main component of sand, is a giant covalent structure similar to diamond in overall arrangement. Each silicon atom is covalently bonded to four oxygen atoms, and each oxygen atom is bonded to two silicon atoms, extending throughout the structure in a continuous, tetrahedrally arranged three-dimensional network, similar to the tetrahedral network seen in diamond. Because of this similar giant covalent structure, silicon dioxide shares several properties with diamond: a very high melting point (around 1700°C) and considerable hardness, both arising from the need to break a large number of strong covalent bonds throughout the structure. Unlike diamond, silicon dioxide does not conduct electricity, since (as in diamond) all available valence electrons are used in localised covalent bonding, with none delocalised.",
+      "key_concepts": ["Each Si atom bonded to 4 O atoms (each O bonded to 2 Si atoms)", "Giant covalent structure, similar to diamond", "Very high melting point, hardness", "Does not conduct electricity"],
+      "definitions": [],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Silicon dioxide (as sand) is the raw material for glass manufacture; purified silicon dioxide (quartz) is used in optical devices and as the starting material for producing pure silicon for semiconductor manufacture"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Assuming silicon dioxide's formula, SiO2, implies discrete molecules (like CO2) — silicon dioxide is a giant covalent structure, not a simple molecular one, despite the superficially similar formula to carbon dioxide"],
+      "misconceptions": ["Believing silicon dioxide and carbon dioxide should have similar physical properties simply because both have the formula XO2 — despite the similar formula, carbon dioxide is a simple molecular structure (low melting point, gas at room temperature) while silicon dioxide is a giant covalent structure (very high melting point, solid), due to fundamentally different bonding arrangements"],
+      "tips": ["Remember silicon dioxide's structure is analogous to diamond's: think of it as diamond with oxygen atoms inserted between each pair of silicon atoms, giving a similar giant, tetrahedral, 3D network"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the formula of silicon dioxide.", "answer": "SiO2"},
+          {"question": "State whether silicon dioxide has a high or low melting point.", "answer": "High (very high) melting point."}
+        ],
+        "intermediate": [
+          {"question": "Explain why silicon dioxide has a very high melting point, similar to diamond.", "answer": "Silicon dioxide is a giant covalent structure, in which each silicon atom is covalently bonded to four oxygen atoms, extending throughout the structure in a continuous three-dimensional network, similar to diamond's structure. Melting silicon dioxide requires breaking a very large number of these strong covalent bonds throughout the whole structure, requiring a great deal of energy, giving it a very high melting point, much like diamond."}
+        ],
+        "advanced": [
+          {"question": "Explain why carbon dioxide and silicon dioxide, despite having similar chemical formulae (CO2 and SiO2), have dramatically different physical properties (carbon dioxide being a gas at room temperature, silicon dioxide being a very high-melting solid).", "answer": "Carbon can form strong pi bonds with oxygen (using p-orbital overlap effectively, due to carbon and oxygen's similar, small atomic sizes), allowing carbon dioxide to exist as small, discrete, simple molecules held together internally by strong double covalent bonds (C=O) but to each other only by weak intermolecular forces, giving a low melting/sublimation point typical of simple molecular substances. Silicon, being a larger atom than carbon, cannot form equally strong pi bonds with oxygen in the same way (poor sideways orbital overlap due to greater atomic size and orbital mismatch), so instead silicon forms four single covalent bonds to four separate oxygen atoms, each oxygen also bonding to a second silicon atom, building an extensive giant covalent network throughout the whole structure rather than small, separate molecules. This fundamentally different bonding arrangement, despite the superficially similar chemical formula, explains why silicon dioxide has a giant covalent structure and correspondingly very different (much higher) melting point compared to the simple molecular carbon dioxide."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why silicon dioxide, unlike carbon dioxide, has a very high melting point, despite both having a similar chemical formula (XO2).", "marks": 3, "model_answer": "Carbon dioxide is a simple molecular structure, consisting of small, discrete molecules held together internally by strong covalent bonds but to each other only by weak intermolecular forces (1 mark). Silicon dioxide is a giant covalent structure, with each silicon atom bonded to four oxygen atoms in a continuous, extensive three-dimensional network throughout the whole structure (1 mark). Melting silicon dioxide requires breaking this large number of strong covalent bonds throughout the giant structure, requiring far more energy than overcoming the weak intermolecular forces in carbon dioxide, giving silicon dioxide a much higher melting point (1 mark)."}
+      ],
+      "summary": "Silicon dioxide is a giant covalent structure, with each silicon atom bonded to four oxygen atoms in a continuous 3D network similar to diamond, giving it a very high melting point and hardness, but (like diamond) no electrical conductivity, since all valence electrons are used in localised bonding.",
+      "revision_notes": ["SiO2: each Si bonded to 4 O; each O bonded to 2 Si", "Giant covalent structure, analogous to diamond", "Very high melting point, hard, does not conduct electricity", "Uses: glass, quartz, source of pure silicon for semiconductors"],
+      "related_topics": ["Diamond", "Giant Covalent Structures", "Group 14 Elements"],
+      "prerequisites": ["Diamond", "Giant Covalent Structures"],
+      "diagram_recommendations": [],
+      "images": []
+    }
+  ]
+}

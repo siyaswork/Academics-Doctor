@@ -1,0 +1,618 @@
+{
+  "batch": "13",
+  "category": "Formulae, Equations and Oxidation States",
+  "topics_in_batch": 11,
+  "topics_completed_so_far": 140,
+  "topics_remaining_total": 359,
+  "category_status": "Formulae, Equations and Oxidation States category COMPLETE (18 topics)",
+  "topics": [
+
+    {
+      "id": "chem-131-naming-ionic-compounds",
+      "subject": "Chemistry",
+      "category": "Formulae, Equations and Oxidation States",
+      "title": "Naming Ionic Compounds (Roman Numeral Notation)",
+      "difficulty": "Foundation",
+      "description": "Systematic rules for naming ionic compounds, including the use of Roman numerals to indicate the oxidation state of metals with variable charge.",
+      "learning_objectives": [
+        "Name simple ionic compounds from their formula",
+        "Use Roman numerals correctly to indicate oxidation state where needed",
+        "Name compounds containing common polyatomic ions"
+      ],
+      "explanation": "Ionic compounds are named by stating the cation (positive ion) first, followed by the anion (negative ion); if the anion is a simple, single element, its ending is changed to '-ide' (e.g. chlorine becomes chloride, oxygen becomes oxide), while polyatomic ions retain their specific names (e.g. sulfate, carbonate, hydroxide, nitrate). For metals that can form more than one possible ion charge (most commonly transition metals, but also a few p-block metals such as lead and tin, due to the inert pair effect), a Roman numeral is included in brackets immediately after the metal's name to specify which oxidation state (ion charge) is present, e.g. iron(II) chloride (FeCl2, containing Fe2+) versus iron(III) chloride (FeCl3, containing Fe3+). Metals that only ever form one possible ion charge (such as Group 1 and Group 2 metals, and aluminium) do not require a Roman numeral, since there is no ambiguity to resolve.",
+      "key_concepts": ["Cation named first, anion second (with -ide ending for simple anions)", "Roman numerals indicate oxidation state for variable-charge metals", "Fixed-charge metals do not need Roman numerals"],
+      "definitions": [],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Name the compound FeCl3, given iron forms Fe3+ in this compound.",
+          "working": "Iron is a variable-charge metal, so a Roman numeral is needed to specify its charge in this compound.",
+          "answer": "Iron(III) chloride"
+        }
+      ],
+      "practical_applications": ["Systematic, unambiguous naming of ionic compounds is essential in chemical labelling, safety documentation, and international scientific communication"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Forgetting to include a Roman numeral for a variable-charge metal, creating ambiguity between different possible compounds (e.g. simply calling both FeCl2 and FeCl3 'iron chloride' without distinguishing them)", "Including an unnecessary Roman numeral for a fixed-charge metal, such as writing 'sodium(I) chloride' instead of simply 'sodium chloride'"],
+      "misconceptions": ["Believing every metal requires a Roman numeral in its compound's name — only metals capable of forming more than one possible ion charge (mainly transition metals, plus a few others like lead and tin) require this clarification"],
+      "tips": ["To determine the correct Roman numeral, first identify the charge of the anion, then use the compound's formula (via charge balancing) to work out what charge the metal cation must have"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Name the compound MgO.", "answer": "Magnesium oxide (no Roman numeral needed, since magnesium only forms Mg2+)."},
+          {"question": "State which type of metal typically requires a Roman numeral in its compound names.", "answer": "Metals capable of forming more than one possible ion charge, such as most transition metals."}
+        ],
+        "intermediate": [
+          {"question": "Determine the correct name for the compound Cu2O, given that oxide has a charge of 2−.", "answer": "Since the formula shows two copper atoms balancing one O2− ion, each copper ion must have a charge of +1 (since 2 × (+1) + (−2) = 0). The compound is named copper(I) oxide."},
+          {"question": "Name the compound Fe2(SO4)3, given sulfate has a charge of 2−.", "answer": "The formula shows 2 iron ions balancing 3 sulfate ions, each with charge 2− (total −6). For overall neutrality, the 2 iron ions must together carry a charge of +6, so each iron ion carries a charge of +3. The compound is named iron(III) sulfate."}
+        ],
+        "advanced": [
+          {"question": "Explain why lead(II) oxide and lead(IV) oxide require Roman numerals to distinguish them, referring to the inert pair effect.", "answer": "Lead, as a heavier Group 14 element, can form ions with two different oxidation states: +2 (from losing only its two 6p electrons, with the 6s2 electron pair remaining unreactive due to the inert pair effect) and +4 (from losing all four valence electrons, including the 6s2 pair). Since lead can form stable compounds in either oxidation state (e.g. PbO with Pb2+, and PbO2 with Pb4+), a Roman numeral is essential to specify which particular oxide (and which oxidation state of lead) is meant, avoiding ambiguity between these two chemically distinct compounds."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Name the compound MnO2, given oxide has a charge of 2−, and explain why a Roman numeral is required.", "marks": 2, "model_answer": "Manganese(IV) oxide (1 mark). A Roman numeral is required because manganese, like most transition metals, can form ions with more than one possible charge (oxidation state), so the Roman numeral specifies that manganese has a charge of +4 in this particular compound, avoiding ambiguity with other manganese oxides (1 mark)."}
+      ],
+      "summary": "Ionic compounds are named with the cation first and anion second (simple anions ending in '-ide'). Roman numerals specify the oxidation state of metals capable of forming more than one ion charge, such as most transition metals and a few p-block metals like lead and tin.",
+      "revision_notes": ["Cation first, anion second (-ide ending for simple anions)", "Roman numeral needed for variable-charge metals (most transition metals, Pb, Sn)", "No Roman numeral needed for fixed-charge metals (Group 1, 2, Al)"],
+      "related_topics": ["Chemical Formulae", "Oxidation States", "Ions"],
+      "prerequisites": ["Chemical Formulae", "Ions"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-132-balancing-equations",
+      "subject": "Chemistry",
+      "category": "Formulae, Equations and Oxidation States",
+      "title": "Balancing Equations",
+      "difficulty": "Foundation",
+      "description": "The process of adjusting the numbers in front of formulae in a chemical equation so that the number of atoms of each element is equal on both sides, consistent with the conservation of mass.",
+      "learning_objectives": [
+        "Explain why chemical equations must be balanced",
+        "Balance simple chemical equations by adjusting coefficients",
+        "Check a balanced equation by counting atoms of each element on both sides"
+      ],
+      "explanation": "A balanced chemical equation has equal numbers of atoms of each element on both the reactant (left) side and the product (right) side, consistent with the law of conservation of mass, which states that atoms are neither created nor destroyed during a chemical reaction. Balancing an equation involves placing whole-number coefficients (multiplying factors) in front of chemical formulae as needed, without ever changing the formulae themselves (i.e. subscripts within a formula must never be altered, since this would change the identity of the substance). A systematic approach to balancing typically involves: balancing more complex or unique elements first, then balancing elements that appear in multiple places (such as oxygen or hydrogen) last, and always re-checking the full atom count for every element once finished.",
+      "key_concepts": ["Conservation of mass: atoms neither created nor destroyed", "Balance using coefficients only, never change formula subscripts", "Systematic method: balance complex/unique elements first, common elements (O, H) last"],
+      "definitions": [
+        {"term": "Balanced equation", "definition": "A chemical equation with equal numbers of atoms of each element on both the reactant and product sides, consistent with conservation of mass."},
+        {"term": "Coefficient", "definition": "A whole number placed in front of a chemical formula in an equation, indicating the number of that particular formula unit involved in the reaction."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Balance the equation: Fe + O2 → Fe2O3",
+          "working": "Start with iron: 4Fe on the left balances 2 Fe2O3 on the right (4 Fe atoms). Then balance oxygen: 2 Fe2O3 requires 6 O atoms, so 3 O2 is needed on the left.",
+          "answer": "4Fe + 3O2 → 2Fe2O3"
+        }
+      ],
+      "practical_applications": ["Correctly balanced equations are essential for accurate stoichiometric calculations used throughout industrial chemical manufacturing, ensuring the correct quantities of raw materials and expected yields"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Attempting to balance an equation by changing the subscript numbers within a formula, rather than adjusting the coefficient placed in front of the whole formula — this incorrectly changes the identity of the substance rather than simply adjusting how many of that substance are involved", "Forgetting to re-check every element's atom count after making changes, potentially leaving a different element unbalanced"],
+      "misconceptions": ["Believing a chemical equation can be considered 'balanced enough' if most elements match but one or two are slightly off — a chemical equation is either fully, exactly balanced for every single element, or it is not balanced at all"],
+      "tips": ["When balancing equations involving several different elements, save single, uncombined elements (like O2 or H2 as reactants) until last, since their coefficient can be adjusted freely without needing to also change other unrelated formulae"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Balance the equation: H2 + Cl2 → HCl", "answer": "H2 + Cl2 → 2HCl"},
+          {"question": "State the scientific law that balancing chemical equations is based on.", "answer": "The law of conservation of mass."}
+        ],
+        "intermediate": [
+          {"question": "Balance the equation: C3H8 + O2 → CO2 + H2O", "answer": "C3H8 + 5O2 → 3CO2 + 4H2O"},
+          {"question": "Explain why changing a subscript within a formula (e.g. changing H2O to H2O2) would be incorrect when trying to balance an equation.", "answer": "Changing a subscript within a formula changes the actual chemical identity of the substance (H2O is water, while H2O2 is hydrogen peroxide, a completely different compound with different properties). Balancing an equation must only involve adjusting the number of complete formula units present (via coefficients placed in front of each formula), never altering the formulae themselves, since this would misrepresent which substances are actually involved in the reaction."}
+        ],
+        "advanced": [
+          {"question": "Balance the equation: Al + Fe3O4 → Al2O3 + Fe (a thermite-type reaction), showing your working systematically.", "answer": "Start with Fe3O4, balancing iron: 3 Fe atoms in Fe3O4 require 3 Fe on the product side. Balance aluminium and oxygen together: Fe3O4 contains 4 oxygen atoms; Al2O3 contains 3 oxygen atoms per formula unit. Find the lowest common multiple of 4 and 3, which is 12: use 3 Fe3O4 (giving 12 O atoms) and 4 Al2O3 (giving 12 O atoms). This requires 3×3 = 9 Fe atoms and 4×2 = 8 Al atoms on the product side, from 8 Al reactant atoms. Final balanced equation: 8Al + 3Fe3O4 → 4Al2O3 + 9Fe. Check: Al: 8=8; Fe: 9=9; O: 3×4=12 = 4×3=12. Balanced."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Balance the equation for the complete combustion of methane: CH4 + O2 → CO2 + H2O, showing your working.", "marks": 3, "model_answer": "Balance carbon: 1 C on each side already balanced (1 mark, implicit). Balance hydrogen: CH4 has 4 H, so 2 H2O is needed (4 H) (1 mark). Balance oxygen: 2 H2O + 1 CO2 requires 2+2 = 4 O atoms, so 2 O2 is needed. Final balanced equation: CH4 + 2O2 → CO2 + 2H2O (1 mark for fully correct, balanced equation)."}
+      ],
+      "summary": "Balancing chemical equations ensures equal numbers of atoms of each element on both sides, consistent with conservation of mass. This is achieved by adjusting whole-number coefficients in front of formulae, never by changing the formulae's subscripts.",
+      "revision_notes": ["Balance using coefficients only; NEVER change subscripts within formulae", "Conservation of mass: atoms in = atoms out", "Method: balance unique/complex elements first, common elements (O, H) last; always re-check"],
+      "related_topics": ["Chemical Formulae", "State Symbols", "Chemical Equation Stoichiometry"],
+      "prerequisites": ["Chemical Formulae"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-133-state-symbols",
+      "subject": "Chemistry",
+      "category": "Formulae, Equations and Oxidation States",
+      "title": "State Symbols",
+      "difficulty": "Foundation",
+      "description": "Notation used in chemical equations to indicate the physical state of each substance: solid, liquid, gas, or dissolved in aqueous solution.",
+      "learning_objectives": [
+        "State the four common state symbols and their meanings",
+        "Include correct state symbols in a chemical equation",
+        "Explain why state symbols provide important additional information beyond a bare formula"
+      ],
+      "explanation": "State symbols are abbreviations written in brackets immediately after each formula in a chemical equation, indicating the physical state of that substance under the reaction conditions: (s) for solid, (l) for liquid, (g) for gas, and (aq) for a substance dissolved in water (aqueous solution). Including state symbols provides important additional information beyond the bare chemical formula, since the same substance can behave very differently, or take part in different types of reaction, depending on its physical state (for example, distinguishing solid sodium chloride, NaCl(s), which does not conduct electricity or react readily with many reagents, from aqueous sodium chloride, NaCl(aq), which contains free-moving, reactive ions in solution). State symbols are essential for fully and precisely describing a chemical reaction, particularly in ionic equations and equations describing changes of state or reactions occurring specifically in solution.",
+      "key_concepts": ["(s) solid, (l) liquid, (g) gas, (aq) aqueous (dissolved in water)", "Same formula can behave differently in different states", "Essential for full, precise equation description"],
+      "definitions": [
+        {"term": "State symbol", "definition": "An abbreviation in brackets after a formula in a chemical equation, indicating the physical state of that substance: (s), (l), (g), or (aq)."}
+      ],
+      "formulae": [],
+      "equations": ["NaOH(aq) + HCl(aq) → NaCl(aq) + H2O(l)"],
+      "worked_examples": [
+        {
+          "problem": "Add appropriate state symbols to the equation for burning magnesium in oxygen to form magnesium oxide, given the reactants are a solid metal and a gas, and the product is a solid.",
+          "working": "Identify the physical state of each substance: magnesium metal is a solid; oxygen is a gas; magnesium oxide (the ash produced) is a solid.",
+          "answer": "2Mg(s) + O2(g) → 2MgO(s)"
+        }
+      ],
+      "practical_applications": ["State symbols are essential in industrial process design, indicating exactly what physical form reactants and products take at each stage of a chemical process"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Forgetting to include state symbols for every single species in an equation, or using an incorrect state symbol (e.g. writing (s) for a substance that is actually dissolved as (aq) under the reaction conditions described)"],
+      "misconceptions": ["Believing state symbols are optional extra detail rather than an essential part of correctly and fully describing a reaction — particularly in ionic equations, distinguishing (aq) (dissolved, free ions present) from (s) (solid, fixed lattice) is critical to correctly representing which species can actually react"],
+      "tips": ["Always double check state symbols against the specific reaction conditions described in a question — the same substance might be a solid in one context but described as aqueous (dissolved) in another"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State what the symbol (aq) means.", "answer": "Dissolved in water (aqueous solution)."},
+          {"question": "State the state symbol used for a gas.", "answer": "(g)"}
+        ],
+        "intermediate": [
+          {"question": "Add state symbols to the equation for the neutralisation of dilute hydrochloric acid with sodium hydroxide solution, producing aqueous sodium chloride and liquid water: HCl + NaOH → NaCl + H2O", "answer": "HCl(aq) + NaOH(aq) → NaCl(aq) + H2O(l)"},
+          {"question": "Explain why it is important to distinguish NaCl(s) from NaCl(aq) in a chemical equation.", "answer": "NaCl(s) represents solid sodium chloride, with ions held in a fixed lattice structure, unable to move freely and therefore unable to conduct electricity or react as readily via ionic mechanisms. NaCl(aq) represents sodium chloride dissolved in water, with free-moving Na+ and Cl− ions able to conduct electricity and participate directly in reactions (such as precipitation or displacement reactions) that specifically require free ions in solution. Since these two states behave very differently, distinguishing them with the correct state symbol is essential for accurately describing what is actually happening in a reaction."}
+        ],
+        "advanced": [
+          {"question": "Explain why the state symbol used for water can vary between different equations (e.g. (l), (g), or (aq) as a solvent context), and give an example of each.", "answer": "Water's state symbol depends on its specific physical form and role in a given reaction. As a reactant or product formed at room temperature in most aqueous reactions, water is typically a liquid, shown as H2O(l) (e.g. in a neutralisation reaction, NaOH(aq) + HCl(aq) → NaCl(aq) + H2O(l)). In high-temperature reactions or specific contexts where water is present as steam (e.g. magnesium reacting with steam), water is shown as a gas, H2O(g) (e.g. Mg(s) + H2O(g) → MgO(s) + H2(g)). Water is not typically assigned the symbol (aq) itself, since (aq) specifically denotes a solute dissolved IN water as the solvent, rather than water itself; however, water is understood to be the solvent whenever other substances are shown with the (aq) symbol."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Write the fully balanced equation, including state symbols, for the reaction between aqueous silver nitrate and aqueous sodium chloride, producing a solid precipitate of silver chloride and aqueous sodium nitrate.", "marks": 2, "model_answer": "AgNO3(aq) + NaCl(aq) → AgCl(s) + NaNO3(aq) (1 mark for correct balanced formulae, 1 mark for all four correct state symbols)."}
+      ],
+      "summary": "State symbols — (s) solid, (l) liquid, (g) gas, (aq) aqueous — indicate the physical state of each substance in a chemical equation, providing essential information about reactivity and behaviour that the bare formula alone does not convey.",
+      "revision_notes": ["(s) solid, (l) liquid, (g) gas, (aq) dissolved in water", "Same substance behaves differently in different states — always specify correctly", "Essential in ionic equations to distinguish free-moving (aq) ions from fixed (s) lattice"],
+      "related_topics": ["Balancing Equations", "Ionic Equations"],
+      "prerequisites": ["Balancing Equations"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-134-ionic-equations",
+      "subject": "Chemistry",
+      "category": "Formulae, Equations and Oxidation States",
+      "title": "Ionic Equations",
+      "difficulty": "Higher",
+      "description": "Equations that show only the ions and species that actually participate in a reaction, omitting ions that remain unchanged (spectator ions).",
+      "learning_objectives": [
+        "Explain the purpose of writing an ionic equation",
+        "Identify and remove spectator ions from a full equation to construct an ionic equation",
+        "Write balanced ionic equations for simple precipitation and acid-base reactions"
+      ],
+      "explanation": "An ionic equation shows only the specific ions and other species that actually undergo a chemical change during a reaction, omitting any ions that remain unchanged and uninvolved throughout the reaction, called spectator ions. To construct an ionic equation from a full (complete) equation, all soluble ionic compounds are first rewritten to show their constituent ions separately (since they exist as free ions in aqueous solution); any ions that appear identically, unchanged, on both the reactant and product sides are then identified as spectator ions and removed (cancelled out) from both sides, leaving only the ions and substances that genuinely react to form new products. Ionic equations are particularly useful for representing precipitation reactions and certain acid-base reactions concisely, focusing attention on the actual chemical change taking place, and highlighting that many different specific reactant combinations can, in fact, represent the same fundamental ionic reaction.",
+      "key_concepts": ["Shows only species that actually react", "Spectator ions: unchanged, removed from full equation", "Focuses on the true underlying reaction"],
+      "definitions": [
+        {"term": "Spectator ion", "definition": "An ion present in a reaction mixture that does not take part in the chemical change and remains unchanged in solution, and so is omitted from an ionic equation."},
+        {"term": "Ionic equation", "definition": "An equation showing only the ions and species that actually undergo change during a reaction, with spectator ions omitted."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Construct the ionic equation for the reaction: AgNO3(aq) + NaCl(aq) → AgCl(s) + NaNO3(aq)",
+          "working": "Rewrite soluble ionic reactants/products as separate ions: Ag+(aq) + NO3−(aq) + Na+(aq) + Cl−(aq) → AgCl(s) + Na+(aq) + NO3−(aq). Identify spectator ions: Na+ and NO3− appear unchanged on both sides.",
+          "answer": "Ag+(aq) + Cl−(aq) → AgCl(s)"
+        }
+      ],
+      "practical_applications": ["Ionic equations are widely used in analytical chemistry and industrial process design to focus on the essential chemical transformation occurring, independent of which specific spectator ions happen to be present"],
+      "laboratory_applications": ["Writing ionic equations to summarise precipitation reactions observed during qualitative analysis tests for specific ions"],
+      "common_mistakes": ["Forgetting to also balance the overall charge on both sides of an ionic equation, not just the number of atoms — ionic equations must be balanced for both atoms AND charge", "Incorrectly treating an insoluble solid or a molecular substance (e.g. water) as if it should be split into separate ions — only substances that are genuinely present as free, dissociated ions in solution (aq) should be split; solids, liquids and gases are written as complete formula units"],
+      "misconceptions": ["Believing spectator ions play no role at all in the reaction mixture — while they do not undergo chemical change themselves, they are still physically present in the solution (e.g. contributing to the overall solution's properties), but are omitted from the ionic equation specifically because they do not participate in the actual chemical transformation being represented"],
+      "tips": ["Always check that an ionic equation is balanced for charge as well as atoms — the total charge on the reactant side must equal the total charge on the product side"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a spectator ion.", "answer": "An ion present in a reaction mixture that does not take part in the chemical change and remains unchanged."},
+          {"question": "State what an ionic equation shows.", "answer": "Only the ions and species that actually undergo chemical change during a reaction, with spectator ions omitted."}
+        ],
+        "intermediate": [
+          {"question": "Construct the ionic equation for the reaction: BaCl2(aq) + Na2SO4(aq) → BaSO4(s) + 2NaCl(aq)", "answer": "Full ionic form: Ba2+(aq) + 2Cl−(aq) + 2Na+(aq) + SO4^2−(aq) → BaSO4(s) + 2Na+(aq) + 2Cl−(aq). Removing spectator ions (Na+ and Cl−): Ba2+(aq) + SO4^2−(aq) → BaSO4(s)"},
+          {"question": "Explain why the reaction of any soluble barium compound with any soluble sulfate compound can be represented by the same ionic equation.", "answer": "Regardless of which specific soluble barium compound (e.g. barium chloride, barium nitrate) or soluble sulfate compound (e.g. sodium sulfate, potassium sulfate) is used, the actual chemical change taking place is always the combination of free Ba2+ ions and free SO4^2− ions to form the same insoluble precipitate, barium sulfate. The other ions present (e.g. Cl−, Na+, NO3−, K+) act only as spectator ions in each case, remaining unchanged and dissolved in solution regardless of their specific identity, so the same ionic equation, Ba2+(aq) + SO4^2−(aq) → BaSO4(s), correctly represents the essential reaction in every such combination."}
+        ],
+        "advanced": [
+          {"question": "Construct the ionic equation for the reaction between dilute sulfuric acid and aqueous sodium hydroxide, and explain why this ionic equation is identical to that for the neutralisation of any strong acid with any strong alkali.", "answer": "Full equation: H2SO4(aq) + 2NaOH(aq) → Na2SO4(aq) + 2H2O(l). Writing as ions: 2H+(aq) + SO4^2−(aq) + 2Na+(aq) + 2OH−(aq) → 2Na+(aq) + SO4^2−(aq) + 2H2O(l). Removing spectator ions (Na+ and SO4^2−): 2H+(aq) + 2OH−(aq) → 2H2O(l), which simplifies to H+(aq) + OH−(aq) → H2O(l). This ionic equation is identical for the neutralisation of any strong acid with any strong alkali, because in every such case, the fundamental chemical change is always the combination of free hydrogen ions (from the fully dissociated strong acid) with free hydroxide ions (from the fully dissociated strong alkali) to form water; the specific identity of the other ions present (e.g. Na+, Cl−, K+, NO3−, SO4^2−) varies depending on which particular acid and alkali are used, but these always act only as spectator ions, so the same simplified ionic equation applies universally to strong acid-strong alkali neutralisation."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Write the balanced ionic equation for the precipitation reaction between aqueous lead(II) nitrate and aqueous potassium iodide, which produces solid lead(II) iodide.", "marks": 3, "model_answer": "Full equation: Pb(NO3)2(aq) + 2KI(aq) → PbI2(s) + 2KNO3(aq) (1 mark, if shown as working). Identifying spectator ions (K+ and NO3−) and removing them (1 mark). Ionic equation: Pb2+(aq) + 2I−(aq) → PbI2(s) (1 mark, correctly balanced for both atoms and charge)."}
+      ],
+      "summary": "Ionic equations show only the ions and species that actually undergo chemical change in a reaction, with unchanged spectator ions removed. They must be balanced for both atoms and overall charge, and highlight that different specific reactant combinations can represent the same fundamental reaction.",
+      "revision_notes": ["Ionic equation: only species that actually react; spectator ions removed", "Must balance BOTH atoms AND overall charge", "Same ionic equation can represent many different specific reactant combinations"],
+      "related_topics": ["Net Ionic Equations", "State Symbols", "Precipitation Reactions"],
+      "prerequisites": ["State Symbols", "Balancing Equations"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-135-net-ionic-equations",
+      "subject": "Chemistry",
+      "category": "Formulae, Equations and Oxidation States",
+      "title": "Net Ionic Equations",
+      "difficulty": "Higher",
+      "description": "The fully simplified form of an ionic equation, showing only the essential reacting species in their simplest whole-number ratio, with no spectator ions or unnecessary detail.",
+      "learning_objectives": [
+        "Explain the relationship between an ionic equation and a net ionic equation",
+        "Simplify an ionic equation to its net ionic form",
+        "Apply net ionic equations to represent classes of reaction general to multiple specific examples"
+      ],
+      "explanation": "A net ionic equation is essentially the fully simplified, final form of an ionic equation: after all spectator ions have been removed, the remaining equation is checked to ensure it is written in the simplest possible whole-number ratio (dividing through by a common factor if necessary), giving the most concise, general representation of the essential chemical change taking place. In practice, the terms 'ionic equation' and 'net ionic equation' are often used interchangeably once spectator ions have been removed and the equation fully simplified, since a correctly constructed and simplified ionic equation is, by definition, already in its 'net' form. Net ionic equations are especially valuable for illustrating that a wide range of different specific reactions (involving different spectator ions) share the same fundamental, underlying chemical change.",
+      "key_concepts": ["Fully simplified ionic equation (spectator ions removed, simplest ratio)", "Represents the essential, general chemical change", "Same net ionic equation can apply to many specific reactions"],
+      "definitions": [
+        {"term": "Net ionic equation", "definition": "The fully simplified ionic equation, with spectator ions removed and coefficients reduced to the simplest whole-number ratio, representing only the essential reacting species."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Simplify the ionic equation 2H+(aq) + 2OH−(aq) → 2H2O(l) to its net ionic form.",
+          "working": "Divide all coefficients by the common factor 2.",
+          "answer": "H+(aq) + OH−(aq) → H2O(l)"
+        }
+      ],
+      "practical_applications": ["Net ionic equations provide a universal, general representation for entire classes of reaction (e.g. all strong acid-base neutralisations, all precipitations of a specific insoluble salt), streamlining chemical communication and calculation across many specific real-world examples"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Leaving a simplified ionic equation with coefficients that share a common factor, rather than reducing them fully to the simplest possible whole-number ratio"],
+      "misconceptions": ["Believing 'ionic equation' and 'net ionic equation' refer to two entirely different, separate concepts — in standard usage, they typically refer to the same final, simplified representation, with 'net' simply emphasising that spectator ions have already been removed and the equation reduced to its simplest form"],
+      "tips": ["After removing spectator ions from a full ionic equation, always perform a final check: can all the remaining coefficients be divided by a common factor to reach the simplest possible whole-number ratio?"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State what a net ionic equation represents.", "answer": "The fully simplified ionic equation, showing only the essential species that react, in the simplest whole-number ratio, with spectator ions removed."},
+          {"question": "Simplify the equation Ba2+(aq) + SO4^2−(aq) → BaSO4(s) to its net ionic form, if possible.", "answer": "This equation is already in its simplest, fully reduced net ionic form (coefficients are already all 1)."}
+        ],
+        "intermediate": [
+          {"question": "A student writes the ionic equation 4H+(aq) + 4OH−(aq) → 4H2O(l) for a neutralisation reaction. Explain why this should be simplified, and give the correct net ionic form.", "answer": "All the coefficients in this equation share a common factor of 4, so it has not yet been reduced to the simplest possible whole-number ratio required for a proper net ionic equation. Dividing through by 4 gives the correctly simplified net ionic equation: H+(aq) + OH−(aq) → H2O(l)."}
+        ],
+        "advanced": [
+          {"question": "Explain why the same net ionic equation, Ag+(aq) + Cl−(aq) → AgCl(s), can correctly represent the reaction between silver nitrate and sodium chloride, as well as the reaction between silver nitrate and potassium chloride, despite these being different overall reactions.", "answer": "In both overall reactions, the specific spectator ions differ (Na+ and NO3− in the first case; K+ and NO3− in the second), but in both cases these spectator ions remain completely unchanged in solution and do not participate in any chemical transformation. The essential, underlying chemical change in both reactions is identical: free silver ions combine with free chloride ions to form the same insoluble precipitate, silver chloride. Since the net ionic equation is specifically designed to show only this essential reacting change, omitting all spectator ions regardless of their specific identity, the same net ionic equation correctly and generally represents both (and indeed any) reaction between a soluble silver compound and a soluble chloride compound."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Write the net ionic equation for the reaction between any soluble carbonate and any dilute strong acid, which produces carbon dioxide gas, water, and a salt.", "marks": 3, "model_answer": "The general full ionic equation, after removing spectator ions (the specific metal cation and the acid's anion, both of which remain unchanged), reduces to: CO3^2−(aq) + 2H+(aq) → H2O(l) + CO2(g) (3 marks: 1 for correct species, 1 for correct balancing/coefficients, 1 for correct state symbols)."}
+      ],
+      "summary": "Net ionic equations are the fully simplified form of an ionic equation, with spectator ions removed and coefficients reduced to the simplest whole-number ratio, representing the essential chemical change common to an entire class of related reactions.",
+      "revision_notes": ["Net ionic equation = ionic equation, fully simplified (spectator ions removed, simplest ratio)", "Represents essential change common to many specific reactions", "Always check coefficients are reduced to lowest whole-number terms"],
+      "related_topics": ["Ionic Equations", "Balancing Equations"],
+      "prerequisites": ["Ionic Equations"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-136-oxidation-states-numbers",
+      "subject": "Chemistry",
+      "category": "Formulae, Equations and Oxidation States",
+      "title": "Oxidation States (Oxidation Numbers)",
+      "difficulty": "Higher",
+      "description": "A bookkeeping system for tracking the distribution of electrons in a compound or ion, used to identify oxidation and reduction and to name compounds unambiguously.",
+      "learning_objectives": [
+        "State the key rules for assigning oxidation states",
+        "Calculate the oxidation state of an atom within a compound or ion",
+        "Use oxidation state changes to identify oxidation and reduction in a reaction"
+      ],
+      "explanation": "An oxidation state (also called an oxidation number) is a number assigned to an atom within a compound or ion, representing the charge that atom would have if all bonds to it were considered fully ionic (even for atoms in genuinely covalent compounds, where this is a theoretical bookkeeping convention rather than reflecting actual full ionic charge). Oxidation states follow a set of standard rules: the oxidation state of any uncombined element is 0 (e.g. Fe, O2, Cl2 all have oxidation state 0); the oxidation state of a simple monatomic ion equals its charge (e.g. Na+ is +1, O2− is −2); the sum of oxidation states in a neutral compound is 0, while the sum in a polyatomic ion equals the ion's overall charge; and certain elements have standard, usually fixed oxidation states in most compounds (hydrogen is usually +1, except in metal hydrides where it is −1; oxygen is usually −2, except in peroxides where it is −1, or when bonded to fluorine). Oxidation states are used to track electron transfer during redox reactions: an increase in oxidation state indicates oxidation (loss of electrons), while a decrease in oxidation state indicates reduction (gain of electrons).",
+      "key_concepts": ["Uncombined element = 0", "Simple ion = its charge", "Sum of oxidation states = overall charge (0 for neutral compound)", "H usually +1, O usually −2 (exceptions exist)", "Increase = oxidation; decrease = reduction"],
+      "definitions": [
+        {"term": "Oxidation state", "definition": "A number assigned to an atom in a compound or ion, representing the charge it would have if all bonds to it were considered fully ionic; used to track electron transfer."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Determine the oxidation state of sulfur in the sulfate ion, SO4^2−.",
+          "working": "Oxygen's oxidation state is usually −2. Total from 4 oxygen atoms = 4×(−2) = −8. Overall ion charge = −2. Let sulfur's oxidation state = x: x + (−8) = −2.",
+          "answer": "x = +6, so sulfur has an oxidation state of +6 in the sulfate ion."
+        }
+      ],
+      "practical_applications": ["Oxidation states are used throughout inorganic chemistry to systematically name compounds, balance complex redox equations, and predict the products of redox reactions in industrial and analytical processes"],
+      "laboratory_applications": ["Using colour changes associated with different oxidation states of transition metal ions (e.g. manganese in potassium manganate(VII) titrations) to determine unknown concentrations via redox titrations"],
+      "common_mistakes": ["Forgetting the standard oxidation states of hydrogen and oxygen (and their exceptions) when calculating an unknown atom's oxidation state", "Confusing oxidation state (a bookkeeping number, which can be any positive, negative, or zero value, including fractions in rare specific cases) with actual ionic charge, which only strictly applies to genuinely ionic, monatomic species"],
+      "misconceptions": ["Believing oxidation state represents an atom's true, physical charge in every compound — for genuinely covalent compounds, oxidation state is a theoretical, useful accounting convention (assuming full ionic character) rather than a literal, physically measured charge"],
+      "tips": ["Always set up an equation using the known standard oxidation states (H = +1, O = −2, unless noted otherwise) and the overall charge of the species, then solve for the unknown oxidation state algebraically"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the oxidation state of an uncombined element.", "answer": "0"},
+          {"question": "State the oxidation state of oxygen in most compounds.", "answer": "−2"}
+        ],
+        "intermediate": [
+          {"question": "Determine the oxidation state of chromium in the dichromate ion, Cr2O7^2−.", "answer": "Oxygen contributes 7×(−2) = −14. Overall ion charge = −2. Let chromium's oxidation state = x: 2x + (−14) = −2, so 2x = 12, x = +6."},
+          {"question": "Determine the oxidation state of nitrogen in ammonium, NH4+.", "answer": "Hydrogen contributes 4×(+1) = +4. Overall ion charge = +1. Let nitrogen's oxidation state = x: x + 4 = +1, so x = −3."}
+        ],
+        "advanced": [
+          {"question": "Determine the oxidation state of oxygen in hydrogen peroxide, H2O2, and explain why it differs from oxygen's usual oxidation state.", "answer": "In H2O2, hydrogen has its usual oxidation state of +1, contributing 2×(+1) = +2 total from the two hydrogen atoms. Since the compound is neutral, the two oxygen atoms combined must contribute −2 in total, giving each oxygen atom an oxidation state of −1, rather than oxygen's usual −2. This exception arises because, in the peroxide ion structure (O-O bond present), each oxygen atom shares a bond with another oxygen atom (of equal electronegativity, contributing no oxidation state change between them) in addition to bonding with hydrogen (from which it draws electron density, since oxygen is more electronegative than hydrogen), resulting in an intermediate oxidation state of −1 for each oxygen, rather than the −2 typically seen when oxygen is bonded only to less electronegative atoms."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Determine the oxidation state of manganese in the manganate(VII) ion, MnO4−, showing your working.", "marks": 3, "model_answer": "Oxygen contributes 4×(−2) = −8 (1 mark). The overall ion charge is −1, so manganese's oxidation state + (−8) = −1 (1 mark). Solving: manganese's oxidation state = −1 − (−8) = +7 (1 mark)."}
+      ],
+      "summary": "Oxidation states (oxidation numbers) are assigned using standard rules (uncombined element = 0, simple ion = its charge, H usually +1, O usually −2, sum = overall charge) and are used to track electron transfer: an increase in oxidation state indicates oxidation; a decrease indicates reduction.",
+      "revision_notes": ["Uncombined element = 0; simple ion = its charge", "H = +1 (except metal hydrides, −1); O = −2 (except peroxides, −1)", "Sum of oxidation states = overall charge (0 for neutral compound)", "Oxidation state increase = oxidation (electron loss); decrease = reduction (electron gain)"],
+      "related_topics": ["Redox Reactions", "Oxidation Reactions", "Reduction Reactions", "Naming Ionic Compounds"],
+      "prerequisites": ["Chemical Formulae", "Ions"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-137-oxidation-reactions",
+      "subject": "Chemistry",
+      "category": "Formulae, Equations and Oxidation States",
+      "title": "Oxidation Reactions",
+      "difficulty": "Higher",
+      "description": "Reactions in which a species loses electrons, gains oxygen, or loses hydrogen, resulting in an increase in oxidation state.",
+      "learning_objectives": [
+        "Define oxidation using three related definitions (electron loss, oxygen gain, hydrogen loss)",
+        "Identify the species being oxidised in a given reaction",
+        "Explain the relationship between these different definitions of oxidation"
+      ],
+      "explanation": "Oxidation can be defined in several equivalent ways, depending on the type of reaction being considered: in terms of electron transfer, oxidation is the loss of electrons by a species (the most general and fundamental definition, applicable to essentially all redox reactions); in terms of oxygen, oxidation is the gain of oxygen by a species (a more specific, traditional definition useful for certain reactions, such as the rusting of iron or combustion); and in terms of hydrogen, oxidation is the loss of hydrogen by a species (useful for certain organic reactions, such as the oxidation of an alcohol to an aldehyde or ketone). These three definitions are consistent with one another: gaining oxygen or losing hydrogen typically corresponds to an overall loss of electron density (and therefore an increase in oxidation state) at the relevant atom, linking these more specific, traditional definitions to the fundamental electron-transfer definition.",
+      "key_concepts": ["Oxidation = loss of electrons (general definition)", "Oxidation = gain of oxygen (traditional definition)", "Oxidation = loss of hydrogen (organic chemistry definition)", "All three definitions are consistent with each other"],
+      "definitions": [
+        {"term": "Oxidation", "definition": "A process involving the loss of electrons by a species (or, in more specific contexts, the gain of oxygen or loss of hydrogen), resulting in an increase in oxidation state."}
+      ],
+      "formulae": [],
+      "equations": ["Mg → Mg2+ + 2e−   (oxidation: electron loss)", "2Mg + O2 → 2MgO   (oxidation: oxygen gain, for magnesium)"],
+      "worked_examples": [
+        {
+          "problem": "Identify the species being oxidised, and explain why, in the reaction: 2Mg(s) + O2(g) → 2MgO(s)",
+          "working": "Magnesium's oxidation state changes from 0 (uncombined element) to +2 (in MgO). This is an increase in oxidation state.",
+          "answer": "Magnesium is oxidised, since its oxidation state increases from 0 to +2, corresponding to the loss of 2 electrons per magnesium atom (consistent also with magnesium gaining oxygen, the traditional definition of oxidation)."
+        }
+      ],
+      "practical_applications": ["Oxidation reactions underlie combustion (releasing energy from fuels), corrosion/rusting, and biological respiration, all central to energy production and material degradation processes"],
+      "laboratory_applications": ["Using oxidising agents (e.g. acidified potassium dichromate) to oxidise primary alcohols to aldehydes/carboxylic acids in organic chemistry practicals, monitoring the associated colour change as evidence of the reaction occurring"],
+      "common_mistakes": ["Confusing which species is being oxidised versus reduced in a given reaction — always check whether that specific species' oxidation state has increased (oxidised) or decreased (reduced)"],
+      "misconceptions": ["Believing 'oxidation' must always literally involve oxygen — while the traditional, historical definition specifically refers to gaining oxygen, the modern, more general and widely applicable definition is based on electron loss, which applies to many reactions that do not involve oxygen at all (e.g. reactions with chlorine or in aqueous ionic reactions)"],
+      "tips": ["The most reliable, universally applicable way to identify oxidation is to track the change in oxidation state: if a species' oxidation state increases, it has been oxidised, regardless of whether oxygen or hydrogen is directly involved in the specific reaction"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Give the definition of oxidation in terms of electron transfer.", "answer": "The loss of electrons by a species."},
+          {"question": "State what happens to a species' oxidation state when it is oxidised.", "answer": "It increases."}
+        ],
+        "intermediate": [
+          {"question": "In the reaction Zn(s) + Cu2+(aq) → Zn2+(aq) + Cu(s), identify which species is oxidised and explain your reasoning.", "answer": "Zinc is oxidised. Its oxidation state increases from 0 (as the uncombined element) to +2 (as the Zn2+ ion), corresponding to the loss of two electrons per zinc atom."},
+          {"question": "Explain, using the hydrogen-based definition, why converting ethanol (CH3CH2OH) to ethanal (CH3CHO) is described as an oxidation reaction.", "answer": "In this conversion, the alcohol loses two hydrogen atoms (from the carbon bearing the -OH group) to form the aldehyde's C=O group. Since oxidation can be defined as the loss of hydrogen (particularly relevant in organic chemistry contexts), this conversion is classified as an oxidation reaction, consistent also with an increase in the oxidation state of the relevant carbon atom."}
+        ],
+        "advanced": [
+          {"question": "Explain why the traditional 'gain of oxygen' definition of oxidation is considered a special case of the more general 'loss of electrons' definition, using the oxidation of magnesium as an example.", "answer": "When magnesium reacts with oxygen to form magnesium oxide, magnesium atoms each lose two electrons to oxygen atoms, forming Mg2+ and O2− ions (ionic bonding). The 'gain of oxygen' by magnesium is, in this specific case, physically accompanied by (and is really just a visible, macroscopic consequence of) the underlying transfer of electrons from magnesium to oxygen. The traditional oxygen-based definition works well for identifying oxidation specifically in reactions where oxygen is directly involved and gains electron density from another species, but the electron-transfer definition is more fundamental and general, since it correctly identifies oxidation even in reactions that do not involve oxygen at all (e.g. reactions with chlorine, or purely ionic reactions in solution), making it the preferred, universally applicable definition in modern chemistry."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "In the reaction 2Na(s) + Cl2(g) → 2NaCl(s), identify the species that is oxidised, and explain your answer using oxidation states.", "marks": 3, "model_answer": "Sodium is oxidised (1 mark). Its oxidation state increases from 0 (as the uncombined element) to +1 (in NaCl) (1 mark). This increase in oxidation state corresponds to the loss of one electron per sodium atom, consistent with the definition of oxidation as electron loss (1 mark)."}
+      ],
+      "summary": "Oxidation is defined as electron loss (the general, fundamental definition), or equivalently, as oxygen gain or hydrogen loss in specific contexts. All three definitions are consistent, and oxidation always corresponds to an increase in oxidation state.",
+      "revision_notes": ["Oxidation = loss of electrons (general); OR gain of oxygen; OR loss of hydrogen", "Always corresponds to an INCREASE in oxidation state", "All three definitions are consistent with one another"],
+      "related_topics": ["Reduction Reactions", "Redox Reactions", "Oxidation States (Oxidation Numbers)"],
+      "prerequisites": ["Oxidation States (Oxidation Numbers)"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-138-reduction-reactions",
+      "subject": "Chemistry",
+      "category": "Formulae, Equations and Oxidation States",
+      "title": "Reduction Reactions",
+      "difficulty": "Higher",
+      "description": "Reactions in which a species gains electrons, loses oxygen, or gains hydrogen, resulting in a decrease in oxidation state.",
+      "learning_objectives": [
+        "Define reduction using three related definitions (electron gain, oxygen loss, hydrogen gain)",
+        "Identify the species being reduced in a given reaction",
+        "Explain the relationship between oxidation and reduction as always occurring together"
+      ],
+      "explanation": "Reduction is the reverse process to oxidation, and can similarly be defined in several equivalent ways: in terms of electron transfer, reduction is the gain of electrons by a species (the general, fundamental definition); in terms of oxygen, reduction is the loss of oxygen by a species (e.g. when a metal oxide is reduced back to the pure metal); and in terms of hydrogen, reduction is the gain of hydrogen by a species (relevant in various organic reactions, such as the reduction of an aldehyde or ketone to an alcohol). Since oxidation and reduction represent electrons being lost by one species and gained by another, respectively, within the same reaction, oxidation and reduction always occur together in any redox reaction — one species cannot lose electrons without another species gaining them.",
+      "key_concepts": ["Reduction = gain of electrons (general definition)", "Reduction = loss of oxygen (traditional definition)", "Reduction = gain of hydrogen (organic chemistry definition)", "Always occurs alongside oxidation in the same reaction"],
+      "definitions": [
+        {"term": "Reduction", "definition": "A process involving the gain of electrons by a species (or, in more specific contexts, the loss of oxygen or gain of hydrogen), resulting in a decrease in oxidation state."}
+      ],
+      "formulae": [],
+      "equations": ["Cu2+ + 2e− → Cu   (reduction: electron gain)"],
+      "worked_examples": [
+        {
+          "problem": "Identify the species being reduced, and explain why, in the reaction: CuO(s) + H2(g) → Cu(s) + H2O(l)",
+          "working": "Copper's oxidation state changes from +2 (in CuO) to 0 (as the uncombined element). This is a decrease in oxidation state.",
+          "answer": "Copper is reduced, since its oxidation state decreases from +2 to 0, corresponding to the gain of 2 electrons per copper atom (consistent also with copper losing oxygen, the traditional definition of reduction)."
+        }
+      ],
+      "practical_applications": ["Reduction reactions are central to extracting metals from their ores (e.g. reduction of iron oxide in a blast furnace) and to numerous industrial and biological processes"],
+      "laboratory_applications": ["Using reducing agents (e.g. sodium borohydride or lithium aluminium hydride) to reduce aldehydes and ketones to alcohols in organic chemistry practicals"],
+      "common_mistakes": ["Confusing reduction (electron gain, oxidation state decrease) with oxidation (electron loss, oxidation state increase) — always carefully check the direction of oxidation state change for the specific species in question"],
+      "misconceptions": ["Believing reduction and oxidation can occur independently, without one another — since electrons lost by one species in a reaction must be gained by another, oxidation and reduction are always coupled together within the same overall redox reaction"],
+      "tips": ["Use the mnemonic 'OIL RIG': Oxidation Is Loss (of electrons); Reduction Is Gain (of electrons), to quickly recall the correct direction for each process"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Give the definition of reduction in terms of electron transfer.", "answer": "The gain of electrons by a species."},
+          {"question": "State what happens to a species' oxidation state when it is reduced.", "answer": "It decreases."}
+        ],
+        "intermediate": [
+          {"question": "In the reaction Zn(s) + Cu2+(aq) → Zn2+(aq) + Cu(s), identify which species is reduced and explain your reasoning.", "answer": "Copper(II) ions are reduced. Copper's oxidation state decreases from +2 (as Cu2+) to 0 (as the uncombined element Cu), corresponding to the gain of two electrons per copper ion."},
+          {"question": "Explain why the conversion of ethanal (CH3CHO) to ethanol (CH3CH2OH) is classified as a reduction reaction.", "answer": "In this conversion, the aldehyde gains two hydrogen atoms to form the alcohol. Since reduction can be defined as the gain of hydrogen (particularly relevant in organic chemistry), this conversion is classified as a reduction, consistent also with a decrease in the oxidation state of the relevant carbon atom."}
+        ],
+        "advanced": [
+          {"question": "Explain why oxidation and reduction must always occur together in the same reaction, using the reaction between zinc and copper(II) ions as an example.", "answer": "In any redox reaction, electrons that are lost by one species (undergoing oxidation) must be gained by another species (undergoing reduction) within the same reaction, since electrons cannot simply disappear or be created independently; the total number of electrons lost by the oxidised species must exactly equal the total number of electrons gained by the reduced species. In the reaction Zn(s) + Cu2+(aq) → Zn2+(aq) + Cu(s), zinc atoms each lose two electrons (oxidation, Zn → Zn2+ + 2e−), and these exact same electrons are gained by copper(II) ions (reduction, Cu2+ + 2e− → Cu). Because this electron transfer occurs directly between the two species within the single overall reaction, oxidation and reduction are inherently coupled and cannot be separated; wherever a redox reaction occurs, both processes must be happening simultaneously."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "In the reaction Fe2O3(s) + 3CO(g) → 2Fe(s) + 3CO2(g), identify the species that is reduced, and explain your answer using oxidation states.", "marks": 3, "model_answer": "Iron is reduced (1 mark). Its oxidation state decreases from +3 (in Fe2O3) to 0 (as the uncombined element, Fe) (1 mark). This decrease in oxidation state corresponds to the gain of three electrons per iron atom, consistent with the definition of reduction as electron gain (1 mark)."}
+      ],
+      "summary": "Reduction is defined as electron gain (the general, fundamental definition), or equivalently, as oxygen loss or hydrogen gain in specific contexts. Reduction always occurs alongside oxidation in the same reaction, since electrons lost by one species must be gained by another.",
+      "revision_notes": ["Reduction = gain of electrons (general); OR loss of oxygen; OR gain of hydrogen", "Always corresponds to a DECREASE in oxidation state", "Mnemonic: OIL RIG (Oxidation Is Loss, Reduction Is Gain)", "Always occurs together with oxidation in the same reaction"],
+      "related_topics": ["Oxidation Reactions", "Redox Reactions", "Oxidation States (Oxidation Numbers)"],
+      "prerequisites": ["Oxidation Reactions"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-139-redox-reactions",
+      "subject": "Chemistry",
+      "category": "Formulae, Equations and Oxidation States",
+      "title": "Redox Reactions",
+      "difficulty": "Higher",
+      "description": "Reactions involving simultaneous oxidation and reduction, in which electrons are transferred from one species to another.",
+      "learning_objectives": [
+        "Define a redox reaction",
+        "Identify the oxidising agent and reducing agent in a given reaction",
+        "Use oxidation state changes to fully analyse a redox reaction"
+      ],
+      "explanation": "A redox reaction (a term combining 'reduction' and 'oxidation') is any reaction in which oxidation and reduction occur simultaneously, involving the transfer of electrons from one species (which is oxidised) to another (which is reduced). In a redox reaction, the species that causes another species to be oxidised (by accepting the electrons it loses) is called the oxidising agent (and is itself reduced in the process); the species that causes another species to be reduced (by donating electrons to it) is called the reducing agent (and is itself oxidised in the process). Redox reactions can be fully analysed by identifying the oxidation state changes of each relevant atom, confirming which species loses electrons (oxidised, acting as the reducing agent) and which gains electrons (reduced, acting as the oxidising agent), and by writing separate half-equations to represent the oxidation and reduction processes individually before combining them into the overall balanced equation.",
+      "key_concepts": ["Redox = simultaneous oxidation and reduction", "Oxidising agent: causes oxidation, itself reduced", "Reducing agent: causes reduction, itself oxidised", "Analysed via oxidation state changes and half-equations"],
+      "definitions": [
+        {"term": "Redox reaction", "definition": "A reaction involving the simultaneous transfer of electrons from one species (oxidation) to another (reduction)."},
+        {"term": "Oxidising agent", "definition": "A species that causes another species to be oxidised by accepting electrons from it, and is itself reduced in the process."},
+        {"term": "Reducing agent", "definition": "A species that causes another species to be reduced by donating electrons to it, and is itself oxidised in the process."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "In the reaction Mg(s) + CuSO4(aq) → MgSO4(aq) + Cu(s), identify the oxidising agent and the reducing agent.",
+          "working": "Magnesium's oxidation state increases from 0 to +2 (oxidised); copper's oxidation state decreases from +2 to 0 (reduced).",
+          "answer": "Magnesium is the reducing agent (it is oxidised, causing copper to be reduced); copper(II) ions (from CuSO4) act as the oxidising agent (they are reduced, causing magnesium to be oxidised)."
+        }
+      ],
+      "practical_applications": ["Redox reactions underpin batteries and electrochemical cells, metal extraction, combustion, corrosion, and biological respiration, making them central to both industrial chemistry and everyday life"],
+      "laboratory_applications": ["Carrying out redox titrations (e.g. using acidified potassium manganate(VII) as an oxidising agent) to determine the concentration of an unknown reducing agent in solution"],
+      "common_mistakes": ["Confusing the identity of the oxidising agent with the species that is oxidised — the oxidising agent is the species that IS reduced (while causing another species to be oxidised); this naming can initially seem counterintuitive and requires careful attention"],
+      "misconceptions": ["Believing only reactions explicitly involving oxygen can be classified as redox reactions — the modern definition, based on electron transfer, applies to a very wide range of reactions, including many that do not involve oxygen directly (e.g. displacement reactions between metals and metal ion solutions, or reactions with halogens)"],
+      "tips": ["Remember: the oxidising agent gets reduced; the reducing agent gets oxidised — this naming refers to what each species DOES to the OTHER species, not what happens to itself"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a redox reaction.", "answer": "A reaction involving the simultaneous transfer of electrons from one species (oxidation) to another (reduction)."},
+          {"question": "State what happens to the oxidising agent during a redox reaction.", "answer": "It is reduced (it gains electrons)."}
+        ],
+        "intermediate": [
+          {"question": "In the reaction 2Fe2+(aq) + Cl2(aq) → 2Fe3+(aq) + 2Cl−(aq), identify the oxidising agent and the reducing agent.", "answer": "Chlorine is the oxidising agent, since it is reduced (oxidation state of chlorine decreases from 0 to −1), causing iron(II) ions to be oxidised. Iron(II) ions act as the reducing agent, since they are oxidised (oxidation state of iron increases from +2 to +3), causing chlorine to be reduced."},
+          {"question": "Write separate oxidation and reduction half-equations for the reaction Zn(s) + Cu2+(aq) → Zn2+(aq) + Cu(s).", "answer": "Oxidation half-equation: Zn(s) → Zn2+(aq) + 2e−. Reduction half-equation: Cu2+(aq) + 2e− → Cu(s)."}
+        ],
+        "advanced": [
+          {"question": "Explain why potassium manganate(VII) is a strong oxidising agent, referring to the oxidation state of manganese, and describe how this property is used in redox titrations.", "answer": "In potassium manganate(VII), manganese has a high oxidation state of +7. Manganese in this high oxidation state has a strong tendency to be reduced (gain electrons) to a lower, more stable oxidation state, commonly Mn2+ (a decrease of 5 in oxidation state, gaining 5 electrons per manganese atom), making manganate(VII) a powerful oxidising agent, readily oxidising many reducing agents. In redox titrations, an acidified potassium manganate(VII) solution of known concentration is added gradually to a solution containing an unknown concentration of a reducing agent (such as iron(II) ions); the manganate(VII) is decolourised (from purple to almost colourless, as Mn2+ forms) as it reacts and is reduced by the reducing agent, until all the reducing agent present has been oxidised, at which point a slight excess of manganate(VII) produces a permanent, faint pink/purple colour, indicating the endpoint of the titration. The volume of manganate(VII) solution required is then used, via stoichiometric calculation, to determine the original concentration of the reducing agent."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "In the reaction Mg(s) + 2HCl(aq) → MgCl2(aq) + H2(g), identify the oxidising agent and reducing agent, explaining your reasoning using oxidation states.", "marks": 4, "model_answer": "Magnesium's oxidation state increases from 0 to +2, so magnesium is oxidised and acts as the reducing agent (2 marks). Hydrogen's oxidation state decreases from +1 (in HCl) to 0 (as H2 gas), so hydrogen (from HCl) is reduced and acts as the oxidising agent (2 marks)."}
+      ],
+      "summary": "Redox reactions involve simultaneous oxidation and reduction via electron transfer. The oxidising agent (itself reduced) causes another species to be oxidised; the reducing agent (itself oxidised) causes another species to be reduced. Redox reactions can be analysed using oxidation states and half-equations.",
+      "revision_notes": ["Redox: oxidation + reduction occur together (electron transfer)", "Oxidising agent: itself reduced, causes oxidation in another species", "Reducing agent: itself oxidised, causes reduction in another species", "Analyse via oxidation state changes and separate half-equations"],
+      "related_topics": ["Oxidation Reactions", "Reduction Reactions", "Half-Equations", "Disproportionation"],
+      "prerequisites": ["Oxidation Reactions", "Reduction Reactions"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-140-disproportionation",
+      "subject": "Chemistry",
+      "category": "Formulae, Equations and Oxidation States",
+      "title": "Disproportionation",
+      "difficulty": "Advanced",
+      "description": "A special type of redox reaction in which a single species is simultaneously both oxidised and reduced.",
+      "learning_objectives": [
+        "Define disproportionation",
+        "Identify a disproportionation reaction from oxidation state changes",
+        "Give a common example of a disproportionation reaction"
+      ],
+      "explanation": "Disproportionation is a special type of redox reaction in which a single element, within a single species, is simultaneously both oxidised and reduced, producing two different products in which that element has two different new oxidation states (one higher, one lower than its original oxidation state). A classic example is the reaction of chlorine gas with cold, dilute sodium hydroxide solution, in which chlorine (oxidation state 0) is simultaneously oxidised to chlorate(I) (oxidation state +1, as in NaClO) and reduced to chloride (oxidation state −1, as in NaCl); both changes occur to chlorine atoms within the same reaction, starting from the same initial oxidation state of 0. Disproportionation reactions can be identified by examining oxidation state changes: if the same element appears in the reactants at one oxidation state, and appears in the products at two different oxidation states (one higher, one lower than the reactant), disproportionation has occurred.",
+      "key_concepts": ["Single species simultaneously oxidised and reduced", "Same element ends up at two different oxidation states in the products", "Classic example: chlorine with cold dilute sodium hydroxide"],
+      "definitions": [
+        {"term": "Disproportionation", "definition": "A redox reaction in which a single species is simultaneously both oxidised and reduced, producing two different products with different new oxidation states of the same element."}
+      ],
+      "formulae": [],
+      "equations": ["Cl2(aq) + 2NaOH(aq) → NaCl(aq) + NaClO(aq) + H2O(l)"],
+      "worked_examples": [
+        {
+          "problem": "Explain why the reaction Cl2(aq) + 2NaOH(aq) → NaCl(aq) + NaClO(aq) + H2O(l) is classified as disproportionation.",
+          "working": "Chlorine starts with oxidation state 0 (as the uncombined element, Cl2). In the products, chlorine appears in NaCl with oxidation state −1, and in NaClO with oxidation state +1.",
+          "answer": "Since chlorine, starting at oxidation state 0, ends up simultaneously reduced (to −1, in Cl−) and oxidised (to +1, in ClO−) within the same reaction, this is classified as disproportionation."
+        }
+      ],
+      "practical_applications": ["The disproportionation of chlorine with sodium hydroxide is used industrially to produce bleach (sodium chlorate(I) solution) and other chlorine-based cleaning and disinfecting products"],
+      "laboratory_applications": ["Investigating the reaction of chlorine or other halogens with alkali solutions under different temperature conditions, observing how the specific products (and their oxidation states) can vary"],
+      "common_mistakes": ["Failing to recognise a disproportionation reaction because it does not obviously look different from an 'ordinary' redox reaction at first glance — always check the specific oxidation state changes of any single element that appears more than once among the products"],
+      "misconceptions": ["Believing disproportionation is a completely separate category from ordinary redox reactions — disproportionation is simply a special case (or subtype) of a redox reaction, distinguished by the fact that the same starting species is responsible for both the oxidation and reduction that occur within the same reaction"],
+      "tips": ["To check for disproportionation, look specifically for a single element that appears in the reactants at one oxidation state, then reappears in TWO different products with two different oxidation states, one higher and one lower than the original"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define disproportionation.", "answer": "A redox reaction in which a single species is simultaneously both oxidised and reduced."},
+          {"question": "State the oxidation state of chlorine in Cl2 before it undergoes disproportionation with sodium hydroxide.", "answer": "0"}
+        ],
+        "intermediate": [
+          {"question": "In the reaction 3Cl2(aq) + 6NaOH(aq) → 5NaCl(aq) + NaClO3(aq) + 3H2O(l) (chlorine with hot, concentrated sodium hydroxide), determine the oxidation states of chlorine in the two chlorine-containing products and confirm this is disproportionation.", "answer": "In NaCl, chlorine has an oxidation state of −1 (reduced from 0). In NaClO3 (sodium chlorate(V)), oxygen contributes 3×(−2) = −6; overall ion charge (ClO3−) = −1, so chlorine's oxidation state = −1 − (−6) = +5 (oxidised from 0). Since chlorine, starting at oxidation state 0, is both reduced (to −1) and oxidised (to +5) within the same reaction, this is confirmed as disproportionation, though producing a different, more highly oxidised product (chlorate(V) rather than chlorate(I)) due to the different (hot, concentrated) reaction conditions compared to the cold, dilute case."}
+        ],
+        "advanced": [
+          {"question": "Explain why the products of chlorine's disproportionation reaction with sodium hydroxide differ depending on whether the solution is cold and dilute, or hot and concentrated, in terms of the specific chlorine oxidation states formed.", "answer": "With cold, dilute sodium hydroxide, chlorine disproportionates to form chloride (Cl−, oxidation state −1) and chlorate(I) (ClO−, oxidation state +1) — a relatively modest oxidation state change in each direction. With hot, concentrated sodium hydroxide, the reaction instead favours the formation of chloride (Cl−, oxidation state −1, the same reduced product) and chlorate(V) (ClO3−, oxidation state +5) — a much larger increase in oxidation state for the oxidised product. The different reaction conditions (temperature and concentration) favour different specific products because they affect the reaction pathway and the relative rates/thermodynamic favourability of forming these different possible oxidised chlorine species; the higher temperature and concentration in the second case favour further oxidation of the initially formed chlorate(I) intermediate to the more highly oxidised chlorate(V) product, rather than chlorate(I) remaining as the final product as it does under colder, more dilute conditions."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain, using oxidation states, why the reaction of chlorine gas with cold, dilute sodium hydroxide solution is classified as a disproportionation reaction.", "marks": 3, "model_answer": "Chlorine starts with an oxidation state of 0, as the uncombined element Cl2 (1 mark). In the products, chlorine is found in two different forms: as chloride, Cl−, with an oxidation state of −1 (reduced), and as chlorate(I), ClO−, with an oxidation state of +1 (oxidised) (1 mark). Since the same element (chlorine), starting at a single oxidation state, ends up simultaneously both oxidised and reduced in the products, this reaction is classified as disproportionation (1 mark)."}
+      ],
+      "summary": "Disproportionation is a redox reaction in which a single species is simultaneously oxidised and reduced, ending up as two different products with different oxidation states of the same element. The reaction of chlorine with sodium hydroxide (forming chloride and chlorate ions) is a classic example.",
+      "revision_notes": ["Disproportionation: same element, one starting oxidation state → two different oxidation states in products (one higher, one lower)", "Classic example: Cl2 + NaOH → NaCl (−1) + NaClO (+1) [cold, dilute] or NaClO3 (+5) [hot, concentrated]", "A special subtype of redox reaction, not a separate category"],
+      "related_topics": ["Redox Reactions", "Oxidation States (Oxidation Numbers)", "Halogens"],
+      "prerequisites": ["Redox Reactions"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-141-half-equations",
+      "subject": "Chemistry",
+      "category": "Formulae, Equations and Oxidation States",
+      "title": "Half-Equations",
+      "difficulty": "Higher",
+      "description": "Equations that show the oxidation or reduction process for one species alone, including the number of electrons transferred, which can be combined to construct a full redox equation.",
+      "learning_objectives": [
+        "Write half-equations for simple oxidation and reduction processes",
+        "Balance half-equations for atoms and charge",
+        "Combine two half-equations to construct a balanced overall redox equation"
+      ],
+      "explanation": "A half-equation shows either the oxidation or the reduction process occurring to a single species in isolation, explicitly including the electrons lost or gained as part of the equation (e.g. Zn → Zn2+ + 2e− for oxidation, or Cu2+ + 2e− → Cu for reduction). Half-equations must be balanced for both atoms and overall charge on each side. To construct a full, overall redox equation from two separate half-equations (one oxidation, one reduction), the number of electrons in each half-equation must first be made equal (by multiplying one or both half-equations by an appropriate whole number if necessary), so that the electrons lost in the oxidation half-equation exactly match the electrons gained in the reduction half-equation; the two half-equations are then added together, and the electrons (now appearing identically on both sides) cancel out, leaving the final, balanced overall redox equation.",
+      "key_concepts": ["Shows oxidation or reduction for one species alone, including electrons", "Balanced for BOTH atoms and charge", "Combine half-equations (matching electron numbers) to get overall equation"],
+      "definitions": [
+        {"term": "Half-equation", "definition": "An equation showing the oxidation or reduction process for a single species in isolation, including the number of electrons transferred."}
+      ],
+      "formulae": [],
+      "equations": [
+        "Oxidation half-equation: Zn(s) → Zn2+(aq) + 2e−",
+        "Reduction half-equation: Cu2+(aq) + 2e− → Cu(s)"
+      ],
+      "worked_examples": [
+        {
+          "problem": "Combine the half-equations Mg → Mg2+ + 2e− and Ag+ + e− → Ag to form the overall balanced redox equation.",
+          "working": "The oxidation half-equation involves 2 electrons; the reduction half-equation involves only 1 electron. Multiply the reduction half-equation by 2 to match: 2Ag+ + 2e− → 2Ag. Now both half-equations involve 2 electrons, which will cancel when added.",
+          "answer": "Mg + 2Ag+ → Mg2+ + 2Ag"
+        }
+      ],
+      "practical_applications": ["Half-equations are essential for understanding and balancing complex redox reactions in electrochemistry, including battery design and industrial electrolysis processes"],
+      "laboratory_applications": ["Writing half-equations for the reactions occurring at each electrode during electrolysis experiments, to fully explain the products formed"],
+      "common_mistakes": ["Forgetting to multiply an entire half-equation (all species, not just the electrons) by the necessary whole number when matching electron numbers between two half-equations", "Forgetting to check that a half-equation itself is correctly balanced for charge (not just atoms) before attempting to combine it with another"],
+      "misconceptions": ["Believing electrons must always cancel exactly without needing any adjustment — the number of electrons in the oxidation and reduction half-equations frequently differs and must be deliberately matched (by finding a common multiple) before the equations can be correctly combined"],
+      "tips": ["Find the lowest common multiple of the electron numbers in the two half-equations, then multiply each half-equation by whatever factor is needed to reach that common multiple of electrons before adding them together"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Write the oxidation half-equation for a magnesium atom losing two electrons to form Mg2+.", "answer": "Mg → Mg2+ + 2e−"},
+          {"question": "Write the reduction half-equation for a copper(II) ion gaining two electrons to form copper metal.", "answer": "Cu2+ + 2e− → Cu"}
+        ],
+        "intermediate": [
+          {"question": "Combine the half-equations Fe → Fe2+ + 2e− and Cl2 + 2e− → 2Cl− to form the overall balanced equation.", "answer": "Both half-equations already involve 2 electrons, so they can be added directly: Fe + Cl2 → Fe2+ + 2Cl−, which can also be written with the appropriate compound formula: Fe + Cl2 → FeCl2."},
+          {"question": "Combine the half-equations Al → Al3+ + 3e− and Cu2+ + 2e− → Cu to form the overall balanced equation.", "answer": "Find the lowest common multiple of 3 and 2, which is 6. Multiply the first half-equation by 2: 2Al → 2Al3+ + 6e−. Multiply the second half-equation by 3: 3Cu2+ + 6e− → 3Cu. Adding and cancelling the 6 electrons: 2Al + 3Cu2+ → 2Al3+ + 3Cu."}
+        ],
+        "advanced": [
+          {"question": "Write the half-equation for the reduction of manganate(VII) ions, MnO4−, to Mn2+ ions in acidic solution, and explain how oxygen and hydrogen are balanced in this type of half-equation.", "answer": "MnO4−(aq) + 8H+(aq) + 5e− → Mn2+(aq) + 4H2O(l). In half-equations involving oxoanions (ions containing oxygen) in acidic solution, oxygen is balanced by adding water molecules to whichever side needs the oxygen atoms (here, 4 water molecules are added to the product side to account for the 4 oxygen atoms originally in MnO4−). Hydrogen is then balanced by adding hydrogen ions (H+) to whichever side needs additional hydrogen atoms to balance those introduced by the water molecules (here, 8 H+ ions are added to the reactant side, providing the 8 hydrogen atoms needed to balance the 4 H2O molecules on the product side). Finally, the overall charge is balanced by adding the appropriate number of electrons: the reactant side has a charge of (−1) + (+8) = +7, and the product side has a charge of +2, so 5 electrons (each contributing −1) must be added to the reactant side to reduce its charge from +7 to +2, matching the product side and correctly reflecting the reduction of manganese from +7 (in MnO4−) to +2 (in Mn2+)."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Combine the half-equations Zn → Zn2+ + 2e− and Ag+ + e− → Ag to construct the overall balanced ionic equation for the reaction between zinc metal and silver ions.", "marks": 3, "model_answer": "The oxidation half-equation involves 2 electrons, while the reduction half-equation involves only 1 electron; the reduction half-equation must be multiplied by 2 to match: 2Ag+ + 2e− → 2Ag (1 mark). Adding the two half-equations and cancelling the now-equal electrons on both sides (1 mark) gives the overall equation: Zn + 2Ag+ → Zn2+ + 2Ag (1 mark)."}
+      ],
+      "summary": "Half-equations show the oxidation or reduction of a single species, including electrons transferred, balanced for both atoms and charge. Combining an oxidation and a reduction half-equation (after matching electron numbers) gives the overall balanced redox equation.",
+      "revision_notes": ["Half-equation: one species, includes electrons, balanced for atoms AND charge", "Match electron numbers (find common multiple) before combining two half-equations", "For oxoanions in acid: balance O with H2O, then H with H+, then charge with e−"],
+      "related_topics": ["Redox Reactions", "Oxidation Reactions", "Reduction Reactions", "Electrode Reactions"],
+      "prerequisites": ["Redox Reactions"],
+      "diagram_recommendations": [],
+      "images": []
+    }
+  ]
+}

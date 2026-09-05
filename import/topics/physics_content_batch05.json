@@ -1,0 +1,1664 @@
+[
+  {
+    "id": "phy-051",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Elastic Limit",
+    "difficulty": "Intermediate",
+    "description": "The maximum force or extension beyond which a material no longer returns to its original shape once the deforming force is removed.",
+    "learning_objectives": [
+      "Define the elastic limit",
+      "Identify the elastic limit on a force-extension graph",
+      "Explain the significance of exceeding the elastic limit"
+    ],
+    "explanation": "The elastic limit (sometimes called the limit of proportionality when referring specifically to where Hooke's law stops applying) is the maximum force, or corresponding extension, up to which a material will return completely to its original shape once the deforming force is removed. Below the elastic limit, a material undergoes purely elastic deformation: it stretches or compresses under load and springs fully back when the load is released, with force and extension typically related linearly (obeying Hooke's law). Beyond the elastic limit, the material begins to undergo plastic deformation, meaning some of the deformation becomes permanent — the material will not return to its original length or shape, even after the force is completely removed. On a force-extension graph, the elastic limit is the point where the graph stops being a straight line and begins to curve.",
+    "key_concepts": [
+      "Elastic limit = boundary between elastic and plastic deformation",
+      "Below it: full recovery of original shape",
+      "Beyond it: permanent deformation occurs"
+    ],
+    "definitions": [
+      {
+        "term": "Elastic limit",
+        "definition": "The maximum force or extension up to which a material returns completely to its original shape once the deforming force is removed."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A spring is stretched with a force below its elastic limit, then the force is removed. Describe what happens to the spring's length.",
+        "steps": [
+          "Since the applied force is below the elastic limit, the spring has undergone only elastic deformation.",
+          "Elastic deformation is fully reversible once the deforming force is removed.",
+          "The spring will therefore return completely to its original, natural length."
+        ],
+        "answer": "The spring returns fully to its original length, since the elastic limit was not exceeded."
+      }
+    ],
+    "practical_applications": [
+      "Engineering safety margins, ensuring structural components are never loaded beyond their elastic limit during normal use",
+      "Material selection for springs and flexible components that must repeatedly return to shape",
+      "Quality testing of materials to determine their safe working load range"
+    ],
+    "common_mistakes": [
+      "Assuming the elastic limit and the point where a material actually breaks are the same thing (a material can be permanently deformed well before it fractures)",
+      "Assuming Hooke's law (F = kx) remains valid beyond the elastic limit"
+    ],
+    "misconceptions": [
+      "That exceeding the elastic limit immediately destroys or breaks a material — exceeding the elastic limit only means the deformation becomes permanent (plastic); the material can often still function, just with a changed, non-original shape, and further additional force would typically be needed to actually break it."
+    ],
+    "tips": [
+      "On a force-extension graph, look for where the straight line first begins to curve — this marks the elastic limit."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State what happens to a material once it has been stretched beyond its elastic limit and the force is removed."
+      ],
+      "intermediate": [
+        "Explain how the elastic limit can be identified from a force-extension graph."
+      ],
+      "advanced": [
+        "Explain why engineers design structures to operate well within a material's elastic limit, rather than close to it."
+      ]
+    },
+    "exam_questions": [
+      "Define the elastic limit, and explain the difference in a material's behaviour when stretched below versus beyond this limit."
+    ],
+    "answers": {
+      "basic": [
+        "The material does not return fully to its original shape or length; it retains some permanent deformation."
+      ],
+      "intermediate": [
+        "The elastic limit is identified as the point on the graph where the straight, linear section (where Hooke's law is obeyed) ends and the line begins to curve."
+      ],
+      "advanced": [
+        "Operating well within the elastic limit provides a safety margin against unexpected extra loads, material fatigue, or manufacturing variability, ensuring the structure reliably returns to its intended shape and does not accumulate permanent damage over repeated use, which could eventually lead to failure."
+      ],
+      "exam": [
+        "The elastic limit is the maximum force (or extension) up to which a material returns completely to its original shape once the deforming force is removed; below this limit, deformation is elastic and fully reversible, while beyond it, deformation becomes plastic (permanent), and the material does not fully return to its original shape even after the force is removed."
+      ]
+    },
+    "summary": "The elastic limit is the maximum force or extension up to which a material fully recovers its original shape. Beyond this limit, deformation becomes permanent (plastic).",
+    "revision_notes": [
+      "Below elastic limit: full recovery (elastic)",
+      "Beyond elastic limit: permanent deformation (plastic)",
+      "Marked by where a force-extension graph stops being a straight line"
+    ],
+    "related_topics": [
+      "Hooke's Law",
+      "Elastic Deformation",
+      "Plastic Deformation"
+    ],
+    "prerequisites": [
+      "Hooke's Law"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-052",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Elastic Deformation",
+    "difficulty": "Intermediate",
+    "description": "A temporary change in an object's shape or size that is fully reversed once the deforming force is removed.",
+    "learning_objectives": [
+      "Define elastic deformation",
+      "Explain why elastic deformation is fully reversible",
+      "Identify examples of elastic deformation in everyday materials"
+    ],
+    "explanation": "Elastic deformation is a change in an object's shape or size, caused by an applied force, that is completely reversed once that force is removed — the object returns exactly to its original dimensions. This occurs when the deforming force stays below the material's elastic limit, so that the microscopic bonds between the particles making up the material are only stretched or compressed, not permanently rearranged or broken. On a force-extension graph, elastic deformation is represented by the initial straight-line region (where Hooke's law is often obeyed), and loading and unloading the material follow the exact same line, showing the process is fully reversible with no energy permanently lost to reshaping the material. Common examples include a rubber band or spring stretched by a small amount, or a diving board flexing under a diver's weight before they jump.",
+    "key_concepts": [
+      "Fully reversible change in shape",
+      "Occurs below the elastic limit",
+      "Loading and unloading follow the same path on a force-extension graph"
+    ],
+    "definitions": [
+      {
+        "term": "Elastic deformation",
+        "definition": "A temporary, fully reversible change in an object's shape or size caused by an applied force, occurring below the material's elastic limit."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A diving board flexes downward as a diver stands on it, then springs back to its original position after the diver jumps off. Explain why this is an example of elastic deformation.",
+        "steps": [
+          "The diving board changes shape (bends) under the applied force (the diver's weight).",
+          "Once the force is removed (the diver jumps off), the board returns completely to its original, unflexed shape.",
+          "Since the change in shape was fully reversed once the force was removed, this is elastic deformation, indicating the board was not stressed beyond its elastic limit."
+        ],
+        "answer": "This is elastic deformation because the diving board's change in shape is fully reversed once the diver's weight (the deforming force) is removed."
+      }
+    ],
+    "practical_applications": [
+      "Springs, trampolines, and other devices designed to store and release energy repeatedly through elastic deformation",
+      "Structural engineering, where components such as beams are designed to flex elastically under normal loads without permanent damage",
+      "Sports equipment such as archery bows and pole-vault poles, which rely on elastic deformation to store and release energy"
+    ],
+    "common_mistakes": [
+      "Assuming any bending or stretching of a material counts as elastic deformation, without checking whether it fully reverses once the force is removed",
+      "Confusing elastic deformation with plastic deformation"
+    ],
+    "misconceptions": [
+      "That elastic deformation means a material is not experiencing any internal forces or stress — elastic deformation still involves significant internal forces as the material's bonds stretch or compress; it is only distinguished from plastic deformation by whether this deformation is fully reversed once the external force is removed."
+    ],
+    "tips": [
+      "To test whether a deformation is elastic, check whether the object returns completely to its original shape and size once the force is removed — if it does, the deformation was elastic."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the key characteristic that defines elastic deformation."
+      ],
+      "intermediate": [
+        "Explain why a rubber band stretched a small amount and then released is an example of elastic deformation."
+      ],
+      "advanced": [
+        "Explain, using the force-extension graph, why the loading and unloading lines for elastic deformation are identical."
+      ]
+    },
+    "exam_questions": [
+      "Define elastic deformation, and explain the condition (in terms of the elastic limit) under which it occurs."
+    ],
+    "answers": {
+      "basic": [
+        "The deformation is fully reversed once the deforming force is removed."
+      ],
+      "intermediate": [
+        "The rubber band returns completely to its original length once released, showing the deformation was fully reversible and therefore elastic."
+      ],
+      "advanced": [
+        "Because elastic deformation is fully reversible with no permanent change to the material's internal structure, the same relationship between force and extension applies whether the material is being loaded (stretched) or unloaded (released), so the two processes trace out exactly the same line on the graph."
+      ],
+      "exam": [
+        "Elastic deformation is a temporary, fully reversible change in an object's shape or size caused by an applied force; it occurs provided the force stays below the material's elastic limit, so the material's internal structure is only temporarily stretched or compressed, not permanently altered."
+      ]
+    },
+    "summary": "Elastic deformation is a fully reversible change in shape caused by a force below the material's elastic limit. The object returns completely to its original shape once the force is removed.",
+    "revision_notes": [
+      "Fully reversible; occurs below elastic limit",
+      "Loading and unloading follow the same graph line",
+      "Examples: springs, trampolines, flexing beams"
+    ],
+    "related_topics": [
+      "Elastic Limit",
+      "Plastic Deformation",
+      "Hooke's Law"
+    ],
+    "prerequisites": [
+      "Elastic Limit"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A force-extension graph where the loading and unloading lines are identical, showing full recovery]"
+    ],
+    "images": [
+      {
+        "filename": "physics-elastic-plastic-deformation-052-01.webp",
+        "type": "graph",
+        "description": "Two side-by-side force-extension graphs: the left panel shows elastic deformation, with loading and unloading following the identical straight line back to zero extension; the right panel shows plastic deformation, with the unloading line returning to a non-zero 'permanent extension' rather than back to the origin.",
+        "purpose": "Directly contrasts the two types of deformation on the same kind of graph, making clear the defining visual difference: whether the material returns to zero extension or not.",
+        "placement": "Directly after the explanation paragraph, before the worked example. (This image is shared with the Plastic Deformation topic.)"
+      }
+    ]
+  },
+  {
+    "id": "phy-053",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Plastic Deformation",
+    "difficulty": "Intermediate",
+    "description": "A permanent change in an object's shape or size that remains even after the deforming force is fully removed.",
+    "learning_objectives": [
+      "Define plastic deformation",
+      "Explain why plastic deformation is not reversed when the force is removed",
+      "Identify examples of plastic deformation in everyday materials"
+    ],
+    "explanation": "Plastic deformation is a permanent change in an object's shape or size caused by a force that exceeds the material's elastic limit. Unlike elastic deformation, this change is not reversed once the deforming force is removed — the object remains in its new, deformed shape. This happens because the applied force is large enough to permanently rearrange the microscopic structure of the material (for example, causing layers of atoms in a metal to slide past one another into new positions), rather than just temporarily stretching the bonds between particles. On a force-extension graph, plastic deformation is shown by the unloading line (as the force is removed) following a different path from the original loading line, ending at a non-zero extension rather than returning to the origin — this remaining extension represents the permanent change in the material's length. Common examples include bending a metal paperclip or coat hanger out of shape, or dropping and permanently denting a metal can.",
+    "key_concepts": [
+      "Permanent, irreversible change in shape",
+      "Occurs beyond the elastic limit",
+      "Unloading line on a graph does not return to the origin"
+    ],
+    "definitions": [
+      {
+        "term": "Plastic deformation",
+        "definition": "A permanent, irreversible change in an object's shape or size caused by a force exceeding the material's elastic limit."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A metal paperclip is bent into a new shape and does not spring back when released. Explain why this is an example of plastic deformation.",
+        "steps": [
+          "The paperclip's shape has changed as a result of an applied force.",
+          "Once the force is removed, the paperclip does not return to its original shape; it remains bent.",
+          "Since the change in shape is permanent (not reversed once the force is removed), this is plastic deformation, indicating the applied force exceeded the paperclip's elastic limit."
+        ],
+        "answer": "This is plastic deformation because the paperclip's new, bent shape is permanent and is not reversed once the deforming force is removed."
+      }
+    ],
+    "practical_applications": [
+      "Metalworking processes such as forging, bending, and pressing, which deliberately use plastic deformation to shape materials permanently",
+      "Crumple zones in vehicles, designed to plastically deform in a collision, absorbing energy to protect occupants",
+      "Manufacturing processes that rely on permanently reshaping raw materials into finished products"
+    ],
+    "common_mistakes": [
+      "Assuming plastic deformation only applies to materials made of plastic (the term refers to the type of deformation, not the material)",
+      "Assuming an object that has plastically deformed cannot support any load afterward, rather than recognising it simply has a new, permanent shape"
+    ],
+    "misconceptions": [
+      "That 'plastic deformation' specifically refers to plastic materials — the term describes a type of permanent deformation and applies to any material, including metals, which is why it is used to describe processes like metal forging and the crumpling of a car's metal bodywork."
+    ],
+    "tips": [
+      "Check whether an object returns to its original shape once a force is removed: if it does not, plastic deformation has occurred, indicating the elastic limit was exceeded."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the key characteristic that defines plastic deformation."
+      ],
+      "intermediate": [
+        "Explain why a car's crumple zone is deliberately designed to undergo plastic deformation during a collision."
+      ],
+      "advanced": [
+        "A metal wire is stretched beyond its elastic limit and then the force is removed. Describe, referring to a force-extension graph, what would be observed about its final length."
+      ]
+    },
+    "exam_questions": [
+      "Define plastic deformation, and explain the condition (in terms of the elastic limit) under which it occurs."
+    ],
+    "answers": {
+      "basic": [
+        "The deformation is permanent and is not reversed once the deforming force is removed."
+      ],
+      "intermediate": [
+        "Plastic deformation in the crumple zone absorbs and dissipates a large amount of the collision's kinetic energy by permanently changing the shape of the metal, reducing the force and energy transferred to the passenger compartment and its occupants."
+      ],
+      "advanced": [
+        "The wire's final length would be greater than its original length; on a force-extension graph, this would be shown by the unloading line ending at a point on the extension axis to the right of the origin (a non-zero extension), representing this permanent increase in length."
+      ],
+      "exam": [
+        "Plastic deformation is a permanent, irreversible change in an object's shape or size, occurring when an applied force exceeds the material's elastic limit; because the force is large enough to permanently rearrange the material's internal structure, the object retains its new shape and does not return to its original dimensions once the force is removed."
+      ]
+    },
+    "summary": "Plastic deformation is a permanent change in shape caused by a force exceeding the elastic limit. Unlike elastic deformation, it is not reversed once the force is removed, as shown by an unloading line on a force-extension graph that does not return to the origin.",
+    "revision_notes": [
+      "Permanent, irreversible; occurs beyond elastic limit",
+      "Unloading line ends at non-zero extension",
+      "Examples: bent paperclip, crumple zones, metal forging"
+    ],
+    "related_topics": [
+      "Elastic Limit",
+      "Elastic Deformation",
+      "Hooke's Law"
+    ],
+    "prerequisites": [
+      "Elastic Limit"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A force-extension graph where the unloading line is parallel to but offset from the loading line, ending at a non-zero permanent extension]"
+    ],
+    "images": [
+      {
+        "filename": "physics-elastic-plastic-deformation-052-01.webp",
+        "type": "graph",
+        "description": "Two side-by-side force-extension graphs: the left panel shows elastic deformation, with loading and unloading following the identical straight line back to zero extension; the right panel shows plastic deformation, with the unloading line returning to a non-zero 'permanent extension' rather than back to the origin.",
+        "purpose": "Directly contrasts the two types of deformation on the same kind of graph, making clear the defining visual difference: whether the material returns to zero extension or not.",
+        "placement": "Directly after the explanation paragraph, before the worked example. (This image is shared with the Elastic Deformation topic.)"
+      }
+    ]
+  },
+  {
+    "id": "phy-054",
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "title": "Work Done",
+    "difficulty": "Foundational",
+    "description": "The energy transferred when a force causes an object to move through a distance in the direction of that force.",
+    "learning_objectives": [
+      "Define work done and state its formula",
+      "Calculate work done from force and distance",
+      "Explain the relationship between work done and energy transfer"
+    ],
+    "explanation": "In physics, work is done whenever a force causes an object to move through a distance in the direction of that force. Work done is calculated using W = Fd, where F is the force applied and d is the distance moved in the direction of that force. Work done is measured in joules (J), and doing work on an object is equivalent to transferring energy to (or from) it — in fact, work done and energy transferred are numerically the same quantity, which is why both are measured in joules. If a force acts on an object but the object does not move (for example, pushing against a heavy wall that does not budge), no work is done in the physics sense, regardless of how much effort is exerted, since no distance has been covered. If the force is not in the same direction as the movement, only the component of the force in the direction of movement contributes to the work done, requiring vector resolution for forces acting at an angle.",
+    "key_concepts": [
+      "Work done = force x distance moved in the direction of the force",
+      "Work done = energy transferred",
+      "No movement = no work done, regardless of force applied"
+    ],
+    "definitions": [
+      {
+        "term": "Work done",
+        "definition": "The energy transferred when a force causes an object to move through a distance in the direction of that force, calculated as W = Fd."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Work done",
+        "equation": "W = Fd",
+        "variables": {
+          "W": "work done, J",
+          "F": "force, N",
+          "d": "distance moved in the direction of the force, m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "work done",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A person pushes a shopping trolley with a force of 40 N over a distance of 15 m. Calculate the work done.",
+        "steps": [
+          "Use W = Fd.",
+          "Substitute: W = 40 x 15."
+        ],
+        "answer": "600 J"
+      }
+    ],
+    "practical_applications": [
+      "Calculating the energy required for lifting, pushing, or pulling loads in engineering",
+      "Assessing the mechanical work performed by machines and engines",
+      "Sports science analysis of the work done by an athlete's muscles"
+    ],
+    "common_mistakes": [
+      "Assuming work is done whenever a force is applied, even if no movement occurs",
+      "Using the total distance travelled rather than the distance moved specifically in the direction of the force"
+    ],
+    "misconceptions": [
+      "That 'work' in physics matches the everyday meaning of effort or exertion — in physics, work is done only if there is actual movement in the direction of the applied force; holding a heavy object stationary, however tiring, involves zero work done on the object in the physics sense."
+    ],
+    "tips": [
+      "Always check that the force and the direction of movement are aligned before applying W = Fd directly; if they are at an angle, resolve the force first."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for work done, defining each symbol."
+      ],
+      "intermediate": [
+        "A crane lifts a load with a force of 2000 N over a vertical distance of 5 m. Calculate the work done."
+      ],
+      "advanced": [
+        "A person pulls a sled with a rope at an angle of 30 degrees above the horizontal, applying a force of 50 N, and the sled moves 20 m horizontally. Calculate the work done, using only the horizontal component of the force."
+      ]
+    },
+    "exam_questions": [
+      "Explain why no work is done, in the physics sense, by a person pushing against a wall that does not move, however hard they push."
+    ],
+    "answers": {
+      "basic": [
+        "W = Fd, where W is work done in joules, F is force in newtons, and d is distance moved in the direction of the force, in metres."
+      ],
+      "intermediate": [
+        "W = 2000 x 5 = 10,000 J."
+      ],
+      "advanced": [
+        "Horizontal component of force = 50 cos(30) approx 43.3 N. W = 43.3 x 20 approx 866 J."
+      ],
+      "exam": [
+        "Work done requires a force to cause movement through a distance in the direction of that force; since the wall does not move at all, the distance moved is zero, so W = Fd gives zero work done, regardless of how large the applied force is."
+      ]
+    },
+    "summary": "Work done is the energy transferred when a force causes movement through a distance in the direction of the force, calculated as W = Fd. Work done is numerically equal to energy transferred, and no work is done if there is no movement.",
+    "revision_notes": [
+      "W = Fd",
+      "Work done = energy transferred (both in joules)",
+      "No movement in the direction of the force = no work done"
+    ],
+    "related_topics": [
+      "Energy",
+      "Power",
+      "Kinetic Energy"
+    ],
+    "prerequisites": [
+      "Force"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-055",
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "title": "Energy",
+    "difficulty": "Foundational",
+    "description": "A fundamental physical quantity describing the capacity of a system to do work, existing in several distinct forms and measured in joules.",
+    "learning_objectives": [
+      "Define energy as the capacity to do work",
+      "List the main forms (stores) of energy encountered in physics",
+      "State the SI unit of energy"
+    ],
+    "explanation": "Energy is a fundamental physical quantity that can be thought of as the capacity of a system to do work — in other words, its ability to cause change, such as moving an object, heating something up, or producing light or sound. Energy exists in a number of distinct forms, sometimes called energy stores, including kinetic energy (energy of motion), gravitational potential energy (energy due to position in a gravitational field), elastic potential energy (energy stored in a stretched or compressed object), chemical energy (energy stored in chemical bonds, such as in food or fuel), thermal (internal) energy, nuclear energy, and electrical energy. Energy is measured in joules (J), the same unit as work done, since work done is itself a measure of energy transferred. A central principle running through all of physics is that energy cannot be created or destroyed, only transferred between different stores or objects, or transformed from one form into another, as covered in Conservation of Energy.",
+    "key_concepts": [
+      "Energy = capacity to do work",
+      "Exists in distinct forms/stores (kinetic, gravitational potential, chemical, etc.)",
+      "Measured in joules (J)",
+      "Cannot be created or destroyed, only transferred/transformed"
+    ],
+    "definitions": [
+      {
+        "term": "Energy",
+        "definition": "A fundamental physical quantity describing a system's capacity to do work, existing in several distinct forms, measured in joules."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Identify the main energy store associated with each of the following: (a) a stretched elastic band, (b) a moving car, (c) a lump of coal.",
+        "steps": [
+          "(a) A stretched elastic band has energy stored due to its deformation.",
+          "(b) A moving car has energy stored due to its motion.",
+          "(c) A lump of coal has energy stored in its chemical bonds, released when burned."
+        ],
+        "answer": "(a) Elastic potential energy; (b) Kinetic energy; (c) Chemical energy."
+      }
+    ],
+    "practical_applications": [
+      "Designing energy-efficient buildings, vehicles, and appliances",
+      "Calculating the energy content of fuels and foods",
+      "Analysing energy transfers in electrical circuits, engines, and biological systems"
+    ],
+    "common_mistakes": [
+      "Treating energy as though it can be 'used up' and disappear, rather than being transferred or transformed into another form",
+      "Confusing energy with power (energy is a quantity of 'stuff transferred'; power is the rate at which it is transferred)"
+    ],
+    "misconceptions": [
+      "That energy is 'lost' when a system becomes less useful (e.g. a bouncing ball eventually stopping) — the total energy is conserved and is transferred to other forms, typically thermal energy dissipated to the surroundings, rather than genuinely disappearing."
+    ],
+    "tips": [
+      "When asked to describe an energy transfer, identify the energy store at the start and the energy store(s) at the end, and name the process linking them (e.g. 'chemical energy is transferred to kinetic and thermal energy by the engine')."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the SI unit of energy."
+      ],
+      "intermediate": [
+        "Identify the main energy store of a fully charged battery."
+      ],
+      "advanced": [
+        "Explain why energy is described as being 'transferred' or 'transformed' rather than 'used up', with reference to the principle of conservation of energy."
+      ]
+    },
+    "exam_questions": [
+      "Define energy, and name three different forms (stores) of energy."
+    ],
+    "answers": {
+      "basic": [
+        "Joule (J)."
+      ],
+      "intermediate": [
+        "Chemical energy."
+      ],
+      "advanced": [
+        "Energy cannot be created or destroyed, only transferred between objects or transformed between different forms (the principle of conservation of energy); when a system appears to 'use up' energy, that energy has actually been transferred to another store (often thermal energy dissipated into the surroundings), so the total amount of energy in an isolated system remains constant, even though it may become less useful or harder to access in its new form."
+      ],
+      "exam": [
+        "Energy is a fundamental physical quantity describing a system's capacity to do work; example forms: kinetic energy, gravitational potential energy, chemical energy (accept any three valid forms)."
+      ]
+    },
+    "summary": "Energy is the capacity of a system to do work, existing in several distinct forms (kinetic, gravitational potential, chemical, and others), measured in joules. Energy cannot be created or destroyed, only transferred or transformed between forms.",
+    "revision_notes": [
+      "Energy = capacity to do work, unit: joule (J)",
+      "Main forms: kinetic, gravitational PE, elastic PE, chemical, thermal, nuclear, electrical",
+      "Conserved: never created or destroyed, only transferred/transformed"
+    ],
+    "related_topics": [
+      "Work Done",
+      "Conservation of Energy",
+      "Energy Transfers",
+      "Kinetic Energy"
+    ],
+    "prerequisites": [
+      "Work Done"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-056",
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "title": "Kinetic Energy",
+    "difficulty": "Foundational",
+    "description": "The energy an object possesses due to its motion, depending on both its mass and its speed.",
+    "learning_objectives": [
+      "State the equation for kinetic energy",
+      "Calculate the kinetic energy of a moving object",
+      "Explain how kinetic energy is affected by changes in mass and speed"
+    ],
+    "explanation": "Kinetic energy is the energy an object possesses because it is moving. It is calculated using the equation KE = 1/2 mv^2, where m is the object's mass and v is its speed. Because speed is squared in this equation, kinetic energy increases very rapidly with speed: doubling an object's speed quadruples its kinetic energy, while tripling its speed increases its kinetic energy by a factor of nine. Kinetic energy also increases directly (proportionally) with mass: doubling an object's mass, at the same speed, doubles its kinetic energy. Every moving object possesses kinetic energy, from a walking person to a speeding car to a planet orbiting the Sun, and this energy would be released (transferred to other forms) if the object were brought to rest, for example through braking, which is why stopping distances and the associated risks increase so sharply with speed.",
+    "key_concepts": [
+      "KE = 1/2 mv^2",
+      "Proportional to mass",
+      "Proportional to speed squared (doubling speed quadruples KE)"
+    ],
+    "definitions": [
+      {
+        "term": "Kinetic energy",
+        "definition": "The energy an object possesses due to its motion, calculated as KE = 1/2 mv^2."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Kinetic energy",
+        "equation": "KE = (1/2)mv^2",
+        "variables": {
+          "KE": "kinetic energy, J",
+          "m": "mass, kg",
+          "v": "speed, m/s"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "kinetic energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Calculate the kinetic energy of a 1200 kg car travelling at 20 m/s.",
+        "steps": [
+          "Use KE = (1/2)mv^2.",
+          "Substitute: KE = (1/2)(1200)(20^2) = (1/2)(1200)(400)."
+        ],
+        "answer": "240,000 J (240 kJ)"
+      },
+      {
+        "problem": "Explain the effect on kinetic energy if the car's speed in the previous example doubles to 40 m/s, with mass unchanged.",
+        "steps": [
+          "Recall that kinetic energy depends on the square of speed.",
+          "Doubling the speed means v^2 increases by a factor of 2^2 = 4.",
+          "Therefore kinetic energy increases by a factor of 4."
+        ],
+        "answer": "The kinetic energy would become 4 x 240,000 = 960,000 J, four times the original value, even though speed only doubled."
+      }
+    ],
+    "practical_applications": [
+      "Calculating vehicle stopping distances and collision severity, which depend on kinetic energy",
+      "Designing roller coasters and other rides where kinetic energy transforms to and from other energy stores",
+      "Analysing wind turbine and hydroelectric power generation, which convert kinetic energy of moving fluid into electrical energy"
+    ],
+    "common_mistakes": [
+      "Forgetting to square the speed when calculating kinetic energy",
+      "Assuming kinetic energy increases in direct proportion to speed, rather than to speed squared"
+    ],
+    "misconceptions": [
+      "That doubling speed only doubles the danger or stopping distance associated with a collision — because kinetic energy depends on speed squared, the energy that must be dissipated to stop a vehicle (and therefore the associated risk) increases four-fold when speed doubles, which is why speed limits have such a significant safety impact."
+    ],
+    "tips": [
+      "Always square the speed before multiplying by mass and 1/2 — a very common calculation error is applying the square to the whole expression instead."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for kinetic energy, defining each symbol."
+      ],
+      "intermediate": [
+        "Calculate the kinetic energy of a 0.5 kg ball moving at 12 m/s."
+      ],
+      "advanced": [
+        "A 900 kg car's speed increases from 10 m/s to 30 m/s. Calculate the increase in its kinetic energy."
+      ]
+    },
+    "exam_questions": [
+      "Explain, using the equation for kinetic energy, why a small increase in a vehicle's speed can lead to a much larger increase in the energy involved in a collision."
+    ],
+    "answers": {
+      "basic": [
+        "KE = (1/2)mv^2, where KE is kinetic energy in joules, m is mass in kilograms, and v is speed in metres per second."
+      ],
+      "intermediate": [
+        "KE = (1/2)(0.5)(12^2) = (1/2)(0.5)(144) = 36 J."
+      ],
+      "advanced": [
+        "KE at 10 m/s = (1/2)(900)(10^2) = 45,000 J. KE at 30 m/s = (1/2)(900)(30^2) = 405,000 J. Increase = 405,000 - 45,000 = 360,000 J."
+      ],
+      "exam": [
+        "Because kinetic energy is proportional to the square of speed (KE = (1/2)mv^2), even a relatively small increase in speed produces a disproportionately large increase in kinetic energy — for example, a 50% increase in speed leads to a 125% increase in kinetic energy (since 1.5^2 = 2.25), meaning collisions become significantly more energetic and dangerous at higher speeds."
+      ]
+    },
+    "summary": "Kinetic energy is the energy of motion, calculated as KE = 1/2 mv^2. It is proportional to mass and to the square of speed, meaning small increases in speed produce disproportionately large increases in kinetic energy.",
+    "revision_notes": [
+      "KE = (1/2)mv^2",
+      "Proportional to mass; proportional to speed squared",
+      "Doubling speed -> KE x4"
+    ],
+    "related_topics": [
+      "Energy",
+      "Work Done",
+      "Gravitational Potential Energy (Uniform Field)"
+    ],
+    "prerequisites": [
+      "Energy",
+      "Speed"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-057",
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "title": "Gravitational Potential Energy (Uniform Field)",
+    "difficulty": "Foundational",
+    "description": "The energy an object possesses due to its height above a reference level within a uniform gravitational field, such as near the Earth's surface.",
+    "learning_objectives": [
+      "State the equation for gravitational potential energy in a uniform field",
+      "Calculate the change in gravitational potential energy for a change in height",
+      "Explain the relationship between gravitational potential energy and work done against gravity"
+    ],
+    "explanation": "Gravitational potential energy (GPE) is the energy an object possesses due to its position within a gravitational field, specifically its height above some chosen reference level (often taken as the ground or the starting point of a problem). Near the Earth's surface, where the gravitational field strength g can be treated as constant (a 'uniform field' approximation), the change in gravitational potential energy when an object of mass m is raised through a height h is calculated using GPE = mgh. This equation comes directly from the definition of work done: raising an object at constant speed requires a force equal to its weight (mg), and lifting it through a height h means this force acts over that distance, so the work done (and therefore the energy transferred to gravitational potential energy) is W = Fd = (mg)(h). This uniform-field version of GPE is suitable for everyday heights near the Earth's surface; for large-scale changes in distance, such as satellites or objects far from the Earth, a more general radial-field version of gravitational potential energy is required, covered in Circular Motion and Gravitation.",
+    "key_concepts": [
+      "GPE = mgh (uniform field, valid near Earth's surface)",
+      "GPE change = work done against gravity",
+      "Depends on height relative to a chosen reference level"
+    ],
+    "definitions": [
+      {
+        "term": "Gravitational potential energy (uniform field)",
+        "definition": "The energy an object possesses due to its height within a uniform gravitational field, calculated as GPE = mgh."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Gravitational potential energy (uniform field)",
+        "equation": "GPE = mgh",
+        "variables": {
+          "GPE": "gravitational potential energy, J",
+          "m": "mass, kg",
+          "g": "gravitational field strength, N/kg (approximately 9.8 N/kg near Earth's surface)",
+          "h": "height above the reference level, m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "gravitational potential energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Calculate the gravitational potential energy gained by a 5 kg object lifted 3 m above the ground (use g = 9.8 N/kg).",
+        "steps": [
+          "Use GPE = mgh.",
+          "Substitute: GPE = 5 x 9.8 x 3."
+        ],
+        "answer": "147 J"
+      }
+    ],
+    "practical_applications": [
+      "Calculating the energy required to lift loads using cranes and lifts",
+      "Hydroelectric power generation, which converts the gravitational potential energy of stored water into electrical energy",
+      "Designing rides such as roller coasters, where GPE at the top of a hill converts to kinetic energy going down"
+    ],
+    "common_mistakes": [
+      "Using the object's total height above sea level rather than its height relative to the specific reference point given in a problem",
+      "Forgetting to use the correct local value of g"
+    ],
+    "misconceptions": [
+      "That gravitational potential energy has an absolute, fixed value for an object — GPE is always measured relative to a chosen reference height, and only the change in GPE between two heights has clear physical meaning in most calculations."
+    ],
+    "tips": [
+      "Clearly identify the reference height (h = 0) at the start of a problem, and calculate h as the vertical distance above this reference point, not the total distance travelled if the object's path was not purely vertical."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for gravitational potential energy in a uniform field, defining each symbol."
+      ],
+      "intermediate": [
+        "Calculate the GPE gained by a 12 kg box lifted 2.5 m, using g = 9.8 N/kg."
+      ],
+      "advanced": [
+        "A 2 kg ball is thrown upward and reaches a maximum height of 8 m above its starting point. Calculate the GPE gained at this maximum height, and explain what has happened to its kinetic energy."
+      ]
+    },
+    "exam_questions": [
+      "Explain, using the concept of work done, why the equation for gravitational potential energy in a uniform field is GPE = mgh."
+    ],
+    "answers": {
+      "basic": [
+        "GPE = mgh, where GPE is gravitational potential energy in joules, m is mass in kilograms, g is gravitational field strength in N/kg, and h is height in metres."
+      ],
+      "intermediate": [
+        "GPE = 12 x 9.8 x 2.5 = 294 J."
+      ],
+      "advanced": [
+        "GPE gained = mgh = 2 x 9.8 x 8 = 156.8 J. At the maximum height, the ball's vertical velocity is momentarily zero, so all of its initial kinetic energy has been transferred to gravitational potential energy (assuming air resistance is negligible)."
+      ],
+      "exam": [
+        "Raising an object of weight mg through a height h at constant speed requires an applied force equal to the object's weight, mg, acting over a distance h; since work done is W = Fd, this gives W = (mg)(h), and since this work done is exactly the energy transferred to the object's gravitational potential energy store, GPE = mgh."
+      ]
+    },
+    "summary": "Gravitational potential energy in a uniform field is the energy an object has due to its height, calculated as GPE = mgh. This equation follows directly from the work needed to lift an object's weight through that height.",
+    "revision_notes": [
+      "GPE = mgh (uniform field, near Earth's surface)",
+      "Follows from W = Fd, with F = weight = mg",
+      "Measured relative to a chosen reference height"
+    ],
+    "related_topics": [
+      "Kinetic Energy",
+      "Work Done",
+      "Weight",
+      "Conservation of Energy"
+    ],
+    "prerequisites": [
+      "Weight",
+      "Work Done"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-058",
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "title": "Elastic Potential Energy",
+    "difficulty": "Intermediate",
+    "description": "The energy stored in an elastic object, such as a spring, when it is stretched or compressed.",
+    "learning_objectives": [
+      "State the equation for elastic potential energy stored in a spring obeying Hooke's law",
+      "Calculate elastic potential energy from spring constant and extension",
+      "Relate elastic potential energy to the area under a force-extension graph"
+    ],
+    "explanation": "Elastic potential energy is the energy stored in an object, such as a spring, when it is stretched or compressed from its natural length. For a spring that obeys Hooke's law (within its elastic limit), the elastic potential energy stored is calculated using EPE = 1/2 kx^2, where k is the spring constant and x is the extension (or compression). This equation can be derived from the area under a force-extension graph: since the graph is a straight line through the origin (F = kx) for a spring obeying Hooke's law, the area underneath it up to a given extension is a triangle, with area = 1/2 x base x height = 1/2 x extension x force = 1/2 x x x (kx) = 1/2 kx^2. When the spring is released, this stored elastic potential energy can be transferred to other forms, such as kinetic energy, which is the principle behind devices such as catapults, bows, and pogo sticks.",
+    "key_concepts": [
+      "EPE = 1/2 kx^2 (Hooke's law spring)",
+      "Derived from area under force-extension graph (triangle)",
+      "Only valid within the elastic limit"
+    ],
+    "definitions": [
+      {
+        "term": "Elastic potential energy",
+        "definition": "The energy stored in an object, such as a spring, when it is elastically stretched or compressed, calculated as EPE = 1/2 kx^2 for a spring obeying Hooke's law."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Elastic potential energy",
+        "equation": "EPE = (1/2)kx^2",
+        "variables": {
+          "EPE": "elastic potential energy, J",
+          "k": "spring constant, N/m",
+          "x": "extension (or compression), m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "elastic potential energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A spring with a spring constant of 250 N/m is compressed by 0.08 m. Calculate the elastic potential energy stored, assuming the elastic limit is not exceeded.",
+        "steps": [
+          "Use EPE = (1/2)kx^2.",
+          "Substitute: EPE = (1/2)(250)(0.08^2) = (1/2)(250)(0.0064)."
+        ],
+        "answer": "0.8 J"
+      }
+    ],
+    "practical_applications": [
+      "Designing catapults, bows, and slingshots that convert elastic potential energy into the kinetic energy of a projectile",
+      "Vehicle suspension systems, which temporarily store elastic potential energy in springs to smooth out bumps",
+      "Clockwork and wind-up mechanisms, which store elastic potential energy in a coiled spring to power a mechanism over time"
+    ],
+    "common_mistakes": [
+      "Forgetting to square the extension when calculating elastic potential energy",
+      "Applying EPE = 1/2 kx^2 beyond the elastic limit, where it is no longer valid since the force-extension relationship is no longer linear"
+    ],
+    "misconceptions": [
+      "That elastic potential energy is calculated the same way as work done using force times extension (W = Fx) — this would overestimate the energy stored, since the force is not constant while stretching a spring (it increases from zero up to its final value); the correct calculation uses the area of the triangle under the graph, giving the factor of 1/2 in EPE = 1/2 kx^2."
+    ],
+    "tips": [
+      "Remember the factor of 1/2 in the elastic potential energy equation, which comes from the fact that force increases linearly from zero as a spring is stretched, rather than being constant throughout."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for elastic potential energy stored in a spring obeying Hooke's law."
+      ],
+      "intermediate": [
+        "A spring with spring constant 80 N/m is stretched by 0.15 m. Calculate the elastic potential energy stored."
+      ],
+      "advanced": [
+        "Explain, using the force-extension graph for a spring, why the equation for elastic potential energy includes a factor of 1/2, unlike the equation for work done at constant force."
+      ]
+    },
+    "exam_questions": [
+      "A spring with a spring constant of 120 N/m stores 1.5 J of elastic potential energy. Calculate the extension of the spring, assuming its elastic limit is not exceeded."
+    ],
+    "answers": {
+      "basic": [
+        "EPE = (1/2)kx^2, where EPE is elastic potential energy in joules, k is the spring constant in N/m, and x is the extension in metres."
+      ],
+      "intermediate": [
+        "EPE = (1/2)(80)(0.15^2) = (1/2)(80)(0.0225) = 0.9 J."
+      ],
+      "advanced": [
+        "The force needed to stretch a Hooke's-law spring increases linearly with extension (F = kx), starting from zero, rather than being constant; the energy stored is equal to the area under the force-extension graph, which for a straight line through the origin forms a triangle, and the area of a triangle (1/2 x base x height) naturally introduces the factor of 1/2, unlike simple work done at constant force (W = Fd), which has no such factor because the force does not change with distance in that case."
+      ],
+      "exam": [
+        "EPE = (1/2)kx^2, so 1.5 = (1/2)(120)(x^2), giving x^2 = 1.5 / 60 = 0.025, so x = root(0.025) approx 0.158 m."
+      ]
+    },
+    "summary": "Elastic potential energy is the energy stored in a stretched or compressed elastic object, calculated as EPE = 1/2 kx^2 for a spring obeying Hooke's law. This equation follows from the triangular area under a force-extension graph.",
+    "revision_notes": [
+      "EPE = (1/2)kx^2",
+      "Only valid within the elastic limit",
+      "Derived from the triangular area under a force-extension graph"
+    ],
+    "related_topics": [
+      "Hooke's Law",
+      "Spring Constant",
+      "Energy",
+      "Kinetic Energy"
+    ],
+    "prerequisites": [
+      "Hooke's Law",
+      "Energy"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-059",
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "title": "Chemical Energy",
+    "difficulty": "Foundational",
+    "description": "The energy stored within the chemical bonds of substances, released or absorbed during chemical reactions.",
+    "learning_objectives": [
+      "Define chemical energy",
+      "Identify common sources of chemical energy",
+      "Explain how chemical energy is released through chemical reactions"
+    ],
+    "explanation": "Chemical energy is the energy stored within the bonds that hold atoms together in molecules and compounds. This energy can be released (or, in some cases, absorbed) when a chemical reaction occurs and these bonds are broken and reformed into new arrangements. Common sources of chemical energy include fuels such as coal, oil, natural gas, and wood, all of which release chemical energy (primarily as thermal energy) when burned in combustion reactions; food, which stores chemical energy that living organisms release through respiration to power their bodies; and batteries, which store chemical energy and convert it into electrical energy through controlled chemical reactions. Chemical energy is central to many energy transfer processes studied in physics, since it is one of the most common starting points (or 'input' energy stores) in real-world energy transfer chains, such as a car engine converting the chemical energy of petrol into kinetic energy and thermal energy.",
+    "key_concepts": [
+      "Energy stored in chemical bonds",
+      "Released or absorbed during chemical reactions",
+      "Common sources: fuels, food, batteries"
+    ],
+    "definitions": [
+      {
+        "term": "Chemical energy",
+        "definition": "Energy stored within the chemical bonds of a substance, released or absorbed when a chemical reaction occurs."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Describe the main energy transfer that occurs when wood is burned in a campfire.",
+        "steps": [
+          "Identify the starting energy store: the wood contains chemical energy stored in its molecular bonds.",
+          "Identify the process: combustion (burning) breaks these chemical bonds in a reaction with oxygen.",
+          "Identify the resulting energy stores: this releases the stored chemical energy, mainly as thermal energy (heat) and light energy."
+        ],
+        "answer": "Chemical energy stored in the wood is transferred mainly to thermal energy and light energy through the combustion reaction."
+      }
+    ],
+    "practical_applications": [
+      "Fuel and battery technology, storing and releasing chemical energy for transport and portable devices",
+      "Understanding nutrition and metabolism, where the body releases chemical energy stored in food",
+      "Designing more efficient combustion engines and chemical energy storage systems"
+    ],
+    "common_mistakes": [
+      "Assuming chemical energy is only associated with man-made fuels, rather than also being present in food and other natural substances",
+      "Describing a chemical reaction as 'creating' energy, rather than releasing energy that was already stored in the chemical bonds"
+    ],
+    "misconceptions": [
+      "That burning a fuel destroys energy along with the fuel itself — the fuel's mass is converted into other substances (such as carbon dioxide and water) through the chemical reaction, and its stored chemical energy is transferred to other forms (thermal, light), not destroyed."
+    ],
+    "tips": [
+      "When describing an energy transfer involving a fuel or food being 'used up', identify chemical energy as the starting store, and describe what it becomes transferred into rather than saying it 'disappears'."
+    ],
+    "practice_questions": {
+      "basic": [
+        "Name two everyday sources of chemical energy."
+      ],
+      "intermediate": [
+        "Describe the main energy transfer occurring when a battery powers a torch."
+      ],
+      "advanced": [
+        "Explain why food is considered a store of chemical energy, referring to the process by which the body accesses this energy."
+      ]
+    },
+    "exam_questions": [
+      "Define chemical energy, and describe one example of how it is released through a chemical reaction."
+    ],
+    "answers": {
+      "basic": [
+        "Any two of: fuel (coal, oil, gas, wood), food, batteries."
+      ],
+      "intermediate": [
+        "Chemical energy stored in the battery is transferred to electrical energy, which is then transferred to light energy (and some thermal energy) by the torch's bulb."
+      ],
+      "advanced": [
+        "Food contains chemical energy stored within the bonds of the molecules it contains (such as carbohydrates and fats); the body accesses this energy through the biological process of respiration, a chemical reaction that breaks down these molecules and releases their stored chemical energy, mainly as thermal energy and the energy needed to power bodily functions and movement."
+      ],
+      "exam": [
+        "Chemical energy is energy stored within the chemical bonds of a substance; example: burning natural gas breaks the chemical bonds within the gas molecules in a combustion reaction, releasing the stored chemical energy mainly as thermal energy and light energy."
+      ]
+    },
+    "summary": "Chemical energy is energy stored in the chemical bonds of substances such as fuels, food, and batteries, released (or absorbed) when a chemical reaction occurs.",
+    "revision_notes": [
+      "Chemical energy stored in molecular bonds",
+      "Released/absorbed during chemical reactions",
+      "Sources: fuels, food, batteries"
+    ],
+    "related_topics": [
+      "Energy",
+      "Energy Transfers",
+      "Nuclear Energy"
+    ],
+    "prerequisites": [
+      "Energy"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-060",
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "title": "Nuclear Energy",
+    "difficulty": "Intermediate",
+    "description": "The energy stored within the nucleus of an atom, released through nuclear reactions such as fission and fusion.",
+    "learning_objectives": [
+      "Define nuclear energy",
+      "Distinguish nuclear fission from nuclear fusion at an introductory level",
+      "Identify practical uses of nuclear energy"
+    ],
+    "explanation": "Nuclear energy is the energy stored within the nucleus of an atom, held there by the strong nuclear force that binds protons and neutrons together. This energy can be released through nuclear reactions, of which there are two main types: nuclear fission, in which a large, unstable nucleus (such as uranium-235) splits into two smaller nuclei, releasing energy, and nuclear fusion, in which two small nuclei (such as isotopes of hydrogen) join together to form a larger nucleus, also releasing energy — this is the process that powers the Sun and other stars. Compared with chemical reactions, which involve rearranging the outer electrons of atoms, nuclear reactions involve the nucleus itself and release vastly greater amounts of energy per unit mass of fuel used, following the mass-energy relationship described by Einstein's mass-energy equation. Nuclear fission is currently used in nuclear power stations to generate electricity, while controlled nuclear fusion remains an active area of research, with the goal of providing a nearly limitless, low-carbon energy source in the future.",
+    "key_concepts": [
+      "Nuclear energy = energy stored in the atomic nucleus",
+      "Nuclear fission: large nucleus splits, releasing energy",
+      "Nuclear fusion: small nuclei join, releasing energy",
+      "Releases far more energy per unit mass than chemical reactions"
+    ],
+    "definitions": [
+      {
+        "term": "Nuclear energy",
+        "definition": "Energy stored within the nucleus of an atom, released through nuclear reactions such as fission or fusion."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "State whether nuclear power stations on Earth typically use nuclear fission or nuclear fusion, and identify which of these two processes powers the Sun.",
+        "steps": [
+          "Recall that nuclear power stations use controlled reactions involving large, unstable nuclei such as uranium, which split apart.",
+          "This splitting process is nuclear fission.",
+          "The Sun, by contrast, generates energy by joining small hydrogen nuclei together into larger helium nuclei, which is nuclear fusion."
+        ],
+        "answer": "Nuclear power stations use nuclear fission; the Sun is powered by nuclear fusion."
+      }
+    ],
+    "practical_applications": [
+      "Nuclear power stations, generating electricity via controlled nuclear fission",
+      "Medical applications, such as radiotherapy and diagnostic imaging using nuclear processes",
+      "Ongoing research into nuclear fusion as a future large-scale energy source"
+    ],
+    "common_mistakes": [
+      "Confusing nuclear fission (splitting) with nuclear fusion (joining)",
+      "Assuming all nuclear reactions are equally dangerous or produce the same type and amount of waste"
+    ],
+    "misconceptions": [
+      "That nuclear energy and chemical energy work by the same basic mechanism, just on a larger scale — chemical reactions involve rearranging the outer electrons of atoms and leave the nucleus completely unchanged, while nuclear reactions directly involve changes within the nucleus itself, releasing vastly more energy per unit mass as a result."
+    ],
+    "tips": [
+      "Remember the memory aid: fission 'splits' a large nucleus (like splitting a large log), while fusion 'fuses' (joins) small nuclei together (like fusing two smaller pieces into one)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the two main types of nuclear reaction that release nuclear energy."
+      ],
+      "intermediate": [
+        "Explain, in one sentence each, the difference between nuclear fission and nuclear fusion."
+      ],
+      "advanced": [
+        "Explain why nuclear reactions release far more energy per unit mass of fuel than chemical reactions such as combustion."
+      ]
+    },
+    "exam_questions": [
+      "Define nuclear energy, and explain, with reference to the nucleus, the difference between nuclear fission and nuclear fusion."
+    ],
+    "answers": {
+      "basic": [
+        "Nuclear fission and nuclear fusion."
+      ],
+      "intermediate": [
+        "Nuclear fission is the splitting of a large, unstable nucleus into two smaller nuclei, releasing energy; nuclear fusion is the joining of two small nuclei into a larger nucleus, also releasing energy."
+      ],
+      "advanced": [
+        "Nuclear reactions involve changes within the atomic nucleus itself, where the forces holding nucleons together (the strong nuclear force) are far greater than the electromagnetic forces involved in chemical bonding between atoms' outer electrons; as a result, the energy released per reaction (and per unit mass of material involved) in a nuclear reaction is many millions of times greater than in a typical chemical reaction, as described by Einstein's mass-energy equation, E = mc^2."
+      ],
+      "exam": [
+        "Nuclear energy is energy stored within the nucleus of an atom; nuclear fission involves a large, unstable nucleus splitting into two smaller nuclei, releasing energy, whereas nuclear fusion involves two small nuclei joining together to form a single larger nucleus, also releasing energy."
+      ]
+    },
+    "summary": "Nuclear energy is energy stored in the atomic nucleus, released through nuclear fission (splitting a large nucleus) or nuclear fusion (joining small nuclei), both of which release far more energy per unit mass than chemical reactions.",
+    "revision_notes": [
+      "Nuclear energy stored in the nucleus",
+      "Fission: large nucleus splits; fusion: small nuclei join",
+      "Releases vastly more energy than chemical reactions"
+    ],
+    "related_topics": [
+      "Nuclear Fission",
+      "Nuclear Fusion",
+      "Chemical Energy",
+      "Einstein's Mass-Energy Equation"
+    ],
+    "prerequisites": [
+      "Energy"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-061",
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "title": "Electrical Energy (as an Energy Store)",
+    "difficulty": "Foundational",
+    "description": "The energy transferred by an electric current, and the sense in which electrical energy acts as an intermediate energy store in transfer chains.",
+    "learning_objectives": [
+      "Describe electrical energy as energy transferred by an electric current",
+      "Identify common devices that convert electrical energy into other useful forms",
+      "Explain the role of electrical energy as an intermediate store in typical energy transfer chains"
+    ],
+    "explanation": "Electrical energy is the energy transferred by an electric current as it flows through a circuit, carrying energy from a source (such as a battery, generator, or mains supply) to a component that transfers it into a more directly useful form. Electrical energy is generally regarded as an 'intermediate' store or transfer, since it typically appears in the middle of a longer chain: for example, a power station transfers chemical or nuclear energy into electrical energy, which is transmitted through the National Grid and then transferred, at the point of use, into other useful forms such as light energy (in a lamp), kinetic energy (in a motor), or thermal energy (in a heater). The amount of electrical energy transferred by a circuit depends on the current, potential difference, and time for which the circuit operates, as covered quantitatively in Electrical Power and Electrical Energy within the Electricity category.",
+    "key_concepts": [
+      "Electrical energy = energy transferred by an electric current",
+      "Acts as an intermediate store in most transfer chains",
+      "Converted into other useful forms by circuit components (light, kinetic, thermal, sound)"
+    ],
+    "definitions": [
+      {
+        "term": "Electrical energy",
+        "definition": "The energy transferred by an electric current as it flows through a circuit."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Describe the energy transfer that occurs when an electric kettle is switched on and heats water.",
+        "steps": [
+          "Identify the starting store: chemical or nuclear energy at the power station (or another primary source) is converted into electrical energy.",
+          "This electrical energy is transferred through the wiring to the kettle's heating element.",
+          "The heating element transfers the electrical energy into thermal energy, heating the water."
+        ],
+        "answer": "Chemical or nuclear energy is transferred to electrical energy at the power station, which is then transferred to thermal energy by the kettle's heating element, heating the water."
+      }
+    ],
+    "practical_applications": [
+      "Household appliances that convert electrical energy into light, thermal, kinetic, or sound energy",
+      "Electric vehicles, which store electrical energy in a battery and convert it into kinetic energy via an electric motor",
+      "Renewable energy systems (solar panels, wind turbines) that generate electrical energy from other energy sources"
+    ],
+    "common_mistakes": [
+      "Treating electrical energy as the final, 'useful' form of energy in every situation, rather than recognising it is usually an intermediate transfer stage before a more directly useful form",
+      "Confusing electrical energy (measured in joules) with electric current (measured in amperes) or potential difference (measured in volts)"
+    ],
+    "misconceptions": [
+      "That electricity 'is' energy in a simple, singular sense — electrical energy specifically refers to the energy transferred by a current in a circuit, and is typically an intermediate step in a longer energy transfer chain, converted from another primary source and then converted again into a useful output form at the point of use."
+    ],
+    "tips": [
+      "When describing an energy transfer chain involving electricity, remember to identify both the source used to generate the electrical energy in the first place (e.g. chemical, nuclear, kinetic from wind/water) and the final useful form it is converted into by the device being used."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the type of energy transferred by an electric current."
+      ],
+      "intermediate": [
+        "Describe the main energy transfer that occurs when a battery-powered torch is switched on."
+      ],
+      "advanced": [
+        "Explain why electrical energy is often described as an 'intermediate' energy store in a typical energy transfer chain."
+      ]
+    },
+    "exam_questions": [
+      "Describe the full energy transfer chain, from source to final useful output, for an electric fan powered by mains electricity."
+    ],
+    "answers": {
+      "basic": [
+        "Electrical energy."
+      ],
+      "intermediate": [
+        "Chemical energy stored in the battery is transferred to electrical energy, which is then transferred to light energy (and some thermal energy) by the torch's bulb."
+      ],
+      "advanced": [
+        "Electrical energy is rarely the final, useful form of energy that a person actually wants; it is instead generated from a primary source (such as chemical, nuclear, or kinetic energy) and then converted again by a device into whatever useful form is actually needed (light, heat, motion, sound), placing it in the middle of the overall transfer chain."
+      ],
+      "exam": [
+        "At the power station, chemical or nuclear energy (or another primary source, such as kinetic energy from wind or water) is transferred into electrical energy; this electrical energy is transmitted through the National Grid to the fan, where the fan's motor transfers the electrical energy into kinetic energy (turning the blades), with some energy also transferred to thermal energy and sound energy due to friction and air resistance in the motor and blades."
+      ]
+    },
+    "summary": "Electrical energy is the energy transferred by an electric current, typically acting as an intermediate store between a primary energy source (such as chemical or nuclear energy) and a final useful output form (such as light, kinetic, or thermal energy) at the point of use.",
+    "revision_notes": [
+      "Electrical energy = energy transferred by a current",
+      "Usually an intermediate store in a transfer chain",
+      "Converted to useful forms (light, kinetic, thermal, sound) by circuit components"
+    ],
+    "related_topics": [
+      "Energy",
+      "Energy Transfers",
+      "Electrical Power",
+      "Electrical Energy"
+    ],
+    "prerequisites": [
+      "Energy"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-062",
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "title": "Energy Transfers",
+    "difficulty": "Foundational",
+    "description": "The process by which energy moves between different objects or is transformed between different forms (stores).",
+    "learning_objectives": [
+      "Describe an energy transfer using correct 'store to store' language",
+      "Identify useful and wasted energy in a transfer",
+      "Represent energy transfers using simple transfer diagrams"
+    ],
+    "explanation": "An energy transfer describes energy moving from one object to another, or being transformed from one form (store) to a different form. Physics uses a standard way of describing these transfers: identifying the energy store(s) at the start of a process, and the energy store(s) present at the end, connected by the mechanism (device or process) responsible for the transfer. For example, in a falling object, gravitational potential energy is transferred to kinetic energy as it falls. In most real energy transfers, not all of the input energy ends up in the intended, useful output store; some is typically transferred to non-useful stores, most commonly thermal energy dissipated to the surroundings due to friction or electrical resistance. This unwanted transfer is called wasted energy, and it is central to the concept of efficiency, covered in its own topic. Diagrams such as Sankey diagrams are often used to represent the relative amounts of useful and wasted energy in a transfer visually.",
+    "key_concepts": [
+      "Energy transfer: energy moves between objects or is transformed between forms",
+      "Described as 'X energy transferred to Y energy (and Z energy) by [mechanism]'",
+      "Useful output vs wasted (often thermal) energy"
+    ],
+    "definitions": [
+      {
+        "term": "Energy transfer",
+        "definition": "The process by which energy moves from one object to another, or is transformed from one form (store) into a different form."
+      },
+      {
+        "term": "Wasted energy",
+        "definition": "Energy transferred to a non-useful store (commonly thermal energy dissipated to the surroundings) during an energy transfer, rather than to the intended useful output."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Describe the energy transfer that occurs in an incandescent light bulb, including any wasted energy.",
+        "steps": [
+          "Identify the input energy store: electrical energy supplied to the bulb.",
+          "Identify the intended useful output: light energy.",
+          "Identify the main wasted output: a large proportion of the input electrical energy is transferred to thermal energy (heat) rather than light, since incandescent bulbs are relatively inefficient."
+        ],
+        "answer": "Electrical energy is transferred to light energy (useful) and thermal energy (wasted) by the light bulb's filament."
+      }
+    ],
+    "practical_applications": [
+      "Analysing energy efficiency in household appliances and identifying where energy is wasted",
+      "Designing more efficient engines, motors, and lighting technology to reduce wasted energy",
+      "Environmental and economic assessment of energy use in industry and transport"
+    ],
+    "common_mistakes": [
+      "Describing an energy transfer without naming both the starting and ending energy stores",
+      "Assuming all of the input energy in a transfer ends up as useful output, ignoring wasted energy"
+    ],
+    "misconceptions": [
+      "That wasted energy in a transfer has simply vanished — by the principle of conservation of energy, wasted energy is still transferred somewhere (most commonly dissipated as thermal energy to the surroundings); it has not disappeared, only become less useful and harder to make use of further."
+    ],
+    "tips": [
+      "Use the consistent phrasing 'X energy is transferred to Y energy (and Z energy) by [mechanism/device]' when describing any energy transfer, to ensure both the input and all relevant outputs are identified."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the main type of energy that is most commonly wasted in real energy transfers."
+      ],
+      "intermediate": [
+        "Describe the energy transfer, including any wasted energy, that occurs in an electric motor lifting a small load."
+      ],
+      "advanced": [
+        "Explain why, according to the principle of conservation of energy, wasted energy in a transfer is not actually 'lost' from the universe."
+      ]
+    },
+    "exam_questions": [
+      "Describe the useful and wasted energy transfers that occur when a car engine converts the chemical energy in petrol into the kinetic energy of the moving car."
+    ],
+    "answers": {
+      "basic": [
+        "Thermal energy (heat)."
+      ],
+      "intermediate": [
+        "Electrical energy supplied to the motor is transferred to kinetic energy (useful, lifting the load) and gravitational potential energy (useful, as the load rises), with some energy also wasted as thermal energy due to friction and electrical resistance in the motor."
+      ],
+      "advanced": [
+        "The principle of conservation of energy states that energy cannot be created or destroyed, only transferred between stores; wasted energy has simply been transferred to a different, usually less useful, store (most often thermal energy spread out into the surroundings) rather than being genuinely destroyed — the total amount of energy in the system and its surroundings remains exactly the same."
+      ],
+      "exam": [
+        "Chemical energy stored in the petrol is transferred to kinetic energy of the car (useful output) by the engine; however, some of the chemical energy is also wasted as thermal energy (due to friction between moving engine parts and resistance to motion) and as sound energy from the engine's operation, rather than being transferred entirely into useful kinetic energy."
+      ]
+    },
+    "summary": "Energy transfers describe energy moving between objects or being transformed between different forms, typically described in terms of starting and ending energy stores. Most real transfers include some wasted energy, commonly dissipated as thermal energy, in addition to the intended useful output.",
+    "revision_notes": [
+      "Describe transfers as 'X to Y (and Z) by [mechanism]'",
+      "Useful output vs wasted energy (often thermal)",
+      "Wasted energy is still conserved, just less useful"
+    ],
+    "related_topics": [
+      "Energy",
+      "Conservation of Energy",
+      "Efficiency",
+      "Energy Dissipation"
+    ],
+    "prerequisites": [
+      "Energy"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-063",
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "title": "Conservation of Energy",
+    "difficulty": "Foundational",
+    "description": "The fundamental principle that energy cannot be created or destroyed, only transferred between objects or transformed between different forms.",
+    "learning_objectives": [
+      "State the principle of conservation of energy",
+      "Apply conservation of energy to solve problems involving transfers between energy stores",
+      "Explain why a system's total energy remains constant even when its useful energy decreases"
+    ],
+    "explanation": "The principle of conservation of energy states that the total amount of energy in a closed (isolated) system always remains constant: energy cannot be created from nothing, nor can it be destroyed — it can only be transferred between objects or transformed from one form (store) into another. This is one of the most fundamental and universally applicable principles in the whole of physics, holding true across mechanics, thermal physics, electricity, and every other area of the subject. A common and powerful application is in problems where an object's energy converts between forms, such as gravitational potential energy converting into kinetic energy as an object falls: assuming no energy is lost to resistive forces such as air resistance, the total mechanical energy (GPE + KE) remains constant throughout the fall, allowing the speed at any height to be calculated directly. In practice, many real systems are not perfectly closed, and some energy is dissipated to the surroundings (usually as thermal energy) during a transfer, but the total energy, including this dissipated portion, is always conserved when the whole system and its surroundings are considered.",
+    "key_concepts": [
+      "Energy cannot be created or destroyed, only transferred/transformed",
+      "Total energy of a closed system is constant",
+      "GPE converting to KE (and vice versa) is a common application"
+    ],
+    "definitions": [
+      {
+        "term": "Conservation of energy",
+        "definition": "The principle that the total energy of a closed system remains constant; energy can be transferred between objects or transformed between forms, but never created or destroyed."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Conservation of energy applied to falling objects (no resistance)",
+        "equation": "loss in GPE = gain in KE",
+        "variables": {}
+      }
+    ],
+    "units": [
+      {
+        "quantity": "energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A 2 kg ball is dropped from rest and falls 5 m, with air resistance assumed negligible. Use conservation of energy to calculate its speed just before hitting the ground (use g = 9.8 N/kg).",
+        "steps": [
+          "Calculate the loss in gravitational potential energy: GPE lost = mgh = 2 x 9.8 x 5 = 98 J.",
+          "By conservation of energy (no resistance), this GPE lost equals the KE gained: KE = 98 J.",
+          "Use KE = (1/2)mv^2 to find v: 98 = (1/2)(2)(v^2), so 98 = v^2.",
+          "Solve for v: v = root(98)."
+        ],
+        "answer": "Approximately 9.9 m/s"
+      }
+    ],
+    "practical_applications": [
+      "Roller coaster design, using conservation of energy to predict speeds at different points on the track",
+      "Analysing pendulum motion, where GPE and KE continually convert into one another",
+      "Engineering energy-efficient systems by tracking exactly where input energy ends up"
+    ],
+    "common_mistakes": [
+      "Assuming energy is 'lost' in a transfer, rather than transferred to another (possibly less useful) form",
+      "Forgetting to account for energy dissipated to resistive forces (air resistance, friction) when a problem does not state these are negligible"
+    ],
+    "misconceptions": [
+      "That conservation of energy means the useful energy in a system stays constant — the total energy (useful and wasted combined) is always conserved, but the proportion that remains useful typically decreases over time as energy is progressively dissipated, usually as thermal energy, to the wider surroundings."
+    ],
+    "tips": [
+      "When solving a problem involving energy transformation (such as GPE to KE), check carefully whether the problem states or implies that resistive forces are negligible, since this determines whether simple conservation between just two stores can be assumed."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the principle of conservation of energy."
+      ],
+      "intermediate": [
+        "A pendulum bob is released from rest at a height of 0.2 m above its lowest point. Ignoring air resistance, use conservation of energy to calculate its speed at the lowest point (use g = 9.8 N/kg)."
+      ],
+      "advanced": [
+        "Explain why, in a real (non-ideal) system, the height reached by a bouncing ball decreases with each bounce, using the principle of conservation of energy."
+      ]
+    },
+    "exam_questions": [
+      "State the principle of conservation of energy, and use it to explain why a swinging pendulum (in the absence of air resistance) would return to its original height on each swing."
+    ],
+    "answers": {
+      "basic": [
+        "Energy cannot be created or destroyed, only transferred between objects or transformed between different forms; the total energy of a closed system remains constant."
+      ],
+      "intermediate": [
+        "GPE lost = mgh = m x 9.8 x 0.2 = 1.96m J. By conservation of energy, KE gained = 1.96m J, so (1/2)mv^2 = 1.96m, giving v^2 = 3.92, so v = root(3.92) approx 1.98 m/s (mass cancels out of the calculation)."
+      ],
+      "advanced": [
+        "With each bounce, some of the ball's kinetic and gravitational potential energy is transferred to other, non-useful stores — mainly thermal energy (due to the ball's internal deformation and air resistance) and sound energy (the noise of the bounce); since the total energy is conserved but is progressively transferred away from the ball's mechanical (KE + GPE) energy, less mechanical energy remains available after each bounce, so the ball reaches a lower maximum height each time."
+      ],
+      "exam": [
+        "Conservation of energy states that the total energy of a closed system remains constant, and energy can only be transferred between forms, not created or destroyed. In a pendulum with no air resistance, gravitational potential energy is transferred to kinetic energy as it swings down, and this kinetic energy is fully transferred back to gravitational potential energy as it swings up the other side; since no energy is lost to resistive forces, the pendulum has exactly the same total mechanical energy at its highest points on both sides, meaning it returns to its original starting height."
+      ]
+    },
+    "summary": "Conservation of energy states that the total energy of a closed system is always constant; energy is only ever transferred between objects or transformed between forms, never created or destroyed. This principle underlies calculations involving energy transformations, such as GPE converting to KE.",
+    "revision_notes": [
+      "Total energy of a closed system = constant",
+      "Energy: transferred/transformed, never created/destroyed",
+      "loss in GPE = gain in KE (no resistance)"
+    ],
+    "related_topics": [
+      "Energy",
+      "Energy Transfers",
+      "Kinetic Energy",
+      "Gravitational Potential Energy (Uniform Field)"
+    ],
+    "prerequisites": [
+      "Energy",
+      "Kinetic Energy",
+      "Gravitational Potential Energy (Uniform Field)"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-064",
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "title": "Power",
+    "difficulty": "Foundational",
+    "description": "The rate at which energy is transferred, or work is done, measured in watts.",
+    "learning_objectives": [
+      "Define power and state its equation",
+      "Calculate power from energy transferred and time, or from work done and time",
+      "Compare the power of different devices or processes"
+    ],
+    "explanation": "Power is the rate at which energy is transferred, or equivalently, the rate at which work is done. It is calculated using P = E/t (energy transferred divided by time taken) or, equivalently, P = W/t (work done divided by time taken), since work done and energy transferred are the same quantity. Power is measured in watts (W), where one watt is defined as a rate of energy transfer of one joule per second. A higher power rating means energy is being transferred more quickly: a 2000 W kettle transfers energy (and therefore heats water) twice as fast as a 1000 W kettle, even though both may ultimately transfer the same total amount of energy if run for different lengths of time. It is important to distinguish power from energy itself: energy describes a total quantity of 'stuff transferred', while power describes how quickly that transfer happens.",
+    "key_concepts": [
+      "Power = rate of energy transfer (or rate of doing work)",
+      "P = E/t = W/t",
+      "Unit: watt (W) = joule per second"
+    ],
+    "definitions": [
+      {
+        "term": "Power",
+        "definition": "The rate at which energy is transferred, or work is done, calculated as P = E/t, measured in watts."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Power",
+        "equation": "P = E / t",
+        "variables": {
+          "P": "power, W",
+          "E": "energy transferred (or work done), J",
+          "t": "time taken, s"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "power",
+        "si_unit": "watt",
+        "symbol": "W"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "An electric motor transfers 4500 J of energy in 30 seconds. Calculate its power.",
+        "steps": [
+          "Use P = E / t.",
+          "Substitute: P = 4500 / 30."
+        ],
+        "answer": "150 W"
+      },
+      {
+        "problem": "A 60 W light bulb is left on for 2 minutes. Calculate the energy it transfers.",
+        "steps": [
+          "Rearrange P = E/t to find E: E = P x t.",
+          "Convert time to seconds: 2 minutes = 120 s.",
+          "Substitute: E = 60 x 120."
+        ],
+        "answer": "7200 J"
+      }
+    ],
+    "practical_applications": [
+      "Rating electrical appliances (e.g. kettles, heaters, motors) by their power consumption",
+      "Comparing the performance of engines and motors in vehicles and machinery",
+      "Calculating electricity costs, which depend on both power rating and time of use"
+    ],
+    "common_mistakes": [
+      "Confusing power (rate of energy transfer, W) with energy itself (a total quantity, J)",
+      "Forgetting to convert time into seconds before substituting into P = E/t"
+    ],
+    "misconceptions": [
+      "That a higher-power device always uses more total energy — a high-power device transfers energy faster, but the total energy used also depends on how long it runs for; a very powerful device used briefly can transfer less total energy than a low-power device left running for a long time."
+    ],
+    "tips": [
+      "Always convert time into seconds before using P = E/t, since the watt is defined using seconds (joules per second)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for power, defining each symbol and giving the unit of power."
+      ],
+      "intermediate": [
+        "A crane does 15,000 J of work lifting a load in 25 seconds. Calculate the power of the crane."
+      ],
+      "advanced": [
+        "Compare a 500 W device run for 10 minutes with a 2000 W device run for 2 minutes. Calculate the total energy transferred by each, and state which transfers more energy overall."
+      ]
+    },
+    "exam_questions": [
+      "Explain the difference between energy and power, referring to their definitions and units."
+    ],
+    "answers": {
+      "basic": [
+        "P = E/t, where P is power in watts, E is energy transferred (or work done) in joules, and t is time in seconds."
+      ],
+      "intermediate": [
+        "P = 15,000 / 25 = 600 W."
+      ],
+      "advanced": [
+        "500 W device: E = P x t = 500 x (10 x 60) = 500 x 600 = 300,000 J. 2000 W device: E = 2000 x (2 x 60) = 2000 x 120 = 240,000 J. The 500 W device run for 10 minutes transfers more total energy (300,000 J), despite having a lower power rating, because it runs for much longer."
+      ],
+      "exam": [
+        "Energy is a total quantity describing an amount of 'work capacity' transferred, measured in joules; power is the rate at which this energy transfer happens, measured in watts (joules per second) — a device can have a high power rating (transferring energy quickly) while still transferring only a small total amount of energy if it operates for a very short time, illustrating that the two quantities describe different things."
+      ]
+    },
+    "summary": "Power is the rate of energy transfer (or rate of doing work), calculated as P = E/t and measured in watts. It is distinct from energy itself, which measures a total quantity of transfer rather than how quickly that transfer occurs.",
+    "revision_notes": [
+      "P = E/t = W/t",
+      "Unit: watt (W) = J/s",
+      "Power = rate; energy = total quantity"
+    ],
+    "related_topics": [
+      "Energy",
+      "Work Done",
+      "Efficiency",
+      "Electrical Power"
+    ],
+    "prerequisites": [
+      "Energy",
+      "Work Done"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-065",
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "title": "Efficiency",
+    "difficulty": "Foundational",
+    "description": "A measure of the proportion of input energy (or power) that is usefully transferred by a device or process, rather than wasted.",
+    "learning_objectives": [
+      "Define efficiency and state its equation",
+      "Calculate the efficiency of a device given useful and total (input) energy or power",
+      "Suggest methods to improve the efficiency of a device"
+    ],
+    "explanation": "Efficiency is a measure of how much of the total energy (or power) supplied to a device is transferred into a useful output form, rather than being wasted (typically as thermal energy). It is calculated as the useful energy output divided by the total energy input, and can be expressed either as a decimal (a value between 0 and 1) or as a percentage (by multiplying the decimal result by 100). No real device is ever perfectly (100%) efficient, since some energy is always dissipated to the surroundings, most commonly as thermal energy due to factors such as friction or electrical resistance, in line with the principle of conservation of energy. Improving efficiency typically involves reducing these wasteful transfers, for example through lubrication to reduce friction, better insulation to reduce unwanted heat loss, or improved aerodynamic/streamlined design to reduce drag.",
+    "key_concepts": [
+      "Efficiency = useful output energy / total input energy",
+      "Expressed as a decimal (0 to 1) or a percentage",
+      "No real device achieves 100% efficiency"
+    ],
+    "definitions": [
+      {
+        "term": "Efficiency",
+        "definition": "The proportion of the total input energy (or power) supplied to a device that is transferred into a useful output form, calculated as useful output divided by total input."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Efficiency (decimal)",
+        "equation": "efficiency = useful output energy / total input energy",
+        "variables": {}
+      },
+      {
+        "name": "Efficiency (percentage)",
+        "equation": "efficiency (%) = (useful output energy / total input energy) x 100",
+        "variables": {}
+      }
+    ],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "An electric motor is supplied with 500 J of electrical energy and usefully transfers 350 J as kinetic energy. Calculate the efficiency of the motor as a percentage.",
+        "steps": [
+          "Use efficiency = useful output energy / total input energy.",
+          "Substitute: efficiency = 350 / 500 = 0.7.",
+          "Convert to a percentage: 0.7 x 100."
+        ],
+        "answer": "70%"
+      }
+    ],
+    "practical_applications": [
+      "Comparing the efficiency of different appliances (e.g. LED vs incandescent light bulbs) to reduce energy costs and waste",
+      "Engineering design improvements aimed at reducing friction, resistance, or heat loss",
+      "Environmental policy and product labelling based on energy efficiency ratings"
+    ],
+    "common_mistakes": [
+      "Forgetting to multiply by 100 when a percentage efficiency is required",
+      "Using the total input power/energy value in place of the useful output value (or vice versa) in the equation"
+    ],
+    "misconceptions": [
+      "That it is theoretically possible to design a perfectly efficient (100%) device with enough engineering effort — by the principle of conservation of energy and the nature of resistive forces (such as friction and electrical resistance), some energy is always dissipated as non-useful thermal energy in any real process, meaning 100% efficiency is not achievable, only approached."
+    ],
+    "tips": [
+      "Double-check whether a question asks for efficiency as a decimal or a percentage, and give your final answer in the requested form."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for efficiency, as a decimal."
+      ],
+      "intermediate": [
+        "A lamp is supplied with 100 J of electrical energy and usefully outputs 18 J as light energy. Calculate its efficiency as a percentage."
+      ],
+      "advanced": [
+        "A machine has an efficiency of 65% and is supplied with 800 J of input energy. Calculate the useful output energy, and the wasted energy."
+      ]
+    },
+    "exam_questions": [
+      "Explain why no real device can have an efficiency of 100%, and suggest one way engineers might improve the efficiency of a mechanical device."
+    ],
+    "answers": {
+      "basic": [
+        "efficiency = useful output energy / total input energy."
+      ],
+      "intermediate": [
+        "efficiency = 18/100 = 0.18, or 18%."
+      ],
+      "advanced": [
+        "Useful output = 0.65 x 800 = 520 J. Wasted energy = 800 - 520 = 280 J."
+      ],
+      "exam": [
+        "No real device can be 100% efficient because some input energy is always transferred to non-useful forms, typically thermal energy, due to unavoidable factors such as friction between moving parts or electrical resistance in wiring, in line with the conservation of energy; efficiency can be improved, for example, by lubricating moving parts to reduce friction, which reduces the amount of energy wastefully transferred to thermal energy."
+      ]
+    },
+    "summary": "Efficiency measures the proportion of input energy that a device transfers usefully, calculated as useful output energy divided by total input energy (as a decimal or percentage). No real device achieves 100% efficiency due to unavoidable energy dissipation.",
+    "revision_notes": [
+      "efficiency = useful output / total input",
+      "As decimal (0-1) or percentage (x100)",
+      "100% efficiency is never achieved in practice"
+    ],
+    "related_topics": [
+      "Energy",
+      "Energy Dissipation",
+      "Power",
+      "Energy Transfers"
+    ],
+    "prerequisites": [
+      "Energy Transfers"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  }
+]

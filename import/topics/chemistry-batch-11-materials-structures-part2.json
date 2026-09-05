@@ -1,0 +1,625 @@
+{
+  "batch": "11",
+  "category": "Structure and Properties of Materials",
+  "topics_in_batch": 11,
+  "topics_completed_so_far": 122,
+  "topics_remaining_total": 377,
+  "category_status": "Structure and Properties of Materials category COMPLETE (17 topics)",
+  "topics": [
+
+    {
+      "id": "chem-113-lattice-energy",
+      "subject": "Chemistry",
+      "category": "Structure and Properties of Materials",
+      "title": "Lattice Energy",
+      "difficulty": "Advanced",
+      "description": "The energy released when gaseous ions combine to form one mole of an ionic solid, and the factors (ionic charge and radius) that determine its magnitude.",
+      "learning_objectives": [
+        "Define lattice energy (lattice formation enthalpy)",
+        "Explain how ionic charge and ionic radius affect the magnitude of lattice energy",
+        "Use lattice energy values to compare the strength of ionic bonding in different compounds"
+      ],
+      "explanation": "Lattice energy (or lattice formation enthalpy) is the enthalpy change when one mole of an ionic solid forms from its constituent ions in the gaseous state, always an exothermic (negative) process, since bringing oppositely charged ions together releases energy. The magnitude of lattice energy depends on two main factors: ionic charge, with greater charges on the ions producing much stronger electrostatic attraction and therefore a more exothermic (larger negative) lattice energy; and ionic radius, with smaller ions able to approach more closely, again producing stronger electrostatic attraction and a more exothermic lattice energy. Lattice energy cannot be measured directly by experiment, but can be calculated indirectly using a Born-Haber cycle, which combines lattice energy with other measurable enthalpy changes (such as ionisation energy, electron affinity, and enthalpy of formation) via Hess's Law.",
+      "key_concepts": ["Formation of ionic solid from gaseous ions, always exothermic", "Greater ionic charge → more exothermic lattice energy", "Smaller ionic radius → more exothermic lattice energy", "Calculated indirectly via Born-Haber cycles"],
+      "definitions": [
+        {"term": "Lattice energy", "definition": "The enthalpy change when one mole of an ionic solid is formed from its constituent ions in the gaseous state; always exothermic."}
+      ],
+      "formulae": [],
+      "equations": ["Na+(g) + Cl−(g) → NaCl(s)   ΔH = lattice energy"],
+      "worked_examples": [
+        {
+          "problem": "Predict which compound has the more exothermic lattice energy: sodium chloride (Na+, Cl−) or magnesium oxide (Mg2+, O2−).",
+          "working": "Compare ionic charges: Na+/Cl− are both singly charged; Mg2+/O2− are both doubly charged. Compare also approximate ionic radii (broadly similar order of magnitude for this comparison).",
+          "answer": "Magnesium oxide has the more exothermic lattice energy, since its ions carry twice the charge of sodium chloride's ions, giving much stronger electrostatic attraction."
+        }
+      ],
+      "practical_applications": ["Lattice energy calculations, combined with Born-Haber cycles, are used to assess the theoretical stability of ionic compounds and to explore bonding character (e.g. detecting covalent contributions to supposedly ionic compounds)"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Confusing lattice energy (ions combining to form a solid, exothermic) with lattice dissociation enthalpy (the reverse process, a solid breaking into gaseous ions, endothermic) — always check which direction is specified", "Forgetting to consider BOTH ionic charge and ionic radius when comparing two compounds — one factor might favour one compound while the other factor favours the other"],
+      "misconceptions": ["Believing lattice energy can be measured directly and precisely through a single experiment — it must be calculated indirectly, typically via a Born-Haber cycle using Hess's Law and other measurable enthalpy changes"],
+      "tips": ["When comparing lattice energies of different compounds, systematically check both factors: (1) compare the ionic charges of the ions involved; (2) compare the ionic radii of the ions involved — a compound with both greater ionic charge AND smaller ionic radius will have the most exothermic lattice energy"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define lattice energy.", "answer": "The enthalpy change when one mole of an ionic solid forms from its constituent ions in the gaseous state; always exothermic."},
+          {"question": "State whether lattice energy is generally exothermic or endothermic.", "answer": "Exothermic."}
+        ],
+        "intermediate": [
+          {"question": "Explain why calcium oxide has a considerably more exothermic lattice energy than potassium chloride.", "answer": "Calcium oxide contains Ca2+ and O2− ions, each carrying a charge of 2, while potassium chloride contains K+ and Cl− ions, each carrying a charge of only 1. The much greater ionic charges in calcium oxide result in considerably stronger electrostatic attraction between the ions, giving calcium oxide a much more exothermic lattice energy than potassium chloride."}
+        ],
+        "advanced": [
+          {"question": "Explain why the experimentally determined (Born-Haber cycle) lattice energy of silver chloride differs somewhat from the theoretical lattice energy calculated using a purely ionic model, and suggest what this difference indicates about the bonding in silver chloride.", "answer": "A theoretical, purely ionic model calculates lattice energy assuming the ions are perfect point charges (or hard spheres) interacting only via simple electrostatic attraction. If the experimentally determined lattice energy (from a Born-Haber cycle, using real, measured enthalpy data) is found to be more exothermic than this theoretical ionic-only prediction, this suggests that additional attractive interactions beyond simple ionic electrostatics are present — specifically, that the bonding has some degree of covalent character, arising from polarisation of the larger, more easily distorted chloride ion by the smaller, more polarising silver ion. This additional covalent contribution provides extra bonding strength beyond what a purely ionic model would predict, explaining the discrepancy between the theoretical and experimental (Born-Haber) values."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain, using ionic charge and ionic radius, why magnesium oxide has a more exothermic lattice energy than sodium fluoride.", "marks": 3, "model_answer": "Magnesium oxide contains Mg2+ and O2− ions, each with a charge of 2, while sodium fluoride contains Na+ and F− ions, each with a charge of only 1; greater ionic charge increases electrostatic attraction (1 mark). The ions in magnesium oxide and sodium fluoride are of broadly comparable size, so charge is the dominant factor in this comparison (1 mark). The much greater ionic charges in magnesium oxide result in considerably stronger electrostatic attraction, giving it a more exothermic lattice energy than sodium fluoride (1 mark)."}
+      ],
+      "summary": "Lattice energy, always exothermic, measures the energy released when gaseous ions combine to form an ionic solid. It becomes more exothermic with greater ionic charge and smaller ionic radius, and is calculated indirectly via Born-Haber cycles rather than measured directly.",
+      "revision_notes": ["Lattice energy: gaseous ions → solid, always exothermic", "More exothermic with: greater ionic charge, smaller ionic radius", "Calculated via Born-Haber cycle (Hess's Law), not measured directly"],
+      "related_topics": ["Ionic Lattice Structures", "Born-Haber Cycles", "Hydration Energy"],
+      "prerequisites": ["Ionic Lattice Structures"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-114-hydration-energy",
+      "subject": "Chemistry",
+      "category": "Structure and Properties of Materials",
+      "title": "Hydration Energy",
+      "difficulty": "Advanced",
+      "description": "The energy released when one mole of gaseous ions becomes surrounded by and bonded to water molecules in solution.",
+      "learning_objectives": [
+        "Define hydration energy (enthalpy of hydration)",
+        "Explain how ionic charge and ionic radius affect hydration energy",
+        "Relate hydration energy and lattice energy to the overall enthalpy of solution"
+      ],
+      "explanation": "Hydration energy (or enthalpy of hydration) is the enthalpy change when one mole of gaseous ions dissolves in water, becoming fully surrounded by and attracted to water molecules; it is always exothermic, since strong ion-dipole attractions form between the ion and the polar water molecules surrounding it. As with lattice energy, hydration energy becomes more exothermic with greater ionic charge (stronger attraction to the polar water molecules) and smaller ionic radius (allowing water molecules to approach more closely). The overall enthalpy change when an ionic solid dissolves in water — the enthalpy of solution — can be considered as the sum of two opposing enthalpy changes: the energy required to separate the ions from the solid lattice (the reverse of lattice energy, endothermic) and the energy released as those separated ions become hydrated (hydration energy, exothermic); whether dissolving is overall exothermic or endothermic depends on the relative magnitudes of these two enthalpy changes.",
+      "key_concepts": ["Ions become surrounded by water molecules, always exothermic", "Greater charge, smaller radius → more exothermic hydration energy", "Enthalpy of solution = lattice dissociation (endothermic) + hydration (exothermic)"],
+      "definitions": [
+        {"term": "Hydration energy", "definition": "The enthalpy change when one mole of gaseous ions becomes fully surrounded by and attracted to water molecules in solution; always exothermic."}
+      ],
+      "formulae": [],
+      "equations": ["Na+(g) → Na+(aq)   ΔH = hydration energy"],
+      "worked_examples": [
+        {
+          "problem": "Explain why Li+ ions have a more exothermic hydration energy than Na+ ions.",
+          "working": "Both ions carry the same charge (1+), but lithium has a smaller ionic radius than sodium.",
+          "answer": "Because Li+ is smaller, water molecules can approach and surround it more closely than they can Na+, resulting in stronger ion-dipole attraction and a more exothermic hydration energy for Li+ compared to Na+."
+        }
+      ],
+      "practical_applications": ["Hydration energy data helps explain and predict the solubility of different ionic compounds, relevant to processes such as fertiliser dissolution and industrial crystallisation"],
+      "laboratory_applications": ["Measuring the temperature change when an ionic solid dissolves in water can give experimental insight into whether the overall enthalpy of solution (a balance of lattice and hydration energies) is exothermic or endothermic for that compound"],
+      "common_mistakes": ["Confusing hydration energy (ions becoming surrounded by water, exothermic) with the overall enthalpy of solution (which combines lattice and hydration energy and can be either exothermic or endothermic depending on the specific compound)"],
+      "misconceptions": ["Believing all ionic compounds dissolve exothermically simply because hydration energy is exothermic — the overall enthalpy of solution depends on the balance between the (endothermic) energy needed to break apart the lattice and the (exothermic) hydration energy, and can be endothermic overall if the lattice energy is more strongly exothermic (larger magnitude) than the hydration energy"],
+      "tips": ["Remember hydration energy follows the same charge/radius pattern as lattice energy: greater charge and smaller radius both make hydration energy more exothermic"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define hydration energy.", "answer": "The enthalpy change when one mole of gaseous ions becomes fully surrounded by and attracted to water molecules in solution."},
+          {"question": "State whether hydration energy is generally exothermic or endothermic.", "answer": "Exothermic."}
+        ],
+        "intermediate": [
+          {"question": "Explain why Mg2+ ions have a much more exothermic hydration energy than Na+ ions.", "answer": "Magnesium ions carry a greater charge (2+) than sodium ions (1+), giving stronger ion-dipole attraction to the surrounding polar water molecules. Magnesium ions are also smaller than sodium ions, allowing water molecules to approach more closely. Both factors combine to give magnesium ions a considerably more exothermic hydration energy than sodium ions."},
+          {"question": "Explain how the enthalpy of solution of an ionic compound relates to its lattice energy and hydration energy.", "answer": "The enthalpy of solution can be considered as the sum of the energy required to separate the ions from the solid lattice (the reverse of lattice energy, which is endothermic) and the energy released as the separated ions become hydrated (hydration energy, exothermic). If the exothermic hydration energy is larger in magnitude than the endothermic lattice dissociation energy, the overall enthalpy of solution is exothermic; if the lattice dissociation energy is larger, the overall process is endothermic."}
+        ],
+        "advanced": [
+          {"question": "Some ionic compounds dissolve endothermically (the solution becomes cooler), while others dissolve exothermically (the solution becomes warmer). Explain how this can be understood in terms of lattice energy and hydration energy.", "answer": "Dissolving involves breaking apart the ionic lattice (requiring energy input equal in magnitude to the lattice energy, but endothermic since it is the reverse process) and then the ions becoming hydrated (releasing energy, exothermic hydration energy). If, for a particular compound, the magnitude of the exothermic hydration energy is greater than the magnitude of the endothermic lattice dissociation energy, more energy is released overall than absorbed, and the compound dissolves exothermically, warming the solution. If instead the lattice dissociation energy required is greater in magnitude than the hydration energy released, more energy must be absorbed overall than is released, and the compound dissolves endothermically, cooling the solution as it draws in thermal energy from its surroundings to complete the process."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain, using ionic charge and radius, why Ca2+ ions have a more exothermic hydration energy than K+ ions.", "marks": 3, "model_answer": "Calcium ions carry a greater charge (2+) than potassium ions (1+), resulting in stronger ion-dipole attraction to the surrounding polar water molecules (1 mark). Calcium ions also have a smaller ionic radius than potassium ions, allowing water molecules to approach more closely (1 mark). Both the greater charge and smaller radius of Ca2+ combine to give it a considerably more exothermic hydration energy than K+ (1 mark)."}
+      ],
+      "summary": "Hydration energy, always exothermic, measures the energy released as ions become surrounded by water molecules. It becomes more exothermic with greater ionic charge and smaller ionic radius. Combined with lattice energy, it determines whether dissolving an ionic compound is overall exothermic or endothermic.",
+      "revision_notes": ["Hydration energy: gaseous ion → hydrated ion, always exothermic", "More exothermic with: greater charge, smaller radius", "Enthalpy of solution = -(lattice energy) + hydration energy (sign convention dependent)"],
+      "related_topics": ["Lattice Energy", "Solubility of Ionic Compounds", "Enthalpy of Solution"],
+      "prerequisites": ["Lattice Energy"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-115-solubility-of-ionic-compounds",
+      "subject": "Chemistry",
+      "category": "Structure and Properties of Materials",
+      "title": "Solubility of Ionic Compounds",
+      "difficulty": "Higher",
+      "description": "Why many ionic compounds dissolve in water, explained by the interaction between lattice energy and hydration energy, and by water's polar nature.",
+      "learning_objectives": [
+        "Explain, in terms of ion-dipole attraction, why ionic compounds can dissolve in water",
+        "Relate solubility to the relative magnitudes of lattice energy and hydration energy",
+        "Explain why some ionic compounds are insoluble"
+      ],
+      "explanation": "Many ionic compounds dissolve in water because water molecules are polar, with a partial negative charge on oxygen and partial positive charges on the hydrogen atoms; these charged regions are attracted to the ions of an ionic solid, forming ion-dipole attractions. During dissolving, water molecules cluster around individual ions (with the δ− oxygen atoms of water surrounding cations, and the δ+ hydrogen atoms of water surrounding anions), gradually surrounding and separating the ions from the solid lattice — a process called hydration. Whether an ionic compound is soluble depends on the balance between the energy required to break apart the lattice (related to lattice energy) and the energy released as the separated ions become hydrated (hydration energy): if hydration energy is sufficiently exothermic to compensate for the energy needed to overcome the lattice energy, dissolving is energetically favourable and the compound is soluble; if the lattice energy is too strongly exothermic (very strong ionic bonding) relative to the achievable hydration energy, the compound remains insoluble, since dissolving would not be energetically favourable overall.",
+      "key_concepts": ["Water's polarity enables ion-dipole attraction", "Ions become hydrated (surrounded by water molecules)", "Solubility depends on balance between lattice energy and hydration energy"],
+      "definitions": [
+        {"term": "Hydration", "definition": "The process by which ions become surrounded by and attracted to water molecules when an ionic compound dissolves."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Explain, in terms of ion-dipole attraction, how sodium chloride dissolves in water.",
+          "working": "Water molecules are polar, with δ− oxygen and δ+ hydrogen atoms. Sodium chloride consists of Na+ and Cl− ions.",
+          "answer": "The δ− oxygen atoms of water molecules are attracted to and surround the positive Na+ ions, while the δ+ hydrogen atoms of water molecules are attracted to and surround the negative Cl− ions. This ion-dipole attraction gradually pulls individual ions away from the solid lattice and surrounds them with water molecules (hydration), dissolving the solid."
+        }
+      ],
+      "practical_applications": ["Predicting and controlling ionic compound solubility is essential in water treatment, fertiliser formulation, and pharmaceutical drug delivery"],
+      "laboratory_applications": ["Testing the solubility of various ionic compounds in water as part of qualitative analysis and precipitation reaction experiments"],
+      "common_mistakes": ["Assuming all ionic compounds are automatically soluble in water because they are 'ionic' — many common ionic compounds (e.g. most carbonates, many hydroxides, and various other combinations) are actually insoluble or only sparingly soluble, depending on the specific balance of lattice and hydration energy for that compound"],
+      "misconceptions": ["Believing dissolving simply involves ions 'floating apart' with no significant intermolecular attraction involved — dissolving is driven specifically by the strong ion-dipole attraction between the ions and the polar water molecules, which must be sufficient to overcome the strong ionic bonding holding the solid lattice together"],
+      "tips": ["Link solubility directly to the energy balance: soluble compounds tend to have a hydration energy that is sufficiently exothermic (in magnitude) to compensate for the energy needed to overcome their lattice energy; insoluble compounds tend to have a lattice energy too strongly exothermic relative to the hydration energy achievable"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the type of attraction responsible for water molecules surrounding an ion during dissolving.", "answer": "Ion-dipole attraction."},
+          {"question": "State which part of a water molecule is attracted to a positive ion (cation).", "answer": "The oxygen atom (δ− end) of the water molecule."}
+        ],
+        "intermediate": [
+          {"question": "Explain why silver chloride is insoluble in water, in terms of lattice energy and hydration energy.", "answer": "For silver chloride to dissolve, the energy released from hydrating the separated Ag+ and Cl− ions would need to be sufficient to compensate for the energy required to break apart the strong ionic lattice. In the case of silver chloride, the lattice energy is sufficiently strongly exothermic (indicating very strong ionic/covalent-character bonding within the solid) that the achievable hydration energy is not enough to compensate for it, making the overall process of dissolving energetically unfavourable, so silver chloride remains largely insoluble in water."}
+        ],
+        "advanced": [
+          {"question": "Explain why solubility trends for a series of related ionic compounds (e.g. Group 2 sulfates) can sometimes be understood in terms of how lattice energy and hydration energy change with increasing ionic radius down a group.", "answer": "As ionic radius increases down a group (e.g. from Mg2+ to Ba2+ for Group 2 cations, with sulfate as a relatively large, fixed anion), both lattice energy and hydration energy become less exothermic (since larger ions cannot approach as closely to oppositely charged ions/dipoles). However, these two effects do not necessarily decrease at exactly the same rate as ionic radius increases; hydration energy, which depends on the cation's interaction with the small, close-fitting water dipoles, tends to decrease more rapidly with increasing cation size than lattice energy does (since lattice energy is also influenced by the large anion's size, which dominates the ion-ion distance and changes relatively less as the cation varies). This differential rate of decrease means the balance between lattice energy and hydration energy shifts progressively down the group, which is part of the explanation for why the solubility of Group 2 sulfates decreases (becomes less soluble) down the group, as hydration energy increasingly fails to compensate for the still relatively large lattice energy."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain, in terms of ion-dipole attraction, why calcium chloride is soluble in water.", "marks": 3, "model_answer": "Water is a polar molecule, with a partial negative charge on oxygen and partial positive charges on the hydrogen atoms (1 mark). The δ− oxygen atoms of water molecules are attracted to and surround the positive Ca2+ ions, while the δ+ hydrogen atoms are attracted to and surround the negative Cl− ions (1 mark). This strong ion-dipole attraction, and the resulting exothermic hydration energy, is sufficient to overcome the energy needed to break apart the ionic lattice, making dissolving energetically favourable overall, so calcium chloride is soluble (1 mark)."}
+      ],
+      "summary": "Ionic compounds can dissolve in water due to ion-dipole attraction between the ions and polar water molecules (hydration). Whether a compound is soluble depends on whether the exothermic hydration energy is sufficient to compensate for the energy required to overcome the compound's lattice energy.",
+      "revision_notes": ["Dissolving: water's polar δ+/δ− ends surround/hydrate ions (ion-dipole attraction)", "Soluble: hydration energy sufficiently compensates for lattice energy", "Insoluble: lattice energy too strong relative to achievable hydration energy"],
+      "related_topics": ["Lattice Energy", "Hydration Energy", "Solubility", "Solubility Rules"],
+      "prerequisites": ["Lattice Energy", "Hydration Energy"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-116-solubility-rules",
+      "subject": "Chemistry",
+      "category": "Structure and Properties of Materials",
+      "title": "Solubility Rules",
+      "difficulty": "Foundation",
+      "description": "General empirical guidelines for predicting whether common ionic compounds are soluble or insoluble in water.",
+      "learning_objectives": [
+        "State the general solubility rules for common classes of ionic compound",
+        "Use solubility rules to predict whether a precipitate will form when two solutions are mixed",
+        "Recognise the main exceptions to the general solubility rules"
+      ],
+      "explanation": "Solubility rules are a set of general, empirically observed guidelines that allow quick prediction of whether a given ionic compound is likely to be soluble or insoluble in water, without needing to calculate or compare lattice and hydration energies each time. Common solubility rules include: almost all nitrates are soluble; almost all common sodium, potassium and ammonium salts are soluble; most chlorides, bromides and iodides are soluble, except those of silver, lead(II) and (for chloride/bromide) some others; most sulfates are soluble, except those of barium, calcium (partially) and lead(II); most carbonates, hydroxides and sulfides are insoluble, except those of Group 1 metals and ammonium (for carbonate/hydroxide/sulfide) and, for hydroxides, most Group 2 hydroxides show increasing solubility down the group. These rules are used extensively to predict whether mixing two solutions will produce a visible precipitate, forming the basis of qualitative analysis and precipitation reactions.",
+      "key_concepts": ["General solubility trends by compound class", "Predicting precipitate formation from mixing solutions", "Key exceptions to memorise"],
+      "definitions": [
+        {"term": "Solubility rules", "definition": "A set of general, empirically observed guidelines for predicting whether common classes of ionic compound are soluble or insoluble in water."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Predict whether a precipitate forms when solutions of silver nitrate and sodium chloride are mixed, and if so, identify it.",
+          "working": "Possible new combinations: silver chloride and sodium nitrate. Nitrates are almost always soluble (sodium nitrate remains dissolved). Silver chloride is a well-known exception to the general solubility of chlorides.",
+          "answer": "A white precipitate of silver chloride, AgCl, forms, since silver chloride is insoluble, while sodium nitrate remains dissolved in solution."
+        }
+      ],
+      "practical_applications": ["Solubility rules are used throughout qualitative analysis to identify unknown ions, and in industrial processes to selectively precipitate and separate specific ions from solution"],
+      "laboratory_applications": ["Adding specific reagent solutions (e.g. silver nitrate to test for halide ions, or barium chloride to test for sulfate ions) and observing precipitate formation (or absence) to identify ions present in an unknown solution"],
+      "common_mistakes": ["Assuming solubility rules apply without exception — always check for the well-known specific exceptions (e.g. silver, lead(II), barium compounds) rather than applying the general rule blindly"],
+      "misconceptions": ["Believing solubility is a simple yes/no property for every compound — some compounds are only slightly or partially soluble (e.g. calcium sulfate), which can complicate straightforward predictions based purely on general rules"],
+      "tips": ["Memorise the solubility rules as a short reference list, paying particular attention to the specific named exceptions (Ag+, Pb2+, Ba2+, Ca2+ for certain anion combinations), since exam questions often specifically target these exceptions"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State whether sodium carbonate is generally soluble or insoluble in water.", "answer": "Soluble (sodium compounds are almost always soluble)."},
+          {"question": "State whether lead(II) chloride is generally soluble or insoluble in water.", "answer": "Insoluble (lead(II) chloride is a well-known exception to the general solubility of chlorides)."}
+        ],
+        "intermediate": [
+          {"question": "Predict whether a precipitate forms when solutions of barium chloride and sodium sulfate are mixed, and if so, name it.", "answer": "A white precipitate of barium sulfate, BaSO4, forms, since barium sulfate is a well-known exception to the general solubility of sulfates and is insoluble; sodium chloride remains dissolved, since sodium compounds and chlorides (other than a small number of specific exceptions) are generally soluble."},
+          {"question": "Explain why solubility rules are useful in qualitative analysis for identifying unknown ions.", "answer": "By adding a reagent known to form an insoluble precipitate with a specific target ion (and remain soluble with most other common ions), the presence or absence of a precipitate provides direct evidence for whether that specific ion is present in an unknown solution, allowing chemists to systematically test for and identify particular ions using a series of such targeted solubility-based tests."}
+        ],
+        "advanced": [
+          {"question": "Explain why solubility rules are described as 'empirical' guidelines rather than absolute laws, referring to the underlying factors that actually determine solubility.", "answer": "Solubility rules are based on patterns observed experimentally across many different compounds, rather than being derived directly from a single, universal theoretical principle; the true underlying determinant of solubility for any specific compound is the precise balance between its lattice energy and hydration energy, both of which depend on the specific charges and radii of the particular ions involved. Because this balance can vary in subtle, compound-specific ways (sometimes producing compounds that are only partially or slightly soluble, rather than cleanly soluble or insoluble), the general rules serve as a useful practical summary of common patterns and exceptions, but do not capture the full underlying quantitative complexity, and should be understood as a helpful approximation rather than an absolute, exception-free law."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "A student mixes solutions of potassium bromide and silver nitrate. Predict what would be observed, and write a balanced symbol equation (including state symbols) for the reaction.", "marks": 3, "model_answer": "A precipitate (cream/pale yellow) of silver bromide would form, since silver bromide is insoluble (1 mark). Equation: KBr(aq) + AgNO3(aq) → AgBr(s) + KNO3(aq) (2 marks: 1 for correct formulae, 1 for correct state symbols, since potassium nitrate remains dissolved (aq) while silver bromide precipitates as a solid (s))."}
+      ],
+      "summary": "Solubility rules provide general guidelines for predicting whether common classes of ionic compound (nitrates, chlorides, sulfates, carbonates, hydroxides, etc.) are soluble or insoluble, with specific well-known exceptions (silver, lead(II), barium, calcium compounds), widely used to predict precipitate formation in qualitative analysis.",
+      "revision_notes": ["Nearly always soluble: nitrates, Group 1/ammonium salts", "Mostly soluble (exceptions: Ag, Pb): chlorides, bromides, iodides", "Mostly soluble (exceptions: Ba, Ca, Pb): sulfates", "Mostly insoluble (exceptions: Group 1, ammonium): carbonates, hydroxides, sulfides"],
+      "related_topics": ["Solubility of Ionic Compounds", "Precipitation Reactions", "Qualitative Analysis of Ions"],
+      "prerequisites": ["Solubility of Ionic Compounds"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-117-complex-ions",
+      "subject": "Chemistry",
+      "category": "Structure and Properties of Materials",
+      "title": "Complex Ions",
+      "difficulty": "Advanced",
+      "description": "Ions consisting of a central metal ion bonded to one or more surrounding ligands via dative covalent bonds.",
+      "learning_objectives": [
+        "Define a complex ion",
+        "Explain how a complex ion is held together (dative covalent bonding)",
+        "Determine the overall charge of a complex ion given the central metal ion and ligand charges"
+      ],
+      "explanation": "A complex ion consists of a central metal ion (typically, though not exclusively, a transition metal ion) surrounded by and bonded to one or more molecules or ions called ligands, each of which donates a lone pair of electrons to the central metal ion via a dative (coordinate) covalent bond. The overall charge of a complex ion is the sum of the charge on the central metal ion and the charges on any charged ligands (neutral ligands, such as water or ammonia, do not affect the overall charge). Common examples include the deep blue [Cu(H2O)6]2+ ion formed when copper(II) sulfate dissolves in water, and [Cu(NH3)4(H2O)2]2+, formed when excess ammonia is added to a copper(II) solution. Complex ions are central to understanding many of the characteristic reactions and colours of transition metal compounds.",
+      "key_concepts": ["Central metal ion + surrounding ligands", "Dative covalent bonds (ligand donates lone pair)", "Overall charge = metal ion charge + ligand charges"],
+      "definitions": [
+        {"term": "Complex ion", "definition": "An ion consisting of a central metal ion bonded to one or more surrounding ligands via dative covalent bonds."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Determine the overall charge of the complex ion formed from one Fe3+ ion and six CN− (cyanide) ligands.",
+          "working": "Overall charge = charge on metal ion + sum of ligand charges = (+3) + 6×(−1) = +3 − 6.",
+          "answer": "Overall charge = −3, giving the complex ion [Fe(CN)6]3−"
+        }
+      ],
+      "practical_applications": ["Complex ions are essential to biological molecules (e.g. haemoglobin's iron complex, chlorophyll's magnesium complex) and to industrial catalysis and analytical chemistry"],
+      "laboratory_applications": ["Observing colour changes as complex ions form or change ligands in solution, used as a qualitative test for the identity of transition metal ions present"],
+      "common_mistakes": ["Forgetting that neutral ligands (such as water or ammonia) do not contribute to the overall charge of a complex ion, only charged ligands do"],
+      "misconceptions": ["Believing the bonds between a metal ion and its ligands are ordinary covalent bonds formed by one electron from each species — they are specifically dative (coordinate) covalent bonds, in which the ligand donates both electrons of the shared pair to the metal ion, which provides an empty orbital to accept them"],
+      "tips": ["To find the overall charge of a complex ion, simply add the metal ion's charge to the total charge contributed by all ligands (remembering neutral ligands contribute zero)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a complex ion.", "answer": "An ion consisting of a central metal ion bonded to one or more surrounding ligands via dative covalent bonds."},
+          {"question": "State the type of bond formed between a metal ion and its ligands.", "answer": "A dative (coordinate) covalent bond."}
+        ],
+        "intermediate": [
+          {"question": "Determine the overall charge of the complex ion formed from one Cu2+ ion and four neutral NH3 ligands plus two neutral H2O ligands.", "answer": "Overall charge = +2 (the charge on Cu2+), since all six ligands (NH3 and H2O) are neutral and do not affect the overall charge, giving [Cu(NH3)4(H2O)2]2+."},
+          {"question": "Explain how the bond between a ligand and a central metal ion forms, in terms of electron donation.", "answer": "A ligand has at least one lone pair of electrons available. This lone pair is donated entirely by the ligand into an empty orbital on the central metal ion, forming a dative (coordinate) covalent bond, in which both electrons of the shared pair originate from the ligand rather than one from each species."}
+        ],
+        "advanced": [
+          {"question": "Determine the overall charge of the complex ion formed from one Co3+ ion, four neutral NH3 ligands, and two Cl− ligands, and explain your working.", "answer": "Overall charge = charge on Co3+ + (4 × charge on NH3) + (2 × charge on Cl−) = (+3) + (4×0) + (2×−1) = +3 + 0 − 2 = +1. The neutral NH3 ligands contribute no charge, while each Cl− ligand contributes −1; combining the cobalt's +3 charge with the total −2 contribution from the two chloride ligands gives an overall complex ion charge of +1, i.e. [CoCl2(NH3)4]+."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Determine the overall charge of the complex ion [Cu(H2O)6]2+ is already given; instead, determine the charge of the complex ion formed from one Ni2+ ion and six neutral NH3 ligands, explaining your reasoning.", "marks": 2, "model_answer": "Overall charge = +2 (1 mark), since the six NH3 ligands are neutral and do not contribute any charge, so the overall charge of the complex ion is simply equal to the charge on the central Ni2+ ion (1 mark), giving [Ni(NH3)6]2+."}
+      ],
+      "summary": "Complex ions consist of a central metal ion bonded to surrounding ligands via dative covalent bonds, with the overall ion charge equal to the sum of the metal ion's charge and any charged ligands' contributions (neutral ligands add no charge).",
+      "revision_notes": ["Complex ion: central metal ion + ligands, dative covalent bonds", "Overall charge = metal ion charge + Σ(ligand charges) [neutral ligands = 0]", "Common examples: [Cu(H2O)6]2+, [Fe(CN)6]3−, [Cu(NH3)4(H2O)2]2+"],
+      "related_topics": ["Ligands", "Coordination Number", "Coordination Compounds", "Transition Metal Complexes"],
+      "prerequisites": ["Coordinate (Dative) Covalent Bonds", "Transition Elements"],
+      "diagram_recommendations": ["[DIAGRAM: Structure of [Cu(H2O)6]2+ showing octahedral arrangement of water ligands around the central copper ion]"],
+      "images": [
+        {
+          "filename": "chem-118-complex-ion-octahedral.svg",
+          "type": "diagram",
+          "description": "A central brown circle labelled Cu2+ with six water molecule ligands (labelled H2O) arranged octahedrally around it, connected by lines representing dative bonds, with a caption explaining the ligands donate lone pairs via dative covalent bonds in an octahedral shape.",
+          "purpose": "Gives a concrete visual of the abstract concept of a complex ion's three-dimensional structure and dative bonding to ligands, directly supporting the definition and worked example.",
+          "placement": "After the main explanation paragraph, before the key concepts list."
+        }
+      ]
+    },
+
+    {
+      "id": "chem-118-coordination-compounds",
+      "subject": "Chemistry",
+      "category": "Structure and Properties of Materials",
+      "title": "Coordination Compounds",
+      "difficulty": "Advanced",
+      "description": "Compounds containing at least one complex ion, formed between a metal ion and its surrounding ligands.",
+      "learning_objectives": [
+        "Define a coordination compound",
+        "Distinguish a coordination compound from a simple ionic compound",
+        "Write formulae for simple coordination compounds"
+      ],
+      "explanation": "A coordination compound is a compound that contains at least one complex ion, formed from a central metal ion bonded to surrounding ligands. Coordination compounds can be neutral overall (if a positively charged complex ion is balanced by an appropriate number of counter-anions, or a negatively charged complex ion is balanced by counter-cations) or can be written showing the complex ion's charge explicitly, alongside a balancing counter-ion, in an overall neutral formula unit — for example, the coordination compound [Cu(NH3)4(H2O)2]SO4 contains the complex cation [Cu(NH3)4(H2O)2]2+ balanced by a sulfate counter-ion, SO4^2−. Coordination compounds are named systematically using coordination chemistry nomenclature, which specifies the number and type of ligands, the central metal, and its oxidation state.",
+      "key_concepts": ["Contains at least one complex ion", "Balanced by appropriate counter-ions for overall neutrality", "Systematic naming reflects ligands, metal, and oxidation state"],
+      "definitions": [
+        {"term": "Coordination compound", "definition": "A compound containing at least one complex ion, formed from a central metal ion bonded to surrounding ligands."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Write the formula for the neutral coordination compound formed from the complex cation [Cu(NH3)4(H2O)2]2+ and sulfate ions.",
+          "working": "The complex cation has a 2+ charge; sulfate, SO4^2−, has a 2− charge. One sulfate ion is needed to balance one complex cation.",
+          "answer": "[Cu(NH3)4(H2O)2]SO4"
+        }
+      ],
+      "practical_applications": ["Coordination compounds are used extensively in catalysis, analytical chemistry (as coloured indicators for specific metal ions), and in medicine (e.g. platinum-based coordination compounds used in cancer chemotherapy)"],
+      "laboratory_applications": ["Synthesising and observing the distinct colours of various coordination compounds formed by adding different ligands (e.g. ammonia, chloride ions) to a transition metal solution"],
+      "common_mistakes": ["Forgetting to balance the overall charge of a coordination compound correctly when combining a charged complex ion with the appropriate number of counter-ions"],
+      "misconceptions": ["Believing 'coordination compound' and 'complex ion' mean exactly the same thing — a complex ion is the charged ionic species itself, while a coordination compound is the overall, typically neutral, compound that contains one or more complex ions along with any necessary counter-ions"],
+      "tips": ["When constructing a coordination compound's formula, first determine the complex ion's overall charge, then add the correct number and type of counter-ions needed to balance that charge to give an overall neutral compound"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a coordination compound.", "answer": "A compound containing at least one complex ion, formed from a central metal ion bonded to surrounding ligands."},
+          {"question": "State whether a coordination compound is typically charged or neutral overall.", "answer": "Neutral overall (once balanced with any necessary counter-ions)."}
+        ],
+        "intermediate": [
+          {"question": "Write the formula for the coordination compound formed between the complex anion [Fe(CN)6]4− and potassium ions.", "answer": "The complex anion has a charge of 4−; potassium ions, K+, each have a charge of 1+. Four potassium ions are needed to balance the charge: K4[Fe(CN)6]."}
+        ],
+        "advanced": [
+          {"question": "Explain why the coordination compound [Co(NH3)5Cl]Cl2 contains chloride in two different roles, and describe how these roles differ.", "answer": "In this compound, one chloride ion is acting as a ligand, directly bonded to the central cobalt ion via a dative covalent bond as part of the complex ion [Co(NH3)5Cl]2+ (contributing to the coordination sphere around cobalt). The other two chloride ions are acting as simple counter-ions, balancing the 2+ charge of the complex cation to give an overall neutral compound, but are not directly, covalently bonded to the cobalt ion; instead, they exist as separate, freely dissociable Cl− ions held only by ionic attraction to the overall complex cation, similar to how a simple ionic compound's ions are held together. This distinction can be demonstrated experimentally: only the two 'ionic' chloride ions would readily react with, for example, silver nitrate solution to precipitate silver chloride, while the ligand chloride (bonded within the complex ion) would not react in the same way unless the complex ion itself were broken down."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "The complex cation [Cr(H2O)6]3+ combines with chloride ions to form a neutral coordination compound. Write the formula of this compound and explain your reasoning.", "marks": 2, "model_answer": "CrCl3·6H2O, or written to show the complex ion explicitly: [Cr(H2O)6]Cl3 (1 mark). The complex cation has a charge of 3+, so three chloride ions (each with a charge of 1−) are needed to balance this charge and give an overall neutral coordination compound (1 mark)."}
+      ],
+      "summary": "Coordination compounds contain at least one complex ion, typically balanced with appropriate counter-ions to give an overall neutral formula. They are named systematically and are central to transition metal chemistry, catalysis, and coordination chemistry applications.",
+      "revision_notes": ["Coordination compound: contains ≥1 complex ion + balancing counter-ions", "Overall compound typically neutral", "Formula: balance complex ion charge with correct number/type of counter-ions"],
+      "related_topics": ["Complex Ions", "Ligands", "Coordination Number"],
+      "prerequisites": ["Complex Ions"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-119-ligands",
+      "subject": "Chemistry",
+      "category": "Structure and Properties of Materials",
+      "title": "Ligands",
+      "difficulty": "Advanced",
+      "description": "Molecules or ions that donate a lone pair (or pairs) of electrons to a central metal ion, forming dative covalent bonds in a complex ion.",
+      "learning_objectives": [
+        "Define a ligand",
+        "Distinguish monodentate from bidentate/polydentate ligands",
+        "Give examples of common ligands"
+      ],
+      "explanation": "A ligand is a molecule or ion that has at least one lone pair of electrons available to donate to a central metal ion, forming a dative (coordinate) covalent bond as part of a complex ion. Common examples of ligands include water (H2O), ammonia (NH3), chloride ions (Cl−), hydroxide ions (OH−), and cyanide ions (CN−), each of which donates one lone pair per ligand molecule/ion — these are called monodentate ligands ('mono-' meaning one, 'dentate' referring to the number of points of attachment/lone pairs donated). Some ligands, called bidentate ligands, have two lone pairs positioned appropriately to both bond to the same central metal ion simultaneously (e.g. ethanediamine, NH2CH2CH2NH2); ligands with more than two such donor sites are called polydentate ligands (e.g. EDTA4−, a widely used hexadentate ligand with six donor sites, forming very stable complexes).",
+      "key_concepts": ["Ligand: donates lone pair(s) to central metal ion", "Monodentate ligands: one donor lone pair (H2O, NH3, Cl−, OH−, CN−)", "Bidentate/polydentate ligands: two or more donor sites"],
+      "definitions": [
+        {"term": "Ligand", "definition": "A molecule or ion with at least one lone pair of electrons available to donate to a central metal ion, forming a dative covalent bond."},
+        {"term": "Monodentate ligand", "definition": "A ligand that donates only one lone pair of electrons to a central metal ion."},
+        {"term": "Bidentate ligand", "definition": "A ligand with two lone pairs positioned to bond to the same central metal ion simultaneously."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Classify water, ammonia and ethanediamine as monodentate or bidentate ligands.",
+          "working": "Water and ammonia each have one lone pair suitably positioned to donate to a metal ion. Ethanediamine has two nitrogen atoms, each with a lone pair, both able to bond to the same metal ion.",
+          "answer": "Water and ammonia are monodentate ligands; ethanediamine is a bidentate ligand."
+        }
+      ],
+      "practical_applications": ["Polydentate ligands such as EDTA are used industrially and medically to bind and remove unwanted metal ions (chelation therapy, water softening, food preservation)"],
+      "laboratory_applications": ["Observing ligand substitution reactions (e.g. adding excess ammonia to a copper(II) solution to replace water ligands) and the resulting colour changes as evidence of ligand exchange"],
+      "common_mistakes": ["Assuming a ligand donates as many lone pairs as it physically possesses in total — a ligand's denticity refers specifically to how many lone pairs are correctly positioned and available to bond to the SAME central metal ion, not simply the total number of lone pairs present on the molecule"],
+      "misconceptions": ["Believing all ligands must be negatively charged, like simple anions — many important ligands, such as water and ammonia, are neutral molecules, donating a lone pair without contributing any charge to the overall complex ion"],
+      "tips": ["Remember the 'dentate' naming convention: mono- = 1 donor site, bi- = 2, poly- = many (a useful analogy is 'dentate' relating to 'teeth'/points of attachment, as in a claw gripping the central metal ion)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a ligand.", "answer": "A molecule or ion with at least one lone pair of electrons available to donate to a central metal ion, forming a dative covalent bond."},
+          {"question": "Name two common monodentate ligands.", "answer": "Any two of: water (H2O), ammonia (NH3), chloride ion (Cl−), hydroxide ion (OH−), cyanide ion (CN−)."}
+        ],
+        "intermediate": [
+          {"question": "Explain why ethanediamine is described as a bidentate ligand.", "answer": "Ethanediamine has two nitrogen atoms, each bearing a lone pair of electrons, positioned appropriately within the molecule so that both lone pairs can simultaneously bond to the same central metal ion, forming two dative covalent bonds from a single ligand molecule; this makes it a bidentate ('two-toothed') ligand, unlike a monodentate ligand such as ammonia, which has only one such donor site."}
+        ],
+        "advanced": [
+          {"question": "Explain why complexes formed with polydentate ligands such as EDTA are generally more stable (less likely to undergo ligand substitution) than equivalent complexes formed with several separate monodentate ligands, referring to the chelate effect.", "answer": "When a polydentate ligand such as EDTA (which can form up to six dative bonds to a single metal ion simultaneously) replaces several separate monodentate ligands (e.g. six individual water molecules), the overall number of separate particles in the system increases: one EDTA molecule plus six displaced water molecules represents a greater total number of independent particles than the six original coordinated water ligands alone. This increase in the number of separate particles corresponds to an increase in entropy (disorder) for the system, making the reaction thermodynamically more favourable (a more positive change in entropy contributes to a more negative, more favourable overall Gibbs free energy change) than the reverse process of the polydentate ligand being displaced by several new separate monodentate ligands. This entropy-driven extra stability, called the chelate effect, is why complexes with polydentate ligands tend to be considerably more stable (more resistant to ligand substitution) than comparable complexes with several individual monodentate ligands."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Define the term 'ligand' and explain the difference between a monodentate and a bidentate ligand, giving one example of each.", "marks": 3, "model_answer": "A ligand is a molecule or ion with a lone pair of electrons that can be donated to a central metal ion, forming a dative covalent bond (1 mark). A monodentate ligand donates only one lone pair to the central metal ion, e.g. water or ammonia (1 mark). A bidentate ligand has two lone pairs positioned so that both can bond to the same central metal ion simultaneously, e.g. ethanediamine (1 mark)."}
+      ],
+      "summary": "Ligands are molecules or ions that donate one or more lone pairs of electrons to a central metal ion via dative covalent bonds. Monodentate ligands (e.g. H2O, NH3) donate one lone pair; bidentate and polydentate ligands (e.g. ethanediamine, EDTA) donate two or more, forming particularly stable complexes via the chelate effect.",
+      "revision_notes": ["Ligand: donates lone pair(s) to metal ion via dative bond", "Monodentate: 1 donor site (H2O, NH3, Cl−, OH−, CN−)", "Bidentate/polydentate: 2+ donor sites (ethanediamine, EDTA)", "Chelate effect: polydentate ligands form more stable complexes (entropy-driven)"],
+      "related_topics": ["Complex Ions", "Coordination Number", "Coordinate (Dative) Covalent Bonds"],
+      "prerequisites": ["Complex Ions"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-120-coordination-number",
+      "subject": "Chemistry",
+      "category": "Structure and Properties of Materials",
+      "title": "Coordination Number",
+      "difficulty": "Advanced",
+      "description": "The total number of dative covalent bonds formed between a central metal ion and its surrounding ligands, determining the shape of a complex ion.",
+      "learning_objectives": [
+        "Define coordination number in the context of complex ions",
+        "Relate common coordination numbers to specific complex ion shapes",
+        "Calculate coordination number from a given formula, including for bidentate ligands"
+      ],
+      "explanation": "In the context of complex ions, coordination number refers to the total number of dative covalent bonds formed between the central metal ion and all of its surrounding ligands (this is a related but distinct use of the term from its meaning in a simple ionic lattice, referring instead to the number of donor bonds around a single central ion in a complex, rather than the number of neighbouring ions in a crystal lattice). The most common coordination number for transition metal complexes is 6, typically giving an octahedral shape (e.g. [Cu(H2O)6]2+, [Fe(CN)6]3−); a coordination number of 4 gives either a tetrahedral shape (e.g. [CuCl4]2−) or, less commonly for some metals, a square planar shape. When calculating coordination number for complexes containing bidentate or polydentate ligands, each ligand contributes as many dative bonds (and therefore as much to the total coordination number) as its number of donor sites (e.g. a bidentate ligand contributes 2 to the coordination number, even though it counts as only 1 ligand molecule).",
+      "key_concepts": ["Total number of dative bonds to the central metal ion", "Coordination number 6 → octahedral shape", "Coordination number 4 → tetrahedral (or square planar) shape", "Bidentate ligands contribute 2 to coordination number per ligand"],
+      "definitions": [
+        {"term": "Coordination number (complex ion)", "definition": "The total number of dative covalent bonds formed between a central metal ion and all its surrounding ligands."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Determine the coordination number of the central cobalt ion in [Co(NH3)3(H2O)3]3+.",
+          "working": "Count the total number of ligand molecules, each donating one lone pair (monodentate): 3 NH3 + 3 H2O = 6 ligands total.",
+          "answer": "Coordination number = 6"
+        }
+      ],
+      "practical_applications": ["Coordination number and the resulting complex ion shape influence the reactivity, colour and biological activity of coordination compounds used in catalysis and medicine"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Simply counting the number of separate ligand molecules present, without checking whether any of them are bidentate or polydentate (which would contribute more than 1 to the total coordination number per ligand)"],
+      "misconceptions": ["Believing coordination number is always 6 for every complex ion — while 6 is common (giving octahedral shape), coordination numbers of 4 (tetrahedral or square planar) and other values also occur, depending on the specific metal ion and ligands involved"],
+      "tips": ["When calculating coordination number, always check whether any bidentate (contributes 2) or polydentate (contributes more) ligands are present — count donor bonds, not simply the number of separate ligand particles"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the most common coordination number for transition metal complex ions.", "answer": "6"},
+          {"question": "State the shape typically associated with a coordination number of 6.", "answer": "Octahedral"}
+        ],
+        "intermediate": [
+          {"question": "Determine the coordination number of the central chromium ion in [Cr(H2O)6]3+.", "answer": "Coordination number = 6 (six monodentate water ligands, each donating one lone pair)."},
+          {"question": "Determine the coordination number of the central metal ion in a complex containing three bidentate ethanediamine ligands.", "answer": "Coordination number = 6 (three bidentate ligands, each contributing 2 to the coordination number: 3 × 2 = 6)."}
+        ],
+        "advanced": [
+          {"question": "Explain why a complex ion containing the hexadentate ligand EDTA4− has a coordination number of 6, even though it contains only one ligand molecule overall.", "answer": "Coordination number counts the total number of dative covalent bonds (donor sites) connecting the central metal ion to its surrounding ligands, not simply the number of separate ligand molecules or ions present. EDTA4− is a hexadentate ligand, meaning it has six separate donor atoms (typically a combination of nitrogen and oxygen atoms), each with a lone pair positioned appropriately to form a dative covalent bond to the same central metal ion simultaneously. Even though this represents only one ligand molecule overall, it forms six separate dative bonds to the metal ion, giving a coordination number of 6, identical in total bond count to a complex with six separate monodentate ligands, despite EDTA occupying all six coordination positions as a single molecule."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "State the coordination number of the central metal ion in [Fe(CN)6]3−, and describe the shape this coordination number typically gives.", "marks": 2, "model_answer": "Coordination number = 6 (1 mark), typically giving an octahedral shape (1 mark)."}
+      ],
+      "summary": "Coordination number is the total number of dative bonds from ligands to a central metal ion in a complex, most commonly 6 (octahedral shape) or 4 (tetrahedral/square planar). Bidentate and polydentate ligands contribute more than one bond per ligand towards this total.",
+      "revision_notes": ["Coordination number = total dative bonds to central metal ion", "6 → octahedral (most common); 4 → tetrahedral or square planar", "Bidentate ligand contributes 2; polydentate contributes its number of donor sites"],
+      "related_topics": ["Complex Ions", "Ligands", "Shapes of Complex Ions"],
+      "prerequisites": ["Ligands"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-121-transition-metal-complexes",
+      "subject": "Chemistry",
+      "category": "Structure and Properties of Materials",
+      "title": "Transition Metal Complexes",
+      "difficulty": "Advanced",
+      "description": "Complex ions formed specifically by transition metal ions, whose partially filled d orbitals give rise to characteristic colours and catalytic behaviour.",
+      "learning_objectives": [
+        "Explain why transition metals readily form complex ions",
+        "Describe common ligand substitution reactions of transition metal complexes",
+        "Relate transition metal complex formation to catalytic activity"
+      ],
+      "explanation": "Transition metal ions readily form complex ions because they have available empty orbitals (in the d and s subshells) to accept lone pairs of electrons from ligands, combined with a relatively small ionic radius and often high charge, giving strong attraction for the electron-donating ligands. Transition metal complexes commonly undergo ligand substitution reactions, in which one or more ligands in a complex ion are replaced by different ligands, often accompanied by a distinct colour change (e.g. adding excess concentrated ammonia to a pale blue aqueous copper(II) solution, [Cu(H2O)6]2+, first forms a pale blue precipitate of copper(II) hydroxide, then, with further excess ammonia, forms a deep blue solution of [Cu(NH3)4(H2O)2]2+). The ability of transition metals to form complexes with various ligands, including reactant molecules, is closely linked to their catalytic activity, since forming a complex with a reactant can provide an alternative reaction pathway with lower activation energy.",
+      "key_concepts": ["Transition metals: available orbitals + small radius/high charge → form complexes readily", "Ligand substitution reactions with colour changes", "Complex formation linked to catalytic activity"],
+      "definitions": [
+        {"term": "Ligand substitution", "definition": "A reaction in which one or more ligands in a complex ion are replaced by different ligands."}
+      ],
+      "formulae": [],
+      "equations": ["[Cu(H2O)6]2+(aq) + 4NH3(aq) → [Cu(NH3)4(H2O)2]2+(aq) + 4H2O(l)"],
+      "worked_examples": [
+        {
+          "problem": "Describe the colour change observed when excess concentrated ammonia is added to a solution of aqueous copper(II) ions.",
+          "working": "Initially, [Cu(H2O)6]2+ is present, giving a pale blue solution. Small amounts of ammonia first precipitate pale blue copper(II) hydroxide. With excess ammonia, ligand substitution occurs, replacing four water ligands with ammonia ligands.",
+          "answer": "The solution turns from pale blue to a deep, intense blue, as the complex ion [Cu(NH3)4(H2O)2]2+ forms, following an intermediate pale blue precipitate stage with limited ammonia."
+        }
+      ],
+      "practical_applications": ["Transition metal complexes and their ligand substitution reactions are exploited in catalysis (e.g. homogeneous catalysts in industrial processes), analytical colour tests, and biological molecules (e.g. haemoglobin binding oxygen via ligand substitution at an iron centre)"],
+      "laboratory_applications": ["Carrying out sequential ligand addition experiments (e.g. adding ammonia dropwise, then in excess, to a copper(II) solution) and recording the resulting colour changes as evidence of successive complex formation and ligand substitution"],
+      "common_mistakes": ["Assuming a colour change during ligand substitution always follows a simple, single-step process — some ligand substitutions proceed through an intermediate precipitate stage before further reagent addition completes the substitution to form a new, differently coloured complex"],
+      "misconceptions": ["Believing only transition metals can form complex ions — while transition metals form complexes particularly readily and characteristically (due to their d orbitals contributing to colour and reactivity), some non-transition metal ions can also form complex ions, though usually with less distinctive colour changes"],
+      "tips": ["Learn the classic sequence for copper(II) with ammonia as a model example: pale blue solution → pale blue precipitate (limited ammonia) → deep blue solution (excess ammonia, ligand substitution)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the term used for a reaction in which one ligand in a complex ion is replaced by another.", "answer": "Ligand substitution"},
+          {"question": "State the colour of the [Cu(NH3)4(H2O)2]2+ complex ion.", "answer": "Deep blue"}
+        ],
+        "intermediate": [
+          {"question": "Explain why transition metals readily form complex ions, referring to their electron configuration and ionic properties.", "answer": "Transition metal ions have available empty orbitals (in the d and s subshells) that can accept lone pairs of electrons donated by ligands, forming dative covalent bonds. Transition metal ions also typically have a relatively small ionic radius and often carry a significant positive charge, both of which increase the strength of attraction for electron-donating ligands, making transition metals particularly effective at forming stable complex ions compared to many other metal ions."}
+        ],
+        "advanced": [
+          {"question": "Explain how the ability of transition metals to form complexes with reactant molecules contributes to their effectiveness as catalysts, using a general example.", "answer": "A transition metal catalyst can form a temporary complex with one or more reactant molecules by accepting lone pairs from the reactant (acting as a ligand) into its available d orbitals, effectively bringing the reactants into close proximity and/or weakening particular bonds within the reactant molecule as it becomes attached to the metal centre. This provides an alternative reaction pathway with a lower overall activation energy compared to the uncatalysed reaction, since the energy needed to initially distort or partially break bonds in the reactant is reduced by this favourable interaction with the metal's d orbitals. After the reaction proceeds via this lower-energy pathway, the product(s) are released from the metal centre (a further ligand substitution step), regenerating the original catalyst so it can react with further reactant molecules, allowing the overall reaction to proceed considerably faster than it would without the transition metal catalyst present."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Describe the colour changes observed when excess concentrated ammonia solution is added, dropwise then in excess, to a solution containing copper(II) ions, and write an equation for the final ligand substitution reaction.", "marks": 4, "model_answer": "Initially, the pale blue [Cu(H2O)6]2+ solution forms a pale blue precipitate of copper(II) hydroxide with a small amount of ammonia (2 marks). With further excess ammonia, this precipitate dissolves and the solution turns deep blue, as ligand substitution occurs to form [Cu(NH3)4(H2O)2]2+ (1 mark). Equation: [Cu(H2O)6]2+(aq) + 4NH3(aq) → [Cu(NH3)4(H2O)2]2+(aq) + 4H2O(l) (1 mark)."}
+      ],
+      "summary": "Transition metals readily form complex ions due to their available orbitals, small radius, and charge. Ligand substitution reactions, often accompanied by distinctive colour changes, are characteristic of transition metal chemistry and underpin much of their catalytic behaviour.",
+      "revision_notes": ["Transition metals: empty orbitals + small radius/high charge → form complexes readily", "Ligand substitution: often with colour change (e.g. Cu2+ + NH3 sequence)", "Complex formation with reactants → lower activation energy → catalysis"],
+      "related_topics": ["Complex Ions", "Transition Elements", "Colours of Transition Metal Ions", "Catalysts"],
+      "prerequisites": ["Complex Ions", "Transition Elements"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-122-shapes-of-complex-ions",
+      "subject": "Chemistry",
+      "category": "Structure and Properties of Materials",
+      "title": "Shapes of Complex Ions",
+      "difficulty": "Advanced",
+      "description": "The characteristic three-dimensional shapes (octahedral, tetrahedral, square planar, linear) adopted by complex ions based on their coordination number.",
+      "learning_objectives": [
+        "Relate coordination number to the shape of a complex ion",
+        "Describe the octahedral, tetrahedral, square planar and linear shapes",
+        "Give an example complex ion for each common shape"
+      ],
+      "explanation": "The shape of a complex ion is primarily determined by its coordination number, following a similar underlying principle to VSEPR theory (minimising repulsion between the ligand groups arranged around the central metal ion). A coordination number of 6 typically gives an octahedral shape, with bond angles of 90° between adjacent ligands (e.g. [Cu(H2O)6]2+, [Fe(CN)6]3−). A coordination number of 4 typically gives either a tetrahedral shape, with bond angles of approximately 109.5° (e.g. [CuCl4]2−), particularly when the ligands are relatively large (such as chloride ions, where a tetrahedral arrangement reduces ligand-ligand repulsion compared to a more crowded alternative), or a square planar shape, with bond angles of 90°, seen in some specific transition metal complexes (e.g. certain platinum and nickel complexes, such as cisplatin). A coordination number of 2 gives a linear shape, with a bond angle of 180° (e.g. [Ag(NH3)2]+).",
+      "key_concepts": ["Coordination number 6 → octahedral (90°)", "Coordination number 4 → tetrahedral (109.5°) or square planar (90°)", "Coordination number 2 → linear (180°)"],
+      "definitions": [],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Predict the shape of the complex ion [Ag(NH3)2]+, given its coordination number is 2.",
+          "working": "A coordination number of 2 corresponds to a linear shape.",
+          "answer": "Linear, with a bond angle of 180°."
+        }
+      ],
+      "practical_applications": ["The shape of a coordination compound significantly affects its chemical and biological behaviour; for example, the square planar shape of cisplatin is essential to its function as an anticancer drug, allowing it to bind effectively to DNA"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Assuming coordination number 4 always gives a tetrahedral shape — while tetrahedral is more common overall for coordination number 4, square planar geometry also occurs for certain metals and ligand combinations, and this exception should not be overlooked"],
+      "misconceptions": ["Believing all complex ion shapes are directly predicted purely by simple electron-pair repulsion in the same straightforward way as simple molecules — while the underlying principle of minimising repulsion is similar, the specific preference between tetrahedral and square planar geometry (for coordination number 4) also depends on more detailed factors relating to the specific d-electron configuration of the metal ion, which is a more advanced consideration beyond simple VSEPR-style reasoning"],
+      "tips": ["Memorise the coordination number to shape mapping as a quick-reference table: 6 → octahedral; 4 → tetrahedral (most common) or square planar (specific cases); 2 → linear"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the shape typically associated with a coordination number of 6.", "answer": "Octahedral"},
+          {"question": "State the bond angle in a linear complex ion.", "answer": "180°"}
+        ],
+        "intermediate": [
+          {"question": "Predict the shape and bond angle of [Fe(CN)6]3−, given its coordination number.", "answer": "Coordination number 6 gives an octahedral shape, with bond angles of 90° between adjacent ligands."},
+          {"question": "Explain why [CuCl4]2− adopts a tetrahedral shape rather than an octahedral shape.", "answer": "The complex [CuCl4]2− has a coordination number of 4 (four chloride ligands), rather than 6; with only four ligands to arrange around the central copper ion, they adopt a tetrahedral arrangement to maximise the separation between them and minimise repulsion, following a similar underlying principle to VSEPR theory for simple molecules with four bonding regions."}
+        ],
+        "advanced": [
+          {"question": "Explain why some coordination number 4 complexes adopt a square planar shape rather than the more common tetrahedral shape, using cisplatin as an example.", "answer": "While a tetrahedral arrangement generally minimises simple electrostatic/steric repulsion between four ligands, certain transition metal ions with specific d-electron configurations (particularly d8 configurations, as found in Pt2+ in cisplatin) show an electronic preference for a square planar arrangement instead. This preference arises from more detailed considerations of how the d orbitals interact with the ligands' approaching electron density (related to crystal field theory, beyond simple VSEPR-style repulsion), which for these specific electron configurations makes the square planar arrangement lower in overall energy despite ligand-ligand repulsion being generally higher than in an equivalent tetrahedral arrangement. Cisplatin, [Pt(NH3)2Cl2], adopts this square planar shape, which is essential to its function as an anticancer drug, since this particular geometry allows it to bind effectively to specific sites on DNA molecules, disrupting DNA replication in rapidly dividing cancer cells."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "State the coordination number and shape of the complex ion [Ni(H2O)6]2+, including the approximate bond angle.", "marks": 2, "model_answer": "Coordination number = 6 (1 mark); shape = octahedral, with bond angles of 90° (1 mark)."}
+      ],
+      "summary": "Complex ion shape depends primarily on coordination number: 6 gives octahedral (90°), 4 gives tetrahedral (109.5°, most common) or square planar (90°, specific cases such as cisplatin), and 2 gives linear (180°).",
+      "revision_notes": ["Coordination number 6 → octahedral, 90°", "Coordination number 4 → tetrahedral (109.5°, common) or square planar (90°, specific d-electron cases e.g. Pt2+)", "Coordination number 2 → linear, 180°"],
+      "related_topics": ["Coordination Number", "Complex Ions", "VSEPR Theory"],
+      "prerequisites": ["Coordination Number"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-123-colours-of-transition-metal-ions",
+      "subject": "Chemistry",
+      "category": "Structure and Properties of Materials",
+      "title": "Colours of Transition Metal Ions",
+      "difficulty": "Advanced",
+      "description": "Why transition metal complexes are typically coloured, explained by electron transitions between split d orbital energy levels, and how colour changes with ligand, oxidation state and coordination number.",
+      "learning_objectives": [
+        "Explain why transition metal complexes are typically coloured",
+        "Describe how ligand type, oxidation state and coordination number affect observed colour",
+        "Explain why ions with full or empty d subshells are typically colourless"
+      ],
+      "explanation": "Transition metal complexes are typically coloured because their central metal ion has a partially filled d subshell; when ligands bond to the metal ion, they cause the five d orbitals (which would otherwise all have equal energy in an isolated ion) to split into two or more slightly different energy levels. Electrons in the lower-energy d orbitals can absorb a specific wavelength (frequency) of visible light, gaining just enough energy to jump ('be promoted') to the higher-energy d orbitals; the wavelengths of light not absorbed are transmitted or reflected, and it is this remaining, unabsorbed light that gives the complex its observed colour (the complementary colour to the wavelength absorbed). Because the exact size of the energy gap between the split d orbitals depends on the specific ligands present, the metal ion's oxidation state, and its coordination number/geometry, changing any of these factors changes which wavelength of light is absorbed, and therefore changes the observed colour — this is why the same metal can show different colours in different complexes (e.g. copper(II) is pale blue as [Cu(H2O)6]2+ but deep blue as [Cu(NH3)4(H2O)2]2+). Ions with either a completely full (d10) or completely empty (d0) d subshell, such as Zn2+ or Sc3+, cannot undergo this type of electron transition (since there are no accessible, only partially filled, split d orbital levels to transition between), and so their compounds are typically colourless or white.",
+      "key_concepts": ["Partially filled d subshell required for colour", "Ligands split d orbitals into different energy levels", "Electron transitions absorb specific visible light wavelengths", "Colour depends on ligand, oxidation state, coordination number", "Full (d10) or empty (d0) d subshell → colourless"],
+      "definitions": [
+        {"term": "d-d transition", "definition": "The absorption of a specific wavelength of visible light as an electron is promoted between split d orbital energy levels in a transition metal complex, giving rise to its observed colour."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Explain why zinc sulfate solution is colourless, while copper(II) sulfate solution is blue.",
+          "working": "Zinc ions, Zn2+, have the electron configuration [Ar]3d10 (a full d subshell). Copper(II) ions, Cu2+, have the electron configuration [Ar]3d9 (a partially filled d subshell).",
+          "answer": "Zinc's full d subshell means there are no accessible, unfilled d orbital energy levels for an electron to transition into upon absorbing visible light, so zinc compounds do not absorb visible light in this way and appear colourless. Copper(II)'s partially filled d subshell allows an electron to absorb a specific wavelength of visible light and transition to a higher split d orbital energy level, and the remaining, unabsorbed light gives copper(II) solutions their characteristic blue colour."
+        }
+      ],
+      "practical_applications": ["The distinctive, ligand-dependent colours of transition metal complexes are used extensively in analytical chemistry (colorimetric analysis) to identify and quantify specific metal ions and their oxidation states"],
+      "laboratory_applications": ["Recording and comparing the colours of the same transition metal ion in different complexes (varying ligand or oxidation state) as qualitative evidence for the specific complex or oxidation state present"],
+      "common_mistakes": ["Believing that any transition metal ion will always show the exact same colour regardless of which ligands are attached — colour is highly dependent on the specific ligand, since different ligands cause different degrees of d orbital splitting"],
+      "misconceptions": ["Believing all transition metal compounds are coloured without exception — ions with a full (d10, e.g. Zn2+, Cu+) or empty (d0, e.g. Sc3+, Ti4+) d subshell are typically colourless or white, since they lack the partially filled d subshell required for the relevant electron transitions to occur"],
+      "tips": ["Remember the key exception cases to check first: Zn2+ (d10, full) and Sc3+ (d0, empty) are classic examples of 'transition-block' ions that are colourless, precisely because they lack a partially filled d subshell"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State why transition metal complexes are typically coloured.", "answer": "Because their partially filled d subshell allows electrons to absorb specific wavelengths of visible light and transition between split d orbital energy levels, with the unabsorbed light giving the complex its observed colour."},
+          {"question": "State why zinc compounds are typically colourless.", "answer": "Because Zn2+ has a full (d10) d subshell, with no accessible, unfilled d orbital energy levels available for an electron transition to occur."}
+        ],
+        "intermediate": [
+          {"question": "Explain why the same metal ion, iron, can show different colours depending on its oxidation state (e.g. pale green Fe2+ vs yellow-brown Fe3+).", "answer": "Fe2+ and Fe3+ have different d-electron configurations (d6 and d5 respectively), meaning the specific pattern and number of electrons available for transitions between the split d orbital energy levels differs between the two oxidation states. Since the exact energy gap involved in these transitions (and therefore the specific wavelength of visible light absorbed) depends on the d-electron configuration, the two oxidation states of iron absorb different wavelengths of light and therefore show different observed colours."}
+        ],
+        "advanced": [
+          {"question": "Explain why changing the ligand attached to a metal ion (e.g. from water to ammonia, for copper(II)) changes the observed colour of the complex.", "answer": "Different ligands cause different degrees of splitting of the five d orbitals into different energy levels, depending on the strength of interaction between the ligand's donated electron density and the metal ion's d orbitals (related to what is described, at a more advanced level, as the ligand's position in the 'spectrochemical series', reflecting how strongly different ligands split the d orbitals). A ligand that causes a larger energy gap between the split d orbitals requires a higher-energy (shorter-wavelength) photon of visible light to promote an electron between them, while a ligand causing a smaller energy gap requires a lower-energy (longer-wavelength) photon. Since ammonia and water cause different degrees of d orbital splitting when bonded to copper(II), the wavelength of light absorbed differs between [Cu(H2O)6]2+ and [Cu(NH3)4(H2O)2]2+, resulting in their different observed colours (pale blue vs deep blue) despite both containing the same central copper(II) ion."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why transition metal ions are typically coloured, but Sc3+ compounds are colourless.", "marks": 4, "model_answer": "In a transition metal complex, the ligands cause the five d orbitals of the central metal ion to split into two or more different energy levels (1 mark). If the d subshell is partially filled, electrons can absorb specific wavelengths of visible light and be promoted between these split energy levels, and the wavelengths of light not absorbed give the complex its observed colour (1 mark). Sc3+ has the electron configuration [Ar] (i.e. an empty, d0, d subshell), so there are no d electrons available to undergo this type of transition (1 mark). Since no visible light is absorbed via d orbital transitions, Sc3+ compounds do not show this type of colour and typically appear colourless or white (1 mark)."}
+      ],
+      "summary": "Transition metal complexes are coloured because their partially filled d subshell allows electrons to absorb specific wavelengths of visible light while transitioning between ligand-split d orbital energy levels. Colour varies with ligand, oxidation state, and coordination number/geometry; ions with a full (d10) or empty (d0) d subshell (e.g. Zn2+, Sc3+) are typically colourless.",
+      "revision_notes": ["Colour requires: partially filled d subshell + ligands splitting d orbitals", "Electron absorbs specific wavelength, transitions between split d levels; unabsorbed light = observed colour", "Colour depends on: ligand type, oxidation state, coordination number/geometry", "Full (d10, e.g. Zn2+) or empty (d0, e.g. Sc3+) d subshell → colourless"],
+      "related_topics": ["Transition Metal Complexes", "Complex Ions", "d Orbitals", "Transition Elements"],
+      "prerequisites": ["Transition Metal Complexes", "d Orbitals"],
+      "diagram_recommendations": ["[DIAGRAM: Colours of common transition metal ions in aqueous solution]"],
+      "images": [
+        {
+          "filename": "chem-121-transition-metal-colours.svg",
+          "type": "chart",
+          "description": "Five coloured circles representing aqueous solutions of Cu2+ (blue), Fe2+ (pale green), Fe3+ (yellow-brown), Ni2+ (green), and Mn2+ (pale pink), each labelled with the ion formula above and the colour name below.",
+          "purpose": "Gives students a quick visual reference for common transition metal ion colours in solution, supporting recognition-based questions and qualitative analysis revision.",
+          "placement": "After the main explanation paragraph, before the key concepts list."
+        }
+      ]
+    }
+  ]
+}

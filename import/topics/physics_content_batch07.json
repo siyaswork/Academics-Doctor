@@ -1,0 +1,1654 @@
+[
+  {
+    "id": "phy-081",
+    "subject": "Physics",
+    "category": "Turning Effects, Equilibrium and Simple Machines",
+    "title": "Couples",
+    "difficulty": "Advanced",
+    "description": "A pair of equal, parallel, but oppositely directed forces acting on an object, producing rotation with no resultant force.",
+    "learning_objectives": [
+      "Define a couple",
+      "Calculate the total moment produced by a couple",
+      "Explain why a couple produces rotation with zero resultant force"
+    ],
+    "explanation": "A couple consists of two forces that are equal in magnitude, act in opposite directions, and are parallel to each other but offset along different lines of action (they do not act along the same line). Because the two forces are equal and opposite, their resultant (combined) force is exactly zero, meaning a couple produces no tendency to move the object in a straight line. However, because the two forces act along different lines, each produces its own moment about any chosen point, and since both moments act in the same rotational direction (both clockwise or both anticlockwise), they add together rather than cancel, producing a pure turning effect with no accompanying linear force. The total moment of a couple is calculated as the size of one of the forces multiplied by the perpendicular distance between the two lines of action: moment of a couple = F x d. A classic everyday example is turning a car's steering wheel with both hands, applying equal and opposite forces on either side of the wheel to rotate it.",
+    "key_concepts": [
+      "Two equal, opposite, parallel forces (not on the same line)",
+      "Resultant force = 0; produces pure rotation",
+      "Moment of a couple = F x d (d = separation between the forces)"
+    ],
+    "definitions": [
+      {
+        "term": "Couple",
+        "definition": "A pair of forces that are equal in magnitude, opposite in direction, and parallel but not acting along the same line, producing rotation with no resultant force."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Moment of a couple",
+        "equation": "moment = F x d",
+        "variables": {
+          "moment": "total moment of the couple, N m",
+          "F": "magnitude of each force, N",
+          "d": "perpendicular distance between the two lines of action, m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "moment",
+        "si_unit": "newton metre",
+        "symbol": "N m"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A driver applies two equal and opposite forces of 8 N to a steering wheel of diameter 0.36 m, one at each side. Calculate the total moment produced by this couple.",
+        "steps": [
+          "Identify the separation between the two forces: this equals the diameter of the wheel, d = 0.36 m.",
+          "Use moment = F x d.",
+          "Substitute: moment = 8 x 0.36."
+        ],
+        "answer": "2.88 N m"
+      }
+    ],
+    "practical_applications": [
+      "Turning a steering wheel, screwdriver handle, or tap using both hands",
+      "Engineering analysis of torque applied to rotating shafts and axles",
+      "Understanding the pure rotational effect produced by certain force pairs in structural design"
+    ],
+    "common_mistakes": [
+      "Assuming a couple must produce some resultant (linear) force, rather than recognising the forces cancel exactly",
+      "Using the distance from a single force to a pivot, rather than the separation between the two forces, when calculating the moment of a couple"
+    ],
+    "misconceptions": [
+      "That a couple requires an actual physical pivot point to act about — a couple produces the same total moment regardless of which point it is calculated about, since the two equal and opposite forces mean the resultant force is always zero and the net turning effect is unaffected by the choice of reference point."
+    ],
+    "tips": [
+      "Recognise a couple by checking for two equal-magnitude, oppositely-directed, parallel forces that do NOT act along the same line — this distinguishes a couple from a single force's moment about a pivot."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the two forces in a couple in terms of magnitude and direction."
+      ],
+      "intermediate": [
+        "Two equal and opposite 5 N forces act 0.2 m apart, forming a couple. Calculate the total moment produced."
+      ],
+      "advanced": [
+        "Explain why a couple produces a turning effect but no resultant linear force, referring to the two forces involved."
+      ]
+    },
+    "exam_questions": [
+      "Define a couple, and explain why turning a steering wheel with two hands (one pushing up, one pulling down on opposite sides) is an example of a couple."
+    ],
+    "answers": {
+      "basic": [
+        "Equal in magnitude, opposite in direction (and parallel, but not acting along the same line)."
+      ],
+      "intermediate": [
+        "moment = 5 x 0.2 = 1 N m."
+      ],
+      "advanced": [
+        "Because the two forces are equal in magnitude and exactly opposite in direction, they add to a resultant force of zero, producing no tendency for the object to accelerate in a straight line; however, since the forces act along different (offset) lines, each produces its own moment about any given point, and because both moments act in the same rotational sense, they combine to produce a net turning effect even without any net force."
+      ],
+      "exam": [
+        "A couple is a pair of equal, opposite, parallel forces that do not act along the same line, producing rotation with zero resultant force; turning a steering wheel with one hand pushing up on one side and the other pulling down on the opposite side applies exactly this kind of force pair — equal in magnitude, opposite in direction, offset from each other — producing pure rotation of the wheel with no net sideways force on it."
+      ]
+    },
+    "summary": "A couple is a pair of equal, opposite, parallel forces acting along different lines, producing pure rotation with zero resultant force. Its total moment is calculated as moment = F x d, using the separation between the two forces.",
+    "revision_notes": [
+      "Couple: equal, opposite, parallel forces, not on the same line",
+      "Resultant force = 0; pure rotation produced",
+      "moment = F x d (d = separation between forces)"
+    ],
+    "related_topics": [
+      "Moments",
+      "Equilibrium",
+      "Turning Effect of Forces"
+    ],
+    "prerequisites": [
+      "Moments"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A steering wheel with two equal, opposite force arrows applied at opposite edges, with the separation distance labelled]"
+    ],
+    "images": [
+      {
+        "filename": "physics-couples-081-01.webp",
+        "type": "diagram",
+        "description": "A circular steering wheel outline with two equal-length force arrows on opposite sides: one pointing up on the left, one pointing down on the right, with the separation distance between them labelled 'd'.",
+        "purpose": "Gives a concrete, everyday visual of the two defining features of a couple: equal opposite forces, offset from each other rather than acting on the same line.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-082",
+    "subject": "Physics",
+    "category": "Turning Effects, Equilibrium and Simple Machines",
+    "title": "Equilibrium",
+    "difficulty": "Intermediate",
+    "description": "The state of an object in which both the resultant force and the resultant moment acting on it are zero.",
+    "learning_objectives": [
+      "State the two conditions required for an object to be in equilibrium",
+      "Apply both conditions to solve problems involving multiple forces and moments",
+      "Distinguish static equilibrium from dynamic equilibrium"
+    ],
+    "explanation": "An object is in equilibrium when it experiences no overall tendency to accelerate in any direction and no overall tendency to rotate. This requires two separate conditions to both be satisfied simultaneously: first, the resultant (net) force acting on the object must be zero (the condition covered by Newton's first law); and second, the resultant moment acting on the object, about any point, must also be zero (the condition covered by the principle of moments). An object satisfying both conditions while at rest is said to be in static equilibrium (such as a stationary, balanced seesaw, or a building standing still); an object satisfying both conditions while moving at constant velocity, with no rotation, is in dynamic equilibrium (such as a plane flying at constant altitude, speed, and heading). Both conditions are necessary: an object could have a zero resultant force but still rotate (if there is a resultant moment, as with a couple), or have a zero resultant moment but still accelerate in a straight line (if there is a resultant force acting through its centre of mass).",
+    "key_concepts": [
+      "Equilibrium requires: resultant force = 0 AND resultant moment = 0",
+      "Static equilibrium: at rest; dynamic equilibrium: constant velocity, no rotation",
+      "Both conditions are independently necessary"
+    ],
+    "definitions": [
+      {
+        "term": "Equilibrium",
+        "definition": "The state of an object in which both the resultant force and the resultant moment acting on it are zero."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Conditions for equilibrium",
+        "equation": "resultant force = 0 AND resultant moment = 0",
+        "variables": {}
+      }
+    ],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "A uniform beam rests horizontally on two supports, A and B, and is in equilibrium. Explain what this tells you about both the forces and the moments acting on the beam.",
+        "steps": [
+          "Since the beam is in equilibrium, the resultant force acting on it must be zero: the total upward force from the two supports must exactly equal the beam's downward weight.",
+          "Since the beam is also in equilibrium, the resultant moment acting on it (about any point, such as one of the supports) must also be zero: the clockwise and anticlockwise moments due to the weight and the support forces must balance exactly."
+        ],
+        "answer": "The total support forces equal the beam's weight (zero resultant force), and the clockwise and anticlockwise moments about any point balance exactly (zero resultant moment)."
+      }
+    ],
+    "practical_applications": [
+      "Structural engineering, ensuring bridges, buildings, and beams remain in equilibrium under load",
+      "Analysing vehicles travelling at constant velocity (dynamic equilibrium)",
+      "Designing balanced mechanical systems such as scales and levers"
+    ],
+    "common_mistakes": [
+      "Checking only one of the two conditions (force or moment) and assuming this is sufficient to establish equilibrium",
+      "Assuming equilibrium always means an object is stationary, rather than also including constant-velocity, non-rotating motion"
+    ],
+    "misconceptions": [
+      "That a zero resultant force alone guarantees equilibrium — an object with a zero resultant force can still have a non-zero resultant moment (for example, from a couple), causing it to rotate even though it does not accelerate in any direction; both conditions must be checked independently."
+    ],
+    "tips": [
+      "When checking whether an object is in equilibrium, work through both conditions systematically and separately: first sum all forces (in each relevant direction) to check the resultant force is zero, then sum all moments about a chosen point to check the resultant moment is zero."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the two conditions required for an object to be in equilibrium."
+      ],
+      "intermediate": [
+        "A plane flies at a constant altitude, speed, and heading. Explain why this is an example of dynamic, rather than static, equilibrium."
+      ],
+      "advanced": [
+        "Explain why an object with zero resultant force is not necessarily in equilibrium, giving an example."
+      ]
+    },
+    "exam_questions": [
+      "Explain what is meant by equilibrium, stating both conditions that must be satisfied, and give one example each of static and dynamic equilibrium."
+    ],
+    "answers": {
+      "basic": [
+        "The resultant force acting on the object must be zero, and the resultant moment acting on the object must also be zero."
+      ],
+      "intermediate": [
+        "The plane is moving (not at rest), so it cannot be in static equilibrium; however, since its velocity (speed and direction) is not changing and it is not rotating, both the resultant force and resultant moment acting on it are zero, satisfying the conditions for equilibrium while in motion — this is dynamic equilibrium."
+      ],
+      "advanced": [
+        "A couple (two equal, opposite, parallel forces on different lines of action) has a resultant force of exactly zero, since the two forces cancel, but produces a non-zero resultant moment, since both individual moments act in the same rotational direction; an object subject to a couple would therefore begin to rotate, showing that zero resultant force alone does not guarantee equilibrium."
+      ],
+      "exam": [
+        "Equilibrium requires both the resultant force acting on an object to be zero and the resultant moment acting on it to be zero; static equilibrium example: a stationary, balanced seesaw. Dynamic equilibrium example: a car travelling at a constant velocity in a straight line."
+      ]
+    },
+    "summary": "Equilibrium requires both the resultant force and the resultant moment acting on an object to be zero. Static equilibrium applies to a stationary object; dynamic equilibrium applies to an object moving at constant velocity with no rotation.",
+    "revision_notes": [
+      "Equilibrium: resultant force = 0 AND resultant moment = 0",
+      "Static: at rest; dynamic: constant velocity, no rotation",
+      "Both conditions must be checked independently"
+    ],
+    "related_topics": [
+      "Newton's First Law",
+      "Principle of Moments",
+      "Balanced Forces"
+    ],
+    "prerequisites": [
+      "Newton's First Law",
+      "Principle of Moments"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: Three force vectors on an object arranged tip-to-tail forming a closed triangle, illustrating a zero resultant force]"
+    ],
+    "images": [
+      {
+        "filename": "physics-equilibrium-082-01.webp",
+        "type": "diagram",
+        "description": "Three labelled force arrows (F1, F2, F3) arranged tip-to-tail so that they form a closed triangle, returning to the starting point, illustrating that their vector sum (resultant) is zero.",
+        "purpose": "Visually demonstrates the graphical test for a zero resultant force (a closed triangle of forces), reinforcing the force condition for equilibrium.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-083",
+    "subject": "Physics",
+    "category": "Turning Effects, Equilibrium and Simple Machines",
+    "title": "Centre of Gravity",
+    "difficulty": "Intermediate",
+    "description": "The single point at which the entire weight of an object can be considered to act.",
+    "learning_objectives": [
+      "Define centre of gravity",
+      "Explain the relationship between centre of gravity and centre of mass",
+      "Determine the centre of gravity of simple, symmetric objects"
+    ],
+    "explanation": "The centre of gravity of an object is the single point at which its entire weight can be considered to act, for the purposes of analysing turning effects (moments) and stability. In a uniform gravitational field (an excellent approximation for everyday objects near the Earth's surface, since g barely changes over an object's size), the centre of gravity is located at exactly the same point as the centre of mass, and the two terms are often used interchangeably in introductory physics. For very large objects, or objects in a genuinely non-uniform gravitational field (such as an extremely tall structure, or an object in a strong, varying field near a massive body), the centre of gravity and centre of mass can technically differ slightly, since different parts of the object experience slightly different values of g, but this distinction is not significant for everyday objects and problems. Knowing an object's centre of gravity is essential for calculating moments accurately, since the weight of an object is treated, for calculation purposes, as a single force acting straight down from this one point.",
+    "key_concepts": [
+      "Centre of gravity = point where weight acts",
+      "Coincides with centre of mass in a uniform gravitational field",
+      "Used to calculate moments due to an object's own weight"
+    ],
+    "definitions": [
+      {
+        "term": "Centre of gravity",
+        "definition": "The single point at which an object's entire weight can be considered to act."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "A uniform metre ruler is balanced on a pivot placed exactly at its 50 cm mark. Explain, using the concept of centre of gravity, why the ruler balances at this point.",
+        "steps": [
+          "A uniform ruler has its mass (and therefore weight) evenly distributed along its length.",
+          "By symmetry, the centre of gravity of a uniform ruler is located at its exact midpoint, the 50 cm mark.",
+          "When the pivot is placed directly beneath the centre of gravity, the weight (acting at the centre of gravity) produces zero moment about the pivot, since the perpendicular distance between them is zero.",
+          "With zero moment from its own weight, the ruler remains in rotational equilibrium and balances."
+        ],
+        "answer": "The ruler balances at the 50 cm mark because this is its centre of gravity; placing the pivot directly beneath this point means the ruler's weight produces zero moment, so it does not rotate."
+      }
+    ],
+    "practical_applications": [
+      "Determining the correct balance point for tools, vehicles, and structures",
+      "Analysing the stability of objects, which depends directly on the position of the centre of gravity",
+      "Calculating moments due to the weight of complex or irregular objects in engineering"
+    ],
+    "common_mistakes": [
+      "Assuming the centre of gravity is always at the geometric centre, even for non-uniform or irregularly shaped objects",
+      "Confusing centre of gravity (relating to weight/moments) with centre of mass (relating to overall motion), even though they coincide in most everyday situations"
+    ],
+    "misconceptions": [
+      "That centre of gravity and centre of mass are fundamentally different concepts with different practical locations in ordinary situations — for virtually all everyday objects and problems, the local gravitational field is uniform enough that the two points coincide exactly, and the distinction only matters in specialised, large-scale scenarios."
+    ],
+    "tips": [
+      "For a uniform, symmetric object, find the centre of gravity by identifying the object's geometric centre; for a non-uniform object, expect the centre of gravity to be shifted toward the region with more concentrated mass."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the term for the single point at which an object's entire weight can be considered to act."
+      ],
+      "intermediate": [
+        "Explain why the centre of gravity and centre of mass of an everyday object on Earth's surface can be treated as the same point."
+      ],
+      "advanced": [
+        "A non-uniform plank has more mass concentrated at one end than the other. Describe, qualitatively, where its centre of gravity would be located relative to its geometric midpoint."
+      ]
+    },
+    "exam_questions": [
+      "Define centre of gravity, and explain its significance when calculating the moment produced by an object's own weight."
+    ],
+    "answers": {
+      "basic": [
+        "Centre of gravity."
+      ],
+      "intermediate": [
+        "Because the Earth's gravitational field strength, g, is essentially constant (uniform) over the small size of everyday objects, every part of the object experiences almost exactly the same g; under these conditions, the point representing the 'average' position of weight (centre of gravity) coincides exactly with the point representing the 'average' position of mass (centre of mass)."
+      ],
+      "advanced": [
+        "The centre of gravity would be located closer to the heavier end of the plank, shifted away from the geometric midpoint and toward the region where more of the plank's mass (and therefore weight) is concentrated."
+      ],
+      "exam": [
+        "Centre of gravity is the single point at which an object's entire weight can be considered to act; its significance for calculating moments is that the object's weight, however it is actually distributed throughout the object, can be treated as a single force of that total size acting straight down from this one point, greatly simplifying moment calculations involving the object's own weight."
+      ]
+    },
+    "summary": "Centre of gravity is the point at which an object's entire weight can be considered to act, coinciding with centre of mass in a uniform gravitational field (a very good approximation for everyday objects). It simplifies moment calculations involving an object's weight.",
+    "revision_notes": [
+      "Centre of gravity: point where weight acts",
+      "Coincides with centre of mass (uniform field, everyday objects)",
+      "Used to treat weight as a single force for moment calculations"
+    ],
+    "related_topics": [
+      "Centre of Mass",
+      "Weight",
+      "Stability",
+      "Moments"
+    ],
+    "prerequisites": [
+      "Centre of Mass",
+      "Weight"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-084",
+    "subject": "Physics",
+    "category": "Turning Effects, Equilibrium and Simple Machines",
+    "title": "Levers",
+    "difficulty": "Intermediate",
+    "description": "Simple machines consisting of a rigid bar pivoted at a fixed point, used to change the size or direction of a force.",
+    "learning_objectives": [
+      "Describe a lever as a simple machine that uses the principle of moments",
+      "Classify levers into three classes based on the relative positions of pivot, effort, and load",
+      "Give real-world examples of each class of lever"
+    ],
+    "explanation": "A lever is one of the simplest and oldest types of simple machine: a rigid bar that pivots about a fixed point, called the fulcrum, used to change the size of a force needed to move a load, or to change the direction in which a force must be applied. Levers work directly through the principle of moments: applying an effort force at some distance from the fulcrum produces a moment that can be used to move a load positioned elsewhere on the lever, and by choosing the effort's distance from the fulcrum appropriately, a relatively small effort force can be used to move a much larger load. Levers are classified into three classes, based on the relative order of the fulcrum, the load, and the effort along the bar: in a class 1 lever, the fulcrum is between the effort and the load (e.g. a seesaw, or a pair of scissors); in a class 2 lever, the load is between the fulcrum and the effort (e.g. a wheelbarrow, or a nutcracker); and in a class 3 lever, the effort is between the fulcrum and the load (e.g. a pair of tweezers, or the human forearm lifting a weight).",
+    "key_concepts": [
+      "Lever: rigid bar pivoting about a fulcrum",
+      "Works via the principle of moments",
+      "Three classes, based on the order of fulcrum, load, and effort"
+    ],
+    "definitions": [
+      {
+        "term": "Lever",
+        "definition": "A simple machine consisting of a rigid bar that pivots about a fixed point (the fulcrum), used to change the size or direction of a force."
+      },
+      {
+        "term": "Fulcrum",
+        "definition": "The fixed pivot point about which a lever rotates."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Classify a wheelbarrow as a class 1, 2, or 3 lever, explaining your reasoning.",
+        "steps": [
+          "Identify the fulcrum: the wheel, which stays in a fixed position as the wheelbarrow is lifted and moved.",
+          "Identify the load: the material being carried in the wheelbarrow's tray, positioned near the wheel.",
+          "Identify the effort: the force applied by the user's hands at the handles, positioned furthest from the wheel.",
+          "Since the load lies between the fulcrum (the wheel) and the effort (the handles), this matches the definition of a class 2 lever."
+        ],
+        "answer": "A wheelbarrow is a class 2 lever, since the load is positioned between the fulcrum (the wheel) and the effort (the handles)."
+      }
+    ],
+    "practical_applications": [
+      "Everyday tools: scissors, pliers, bottle openers, wheelbarrows, nutcrackers, tweezers",
+      "Human body mechanics, where many limbs function as class 3 levers",
+      "Construction and engineering machinery, such as cranes and crowbars"
+    ],
+    "common_mistakes": [
+      "Misidentifying which of the three points (fulcrum, load, effort) is in the middle for a given lever",
+      "Assuming all levers must make a task easier (require less effort force), when class 3 levers actually require a greater effort force than the load, in exchange for greater speed or range of movement"
+    ],
+    "misconceptions": [
+      "That every lever reduces the force needed to move a load — while class 1 and class 2 levers can be arranged to reduce the required effort force, a class 3 lever always requires a greater effort force than the load it moves, trading force for a larger range of motion or speed at the load end (this is why, for example, the human forearm can move quickly, even though it requires significant muscular effort)."
+    ],
+    "tips": [
+      "To classify a lever quickly, identify which of the three key points (fulcrum, load, effort) is positioned in the middle, between the other two, and match this to the corresponding class (1: fulcrum in the middle; 2: load in the middle; 3: effort in the middle)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "Name the fixed pivot point of a lever."
+      ],
+      "intermediate": [
+        "Classify a pair of scissors as a class 1, 2, or 3 lever, explaining your reasoning."
+      ],
+      "advanced": [
+        "Explain why the human forearm, lifting a weight held in the hand using the elbow as a pivot and the bicep muscle as the effort, is classified as a class 3 lever, and explain one disadvantage of this arrangement in terms of the effort force required."
+      ]
+    },
+    "exam_questions": [
+      "Describe the three classes of lever, in terms of the relative positions of the fulcrum, load, and effort, giving one example of each."
+    ],
+    "answers": {
+      "basic": [
+        "The fulcrum."
+      ],
+      "intermediate": [
+        "A pair of scissors is a class 1 lever, since the pivot (the screw joining the two blades) is positioned between the effort (where the fingers grip the handles) and the load (the material being cut, near the blade tips)."
+      ],
+      "advanced": [
+        "The bicep's attachment point (effort) is positioned between the elbow (fulcrum) and the hand holding the weight (load), matching the class 3 arrangement; a disadvantage of this arrangement is that, since the effort is always applied closer to the fulcrum than the load, the effort force required from the muscle must always be greater than the weight of the load itself, meaning class 3 levers are mechanically 'inefficient' in terms of force, even though they allow the hand (load end) to move quickly and through a large range of motion for a relatively small muscle movement."
+      ],
+      "exam": [
+        "Class 1: fulcrum between effort and load (e.g. a seesaw). Class 2: load between fulcrum and effort (e.g. a wheelbarrow). Class 3: effort between fulcrum and load (e.g. the human forearm, or tweezers)."
+      ]
+    },
+    "summary": "A lever is a rigid bar pivoting about a fulcrum, used to change the size or direction of a force via the principle of moments. Levers are classified into three classes based on the relative positions of the fulcrum, load, and effort.",
+    "revision_notes": [
+      "Lever: rigid bar + fulcrum, uses principle of moments",
+      "Class 1: fulcrum in middle (seesaw)",
+      "Class 2: load in middle (wheelbarrow)",
+      "Class 3: effort in middle (forearm, tweezers)"
+    ],
+    "related_topics": [
+      "Moments",
+      "Mechanical Advantage",
+      "Simple Machines"
+    ],
+    "prerequisites": [
+      "Moments"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: Three simple lever diagrams side by side, one for each class, showing the relative positions of fulcrum, load, and effort]"
+    ],
+    "images": [
+      {
+        "filename": "physics-levers-084-01.webp",
+        "type": "diagram",
+        "description": "Three simple horizontal lever diagrams side by side, each showing a bar and a triangular pivot in a different position along the bar, labelled 'Class 1', 'Class 2', and 'Class 3' with the pivot located in a different relative position in each.",
+        "purpose": "Gives a quick visual reference distinguishing the three lever classes by the relative position of the pivot along the bar.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-085",
+    "subject": "Physics",
+    "category": "Turning Effects, Equilibrium and Simple Machines",
+    "title": "Mechanical Advantage",
+    "difficulty": "Intermediate",
+    "description": "A measure of how much a simple machine multiplies an applied effort force, calculated as the ratio of load to effort.",
+    "learning_objectives": [
+      "Define mechanical advantage and state its equation",
+      "Calculate the mechanical advantage of a simple machine",
+      "Explain what a mechanical advantage greater than, equal to, or less than 1 indicates"
+    ],
+    "explanation": "Mechanical advantage is a measure of how much a simple machine (such as a lever, pulley system, or set of gears) multiplies an applied effort force to move a load. It is calculated as the ratio of the load moved to the effort force applied: mechanical advantage = load / effort. A mechanical advantage greater than 1 means the machine allows a relatively small effort force to move a larger load (a force-multiplying machine, such as most levers and pulley systems); a mechanical advantage equal to 1 means the machine simply redirects the force without changing its size; and a mechanical advantage less than 1 means the effort force required is actually greater than the load moved (as with a class 3 lever), which trades force for an increased range or speed of movement instead. Mechanical advantage has no unit, since it is a ratio of two forces measured in the same unit (newtons), which cancel.",
+    "key_concepts": [
+      "Mechanical advantage = load / effort",
+      "MA > 1: force-multiplying machine",
+      "MA < 1: trades force for speed/range of motion"
+    ],
+    "definitions": [
+      {
+        "term": "Mechanical advantage",
+        "definition": "The ratio of the load moved by a machine to the effort force applied, calculated as MA = load / effort."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Mechanical advantage",
+        "equation": "MA = load / effort",
+        "variables": {
+          "MA": "mechanical advantage (no unit)",
+          "load": "load force, N",
+          "effort": "effort force, N"
+        }
+      }
+    ],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "A lever is used to lift a 600 N load using an effort force of 150 N. Calculate the mechanical advantage of the lever.",
+        "steps": [
+          "Use MA = load / effort.",
+          "Substitute: MA = 600 / 150."
+        ],
+        "answer": "4 (no unit)"
+      }
+    ],
+    "practical_applications": [
+      "Comparing the force-multiplying performance of different lever and pulley designs",
+      "Engineering design of jacks, cranes, and other load-lifting machines",
+      "Analysing gear ratios in mechanical and vehicle transmission systems"
+    ],
+    "common_mistakes": [
+      "Inverting the ratio (calculating effort/load instead of load/effort)",
+      "Assuming mechanical advantage must always be greater than 1, ignoring machines (such as class 3 levers) designed to trade force for range of motion or speed"
+    ],
+    "misconceptions": [
+      "That a higher mechanical advantage always makes a machine 'better' in every sense — a higher mechanical advantage typically requires the effort to move through a proportionally larger distance than the load (as covered in Velocity Ratio), so there is always a trade-off between force and distance/speed, not a machine that is simply 'better' in every respect."
+    ],
+    "tips": [
+      "Remember mechanical advantage has no unit, since it is the ratio of two forces measured in the same unit; if your calculated answer has a unit attached, check for a substitution error."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for mechanical advantage."
+      ],
+      "intermediate": [
+        "A pulley system is used to lift a 900 N load using an effort of 300 N. Calculate the mechanical advantage."
+      ],
+      "advanced": [
+        "A machine has a mechanical advantage of 0.5. Explain what this indicates about the relationship between the effort force and the load."
+      ]
+    },
+    "exam_questions": [
+      "Define mechanical advantage, and explain what a mechanical advantage of exactly 1 indicates about a machine."
+    ],
+    "answers": {
+      "basic": [
+        "MA = load / effort."
+      ],
+      "intermediate": [
+        "MA = 900 / 300 = 3."
+      ],
+      "advanced": [
+        "A mechanical advantage of 0.5 means the load moved is only half the size of the effort force applied (effort > load); this indicates the machine does not multiply force at all, but instead requires a greater effort force than the load it moves, which is typical of machines designed to increase speed or range of motion (such as a class 3 lever) rather than to reduce the force needed."
+      ],
+      "exam": [
+        "A mechanical advantage of exactly 1 indicates that the load and the effort force are equal in size; the machine does not multiply or reduce the force needed, but may still be useful for redirecting the force's direction or location of application."
+      ]
+    },
+    "summary": "Mechanical advantage is the ratio of load to effort force for a simple machine (MA = load/effort), indicating how much the machine multiplies an applied force. A value above 1 indicates force-multiplication; below 1 indicates a trade-off favouring speed or range of motion instead.",
+    "revision_notes": [
+      "MA = load / effort (no unit)",
+      "MA > 1: force-multiplying",
+      "MA < 1: trades force for speed/range of motion"
+    ],
+    "related_topics": [
+      "Levers",
+      "Velocity Ratio",
+      "Efficiency of Machines"
+    ],
+    "prerequisites": [
+      "Levers"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-086",
+    "subject": "Physics",
+    "category": "Turning Effects, Equilibrium and Simple Machines",
+    "title": "Velocity Ratio",
+    "difficulty": "Intermediate",
+    "description": "A measure of how much further (or faster) the effort of a simple machine moves compared with the load, calculated as the ratio of their distances.",
+    "learning_objectives": [
+      "Define velocity ratio and state its equation",
+      "Calculate the velocity ratio of a simple machine",
+      "Explain the relationship between velocity ratio and mechanical advantage in an ideal machine"
+    ],
+    "explanation": "Velocity ratio is a measure of how much further the effort of a simple machine moves, compared with the distance the load moves, calculated as the ratio of the distance moved by the effort to the distance moved by the load: velocity ratio = distance moved by effort / distance moved by load. Because the effort and load distances are moved over the same time interval in most simple machines, this ratio of distances is equivalent to a ratio of speeds, which is why it is called the velocity ratio, even though it is most often calculated directly using distances rather than speeds. Velocity ratio, like mechanical advantage, has no unit. For an idealised, perfectly efficient (100% efficient, frictionless) machine, mechanical advantage and velocity ratio would be exactly equal; in any real machine, some efficiency is always lost to friction and other resistive effects, so the actual mechanical advantage achieved is always somewhat less than the velocity ratio, as covered in Efficiency of Machines.",
+    "key_concepts": [
+      "Velocity ratio = distance moved by effort / distance moved by load",
+      "No unit (ratio of two distances)",
+      "Equal to mechanical advantage only in an idealised, 100% efficient machine"
+    ],
+    "definitions": [
+      {
+        "term": "Velocity ratio",
+        "definition": "The ratio of the distance moved by the effort to the distance moved by the load in a simple machine, VR = distance moved by effort / distance moved by load."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Velocity ratio",
+        "equation": "VR = distance moved by effort / distance moved by load",
+        "variables": {
+          "VR": "velocity ratio (no unit)"
+        }
+      }
+    ],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "In a pulley system, the effort moves 6 m while the load is raised 1.5 m. Calculate the velocity ratio of the system.",
+        "steps": [
+          "Use VR = distance moved by effort / distance moved by load.",
+          "Substitute: VR = 6 / 1.5."
+        ],
+        "answer": "4 (no unit)"
+      }
+    ],
+    "practical_applications": [
+      "Designing gear systems and pulley configurations with a specific, required velocity ratio",
+      "Comparing the theoretical performance of different simple machines before accounting for real-world losses",
+      "Understanding the fundamental trade-off between force and distance in all simple machines"
+    ],
+    "common_mistakes": [
+      "Confusing velocity ratio (a ratio of distances/speeds) with mechanical advantage (a ratio of forces), despite them sometimes having a similar numerical value",
+      "Inverting the ratio (calculating load distance/effort distance instead of the reverse)"
+    ],
+    "misconceptions": [
+      "That velocity ratio and mechanical advantage are always numerically equal — they are only exactly equal for an idealised, perfectly efficient (100%) machine; any real machine, due to friction and other losses, has a mechanical advantage smaller than its velocity ratio."
+    ],
+    "tips": [
+      "Remember the distinction: mechanical advantage compares forces (load/effort); velocity ratio compares distances (effort distance/load distance) — these are calculated from entirely different quantities, even though both describe how a machine changes force versus motion."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for velocity ratio."
+      ],
+      "intermediate": [
+        "A lever's effort end moves 0.8 m while the load end moves 0.2 m. Calculate the velocity ratio."
+      ],
+      "advanced": [
+        "Explain why, in a real (non-ideal) machine, the mechanical advantage is always somewhat smaller than the velocity ratio."
+      ]
+    },
+    "exam_questions": [
+      "Define velocity ratio, and explain under what idealised condition it would be exactly equal to a machine's mechanical advantage."
+    ],
+    "answers": {
+      "basic": [
+        "VR = distance moved by effort / distance moved by load."
+      ],
+      "intermediate": [
+        "VR = 0.8 / 0.2 = 4."
+      ],
+      "advanced": [
+        "In a real machine, some of the work done by the effort is inevitably transferred to non-useful forms (such as thermal energy dissipated due to friction between moving parts), rather than being fully transferred to useful work done on the load; this means the actual output (load x load distance) is always somewhat less than the theoretical input (effort x effort distance) would allow, resulting in a mechanical advantage that is smaller than the velocity ratio, which depends only on the machine's geometry and ignores these losses."
+      ],
+      "exam": [
+        "Velocity ratio is the ratio of the distance moved by the effort to the distance moved by the load; it would be exactly equal to mechanical advantage only for an idealised, perfectly efficient (100% efficient) machine with no friction or other energy losses, since only in this ideal case is all of the work done by the effort fully transferred to useful work on the load."
+      ]
+    },
+    "summary": "Velocity ratio is the ratio of the distance moved by the effort to the distance moved by the load in a simple machine. It equals mechanical advantage only for an idealised, 100% efficient machine; real machines always have a smaller mechanical advantage than their velocity ratio.",
+    "revision_notes": [
+      "VR = effort distance / load distance (no unit)",
+      "VR = MA only for a perfectly (100%) efficient machine",
+      "Real machines: MA < VR"
+    ],
+    "related_topics": [
+      "Mechanical Advantage",
+      "Efficiency of Machines",
+      "Levers"
+    ],
+    "prerequisites": [
+      "Mechanical Advantage"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-087",
+    "subject": "Physics",
+    "category": "Turning Effects, Equilibrium and Simple Machines",
+    "title": "Efficiency of Machines",
+    "difficulty": "Intermediate",
+    "description": "A measure of how much of the work put into a machine is usefully transferred as work output, related to the ratio of mechanical advantage to velocity ratio.",
+    "learning_objectives": [
+      "Calculate the efficiency of a simple machine from mechanical advantage and velocity ratio",
+      "Explain why no real machine is 100% efficient",
+      "Suggest ways to improve the efficiency of a simple machine"
+    ],
+    "explanation": "The efficiency of a machine is a specific application of the general concept of efficiency (useful energy output / total energy input) to simple machines: it can be calculated either from work done (useful work output / total work input) x 100%, or, equivalently for a simple machine, from the ratio of its mechanical advantage to its velocity ratio: efficiency = (mechanical advantage / velocity ratio) x 100%. This equivalent formula works because mechanical advantage and velocity ratio both compare the same underlying effort-versus-load relationship, but from the perspective of force and distance respectively, and their ratio effectively cancels out to give the proportion of work usefully transferred. As with any real device, no simple machine achieves 100% efficiency, since friction between moving parts (such as in a pulley system's wheels and axles, or the pivot of a lever) always dissipates some of the input work as thermal energy rather than transferring it entirely to the load. Reducing this friction, for example through lubrication or using low-friction bearings, is the main way to improve the efficiency of a simple machine.",
+    "key_concepts": [
+      "efficiency = (mechanical advantage / velocity ratio) x 100%",
+      "Equivalent to (useful work output / total work input) x 100%",
+      "No real machine achieves 100% efficiency (friction losses)"
+    ],
+    "definitions": [
+      {
+        "term": "Efficiency of a machine",
+        "definition": "The proportion of the work input to a machine that is usefully transferred as work output, expressed as a percentage, calculated as efficiency = (mechanical advantage / velocity ratio) x 100%."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Efficiency of a machine",
+        "equation": "efficiency (%) = (MA / VR) x 100",
+        "variables": {
+          "MA": "mechanical advantage",
+          "VR": "velocity ratio"
+        }
+      }
+    ],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "A pulley system has a mechanical advantage of 3.5 and a velocity ratio of 5. Calculate its efficiency as a percentage.",
+        "steps": [
+          "Use efficiency = (MA / VR) x 100.",
+          "Substitute: efficiency = (3.5 / 5) x 100 = 0.7 x 100."
+        ],
+        "answer": "70%"
+      }
+    ],
+    "practical_applications": [
+      "Comparing the real-world performance of different pulley, lever, or gear systems",
+      "Engineering improvements to reduce friction and improve the efficiency of machinery",
+      "Evaluating the cost-effectiveness of mechanical systems in industrial applications"
+    ],
+    "common_mistakes": [
+      "Inverting the ratio (calculating VR/MA instead of MA/VR)",
+      "Forgetting to multiply by 100 when a percentage efficiency is required"
+    ],
+    "misconceptions": [
+      "That a machine's velocity ratio changes depending on how it is used or loaded — velocity ratio depends only on the fixed geometry of the machine (such as the number of pulleys in a system, or the lengths of a lever's arms) and does not change with the load, whereas mechanical advantage (and therefore efficiency) can vary somewhat depending on the actual load and friction conditions in a specific use of the machine."
+    ],
+    "tips": [
+      "Remember that efficiency of a machine can be found two equivalent ways: from work done (useful output/total input) or directly from MA/VR — use whichever quantities are given in a specific problem."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for the efficiency of a machine in terms of mechanical advantage and velocity ratio."
+      ],
+      "intermediate": [
+        "A machine has a mechanical advantage of 4 and a velocity ratio of 8. Calculate its efficiency."
+      ],
+      "advanced": [
+        "Explain why lubricating the moving parts of a pulley system would be expected to increase its efficiency, referring to mechanical advantage and velocity ratio."
+      ]
+    },
+    "exam_questions": [
+      "Explain why the efficiency of a real simple machine is always less than 100%, and suggest one method of improving it."
+    ],
+    "answers": {
+      "basic": [
+        "efficiency (%) = (MA/VR) x 100."
+      ],
+      "intermediate": [
+        "efficiency = (4/8) x 100 = 50%."
+      ],
+      "advanced": [
+        "Lubrication reduces friction between the moving parts of the pulley system (such as the wheels and axles), reducing the amount of the effort's work that is dissipated as thermal energy rather than transferred usefully to the load; since velocity ratio depends only on the fixed geometry of the pulley system and is unaffected by friction, this reduction in friction losses increases the mechanical advantage actually achieved for the same effort, bringing it closer to the velocity ratio and therefore increasing efficiency."
+      ],
+      "exam": [
+        "No real simple machine achieves 100% efficiency because friction between its moving parts (such as pivots, axles, or pulley wheels) always dissipates some of the input work as thermal energy rather than transferring it entirely and usefully to the load; efficiency can be improved by reducing this friction, for example through lubrication of the moving parts or the use of low-friction bearings."
+      ]
+    },
+    "summary": "The efficiency of a machine measures the proportion of input work usefully transferred to the load, calculated as (mechanical advantage / velocity ratio) x 100%. No real machine reaches 100% efficiency due to unavoidable friction losses, which can be reduced through lubrication and good design.",
+    "revision_notes": [
+      "efficiency (%) = (MA/VR) x 100",
+      "No real machine is 100% efficient (friction losses)",
+      "Lubrication and low-friction design improve efficiency"
+    ],
+    "related_topics": [
+      "Mechanical Advantage",
+      "Velocity Ratio",
+      "Efficiency"
+    ],
+    "prerequisites": [
+      "Mechanical Advantage",
+      "Velocity Ratio",
+      "Efficiency"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-088",
+    "subject": "Physics",
+    "category": "Turning Effects, Equilibrium and Simple Machines",
+    "title": "Simple Machines",
+    "difficulty": "Foundational",
+    "description": "Basic mechanical devices that change the size or direction of an applied force to make a task easier, forming the building blocks of more complex machinery.",
+    "learning_objectives": [
+      "Define a simple machine",
+      "List the main categories of simple machine",
+      "Explain the common underlying principle (force vs distance trade-off) shared by all simple machines"
+    ],
+    "explanation": "A simple machine is a basic mechanical device that changes the size or direction of an applied force, making a task easier to perform, even though it does not create any new energy. The main categories of simple machine include levers, pulleys, gears, inclined planes (ramps), wheels and axles, wedges, and screws. Despite their varied appearances and uses, every simple machine works according to the same underlying principle: by conservation of energy, the work done on the load by the machine can never exceed the work put in by the effort (and in practice is always somewhat less, due to friction, as reflected in efficiency less than 100%); machines that make a task 'easier' by reducing the required effort force (a mechanical advantage greater than 1) always require this smaller effort to move through a proportionally larger distance to compensate, so there is a fundamental trade-off between force and distance, not a genuine 'saving' of overall work.",
+    "key_concepts": [
+      "Simple machine: changes size or direction of a force",
+      "Categories: levers, pulleys, gears, inclined planes, wheel and axle, wedges, screws",
+      "Fundamental trade-off: reduced force always means increased distance moved (conservation of energy)"
+    ],
+    "definitions": [
+      {
+        "term": "Simple machine",
+        "definition": "A basic mechanical device that changes the size or direction of an applied force, without creating new energy."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain why using a ramp (an inclined plane) to push a heavy box up onto a platform requires less force than lifting the box straight up, but does not reduce the total work done, ignoring friction.",
+        "steps": [
+          "Pushing the box up the longer, sloped distance of the ramp requires a smaller force than lifting it the shorter, vertical height directly, since the effort is spread over a greater distance.",
+          "However, work done = force x distance; the smaller force is applied over a proportionally greater distance along the ramp.",
+          "By conservation of energy (ignoring friction), the total work done pushing the box up the ramp is the same as the work that would be done lifting it straight up the same vertical height."
+        ],
+        "answer": "The ramp reduces the force needed, but requires this smaller force to act over a greater distance, so the total work done (ignoring friction) remains the same as lifting the box directly."
+      }
+    ],
+    "practical_applications": [
+      "Everyday tools and equipment based on simple machines: scissors, ramps, pulleys, gears, wedges, screws",
+      "Foundational building blocks for understanding more complex machinery and engineering systems",
+      "Historical and modern construction techniques relying on simple machines to move heavy loads"
+    ],
+    "common_mistakes": [
+      "Believing simple machines reduce the total work or energy needed to complete a task, rather than trading force for distance",
+      "Assuming all simple machines reduce the required effort force, ignoring examples (such as certain levers) that trade force for increased speed or range of motion instead"
+    ],
+    "misconceptions": [
+      "That a machine allowing a smaller effort force to move a large load has somehow 'created' extra force or energy — by conservation of energy, no machine can output more work than is put into it; a smaller effort force is always compensated for by that effort moving through a correspondingly greater distance."
+    ],
+    "tips": [
+      "When analysing any simple machine, always check both the force and the distance involved for the effort and the load — a full picture requires considering both mechanical advantage (force ratio) and velocity ratio (distance ratio) together."
+    ],
+    "practice_questions": {
+      "basic": [
+        "List three examples of a simple machine."
+      ],
+      "intermediate": [
+        "Explain why a simple machine cannot reduce the total work needed to complete a task, even though it can reduce the force required."
+      ],
+      "advanced": [
+        "A gear system reduces the effort force needed to turn an axle, but the effort gear must be turned through a much greater number of rotations than the axle. Explain this trade-off in terms of work done."
+      ]
+    },
+    "exam_questions": [
+      "Define a simple machine, and explain, using the principle of conservation of energy, why using a simple machine to reduce the required effort force always means the effort must move through a greater distance."
+    ],
+    "answers": {
+      "basic": [
+        "Any three of: lever, pulley, gear, inclined plane, wheel and axle, wedge, screw."
+      ],
+      "intermediate": [
+        "Since work done = force x distance, and by conservation of energy the machine's work output can never exceed its work input, any reduction in the effort force required (a smaller 'force' factor) must be compensated for by an increase in the distance over which that effort acts (a larger 'distance' factor), so the total work (force x distance) done by the effort remains at least as much as the useful work done on the load, and is not reduced overall."
+      ],
+      "advanced": [
+        "The gear system reduces the effort force needed by requiring the effort gear to rotate through a much larger angle (and therefore travel a much greater distance at its edge) than the output axle does; since work done = force x distance, this trade-off (smaller force, larger distance for the effort) keeps the total work input at least equal to the useful work output on the axle, consistent with conservation of energy."
+      ],
+      "exam": [
+        "A simple machine is a basic mechanical device that changes the size or direction of an applied force, without creating new energy; since work done = force x distance, and conservation of energy means a machine's work output cannot exceed its work input, any machine that reduces the effort force needed to move a load must require that reduced effort to act over a correspondingly greater distance, so that the product (force x distance, i.e. work done) for the effort remains at least as great as the work usefully done on the load."
+      ]
+    },
+    "summary": "A simple machine is a basic device that changes the size or direction of an applied force. All simple machines share the same underlying trade-off: reducing the required force always means increasing the distance over which that force must act, since total work input can never be less than useful work output (conservation of energy).",
+    "revision_notes": [
+      "Categories: levers, pulleys, gears, inclined planes, wheel and axle, wedges, screws",
+      "Change force size or direction; no new energy created",
+      "Trade-off: smaller force always means larger distance moved"
+    ],
+    "related_topics": [
+      "Levers",
+      "Pulleys",
+      "Gears",
+      "Inclined Planes",
+      "Mechanical Advantage"
+    ],
+    "prerequisites": [
+      "Mechanical Advantage",
+      "Velocity Ratio"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-089",
+    "subject": "Physics",
+    "category": "Turning Effects, Equilibrium and Simple Machines",
+    "title": "Pulleys",
+    "difficulty": "Intermediate",
+    "description": "A simple machine consisting of a wheel with a grooved rim, over which a rope or cable runs, used to change the direction of a force or, in multiple-pulley systems, to multiply it.",
+    "learning_objectives": [
+      "Describe how a single fixed pulley changes the direction of a force",
+      "Explain how a pulley system with multiple pulleys can produce a mechanical advantage greater than 1",
+      "Calculate the mechanical advantage or velocity ratio of a simple pulley system"
+    ],
+    "explanation": "A pulley is a simple machine consisting of a wheel with a grooved rim over which a rope, cable, or belt runs, allowing a force to be redirected or, in some configurations, multiplied. A single fixed pulley (attached to a fixed point, such as a beam) does not provide any mechanical advantage — the effort force needed equals the load, and its main benefit is changing the direction of the applied force, for example allowing a person to pull downward to lift a load upward, which is often more convenient and allows the person's own weight to assist the pulling motion. A system of multiple pulleys, combining fixed and movable pulleys connected by a single continuous rope, can provide a mechanical advantage greater than 1, since the load is supported by multiple sections of rope simultaneously: the mechanical advantage of an ideal (frictionless) pulley system is equal to the number of rope sections directly supporting the movable pulley (and therefore the load). This mechanical advantage is gained at the cost of the effort having to pull through a proportionally greater length of rope, in line with the general force-versus-distance trade-off of all simple machines.",
+    "key_concepts": [
+      "Single fixed pulley: changes direction only, MA = 1",
+      "Multiple pulleys: MA = number of rope sections supporting the load",
+      "Trade-off: greater MA requires effort to pull a proportionally longer length of rope"
+    ],
+    "definitions": [
+      {
+        "term": "Pulley",
+        "definition": "A simple machine consisting of a grooved wheel over which a rope or cable runs, used to redirect or, in multiple-pulley systems, multiply an applied force."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Mechanical advantage of an ideal pulley system",
+        "equation": "MA = number of rope sections supporting the load",
+        "variables": {}
+      }
+    ],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A pulley system has 4 sections of rope directly supporting the movable pulley and load. Assuming the system is ideal (frictionless), calculate the effort force needed to lift a 200 N load.",
+        "steps": [
+          "Since the system is ideal, MA equals the number of supporting rope sections: MA = 4.",
+          "Use MA = load / effort, rearranged: effort = load / MA.",
+          "Substitute: effort = 200 / 4."
+        ],
+        "answer": "50 N"
+      }
+    ],
+    "practical_applications": [
+      "Cranes and lifting equipment, using multiple pulleys to lift heavy loads with manageable effort",
+      "Window blinds and flagpoles, using a single fixed pulley to redirect a pulling force",
+      "Elevator and lift systems, relying on pulley systems combined with counterweights"
+    ],
+    "common_mistakes": [
+      "Assuming any pulley automatically provides a mechanical advantage greater than 1, without checking whether it is a single fixed pulley or part of a multi-pulley system",
+      "Miscounting the number of rope sections actually supporting the load in a multi-pulley system"
+    ],
+    "misconceptions": [
+      "That a single pulley always makes lifting a load easier in terms of force required — a single, fixed pulley provides no force advantage at all (MA = 1); its usefulness comes purely from redirecting the force's direction, not from reducing the size of the force needed."
+    ],
+    "tips": [
+      "To find the mechanical advantage of an ideal pulley system, carefully count only the number of rope sections that directly support the movable pulley (and load), not the total number of pulleys in the system."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the mechanical advantage of a single, fixed pulley."
+      ],
+      "intermediate": [
+        "A pulley system has 3 rope sections supporting the load. Calculate the effort force needed to lift a 450 N load, assuming an ideal (frictionless) system."
+      ],
+      "advanced": [
+        "Explain why a real pulley system with a given number of supporting rope sections would have a mechanical advantage slightly less than this ideal value."
+      ]
+    },
+    "exam_questions": [
+      "Explain the main benefit of using a single, fixed pulley, given that it provides no mechanical advantage."
+    ],
+    "answers": {
+      "basic": [
+        "1 (no mechanical advantage)."
+      ],
+      "intermediate": [
+        "effort = load / MA = 450 / 3 = 150 N."
+      ],
+      "advanced": [
+        "A real pulley system experiences friction at the pulley wheels' axles and some energy loss due to the weight and stiffness of the rope itself; this friction dissipates some of the effort's work as thermal energy rather than transferring it entirely to the load, meaning the actual mechanical advantage achieved is somewhat less than the ideal value predicted simply by counting supporting rope sections."
+      ],
+      "exam": [
+        "The main benefit of a single, fixed pulley is that it changes the direction of the applied force — for example, allowing a person to pull downward on a rope to lift a load upward, which can be more convenient and allows the puller to use their body weight to help apply the force, even though it does not reduce the size of the force needed."
+      ]
+    },
+    "summary": "A pulley redirects an applied force via a rope running over a grooved wheel. A single fixed pulley changes direction only (MA = 1); multiple-pulley systems can multiply force, with mechanical advantage equal to the number of rope sections supporting the load, at the cost of the effort pulling a longer length of rope.",
+    "revision_notes": [
+      "Single fixed pulley: MA = 1, changes direction only",
+      "Multiple pulleys: MA = number of supporting rope sections",
+      "Real systems: MA slightly less than ideal (friction)"
+    ],
+    "related_topics": [
+      "Simple Machines",
+      "Mechanical Advantage",
+      "Velocity Ratio"
+    ],
+    "prerequisites": [
+      "Simple Machines"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-090",
+    "subject": "Physics",
+    "category": "Turning Effects, Equilibrium and Simple Machines",
+    "title": "Gears",
+    "difficulty": "Intermediate",
+    "description": "Toothed wheels that mesh together to transmit rotational force between shafts, changing the speed, force, or direction of rotation.",
+    "learning_objectives": [
+      "Describe how meshed gears transmit rotational motion",
+      "Explain how the relative size of two gears affects speed and turning force (torque)",
+      "Calculate the gear ratio between two meshed gears"
+    ],
+    "explanation": "Gears are toothed wheels that mesh together so that the rotation of one gear (connected to a source of turning force, or torque) causes the connected gear(s) to rotate too, transmitting rotational motion and force between different shafts or components. When two gears of different sizes are meshed together, they must have teeth of the same size to mesh correctly, meaning the larger gear has proportionally more teeth than the smaller one. If a small gear (the 'driver') turns a larger gear (the 'driven' gear), the larger gear rotates more slowly than the driver but with a greater turning force (torque), since the same effort is now effectively acting with a longer lever arm (a greater 'radius' of teeth engagement); conversely, if a large gear turns a smaller one, the smaller gear rotates faster but with reduced torque. This trade-off between speed and torque, controlled by the ratio of teeth (or radii) between meshed gears, is described by the gear ratio, and is used throughout vehicles, clocks, and machinery to convert a motor's output into whatever combination of speed and turning force is needed for a specific task.",
+    "key_concepts": [
+      "Meshed gears transmit rotational motion and force",
+      "Small gear driving large gear: slower rotation, more torque",
+      "Large gear driving small gear: faster rotation, less torque"
+    ],
+    "definitions": [
+      {
+        "term": "Gear",
+        "definition": "A toothed wheel that meshes with another gear to transmit rotational motion and force between shafts."
+      },
+      {
+        "term": "Gear ratio",
+        "definition": "The ratio of the number of teeth (or rotational speeds) between two meshed gears, describing the trade-off between speed and torque they produce."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Gear ratio",
+        "equation": "gear ratio = number of teeth on driven gear / number of teeth on driver gear",
+        "variables": {}
+      }
+    ],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "A driver gear with 12 teeth meshes with a driven gear with 36 teeth. Calculate the gear ratio, and state whether the driven gear rotates faster or slower than the driver gear.",
+        "steps": [
+          "Use gear ratio = teeth on driven gear / teeth on driver gear.",
+          "Substitute: gear ratio = 36 / 12.",
+          "A gear ratio greater than 1 (here, 3) means the driven gear has more teeth and therefore rotates more slowly than the driver, but with a greater turning force (torque)."
+        ],
+        "answer": "Gear ratio = 3; the driven gear rotates more slowly than the driver gear (by a factor of 3), but produces greater torque."
+      }
+    ],
+    "practical_applications": [
+      "Bicycle gear systems, allowing riders to trade speed for reduced pedalling effort (torque) on hills",
+      "Vehicle transmissions, converting an engine's rotational output into an appropriate combination of speed and torque for the wheels",
+      "Clockwork mechanisms, using precise gear ratios to convert a fast-turning spring into the slow, accurate movement of clock hands"
+    ],
+    "common_mistakes": [
+      "Assuming a larger gear always rotates faster than a smaller meshed gear, rather than more slowly",
+      "Confusing gear ratio (a ratio of teeth/speeds) with mechanical advantage (a ratio of forces/torques), even though they are closely related"
+    ],
+    "misconceptions": [
+      "That gears can increase both speed and torque simultaneously without any trade-off — by the same energy/work conservation principle underlying all simple machines, a gear system that increases rotational speed always does so at the cost of reduced torque, and vice versa; gears cannot produce a genuine 'free' gain in both quantities at once."
+    ],
+    "tips": [
+      "Remember the simple rule: the smaller gear in a meshed pair always rotates faster (but with less torque) than the larger gear, regardless of which one is driving the other."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State whether a small gear meshed with a larger gear rotates faster or slower than the larger gear."
+      ],
+      "intermediate": [
+        "A driver gear with 8 teeth meshes with a driven gear with 24 teeth. Calculate the gear ratio."
+      ],
+      "advanced": [
+        "Explain why a cyclist changes to a gear combination with a larger rear gear (relative to the front) when riding uphill."
+      ]
+    },
+    "exam_questions": [
+      "Explain, in terms of speed and torque, what happens when a small driver gear meshes with and turns a much larger driven gear."
+    ],
+    "answers": {
+      "basic": [
+        "Faster (but with less torque, or turning force)."
+      ],
+      "intermediate": [
+        "gear ratio = 24 / 8 = 3."
+      ],
+      "advanced": [
+        "Selecting a larger rear gear (relative to the front) increases the effective gear ratio, causing the rear wheel to rotate more slowly for each turn of the pedals, but with greater torque delivered to the wheel; this greater torque makes it easier (requiring less pedalling force) to turn the wheel against the increased resistance of riding uphill, at the cost of reduced speed for the same pedalling rate."
+      ],
+      "exam": [
+        "When a small driver gear turns a much larger driven gear, the driven gear rotates more slowly than the driver gear, but produces a correspondingly greater turning force (torque), since the effort applied at the driver is effectively transmitted through a longer lever arm (radius) at the larger driven gear."
+      ]
+    },
+    "summary": "Gears are meshed toothed wheels that transmit rotational motion and force. A smaller gear rotates faster with less torque than a larger meshed gear, and vice versa, with the trade-off described by the gear ratio.",
+    "revision_notes": [
+      "Meshed gears: same tooth size, different tooth counts",
+      "Small gear: faster, less torque; large gear: slower, more torque",
+      "gear ratio = teeth on driven / teeth on driver"
+    ],
+    "related_topics": [
+      "Simple Machines",
+      "Moments",
+      "Mechanical Advantage"
+    ],
+    "prerequisites": [
+      "Simple Machines",
+      "Moments"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-091",
+    "subject": "Physics",
+    "category": "Turning Effects, Equilibrium and Simple Machines",
+    "title": "Inclined Planes",
+    "difficulty": "Intermediate",
+    "description": "A simple machine consisting of a sloped surface, used to raise a load to a height using a smaller force than lifting it vertically.",
+    "learning_objectives": [
+      "Describe how an inclined plane reduces the force needed to raise a load",
+      "Calculate the mechanical advantage of an inclined plane from its dimensions",
+      "Explain the force-versus-distance trade-off involved in using an inclined plane"
+    ],
+    "explanation": "An inclined plane, more commonly known as a ramp, is a simple machine consisting of a flat, sloped surface, used to raise a load to a given height using a smaller applied force than would be needed to lift it straight up, at the cost of the load having to travel a greater total distance along the slope. For a smooth (frictionless), ideal inclined plane, the mechanical advantage is equal to the ratio of the length of the slope to the height it rises: MA = length of slope / height. A longer, more gradual slope for a given height therefore produces a greater mechanical advantage (an easier push, but requiring the load to travel further), while a shorter, steeper slope produces a smaller mechanical advantage (a harder push, over a shorter distance). This principle is widely used, from ancient construction techniques moving heavy stone blocks up ramps, to modern wheelchair access ramps and vehicle loading ramps, wherever a large load needs to be raised using a manageable force.",
+    "key_concepts": [
+      "Inclined plane reduces force needed, at the cost of greater distance travelled",
+      "MA (ideal) = length of slope / height",
+      "Longer, more gradual slope = greater mechanical advantage"
+    ],
+    "definitions": [
+      {
+        "term": "Inclined plane",
+        "definition": "A simple machine consisting of a sloped surface, used to raise a load to a height using a reduced force, at the cost of the load travelling a greater distance."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Mechanical advantage of an ideal inclined plane",
+        "equation": "MA = length of slope / height",
+        "variables": {
+          "MA": "mechanical advantage (no unit)"
+        }
+      }
+    ],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "A ramp is 5 m long and rises to a height of 1 m. Assuming the ramp is ideal (frictionless), calculate its mechanical advantage.",
+        "steps": [
+          "Use MA = length of slope / height.",
+          "Substitute: MA = 5 / 1."
+        ],
+        "answer": "5"
+      }
+    ],
+    "practical_applications": [
+      "Wheelchair access ramps, designed with a gentle slope for ease of use",
+      "Loading ramps for vehicles and warehouses, reducing the force needed to move heavy goods",
+      "Road and railway design, using gradual gradients to make climbing hills manageable"
+    ],
+    "common_mistakes": [
+      "Using the height of the ramp in place of the length of the slope (or vice versa) when calculating mechanical advantage",
+      "Assuming a steeper ramp always makes a task easier, rather than recognising it reduces mechanical advantage"
+    ],
+    "misconceptions": [
+      "That a shorter ramp is always more convenient — while a shorter ramp reduces the distance travelled, it also reduces the mechanical advantage (requiring a larger force), so the 'best' ramp length depends on the specific trade-off needed between force and distance for a given task."
+    ],
+    "tips": [
+      "Remember: to increase the mechanical advantage of a ramp (make pushing a load easier), make the slope longer relative to its height (a more gradual incline)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for the mechanical advantage of an ideal inclined plane."
+      ],
+      "intermediate": [
+        "A ramp with a mechanical advantage of 4 rises to a height of 0.5 m. Calculate the length of the slope."
+      ],
+      "advanced": [
+        "Explain why loading ramps for heavy goods vehicles are typically made as long and gradual as practically possible, rather than short and steep."
+      ]
+    },
+    "exam_questions": [
+      "Explain, in terms of force and distance, why using a long, gradual ramp to raise a heavy load to a given height requires less force than lifting the load straight up."
+    ],
+    "answers": {
+      "basic": [
+        "MA = length of slope / height."
+      ],
+      "intermediate": [
+        "MA = length / height, so 4 = length / 0.5, giving length = 4 x 0.5 = 2 m."
+      ],
+      "advanced": [
+        "A long, gradual ramp provides a greater mechanical advantage than a short, steep one (since MA = length/height increases as length increases for a fixed height), meaning the force required to push the load up the ramp is smaller, which is important for heavy goods that might otherwise require an impractically large force on a short, steep ramp."
+      ],
+      "exam": [
+        "By conservation of energy, the total work needed to raise the load to a given height is approximately fixed (ignoring friction); using a long, gradual ramp increases the distance over which the effort force acts, and since work done = force x distance, spreading the same total work over a greater distance allows a correspondingly smaller force to be used compared with lifting the load the shorter, vertical distance directly."
+      ]
+    },
+    "summary": "An inclined plane (ramp) reduces the force needed to raise a load to a height, at the cost of the load travelling a greater distance along the slope. Its ideal mechanical advantage is the ratio of slope length to height, so longer, more gradual ramps give a greater mechanical advantage.",
+    "revision_notes": [
+      "MA (ideal) = length of slope / height",
+      "Longer/more gradual ramp = greater MA (easier push, longer distance)",
+      "Reduces force needed by increasing distance travelled"
+    ],
+    "related_topics": [
+      "Simple Machines",
+      "Mechanical Advantage",
+      "Work Done"
+    ],
+    "prerequisites": [
+      "Simple Machines",
+      "Work Done"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-092",
+    "subject": "Physics",
+    "category": "Turning Effects, Equilibrium and Simple Machines",
+    "title": "Hydraulic Machines",
+    "difficulty": "Advanced",
+    "description": "Machines that use an incompressible liquid to transmit and multiply force between two connected pistons of different sizes.",
+    "learning_objectives": [
+      "Explain how a hydraulic system transmits force using an incompressible liquid",
+      "Calculate the force multiplication produced by a hydraulic system using Pascal's principle",
+      "Explain the force-versus-distance trade-off in hydraulic machines"
+    ],
+    "explanation": "A hydraulic machine uses an enclosed, incompressible liquid (usually a special hydraulic oil) to transmit and multiply force between two connected pistons of different cross-sectional areas. This works according to Pascal's principle (covered in its own topic), which states that pressure applied to an enclosed liquid is transmitted equally throughout that liquid. Since pressure = force / area, applying a relatively small force to a piston with a small area creates a certain pressure in the liquid; because this pressure is transmitted unchanged to a second, larger piston elsewhere in the system, and pressure = force/area rearranges to force = pressure x area, the same pressure acting on a much larger area produces a much larger force at the second piston. This is the principle behind hydraulic car jacks, hydraulic brakes, and heavy construction machinery such as excavators, allowing a person or small pump to generate enough force to lift a car or move a large mass of earth. As with all simple machines, this force multiplication comes at the cost of the small piston having to move a much greater distance than the large piston, in order to displace the same volume of liquid.",
+    "key_concepts": [
+      "Uses Pascal's principle: pressure transmitted equally through an enclosed liquid",
+      "Small piston + small area -> large piston + large area = force multiplication",
+      "Force-distance trade-off: small piston moves a much greater distance"
+    ],
+    "definitions": [
+      {
+        "term": "Hydraulic machine",
+        "definition": "A machine that uses an enclosed, incompressible liquid to transmit and multiply force between two pistons of different cross-sectional areas, based on Pascal's principle."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Hydraulic force multiplication",
+        "equation": "F1 / A1 = F2 / A2",
+        "variables": {
+          "F1": "force applied to the small piston, N",
+          "A1": "cross-sectional area of the small piston, m^2",
+          "F2": "force produced at the large piston, N",
+          "A2": "cross-sectional area of the large piston, m^2"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      },
+      {
+        "quantity": "area",
+        "si_unit": "square metre",
+        "symbol": "m^2"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A hydraulic car jack has a small piston of area 0.001 m^2 and a large piston of area 0.05 m^2. Calculate the force produced at the large piston when a force of 40 N is applied to the small piston.",
+        "steps": [
+          "Use F1/A1 = F2/A2, rearranged to find F2: F2 = F1 x (A2/A1).",
+          "Substitute: F2 = 40 x (0.05 / 0.001) = 40 x 50."
+        ],
+        "answer": "2000 N"
+      }
+    ],
+    "practical_applications": [
+      "Hydraulic car jacks and vehicle lifts, allowing a small hand force to lift a vehicle",
+      "Hydraulic brake systems in cars, transmitting and multiplying the force from the brake pedal to the brake pads",
+      "Heavy construction and industrial machinery, such as excavators and hydraulic presses"
+    ],
+    "common_mistakes": [
+      "Using the wrong piston's area or force in the F1/A1 = F2/A2 equation",
+      "Forgetting that the liquid must be effectively incompressible for the pressure transmission (and therefore the force multiplication) to work correctly"
+    ],
+    "misconceptions": [
+      "That a hydraulic system creates extra force or energy from nothing — as with all simple machines, the force multiplication at the large piston is achieved by the small piston moving through a proportionally much greater distance, keeping the total work done (force x distance) consistent with conservation of energy, ignoring friction losses."
+    ],
+    "tips": [
+      "Remember the key relationship F1/A1 = F2/A2 comes directly from the fact that pressure (F/A) is transmitted equally throughout the enclosed liquid, as stated by Pascal's principle."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State Pascal's principle as it applies to a hydraulic system."
+      ],
+      "intermediate": [
+        "A hydraulic press has a small piston of area 0.002 m^2 and applies a 60 N force. If the large piston has an area of 0.06 m^2, calculate the force it produces."
+      ],
+      "advanced": [
+        "Explain why the small piston of a hydraulic jack must move through a much greater distance than the large piston, to lift a car by a given height."
+      ]
+    },
+    "exam_questions": [
+      "Explain how a hydraulic car jack allows a person to lift a heavy vehicle using a relatively small applied force, referring to Pascal's principle."
+    ],
+    "answers": {
+      "basic": [
+        "Pressure applied to an enclosed liquid is transmitted equally throughout that liquid."
+      ],
+      "intermediate": [
+        "F2 = F1 x (A2/A1) = 60 x (0.06/0.002) = 60 x 30 = 1800 N."
+      ],
+      "advanced": [
+        "Since the hydraulic liquid is incompressible, the volume of liquid displaced by the small piston must equal the volume received by the large piston; because the large piston has a much larger area, it only needs to move a small distance to receive this volume, whereas the small piston, with its much smaller area, must move a correspondingly much greater distance to push out the same volume of liquid."
+      ],
+      "exam": [
+        "The small force applied by the person to the small piston creates a pressure in the enclosed hydraulic liquid; by Pascal's principle, this pressure is transmitted equally throughout the liquid to the large piston supporting the car, and since force = pressure x area, the same pressure acting on the much larger area of this second piston produces a correspondingly much larger force, sufficient to lift the vehicle."
+      ]
+    },
+    "summary": "A hydraulic machine multiplies force by transmitting pressure through an enclosed, incompressible liquid between a small piston and a larger piston (F1/A1 = F2/A2), based on Pascal's principle. Force multiplication is achieved at the cost of the small piston moving a much greater distance.",
+    "revision_notes": [
+      "F1/A1 = F2/A2 (Pascal's principle applied)",
+      "Small piston + small force -> large piston + large force",
+      "Small piston moves further than large piston (conservation of energy)"
+    ],
+    "related_topics": [
+      "Pascal's Principle",
+      "Pressure",
+      "Simple Machines"
+    ],
+    "prerequisites": [
+      "Pascal's Principle"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-093",
+    "subject": "Physics",
+    "category": "Fluids and Pressure",
+    "title": "Pressure",
+    "difficulty": "Foundational",
+    "description": "The force acting per unit area on a surface, applicable to solids, liquids, and gases.",
+    "learning_objectives": [
+      "Define pressure and state its equation",
+      "Calculate pressure from force and area",
+      "Explain how changing the area over which a force acts changes the resulting pressure"
+    ],
+    "explanation": "Pressure is defined as the force acting perpendicular to a surface, divided by the area over which that force acts: pressure = force / area. Pressure is measured in pascals (Pa), where one pascal is equal to a pressure of one newton acting over an area of one square metre (1 Pa = 1 N/m^2). For a given force, spreading it over a larger area reduces the resulting pressure, while concentrating it over a smaller area increases the pressure — this is why a sharp knife (small contact area) cuts far more easily than a blunt one (larger contact area) for the same applied force, and why snowshoes (large area) prevent a person from sinking into snow compared with normal shoes (smaller area) exerting the same weight. The concept of pressure applies broadly across solids, liquids, and gases, each explored in more specific detail in Pressure in Solids, Pressure in Liquids, and the kinetic theory of gases.",
+    "key_concepts": [
+      "pressure = force / area",
+      "Unit: pascal (Pa) = N/m^2",
+      "Same force, smaller area = greater pressure"
+    ],
+    "definitions": [
+      {
+        "term": "Pressure",
+        "definition": "The force acting perpendicular to a surface, divided by the area over which that force acts, calculated as pressure = force / area."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Pressure",
+        "equation": "P = F / A",
+        "variables": {
+          "P": "pressure, Pa",
+          "F": "force, N",
+          "A": "area, m^2"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "pressure",
+        "si_unit": "pascal",
+        "symbol": "Pa"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A box exerts a force of 300 N on the ground over a contact area of 0.5 m^2. Calculate the pressure it exerts on the ground.",
+        "steps": [
+          "Use P = F / A.",
+          "Substitute: P = 300 / 0.5."
+        ],
+        "answer": "600 Pa"
+      }
+    ],
+    "practical_applications": [
+      "Designing sharp cutting tools and blades that concentrate force over a small area",
+      "Foundation design in construction, spreading a building's weight over a large area to reduce ground pressure",
+      "Snowshoe and wide-tyre design, spreading weight to reduce sinking into soft surfaces"
+    ],
+    "common_mistakes": [
+      "Confusing pressure with force, forgetting that the same force can produce very different pressures depending on the area involved",
+      "Using the wrong area (e.g. total surface area instead of the specific contact area) in the pressure calculation"
+    ],
+    "misconceptions": [
+      "That a heavier object always exerts a greater pressure than a lighter one — pressure depends on both force and area, so a lighter object concentrated over a very small area (such as a stiletto heel) can exert a far greater pressure than a much heavier object spread over a large area (such as an elephant's foot)."
+    ],
+    "tips": [
+      "To reduce pressure for a given force, increase the area it acts over; to increase pressure for a given force, decrease the area."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for pressure, defining each symbol."
+      ],
+      "intermediate": [
+        "A force of 150 N acts on an area of 0.03 m^2. Calculate the pressure produced."
+      ],
+      "advanced": [
+        "Explain, using the concept of pressure, why a drawing pin has a sharp point but a flat, wide head."
+      ]
+    },
+    "exam_questions": [
+      "A woman's stiletto heel has a contact area of 0.0001 m^2, and she exerts a force of 60 N through that heel while standing on one foot. Calculate the pressure exerted on the ground."
+    ],
+    "answers": {
+      "basic": [
+        "P = F/A, where P is pressure in Pa, F is force in N, and A is area in m^2."
+      ],
+      "intermediate": [
+        "P = 150 / 0.03 = 5000 Pa."
+      ],
+      "advanced": [
+        "The sharp point concentrates the pushing force over a very small area, producing a very high pressure that allows it to pierce material easily; the flat, wide head spreads the opposing force from the thumb over a much larger area, producing a much lower pressure there, which is comfortable to push against."
+      ],
+      "exam": [
+        "P = F/A = 60 / 0.0001 = 600,000 Pa."
+      ]
+    },
+    "summary": "Pressure is the force acting per unit area on a surface, calculated as P = F/A and measured in pascals. For a fixed force, spreading it over a larger area reduces pressure, while concentrating it over a smaller area increases pressure.",
+    "revision_notes": [
+      "P = F/A, unit: Pa (N/m^2)",
+      "Same force, smaller area = greater pressure",
+      "Applies to solids, liquids, and gases"
+    ],
+    "related_topics": [
+      "Pressure in Solids",
+      "Pressure in Liquids",
+      "Force"
+    ],
+    "prerequisites": [
+      "Force"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-094",
+    "subject": "Physics",
+    "category": "Fluids and Pressure",
+    "title": "Pressure in Solids",
+    "difficulty": "Foundational",
+    "description": "The application of the general pressure equation to solid objects resting on, or pressing against, a surface.",
+    "learning_objectives": [
+      "Apply P = F/A specifically to solid objects on a surface",
+      "Calculate the pressure exerted by a solid object of known weight and base area",
+      "Explain how changing an object's orientation can change the pressure it exerts"
+    ],
+    "explanation": "Pressure in solids follows the same general equation as pressure in any context, P = F/A, but is specifically applied to a solid object resting on, or pressing against, a surface, where the relevant force is usually the object's weight (or an externally applied force) and the relevant area is the object's area of contact with that surface. Because a solid object's shape is generally fixed, its area of contact with a surface can vary significantly depending on its orientation: a brick lying on its largest flat face exerts a much lower pressure on the ground than the same brick balanced on its smallest edge, even though its weight (and therefore the total force) is exactly the same in both cases. This principle explains why the same object can feel very different, in terms of pressure and potential to cause damage or discomfort, depending on how it is positioned or how a force is applied to it.",
+    "key_concepts": [
+      "P = F/A applied to a solid's contact area with a surface",
+      "Object's weight is usually the relevant force",
+      "Changing orientation changes contact area, and therefore pressure"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Pressure exerted by a solid object",
+        "equation": "P = F / A",
+        "variables": {
+          "P": "pressure, Pa",
+          "F": "force (often the object's weight), N",
+          "A": "contact area with the surface, m^2"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "pressure",
+        "si_unit": "pascal",
+        "symbol": "Pa"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A brick with a weight of 24 N has two possible resting orientations: on its largest face, with contact area 0.03 m^2, or on its smallest edge, with contact area 0.005 m^2. Calculate the pressure exerted on the ground in each orientation.",
+        "steps": [
+          "Largest face: P = F/A = 24 / 0.03.",
+          "Smallest edge: P = F/A = 24 / 0.005."
+        ],
+        "answer": "On its largest face: 800 Pa; on its smallest edge: 4800 Pa (six times greater pressure, despite the same weight)"
+      }
+    ],
+    "practical_applications": [
+      "Foundation and footing design in construction, choosing a large contact area to reduce ground pressure",
+      "Design of load-bearing structures and supports to avoid excessive local pressure",
+      "Understanding why sharp or narrow supports (such as stiletto heels or thin table legs) can damage flooring, unlike wide, flat supports"
+    ],
+    "common_mistakes": [
+      "Assuming pressure is constant for a given object, regardless of how it is oriented or supported",
+      "Using the object's total surface area, rather than only its actual area of contact with the specific surface"
+    ],
+    "misconceptions": [
+      "That a solid object's pressure on a surface is a fixed, unchanging property of the object — pressure depends on the specific contact area involved, which can change significantly depending on the object's orientation or how it rests on a surface, even though the object's weight (force) remains constant."
+    ],
+    "tips": [
+      "Always identify the specific area of contact relevant to the situation being asked about, since the same object can have several different possible contact areas depending on its orientation."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation used to calculate the pressure exerted by a solid object on a surface."
+      ],
+      "intermediate": [
+        "A table exerts a total weight of 400 N through four legs, each with a contact area of 0.002 m^2. Calculate the pressure exerted by each leg on the floor, assuming the weight is shared equally."
+      ],
+      "advanced": [
+        "Explain why placing a wide board under the legs of heavy furniture can prevent it from damaging a soft floor."
+      ]
+    },
+    "exam_questions": [
+      "Explain why a block of the same weight can exert very different pressures on the ground depending on which face it rests on."
+    ],
+    "answers": {
+      "basic": [
+        "P = F/A."
+      ],
+      "intermediate": [
+        "Force per leg = 400/4 = 100 N. P = F/A = 100 / 0.002 = 50,000 Pa."
+      ],
+      "advanced": [
+        "The wide board spreads the furniture's weight (force) over a much larger contact area with the floor than the narrow furniture legs alone would provide; since pressure = force/area, this larger area results in a much lower pressure being exerted on the floor for the same total weight, reducing the risk of denting or damaging a soft floor surface."
+      ],
+      "exam": [
+        "The block's weight (force) stays the same regardless of orientation, but the area of contact with the ground changes depending on which face is resting down; since pressure = force/area, resting on a smaller-area face results in a much greater pressure than resting on a larger-area face, even though the force involved is identical in both cases."
+      ]
+    },
+    "summary": "Pressure in solids is calculated using P = F/A, typically using an object's weight and its area of contact with a surface. Since contact area can change with orientation, the same solid object can exert very different pressures depending on how it is positioned.",
+    "revision_notes": [
+      "P = F/A, using contact area with the surface",
+      "Same weight, different orientation/contact area = different pressure",
+      "Larger contact area = lower pressure for the same force"
+    ],
+    "related_topics": [
+      "Pressure",
+      "Weight",
+      "Pressure in Liquids"
+    ],
+    "prerequisites": [
+      "Pressure"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-095",
+    "subject": "Physics",
+    "category": "Fluids and Pressure",
+    "title": "Pressure in Liquids",
+    "difficulty": "Intermediate",
+    "description": "The pressure exerted by a liquid at a given depth, arising from the weight of the liquid above that point, and acting equally in all directions.",
+    "learning_objectives": [
+      "State the equation for pressure at a depth in a liquid",
+      "Calculate pressure at a given depth using density, gravitational field strength, and depth",
+      "Explain why liquid pressure acts equally in all directions and increases with depth"
+    ],
+    "explanation": "The pressure at a given depth within a liquid arises from the weight of all the liquid sitting above that point, and is calculated using P = h(rho)g, where h is the depth below the liquid's surface, rho (the Greek letter rho) is the density of the liquid, and g is the gravitational field strength. This means that pressure in a liquid increases with depth (there is more liquid, and therefore more weight, pushing down from above at greater depths) and increases with the density of the liquid (a denser liquid has more mass, and therefore more weight, packed into the same volume). A key property of liquid pressure is that, at any given point, it acts equally in all directions, not just downward — this is why a swimmer feels pressure pushing in on their body from all sides while underwater, not only from above. Liquid pressure at a given depth also does not depend on the shape or total volume of the container the liquid is held in, only on the depth, density, and gravitational field strength.",
+    "key_concepts": [
+      "P = h(rho)g",
+      "Pressure increases with depth and with density",
+      "Acts equally in all directions at a given point; independent of container shape"
+    ],
+    "definitions": [
+      {
+        "term": "Liquid pressure",
+        "definition": "The pressure at a point within a liquid, arising from the weight of the liquid above that point, calculated as P = h(rho)g."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Pressure at depth in a liquid",
+        "equation": "P = h(rho)g",
+        "variables": {
+          "P": "pressure due to the liquid, Pa",
+          "h": "depth below the liquid's surface, m",
+          "rho": "density of the liquid, kg/m^3",
+          "g": "gravitational field strength, N/kg (approximately 9.8 N/kg)"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "pressure",
+        "si_unit": "pascal",
+        "symbol": "Pa"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Calculate the pressure due to water at a depth of 5 m (density of water = 1000 kg/m^3, g = 9.8 N/kg).",
+        "steps": [
+          "Use P = h(rho)g.",
+          "Substitute: P = 5 x 1000 x 9.8."
+        ],
+        "answer": "49,000 Pa (49 kPa)"
+      }
+    ],
+    "practical_applications": [
+      "Designing submarines and diving equipment to withstand high water pressure at depth",
+      "Dam engineering, accounting for the increasing water pressure with depth against the dam wall",
+      "Understanding the pressure changes experienced by divers and their effect on the human body"
+    ],
+    "common_mistakes": [
+      "Forgetting to include density in the calculation, or using the wrong density for the specific liquid involved",
+      "Assuming liquid pressure depends on the total amount (volume) of liquid, rather than only on depth and density"
+    ],
+    "misconceptions": [
+      "That liquid pressure only pushes downward, in the same way as the weight of a solid object — liquid pressure at a given point acts equally in all directions (up, down, and sideways), because the liquid particles are free to move and transmit pressure in every direction, unlike a rigid solid."
+    ],
+    "tips": [
+      "Remember that liquid pressure depends only on depth, density, and gravitational field strength — not on the width, shape, or total volume of the container, which is a common source of confusion (this is explored further in Pascal's Principle)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for pressure at a given depth in a liquid, defining each symbol."
+      ],
+      "intermediate": [
+        "Calculate the pressure due to a liquid of density 800 kg/m^3 at a depth of 2.5 m, using g = 9.8 N/kg."
+      ],
+      "advanced": [
+        "Explain why a scuba diver experiences a rapid increase in pressure as they descend to greater depths, and why this pressure acts on their entire body, not just from above."
+      ]
+    },
+    "exam_questions": [
+      "Calculate the total pressure (including atmospheric pressure of 101,000 Pa) acting on a diver at a depth of 10 m in seawater of density 1025 kg/m^3, using g = 9.8 N/kg."
+    ],
+    "answers": {
+      "basic": [
+        "P = h(rho)g, where P is pressure in Pa, h is depth in m, rho is density in kg/m^3, and g is gravitational field strength in N/kg."
+      ],
+      "intermediate": [
+        "P = 2.5 x 800 x 9.8 = 19,600 Pa."
+      ],
+      "advanced": [
+        "As the diver descends, the depth of water (and therefore the weight of water) above them increases, and since P = h(rho)g, this results in a rapidly increasing pressure with depth; this pressure acts equally in all directions at any given point in the liquid, meaning it pushes in on the diver's body from every side (front, back, top, and sides), not just downward from above, because the water molecules are free to move and transmit pressure uniformly in every direction."
+      ],
+      "exam": [
+        "Liquid pressure: P = h(rho)g = 10 x 1025 x 9.8 = 100,450 Pa. Total pressure = liquid pressure + atmospheric pressure = 100,450 + 101,000 = 201,450 Pa."
+      ]
+    },
+    "summary": "Pressure in a liquid at a given depth is calculated as P = h(rho)g, increasing with both depth and density. This pressure acts equally in all directions at any point and does not depend on the shape or volume of the container.",
+    "revision_notes": [
+      "P = h(rho)g",
+      "Increases with depth and density",
+      "Acts equally in all directions; independent of container shape/volume"
+    ],
+    "related_topics": [
+      "Pressure",
+      "Density",
+      "Atmospheric Pressure",
+      "Pascal's Principle"
+    ],
+    "prerequisites": [
+      "Pressure",
+      "Density"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  }
+]

@@ -1,0 +1,851 @@
+{
+  "batch": "01",
+  "category": "Introduction to Matter & Laboratory Skills",
+  "topics_in_batch": 10,
+  "topics_completed_so_far": 10,
+  "topics_remaining_total": 493,
+  "topics": [
+    {
+      "id": "chem-001-introduction-to-matter",
+      "subject": "Chemistry",
+      "category": "Introduction to Matter & Laboratory Skills",
+      "title": "Introduction to Matter",
+      "difficulty": "Foundation",
+      "description": "An overview of what matter is and how chemists classify all substances into elements, compounds and mixtures, made up of atoms, molecules and ions.",
+      "learning_objectives": [
+        "Define matter in terms of mass and volume",
+        "Classify a given substance as an element, compound or mixture",
+        "Distinguish between atoms, molecules and ions",
+        "Distinguish between physical and chemical properties/changes"
+      ],
+      "explanation": "Matter is anything that has mass and takes up space (volume). Chemistry is the study of matter: what it is made of, how it behaves, and how it changes. All matter is made of tiny particles. A pure element contains only one type of atom (e.g. iron, Fe, or oxygen, O2). A compound contains two or more different elements chemically bonded together in a fixed ratio (e.g. water, H2O, or carbon dioxide, CO2), and can only be separated back into its elements by a chemical reaction. A mixture contains two or more substances that are not chemically bonded and can be separated by physical methods (e.g. air, salt water, crude oil). Atoms are the basic particles of elements; when atoms bond covalently they form molecules; when atoms lose or gain electrons they form charged particles called ions.",
+      "key_concepts": [
+        "Mass and volume as defining properties of matter",
+        "Pure substances vs mixtures",
+        "Elements, compounds and mixtures",
+        "Atoms, molecules and ions",
+        "Physical properties vs chemical properties"
+      ],
+      "definitions": [
+        {"term": "Matter", "definition": "Anything that has mass and occupies space (volume)."},
+        {"term": "Element", "definition": "A pure substance made of only one type of atom, which cannot be broken down into simpler substances by chemical means."},
+        {"term": "Compound", "definition": "A pure substance made of two or more elements chemically combined in a fixed ratio."},
+        {"term": "Mixture", "definition": "Two or more substances physically combined (not chemically bonded) that can be separated by physical methods."},
+        {"term": "Atom", "definition": "The smallest particle of an element that retains the chemical properties of that element."},
+        {"term": "Molecule", "definition": "Two or more atoms chemically bonded together, e.g. by covalent bonds."},
+        {"term": "Ion", "definition": "An atom or group of atoms that has gained or lost electrons, giving it an overall electric charge."},
+        {"term": "Physical property", "definition": "A characteristic that can be observed or measured without changing the substance's chemical identity, e.g. melting point, colour, density."},
+        {"term": "Chemical property", "definition": "A characteristic that describes how a substance reacts to form a different substance, e.g. flammability, reactivity with acid."}
+      ],
+      "formulae": [
+        {"name": "Density", "formula": "density = mass / volume (ρ = m/V)", "description": "A physical property used to help identify and compare substances; units commonly g/cm3 or kg/m3."}
+      ],
+      "equations": [
+        "Word equation example of a chemical change: iron + sulfur → iron sulfide"
+      ],
+      "worked_examples": [
+        {
+          "problem": "A block of aluminium has a mass of 54 g and a volume of 20 cm3. Calculate its density.",
+          "working": "density = mass / volume = 54 g / 20 cm3",
+          "answer": "density = 2.7 g/cm3"
+        }
+      ],
+      "practical_applications": [
+        "Identifying unknown materials using physical properties such as density and melting point",
+        "Choosing raw materials in industry based on their properties"
+      ],
+      "laboratory_applications": [
+        "Measuring mass with a balance and volume by displacement or graduated apparatus to calculate density",
+        "Observing physical changes (dissolving, melting) versus chemical changes (colour change, gas produced, temperature change, precipitate forming) to classify a process"
+      ],
+      "common_mistakes": [
+        "Assuming a compound has the same properties as the elements that formed it (e.g. sodium and chlorine are both dangerous, but sodium chloride is table salt)",
+        "Calling a mixture a compound simply because it looks uniform (e.g. salt water)"
+      ],
+      "misconceptions": [
+        "Believing atoms are the smallest particles that exist (protons, neutrons and electrons are smaller, and are covered in Atomic Structure)",
+        "Assuming all mixtures look visibly 'mixed'; some mixtures (like salt water or air) look uniform but are still mixtures because they can be separated physically"
+      ],
+      "tips": [
+        "To decide element vs compound vs mixture, ask: (1) is there one type of atom or several? (2) if several, are they chemically bonded in a fixed ratio, or just physically mixed and separable?",
+        "A chemical change is usually signalled by a new substance forming: colour change, gas released, precipitate formed, or an irreversible temperature change"
+      ],
+      "practice_questions": {
+        "basic": [
+          {"question": "Classify the following as element, compound or mixture: (a) oxygen gas, O2 (b) sugar solution (c) carbon dioxide, CO2", "answer": "(a) Element (b) Mixture (c) Compound"},
+          {"question": "State two differences between a compound and a mixture.", "answer": "A compound has elements chemically bonded in a fixed ratio and can only be separated by a chemical reaction; a mixture has substances physically combined in variable proportions and can be separated by physical methods."}
+        ],
+        "intermediate": [
+          {"question": "A student heats a blue solid and it turns black, releasing a gas that turns limewater cloudy. Is this a physical or chemical change? Explain.", "answer": "A chemical change, because new substances are formed (evidenced by the colour change and the gas that reacts with limewater), and the change is not easily reversed."},
+          {"question": "A liquid has a mass of 39.5 g and occupies 50 cm3. Calculate its density and suggest whether it could be water (density 1.0 g/cm3).", "answer": "density = 39.5/50 = 0.79 g/cm3; this is less than water's density, so it is not water (it could be ethanol, for example)."}
+        ],
+        "advanced": [
+          {"question": "Explain, in terms of particles, why a mixture such as air does not have a fixed melting or boiling point, whereas a pure compound such as water does.", "answer": "In a pure compound, all particles are identical, so they all require the same amount of energy to change state, giving a sharp melting/boiling point. In a mixture, different substances have different particle types and different amounts of energy needed to separate them, so the mixture melts/boils over a range of temperatures rather than at one fixed point."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Sea water is described as a mixture. State what is meant by the term 'mixture' and describe one physical method that could be used to obtain pure water from sea water.", "marks": 3, "model_answer": "A mixture is two or more substances that are not chemically combined and can be separated by physical means (1 mark). Sea water can be separated by simple distillation: the water is heated to evaporate it, and the vapour is then cooled and condensed, leaving the dissolved salts behind (2 marks)."}
+      ],
+      "summary": "Matter is anything with mass and volume, and is classified as elements (one type of atom), compounds (elements chemically bonded in fixed ratios) or mixtures (substances physically combined, separable by physical methods). Atoms combine to form molecules or, by losing/gaining electrons, ions. Physical changes do not create new substances; chemical changes do.",
+      "revision_notes": [
+        "Element = 1 type of atom; Compound = 2+ elements chemically bonded, fixed ratio; Mixture = physically combined, separable, variable ratio",
+        "Density = mass ÷ volume",
+        "Chemical change clues: colour change, gas produced, precipitate, irreversible energy change"
+      ],
+      "related_topics": ["States of Matter and Kinetic Particle Theory", "Atomic Structure", "Elements", "Compounds", "Mixtures"],
+      "prerequisites": [],
+      "diagram_recommendations": [
+        "[DIAGRAM: Classification flowchart of matter into elements, compounds, and mixtures]",
+        "[DIAGRAM: Particle arrangement comparing an element, a compound and a mixture]"
+      ]
+    },
+
+    {
+      "id": "chem-002-states-of-matter-kinetic-theory",
+      "subject": "Chemistry",
+      "category": "Introduction to Matter & Laboratory Skills",
+      "title": "States of Matter and Kinetic Particle Theory",
+      "difficulty": "Foundation",
+      "description": "How the kinetic particle theory explains the arrangement, movement and energy of particles in solids, liquids and gases, and phenomena such as diffusion.",
+      "learning_objectives": [
+        "State the postulates of the kinetic particle theory",
+        "Describe the arrangement, movement and relative energy of particles in solids, liquids and gases",
+        "Explain diffusion and Brownian motion in terms of particle movement",
+        "Relate temperature to the average kinetic energy of particles"
+      ],
+      "explanation": "The kinetic particle theory states that all matter is made of tiny particles that are constantly moving, and that the amount of energy the particles have (and therefore how they move and how far apart they are) determines whether a substance is a solid, liquid or gas. In a solid, particles are held in fixed positions in a regular arrangement, close together, and only vibrate about fixed points. In a liquid, particles are close together but can move past one another, giving a fixed volume but no fixed shape. In a gas, particles are far apart, move rapidly and randomly in all directions, and have negligible forces of attraction between them, so gases have no fixed shape or volume. Increasing temperature increases the average kinetic energy of the particles, making them move faster. Diffusion is the net movement of particles from a region of higher concentration to lower concentration, caused by this random particle motion; it happens fastest in gases, slower in liquids, and is essentially unobservable in solids. Brownian motion — the random, jittery movement of small particles suspended in a fluid — provides evidence for the constant, random motion of particles too small to see directly.",
+      "key_concepts": [
+        "Kinetic particle theory postulates",
+        "Particle arrangement, spacing and movement in solids, liquids, gases",
+        "Relationship between temperature and average kinetic energy",
+        "Diffusion",
+        "Brownian motion as evidence for particle theory"
+      ],
+      "definitions": [
+        {"term": "Solid", "definition": "A state of matter with a fixed shape and volume; particles are closely packed in a regular pattern and only vibrate in place."},
+        {"term": "Liquid", "definition": "A state of matter with a fixed volume but no fixed shape; particles are close together but free to move past each other."},
+        {"term": "Gas", "definition": "A state of matter with no fixed shape or volume; particles are far apart, move rapidly and randomly, with negligible attractive forces between them."},
+        {"term": "Kinetic particle theory", "definition": "The model that all matter is made of constantly moving particles, and the state of a substance depends on the particles' energy, arrangement and movement."},
+        {"term": "Diffusion", "definition": "The net movement of particles from a region of higher concentration to a region of lower concentration, due to random particle motion."},
+        {"term": "Brownian motion", "definition": "The random, erratic movement of small particles suspended in a fluid, caused by collisions with fast-moving, invisible fluid particles."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Bromine vapour (brown) is released at one end of a gas jar containing air, and after some time the whole jar turns pale brown. Explain this observation in terms of particle theory.",
+          "working": "Bromine gas particles move randomly and rapidly. They collide with air particles and, through this random motion, spread out from a region of high bromine concentration (where released) to regions of lower concentration throughout the jar.",
+          "answer": "This is diffusion: bromine particles spread out until they are evenly distributed throughout the air in the jar."
+        }
+      ],
+      "practical_applications": [
+        "Explaining why smells spread through a room (diffusion of gas particles)",
+        "Refrigeration and understanding gas behaviour under pressure/temperature changes"
+      ],
+      "laboratory_applications": [
+        "Demonstrating diffusion in gases using coloured gases (e.g. bromine or nitrogen dioxide) or the classic ammonia/hydrochloric acid fuming tube experiment, where a white ring of ammonium chloride forms closer to the HCl end because ammonia (NH3, Mr = 17) diffuses faster than hydrogen chloride (Mr = 36.5)",
+          "Observing Brownian motion of smoke particles in air under a microscope"
+      ],
+      "common_mistakes": [
+        "Saying 'particles melt' or 'particles expand' when heated — it is the substance that changes state, and the particles themselves do not change size; they move faster and further apart",
+        "Thinking gases have no mass because they are invisible"
+      ],
+      "misconceptions": [
+        "Believing there are gaps of 'nothing but air' between particles in a gas — the space between gas particles is a vacuum (or contains other gas particles), not air specifically",
+        "Assuming heating always increases temperature — during a change of state, temperature stays constant while energy is used to overcome forces between particles (see Changes of State)"
+      ],
+      "tips": [
+        "Remember the order of particle spacing and energy: gas > liquid > solid for both spacing and average particle speed",
+        "Lighter particles diffuse faster than heavier ones for a given temperature (used to explain the ammonia/HCl experiment result)"
+      ],
+      "practice_questions": {
+        "basic": [
+          {"question": "State one difference in particle arrangement between a solid and a liquid.", "answer": "In a solid, particles are held in a fixed, regular arrangement and only vibrate; in a liquid, particles are close together but can move past each other, so there is no fixed arrangement."},
+          {"question": "Define diffusion.", "answer": "Diffusion is the net movement of particles from an area of higher concentration to an area of lower concentration, due to random particle motion."}
+        ],
+        "intermediate": [
+          {"question": "Explain why gases can be easily compressed but liquids cannot.", "answer": "In a gas, particles are far apart with large spaces between them, so applying pressure can push the particles closer together. In a liquid, particles are already close together with very little empty space, so there is little room to compress further."},
+          {"question": "Explain, using kinetic particle theory, why increasing temperature increases the rate of diffusion.", "answer": "Increasing temperature increases the average kinetic energy of particles, so they move faster. Faster-moving particles spread out and mix with surrounding particles more quickly, increasing the rate of diffusion."}
+        ],
+        "advanced": [
+          {"question": "In the ammonia/hydrochloric acid diffusion tube experiment, ammonia gas (Mr = 17) and hydrogen chloride gas (Mr = 36.5) are released from opposite ends of a tube at the same time. Explain why the white ring of ammonium chloride forms closer to the hydrochloric acid end.", "answer": "Ammonia has a lower relative molecular mass than hydrogen chloride, so at the same temperature its particles move faster (lighter particles diffuse faster). Ammonia therefore travels further along the tube in the same time, meeting the (slower) hydrogen chloride particles closer to the HCl end, where they react to form the white ammonium chloride ring."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Use the kinetic particle theory to explain why a gas has no fixed shape or volume, while a solid does.", "marks": 4, "model_answer": "In a gas, particles are far apart and move rapidly and randomly in all directions with negligible forces of attraction between them (1 mark), so they spread out to fill any container, giving no fixed shape or volume (1 mark). In a solid, particles are held closely together in a fixed, regular arrangement by strong forces of attraction and can only vibrate about fixed positions (1 mark), so the solid keeps a fixed shape and volume (1 mark)."}
+      ],
+      "summary": "Kinetic particle theory explains that all matter consists of moving particles, and the state of matter (solid, liquid, gas) depends on particle arrangement, spacing and energy. Temperature relates to average particle kinetic energy. Diffusion and Brownian motion provide observable evidence for constant, random particle motion.",
+      "revision_notes": [
+        "Solid: fixed shape/volume, particles vibrate in place, closely packed, regular arrangement",
+        "Liquid: fixed volume, no fixed shape, particles close but can move past each other",
+        "Gas: no fixed shape/volume, particles far apart, fast random movement",
+        "Diffusion: high → low concentration; faster for lighter particles and at higher temperature"
+      ],
+      "related_topics": ["Introduction to Matter", "Changes of State and Particle Diagrams", "Gas Volumes"],
+      "prerequisites": ["Introduction to Matter"],
+      "diagram_recommendations": [
+        "[DIAGRAM: Particle arrangement in solids, liquids and gases]",
+        "[DIAGRAM: Ammonia/hydrochloric acid diffusion tube showing where the white ring forms]"
+      ]
+    },
+
+    {
+      "id": "chem-003-changes-of-state",
+      "subject": "Chemistry",
+      "category": "Introduction to Matter & Laboratory Skills",
+      "title": "Changes of State and Particle Diagrams",
+      "difficulty": "Foundation",
+      "description": "The processes of melting, freezing, boiling, condensation, sublimation and deposition, and how heating/cooling curves show energy changes without temperature change during a state change.",
+      "learning_objectives": [
+        "Name and define the six changes of state",
+        "Interpret a heating or cooling curve, identifying states, changes of state and temperature plateaus",
+        "Explain, using particle theory, why temperature stays constant during a change of state",
+        "Explain how melting point can be used to assess the purity of a substance"
+      ],
+      "explanation": "Matter can change between the solid, liquid and gas states. Melting is solid to liquid; freezing is liquid to solid; boiling/evaporation is liquid to gas; condensation is gas to liquid; sublimation is solid directly to gas; deposition is gas directly to solid. Each pure substance has a characteristic melting point and boiling point at a given pressure. During a change of state, energy supplied (or removed) is used to overcome (or allow) the forces of attraction between particles, not to increase their kinetic energy, so the temperature remains constant — this produces a flat 'plateau' on a heating or cooling curve. A pure substance melts or boils sharply at one fixed temperature; an impure substance (or a mixture) melts over a range of temperatures, and typically melts below the pure substance's melting point — this is used practically to test purity.",
+      "key_concepts": [
+        "The six changes of state and their directions",
+        "Heating and cooling curves",
+        "Temperature plateaus during state changes",
+        "Melting point as a purity test"
+      ],
+      "definitions": [
+        {"term": "Melting point", "definition": "The temperature at which a solid changes to a liquid (equal to the freezing point for a pure substance)."},
+        {"term": "Boiling point", "definition": "The temperature at which a liquid changes to a gas throughout the liquid, at a given pressure."},
+        {"term": "Evaporation", "definition": "The change of a liquid to a gas that occurs at the surface of the liquid, at any temperature below the boiling point."},
+        {"term": "Sublimation", "definition": "The direct change of a solid to a gas without passing through the liquid state."},
+        {"term": "Deposition", "definition": "The direct change of a gas to a solid without passing through the liquid state."},
+        {"term": "Condensation", "definition": "The change of a gas to a liquid."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "A pure solid is heated steadily and its temperature is recorded every minute. The temperature rises, then stays constant at 80°C for several minutes, then rises again. Explain what is happening at 80°C.",
+          "working": "The constant temperature shows the solid is melting. Energy being supplied is used entirely to overcome the forces of attraction holding the particles in the solid's fixed arrangement, rather than to increase particle kinetic energy, so temperature does not rise until melting is complete.",
+          "answer": "80°C is the melting point of the substance; the plateau shows the solid changing to liquid."
+        }
+      ],
+      "practical_applications": [
+        "Freeze-drying food (sublimation of ice under reduced pressure)",
+        "Purity testing of pharmaceutical and food-grade chemicals using melting point ranges"
+      ],
+      "laboratory_applications": [
+        "Determining melting point using a melting point apparatus or capillary tube in an oil bath, and comparing the observed range to literature values to assess purity",
+        "Recording a cooling curve for a molten solid (e.g. stearic acid or wax) to find its freezing point"
+      ],
+      "common_mistakes": [
+        "Confusing evaporation (surface process, any temperature) with boiling (throughout the liquid, only at boiling point)",
+        "Thinking temperature keeps rising steadily throughout heating, ignoring the plateaus at melting and boiling points"
+      ],
+      "misconceptions": [
+        "Believing melting and freezing points are different temperatures for the same pure substance — they are the same",
+        "Assuming all solids melt before they can turn to gas — some substances sublime (e.g. solid carbon dioxide, iodine)"
+      ],
+      "tips": [
+        "On a heating curve, flat sections = changes of state (energy overcoming forces of attraction); sloped sections = temperature of a single state rising",
+        "A sharp, single melting point suggests purity; a range of melting temperatures, especially below the expected value, suggests impurity"
+      ],
+      "practice_questions": {
+        "basic": [
+          {"question": "Name the change of state that occurs when a gas changes directly to a solid.", "answer": "Deposition"},
+          {"question": "What happens to the temperature of a pure substance while it is melting?", "answer": "It stays constant (a plateau) until melting is complete."}
+        ],
+        "intermediate": [
+          {"question": "Solid carbon dioxide ('dry ice') turns directly into gas at room temperature and pressure. Name this process and explain, in terms of particles, why no liquid is seen.", "answer": "This is sublimation. The particles gain enough energy to completely overcome the forces holding them in the solid structure and escape directly as a gas, without an intermediate stage where they are close together but mobile (the liquid state)."},
+          {"question": "A student compares the melting point of a solid sample to the known literature value and finds the sample melts over a range of 105–110°C, while the pure substance should melt sharply at 112°C. What does this suggest?", "answer": "The sample is impure; impurities generally lower the melting point and cause melting to occur over a range of temperatures rather than sharply."}
+        ],
+        "advanced": [
+          {"question": "Sketch (describe in words) the shape of a cooling curve for a pure liquid as it cools to a solid, and explain each feature in terms of particle energy.", "answer": "Temperature falls steadily as the liquid cools (particles lose kinetic energy and slow down). At the freezing point, the curve flattens into a plateau, because energy is being released as particles form the fixed, regular solid arrangement rather than the temperature falling further (energy loss goes into decreasing potential energy/forming bonds, not decreasing kinetic energy). Once freezing is complete, temperature falls steadily again as the solid continues to cool."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain, in terms of particle energy, why the temperature of a liquid does not rise while it is boiling, even though heat is continuously being supplied.", "marks": 3, "model_answer": "The heat energy supplied is used to overcome the forces of attraction between the liquid particles, allowing them to escape as a gas, rather than to increase the particles' kinetic energy (1 mark). Since average kinetic energy does not increase, temperature stays constant (1 mark) until all the liquid has turned to gas (1 mark)."}
+      ],
+      "summary": "Changes of state (melting, freezing, boiling/evaporation, condensation, sublimation, deposition) involve energy transfer that overcomes or allows forces between particles, keeping temperature constant during the change itself (shown as plateaus on heating/cooling curves). Pure substances have sharp, fixed melting and boiling points, useful for purity testing.",
+      "revision_notes": [
+        "Solid ⇌ Liquid: melting/freezing; Liquid ⇌ Gas: boiling(evaporation)/condensation; Solid ⇌ Gas: sublimation/deposition",
+        "Flat sections on heating/cooling curves = state changes",
+        "Pure substance: sharp melting point; impure: melts over a range, usually lower"
+      ],
+      "related_topics": ["States of Matter and Kinetic Particle Theory", "Simple and Fractional Distillation", "Filtration, Evaporation and Crystallisation"],
+      "prerequisites": ["States of Matter and Kinetic Particle Theory"],
+      "diagram_recommendations": [
+        "[DIAGRAM: Heating curve labelled with solid, melting plateau, liquid, boiling plateau, gas]",
+        "[DIAGRAM: Sublimation of solid iodine directly to purple gas]"
+      ]
+    },
+
+    {
+      "id": "chem-004-laboratory-safety-hazard-symbols",
+      "subject": "Chemistry",
+      "category": "Introduction to Matter & Laboratory Skills",
+      "title": "Laboratory Safety and Hazard Symbols",
+      "difficulty": "Foundation",
+      "description": "Standard hazard pictograms used on chemical labels, general laboratory safety rules, personal protective equipment, and how to carry out a basic risk assessment.",
+      "learning_objectives": [
+        "Recognise and interpret the internationally standardised GHS hazard pictograms",
+        "State key laboratory safety rules and the purpose of common PPE",
+        "Explain the difference between hazard and risk",
+        "Outline the basic steps of a risk assessment for a simple practical"
+      ],
+      "explanation": "Chemicals are labelled with standardised hazard pictograms (part of the Globally Harmonized System, GHS) so that anyone handling them can quickly identify dangers: for example, flammable, corrosive, toxic, oxidising, explosive, irritant/harmful, health hazard, and hazardous to the environment. A hazard is something that has the potential to cause harm (e.g. concentrated sulfuric acid is corrosive); risk is the likelihood that harm will actually occur, which depends on how the hazard is used and what precautions are taken. Good laboratory practice includes wearing eye protection at all times, tying back hair, never eating or drinking in the lab, working in a fume cupboard for toxic or irritant gases, checking hazard labels before use, following correct disposal procedures for chemical waste, and knowing the location of safety equipment (eyewash, fire extinguisher, safety shower). A risk assessment identifies hazards in a procedure, evaluates who might be harmed and how, and states control measures to reduce the risk to an acceptable level.",
+      "key_concepts": [
+        "GHS hazard pictograms and their meanings",
+        "Hazard vs risk",
+        "Personal protective equipment (PPE)",
+        "Basic risk assessment process",
+        "Safe handling, storage and disposal of chemicals"
+      ],
+      "definitions": [
+        {"term": "Hazard", "definition": "Something with the potential to cause harm, e.g. a chemical, a process, or a piece of equipment."},
+        {"term": "Risk", "definition": "The likelihood that a hazard will actually cause harm, taking into account how it is used and what precautions are in place."},
+        {"term": "Risk assessment", "definition": "A systematic process of identifying hazards in a procedure, evaluating the risks, and stating control measures to reduce those risks."},
+        {"term": "Corrosive", "definition": "A hazard classification for substances that can destroy living tissue or materials on contact, e.g. concentrated acids and alkalis."},
+        {"term": "Toxic", "definition": "A hazard classification for substances that can cause serious harm or death if swallowed, inhaled or absorbed through skin."},
+        {"term": "Irritant", "definition": "A hazard classification for substances that can cause reddening or blistering of the skin or eyes, less severe than corrosive."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": [
+        "Interpreting safety data sheets before using industrial chemicals",
+        "Safe transport and storage of chemicals according to their hazard classification"
+      ],
+      "laboratory_applications": [
+        "Reading the hazard pictogram(s) on a reagent bottle and selecting appropriate PPE and working location (e.g. fume cupboard) before starting a practical",
+        "Writing a simple risk assessment table (hazard, who is at risk, control measure) before carrying out an experiment"
+      ],
+      "common_mistakes": [
+        "Assuming an 'irritant' pictogram means a chemical is not dangerous — it still requires care and appropriate PPE",
+        "Mixing chemicals without checking compatibility (e.g. mixing bleach and acid can release toxic chlorine gas)"
+      ],
+      "misconceptions": [
+        "Believing that if no pictogram is shown, a substance is completely safe — some hazards (e.g. flammability of fine powders, or long-term health effects) are not always obvious from a simple label",
+        "Confusing 'hazard' and 'risk' — a highly hazardous chemical handled correctly with good controls can have low risk, while a mildly hazardous chemical handled carelessly can have high risk"
+      ],
+      "tips": [
+        "Before any practical, check hazard symbols on all reagents, identify required PPE, and confirm the disposal method for waste",
+        "Remember: hazard = the danger itself; risk = the chance it actually harms someone, given the precautions taken"
+      ],
+      "practice_questions": {
+        "basic": [
+          {"question": "What does the hazard pictogram showing a flame indicate about a substance?", "answer": "The substance is flammable and can easily catch fire."},
+          {"question": "State one piece of PPE commonly worn in a chemistry laboratory and its purpose.", "answer": "Safety goggles/eye protection, to protect the eyes from splashes of chemicals."}
+        ],
+        "intermediate": [
+          {"question": "Explain the difference between 'hazard' and 'risk', using concentrated hydrochloric acid as an example.", "answer": "The hazard is that concentrated hydrochloric acid is corrosive and can burn skin/eyes. The risk depends on how it is handled — for example, risk is low if used in small quantities with gloves and goggles in a fume cupboard, but high if handled carelessly without PPE."},
+          {"question": "A student is about to heat a flammable liquid. State two safety precautions they should take.", "answer": "Any two of: use a water bath instead of a naked flame; work away from other flames/heat sources; ensure good ventilation; keep the container's lid nearby to smother any fire; work in small quantities."}
+        ],
+        "advanced": [
+          {"question": "Outline the steps you would take to carry out a basic risk assessment for an experiment involving heating dilute hydrochloric acid with magnesium ribbon.", "answer": "Identify the hazards (e.g. dilute HCl is an irritant; magnesium is flammable as a fine powder/ribbon in air when ignited; hot glassware); identify who might be at risk (the student and others nearby); state control measures (wear eye protection, use only small pieces of ribbon, do not touch hot apparatus, work at a safe distance from others, have a suitable fire safety measure available); note any special disposal or first-aid requirements."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "A reagent bottle is labelled with a pictogram showing a skull and crossbones. State what this pictogram means and describe one precaution that should be taken when using this chemical.", "marks": 2, "model_answer": "The pictogram indicates the substance is toxic and can cause serious harm or death if swallowed, inhaled, or absorbed through the skin (1 mark). Precaution: it should be handled in a fume cupboard with appropriate PPE (e.g. gloves and goggles), and never pipetted by mouth (1 mark)."}
+      ],
+      "summary": "Hazard pictograms (GHS) communicate the dangers of chemicals at a glance. Hazard is the potential to cause harm; risk is the likelihood of harm given how the hazard is managed. Good lab practice — PPE, correct storage/disposal, checking labels, and completing a risk assessment before practical work — keeps risk low even when working with hazardous substances.",
+      "revision_notes": [
+        "Know the meanings of the common pictograms: flammable, corrosive, toxic, oxidising, explosive, irritant/harmful, health hazard, environmental hazard",
+        "Hazard = potential to harm; Risk = likelihood of harm occurring",
+        "Risk assessment: identify hazard → who is at risk → control measures"
+      ],
+      "related_topics": ["Common Laboratory Apparatus and Techniques", "Measurement, Uncertainty and Significant Figures"],
+      "prerequisites": [],
+      "diagram_recommendations": [
+        "[DIAGRAM: GHS hazard pictograms with their meanings labelled]",
+        "[DIAGRAM: Correct PPE for a chemistry laboratory practical]"
+      ]
+    },
+
+    {
+      "id": "chem-005-laboratory-apparatus-techniques",
+      "subject": "Chemistry",
+      "category": "Introduction to Matter & Laboratory Skills",
+      "title": "Common Laboratory Apparatus and Techniques",
+      "difficulty": "Foundation",
+      "description": "Identifying common chemistry apparatus and the basic techniques for accurately measuring, heating and handling substances in the laboratory.",
+      "learning_objectives": [
+        "Identify and state the use of common laboratory apparatus",
+        "Select appropriate apparatus for a given level of precision",
+        "Describe correct technique for reading a meniscus and using a burette/pipette",
+        "Describe safe use of a Bunsen burner and associated heating equipment"
+      ],
+      "explanation": "Chemists use a range of apparatus depending on the task. For containing and mixing substances: beakers, conical (Erlenmeyer) flasks, test tubes and boiling tubes. For measuring volumes with different levels of precision: a measuring cylinder gives an approximate volume, while a pipette (fixed or graduated) and burette give much more accurate, precise volumes and are used especially in titrations. For heating: a Bunsen burner with a tripod and gauze, or a water bath/electric heating mantle for flammable liquids. For separating: filter funnels and filter paper, separating funnels, and Büchner funnels with flasks for vacuum filtration. For measuring mass: a top-pan (electronic) balance. When reading the volume of a liquid in glassware, the reading should be taken at eye level, reading from the bottom of the meniscus (the curved liquid surface) for most aqueous solutions, to avoid parallax error.",
+      "key_concepts": [
+        "Choosing apparatus appropriate to the precision required",
+        "Correct meniscus reading technique",
+        "Safe heating methods depending on flammability",
+        "Apparatus for filtration and separation"
+      ],
+      "definitions": [
+        {"term": "Meniscus", "definition": "The curved upper surface of a liquid in a container, caused by surface tension; readings are usually taken at the bottom of the curve for water-based liquids."},
+        {"term": "Parallax error", "definition": "A measurement error caused by viewing a scale from an angle rather than directly at eye level."},
+        {"term": "Burette", "definition": "A long, graduated glass tube with a tap, used to deliver precise, variable volumes of liquid, especially in titrations."},
+        {"term": "Pipette", "definition": "A piece of apparatus used to measure and transfer a precise, usually fixed, volume of liquid."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": [
+        "Accurate volumetric measurement underpins quality control in pharmaceutical and food industries"
+      ],
+      "laboratory_applications": [
+        "Using a pipette filler and pipette to transfer a fixed volume of solution accurately in a titration",
+        "Setting up a Bunsen burner correctly: yellow (safety) flame when not in active use, blue (roaring) flame for heating, with the air hole adjusted appropriately",
+        "Using a tripod, gauze and heatproof mat to safely heat a beaker over a Bunsen burner"
+      ],
+      "common_mistakes": [
+        "Reading a burette or measuring cylinder scale from above or below eye level, causing parallax error",
+        "Using a measuring cylinder where a pipette or burette is needed for accurate, reproducible results",
+        "Leaving a Bunsen burner on the yellow (safety) flame setting while actively heating something (it should be on the roaring blue flame for heating, yellow only when not in use, since the blue flame is hotter and the yellow flame can deposit soot)"
+      ],
+      "misconceptions": [
+        "Believing all glassware measures volume with the same precision — measuring cylinders are approximate; pipettes and burettes are precise",
+        "Thinking the yellow Bunsen flame is used for heating — it is the safety flame, visible and cooler, used only when the burner is not actively heating something"
+      ],
+      "tips": [
+        "For titrations: use a pipette to measure the solution placed in the conical flask, and a burette to add the second solution gradually",
+        "Always position your eye level with the meniscus and read from the bottom of the curve for accurate volume readings"
+      ],
+      "practice_questions": {
+        "basic": [
+          {"question": "Name the piece of apparatus used to measure an accurate, variable volume of liquid added drop by drop during a titration.", "answer": "A burette"},
+          {"question": "State the correct position for reading the volume of a liquid in a measuring cylinder.", "answer": "At eye level, reading from the bottom of the meniscus."}
+        ],
+        "intermediate": [
+          {"question": "Explain why a pipette is used rather than a measuring cylinder to measure 25.0 cm3 of acid in a titration.", "answer": "A pipette measures a fixed volume much more accurately and precisely than a measuring cylinder, which only gives an approximate volume; accurate volumes are essential for reliable titration results."},
+          {"question": "Describe how to safely light and use a Bunsen burner to heat a beaker of water.", "answer": "Close the air hole, light the match/splint first, then turn on the gas to light the burner (yellow safety flame); once alight, open the air hole to get the roaring blue flame for heating; place the beaker on a tripod and gauze above the flame; return to the yellow flame or turn off the gas when not actively heating."}
+        ],
+        "advanced": [
+          {"question": "A student reads a burette from above eye level instead of at eye level. Explain, using the idea of parallax error, whether this would make the recorded volume too high or too low, and how it would affect a percentage error calculation.", "answer": "Reading from above eye level typically causes the observer to record a lower volume than the true value on a burette (because the line of sight crosses the scale below the actual meniscus level), introducing a systematic error into every reading. Since the error affects every measurement in the same direction and by a similar amount, it introduces a consistent bias into any volumes calculated by subtraction (unless it affects both the initial and final readings equally, in which case the volume difference may be largely unaffected) — students should discuss this depends on whether the error is consistent across both readings."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "A student needs to measure exactly 25.0 cm3 of a solution as accurately as possible. Name the most appropriate piece of apparatus and explain why it is more suitable than a measuring cylinder.", "marks": 2, "model_answer": "A (volumetric) pipette (1 mark). It is designed to deliver one specific, precise volume with much smaller uncertainty than a measuring cylinder, which only provides an approximate reading (1 mark)."}
+      ],
+      "summary": "Different apparatus suit different tasks and levels of precision: measuring cylinders for approximate volumes, pipettes and burettes for precise ones, and a range of flasks, tubes and heating equipment for reactions and separations. Correct technique (eye-level meniscus reading, appropriate Bunsen flame use) reduces error.",
+      "revision_notes": [
+        "Precision order for volume: measuring cylinder < pipette/burette",
+        "Read menisci at eye level, from the bottom of the curve",
+        "Blue roaring Bunsen flame = heating; yellow safety flame = standby only"
+      ],
+      "related_topics": ["Measurement, Uncertainty and Significant Figures", "Laboratory Safety and Hazard Symbols", "Titration Calculations"],
+      "prerequisites": ["Laboratory Safety and Hazard Symbols"],
+      "diagram_recommendations": [
+        "[DIAGRAM: Common laboratory apparatus labelled - beaker, conical flask, burette, pipette, measuring cylinder]",
+        "[DIAGRAM: Correct eye-level position for reading a meniscus in a burette]"
+      ]
+    },
+
+    {
+      "id": "chem-006-measurement-uncertainty-significant-figures",
+      "subject": "Chemistry",
+      "category": "Introduction to Matter & Laboratory Skills",
+      "title": "Measurement, Uncertainty and Significant Figures",
+      "difficulty": "Higher",
+      "description": "How to record measurements with appropriate precision, express and calculate uncertainty, and apply correct significant figure rules in chemical calculations.",
+      "learning_objectives": [
+        "Distinguish between accuracy and precision",
+        "State the uncertainty of a measuring instrument from its smallest scale division",
+        "Calculate percentage uncertainty of a measurement",
+        "Apply significant figure rules correctly when reporting calculated answers"
+      ],
+      "explanation": "No measurement is perfectly exact; every instrument has a degree of uncertainty, usually taken as ± half of its smallest scale division (e.g. a burette marked in 0.1 cm3 divisions has an uncertainty of ±0.05 cm3 for a single reading, or ±0.1 cm3 for a volume calculated by subtracting two readings). Accuracy describes how close a measurement is to the true value; precision describes how close repeated measurements are to each other (reproducibility), regardless of whether they are close to the true value. Significant figures indicate the precision of a recorded or calculated value: all non-zero digits are significant, zeros between non-zero digits are significant, and trailing zeros after a decimal point are significant, but leading zeros are not. When calculating an answer from measured data, the final answer should generally be given to the same number of significant figures as the least precise measurement used.",
+      "key_concepts": [
+        "Accuracy vs precision",
+        "Uncertainty from instrument scale divisions",
+        "Percentage uncertainty",
+        "Significant figures rules"
+      ],
+      "definitions": [
+        {"term": "Accuracy", "definition": "How close a measured value is to the true or accepted value."},
+        {"term": "Precision", "definition": "How close repeated measurements are to one another, i.e. the reproducibility of a measurement."},
+        {"term": "Uncertainty", "definition": "The range within which the true value of a measurement is expected to lie, often taken as ± half the smallest scale division of the instrument."},
+        {"term": "Significant figures", "definition": "The digits in a number that carry meaningful information about its precision."}
+      ],
+      "formulae": [
+        {"name": "Percentage uncertainty", "formula": "% uncertainty = (uncertainty / measured value) × 100%", "description": "Used to express the relative size of the uncertainty in a single measurement or a calculated result."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "A burette has a smallest scale division of 0.1 cm3. A volume of 25.0 cm3 is measured by taking the difference between an initial and a final reading. Calculate the percentage uncertainty in this volume.",
+          "working": "Uncertainty per single reading = ±0.05 cm3. Since the volume is found by subtracting two readings, total uncertainty = ±0.05 + ±0.05 = ±0.10 cm3. % uncertainty = (0.10 / 25.0) × 100%",
+          "answer": "% uncertainty = 0.4%"
+        }
+      ],
+      "practical_applications": [
+        "Quality control and reporting of measurement confidence in analytical and pharmaceutical chemistry"
+      ],
+      "laboratory_applications": [
+        "Estimating and stating the uncertainty of results from balances, burettes, pipettes and thermometers used in practical work",
+        "Comparing percentage uncertainties of different apparatus to justify equipment choice (e.g. why a pipette is preferred over a measuring cylinder for accurate volumes)"
+      ],
+      "common_mistakes": [
+        "Reporting a calculated answer to more significant figures than the least precise measurement justifies (implying false precision)",
+        "Confusing accuracy and precision — a set of results can be precise (very close together) but not accurate (all consistently far from the true value) due to a systematic error"
+      ],
+      "misconceptions": [
+        "Believing more decimal places always means a 'better' or 'more scientific' answer, regardless of the precision of the original data",
+        "Assuming percentage uncertainty and percentage error are the same thing — uncertainty comes from the limits of the equipment; error compares a result to a known/theoretical value (see Percentage Error and Experimental Error Analysis)"
+      ],
+      "tips": [
+        "For a reading taken by subtracting two values from the same instrument (e.g. burette start and end), double the single-reading uncertainty",
+        "When multiplying or dividing quantities in a calculation, round the final answer to the same number of significant figures as the least precise measurement given in the question"
+      ],
+      "practice_questions": {
+        "basic": [
+          {"question": "A thermometer has a smallest division of 1°C. State the uncertainty of a single reading from this thermometer.", "answer": "±0.5°C"},
+          {"question": "State the number of significant figures in the value 0.00520.", "answer": "3 significant figures (5, 2, 0)"}
+        ],
+        "intermediate": [
+          {"question": "Two students measure the melting point of the same substance three times. Student A gets 112, 113, 112°C; the true value is 118°C. Student B gets 115, 119, 122°C. Comment on the accuracy and precision of each student's results.", "answer": "Student A's results are precise (close together, within 1°C of each other) but not accurate (all around 5–6°C from the true value of 118°C, suggesting a systematic error). Student B's results are less precise (spread over 7°C) but average closer to the true value, suggesting less systematic error but more random error."},
+          {"question": "A mass is measured as 12.50 g on a balance that reads to 2 decimal places. State the number of significant figures and the associated uncertainty.", "answer": "4 significant figures; uncertainty is ±0.005 g (half the smallest division of 0.01 g)."}
+        ],
+        "advanced": [
+          {"question": "A student measures 20.0 cm3 of acid using a pipette with an uncertainty of ±0.06 cm3, then titrates it against a base delivered from a burette, using a total titre volume of 24.60 cm3 with an uncertainty of ±0.10 cm3. Calculate the total percentage uncertainty in the experiment (sum the percentage uncertainties of both apparatus).", "answer": "% uncertainty (pipette) = (0.06/20.0) × 100 = 0.3%. % uncertainty (burette) = (0.10/24.60) × 100 = 0.41% (2 s.f.). Total % uncertainty ≈ 0.3% + 0.41% = 0.71% (2 s.f.)."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "A student calculates a concentration as 0.10453 mol/dm3 from data that includes a mass measured to 3 significant figures. State the value they should report as their final answer, and explain why.", "marks": 2, "model_answer": "0.105 mol/dm3 (1 mark). The final answer should be given to the same number of significant figures as the least precise piece of data used in the calculation (3 s.f., from the mass), since the calculation cannot be more precise than its least precise input (1 mark)."}
+      ],
+      "summary": "All measurements carry uncertainty, generally ± half the smallest scale division of the instrument used. Accuracy (closeness to the true value) and precision (reproducibility) are different concepts. Calculated answers should be reported to a number of significant figures consistent with the least precise measurement used.",
+      "revision_notes": [
+        "Uncertainty of a single reading = ± half smallest scale division; double it for readings found by subtraction",
+        "% uncertainty = (uncertainty ÷ measurement) × 100%",
+        "Accurate = close to true value; Precise = reproducible/close together",
+        "Round final answers to the least number of significant figures used in the data"
+      ],
+      "related_topics": ["Percentage Error and Experimental Error Analysis", "Common Laboratory Apparatus and Techniques", "Titration Calculations"],
+      "prerequisites": ["Common Laboratory Apparatus and Techniques"],
+      "diagram_recommendations": [
+        "[DIAGRAM: Accuracy vs precision illustrated as four target/dartboard patterns]"
+      ]
+    },
+
+    {
+      "id": "chem-007-filtration-evaporation-crystallisation",
+      "subject": "Chemistry",
+      "category": "Introduction to Matter & Laboratory Skills",
+      "title": "Filtration, Evaporation and Crystallisation",
+      "difficulty": "Foundation",
+      "description": "Separation techniques used to obtain a pure, dry solid from a mixture or solution: filtration for insoluble solids, and evaporation or crystallisation for soluble solids.",
+      "learning_objectives": [
+        "Describe filtration and identify the residue and filtrate",
+        "Describe the process of crystallisation and explain why slow cooling gives larger, purer crystals",
+        "Select the appropriate separation method (evaporation to dryness vs crystallisation) based on the thermal stability of the solute",
+        "Describe the full practical method for preparing a pure, dry sample of a soluble salt"
+      ],
+      "explanation": "Filtration separates an insoluble solid from a liquid by passing the mixture through filter paper: the solid that stays on the paper is called the residue, and the liquid that passes through is the filtrate. To obtain a soluble solid from its solution, the solution can be evaporated to dryness by continuously heating until all the solvent is removed, but this is unsuitable for solutes that decompose on strong heating or that would be lost due to spitting. Crystallisation is a gentler alternative: the solution is heated to produce a hot, saturated solution (often tested by dipping a glass rod in and observing crystals form on cooling at the edge), then left to cool slowly, undisturbed. As it cools, the solution becomes supersaturated and solid crystals grow slowly out of solution, leaving the remaining solution (the mother liquor) to be filtered off. Slow cooling allows larger, more regular, purer crystals to form, because particles have time to arrange into an ordered lattice; fast cooling gives many small, impure crystals.",
+      "key_concepts": [
+        "Residue and filtrate",
+        "Saturated solution",
+        "Evaporation to dryness vs crystallisation",
+        "Effect of cooling rate on crystal size and purity"
+      ],
+      "definitions": [
+        {"term": "Filtration", "definition": "A technique for separating an insoluble solid from a liquid by passing the mixture through a filter that allows the liquid to pass but not the solid."},
+        {"term": "Residue", "definition": "The solid that remains on the filter paper after filtration."},
+        {"term": "Filtrate", "definition": "The liquid that passes through the filter paper during filtration."},
+        {"term": "Saturated solution", "definition": "A solution that contains the maximum amount of solute that can dissolve in the solvent at a given temperature, such that no more will dissolve."},
+        {"term": "Crystallisation", "definition": "A technique for obtaining solid crystals of a soluble substance from a saturated solution by slow cooling or slow evaporation."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": [
+        "Purifying pharmaceutical compounds and sugar refining by crystallisation",
+        "Water treatment: filtration to remove suspended solid particles"
+      ],
+      "laboratory_applications": [
+        "Preparing a pure, dry sample of a soluble salt: react an acid with an excess of an insoluble base or metal, filter off the excess unreacted solid, gently heat the filtrate to form a hot saturated solution, then leave to cool and crystallise, before filtering off and drying the crystals (e.g. between sheets of filter paper, not in a hot oven which could decompose the crystals)",
+        "Filtering a precipitate from a reaction mixture (e.g. after a precipitation reaction) to isolate the solid product"
+      ],
+      "common_mistakes": [
+        "Evaporating a solution completely to dryness with strong, continuous heating when crystallisation was required — this can cause spitting, loss of product, or decomposition of the solute",
+        "Heating a saturated solution too strongly or cooling it too quickly during crystallisation, producing small, poorly formed, impure crystals rather than large pure ones",
+        "Drying crystals in a hot oven, which can cause water of crystallisation to be lost or the compound to decompose"
+      ],
+      "misconceptions": [
+        "Thinking evaporation and crystallisation are the same technique — evaporation to dryness removes all the solvent by continued heating, while crystallisation involves cooling a hot saturated solution to grow crystals while leaving some solution (mother liquor) behind"
+      ],
+      "tips": [
+        "If the question mentions the solute 'decomposes on heating' or 'has water of crystallisation', choose crystallisation, not evaporation to dryness",
+        "Dry crystals by patting between filter paper or leaving in a warm (not hot) place, never a hot oven"
+      ],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define 'residue' and 'filtrate' in the context of filtration.", "answer": "The residue is the solid left on the filter paper; the filtrate is the liquid that passes through."},
+          {"question": "Why is crystallisation preferred over evaporation to dryness for hydrated copper sulfate crystals?", "answer": "Because hydrated copper sulfate contains water of crystallisation, which would be lost (and the compound could decompose) if heated to complete dryness; crystallisation allows crystals to form gently while retaining their water of crystallisation."}
+        ],
+        "intermediate": [
+          {"question": "Describe the method to prepare pure, dry crystals of copper sulfate starting from copper oxide (an insoluble base) and dilute sulfuric acid.", "answer": "Add excess copper oxide to warm dilute sulfuric acid and stir until no more dissolves (ensures all acid has reacted); filter to remove unreacted excess copper oxide, collecting the blue copper sulfate filtrate; gently heat the filtrate to evaporate some water and produce a hot saturated solution (tested with a glass rod); leave to cool slowly and undisturbed so crystals form; filter off the crystals and dry them between sheets of filter paper (not in a hot oven)."},
+          {"question": "Explain why slow cooling produces larger crystals than rapid cooling.", "answer": "Slow cooling allows particles time to arrange themselves in an ordered way onto a small number of existing crystal nuclei, so each crystal has time to grow large; rapid cooling causes many small crystal nuclei to form very quickly and simultaneously, with insufficient time for large, well-ordered crystals to grow, giving many small, often impure crystals."}
+        ],
+        "advanced": [
+          {"question": "A student wants pure, dry crystals of an unstable organic compound that decomposes above 60°C. Explain why crystallisation from a cooled saturated solution is more appropriate than evaporation to dryness, and suggest one additional precaution.", "answer": "Evaporation to dryness typically requires strong, continuous heating that could exceed 60°C and decompose the compound; crystallisation instead only needs the solution warmed gently to form a saturated solution and then cooled, minimising the compound's exposure to high temperature. An additional precaution: use a water bath rather than a direct flame to control and limit the temperature during the initial heating step, and dry the final crystals at room temperature rather than in an oven."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "A student is asked to prepare pure, dry crystals of a soluble salt from a solution. Describe how they should cool the hot saturated solution and explain why this method is chosen.", "marks": 3, "model_answer": "The hot saturated solution should be left to cool slowly, undisturbed, at room temperature (1 mark). Slow cooling allows time for the solute particles to form large, well-ordered crystals as they come out of solution (1 mark), giving larger and purer crystals than rapid cooling, which produces many small, less pure crystals (1 mark)."}
+      ],
+      "summary": "Filtration separates insoluble solids (residue) from liquids (filtrate). Soluble solids are obtained by evaporation to dryness (for stable compounds) or, more gently, by crystallisation from a hot saturated solution followed by slow cooling — which produces larger, purer crystals than rapid cooling.",
+      "revision_notes": [
+        "Filtration: residue = solid caught on paper; filtrate = liquid that passes through",
+        "Crystallisation method: dissolve → form hot saturated solution → cool slowly → filter crystals → dry gently",
+        "Slow cooling = larger, purer crystals; fast cooling = small, impure crystals",
+        "Avoid strong heating/hot ovens for compounds with water of crystallisation or that decompose"
+      ],
+      "related_topics": ["Changes of State and Particle Diagrams", "Simple and Fractional Distillation", "Solubility"],
+      "prerequisites": ["Introduction to Matter"],
+      "diagram_recommendations": [
+        "[DIAGRAM: Filtration apparatus with filter funnel, filter paper, residue and filtrate labelled]",
+        "[DIAGRAM: Crystallisation apparatus - evaporating basin heated gently over a water bath]"
+      ]
+    },
+
+    {
+      "id": "chem-008-simple-fractional-distillation",
+      "subject": "Chemistry",
+      "category": "Introduction to Matter & Laboratory Skills",
+      "title": "Simple and Fractional Distillation",
+      "difficulty": "Higher",
+      "description": "How simple distillation separates a solvent from a solution, and how fractional distillation separates a mixture of miscible liquids with different boiling points.",
+      "learning_objectives": [
+        "Describe the apparatus and method for simple distillation",
+        "Describe the apparatus and method for fractional distillation",
+        "Explain why fractional distillation is needed for liquids with close boiling points",
+        "Identify sources of error in distillation apparatus and how to minimise them"
+      ],
+      "explanation": "Simple distillation separates a liquid solvent from a solution of a dissolved solid, or separates two liquids with very different boiling points. The solution is heated in a flask; the liquid with the lower boiling point evaporates first, its vapour passes into a condenser (cooled by water flowing in the opposite direction to the vapour, i.e. counter-current, entering at the bottom and leaving at the top of the condenser jacket), where it cools and condenses back into a liquid, which is collected. A thermometer positioned at the side-arm outlet monitors the temperature of the vapour leaving the flask, which should match the boiling point of the substance being collected. Fractional distillation is used to separate a mixture of miscible liquids with boiling points that are close together (e.g. ethanol and water, or the different fractions of crude oil). A fractionating column, packed with glass beads or containing trays, is placed between the flask and the condenser; it provides a large surface area over which vapour repeatedly condenses and re-evaporates as it rises, so that the vapour reaching the top of the column is enriched in the more volatile (lower boiling point) component, giving a much more efficient separation than simple distillation alone.",
+      "key_concepts": [
+        "Simple distillation for solvent/solute or widely different boiling points",
+        "Fractional distillation for miscible liquids with close boiling points",
+        "Role of the fractionating column",
+        "Counter-current cooling in a condenser"
+      ],
+      "definitions": [
+        {"term": "Distillation", "definition": "A technique for separating liquids based on differences in boiling point, involving evaporation followed by condensation."},
+        {"term": "Fractionating column", "definition": "A column packed with a large surface area (e.g. glass beads) placed between the flask and condenser in fractional distillation, allowing repeated evaporation and condensation to improve separation of liquids with similar boiling points."},
+        {"term": "Miscible", "definition": "Describes two or more liquids that mix completely to form a single solution, with no visible boundary between them."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": [
+        "Producing potable water from seawater or contaminated sources (simple distillation)",
+        "Separating crude oil into fractions such as petrol, kerosene and diesel (fractional distillation)",
+        "Purifying ethanol produced by fermentation"
+      ],
+      "laboratory_applications": [
+        "Setting up simple distillation apparatus: round-bottom flask, still head, thermometer at the side-arm, Liebig condenser with counter-current water flow, and a collecting flask, with anti-bumping granules added to the flask to promote smooth, even boiling",
+        "Setting up fractional distillation for an ethanol-water mixture, monitoring the thermometer to identify when the temperature plateaus near ethanol's boiling point (78°C) before rising towards water's boiling point (100°C)"
+      ],
+      "common_mistakes": [
+        "Positioning the thermometer bulb too high or too low in the still head — it should sit level with the side-arm opening so it measures the temperature of the vapour about to leave, not the liquid in the flask",
+        "Forgetting anti-bumping granules, which can cause sudden, dangerous bursts of boiling (bumping)",
+        "Connecting the condenser water the wrong way round (should enter at the bottom, exit at the top, to ensure the whole condenser jacket stays full of cooling water)"
+      ],
+      "misconceptions": [
+        "Believing fractional distillation is only relevant to crude oil — it applies generally to any mixture of miscible liquids with close boiling points",
+        "Assuming a single simple distillation gives a perfectly pure separation of two similar-boiling liquids — this typically requires fractional distillation instead"
+      ],
+      "tips": [
+        "Use simple distillation when boiling points differ by more than about 25°C, or when separating a solvent from a dissolved solid; use fractional distillation for miscible liquids with closer boiling points",
+        "The thermometer reading during collection should match the known boiling point of the liquid being collected — a rising or unstable temperature suggests a mixture is still coming over, not a pure fraction"
+      ],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the purpose of anti-bumping granules in distillation.", "answer": "They promote smooth, even boiling and prevent sudden, violent bursts of boiling (bumping)."},
+          {"question": "Name the piece of apparatus that provides a large surface area for repeated evaporation and condensation during fractional distillation.", "answer": "The fractionating column."}
+        ],
+        "intermediate": [
+          {"question": "Explain why fractional distillation, rather than simple distillation, is used to separate ethanol (boiling point 78°C) from water (boiling point 100°C).", "answer": "The boiling points are relatively close together, so with simple distillation both liquids would evaporate to a significant extent around similar temperatures, giving a poor separation. The fractionating column allows repeated condensation and evaporation as vapour rises, progressively enriching the vapour in ethanol (the more volatile component) so that a much purer sample of ethanol can be collected."},
+          {"question": "Explain why the condenser water should enter at the bottom and leave at the top.", "answer": "This ensures the condenser jacket remains completely full of water throughout, giving maximum, most efficient cooling of the vapour passing through the inner tube (counter-current flow also maximises the temperature gradient along the condenser)."}
+        ],
+        "advanced": [
+          {"question": "During a fractional distillation of a mixture, the thermometer reading rises steadily from 78°C to 100°C over ten minutes, rather than staying constant at 78°C before jumping to 100°C. What does this suggest about the sample being collected during this period, and how should the experimenter respond?", "answer": "A steadily rising temperature suggests that the vapour being collected is a mixture of ethanol and water rather than a pure fraction of either. The experimenter should discard or separately collect this 'mixed' fraction rather than including it with the pure ethanol fraction (which should be collected only while temperature is steady at approximately 78°C), and should keep a fresh collecting vessel ready for the next distinct temperature plateau."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Describe how fractional distillation could be used to separate a mixture of two miscible liquids with different boiling points, and explain the role of the fractionating column in improving the separation.", "marks": 4, "model_answer": "The mixture is heated in a flask; the liquid with the lower boiling point evaporates preferentially (1 mark). Vapour rises through the fractionating column, where it repeatedly condenses on the packing and re-evaporates as it meets rising hot vapour, and each cycle enriches the vapour in the more volatile component (1 mark). This means the vapour reaching the top of the column, which then passes into the condenser and is collected, is much purer in the lower-boiling-point liquid than a single evaporation would achieve (1 mark). The process is repeated for the second liquid once the first is fully collected, as the temperature rises towards its boiling point (1 mark)."}
+      ],
+      "summary": "Distillation separates liquids based on boiling point differences. Simple distillation suits solvent/solute mixtures or liquids with very different boiling points; fractional distillation, using a fractionating column, is needed for miscible liquids with close boiling points, since it allows repeated evaporation/condensation to progressively purify the vapour.",
+      "revision_notes": [
+        "Simple distillation: solvent from solute, or widely different boiling points",
+        "Fractional distillation: miscible liquids, close boiling points, uses a fractionating column",
+        "Thermometer bulb at side-arm level; condenser water flows counter-current (in at bottom, out at top)",
+        "Anti-bumping granules prevent violent, uneven boiling"
+      ],
+      "related_topics": ["Changes of State and Particle Diagrams", "Fractional Distillation of Crude Oil", "Fermentation and Ethanol Production"],
+      "prerequisites": ["Changes of State and Particle Diagrams"],
+      "diagram_recommendations": [
+        "[DIAGRAM: Simple distillation apparatus labelled - flask, thermometer, condenser, collecting flask]",
+        "[DIAGRAM: Fractional distillation column showing temperature gradient and repeated condensation/evaporation]"
+      ]
+    },
+
+    {
+      "id": "chem-009-percentage-error-experimental-error-analysis",
+      "subject": "Chemistry",
+      "category": "Introduction to Matter & Laboratory Skills",
+      "title": "Percentage Error and Experimental Error Analysis",
+      "difficulty": "Higher",
+      "description": "Calculating percentage error against a known or theoretical value, distinguishing random and systematic errors, and evaluating experimental procedures.",
+      "learning_objectives": [
+        "Calculate percentage error comparing an experimental result to a theoretical/literature value",
+        "Distinguish between random error and systematic error",
+        "Identify anomalous results and justify whether they should be excluded",
+        "Suggest realistic improvements to reduce specific sources of error in an experiment"
+      ],
+      "explanation": "Percentage error compares an experimental (measured) result to a known theoretical or literature value, showing how far off the experiment was. Errors in experiments fall into two broad types. Random errors cause results to scatter unpredictably above and below the true value (e.g. due to slight variation in reaction time judged by eye, or reading a scale slightly differently each time); their effect can be reduced by repeating readings and taking a mean. Systematic errors cause results to be consistently shifted in one direction from the true value (e.g. a balance that is not zeroed correctly, or heat loss to the surroundings in a calorimetry experiment that always makes a measured enthalpy change smaller than it should be); repeating the experiment does not reduce a systematic error, only correcting the underlying cause does. An anomalous result is one that does not fit the pattern of the other repeats and is usually excluded from any average, provided there is a clear procedural reason (e.g. a recording mistake) rather than simply because it looks inconvenient.",
+      "key_concepts": [
+        "Percentage error vs theoretical value",
+        "Random error and how repeating readings helps",
+        "Systematic error and why repeating readings does not help",
+        "Identifying and justifying exclusion of anomalous results",
+        "Suggesting specific, justified improvements"
+      ],
+      "definitions": [
+        {"term": "Percentage error", "definition": "A measure of how far an experimental result differs from a known theoretical value, expressed as a percentage of the theoretical value."},
+        {"term": "Random error", "definition": "An error that causes unpredictable variation in results, scattering them above and below the true value; reduced by repeating and averaging."},
+        {"term": "Systematic error", "definition": "An error that consistently shifts all results in the same direction from the true value, caused by a flaw in equipment or method; not reduced by repeating readings."},
+        {"term": "Anomalous result", "definition": "A result that differs significantly from the pattern of other repeated results, usually excluded from an average when there is a clear procedural cause."}
+      ],
+      "formulae": [
+        {"name": "Percentage error", "formula": "% error = |experimental value − theoretical value| / theoretical value × 100%", "description": "Compares an experimental result with a known/accepted theoretical value."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "A student calculates a percentage yield of 78% for a reaction where the theoretical yield calculation predicts 85% is achievable under ideal conditions reported in the literature. Calculate the percentage error.",
+          "working": "% error = |78 − 85| / 85 × 100% = 7/85 × 100%",
+          "answer": "% error ≈ 8.2%"
+        }
+      ],
+      "practical_applications": [
+        "Evaluating the reliability of analytical results in quality control laboratories"
+      ],
+      "laboratory_applications": [
+        "Comparing an experimentally determined value (e.g. enthalpy of combustion from calorimetry) to a literature/data book value, and calculating percentage error to evaluate the method",
+        "Repeating titrations to obtain concordant results (titres within 0.10 cm3 of each other) and identifying/discarding any anomalous titre before averaging"
+      ],
+      "common_mistakes": [
+        "Confusing percentage error (comparison to a known/theoretical value) with percentage uncertainty (arising from the precision of the equipment)",
+        "Excluding an inconvenient result as 'anomalous' without a clear procedural justification, rather than because it is genuinely inconsistent with repeats",
+        "Suggesting 'repeat the experiment more times' as an improvement for a systematic error, when this would not remove a systematic error"
+      ],
+      "misconceptions": [
+        "Believing all experimental error can be eliminated by being more careful — random error can be reduced but never fully eliminated; systematic error requires a specific procedural correction, not just care"
+      ],
+      "tips": [
+        "When suggesting improvements, be specific to the actual source of error identified (e.g. 'use a more precise thermometer reading to 0.1°C' rather than a vague 'be more careful')",
+        "Always take the absolute (positive) difference when calculating percentage error, since it is expressing a size of discrepancy, not a direction"
+      ],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the formula for percentage error.", "answer": "% error = |experimental value − theoretical value| / theoretical value × 100%"},
+          {"question": "State whether repeating an experiment reduces random error, systematic error, both, or neither.", "answer": "Repeating and averaging reduces the effect of random error, but does not reduce systematic error."}
+        ],
+        "intermediate": [
+          {"question": "A student measures the enthalpy of combustion of ethanol experimentally as −1180 kJ/mol; the data book value is −1367 kJ/mol. Calculate the percentage error.", "answer": "% error = |−1180 − (−1367)| / 1367 × 100% = 187/1367 × 100% ≈ 13.7%"},
+          {"question": "A calorimetry experiment consistently gives a smaller magnitude enthalpy change than the literature value, due to heat loss to the surroundings. Explain why this is a systematic, not random, error, and suggest one improvement.", "answer": "It is systematic because heat is lost to the surroundings in the same direction every time (the measured energy released is always less than the true value), not randomly above and below it. Improvement: use an insulated container (e.g. a polystyrene cup with a lid) to reduce heat loss to the surroundings."}
+        ],
+        "advanced": [
+          {"question": "In a titration, four titre volumes are recorded: 24.60, 24.55, 24.95, 24.50 cm3. Explain which value, if any, should be treated as anomalous, and justify how the mean titre should be calculated.", "answer": "24.95 cm3 is anomalous, since it differs by more than 0.10 cm3 from the other three concordant results (which are all within 0.10 cm3 of each other). It should be excluded, and the mean titre calculated only from the three concordant values: (24.60 + 24.55 + 24.50) / 3 = 24.55 cm3."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "A student's experimental value for the relative atomic mass of magnesium is 22.9, compared to the accepted value of 24.3. Calculate the percentage error and suggest one possible systematic error that could explain a result that is consistently too low.", "marks": 3, "model_answer": "% error = |22.9 − 24.3| / 24.3 × 100% = 1.4/24.3 × 100% ≈ 5.8% (1 mark for correct substitution, 1 mark for correct answer). Possible systematic error: if the experiment involved reacting magnesium and measuring gas produced, some magnesium may not have fully reacted, or some gas may have escaped before measurement, both of which would consistently make the measured value too low (1 mark)."}
+      ],
+      "summary": "Percentage error compares an experimental result to a known theoretical value. Random errors scatter results unpredictably and are reduced by repeating and averaging; systematic errors consistently shift results in one direction and require a specific procedural fix, not just repetition. Anomalous results should only be excluded with clear justification.",
+      "revision_notes": [
+        "% error = |experimental − theoretical| / theoretical × 100%",
+        "Random error: repeat and average to reduce; Systematic error: fix the cause, repeating does not help",
+        "Anomalous results: exclude only with a clear procedural reason"
+      ],
+      "related_topics": ["Measurement, Uncertainty and Significant Figures", "Percentage Yield", "Calorimetry"],
+      "prerequisites": ["Measurement, Uncertainty and Significant Figures"],
+      "diagram_recommendations": [
+        "[DIAGRAM: Scatter plots contrasting the pattern of random error and systematic error around a true value]"
+      ]
+    },
+
+    {
+      "id": "chem-010-history-of-atomic-theory",
+      "subject": "Chemistry",
+      "category": "Introduction to Matter & Laboratory Skills",
+      "title": "History of Atomic Theory (Dalton to Bohr)",
+      "difficulty": "Foundation",
+      "description": "How scientific understanding of atomic structure developed through the models proposed by Dalton, Thomson, Rutherford and Bohr, based on the experimental evidence available at each stage.",
+      "learning_objectives": [
+        "Outline the key features of Dalton's, Thomson's, Rutherford's and Bohr's atomic models",
+        "Describe the key observations of Rutherford's alpha particle scattering experiment and how they led to the nuclear model",
+        "Explain why the atomic model has changed over time as new evidence was found",
+        "State the main limitation of each historical model that led to it being revised"
+      ],
+      "explanation": "Scientific models of the atom have changed as new experimental evidence became available. John Dalton (early 1800s) proposed that all matter is made of tiny, indivisible, solid spheres called atoms, with atoms of a given element being identical and atoms of different elements being different. J. J. Thomson (1897) discovered the electron, showing atoms were not indivisible, and proposed the 'plum pudding' model: a sphere of positive charge with negatively charged electrons embedded throughout it, like plums in a pudding. Ernest Rutherford (1909, with Geiger and Marsden) tested this model by firing positively charged alpha particles at a thin sheet of gold foil. Most particles passed straight through, some were deflected at small angles, and a very small number bounced almost straight back. Since the plum pudding model predicted all particles should pass through with little deflection, this was unexpected, and Rutherford concluded that an atom's positive charge and most of its mass must be concentrated in a tiny, dense central nucleus, with the rest of the atom being mostly empty space — the nuclear model. Niels Bohr (1913) then refined this by proposing that electrons orbit the nucleus in fixed energy levels (shells) at specific distances, rather than spiralling in continuously, which explained why atoms are stable and why elements produce specific line spectra. Later work (including the discovery of the neutron by James Chadwick in 1932, and the development of quantum mechanics) further refined the model into the current understanding of electrons occupying orbitals within subshells and shells, described in Atomic Structure and Atomic Orbitals.",
+      "key_concepts": [
+        "Dalton's solid sphere model",
+        "Thomson's plum pudding model and discovery of the electron",
+        "Rutherford's gold foil experiment and nuclear model",
+        "Bohr's model of fixed electron energy levels",
+        "Science as an evolving model refined by new evidence"
+      ],
+      "definitions": [
+        {"term": "Plum pudding model", "definition": "Thomson's atomic model, in which negatively charged electrons are embedded throughout a sphere of positive charge."},
+        {"term": "Nuclear model", "definition": "Rutherford's atomic model, in which a small, dense, positively charged nucleus is surrounded by mostly empty space containing electrons."},
+        {"term": "Alpha particle scattering experiment", "definition": "Rutherford's experiment (with Geiger and Marsden) in which alpha particles were fired at thin gold foil; the pattern of scattering provided evidence for the nuclear model of the atom."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": [
+        "The development of atomic models underpins modern nuclear physics, medical imaging, and materials science"
+      ],
+      "laboratory_applications": [],
+      "common_mistakes": [
+        "Confusing Thomson's plum pudding model (positive charge spread throughout, electrons embedded within it) with Rutherford's nuclear model (positive charge concentrated in a tiny central nucleus)",
+        "Describing Bohr's model as the modern, final model of the atom, rather than an important historical step later refined by quantum mechanics"
+      ],
+      "misconceptions": [
+        "Believing scientists simply 'guessed' atomic structure — each model was based on specific experimental evidence available at the time, and was revised only when new evidence could not be explained by the existing model",
+        "Assuming the current model of the atom is the final, complete truth rather than the best current model supported by evidence, which may itself be refined further"
+      ],
+      "tips": [
+        "Link each model directly to the evidence that produced it: Dalton (no evidence yet of subatomic particles), Thomson (discovery of the electron), Rutherford (unexpected gold foil scattering results), Bohr (line emission spectra and atomic stability)",
+        "Remember the three key gold foil observations and what each one showed: most particles pass through undeflected (atom is mostly empty space); some deflect at an angle (they pass near a concentrated positive charge); very few bounce back (they hit a small, dense, positively charged nucleus directly)"
+      ],
+      "practice_questions": {
+        "basic": [
+          {"question": "Name the scientist who discovered the electron and proposed the 'plum pudding' model.", "answer": "J. J. Thomson"},
+          {"question": "State one key feature of Rutherford's nuclear model of the atom.", "answer": "A small, dense, positively charged nucleus at the centre of the atom, with the rest of the atom being mostly empty space."}
+        ],
+        "intermediate": [
+          {"question": "Describe the three main observations of Rutherford's gold foil experiment.", "answer": "Most alpha particles passed straight through the gold foil with little or no deflection; some alpha particles were deflected through small angles; a very small number of alpha particles bounced back almost the way they came."},
+          {"question": "Explain how the observation that 'a very small number of alpha particles bounced back' led Rutherford to conclude the atom has a small, dense nucleus.", "answer": "For a positively charged alpha particle to be repelled straight back, it must have collided with a region of concentrated positive charge and mass much greater than its own. Since this only happened very rarely, that region (the nucleus) must be extremely small compared to the rest of the atom, meaning most of the atom is empty space, which explains why the great majority of particles passed straight through undeflected."}
+        ],
+        "advanced": [
+          {"question": "Explain why Bohr's model, which places electrons in fixed energy levels, was an improvement on Rutherford's original nuclear model in terms of atomic stability.", "answer": "In Rutherford's original model, electrons orbiting a nucleus continuously would, according to classical physics, be expected to lose energy and spiral into the nucleus, making atoms unstable — which contradicts the fact that atoms are observed to be stable. Bohr proposed that electrons can only exist in specific, fixed energy levels (shells) and do not lose energy while remaining in one of these levels, explaining why atoms do not collapse. This model also explained why atoms absorb or emit only specific, discrete amounts of energy (seen as line spectra), corresponding to electrons moving between these fixed energy levels."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Describe how the results of Rutherford's alpha particle scattering experiment differed from what Thomson's plum pudding model would have predicted, and explain how this led to a new model of the atom.", "marks": 4, "model_answer": "Thomson's model predicted that alpha particles should pass through the gold foil largely undeflected, since positive charge was thought to be spread evenly throughout the atom with no concentrated region to strongly repel them (1 mark). However, while most particles did pass through, some were deflected at significant angles and a very small number bounced almost straight back, which the plum pudding model could not explain (1 mark). Rutherford concluded that the positive charge and most of the mass of the atom must be concentrated in a very small, dense region — the nucleus — for such strong deflections/rebounds to occur, however rarely (1 mark). This led to the nuclear model, in which the atom is mostly empty space with a tiny, dense, positively charged nucleus at its centre (1 mark)."}
+      ],
+      "summary": "Atomic models developed as new evidence emerged: Dalton's solid, indivisible sphere; Thomson's plum pudding model following the discovery of the electron; Rutherford's nuclear model following unexpected gold foil scattering results; and Bohr's model of electrons in fixed energy levels, explaining atomic stability and line spectra. Each revision was driven by evidence the previous model could not explain.",
+      "revision_notes": [
+        "Dalton: solid, indivisible spheres",
+        "Thomson: plum pudding (electrons in positive 'pudding')",
+        "Rutherford: gold foil experiment → small, dense, positive nucleus; mostly empty space",
+        "Bohr: electrons in fixed energy levels/shells, explaining stability and line spectra"
+      ],
+      "related_topics": ["Atomic Structure", "Electron Shells", "Atomic Emission Spectra", "Line Spectra"],
+      "prerequisites": ["Introduction to Matter"],
+      "diagram_recommendations": [
+        "[DIAGRAM: Timeline of atomic models from Dalton to Bohr]",
+        "[DIAGRAM: Rutherford's gold foil experiment setup showing the paths of alpha particles]"
+      ]
+    }
+  ]
+}

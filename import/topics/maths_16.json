@@ -1,0 +1,1472 @@
+[
+  {
+    "id": 364,
+    "category": "Vectors",
+    "topic": "Vector Notation",
+    "explanation": "A vector is a quantity that has both magnitude (size) and direction, distinguishing it from a scalar, which has magnitude only. Vectors are commonly written using bold lowercase letters (a), an arrow above a letter (\u2192a), or with letters representing the start and end points (\u2192AB).",
+    "key_concepts": [
+      "A vector has both magnitude AND direction; a scalar has magnitude only",
+      "Notation: bold letters (a), arrow notation (\\vec{a}), or two-point notation (\\vec{AB})",
+      "\\vec{AB} represents a vector starting at point A and ending at point B",
+      "\\vec{AB} = -\\vec{BA} (reversing direction negates the vector)"
+    ],
+    "definitions": [
+      {
+        "term": "Vector",
+        "definition": "A quantity with both magnitude and direction, such as displacement, velocity, or force."
+      },
+      {
+        "term": "Scalar",
+        "definition": "A quantity with magnitude only, no direction, such as distance, speed, or mass."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "State whether 'distance travelled' is a vector or a scalar quantity, and explain why.",
+        "solution_steps": [
+          "Distance has only a magnitude (how far), with no specific direction attached"
+        ],
+        "answer": "Scalar \u2014 it has magnitude but no direction."
+      },
+      {
+        "problem": "If \\vec{AB} represents a vector, what does \\vec{BA} represent?",
+        "solution_steps": [
+          "\\vec{BA} is the same length but points in the OPPOSITE direction"
+        ],
+        "answer": "\\vec{BA} = -\\vec{AB}"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is 'velocity' a vector or a scalar? Explain.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Is 'speed' a vector or a scalar? Explain.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Vector \u2014 velocity includes both speed (magnitude) and a specific direction of travel.",
+      "Scalar \u2014 speed only describes how fast something is moving, without reference to direction."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain the key difference between a vector and a scalar quantity, giving one real-world example of each.",
+        "marks": 2,
+        "answer": "A vector has both magnitude and direction (e.g. displacement \u2014 '5km north'); a scalar has magnitude only (e.g. distance \u2014 '5km')."
+      }
+    ],
+    "common_mistakes": [
+      "Treating vector quantities (like displacement or velocity) as if they were scalars (ignoring direction)",
+      "Confusing \\vec{AB} with \\vec{BA} (these are opposite vectors, not the same)"
+    ],
+    "tips": [
+      "A quick test: if 'direction' is a meaningful part of describing the quantity, it's a vector; if not, it's a scalar."
+    ],
+    "summary": "A vector has magnitude and direction (unlike a scalar), notated with bold letters, arrows, or two-point notation like \\vec{AB}.",
+    "quick_revision_notes": [
+      "Vector: magnitude + direction",
+      "Scalar: magnitude only",
+      "\\vec{AB} = -\\vec{BA}"
+    ],
+    "related_prerequisite_topics": [
+      "Column Vectors",
+      "Vector Addition",
+      "Displacement Vectors"
+    ],
+    "images": []
+  },
+  {
+    "id": 365,
+    "category": "Vectors",
+    "topic": "Column Vectors",
+    "explanation": "A column vector represents a vector's horizontal and vertical components stacked vertically, written as (x,y) in column form, showing how far to move right/left and up/down. This is one of the most common ways to represent vectors numerically for calculation.",
+    "key_concepts": [
+      "Written as a column: top number = horizontal movement, bottom number = vertical movement",
+      "Positive x: right. Negative x: left. Positive y: up. Negative y: down",
+      "Directly usable for adding, subtracting, and scaling vectors component-by-component",
+      "Corresponds directly to translation vectors in transformations"
+    ],
+    "definitions": [
+      {
+        "term": "Column Vector",
+        "definition": "A vector written as a vertical column showing its horizontal (top) and vertical (bottom) components."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Write the column vector representing a movement of 5 units right and 3 units down.",
+        "solution_steps": [
+          "Right is positive x: 5",
+          "Down is negative y: -3"
+        ],
+        "answer": "(5, -3) as a column vector"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Write the column vector for a movement of 4 units left and 2 units up.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Describe in words the movement represented by the column vector (-6,-1).",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "(-4, 2)",
+      "6 units left and 1 unit down"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Point A(3,5) is translated by the column vector (-2,4) to point B. Find the coordinates of B.",
+        "marks": 2,
+        "answer": "B = (3+(-2), 5+4) = (1, 9)"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing the top and bottom entries (mixing up horizontal and vertical components)",
+      "Sign errors when interpreting negative components as direction"
+    ],
+    "tips": [
+      "Always read a column vector top-to-bottom as (horizontal, vertical) \u2014 this matches how translations are described in transformation geometry."
+    ],
+    "summary": "A column vector represents horizontal and vertical movement in a compact vertical format, used for calculations and translations.",
+    "quick_revision_notes": [
+      "Top = horizontal (x), Bottom = vertical (y)"
+    ],
+    "related_prerequisite_topics": [
+      "Vector Notation",
+      "Translation",
+      "Vector Addition"
+    ],
+    "images": []
+  },
+  {
+    "id": 366,
+    "category": "Vectors",
+    "topic": "Vector Addition",
+    "explanation": "Adding two vectors means combining their effects \u2014 the result (called the resultant vector) represents the overall displacement if both vectors were applied in sequence. For column vectors, addition is done by adding corresponding components separately.",
+    "key_concepts": [
+      "Add corresponding components: top+top, bottom+bottom",
+      "Geometrically, vector addition follows the 'nose-to-tail' (or triangle) rule: place the second vector's start at the first vector's end",
+      "The resultant vector goes from the start of the first vector to the end of the second",
+      "Vector addition is commutative: a+b = b+a"
+    ],
+    "definitions": [
+      {
+        "term": "Resultant Vector",
+        "definition": "The single vector representing the combined effect of two or more vectors added together."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Column vector addition",
+        "formula": "(a,b) + (c,d) = (a+c, b+d)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Add the vectors (3,2) and (1,4).",
+        "solution_steps": [
+          "Add x-components: 3+1=4",
+          "Add y-components: 2+4=6"
+        ],
+        "answer": "(4, 6)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Add the vectors (5,-2) and (-3,6).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "If a=(2,3) and b=(-1,5), find a+b.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "(2,4)",
+      "(1,8)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Vector p=(4,1) and vector q=(-2,3). Find p+q, and describe geometrically what this resultant vector represents.",
+        "marks": 3,
+        "answer": "p+q = (2,4). Geometrically, this represents the overall displacement if you moved along vector p first, then vector q \u2014 the direct path from the start of p to the end of q."
+      }
+    ],
+    "common_mistakes": [
+      "Adding components in the wrong pairing (mixing x and y components together)",
+      "Forgetting vector addition is commutative (order doesn't matter for the final resultant)"
+    ],
+    "tips": [
+      "When adding vectors geometrically, always place the tail (start) of the second vector at the head (end) of the first \u2014 the resultant runs from the very first tail to the very last head."
+    ],
+    "summary": "Vector addition combines vectors component-by-component (or 'nose-to-tail' geometrically), producing a resultant vector.",
+    "quick_revision_notes": [
+      "(a,b)+(c,d) = (a+c,b+d)"
+    ],
+    "related_prerequisite_topics": [
+      "Column Vectors",
+      "Vector Subtraction",
+      "Vector Notation"
+    ],
+    "images": [
+      {
+        "filename": "vectoraddition-366-diagram.svg",
+        "type": "diagram",
+        "description": "Two vectors a and b drawn from the origin, with their resultant vector a+b also shown.",
+        "purpose": "Shows how vector addition combines to form a resultant vector.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 367,
+    "category": "Vectors",
+    "topic": "Vector Subtraction",
+    "explanation": "Subtracting one vector from another means adding its negative (the vector reversed in direction). For column vectors, this is done by subtracting corresponding components. Vector subtraction is often used to find the vector connecting two points, given their position vectors.",
+    "key_concepts": [
+      "a - b = a + (-b), where -b reverses b's direction",
+      "For column vectors, subtract corresponding components: top-top, bottom-bottom",
+      "Used to find \\vec{AB} = position vector of B - position vector of A",
+      "Unlike addition, subtraction is NOT commutative: a-b \u2260 b-a (they are opposite vectors)"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Column vector subtraction",
+        "formula": "(a,b) - (c,d) = (a-c, b-d)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Subtract (2,5) from (7,3).",
+        "solution_steps": [
+          "(7,3) - (2,5) = (7-2, 3-5)"
+        ],
+        "answer": "(5, -2)"
+      },
+      {
+        "problem": "Points A and B have position vectors a=(1,2) and b=(5,7). Find \\vec{AB}.",
+        "solution_steps": [
+          "\\vec{AB} = b - a = (5-1, 7-2)"
+        ],
+        "answer": "(4, 5)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Subtract (3,-1) from (6,4).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Points C and D have position vectors c=(3,1) and d=(-2,6). Find \\vec{CD}.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(3,5)",
+      "(-5,5)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Vector p=(6,2) and vector q=(1,5). Find p-q and q-p, and explain the relationship between the two results.",
+        "marks": 3,
+        "answer": "p-q = (5,-3). q-p = (-5,3). These are exact opposites (negatives) of each other, since reversing the order of subtraction reverses the direction of the resulting vector."
+      }
+    ],
+    "common_mistakes": [
+      "Subtracting in the wrong order, especially when finding a connecting vector like \\vec{AB} (should be 'end minus start': b-a, not a-b)",
+      "Forgetting vector subtraction is NOT commutative"
+    ],
+    "tips": [
+      "To find \\vec{AB} from position vectors, always calculate 'B minus A' (position of the END point minus position of the START point) \u2014 never the reverse."
+    ],
+    "summary": "Vector subtraction combines a vector with the negative of another, calculated component-by-component; order matters (not commutative).",
+    "quick_revision_notes": [
+      "(a,b)-(c,d)=(a-c,b-d)",
+      "\\vec{AB} = b - a (position vectors)"
+    ],
+    "related_prerequisite_topics": [
+      "Vector Addition",
+      "Position Vectors",
+      "Column Vectors"
+    ],
+    "images": []
+  },
+  {
+    "id": 368,
+    "category": "Vectors",
+    "topic": "Scalar Multiplication",
+    "explanation": "Scalar multiplication involves multiplying a vector by a single number (a scalar), which scales the vector's magnitude while keeping (or reversing) its direction. Multiplying by a positive scalar keeps the same direction; multiplying by a negative scalar reverses it.",
+    "key_concepts": [
+      "Multiply every component of the vector by the scalar",
+      "Positive scalar: same direction, magnitude scaled by the scalar's absolute value",
+      "Negative scalar: OPPOSITE direction, magnitude scaled by the scalar's absolute value",
+      "A scalar of 0 produces the zero vector (0,0), with no direction"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Scalar multiplication",
+        "formula": "k(x,y) = (kx, ky)",
+        "notes": "k = scalar"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find 3 \u00d7 (2,5).",
+        "solution_steps": [
+          "Multiply each component by 3: (3\u00d72, 3\u00d75)"
+        ],
+        "answer": "(6, 15)"
+      },
+      {
+        "problem": "Find -2 \u00d7 (4,-3).",
+        "solution_steps": [
+          "Multiply each component by -2: (-2\u00d74, -2\u00d7-3)"
+        ],
+        "answer": "(-8, 6)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find 4 \u00d7 (1,-2).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find -3 \u00d7 (5,2).",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "(4,-8)",
+      "(-15,-6)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Vector a = (6,-8). Find 0.5a, and describe the relationship between a and 0.5a in terms of direction and magnitude.",
+        "marks": 3,
+        "answer": "0.5a = (3,-4). This vector points in the SAME direction as a, but has exactly HALF the magnitude."
+      }
+    ],
+    "common_mistakes": [
+      "Multiplying only one component by the scalar instead of both",
+      "Forgetting a negative scalar reverses the vector's direction entirely"
+    ],
+    "tips": [
+      "Always apply the scalar to EVERY component of the vector \u2014 never just the first (or last) one."
+    ],
+    "summary": "Scalar multiplication scales a vector's magnitude by the scalar, keeping direction (positive scalar) or reversing it (negative scalar).",
+    "quick_revision_notes": [
+      "k(x,y) = (kx,ky)",
+      "Positive k: same direction. Negative k: opposite direction"
+    ],
+    "related_prerequisite_topics": [
+      "Column Vectors",
+      "Parallel Vectors",
+      "Magnitude of a Vector"
+    ],
+    "images": []
+  },
+  {
+    "id": 369,
+    "category": "Vectors",
+    "topic": "Magnitude of a Vector",
+    "explanation": "The magnitude of a vector is its length (size), calculated using the Pythagorean theorem applied to its horizontal and vertical components. Magnitude is always a non-negative scalar quantity, denoted using vertical bars around the vector, like |a|.",
+    "key_concepts": [
+      "Magnitude = length of the vector, always non-negative",
+      "Calculated using |a| = \u221a(x\u00b2 + y\u00b2) for a column vector (x,y)",
+      "Directly derived from the Pythagorean theorem (treating the vector as the hypotenuse of a right triangle)",
+      "A unit vector has magnitude exactly 1"
+    ],
+    "definitions": [
+      {
+        "term": "Magnitude",
+        "definition": "The length (size) of a vector, calculated using the Pythagorean theorem on its components."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Magnitude of a vector",
+        "formula": "|a| = \u221a(x\u00b2 + y\u00b2)",
+        "notes": "For a = (x,y)"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the magnitude of the vector (3,4).",
+        "solution_steps": [
+          "|a| = \u221a(3\u00b2+4\u00b2) = \u221a(9+16) = \u221a25"
+        ],
+        "answer": "5"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the magnitude of the vector (6,8).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the magnitude of the vector (-5,12).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "10",
+      "13"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Vector a = (7,-24). Find |a|, showing your working.",
+        "marks": 2,
+        "answer": "|a| = \u221a(49+576) = \u221a625 = 25"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to square the components before adding (or forgetting to take the square root at the end)",
+      "Sign errors when squaring negative components (though squaring a negative always gives a positive, this is sometimes mishandled)"
+    ],
+    "tips": [
+      "The magnitude formula is simply the Pythagorean theorem \u2014 visualize the vector as the hypotenuse of a right-angled triangle formed by its horizontal and vertical components."
+    ],
+    "summary": "The magnitude of a vector (x,y) is \u221a(x\u00b2+y\u00b2), representing its length via the Pythagorean theorem.",
+    "quick_revision_notes": [
+      "|a| = \u221a(x\u00b2+y\u00b2)"
+    ],
+    "related_prerequisite_topics": [
+      "Column Vectors",
+      "Pythagorean Theorem",
+      "Unit Vectors"
+    ],
+    "images": [
+      {
+        "filename": "magnitudeofavector-369-diagram.svg",
+        "type": "diagram",
+        "description": "A vector (4,3) drawn from the origin, labelled with its magnitude of 5.",
+        "purpose": "Shows how a vector's magnitude relates to its components via the Pythagorean theorem.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 370,
+    "category": "Vectors",
+    "topic": "Unit Vectors",
+    "explanation": "A unit vector is a vector with a magnitude of exactly 1, used to represent pure direction without regard to size. Any non-zero vector can be converted into a unit vector (in the same direction) by dividing each component by the vector's magnitude.",
+    "key_concepts": [
+      "A unit vector has |a| = 1 exactly",
+      "To find the unit vector in the direction of a: divide each component by |a|",
+      "Standard unit vectors i=(1,0) and j=(0,1) represent the x and y directions respectively",
+      "Any vector can be written as a combination of i and j, e.g. (3,4) = 3i+4j"
+    ],
+    "definitions": [
+      {
+        "term": "Unit Vector",
+        "definition": "A vector with a magnitude of exactly 1, representing pure direction."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Unit vector formula",
+        "formula": "\u00e2 = a / |a|",
+        "notes": "Divide each component by the magnitude"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the unit vector in the direction of (3,4).",
+        "solution_steps": [
+          "Find magnitude: |a|=\u221a(9+16)=5",
+          "Divide each component by 5: (3/5, 4/5)"
+        ],
+        "answer": "(3/5, 4/5) or (0.6, 0.8)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the unit vector in the direction of (6,8).",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find the unit vector in the direction of (5,12).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(0.6,0.8) (magnitude=10, so (6/10,8/10))",
+      "(5/13,12/13) (magnitude=13)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Vector a=(-8,6). Find the unit vector in the same direction as a, giving your answer as exact fractions.",
+        "marks": 3,
+        "answer": "|a|=\u221a(64+36)=\u221a100=10. Unit vector = (-8/10, 6/10) = (-4/5, 3/5)"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to divide BOTH components by the magnitude (only dividing one)",
+      "Not simplifying the resulting fraction where possible"
+    ],
+    "tips": [
+      "Always find the magnitude FIRST, then divide each component by it \u2014 this two-step process avoids errors from trying to combine everything at once."
+    ],
+    "summary": "A unit vector has magnitude 1, found by dividing a vector's components by its own magnitude, representing pure direction.",
+    "quick_revision_notes": [
+      "\u00e2 = a/|a|",
+      "i=(1,0), j=(0,1) are standard unit vectors"
+    ],
+    "related_prerequisite_topics": [
+      "Magnitude of a Vector",
+      "Scalar Multiplication"
+    ],
+    "images": []
+  },
+  {
+    "id": 371,
+    "category": "Vectors",
+    "topic": "Position Vectors",
+    "explanation": "A position vector describes the location of a point relative to a fixed origin, essentially treating the point's coordinates as a vector starting at (0,0). Position vectors provide a bridge between coordinate geometry and vector algebra.",
+    "key_concepts": [
+      "The position vector of point P(x,y) is simply the vector (x,y), starting from the origin",
+      "Often denoted with lowercase letters matching the point's name (e.g. p for point P)",
+      "The vector connecting two points A and B (with position vectors a and b) is \\vec{AB} = b - a",
+      "Useful for vector proofs and geometric relationships involving specific points"
+    ],
+    "definitions": [
+      {
+        "term": "Position Vector",
+        "definition": "A vector representing a point's location relative to a fixed origin, equal to the point's coordinates."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Vector between two points",
+        "formula": "\\vec{AB} = b - a",
+        "notes": "a, b = position vectors of A and B"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Point P has coordinates (4,7). State its position vector.",
+        "solution_steps": [
+          "The position vector is simply the coordinates written as a vector"
+        ],
+        "answer": "p = (4, 7)"
+      },
+      {
+        "problem": "Points A(2,3) and B(6,9) have position vectors a and b. Find \\vec{AB}.",
+        "solution_steps": [
+          "\\vec{AB} = b - a = (6-2, 9-3)"
+        ],
+        "answer": "(4, 6)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Point Q has coordinates (-3,5). State its position vector.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Points C(1,1) and D(8,4) have position vectors c and d. Find \\vec{CD}.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "q = (-3,5)",
+      "(7,3)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Points A and B have position vectors a=(2,-1) and b=(-3,4). Find the midpoint M of AB, using position vectors.",
+        "marks": 3,
+        "answer": "M = (a+b)/2 = ((2+(-3))/2, (-1+4)/2) = (-0.5, 1.5)"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing a position vector (from the origin) with a general vector (which can start anywhere)",
+      "Errors when finding a connecting vector (must be 'end minus start' using position vectors)"
+    ],
+    "tips": [
+      "A position vector is just a regular coordinate point, reinterpreted as a vector starting from the origin \u2014 this connection makes many vector geometry problems easier to visualize."
+    ],
+    "summary": "A position vector represents a point's location relative to the origin, bridging coordinate geometry and vector algebra.",
+    "quick_revision_notes": [
+      "Position vector of P(x,y) = (x,y)",
+      "\\vec{AB} = b - a"
+    ],
+    "related_prerequisite_topics": [
+      "Coordinates",
+      "Vector Subtraction",
+      "Midpoints Using Vectors"
+    ],
+    "images": []
+  },
+  {
+    "id": 372,
+    "category": "Vectors",
+    "topic": "Vectors in Three Dimensions",
+    "explanation": "Vectors can be extended into three dimensions by adding a third (z) component, written as (x,y,z). All the standard vector operations \u2014 addition, subtraction, scalar multiplication, and magnitude \u2014 extend naturally to 3D, simply by including the extra component.",
+    "key_concepts": [
+      "A 3D vector has three components: (x,y,z)",
+      "Addition/subtraction: combine corresponding components (including the new z)",
+      "Magnitude: |a| = \u221a(x\u00b2+y\u00b2+z\u00b2), extending the Pythagorean theorem to 3D",
+      "Standard 3D unit vectors: i=(1,0,0), j=(0,1,0), k=(0,0,1)"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Magnitude of a 3D vector",
+        "formula": "|a| = \u221a(x\u00b2 + y\u00b2 + z\u00b2)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the magnitude of the 3D vector (2,3,6).",
+        "solution_steps": [
+          "|a| = \u221a(2\u00b2+3\u00b2+6\u00b2) = \u221a(4+9+36) = \u221a49"
+        ],
+        "answer": "7"
+      },
+      {
+        "problem": "Add the 3D vectors (1,2,3) and (4,-1,2).",
+        "solution_steps": [
+          "Add corresponding components: (1+4, 2+(-1), 3+2)"
+        ],
+        "answer": "(5, 1, 5)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the magnitude of the 3D vector (1,2,2).",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Subtract (3,1,4) from (7,5,9).",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "3 (\u221a(1+4+4)=\u221a9)",
+      "(4,4,5)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Vector a=(2,-3,6) and vector b=(1,4,-2). Find a+b and |a+b|.",
+        "marks": 4,
+        "answer": "a+b = (3,1,4). |a+b| = \u221a(9+1+16) = \u221a26 \u2248 5.10"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to include the z-component in calculations, treating a 3D vector as if it were 2D",
+      "Errors extending the magnitude formula (forgetting to square and add the third component)"
+    ],
+    "tips": [
+      "Every 2D vector rule extends directly to 3D \u2014 just remember to include the extra z-component in every step of addition, subtraction, or magnitude calculation."
+    ],
+    "summary": "3D vectors (x,y,z) extend all standard vector operations naturally, with magnitude calculated as \u221a(x\u00b2+y\u00b2+z\u00b2).",
+    "quick_revision_notes": [
+      "3D vector: (x,y,z)",
+      "|a| = \u221a(x\u00b2+y\u00b2+z\u00b2)"
+    ],
+    "related_prerequisite_topics": [
+      "Column Vectors",
+      "Three-Dimensional Coordinates",
+      "Magnitude of a Vector"
+    ],
+    "images": []
+  },
+  {
+    "id": 373,
+    "category": "Vectors",
+    "topic": "Parallel Vectors",
+    "explanation": "Two vectors are parallel if one is a scalar multiple of the other \u2014 meaning they point in the same direction (or exactly opposite directions), even if their magnitudes differ. Parallel vectors are essential for proving geometric relationships, such as showing lines are parallel or points are collinear.",
+    "key_concepts": [
+      "Vectors a and b are parallel if b = ka for some scalar k",
+      "If k is positive, they point in the SAME direction; if k is negative, OPPOSITE directions",
+      "Parallel vectors have proportional components (e.g. (2,4) and (3,6) are parallel, since (3,6)=1.5\u00d7(2,4))",
+      "Used to prove lines are parallel or points are collinear in vector geometry"
+    ],
+    "definitions": [
+      {
+        "term": "Parallel Vectors",
+        "definition": "Vectors that point in the same or exactly opposite direction, related by a scalar multiple: b=ka."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Are the vectors (4,6) and (6,9) parallel?",
+        "solution_steps": [
+          "Check if one is a scalar multiple of the other: 6/4=1.5, 9/6=1.5",
+          "Both ratios match"
+        ],
+        "answer": "Yes, they are parallel (scalar factor 1.5)"
+      },
+      {
+        "problem": "Are the vectors (2,5) and (4,9) parallel?",
+        "solution_steps": [
+          "Check ratios: 4/2=2, but 9/5=1.8",
+          "The ratios don't match"
+        ],
+        "answer": "No, they are not parallel"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Are the vectors (3,-6) and (-1,2) parallel? Explain.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find a vector parallel to (5,2) with twice the magnitude.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Yes \u2014 (3,-6) = -3\u00d7(-1,2), so they are parallel (in opposite directions since the scalar is negative).",
+      "(10,4) (simply double each component: 2\u00d7(5,2))"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Vector \\vec{AB} = (6,9) and vector \\vec{CD} = (4,6). Determine whether AB is parallel to CD, showing your reasoning.",
+        "marks": 3,
+        "answer": "Check if one is a scalar multiple of the other: (6,9) = 1.5\u00d7(4,6), since 1.5\u00d74=6 and 1.5\u00d76=9. Since this scalar relationship holds, AB is parallel to CD."
+      }
+    ],
+    "common_mistakes": [
+      "Checking only one component's ratio instead of verifying BOTH components give the same scalar factor",
+      "Assuming vectors with similar-looking components are automatically parallel without verifying the exact scalar relationship"
+    ],
+    "tips": [
+      "To check if two vectors are parallel, divide corresponding components and confirm you get the EXACT SAME ratio (scalar) for both \u2014 if even one doesn't match, they are not parallel."
+    ],
+    "summary": "Parallel vectors are related by a scalar multiple (b=ka), pointing in the same or exactly opposite direction.",
+    "quick_revision_notes": [
+      "b=ka for parallel vectors",
+      "Check BOTH components give the same scalar ratio"
+    ],
+    "related_prerequisite_topics": [
+      "Scalar Multiplication",
+      "Collinear Points",
+      "Vector Proof"
+    ],
+    "images": []
+  },
+  {
+    "id": 374,
+    "category": "Vectors",
+    "topic": "Perpendicular Vectors",
+    "explanation": "Two vectors are perpendicular if they meet at a right angle (90\u00b0). For 2D column vectors, this can be checked using the dot product: if the dot product of two vectors equals zero, they are perpendicular. This provides a quick algebraic test without needing to measure angles directly.",
+    "key_concepts": [
+      "Two vectors are perpendicular if their dot product equals zero",
+      "Dot product of (a,b) and (c,d) is: ac+bd",
+      "A quick way to find a vector perpendicular to (a,b) is to swap the components and negate one: (-b,a) or (b,-a)",
+      "Used to prove right angles in vector geometry problems"
+    ],
+    "definitions": [
+      {
+        "term": "Dot Product",
+        "definition": "An operation on two vectors that produces a scalar, calculated as the sum of the products of corresponding components: (a,b)\u00b7(c,d)=ac+bd."
+      },
+      {
+        "term": "Perpendicular Vectors",
+        "definition": "Vectors that meet at a right angle (90\u00b0), identified by a dot product of zero."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Dot product",
+        "formula": "(a,b) \u00b7 (c,d) = ac + bd",
+        "notes": "Equals 0 for perpendicular vectors"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Are the vectors (3,4) and (4,-3) perpendicular?",
+        "solution_steps": [
+          "Dot product = (3)(4) + (4)(-3) = 12-12"
+        ],
+        "answer": "Yes, the dot product is 0, so they are perpendicular"
+      },
+      {
+        "problem": "Find a vector perpendicular to (5,2).",
+        "solution_steps": [
+          "Swap components and negate one: (-2,5)"
+        ],
+        "answer": "(-2, 5) (or equivalently (2,-5))"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Are the vectors (2,6) and (3,-1) perpendicular? Check using the dot product.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find a vector perpendicular to (7,-3).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Yes (dot product = 6-6=0)",
+      "(3,7) (or (-3,-7))"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Vector \\vec{AB}=(4,6) and vector \\vec{CD}=(9,-6). Determine whether AB is perpendicular to CD, showing your reasoning.",
+        "marks": 3,
+        "answer": "Dot product = (4)(9)+(6)(-6) = 36-36 = 0. Since the dot product is zero, AB is perpendicular to CD."
+      }
+    ],
+    "common_mistakes": [
+      "Computing the dot product incorrectly (adding instead of multiplying corresponding components first)",
+      "Forgetting the perpendicular vector 'swap and negate' trick only produces ONE of two possible perpendicular directions"
+    ],
+    "tips": [
+      "Remember: for vectors (a,b), a quick perpendicular vector is always (-b,a) \u2014 swap the components and negate the first (new) one."
+    ],
+    "summary": "Perpendicular vectors have a dot product of zero; this test is used to verify right angles in vector geometry.",
+    "quick_revision_notes": [
+      "Dot product = 0 for perpendicular vectors",
+      "(a,b)\u00b7(c,d) = ac+bd"
+    ],
+    "related_prerequisite_topics": [
+      "Parallel Vectors",
+      "Magnitude of a Vector",
+      "Vector Proof"
+    ],
+    "images": []
+  },
+  {
+    "id": 375,
+    "category": "Vectors",
+    "topic": "Vector Proof",
+    "explanation": "Vector proof uses vector algebra (addition, subtraction, scalar multiplication) to prove geometric properties, such as showing lines are parallel, points are collinear, or a shape has specific characteristics (like being a parallelogram). This provides a powerful alternative to traditional Euclidean geometric proofs.",
+    "key_concepts": [
+      "Express relevant sides/lines as vectors using position vectors of given points",
+      "Use vector relationships (parallel: b=ka; collinear: vectors along the same line) to establish the required property",
+      "Common proof goals: parallel lines, collinear points, parallelograms, midpoints",
+      "Always state the vector relationship clearly, then explain what it proves geometrically"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Points A, B, C have position vectors a, b, c. If \\vec{AB} = 2\\vec{BC}, what does this tell us about points A, B, and C?",
+        "solution_steps": [
+          "\\vec{AB} and \\vec{BC} are parallel (one is a scalar multiple of the other)",
+          "Since they share point B in common, and are parallel, A, B, and C must lie on the same straight line"
+        ],
+        "answer": "A, B, and C are collinear (lie on the same straight line)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Explain what it means, in terms of vectors, for a quadrilateral ABCD to be a parallelogram.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "If \\vec{PQ} = \\vec{SR}, what can you conclude about quadrilateral PQRS?",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "For ABCD to be a parallelogram, we need \\vec{AB} = \\vec{DC} (opposite sides equal and parallel, in the correct corresponding direction).",
+      "PQRS is a parallelogram, since \\vec{PQ}=\\vec{SR} means one pair of opposite sides (PQ and SR) are equal in length and parallel."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Points A, B, C have position vectors a=(1,2), b=(4,6), c=(10,14). Prove that A, B, and C are collinear.",
+        "marks": 5,
+        "answer": "\\vec{AB} = b-a = (3,4). \\vec{BC} = c-b = (6,8). Since (6,8) = 2\u00d7(3,4), \\vec{BC} is a scalar multiple of \\vec{AB}, meaning they are parallel. Since they share point B, A, B, and C must lie on the same straight line \u2014 hence collinear."
+      }
+    ],
+    "common_mistakes": [
+      "Not clearly stating the vector relationship that proves the required property",
+      "Errors in the underlying vector arithmetic (addition, subtraction, or scalar multiplication)"
+    ],
+    "tips": [
+      "Always finish a vector proof by explicitly stating the GEOMETRIC conclusion (e.g. 'therefore collinear' or 'therefore parallel'), not just the vector equation itself."
+    ],
+    "summary": "Vector proof uses vector relationships (parallel, equal, scalar multiples) to establish geometric properties like collinearity or parallelism.",
+    "quick_revision_notes": [
+      "Parallel vectors \u2192 parallel lines",
+      "Same scalar relationship + shared point \u2192 collinear"
+    ],
+    "related_prerequisite_topics": [
+      "Parallel Vectors",
+      "Collinear Points",
+      "Position Vectors"
+    ],
+    "images": []
+  },
+  {
+    "id": 376,
+    "category": "Vectors",
+    "topic": "Midpoints Using Vectors",
+    "explanation": "The midpoint of a line segment can be found using vectors by averaging the position vectors of its two endpoints. This vector approach mirrors the standard coordinate midpoint formula, but is especially useful within larger vector-based proofs.",
+    "key_concepts": [
+      "Midpoint M of segment AB: m = (a+b)/2, where a and b are position vectors of A and B",
+      "Equivalent to averaging the x-coordinates and y-coordinates separately",
+      "Useful for vector proofs involving midpoints, medians, and related geometric properties",
+      "Can be extended to find any point dividing a segment in a given ratio (see Ratios Using Vectors)"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Midpoint using vectors",
+        "formula": "m = (a + b) / 2",
+        "notes": "a, b = position vectors of the endpoints"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Points A and B have position vectors a=(2,3) and b=(8,7). Find the position vector of the midpoint M of AB.",
+        "solution_steps": [
+          "m = (a+b)/2 = ((2+8)/2, (3+7)/2)"
+        ],
+        "answer": "m = (5, 5)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Points C and D have position vectors c=(1,-2) and d=(7,4). Find the midpoint of CD.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "The midpoint of PQ is (4,6), and P has position vector (1,2). Find the position vector of Q.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(4,1)",
+      "(7,10) (since m=(p+q)/2, 2m=p+q, q=2m-p=(8,12)-(1,2)=(7,10))"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Triangle ABC has vertices with position vectors a=(0,0), b=(6,0), c=(2,8). Find the position vector of the midpoint of BC, and hence find the vector from A to this midpoint (the median).",
+        "marks": 4,
+        "answer": "Midpoint of BC = ((6+2)/2, (0+8)/2) = (4,4). Vector from A(0,0) to this midpoint = (4,4) - (0,0) = (4,4)"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to divide by 2 after adding the position vectors",
+      "Errors when working backward to find an unknown endpoint from a known midpoint"
+    ],
+    "tips": [
+      "When working backward from a midpoint to find a missing endpoint, remember to first double the midpoint (2m=a+b) before subtracting the known point."
+    ],
+    "summary": "The midpoint of a segment is found by averaging the position vectors of its endpoints: m=(a+b)/2.",
+    "quick_revision_notes": [
+      "m = (a+b)/2"
+    ],
+    "related_prerequisite_topics": [
+      "Position Vectors",
+      "Midpoint of a Line Segment",
+      "Ratios Using Vectors"
+    ],
+    "images": []
+  },
+  {
+    "id": 377,
+    "category": "Vectors",
+    "topic": "Ratios Using Vectors",
+    "explanation": "Vectors can be used to find a point that divides a line segment in a given ratio, generalizing the midpoint formula (which is the special case of a 1:1 ratio). This technique is essential for more advanced vector geometry problems involving specific division points along a line.",
+    "key_concepts": [
+      "A point P dividing AB in the ratio m:n (from A to B) has position vector p = a + (m/(m+n))(b-a)",
+      "Equivalently: p = [(n)a + (m)b] / (m+n)",
+      "The midpoint formula is the special case where m:n = 1:1",
+      "Useful for finding specific points along cevians, medians, and other line segments in geometric proofs"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Point dividing a segment in ratio m:n",
+        "formula": "p = a + (m/(m+n))(b - a)",
+        "notes": "From A to B, in ratio m:n"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Points A(2,1) and B(8,7) have position vectors a and b. Find the position vector of point P, which divides AB in the ratio 1:2 (from A to B).",
+        "solution_steps": [
+          "p = a + (1/3)(b-a)",
+          "b-a = (6,6)",
+          "(1/3)(6,6) = (2,2)",
+          "p = (2,1)+(2,2)"
+        ],
+        "answer": "p = (4, 3)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Points C(0,0) and D(9,12) have position vectors c and d. Find the position vector of point Q, which divides CD in the ratio 2:1 (from C to D).",
+        "difficulty": "hard"
+      },
+      {
+        "question": "Explain why the midpoint formula is a special case of the ratio-division formula.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(6,8) (q = c + (2/3)(d-c) = (0,0)+(2/3)(9,12) = (6,8))",
+      "The midpoint divides a segment exactly in half, which corresponds to a ratio of 1:1. Substituting m=n=1 into the ratio formula gives p=a+(1/2)(b-a), which simplifies to (a+b)/2 \u2014 exactly the midpoint formula."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Points A(1,2) and B(13,14) have position vectors a and b. Find the position vector of point R, which divides AB in the ratio 3:1 (from A to B).",
+        "marks": 4,
+        "answer": "r = a + (3/4)(b-a). b-a=(12,12). (3/4)(12,12)=(9,9). r=(1,2)+(9,9)=(10,11)"
+      }
+    ],
+    "common_mistakes": [
+      "Using the wrong fraction (m/(m+n) instead of n/(m+n), or vice versa) \u2014 mixing up which part of the ratio corresponds to which direction",
+      "Errors in the vector arithmetic when computing b-a and scaling it"
+    ],
+    "tips": [
+      "Always double-check which direction the ratio is measured (from A to B, or B to A) \u2014 this determines whether you use m/(m+n) or n/(m+n) in the formula."
+    ],
+    "summary": "A point dividing a segment in ratio m:n uses p=a+(m/(m+n))(b-a), generalizing the midpoint formula.",
+    "quick_revision_notes": [
+      "p = a + (m/(m+n))(b-a), for ratio m:n from A to B"
+    ],
+    "related_prerequisite_topics": [
+      "Midpoints Using Vectors",
+      "Position Vectors",
+      "Sharing in a Ratio"
+    ],
+    "images": []
+  },
+  {
+    "id": 378,
+    "category": "Vectors",
+    "topic": "Vector Equations",
+    "explanation": "A vector equation expresses the position of any point on a line (or other geometric object) in terms of a parameter, combining a fixed position vector with a scaled direction vector. This provides a complete algebraic description of an entire line, not just a single point.",
+    "key_concepts": [
+      "General form: r = a + t\u00b7d, where a is a known point on the line, d is the direction vector, and t is a scalar parameter",
+      "As t varies over all real numbers, r traces out every point on the line",
+      "Two lines are parallel if their direction vectors are parallel (scalar multiples)",
+      "Setting two vector equations equal (and solving for their parameters) finds the intersection point of two lines, if it exists"
+    ],
+    "definitions": [
+      {
+        "term": "Vector Equation of a Line",
+        "definition": "An equation of the form r = a + t\u00b7d, describing every point on a line using a fixed point a, a direction vector d, and a parameter t."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Vector equation of a line",
+        "formula": "r = a + t\u00b7d",
+        "notes": "a = point on the line, d = direction vector, t = scalar parameter"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A line passes through the point (2,3) with direction vector (1,4). Write its vector equation, then find the point when t=2.",
+        "solution_steps": [
+          "r = (2,3) + t(1,4)",
+          "At t=2: r = (2,3) + 2(1,4) = (2,3)+(2,8)"
+        ],
+        "answer": "Vector equation: r=(2,3)+t(1,4); at t=2, the point is (4,11)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A line has vector equation r=(1,1)+t(2,3). Find the point when t=3.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A line passes through (0,5) with direction vector (3,-1). Write its vector equation.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(7,10) ((1,1)+3(2,3)=(1+6,1+9))",
+      "r = (0,5) + t(3,-1)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Two lines have vector equations r\u2081=(1,2)+s(2,1) and r\u2082=(4,0)+t(-1,3). Find their point of intersection.",
+        "marks": 5,
+        "answer": "Set equal: 1+2s=4-t and 2+s=3t. From the first: t=3-2s. Substitute into second: 2+s=3(3-2s)=9-6s \u2192 7s=7 \u2192 s=1. Then t=3-2=1. Point: (1+2(1),2+1)=(3,3). Check with r\u2082: (4-1,0+3)=(3,3) \u2713"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing the fixed point 'a' with the direction vector 'd' in the equation",
+      "Errors when solving simultaneous equations to find intersection points of two lines"
+    ],
+    "tips": [
+      "When finding where two lines intersect, use DIFFERENT parameter letters (like s and t) for each line \u2014 using the same letter for both incorrectly assumes they meet at the same parameter value."
+    ],
+    "summary": "A vector equation r=a+t\u00b7d describes every point on a line using a fixed point, direction vector, and parameter.",
+    "quick_revision_notes": [
+      "r = a + t\u00b7d"
+    ],
+    "related_prerequisite_topics": [
+      "Vector Lines",
+      "Position Vectors",
+      "Parallel Vectors"
+    ],
+    "images": []
+  },
+  {
+    "id": 379,
+    "category": "Vectors",
+    "topic": "Vector Lines",
+    "explanation": "This topic focuses on interpreting and working with vector equations of lines, including determining whether a given point lies on a line, and finding where two lines intersect (or confirming they are parallel/skew and never meet).",
+    "key_concepts": [
+      "To check if a point lies on a line r=a+t\u00b7d, substitute the point's coordinates and solve for t \u2014 if a consistent value of t exists for both components, the point lies on the line",
+      "Two lines are parallel if their direction vectors are scalar multiples of each other",
+      "Two non-parallel lines in 2D will always intersect at exactly one point (unless they're the same line)",
+      "In 3D, two non-parallel lines might not intersect at all (called 'skew lines')"
+    ],
+    "definitions": [
+      {
+        "term": "Skew Lines",
+        "definition": "Lines in three-dimensional space that are neither parallel nor intersecting."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Does the point (5,11) lie on the line r=(2,3)+t(1,4)?",
+        "solution_steps": [
+          "Set up equations: 2+t=5 (from x-component) and 3+4t=11 (from y-component)",
+          "From the first equation: t=3",
+          "Check in the second: 3+4(3)=3+12=15, but we need 11 \u2014 these don't match"
+        ],
+        "answer": "No, the point does NOT lie on the line (the t-values don't match)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Does the point (7,15) lie on the line r=(1,3)+t(2,4)?",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Are the lines r=(1,1)+s(2,4) and r=(3,0)+t(1,2) parallel?",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Yes (t=3 from x: 1+2t=7; check y: 3+4(3)=15 \u2713, matches)",
+      "Yes \u2014 direction vectors (2,4) and (1,2) are parallel, since (2,4)=2\u00d7(1,2)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Show that the lines r=(2,1)+s(1,3) and r=(5,10)+t(-1,-3) are parallel, and determine if they are the same line.",
+        "marks": 4,
+        "answer": "Direction vectors (1,3) and (-1,-3) are parallel, since (-1,-3)=-1\u00d7(1,3). To check if they're the SAME line, test if (2,1) lies on the second line: 5-t=2 gives t=3; check y: 10-3(3)=10-9=1 \u2713. Since (2,1) lies on both lines and they share the same direction, they are actually the SAME line."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to check BOTH components (x and y) give a consistent value of t when testing if a point lies on a line",
+      "Confusing parallel (but distinct) lines with identical lines (must check if a shared point exists)"
+    ],
+    "tips": [
+      "Two lines can be parallel with the SAME direction vector but still be different lines \u2014 to check if they're truly identical, verify a point from one line also satisfies the other line's equation."
+    ],
+    "summary": "Vector lines are analyzed by checking if points lie on them (matching t-values) and whether lines are parallel, identical, or intersecting.",
+    "quick_revision_notes": [
+      "Check point on line: consistent t for all components",
+      "Parallel: direction vectors are scalar multiples"
+    ],
+    "related_prerequisite_topics": [
+      "Vector Equations",
+      "Parallel Vectors",
+      "Collinear Points"
+    ],
+    "images": []
+  },
+  {
+    "id": 380,
+    "category": "Vectors",
+    "topic": "Collinear Points",
+    "explanation": "Collinear points are points that all lie on the same straight line. Using vectors, collinearity can be proven by showing that the vector connecting two of the points is a scalar multiple of the vector connecting another pair (sharing a common point), confirming all points lie along the same direction.",
+    "key_concepts": [
+      "Points A, B, C are collinear if \\vec{AB} is a scalar multiple of \\vec{BC} (or \\vec{AC})",
+      "The shared point (like B, appearing in both vectors) confirms they lie on the same line, not just parallel lines",
+      "A common vector proof technique: express both vectors in terms of given information, then show one is a scalar multiple of the other",
+      "Collinearity \u27fa the vectors are parallel AND share a common point"
+    ],
+    "definitions": [
+      {
+        "term": "Collinear Points",
+        "definition": "Points that all lie on the same straight line."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Points A(1,1), B(3,5), C(7,13) have position vectors a, b, c. Prove A, B, C are collinear.",
+        "solution_steps": [
+          "\\vec{AB} = b-a = (2,4)",
+          "\\vec{BC} = c-b = (4,8)",
+          "Check: (4,8) = 2\u00d7(2,4)",
+          "\\vec{BC} is a scalar multiple of \\vec{AB}, and they share point B"
+        ],
+        "answer": "Since \\vec{BC}=2\\vec{AB} and they share point B, A, B, and C are collinear"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Points P(0,0), Q(3,2), R(9,6) have position vectors p, q, r. Are they collinear?",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Explain why sharing a common point is necessary (not just having parallel vectors) to prove collinearity.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Yes \u2014 \\vec{PQ}=(3,2), \\vec{QR}=(6,4)=2\u00d7(3,2), and they share point Q, confirming collinearity.",
+      "Two vectors can be parallel (pointing in the same/opposite direction) without lying on the exact same line \u2014 they could be on two separate, parallel lines. Only by sharing a common point do we confirm they lie on the SAME line, not just parallel ones."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Points A, B, C have position vectors a=(2,3), b=(5,9), c=(11,21). Prove that A, B, and C are collinear.",
+        "marks": 4,
+        "answer": "\\vec{AB} = b-a = (3,6). \\vec{BC} = c-b = (6,12). Since (6,12)=2\u00d7(3,6), \\vec{BC} is a scalar multiple of \\vec{AB}. As they share point B, points A, B, C are collinear."
+      }
+    ],
+    "common_mistakes": [
+      "Proving vectors are parallel but forgetting to confirm they share a common point (both are needed for collinearity)",
+      "Arithmetic errors when calculating the connecting vectors from position vectors"
+    ],
+    "tips": [
+      "The collinearity proof always has two parts: (1) show the vectors are parallel (scalar multiple), AND (2) note they share a common point \u2014 both parts must be stated for a complete proof."
+    ],
+    "summary": "Collinear points lie on the same line; proven using vectors by showing connecting vectors are parallel and share a common point.",
+    "quick_revision_notes": [
+      "\\vec{AB} = k\\vec{BC} + shared point B \u2192 A,B,C collinear"
+    ],
+    "related_prerequisite_topics": [
+      "Parallel Vectors",
+      "Vector Proof",
+      "Position Vectors"
+    ],
+    "images": []
+  },
+  {
+    "id": 381,
+    "category": "Vectors",
+    "topic": "Vector Components",
+    "explanation": "The components of a vector are its individual horizontal and vertical (and, in 3D, depth) parts, which together fully define the vector. Understanding components allows vectors to be broken down, analyzed, and recombined systematically for calculations.",
+    "key_concepts": [
+      "A 2D vector has two components: horizontal (x) and vertical (y)",
+      "A 3D vector has three components: x, y, and z",
+      "Components can be extracted from a vector's magnitude and direction using trigonometry (component = magnitude \u00d7 cos/sin of the angle)",
+      "Vectors are fully defined once ALL their components are known"
+    ],
+    "definitions": [
+      {
+        "term": "Vector Component",
+        "definition": "One of the individual parts (horizontal, vertical, etc.) that together define a vector."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Components from magnitude and angle",
+        "formula": "x = |v|cos(\u03b8), y = |v|sin(\u03b8)",
+        "notes": "\u03b8 measured from the positive x-axis"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A vector has magnitude 10 and direction 30\u00b0 from the positive x-axis. Find its horizontal and vertical components.",
+        "solution_steps": [
+          "x = 10\u00d7cos(30\u00b0) = 10\u00d70.866",
+          "y = 10\u00d7sin(30\u00b0) = 10\u00d70.5"
+        ],
+        "answer": "x\u22488.66, y=5, so the vector is approximately (8.66, 5)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A vector has magnitude 8 and direction 60\u00b0 from the positive x-axis. Find its components.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "State the horizontal and vertical components of the vector (7,-3).",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "\u2248(4, 6.93) (8cos60\u00b0=4, 8sin60\u00b0\u22486.93)",
+      "Horizontal: 7, Vertical: -3"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A force vector has magnitude 20N acting at 45\u00b0 above the horizontal. Find the horizontal and vertical components of this force, to 2 decimal places.",
+        "marks": 3,
+        "answer": "Horizontal = 20cos(45\u00b0) \u2248 14.14N. Vertical = 20sin(45\u00b0) \u2248 14.14N"
+      }
+    ],
+    "common_mistakes": [
+      "Mixing up sine and cosine when finding horizontal vs vertical components (horizontal uses cosine, vertical uses sine, when angle is measured from the horizontal)",
+      "Forgetting to include all necessary components (e.g. omitting z in 3D problems)"
+    ],
+    "tips": [
+      "When an angle is measured from the horizontal (x-axis), horizontal component = magnitude\u00d7cos(angle), and vertical component = magnitude\u00d7sin(angle) \u2014 this pairing is a direct application of SOH-CAH-TOA."
+    ],
+    "summary": "Vector components are the individual horizontal/vertical (or x/y/z) parts that together fully define a vector.",
+    "quick_revision_notes": [
+      "x = |v|cos\u03b8, y = |v|sin\u03b8 (angle from x-axis)"
+    ],
+    "related_prerequisite_topics": [
+      "Column Vectors",
+      "Magnitude of a Vector",
+      "SOH-CAH-TOA"
+    ],
+    "images": []
+  },
+  {
+    "id": 382,
+    "category": "Vectors",
+    "topic": "Displacement Vectors",
+    "explanation": "A displacement vector represents the change in position of an object \u2014 its straight-line distance and direction from a starting point to an ending point, regardless of the actual path taken. Displacement is distinct from distance, which measures the total path length travelled.",
+    "key_concepts": [
+      "Displacement measures straight-line change in position, with direction (a vector)",
+      "Distance measures total path length travelled, with no direction (a scalar)",
+      "Displacement can be zero even if distance travelled is large (e.g. returning to the start)",
+      "Calculated as the vector from the starting position to the final position"
+    ],
+    "definitions": [
+      {
+        "term": "Displacement",
+        "definition": "The straight-line vector from a starting position to an ending position, representing overall change in position."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A person walks from point A(0,0) to point B(3,4), then to point C(3,0). Find the total displacement from A to C.",
+        "solution_steps": [
+          "Displacement is only concerned with start and end points, not the path taken",
+          "Displacement = C - A = (3,0)-(0,0)"
+        ],
+        "answer": "(3, 0)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A hiker walks from (2,2) to (10,8). Find the displacement vector.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A cyclist rides from (0,0) around a loop and back to (0,0). What is their total displacement?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "(8,6)",
+      "(0,0) \u2014 despite having travelled some distance, they end up back at the start, so their displacement is zero."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A boat sails from port P(0,0) to point Q(6,8), then to point R(10,8). Find the boat's total displacement from P to R, and its magnitude.",
+        "marks": 3,
+        "answer": "Displacement = R - P = (10,8). Magnitude = \u221a(100+64) = \u221a164 \u2248 12.81"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing displacement (vector, straight-line) with distance travelled (scalar, total path length)",
+      "Adding up individual path segments as if they were the displacement, instead of calculating start-to-end directly"
+    ],
+    "tips": [
+      "Displacement only cares about the FINAL and INITIAL positions \u2014 the actual path or route taken along the way is completely irrelevant to its value."
+    ],
+    "summary": "Displacement is the vector from a starting to ending position, distinct from distance (the scalar total path length).",
+    "quick_revision_notes": [
+      "Displacement = end position - start position (vector, straight-line)"
+    ],
+    "related_prerequisite_topics": [
+      "Vector Subtraction",
+      "Position Vectors",
+      "Velocity Vectors"
+    ],
+    "images": []
+  },
+  {
+    "id": 383,
+    "category": "Vectors",
+    "topic": "Velocity Vectors",
+    "explanation": "A velocity vector represents both the speed and direction of a moving object, calculated as displacement divided by time. Unlike speed (a scalar), velocity is a vector, since direction matters \u2014 velocity vectors are essential in physics for analyzing motion.",
+    "key_concepts": [
+      "Velocity = displacement / time (a vector quantity)",
+      "Speed is the MAGNITUDE of velocity (a scalar, ignoring direction)",
+      "Velocity vectors can be added (e.g. combining an object's own velocity with wind or current)",
+      "Relative velocity: the velocity of one object as observed from another moving object"
+    ],
+    "definitions": [
+      {
+        "term": "Velocity",
+        "definition": "A vector quantity representing both the speed and direction of an object's motion, calculated as displacement divided by time."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Velocity",
+        "formula": "velocity = displacement / time",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "An object undergoes a displacement of (6,8) metres over 2 seconds. Find its velocity vector and speed.",
+        "solution_steps": [
+          "Velocity = (6,8)/2 = (3,4)",
+          "Speed = |velocity| = \u221a(9+16) = \u221a25"
+        ],
+        "answer": "Velocity = (3,4) m/s, Speed = 5 m/s"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "An object has displacement (12,5) metres over 4 seconds. Find its velocity vector.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A boat has its own velocity (4,0) km/h, and the current adds a velocity of (0,3) km/h. Find the boat's resultant velocity.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(3,1.25) m/s",
+      "(4,3) km/h (adding the two velocity vectors)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A plane flies with velocity (200,0) km/h relative to the air, but a wind blows with velocity (20,30) km/h. Find the plane's resultant velocity relative to the ground, and its resultant speed, to 1 decimal place.",
+        "marks": 4,
+        "answer": "Resultant velocity = (200+20, 0+30) = (220,30) km/h. Resultant speed = \u221a(220\u00b2+30\u00b2) = \u221a(48400+900) = \u221a49300 \u2248 222.0 km/h"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing velocity (vector) with speed (scalar, the magnitude of velocity)",
+      "Forgetting to add velocity vectors component-wise when combining multiple influences (like wind or current)"
+    ],
+    "tips": [
+      "When combining an object's own velocity with an external influence (wind, current), simply ADD the two velocity vectors component-by-component to find the resultant."
+    ],
+    "summary": "Velocity is a vector (displacement/time) combining speed and direction; combined velocities (e.g. with wind/current) add as vectors.",
+    "quick_revision_notes": [
+      "Velocity = displacement/time (vector)",
+      "Speed = |velocity| (scalar)"
+    ],
+    "related_prerequisite_topics": [
+      "Displacement Vectors",
+      "Vector Addition",
+      "Average Speed"
+    ],
+    "images": []
+  }
+]

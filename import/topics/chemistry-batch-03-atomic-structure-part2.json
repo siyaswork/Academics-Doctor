@@ -1,0 +1,691 @@
+{
+  "batch": "03",
+  "category": "Atomic Structure",
+  "topics_in_batch": 13,
+  "topics_completed_so_far": 37,
+  "topics_remaining_total": 466,
+  "topics": [
+
+    {
+      "id": "chem-025-relative-isotopic-mass",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Relative Isotopic Mass",
+      "difficulty": "Foundation",
+      "description": "The mass of a single, specific isotope of an element, measured relative to 1/12th the mass of a carbon-12 atom.",
+      "learning_objectives": [
+        "Define relative isotopic mass",
+        "Distinguish relative isotopic mass from relative atomic mass",
+        "Use mass spectrometry data to identify isotopic masses"
+      ],
+      "explanation": "Relative isotopic mass is the mass of one specific isotope of an element, measured on a scale where carbon-12 is defined as having a mass of exactly 12. It differs from relative atomic mass, which is a weighted average across all naturally occurring isotopes of an element combined. For most isotopes, the relative isotopic mass is very close (but not always exactly equal) to the mass number, because mass number is a simple whole-number count of nucleons, while relative isotopic mass is measured experimentally and reflects tiny differences in nuclear binding energy. At this level, relative isotopic mass can usually be treated as numerically equal to mass number for calculation purposes.",
+      "key_concepts": ["Mass of a single isotope vs weighted average of all isotopes", "Carbon-12 reference scale", "Distinguishing isotopic mass and atomic mass"],
+      "definitions": [
+        {"term": "Relative isotopic mass", "definition": "The mass of a specific isotope of an element, measured relative to 1/12th the mass of an atom of carbon-12."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "State the approximate relative isotopic mass of chlorine-37.",
+          "working": "Relative isotopic mass is approximately equal to the mass number for calculation purposes at this level.",
+          "answer": "Approximately 37"
+        }
+      ],
+      "practical_applications": ["Mass spectrometry uses precise relative isotopic masses to identify unknown compounds from their exact molecular mass"],
+      "laboratory_applications": ["Reading isotopic mass values directly from mass spectrometer output (see Mass Spectrometry)"],
+      "common_mistakes": ["Confusing relative isotopic mass (one specific isotope) with relative atomic mass (a weighted average across all isotopes of the element)"],
+      "misconceptions": ["Believing relative isotopic mass is always an exact whole number in every context — at introductory level it is treated as equal to mass number, but precise experimental values can differ very slightly due to nuclear binding energy effects"],
+      "tips": ["If a question refers to 'one isotope' or names a specific isotope (e.g. carbon-14), it is asking about relative isotopic mass; if it refers to 'the element' generally, it is asking about relative atomic mass"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define relative isotopic mass.", "answer": "The mass of a specific isotope of an element, relative to 1/12th the mass of a carbon-12 atom."}
+        ],
+        "intermediate": [
+          {"question": "Explain the difference between the relative isotopic mass of bromine-79 and the relative atomic mass of bromine.", "answer": "The relative isotopic mass of bromine-79 refers to the mass of that one specific isotope alone (approximately 79). The relative atomic mass of bromine is a weighted average of the masses of all naturally occurring bromine isotopes (bromine-79 and bromine-81) according to their abundance, giving approximately 79.9, a value that does not correspond to any single actual atom."}
+        ],
+        "advanced": [
+          {"question": "A mass spectrometer detects two peaks for an element, at relative isotopic masses 63 and 65, with relative abundances 69% and 31%. Explain how these two pieces of information (isotopic masses and abundances) are combined to calculate relative atomic mass.", "answer": "Each isotope's relative isotopic mass is multiplied by its percentage abundance, these products are summed, and the total is divided by 100, giving a weighted average: Ar = [(63 × 69) + (65 × 31)] / 100 = 63.6. This weighted average is the relative atomic mass, reflecting the proportion of each isotope actually present in a natural sample of the element."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why relative isotopic mass and relative atomic mass are not always the same value for a given element.", "marks": 2, "model_answer": "Relative isotopic mass refers to a single, specific isotope, while relative atomic mass is a weighted average across all naturally occurring isotopes of the element (1 mark). For elements with more than one naturally occurring isotope, this weighted average will not equal the isotopic mass of any single isotope unless the element has only one isotope, or unless by coincidence the average matches one isotope's mass exactly (1 mark)."}
+      ],
+      "summary": "Relative isotopic mass is the mass of one specific isotope (relative to carbon-12), distinct from relative atomic mass, which averages across all isotopes of an element weighted by abundance.",
+      "revision_notes": ["Relative isotopic mass = mass of ONE isotope; treated as ≈ mass number", "Relative atomic mass = weighted average across ALL isotopes"],
+      "related_topics": ["Isotopes", "Relative Atomic Mass", "Mass Spectrometry"],
+      "prerequisites": ["Relative Atomic Mass"],
+      "diagram_recommendations": []
+    },
+
+    {
+      "id": "chem-026-electron-shells",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Electron Shells",
+      "difficulty": "Foundation",
+      "description": "The fixed energy levels around the nucleus in which electrons are arranged, and the rules governing how many electrons each shell can hold.",
+      "learning_objectives": [
+        "Describe electron shells as regions of fixed energy around the nucleus",
+        "State the maximum number of electrons the first three shells can hold",
+        "Write simple electron shell arrangements for the first 20 elements"
+      ],
+      "explanation": "Electrons are arranged around the nucleus in shells (also called energy levels), with each shell able to hold only a limited maximum number of electrons before the next shell must be used. For the first three shells (adequate for elements up to around atomic number 20), the maximum number of electrons is 2 in the first shell, 8 in the second shell, and 8 in the third shell (a simplified rule sufficient at this level; the third shell can actually hold up to 18 electrons once d orbitals become involved from scandium onwards). Electrons fill the lowest-energy shell (closest to the nucleus) first before occupying higher shells. The shell arrangement of an atom (e.g. 2,8,1 for sodium) can be shown as a simple electron shell diagram or written in shorthand notation.",
+      "key_concepts": ["Shells as fixed energy levels", "Maximum electrons per shell (2, 8, 8...)", "Filling order: lowest energy first", "Shell arrangement notation"],
+      "definitions": [
+        {"term": "Electron shell", "definition": "A region at a fixed distance (energy level) from the nucleus in which electrons are arranged, holding a maximum number of electrons."}
+      ],
+      "formulae": [
+        {"name": "Maximum electrons in shell n (simplified)", "formula": "maximum = 2n^2", "description": "A simplified rule (2n^2) gives 2, 8, 18, 32 for shells 1-4, though in practice the third shell is often treated as filling to 8 before the fourth shell begins for elements up to calcium at introductory level."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Write the electron shell arrangement for a chlorine atom (atomic number 17).",
+          "working": "Fill shells from the lowest energy: shell 1 takes 2 electrons, shell 2 takes 8 electrons (total so far 10), remaining electrons = 17 − 10 = 7, which go into shell 3.",
+          "answer": "2,8,7"
+        }
+      ],
+      "practical_applications": ["Electron shell arrangement, especially the outer shell, determines an element's chemical reactivity and its group on the periodic table"],
+      "laboratory_applications": [],
+      "common_mistakes": [
+        "Placing more than 2 electrons in the first shell or more than 8 in the second shell",
+        "Forgetting to fill inner shells completely before starting the next shell"
+      ],
+      "misconceptions": ["Believing all shells hold the same maximum number of electrons — the first shell holds only 2, while outer shells generally hold more"],
+      "tips": ["For elements up to calcium (atomic number 20), use the simplified filling pattern 2, 8, 8, 2"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the maximum number of electrons the first electron shell can hold.", "answer": "2"},
+          {"question": "Write the electron shell arrangement for a fluorine atom (atomic number 9).", "answer": "2,7"}
+        ],
+        "intermediate": [
+          {"question": "Write the electron shell arrangement for a calcium atom (atomic number 20) and explain how you determined it.", "answer": "2,8,8,2. Shell 1 fills with 2, shell 2 fills with 8 (total 10), shell 3 fills with 8 (total 18, using the simplified filling pattern for this level), leaving 20 − 18 = 2 electrons for shell 4."}
+        ],
+        "advanced": [
+          {"question": "Explain why potassium (atomic number 19) has the electron shell arrangement 2,8,8,1 rather than 2,8,9.", "answer": "Once the third shell reaches 8 electrons, it becomes energetically more favourable for the next electron to begin occupying the fourth shell rather than continuing to fill the third shell further (even though the third shell can eventually hold up to 18 electrons once d orbitals are involved, for elements at this stage of the periodic table the 4s energy level is lower than the 3d energy level, so the next electron enters shell 4 first). This gives potassium the arrangement 2,8,8,1, with one electron in the outer (fourth) shell, consistent with its position in Group 1 and its similar reactivity to sodium and lithium."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Draw (describe) and explain the electron shell arrangement of an aluminium atom (atomic number 13).", "marks": 3, "model_answer": "Aluminium's arrangement is 2,8,3 (1 mark). Shell 1 fills first with 2 electrons (1 mark), shell 2 fills next with 8 electrons (total 10), leaving 13 − 10 = 3 electrons in shell 3, the outer shell (1 mark)."}
+      ],
+      "summary": "Electrons occupy shells around the nucleus, filling from the lowest energy level outward, with maximum capacities of 2, 8, 8 (simplified) for the first three shells. Shell arrangement, especially the outer shell, determines chemical behaviour.",
+      "revision_notes": ["Shell capacities (simplified): 2, 8, 8, then 2 for period 4 metals", "Fill lowest energy shell first", "Outer shell = valence shell, determines reactivity"],
+      "related_topics": ["Electrons", "Electron Configuration", "Valence Electrons", "Energy Levels"],
+      "prerequisites": ["Electrons"],
+      "diagram_recommendations": ["[DIAGRAM: Electron shell diagram for sodium showing 2,8,1 arrangement around the nucleus]"]
+    },
+
+    {
+      "id": "chem-027-electron-configuration",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Electron Configuration",
+      "difficulty": "Higher",
+      "description": "The detailed arrangement of electrons within subshells and orbitals, written in standard notation such as 1s2 2s2 2p6.",
+      "learning_objectives": [
+        "Write full electron configurations using subshell notation for the first 36 elements",
+        "Apply the Aufbau principle, Pauli exclusion principle and Hund's rule to build electron configurations",
+        "Relate electron configuration to an element's position on the periodic table"
+      ],
+      "explanation": "Electron configuration describes exactly how electrons are distributed among subshells (s, p, d, f) within each shell, written using notation such as 1s2 2s2 2p6 3s2 3p4 for sulfur, where the number before the letter is the shell number, the letter indicates the subshell type, and the superscript shows the number of electrons in that subshell. Electron configurations are built up using three key rules: the Aufbau principle (electrons fill the lowest available energy subshells first), the Pauli exclusion principle (each orbital can hold a maximum of two electrons, which must have opposite spins), and Hund's rule (electrons fill separate orbitals within a subshell singly, with parallel spins, before pairing up). Because the energy of the 4s subshell is lower than that of the 3d subshell, 4s fills before 3d for the elements potassium and calcium, giving rise to the characteristic electron configurations of the transition metals.",
+      "key_concepts": ["Subshell notation (1s, 2s, 2p, 3s, 3p, 3d, 4s...)", "Aufbau principle", "Pauli exclusion principle", "Hund's rule", "4s fills before 3d"],
+      "definitions": [
+        {"term": "Electron configuration", "definition": "The detailed distribution of electrons among an atom's subshells and orbitals, written using standard notation such as 1s2 2s2 2p6."},
+        {"term": "Subshell", "definition": "A division within an electron shell (labelled s, p, d, f) containing one or more orbitals of the same energy."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Write the full electron configuration of a chlorine atom (atomic number 17).",
+          "working": "Fill subshells in order of increasing energy: 1s (2) → 2s (2) → 2p (6) → 3s (2) → 3p (5, since 17 total electrons: 2+2+6+2 = 12, remaining 17−12 = 5).",
+          "answer": "1s2 2s2 2p6 3s2 3p5"
+        }
+      ],
+      "practical_applications": ["Electron configuration explains the periodic table's block structure (s-block, p-block, d-block) and predicts chemical behaviour and bonding patterns"],
+      "laboratory_applications": [],
+      "common_mistakes": [
+        "Filling 3d before 4s — the correct order is that 4s fills before 3d due to its lower energy at this point in the periodic table",
+        "Exceeding the maximum electron capacity of a subshell (s: 2, p: 6, d: 10, f: 14)"
+      ],
+      "misconceptions": ["Believing electron configuration always follows shell number strictly in order (1,2,3,4...) without exception — the 4s/3d energy level crossover is a well-known and important exception"],
+      "tips": ["Learn subshell capacities: s = 2, p = 6, d = 10, f = 14, and the filling order 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p..."],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the maximum number of electrons a p subshell can hold.", "answer": "6"},
+          {"question": "Write the electron configuration of a nitrogen atom (atomic number 7).", "answer": "1s2 2s2 2p3"}
+        ],
+        "intermediate": [
+          {"question": "Write the full electron configuration of a calcium atom (atomic number 20).", "answer": "1s2 2s2 2p6 3s2 3p6 4s2"},
+          {"question": "Explain why the electron configuration of potassium is 1s2 2s2 2p6 3s2 3p6 4s1 rather than 1s2 2s2 2p6 3s2 3p6 3d1.", "answer": "At this point in the periodic table, the 4s subshell has a lower energy than the 3d subshell, so electrons fill 4s before 3d according to the Aufbau principle (electrons occupy the lowest available energy level first). This gives potassium's outer electron in the 4s subshell rather than 3d."}
+        ],
+        "advanced": [
+          {"question": "Write the full electron configuration of an iron atom (atomic number 26), and explain how Hund's rule applies to the filling of its 3d subshell.", "answer": "1s2 2s2 2p6 3s2 3p6 4s2 3d6. Hund's rule states that electrons occupy separate orbitals within a subshell singly, with parallel spins, before any pairing occurs. The 3d subshell has 5 orbitals; the first 5 of iron's 6 3d electrons would each occupy a separate 3d orbital singly (with parallel spins) before the 6th electron is forced to pair up with one of them, since all 5 orbitals are now occupied — this minimises electron-electron repulsion and gives the lowest-energy (most stable) arrangement."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Write the electron configuration of a phosphorus atom (atomic number 15) and explain, using Hund's rule, how the three electrons in its 3p subshell are arranged.", "marks": 3, "model_answer": "1s2 2s2 2p6 3s2 3p3 (1 mark). According to Hund's rule, the three 3p electrons occupy the three separate 3p orbitals singly, each with parallel spin, rather than pairing up in fewer orbitals (1 mark), because this arrangement minimises repulsion between electrons and is the lowest-energy, most stable configuration (1 mark)."}
+      ],
+      "summary": "Electron configuration shows the detailed arrangement of electrons in subshells, built using the Aufbau principle, Pauli exclusion principle, and Hund's rule. The 4s subshell fills before 3d, an important exception to strict shell-number order that explains transition metal behaviour.",
+      "revision_notes": ["Filling order: 1s 2s 2p 3s 3p 4s 3d 4p...", "Subshell capacities: s=2, p=6, d=10, f=14", "4s fills before 3d (lower energy at this point)"],
+      "related_topics": ["Electron Shells", "Atomic Orbitals", "Aufbau Principle", "Pauli Exclusion Principle", "Hund's Rule"],
+      "prerequisites": ["Electron Shells", "Atomic Orbitals"],
+      "diagram_recommendations": ["[DIAGRAM: Aufbau filling order diagonal diagram for subshells 1s through 4p]"]
+    },
+
+    {
+      "id": "chem-028-valence-electrons",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Valence Electrons",
+      "difficulty": "Foundation",
+      "description": "The electrons in an atom's outermost shell, which determine its chemical bonding behaviour and reactivity.",
+      "learning_objectives": [
+        "Define valence electrons",
+        "Determine the number of valence electrons from an element's group number",
+        "Explain the link between valence electrons and chemical reactivity/bonding"
+      ],
+      "explanation": "Valence electrons are the electrons found in the outermost occupied shell of an atom. They are the electrons directly involved in forming chemical bonds, whether by being shared (covalent bonding) or transferred (ionic bonding), because they are the furthest from the nucleus and therefore the least tightly held. For main group elements (groups 1, 2, and 13–18), the number of valence electrons corresponds directly to the group number (using the convention where groups are numbered 1–18, or for groups 13-18 subtracting 10 from the group number gives valence electrons, e.g. group 16 has 6 valence electrons). Atoms tend to react in ways that give them a full outer shell of 8 valence electrons (an octet), which is a particularly stable, low-energy arrangement (the 'octet rule'), except for hydrogen and helium, which are stable with just 2 valence electrons.",
+      "key_concepts": ["Outermost shell electrons", "Group number relates to valence electron count", "Octet rule", "Valence electrons determine bonding/reactivity"],
+      "definitions": [
+        {"term": "Valence electron", "definition": "An electron in the outermost occupied shell of an atom, involved in chemical bonding."},
+        {"term": "Octet rule", "definition": "The tendency of atoms to react so as to achieve eight electrons in their outer shell, a particularly stable electron arrangement."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "State the number of valence electrons in a sulfur atom (Group 16).",
+          "working": "Group 16 elements have 6 valence electrons (16 − 10 = 6, using the convention for groups 13-18).",
+          "answer": "6 valence electrons"
+        }
+      ],
+      "practical_applications": ["Valence electron count predicts the type and number of bonds an element typically forms, essential to predicting compound formulae"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Counting all electrons in an atom instead of only those in the outermost shell", "Miscounting valence electrons for groups 13-18 by using the raw group number instead of subtracting 10"],
+      "misconceptions": ["Believing transition metals follow the same simple group-number rule for valence electrons as main group elements — transition metal electron configurations are more complex due to d subshell involvement"],
+      "tips": ["For quick reference: Group 1 → 1 valence electron; Group 2 → 2; Group 13 → 3; Group 14 → 4; Group 15 → 5; Group 16 → 6; Group 17 → 7; Group 18 → 8 (except helium, which has 2)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the number of valence electrons in a chlorine atom (Group 17).", "answer": "7"},
+          {"question": "Define a valence electron.", "answer": "An electron in the outermost occupied shell of an atom."}
+        ],
+        "intermediate": [
+          {"question": "Explain why magnesium (2 valence electrons) tends to form a 2+ ion rather than gaining 6 electrons to complete its outer shell.", "answer": "It requires much less energy for magnesium to lose its 2 valence electrons (achieving a full outer shell identical to the noble gas neon) than to gain 6 additional electrons to fill its outer shell to 8, since gaining several electrons against increasing electrostatic repulsion requires much more energy. Losing 2 electrons is the more energetically favourable route to a stable, full outer shell."}
+        ],
+        "advanced": [
+          {"question": "Explain why noble gases (Group 18), with a full outer shell of 8 valence electrons (2 for helium), are generally unreactive.", "answer": "A full outer shell is an especially low-energy, stable electron arrangement. Since noble gas atoms already have this stable configuration, they have very little tendency to lose, gain, or share electrons to bond with other atoms, making them chemically unreactive under normal conditions (though some heavier noble gases can form compounds under extreme conditions)."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain, in terms of valence electrons, why elements in the same group of the periodic table have similar chemical properties.", "marks": 2, "model_answer": "Elements in the same group have the same number of valence electrons (1 mark), and since chemical reactivity and bonding behaviour are determined primarily by valence electrons, elements with the same number of valence electrons tend to react in similar ways and form similar types of compounds (1 mark)."}
+      ],
+      "summary": "Valence electrons occupy an atom's outermost shell and determine its bonding behaviour and reactivity. For main group elements, valence electron count corresponds to group number, and atoms react to achieve a stable full outer shell (the octet rule).",
+      "revision_notes": ["Valence electrons = outer shell electrons", "Group number (adjusted for groups 13-18) = valence electron count", "Octet rule: atoms react to achieve 8 outer electrons (2 for H/He)"],
+      "related_topics": ["Electron Shells", "Ions", "Chemical Bonds", "Groups and Periods"],
+      "prerequisites": ["Electron Shells"],
+      "diagram_recommendations": ["[DIAGRAM: Outer shell valence electrons highlighted for elements across Period 3]"]
+    },
+
+    {
+      "id": "chem-029-energy-levels",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Energy Levels",
+      "difficulty": "Higher",
+      "description": "The discrete, quantised energy states that electrons can occupy within an atom, forming the basis of shell and subshell structure.",
+      "learning_objectives": [
+        "Explain that electrons can only occupy specific, quantised energy levels",
+        "Describe how energy level increases with distance from the nucleus",
+        "Relate energy level transitions to the absorption and emission of light"
+      ],
+      "explanation": "Electrons in an atom can only exist at specific, discrete energy levels, rather than at any arbitrary energy value; this is described as the energy being 'quantised'. Energy levels correspond to electron shells, with electrons closer to the nucleus (in lower shells) having lower energy, and electrons in shells further from the nucleus having higher energy. Electrons normally occupy the lowest available energy levels (the ground state). When an atom absorbs energy (e.g. from heat or light), an electron can be promoted to a higher, previously unoccupied energy level (an excited state); this is unstable, and the electron quickly falls back down to a lower energy level, releasing the extra energy as a photon of light with a specific frequency corresponding exactly to the energy difference between the two levels. This is the basis of atomic emission spectra and line spectra.",
+      "key_concepts": ["Quantised energy levels", "Ground state vs excited state", "Energy absorption/emission linked to electron transitions", "Basis of atomic spectra"],
+      "definitions": [
+        {"term": "Energy level", "definition": "A specific, discrete (quantised) amount of energy that an electron in an atom can possess, corresponding to a particular shell or subshell."},
+        {"term": "Ground state", "definition": "The lowest energy arrangement of electrons in an atom."},
+        {"term": "Excited state", "definition": "A higher energy arrangement of electrons in an atom, reached when an electron absorbs energy and moves to a higher energy level."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["The quantised nature of energy levels explains why each element produces a unique line emission spectrum, used in flame tests and astronomical spectroscopy to identify elements"],
+      "laboratory_applications": ["Flame tests: heating a sample causes electrons to become excited and then fall back to lower energy levels, releasing visible light of a characteristic colour for each element"],
+      "common_mistakes": ["Believing electrons can have any energy value between shells — energy levels are discrete/quantised, not continuous"],
+      "misconceptions": ["Assuming an excited electron stays in its higher energy level permanently — excited states are unstable, and the electron falls back to a lower energy level almost immediately, releasing energy as light"],
+      "tips": ["Remember: absorption of energy moves an electron UP to a higher energy level; emission of energy (light) occurs as an electron falls DOWN to a lower energy level"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State what is meant by an electron's 'ground state'.", "answer": "The lowest energy arrangement of electrons in an atom."},
+          {"question": "What happens to an electron when it absorbs energy?", "answer": "It moves to a higher, excited energy level."}
+        ],
+        "intermediate": [
+          {"question": "Explain why atoms emit light of only specific frequencies rather than a continuous range of frequencies.", "answer": "Electrons can only occupy specific, discrete (quantised) energy levels within an atom. When an excited electron falls back to a lower energy level, it releases energy as a photon of light whose frequency corresponds exactly to the fixed energy difference between those two specific levels. Since only certain energy level differences are possible, only certain specific frequencies of light can be emitted, producing a line spectrum rather than a continuous range."}
+        ],
+        "advanced": [
+          {"question": "Explain, in terms of energy levels, why each element produces a unique line emission spectrum.", "answer": "Each element has a unique arrangement of electron energy levels, determined by its specific nuclear charge and electron configuration. The possible energy differences between levels (and therefore the possible frequencies of light that can be emitted as excited electrons fall back to lower levels) are therefore unique to each element, producing a distinctive pattern of spectral lines that can be used to identify the element, much like a fingerprint."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain, in terms of electron energy levels, what happens when a sample of an element is heated strongly and then observed through a spectroscope, producing a line spectrum.", "marks": 3, "model_answer": "Heating provides energy that is absorbed by electrons, promoting some electrons from their ground state to higher, excited energy levels (1 mark). These excited states are unstable, so the electrons quickly fall back down to lower energy levels, releasing the excess energy as photons of light (1 mark). Because electron energy levels are quantised (discrete, not continuous), only specific frequencies of light corresponding to specific energy level differences are emitted, producing distinct lines rather than a continuous spectrum (1 mark)."}
+      ],
+      "summary": "Electrons occupy discrete, quantised energy levels. Absorbing energy promotes an electron to an excited state; falling back to a lower level releases energy as light of a specific frequency, explaining the origin of atomic line spectra.",
+      "revision_notes": ["Energy levels are quantised (discrete), not continuous", "Ground state = lowest energy; Excited state = higher energy after absorbing energy", "Falling to a lower level emits light of a frequency matching the energy gap"],
+      "related_topics": ["Electron Shells", "Excited Electrons", "Atomic Emission Spectra", "Line Spectra"],
+      "prerequisites": ["Electron Shells"],
+      "diagram_recommendations": ["[DIAGRAM: Energy level diagram showing an electron absorbing energy to reach an excited state, then emitting a photon falling back to ground state]"]
+    },
+
+    {
+      "id": "chem-030-atomic-orbitals",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Atomic Orbitals",
+      "difficulty": "Higher",
+      "description": "Regions of space around the nucleus where there is a high probability of finding an electron, each capable of holding a maximum of two electrons.",
+      "learning_objectives": [
+        "Define an atomic orbital",
+        "Describe the shapes of s and p orbitals",
+        "State the maximum number of electrons an orbital can hold"
+      ],
+      "explanation": "An atomic orbital is a region of space around the nucleus within which there is a high probability (typically defined as around 90-95%) of finding a given electron; it is a more precise, modern refinement of the simpler 'shell' model. Each orbital can hold a maximum of two electrons, which must have opposite spins (see Pauli Exclusion Principle). Orbitals are grouped into subshells of the same energy and shape: s orbitals are spherical; p orbitals are dumbbell-shaped, and there are three p orbitals per p subshell, oriented along the x, y and z axes; d orbitals have more complex shapes, with five d orbitals per d subshell. The shell number and subshell letter together (e.g. 2p, 3d) specify a particular set of orbitals.",
+      "key_concepts": ["Orbital as a probability region", "Maximum 2 electrons per orbital (opposite spins)", "s, p, d orbital shapes", "Orbitals grouped into subshells"],
+      "definitions": [
+        {"term": "Atomic orbital", "definition": "A region of space around the nucleus where there is a high probability of finding an electron, holding a maximum of two electrons."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Orbital shapes and overlap underpin the modern understanding of covalent bonding and molecular shape (VSEPR theory)"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Confusing 'orbital' (a specific region holding up to 2 electrons) with 'orbit' (an old, now outdated, fixed circular path idea from the Bohr model)", "Believing an orbital shows the exact path of an electron rather than a probability region"],
+      "misconceptions": ["Believing electrons move in fixed, defined paths like planets around the sun — the orbital model describes probability regions, not fixed trajectories"],
+      "tips": ["Remember the shape mnemonic: 's' orbitals are Spherical; 'p' orbitals look like a Peanut or dumbbell shape (three of them, along different axes)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the maximum number of electrons an atomic orbital can hold.", "answer": "2"},
+          {"question": "Describe the shape of an s orbital.", "answer": "Spherical"}
+        ],
+        "intermediate": [
+          {"question": "Explain why an orbital is described in terms of 'probability' rather than a fixed path for an electron.", "answer": "Due to the wave-like nature of electrons, it is not possible to know an electron's exact position and momentum simultaneously (a quantum mechanical principle). Instead, an orbital describes the three-dimensional region of space within which an electron is most likely (typically ~90-95% probability) to be found at any given moment, rather than tracing a definite path like a planet's orbit."},
+          {"question": "State how many p orbitals make up a p subshell, and their orientation.", "answer": "Three p orbitals, oriented along the x, y and z axes respectively."}
+        ],
+        "advanced": [
+          {"question": "Explain why each orbital can hold a maximum of only two electrons.", "answer": "This is a consequence of the Pauli exclusion principle, which states that no two electrons in the same atom can have an identical set of quantum numbers. Two electrons occupying the same orbital have the same spatial region (same orbital, hence same first three quantum numbers), so the only way they can differ is in their spin quantum number, which has only two possible values (commonly described as 'spin up' and 'spin down'). This limits each orbital to a maximum of two electrons, with opposite spins."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Describe the shape of a p orbital and state how many electrons a full p subshell can contain in total.", "marks": 2, "model_answer": "A p orbital has a dumbbell (or figure-of-eight) shape (1 mark). A full p subshell contains three p orbitals, each holding a maximum of 2 electrons, giving a total of 6 electrons (1 mark)."}
+      ],
+      "summary": "Atomic orbitals are probability regions where electrons are likely to be found, each holding a maximum of two electrons with opposite spins. s orbitals are spherical; p orbitals are dumbbell-shaped, occurring in sets of three per subshell.",
+      "revision_notes": ["Orbital = probability region, max 2 electrons (opposite spins)", "s orbital: spherical, 1 per subshell", "p orbital: dumbbell-shaped, 3 per subshell (px, py, pz)"],
+      "related_topics": ["s Orbitals", "p Orbitals", "d Orbitals", "Electron Subshells", "Pauli Exclusion Principle"],
+      "prerequisites": ["Electron Shells"],
+      "diagram_recommendations": ["[DIAGRAM: Shapes of s and p orbitals]"]
+    },
+
+    {
+      "id": "chem-031-s-orbitals",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "s Orbitals",
+      "difficulty": "Higher",
+      "description": "The spherical atomic orbital present in every shell, holding a maximum of two electrons.",
+      "learning_objectives": [
+        "Describe the shape and location of an s orbital",
+        "State that there is one s orbital per shell, holding up to 2 electrons",
+        "Identify s orbitals in electron configuration notation"
+      ],
+      "explanation": "An s orbital is a spherically symmetric region of space around the nucleus in which an electron is likely to be found; its probability is the same in every direction from the nucleus. Every electron shell contains exactly one s orbital (labelled 1s, 2s, 3s, and so on, according to shell number), and like all orbitals, it can hold a maximum of two electrons with opposite spins. The s orbital is always the lowest-energy (first-filled) orbital within its shell, so electrons occupy the s orbital of a given shell before any p, d, or f orbitals in that same shell.",
+      "key_concepts": ["Spherical shape", "One s orbital per shell", "Lowest energy orbital in each shell", "Maximum 2 electrons"],
+      "definitions": [
+        {"term": "s orbital", "definition": "A spherically shaped atomic orbital, one present in each shell, holding a maximum of two electrons."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "State the electron configuration notation for a full 2s orbital.",
+          "working": "An s orbital holds a maximum of 2 electrons.",
+          "answer": "2s2"
+        }
+      ],
+      "practical_applications": ["s-block elements (Groups 1 and 2) are defined by their outer electron being in an s orbital, giving them characteristic reactivity"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Assuming there is more than one s orbital per shell — there is always exactly one"],
+      "misconceptions": ["Believing the size of an s orbital is the same for every shell — s orbitals get larger (extend further from the nucleus) in higher shells, e.g. 3s is larger than 2s"],
+      "tips": ["The s orbital always fills first within a given shell, before that shell's p orbitals (if any)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the shape of an s orbital.", "answer": "Spherical"},
+          {"question": "State the maximum number of electrons a 3s orbital can hold.", "answer": "2"}
+        ],
+        "intermediate": [
+          {"question": "Explain why the notation '2s2' fully describes the electrons in the second shell's s orbital.", "answer": "The '2' before 's' indicates the second shell; 's' indicates the orbital type (s orbital); the superscript '2' indicates that 2 electrons occupy this orbital, which is the maximum it can hold, meaning the 2s orbital is completely full."}
+        ],
+        "advanced": [
+          {"question": "Explain why magnesium's electron configuration ends in ...3s2 rather than ...3s1 3p1, given that both use 2 electrons in total for the third shell's outer electrons.", "answer": "The Aufbau principle states that electrons fill the lowest available energy orbitals first, and within the same shell, the s orbital has lower energy than the p orbitals. Filling the 3s orbital completely (3s2) before beginning to occupy the higher-energy 3p orbitals gives the lowest overall energy, and therefore the most stable, arrangement — so both of magnesium's third-shell electrons go into the 3s orbital rather than being split between 3s and 3p."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why the s orbital of a given shell always fills before that shell's p orbitals.", "marks": 2, "model_answer": "Within the same shell, the s orbital has lower energy than the p orbitals (1 mark). The Aufbau principle states that electrons occupy the lowest available energy orbitals first, so the s orbital fills before the higher-energy p orbitals of the same shell (1 mark)."}
+      ],
+      "summary": "The s orbital is a spherical region of probability present once in every shell, holding a maximum of 2 electrons, and is always the lowest-energy, first-filled orbital within its shell.",
+      "revision_notes": ["s orbital: spherical, 1 per shell, max 2 electrons, lowest energy in its shell"],
+      "related_topics": ["Atomic Orbitals", "p Orbitals", "Electron Configuration"],
+      "prerequisites": ["Atomic Orbitals"],
+      "diagram_recommendations": ["[DIAGRAM: Spherical shape of an s orbital]"]
+    },
+
+    {
+      "id": "chem-032-p-orbitals",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "p Orbitals",
+      "difficulty": "Higher",
+      "description": "The dumbbell-shaped atomic orbitals, occurring in sets of three per shell (from the second shell onwards), each holding a maximum of two electrons.",
+      "learning_objectives": [
+        "Describe the shape and orientation of p orbitals",
+        "State that there are three p orbitals per subshell, holding up to 6 electrons in total",
+        "Explain how Hund's rule applies to filling the p orbitals"
+      ],
+      "explanation": "A p orbital has a dumbbell (or figure-of-eight) shape, with two lobes on opposite sides of the nucleus. From the second shell onwards, each shell contains a p subshell made of three individual p orbitals of equal energy, oriented at right angles to one another along the x, y and z axes (labelled px, py, pz). Since each orbital holds a maximum of 2 electrons, a full p subshell holds a maximum of 6 electrons. According to Hund's rule, when filling the three p orbitals, electrons occupy each of the three orbitals singly (with parallel spins) before any pairing occurs, since this minimises electron-electron repulsion.",
+      "key_concepts": ["Dumbbell shape", "Three p orbitals per subshell (px, py, pz)", "Maximum 6 electrons per p subshell", "Hund's rule applied to p orbital filling"],
+      "definitions": [
+        {"term": "p orbital", "definition": "A dumbbell-shaped atomic orbital; three occur per subshell (from the second shell onwards), each holding a maximum of two electrons."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "State the maximum number of electrons in a full 2p subshell.",
+          "working": "3 orbitals × 2 electrons each = 6",
+          "answer": "6 electrons"
+        }
+      ],
+      "practical_applications": ["p-block elements (Groups 13-18) are defined by their outer electrons filling p orbitals, and p orbital shape/orientation influences molecular geometry through VSEPR theory"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Forgetting there are three separate p orbitals, and instead treating the whole p subshell as if it were one single orbital that can hold 6 electrons without restriction on pairing order"],
+      "misconceptions": ["Believing electrons pair up in the first available p orbital before spreading across all three — Hund's rule requires each of the three orbitals to be singly filled first"],
+      "tips": ["When writing out orbital diagrams (boxes with arrows) for a p subshell with fewer than 6 electrons, spread single arrows across all three boxes first before adding any second, opposite-spin arrow to a box"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State how many individual p orbitals make up one p subshell.", "answer": "Three"},
+          {"question": "State the shape of a p orbital.", "answer": "Dumbbell (or figure-of-eight) shaped."}
+        ],
+        "intermediate": [
+          {"question": "Nitrogen has the electron configuration ...2p3. Describe, using Hund's rule, how these three electrons are arranged among the three 2p orbitals.", "answer": "Each of the three 2p electrons occupies a separate 2p orbital (px, py, pz) singly, with parallel (same-direction) spins, rather than any two electrons pairing up in the same orbital, since this arrangement minimises electron-electron repulsion and gives the most stable, lowest-energy configuration."}
+        ],
+        "advanced": [
+          {"question": "Explain why oxygen's 2p subshell (2p4) has one doubly occupied orbital and two singly occupied orbitals, rather than four electrons spread singly (which is impossible) or paired differently.", "answer": "With only three 2p orbitals available and four electrons to place, at least one orbital must contain a pair. Following Hund's rule, the first three electrons each occupy a separate 2p orbital singly (as in nitrogen); the fourth electron must then pair up in one of the already-singly-occupied orbitals (since all three orbitals are already occupied), giving one full orbital with two paired electrons and two orbitals with one unpaired electron each. This is still the lowest-energy arrangement possible given the constraint of only three available orbitals."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain, using Hund's rule, why the three electrons in a nitrogen atom's 2p subshell occupy three separate orbitals rather than pairing up in fewer orbitals.", "marks": 2, "model_answer": "Hund's rule states that electrons occupy separate orbitals of equal energy singly, with parallel spins, before any pairing occurs (1 mark), because this arrangement minimises the repulsion between electrons and gives a lower-energy, more stable configuration than forcing electrons to pair up in fewer orbitals while others remain empty (1 mark)."}
+      ],
+      "summary": "p orbitals are dumbbell-shaped, occurring in sets of three (px, py, pz) per subshell from the second shell onward, together holding a maximum of 6 electrons. Hund's rule governs their filling: single occupancy of all three before any pairing.",
+      "revision_notes": ["p orbital: dumbbell shape, 3 per subshell, max 6 electrons total", "Hund's rule: fill singly across all three before pairing"],
+      "related_topics": ["Atomic Orbitals", "s Orbitals", "Hund's Rule", "VSEPR Theory"],
+      "prerequisites": ["s Orbitals"],
+      "diagram_recommendations": ["[DIAGRAM: Three p orbitals (px, py, pz) oriented along perpendicular axes]"]
+    },
+
+    {
+      "id": "chem-033-d-orbitals",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "d Orbitals",
+      "difficulty": "Advanced",
+      "description": "The more complex-shaped atomic orbitals that become occupied from the fourth shell onwards (starting at scandium), central to transition metal chemistry.",
+      "learning_objectives": [
+        "State that there are five d orbitals per subshell, holding up to 10 electrons in total",
+        "Explain when d orbitals begin to be occupied in electron configuration",
+        "Relate d orbital occupation to transition metal properties"
+      ],
+      "explanation": "d orbitals have more complex shapes than s or p orbitals (most have a four-lobed 'cloverleaf' shape, with one having a different shape with a ring). Each shell from the third shell onwards technically has a d subshell (3d, 4d, 5d...), made up of five individual d orbitals of equal energy, each holding a maximum of 2 electrons, giving a full d subshell a maximum of 10 electrons. Due to the relative energies of subshells, the 3d subshell does not begin to fill until after the 4s subshell is full, meaning d orbitals are first occupied starting at the element scandium (atomic number 21). The presence of partially filled d orbitals is responsible for many characteristic properties of the transition metals, including variable oxidation states and coloured compounds (see Transition Metal Complexes).",
+      "key_concepts": ["Five d orbitals per subshell", "Maximum 10 electrons per d subshell", "3d fills after 4s (from scandium onward)", "Link to transition metal properties"],
+      "definitions": [
+        {"term": "d orbital", "definition": "An atomic orbital with a more complex shape than s or p orbitals; five occur per subshell, each holding a maximum of two electrons, becoming occupied from the fourth-shell elements (scandium) onwards."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Write the electron configuration of a scandium atom (atomic number 21).",
+          "working": "Fill 1s2 2s2 2p6 3s2 3p6 (18 electrons), then 4s2 (20 electrons), leaving 1 electron for the 3d subshell.",
+          "answer": "1s2 2s2 2p6 3s2 3p6 4s2 3d1"
+        }
+      ],
+      "practical_applications": ["Partially filled d orbitals give transition metals their catalytic activity, coloured compounds, and variable oxidation states, central to industrial catalysis (e.g. iron in the Haber process)"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Writing electron configurations with 3d filling before 4s — 4s fills first due to its lower energy at this point in the periodic table"],
+      "misconceptions": ["Believing d orbitals are occupied starting from the third shell numerically as soon as it exists — although labelled '3d', this subshell is not occupied by electrons until element 21 (scandium), after the 4s subshell has filled"],
+      "tips": ["Remember the exception: when writing configurations, 4s fills before 3d, but when removing electrons to form transition metal ions, 4s electrons are removed first (see Transition Metal Complexes)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the maximum number of electrons a full d subshell can hold.", "answer": "10"},
+          {"question": "State the atomic number of the first element with an electron in a 3d orbital.", "answer": "21 (scandium)"}
+        ],
+        "intermediate": [
+          {"question": "Write the electron configuration of a zinc atom (atomic number 30).", "answer": "1s2 2s2 2p6 3s2 3p6 4s2 3d10"},
+          {"question": "Explain why the 3d subshell is not occupied until scandium (atomic number 21), despite being labelled with the number 3.", "answer": "Although the 3d subshell is associated with the third shell by its label, its energy is actually higher than that of the 4s subshell for elements up to around this point in the periodic table. Following the Aufbau principle, electrons fill the lower-energy 4s subshell first (at potassium and calcium, atomic numbers 19-20), and only once 4s is full does the next electron begin occupying 3d, starting at scandium."}
+        ],
+        "advanced": [
+          {"question": "Explain why iron (electron configuration ...4s2 3d6) forms both Fe2+ and Fe3+ ions by removing electrons from the 4s and then the 3d subshells.", "answer": "When transition metal atoms form ions, electrons are removed from the outermost, highest-energy subshell first at the point of ionisation, which for transition metal atoms is 4s (once ionisation begins, 4s electrons become higher in energy than 3d electrons for the resulting ion, due to changes in electron-electron repulsion). Iron therefore first loses its two 4s electrons to form Fe2+ (configuration ...3d6), and can lose a further electron from the 3d subshell to form Fe3+ (configuration ...3d5), which is a particularly stable half-filled d subshell arrangement, helping explain why Fe3+ is a common and stable oxidation state for iron."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why the electron configuration of scandium is 1s2 2s2 2p6 3s2 3p6 4s2 3d1 rather than 1s2 2s2 2p6 3s2 3p6 3d3.", "marks": 2, "model_answer": "The 4s subshell has a lower energy than the 3d subshell at this point in the periodic table (1 mark), so following the Aufbau principle, the 4s subshell fills completely (with 2 electrons) before any electron occupies the 3d subshell, leaving scandium's 21st electron as the first to enter 3d (1 mark)."}
+      ],
+      "summary": "d orbitals, five per subshell with a maximum of 10 electrons, begin to be occupied at scandium once the 4s subshell is full. Their partial occupation is central to the distinctive properties of transition metals.",
+      "revision_notes": ["d orbital: complex shapes, 5 per subshell, max 10 electrons", "3d fills only after 4s is full (starts at scandium, Z=21)", "4s electrons removed first when forming transition metal ions"],
+      "related_topics": ["Atomic Orbitals", "Electron Configuration", "Transition Elements", "Transition Metal Complexes"],
+      "prerequisites": ["p Orbitals", "Electron Configuration"],
+      "diagram_recommendations": ["[DIAGRAM: Cloverleaf shape of a d orbital]"]
+    },
+
+    {
+      "id": "chem-034-electron-subshells",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Electron Subshells",
+      "difficulty": "Higher",
+      "description": "Divisions within an electron shell (s, p, d, f) that group together orbitals of equal energy, and their relative energy ordering.",
+      "learning_objectives": [
+        "Define a subshell and state the orbital and electron capacities of s, p, d and f subshells",
+        "State the relative energy ordering of subshells for building electron configurations",
+        "Relate subshells to the block structure of the periodic table"
+      ],
+      "explanation": "Each electron shell is divided into one or more subshells, labelled s, p, d and f, each subshell being a group of orbitals of equal energy. The number of subshells within a given shell equals the shell number (shell 1 has only an s subshell; shell 2 has s and p; shell 3 has s, p and d; shell 4 has s, p, d and f). Each subshell type has a fixed number of orbitals and therefore a fixed maximum electron capacity: s (1 orbital, 2 electrons), p (3 orbitals, 6 electrons), d (5 orbitals, 10 electrons), f (7 orbitals, 14 electrons). The order in which subshells are filled (by increasing energy) does not follow a simple shell-by-shell pattern, because subshell energies can overlap between shells (most notably, 4s has lower energy than 3d). The block structure of the periodic table (s-block, p-block, d-block, f-block) directly reflects which subshell type an element's highest-energy (outermost) electron occupies.",
+      "key_concepts": ["Subshells within a shell", "Orbital/electron capacity of s, p, d, f", "Subshell energy ordering and overlap between shells", "Periodic table block structure"],
+      "definitions": [
+        {"term": "Subshell", "definition": "A division within an electron shell containing one or more orbitals of equal energy, labelled s, p, d or f."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["The periodic table's s-block, p-block, d-block and f-block regions directly correspond to subshell types, helping predict element properties from position"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Assuming subshell energies always increase strictly with shell number — 4s (shell 4) is lower in energy than 3d (shell 3)"],
+      "misconceptions": ["Believing every shell has the same set of subshells available — shell 1 has only s; shell 2 has only s and p; d only becomes available from shell 3 upwards, and f from shell 4 upwards"],
+      "tips": ["Memorise capacities: s=2, p=6, d=10, f=14 electrons, and the filling order: 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d..."],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the maximum number of electrons an s subshell can hold.", "answer": "2"},
+          {"question": "State how many subshells the second electron shell contains.", "answer": "Two (s and p)"}
+        ],
+        "intermediate": [
+          {"question": "State the maximum total number of electrons that shell 3 could theoretically hold, including its d subshell.", "answer": "3s (2) + 3p (6) + 3d (10) = 18 electrons"},
+          {"question": "Explain why potassium's outermost electron occupies the 4s subshell rather than the 3d subshell.", "answer": "Despite belonging to a numerically lower shell, the 3d subshell has a higher energy than the 4s subshell at this point in the periodic table; electrons fill the lowest available energy subshell first (Aufbau principle), so the 19th electron of potassium occupies 4s rather than 3d."}
+        ],
+        "advanced": [
+          {"question": "Explain how the block structure of the periodic table (s-block, p-block, d-block) relates to electron subshells.", "answer": "Each element's position in a particular block corresponds to the subshell type that its highest-energy (most recently added, outermost) electron occupies. Group 1 and 2 elements are in the s-block because their outermost electrons occupy an s subshell; Groups 13-18 are in the p-block because their outermost electrons occupy a p subshell; the transition metals form the d-block because electrons are being added to a d subshell (3d, 4d, 5d) across these elements. This direct link between subshell filling and periodic table position explains many trends in chemical properties across the table."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "State the number of orbitals and the maximum number of electrons for a d subshell, and explain why the d-block of the periodic table contains 10 columns.", "marks": 3, "model_answer": "A d subshell has 5 orbitals (1 mark), holding a maximum of 10 electrons (1 mark). The d-block contains 10 columns because there are 10 electrons that can be added, one at a time, across the d-block elements as the d subshell fills from empty to full (1 mark)."}
+      ],
+      "summary": "Subshells (s, p, d, f) group orbitals of equal energy within a shell, with capacities of 2, 6, 10 and 14 electrons respectively. Subshell energies can overlap between shells (notably 4s below 3d), and the periodic table's block structure reflects which subshell type is being filled.",
+      "revision_notes": ["Subshell capacities: s=2, p=6, d=10, f=14", "Shell n has n subshells available (1: s; 2: s,p; 3: s,p,d; 4: s,p,d,f)", "Periodic table blocks correspond to subshell being filled"],
+      "related_topics": ["Atomic Orbitals", "Electron Configuration", "Groups and Periods"],
+      "prerequisites": ["d Orbitals"],
+      "diagram_recommendations": ["[DIAGRAM: Periodic table coloured by s-block, p-block, d-block and f-block regions]"]
+    },
+
+    {
+      "id": "chem-035-aufbau-principle",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Aufbau Principle",
+      "difficulty": "Higher",
+      "description": "The rule that electrons occupy the lowest-energy available orbitals first when building up an atom's electron configuration.",
+      "learning_objectives": [
+        "State the Aufbau principle",
+        "Apply the Aufbau principle to construct electron configurations, including the 4s/3d exception",
+        "Explain why this principle gives the most stable (lowest-energy) electron arrangement"
+      ],
+      "explanation": "The Aufbau principle (from the German for 'building up') states that, when building the electron configuration of an atom in its ground state, electrons fill the available orbitals starting with the lowest energy orbital, before occupying any higher-energy orbitals. This gives the atom its lowest possible total energy, and therefore its most stable arrangement. The general filling order is 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s..., which is not a simple shell-by-shell sequence because subshell energies can overlap between different shells, most notably with 4s filling before 3d. The Aufbau principle is used alongside the Pauli exclusion principle (max 2 electrons per orbital) and Hund's rule (single occupancy before pairing within a subshell) to construct full electron configurations.",
+      "key_concepts": ["Lowest energy orbitals fill first", "General filling order including 4s before 3d", "Gives lowest-energy, most stable configuration", "Used with Pauli exclusion principle and Hund's rule"],
+      "definitions": [
+        {"term": "Aufbau principle", "definition": "The rule that electrons occupy the lowest-energy available atomic orbitals first when an atom's electron configuration is built up."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Use the Aufbau principle to determine the electron configuration of a silicon atom (atomic number 14).",
+          "working": "Fill orbitals in order of increasing energy: 1s2 2s2 2p6 (10 electrons) 3s2 (12 electrons) 3p2 (remaining 14 − 12 = 2 electrons).",
+          "answer": "1s2 2s2 2p6 3s2 3p2"
+        }
+      ],
+      "practical_applications": ["The Aufbau principle underlies the predictable structure of the periodic table and helps chemists predict element properties from atomic number"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Filling 3d before 4s when applying the Aufbau principle — this is a common but incorrect assumption based on shell number alone"],
+      "misconceptions": ["Believing the Aufbau principle predicts electron configuration for every element without exception — a small number of elements (e.g. chromium and copper) have configurations that deviate slightly from the simple Aufbau prediction due to the extra stability of half-filled or fully-filled d subshells"],
+      "tips": ["Use a diagonal 'arrow' diagram through a grid of subshells (1s, 2s 2p, 3s 3p 3d, 4s 4p 4d 4f...) to remember the correct filling order"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the Aufbau principle.", "answer": "Electrons occupy the lowest-energy available orbitals first when building up an atom's electron configuration."},
+          {"question": "According to the Aufbau principle, which subshell fills first: 4s or 3d?", "answer": "4s"}
+        ],
+        "intermediate": [
+          {"question": "Use the Aufbau principle to write the electron configuration of a sodium atom (atomic number 11).", "answer": "1s2 2s2 2p6 3s1"},
+          {"question": "Explain why applying the Aufbau principle gives the most stable possible electron configuration for an atom.", "answer": "Filling the lowest-energy orbitals first means the atom's electrons occupy the arrangement with the lowest total energy possible; since lower energy generally corresponds to greater stability, this gives the most stable, ground-state configuration of the atom."}
+        ],
+        "advanced": [
+          {"question": "The observed electron configuration of chromium (atomic number 24) is 1s2 2s2 2p6 3s2 3p6 4s1 3d5, rather than the '4s2 3d4' predicted by strictly following the simple Aufbau filling order. Suggest why this exception occurs.", "answer": "A half-filled d subshell (3d5, with one electron in each of the five d orbitals) is an especially stable, lower-energy arrangement due to the way electron-electron repulsion is minimised when unpaired electrons are spread across orbitals with parallel spins. It is energetically more favourable for one 4s electron to move into the 3d subshell to achieve this special half-filled stability, even though this technically goes against the simplest reading of the Aufbau filling order, giving chromium the configuration 4s1 3d5 rather than 4s2 3d4."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "State the Aufbau principle and use it to explain why the electron configuration of potassium ends in 4s1 rather than 3d1.", "marks": 3, "model_answer": "The Aufbau principle states that electrons fill the lowest-energy available orbitals first (1 mark). At this point in the periodic table, the 4s subshell has a lower energy than the 3d subshell (1 mark), so potassium's 19th electron occupies 4s rather than 3d, giving the configuration ...3p6 4s1 (1 mark)."}
+      ],
+      "summary": "The Aufbau principle states that electrons fill the lowest-energy available orbitals first, giving the most stable ground-state electron configuration. The general filling order includes the important exception that 4s fills before 3d, and a small number of elements show further exceptions due to the stability of half-filled/full d subshells.",
+      "revision_notes": ["Aufbau: fill lowest-energy orbitals first", "General order: 1s 2s 2p 3s 3p 4s 3d 4p...", "Exceptions exist (e.g. Cr, Cu) due to stable half-filled/full d subshells"],
+      "related_topics": ["Electron Configuration", "Pauli Exclusion Principle", "Hund's Rule", "d Orbitals"],
+      "prerequisites": ["Electron Subshells"],
+      "diagram_recommendations": ["[DIAGRAM: Diagonal arrow filling order diagram for subshells]"]
+    },
+
+    {
+      "id": "chem-036-pauli-exclusion-principle",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Pauli Exclusion Principle",
+      "difficulty": "Higher",
+      "description": "The rule that no two electrons in the same atom can have identical sets of quantum numbers, limiting each orbital to a maximum of two electrons with opposite spins.",
+      "learning_objectives": [
+        "State the Pauli exclusion principle",
+        "Explain why an orbital can hold a maximum of two electrons",
+        "Apply the principle when drawing orbital diagrams"
+      ],
+      "explanation": "The Pauli exclusion principle states that no two electrons within the same atom can have an identical set of all four quantum numbers (see Quantum Numbers). Since two electrons occupying the same orbital already share the same values for the first three quantum numbers (which together define the orbital's shell, subshell/shape, and orientation), the only way they can differ is in their fourth quantum number, spin, which can take only one of two possible values. This means a maximum of two electrons can occupy any single orbital, and when they do, they must have opposite ('paired') spins, often represented in orbital diagrams as two arrows pointing in opposite directions within the same box.",
+      "key_concepts": ["No two electrons share identical quantum numbers", "Maximum 2 electrons per orbital", "Paired electrons have opposite spins", "Orbital diagram notation"],
+      "definitions": [
+        {"term": "Pauli exclusion principle", "definition": "The rule that no two electrons in the same atom can have an identical set of all four quantum numbers, limiting each orbital to a maximum of two electrons with opposite spins."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["The Pauli exclusion principle explains the maximum capacity of every subshell (s=2, p=6, d=10, f=14) and therefore the entire structure of the periodic table"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Drawing three or more arrows in a single orbital box in an orbital diagram — only two arrows (opposite spins) are ever allowed per box"],
+      "misconceptions": ["Believing the Pauli exclusion principle only applies to electrons in the same orbital — it technically applies to all electrons within the same atom, but its most direct consequence at this level is the 2-electron-per-orbital limit"],
+      "tips": ["When drawing orbital diagrams, always show paired electrons in the same box as two arrows pointing in opposite directions (↑↓), never the same direction"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the Pauli exclusion principle.", "answer": "No two electrons in the same atom can have an identical set of all four quantum numbers."},
+          {"question": "State the maximum number of electrons that can occupy one atomic orbital.", "answer": "2"}
+        ],
+        "intermediate": [
+          {"question": "Explain, using the Pauli exclusion principle, why two electrons in the same orbital must have opposite spins.", "answer": "Two electrons in the same orbital already share the same shell, subshell and orbital orientation (the first three quantum numbers). For the Pauli exclusion principle to be satisfied (no two electrons with an identical full set of quantum numbers), they must differ in their remaining quantum number, spin — meaning they must have opposite spin values."}
+        ],
+        "advanced": [
+          {"question": "Use the Pauli exclusion principle to explain why the maximum capacity of a p subshell is 6 electrons, not more.", "answer": "A p subshell consists of three separate p orbitals. By the Pauli exclusion principle, each individual orbital can hold a maximum of 2 electrons (with opposite spins), since electrons within a single orbital can only differ by spin. With three orbitals in the p subshell, the total maximum capacity is therefore 3 orbitals × 2 electrons = 6 electrons; a seventh electron would necessarily duplicate an already-used complete set of quantum numbers, which the exclusion principle forbids."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "State the Pauli exclusion principle and explain how it accounts for the maximum electron capacity of an s subshell.", "marks": 2, "model_answer": "No two electrons in the same atom can have an identical set of all four quantum numbers (1 mark). An s subshell consists of just one orbital, which by this principle can hold a maximum of two electrons (differing only in spin), giving the s subshell its maximum capacity of 2 electrons (1 mark)."}
+      ],
+      "summary": "The Pauli exclusion principle states no two electrons in an atom can share an identical set of all four quantum numbers, which limits every orbital to a maximum of two electrons, which must have opposite spins.",
+      "revision_notes": ["No two electrons: identical full set of quantum numbers", "Consequence: max 2 electrons per orbital, opposite spins", "Explains subshell capacities: s=2, p=6, d=10, f=14"],
+      "related_topics": ["Atomic Orbitals", "Quantum Numbers", "Aufbau Principle", "Hund's Rule"],
+      "prerequisites": ["Atomic Orbitals"],
+      "diagram_recommendations": ["[DIAGRAM: Orbital diagram box showing two electrons with opposite-direction arrows in one orbital]"]
+    },
+
+    {
+      "id": "chem-037-hunds-rule",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Hund's Rule",
+      "difficulty": "Higher",
+      "description": "The rule that electrons occupy separate orbitals of equal energy singly, with parallel spins, before any pairing occurs within a subshell.",
+      "learning_objectives": [
+        "State Hund's rule",
+        "Apply Hund's rule to draw orbital diagrams for p and d subshells",
+        "Explain why this arrangement is more stable than early pairing"
+      ],
+      "explanation": "Hund's rule states that, when filling a subshell containing more than one orbital of equal energy (e.g. the three p orbitals or five d orbitals), electrons will occupy separate orbitals singly, all with parallel (same-direction) spins, before any two electrons are forced to pair up in the same orbital. This arrangement is more stable (lower energy) than pairing electrons early, because electrons in different orbitals with parallel spins repel each other less than two electrons forced to occupy the same small region of space in a single orbital, and this arrangement also benefits from a quantum mechanical effect called exchange energy, which further stabilises unpaired, parallel-spin configurations.",
+      "key_concepts": ["Single occupancy before pairing", "Parallel spins for unpaired electrons", "Applies within a subshell (equal-energy orbitals)", "Lower energy than early pairing"],
+      "definitions": [
+        {"term": "Hund's rule", "definition": "The rule that electrons occupy separate orbitals of equal energy singly, with parallel spins, before any two electrons pair up within the same orbital."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Use Hund's rule to describe the arrangement of electrons in the 2p subshell of an oxygen atom (2p4).",
+          "working": "Place one electron in each of the three 2p orbitals first (3 electrons used), then place the fourth electron by pairing it with one of the three already-occupied orbitals.",
+          "answer": "Two orbitals contain one unpaired electron each; one orbital contains a pair of electrons (opposite spins). Overall: ↑↓ ↑ ↑ across the three 2p orbitals."
+        }
+      ],
+      "practical_applications": ["Hund's rule explains the magnetic properties of many transition metal ions, since unpaired electrons (predicted by Hund's rule) give rise to paramagnetism"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Pairing electrons in the first available orbital of a subshell before spreading single electrons across all the orbitals of that subshell"],
+      "misconceptions": ["Believing Hund's rule applies across different subshells (e.g. between s and p) — it applies specifically within a single subshell's set of equal-energy orbitals"],
+      "tips": ["A simple analogy: like people boarding a bus, individuals tend to spread out across empty pairs of seats first, before anyone sits directly next to a stranger (pairs up)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State Hund's rule.", "answer": "Electrons occupy separate orbitals of equal energy singly, with parallel spins, before any pairing occurs."},
+          {"question": "How many of nitrogen's three 2p electrons are unpaired, according to Hund's rule?", "answer": "All three (each occupies a separate 2p orbital singly)."}
+        ],
+        "intermediate": [
+          {"question": "Draw (describe in words) the orbital diagram for the 2p subshell of a carbon atom (2p2), applying Hund's rule.", "answer": "Carbon has two 2p electrons. Following Hund's rule, they occupy two separate 2p orbitals singly, each with the same (parallel) spin direction, rather than pairing up in the same orbital: e.g. ↑ ↑ (blank) across the three 2p orbitals."},
+          {"question": "Explain why Hund's rule leads to a lower-energy arrangement than pairing electrons in the same orbital as early as possible.", "answer": "Electrons repel each other due to their negative charge. Two electrons forced into the same orbital are much closer together on average than two electrons in separate orbitals, increasing electron-electron repulsion and raising the overall energy. Spreading electrons into separate orbitals first, with parallel spins, minimises this repulsion (and also gains extra stabilisation from exchange energy), giving a lower-energy, more stable configuration."}
+        ],
+        "advanced": [
+          {"question": "Explain why a half-filled subshell (e.g. 3d5) tends to be a particularly stable electron arrangement, referring to Hund's rule.", "answer": "In a half-filled subshell (such as five electrons in five d orbitals), Hund's rule results in every electron being unpaired, each occupying a separate orbital with parallel spin. This arrangement maximises the number of parallel-spin electron pairs available for exchange energy stabilisation and minimises electron-electron repulsion (since no orbital contains a paired, repelling pair of electrons), giving the half-filled arrangement extra stability compared to configurations with a similar but not exactly half-filled electron count. This extra stability is part of the reason some elements (e.g. chromium) adopt an electron configuration that deviates from the simplest Aufbau prediction in order to achieve a half-filled d subshell."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "State Hund's rule and use it to describe how the two electrons in the 3p subshell of a silicon atom (3p2) would be arranged.", "marks": 3, "model_answer": "Hund's rule states that electrons occupy separate orbitals of equal energy singly, with parallel spins, before any pairing occurs (1 mark). For silicon's two 3p electrons, this means they occupy two of the three separate 3p orbitals, each singly, with the same (parallel) spin direction, rather than pairing together in one orbital (1 mark), because this minimises electron-electron repulsion and gives the lowest-energy, most stable arrangement (1 mark)."}
+      ],
+      "summary": "Hund's rule states that electrons fill separate orbitals of equal energy singly, with parallel spins, before pairing occurs, minimising electron-electron repulsion and giving the most stable configuration.",
+      "revision_notes": ["Hund's rule: single occupancy (parallel spin) before pairing, within a subshell", "Applies to p, d, f subshells (multiple orbitals of equal energy)", "Minimises repulsion; gains exchange energy stabilisation"],
+      "related_topics": ["Atomic Orbitals", "Pauli Exclusion Principle", "Aufbau Principle", "Electron Configuration"],
+      "prerequisites": ["Pauli Exclusion Principle"],
+      "diagram_recommendations": ["[DIAGRAM: Orbital diagram comparing correct (Hund's rule) vs incorrect early-pairing arrangement for a p3 configuration]"]
+    }
+  ]
+}

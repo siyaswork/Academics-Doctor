@@ -1,0 +1,555 @@
+{
+  "batch": "08",
+  "category": "Chemical Bonding",
+  "topics_in_batch": 10,
+  "topics_completed_so_far": 95,
+  "topics_remaining_total": 404,
+  "topics": [
+
+    {
+      "id": "chem-086-covalent-structures",
+      "subject": "Chemistry",
+      "category": "Chemical Bonding",
+      "title": "Covalent Structures",
+      "difficulty": "Higher",
+      "description": "The two broad categories of covalently bonded substance — simple molecular structures and giant covalent structures — and their contrasting physical properties.",
+      "learning_objectives": [
+        "Distinguish simple molecular structures from giant covalent structures",
+        "Compare their typical physical properties",
+        "Give examples of each structure type"
+      ],
+      "explanation": "Covalently bonded substances fall into two broad structural categories. Simple molecular structures consist of small, discrete molecules (e.g. H2O, CO2, CH4), where atoms within each molecule are held together by strong covalent bonds, but separate molecules are only held to each other by much weaker intermolecular forces. Giant covalent structures (also called macromolecular structures), such as diamond, graphite and silicon dioxide, consist of a vast, continuous network of atoms all joined by strong covalent bonds throughout the entire structure, with no separate small molecules present. This structural difference explains why simple molecular substances typically have low melting and boiling points (since only weak intermolecular forces between molecules need to be overcome to melt/boil them, not the strong covalent bonds within each molecule), while giant covalent structures have extremely high melting points (since many strong covalent bonds throughout the whole structure must be broken).",
+      "key_concepts": ["Simple molecular vs giant covalent structures", "Intramolecular (strong) vs intermolecular (weak) forces", "Melting point differences explained by structure"],
+      "definitions": [
+        {"term": "Simple molecular structure", "definition": "A covalent structure consisting of small, discrete molecules held together internally by strong covalent bonds, but to each other only by weak intermolecular forces."},
+        {"term": "Giant covalent structure", "definition": "A covalent structure consisting of a continuous network of atoms joined throughout by strong covalent bonds, with no separate small molecules."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Explain why carbon dioxide (CO2) has a much lower melting point than silicon dioxide (SiO2), even though both contain strong covalent bonds.",
+          "working": "CO2 is a simple molecular structure (discrete molecules held together by weak intermolecular forces); SiO2 is a giant covalent structure (continuous network of strong covalent bonds).",
+          "answer": "Melting CO2 only requires overcoming weak intermolecular forces between separate CO2 molecules, needing little energy, giving a low melting point. Melting SiO2 requires breaking a vast number of strong covalent bonds throughout its giant structure, needing much more energy, giving a very high melting point."
+        }
+      ],
+      "practical_applications": ["Understanding structure type is essential for predicting material properties in engineering and materials selection, from lubricants (graphite) to cutting tools (diamond) to everyday gases (CO2, O2)"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Assuming a substance with 'strong covalent bonds' must automatically have a high melting point — the key distinction is whether those strong bonds extend throughout a giant structure or are confined within small, separate molecules held together only weakly"],
+      "misconceptions": ["Believing the covalent bonds themselves are weaker in simple molecular substances compared to giant covalent structures — the covalent bonds within a molecule (e.g. within CO2) are just as strong as those in a giant structure; the difference lies in the weak forces between separate molecules, not the strength of the covalent bonds themselves"],
+      "tips": ["When explaining low melting points of simple molecular substances, always specify that it is the weak INTERmolecular forces being overcome, not the strong covalent bonds within each molecule, which remain intact during melting/boiling"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Name one example of a simple molecular structure.", "answer": "Any one of: H2O, CO2, CH4, O2, Cl2 (or similar)."},
+          {"question": "Name one example of a giant covalent structure.", "answer": "Any one of: diamond, graphite, silicon dioxide."}
+        ],
+        "intermediate": [
+          {"question": "Explain why iodine (a simple molecular substance) has a much lower melting point than diamond (a giant covalent structure).", "answer": "Iodine exists as discrete I2 molecules, held together only by weak intermolecular (London dispersion) forces between separate molecules; melting iodine only requires overcoming these weak forces, needing relatively little energy. Diamond consists of a giant, continuous network in which every carbon atom is joined to four others by strong covalent bonds throughout the entire structure; melting diamond would require breaking a vast number of these strong covalent bonds, requiring an enormous amount of energy, giving diamond an extremely high melting point in comparison."}
+        ],
+        "advanced": [
+          {"question": "Explain why, when a simple molecular substance like ice melts, the covalent O-H bonds within each water molecule remain intact, while the substance still changes from solid to liquid.", "answer": "In ice, individual water molecules are held together internally by strong covalent O-H bonds, which are not affected during melting. What changes during melting is the arrangement and mobility of the separate molecules relative to one another, which are held in the solid ice structure by weaker intermolecular forces (hydrogen bonding, in the case of water). Melting only requires enough energy to disrupt these weaker intermolecular forces, allowing the still-intact water molecules to move more freely past one another as a liquid, without requiring the far greater energy needed to break the strong covalent bonds within each individual molecule."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Compare the structure and bonding of carbon dioxide and silicon dioxide, and use this to explain the large difference in their melting points.", "marks": 4, "model_answer": "Carbon dioxide is a simple molecular structure, consisting of small, discrete CO2 molecules held together only by weak intermolecular forces (1 mark), while silicon dioxide is a giant covalent structure, with a continuous network of silicon and oxygen atoms joined throughout by strong covalent bonds (1 mark). Melting carbon dioxide only requires overcoming the weak intermolecular forces between separate molecules, needing relatively little energy and giving a low melting/sublimation point (1 mark). Melting silicon dioxide requires breaking a vast number of strong covalent bonds throughout the giant structure, requiring far more energy, giving silicon dioxide a very high melting point in comparison (1 mark)."}
+      ],
+      "summary": "Covalent substances are either simple molecular (small molecules, weak intermolecular forces between them, low melting points) or giant covalent (continuous network of strong covalent bonds throughout, very high melting points), a key structural distinction explaining large differences in physical properties.",
+      "revision_notes": ["Simple molecular: small molecules, strong bonds WITHIN, weak forces BETWEEN → low melting point", "Giant covalent: continuous strong bonds throughout → very high melting point", "Examples: simple (CO2, H2O, CH4); giant (diamond, graphite, SiO2)"],
+      "related_topics": ["Simple Molecular Structures", "Giant Covalent Structures", "Intermolecular Forces"],
+      "prerequisites": ["Covalent Bonding"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-087-lewis-structures",
+      "subject": "Chemistry",
+      "category": "Chemical Bonding",
+      "title": "Lewis Structures",
+      "difficulty": "Higher",
+      "description": "Diagrams showing the arrangement of valence electrons (bonding pairs and lone pairs) around atoms in a molecule or ion.",
+      "learning_objectives": [
+        "Define a Lewis structure",
+        "Draw Lewis structures for simple molecules and ions",
+        "Use Lewis structures to identify bonding and lone pairs, essential for VSEPR predictions"
+      ],
+      "explanation": "A Lewis structure (or Lewis diagram) is a way of representing a molecule or ion that shows all valence electrons, arranged as either shared bonding pairs (represented as a line, or a pair of dots, between two bonded atoms) or lone (non-bonding) pairs (represented as pairs of dots on a single atom). Lewis structures follow the octet rule as a guiding principle wherever possible: each atom (except hydrogen, which needs only 2 electrons) is typically shown with 8 electrons around it, either as bonding pairs shared with neighbouring atoms or as lone pairs. Constructing a Lewis structure typically involves: counting the total number of valence electrons available; arranging atoms with the least electronegative atom (excluding hydrogen) usually placed centrally; connecting atoms with single bonds initially; then distributing the remaining electrons as lone pairs to satisfy the octet rule, converting lone pairs to additional bonding pairs (forming double or triple bonds) if any atom does not yet have a full octet.",
+      "key_concepts": ["Represents all valence electrons: bonding and lone pairs", "Follows the octet rule (where possible)", "Systematic construction method", "Basis for predicting molecular shape via VSEPR"],
+      "definitions": [
+        {"term": "Lewis structure", "definition": "A diagram showing the arrangement of valence electrons (as bonding pairs and lone pairs) around the atoms in a molecule or ion."},
+        {"term": "Lone pair", "definition": "A pair of valence electrons on an atom that is not involved in bonding with another atom."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Construct the Lewis structure for ammonia, NH3.",
+          "working": "Total valence electrons: N (5) + 3×H (1 each) = 8 electrons, or 4 pairs. Nitrogen is placed centrally, bonded to each of the 3 hydrogen atoms with a single bond (using 3 pairs), leaving 1 pair remaining.",
+          "answer": "Nitrogen has three N-H single bonds (3 bonding pairs) plus one lone pair of electrons on nitrogen, giving nitrogen a full octet (3×2 bonding electrons + 2 lone pair electrons = 8) and each hydrogen a full duet (2 electrons)."
+        }
+      ],
+      "practical_applications": ["Lewis structures are the essential first step in predicting molecular shape (via VSEPR theory), bond polarity, and reactivity in both introductory and advanced chemistry"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Forgetting to include lone pairs on the outer (terminal) atoms, focusing only on the bonding pairs", "Miscounting total valence electrons, especially for ions (remembering to add electrons for a negative charge, or subtract for a positive charge)"],
+      "misconceptions": ["Believing every atom must always achieve exactly 8 electrons without exception — hydrogen requires only 2, and some exceptions (e.g. boron trifluoride with only 6 electrons around boron, or expanded octets for some larger central atoms) exist beyond the basic octet rule"],
+      "tips": ["Follow a consistent method: (1) count total valence electrons, (2) arrange atoms with the central atom identified, (3) place single bonds between all connected atoms, (4) distribute remaining electrons as lone pairs to complete octets, (5) form multiple bonds if any atom lacks a full octet"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State what a Lewis structure shows.", "answer": "The arrangement of all valence electrons (bonding pairs and lone pairs) around the atoms in a molecule or ion."},
+          {"question": "State the total number of valence electrons in a molecule of water, H2O.", "answer": "O (6) + 2×H (1 each) = 8 electrons (4 pairs)."}
+        ],
+        "intermediate": [
+          {"question": "Construct the Lewis structure for carbon dioxide, CO2, and explain why double bonds are needed.", "answer": "Total valence electrons: C (4) + 2×O (6 each) = 16 electrons (8 pairs). If only single bonds were used, carbon would have only 4 electrons around it (2 bonding pairs) and would not achieve a full octet. Instead, carbon forms a double bond with each oxygen atom, giving carbon 8 electrons total (4 bonding pairs from the two double bonds) and each oxygen a full octet (4 from its double bond to carbon, plus 2 lone pairs each)."},
+          {"question": "Construct the Lewis structure for the hydroxide ion, OH−.", "answer": "Total valence electrons: O (6) + H (1) + 1 (for the negative charge) = 8 electrons (4 pairs). Oxygen and hydrogen are joined by a single covalent bond (1 bonding pair), and oxygen has 3 lone pairs, giving oxygen a full octet (2 from the bond + 6 from three lone pairs) and hydrogen a full duet."}
+        ],
+        "advanced": [
+          {"question": "Construct the Lewis structure for the nitrate ion, NO3−, and explain why this ion is often described using resonance structures.", "answer": "Total valence electrons: N (5) + 3×O (6 each) + 1 (for the negative charge) = 24 electrons (12 pairs). Nitrogen is bonded to three oxygen atoms; to satisfy the octet rule for nitrogen while using all 24 electrons, one N-O bond must be a double bond while the other two are single bonds, with lone pairs distributed on the oxygen atoms to complete their octets. However, since all three N-O bonds in the real ion are experimentally found to have identical, intermediate bond lengths (between a single and double bond), no single Lewis structure with one fixed double bond location accurately represents the true, symmetric structure. Instead, the nitrate ion is described using resonance: multiple equivalent Lewis structures (with the double bond shown in each of the three possible positions) are drawn, and the true structure is understood as an average, or hybrid, of these resonance structures, with the double bond character delocalised equally across all three N-O bonds rather than fixed in one place."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Construct the Lewis structure for methane, CH4, stating the total number of valence electrons used and confirming that both carbon and each hydrogen atom achieve a stable electron arrangement.", "marks": 3, "model_answer": "Total valence electrons: C (4) + 4×H (1 each) = 8 electrons (4 pairs) (1 mark). Carbon forms a single covalent bond with each of the four hydrogen atoms, using all 4 pairs of electrons as 4 bonding pairs (1 mark). This gives carbon a full outer shell of 8 electrons (4 bonding pairs) and each hydrogen atom a full outer shell of 2 electrons (1 bonding pair each), with no lone pairs remaining (1 mark)."}
+      ],
+      "summary": "Lewis structures show all valence electrons in a molecule or ion as bonding pairs and lone pairs, constructed systematically to satisfy the octet rule (or duet rule for hydrogen) wherever possible, and form the essential basis for predicting molecular shape.",
+      "revision_notes": ["Lewis structure: shows ALL valence electrons (bonding + lone pairs)", "Method: count electrons → arrange atoms → single bonds → complete octets → form multiple bonds if needed", "Basis for VSEPR shape prediction"],
+      "related_topics": ["Dot-and-Cross Diagrams", "VSEPR Theory", "Molecular Shapes"],
+      "prerequisites": ["Covalent Bonding", "Valence Electrons"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-088-dot-and-cross-diagrams",
+      "subject": "Chemistry",
+      "category": "Chemical Bonding",
+      "title": "Dot-and-Cross Diagrams",
+      "difficulty": "Foundation",
+      "description": "A specific style of diagram showing bonding using dots and crosses to distinguish which atom each electron originally came from.",
+      "learning_objectives": [
+        "Draw dot-and-cross diagrams for simple ionic and covalent species",
+        "Explain the purpose of using different symbols (dots and crosses) for electrons",
+        "Distinguish dot-and-cross diagrams used for ionic vs covalent bonding"
+      ],
+      "explanation": "A dot-and-cross diagram is a specific type of electron diagram, closely related to a Lewis structure, in which electrons originating from one atom are shown as dots, and electrons originating from the other atom are shown as crosses, making it visually clear which atom contributed which electron(s) to a bond. For covalent bonding, a shared pair is shown as one dot and one cross positioned together in the overlapping region between the two atoms' outer shells, with any remaining (non-bonding, lone pair) electrons shown around the relevant atom using the appropriate symbol. For ionic bonding, dot-and-cross diagrams show the complete transfer of electrons from one atom (shown as, for example, crosses) to another (shown as, for example, dots), with each resulting ion enclosed in square brackets and its charge shown outside, since after transfer there is no ambiguity about the origin — the point is simply to show the full outer shell clearly.",
+      "key_concepts": ["Dots and crosses distinguish electron origin", "Covalent: shared pair (one dot + one cross) in overlap region", "Ionic: full transfer, ions in square brackets with charge"],
+      "definitions": [
+        {"term": "Dot-and-cross diagram", "definition": "A diagram showing the electrons in a bond using dots for electrons from one atom and crosses for electrons from the other, to indicate their origin."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Describe how a dot-and-cross diagram for oxygen gas, O2, would represent its double covalent bond.",
+          "working": "Each oxygen atom needs 2 more electrons for a full outer shell. Two shared pairs (a double bond) form between the two oxygen atoms.",
+          "answer": "The diagram shows two overlapping pairs of dots and crosses between the two oxygen atoms (representing the double bond), with each oxygen atom also showing two remaining lone pairs of its own electrons (using its assigned symbol, dot or cross) to complete its octet."
+        }
+      ],
+      "practical_applications": ["Dot-and-cross diagrams are a standard teaching and communication tool throughout introductory and advanced inorganic and organic chemistry for representing bonding clearly"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Using the same symbol (all dots, or all crosses) for every electron, which removes the diagram's key purpose of showing which atom each electron came from"],
+      "misconceptions": ["Believing dots and crosses represent physically different types of electron — all electrons are identical; the different symbols are purely a labelling convention used to track origin for clarity in the diagram, not an actual physical difference"],
+      "tips": ["Always show only the outer (valence) shell electrons in a dot-and-cross diagram — inner, non-bonding shells are not shown, since they are not involved in bonding"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the purpose of using dots and crosses (rather than all the same symbol) in a bonding diagram.", "answer": "To show clearly which atom each electron originally came from."},
+          {"question": "State how a shared pair of electrons is shown in a covalent dot-and-cross diagram.", "answer": "As one dot and one cross positioned together in the overlapping region between the two atoms."}
+        ],
+        "intermediate": [
+          {"question": "Describe how a dot-and-cross diagram for magnesium chloride, MgCl2, would show the formation of ions.", "answer": "The magnesium atom would show its two outer electrons (e.g. as crosses) being transferred, one to each of two separate chlorine atoms. Each chlorine atom (with its own seven outer electrons, shown as dots) would then show a full outer shell of eight electrons, including the one transferred electron from magnesium (shown as a cross among the dots). The resulting Mg2+ ion (with no outer electrons remaining) and the two separate Cl− ions (each with 8 electrons, one shown as a cross) would each be enclosed in square brackets with their appropriate charge (2+ for magnesium, 1− for each chloride) shown outside."}
+        ],
+        "advanced": [
+          {"question": "Explain why, in a dot-and-cross diagram for a dative covalent bond, both electrons in the shared pair might initially be shown using the same symbol, even though this bond is still a shared pair like an ordinary covalent bond.", "answer": "In a dative covalent bond, both electrons genuinely do originate from the same donor atom before bonding occurs (unlike an ordinary covalent bond, where one electron comes from each atom). To accurately reflect this origin, both electrons in the shared pair are shown using the same symbol (matching whichever symbol represents the donor atom's electrons) prior to and immediately after bond formation, sometimes with an arrow additionally used in displayed formulae to further emphasise the direction of donation from donor to acceptor; this remains consistent with the general principle of dot-and-cross diagrams reflecting electron origin, since the origin genuinely is a single atom in this case."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Draw a dot-and-cross diagram (describe in words) for the covalent bonding in a molecule of hydrogen chloride, HCl, showing all outer-shell electrons.", "marks": 3, "model_answer": "The hydrogen atom's single electron (shown as, e.g., a dot) and one of chlorine's seven outer electrons (shown as a cross) are drawn together as a shared pair in the overlapping region between the two atoms (1 mark). The remaining six outer electrons of chlorine are shown as three lone pairs (each pair of crosses) around the rest of the chlorine atom (1 mark), giving hydrogen a full outer shell of 2 electrons and chlorine a full outer shell of 8 electrons (1 mark)."}
+      ],
+      "summary": "Dot-and-cross diagrams represent bonding using dots and crosses to show which atom each electron originated from, clarifying electron transfer in ionic bonding or electron sharing in covalent bonding, with all outer-shell electrons shown explicitly.",
+      "revision_notes": ["Dots/crosses = origin labels only, not physically different electrons", "Covalent: shared pair (dot+cross) in overlap zone; show lone pairs too", "Ionic: full transfer shown; ions in square brackets with charge"],
+      "related_topics": ["Ionic Bonding", "Covalent Bonding", "Lewis Structures"],
+      "prerequisites": ["Ionic Bonding", "Covalent Bonding"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-089-electronegativity-and-bond-polarity",
+      "subject": "Chemistry",
+      "category": "Chemical Bonding",
+      "title": "Electronegativity and Bond Polarity",
+      "difficulty": "Higher",
+      "description": "How differences in electronegativity between bonded atoms create polar or non-polar covalent bonds, and the continuous spectrum from covalent to ionic bonding.",
+      "learning_objectives": [
+        "Explain how electronegativity difference determines bond polarity",
+        "Represent bond polarity using partial charge notation and dipole arrows",
+        "Describe bonding as existing on a continuous spectrum from non-polar covalent to ionic"
+      ],
+      "explanation": "When two atoms with different electronegativities form a covalent bond, the more electronegative atom attracts the shared pair of bonding electrons more strongly, resulting in an uneven distribution of electron density along the bond. This gives the more electronegative atom a slightly negative charge (denoted δ−) and the less electronegative atom a slightly positive charge (denoted δ+), a phenomenon called bond polarity; such a bond is described as polar covalent. This partial charge separation can be shown using a small arrow (crossed at the tail, pointing towards the more electronegative atom) called a dipole, or using δ+/δ− notation directly on the structure. When electronegativity difference is very small or zero (e.g. between identical atoms, or between atoms of very similar electronegativity), the bond is non-polar covalent. When electronegativity difference is very large, electron transfer becomes essentially complete rather than merely uneven sharing, and the bond is better described as ionic. In reality, bonding exists on a continuous spectrum from non-polar covalent through polar covalent to ionic, rather than in strictly separate categories, with commonly cited numerical electronegativity difference thresholds serving only as useful approximate guides.",
+      "key_concepts": ["Electronegativity difference creates uneven electron sharing", "δ+/δ− notation and dipole arrows", "Continuous spectrum: non-polar → polar covalent → ionic"],
+      "definitions": [
+        {"term": "Bond polarity", "definition": "The uneven distribution of electron density along a covalent bond, arising from a difference in electronegativity between the bonded atoms."},
+        {"term": "Dipole", "definition": "A separation of partial positive and partial negative charge across a bond, often represented by a crossed arrow pointing towards the more electronegative atom."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Explain the bond polarity in a molecule of hydrogen fluoride, HF, given that fluorine is considerably more electronegative than hydrogen.",
+          "working": "Fluorine attracts the shared bonding electron pair more strongly than hydrogen, due to its greater electronegativity.",
+          "answer": "The H-F bond is polar covalent, with fluorine carrying a partial negative charge (δ−) and hydrogen carrying a partial positive charge (δ+), which can be shown with a dipole arrow pointing from hydrogen towards fluorine."
+        }
+      ],
+      "practical_applications": ["Bond and molecular polarity underlie solubility behaviour (like dissolves like), boiling point trends, and the function of many biological and industrial molecules"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Forgetting that a molecule can contain polar bonds but still be non-polar overall, if the bond dipoles are arranged symmetrically and cancel out (see Molecular Polarity)"],
+      "misconceptions": ["Believing there is a single, precisely defined electronegativity difference value that sharply separates 'covalent' from 'ionic' — bonding character is continuous, and commonly cited numerical cutoffs (e.g. around 1.7-1.8) are useful approximations, not exact boundaries"],
+      "tips": ["The dipole arrow always points from the less electronegative (δ+) atom towards the more electronegative (δ−) atom, with the crossed tail on the δ+ end"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State which atom in a C-O bond carries the partial negative charge, given oxygen is more electronegative than carbon.", "answer": "Oxygen (δ−); carbon carries the partial positive charge (δ+)."},
+          {"question": "State the term used to describe a bond between two atoms of the same element (e.g. Cl-Cl).", "answer": "Non-polar covalent"}
+        ],
+        "intermediate": [
+          {"question": "Explain why the C-Cl bond in chloromethane, CH3Cl, is polar.", "answer": "Chlorine is more electronegative than carbon, so it attracts the shared pair of bonding electrons in the C-Cl bond more strongly than carbon does. This creates an uneven distribution of electron density, giving chlorine a partial negative charge (δ−) and carbon a partial positive charge (δ+), making the C-Cl bond polar covalent."}
+        ],
+        "advanced": [
+          {"question": "Explain why bonding is better described as a continuous spectrum rather than as three strictly separate categories (non-polar covalent, polar covalent, ionic).", "answer": "Electronegativity difference between two bonded atoms can take any value along a continuous numerical range, from zero (identical atoms) up to very large values (e.g. between a highly electropositive metal and a highly electronegative non-metal). As this difference increases gradually, the sharing of the bonding electron pair becomes progressively less even, moving smoothly from perfectly equal sharing (non-polar covalent) through increasingly uneven sharing (polar covalent) towards what is, in the extreme, essentially complete electron transfer (ionic). There is no sudden, sharp transition at any single specific electronegativity difference value; rather, real bonds show varying degrees of ionic or covalent character depending on where they fall along this continuous range, and even compounds typically described as 'ionic' usually have some degree of covalent character (and vice versa), making the three-category system a useful simplification rather than a strict physical division."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Using electronegativity, explain why the H-Cl bond is polar, and represent this polarity using the δ+/δ− notation and a dipole arrow.", "marks": 3, "model_answer": "Chlorine has a higher electronegativity than hydrogen, so it attracts the shared pair of bonding electrons more strongly (1 mark). This creates an uneven distribution of electron density, giving chlorine a partial negative charge (δ−) and hydrogen a partial positive charge (δ+) (1 mark). This can be shown as δ+H-Clδ−, with a dipole arrow (crossed tail) drawn from hydrogen pointing towards chlorine (1 mark)."}
+      ],
+      "summary": "Electronegativity differences between bonded atoms cause polar covalent bonding, with the more electronegative atom gaining a partial negative charge. Bond character exists on a continuous spectrum from non-polar covalent through polar covalent to ionic, rather than in strict categories.",
+      "revision_notes": ["Greater electronegativity → attracts shared electrons more → δ−", "Dipole arrow: points towards more electronegative (δ−) atom, crossed tail at δ+", "Bonding is a continuous spectrum: non-polar covalent → polar covalent → ionic"],
+      "related_topics": ["Electronegativity", "Polar Bonds", "Non-Polar Bonds", "Molecular Polarity"],
+      "prerequisites": ["Electronegativity", "Covalent Bonding"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-090-polar-bonds",
+      "subject": "Chemistry",
+      "category": "Chemical Bonding",
+      "title": "Polar Bonds",
+      "difficulty": "Higher",
+      "description": "Covalent bonds with an uneven distribution of electron density due to an electronegativity difference between the bonded atoms.",
+      "learning_objectives": [
+        "Define a polar covalent bond",
+        "Identify polar bonds in a given molecule using electronegativity data",
+        "Explain the significance of polar bonds for physical and chemical properties"
+      ],
+      "explanation": "A polar covalent bond is a covalent bond in which the shared pair of electrons is distributed unevenly between the two bonded atoms, due to a difference in their electronegativity. This gives rise to a permanent dipole, with the more electronegative atom carrying a partial negative charge (δ−) and the less electronegative atom carrying a partial positive charge (δ+). Common examples of polar bonds include O-H (found in water and alcohols), N-H (found in ammonia and amines), and C-Cl (found in chloroalkanes). Polar bonds are responsible for permanent dipole-dipole intermolecular forces between molecules that possess an overall molecular dipole, and are central to understanding solubility (polar solvents dissolve polar/ionic solutes well) and certain reaction mechanisms (e.g. nucleophilic attack at the δ+ carbon of a polar C-X bond).",
+      "key_concepts": ["Uneven electron distribution due to electronegativity difference", "Creates a permanent dipole (δ+/δ−)", "Common examples: O-H, N-H, C-Cl", "Underlies dipole-dipole forces and certain reaction mechanisms"],
+      "definitions": [
+        {"term": "Polar covalent bond", "definition": "A covalent bond with an uneven distribution of electron density, due to an electronegativity difference between the bonded atoms, creating a permanent dipole."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Identify the more electronegative atom, and therefore the direction of polarity, in the O-H bond of water.",
+          "working": "Oxygen has a considerably higher electronegativity than hydrogen.",
+          "answer": "Oxygen is the more electronegative atom, carrying the partial negative charge (δ−); hydrogen carries the partial positive charge (δ+)."
+        }
+      ],
+      "practical_applications": ["The polar O-H bonds in water are central to its role as a solvent and to hydrogen bonding, essential to countless biological and industrial processes"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Assuming a molecule is automatically polar overall simply because it contains one or more polar bonds — the overall molecular polarity also depends on molecular shape and symmetry (see Molecular Polarity)"],
+      "misconceptions": ["Believing a polar bond involves complete, permanent movement of an electron entirely to one atom — the electrons are still shared (it remains a covalent bond), just unevenly, unlike the essentially complete transfer seen in ionic bonding"],
+      "tips": ["Common polar bonds to remember for exams: O-H, N-H, C-O, C-Cl, C-N — these appear repeatedly across organic and inorganic chemistry"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a polar covalent bond.", "answer": "A covalent bond with an uneven distribution of electron density due to an electronegativity difference between the bonded atoms."},
+          {"question": "State which atom carries the partial negative charge (δ−) in a polar bond.", "answer": "The more electronegative atom."}
+        ],
+        "intermediate": [
+          {"question": "Identify and explain the polarity of the C-O bond in methanol, CH3OH.", "answer": "Oxygen is more electronegative than carbon, so the C-O bond is polar, with oxygen carrying a partial negative charge (δ−) and carbon carrying a partial positive charge (δ+), due to oxygen attracting the shared bonding electrons more strongly."}
+        ],
+        "advanced": [
+          {"question": "Explain why the presence of a polar C-Cl bond in chloroethane makes the carbon atom susceptible to attack by nucleophiles.", "answer": "In the polar C-Cl bond, chlorine's higher electronegativity draws electron density away from carbon, giving the carbon atom a partial positive charge (δ+). Nucleophiles are electron-pair donors, attracted to regions of positive charge or electron deficiency; the δ+ carbon atom therefore acts as an electrophilic site that a nucleophile (e.g. a hydroxide ion, OH−) can be attracted to and attack, initiating substitution reactions such as those seen in the hydrolysis of halogenoalkanes."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain, with reference to electronegativity, why the N-H bond in ammonia is polar, and state the direction of the resulting dipole.", "marks": 3, "model_answer": "Nitrogen has a higher electronegativity than hydrogen (1 mark), so it attracts the shared pair of bonding electrons in the N-H bond more strongly than hydrogen does (1 mark). This creates a permanent dipole, with nitrogen carrying a partial negative charge (δ−) and hydrogen carrying a partial positive charge (δ+) (1 mark)."}
+      ],
+      "summary": "Polar covalent bonds have unevenly shared electron density due to an electronegativity difference, creating a permanent dipole with δ+ and δ− ends. Common examples (O-H, N-H, C-Cl) are central to intermolecular forces and reaction mechanisms.",
+      "revision_notes": ["Polar bond: uneven sharing due to electronegativity difference, permanent dipole", "More electronegative atom = δ−; less electronegative = δ+", "Common polar bonds: O-H, N-H, C-O, C-Cl, C-N"],
+      "related_topics": ["Non-Polar Bonds", "Electronegativity and Bond Polarity", "Molecular Polarity", "Permanent Dipole Forces"],
+      "prerequisites": ["Electronegativity and Bond Polarity"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-091-non-polar-bonds",
+      "subject": "Chemistry",
+      "category": "Chemical Bonding",
+      "title": "Non-Polar Bonds",
+      "difficulty": "Higher",
+      "description": "Covalent bonds with equal (or near-equal) electron sharing, occurring when bonded atoms have identical or very similar electronegativity.",
+      "learning_objectives": [
+        "Define a non-polar covalent bond",
+        "Identify non-polar bonds using electronegativity data",
+        "Explain when a molecule containing polar bonds can still be non-polar overall"
+      ],
+      "explanation": "A non-polar covalent bond is a covalent bond in which the shared pair of electrons is distributed evenly (or very nearly evenly) between the two bonded atoms, occurring when the bonded atoms have identical or very similar electronegativity. The clearest examples are bonds between two atoms of the same element, such as H-H, Cl-Cl or the C-C bond in a hydrocarbon, where electronegativity difference is exactly zero, since the atoms are identical. Non-polar bonds do not create a permanent dipole, so molecules made up entirely of non-polar bonds, arranged so that any small differences also cancel by symmetry, are typically non-polar overall and interact with other molecules only via weak London dispersion forces, not the stronger dipole-dipole forces or hydrogen bonding associated with polar molecules.",
+      "key_concepts": ["Equal electron sharing (zero or near-zero electronegativity difference)", "Common examples: bonds between identical atoms (H-H, Cl-Cl, C-C)", "No permanent dipole created"],
+      "definitions": [
+        {"term": "Non-polar covalent bond", "definition": "A covalent bond in which the shared pair of electrons is distributed evenly between the bonded atoms, due to identical or very similar electronegativity, creating no permanent dipole."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Explain why the Cl-Cl bond in a molecule of chlorine gas is non-polar.",
+          "working": "Both atoms in the bond are chlorine, and therefore have identical electronegativity.",
+          "answer": "Since both atoms are identical, there is no electronegativity difference, so the shared pair of bonding electrons is distributed exactly evenly between them, making the Cl-Cl bond non-polar."
+        }
+      ],
+      "practical_applications": ["Non-polar molecules such as oils and hydrocarbons are used as non-aqueous solvents and lubricants, exploiting their lack of polarity and consequent immiscibility with water"],
+      "laboratory_applications": ["Observing the immiscibility of non-polar substances (e.g. oil) with polar water as experimental evidence of the 'like dissolves like' principle related to bond and molecular polarity"],
+      "common_mistakes": ["Assuming that any bond between two different elements must automatically be polar — if the electronegativity difference between the two different elements is very small (e.g. C-H bonds are often treated as almost non-polar, since carbon and hydrogen have quite similar electronegativity), the bond can be considered close to non-polar in practice"],
+      "misconceptions": ["Believing a molecule with any non-polar bonds must itself be non-polar overall — the overall molecular polarity depends on the combination of ALL bond polarities present and the molecule's overall shape/symmetry, not just the presence of some non-polar bonds"],
+      "tips": ["The most reliable non-polar bonds to identify are those between two atoms of exactly the same element (e.g. Cl-Cl, O=O, C-C); the C-H bond is also often treated as very weakly polar/approximately non-polar due to carbon and hydrogen's similar electronegativity"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a non-polar covalent bond.", "answer": "A covalent bond in which the shared pair of electrons is distributed evenly between the bonded atoms, creating no permanent dipole."},
+          {"question": "State the electronegativity difference in a bond between two atoms of the same element.", "answer": "Zero"}
+        ],
+        "intermediate": [
+          {"question": "Explain why the C-C bonds in an alkane such as hexane are non-polar.", "answer": "Each C-C bond in hexane joins two carbon atoms, which are identical and therefore have exactly the same electronegativity. With no electronegativity difference, the shared pair of bonding electrons is distributed evenly between the two carbon atoms, making the C-C bond non-polar."}
+        ],
+        "advanced": [
+          {"question": "Explain why carbon dioxide, CO2, is a non-polar molecule overall, even though each individual C=O bond is polar.", "answer": "Each C=O bond in carbon dioxide is polar, since oxygen is more electronegative than carbon, giving each bond a dipole pointing from carbon towards oxygen. However, carbon dioxide has a linear molecular shape, with the two C=O bonds positioned at exactly 180° to each other (directly opposite). Because the two individual bond dipoles are equal in magnitude and point in exactly opposite directions, they cancel each other out completely by symmetry, resulting in no overall net molecular dipole, making carbon dioxide a non-polar molecule overall despite containing polar bonds."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why methane, CH4, despite containing four C-H bonds with a small electronegativity difference, is generally considered a non-polar molecule.", "marks": 3, "model_answer": "Carbon and hydrogen have quite similar electronegativity, so each C-H bond has very little polarity (1 mark). Additionally, methane has a symmetric tetrahedral shape with four identical C-H bonds arranged evenly around the central carbon atom (1 mark), so even any small individual bond dipoles that do exist cancel out by symmetry, giving methane no overall net dipole and making it a non-polar molecule overall (1 mark)."}
+      ],
+      "summary": "Non-polar covalent bonds have evenly shared electron density, occurring when bonded atoms have identical or very similar electronegativity (most clearly, bonds between atoms of the same element). Molecules can also be non-polar overall if polar bond dipoles cancel out due to symmetric shape.",
+      "revision_notes": ["Non-polar bond: equal sharing, zero/near-zero electronegativity difference", "Clearest examples: bonds between identical atoms (Cl-Cl, C-C, O=O)", "A molecule can be non-polar overall even with polar bonds, if dipoles cancel by symmetry"],
+      "related_topics": ["Polar Bonds", "Electronegativity and Bond Polarity", "Molecular Polarity", "London Dispersion Forces"],
+      "prerequisites": ["Electronegativity and Bond Polarity"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-092-metallic-bonding",
+      "subject": "Chemistry",
+      "category": "Chemical Bonding",
+      "title": "Metallic Bonding",
+      "difficulty": "Foundation",
+      "description": "The strong electrostatic attraction between positive metal ions and delocalised electrons, explaining the characteristic properties of metals.",
+      "learning_objectives": [
+        "Define metallic bonding",
+        "Describe the structure of a metallic lattice",
+        "Explain metallic properties (conductivity, malleability) in terms of this structure"
+      ],
+      "explanation": "Metallic bonding is the strong electrostatic attraction between positively charged metal ions, arranged in a regular lattice, and a 'sea' of delocalised electrons that are free to move throughout the entire structure, rather than being fixed to any single atom or ion. Each metal atom contributes its outer-shell (valence) electron(s) to this shared, delocalised pool, forming positive metal ions that are held in place by their mutual electrostatic attraction to the surrounding sea of electrons. This structure directly explains several characteristic metallic properties: metals conduct electricity well, because the delocalised electrons are free to move and carry charge throughout the structure; metals conduct heat well, because delocalised electrons can transfer kinetic energy rapidly throughout the lattice; metals are malleable and ductile, because the layers of positive ions can slide over one another when force is applied without breaking the overall metallic bonding, since the delocalised electrons continue to hold the (now-shifted) structure together, unlike the brittle fracture seen in ionic lattices.",
+      "key_concepts": ["Lattice of positive ions + sea of delocalised electrons", "Strong electrostatic attraction (ions ↔ delocalised electrons)", "Explains conductivity, malleability, ductility"],
+      "definitions": [
+        {"term": "Metallic bonding", "definition": "The strong electrostatic attraction between a lattice of positive metal ions and a surrounding sea of delocalised electrons."},
+        {"term": "Delocalised electrons", "definition": "Electrons that are not fixed to any single atom or bond, but are free to move throughout a structure, such as a metal lattice."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Metallic bonding underlies the use of metals in electrical wiring (conductivity), cookware (thermal conductivity), and manufacturing processes such as forging and wire-drawing (malleability, ductility)"],
+      "laboratory_applications": ["Testing the electrical conductivity of a metal sample as direct evidence of mobile, delocalised electrons"],
+      "common_mistakes": ["Believing metallic bonding involves discrete, fixed bonds between specific pairs of atoms, like covalent bonding — metallic bonding is a general, non-directional attraction throughout the whole structure between the ion lattice and the delocalised electron sea"],
+      "misconceptions": ["Believing metal atoms lose all their electrons in metallic bonding — only the outer-shell (valence) electron(s) become delocalised; inner-shell electrons remain associated with their respective ion cores"],
+      "tips": ["Remember the standard description: 'a lattice of positive ions surrounded by a sea of delocalised electrons', and always link each physical property back to either the strength of this attraction (melting point) or the mobility of the delocalised electrons/ability of ion layers to slide (conductivity, malleability)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define metallic bonding.", "answer": "The strong electrostatic attraction between a lattice of positive metal ions and a surrounding sea of delocalised electrons."},
+          {"question": "State why metals conduct electricity well.", "answer": "Because they contain delocalised electrons that are free to move throughout the structure and carry electric charge."}
+        ],
+        "intermediate": [
+          {"question": "Explain why metals are malleable, in terms of metallic bonding.", "answer": "When force is applied to a metal, layers of positive metal ions can slide over one another into a new position. Because the delocalised electrons are not fixed to specific ions or positions, they can continue to surround and hold together the ions even after this shift, maintaining the metallic bonding throughout; this allows metals to be reshaped (hammered into new shapes) without breaking, unlike the brittle fracture seen when an ionic lattice is forced to shift and like-charged ions repel."},
+          {"question": "Explain why increasing the number of delocalised electrons per atom generally increases a metal's melting point.", "answer": "A greater number of delocalised electrons per metal atom increases the strength of the electrostatic attraction between the positive ion lattice and the surrounding electron sea (more negative charge attracting the positive ions), strengthening the overall metallic bonding. Stronger metallic bonding requires more energy to overcome, giving a higher melting point."}
+        ],
+        "advanced": [
+          {"question": "Explain why magnesium generally has a higher melting point than sodium, referring to metallic bonding.", "answer": "Magnesium ions carry a 2+ charge and contribute two delocalised electrons per atom to the electron sea, while sodium ions carry only a 1+ charge and contribute just one delocalised electron per atom. Magnesium ions are also smaller than sodium ions. The combination of greater ionic charge, a greater density of delocalised electrons, and closer ionic packing in magnesium results in considerably stronger electrostatic attraction between the ion lattice and the electron sea compared to sodium, giving magnesium the stronger metallic bonding and therefore the higher melting point."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Describe the structure of metallic bonding, and use this structure to explain why metals are good conductors of electricity.", "marks": 3, "model_answer": "Metallic bonding consists of a regular lattice of positive metal ions, surrounded by a 'sea' of delocalised electrons that are free to move throughout the whole structure, held together by strong electrostatic attraction (1 mark). Because these delocalised electrons are not fixed to any particular ion, they are free to move through the metal structure (1 mark). When a voltage is applied, these mobile electrons can flow through the metal, carrying electric charge and allowing the metal to conduct electricity (1 mark)."}
+      ],
+      "summary": "Metallic bonding is the strong electrostatic attraction between a lattice of positive metal ions and a sea of delocalised electrons. This structure explains metals' electrical and thermal conductivity (mobile electrons) and malleability/ductility (ion layers can slide without breaking overall bonding).",
+      "revision_notes": ["Metallic bonding: lattice of positive ions + sea of delocalised electrons", "Conductivity: mobile delocalised electrons carry charge/heat", "Malleable/ductile: layers of ions slide, electron sea re-forms around new positions", "Stronger bonding (higher melting point) with greater ionic charge, more delocalised electrons, smaller ionic radius"],
+      "related_topics": ["Metallic Structures", "Properties of Metals", "Metals"],
+      "prerequisites": ["Chemical Bonds", "Metals"],
+      "diagram_recommendations": ["[DIAGRAM: Metallic lattice showing positive ions surrounded by a sea of delocalised electrons]"],
+      "images": [
+        {
+          "filename": "chem-090-metallic-bonding.svg",
+          "type": "diagram",
+          "description": "A grid of blue circles marked '+' representing positive metal ions in a fixed lattice, with numerous small red dots scattered throughout and between the ions representing the delocalised sea of electrons, with a caption explaining the two components of the structure.",
+          "purpose": "Gives a concrete visual of the abstract 'sea of electrons' model of metallic bonding described in the text, distinguishing the fixed ion lattice from the mobile delocalised electrons.",
+          "placement": "After the main explanation paragraph, before the key concepts list."
+        }
+      ]
+    },
+
+    {
+      "id": "chem-093-metallic-structures",
+      "subject": "Chemistry",
+      "category": "Chemical Bonding",
+      "title": "Metallic Structures",
+      "difficulty": "Higher",
+      "description": "The regular, close-packed arrangement of ions in a metallic lattice, and how this structure relates to metallic properties.",
+      "learning_objectives": [
+        "Describe the typical close-packed arrangement of a metallic structure",
+        "Explain the concept of coordination number in a metallic lattice",
+        "Relate metallic structure to physical properties such as density and hardness"
+      ],
+      "explanation": "Most metals adopt a giant metallic structure in which positive metal ions are packed together as closely and efficiently as possible, in a regular, repeating three-dimensional arrangement, to maximise the strength of the electrostatic attraction with the surrounding delocalised electron sea while minimising the overall energy of the structure. Common metallic structures include close-packed arrangements in which each metal ion is directly surrounded by 12 neighbouring ions (a high coordination number), contributing to the generally high density and hardness of many metals. The specific arrangement and packing efficiency can vary between different metals, contributing to differences in properties such as density, melting point and hardness even among metals with similar metallic bonding strength.",
+      "key_concepts": ["Close-packed, regular, repeating 3D arrangement", "High coordination number (often 12) in metallic lattices", "Structure relates to density, hardness"],
+      "definitions": [],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Understanding metallic packing efficiency assists in predicting and engineering the density and mechanical properties of metals and alloys used in construction and manufacturing"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Confusing metallic structure (the physical, geometric packing arrangement of ions) with metallic bonding (the electrostatic attraction that holds the structure together) — the two concepts are related but distinct"],
+      "misconceptions": ["Believing all metals have identical structures with identical coordination numbers — different metals can adopt different close-packed (or, less commonly, less efficiently packed) arrangements, contributing to varied physical properties across different metallic elements"],
+      "tips": ["Remember that metallic structures aim for efficient, close packing of ions (unlike ionic lattices, which are arranged based on the specific size ratio and charge balance between two different types of ion)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the typical coordination number in a close-packed metallic structure.", "answer": "12"},
+          {"question": "State why metal ions in a metallic structure tend to pack closely together.", "answer": "To maximise the strength of electrostatic attraction with the surrounding sea of delocalised electrons and minimise the overall energy of the structure."}
+        ],
+        "intermediate": [
+          {"question": "Explain why metals generally have a relatively high density compared to many non-metallic solids.", "answer": "Metal ions in a metallic structure are typically packed together very closely and efficiently (close-packing, with a high coordination number, commonly 12), leaving relatively little empty space between the ions. This close, efficient packing means a large amount of mass is contained within a relatively small volume, giving metals their generally higher density compared to many non-metallic solids, which often have less efficient packing or weaker intermolecular forces resulting in more open, less compact structures."}
+        ],
+        "advanced": [
+          {"question": "Explain why different metals, despite all having metallic bonding, can show significantly different hardness and mechanical properties.", "answer": "While all metals share the same general type of bonding (positive ion lattice + delocalised electron sea), the specific packing arrangement of ions can differ between metals, and factors such as ionic radius, ionic charge, and the number of delocalised electrons per atom (affecting bonding strength) also vary. Additionally, some metals form structures where layers of ions can slide over each other relatively easily along certain planes, giving lower hardness and greater malleability, while others have structural features (or, in alloys, irregularly sized atoms disrupting the regular layers) that resist this sliding more strongly, increasing hardness. These combined structural and bonding differences mean metals with the same general type of bonding can still show a wide range of hardness and mechanical behaviour."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why metals tend to adopt closely packed structures, and state one physical property that this close packing helps to explain.", "marks": 2, "model_answer": "Metal ions pack closely together to maximise the strength of electrostatic attraction with the surrounding delocalised electrons and to minimise the overall energy of the structure (1 mark). This close packing contributes to the relatively high density typical of many metals, since a large mass is contained within a small volume (1 mark)."}
+      ],
+      "summary": "Metallic structures typically show close, efficient packing of positive metal ions, often with a high coordination number (commonly 12), contributing to the generally high density of metals and, alongside metallic bonding strength, influencing hardness and other mechanical properties.",
+      "revision_notes": ["Metallic structure: close-packed, regular, repeating arrangement of ions", "High coordination number (often 12) → high density", "Structural differences between metals contribute to varying hardness/properties"],
+      "related_topics": ["Metallic Bonding", "Properties of Metals", "Alloys and Their Uses"],
+      "prerequisites": ["Metallic Bonding"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-094-properties-of-metals",
+      "subject": "Chemistry",
+      "category": "Chemical Bonding",
+      "title": "Properties of Metals",
+      "difficulty": "Foundation",
+      "description": "The characteristic physical properties of metals — conductivity, malleability, ductility and high melting point — explained fully in terms of metallic bonding.",
+      "learning_objectives": [
+        "State the key physical properties of metals",
+        "Explain each property in terms of metallic bonding and structure",
+        "Compare metallic properties to those of ionic and covalent structures"
+      ],
+      "explanation": "The characteristic physical properties of metals arise directly from metallic bonding and structure. Metals conduct electricity and heat well, because their delocalised electrons are free to move throughout the structure, carrying charge and transferring kinetic energy rapidly. Metals are generally malleable (can be hammered into shape) and ductile (can be drawn into wires), because layers of positive ions can slide over one another under applied force without breaking the overall metallic bonding, since the mobile electron sea continues to hold the shifted structure together — in clear contrast to the brittle fracture of ionic lattices, where shifting layers causes destructive repulsion between like-charged ions. Metals generally have relatively high melting and boiling points (though with significant variation, e.g. mercury is liquid at room temperature, while tungsten melts above 3400°C), reflecting differences in the strength of metallic bonding between different metals, which depends on ionic charge, ionic radius, and the number of delocalised electrons contributed per atom.",
+      "key_concepts": ["Conductivity: delocalised electrons carry charge/heat", "Malleability/ductility: ion layers slide, bonding maintained", "Variable melting points based on bonding strength"],
+      "definitions": [],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Explain why sodium (one delocalised electron per atom) has a much lower melting point than magnesium (two delocalised electrons per atom, smaller ionic radius, greater ionic charge).",
+          "working": "Compare the strength of metallic bonding: number of delocalised electrons, ionic charge, and ionic radius for each metal.",
+          "answer": "Magnesium's ions carry a greater positive charge (2+ vs 1+), contribute more delocalised electrons per atom, and have a smaller ionic radius than sodium, all of which increase the strength of the electrostatic attraction in its metallic bonding compared to sodium; magnesium therefore requires more energy to melt, giving it a considerably higher melting point than sodium."
+        }
+      ],
+      "practical_applications": ["Metallic properties directly inform material selection across construction, electronics, transport and manufacturing industries"],
+      "laboratory_applications": ["Comparing electrical conductivity, malleability (hammer testing) and relative melting points of different metal samples as direct experimental evidence linking structure to properties"],
+      "common_mistakes": ["Assuming all metals share identical physical properties (e.g. all being hard, high melting solids) — properties vary considerably between metals depending on the strength of their specific metallic bonding, as seen with the notably low melting point of mercury or the softness of the alkali metals"],
+      "misconceptions": ["Believing metallic properties arise from 'being a solid' in general — they arise specifically from the particular metallic bonding structure (mobile delocalised electrons, sliding ion layers), which is why non-metallic solids (which lack this structure) do not share these same properties"],
+      "tips": ["For every metallic property asked in an exam, structure your answer as: property → link to either 'mobile delocalised electrons' (conductivity) or 'sliding ion layers without breaking bonding' (malleability/ductility) or 'strength of electrostatic attraction' (melting point)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State two typical physical properties of metals.", "answer": "Any two of: good conductor of electricity/heat, malleable, ductile, generally high melting point, lustrous."},
+          {"question": "State why metals conduct heat well.", "answer": "Because delocalised electrons can transfer kinetic energy rapidly throughout the metallic structure."}
+        ],
+        "intermediate": [
+          {"question": "Explain why metals are ductile (can be drawn into wires), unlike ionic compounds, which are brittle.", "answer": "In a metal, layers of positive ions can slide past one another when force is applied, and the mobile, delocalised electron sea continues to surround and bond the ions together even in their new positions, allowing the metal to be drawn into a new shape (a wire) without breaking. In an ionic compound, shifting a layer of ions under force brings ions of the same charge into alignment, causing strong repulsion that shatters the rigid lattice, making ionic compounds brittle rather than ductile."}
+        ],
+        "advanced": [
+          {"question": "Explain why transition metals generally have higher melting points than Group 1 metals, referring to the number of delocalised electrons and ionic radius.", "answer": "Transition metals can contribute more delocalised electrons per atom to the electron sea (potentially including some d-subshell electrons in addition to s-subshell electrons), giving stronger electrostatic attraction to the surrounding positive ion lattice compared to the single delocalised electron contributed by each Group 1 metal atom. Transition metal ions also generally have a smaller ionic radius than Group 1 ions in the same period, allowing closer, stronger attraction to the electron sea. The combination of more delocalised electrons and smaller ionic radius gives transition metals considerably stronger metallic bonding overall, requiring more energy to overcome and resulting in generally much higher melting points than the softer, more weakly bonded Group 1 metals."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain, using ideas about metallic bonding, why copper is used for electrical wiring while sulfur (a non-metal) is not.", "marks": 3, "model_answer": "Copper has metallic bonding, involving delocalised electrons that are free to move throughout its structure and carry electric charge, making it a good conductor of electricity (2 marks). Sulfur is a non-metal with covalent bonding (existing as discrete S8 molecules), with no delocalised electrons free to move and carry charge, so it does not conduct electricity and is unsuitable for electrical wiring (1 mark)."}
+      ],
+      "summary": "Metals' characteristic properties — good electrical/thermal conductivity, malleability, ductility, and generally high melting point — all arise from metallic bonding: mobile delocalised electrons enable conductivity, and sliding ion layers within a maintained electron sea enable malleability/ductility without brittle fracture.",
+      "revision_notes": ["Conductivity: mobile delocalised electrons", "Malleable/ductile: ion layers slide, bonding re-forms (unlike brittle ionic lattices)", "Melting point varies with bonding strength: ionic charge, ionic radius, number of delocalised electrons"],
+      "related_topics": ["Metallic Bonding", "Metallic Structures", "Metals"],
+      "prerequisites": ["Metallic Bonding", "Metallic Structures"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-095-intermolecular-forces",
+      "subject": "Chemistry",
+      "category": "Chemical Bonding",
+      "title": "Intermolecular Forces",
+      "difficulty": "Higher",
+      "description": "The weak attractive forces between separate molecules, distinct from the strong covalent bonds within molecules, and their effect on physical properties.",
+      "learning_objectives": [
+        "Distinguish intermolecular forces from intramolecular (covalent) bonds",
+        "Name the three types of intermolecular force and their relative strengths",
+        "Explain how intermolecular forces affect melting and boiling points"
+      ],
+      "explanation": "Intermolecular forces are the relatively weak attractive forces that act between separate molecules, distinct from the much stronger covalent (intramolecular) bonds that hold atoms together within a single molecule. There are three main types of intermolecular force, in order of generally increasing strength: London dispersion forces (present between all molecules, arising from temporary, fluctuating dipoles); permanent dipole-dipole forces (between molecules with a permanent uneven charge distribution due to polar bonds); and hydrogen bonding (a particularly strong type of permanent dipole interaction, occurring specifically when hydrogen is bonded to a highly electronegative atom with a lone pair — nitrogen, oxygen or fluorine). The strength of intermolecular forces present in a substance directly determines its melting and boiling point: substances with only weak intermolecular forces (e.g. simple non-polar molecules) tend to have low melting/boiling points, while those with stronger forces (e.g. hydrogen bonding) tend to have comparatively higher melting/boiling points for their molecular size.",
+      "key_concepts": ["Weak forces between molecules, distinct from strong covalent bonds within them", "Three types: London dispersion, permanent dipole-dipole, hydrogen bonding", "Increasing strength: dispersion < dipole-dipole < hydrogen bonding", "Determines melting/boiling point trends"],
+      "definitions": [
+        {"term": "Intermolecular force", "definition": "A relatively weak attractive force acting between separate molecules, distinct from the stronger covalent bonds within a molecule."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Explain why ammonia (NH3, capable of hydrogen bonding) has a higher boiling point than phosphine (PH3, which cannot hydrogen bond), despite phosphine having a greater molecular mass.",
+          "working": "Ammonia contains N-H bonds, allowing hydrogen bonding between molecules. Phosphorus is not electronegative enough to allow hydrogen bonding in PH3.",
+          "answer": "Ammonia's molecules are held together by the relatively strong hydrogen bonds in addition to weaker forces, requiring more energy to separate and boil, giving it a higher boiling point than phosphine, which can only form weaker permanent dipole-dipole and dispersion forces, despite phosphine's greater molecular mass (which would otherwise be expected to increase dispersion forces)."
+        }
+      ],
+      "practical_applications": ["Intermolecular forces determine the physical state and boiling points of substances at room temperature, essential to predicting behaviour in industries from fuel storage to pharmaceutical formulation"],
+      "laboratory_applications": ["Comparing measured boiling points of a series of related compounds as experimental evidence for the relative strength of different intermolecular forces present"],
+      "common_mistakes": ["Confusing intermolecular forces (between separate molecules, relatively weak) with intramolecular covalent bonds (within a molecule, much stronger) — melting/boiling a simple molecular substance only overcomes the weak intermolecular forces, not the strong bonds within each molecule"],
+      "misconceptions": ["Believing hydrogen bonding is a distinct, entirely separate category unrelated to dipole-dipole forces — hydrogen bonding is more accurately understood as a particularly strong, specific type of permanent dipole-dipole interaction, occurring only under specific conditions (H bonded to N, O or F, with a nearby lone pair on N, O or F)"],
+      "tips": ["Remember the strength order: London dispersion forces (weakest, but present in ALL molecules) < permanent dipole-dipole forces < hydrogen bonding (strongest of the three, but with specific structural requirements)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Name the three types of intermolecular force, in order of increasing strength.", "answer": "London dispersion forces, permanent dipole-dipole forces, hydrogen bonding."},
+          {"question": "State which type of intermolecular force is present between all molecules.", "answer": "London dispersion forces."}
+        ],
+        "intermediate": [
+          {"question": "Explain why simple molecular substances generally have much lower melting and boiling points than ionic or giant covalent substances.", "answer": "In simple molecular substances, melting or boiling only requires overcoming the relatively weak intermolecular forces between separate molecules, not the much stronger covalent bonds within each molecule (which remain intact). This requires comparatively little energy, giving simple molecular substances generally much lower melting and boiling points than ionic compounds (strong electrostatic forces throughout a giant lattice) or giant covalent structures (strong covalent bonds throughout a continuous network), both of which require breaking many strong bonds/forces to change state."}
+        ],
+        "advanced": [
+          {"question": "Explain why the boiling points of the hydrogen halides (HF, HCl, HBr, HI) show an anomaly, with HF having a much higher boiling point than would be predicted from the general trend of the other three.", "answer": "Moving down the group from HCl to HI, boiling point increases steadily, primarily due to increasing London dispersion forces as molecular size and number of electrons increase. However, HF is anomalous: unlike HCl, HBr and HI, HF is capable of hydrogen bonding, since it contains a hydrogen atom bonded directly to fluorine, one of the three elements (along with nitrogen and oxygen) with a small atomic radius, high electronegativity, and lone pairs capable of forming the particularly strong intermolecular hydrogen bond. This additional, strong hydrogen bonding between HF molecules requires considerably more energy to overcome than the weaker dispersion and (weaker) dipole-dipole forces present in HCl, HBr and HI, giving HF a much higher boiling point than the general trend based on molecular size alone would predict."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain the difference between an intermolecular force and a covalent bond, using water as an example.", "marks": 3, "model_answer": "A covalent bond is a strong bond formed by sharing electrons between atoms within a single molecule; in water, this refers to the O-H bonds holding each water molecule together (1 mark). An intermolecular force is a much weaker attractive force acting between separate molecules; in water, this refers to hydrogen bonding between neighbouring water molecules (1 mark). When water boils, only the weaker intermolecular hydrogen bonds between separate water molecules are broken; the stronger covalent O-H bonds within each individual water molecule remain intact (1 mark)."}
+      ],
+      "summary": "Intermolecular forces (London dispersion, permanent dipole-dipole, hydrogen bonding, in order of generally increasing strength) act between separate molecules and are much weaker than the covalent bonds within a molecule, but directly determine melting and boiling points of molecular substances.",
+      "revision_notes": ["Intermolecular = between molecules (weak); Intramolecular (covalent) = within a molecule (strong)", "Strength order: dispersion < dipole-dipole < hydrogen bonding", "Stronger intermolecular forces → higher melting/boiling point"],
+      "related_topics": ["London Dispersion Forces", "Permanent Dipole Forces", "Hydrogen Bonding", "Simple Molecular Structures"],
+      "prerequisites": ["Polar Bonds", "Covalent Structures"],
+      "diagram_recommendations": ["[DIAGRAM: Relative strength comparison of London dispersion, dipole-dipole and hydrogen bonding forces]"],
+      "images": [
+        {
+          "filename": "chem-095-intermolecular-forces.svg",
+          "type": "diagram",
+          "description": "Three stacked, colour-coded boxes labelled 'London dispersion forces', 'Permanent dipole-dipole forces', and 'Hydrogen bonding', each with a one-line description of when it occurs, with a vertical arrow beside them labelled 'increasing strength' pointing from top to bottom.",
+          "purpose": "Gives students a single at-a-glance reference for the three intermolecular force types, their conditions, and relative strength ranking, directly supporting the anomalous HF boiling point discussion and general revision.",
+          "placement": "After the main explanation paragraph, before the key concepts list."
+        }
+      ]
+    }
+  ]
+}
