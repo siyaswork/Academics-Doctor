@@ -136,11 +136,45 @@ export async function deleteNote(noteId: string) {
 // ─── rich-text blocks ────────────────────────────────────────────────────────
 
 /**
+ * Monotonically increasing client revision per block identity (note_id + position).
+ * Every save attempt for a block increments its revision and sends it as
+ * `client_rev`; the database trigger drops any write whose client_rev is lower
+ * than what is already stored, so an out-of-order/stale response can never
+ * overwrite newer content. Counters only ever go up within a session.
+ */
+const clientRevs = new Map<string, number>()
+
+function nextClientRev(noteId: string, position: number): number {
+  const key = `${noteId}:${position}`
+  const next = (clientRevs.get(key) ?? 0) + 1
+  clientRevs.set(key, next)
+  return next
+}
+
+function isAbortError(error: unknown): boolean {
+  return (
+    (error instanceof DOMException && error.name === 'AbortError') ||
+    (error instanceof Error && error.name === 'AbortError')
+  )
+}
+
+/**
  * Upsert rich-text blocks for a note by their stable note_id + position identity.
  * Drawing blocks use position -1, so they are not affected by this operation.
+ *
+ * Each block write carries a monotonically increasing `client_rev` so the
+ * backend can drop stale writes that arrive out of order. The caller aborts
+ * superseded flushes via `signal`; an aborted flush is reported as
+ * `{ aborted: true }` rather than as a failure.
  */
-export async function replaceBlocksForNote(noteId: string, content: RichTextContent[]) {
+export async function replaceBlocksForNote(
+  noteId: string,
+  content: RichTextContent[],
+  signal?: AbortSignal,
+): Promise<{ error: Error | null; aborted?: boolean }> {
+  if (signal?.aborted) return { error: null, aborted: true }
   const userId = await getCurrentUserId()
+  if (signal?.aborted) return { error: null, aborted: true }
   if (!userId) return { error: new Error('Not authenticated') }
 
   const blocks = content.map((block, position) => ({
@@ -149,20 +183,30 @@ export async function replaceBlocksForNote(noteId: string, content: RichTextCont
     block_type: block.type,
     content: block as unknown as Record<string, unknown>,
     position,
+    client_rev: nextClientRev(noteId, position),
   }))
 
   if (blocks.length > 0) {
-    const { error } = await supabase.from('note_blocks').upsert(blocks, { onConflict: 'note_id,position' })
-    if (error) return { error }
+    let upsertQuery = supabase.from('note_blocks').upsert(blocks, { onConflict: 'note_id,position' })
+    if (signal) upsertQuery = upsertQuery.abortSignal(signal)
+    const { error } = await upsertQuery
+    if (error) {
+      if (isAbortError(error)) return { error: null, aborted: true }
+      return { error }
+    }
   }
 
-  const { error } = await supabase
+  if (signal?.aborted) return { error: null, aborted: true }
+  let deleteQuery = supabase
     .from('note_blocks')
     .delete()
     .eq('note_id', noteId)
     .eq('user_id', userId)
     .neq('block_type', DRAWING_BLOCK_TYPE)
     .gte('position', content.length)
+  if (signal) deleteQuery = deleteQuery.abortSignal(signal)
+  const { error } = await deleteQuery
+  if (error && isAbortError(error)) return { error: null, aborted: true }
   return { error }
 }
 
