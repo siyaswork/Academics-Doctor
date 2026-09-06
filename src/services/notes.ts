@@ -136,40 +136,198 @@ export async function deleteNote(noteId: string) {
 // ─── rich-text blocks ────────────────────────────────────────────────────────
 
 /**
- * Replace all rich-text blocks for a note.
- * IMPORTANT: only deletes/inserts rows where block_type ≠ 'drawing' so that
- * the drawing block (position = -1) is never accidentally clobbered when the
- * user edits the note's text content.
- *
- * NOTE: delete-then-insert is not atomic. If the insert fails after a successful
- * delete, blocks will be empty in Supabase. Local state and localStorage are
- * unaffected so the user does NOT lose data — the next autosave retries.
+ * Monotonically increasing client revision per block identity (note_id + position).
+ * Every save attempt for a block increments its revision and sends it as
+ * `client_rev`; the database trigger drops any write whose client_rev is lower
+ * than what is already stored, so an out-of-order/stale response can never
+ * overwrite newer content. Counters only ever go up within a session.
  */
-export async function replaceBlocksForNote(noteId: string, content: RichTextContent[]) {
+const clientRevs = new Map<string, number>()
+
+function nextClientRev(noteId: string, position: number): number {
+  const key = `${noteId}:${position}`
+  const next = (clientRevs.get(key) ?? 0) + 1
+  clientRevs.set(key, next)
+  return next
+}
+
+function isAbortError(error: unknown): boolean {
+  return (
+    (error instanceof DOMException && error.name === 'AbortError') ||
+    (error instanceof Error && error.name === 'AbortError')
+  )
+}
+
+/**
+ * Upsert rich-text blocks for a note by their stable note_id + position identity.
+ * Drawing blocks use position -1, so they are not affected by this operation.
+ *
+ * Each block write carries a monotonically increasing `client_rev` so the
+ * backend can drop stale writes that arrive out of order. The caller aborts
+ * superseded flushes via `signal`; an aborted flush is reported as
+ * `{ aborted: true }` rather than as a failure.
+ */
+export async function replaceBlocksForNote(
+  noteId: string,
+  content: RichTextContent[],
+  signal?: AbortSignal,
+): Promise<{ error: Error | null; aborted?: boolean }> {
+  if (signal?.aborted) return { error: null, aborted: true }
   const userId = await getCurrentUserId()
+  if (signal?.aborted) return { error: null, aborted: true }
   if (!userId) return { error: new Error('Not authenticated') }
 
-  // Delete existing rich-text blocks only (spare the drawing row)
-  const { error: delError } = await supabase
+  const blocks = content.map((block, position) => ({
+    note_id: noteId,
+    user_id: userId,
+    block_type: block.type,
+    content: block as unknown as Record<string, unknown>,
+    position,
+    client_rev: nextClientRev(noteId, position),
+  }))
+
+  if (blocks.length > 0) {
+    let upsertQuery = supabase.from('note_blocks').upsert(blocks, { onConflict: 'note_id,position' })
+    if (signal) upsertQuery = upsertQuery.abortSignal(signal)
+    const { error } = await upsertQuery
+    if (error) {
+      if (isAbortError(error)) return { error: null, aborted: true }
+      return { error }
+    }
+  }
+
+  if (signal?.aborted) return { error: null, aborted: true }
+  let deleteQuery = supabase
     .from('note_blocks')
     .delete()
     .eq('note_id', noteId)
     .eq('user_id', userId)
     .neq('block_type', DRAWING_BLOCK_TYPE)
-  if (delError) return { error: delError }
-
-  if (content.length === 0) return { error: null }
-
-  const inserts = content.map((block, idx) => ({
-    note_id: noteId,
-    user_id: userId,
-    block_type: block.type,
-    content: block as unknown as Record<string, unknown>,
-    position: idx,
-  }))
-
-  const { error } = await supabase.from('note_blocks').insert(inserts)
+    .gte('position', content.length)
+  if (signal) deleteQuery = deleteQuery.abortSignal(signal)
+  const { error } = await deleteQuery
+  if (error && isAbortError(error)) return { error: null, aborted: true }
   return { error }
+}
+
+// ─── search ─────────────────────────────────────────────────────────
+
+export interface SearchResultNote {
+  id: string
+  title: string
+  snippet?: string
+  updatedAt?: Date
+}
+
+export async function searchNotes(query: string): Promise<{ data: SearchResultNote[]; error: Error | null }> {
+  const userId = await getCurrentUserId()
+  if (!userId) return { data: [], error: new Error('Not authenticated') }
+
+  const q = query.trim()
+  if (!q) return { data: [], error: null }
+
+  // 1. Search notes by title for current user
+  const { data: titleMatches, error: titleErr } = await supabase
+    .from('notes')
+    .select('id, title, updated_at, created_at')
+    .eq('user_id', userId)
+    .ilike('title', `%${q}%`)
+
+  if (titleErr) return { data: [], error: titleErr }
+
+  // 2. Search note_blocks by content for current user
+  const { data: blockMatches, error: blockErr } = await supabase
+    .from('note_blocks')
+    .select('note_id, content, block_type')
+    .eq('user_id', userId)
+    .neq('block_type', DRAWING_BLOCK_TYPE)
+
+  if (blockErr) return { data: [], error: blockErr }
+
+  const matchingNoteIdsFromBlocks = new Set<string>()
+  const blockSnippets = new Map<string, string>()
+
+  if (blockMatches) {
+    const lowerQ = q.toLowerCase()
+    for (const block of blockMatches) {
+      if (!block.content) continue
+      let text = ''
+      if (typeof block.content === 'string') {
+        text = block.content
+      } else if (typeof block.content === 'object') {
+        const c = block.content as Record<string, unknown>
+        if (typeof c.content === 'string') {
+          text = c.content
+        } else if (typeof c.text === 'string') {
+          text = c.text
+        } else {
+          text = JSON.stringify(c)
+        }
+      }
+      if (text.toLowerCase().includes(lowerQ)) {
+        matchingNoteIdsFromBlocks.add(block.note_id)
+        if (!blockSnippets.has(block.note_id)) {
+          const matchIdx = text.toLowerCase().indexOf(lowerQ)
+          const start = Math.max(0, matchIdx - 30)
+          const end = Math.min(text.length, matchIdx + lowerQ.length + 50)
+          const prefix = start > 0 ? '...' : ''
+          const suffix = end < text.length ? '...' : ''
+          blockSnippets.set(block.note_id, `${prefix}${text.slice(start, end)}${suffix}`)
+        }
+      }
+    }
+  }
+
+  const noteIdsToFetch = new Set<string>()
+  const titleNotesMap = new Map<string, DBNote>()
+
+  if (titleMatches) {
+    for (const note of titleMatches) {
+      noteIdsToFetch.add(note.id)
+      titleNotesMap.set(note.id, note as DBNote)
+    }
+  }
+
+  for (const noteId of matchingNoteIdsFromBlocks) {
+    noteIdsToFetch.add(noteId)
+  }
+
+  if (noteIdsToFetch.size === 0) {
+    return { data: [], error: null }
+  }
+
+  const missingNoteIds = Array.from(noteIdsToFetch).filter((id) => !titleNotesMap.has(id))
+  if (missingNoteIds.length > 0) {
+    const { data: missingNotes, error: missingErr } = await supabase
+      .from('notes')
+      .select('id, title, updated_at, created_at')
+      .eq('user_id', userId)
+      .in('id', missingNoteIds)
+
+    if (missingErr) return { data: [], error: missingErr }
+    if (missingNotes) {
+      for (const n of missingNotes) {
+        titleNotesMap.set(n.id, n as DBNote)
+      }
+    }
+  }
+
+  const results: SearchResultNote[] = Array.from(noteIdsToFetch).map((id) => {
+    const note = titleNotesMap.get(id)
+    const title = note?.title || 'Untitled Note'
+    const snippet = blockSnippets.get(id) || ''
+    const updatedAt = note?.updated_at ? new Date(note.updated_at) : (note?.created_at ? new Date(note.created_at) : new Date())
+    return {
+      id,
+      title,
+      snippet,
+      updatedAt,
+    }
+  })
+
+  results.sort((a, b) => (b.updatedAt?.getTime() || 0) - (a.updatedAt?.getTime() || 0))
+
+  return { data: results, error: null }
 }
 
 // ─── drawing block ────────────────────────────────────────────────────────────

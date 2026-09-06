@@ -51,6 +51,7 @@ export interface NoteBlock {
   block_type: 'text' | 'heading' | 'drawing' | 'formula' | 'divider' | string
   content?: any
   position?: number
+  client_rev?: number
   created_at?: string
   updated_at?: string
 }

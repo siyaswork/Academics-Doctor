@@ -79,6 +79,14 @@ export const Layout: React.FC = () => {
             <button
               type="button"
               className={styles.themeButton}
+              onClick={() => navigate('/account')}
+              aria-label="Account Profile"
+            >
+              Account
+            </button>
+            <button
+              type="button"
+              className={styles.themeButton}
               onClick={toggleTheme}
               aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
             >

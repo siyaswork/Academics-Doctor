@@ -6,6 +6,11 @@ import styles from './RichTextEditor.module.css'
 interface RichTextEditorProps {
   content: RichTextContent[]
   onChange: (content: RichTextContent[]) => void
+  /**
+   * Called on blur so the parent can immediately flush any pending debounced
+   * save for this content instead of waiting out the debounce timer.
+   */
+  onBlurFlush?: () => void
 }
 
 const escapeHtml = (value: string) => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -30,18 +35,42 @@ const htmlToContent = (html: string): RichTextContent[] => {
   })
 }
 
-export const RichTextEditor: React.FC<RichTextEditorProps> = ({ content, onChange }) => {
+export const RichTextEditor: React.FC<RichTextEditorProps> = ({ content, onChange, onBlurFlush }) => {
   const editorRef = useRef<HTMLDivElement>(null)
   const [isFocused, setIsFocused] = useState(false)
+  // Latest content the user actually typed; used to distinguish echoes of our
+  // own onChange emissions from genuinely external updates. This keeps blur and
+  // parent re-renders from snapping visible text back to a stale committed
+  // value before the pending debounced save has been flushed.
+  const lastEmitted = useRef<RichTextContent[] | null>(null)
 
   useEffect(() => {
-    if (editorRef.current && !isFocused) editorRef.current.innerHTML = contentToHtml(content)
+    if (!editorRef.current) return
+    // Never re-sync from committed state while the editor is focused, and never
+    // re-sync when the incoming content is just the echo of what we emitted.
+    if (isFocused) return
+    if (lastEmitted.current === content) return
+    // An external change (note switched, content reloaded from the server)
+    // replaces whatever is on screen, including any local draft.
+    editorRef.current.innerHTML = contentToHtml(content)
   }, [content, isFocused])
+
+  const emitChange = (next: RichTextContent[]) => {
+    lastEmitted.current = next
+    onChange(next)
+  }
+
+  const handleBlur = () => {
+    setIsFocused(false)
+    // Flush the pending debounced save immediately so nothing typed is lost;
+    // the draft stays on screen regardless of when the save resolves.
+    onBlurFlush?.()
+  }
 
   const runCommand = (command: string, value?: string) => {
     editorRef.current?.focus()
     document.execCommand(command, false, value)
-    if (editorRef.current) onChange(htmlToContent(editorRef.current.innerHTML))
+    if (editorRef.current) emitChange(htmlToContent(editorRef.current.innerHTML))
   }
 
   return (
@@ -61,7 +90,7 @@ export const RichTextEditor: React.FC<RichTextEditorProps> = ({ content, onChang
         <span className={styles.divider} aria-hidden="true" />
         <MathToolbar onInsert={(text) => runCommand('insertText', text)} />
       </div>
-      <div ref={editorRef} className={styles.editor} contentEditable role="textbox" aria-multiline="true" aria-label="Note content" suppressContentEditableWarning onFocus={() => setIsFocused(true)} onBlur={() => setIsFocused(false)} onInput={() => editorRef.current && onChange(htmlToContent(editorRef.current.innerHTML))} />
+      <div ref={editorRef} className={styles.editor} contentEditable role="textbox" aria-multiline="true" aria-label="Note content" suppressContentEditableWarning onFocus={() => setIsFocused(true)} onBlur={handleBlur} onInput={() => editorRef.current && emitChange(htmlToContent(editorRef.current.innerHTML))} />
     </div>
   )
 }
