@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { supabase } from '../lib/supabase/client'
 
@@ -8,6 +8,7 @@ export default function SubjectPage() {
   const [topics, setTopics] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
   const [notFound, setNotFound] = useState(false)
+  const [query, setQuery] = useState('')
 
   useEffect(() => {
     async function fetchSubject() {
@@ -43,6 +44,12 @@ export default function SubjectPage() {
     if (slug) fetchSubject()
   }, [slug])
 
+  const filteredTopics = useMemo(() => {
+    const q = query.trim().toLowerCase()
+    if (!q) return topics
+    return topics.filter((t) => t.topic?.toLowerCase().includes(q) || t.summary?.toLowerCase().includes(q))
+  }, [topics, query])
+
   if (loading) return <p>Loading subject...</p>
 
   if (notFound || !subject) {
@@ -56,15 +63,33 @@ export default function SubjectPage() {
 
   return (
     <div>
-      <h1>{subject.name}</h1>
-      <p>{subject.description}</p>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 16, flexWrap: 'wrap' }}>
+        <div>
+          <h1 style={{ marginBottom: 4 }}>{subject.name}</h1>
+          <p style={{ marginTop: 0 }}>{subject.description}</p>
+        </div>
+        <input
+          type="text"
+          placeholder="Search topics..."
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          aria-label={`Search topics in ${subject.name}`}
+          style={{
+            padding: '0.6rem 0.9rem',
+            fontSize: '1rem',
+            borderRadius: 8,
+            border: '1px solid var(--color-border, #ccc)',
+            minWidth: 220,
+          }}
+        />
+      </div>
 
-      <h2>Topics</h2>
-      {topics.length === 0 ? (
-        <p>No topics published yet — check back soon.</p>
+      <h2 style={{ marginTop: '1.5rem' }}>Topics</h2>
+      {filteredTopics.length === 0 ? (
+        <p>{query ? `No topics match "${query}".` : 'No topics published yet — check back soon.'}</p>
       ) : (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1rem', marginTop: '1rem' }}>
-          {topics.map((t) => (
+          {filteredTopics.map((t) => (
             <Link
               key={t.id}
               to={`/learn/${subject.slug}/${t.slug}`}
