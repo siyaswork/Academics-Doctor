@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { supabase } from '../lib/supabase/client'
+import { useAuth } from '../contexts/AuthContext'
 
 export default function LearnPage() {
   const { subject: subjectSlug, topic: topicSlug } = useParams()
+  const { user } = useAuth()
   const [loading, setLoading] = useState(true)
   const [notFound, setNotFound] = useState(false)
   const [subject, setSubject] = useState<any>(null)
@@ -13,6 +15,8 @@ export default function LearnPage() {
   const [workedExamples, setWorkedExamples] = useState<any[]>([])
   const [practiceQuestions, setPracticeQuestions] = useState<any[]>([])
   const [examQuestions, setExamQuestions] = useState<any[]>([])
+  const [favoriteId, setFavoriteId] = useState<string | null>(null)
+  const [savingFavorite, setSavingFavorite] = useState(false)
 
   useEffect(() => {
     async function load() {
@@ -47,12 +51,21 @@ export default function LearnPage() {
       }
       setTopic(topicData)
 
-      const [defs, forms, examples, practice, exam] = await Promise.all([
+      const [defs, forms, examples, practice, exam, fav] = await Promise.all([
         supabase.from('content_definitions').select('*').eq('topic_id', topicData.id).order('position'),
         supabase.from('content_topic_formulas').select('*').eq('topic_id', topicData.id).order('position'),
         supabase.from('content_worked_examples').select('*').eq('topic_id', topicData.id).order('position'),
         supabase.from('content_practice_questions').select('*').eq('topic_id', topicData.id).order('position'),
         supabase.from('content_exam_questions').select('*').eq('topic_id', topicData.id).order('position'),
+        user
+          ? supabase
+              .from('favorites')
+              .select('id')
+              .eq('user_id', user.id)
+              .eq('item_type', 'topic')
+              .eq('item_id', topicData.id)
+              .maybeSingle()
+          : Promise.resolve({ data: null }),
       ])
 
       setDefinitions(defs.data ?? [])
@@ -60,11 +73,32 @@ export default function LearnPage() {
       setWorkedExamples(examples.data ?? [])
       setPracticeQuestions(practice.data ?? [])
       setExamQuestions(exam.data ?? [])
+      setFavoriteId((fav as any)?.data?.id ?? null)
       setLoading(false)
     }
 
     if (subjectSlug && topicSlug) load()
-  }, [subjectSlug, topicSlug])
+  }, [subjectSlug, topicSlug, user])
+
+  async function toggleFavorite() {
+    if (!user || !topic || savingFavorite) return
+    setSavingFavorite(true)
+    try {
+      if (favoriteId) {
+        const { error } = await supabase.from('favorites').delete().eq('id', favoriteId)
+        if (!error) setFavoriteId(null)
+      } else {
+        const { data, error } = await supabase
+          .from('favorites')
+          .insert({ user_id: user.id, item_type: 'topic', item_id: topic.id })
+          .select('id')
+          .single()
+        if (!error && data) setFavoriteId(data.id)
+      }
+    } finally {
+      setSavingFavorite(false)
+    }
+  }
 
   if (loading) return <div style={{ padding: 16 }}>Loading...</div>
 
@@ -87,8 +121,31 @@ export default function LearnPage() {
         <Link to={`/dashboard/subjects/${subjectSlug}`}>&larr; Back to {subject.name}</Link>
       </div>
 
-      <h1 style={{ marginBottom: 4 }}>{topic.topic}</h1>
-      {topic.summary && <p style={{ color: 'var(--color-text-secondary)' }}>{topic.summary}</p>}
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 12, flexWrap: 'wrap' }}>
+        <div>
+          <h1 style={{ marginBottom: 4 }}>{topic.topic}</h1>
+          {topic.summary && <p style={{ color: 'var(--color-text-secondary)', marginTop: 0 }}>{topic.summary}</p>}
+        </div>
+        {user && (
+          <button
+            type="button"
+            onClick={toggleFavorite}
+            disabled={savingFavorite}
+            aria-pressed={!!favoriteId}
+            style={{
+              padding: '0.5rem 1rem',
+              borderRadius: 8,
+              border: '1px solid var(--color-border, #ccc)',
+              background: favoriteId ? 'var(--color-primary, #1c2b39)' : 'transparent',
+              color: favoriteId ? '#fff' : 'inherit',
+              cursor: savingFavorite ? 'wait' : 'pointer',
+              whiteSpace: 'nowrap',
+            }}
+          >
+            {favoriteId ? 'Saved' : 'Save topic'}
+          </button>
+        )}
+      </div>
 
       {topic.explanation && (
         <section style={{ marginTop: 20 }}>
