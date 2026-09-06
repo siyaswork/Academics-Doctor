@@ -172,6 +172,126 @@ export async function replaceBlocksForNote(noteId: string, content: RichTextCont
   return { error }
 }
 
+// ─── search ─────────────────────────────────────────────────────────
+
+export interface SearchResultNote {
+  id: string
+  title: string
+  snippet?: string
+  updatedAt?: Date
+}
+
+export async function searchNotes(query: string): Promise<{ data: SearchResultNote[]; error: Error | null }> {
+  const userId = await getCurrentUserId()
+  if (!userId) return { data: [], error: new Error('Not authenticated') }
+
+  const q = query.trim()
+  if (!q) return { data: [], error: null }
+
+  // 1. Search notes by title for current user
+  const { data: titleMatches, error: titleErr } = await supabase
+    .from('notes')
+    .select('id, title, updated_at, created_at')
+    .eq('user_id', userId)
+    .ilike('title', `%${q}%`)
+
+  if (titleErr) return { data: [], error: titleErr }
+
+  // 2. Search note_blocks by content for current user
+  const { data: blockMatches, error: blockErr } = await supabase
+    .from('note_blocks')
+    .select('note_id, content, block_type')
+    .eq('user_id', userId)
+    .neq('block_type', DRAWING_BLOCK_TYPE)
+
+  if (blockErr) return { data: [], error: blockErr }
+
+  const matchingNoteIdsFromBlocks = new Set<string>()
+  const blockSnippets = new Map<string, string>()
+
+  if (blockMatches) {
+    const lowerQ = q.toLowerCase()
+    for (const block of blockMatches) {
+      if (!block.content) continue
+      let text = ''
+      if (typeof block.content === 'string') {
+        text = block.content
+      } else if (typeof block.content === 'object') {
+        const c = block.content as Record<string, unknown>
+        if (typeof c.content === 'string') {
+          text = c.content
+        } else if (typeof c.text === 'string') {
+          text = c.text
+        } else {
+          text = JSON.stringify(c)
+        }
+      }
+      if (text.toLowerCase().includes(lowerQ)) {
+        matchingNoteIdsFromBlocks.add(block.note_id)
+        if (!blockSnippets.has(block.note_id)) {
+          const matchIdx = text.toLowerCase().indexOf(lowerQ)
+          const start = Math.max(0, matchIdx - 30)
+          const end = Math.min(text.length, matchIdx + lowerQ.length + 50)
+          const prefix = start > 0 ? '...' : ''
+          const suffix = end < text.length ? '...' : ''
+          blockSnippets.set(block.note_id, `${prefix}${text.slice(start, end)}${suffix}`)
+        }
+      }
+    }
+  }
+
+  const noteIdsToFetch = new Set<string>()
+  const titleNotesMap = new Map<string, DBNote>()
+
+  if (titleMatches) {
+    for (const note of titleMatches) {
+      noteIdsToFetch.add(note.id)
+      titleNotesMap.set(note.id, note as DBNote)
+    }
+  }
+
+  for (const noteId of matchingNoteIdsFromBlocks) {
+    noteIdsToFetch.add(noteId)
+  }
+
+  if (noteIdsToFetch.size === 0) {
+    return { data: [], error: null }
+  }
+
+  const missingNoteIds = Array.from(noteIdsToFetch).filter((id) => !titleNotesMap.has(id))
+  if (missingNoteIds.length > 0) {
+    const { data: missingNotes, error: missingErr } = await supabase
+      .from('notes')
+      .select('id, title, updated_at, created_at')
+      .eq('user_id', userId)
+      .in('id', missingNoteIds)
+
+    if (missingErr) return { data: [], error: missingErr }
+    if (missingNotes) {
+      for (const n of missingNotes) {
+        titleNotesMap.set(n.id, n as DBNote)
+      }
+    }
+  }
+
+  const results: SearchResultNote[] = Array.from(noteIdsToFetch).map((id) => {
+    const note = titleNotesMap.get(id)
+    const title = note?.title || 'Untitled Note'
+    const snippet = blockSnippets.get(id) || ''
+    const updatedAt = note?.updated_at ? new Date(note.updated_at) : (note?.created_at ? new Date(note.created_at) : new Date())
+    return {
+      id,
+      title,
+      snippet,
+      updatedAt,
+    }
+  })
+
+  results.sort((a, b) => (b.updatedAt?.getTime() || 0) - (a.updatedAt?.getTime() || 0))
+
+  return { data: results, error: null }
+}
+
 // ─── drawing block ────────────────────────────────────────────────────────────
 
 /**
