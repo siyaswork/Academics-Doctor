@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useSearchParams, useNavigate } from 'react-router-dom'
 import { useNotes } from '../contexts/NotesContext'
 import { searchNotes, type SearchResultNote } from '../services/notes'

@@ -1,0 +1,138 @@
+.page {
+  width: min(100% - 2rem, 800px);
+  margin: 0 auto;
+  padding: var(--spacing-xl) 0 5rem;
+}
+
+.eyebrow {
+  margin: 0 0 var(--spacing-xs);
+  color: var(--color-primary);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0 0 var(--spacing-xs);
+  color: var(--color-text-primary);
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+.subtitle {
+  margin: 0 0 var(--spacing-lg);
+  color: var(--color-text-muted);
+}
+
+.navTabs {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-lg);
+  border-bottom: 1px solid var(--color-border-subtle);
+  padding-bottom: var(--spacing-sm);
+}
+
+.tabLink {
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-sm);
+}
+
+.tabLinkActive {
+  background: var(--color-primary);
+  color: var(--color-surface);
+}
+
+.card {
+  padding: var(--spacing-lg);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  margin-bottom: var(--spacing-lg);
+}
+
+.sectionHeader {
+  margin: 0 0 var(--spacing-sm);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-lg);
+}
+
+.statusArea {
+  padding: var(--spacing-md);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-md);
+  background: var(--color-bg-secondary);
+  margin-bottom: var(--spacing-lg);
+}
+
+.statusRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-xs) 0;
+}
+
+.statusLabel {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.statusValue {
+  color: var(--color-text-primary);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-sm);
+}
+
+.paypalButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  min-height: 48px;
+  padding: 0 var(--spacing-xl);
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: #0070ba;
+  color: #ffffff;
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-bold);
+  cursor: pointer;
+}
+
+.paypalButton:hover {
+  background: #005ea6;
+}
+
+.notice {
+  margin-top: var(--spacing-sm);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-xs);
+}
+
+.logoutSection {
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--color-border-subtle);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoutButton {
+  min-height: 44px;
+  padding: 0 var(--spacing-lg);
+  border: 1px solid var(--color-danger);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--color-danger);
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  background: var(--color-danger);
+  color: #ffffff;
+}
