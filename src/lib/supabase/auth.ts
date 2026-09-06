@@ -5,6 +5,11 @@ export async function signUp(email: string, password: string, fullName?: string)
   return { data, error }
 }
 
+export async function resendConfirmationEmail(email: string) {
+  const { data, error } = await supabase.auth.resend({ type: 'signup', email })
+  return { data, error }
+}
+
 export async function signIn(email: string, password: string) {
   const { data, error } = await supabase.auth.signInWithPassword({ email, password })
   return { data, error }

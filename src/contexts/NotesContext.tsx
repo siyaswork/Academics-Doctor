@@ -70,6 +70,7 @@ export const NotesProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
   // Pending saves: noteId → what needs to be written ('meta', 'content', or 'both')
   const pendingSave = useRef<Map<string, SaveKind>>(new Map())
+  const dirtyContent = useRef<Set<string>>(new Set())
   const saveTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   const currentNote = currentNoteId ? notes.find((n) => n.id === currentNoteId) || null : null
@@ -128,7 +129,11 @@ export const NotesProvider: React.FC<{ children: React.ReactNode }> = ({ childre
         }
         if (kind === 'content' || kind === 'both') {
           const { error } = await replaceBlocksForNote(noteId, note.content)
-          if (error) anyError = true
+          if (error) {
+            anyError = true
+          } else {
+            dirtyContent.current.delete(noteId)
+          }
         }
       } catch {
         anyError = true
@@ -182,9 +187,11 @@ export const NotesProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
   const updateNote = useCallback(
     (noteId: string, updates: Partial<Note>) => {
-      setNotes((prev) =>
-        prev.map((note) => (note.id === noteId ? { ...note, ...updates, updatedAt: new Date() } : note)),
-      )
+      setNotes((prev) => {
+        const next = prev.map((note) => (note.id === noteId ? { ...note, ...updates, updatedAt: new Date() } : note))
+        notesRef.current = next
+        return next
+      })
       scheduleSave(noteId, 'meta')
     },
     [scheduleSave],
@@ -192,9 +199,12 @@ export const NotesProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
   const updateNoteContent = useCallback(
     (noteId: string, content: RichTextContent[]) => {
-      setNotes((prev) =>
-        prev.map((note) => (note.id === noteId ? { ...note, content, updatedAt: new Date() } : note)),
-      )
+      setNotes((prev) => {
+        const next = prev.map((note) => (note.id === noteId ? { ...note, content, updatedAt: new Date() } : note))
+        notesRef.current = next
+        return next
+      })
+      dirtyContent.current.add(noteId)
       scheduleSave(noteId, 'content')
     },
     [scheduleSave],
@@ -202,13 +212,16 @@ export const NotesProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
   const appendBlock = useCallback(
     (noteId: string, block: RichTextContent) => {
-      setNotes((prev) =>
-        prev.map((note) =>
+      setNotes((prev) => {
+        const next = prev.map((note) =>
           note.id === noteId
             ? { ...note, content: [...note.content, block], updatedAt: new Date() }
             : note,
-        ),
-      )
+        )
+        notesRef.current = next
+        return next
+      })
+      dirtyContent.current.add(noteId)
       scheduleSave(noteId, 'content')
     },
     [scheduleSave],
@@ -245,7 +258,7 @@ export const NotesProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     async (noteId: string) => {
       if (!user) return
       const { note, blocks, error } = await getNoteWithBlocks(noteId)
-      if (error || !note) return
+      if (error || !note || dirtyContent.current.has(noteId)) return
       const content = dbBlocksToFrontContent(blocks)
       setNotes((prev) =>
         prev.map((n) =>

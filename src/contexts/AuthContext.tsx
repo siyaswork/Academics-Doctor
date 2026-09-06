@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react'
 import { supabase, } from '../lib/supabase/client'
-import { signIn, signOut as sbSignOut, signUp as sbSignUp, onAuthStateChanged } from '../lib/supabase/auth'
+import { signIn, signOut as sbSignOut, signUp as sbSignUp, resendConfirmationEmail as sbResendConfirmationEmail, onAuthStateChanged } from '../lib/supabase/auth'
 
 type User = {
   id: string
@@ -12,6 +12,7 @@ type AuthContextValue = {
   user: User | null
   loading: boolean
   signUp: (email: string, password: string, fullName?: string) => Promise<{ error?: any }>
+  resendConfirmationEmail: (email: string) => Promise<{ error?: any }>
   signIn: (email: string, password: string) => Promise<{ error?: any }>
   signOut: () => Promise<void>
 }
@@ -57,6 +58,11 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     return { error }
   }
 
+  async function _resendConfirmationEmail(email: string) {
+    const { error } = await sbResendConfirmationEmail(email)
+    return { error }
+  }
+
   async function _signIn(email: string, password: string) {
     const { error } = await signIn(email, password)
     return { error }
@@ -68,7 +74,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   }
 
   return (
-    <AuthContext.Provider value={{ user, loading, signUp: _signUp, signIn: _signIn, signOut: _signOut }}>
+    <AuthContext.Provider value={{ user, loading, signUp: _signUp, resendConfirmationEmail: _resendConfirmationEmail, signIn: _signIn, signOut: _signOut }}>
       {children}
     </AuthContext.Provider>
   )
