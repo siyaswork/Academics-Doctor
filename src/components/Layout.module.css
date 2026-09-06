@@ -13,7 +13,7 @@
   padding: 8px 14px;
   border-radius: var(--radius-sm);
   background: var(--color-primary);
-  color: #fff;
+  color: var(--color-surface);
 }
 
 .skipLink:focus {
@@ -76,7 +76,7 @@
 
 .navLinkActive {
   background: var(--color-primary);
-  color: #fff;
+  color: var(--color-surface);
   font-weight: var(--font-weight-semibold);
 }
 
