@@ -136,39 +136,33 @@ export async function deleteNote(noteId: string) {
 // ─── rich-text blocks ────────────────────────────────────────────────────────
 
 /**
- * Replace all rich-text blocks for a note.
- * IMPORTANT: only deletes/inserts rows where block_type ≠ 'drawing' so that
- * the drawing block (position = -1) is never accidentally clobbered when the
- * user edits the note's text content.
- *
- * NOTE: delete-then-insert is not atomic. If the insert fails after a successful
- * delete, blocks will be empty in Supabase. Local state and localStorage are
- * unaffected so the user does NOT lose data — the next autosave retries.
+ * Upsert rich-text blocks for a note by their stable note_id + position identity.
+ * Drawing blocks use position -1, so they are not affected by this operation.
  */
 export async function replaceBlocksForNote(noteId: string, content: RichTextContent[]) {
   const userId = await getCurrentUserId()
   if (!userId) return { error: new Error('Not authenticated') }
 
-  // Delete existing rich-text blocks only (spare the drawing row)
-  const { error: delError } = await supabase
+  const blocks = content.map((block, position) => ({
+    note_id: noteId,
+    user_id: userId,
+    block_type: block.type,
+    content: block as unknown as Record<string, unknown>,
+    position,
+  }))
+
+  if (blocks.length > 0) {
+    const { error } = await supabase.from('note_blocks').upsert(blocks, { onConflict: 'note_id,position' })
+    if (error) return { error }
+  }
+
+  const { error } = await supabase
     .from('note_blocks')
     .delete()
     .eq('note_id', noteId)
     .eq('user_id', userId)
     .neq('block_type', DRAWING_BLOCK_TYPE)
-  if (delError) return { error: delError }
-
-  if (content.length === 0) return { error: null }
-
-  const inserts = content.map((block, idx) => ({
-    note_id: noteId,
-    user_id: userId,
-    block_type: block.type,
-    content: block as unknown as Record<string, unknown>,
-    position: idx,
-  }))
-
-  const { error } = await supabase.from('note_blocks').insert(inserts)
+    .gte('position', content.length)
   return { error }
 }
 
