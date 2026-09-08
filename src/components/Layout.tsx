@@ -20,7 +20,6 @@ export const Layout: React.FC = () => {
   const location = useLocation()
   const navigate = useNavigate()
 
-  // Close the mobile nav whenever the route changes
   React.useEffect(() => {
     setIsNavOpen(false)
   }, [location.pathname])
@@ -31,9 +30,9 @@ export const Layout: React.FC = () => {
         Skip to content
       </a>
       <header className={styles.topBar}>
-        <div className={styles.brand}>
+        <NavLink to="/dashboard" className={styles.brand} style={{ textDecoration: 'none', color: 'inherit', display: 'flex', alignItems: 'center', gap: 6 }}>
           <span aria-hidden="true">🩺</span> Academics Doctor
-        </div>
+        </NavLink>
         <button
           type="button"
           className={styles.menuButton}
