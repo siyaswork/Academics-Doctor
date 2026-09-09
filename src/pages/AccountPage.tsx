@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
 import { getCurrentProfile, upsertProfile } from '../services/profiles'
+import { supabase } from '../lib/supabase/client'
 import { STORAGE_KEYS } from '../utils/storage'
 import styles from './AccountPage.module.css'
 
@@ -9,6 +10,7 @@ export default function AccountPage() {
   const { user, signOut } = useAuth()
   const navigate = useNavigate()
 
+  const [fullName, setFullName] = useState('')
   const [displayName, setDisplayName] = useState('')
   const [email, setEmail] = useState('')
   const [educationLevel, setEducationLevel] = useState('Undergraduate')
@@ -31,6 +33,7 @@ export default function AccountPage() {
       setLoading(true)
       const { data, error } = await getCurrentProfile()
       if (!error && data) {
+        if (data.full_name) setFullName(data.full_name)
         if (data.display_name) setDisplayName(data.display_name)
         if (data.email) setEmail(data.email)
         if (data.education_level) setEducationLevel(data.education_level)
@@ -49,12 +52,20 @@ export default function AccountPage() {
     setMessage(null)
 
     const { error } = await upsertProfile({
+      full_name: fullName,
       display_name: displayName,
       email,
       education_level: educationLevel,
       bio,
       avatar_path: avatarPath,
     })
+
+    // Keep the auth session's cached name in sync so the display name shows
+    // up immediately elsewhere in the app (e.g. the Dashboard greeting),
+    // instead of only living in the profiles table.
+    if (!error) {
+      await supabase.auth.updateUser({ data: { full_name: displayName } })
+    }
 
     setSaving(false)
     if (error) {
@@ -98,12 +109,6 @@ export default function AccountPage() {
         >
           Billing & Payments
         </NavLink>
-        <NavLink
-          to="/settings"
-          className={({ isActive }) => (isActive ? `${styles.tabLink} ${styles.tabLinkActive}` : styles.tabLink)}
-        >
-          Settings
-        </NavLink>
       </nav>
 
       <div className={styles.card}>
@@ -111,6 +116,20 @@ export default function AccountPage() {
           <div>Loading profile information...</div>
         ) : (
           <form className={styles.formGrid} onSubmit={handleSave}>
+            <div className={styles.fieldGroup}>
+              <label htmlFor="full_name" className={styles.label}>
+                Full Name
+              </label>
+              <input
+                id="full_name"
+                type="text"
+                className={styles.input}
+                value={fullName}
+                onChange={(e) => setFullName(e.target.value)}
+                placeholder="Your legal/full name"
+              />
+            </div>
+
             <div className={styles.fieldGroup}>
               <label htmlFor="display_name" className={styles.label}>
                 Display Name
@@ -121,7 +140,7 @@ export default function AccountPage() {
                 className={styles.input}
                 value={displayName}
                 onChange={(e) => setDisplayName(e.target.value)}
-                placeholder="Your full name or handle"
+                placeholder="What shows on your dashboard"
               />
             </div>
 
