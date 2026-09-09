@@ -23,16 +23,54 @@ const contentToHtml = (content: RichTextContent[]) => content.map((block) => {
   return `<p>${text}</p>`
 }).join('')
 
+// FIXED: previously used `wrapper.children`, which only returns Element
+// nodes. Browsers frequently insert the very first characters typed into an
+// empty contentEditable as a bare Text node (no wrapping <p>), especially
+// right after the div is cleared/empty. That text was silently dropped,
+// converting freshly-typed content into an empty array — invisible while
+// focused, but the moment the editor blurred and re-synced from that now-
+// empty saved state, the typed text visibly disappeared.
 const htmlToContent = (html: string): RichTextContent[] => {
   const wrapper = document.createElement('div')
   wrapper.innerHTML = html
-  return Array.from(wrapper.children).map((element) => {
+  const blocks: RichTextContent[] = []
+
+  wrapper.childNodes.forEach((node) => {
+    if (node.nodeType === Node.TEXT_NODE) {
+      const text = node.textContent ?? ''
+      if (text.trim() === '') return
+      blocks.push({ type: 'paragraph', content: text })
+      return
+    }
+    if (node.nodeType !== Node.ELEMENT_NODE) return
+
+    const element = node as HTMLElement
     const tag = element.tagName.toLowerCase()
-    if (tag === 'hr') return { type: 'divider' as const, content: '' }
-    if (/^h[1-6]$/.test(tag)) return { type: 'heading' as const, level: Number(tag[1]), content: element.textContent || '' }
-    if (tag === 'ul' || tag === 'ol') return { type: 'list' as const, listType: tag === 'ol' ? 'numbered' as const : 'bullet' as const, content: element.textContent || '' }
-    return { type: 'paragraph' as const, content: element.textContent || '' }
+    if (tag === 'br') return
+    if (tag === 'hr') {
+      blocks.push({ type: 'divider', content: '' })
+      return
+    }
+    if (/^h[1-6]$/.test(tag)) {
+      blocks.push({ type: 'heading', level: Number(tag[1]), content: element.textContent || '' })
+      return
+    }
+    if (tag === 'ul' || tag === 'ol') {
+      blocks.push({ type: 'list', listType: tag === 'ol' ? ('numbered' as const) : ('bullet' as const), content: element.textContent || '' })
+      return
+    }
+    blocks.push({ type: 'paragraph', content: element.textContent || '' })
   })
+
+  // Safety net: if nothing was parsed as a block but there's real text in the
+  // wrapper (an edge case we haven't anticipated), never silently drop it —
+  // fall back to a single paragraph rather than returning an empty array.
+  if (blocks.length === 0) {
+    const fallback = wrapper.textContent ?? ''
+    if (fallback.trim() !== '') return [{ type: 'paragraph', content: fallback }]
+  }
+
+  return blocks
 }
 
 export const RichTextEditor: React.FC<RichTextEditorProps> = ({ content, onChange, onBlurFlush }) => {
