@@ -8,6 +8,18 @@ import styles from './Dashboard.module.css'
 import subjects from '../data/subjects'
 import EmptyState from '../components/EmptyState'
 
+const COMING_SOON_SUBJECTS = [
+  'Design & Technology',
+  'Biology',
+  'Computer Science',
+  'English',
+  'Economics',
+  'Accounting',
+  'Business Studies',
+  'Geography',
+  'History',
+]
+
 export const Dashboard: React.FC = () => {
   const { notes } = useNotes()
   const { formulas } = useFormulas()
@@ -63,15 +75,35 @@ export const Dashboard: React.FC = () => {
         <h2 className={styles.sectionTitle}>Quick access to subjects</h2>
         <div className={styles.grid}>
           {subjects
-            .filter((s) =>
-              ['mathematics', 'additional-mathematics', 'physics', 'chemistry', 'design-technology'].includes(s.slug),
-            )
+            .filter((s) => ['mathematics', 'additional-mathematics', 'physics', 'chemistry'].includes(s.slug))
             .map((s) => (
               <Link key={s.slug} to={`/dashboard/subjects/${s.slug}`} className={styles.featureCard}>
                 <h2>{s.name}</h2>
                 <p>{s.shortDescription}</p>
               </Link>
             ))}
+        </div>
+
+        <div style={{ marginTop: 16 }}>
+          <p style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--color-text-secondary)', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.03em' }}>
+            Coming soon
+          </p>
+          <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap' }}>
+            {COMING_SOON_SUBJECTS.map((name) => (
+              <span
+                key={name}
+                style={{
+                  padding: '0.45rem 0.9rem',
+                  borderRadius: 999,
+                  border: '1px dashed var(--color-border, #ccc)',
+                  color: 'var(--color-text-secondary)',
+                  fontSize: '0.85rem',
+                }}
+              >
+                {name}
+              </span>
+            ))}
+          </div>
         </div>
       </section>
 
