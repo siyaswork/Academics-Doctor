@@ -2,10 +2,13 @@ import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { supabase } from '../lib/supabase/client'
 import { useAuth } from '../contexts/AuthContext'
+import { useSubscriptionAccess } from '../hooks/useSubscriptionAccess'
+import { TrialExpiredNotice } from '../components/TrialExpiredNotice'
 
 export default function LearnPage() {
   const { subject: subjectSlug, topic: topicSlug } = useParams()
   const { user } = useAuth()
+  const { loading: accessLoading, hasAccess } = useSubscriptionAccess()
   const [loading, setLoading] = useState(true)
   const [notFound, setNotFound] = useState(false)
   const [subject, setSubject] = useState<any>(null)
@@ -100,7 +103,8 @@ export default function LearnPage() {
     }
   }
 
-  if (loading) return <div style={{ padding: 16 }}>Loading...</div>
+  if (accessLoading || loading) return <div style={{ padding: 16 }}>Loading...</div>
+  if (!hasAccess) return <TrialExpiredNotice />
 
   if (notFound || !topic || !subject) {
     return (

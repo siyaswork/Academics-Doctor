@@ -1,10 +1,13 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { supabase } from '../lib/supabase/client'
+import { useSubscriptionAccess } from '../hooks/useSubscriptionAccess'
+import { TrialExpiredNotice } from '../components/TrialExpiredNotice'
 
 export default function SubjectsPage() {
   const [subjects, setSubjects] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
+  const { loading: accessLoading, hasAccess } = useSubscriptionAccess()
 
   useEffect(() => {
     async function fetchSubjects() {
@@ -21,7 +24,8 @@ export default function SubjectsPage() {
     fetchSubjects()
   }, [])
 
-  if (loading) return <p>Loading subjects...</p>
+  if (accessLoading || loading) return <p>Loading subjects...</p>
+  if (!hasAccess) return <TrialExpiredNotice />
 
   return (
     <div>

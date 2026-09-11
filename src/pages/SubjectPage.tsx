@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { supabase } from '../lib/supabase/client'
+import { useSubscriptionAccess } from '../hooks/useSubscriptionAccess'
+import { TrialExpiredNotice } from '../components/TrialExpiredNotice'
 
 export default function SubjectPage() {
   const { subject: slug } = useParams()
@@ -9,6 +11,7 @@ export default function SubjectPage() {
   const [loading, setLoading] = useState(true)
   const [notFound, setNotFound] = useState(false)
   const [query, setQuery] = useState('')
+  const { loading: accessLoading, hasAccess } = useSubscriptionAccess()
 
   useEffect(() => {
     async function fetchSubject() {
@@ -50,7 +53,8 @@ export default function SubjectPage() {
     return topics.filter((t) => t.topic?.toLowerCase().includes(q) || t.summary?.toLowerCase().includes(q))
   }, [topics, query])
 
-  if (loading) return <p>Loading subject...</p>
+  if (accessLoading || loading) return <p>Loading subject...</p>
+  if (!hasAccess) return <TrialExpiredNotice />
 
   if (notFound || !subject) {
     return (
