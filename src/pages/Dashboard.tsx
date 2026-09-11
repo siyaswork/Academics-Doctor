@@ -7,6 +7,7 @@ import { useAuth } from '../contexts/AuthContext'
 import styles from './Dashboard.module.css'
 import subjects from '../data/subjects'
 import EmptyState from '../components/EmptyState'
+import { TopicRequestBox } from '../components/TopicRequestBox'
 
 const COMING_SOON_SUBJECTS = [
   'Design & Technology',
@@ -121,6 +122,8 @@ export const Dashboard: React.FC = () => {
           <p>A unified view of every note, formula, and drawing.</p>
         </Link>
       </div>
+
+      <TopicRequestBox />
     </section>
   )
 }
