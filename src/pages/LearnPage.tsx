@@ -20,6 +20,7 @@ export default function LearnPage() {
   const [examQuestions, setExamQuestions] = useState<any[]>([])
   const [favoriteId, setFavoriteId] = useState<string | null>(null)
   const [savingFavorite, setSavingFavorite] = useState(false)
+  const [images, setImages] = useState<any[]>([])
 
   useEffect(() => {
     async function load() {
@@ -54,7 +55,7 @@ export default function LearnPage() {
       }
       setTopic(topicData)
 
-      const [defs, forms, examples, practice, exam, fav] = await Promise.all([
+      const [defs, forms, examples, practice, exam, fav, imgs] = await Promise.all([
         supabase.from('content_definitions').select('*').eq('topic_id', topicData.id).order('position'),
         supabase.from('content_topic_formulas').select('*').eq('topic_id', topicData.id).order('position'),
         supabase.from('content_worked_examples').select('*').eq('topic_id', topicData.id).order('position'),
@@ -69,6 +70,7 @@ export default function LearnPage() {
               .eq('item_id', topicData.id)
               .maybeSingle()
           : Promise.resolve({ data: null }),
+        supabase.from('content_images').select('*').eq('topic_id', topicData.id).order('position'),
       ])
 
       setDefinitions(defs.data ?? [])
@@ -77,6 +79,7 @@ export default function LearnPage() {
       setPracticeQuestions(practice.data ?? [])
       setExamQuestions(exam.data ?? [])
       setFavoriteId((fav as any)?.data?.id ?? null)
+      setImages(imgs.data ?? [])
       setLoading(false)
     }
 
@@ -155,6 +158,23 @@ export default function LearnPage() {
         <section style={{ marginTop: 20 }}>
           <h2>Explanation</h2>
           <p style={{ lineHeight: 1.6 }}>{topic.explanation}</p>
+        </section>
+      )}
+
+      {images.length > 0 && (
+        <section style={{ marginTop: 20, display: 'flex', flexWrap: 'wrap', gap: 12 }}>
+          {images.map((img) => {
+            const { data } = supabase.storage.from(img.storage_bucket || 'content-images').getPublicUrl(img.storage_path || img.filename)
+            return (
+              <img
+                key={img.id}
+                src={data.publicUrl}
+                alt={img.description || topic.topic}
+                style={{ maxWidth: '100%', width: 320, borderRadius: 8, border: '1px solid var(--color-border, #ddd)' }}
+                onError={(e) => { e.currentTarget.style.display = 'none' }}
+              />
+            )
+          })}
         </section>
       )}
 
