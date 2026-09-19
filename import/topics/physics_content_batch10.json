@@ -1,0 +1,1585 @@
+[
+  {
+    "id": "phy-126",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Orbital Velocity",
+    "difficulty": "Intermediate",
+    "description": "The linear speed at which an object must travel to maintain a stable orbit at a given radius around a central body.",
+    "learning_objectives": [
+      "Calculate orbital velocity using v = root(GM/r)",
+      "Explain how orbital velocity changes with orbital radius",
+      "Relate orbital velocity to orbital period"
+    ],
+    "explanation": "Orbital velocity is the specific linear speed an orbiting object must maintain to stay in a stable circular orbit at a given radius around a central body, derived in Orbital Motion as v = root(GM/r). Since orbital velocity depends inversely on the square root of the orbital radius, satellites and planets closer to the central body must travel faster to maintain their orbit than those further away — this is why an inner planet like Mercury moves much faster around the Sun than an outer planet like Neptune, and why low Earth orbit satellites move faster than geostationary ones. Orbital velocity is also connected to orbital period, T, since for one complete orbit, the object travels a distance equal to the circumference of its orbit, 2(pi)r, giving the relationship v = 2(pi)r/T, which can be combined with v = root(GM/r) to derive further relationships between period and radius, such as those described by Kepler's third law.",
+    "key_concepts": [
+      "v = root(GM/r): orbital velocity decreases with increasing radius",
+      "Inner orbits: faster; outer orbits: slower",
+      "v = 2(pi)r/T links orbital velocity to period"
+    ],
+    "definitions": [
+      {
+        "term": "Orbital velocity",
+        "definition": "The linear speed at which an object must travel to maintain a stable circular orbit at a given radius, v = root(GM/r)."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Orbital velocity",
+        "equation": "v = root(GM/r)",
+        "variables": {
+          "v": "orbital velocity, m/s",
+          "G": "gravitational constant",
+          "M": "mass of the central body, kg",
+          "r": "orbital radius, m"
+        }
+      },
+      {
+        "name": "Orbital velocity from period",
+        "equation": "v = 2(pi)r / T",
+        "variables": {
+          "T": "orbital period, s"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "orbital velocity",
+        "si_unit": "metre per second",
+        "symbol": "m/s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A satellite orbits the Earth (mass 6.0 x 10^24 kg) with an orbital period of 6000 s at a radius of 7.5 x 10^6 m. Calculate its orbital velocity using v = 2(pi)r/T, and check this is consistent with v = root(GM/r) (use G = 6.67 x 10^-11 N m^2/kg^2).",
+        "steps": [
+          "Using v = 2(pi)r/T: v = (2)(pi)(7.5x10^6) / 6000 = 4.712x10^7 / 6000 approx 7854 m/s.",
+          "Using v = root(GM/r): v = root((6.67x10^-11)(6.0x10^24)/(7.5x10^6)) = root(5.336x10^7) approx 7305 m/s.",
+          "The two values are reasonably close (the small discrepancy reflects rounding in the given period), confirming consistency between the two approaches."
+        ],
+        "answer": "Approximately 7300-7850 m/s from the two methods, consistent within the precision of the given values."
+      }
+    ],
+    "practical_applications": [
+      "Calculating required launch and orbital insertion speeds for satellites and spacecraft",
+      "Comparing orbital speeds of planets within the solar system",
+      "Mission planning for interplanetary transfers, which rely on matching orbital velocities"
+    ],
+    "common_mistakes": [
+      "Assuming orbital velocity increases with orbital radius, rather than decreasing",
+      "Confusing orbital velocity (linear speed, m/s) with angular velocity (rad/s), which behaves differently with radius"
+    ],
+    "misconceptions": [
+      "That satellites in higher orbits move 'faster' because they have further to travel — while a higher orbit does have a greater circumference to travel, its required orbital velocity is actually lower, and the combined effect of a much greater distance and a lower speed results in a much longer orbital period overall for higher orbits."
+    ],
+    "tips": [
+      "Use v = root(GM/r) when the masses and radius are known directly; use v = 2(pi)r/T when the period and radius are known instead, and check both give consistent orbital speeds where both sets of information are available."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State how orbital velocity changes as orbital radius increases."
+      ],
+      "intermediate": [
+        "Calculate the orbital velocity of a satellite orbiting the Earth at a radius of 8.0 x 10^6 m, given the Earth's mass is 6.0 x 10^24 kg (use G = 6.67 x 10^-11 N m^2/kg^2)."
+      ],
+      "advanced": [
+        "Explain, using v = root(GM/r), why Mercury (closer to the Sun) orbits faster than Neptune (much further from the Sun)."
+      ]
+    },
+    "exam_questions": [
+      "Explain why a satellite in a lower orbit must travel at a greater orbital velocity than one in a higher orbit."
+    ],
+    "answers": {
+      "basic": [
+        "Orbital velocity decreases as orbital radius increases."
+      ],
+      "intermediate": [
+        "v = root((6.67x10^-11)(6.0x10^24)/(8.0x10^6)) = root(5.0025x10^7) approx 7073 m/s."
+      ],
+      "advanced": [
+        "Since v = root(GM/r), a smaller orbital radius, r, results in a larger value of GM/r, and therefore a greater orbital velocity; Mercury's much smaller distance from the Sun compared with Neptune's means it requires a significantly greater orbital velocity to remain in a stable orbit."
+      ],
+      "exam": [
+        "A satellite in a lower orbit is closer to the central body (smaller r); since v = root(GM/r), a smaller r produces a larger value under the square root, requiring a greater orbital velocity to provide sufficient centripetal force to balance the correspondingly stronger gravitational attraction at that closer distance."
+      ]
+    },
+    "summary": "Orbital velocity, v = root(GM/r), is the speed needed to maintain a stable circular orbit, decreasing as orbital radius increases. It is also related to orbital period via v = 2(pi)r/T.",
+    "revision_notes": [
+      "v = root(GM/r); decreases as r increases",
+      "v = 2(pi)r/T",
+      "Inner orbits faster; outer orbits slower"
+    ],
+    "related_topics": [
+      "Orbital Motion",
+      "Artificial Satellites",
+      "Kepler's Laws"
+    ],
+    "prerequisites": [
+      "Orbital Motion"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-127",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Planetary Motion",
+    "difficulty": "Intermediate",
+    "description": "The motion of planets around the Sun, governed by gravitational attraction and following elliptical, rather than perfectly circular, orbital paths.",
+    "learning_objectives": [
+      "Describe the general nature of planetary orbits around the Sun",
+      "Explain why planetary orbits are elliptical rather than perfectly circular",
+      "Relate planetary motion to gravitational force and centripetal force"
+    ],
+    "explanation": "Planetary motion describes how planets move around the Sun, held in their orbits by the Sun's gravitational attraction acting as the (approximate) centripetal force. While circular orbits are a useful and common simplifying approximation, the true orbits of planets are ellipses, with the Sun positioned at one of the two focus points of the ellipse rather than at its exact centre, as formally described by Kepler's first law. This means a planet's distance from the Sun actually varies slightly over the course of its orbit, being closest at a point called perihelion and furthest at a point called aphelion. For most planets in the solar system, including Earth, this elliptical variation is quite small, meaning the orbit is close to circular and the simpler circular-orbit equations (such as v = root(GM/r)) remain very good approximations; some other bodies, such as certain comets, have much more elongated (highly eccentric) elliptical orbits, with correspondingly large variations in distance and orbital speed throughout their orbit.",
+    "key_concepts": [
+      "Planets orbit the Sun due to gravitational attraction",
+      "True orbits are ellipses, with the Sun at one focus (not the centre)",
+      "Perihelion (closest) and aphelion (furthest) points; circular orbit is a good approximation for most planets"
+    ],
+    "definitions": [
+      {
+        "term": "Perihelion",
+        "definition": "The point in a planet's (or other orbiting body's) elliptical orbit at which it is closest to the Sun."
+      },
+      {
+        "term": "Aphelion",
+        "definition": "The point in a planet's (or other orbiting body's) elliptical orbit at which it is furthest from the Sun."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "distance",
+        "si_unit": "metre",
+        "symbol": "m"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain why a planet in an elliptical orbit moves faster when it is near perihelion than when it is near aphelion.",
+        "steps": [
+          "Recall (from Kepler's second law) that a planet sweeps out equal areas in equal times as it orbits the Sun.",
+          "Near perihelion, the planet is much closer to the Sun, so a given swept-out area corresponds to a shorter arc of the orbit.",
+          "To sweep out the same area in the same time near perihelion as near aphelion (where the planet is much further away), the planet must travel a greater distance along its orbit in that time near perihelion, meaning it must be moving faster."
+        ],
+        "answer": "The planet moves faster near perihelion because it must cover a greater orbital distance in the same time interval to sweep out the same area as it does more slowly near aphelion, consistent with Kepler's second law."
+      }
+    ],
+    "practical_applications": [
+      "Predicting the positions of planets and comets in the night sky over time",
+      "Space mission planning, timing launches around a planet's or comet's varying orbital speed",
+      "Historical development of celestial mechanics and Newtonian physics"
+    ],
+    "common_mistakes": [
+      "Assuming all planetary orbits are perfect circles with the Sun at the exact centre",
+      "Confusing perihelion (closest point) with aphelion (furthest point)"
+    ],
+    "misconceptions": [
+      "That a planet's speed remains exactly constant throughout its orbit — for a genuinely elliptical orbit, a planet's speed varies, being fastest at perihelion (closest to the Sun) and slowest at aphelion (furthest from the Sun), even though this variation is small for most planets in the solar system."
+    ],
+    "tips": [
+      "Remember 'peri-' relates to closest approach (as in 'perimeter', close in) and 'ap-'/'apo-' relates to furthest point, to help distinguish perihelion from aphelion."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the term for the point in a planet's orbit where it is closest to the Sun."
+      ],
+      "intermediate": [
+        "Explain why the circular orbit approximation is reasonably accurate for most planets in the solar system."
+      ],
+      "advanced": [
+        "Explain why a comet with a highly eccentric (elongated) elliptical orbit experiences a much larger variation in orbital speed than a planet with a nearly circular orbit."
+      ]
+    },
+    "exam_questions": [
+      "Describe the general shape of a planet's orbit around the Sun, and state the position of the Sun relative to this shape."
+    ],
+    "answers": {
+      "basic": [
+        "Perihelion."
+      ],
+      "intermediate": [
+        "Most planets in the solar system have orbits that are only very slightly elliptical (low eccentricity), meaning the variation in their distance from the Sun over an orbit is small, so treating their orbits as approximately circular introduces only a small error for most calculations."
+      ],
+      "advanced": [
+        "A highly eccentric orbit has a much larger difference between its perihelion and aphelion distances than a near-circular orbit; since orbital speed varies more significantly when the distance from the Sun varies more significantly (by Kepler's second law, sweeping out equal areas in equal times), a comet with such an orbit experiences a much greater variation in speed, moving very quickly near perihelion and very slowly near aphelion, compared with a planet in a near-circular orbit, whose speed stays comparatively steady throughout."
+      ],
+      "exam": [
+        "A planet's orbit around the Sun is an ellipse, with the Sun positioned at one of the two focus points of the ellipse, rather than at its geometric centre."
+      ]
+    },
+    "summary": "Planetary motion around the Sun is governed by gravitational attraction, following elliptical (not perfectly circular) orbits with the Sun at one focus. Planets move faster near perihelion (closest approach) and slower near aphelion (furthest point).",
+    "revision_notes": [
+      "True orbits are ellipses; Sun at one focus, not the centre",
+      "Perihelion: closest, fastest; aphelion: furthest, slowest",
+      "Circular orbit is a good approximation for most planets"
+    ],
+    "related_topics": [
+      "Kepler's Laws",
+      "Orbital Motion",
+      "Gravitational Force"
+    ],
+    "prerequisites": [
+      "Orbital Motion"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-128",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Kepler's Laws",
+    "difficulty": "Advanced",
+    "description": "Three laws describing the motion of planets around the Sun, derived empirically before being explained theoretically by Newton's law of gravitation.",
+    "learning_objectives": [
+      "State Kepler's three laws of planetary motion",
+      "Apply Kepler's third law to compare orbital periods and radii",
+      "Explain how Kepler's laws relate to Newton's law of gravitation"
+    ],
+    "explanation": "Kepler's laws are three statements describing the motion of planets around the Sun, originally derived by Johannes Kepler from careful astronomical observations, before Newton later showed they follow directly from his law of gravitation combined with the equations of circular (or elliptical) motion. Kepler's first law states that planets move in elliptical orbits, with the Sun at one focus. Kepler's second law states that a line drawn from the Sun to a planet sweeps out equal areas in equal time intervals, which is the underlying reason a planet moves faster when closer to the Sun (near perihelion) and slower when further away (near aphelion), as discussed in Planetary Motion. Kepler's third law states that the square of a planet's orbital period is directly proportional to the cube of the semi-major axis of its orbit (approximately its average orbital radius, for a near-circular orbit): T^2 is proportional to r^3, or more precisely, T^2 = (4(pi)^2/GM) r^3, which can be derived directly by combining Newton's law of gravitation with the equations of circular motion.",
+    "key_concepts": [
+      "1st law: elliptical orbits, Sun at one focus",
+      "2nd law: equal areas swept in equal times",
+      "3rd law: T^2 proportional to r^3"
+    ],
+    "definitions": [
+      {
+        "term": "Kepler's third law",
+        "definition": "The square of a planet's orbital period is directly proportional to the cube of its orbital radius (semi-major axis): T^2 = (4(pi)^2/GM) r^3."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Kepler's third law",
+        "equation": "T^2 = (4(pi)^2 / GM) r^3",
+        "variables": {
+          "T": "orbital period, s",
+          "G": "gravitational constant",
+          "M": "mass of the central body, kg",
+          "r": "orbital radius, m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "orbital period",
+        "si_unit": "second",
+        "symbol": "s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Derive Kepler's third law, T^2 = (4(pi)^2/GM) r^3, starting from the orbital velocity equation v = root(GM/r) and v = 2(pi)r/T.",
+        "steps": [
+          "Set the two expressions for v equal: root(GM/r) = 2(pi)r/T.",
+          "Square both sides: GM/r = 4(pi)^2 r^2 / T^2.",
+          "Rearrange to make T^2 the subject: T^2 = 4(pi)^2 r^2 r / GM = (4(pi)^2/GM) r^3."
+        ],
+        "answer": "T^2 = (4(pi)^2/GM) r^3, showing the square of the period is proportional to the cube of the radius."
+      }
+    ],
+    "practical_applications": [
+      "Calculating orbital periods of newly discovered exoplanets from their orbital radius, or vice versa",
+      "Determining the mass of a central astronomical body from the orbital period and radius of an orbiting satellite or moon",
+      "Historical foundation for Newton's development of the law of universal gravitation"
+    ],
+    "common_mistakes": [
+      "Confusing which quantity is squared and which is cubed in Kepler's third law (T is squared, r is cubed)",
+      "Assuming Kepler's second law implies constant orbital speed, rather than varying speed with constant swept area"
+    ],
+    "misconceptions": [
+      "That Kepler's laws and Newton's law of gravitation are two separate, unrelated sets of ideas — Kepler's laws were originally derived purely from observation, but Newton later showed all three laws follow mathematically as direct consequences of his law of gravitation combined with the mathematics of orbital motion, unifying the two approaches into a single theoretical framework."
+    ],
+    "tips": [
+      "Remember Kepler's third law as 'T squared proportional to r cubed' — this specific pairing of exponents is a distinctive, memorable feature of the relationship."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State Kepler's third law in words."
+      ],
+      "intermediate": [
+        "Two planets orbit a star; planet A has an orbital radius four times that of planet B. Using Kepler's third law, calculate how many times longer planet A's orbital period is compared with planet B's."
+      ],
+      "advanced": [
+        "A moon orbits a planet with a period of 200,000 s at a radius of 4.0 x 10^8 m. Use Kepler's third law to calculate the mass of the planet (use G = 6.67 x 10^-11 N m^2/kg^2)."
+      ]
+    },
+    "exam_questions": [
+      "State Kepler's first and second laws, and explain what each describes about the shape and speed of a planet's orbit."
+    ],
+    "answers": {
+      "basic": [
+        "The square of a planet's orbital period is directly proportional to the cube of its orbital radius."
+      ],
+      "intermediate": [
+        "Since T^2 is proportional to r^3, and r(A) = 4 x r(B): T(A)^2 / T(B)^2 = (4)^3 = 64, so T(A)/T(B) = root(64) = 8; planet A's orbital period is 8 times longer than planet B's."
+      ],
+      "advanced": [
+        "Rearranging T^2 = (4(pi)^2/GM) r^3 for M: M = 4(pi)^2 r^3 / (GT^2). Substituting: M = 4(pi)^2 (4.0x10^8)^3 / [(6.67x10^-11)(200,000)^2] approx 9.47x10^26 kg."
+      ],
+      "exam": [
+        "Kepler's first law states that planets move in elliptical orbits with the Sun at one focus, describing the SHAPE of the orbit; Kepler's second law states that a line from the Sun to the planet sweeps out equal areas in equal times, describing how the planet's SPEED varies around the orbit, being faster when closer to the Sun and slower when further away."
+      ]
+    },
+    "summary": "Kepler's three laws describe planetary motion: elliptical orbits with the Sun at one focus (1st law), equal areas swept in equal times (2nd law), and T^2 proportional to r^3 (3rd law). All three follow mathematically from Newton's law of gravitation.",
+    "revision_notes": [
+      "1st: elliptical orbit, Sun at focus",
+      "2nd: equal areas in equal times (faster near Sun)",
+      "3rd: T^2 = (4(pi)^2/GM) r^3"
+    ],
+    "related_topics": [
+      "Planetary Motion",
+      "Orbital Motion",
+      "Newton's Law of Gravitation"
+    ],
+    "prerequisites": [
+      "Orbital Motion",
+      "Planetary Motion"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: An elliptical orbit with the Sun at one focus, showing a planet at two different points on the orbit]"
+    ],
+    "images": [
+      {
+        "filename": "physics-keplers-laws-128-01.webp",
+        "type": "diagram",
+        "description": "A blue ellipse representing an orbit, with a yellow dot at one focus labelled 'Sun (at focus)' and a small grey dot on the ellipse labelled 'Planet'.",
+        "purpose": "Visually reinforces Kepler's first law, correcting the common assumption that the Sun sits at the centre of a planet's orbit rather than at one focus of the ellipse.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-129",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Tidal Forces",
+    "difficulty": "Advanced",
+    "description": "The differential gravitational forces exerted by one body on different parts of another, responsible for phenomena such as ocean tides.",
+    "learning_objectives": [
+      "Explain the origin of tidal forces as a difference in gravitational pull across an extended body",
+      "Describe how the Moon's gravity causes two tidal bulges on Earth",
+      "Explain the combined effect of the Moon and Sun on the size of tides"
+    ],
+    "explanation": "Tidal forces arise because gravitational force follows an inverse square law, meaning the strength of gravitational attraction from a source (such as the Moon) is slightly different at different points across an extended body (such as the Earth), since these points are at slightly different distances from the source. The side of the Earth closest to the Moon experiences a slightly stronger gravitational pull toward the Moon than the Earth's centre does, while the far side experiences a slightly weaker pull; this difference in force across the Earth stretches it very slightly along the Earth-Moon line, creating two tidal bulges in the ocean's water (which, being fluid, responds to this stretching more noticeably than the solid Earth) — one bulge on the side facing the Moon, and, due to the same differential effect, a second bulge on the opposite side. As the Earth rotates beneath these two bulges (which stay roughly aligned with the Moon), most coastal locations experience two high tides and two low tides approximately every 24 hours. The Sun also contributes to tidal forces, though its much greater distance means its tidal effect is smaller than the Moon's despite the Sun's far greater mass; when the Sun and Moon align (at new and full Moon), their tidal effects combine to produce especially large 'spring tides', while at other times they partially cancel to produce smaller 'neap tides'.",
+    "key_concepts": [
+      "Arise from differential gravitational force across an extended body",
+      "Two tidal bulges: nearside and farside",
+      "Moon's tidal effect is greater than the Sun's, despite the Sun's greater mass, due to distance"
+    ],
+    "definitions": [
+      {
+        "term": "Tidal force",
+        "definition": "The differential gravitational force exerted by one body on different parts of another extended body, arising because gravitational force depends on distance."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain why the Earth experiences a tidal bulge on the side facing the Moon and also on the opposite (far) side, rather than only on the near side.",
+        "steps": [
+          "The near side of the Earth is closer to the Moon than the Earth's centre, so it experiences a slightly stronger gravitational pull toward the Moon than the centre does, causing it to be pulled slightly more toward the Moon, creating a near-side bulge.",
+          "The far side of the Earth is further from the Moon than the Earth's centre, so it experiences a slightly weaker gravitational pull toward the Moon than the centre does; relative to the centre being pulled toward the Moon, the far side effectively 'lags behind', creating a bulge on the opposite side."
+        ],
+        "answer": "Both bulges arise from the same differential gravitational effect: the near side is pulled more strongly than the centre (creating a near-side bulge), while the far side is pulled less strongly than the centre (creating a far-side bulge as it lags relatively behind)."
+      }
+    ],
+    "practical_applications": [
+      "Predicting ocean tide timing and height for shipping, fishing, and coastal engineering",
+      "Tidal power generation, harnessing the energy of predictable tidal movements",
+      "Understanding tidal effects in other astronomical systems, such as tidal heating of moons around giant planets"
+    ],
+    "common_mistakes": [
+      "Assuming the Moon's gravity only causes a single tidal bulge on the near side, forgetting the second bulge on the far side",
+      "Assuming the Sun's greater mass means it has a greater tidal effect than the Moon, ignoring the much greater role of distance in tidal forces"
+    ],
+    "misconceptions": [
+      "That tidal force depends simply on the overall strength of gravitational attraction from a source — tidal force specifically depends on the DIFFERENCE in gravitational pull across an extended body, which falls off with distance even more rapidly than gravitational force itself; this is why the much closer Moon has a greater tidal effect on Earth than the much more massive but far more distant Sun."
+    ],
+    "tips": [
+      "Remember tidal force is about the difference in gravitational pull across a body, not the overall size of the gravitational force — this distinction explains both bulges and the Moon's dominance over the Sun in Earth's tides."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the number of tidal bulges typically produced on the Earth by the Moon's gravity."
+      ],
+      "intermediate": [
+        "Explain why spring tides (the largest tides) occur when the Sun, Earth, and Moon are aligned."
+      ],
+      "advanced": [
+        "Explain why the Sun, despite having a vastly greater mass than the Moon, has a smaller tidal effect on Earth's oceans."
+      ]
+    },
+    "exam_questions": [
+      "Explain the origin of tidal forces, referring to how gravitational force varies with distance across an extended body."
+    ],
+    "answers": {
+      "basic": [
+        "Two."
+      ],
+      "intermediate": [
+        "When the Sun, Earth, and Moon are aligned (at new or full Moon), the tidal bulges caused by the Sun and by the Moon add together constructively, producing an especially large combined tidal effect, known as a spring tide."
+      ],
+      "advanced": [
+        "Tidal force depends on the DIFFERENCE in gravitational pull across the Earth's diameter, which decreases very rapidly with distance (more rapidly than gravitational force itself); although the Sun's mass is vastly greater than the Moon's, the Sun is also vastly further away, and this much greater distance reduces the Sun's tidal effect (the difference in pull across the Earth) to less than the Moon's, despite the Sun's much stronger overall gravitational force on the Earth as a whole."
+      ],
+      "exam": [
+        "Tidal forces arise because gravitational force decreases with distance (following an inverse square law); different points across an extended body, such as the Earth, are at slightly different distances from a source such as the Moon, and therefore experience slightly different gravitational pulls — this difference in pull across the body stretches it slightly, producing the tidal bulges responsible for ocean tides."
+      ]
+    },
+    "summary": "Tidal forces arise from the difference in gravitational pull across an extended body, producing two tidal bulges on Earth due to the Moon's gravity. The Moon's tidal effect exceeds the Sun's, despite the Sun's greater mass, because of its much smaller distance.",
+    "revision_notes": [
+      "Arise from differential gravity across an extended body",
+      "Two bulges: near side (stronger pull) and far side (weaker pull, lags)",
+      "Moon's tidal effect > Sun's (distance matters more than mass)"
+    ],
+    "related_topics": [
+      "Gravitational Force",
+      "Newton's Law of Gravitation",
+      "Orbital Motion"
+    ],
+    "prerequisites": [
+      "Newton's Law of Gravitation"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-130",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Mass and Weight in Space",
+    "difficulty": "Intermediate",
+    "description": "The behaviour of mass and weight for objects and astronauts in space, including the phenomenon of apparent weightlessness during orbit.",
+    "learning_objectives": [
+      "Explain why an object's mass remains unchanged in space",
+      "Explain why astronauts in orbit experience apparent weightlessness",
+      "Distinguish true weightlessness from the apparent weightlessness experienced in orbit"
+    ],
+    "explanation": "An object's mass, being a measure of the amount of matter it contains, remains exactly the same regardless of its location in space, since it does not depend on the local gravitational field. Weight, however, depends on the local gravitational field strength (W = mg), and although gravitational field strength decreases with distance from a planet, it never actually reaches exactly zero at any finite distance, meaning objects in orbit (even at typical satellite altitudes) still experience a significant, non-zero gravitational force and therefore have a genuine, non-zero weight. The apparent weightlessness experienced by astronauts in orbit arises not because gravity has disappeared, but because both the astronaut and their spacecraft are in continuous free fall together around the Earth, constantly accelerating toward the Earth under gravity at the same rate; since there is no relative acceleration or force between the astronaut and their immediate surroundings (the spacecraft), they experience no supporting force pressing against them, giving the sensation of weightlessness, even though gravity is still very much acting on them, providing the very centripetal force that keeps them in orbit.",
+    "key_concepts": [
+      "Mass is unchanged in space (independent of gravitational field)",
+      "Weight decreases with distance but is never exactly zero at a finite distance",
+      "Apparent weightlessness in orbit: continuous free fall, not zero gravity"
+    ],
+    "definitions": [
+      {
+        "term": "Apparent weightlessness",
+        "definition": "The sensation of weightlessness experienced by an object or person in orbit, arising because they and their surroundings are in continuous free fall together, not because gravity is absent."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "weight",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain why an astronaut orbiting the Earth in the International Space Station appears weightless, even though the gravitational field strength at that altitude is still around 90% of its value at the Earth's surface.",
+        "steps": [
+          "The gravitational field strength at the space station's altitude is indeed still substantial (around 90% of the surface value), meaning the astronaut still experiences a significant gravitational force (weight) toward the Earth.",
+          "This gravitational force is exactly what provides the centripetal force needed to keep both the astronaut and the space station in their orbital path.",
+          "Since the astronaut and the space station are accelerating toward the Earth (in free fall) at exactly the same rate due to this shared gravitational force, there is no relative force between the astronaut and the surrounding station structure (such as the floor), so the astronaut does not feel any supporting force pressing on them, producing the sensation of weightlessness."
+        ],
+        "answer": "The astronaut still has genuine weight (gravity is still acting strongly at that altitude), but appears weightless because both the astronaut and the station are in continuous free fall together, with no relative force between them."
+      }
+    ],
+    "practical_applications": [
+      "Designing spacecraft and space station systems to accommodate microgravity conditions",
+      "Astronaut training and health management, addressing the physiological effects of prolonged apparent weightlessness",
+      "Explaining and predicting the behaviour of objects and liquids in orbiting spacecraft"
+    ],
+    "common_mistakes": [
+      "Assuming there is no gravity at all in orbit, rather than recognising gravity is still substantial but not felt due to free fall",
+      "Confusing 'weightlessness' with an actual change in an object's mass"
+    ],
+    "misconceptions": [
+      "That astronauts in orbit are 'beyond' Earth's gravity — astronauts on the International Space Station, at a typical orbital altitude, are still within a gravitational field strength close to that at the Earth's surface; the apparent weightlessness they experience results specifically from continuous free fall (orbiting), not from having escaped or moved beyond the reach of Earth's gravity."
+    ],
+    "tips": [
+      "Remember the key distinction: mass never changes with location, but weight does change with local gravitational field strength; apparent weightlessness in orbit is a separate phenomenon caused by free fall, not by weight actually becoming zero."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State whether an astronaut's mass changes when they travel from Earth to orbit."
+      ],
+      "intermediate": [
+        "Explain why apparent weightlessness in orbit does not mean an astronaut's weight is truly zero."
+      ],
+      "advanced": [
+        "Explain why an astronaut floating freely inside an orbiting spacecraft does not fall to the floor of the spacecraft, despite gravity still acting on them."
+      ]
+    },
+    "exam_questions": [
+      "Explain the difference between true weightlessness (zero gravitational field strength) and the apparent weightlessness experienced by astronauts in Earth orbit."
+    ],
+    "answers": {
+      "basic": [
+        "No, the astronaut's mass remains unchanged, since mass does not depend on location or the local gravitational field."
+      ],
+      "intermediate": [
+        "Gravitational field strength decreases with distance from Earth but never reaches exactly zero at any finite distance, meaning astronauts in orbit still experience a substantial gravitational force (and therefore a genuine, non-zero weight); the 'weightlessness' they experience is only apparent, arising from being in continuous free fall rather than from gravity actually being absent."
+      ],
+      "advanced": [
+        "The astronaut and the spacecraft (including its floor) are both accelerating toward the Earth at exactly the same rate under gravity, since gravitational acceleration does not depend on mass; because there is no relative acceleration or force between the astronaut and the spacecraft's floor, the astronaut simply continues moving alongside the floor rather than pressing into or falling toward it, resulting in the appearance of floating freely."
+      ],
+      "exam": [
+        "True weightlessness would require a location with zero gravitational field strength, which does not occur at any finite distance from a mass, however far away; apparent weightlessness, as experienced by astronauts in Earth orbit, occurs despite gravity still being substantial at that altitude, arising instead because the astronaut and their spacecraft are in continuous free fall together, meaning there is no supporting force pressing on the astronaut, even though gravity itself has not disappeared."
+      ]
+    },
+    "summary": "Mass remains unchanged in space, while weight depends on local gravitational field strength, which decreases with distance but never reaches zero at a finite distance. Apparent weightlessness in orbit results from continuous free fall, not the actual absence of gravity.",
+    "revision_notes": [
+      "Mass unchanged in space; weight depends on local g",
+      "g never reaches exactly zero at finite distance",
+      "Apparent weightlessness: free fall, not zero gravity"
+    ],
+    "related_topics": [
+      "Mass",
+      "Weight",
+      "Gravitational Field Strength",
+      "Orbital Motion"
+    ],
+    "prerequisites": [
+      "Weight",
+      "Orbital Motion"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-131",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Gravitational Waves",
+    "difficulty": "Advanced",
+    "description": "Ripples in the fabric of spacetime, generated by accelerating massive objects and predicted by Einstein's general theory of relativity.",
+    "learning_objectives": [
+      "Describe what gravitational waves are and how they are generated",
+      "State the type of astronomical events most likely to produce detectable gravitational waves",
+      "Describe, at an introductory level, how gravitational waves have been detected"
+    ],
+    "explanation": "Gravitational waves are ripples in the fabric of spacetime itself, generated by certain accelerating massive objects, and predicted by Einstein's general theory of relativity as a natural extension of the idea that mass and energy curve spacetime, and that gravity is the effect of this curvature (a more complete description of gravity than Newton's simpler force-based model). Gravitational waves are produced most strongly by extremely massive, rapidly accelerating astronomical events, such as the merger of two black holes or two neutron stars orbiting and spiralling into each other, since these involve enormous masses undergoing extremely rapid changes in motion. As gravitational waves travel outward from their source, they cause an extremely tiny, oscillating stretching and squeezing of spacetime itself as they pass through, which is why they are so difficult to detect. The first direct detection of gravitational waves was made in 2015 by the LIGO (Laser Interferometer Gravitational-Wave Observatory) experiment, using extremely precise laser interferometers to measure minuscule changes in distance (far smaller than the width of a proton) caused by a passing gravitational wave from a black hole merger.",
+    "key_concepts": [
+      "Ripples in spacetime, predicted by general relativity",
+      "Generated by extreme, rapidly accelerating massive events (e.g. black hole/neutron star mergers)",
+      "Detected via extremely precise laser interferometry (e.g. LIGO, first detection 2015)"
+    ],
+    "definitions": [
+      {
+        "term": "Gravitational wave",
+        "definition": "A ripple in the fabric of spacetime, generated by certain accelerating massive objects, predicted by Einstein's general theory of relativity."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "Explain why the merger of two black holes is a particularly strong source of gravitational waves, compared with everyday accelerating objects.",
+        "steps": [
+          "Gravitational waves are generated by accelerating mass, with the strength of the resulting waves depending strongly on both the mass involved and how rapidly its motion is changing.",
+          "Black holes have extremely large masses concentrated in a very small region, and during a merger, they orbit each other and spiral inward extremely rapidly, undergoing enormous accelerations.",
+          "This combination of very large mass and very large, rapidly changing acceleration produces gravitational waves many orders of magnitude stronger than could ever be produced by ordinary, everyday accelerating objects, whose mass and accelerations are comparatively tiny."
+        ],
+        "answer": "Black hole mergers involve extremely large masses undergoing extremely rapid acceleration, producing gravitational waves far stronger than any everyday event could generate."
+      }
+    ],
+    "practical_applications": [
+      "A new observational tool ('gravitational wave astronomy') for studying otherwise invisible astronomical events, such as black hole mergers",
+      "Testing and confirming predictions of Einstein's general theory of relativity",
+      "Ongoing development of more sensitive detectors to observe a wider range of astronomical sources"
+    ],
+    "common_mistakes": [
+      "Confusing gravitational waves (ripples in spacetime, related to general relativity) with electromagnetic waves (such as light or radio waves)",
+      "Assuming gravitational waves are easy to detect, rather than requiring extraordinarily precise measurement techniques"
+    ],
+    "misconceptions": [
+      "That gravitational waves are simply a more exotic name for ordinary gravitational force or gravitational fields — gravitational waves are a distinct, dynamic phenomenon specifically involving propagating ripples or disturbances in spacetime caused by changing (accelerating) mass distributions, a concept that only exists within the framework of general relativity, going beyond Newton's simpler, static description of a gravitational field."
+    ],
+    "tips": [
+      "Associate gravitational waves specifically with extreme astronomical events involving very large, rapidly accelerating masses (such as black hole or neutron star mergers), since only these produce waves strong enough to be detectable with current technology."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the theory that predicted the existence of gravitational waves."
+      ],
+      "intermediate": [
+        "Name one type of astronomical event that can produce detectable gravitational waves."
+      ],
+      "advanced": [
+        "Explain why detecting gravitational waves requires extremely precise measurement technology, referring to the scale of the distortions they cause."
+      ]
+    },
+    "exam_questions": [
+      "Describe what gravitational waves are, and explain the type of event most likely to produce them at a detectable strength."
+    ],
+    "answers": {
+      "basic": [
+        "Einstein's general theory of relativity."
+      ],
+      "intermediate": [
+        "The merger of two black holes (or, alternatively, two neutron stars)."
+      ],
+      "advanced": [
+        "Gravitational waves cause an extremely tiny stretching and squeezing of spacetime as they pass, far smaller than the width of a single atom over the scale of a detector; measuring such an incredibly small distortion requires extraordinarily precise instruments, such as laser interferometers capable of detecting length changes far smaller than the width of a proton, which is why gravitational waves were predicted for a century before finally being directly detected."
+      ],
+      "exam": [
+        "Gravitational waves are ripples in the fabric of spacetime itself, generated by certain accelerating massive objects, as predicted by Einstein's general theory of relativity; they are produced most strongly by extreme astronomical events, such as the merger of two black holes or two neutron stars, since these involve enormous masses undergoing extremely rapid changes in acceleration."
+      ]
+    },
+    "summary": "Gravitational waves are ripples in spacetime, predicted by general relativity, generated by extreme accelerating masses such as merging black holes or neutron stars. They were first directly detected in 2015 using extremely precise laser interferometry.",
+    "revision_notes": [
+      "Ripples in spacetime, predicted by general relativity",
+      "Generated by extreme, rapid mass acceleration (e.g. black hole mergers)",
+      "First detected 2015 (LIGO), using laser interferometry"
+    ],
+    "related_topics": [
+      "Gravitational Force",
+      "Black Holes",
+      "Newton's Law of Gravitation"
+    ],
+    "prerequisites": [
+      "Gravitational Force"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-132",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Angular Momentum",
+    "difficulty": "Advanced",
+    "description": "A measure of the quantity of rotational motion possessed by a rotating object, conserved in the absence of an external turning force (torque).",
+    "learning_objectives": [
+      "State the equation for angular momentum of a point mass in circular motion",
+      "State the principle of conservation of angular momentum",
+      "Apply conservation of angular momentum to explain changes in rotational speed"
+    ],
+    "explanation": "Angular momentum is the rotational analogue of linear momentum, describing the quantity of rotational motion possessed by a spinning or orbiting object. For a point mass moving in a circle, angular momentum, L, is calculated as L = mvr, where m is the mass, v is its linear speed, and r is the radius of its circular path (this can also be written as L = I(omega) for an extended rotating object, using its moment of inertia, I, and angular velocity, omega, though this more general form goes beyond a simple point-mass treatment). Just as linear momentum is conserved in the absence of an external force, angular momentum is conserved in the absence of an external turning force (a resultant external torque/moment): if no external torque acts on a system, its total angular momentum remains constant. This principle explains why a spinning ice skater rotates faster when they pull their arms in close to their body (reducing their effective radius, r, and therefore requiring a higher speed, v, to keep mvr, or more generally I(omega), constant), and similarly explains why planets speed up as they move closer to the Sun in their elliptical orbits (Kepler's second law is, in fact, a direct consequence of the conservation of angular momentum).",
+    "key_concepts": [
+      "L = mvr (angular momentum of a point mass in circular motion)",
+      "Conservation of angular momentum: constant if no external torque acts",
+      "Explains spin-up when radius decreases (e.g. skater pulling in arms, planets nearing the Sun)"
+    ],
+    "definitions": [
+      {
+        "term": "Angular momentum",
+        "definition": "A measure of the quantity of rotational motion of an object, calculated for a point mass in circular motion as L = mvr, conserved in the absence of an external torque."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Angular momentum (point mass)",
+        "equation": "L = mvr",
+        "variables": {
+          "L": "angular momentum, kg m^2/s",
+          "m": "mass, kg",
+          "v": "linear speed, m/s",
+          "r": "radius of the circular path, m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "angular momentum",
+        "si_unit": "kilogram metre squared per second",
+        "symbol": "kg m^2/s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A figure skater spinning with their arms outstretched has an effective radius of 0.8 m and a rotational speed corresponding to v = 3 m/s at that radius. They pull their arms in, reducing their effective radius to 0.4 m. Assuming angular momentum is conserved and mass is unchanged, calculate their new speed at this smaller radius.",
+        "steps": [
+          "Angular momentum is conserved: L(initial) = L(final), so m(v1)(r1) = m(v2)(r2).",
+          "Mass cancels from both sides: (v1)(r1) = (v2)(r2).",
+          "Substitute known values: (3)(0.8) = (v2)(0.4).",
+          "Solve for v2: v2 = (3 x 0.8) / 0.4 = 2.4 / 0.4."
+        ],
+        "answer": "6 m/s (the skater's speed doubles as their effective radius halves)"
+      }
+    ],
+    "practical_applications": [
+      "Explaining the increased rotational speed of a figure skater pulling in their arms during a spin",
+      "Understanding why a planet's orbital speed varies according to Kepler's second law, as a consequence of conserved angular momentum",
+      "Engineering applications involving rotating systems, such as gyroscopes and flywheels"
+    ],
+    "common_mistakes": [
+      "Confusing angular momentum (L = mvr) with linear momentum (p = mv), which do not include the radius term",
+      "Assuming angular momentum, rather than angular velocity or speed alone, remains unchanged when radius changes"
+    ],
+    "misconceptions": [
+      "That a spinning object's speed only changes if an external force acts on it directly — for rotational motion, a change in radius alone (even with no external torque) can cause a corresponding change in rotational speed, precisely because angular momentum, not speed itself, is the conserved quantity in the absence of an external torque."
+    ],
+    "tips": [
+      "Remember the conserved quantity in rotational motion is angular momentum (L = mvr), not speed alone — if radius decreases, speed must increase to keep this product constant, and vice versa."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for the angular momentum of a point mass moving in a circle."
+      ],
+      "intermediate": [
+        "A 0.5 kg object moves in a circle of radius 2 m at 4 m/s. Calculate its angular momentum."
+      ],
+      "advanced": [
+        "A planet's orbital radius decreases from 2.0 x 10^11 m to 1.5 x 10^11 m as it moves toward perihelion. If its speed at the larger radius was 25,000 m/s, use conservation of angular momentum to calculate its speed at the smaller radius."
+      ]
+    },
+    "exam_questions": [
+      "Explain, using conservation of angular momentum, why a figure skater spins faster when they pull their arms in close to their body."
+    ],
+    "answers": {
+      "basic": [
+        "L = mvr."
+      ],
+      "intermediate": [
+        "L = mvr = (0.5)(4)(2) = 4 kg m^2/s."
+      ],
+      "advanced": [
+        "(v1)(r1) = (v2)(r2). (25,000)(2.0x10^11) = (v2)(1.5x10^11). v2 = (25,000 x 2.0x10^11) / 1.5x10^11 = 5.0x10^15 / 1.5x10^11 approx 33,333 m/s."
+      ],
+      "exam": [
+        "Pulling their arms in reduces the skater's effective radius of rotation; since angular momentum (approximately L = mvr for the arms/body mass distribution) is conserved in the absence of an external torque, a decrease in radius must be compensated for by a corresponding increase in rotational speed to keep the product mvr (or more generally I(omega)) constant, causing the skater to spin faster."
+      ]
+    },
+    "summary": "Angular momentum, L = mvr for a point mass, measures rotational motion and is conserved in the absence of an external torque. This explains phenomena such as a skater spinning faster with arms pulled in, and a planet speeding up nearer the Sun.",
+    "revision_notes": [
+      "L = mvr",
+      "Conserved if no external torque acts",
+      "Radius decreases -> speed increases (and vice versa), to conserve L"
+    ],
+    "related_topics": [
+      "Circular Motion",
+      "Momentum",
+      "Kepler's Laws"
+    ],
+    "prerequisites": [
+      "Momentum",
+      "Circular Motion"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-133",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "States of Matter",
+    "difficulty": "Foundational",
+    "description": "The three main physical forms in which matter can exist — solid, liquid, and gas — distinguished by the arrangement and movement of their particles.",
+    "learning_objectives": [
+      "Describe the arrangement and movement of particles in solids, liquids, and gases",
+      "Compare the shape and volume behaviour of solids, liquids, and gases",
+      "Relate the properties of each state to the strength of intermolecular forces between particles"
+    ],
+    "explanation": "Matter commonly exists in one of three main states: solid, liquid, and gas, each distinguished by the arrangement, spacing, and movement of the particles (atoms or molecules) that make it up. In a solid, particles are arranged in a fixed, regular pattern, packed closely together, held in place by strong intermolecular forces that allow them only to vibrate about fixed positions, giving a solid a fixed shape and fixed volume. In a liquid, particles are still close together (similar spacing to a solid) but are no longer held in fixed positions; the intermolecular forces are weaker, allowing particles to move around and slide past one another, giving a liquid a fixed volume but no fixed shape, meaning it takes the shape of its container. In a gas, particles are spread far apart, with very weak or negligible intermolecular forces between them, moving rapidly and randomly in all directions and colliding with each other and their container; this gives a gas neither a fixed shape nor a fixed volume, allowing it to expand and fill any container it occupies.",
+    "key_concepts": [
+      "Solid: fixed shape and volume, particles vibrate in fixed positions",
+      "Liquid: fixed volume, no fixed shape, particles close together but able to move",
+      "Gas: no fixed shape or volume, particles far apart and moving freely"
+    ],
+    "definitions": [
+      {
+        "term": "State of matter",
+        "definition": "One of the main physical forms (solid, liquid, or gas) in which matter can exist, distinguished by the arrangement and movement of its particles."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "Explain, in terms of particle arrangement, why a gas can be compressed much more easily than a liquid or a solid.",
+        "steps": [
+          "In a gas, particles are spread far apart, with large empty spaces between them.",
+          "In a liquid or a solid, particles are already packed closely together, with very little empty space remaining between them.",
+          "Compressing a substance requires reducing the space between its particles; since a gas has much more empty space available to be reduced, it can be compressed far more easily than a liquid or solid, which have very little remaining space to lose."
+        ],
+        "answer": "A gas compresses easily because its particles are widely spaced with lots of empty space between them, unlike the closely packed particles of a liquid or solid, which have little room left to compress."
+      }
+    ],
+    "practical_applications": [
+      "Understanding material behaviour for engineering and manufacturing purposes",
+      "Refrigeration and air conditioning, relying on the properties of gases and liquids during phase changes",
+      "Everyday cooking and food preparation, involving transitions between solid, liquid, and gas states"
+    ],
+    "common_mistakes": [
+      "Assuming particles themselves change size or composition when a substance changes state, rather than only their arrangement and movement changing",
+      "Confusing 'fixed volume' (liquid, solid) with 'fixed shape' (solid only) when describing properties of each state"
+    ],
+    "misconceptions": [
+      "That particles in a solid do not move at all — particles in a solid are not static; they vibrate continuously about fixed average positions, even though they do not have enough energy to break free from those positions and move around, unlike in a liquid or gas."
+    ],
+    "tips": [
+      "Use the memorable summary: solid = fixed shape + fixed volume; liquid = no fixed shape + fixed volume; gas = no fixed shape + no fixed volume, to quickly recall the defining macroscopic properties of each state."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State which state of matter has a fixed shape and a fixed volume."
+      ],
+      "intermediate": [
+        "Explain why a liquid takes the shape of its container, but a solid does not."
+      ],
+      "advanced": [
+        "Explain, in terms of particle behaviour, why a gas exerts pressure on the walls of its container."
+      ]
+    },
+    "exam_questions": [
+      "Describe the arrangement and movement of particles in a gas, and explain how this leads to a gas having neither a fixed shape nor a fixed volume."
+    ],
+    "answers": {
+      "basic": [
+        "Solid."
+      ],
+      "intermediate": [
+        "In a liquid, particles are not held in fixed positions and can move and slide past one another; without a fixed internal structure, the liquid flows and settles into whatever shape its container provides, unlike a solid, whose particles are locked into a fixed, rigid arrangement that maintains its own shape independently of any container."
+      ],
+      "advanced": [
+        "Gas particles move rapidly and randomly in all directions, frequently colliding with the walls of their container; each collision exerts a tiny force on the wall, and the large number of these collisions occurring continuously, over the container's surface area, produces the overall pressure exerted by the gas."
+      ],
+      "exam": [
+        "In a gas, particles are spread far apart with weak or negligible intermolecular forces between them, and move rapidly and randomly in all directions, colliding frequently with each other and their container; because the particles are not held together by significant forces and are free to move throughout the entire available space, a gas has no fixed shape (it takes the shape of its container) and no fixed volume (it expands to fill whatever container or space it is given)."
+      ]
+    },
+    "summary": "Matter exists mainly as solid, liquid, or gas, distinguished by particle arrangement and movement. Solids have fixed shape and volume; liquids have fixed volume but no fixed shape; gases have neither fixed shape nor fixed volume, reflecting decreasing intermolecular forces and increasing particle freedom from solid to gas.",
+    "revision_notes": [
+      "Solid: fixed shape + volume, particles vibrate in place",
+      "Liquid: fixed volume, no fixed shape, particles move/slide",
+      "Gas: no fixed shape or volume, particles move freely, widely spaced"
+    ],
+    "related_topics": [
+      "Particle Theory",
+      "Solids",
+      "Liquids",
+      "Gases"
+    ],
+    "prerequisites": [],
+    "diagram_recommendations": [
+      "[DIAGRAM: Three panels showing particle arrangement in a solid (grid), liquid (loosely packed), and gas (sparse, scattered with motion arrows)]"
+    ],
+    "images": [
+      {
+        "filename": "physics-states-of-matter-133-01.webp",
+        "type": "diagram",
+        "description": "Three side-by-side panels: a regular grid of blue dots representing a solid, a loosely-packed cluster of green dots representing a liquid, and a sparse scatter of red dots with small motion arrows representing a gas, each labelled with its state and a brief description.",
+        "purpose": "Gives students an immediate visual model of how particle spacing and order differ across the three states, grounding the abstract description in a concrete picture.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-134",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Solids",
+    "difficulty": "Foundational",
+    "description": "The state of matter in which particles are held in a fixed, regular arrangement, giving a definite shape and volume.",
+    "learning_objectives": [
+      "Describe the particle arrangement and bonding in a solid",
+      "Explain why solids have a fixed shape and resist compression",
+      "Distinguish crystalline from amorphous solids at an introductory level"
+    ],
+    "explanation": "A solid is a state of matter in which particles are held closely together in a fixed, often regular and repeating, arrangement by strong intermolecular (or interatomic) forces, allowing the particles only to vibrate about fixed average positions rather than move freely throughout the material. This fixed arrangement gives a solid a definite shape, which it maintains without needing a container, and a definite volume, which is very difficult to compress, since the particles are already tightly packed with very little space between them. Many solids, called crystalline solids, have particles arranged in a highly ordered, repeating three-dimensional pattern (a lattice), such as in metals, salt, and ice; others, called amorphous solids, such as glass and some plastics, have particles arranged in a more disordered, irregular way, without a long-range repeating pattern, though still held firmly enough in place to maintain a fixed shape.",
+    "key_concepts": [
+      "Particles held in fixed positions by strong intermolecular forces",
+      "Fixed shape and volume; very difficult to compress",
+      "Crystalline (ordered, repeating lattice) vs amorphous (disordered) solids"
+    ],
+    "definitions": [
+      {
+        "term": "Solid",
+        "definition": "A state of matter in which particles are held in a fixed arrangement by strong intermolecular forces, giving a definite shape and volume."
+      },
+      {
+        "term": "Crystalline solid",
+        "definition": "A solid in which particles are arranged in a highly ordered, repeating three-dimensional pattern (lattice)."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "Explain why a solid metal bar maintains its shape when placed on a table, unlike a liquid poured onto the same table.",
+        "steps": [
+          "In the solid metal bar, the particles are held together by strong intermolecular forces in a fixed arrangement, only vibrating about their fixed positions.",
+          "This fixed arrangement gives the solid a rigid, self-supporting structure that does not depend on the shape of any container or surface.",
+          "A liquid's particles, by contrast, are not held in fixed positions and can flow and move past each other, so a liquid spreads out and takes the shape of the surface it is poured onto, rather than maintaining its own independent shape."
+        ],
+        "answer": "The solid maintains its shape because its particles are held in a fixed arrangement by strong intermolecular forces, unlike a liquid, whose particles can move and flow freely."
+      }
+    ],
+    "practical_applications": [
+      "Material selection in construction and engineering, based on solid structural properties",
+      "Crystallography, studying the ordered atomic structure of crystalline solids",
+      "Manufacturing processes for glass and plastics, which rely on their amorphous solid structure"
+    ],
+    "common_mistakes": [
+      "Assuming all solids have the same, perfectly ordered internal structure, ignoring amorphous solids",
+      "Assuming particles in a solid are completely stationary, rather than vibrating in place"
+    ],
+    "misconceptions": [
+      "That glass is technically a liquid that flows extremely slowly — while this is a commonly repeated claim, glass is properly classified as an amorphous solid; its particles are held in fixed (though disordered) positions and do not flow at room temperature over any practically observable timescale."
+    ],
+    "tips": [
+      "Distinguish crystalline solids (regular, repeating particle pattern, e.g. salt, metals, ice) from amorphous solids (irregular, disordered particle pattern, e.g. glass, some plastics) when describing solid structure in detail."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State two macroscopic properties (in terms of shape and volume) of a solid."
+      ],
+      "intermediate": [
+        "Explain why solids are generally very difficult to compress."
+      ],
+      "advanced": [
+        "Explain the difference between a crystalline solid and an amorphous solid, giving an example of each."
+      ]
+    },
+    "exam_questions": [
+      "Describe the arrangement of particles in a solid, and explain how this arrangement gives rise to a solid's fixed shape."
+    ],
+    "answers": {
+      "basic": [
+        "Fixed shape and fixed volume."
+      ],
+      "intermediate": [
+        "The particles in a solid are already packed very closely together, with very little empty space remaining between them; compressing the solid further would require squeezing the particles even closer, which is strongly resisted by the repulsive forces between them at such close range, making solids very difficult to compress."
+      ],
+      "advanced": [
+        "A crystalline solid has its particles arranged in a highly ordered, repeating three-dimensional pattern (e.g. table salt, whose sodium and chloride ions form a regular cubic lattice); an amorphous solid has its particles arranged in a more disordered, irregular way with no long-range repeating pattern (e.g. glass)."
+      ],
+      "exam": [
+        "In a solid, particles are held closely together in a fixed arrangement by strong intermolecular forces, allowing them only to vibrate about fixed average positions rather than move around freely; because the particles cannot move from their fixed positions relative to one another, the overall structure maintains a consistent, definite shape, independent of any container."
+      ]
+    },
+    "summary": "A solid is a state of matter with particles held in a fixed arrangement by strong intermolecular forces, giving it a definite shape and volume that resists compression. Solids can be crystalline (ordered) or amorphous (disordered).",
+    "revision_notes": [
+      "Fixed shape and volume; particles vibrate in fixed positions",
+      "Strong intermolecular forces",
+      "Crystalline (ordered lattice) vs amorphous (disordered)"
+    ],
+    "related_topics": [
+      "States of Matter",
+      "Particle Theory",
+      "Intermolecular Forces"
+    ],
+    "prerequisites": [
+      "States of Matter"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-135",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Liquids",
+    "difficulty": "Foundational",
+    "description": "The state of matter in which particles are close together but able to move past one another, giving a fixed volume but no fixed shape.",
+    "learning_objectives": [
+      "Describe the particle arrangement and movement in a liquid",
+      "Explain why liquids have a fixed volume but take the shape of their container",
+      "Explain why liquids are generally difficult to compress, similar to solids"
+    ],
+    "explanation": "A liquid is a state of matter in which particles are held relatively close together, at a similar spacing to a solid, but are not fixed in position; the intermolecular forces in a liquid, while still significant, are weaker than in a solid, allowing particles to move around, slide past each other, and change their relative positions continuously. This gives a liquid a fixed volume, since the particles remain closely packed together overall (there is little empty space to lose or gain), but no fixed shape, since the particles are free to flow and rearrange, meaning a liquid always takes the shape of whatever container it is placed in, while its upper surface (if not fully enclosed) tends to settle level under the influence of gravity. Because liquid particles are already packed almost as closely together as in a solid, liquids, like solids, are generally very difficult to compress, in clear contrast to the much more easily compressed gas state.",
+    "key_concepts": [
+      "Particles close together but able to move/slide past each other",
+      "Fixed volume; no fixed shape (takes shape of container)",
+      "Difficult to compress (similar particle spacing to a solid)"
+    ],
+    "definitions": [
+      {
+        "term": "Liquid",
+        "definition": "A state of matter in which particles are held close together but are free to move and slide past one another, giving a fixed volume but no fixed shape."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "Explain why water poured into a differently shaped container (e.g. from a tall glass into a wide bowl) changes its overall shape but not its total volume.",
+        "steps": [
+          "The water's particles are free to move and slide past each other, since they are not held in a fixed arrangement.",
+          "This freedom of movement allows the water to flow and rearrange itself to fit the shape of whichever container it is placed in, changing its outward shape.",
+          "However, the intermolecular forces between the water particles still keep them packed closely together overall, meaning the total space they occupy (the volume) remains the same, regardless of the container's shape."
+        ],
+        "answer": "The water's shape changes because its particles can flow and rearrange to fit the new container, but its volume stays the same because the particles remain just as closely packed together regardless of the container's shape."
+      }
+    ],
+    "practical_applications": [
+      "Hydraulic systems, relying on the near-incompressibility of liquids",
+      "Fluid transport and plumbing systems, designed around the flow properties of liquids",
+      "Cooking, cleaning, and countless everyday processes relying on liquid properties"
+    ],
+    "common_mistakes": [
+      "Assuming liquids can be compressed as easily as gases, since both are considered 'fluids'",
+      "Confusing the fixed volume of a liquid with a fixed shape, which liquids do not have"
+    ],
+    "misconceptions": [
+      "That because liquids can flow and change shape like gases, they must also be easily compressible like gases — the ability to flow (change shape) and the ability to be compressed (change volume) are two separate properties; liquids share the first property with gases but not the second, since their particles remain closely packed, similar to a solid."
+    ],
+    "tips": [
+      "Remember liquids share their fixed volume (and resistance to compression) with solids, while sharing their lack of a fixed shape (ability to flow) with gases — liquids sit conceptually 'between' the two other states in this respect."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State whether a liquid has a fixed shape."
+      ],
+      "intermediate": [
+        "Explain why liquids, unlike gases, are very difficult to compress."
+      ],
+      "advanced": [
+        "Explain, in terms of particle movement, why a liquid can flow, while a solid of the same substance cannot."
+      ]
+    },
+    "exam_questions": [
+      "Describe the particle arrangement in a liquid, and explain how this arrangement leads to a liquid having a fixed volume but no fixed shape."
+    ],
+    "answers": {
+      "basic": [
+        "No, a liquid does not have a fixed shape; it takes the shape of its container."
+      ],
+      "intermediate": [
+        "The particles in a liquid are already packed almost as closely together as in a solid, leaving very little empty space between them; since there is very little space left to reduce, applying pressure to a liquid produces very little change in its volume, making liquids, like solids, very difficult to compress."
+      ],
+      "advanced": [
+        "In a liquid, the intermolecular forces are weaker than in a solid, allowing particles to move and slide past one another rather than being fixed in position, which is what allows the liquid to flow; in a solid, the much stronger intermolecular forces hold particles in fixed positions, allowing them only to vibrate in place rather than move around, which is why a solid does not flow."
+      ],
+      "exam": [
+        "In a liquid, particles are held relatively close together (similar spacing to a solid), but the intermolecular forces are weak enough to allow the particles to move and slide past one another rather than being fixed in place; because the particles remain closely packed overall, the liquid maintains a fixed total volume, but because they are free to move and rearrange, the liquid has no fixed shape of its own and instead takes the shape of whatever container holds it."
+      ]
+    },
+    "summary": "A liquid has particles held close together but free to move and slide past one another, giving it a fixed volume (difficult to compress, like a solid) but no fixed shape (able to flow, like a gas), taking the shape of its container.",
+    "revision_notes": [
+      "Particles close together, but can move/slide",
+      "Fixed volume; no fixed shape",
+      "Difficult to compress (like solids)"
+    ],
+    "related_topics": [
+      "States of Matter",
+      "Particle Theory",
+      "Gases"
+    ],
+    "prerequisites": [
+      "States of Matter"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-136",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Gases",
+    "difficulty": "Foundational",
+    "description": "The state of matter in which particles are spread far apart and move rapidly and randomly, giving no fixed shape or volume.",
+    "learning_objectives": [
+      "Describe the particle arrangement and movement in a gas",
+      "Explain why gases have neither a fixed shape nor a fixed volume",
+      "Explain why gases are easily compressed and exert pressure on their container"
+    ],
+    "explanation": "A gas is a state of matter in which particles are spread far apart, with large amounts of empty space between them, and move rapidly and randomly in all directions, only interacting with each other and their container through frequent, brief collisions, since intermolecular forces in a gas are weak or negligible over the typical distances between particles. This particle behaviour gives a gas neither a fixed shape nor a fixed volume, since the widely spaced, freely moving particles readily spread out to fill and take the shape of any container or space available to them, regardless of the container's size or shape. Because there is so much empty space between gas particles, gases can be compressed far more easily than solids or liquids, simply by reducing this empty space and forcing the particles closer together. The rapid, random motion of gas particles and their frequent collisions with the walls of a container are also responsible for the pressure a gas exerts, as covered in more detail through the kinetic theory of gases.",
+    "key_concepts": [
+      "Particles spread far apart, moving rapidly and randomly",
+      "No fixed shape or volume; expands to fill any container",
+      "Easily compressed; pressure arises from particle collisions with the container"
+    ],
+    "definitions": [
+      {
+        "term": "Gas",
+        "definition": "A state of matter in which particles are spread far apart with weak intermolecular forces, moving rapidly and randomly, giving neither a fixed shape nor a fixed volume."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "Explain why a small amount of perfume released in one corner of a room can eventually be smelled throughout the entire room.",
+        "steps": [
+          "The perfume vapour exists as a gas, with its particles moving rapidly and randomly in all directions.",
+          "Because gas particles are not held together by significant intermolecular forces and are free to move throughout any available space, the perfume particles gradually spread out from their point of release.",
+          "Over time, this spreading (diffusion) distributes the perfume particles throughout the entire volume of the room, allowing them to be detected by smell in locations far from where the perfume was originally released."
+        ],
+        "answer": "The perfume particles, as a gas, move rapidly and randomly, gradually spreading out (diffusing) to fill the entire available space of the room, eventually reaching all areas."
+      }
+    ],
+    "practical_applications": [
+      "Compressed gas storage and transport (e.g. gas cylinders), relying on how easily gases can be compressed",
+      "Pneumatic systems, using compressed gas to transmit force and motion",
+      "Understanding atmospheric behaviour and weather systems, driven by gas movement"
+    ],
+    "common_mistakes": [
+      "Assuming gas particles are stationary or only move slowly, rather than moving rapidly and randomly",
+      "Assuming a gas fills only the lower part of an open container, rather than expanding to fill the entire available volume"
+    ],
+    "misconceptions": [
+      "That a gas released into an empty container will only occupy part of it, similar to how a liquid settles at the bottom — unlike a liquid, a gas has no fixed volume and will expand to fill the ENTIRE available space of any container, however large, due to the rapid, random motion of its particles."
+    ],
+    "tips": [
+      "Remember that a gas's defining behaviours — expanding to fill any container, being easily compressed, and exerting pressure — all follow directly from the same underlying picture: widely spaced particles moving rapidly and randomly with only weak forces between them."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State whether a gas has a fixed volume."
+      ],
+      "intermediate": [
+        "Explain why gases can be compressed far more easily than liquids or solids."
+      ],
+      "advanced": [
+        "Explain, in terms of particle behaviour, why the pressure exerted by a gas in a sealed container increases if the gas is heated (with volume unchanged)."
+      ]
+    },
+    "exam_questions": [
+      "Describe the arrangement and movement of particles in a gas, and use this to explain why a gas exerts pressure on the walls of its container."
+    ],
+    "answers": {
+      "basic": [
+        "No, a gas does not have a fixed volume; it expands to fill any available space."
+      ],
+      "intermediate": [
+        "Gas particles are spread far apart with large amounts of empty space between them; compressing a gas simply requires reducing this empty space, forcing the particles closer together, which is much easier than compressing a liquid or solid, whose particles are already packed tightly with little remaining space to lose."
+      ],
+      "advanced": [
+        "Heating the gas increases the average kinetic energy (and therefore average speed) of its particles; faster-moving particles collide with the container walls more frequently and with greater force per collision, and since pressure results from the cumulative effect of these particle collisions, both effects combine to increase the overall pressure exerted by the gas, even though its volume has not changed."
+      ],
+      "exam": [
+        "In a gas, particles are spread far apart and move rapidly and randomly in all directions, with only weak (or negligible) forces acting between them; this rapid, random motion causes the particles to frequently collide with the walls of their container, and each of these collisions exerts a tiny force on the wall — the cumulative effect of the enormous number of these collisions, spread over the container's surface area, produces the overall pressure exerted by the gas."
+      ]
+    },
+    "summary": "A gas has widely spaced particles moving rapidly and randomly, with weak intermolecular forces, giving it neither a fixed shape nor a fixed volume, allowing easy compression and producing pressure through frequent particle collisions with its container.",
+    "revision_notes": [
+      "Particles widely spaced, moving rapidly and randomly",
+      "No fixed shape or volume; fills any container",
+      "Easily compressed; pressure from particle collisions"
+    ],
+    "related_topics": [
+      "States of Matter",
+      "Particle Theory",
+      "Kinetic Theory",
+      "Gas Pressure"
+    ],
+    "prerequisites": [
+      "States of Matter"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-137",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Particle Theory",
+    "difficulty": "Foundational",
+    "description": "The scientific model that all matter is made up of tiny particles in continuous motion, used to explain the properties and behaviour of solids, liquids, and gases.",
+    "learning_objectives": [
+      "State the key assumptions of particle theory",
+      "Use particle theory to explain the properties of the three states of matter",
+      "Explain how particle theory accounts for changes of state"
+    ],
+    "explanation": "Particle theory (also called the kinetic particle model) is the scientific model stating that all matter is made up of extremely small particles, which are in continuous motion, and between which there are forces of attraction (intermolecular forces). This simple but powerful model is used to explain a very wide range of observable properties and behaviours of matter, including the distinct characteristics of solids, liquids, and gases (as covered in States of Matter), phenomena such as diffusion and Brownian motion, and changes of state such as melting, freezing, evaporation, and condensation, which are explained as changes in the arrangement, spacing, and energy of particles, caused by energy being transferred to or from a substance (typically as thermal energy), rather than any change in the particles themselves. Particle theory provides the conceptual foundation that connects macroscopic (large-scale, directly observable) properties of matter, such as density, pressure, and state, to the microscopic (particle-level) behaviour occurring far too small to see directly.",
+    "key_concepts": [
+      "All matter made of tiny particles, in continuous motion",
+      "Forces of attraction (intermolecular forces) act between particles",
+      "Explains macroscopic properties and behaviour from microscopic particle behaviour"
+    ],
+    "definitions": [
+      {
+        "term": "Particle theory",
+        "definition": "The scientific model stating that all matter is made up of tiny particles in continuous motion, with forces of attraction between them, used to explain the properties and behaviour of matter."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "Use particle theory to explain what happens, at the particle level, when a solid melts into a liquid.",
+        "steps": [
+          "In the solid, particles are held in fixed positions by strong intermolecular forces, only vibrating in place.",
+          "As thermal energy is transferred to the solid (heating), the particles gain kinetic energy and vibrate more vigorously.",
+          "Once enough energy has been supplied, the particles gain sufficient energy to partially overcome the intermolecular forces holding them in fixed positions, allowing them to move and slide past one another.",
+          "This transition, from particles fixed in place to particles free to move around while remaining close together, is the melting of the solid into a liquid."
+        ],
+        "answer": "Melting occurs when particles gain enough thermal energy to partially overcome the intermolecular forces holding them in fixed positions, allowing them to move freely while remaining closely packed, transitioning from the solid to the liquid state."
+      }
+    ],
+    "practical_applications": [
+      "Explaining and predicting material behaviour in engineering, chemistry, and everyday contexts",
+      "Understanding phase-change materials used in thermal storage and temperature regulation",
+      "Providing the conceptual foundation for the more detailed kinetic theory of gases"
+    ],
+    "common_mistakes": [
+      "Assuming particle theory only applies to gases, rather than to all three states of matter",
+      "Assuming a change of state changes the particles themselves, rather than only their arrangement, spacing, and energy"
+    ],
+    "misconceptions": [
+      "That particles disappear or are created during a change of state, such as melting or evaporation — the same particles remain present throughout any change of state; only their arrangement, average spacing, and average kinetic energy change, in response to energy being transferred to or from the substance."
+    ],
+    "tips": [
+      "When asked to explain a property or behaviour of matter 'in terms of particles', always refer to particle arrangement, spacing, movement/energy, and the forces between them, rather than describing only the macroscopic (large-scale) observation itself."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the three key features of particle theory (what matter is made of, how particles move, and what acts between them)."
+      ],
+      "intermediate": [
+        "Use particle theory to explain why a gas can be compressed much more easily than a solid."
+      ],
+      "advanced": [
+        "Use particle theory to explain, at the particle level, what happens when a liquid evaporates into a gas."
+      ]
+    },
+    "exam_questions": [
+      "State the key assumptions of particle theory, and explain how this model is used to account for the different properties of solids, liquids, and gases."
+    ],
+    "answers": {
+      "basic": [
+        "All matter is made up of tiny particles; these particles are in continuous motion; there are forces of attraction between the particles."
+      ],
+      "intermediate": [
+        "In a gas, particles are spread far apart with a large amount of empty space between them, so compressing the gas simply requires pushing the particles closer together into this available space; in a solid, particles are already tightly packed with very little empty space remaining, so there is very little room left for them to be pushed closer together, making a solid far harder to compress."
+      ],
+      "advanced": [
+        "During evaporation, particles at the surface of the liquid that happen to gain enough kinetic energy (from random collisions with neighbouring particles) can overcome the remaining intermolecular forces holding them within the liquid, escaping into the surrounding space as widely spaced, freely and rapidly moving gas particles; this happens to individual particles at the surface even at temperatures below the liquid's boiling point, unlike boiling, which involves this process occurring throughout the entire liquid."
+      ],
+      "exam": [
+        "Particle theory states that all matter is made up of tiny particles in continuous motion, with forces of attraction acting between them; this model accounts for the different properties of the three states of matter through differences in how closely the particles are packed, how strongly the intermolecular forces hold them in place, and how freely and rapidly they can move — solids have particles fixed closely in place by strong forces, liquids have particles close together but free to move due to weaker forces, and gases have widely spaced, rapidly and freely moving particles with very weak or negligible forces between them."
+      ]
+    },
+    "summary": "Particle theory states that matter consists of tiny particles in continuous motion, with attractive forces between them, providing a model that explains the properties of solids, liquids, and gases, as well as changes of state, in terms of particle arrangement, spacing, and energy.",
+    "revision_notes": [
+      "Matter = tiny particles, in continuous motion, forces of attraction between them",
+      "Explains state properties via particle spacing/arrangement/movement",
+      "Changes of state = change in particle arrangement/energy, not the particles themselves"
+    ],
+    "related_topics": [
+      "States of Matter",
+      "Brownian Motion",
+      "Diffusion",
+      "Kinetic Theory"
+    ],
+    "prerequisites": [
+      "States of Matter"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-138",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Brownian Motion",
+    "difficulty": "Intermediate",
+    "description": "The random, erratic motion of small particles suspended in a fluid, caused by collisions with the fluid's fast-moving, invisible molecules.",
+    "learning_objectives": [
+      "Describe Brownian motion",
+      "Explain Brownian motion as evidence for the existence and motion of molecules",
+      "Explain why smaller and lighter particles show more noticeable Brownian motion"
+    ],
+    "explanation": "Brownian motion is the continuous, random, erratic movement of small (but still visible, e.g. under a microscope) particles suspended in a fluid, such as smoke particles suspended in air or pollen grains suspended in water. This motion was first carefully observed and documented by the botanist Robert Brown in 1827, who noticed pollen grains suspended in water moving in an unpredictable, jittery path, but its cause was not fully explained until later, when it was understood as strong evidence for particle theory: the visible particles are constantly being bombarded, from random directions and with random strength, by the much smaller, invisible, and extremely fast-moving molecules of the surrounding fluid (such as air or water molecules), and since these countless collisions do not perfectly cancel out at any given instant, the visible particle receives a net, randomly changing push at each moment, producing its observed random, jittery path. Brownian motion provides direct, visible evidence that fluid molecules are themselves in constant, random motion, supporting the kinetic particle model even though the individual fluid molecules themselves remain far too small to see directly.",
+    "key_concepts": [
+      "Random, erratic motion of visible particles suspended in a fluid",
+      "Caused by continuous, random collisions from much smaller, invisible fluid molecules",
+      "Provides evidence for the constant random motion of molecules (particle theory)"
+    ],
+    "definitions": [
+      {
+        "term": "Brownian motion",
+        "definition": "The continuous, random, erratic movement of small particles suspended in a fluid, caused by collisions with the fluid's fast-moving molecules."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "Explain why smoke particles observed under a microscope, suspended in air, are seen to move in a random, jittery path.",
+        "steps": [
+          "The smoke particles are constantly being struck by the much smaller, invisible air molecules surrounding them, which are moving rapidly and randomly in all directions.",
+          "At any given moment, slightly more air molecules may happen to strike the smoke particle from one side than another, producing an uneven, net force on the particle in a random direction.",
+          "Because this imbalance of collisions changes randomly from one moment to the next, the resulting direction and size of the net force on the smoke particle also changes randomly and continuously, causing the particle to move in an unpredictable, jittery path."
+        ],
+        "answer": "The smoke particle moves randomly because it is constantly bombarded by rapidly moving, invisible air molecules from all directions, and the resulting collisions are never perfectly balanced at any instant, producing a randomly changing net force and therefore a jittery path."
+      }
+    ],
+    "practical_applications": [
+      "Historical evidence used to help confirm the existence of atoms and molecules in the early 20th century (notably explained mathematically by Einstein in 1905)",
+      "Understanding the behaviour of nanoparticles and colloidal suspensions in chemistry and materials science",
+      "Illustrating and teaching the kinetic particle model of matter in physics education"
+    ],
+    "common_mistakes": [
+      "Assuming the visible particle itself is a molecule, rather than a much larger particle being bombarded by many individual, invisible molecules",
+      "Assuming Brownian motion only occurs in liquids, rather than also occurring in gases"
+    ],
+    "misconceptions": [
+      "That the erratic movement observed in Brownian motion is the direct, visible motion of individual molecules themselves — individual molecules are far too small to see, even under a standard microscope; what is actually observed is a much larger, visible particle (such as a pollen grain or smoke particle) being pushed around by the combined, unbalanced effect of many unseen molecular collisions."
+    ],
+    "tips": [
+      "Remember Brownian motion is indirect evidence for molecular motion: what is actually observed and visible is a larger particle's random path, not the invisible molecules causing it."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State what causes the random motion of particles observed in Brownian motion."
+      ],
+      "intermediate": [
+        "Explain why a larger, heavier particle shows less noticeable Brownian motion than a smaller, lighter one, in the same fluid."
+      ],
+      "advanced": [
+        "Explain why Brownian motion is considered strong evidence for particle theory, even though the molecules responsible cannot be directly observed."
+      ]
+    },
+    "exam_questions": [
+      "Describe Brownian motion, and explain how it provides evidence that the molecules of a fluid are in constant, random motion."
+    ],
+    "answers": {
+      "basic": [
+        "Random, unbalanced collisions from the much smaller, rapidly moving molecules of the surrounding fluid."
+      ],
+      "intermediate": [
+        "A larger, heavier particle requires a greater imbalance of molecular collisions to produce a noticeable change in its motion (since it has more mass/inertia to move), so the same random molecular bombardment produces a much smaller, less noticeable jittery effect on it compared with a smaller, lighter particle, which is much more easily and visibly nudged by the same collisions."
+      ],
+      "advanced": [
+        "Since the visible particle's random, jittery motion can only be explained by an unbalanced push from something smaller and moving rapidly and unpredictably, and no other explanation accounts for this specific, continuous, random pattern of motion, the observation provides strong indirect evidence that the fluid must be made up of extremely small, fast-moving, and randomly-moving molecules, even though these molecules themselves remain too small to see directly — the visible particle's motion acts as an indirect 'signature' of the invisible molecular activity."
+      ],
+      "exam": [
+        "Brownian motion is the continuous, random, erratic movement of small particles suspended in a fluid; since this jittery motion cannot be explained by any external force and can only arise from repeated, randomly unbalanced collisions from something much smaller moving rapidly and unpredictably, it provides strong evidence that the surrounding fluid must be composed of molecules that are themselves in a state of constant, random motion, consistent with the predictions of particle theory."
+      ]
+    },
+    "summary": "Brownian motion is the random, jittery movement of visible particles suspended in a fluid, caused by continuous, unbalanced collisions from the fluid's much smaller, rapidly moving molecules. It provides important evidence for the constant random motion of molecules, as described by particle theory.",
+    "revision_notes": [
+      "Random, jittery motion of visible particles in a fluid",
+      "Caused by unbalanced collisions from smaller, invisible, fast molecules",
+      "Evidence for constant random molecular motion (particle theory)"
+    ],
+    "related_topics": [
+      "Particle Theory",
+      "Diffusion",
+      "Intermolecular Forces"
+    ],
+    "prerequisites": [
+      "Particle Theory"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A jagged, random path of a large particle surrounded by many small, faster-moving dots representing invisible molecules]"
+    ],
+    "images": [
+      {
+        "filename": "physics-brownian-motion-138-01.webp",
+        "type": "diagram",
+        "description": "A jagged, angular line tracing a random path across the image, starting from a large green dot labelled 'pollen grain (large particle)', surrounded by numerous small grey dots scattered throughout representing invisible fluid molecules.",
+        "purpose": "Visualises the erratic, random path characteristic of Brownian motion, giving students a concrete picture of what the observed 'jittery' movement actually looks like.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-139",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Diffusion",
+    "difficulty": "Foundational",
+    "description": "The net movement of particles from a region of higher concentration to a region of lower concentration, resulting from their random motion.",
+    "learning_objectives": [
+      "Define diffusion",
+      "Explain diffusion in terms of the random motion of particles",
+      "Describe factors that affect the rate of diffusion"
+    ],
+    "explanation": "Diffusion is the net movement of particles of a substance from a region where they are more concentrated to a region where they are less concentrated, continuing until the particles become evenly spread throughout the available space (a state of equilibrium concentration). Diffusion occurs because particles are in constant, random motion (as described by particle theory); even though each individual particle moves in a completely random direction at any given moment, the overall statistical effect of a very large number of particles moving randomly is a net drift from more crowded regions toward less crowded regions, simply because there are, on average, more particles available in the crowded region to randomly wander outward than there are particles in the less crowded region to randomly wander back in. Diffusion occurs readily in gases and liquids, where particles are free to move throughout the available space, but does not occur in solids under normal conditions, since particles there are held in fixed positions. The rate of diffusion is affected by factors including temperature (higher temperature increases particle speed, and therefore the rate of diffusion), the concentration difference (a greater difference produces faster net diffusion), and the mass of the diffusing particles (lighter particles generally diffuse faster than heavier ones, at the same temperature).",
+    "key_concepts": [
+      "Net movement from high to low concentration",
+      "Occurs due to random particle motion (statistical effect over many particles)",
+      "Occurs in gases and liquids; not in solids under normal conditions"
+    ],
+    "definitions": [
+      {
+        "term": "Diffusion",
+        "definition": "The net movement of particles from a region of higher concentration to a region of lower concentration, resulting from their random motion, until concentration is even."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "A drop of ink is placed into a still glass of water. Explain, in terms of particle motion, why the ink gradually spreads throughout the water over time.",
+        "steps": [
+          "Immediately after being added, the ink particles are highly concentrated in one small region of the water, with very few (if any) ink particles present elsewhere.",
+          "Both the ink and water particles are in constant, random motion.",
+          "Because there are initially many more ink particles in the concentrated region than elsewhere, more ink particles randomly wander out of this region (into the surrounding, less concentrated water) than water particles randomly wander into it carrying ink.",
+          "Over time, this net, random drift of ink particles outward, away from their initial high-concentration region, causes the ink to spread out and eventually become evenly distributed throughout the water."
+        ],
+        "answer": "The ink diffuses because its particles, moving randomly, statistically tend to spread out from their initially crowded region toward the surrounding water, where they were less concentrated, until they become evenly distributed."
+      }
+    ],
+    "practical_applications": [
+      "Gas exchange in the lungs, relying on diffusion of oxygen and carbon dioxide across membranes",
+      "Food preservation and flavouring processes, involving diffusion of substances such as salt or smoke",
+      "Industrial processes involving mixing, dissolving, and separating substances"
+    ],
+    "common_mistakes": [
+      "Describing diffusion as particles deliberately or purposefully moving toward lower concentration, rather than as a statistical, random-motion effect",
+      "Assuming diffusion occurs in solids in the same way as in liquids and gases"
+    ],
+    "misconceptions": [
+      "That individual particles somehow 'know' to move toward regions of lower concentration — each individual particle moves in a completely random direction at all times; it is only the large-scale, statistical effect of enormous numbers of randomly moving particles, combined with an initial concentration difference, that produces the observed net movement from high to low concentration, not any deliberate or directed motion of individual particles."
+    ],
+    "tips": [
+      "Remember diffusion is a NET (overall, statistical) effect resulting from random individual particle motion, not the deliberate, directed movement of any single particle."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the direction of net particle movement during diffusion, in terms of concentration."
+      ],
+      "intermediate": [
+        "Explain why diffusion occurs faster at a higher temperature."
+      ],
+      "advanced": [
+        "Explain why diffusion does not occur, under normal conditions, in a solid."
+      ]
+    },
+    "exam_questions": [
+      "Explain, using the concept of random particle motion, why perfume released in one part of a room eventually spreads to fill the entire room."
+    ],
+    "answers": {
+      "basic": [
+        "From a region of higher concentration to a region of lower concentration."
+      ],
+      "intermediate": [
+        "A higher temperature gives particles greater average kinetic energy, causing them to move faster; faster-moving particles cover distance more quickly and undergo more frequent random collisions and movements, increasing the overall rate at which the net diffusion of particles from high to low concentration occurs."
+      ],
+      "advanced": [
+        "In a solid, particles are held in fixed positions by strong intermolecular forces and are only able to vibrate in place, rather than moving freely from one location to another; without this free, large-scale movement of particles throughout the material, there can be no net drift of particles from a region of high concentration to a region of low concentration, so diffusion does not occur in a solid under normal conditions."
+      ],
+      "exam": [
+        "The perfume particles are in constant, random motion; since they are initially highly concentrated at their point of release, and there is initially a much lower concentration of perfume particles elsewhere in the room, more perfume particles randomly wander away from the release point (into the rest of the room) than particles randomly wander back in from the rest of the room; this net, statistical drift, resulting purely from the random motion of a very large number of particles, gradually spreads the perfume throughout the entire room until it becomes evenly distributed."
+      ]
+    },
+    "summary": "Diffusion is the net movement of particles from a region of higher concentration to lower concentration, arising from the random motion of a large number of particles rather than any directed individual movement. It occurs in gases and liquids, and its rate increases with temperature and concentration difference.",
+    "revision_notes": [
+      "Net movement: high concentration -> low concentration",
+      "Due to random motion (statistical effect over many particles)",
+      "Occurs in gases/liquids, not solids; faster at higher temperature"
+    ],
+    "related_topics": [
+      "Particle Theory",
+      "Brownian Motion",
+      "Gases"
+    ],
+    "prerequisites": [
+      "Particle Theory"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-140",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Intermolecular Forces",
+    "difficulty": "Intermediate",
+    "description": "The attractive and repulsive forces acting between the particles (atoms or molecules) of a substance, determining many of its physical properties.",
+    "learning_objectives": [
+      "Describe intermolecular forces as forces acting between particles",
+      "Explain how the strength of intermolecular forces relates to the state of matter of a substance",
+      "Relate intermolecular forces to melting point, boiling point, and other physical properties"
+    ],
+    "explanation": "Intermolecular forces are the attractive (and, at very short range, repulsive) forces that act between the particles — atoms, molecules, or ions — that make up a substance, distinct from the much stronger forces that hold the atoms within a single molecule together (intramolecular, or chemical bonding, forces). The strength of the intermolecular forces in a substance strongly influences many of its physical properties: substances with strong intermolecular forces tend to have particles held tightly together, giving them relatively high melting and boiling points (since more energy is needed to overcome these forces and allow particles to move freely, as covered in Heating Curves and Latent Heat), and are more likely to exist as solids or liquids at everyday, room temperature; substances with weak intermolecular forces have particles that are much more easily separated, giving them low melting and boiling points, and are more likely to exist as gases at room temperature. Intermolecular forces are also directly responsible for the different properties of the three states of matter, as covered in States of Matter, with the forces being strongest (relative to particle motion) in a solid, intermediate in a liquid, and weakest (or negligible) in a gas.",
+    "key_concepts": [
+      "Forces between particles (distinct from stronger intramolecular/bonding forces)",
+      "Strength relates to melting/boiling point and state at room temperature",
+      "Strongest in solids, intermediate in liquids, weakest/negligible in gases"
+    ],
+    "definitions": [
+      {
+        "term": "Intermolecular forces",
+        "definition": "The attractive (and, at short range, repulsive) forces acting between the particles of a substance, distinct from the stronger forces holding atoms together within a single molecule."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Substance A has a much higher boiling point than substance B. Explain what this suggests about the relative strength of the intermolecular forces in each substance.",
+        "steps": [
+          "Boiling requires overcoming the intermolecular forces holding the liquid's particles together closely enough to escape into the gas state.",
+          "A higher boiling point means more energy must be supplied to achieve this separation.",
+          "Since substance A requires more energy (a higher temperature/boiling point) to separate its particles than substance B does, this suggests that substance A has stronger intermolecular forces than substance B."
+        ],
+        "answer": "Substance A likely has stronger intermolecular forces than substance B, since more energy (reflected in its higher boiling point) is needed to overcome these forces and separate its particles into a gas."
+      }
+    ],
+    "practical_applications": [
+      "Predicting and explaining the melting and boiling points of different substances in chemistry and materials science",
+      "Designing materials with specific desired physical properties (e.g. adhesives, lubricants) based on intermolecular force strength",
+      "Understanding surface tension and viscosity, both influenced by the strength of intermolecular forces in a liquid"
+    ],
+    "common_mistakes": [
+      "Confusing intermolecular forces (between separate particles) with intramolecular (chemical bonding) forces (within a single molecule), which are typically much stronger",
+      "Assuming all substances have the same strength of intermolecular forces, ignoring the significant variation that determines different melting/boiling points"
+    ],
+    "misconceptions": [
+      "That intermolecular forces and the chemical bonds holding a molecule together are the same thing, or comparable in strength — intermolecular forces (acting between separate molecules) are generally very significantly weaker than the intramolecular (chemical bonding) forces holding the atoms within a single molecule together, which is why substances can melt or boil (overcoming intermolecular forces) without breaking apart their individual molecules (which would require overcoming the much stronger intramolecular forces)."
+    ],
+    "tips": [
+      "Remember 'inter-' means 'between' (intermolecular = between different molecules) while 'intra-' means 'within' (intramolecular = within a single molecule) — this distinction is key to understanding why melting a substance does not usually break its individual molecules apart."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State whether intermolecular forces are generally stronger or weaker than intramolecular (chemical bonding) forces."
+      ],
+      "intermediate": [
+        "Explain why a substance with weak intermolecular forces is likely to exist as a gas at room temperature."
+      ],
+      "advanced": [
+        "Explain, using intermolecular forces, why a solid generally requires more energy to melt than the same substance requires to be heated further as a liquid to a similar temperature increase."
+      ]
+    },
+    "exam_questions": [
+      "Explain how the relative strength of intermolecular forces in a substance affects its melting and boiling points."
+    ],
+    "answers": {
+      "basic": [
+        "Generally weaker."
+      ],
+      "intermediate": [
+        "Weak intermolecular forces mean the particles of the substance are only weakly attracted to each other, requiring very little energy to overcome these forces and allow the particles to move far apart and freely, which is exactly the particle behaviour of a gas; this is why substances with weak intermolecular forces are typically already gases at normal room temperature, since only a small amount of thermal energy (already present at room temperature) is needed to keep the particles separated."
+      ],
+      "advanced": [
+        "Melting a solid requires overcoming a significant portion of the intermolecular forces holding particles in their fixed lattice positions, which typically requires a substantial input of energy (latent heat) without necessarily increasing temperature; heating a liquid further (without changing state) instead increases the average kinetic energy (and therefore the temperature) of particles that are already free to move, requiring comparatively less energy input for the same temperature change, since it does not need to overcome the additional structural forces holding a solid's fixed arrangement together."
+      ],
+      "exam": [
+        "Stronger intermolecular forces hold a substance's particles together more tightly, requiring more energy (and therefore a higher temperature) to overcome these forces during melting or boiling, resulting in higher melting and boiling points; conversely, weaker intermolecular forces require less energy to overcome, resulting in lower melting and boiling points, and substances with sufficiently weak intermolecular forces may already be liquids or gases at typical room temperature."
+      ]
+    },
+    "summary": "Intermolecular forces are the attractive forces between a substance's particles, distinct from the stronger intramolecular (bonding) forces within a molecule. Their strength determines melting and boiling points and the substance's state at room temperature, being strongest in solids and weakest in gases.",
+    "revision_notes": [
+      "Forces BETWEEN particles (distinct from stronger bonding forces WITHIN a molecule)",
+      "Stronger forces = higher melting/boiling point",
+      "Strongest in solids, weakest/negligible in gases"
+    ],
+    "related_topics": [
+      "States of Matter",
+      "Particle Theory",
+      "Latent Heat of Fusion"
+    ],
+    "prerequisites": [
+      "States of Matter",
+      "Particle Theory"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  }
+]

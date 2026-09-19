@@ -1,0 +1,1811 @@
+[
+  {
+    "id": "phy-021",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Non-Uniform Motion",
+    "difficulty": "Foundational",
+    "description": "Motion in which an object's velocity changes over time, meaning the object is accelerating.",
+    "learning_objectives": [
+      "Define non-uniform motion",
+      "Recognise non-uniform motion on distance-time and velocity-time graphs",
+      "Contrast non-uniform motion with uniform motion"
+    ],
+    "explanation": "Non-uniform motion describes an object whose velocity is changing — it may be speeding up, slowing down, changing direction, or some combination of these — meaning it has a non-zero acceleration. This is the far more common type of motion in the real world, since forces such as friction, air resistance, gravity, and applied pushes and pulls are almost always acting on moving objects and changing their velocity. On a distance-time graph, non-uniform motion appears as a curve rather than a straight line, since the gradient (representing speed) is continuously changing. On a velocity-time graph, non-uniform motion appears as a sloped or curved line rather than a horizontal one, since the velocity value itself is changing over time.",
+    "key_concepts": [
+      "Changing velocity = non-zero acceleration",
+      "Curved line on distance-time graph",
+      "Sloped or curved line on velocity-time graph"
+    ],
+    "definitions": [
+      {
+        "term": "Non-uniform motion",
+        "definition": "Motion in which an object's velocity changes over time, meaning the object has a non-zero acceleration."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "velocity",
+        "si_unit": "metre per second",
+        "symbol": "m/s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A ball is dropped and falls under gravity. Explain why this is an example of non-uniform motion.",
+        "steps": [
+          "Identify that the ball's velocity increases continuously as it falls, due to the constant downward force of gravity.",
+          "Since velocity is changing over time, the ball has a non-zero acceleration.",
+          "Motion with non-zero acceleration is, by definition, non-uniform motion."
+        ],
+        "answer": "The falling ball undergoes non-uniform motion because gravity continuously accelerates it, increasing its velocity throughout the fall."
+      }
+    ],
+    "practical_applications": [
+      "Analysing vehicle acceleration and braking",
+      "Modelling the motion of falling or thrown objects",
+      "Describing the motion of any real object affected by unbalanced forces"
+    ],
+    "common_mistakes": [
+      "Assuming a curved distance-time graph represents an error in the data rather than genuine acceleration",
+      "Confusing a sloped velocity-time line (non-uniform motion, constant acceleration) with a curved velocity-time line (non-uniform motion, changing acceleration)"
+    ],
+    "misconceptions": [
+      "That 'non-uniform' motion only refers to erratic, unpredictable movement — a smoothly and consistently accelerating object (like a car pulling away at constant acceleration) is also undergoing non-uniform motion."
+    ],
+    "tips": [
+      "Check whether the gradient of a distance-time graph, or the value on a velocity-time graph, is changing — if either is changing, the motion is non-uniform."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State whether a car braking to a stop is undergoing uniform or non-uniform motion."
+      ],
+      "intermediate": [
+        "Describe the shape of a distance-time graph for an object undergoing non-uniform motion with increasing speed."
+      ],
+      "advanced": [
+        "Explain why real-world motion is almost always non-uniform, referring to the forces typically acting on a moving object."
+      ]
+    },
+    "exam_questions": [
+      "Define non-uniform motion and give one real-world example."
+    ],
+    "answers": {
+      "basic": [
+        "Non-uniform motion (it is decelerating, so its velocity is changing)."
+      ],
+      "intermediate": [
+        "The graph curves upward with an increasing gradient, since the object's speed (the graph's gradient) is increasing over time."
+      ],
+      "advanced": [
+        "Most real objects are subject to forces such as friction, air resistance, and gravity, which are rarely perfectly balanced; by Newton's second law, any unbalanced force produces an acceleration, so an object's velocity is almost always changing to some degree, making non-uniform motion the typical case rather than the exception."
+      ],
+      "exam": [
+        "Non-uniform motion is motion in which an object's velocity changes over time (i.e. it has a non-zero acceleration); example: a car accelerating away from traffic lights."
+      ]
+    },
+    "summary": "Non-uniform motion occurs when an object's velocity changes over time, meaning it has a non-zero acceleration. It appears as a curve on a distance-time graph and as a sloped or curved line on a velocity-time graph.",
+    "revision_notes": [
+      "Non-uniform motion = changing velocity = non-zero acceleration",
+      "Distance-time graph: curved line",
+      "Velocity-time graph: sloped or curved line"
+    ],
+    "related_topics": [
+      "Uniform Motion",
+      "Motion Graphs",
+      "Acceleration"
+    ],
+    "prerequisites": [
+      "Uniform Motion"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-022",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Motion Graphs",
+    "difficulty": "Foundational",
+    "description": "An overview of how graphs are used to represent and analyse the motion of an object over time.",
+    "learning_objectives": [
+      "Identify the main types of motion graph used in kinematics",
+      "Explain what each axis of a motion graph represents",
+      "Understand that the shape of a motion graph reveals the type of motion occurring"
+    ],
+    "explanation": "Motion graphs are a powerful tool for representing how an object's position, velocity, or acceleration changes over time, and for extracting further information from that data. The three main types used in introductory kinematics are distance-time (or displacement-time) graphs, velocity-time graphs, and acceleration-time graphs, each explored in detail in their own topic. In every case, time is plotted on the horizontal axis, and the quantity of interest is plotted on the vertical axis. The overall shape of the graph (straight or curved, sloped or flat) reveals the type of motion taking place, while specific features of the graph — its gradient and the area beneath it — can be used to calculate other quantities, as covered in Gradient of Motion Graphs and Area Under Motion Graphs.",
+    "key_concepts": [
+      "Three main motion graphs: distance-time, velocity-time, acceleration-time",
+      "Time always on the horizontal axis",
+      "Graph shape reveals the type of motion"
+    ],
+    "definitions": [
+      {
+        "term": "Motion graph",
+        "definition": "A graph plotting a quantity describing an object's motion (such as distance, velocity, or acceleration) against time."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "A student is given a graph with time on the horizontal axis and velocity on the vertical axis. Identify the type of motion graph and state what a straight, sloped line on this graph would represent.",
+        "steps": [
+          "Recognise this as a velocity-time graph, since velocity is plotted against time.",
+          "A straight, sloped line on a velocity-time graph indicates that velocity is changing at a constant rate.",
+          "A constant rate of change of velocity is, by definition, constant (uniform) acceleration."
+        ],
+        "answer": "This is a velocity-time graph; a straight, sloped line represents motion with constant (uniform) acceleration."
+      }
+    ],
+    "practical_applications": [
+      "Analysing vehicle telemetry and black-box data",
+      "Presenting experimental motion data in physics coursework",
+      "Sports science analysis of athlete speed and acceleration over a race"
+    ],
+    "common_mistakes": [
+      "Confusing which type of graph is being shown (e.g. mistaking a velocity-time graph for a distance-time graph)",
+      "Forgetting that time is conventionally plotted on the horizontal axis"
+    ],
+    "misconceptions": [
+      "That all motion graphs show the same information just presented differently — distance-time, velocity-time, and acceleration-time graphs each reveal different aspects of an object's motion and must be interpreted according to what is actually plotted on each axis."
+    ],
+    "tips": [
+      "Always check the label on the vertical axis first, before interpreting the shape of a motion graph."
+    ],
+    "practice_questions": {
+      "basic": [
+        "Name the three main types of motion graph."
+      ],
+      "intermediate": [
+        "Explain what quantity is always plotted on the horizontal axis of a motion graph, and why."
+      ],
+      "advanced": [
+        "Explain how the gradient and the area under a graph can both be used to extract different information from the same motion graph."
+      ]
+    },
+    "exam_questions": [
+      "State the three main types of motion graph and the quantity plotted on the vertical axis of each."
+    ],
+    "answers": {
+      "basic": [
+        "Distance-time (or displacement-time) graphs, velocity-time graphs, and acceleration-time graphs."
+      ],
+      "intermediate": [
+        "Time is always plotted on the horizontal axis, because motion graphs are used to show how a quantity changes as time progresses, making time the independent variable."
+      ],
+      "advanced": [
+        "The gradient of a motion graph gives the rate of change of the plotted quantity (e.g. the gradient of a distance-time graph gives speed), while the area under a motion graph gives the product of the plotted quantity and time (e.g. the area under a velocity-time graph gives distance) — these are two independent mathematical operations on the same graph, each revealing a different related quantity."
+      ],
+      "exam": [
+        "Distance-time graph: distance (or displacement) on the vertical axis. Velocity-time graph: velocity on the vertical axis. Acceleration-time graph: acceleration on the vertical axis."
+      ]
+    },
+    "summary": "Motion graphs plot a quantity describing motion (distance, velocity, or acceleration) against time, with the shape of the graph revealing the type of motion taking place.",
+    "revision_notes": [
+      "Three types: distance-time, velocity-time, acceleration-time",
+      "Time always on the horizontal axis",
+      "Gradient and area beneath the graph both carry meaning"
+    ],
+    "related_topics": [
+      "Distance-Time Graphs",
+      "Velocity-Time Graphs",
+      "Acceleration-Time Graphs"
+    ],
+    "prerequisites": [
+      "Non-Uniform Motion"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-023",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Distance-Time Graphs",
+    "difficulty": "Foundational",
+    "description": "Graphs plotting an object's distance travelled against time, used to identify whether it is stationary, moving at constant speed, or accelerating.",
+    "learning_objectives": [
+      "Interpret the shape of a distance-time graph",
+      "Identify stationary, constant-speed, and accelerating motion from a graph",
+      "Calculate speed from the gradient of a distance-time graph"
+    ],
+    "explanation": "A distance-time graph plots the distance an object has travelled on the vertical axis against time on the horizontal axis. A horizontal (flat) line means the object's distance is not changing, so it is stationary. A straight, sloped line means the object is covering equal distances in equal time intervals, so it is moving at constant speed; the steeper the line, the greater the speed. A curved line means the object's speed is changing: a curve that becomes steeper over time shows the object speeding up (accelerating), while a curve that becomes less steep shows the object slowing down (decelerating). The speed of an object at any point can be found by calculating the gradient of the distance-time graph at that point, covered in detail in Gradient of Motion Graphs.",
+    "key_concepts": [
+      "Flat line = stationary",
+      "Straight sloped line = constant speed",
+      "Curved line = changing speed (acceleration or deceleration)",
+      "Gradient of the graph = speed"
+    ],
+    "definitions": [
+      {
+        "term": "Distance-time graph",
+        "definition": "A graph plotting the distance travelled by an object on the vertical axis against time on the horizontal axis."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Speed from gradient",
+        "equation": "speed = gradient of distance-time graph",
+        "variables": {}
+      }
+    ],
+    "units": [
+      {
+        "quantity": "distance",
+        "si_unit": "metre",
+        "symbol": "m"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A distance-time graph shows a straight line rising from (0 s, 0 m) to (5 s, 20 m). Calculate the speed of the object.",
+        "steps": [
+          "Identify that a straight line indicates constant speed, calculable from the overall gradient.",
+          "gradient = change in distance / change in time = (20 - 0) / (5 - 0).",
+          "Calculate: gradient = 20 / 5."
+        ],
+        "answer": "4 m/s"
+      }
+    ],
+    "practical_applications": [
+      "Analysing journey data from vehicle trackers",
+      "Interpreting sports timing data (e.g. a runner's progress through a race)",
+      "Visualising experimental motion data collected using light gates or motion sensors"
+    ],
+    "common_mistakes": [
+      "Misinterpreting a steep line as 'high position' rather than 'high speed'",
+      "Assuming a curved line always means the object has stopped, rather than that its speed is changing"
+    ],
+    "misconceptions": [
+      "That a downward-sloping distance-time graph means the object is moving backward in space — since distance can never decrease (it is cumulative), a distance-time graph can never actually slope downward; a displacement-time graph, however, can."
+    ],
+    "tips": [
+      "Compare the steepness of different sections of a distance-time graph to compare speeds at different points in the journey.",
+      "Remember that a distance-time graph can never slope downward, unlike a displacement-time graph."
+    ],
+    "practice_questions": {
+      "basic": [
+        "Describe the motion represented by a horizontal line on a distance-time graph."
+      ],
+      "intermediate": [
+        "A distance-time graph shows a straight line from (0 s, 0 m) to (8 s, 40 m). Calculate the object's speed."
+      ],
+      "advanced": [
+        "Explain how you would identify, from a distance-time graph, the point in a journey where an object was travelling fastest."
+      ]
+    },
+    "exam_questions": [
+      "Sketch, in words, the shape of a distance-time graph for an object that starts at rest, accelerates, then travels at constant speed."
+    ],
+    "answers": {
+      "basic": [
+        "The object is stationary (not moving), since its distance is not changing over time."
+      ],
+      "intermediate": [
+        "speed = 40 / 8 = 5 m/s."
+      ],
+      "advanced": [
+        "The fastest point in the journey corresponds to the steepest section of the graph, since gradient represents speed — the section of the graph with the greatest slope indicates the greatest speed."
+      ],
+      "exam": [
+        "The graph starts flat (stationary), then curves upward with increasing steepness (accelerating), then becomes a straight sloped line (constant speed)."
+      ]
+    },
+    "summary": "A distance-time graph shows how far an object has travelled over time. A flat line means stationary, a straight sloped line means constant speed, and a curve means changing speed, with the gradient at any point giving the object's speed.",
+    "revision_notes": [
+      "Flat = stationary; straight sloped = constant speed; curved = changing speed",
+      "Steeper line = faster speed",
+      "Gradient = speed; can never slope downward"
+    ],
+    "related_topics": [
+      "Velocity-Time Graphs",
+      "Gradient of Motion Graphs",
+      "Speed"
+    ],
+    "prerequisites": [
+      "Speed",
+      "Motion Graphs"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: Three distance-time lines on one set of axes: flat (stationary), straight sloped (constant speed), and curved (accelerating)]"
+    ],
+    "images": [
+      {
+        "filename": "physics-distance-time-graphs-023-01.webp",
+        "type": "graph",
+        "description": "Three lines plotted on the same distance-time axes: a flat grey line (stationary), a straight blue sloped line (constant speed), and a curved red line that gets steeper over time (accelerating), each labelled in a legend.",
+        "purpose": "Lets students directly compare the three fundamental graph shapes side by side and connect each shape to the type of motion it represents.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-024",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Velocity-Time Graphs",
+    "difficulty": "Foundational",
+    "description": "Graphs plotting an object's velocity against time, used to identify constant velocity, acceleration, and deceleration, and to calculate distance travelled.",
+    "learning_objectives": [
+      "Interpret the shape of a velocity-time graph",
+      "Identify constant velocity, acceleration, and deceleration from a graph",
+      "Calculate acceleration from the gradient and distance from the area under the graph"
+    ],
+    "explanation": "A velocity-time graph plots an object's velocity on the vertical axis against time on the horizontal axis. A horizontal (flat) line means the velocity is not changing, so the object is moving at constant velocity (zero acceleration). A straight, sloped line means the velocity is changing at a constant rate, indicating constant (uniform) acceleration; a positive slope shows the object speeding up (if moving in the positive direction), while a negative slope shows it slowing down (decelerating). A curved line indicates that the acceleration itself is changing over time. Unlike a distance-time graph, a velocity-time graph can cross below the horizontal axis, representing motion in the opposite (negative) direction. Two key calculations can be performed using a velocity-time graph: the gradient at any point gives the acceleration at that point (Gradient of Motion Graphs), and the area between the line and the time axis gives the distance travelled (Area Under Motion Graphs).",
+    "key_concepts": [
+      "Flat line = constant velocity (zero acceleration)",
+      "Straight sloped line = constant acceleration",
+      "Curved line = changing acceleration",
+      "Can cross below the axis (negative velocity)"
+    ],
+    "definitions": [
+      {
+        "term": "Velocity-time graph",
+        "definition": "A graph plotting the velocity of an object on the vertical axis against time on the horizontal axis."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Acceleration from gradient",
+        "equation": "acceleration = gradient of velocity-time graph",
+        "variables": {}
+      },
+      {
+        "name": "Distance from area",
+        "equation": "distance = area under velocity-time graph",
+        "variables": {}
+      }
+    ],
+    "units": [
+      {
+        "quantity": "velocity",
+        "si_unit": "metre per second",
+        "symbol": "m/s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A velocity-time graph shows a straight line rising from (0 s, 5 m/s) to (4 s, 17 m/s). Calculate the acceleration of the object.",
+        "steps": [
+          "Recognise that a straight sloped line indicates constant acceleration, found from the overall gradient.",
+          "gradient = change in velocity / change in time = (17 - 5) / (4 - 0).",
+          "Calculate: gradient = 12 / 4."
+        ],
+        "answer": "3 m/s^2"
+      }
+    ],
+    "practical_applications": [
+      "Analysing braking distances in vehicle safety testing",
+      "Studying acceleration profiles of athletes or vehicles",
+      "Interpreting sensor data from accelerometers"
+    ],
+    "common_mistakes": [
+      "Confusing a velocity-time graph with a distance-time graph and misapplying the gradient/area rules",
+      "Forgetting that a velocity-time graph can show negative values (motion in the opposite direction), unlike a distance-time graph"
+    ],
+    "misconceptions": [
+      "That a horizontal line at a high value on a velocity-time graph means the object is 'far away' — it actually only shows the object is moving fast, with no information about its position without additional calculation (the area under the graph)."
+    ],
+    "tips": [
+      "Check whether the graph is above, below, or crossing the time axis to determine the direction of motion at each point.",
+      "Use gradient for acceleration and area for distance — keep these two calculations clearly separate."
+    ],
+    "practice_questions": {
+      "basic": [
+        "Describe the motion represented by a horizontal line on a velocity-time graph."
+      ],
+      "intermediate": [
+        "A velocity-time graph shows a straight line falling from (0 s, 12 m/s) to (6 s, 0 m/s). Calculate the object's acceleration."
+      ],
+      "advanced": [
+        "Explain what it means physically if a velocity-time graph crosses below the time axis."
+      ]
+    },
+    "exam_questions": [
+      "Explain how you would use a velocity-time graph to find both the acceleration and the distance travelled by an object."
+    ],
+    "answers": {
+      "basic": [
+        "The object is moving at constant velocity (its velocity is not changing), meaning zero acceleration."
+      ],
+      "intermediate": [
+        "gradient = (0 - 12) / (6 - 0) = -2 m/s^2 (a deceleration of 2 m/s^2)."
+      ],
+      "advanced": [
+        "If a velocity-time graph crosses below the time axis, the object's velocity has become negative, meaning it is now moving in the opposite direction to whichever direction was defined as positive at the start of the problem."
+      ],
+      "exam": [
+        "Acceleration is found from the gradient of the velocity-time graph (steeper gradient = greater acceleration); distance travelled is found from the area enclosed between the line and the time axis (using geometric shapes such as rectangles and triangles, or integration for curved sections)."
+      ]
+    },
+    "summary": "A velocity-time graph shows how an object's velocity changes over time. A flat line means constant velocity, and a sloped line means constant acceleration. The gradient gives acceleration, and the area under the graph gives distance travelled.",
+    "revision_notes": [
+      "Flat = constant velocity; sloped = constant acceleration; curved = changing acceleration",
+      "Gradient = acceleration; area under graph = distance",
+      "Can cross below the axis (negative velocity = reverse direction)"
+    ],
+    "related_topics": [
+      "Distance-Time Graphs",
+      "Gradient of Motion Graphs",
+      "Area Under Motion Graphs"
+    ],
+    "prerequisites": [
+      "Velocity",
+      "Motion Graphs"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: Three velocity-time lines on one set of axes: flat (constant velocity), straight upward slope (uniform acceleration), straight downward slope (deceleration)]"
+    ],
+    "images": [
+      {
+        "filename": "physics-velocity-time-graphs-024-01.webp",
+        "type": "graph",
+        "description": "Three lines on the same velocity-time axes: a flat grey line (constant velocity), a straight blue upward-sloping line (uniform acceleration), and a straight red downward-sloping line (deceleration), each labelled in a legend.",
+        "purpose": "Allows direct visual comparison of the three fundamental velocity-time graph shapes and the type of motion each represents.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-025",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Acceleration-Time Graphs",
+    "difficulty": "Intermediate",
+    "description": "Graphs plotting an object's acceleration against time, used to show how the rate of change of velocity itself varies during motion.",
+    "learning_objectives": [
+      "Interpret the shape of an acceleration-time graph",
+      "Relate a constant, zero, or changing acceleration to its graph",
+      "Explain how the area under an acceleration-time graph relates to velocity"
+    ],
+    "explanation": "An acceleration-time graph plots an object's acceleration on the vertical axis against time on the horizontal axis. A horizontal line above zero represents constant (uniform) acceleration; a horizontal line at zero represents motion with no acceleration, meaning constant velocity (which could still be a large, non-zero velocity). A horizontal line below zero represents constant deceleration. A line that changes value over time shows that the acceleration itself is not constant, which happens, for example, when a variable force acts on an object. Just as the area under a velocity-time graph gives distance travelled, the area under an acceleration-time graph gives the change in velocity over that time interval, since acceleration is the rate of change of velocity.",
+    "key_concepts": [
+      "Flat line above zero = constant acceleration",
+      "Flat line at zero = constant velocity",
+      "Area under the graph = change in velocity"
+    ],
+    "definitions": [
+      {
+        "term": "Acceleration-time graph",
+        "definition": "A graph plotting the acceleration of an object on the vertical axis against time on the horizontal axis."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Change in velocity from area",
+        "equation": "change in velocity = area under acceleration-time graph",
+        "variables": {}
+      }
+    ],
+    "units": [
+      {
+        "quantity": "acceleration",
+        "si_unit": "metre per second squared",
+        "symbol": "m/s^2"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "An acceleration-time graph shows a constant acceleration of 4 m/s^2 for 5 seconds. Calculate the change in velocity over this time.",
+        "steps": [
+          "Recognise that the area under a constant (flat-line) acceleration-time graph is a rectangle.",
+          "Area = acceleration x time = 4 x 5."
+        ],
+        "answer": "20 m/s (the object's velocity increases by 20 m/s over the 5 seconds)"
+      }
+    ],
+    "practical_applications": [
+      "Analysing the changing acceleration profile of a rocket as fuel is consumed",
+      "Studying the acceleration phase of a vehicle crash test",
+      "Engineering analysis of vibration and shock loading"
+    ],
+    "common_mistakes": [
+      "Assuming a flat line at zero on an acceleration-time graph means the object is stationary, rather than moving at any constant velocity",
+      "Confusing the area under an acceleration-time graph (change in velocity) with the area under a velocity-time graph (distance)"
+    ],
+    "misconceptions": [
+      "That an acceleration-time graph directly shows an object's speed or position — it shows neither directly; both must be calculated separately from the graph using areas (for velocity) or further integration (for distance)."
+    ],
+    "tips": [
+      "Remember the pattern across all three motion graphs: the gradient of one graph gives the quantity plotted on the graph 'above' it in complexity, and the area under a graph gives the quantity plotted on the graph 'below' it (distance -> velocity -> acceleration)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State what a flat line at zero on an acceleration-time graph represents."
+      ],
+      "intermediate": [
+        "An acceleration-time graph shows a constant 2 m/s^2 for 6 seconds. Calculate the resulting change in velocity."
+      ],
+      "advanced": [
+        "Explain why the area under an acceleration-time graph gives a change in velocity rather than a velocity value itself."
+      ]
+    },
+    "exam_questions": [
+      "Explain what can be determined from the area under an acceleration-time graph, and how this relates to the definition of acceleration."
+    ],
+    "answers": {
+      "basic": [
+        "Constant velocity (the object is not accelerating, but it may still be moving at any constant speed)."
+      ],
+      "intermediate": [
+        "change in velocity = 2 x 6 = 12 m/s."
+      ],
+      "advanced": [
+        "Acceleration is defined as the rate of change of velocity; the area under an acceleration-time graph is mathematically equivalent to multiplying acceleration by time (or integrating acceleration over the time interval), which by the definition of acceleration gives the total change in velocity over that interval, not an absolute velocity value (which would also require knowing the object's starting velocity)."
+      ],
+      "exam": [
+        "The area under an acceleration-time graph gives the change in velocity over that time interval; this follows directly from the definition of acceleration as the rate of change of velocity, since multiplying a rate of change by a time interval gives the total change over that interval."
+      ]
+    },
+    "summary": "An acceleration-time graph shows how an object's acceleration changes over time. A flat line above or below zero represents constant acceleration or deceleration, a flat line at zero represents constant velocity, and the area under the graph gives the change in velocity over that time.",
+    "revision_notes": [
+      "Flat line above zero = constant acceleration; at zero = constant velocity",
+      "Area under graph = change in velocity",
+      "Pattern: gradient/area link distance <-> velocity <-> acceleration graphs"
+    ],
+    "related_topics": [
+      "Velocity-Time Graphs",
+      "Area Under Motion Graphs",
+      "Acceleration"
+    ],
+    "prerequisites": [
+      "Acceleration",
+      "Velocity-Time Graphs"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-026",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Gradient of Motion Graphs",
+    "difficulty": "Intermediate",
+    "description": "How to calculate and interpret the gradient of a motion graph to find a related quantity, such as speed from a distance-time graph.",
+    "learning_objectives": [
+      "Calculate the gradient of a straight-line section of a motion graph",
+      "State what physical quantity the gradient of each type of motion graph represents",
+      "Estimate the gradient (instantaneous rate) at a point on a curved motion graph using a tangent"
+    ],
+    "explanation": "The gradient of a graph is a measure of how steeply the plotted line rises or falls, calculated as the change in the vertical-axis value divided by the change in the horizontal-axis value between two points. On a motion graph, this general mathematical idea takes on a specific physical meaning: the gradient of a distance-time graph gives speed (since speed is the rate of change of distance with time), and the gradient of a velocity-time graph gives acceleration (since acceleration is the rate of change of velocity with time). For a straight-line section of a graph, the gradient is constant and can be calculated directly between any two points on that section. For a curved section, the gradient is continuously changing, and the gradient at a single instant (the instantaneous rate) is found by drawing a tangent — a straight line that just touches the curve at that one point without crossing it — and calculating the gradient of that tangent line.",
+    "key_concepts": [
+      "Gradient = change in y / change in x",
+      "Distance-time graph gradient = speed",
+      "Velocity-time graph gradient = acceleration",
+      "Tangent used to find instantaneous gradient on a curve"
+    ],
+    "definitions": [
+      {
+        "term": "Gradient",
+        "definition": "The steepness of a line on a graph, calculated as the change in the vertical-axis value divided by the corresponding change in the horizontal-axis value."
+      },
+      {
+        "term": "Tangent",
+        "definition": "A straight line that touches a curve at a single point without crossing it, used to find the instantaneous gradient of the curve at that point."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Gradient",
+        "equation": "gradient = (change in vertical value) / (change in horizontal value)",
+        "variables": {}
+      }
+    ],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "A distance-time graph shows a straight line passing through the points (2 s, 6 m) and (8 s, 30 m). Calculate the speed of the object.",
+        "steps": [
+          "Calculate the change in distance: 30 - 6 = 24 m.",
+          "Calculate the change in time: 8 - 2 = 6 s.",
+          "Divide to find the gradient (speed): 24 / 6."
+        ],
+        "answer": "4 m/s"
+      }
+    ],
+    "practical_applications": [
+      "Determining instantaneous speed from GPS tracking data",
+      "Analysing acceleration at a specific moment in a crash-test video",
+      "Extracting rates of change from any experimental time-series data, not just motion graphs"
+    ],
+    "common_mistakes": [
+      "Dividing the horizontal change by the vertical change instead of the other way around",
+      "Attempting to calculate a single, constant gradient for a curved section of a graph instead of using a tangent"
+    ],
+    "misconceptions": [
+      "That the gradient of a curved graph is meaningless — it is still meaningful, but it changes continuously along the curve, so a tangent must be used to find the gradient (and therefore the instantaneous speed or acceleration) at any single chosen point."
+    ],
+    "tips": [
+      "Choose two points as far apart as possible on a straight-line section to reduce the effect of small reading errors when calculating a gradient.",
+      "When drawing a tangent to a curve, make it as long as possible to improve the accuracy of the gradient calculation."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the formula for calculating the gradient of a graph."
+      ],
+      "intermediate": [
+        "A velocity-time graph shows a straight line passing through (1 s, 4 m/s) and (5 s, 16 m/s). Calculate the acceleration."
+      ],
+      "advanced": [
+        "Explain the method for finding the instantaneous speed of an object at a specific moment from a curved distance-time graph."
+      ]
+    },
+    "exam_questions": [
+      "Explain what physical quantity is represented by the gradient of a velocity-time graph, and describe how to find the gradient at a point on a curved section of such a graph."
+    ],
+    "answers": {
+      "basic": [
+        "gradient = (change in vertical value) / (change in horizontal value)."
+      ],
+      "intermediate": [
+        "gradient = (16 - 4) / (5 - 1) = 12 / 4 = 3 m/s^2."
+      ],
+      "advanced": [
+        "Draw a tangent line that touches the curve at the specific moment of interest without crossing it; then select two points on this tangent line and calculate its gradient using (change in distance) / (change in time), which gives the instantaneous speed at that moment."
+      ],
+      "exam": [
+        "The gradient of a velocity-time graph represents acceleration; at a point on a curved section, a tangent is drawn to the curve at that point, and the gradient of this tangent line is calculated to find the instantaneous acceleration."
+      ]
+    },
+    "summary": "The gradient of a motion graph gives a related physical quantity: the gradient of a distance-time graph gives speed, and the gradient of a velocity-time graph gives acceleration. For curved sections, a tangent is used to find the instantaneous gradient at a single point.",
+    "revision_notes": [
+      "gradient = change in y / change in x",
+      "Distance-time gradient = speed; velocity-time gradient = acceleration",
+      "Curved graph: use a tangent for instantaneous gradient"
+    ],
+    "related_topics": [
+      "Distance-Time Graphs",
+      "Velocity-Time Graphs",
+      "Area Under Motion Graphs"
+    ],
+    "prerequisites": [
+      "Distance-Time Graphs",
+      "Velocity-Time Graphs"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-027",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Area Under Motion Graphs",
+    "difficulty": "Intermediate",
+    "description": "How the area enclosed between a motion graph's line and the time axis represents a related physical quantity, such as distance from a velocity-time graph.",
+    "learning_objectives": [
+      "Calculate the area under a straight-line section of a velocity-time graph using geometric shapes",
+      "State what physical quantity the area under each type of motion graph represents",
+      "Apply the area method to graphs made up of multiple straight-line sections"
+    ],
+    "explanation": "Just as the gradient of a motion graph reveals a related quantity, so does the area enclosed between the graph's line and the horizontal (time) axis. On a velocity-time graph, this area represents the distance travelled, because distance is equal to velocity multiplied by time, and calculating an area is mathematically equivalent to this multiplication. For a straight, horizontal line, the area is a simple rectangle (area = velocity x time). For a straight, sloped line starting from zero, the area is a triangle (area = 1/2 x base x height). For a graph made of several straight-line sections, such as an object that accelerates and then travels at constant velocity, the total distance is found by splitting the graph into simple shapes (rectangles and triangles), calculating the area of each separately, and adding them together. The same principle applies one level up: the area under an acceleration-time graph gives the change in velocity, as covered in Acceleration-Time Graphs.",
+    "key_concepts": [
+      "Area under velocity-time graph = distance travelled",
+      "Rectangle area for constant velocity sections",
+      "Triangle area for uniformly accelerating sections",
+      "Split complex graphs into simple shapes and sum the areas"
+    ],
+    "definitions": [
+      {
+        "term": "Area under a graph",
+        "definition": "The region enclosed between a graph's line and the horizontal axis, which for a velocity-time graph represents the distance travelled."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Area of a rectangle (constant velocity section)",
+        "equation": "distance = velocity x time",
+        "variables": {}
+      },
+      {
+        "name": "Area of a triangle (uniform acceleration from zero)",
+        "equation": "distance = 1/2 x time x velocity",
+        "variables": {}
+      }
+    ],
+    "units": [
+      {
+        "quantity": "distance",
+        "si_unit": "metre",
+        "symbol": "m"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A velocity-time graph shows an object accelerating uniformly from rest to 12 m/s over 4 seconds. Calculate the distance travelled.",
+        "steps": [
+          "Recognise that this section of the graph forms a triangle, since the object starts at 0 m/s.",
+          "Use area of a triangle: distance = 1/2 x base x height = 1/2 x time x velocity.",
+          "Substitute: distance = 1/2 x 4 x 12."
+        ],
+        "answer": "24 m"
+      },
+      {
+        "problem": "An object accelerates uniformly from rest to 10 m/s over 5 s, then travels at a constant 10 m/s for a further 3 s. Calculate the total distance travelled.",
+        "steps": [
+          "Calculate the distance during acceleration (triangle): 1/2 x 5 x 10 = 25 m.",
+          "Calculate the distance during constant velocity (rectangle): 10 x 3 = 30 m.",
+          "Add the two areas together: 25 + 30."
+        ],
+        "answer": "55 m"
+      }
+    ],
+    "practical_applications": [
+      "Calculating stopping distances from vehicle deceleration data",
+      "Estimating total distance covered from sports GPS tracking speed data",
+      "Engineering calculations involving variable-speed conveyor or transport systems"
+    ],
+    "common_mistakes": [
+      "Using the rectangle formula for a triangular (accelerating) section of a graph, or vice versa",
+      "Forgetting to add together the areas of all sections when a graph has multiple parts"
+    ],
+    "misconceptions": [
+      "That the area under a graph is only a mathematical trick with no physical meaning — it directly corresponds to a real physical quantity because of how the units of the two axes combine when multiplied (e.g. m/s multiplied by s gives m)."
+    ],
+    "tips": [
+      "Break any multi-section velocity-time graph into simple rectangles and triangles before calculating, and always add the areas of all sections together for a total."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the physical quantity represented by the area under a velocity-time graph."
+      ],
+      "intermediate": [
+        "A velocity-time graph shows a constant velocity of 8 m/s for 6 seconds. Calculate the distance travelled."
+      ],
+      "advanced": [
+        "An object accelerates uniformly from 2 m/s to 10 m/s over 4 s. Calculate the distance travelled during this time, explaining your method."
+      ]
+    },
+    "exam_questions": [
+      "Explain how the area under a velocity-time graph can be used to find the total distance travelled by an object whose motion includes both acceleration and constant velocity phases."
+    ],
+    "answers": {
+      "basic": [
+        "Distance travelled."
+      ],
+      "intermediate": [
+        "distance = 8 x 6 = 48 m."
+      ],
+      "advanced": [
+        "This section forms a trapezium; splitting it into a rectangle (2 m/s x 4 s = 8 m) and a triangle (1/2 x 4 x (10-2) = 16 m) and adding gives a total distance of 8 + 16 = 24 m (equivalently, using the trapezium area formula 1/2 x (2+10) x 4 = 24 m)."
+      ],
+      "exam": [
+        "The graph is divided into its separate straight-line sections; the area of each section is calculated using the appropriate geometric shape (a rectangle for constant velocity, a triangle for uniform acceleration from zero, or a trapezium for uniform acceleration from a non-zero starting velocity), and these individual areas are then added together to give the total distance travelled."
+      ]
+    },
+    "summary": "The area between a velocity-time graph's line and the time axis represents distance travelled. Simple shapes (rectangles for constant velocity, triangles for uniform acceleration from rest) are used to calculate this area, with multi-section graphs split into parts and the areas summed.",
+    "revision_notes": [
+      "Area under velocity-time graph = distance",
+      "Rectangle: v x t; Triangle: 1/2 x t x v",
+      "Split multi-section graphs into shapes and add areas"
+    ],
+    "related_topics": [
+      "Velocity-Time Graphs",
+      "Gradient of Motion Graphs",
+      "Acceleration-Time Graphs"
+    ],
+    "prerequisites": [
+      "Velocity-Time Graphs"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A velocity-time graph with the region beneath the line shaded, labelled to show that this shaded area represents distance travelled]"
+    ],
+    "images": [
+      {
+        "filename": "physics-area-under-motion-graphs-027-01.webp",
+        "type": "graph",
+        "description": "A velocity-time graph showing a sloped blue line, with the area between the line and the time axis shaded light blue and labelled 'shaded area = distance'.",
+        "purpose": "Makes the abstract idea that 'area represents distance' visually concrete by literally shading in the relevant region of the graph.",
+        "placement": "Directly after the explanation paragraph, before the worked examples."
+      }
+    ]
+  },
+  {
+    "id": "phy-028",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Equations of Motion",
+    "difficulty": "Intermediate",
+    "description": "The four standard equations (the 'SUVAT' equations) linking displacement, initial velocity, final velocity, acceleration, and time for motion with constant acceleration.",
+    "learning_objectives": [
+      "State the four equations of motion and define each symbol used",
+      "Select the appropriate equation of motion for a given problem",
+      "Solve problems involving constant acceleration using the equations of motion"
+    ],
+    "explanation": "The equations of motion, often remembered by the acronym SUVAT (displacement s, initial velocity u, final velocity v, acceleration a, and time t), are a set of four equations that describe the motion of an object moving with constant (uniform) acceleration in a straight line. They allow any one of these quantities to be found if three of the others are known, without needing to draw or interpret a graph each time. The four standard equations are: v = u + at; s = ut + 1/2at^2; v^2 = u^2 + 2as; and s = 1/2(u + v)t. Each equation involves only four of the five SUVAT quantities, which is why choosing the correct equation for a problem depends on identifying which quantity is not given and not needed. These equations only apply when acceleration is constant; for motion with changing acceleration, calculus-based methods or graphical (area/gradient) techniques must be used instead.",
+    "key_concepts": [
+      "SUVAT: s, u, v, a, t",
+      "Four standard equations for constant acceleration",
+      "Choose the equation missing the quantity you don't have or need"
+    ],
+    "definitions": [
+      {
+        "term": "Equations of motion (SUVAT equations)",
+        "definition": "A set of four equations relating displacement, initial velocity, final velocity, acceleration, and time for an object moving with constant acceleration in a straight line."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "First equation of motion",
+        "equation": "v = u + at",
+        "variables": {
+          "v": "final velocity, m/s",
+          "u": "initial velocity, m/s",
+          "a": "acceleration, m/s^2",
+          "t": "time, s"
+        }
+      },
+      {
+        "name": "Second equation of motion",
+        "equation": "s = ut + (1/2)at^2",
+        "variables": {
+          "s": "displacement, m",
+          "u": "initial velocity, m/s",
+          "a": "acceleration, m/s^2",
+          "t": "time, s"
+        }
+      },
+      {
+        "name": "Third equation of motion",
+        "equation": "v^2 = u^2 + 2as",
+        "variables": {
+          "v": "final velocity, m/s",
+          "u": "initial velocity, m/s",
+          "a": "acceleration, m/s^2",
+          "s": "displacement, m"
+        }
+      },
+      {
+        "name": "Fourth equation of motion",
+        "equation": "s = (1/2)(u + v)t",
+        "variables": {
+          "s": "displacement, m",
+          "u": "initial velocity, m/s",
+          "v": "final velocity, m/s",
+          "t": "time, s"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "displacement",
+        "si_unit": "metre",
+        "symbol": "m"
+      },
+      {
+        "quantity": "velocity",
+        "si_unit": "metre per second",
+        "symbol": "m/s"
+      },
+      {
+        "quantity": "acceleration",
+        "si_unit": "metre per second squared",
+        "symbol": "m/s^2"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A car starts from rest and accelerates uniformly at 2.5 m/s^2 for 6 s. Calculate the distance it travels.",
+        "steps": [
+          "List the known quantities: u = 0 m/s, a = 2.5 m/s^2, t = 6 s. Required: s.",
+          "Choose the equation that does not require v: s = ut + (1/2)at^2.",
+          "Substitute: s = (0 x 6) + (1/2)(2.5)(6^2) = 0 + (1/2)(2.5)(36).",
+          "Calculate: s = 0 + 45."
+        ],
+        "answer": "45 m"
+      },
+      {
+        "problem": "A ball is thrown so that it decelerates uniformly from 15 m/s to rest over a distance of 11.25 m. Calculate its deceleration.",
+        "steps": [
+          "List the known quantities: u = 15 m/s, v = 0 m/s, s = 11.25 m. Required: a.",
+          "Choose the equation that does not require t: v^2 = u^2 + 2as.",
+          "Rearrange for a: a = (v^2 - u^2) / (2s).",
+          "Substitute: a = (0^2 - 15^2) / (2 x 11.25) = -225 / 22.5."
+        ],
+        "answer": "-10 m/s^2 (a deceleration of 10 m/s^2)"
+      }
+    ],
+    "practical_applications": [
+      "Calculating vehicle stopping distances for road safety",
+      "Engineering design of lifts, cranes, and other accelerating machinery",
+      "Ballistics and sports science calculations involving thrown or launched objects"
+    ],
+    "common_mistakes": [
+      "Selecting an equation that requires a quantity not given in the problem",
+      "Sign errors when a is negative (deceleration) or when displacement is measured in a negative direction",
+      "Forgetting that these equations only apply for constant acceleration"
+    ],
+    "misconceptions": [
+      "That the equations of motion can be applied to any moving object regardless of how its acceleration behaves — they are only valid when acceleration is constant throughout the time interval considered."
+    ],
+    "tips": [
+      "Write out all five SUVAT quantities at the start of a problem, marking which are known, which is required, and which is not given — this makes selecting the correct equation straightforward.",
+      "Double-check the sign convention (positive/negative direction) before substituting values."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation of motion that relates v, u, a, and t (without s)."
+      ],
+      "intermediate": [
+        "A cyclist accelerates uniformly from 3 m/s to 9 m/s over 4 s. Calculate the distance travelled using an appropriate equation of motion."
+      ],
+      "advanced": [
+        "A stone is dropped and falls 20 m before hitting the ground. Using u = 0 and a = 9.8 m/s^2, calculate the speed of the stone just before impact."
+      ]
+    },
+    "exam_questions": [
+      "A car travelling at 20 m/s brakes with a constant deceleration of 4 m/s^2. Calculate the distance the car travels before coming to rest, showing your choice of equation and full working."
+    ],
+    "answers": {
+      "basic": [
+        "v = u + at."
+      ],
+      "intermediate": [
+        "Using s = (1/2)(u+v)t: s = (1/2)(3+9)(4) = (1/2)(12)(4) = 24 m."
+      ],
+      "advanced": [
+        "Using v^2 = u^2 + 2as: v^2 = 0^2 + 2(9.8)(20) = 392, so v = root(392) approx 19.8 m/s."
+      ],
+      "exam": [
+        "Known: u = 20 m/s, v = 0 m/s (comes to rest), a = -4 m/s^2 (deceleration). Required: s. Using v^2 = u^2 + 2as: 0^2 = 20^2 + 2(-4)(s), so 0 = 400 - 8s, giving s = 400/8 = 50 m."
+      ]
+    },
+    "summary": "The four SUVAT equations of motion relate displacement, initial velocity, final velocity, acceleration, and time for an object moving with constant acceleration in a straight line, allowing any one unknown quantity to be found from three known quantities.",
+    "revision_notes": [
+      "v = u + at",
+      "s = ut + (1/2)at^2",
+      "v^2 = u^2 + 2as",
+      "s = (1/2)(u+v)t",
+      "Only valid for constant acceleration"
+    ],
+    "related_topics": [
+      "Acceleration",
+      "Free Fall",
+      "Projectile Motion"
+    ],
+    "prerequisites": [
+      "Acceleration",
+      "Velocity"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-029",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Free Fall",
+    "difficulty": "Intermediate",
+    "description": "The motion of an object falling under the influence of gravity alone, with air resistance assumed negligible.",
+    "learning_objectives": [
+      "Define free fall",
+      "Apply the equations of motion to objects in free fall",
+      "State the value of the acceleration of free fall near Earth's surface"
+    ],
+    "explanation": "Free fall describes the motion of an object that is falling under the influence of gravity alone, with no other significant forces (such as air resistance) acting on it. Near the Earth's surface, an object in free fall accelerates uniformly downward at approximately 9.8 m/s^2 (often approximated as 10 m/s^2 for simpler calculations), regardless of its mass — a heavy object and a light object dropped from the same height in a vacuum, with no air resistance, would hit the ground at exactly the same time. Because free fall involves constant acceleration, the SUVAT equations of motion can be applied directly, using a = 9.8 m/s^2 (taking downward as positive, or a = -9.8 m/s^2 if upward is taken as positive). In reality, air resistance affects most falling objects to some degree, and its effect becomes significant for light or large-surface-area objects, which is explored further in Air Resistance and Terminal Velocity.",
+    "key_concepts": [
+      "Free fall = motion under gravity alone (no air resistance)",
+      "Constant acceleration of approximately 9.8 m/s^2 near Earth's surface",
+      "Acceleration due to gravity is independent of an object's mass"
+    ],
+    "definitions": [
+      {
+        "term": "Free fall",
+        "definition": "The motion of an object falling under the influence of gravity alone, with no other forces such as air resistance acting on it."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Equations of motion applied to free fall",
+        "equation": "v = u + gt, s = ut + (1/2)gt^2, v^2 = u^2 + 2gs",
+        "variables": {
+          "g": "acceleration of free fall, approximately 9.8 m/s^2"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "acceleration of free fall",
+        "si_unit": "metre per second squared",
+        "symbol": "m/s^2"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A ball is dropped from rest and falls for 3 s before hitting the ground (assume free fall, g = 9.8 m/s^2). Calculate its velocity just before impact and the height it fell from.",
+        "steps": [
+          "List known quantities: u = 0 m/s, a = g = 9.8 m/s^2, t = 3 s.",
+          "Find v using v = u + at: v = 0 + (9.8)(3) = 29.4 m/s.",
+          "Find s using s = ut + (1/2)at^2: s = 0 + (1/2)(9.8)(3^2) = (1/2)(9.8)(9) = 44.1 m."
+        ],
+        "answer": "Velocity just before impact = 29.4 m/s; height fallen = 44.1 m"
+      }
+    ],
+    "practical_applications": [
+      "Calculating fall times and impact speeds in safety and engineering contexts",
+      "Understanding the timing of skydiving before a parachute opens",
+      "Physics demonstrations comparing falling objects in a vacuum chamber"
+    ],
+    "common_mistakes": [
+      "Assuming heavier objects always fall faster than lighter ones (true only when air resistance is significant, not in true free fall)",
+      "Using the wrong sign for g depending on the chosen positive direction"
+    ],
+    "misconceptions": [
+      "That free fall means an object experiences no forces at all — it is still acted on by gravity (its weight); 'free' refers to falling freely under gravity without other forces such as air resistance interfering."
+    ],
+    "tips": [
+      "Always define a positive direction (commonly downward) at the start of a free-fall problem and apply it consistently to both u/v and a."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the approximate value of the acceleration of free fall near the Earth's surface."
+      ],
+      "intermediate": [
+        "An object is dropped from rest and falls for 2 s. Calculate its velocity just before impact, assuming free fall."
+      ],
+      "advanced": [
+        "Explain why, in true free fall, a bowling ball and a feather dropped simultaneously in a vacuum would land at the same time."
+      ]
+    },
+    "exam_questions": [
+      "A stone is dropped from a height of 78.4 m. Assuming free fall with g = 9.8 m/s^2, calculate the time it takes to reach the ground."
+    ],
+    "answers": {
+      "basic": [
+        "Approximately 9.8 m/s^2 (sometimes approximated as 10 m/s^2)."
+      ],
+      "intermediate": [
+        "v = u + at = 0 + (9.8)(2) = 19.6 m/s."
+      ],
+      "advanced": [
+        "In true free fall, air resistance is absent, so the only force acting on each object is gravity; since the acceleration due to gravity (g) does not depend on an object's mass, both objects experience exactly the same acceleration and therefore fall at the same rate, landing simultaneously."
+      ],
+      "exam": [
+        "Using s = ut + (1/2)at^2 with u = 0: 78.4 = (1/2)(9.8)t^2, so t^2 = 78.4 / 4.9 = 16, giving t = 4 s."
+      ]
+    },
+    "summary": "Free fall is motion under gravity alone, with a constant acceleration of approximately 9.8 m/s^2 near Earth's surface, independent of the falling object's mass. The equations of motion apply directly, using this constant acceleration.",
+    "revision_notes": [
+      "Free fall: gravity only, no air resistance",
+      "g approximately 9.8 m/s^2 (or 10 m/s^2 approximated), independent of mass",
+      "SUVAT equations apply directly with a = g"
+    ],
+    "related_topics": [
+      "Acceleration Due to Gravity",
+      "Equations of Motion",
+      "Terminal Velocity",
+      "Air Resistance"
+    ],
+    "prerequisites": [
+      "Equations of Motion"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-030",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Acceleration Due to Gravity",
+    "difficulty": "Intermediate",
+    "description": "The constant acceleration experienced by an object due to the Earth's gravitational pull, and the factors that affect its value.",
+    "learning_objectives": [
+      "State the standard value of the acceleration due to gravity near Earth's surface",
+      "Explain why the acceleration due to gravity is independent of an object's mass",
+      "Describe how the acceleration due to gravity varies with location"
+    ],
+    "explanation": "The acceleration due to gravity, given the symbol g, is the acceleration experienced by any object falling freely under the Earth's gravitational pull. Near the Earth's surface, its standard value is approximately 9.8 m/s^2 (sometimes taken as 9.81 m/s^2 for greater precision, or approximated as 10 m/s^2 for simpler calculations). This value comes directly from Newton's law of gravitation, and because the gravitational force on an object (its weight) is proportional to its mass, while acceleration is inversely proportional to mass (from F = ma), the mass cancels out of the calculation entirely — meaning g does not depend on the mass of the falling object at all. The value of g does vary slightly with location: it is slightly smaller at the Earth's equator than at the poles (because the Earth bulges slightly and rotates), and it decreases with altitude, becoming significantly smaller far from the Earth's surface, as covered further in Gravitational Field Strength.",
+    "key_concepts": [
+      "g = acceleration due to gravity, approximately 9.8 m/s^2 near Earth's surface",
+      "Independent of the mass of the falling object",
+      "Varies slightly with latitude and altitude"
+    ],
+    "definitions": [
+      {
+        "term": "Acceleration due to gravity (g)",
+        "definition": "The acceleration experienced by an object falling freely under the gravitational pull of a planet or other body, approximately 9.8 m/s^2 near the Earth's surface."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Weight from acceleration due to gravity",
+        "equation": "W = mg",
+        "variables": {
+          "W": "weight, N",
+          "m": "mass, kg",
+          "g": "acceleration due to gravity, m/s^2"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "acceleration due to gravity",
+        "si_unit": "metre per second squared",
+        "symbol": "m/s^2"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain, using F = ma and W = mg, why two objects of different mass fall with the same acceleration in the absence of air resistance.",
+        "steps": [
+          "The force causing an object to fall is its weight: W = mg.",
+          "By Newton's second law, this force produces an acceleration: F = ma, so mg = ma.",
+          "Divide both sides by mass, m: g = a.",
+          "The mass, m, cancels completely from the equation, leaving the acceleration equal to g regardless of the object's mass."
+        ],
+        "answer": "Since mass cancels out of the equation mg = ma, every object experiences the same acceleration g under gravity alone, regardless of its individual mass."
+      }
+    ],
+    "practical_applications": [
+      "Precise gravity measurements used in geophysics to detect underground structures or resources",
+      "Satellite orbit calculations, which depend on how gravitational field strength changes with altitude",
+      "Calibrating scientific instruments that rely on a known local value of g"
+    ],
+    "common_mistakes": [
+      "Confusing g (acceleration due to gravity, m/s^2) with G (the gravitational constant used in Newton's law of gravitation, a completely different quantity)",
+      "Assuming g has exactly the same value everywhere on Earth's surface"
+    ],
+    "misconceptions": [
+      "That a heavier object 'needs' a greater acceleration to fall as fast as a lighter one — in fact, exactly the opposite reasoning holds: a heavier object experiences a proportionally greater gravitational force but also has proportionally greater inertia (resistance to acceleration), and these two effects cancel exactly, giving identical acceleration for any mass."
+    ],
+    "tips": [
+      "Use g approximately 9.8 m/s^2 for calculations near Earth's surface unless a problem specifies a different value or location."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the approximate value of g near the Earth's surface, with its unit."
+      ],
+      "intermediate": [
+        "Calculate the weight of a 5 kg object near the Earth's surface, using g = 9.8 m/s^2."
+      ],
+      "advanced": [
+        "Explain why the value of g is slightly smaller at the top of a tall mountain than at sea level."
+      ]
+    },
+    "exam_questions": [
+      "Using F = ma and W = mg, show that the acceleration due to gravity does not depend on an object's mass."
+    ],
+    "answers": {
+      "basic": [
+        "Approximately 9.8 m/s^2."
+      ],
+      "intermediate": [
+        "W = mg = 5 x 9.8 = 49 N."
+      ],
+      "advanced": [
+        "Gravitational field strength (and therefore g) decreases with increasing distance from the centre of the Earth; since the top of a mountain is slightly further from the Earth's centre than sea level, the value of g there is very slightly smaller."
+      ],
+      "exam": [
+        "The force causing free fall is weight, W = mg. By Newton's second law, F = ma, so mg = ma. Dividing both sides by m gives g = a, showing that the mass cancels out entirely and the resulting acceleration is always g, regardless of the object's mass."
+      ]
+    },
+    "summary": "The acceleration due to gravity, g, is approximately 9.8 m/s^2 near the Earth's surface and does not depend on an object's mass, since mass cancels out when combining W = mg with Newton's second law, F = ma. Its value varies slightly with latitude and altitude.",
+    "revision_notes": [
+      "g approximately 9.8 m/s^2 near Earth's surface",
+      "Independent of mass (mg = ma implies g = a)",
+      "Varies slightly with latitude and altitude",
+      "W = mg"
+    ],
+    "related_topics": [
+      "Free Fall",
+      "Weight",
+      "Gravitational Field Strength"
+    ],
+    "prerequisites": [
+      "Free Fall",
+      "Weight"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-031",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Terminal Velocity",
+    "difficulty": "Intermediate",
+    "description": "The constant maximum velocity reached by an object falling through a fluid, once the resistive force balances its weight.",
+    "learning_objectives": [
+      "Define terminal velocity",
+      "Explain, in terms of forces, why a falling object reaches a constant terminal velocity",
+      "Interpret a velocity-time graph showing an object reaching terminal velocity"
+    ],
+    "explanation": "When an object falls through a fluid such as air or water, it experiences an upward resistive force (air resistance or drag) in addition to its downward weight. At the start of the fall, the object's speed is low, so the resistive force is small, and the object accelerates downward under the near-unbalanced weight force. As the object's speed increases, the resistive force increases with it. Eventually, the upward resistive force becomes exactly equal in magnitude to the downward weight force; at this point, the resultant force on the object is zero, so by Newton's first law, its acceleration becomes zero, and it continues falling at a constant, maximum velocity called the terminal velocity. On a velocity-time graph, this appears as a curve that rises steeply at first, then gradually levels off into a horizontal line as terminal velocity is reached.",
+    "key_concepts": [
+      "Terminal velocity = constant velocity reached when resistive force equals weight",
+      "Resultant force becomes zero at terminal velocity",
+      "Velocity-time graph rises then flattens"
+    ],
+    "definitions": [
+      {
+        "term": "Terminal velocity",
+        "definition": "The constant, maximum velocity reached by an object falling through a fluid, when the upward resistive force acting on it becomes equal in magnitude to its downward weight."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Condition for terminal velocity",
+        "equation": "resistive force (drag) = weight",
+        "variables": {}
+      }
+    ],
+    "units": [
+      {
+        "quantity": "velocity",
+        "si_unit": "metre per second",
+        "symbol": "m/s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain, in terms of forces, why a skydiver's acceleration decreases to zero as they fall before opening their parachute.",
+        "steps": [
+          "At the start of the fall, the skydiver's speed is low, so air resistance is small compared to their weight, giving a large resultant downward force and therefore a large initial acceleration.",
+          "As the skydiver speeds up, air resistance increases (it depends on speed).",
+          "As air resistance increases, the resultant force (weight minus air resistance) decreases, so the acceleration decreases.",
+          "Eventually air resistance becomes equal in magnitude to weight; the resultant force is then zero, so acceleration becomes zero, and the skydiver falls at a constant terminal velocity."
+        ],
+        "answer": "The skydiver's acceleration decreases to zero because increasing air resistance gradually cancels out their weight, until the two forces balance exactly and no resultant force remains."
+      }
+    ],
+    "practical_applications": [
+      "Parachute and skydiving design",
+      "Calculating the settling speed of particles or droplets in fluid engineering",
+      "Designing falling-object safety systems, such as controlled-descent devices"
+    ],
+    "common_mistakes": [
+      "Assuming terminal velocity means the object has stopped, rather than that it is moving at a constant, non-zero speed",
+      "Assuming air resistance is constant throughout the fall, rather than increasing with speed"
+    ],
+    "misconceptions": [
+      "That reaching terminal velocity means all forces on the object have disappeared — the weight and air resistance forces are still both acting; they are simply equal in magnitude and opposite in direction, giving a resultant force (and therefore acceleration) of zero."
+    ],
+    "tips": [
+      "Track how air resistance changes with speed throughout a fall to explain why acceleration decreases, rather than treating terminal velocity as a single isolated fact."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the condition, in terms of forces, for an object to be at terminal velocity."
+      ],
+      "intermediate": [
+        "Sketch, in words, the shape of a velocity-time graph for an object falling from rest and reaching terminal velocity."
+      ],
+      "advanced": [
+        "A skydiver opens their parachute while already falling at terminal velocity. Explain what happens to their velocity and acceleration immediately after the parachute opens."
+      ]
+    },
+    "exam_questions": [
+      "Explain, in terms of the forces acting on a falling object, why it eventually reaches a constant terminal velocity rather than continuing to accelerate indefinitely."
+    ],
+    "answers": {
+      "basic": [
+        "The upward resistive force (drag/air resistance) is equal in magnitude to the downward weight force, giving a resultant force of zero."
+      ],
+      "intermediate": [
+        "The graph rises steeply at first (large initial acceleration), then curves and becomes progressively less steep (decreasing acceleration) as it approaches a final horizontal section (constant terminal velocity)."
+      ],
+      "advanced": [
+        "Opening the parachute suddenly and greatly increases air resistance, so it becomes much larger than the skydiver's weight; this creates a large resultant force acting upward, causing a large deceleration, so the skydiver's velocity rapidly decreases until air resistance and weight balance again at a new, much lower terminal velocity."
+      ],
+      "exam": [
+        "As a falling object speeds up, the resistive force (air resistance or drag) acting on it increases; this reduces the resultant force (weight minus resistive force) and therefore reduces the object's acceleration. Eventually the resistive force becomes equal in magnitude to the weight, giving a resultant force of zero and therefore zero acceleration — from this point on, the object continues falling at this constant, maximum (terminal) velocity."
+      ]
+    },
+    "summary": "Terminal velocity is the constant maximum velocity a falling object reaches when the resistive force (air resistance or drag) acting on it becomes equal to its weight, giving zero resultant force and zero acceleration.",
+    "revision_notes": [
+      "Terminal velocity: resistive force = weight, resultant force = 0",
+      "Acceleration decreases from initial maximum to zero as terminal velocity is approached",
+      "Velocity-time graph: steep rise, then levels off"
+    ],
+    "related_topics": [
+      "Air Resistance",
+      "Free Fall",
+      "Newton's First Law"
+    ],
+    "prerequisites": [
+      "Free Fall",
+      "Newton's First Law"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A velocity-time graph showing velocity rising and levelling off at terminal velocity, alongside a force diagram showing weight and air resistance arrows balanced at that point]"
+    ],
+    "images": [
+      {
+        "filename": "physics-terminal-velocity-031-01.webp",
+        "type": "diagram",
+        "description": "A two-part image: on the left, a velocity-time graph curve rising steeply then levelling off at a dashed line labelled 'terminal velocity'; on the right, a simple falling object with a downward red arrow labelled 'Weight' and an upward green arrow labelled 'Air resistance (drag)' of equal length, showing the forces balanced.",
+        "purpose": "Connects the graph shape directly to the underlying force explanation, showing students both the 'what' (the graph) and the 'why' (the balanced forces) in one image.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-032",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Air Resistance",
+    "difficulty": "Intermediate",
+    "description": "The resistive force exerted on an object as it moves through air, opposing its motion and depending on its speed and shape.",
+    "learning_objectives": [
+      "Describe air resistance as a resistive force that opposes motion through air",
+      "Explain how air resistance depends on an object's speed and surface area/shape",
+      "Relate air resistance to the concept of terminal velocity"
+    ],
+    "explanation": "Air resistance is a type of drag force that acts on any object moving through air, opposing the direction of its motion. It arises because the moving object must push aside air molecules in its path, and this interaction transfers energy and momentum, resulting in a resistive force back on the object. Air resistance increases with the object's speed (roughly with the square of speed at higher speeds), which is why it starts small for a slow-moving object and becomes much more significant as speed increases. It also increases with an object's cross-sectional area facing the direction of travel and depends on its shape (streamlined shapes reduce air resistance for a given speed and size, which is why vehicle and aircraft designs are often smoothly curved). Because air resistance opposes motion and increases with speed, it plays the central role in producing terminal velocity for falling or moving objects, as covered in Terminal Velocity.",
+    "key_concepts": [
+      "Air resistance opposes the direction of motion",
+      "Increases with speed (approximately with speed squared at higher speeds)",
+      "Increases with cross-sectional area; reduced by streamlining"
+    ],
+    "definitions": [
+      {
+        "term": "Air resistance",
+        "definition": "A resistive (drag) force exerted on an object as it moves through air, acting in the direction opposing its motion."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A cyclist increases their speed on a flat road. Explain what happens to the air resistance acting on them, and why this makes it progressively harder to gain further speed.",
+        "steps": [
+          "As the cyclist's speed increases, the air resistance acting against them also increases (it depends on speed).",
+          "The extra force the cyclist must produce (through pedalling) to keep accelerating must now overcome this larger resistive force in addition to any other resistive forces.",
+          "As speed increases further, a greater and greater proportion of the cyclist's effort goes toward overcoming air resistance rather than producing further acceleration, making additional gains in speed progressively harder to achieve."
+        ],
+        "answer": "Air resistance increases as the cyclist speeds up, requiring more and more effort just to maintain the same rate of acceleration, which is why cyclists find it progressively harder to gain extra speed at higher speeds."
+      }
+    ],
+    "practical_applications": [
+      "Streamlined vehicle, aircraft, and cycling helmet design to reduce drag and improve efficiency",
+      "Parachute design, which intentionally maximises air resistance to slow a fall",
+      "Sports science analysis of running, cycling, and skiing performance"
+    ],
+    "common_mistakes": [
+      "Assuming air resistance is a constant force regardless of speed",
+      "Ignoring air resistance entirely in real-world (non-idealised) motion problems where it is significant"
+    ],
+    "misconceptions": [
+      "That air resistance only affects objects falling through the air — it acts on any object moving through air in any direction, including vehicles moving horizontally and objects thrown upward."
+    ],
+    "tips": [
+      "Remember that air resistance always opposes the current direction of motion, so its direction changes if the object's direction of motion changes (e.g. during the upward and downward parts of a thrown object's flight)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State two factors that air resistance depends on."
+      ],
+      "intermediate": [
+        "Explain why a flat sheet of paper falls more slowly than the same paper crumpled into a ball, even though both have the same mass."
+      ],
+      "advanced": [
+        "Explain why air resistance is often considered negligible for a dense, compact object moving at low speed, but not for a light, large-surface-area object moving at the same speed."
+      ]
+    },
+    "exam_questions": [
+      "Explain, in terms of air resistance, why a skydiver falls faster before opening their parachute than after."
+    ],
+    "answers": {
+      "basic": [
+        "Speed of the object, and its cross-sectional area/shape (accept either)."
+      ],
+      "intermediate": [
+        "The flat sheet has a much larger surface area facing the direction of motion than the crumpled ball, so it experiences much greater air resistance for the same weight, resulting in a smaller resultant downward force and a slower fall."
+      ],
+      "advanced": [
+        "Air resistance depends on both speed and cross-sectional area/shape; a dense, compact object has a small surface area relative to its weight and moves slowly, so the resistive force is very small compared to its weight and can reasonably be ignored, whereas a light, large-surface-area object has a much larger resistive force relative to its (smaller) weight at the same speed, making air resistance significant and not negligible."
+      ],
+      "exam": [
+        "Before the parachute opens, the skydiver has a relatively small cross-sectional area, so air resistance is small compared to their weight, allowing a fast fall; opening the parachute greatly increases the cross-sectional area facing the airflow, which greatly increases air resistance, sharply reducing the resultant downward force and therefore reducing their falling speed."
+      ]
+    },
+    "summary": "Air resistance is a resistive force opposing an object's motion through air, increasing with speed and with the object's cross-sectional area, and reduced by streamlining. It is the force responsible for objects reaching a terminal velocity.",
+    "revision_notes": [
+      "Air resistance opposes motion, increases with speed and cross-sectional area",
+      "Reduced by streamlining",
+      "Central to explaining terminal velocity"
+    ],
+    "related_topics": [
+      "Terminal Velocity",
+      "Drag",
+      "Free Fall"
+    ],
+    "prerequisites": [
+      "Free Fall"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-033",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Projectile Motion",
+    "difficulty": "Advanced",
+    "description": "The curved motion of an object launched into the air and moving under gravity alone, analysed as independent horizontal and vertical components.",
+    "learning_objectives": [
+      "Explain why projectile motion can be analysed as two independent components",
+      "Apply the equations of motion separately to the horizontal and vertical components of projectile motion",
+      "Calculate the range, maximum height, or time of flight of a projectile"
+    ],
+    "explanation": "Projectile motion describes the curved path followed by an object that is launched into the air and then moves freely under gravity alone (air resistance is usually assumed negligible in introductory treatments). The key insight, first fully explained by Galileo, is that the horizontal and vertical motions of a projectile are completely independent of each other and can be analysed separately. Horizontally, there is no force acting on the projectile (ignoring air resistance), so its horizontal velocity remains constant throughout the flight, and the horizontal distance is simply calculated using distance = speed x time. Vertically, gravity acts constantly, giving the projectile a constant downward acceleration of g (approximately 9.8 m/s^2), so the standard equations of motion apply to the vertical component exactly as they would for an object thrown straight up or down. Combining the results of these two independent one-dimensional analyses using vector methods (Vector Addition and Resolution) gives the projectile's full path, an arc known as a parabola for motion under constant gravity with no air resistance.",
+    "key_concepts": [
+      "Horizontal and vertical motion are independent",
+      "Horizontal velocity is constant (no horizontal force)",
+      "Vertical motion follows standard free-fall equations with acceleration g",
+      "Path is a parabola (ignoring air resistance)"
+    ],
+    "definitions": [
+      {
+        "term": "Projectile",
+        "definition": "An object launched into the air that then moves under the influence of gravity alone, following a curved path."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Horizontal distance",
+        "equation": "x = ux * t",
+        "variables": {
+          "x": "horizontal distance, m",
+          "ux": "horizontal component of initial velocity, m/s (constant throughout flight)",
+          "t": "time, s"
+        }
+      },
+      {
+        "name": "Vertical displacement",
+        "equation": "y = uy*t - (1/2)g*t^2",
+        "variables": {
+          "y": "vertical displacement, m",
+          "uy": "vertical component of initial velocity, m/s",
+          "g": "acceleration due to gravity, m/s^2",
+          "t": "time, s"
+        }
+      },
+      {
+        "name": "Vertical velocity at time t",
+        "equation": "vy = uy - g*t",
+        "variables": {
+          "vy": "vertical velocity at time t, m/s"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "velocity",
+        "si_unit": "metre per second",
+        "symbol": "m/s"
+      },
+      {
+        "quantity": "acceleration",
+        "si_unit": "metre per second squared",
+        "symbol": "m/s^2"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A ball is launched horizontally from a cliff top at 15 m/s and takes 3 s to hit the ground. Calculate (a) the horizontal distance travelled, and (b) the height of the cliff (use g = 9.8 m/s^2).",
+        "steps": [
+          "(a) Since the ball is launched horizontally, ux = 15 m/s throughout, and there is no initial vertical velocity (uy = 0).",
+          "(a) Horizontal distance: x = ux x t = 15 x 3 = 45 m.",
+          "(b) Vertical displacement (height fallen): y = uy*t + (1/2)g*t^2 = (0)(3) + (1/2)(9.8)(3^2) = (1/2)(9.8)(9)."
+        ],
+        "answer": "(a) Horizontal distance = 45 m; (b) height of cliff = 44.1 m"
+      }
+    ],
+    "practical_applications": [
+      "Calculating the trajectory of a thrown or kicked ball in sports science",
+      "Ballistics and artillery trajectory calculations",
+      "Designing water fountains and other projectile-based systems"
+    ],
+    "common_mistakes": [
+      "Using the same initial velocity for both the horizontal and vertical calculations instead of resolving it into separate components first",
+      "Applying the vertical (gravity-affected) equations to the horizontal motion, or vice versa",
+      "Forgetting that time is the one variable shared between the horizontal and vertical parts of the motion"
+    ],
+    "misconceptions": [
+      "That a projectile's horizontal velocity slows down during flight the way its vertical velocity changes — in the absence of air resistance, horizontal velocity remains exactly constant throughout the entire flight, since no horizontal force acts on the projectile."
+    ],
+    "tips": [
+      "Always resolve the initial velocity into horizontal and vertical components first (using cos and sin) if the projectile is launched at an angle, rather than horizontally.",
+      "Use time, t, as the shared link between the horizontal and vertical calculations — often found first from the vertical motion, then used in the horizontal equation."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State whether the horizontal velocity of a projectile changes during its flight, assuming air resistance is negligible."
+      ],
+      "intermediate": [
+        "A stone is thrown horizontally from a bridge at 8 m/s and lands in the river below after 2 s. Calculate the horizontal distance it travels."
+      ],
+      "advanced": [
+        "A ball is launched at 20 m/s at an angle of 30 degrees above the horizontal. Calculate the horizontal and vertical components of its initial velocity."
+      ]
+    },
+    "exam_questions": [
+      "Explain why the horizontal and vertical components of a projectile's motion can be treated completely independently, and state what quantity links the two components together in a calculation."
+    ],
+    "answers": {
+      "basic": [
+        "No, it remains constant throughout the flight, since there is no horizontal force acting on the projectile (ignoring air resistance)."
+      ],
+      "intermediate": [
+        "x = ux x t = 8 x 2 = 16 m."
+      ],
+      "advanced": [
+        "ux = 20 cos(30) approx 17.3 m/s; uy = 20 sin(30) = 10 m/s."
+      ],
+      "exam": [
+        "The horizontal and vertical components can be treated independently because gravity acts only vertically, so it has no effect on the horizontal component of velocity, and there is no horizontal force to affect the vertical component either — the two directions are physically unconnected except through the object's shared position in space. Time, t, is the quantity that links the two components together, since both the horizontal and vertical calculations describe the position of the same object at the same moment."
+      ]
+    },
+    "summary": "Projectile motion is analysed by treating the horizontal and vertical components of motion independently: horizontal velocity remains constant (no horizontal force), while vertical motion follows the standard equations of motion under constant acceleration g. Time is the shared variable linking the two components.",
+    "revision_notes": [
+      "Horizontal: constant velocity, x = ux t",
+      "Vertical: standard SUVAT equations with a = g",
+      "Time links horizontal and vertical components",
+      "Path is a parabola (no air resistance)"
+    ],
+    "related_topics": [
+      "Vector Addition and Resolution",
+      "Equations of Motion",
+      "Free Fall"
+    ],
+    "prerequisites": [
+      "Vector Addition and Resolution",
+      "Equations of Motion",
+      "Free Fall"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A parabolic trajectory with velocity vectors at several points, showing the horizontal component staying constant while the vertical component changes]"
+    ],
+    "images": [
+      {
+        "filename": "physics-projectile-motion-033-01.webp",
+        "type": "diagram",
+        "description": "A blue parabolic trajectory curve with, at three points along the path, a red horizontal arrow (constant length throughout) and a green vertical arrow (long and upward before the peak, short at the peak, growing downward after the peak), with a legend explaining the colours.",
+        "purpose": "Visually demonstrates the core idea of the topic — that horizontal velocity stays constant while vertical velocity changes continuously due to gravity — in a way that text alone cannot convey as clearly.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-034",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Newton's First Law",
+    "difficulty": "Foundational",
+    "description": "The principle that an object remains at rest or moving at constant velocity unless acted on by a resultant (unbalanced) force.",
+    "learning_objectives": [
+      "State Newton's first law of motion",
+      "Explain the concept of inertia in relation to Newton's first law",
+      "Apply Newton's first law to explain everyday examples of motion"
+    ],
+    "explanation": "Newton's first law states that an object will remain at rest, or continue moving at a constant velocity in a straight line, unless acted upon by a resultant (unbalanced) force. In other words, an object's velocity will not change unless there is a net force causing it to do so — if all the forces acting on an object are balanced (their resultant is zero), the object's motion will not change at all, whether it was stationary or already moving at constant velocity. This law is closely linked to the concept of inertia: the tendency of an object to resist any change in its state of motion. Objects with greater mass have greater inertia, meaning a larger force is needed to produce the same change in their motion. Newton's first law explains everyday phenomena such as passengers lurching forward when a car brakes suddenly (their body's inertia keeps it moving forward until a force, such as a seatbelt, acts on it) and why a book resting on a table stays still (its weight and the table's normal reaction force are balanced).",
+    "key_concepts": [
+      "No change in velocity without a resultant force",
+      "Balanced forces = no change in motion",
+      "Inertia: resistance to a change in motion, related to mass"
+    ],
+    "definitions": [
+      {
+        "term": "Newton's first law",
+        "definition": "An object remains at rest, or continues moving at constant velocity in a straight line, unless acted on by a resultant force."
+      },
+      {
+        "term": "Inertia",
+        "definition": "The tendency of an object to resist a change in its state of motion, related to its mass."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A car travels at a constant 25 m/s along a straight, flat road. Using Newton's first law, explain what this tells you about the forces acting on the car.",
+        "steps": [
+          "Recognise that the car's velocity is constant (unchanging speed and direction).",
+          "By Newton's first law, a constant velocity means there is no resultant force acting on the car.",
+          "This means the driving force from the engine must be exactly balanced by the resistive forces (air resistance and friction) acting against the car's motion."
+        ],
+        "answer": "Since the car's velocity is constant, the resultant force on it must be zero — the forward driving force from the engine exactly balances the backward resistive forces."
+      }
+    ],
+    "practical_applications": [
+      "Seatbelt and airbag design, which counteract a passenger's inertia during sudden braking",
+      "Explaining why objects in a moving vehicle appear to move when the vehicle suddenly stops or turns",
+      "Spacecraft design, since an object in deep space with no resultant force will continue moving at constant velocity indefinitely"
+    ],
+    "common_mistakes": [
+      "Assuming a moving object needs a continuous force just to keep moving at constant velocity (a common misconception rooted in everyday friction, which masks the underlying law)",
+      "Confusing 'balanced forces' with 'no forces at all' — balanced forces can still be large, as long as they cancel out"
+    ],
+    "misconceptions": [
+      "That a force is always needed to keep an object moving — in the absence of resistive forces such as friction and air resistance, no force is needed to maintain a constant velocity; a resultant force is only needed to change velocity."
+    ],
+    "tips": [
+      "When told an object moves at constant velocity (including remaining stationary), immediately conclude that the resultant force on it is zero, and use this to find any missing balancing force."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State Newton's first law of motion."
+      ],
+      "intermediate": [
+        "A book rests on a table without moving. Explain, using Newton's first law, what this indicates about the forces acting on it."
+      ],
+      "advanced": [
+        "Explain, using the concept of inertia, why it is harder to start pushing a loaded shopping trolley than an empty one, even on a frictionless floor."
+      ]
+    },
+    "exam_questions": [
+      "Explain, using Newton's first law, why passengers in a car are thrown forward when the car brakes suddenly, and explain the purpose of a seatbelt in this situation."
+    ],
+    "answers": {
+      "basic": [
+        "An object remains at rest, or continues moving at constant velocity in a straight line, unless acted on by a resultant force."
+      ],
+      "intermediate": [
+        "Since the book is not moving (constant, zero velocity), the resultant force on it must be zero, meaning its weight (acting downward) must be exactly balanced by the normal reaction force from the table (acting upward)."
+      ],
+      "advanced": [
+        "A loaded trolley has a greater mass than an empty one, and therefore greater inertia — a greater resistance to a change in its state of motion; even with no friction to overcome, a larger force is still needed to produce the same acceleration in the more massive, loaded trolley, in accordance with Newton's second law (a consequence of the first law's concept of inertia)."
+      ],
+      "exam": [
+        "By Newton's first law, the passengers' bodies continue moving forward at their original velocity due to their inertia, even though the car itself has decelerated, since no force has yet acted on the passengers to change their motion; a seatbelt provides this necessary force, acting on the passenger to decelerate them along with the car and prevent them from continuing to move forward into the dashboard or windscreen."
+      ]
+    },
+    "summary": "Newton's first law states that an object remains at rest or continues moving at constant velocity unless acted on by a resultant force. This is closely linked to inertia, the tendency of an object (particularly one with greater mass) to resist a change in its motion.",
+    "revision_notes": [
+      "No resultant force = no change in velocity",
+      "Balanced forces = zero resultant force",
+      "Inertia = resistance to change in motion, increases with mass"
+    ],
+    "related_topics": [
+      "Force",
+      "Balanced Forces",
+      "Newton's Second Law",
+      "Mass"
+    ],
+    "prerequisites": [
+      "Force",
+      "Balanced Forces"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-035",
+    "subject": "Physics",
+    "category": "Forces and Newton's Laws",
+    "title": "Newton's Second Law",
+    "difficulty": "Foundational",
+    "description": "The principle relating the resultant force acting on an object to its mass and the acceleration this force produces.",
+    "learning_objectives": [
+      "State Newton's second law and its equation",
+      "Calculate resultant force, mass, or acceleration using F = ma",
+      "Explain how mass affects the acceleration produced by a given force"
+    ],
+    "explanation": "Newton's second law states that the acceleration of an object is directly proportional to the resultant force acting on it, and inversely proportional to its mass. This relationship is expressed by the equation F = ma, where F is the resultant force, m is the mass of the object, and a is the resulting acceleration. This means that for a given mass, a larger resultant force produces a larger acceleration; and for a given resultant force, a larger mass results in a smaller acceleration (the object is harder to speed up, slow down, or change direction). The direction of the acceleration is always the same as the direction of the resultant force. This law builds directly on Newton's first law: while the first law explains that a resultant force is needed to change an object's motion at all, the second law quantifies exactly how much acceleration a given resultant force will produce for a given mass.",
+    "key_concepts": [
+      "F = ma",
+      "Acceleration proportional to resultant force",
+      "Acceleration inversely proportional to mass",
+      "Direction of acceleration matches direction of resultant force"
+    ],
+    "definitions": [
+      {
+        "term": "Newton's second law",
+        "definition": "The resultant force acting on an object is equal to the product of its mass and the acceleration produced, F = ma."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Newton's second law",
+        "equation": "F = ma",
+        "variables": {
+          "F": "resultant force, N",
+          "m": "mass, kg",
+          "a": "acceleration, m/s^2"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A resultant force of 15 N acts on an object of mass 3 kg. Calculate the acceleration produced.",
+        "steps": [
+          "Use F = ma, rearranged to find a: a = F / m.",
+          "Substitute the values: a = 15 / 3."
+        ],
+        "answer": "5 m/s^2"
+      },
+      {
+        "problem": "A car of mass 1200 kg accelerates at 2.5 m/s^2. Calculate the resultant force required.",
+        "steps": [
+          "Use F = ma directly.",
+          "Substitute the values: F = 1200 x 2.5."
+        ],
+        "answer": "3000 N"
+      }
+    ],
+    "practical_applications": [
+      "Calculating the engine force needed to achieve a required vehicle acceleration",
+      "Rocket and spacecraft thrust calculations",
+      "Designing braking systems to achieve a required deceleration for a given vehicle mass"
+    ],
+    "common_mistakes": [
+      "Using the total (not resultant) force in F = ma when multiple forces act on an object",
+      "Mixing up mass and weight when substituting into the equation"
+    ],
+    "misconceptions": [
+      "That a constant force produces a constant velocity — by Newton's second law, a constant resultant force actually produces a constant acceleration (continuously changing velocity), not a constant velocity."
+    ],
+    "tips": [
+      "Always find the resultant (net) force first, by combining all individual forces acting on the object, before applying F = ma.",
+      "Keep mass in kilograms and force in newtons to ensure the units are consistent with the equation."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for Newton's second law, defining each symbol."
+      ],
+      "intermediate": [
+        "An object of mass 8 kg experiences a resultant force of 24 N. Calculate its acceleration."
+      ],
+      "advanced": [
+        "Two forces act on a 10 kg object: a 40 N force to the right and a 15 N force to the left. Calculate the resulting acceleration of the object, including its direction."
+      ]
+    },
+    "exam_questions": [
+      "A resultant force of 500 N acts on a 250 kg go-kart. Calculate the acceleration of the go-kart, showing your working and the unit of your answer."
+    ],
+    "answers": {
+      "basic": [
+        "F = ma, where F is the resultant force in newtons, m is the mass in kilograms, and a is the acceleration in metres per second squared."
+      ],
+      "intermediate": [
+        "a = F / m = 24 / 8 = 3 m/s^2."
+      ],
+      "advanced": [
+        "Resultant force = 40 - 15 = 25 N to the right. a = F / m = 25 / 10 = 2.5 m/s^2, to the right (in the direction of the resultant force)."
+      ],
+      "exam": [
+        "a = F / m = 500 / 250 = 2 m/s^2."
+      ]
+    },
+    "summary": "Newton's second law states that the resultant force acting on an object equals the product of its mass and the acceleration produced (F = ma). Acceleration increases with greater resultant force and decreases with greater mass, always acting in the direction of the resultant force.",
+    "revision_notes": [
+      "F = ma",
+      "Acceleration is proportional to resultant force, inversely proportional to mass",
+      "Always use resultant (net) force, not an individual force",
+      "Acceleration direction = resultant force direction"
+    ],
+    "related_topics": [
+      "Newton's First Law",
+      "Newton's Third Law",
+      "Resultant Force",
+      "Mass"
+    ],
+    "prerequisites": [
+      "Newton's First Law",
+      "Resultant Force"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  }
+]

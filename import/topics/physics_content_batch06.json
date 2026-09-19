@@ -1,0 +1,1681 @@
+[
+  {
+    "id": "phy-066",
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "title": "Energy Dissipation",
+    "difficulty": "Foundational",
+    "description": "The spreading out of energy into less useful forms, most commonly thermal energy, during an energy transfer.",
+    "learning_objectives": [
+      "Define energy dissipation",
+      "Identify common causes of energy dissipation",
+      "Explain the relationship between energy dissipation and efficiency"
+    ],
+    "explanation": "Energy dissipation refers to the process by which energy spreads out from a system into its surroundings, usually becoming less useful and harder to make use of further, even though the total amount of energy is conserved. The most common form of dissipated energy is thermal energy, produced whenever resistive forces such as friction or air resistance act during motion, or whenever electrical resistance opposes the flow of current in a circuit. Once dissipated, this thermal energy typically spreads out into the surroundings and becomes increasingly difficult to usefully recover or reuse, which is why dissipation is closely linked to a reduction in a system's efficiency. Reducing unwanted energy dissipation, for example through lubrication (to reduce friction), streamlining (to reduce air resistance), or better electrical conductors and insulation (to reduce resistive heating and heat loss), is a central goal of efficient engineering design.",
+    "key_concepts": [
+      "Energy dissipation = energy spreading into less useful forms (usually thermal)",
+      "Caused by resistive forces (friction, air resistance) or electrical resistance",
+      "Reduces a system's efficiency"
+    ],
+    "definitions": [
+      {
+        "term": "Energy dissipation",
+        "definition": "The process by which energy spreads out into a system's surroundings, usually as thermal energy, becoming less useful and available for further use."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain why a mechanical clock powered by a wound spring eventually stops, even though energy is conserved.",
+        "steps": [
+          "The spring initially stores elastic potential energy, which is gradually transferred to kinetic energy to move the clock's mechanism.",
+          "As the mechanism operates, friction between moving parts (gears, etc.) causes some of this energy to be continuously dissipated as thermal energy.",
+          "Over time, all of the spring's originally stored energy is dissipated as thermal energy to the surroundings, leaving none available to keep the mechanism moving, so the clock stops."
+        ],
+        "answer": "The clock stops because all of its stored elastic potential energy is gradually dissipated as thermal energy due to friction in the mechanism, even though the total energy (including the dissipated thermal energy) remains conserved."
+      }
+    ],
+    "practical_applications": [
+      "Designing lubrication systems to reduce frictional energy dissipation in engines and machinery",
+      "Thermal insulation in buildings, reducing unwanted heat dissipation to the outside environment",
+      "Heat sinks in electronics, deliberately using dissipation to safely remove excess thermal energy from components"
+    ],
+    "common_mistakes": [
+      "Describing dissipated energy as having disappeared or been destroyed, rather than transferred to a less useful, spread-out form",
+      "Assuming energy dissipation only occurs in mechanical systems, ignoring electrical resistance as a source"
+    ],
+    "misconceptions": [
+      "That energy dissipation violates the conservation of energy — dissipation does not destroy energy; it transfers it to a form (usually spread-out thermal energy in the surroundings) that is much harder to gather back up and use again, even though the total quantity of energy is unchanged."
+    ],
+    "tips": [
+      "When identifying where energy is dissipated in a system, look specifically for resistive forces (friction, air resistance, drag) or electrical resistance, since these are the near-universal sources of unwanted energy dissipation."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the most common form that dissipated energy takes."
+      ],
+      "intermediate": [
+        "Explain why oiling a bicycle chain reduces energy dissipation."
+      ],
+      "advanced": [
+        "Explain why energy dissipation, although consistent with conservation of energy, is generally seen as undesirable in engineering design."
+      ]
+    },
+    "exam_questions": [
+      "Explain what is meant by energy dissipation, and describe one method used to reduce it in a mechanical system."
+    ],
+    "answers": {
+      "basic": [
+        "Thermal energy (heat)."
+      ],
+      "intermediate": [
+        "Oiling the chain reduces friction between the moving metal links, which reduces the amount of kinetic energy converted into (dissipated as) thermal energy during motion."
+      ],
+      "advanced": [
+        "Although dissipation does not destroy energy (it remains conserved overall), it transfers useful, concentrated energy into a spread-out, low-grade form (usually thermal energy in the wider surroundings) that is very difficult to gather back up and reuse for a specific purpose; this represents a practical loss of usefulness even though no energy is technically lost, which is why reducing dissipation is a key engineering goal for efficiency and cost."
+      ],
+      "exam": [
+        "Energy dissipation is the spreading out of energy into less useful forms, usually thermal energy, often due to resistive forces such as friction; it can be reduced, for example, by lubricating the moving parts of a machine to decrease friction between them, reducing the amount of energy converted into wasted thermal energy."
+      ]
+    },
+    "summary": "Energy dissipation is the process by which energy spreads into less useful forms, usually thermal energy, commonly caused by friction, air resistance, or electrical resistance. It reduces a system's efficiency, though the total energy remains conserved.",
+    "revision_notes": [
+      "Dissipation: energy spreads into less useful forms (usually thermal)",
+      "Caused by friction, air resistance, drag, electrical resistance",
+      "Reduces efficiency; energy still conserved overall"
+    ],
+    "related_topics": [
+      "Energy Transfers",
+      "Efficiency",
+      "Friction"
+    ],
+    "prerequisites": [
+      "Energy Transfers"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-067",
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "title": "Mechanical Energy",
+    "difficulty": "Foundational",
+    "description": "The sum of an object's kinetic energy and gravitational (or elastic) potential energy.",
+    "learning_objectives": [
+      "Define mechanical energy as the sum of kinetic and potential energy",
+      "Calculate the total mechanical energy of a system",
+      "Explain when mechanical energy is conserved and when it is not"
+    ],
+    "explanation": "Mechanical energy is the sum of an object's kinetic energy (energy of motion) and its potential energy (gravitational potential energy due to height, and/or elastic potential energy if relevant, such as in a system involving a spring). It is a useful combined quantity because, in the absence of resistive forces such as friction and air resistance, the total mechanical energy of a system remains constant, even as energy continually converts between kinetic and potential forms — this is a direct application of the more general principle of conservation of energy. For example, a pendulum swinging with no air resistance continuously exchanges kinetic energy (fastest at the bottom of its swing) for gravitational potential energy (greatest at the top of its swing), while its total mechanical energy stays the same throughout. In real systems, where resistive forces are present, mechanical energy is gradually dissipated (usually as thermal energy), so the total mechanical energy decreases over time even though the overall total energy, including the dissipated portion, remains conserved.",
+    "key_concepts": [
+      "Mechanical energy = kinetic energy + potential energy",
+      "Conserved in the absence of resistive forces",
+      "Decreases over time when resistive forces (friction, air resistance) are present"
+    ],
+    "definitions": [
+      {
+        "term": "Mechanical energy",
+        "definition": "The sum of an object's kinetic energy and potential energy (gravitational and/or elastic)."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Mechanical energy",
+        "equation": "Mechanical energy = KE + PE",
+        "variables": {
+          "KE": "kinetic energy, J",
+          "PE": "potential energy (gravitational and/or elastic), J"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "mechanical energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A 1 kg pendulum bob has a kinetic energy of 3 J and a gravitational potential energy of 5 J at a certain point in its swing. Calculate its total mechanical energy at that point.",
+        "steps": [
+          "Use Mechanical energy = KE + PE.",
+          "Substitute: Mechanical energy = 3 + 5."
+        ],
+        "answer": "8 J"
+      }
+    ],
+    "practical_applications": [
+      "Analysing roller coaster and pendulum motion using the conservation of mechanical energy",
+      "Designing energy-efficient machinery that minimises mechanical energy losses to friction",
+      "Modelling projectile and orbital motion using the interplay between kinetic and potential energy"
+    ],
+    "common_mistakes": [
+      "Forgetting to include both kinetic and potential energy when calculating total mechanical energy",
+      "Assuming mechanical energy is always conserved, even when a problem clearly involves resistive forces such as friction or air resistance"
+    ],
+    "misconceptions": [
+      "That 'mechanical energy' is a completely separate form of energy from kinetic and potential energy — it is simply the name given to the combined total of these two specific forms, useful because their sum is conserved under certain (frictionless/resistance-free) conditions."
+    ],
+    "tips": [
+      "Check whether a problem explicitly mentions or implies resistive forces (friction, air resistance) before assuming mechanical energy is conserved; if these are present, mechanical energy will decrease over time, with the difference dissipated as thermal energy."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for total mechanical energy."
+      ],
+      "intermediate": [
+        "An object has 12 J of gravitational potential energy and 4 J of kinetic energy. Calculate its total mechanical energy."
+      ],
+      "advanced": [
+        "A ball is thrown upward with 20 J of kinetic energy and no initial gravitational potential energy (taking its starting point as the reference height). Ignoring air resistance, calculate its gravitational potential energy at the point where its kinetic energy has fallen to 8 J."
+      ]
+    },
+    "exam_questions": [
+      "Explain why the total mechanical energy of a swinging pendulum remains constant in the absence of air resistance, but gradually decreases in its presence."
+    ],
+    "answers": {
+      "basic": [
+        "Mechanical energy = KE + PE."
+      ],
+      "intermediate": [
+        "Mechanical energy = 12 + 4 = 16 J."
+      ],
+      "advanced": [
+        "Total mechanical energy = 20 J (all kinetic initially, since GPE = 0 at the reference point) and remains constant (no air resistance), so at the point where KE = 8 J, GPE = 20 - 8 = 12 J."
+      ],
+      "exam": [
+        "In the absence of air resistance, no external resistive force acts on the pendulum to remove energy from its kinetic-plus-potential (mechanical) energy system, so by conservation of energy its total mechanical energy stays constant, only converting between kinetic and potential forms; with air resistance present, some of the pendulum's mechanical energy is continuously dissipated as thermal energy (and some sound energy) due to the resistive force acting against its motion, so its total mechanical energy gradually decreases over time, which is why a real pendulum eventually stops swinging."
+      ]
+    },
+    "summary": "Mechanical energy is the sum of an object's kinetic and potential energy. It remains constant in the absence of resistive forces, but decreases over time when friction or air resistance dissipate energy as thermal energy.",
+    "revision_notes": [
+      "Mechanical energy = KE + PE",
+      "Conserved without resistive forces",
+      "Decreases with friction/air resistance present (dissipated as heat)"
+    ],
+    "related_topics": [
+      "Kinetic Energy",
+      "Gravitational Potential Energy (Uniform Field)",
+      "Conservation of Energy"
+    ],
+    "prerequisites": [
+      "Kinetic Energy",
+      "Gravitational Potential Energy (Uniform Field)"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-068",
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "title": "Energy Resources (Renewable and Non-Renewable)",
+    "difficulty": "Foundational",
+    "description": "The various sources used to generate useful energy, classified as renewable (naturally replenished) or non-renewable (finite, depleting).",
+    "learning_objectives": [
+      "Distinguish renewable from non-renewable energy resources",
+      "List common examples of each category",
+      "Compare the advantages and disadvantages of different energy resources"
+    ],
+    "explanation": "Energy resources are the various sources humans use to generate the useful energy needed for electricity, heating, and transport. They are broadly classified into two categories. Non-renewable energy resources, such as coal, oil, and natural gas (the fossil fuels) and nuclear fuel, exist in finite (limited) quantities that take an extremely long time to form naturally, meaning they are being used up far faster than they are replenished, and will eventually run out. Renewable energy resources, such as solar, wind, hydroelectric, geothermal, and biofuel/biomass energy, are naturally replenished on a timescale comparable to how quickly they are used, meaning they will not run out on any meaningful human timescale. Each resource has advantages and disadvantages beyond simply whether it is renewable: fossil fuels currently provide reliable, on-demand energy but release greenhouse gases and other pollutants when burned; nuclear power provides large amounts of reliable, low-carbon energy but produces radioactive waste and carries safety and cost concerns; and most renewable resources produce little to no direct pollution during operation but are often variable or intermittent (e.g. solar power depends on sunlight, wind power on wind speed) and can have high initial infrastructure costs.",
+    "key_concepts": [
+      "Non-renewable: finite, depleting (fossil fuels, nuclear fuel)",
+      "Renewable: naturally replenished (solar, wind, hydro, geothermal, biofuel)",
+      "Each resource has trade-offs: reliability, cost, environmental impact"
+    ],
+    "definitions": [
+      {
+        "term": "Non-renewable energy resource",
+        "definition": "An energy resource that exists in a finite quantity and is being used up much faster than it is naturally replenished, such as fossil fuels or nuclear fuel."
+      },
+      {
+        "term": "Renewable energy resource",
+        "definition": "An energy resource that is naturally replenished on a timescale comparable to its use, such as solar, wind, or hydroelectric energy."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "Classify each of the following as a renewable or non-renewable energy resource: (a) natural gas, (b) wind, (c) uranium (nuclear fuel), (d) hydroelectric power.",
+        "steps": [
+          "(a) Natural gas is a fossil fuel formed over millions of years and is being used far faster than it forms, so it is non-renewable.",
+          "(b) Wind is continuously generated by natural weather patterns and will not run out, so it is renewable.",
+          "(c) Uranium is a finite mineral resource that is not naturally replenished on a usable timescale, so it is non-renewable.",
+          "(d) Hydroelectric power relies on the continuously renewed water cycle, so it is renewable."
+        ],
+        "answer": "(a) Non-renewable; (b) Renewable; (c) Non-renewable; (d) Renewable."
+      }
+    ],
+    "practical_applications": [
+      "National and global energy policy decisions balancing reliability, cost, and environmental impact",
+      "Designing electricity grids that combine multiple energy resources to ensure a reliable supply",
+      "Evaluating the environmental impact of different transport and heating technologies"
+    ],
+    "common_mistakes": [
+      "Assuming 'renewable' means 'environmentally perfect with no drawbacks', ignoring issues such as intermittency or land use",
+      "Classifying nuclear power as renewable, when the nuclear fuel (uranium) itself is a finite, non-renewable resource"
+    ],
+    "misconceptions": [
+      "That non-renewable resources are always more reliable and renewable resources are always less reliable in every respect — while it is true that many renewables (solar, wind) are intermittent (depending on weather/time of day), others (such as hydroelectric and geothermal) can provide very consistent output, and reliability depends on the specific resource and how the wider energy system is designed around it."
+    ],
+    "tips": [
+      "When classifying an energy resource, ask whether it will be replenished on a timescale that matters to humans (renewable) or whether it took geological timescales to form and cannot be quickly replaced (non-renewable)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "List two renewable and two non-renewable energy resources."
+      ],
+      "intermediate": [
+        "Explain why nuclear fuel (uranium) is classified as non-renewable, even though nuclear power stations do not burn fossil fuels."
+      ],
+      "advanced": [
+        "Discuss one advantage and one disadvantage of using solar power compared with a fossil-fuel power station for generating electricity."
+      ]
+    },
+    "exam_questions": [
+      "Explain the difference between renewable and non-renewable energy resources, giving one example of each."
+    ],
+    "answers": {
+      "basic": [
+        "Renewable: any two of solar, wind, hydroelectric, geothermal, biofuel. Non-renewable: any two of coal, oil, natural gas, nuclear fuel."
+      ],
+      "intermediate": [
+        "Uranium is a mineral resource present in the Earth in a finite, limited quantity; it is not naturally replenished on any timescale useful to humans once mined and used, which is why it is classified as non-renewable despite not being a fossil fuel."
+      ],
+      "advanced": [
+        "Advantage: solar power produces no direct greenhouse gas emissions or air pollution during operation, unlike a fossil-fuel power station. Disadvantage: solar power output is intermittent and depends on sunlight availability (time of day, weather, season), so it cannot reliably provide power on demand in the way a fossil-fuel station can, without additional energy storage or backup generation."
+      ],
+      "exam": [
+        "Non-renewable energy resources exist in a finite quantity and are being used up faster than they can naturally form, such as coal; renewable energy resources are naturally replenished at a rate comparable to their use and will not run out, such as wind power."
+      ]
+    },
+    "summary": "Energy resources are classified as non-renewable (finite, depleting, such as fossil fuels and nuclear fuel) or renewable (naturally replenished, such as solar, wind, and hydroelectric). Each resource involves trade-offs in reliability, cost, and environmental impact.",
+    "revision_notes": [
+      "Non-renewable: coal, oil, gas, nuclear fuel (finite)",
+      "Renewable: solar, wind, hydro, geothermal, biofuel (replenished)",
+      "Trade-offs: reliability, cost, environmental impact"
+    ],
+    "related_topics": [
+      "Energy",
+      "Energy Transfers",
+      "Nuclear Power"
+    ],
+    "prerequisites": [
+      "Energy"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A bar chart comparing an illustrative share of different energy resources, colour-coded by renewable vs non-renewable]"
+    ],
+    "images": [
+      {
+        "filename": "physics-energy-resources-068-01.webp",
+        "type": "chart",
+        "description": "A bar chart showing an illustrative percentage share for six energy resources (coal, gas, nuclear, wind, solar, hydro), with non-renewable resources shown in red and renewable resources shown in green, with a legend.",
+        "purpose": "Gives students a concrete, illustrative visual for comparing the relative scale of different energy resources and immediately seeing which are grouped as renewable versus non-renewable.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-069",
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "title": "Sankey Diagrams",
+    "difficulty": "Intermediate",
+    "description": "Diagrams that use arrows of varying width to represent the relative amounts of useful and wasted energy in an energy transfer.",
+    "learning_objectives": [
+      "Interpret a Sankey diagram to identify useful and wasted energy",
+      "Explain what the width of an arrow in a Sankey diagram represents",
+      "Use a Sankey diagram to estimate the efficiency of a device"
+    ],
+    "explanation": "A Sankey diagram is a type of flow diagram used to represent an energy transfer visually, in which the width of each arrow is drawn proportional to the amount of energy it represents. A single, wide arrow enters the diagram from the left, representing the total energy input to a device or process; this arrow then splits into two or more narrower arrows, representing the different energy outputs, typically one (or more) useful output(s) and one (or more) wasted output(s), most commonly thermal energy. Because the width of each arrow is proportional to the actual energy value it represents, Sankey diagrams provide an immediate, intuitive visual sense of how efficient a device is: a device with a wide useful-energy arrow and a narrow wasted-energy arrow is highly efficient, while a device with a narrow useful arrow and a wide wasted arrow is inefficient. Since total energy is conserved, the combined width of all the output arrows must always equal the width of the single input arrow.",
+    "key_concepts": [
+      "Arrow width is proportional to the amount of energy represented",
+      "Splits from one input arrow into useful and wasted output arrows",
+      "Total output width = input width (conservation of energy)"
+    ],
+    "definitions": [
+      {
+        "term": "Sankey diagram",
+        "definition": "A flow diagram representing an energy transfer, in which the width of each arrow is drawn proportional to the amount of energy it represents."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A Sankey diagram for a lamp shows a 100 J input arrow splitting into a narrow arrow representing 20 J of light energy and a wide arrow representing 80 J of thermal energy. Calculate the efficiency of the lamp.",
+        "steps": [
+          "Identify the useful output energy from the diagram: light energy = 20 J.",
+          "Identify the total input energy from the diagram: 100 J.",
+          "Use efficiency = useful output / total input.",
+          "Substitute: efficiency = 20 / 100 = 0.2."
+        ],
+        "answer": "0.2, or 20%"
+      }
+    ],
+    "practical_applications": [
+      "Communicating energy efficiency data clearly to engineers, policymakers, and the public",
+      "Comparing the relative efficiency of different devices or energy systems visually",
+      "Analysing national or industrial energy flow, from primary supply to final use and losses"
+    ],
+    "common_mistakes": [
+      "Assuming the width of an arrow in a Sankey diagram is purely decorative, rather than representing a specific, proportional energy value",
+      "Forgetting that the combined width of all output arrows must equal the input arrow's width, due to conservation of energy"
+    ],
+    "misconceptions": [
+      "That a Sankey diagram shows the type of energy but not its actual quantity — the defining feature of a Sankey diagram is precisely that the width of each arrow is drawn to scale, directly representing the quantity of energy in that particular transfer, not just its type or direction."
+    ],
+    "tips": [
+      "When reading a Sankey diagram, compare the width of the wasted-energy arrow(s) to the width of the input arrow to quickly estimate how inefficient a device is, without needing to read off exact numbers."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State what the width of an arrow in a Sankey diagram represents."
+      ],
+      "intermediate": [
+        "A Sankey diagram shows a 500 J input arrow splitting into a 350 J useful output arrow and a wasted output arrow. Calculate the value represented by the wasted output arrow."
+      ],
+      "advanced": [
+        "Explain why the combined width of all the output arrows in a Sankey diagram must always equal the width of the single input arrow."
+      ]
+    },
+    "exam_questions": [
+      "Explain how a Sankey diagram can be used to estimate the efficiency of a device without needing to know the exact numerical values of the input and output energies."
+    ],
+    "answers": {
+      "basic": [
+        "The amount of energy in that part of the transfer (arrow width is proportional to energy)."
+      ],
+      "intermediate": [
+        "500 - 350 = 150 J."
+      ],
+      "advanced": [
+        "This follows directly from the principle of conservation of energy: since energy is never created or destroyed, all of the energy entering the device (represented by the input arrow) must be accounted for by the outputs (useful and wasted, represented by the output arrows); the combined width of the outputs must therefore always equal the input width."
+      ],
+      "exam": [
+        "Since arrow width is proportional to energy, a Sankey diagram allows the relative proportion of useful to wasted energy to be estimated visually, simply by comparing how wide the useful-output arrow appears compared with the total width of the input arrow — a device where the useful arrow takes up most of the input arrow's width is highly efficient, while a device where the useful arrow is much narrower than the input is relatively inefficient, all without needing to read off precise numerical values."
+      ]
+    },
+    "summary": "A Sankey diagram represents an energy transfer using arrows whose width is proportional to the energy they carry, splitting from a single input into useful and wasted outputs, giving an immediate visual sense of a device's efficiency.",
+    "revision_notes": [
+      "Arrow width proportional to energy",
+      "Splits input into useful + wasted outputs",
+      "Total output width = input width (conservation of energy)"
+    ],
+    "related_topics": [
+      "Energy Transfers",
+      "Efficiency",
+      "Energy Dissipation"
+    ],
+    "prerequisites": [
+      "Energy Transfers",
+      "Efficiency"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A Sankey diagram showing a single input arrow splitting into a narrow useful-output arrow and a wide wasted-output arrow]"
+    ],
+    "images": [
+      {
+        "filename": "physics-sankey-diagrams-069-01.webp",
+        "type": "diagram",
+        "description": "A Sankey diagram for a lamp: a wide blue arrow labelled 'Electrical energy input (100 J)' entering from the left, splitting into a narrow yellow arrow labelled 'Light energy (20 J, useful)' and a wide red arrow labelled 'Thermal energy (80 J, wasted)'.",
+        "purpose": "Provides a concrete, correctly-proportioned example of a Sankey diagram, letting students see exactly how arrow width corresponds to energy value and how to read off an efficiency from it.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-070",
+    "subject": "Physics",
+    "category": "Momentum",
+    "title": "Momentum",
+    "difficulty": "Foundational",
+    "description": "A vector quantity describing the product of an object's mass and velocity, representing its 'quantity of motion'.",
+    "learning_objectives": [
+      "State the equation for momentum",
+      "Calculate the momentum of a moving object",
+      "Explain why momentum is a vector quantity"
+    ],
+    "explanation": "Momentum is a vector quantity that describes an object's 'quantity of motion', calculated as the product of its mass and velocity: p = mv, where p is momentum, m is mass, and v is velocity. Because momentum depends on velocity (a vector), momentum is itself a vector quantity, meaning it has both magnitude and direction — an object's momentum is in the same direction as its velocity. A heavier object moving at the same speed as a lighter one has greater momentum, and a faster-moving object has greater momentum than a slower one of the same mass. Momentum is a particularly useful quantity because, unlike kinetic energy, it is always conserved in any interaction (such as a collision or explosion) between objects, provided no external force acts on the system, as covered in Conservation of Momentum.",
+    "key_concepts": [
+      "p = mv",
+      "Vector quantity: direction matches velocity's direction",
+      "Greater mass or velocity means greater momentum"
+    ],
+    "definitions": [
+      {
+        "term": "Momentum",
+        "definition": "A vector quantity describing an object's quantity of motion, calculated as the product of its mass and velocity, p = mv."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Momentum",
+        "equation": "p = mv",
+        "variables": {
+          "p": "momentum, kg m/s",
+          "m": "mass, kg",
+          "v": "velocity, m/s"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "momentum",
+        "si_unit": "kilogram metre per second",
+        "symbol": "kg m/s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Calculate the momentum of a 1500 kg car travelling at 18 m/s.",
+        "steps": [
+          "Use p = mv.",
+          "Substitute: p = 1500 x 18."
+        ],
+        "answer": "27,000 kg m/s"
+      }
+    ],
+    "practical_applications": [
+      "Analysing vehicle collisions and designing safety features",
+      "Rocket propulsion, which relies on the conservation of momentum between the rocket and its exhaust",
+      "Sports science analysis of impacts, such as in tackling or hitting a ball"
+    ],
+    "common_mistakes": [
+      "Treating momentum as a scalar quantity and ignoring its direction",
+      "Confusing momentum (p = mv) with kinetic energy (KE = 1/2 mv^2), which involve mass and velocity differently"
+    ],
+    "misconceptions": [
+      "That momentum and kinetic energy are simply two names for the same underlying quantity — they are distinct quantities with different formulas (p = mv versus KE = 1/2 mv^2) and different conservation properties (momentum is always conserved in a collision; kinetic energy is only conserved in an elastic collision)."
+    ],
+    "tips": [
+      "Always include direction (using a sign convention, e.g. positive/negative for opposite directions along a line) when working with momentum, since it is a vector quantity."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for momentum, defining each symbol."
+      ],
+      "intermediate": [
+        "Calculate the momentum of a 0.15 kg ball moving at 25 m/s."
+      ],
+      "advanced": [
+        "Two objects, A (mass 2 kg, velocity 4 m/s) and B (mass 1 kg, velocity 8 m/s), move in the same direction. Compare their momenta, and state whether they are equal."
+      ]
+    },
+    "exam_questions": [
+      "Explain why momentum is classified as a vector quantity, and state the direction of an object's momentum relative to its velocity."
+    ],
+    "answers": {
+      "basic": [
+        "p = mv, where p is momentum in kg m/s, m is mass in kg, and v is velocity in m/s."
+      ],
+      "intermediate": [
+        "p = 0.15 x 25 = 3.75 kg m/s."
+      ],
+      "advanced": [
+        "p(A) = 2 x 4 = 8 kg m/s. p(B) = 1 x 8 = 8 kg m/s. Their momenta are equal in magnitude (both 8 kg m/s) and, since they move in the same direction, also equal overall."
+      ],
+      "exam": [
+        "Momentum is classified as a vector quantity because it is calculated using velocity, which is itself a vector; an object's momentum always acts in the same direction as its velocity."
+      ]
+    },
+    "summary": "Momentum is a vector quantity equal to the product of an object's mass and velocity (p = mv), acting in the same direction as the velocity. It is a key quantity because it is always conserved in interactions between objects.",
+    "revision_notes": [
+      "p = mv",
+      "Vector: direction = direction of velocity",
+      "Distinct from kinetic energy (KE = 1/2 mv^2)"
+    ],
+    "related_topics": [
+      "Conservation of Momentum",
+      "Impulse",
+      "Velocity"
+    ],
+    "prerequisites": [
+      "Velocity",
+      "Mass"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-071",
+    "subject": "Physics",
+    "category": "Momentum",
+    "title": "Impulse",
+    "difficulty": "Intermediate",
+    "description": "The change in momentum produced by a force acting over a period of time, equal to the product of the force and the time for which it acts.",
+    "learning_objectives": [
+      "Define impulse and state its equation",
+      "Calculate impulse from force and time, or from a change in momentum",
+      "Explain how impulse relates to increasing or decreasing the effect of a collision"
+    ],
+    "explanation": "Impulse is defined as the change in an object's momentum, and is equal to the product of the force applied and the time for which it acts: impulse = F x t. This relationship comes directly from Newton's second law: since F = ma, and acceleration a = (v-u)/t, substituting gives F = m(v-u)/t, which rearranges to Ft = m(v-u) = change in momentum. This means that the same change in momentum can be produced by a large force acting for a short time, or a smaller force acting for a longer time. This principle is widely used in safety design: airbags, crumple zones, and cushioned surfaces work by increasing the time over which a collision's momentum change occurs, which reduces the force experienced (since the impulse, or total momentum change, is fixed by the collision itself). Impulse can also be found as the area under a force-time graph, since impulse = F x t is mathematically the same calculation as finding the area of a rectangle (or, for a varying force, the total area under the curve).",
+    "key_concepts": [
+      "Impulse = F x t = change in momentum",
+      "Same momentum change can result from large force/short time or small force/long time",
+      "Impulse = area under a force-time graph"
+    ],
+    "definitions": [
+      {
+        "term": "Impulse",
+        "definition": "The change in an object's momentum, calculated as the product of the force applied and the time for which it acts, impulse = F x t."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Impulse",
+        "equation": "impulse = F x t = m(v - u)",
+        "variables": {
+          "F": "force, N",
+          "t": "time for which the force acts, s",
+          "m": "mass, kg",
+          "v": "final velocity, m/s",
+          "u": "initial velocity, m/s"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "impulse",
+        "si_unit": "newton second (equivalent to kg m/s)",
+        "symbol": "N s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A 0.4 kg ball's velocity changes from 5 m/s to -3 m/s (reversing direction) after being struck by a bat over 0.02 s. Calculate the impulse delivered, and the average force exerted by the bat.",
+        "steps": [
+          "Calculate the change in momentum: impulse = m(v - u) = 0.4 x (-3 - 5) = 0.4 x (-8).",
+          "Impulse = -3.2 N s (the negative sign shows the direction is reversed).",
+          "Use impulse = F x t, rearranged to find F: F = impulse / t = -3.2 / 0.02."
+        ],
+        "answer": "Impulse = -3.2 N s (magnitude 3.2 N s); average force = -160 N (magnitude 160 N), acting in the direction that reverses the ball's motion."
+      }
+    ],
+    "practical_applications": [
+      "Airbag and crumple zone design, extending collision time to reduce the force experienced by occupants",
+      "Padded flooring and protective sports equipment, reducing impact forces during falls or tackles",
+      "Rocket and jet engine thrust calculations, which rely on impulse-momentum relationships"
+    ],
+    "common_mistakes": [
+      "Forgetting that impulse and change in momentum are the same quantity, calculated in two different (but equivalent) ways",
+      "Ignoring the sign (direction) of velocities when a collision reverses an object's direction of motion"
+    ],
+    "misconceptions": [
+      "That reducing the force in a collision means reducing the total momentum change (impulse) — the impulse (total momentum change) in a given collision is fixed by the physical situation (the masses and velocities involved); safety features work by increasing the time over which this fixed impulse is delivered, which reduces the average force, not by changing the impulse itself."
+    ],
+    "tips": [
+      "Remember the safety principle: for a fixed impulse (momentum change), increasing the time of impact decreases the average force experienced, which is the basis of most collision safety design."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for impulse in terms of force and time."
+      ],
+      "intermediate": [
+        "A 2 kg object's velocity changes from 6 m/s to 10 m/s over 0.5 s due to an applied force. Calculate the impulse delivered."
+      ],
+      "advanced": [
+        "Explain, using the impulse equation, why a car's crumple zone reduces the force experienced by passengers during a collision, compared with an equally rigid car body."
+      ]
+    },
+    "exam_questions": [
+      "A 60 kg person jumps and lands on the ground, with their velocity changing from 4 m/s to 0 m/s in 0.1 s. Calculate the average force exerted on them by the ground during landing."
+    ],
+    "answers": {
+      "basic": [
+        "impulse = F x t."
+      ],
+      "intermediate": [
+        "impulse = m(v-u) = 2 x (10-6) = 2 x 4 = 8 kg m/s (or N s)."
+      ],
+      "advanced": [
+        "The change in momentum (impulse) of the passengers in a collision is essentially fixed by their mass and the change in the car's velocity; a crumple zone increases the time over which this momentum change occurs (by gradually deforming, rather than stopping instantly), and since impulse = F x t is constant, a larger time t results in a smaller average force F acting on the passengers, reducing injury risk."
+      ],
+      "exam": [
+        "impulse = m(v-u) = 60 x (0-4) = -240 kg m/s (magnitude 240 N s). F = impulse / t = -240 / 0.1 = -2400 N (magnitude 2400 N, acting upward on the person)."
+      ]
+    },
+    "summary": "Impulse is the change in momentum produced by a force acting over time, calculated as impulse = F x t = m(v-u). For a fixed impulse, increasing the time of an interaction reduces the average force involved, which underlies most collision safety design.",
+    "revision_notes": [
+      "impulse = F x t = change in momentum",
+      "impulse = area under a force-time graph",
+      "Longer time -> smaller force for the same impulse (safety principle)"
+    ],
+    "related_topics": [
+      "Momentum",
+      "Newton's Second Law",
+      "Force-Time Graphs"
+    ],
+    "prerequisites": [
+      "Momentum",
+      "Newton's Second Law"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-072",
+    "subject": "Physics",
+    "category": "Momentum",
+    "title": "Conservation of Momentum",
+    "difficulty": "Intermediate",
+    "description": "The principle that the total momentum of a closed system remains constant, provided no external force acts on it.",
+    "learning_objectives": [
+      "State the principle of conservation of momentum",
+      "Apply conservation of momentum to solve simple collision problems",
+      "Explain the condition (no external force) under which momentum is conserved"
+    ],
+    "explanation": "The principle of conservation of momentum states that, provided no external (outside) force acts on a system, the total momentum of that system remains constant, even as individual objects within it interact, such as in a collision or explosion. This means the total momentum of all objects before an interaction is exactly equal to the total momentum of all objects after the interaction: total momentum before = total momentum after. This principle follows directly from Newton's third law: during any interaction, such as a collision between two objects, each object exerts an equal and opposite force on the other, so their individual changes in momentum (impulses) are also equal and opposite, meaning the total momentum of the pair is unchanged overall. Conservation of momentum applies regardless of whether the interaction is a collision (objects coming together) or an explosion (objects moving apart), and regardless of whether kinetic energy is conserved during the interaction (which distinguishes elastic from inelastic collisions).",
+    "key_concepts": [
+      "Total momentum before = total momentum after (no external force)",
+      "Follows from Newton's third law",
+      "Applies to both collisions and explosions"
+    ],
+    "definitions": [
+      {
+        "term": "Conservation of momentum",
+        "definition": "The principle that the total momentum of a system remains constant, provided no external force acts on it."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Conservation of momentum",
+        "equation": "total momentum before = total momentum after",
+        "variables": {}
+      }
+    ],
+    "units": [
+      {
+        "quantity": "momentum",
+        "si_unit": "kilogram metre per second",
+        "symbol": "kg m/s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A 2 kg trolley moving at 6 m/s collides and sticks to a stationary 4 kg trolley. Calculate their combined velocity immediately after the collision.",
+        "steps": [
+          "Calculate the total momentum before the collision: p(before) = (2 x 6) + (4 x 0) = 12 + 0 = 12 kg m/s.",
+          "By conservation of momentum, total momentum after the collision is also 12 kg m/s.",
+          "Since the trolleys stick together, use combined mass: (2+4) = 6 kg.",
+          "Use p = mv, rearranged: v = p / m = 12 / 6."
+        ],
+        "answer": "2 m/s, in the same direction as the original moving trolley"
+      }
+    ],
+    "practical_applications": [
+      "Vehicle collision analysis and reconstruction in accident investigations",
+      "Rocket propulsion, where conservation of momentum explains how expelling exhaust gas propels the rocket forward",
+      "Ballistics and particle physics, where momentum conservation is used to analyse collisions and decays"
+    ],
+    "common_mistakes": [
+      "Forgetting to account for the direction (sign) of velocities when objects move toward or away from each other",
+      "Assuming momentum is conserved even when an external force (such as friction with the ground) significantly affects the system"
+    ],
+    "misconceptions": [
+      "That conservation of momentum requires kinetic energy to also be conserved — momentum is conserved in every collision (as long as no external force acts), regardless of whether the collision is elastic (kinetic energy also conserved) or inelastic (some kinetic energy transferred to other forms, such as heat and sound); these are two separate conservation questions."
+    ],
+    "tips": [
+      "Always define a positive direction before calculating momentum in a collision problem, and use negative values for any object moving in the opposite direction."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the principle of conservation of momentum."
+      ],
+      "intermediate": [
+        "A 3 kg ball moving at 5 m/s collides head-on with a stationary 2 kg ball, and after the collision the 3 kg ball moves at 1 m/s in the same direction. Calculate the velocity of the 2 kg ball after the collision."
+      ],
+      "advanced": [
+        "A 50 kg astronaut at rest in space throws a 2 kg tool away from themselves at 8 m/s. Calculate the resulting velocity of the astronaut, explaining your reasoning."
+      ]
+    },
+    "exam_questions": [
+      "Using conservation of momentum, explain why a person standing on a stationary skateboard moves backward when they throw a heavy object forward."
+    ],
+    "answers": {
+      "basic": [
+        "Provided no external force acts on a system, its total momentum remains constant."
+      ],
+      "intermediate": [
+        "p(before) = (3x5) + (2x0) = 15 kg m/s. p(after) = (3x1) + (2 x v) = 15, so 3 + 2v = 15, giving 2v = 12, so v = 6 m/s."
+      ],
+      "advanced": [
+        "p(before) = 0 (astronaut and tool both at rest). By conservation of momentum, p(after) = 0 too: (50 x v) + (2 x 8) = 0, so 50v = -16, giving v = -0.32 m/s (i.e. 0.32 m/s in the opposite direction to the thrown tool)."
+      ],
+      "exam": [
+        "Before the throw, the total momentum of the person-plus-object system is zero (both at rest); by conservation of momentum, the total momentum must remain zero after the throw too, so as the object gains forward momentum, the person (and skateboard) must gain an exactly equal and opposite (backward) momentum to keep the total at zero, causing them to move backward."
+      ]
+    },
+    "summary": "Conservation of momentum states that the total momentum of a system remains constant, provided no external force acts on it, so total momentum before an interaction (collision or explosion) equals total momentum after.",
+    "revision_notes": [
+      "Total momentum before = total momentum after (no external force)",
+      "Follows from Newton's third law",
+      "Applies to collisions AND explosions"
+    ],
+    "related_topics": [
+      "Momentum",
+      "Collisions",
+      "Explosions",
+      "Newton's Third Law"
+    ],
+    "prerequisites": [
+      "Momentum",
+      "Newton's Third Law"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A before-and-after diagram of two trolleys colliding and sticking together, with masses and velocities labelled on each side]"
+    ],
+    "images": [
+      {
+        "filename": "physics-conservation-momentum-072-01.webp",
+        "type": "diagram",
+        "description": "Two panels: 'Before collision' shows a 2 kg block moving at 6 m/s toward a stationary 4 kg block; 'After collision' shows the two blocks stuck together as a single 6 kg mass moving at 2 m/s.",
+        "purpose": "Gives a concrete visual for the worked example, letting students see the masses and velocities before and after the collision side by side, reinforcing that total momentum (mass x velocity, summed) is the same in both panels.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-073",
+    "subject": "Physics",
+    "category": "Momentum",
+    "title": "Collisions",
+    "difficulty": "Intermediate",
+    "description": "Interactions between two or more objects that come into contact, during which momentum is always conserved, but kinetic energy may or may not be.",
+    "learning_objectives": [
+      "Distinguish elastic from inelastic collisions",
+      "Apply conservation of momentum to solve collision problems",
+      "Explain what happens to kinetic energy in an inelastic collision"
+    ],
+    "explanation": "A collision occurs when two or more objects come into contact and interact, exerting forces on each other over a short period of time. In every collision, provided no external force acts on the system, momentum is conserved: total momentum before the collision equals total momentum after. Collisions are further classified based on what happens to kinetic energy during the interaction. In an elastic collision, the total kinetic energy of the system is the same before and after the collision — no kinetic energy is transferred to other forms such as heat or sound; this is an idealised case, closely approximated by collisions between hard, bouncy objects such as billiard balls, but rare in everyday macroscopic collisions. In an inelastic collision, some of the total kinetic energy is transferred to other forms, typically thermal energy and sound energy, during the collision, meaning the total kinetic energy after the collision is less than before; a collision where the objects stick together afterward (such as two train carriages coupling) is described as a perfectly inelastic collision, since this involves the maximum possible loss of kinetic energy consistent with conservation of momentum.",
+    "key_concepts": [
+      "Momentum is always conserved in a collision (no external force)",
+      "Elastic collision: kinetic energy also conserved",
+      "Inelastic collision: kinetic energy decreases (transferred to heat/sound)"
+    ],
+    "definitions": [
+      {
+        "term": "Elastic collision",
+        "definition": "A collision in which the total kinetic energy of the system is the same before and after the collision."
+      },
+      {
+        "term": "Inelastic collision",
+        "definition": "A collision in which the total kinetic energy of the system decreases, with some kinetic energy transferred to other forms such as heat or sound."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "kinetic energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A 1 kg trolley moving at 4 m/s collides with an identical stationary 1 kg trolley and they stick together, moving off with a combined velocity of 2 m/s. Calculate the kinetic energy before and after the collision, and state whether it was elastic or inelastic.",
+        "steps": [
+          "KE before = (1/2)(1)(4^2) + (1/2)(1)(0^2) = 8 + 0 = 8 J.",
+          "KE after = (1/2)(1+1)(2^2) = (1/2)(2)(4) = 4 J.",
+          "Since KE after (4 J) is less than KE before (8 J), kinetic energy has decreased."
+        ],
+        "answer": "KE before = 8 J; KE after = 4 J; the collision is inelastic (4 J of kinetic energy has been transferred to other forms, such as heat and sound)."
+      }
+    ],
+    "practical_applications": [
+      "Vehicle crash testing, analysing the (highly inelastic) collisions involved to improve safety",
+      "Sports science, analysing collisions between balls, bats, and players",
+      "Particle physics, distinguishing elastic and inelastic scattering to understand particle interactions"
+    ],
+    "common_mistakes": [
+      "Assuming kinetic energy is always conserved in a collision, in the same way that momentum always is",
+      "Confusing 'inelastic' with 'no momentum conservation' — momentum conservation applies regardless of whether the collision is elastic or inelastic"
+    ],
+    "misconceptions": [
+      "That perfectly elastic collisions are common in everyday life — almost all real macroscopic collisions are at least somewhat inelastic, since some kinetic energy is nearly always transferred to heat, sound, or permanent deformation; truly (or very nearly) elastic collisions are more typical of interactions between individual atoms, molecules, or very hard, bouncy objects like billiard balls."
+    ],
+    "tips": [
+      "To determine whether a collision is elastic or inelastic, calculate the total kinetic energy before and after separately (momentum conservation alone cannot tell you this) and compare the two values."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State what happens to total kinetic energy in an inelastic collision."
+      ],
+      "intermediate": [
+        "Explain why momentum is conserved in both elastic and inelastic collisions, but kinetic energy is only conserved in elastic collisions."
+      ],
+      "advanced": [
+        "Two identical 2 kg balls collide head-on, each moving at 3 m/s toward each other, and afterward both move apart at 3 m/s (bouncing back). Calculate the kinetic energy before and after, and classify the collision."
+      ]
+    },
+    "exam_questions": [
+      "Explain the difference between an elastic and an inelastic collision, referring to both momentum and kinetic energy."
+    ],
+    "answers": {
+      "basic": [
+        "It decreases, with the lost kinetic energy transferred to other forms such as heat and sound."
+      ],
+      "intermediate": [
+        "Momentum conservation follows from Newton's third law, which applies to the equal and opposite forces between any two colliding objects regardless of what type of collision occurs; kinetic energy conservation is a stricter, additional condition that only holds if none of the kinetic energy is converted into other forms (such as heat, sound, or permanent deformation) during the collision, which is not guaranteed and does not occur in most real collisions."
+      ],
+      "advanced": [
+        "KE before = (1/2)(2)(3^2) + (1/2)(2)(3^2) = 9 + 9 = 18 J. KE after = (1/2)(2)(3^2) + (1/2)(2)(3^2) = 9 + 9 = 18 J. Since KE before equals KE after, this is an elastic collision."
+      ],
+      "exam": [
+        "In both elastic and inelastic collisions, total momentum is conserved (total momentum before = total momentum after), since this follows from Newton's third law and requires no external force; the difference is that in an elastic collision, total kinetic energy is also the same before and after, whereas in an inelastic collision, some kinetic energy is transferred to other forms (such as heat and sound), so the total kinetic energy after the collision is less than before."
+      ]
+    },
+    "summary": "A collision always conserves momentum. In an elastic collision, kinetic energy is also conserved; in an inelastic collision, some kinetic energy is transferred to other forms (typically heat and sound), and objects that stick together undergo a perfectly inelastic collision.",
+    "revision_notes": [
+      "Momentum always conserved in a collision",
+      "Elastic: KE also conserved",
+      "Inelastic: KE decreases (transferred to heat/sound); sticking together = perfectly inelastic"
+    ],
+    "related_topics": [
+      "Conservation of Momentum",
+      "Kinetic Energy",
+      "Explosions"
+    ],
+    "prerequisites": [
+      "Conservation of Momentum",
+      "Kinetic Energy"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-074",
+    "subject": "Physics",
+    "category": "Momentum",
+    "title": "Explosions",
+    "difficulty": "Intermediate",
+    "description": "Interactions in which a single object (or system at rest) separates into two or more parts, which move apart while conserving total momentum.",
+    "learning_objectives": [
+      "Apply conservation of momentum to explosion problems",
+      "Explain why the total momentum of an exploding system remains zero if it starts at rest",
+      "Calculate the velocity of one fragment given information about the others"
+    ],
+    "explanation": "An explosion, in the physics sense, is the reverse of a collision: instead of objects coming together, a single object or system separates into two or more parts that move apart from each other, often rapidly, due to an internal force (such as a spring releasing, or a chemical or nuclear explosive reaction). Just as with collisions, conservation of momentum applies to explosions, provided no external force acts on the system: the total momentum before the explosion equals the total momentum after. Since an object about to explode is very often initially at rest, its total momentum before the explosion is zero, which means the total momentum of all the resulting fragments must also add up to exactly zero afterward — in practice, this means the fragments must fly apart in such a way that their individual momenta cancel out overall, with lighter fragments moving away faster than heavier ones in the opposite direction, in accordance with p = mv.",
+    "key_concepts": [
+      "Conservation of momentum applies to explosions, just as to collisions",
+      "If system starts at rest, total momentum after must also be zero",
+      "Fragments' momenta must cancel out overall"
+    ],
+    "definitions": [
+      {
+        "term": "Explosion (in physics)",
+        "definition": "An interaction in which a single object or system separates into two or more parts that move apart, while total momentum is conserved."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Conservation of momentum for an explosion from rest",
+        "equation": "0 = sum of (mass x velocity) for all resulting fragments",
+        "variables": {}
+      }
+    ],
+    "units": [
+      {
+        "quantity": "momentum",
+        "si_unit": "kilogram metre per second",
+        "symbol": "kg m/s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A 10 kg cannon, initially at rest, fires a 0.5 kg cannonball at a velocity of 100 m/s. Calculate the resulting recoil velocity of the cannon.",
+        "steps": [
+          "Total momentum before the explosion (firing) is zero, since the cannon and ball are both initially at rest.",
+          "By conservation of momentum, total momentum after must also be zero: (mass of cannon x recoil velocity) + (mass of ball x ball's velocity) = 0.",
+          "Substitute: (10 x v) + (0.5 x 100) = 0.",
+          "Solve: 10v + 50 = 0, so 10v = -50, giving v = -5."
+        ],
+        "answer": "-5 m/s (i.e. the cannon recoils at 5 m/s in the opposite direction to the fired cannonball)"
+      }
+    ],
+    "practical_applications": [
+      "Firearm and artillery recoil calculations",
+      "Rocket and spacecraft propulsion, where expelling fuel/exhaust mass in one direction propels the vehicle in the other",
+      "Radioactive decay, where an unstable nucleus 'explodes' by emitting a particle, with momentum conserved between the emitted particle and the recoiling remaining nucleus"
+    ],
+    "common_mistakes": [
+      "Forgetting that a system initially at rest must have exactly zero total momentum after an explosion, not just a 'small' or reduced value",
+      "Mixing up the direction (sign) of the different fragments' velocities after the explosion"
+    ],
+    "misconceptions": [
+      "That the more energetic-looking fragment (e.g. the fast-moving cannonball) somehow has 'more' conserved quantity than the slower-moving fragment (the recoiling cannon) — while their kinetic energies are indeed different (energy is not required to be equally distributed), their momenta are, by definition, always equal in magnitude and opposite in direction when starting from rest, since the total must sum to zero."
+    ],
+    "tips": [
+      "Treat every explosion problem as a conservation of momentum equation, exactly like a collision, just calculated in reverse (one initial object splitting into multiple final objects instead of the other way around)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the total momentum of a system immediately before an explosion, if the system was initially at rest."
+      ],
+      "intermediate": [
+        "A 2 kg firework shell, initially at rest, explodes into two equal 1 kg fragments. One fragment moves at 20 m/s in one direction. Calculate the velocity of the other fragment."
+      ],
+      "advanced": [
+        "An unstable nucleus of mass 4.0 x 10^-26 kg, initially at rest, emits a particle of mass 6.6 x 10^-27 kg at a velocity of 1.5 x 10^7 m/s. Calculate the recoil velocity of the remaining nucleus."
+      ]
+    },
+    "exam_questions": [
+      "Explain, using conservation of momentum, why a person standing on ice and pushing away a heavy object will themselves move in the opposite direction."
+    ],
+    "answers": {
+      "basic": [
+        "Zero."
+      ],
+      "intermediate": [
+        "0 = (1 x 20) + (1 x v), so v = -20 m/s (i.e. 20 m/s in the opposite direction)."
+      ],
+      "advanced": [
+        "Remaining nucleus mass = 4.0x10^-26 - 6.6x10^-27 = 3.34x10^-26 kg. 0 = (6.6x10^-27 x 1.5x10^7) + (3.34x10^-26 x v). 0 = 9.9x10^-20 + 3.34x10^-26 v. v = -9.9x10^-20 / 3.34x10^-26 approx -2.96x10^6 m/s (recoiling in the opposite direction to the emitted particle)."
+      ],
+      "exam": [
+        "Before pushing, the total momentum of the person-plus-object system is zero (both at rest); by conservation of momentum, since no external force acts, the total momentum must remain zero after the push, so as the pushed object gains momentum in one direction, the person must gain an equal and opposite momentum, causing them to move in the opposite direction to the object they pushed."
+      ]
+    },
+    "summary": "An explosion involves a system separating into two or more parts, with total momentum conserved throughout. If the system starts at rest, the total momentum of all resulting fragments must sum to exactly zero, so they move apart with momenta that exactly cancel.",
+    "revision_notes": [
+      "Explosion: single object/system splits into parts",
+      "Momentum conserved: total before = total after",
+      "System at rest before: fragments' momenta sum to zero"
+    ],
+    "related_topics": [
+      "Conservation of Momentum",
+      "Momentum",
+      "Collisions"
+    ],
+    "prerequisites": [
+      "Conservation of Momentum"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-075",
+    "subject": "Physics",
+    "category": "Momentum",
+    "title": "Force-Time Graphs",
+    "difficulty": "Intermediate",
+    "description": "Graphs plotting the force acting on an object against time, used to find the impulse (change in momentum) delivered.",
+    "learning_objectives": [
+      "Interpret a force-time graph",
+      "Calculate impulse from the area under a force-time graph",
+      "Explain the significance of the shape of a force-time graph during a collision"
+    ],
+    "explanation": "A force-time graph plots the force acting on an object on the vertical axis against time on the horizontal axis. This type of graph is particularly useful for analysing collisions and other short-duration interactions, since the area between the line and the time axis gives the impulse delivered during that interval — equal to the change in momentum of the object, since impulse = F x t and the area calculation performs exactly this multiplication (or, for a varying force, effectively adds up many small F x t contributions). During a real collision, the force acting on an object typically does not stay constant; it usually rises sharply from zero at the moment of impact, reaches a peak, and then falls back to zero as the objects separate, producing a curved, hump-shaped force-time graph rather than a simple rectangle. The total area under this curve still gives the total impulse (momentum change) for the collision, and comparing the shape and area of force-time graphs for different collisions (for example, with and without a safety feature such as an airbag) is a common way of illustrating how extending collision time reduces peak force for a given impulse.",
+    "key_concepts": [
+      "Area under a force-time graph = impulse = change in momentum",
+      "Real collision forces typically rise and fall (hump-shaped), not constant",
+      "Same area (impulse) can correspond to different peak forces depending on shape"
+    ],
+    "definitions": [
+      {
+        "term": "Force-time graph",
+        "definition": "A graph plotting the force acting on an object on the vertical axis against time on the horizontal axis, whose area gives the resulting impulse."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Impulse from a force-time graph",
+        "equation": "impulse = area under the force-time graph",
+        "variables": {}
+      }
+    ],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A force-time graph shows a constant force of 200 N acting for 0.05 s during a collision. Calculate the impulse delivered.",
+        "steps": [
+          "Recognise that for a constant force, the area under the graph is a simple rectangle.",
+          "Use area = force x time.",
+          "Substitute: area = 200 x 0.05."
+        ],
+        "answer": "10 N s (10 kg m/s)"
+      }
+    ],
+    "practical_applications": [
+      "Analysing crash-test data to evaluate vehicle safety features",
+      "Sports science analysis of impact forces during tackles, kicks, or bat/ball contact",
+      "Engineering design of impact-absorbing materials and structures"
+    ],
+    "common_mistakes": [
+      "Applying a simple rectangle area formula to a curved (non-constant force) section of a graph without splitting it appropriately or estimating the area under the curve",
+      "Confusing the peak force shown on the graph with the total impulse (area), which are different quantities"
+    ],
+    "misconceptions": [
+      "That a taller (higher peak force) force-time graph always represents a 'worse' or more dangerous collision than a shorter, wider one — what matters for the underlying momentum change is the total area (impulse), not the peak height alone; a tall, narrow spike and a shorter, wider hump can represent the same impulse (and therefore the same momentum change), but the shorter, wider hump involves a lower peak force, which is generally safer for the object or person experiencing it."
+    ],
+    "tips": [
+      "For a curved force-time graph, the area can often be estimated by counting grid squares or by approximating the shape with simpler geometric shapes (triangles, rectangles) to estimate the total impulse."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State what the area under a force-time graph represents."
+      ],
+      "intermediate": [
+        "A force-time graph shows a force increasing linearly from 0 N to 300 N over 0.1 s (a triangular shape). Calculate the impulse delivered."
+      ],
+      "advanced": [
+        "Two force-time graphs for two different collisions have the same area (impulse) but different peak heights: Graph A has a tall, narrow peak, while Graph B has a shorter, wider peak. Explain which collision likely involved a longer contact time, and which is likely to be safer for a passenger."
+      ]
+    },
+    "exam_questions": [
+      "Explain how the area under a force-time graph can be used to compare the effectiveness of two different vehicle safety features designed to protect passengers during a collision."
+    ],
+    "answers": {
+      "basic": [
+        "Impulse (the change in momentum) delivered during that time interval."
+      ],
+      "intermediate": [
+        "Area of triangle = (1/2) x base x height = (1/2)(0.1)(300) = 15 N s."
+      ],
+      "advanced": [
+        "Graph B (shorter, wider peak) likely involved a longer contact time, since a wider shape along the time axis for the same area implies a lower average/peak force spread over more time. Graph B is likely safer for a passenger, since achieving the same impulse (momentum change) with a lower peak force reduces the maximum force experienced by the passenger's body during the collision."
+      ],
+      "exam": [
+        "If both safety features result in the same overall impulse (since the vehicle's mass and change in velocity in the collision are essentially fixed by the crash scenario), the feature whose force-time graph has a lower peak force and a wider (longer duration) shape is more effective, since it achieves the same necessary momentum change while subjecting passengers to a smaller maximum force at any instant, which is generally safer; comparing the shapes (not just the equal areas) of the two graphs reveals which feature extends the collision time more effectively."
+      ]
+    },
+    "summary": "A force-time graph shows how force varies during an interaction such as a collision. The area under the graph gives the impulse (change in momentum), and comparing the shape of different graphs with the same area shows how extending collision time reduces peak force.",
+    "revision_notes": [
+      "Area under force-time graph = impulse = change in momentum",
+      "Real collisions: force rises then falls (hump shape), not constant",
+      "Same impulse can have different peak force depending on graph shape"
+    ],
+    "related_topics": [
+      "Impulse",
+      "Momentum",
+      "Area Under Motion Graphs"
+    ],
+    "prerequisites": [
+      "Impulse"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A hump-shaped force-time graph with the area beneath it shaded and labelled as impulse]"
+    ],
+    "images": [
+      {
+        "filename": "physics-force-time-graphs-075-01.webp",
+        "type": "graph",
+        "description": "A force-time graph showing a smooth, hump-shaped curve rising from zero to a peak and back to zero, with the area beneath the curve shaded and labelled 'shaded area = impulse = change in momentum'.",
+        "purpose": "Makes visually clear that impulse corresponds to the total shaded area, even for a realistic, non-rectangular force-time shape typical of an actual collision.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-076",
+    "subject": "Physics",
+    "category": "Turning Effects, Equilibrium and Simple Machines",
+    "title": "Centre of Mass",
+    "difficulty": "Intermediate",
+    "description": "The single point at which an object's entire mass can be considered to act, for the purposes of analysing its overall motion.",
+    "learning_objectives": [
+      "Define centre of mass",
+      "Identify the approximate centre of mass of simple, symmetric objects",
+      "Explain the significance of centre of mass in analysing motion and stability"
+    ],
+    "explanation": "The centre of mass of an object is the single point at which its entire mass can be considered to be concentrated, for the purpose of analysing the object's overall motion under external forces. For a uniform, symmetric object (such as a sphere, cube, or uniform rod), the centre of mass is located at the object's geometric centre. For an irregular or non-uniform object, the centre of mass is located closer to wherever more mass is concentrated. When analysing the motion of an extended object (rather than treating it as an idealised single point), it is the object's centre of mass that follows the simple, predictable paths described by projectile motion and the equations of motion, even if the object itself is also spinning or tumbling in a complicated way. The concept is closely related to centre of gravity, and the two coincide exactly in a uniform gravitational field (a very good approximation for everyday objects on Earth's surface).",
+    "key_concepts": [
+      "Centre of mass = point where an object's mass can be considered concentrated",
+      "For symmetric objects: at the geometric centre",
+      "Governs the overall (translational) motion of an extended object"
+    ],
+    "definitions": [
+      {
+        "term": "Centre of mass",
+        "definition": "The single point at which an object's entire mass can be considered to act, for the purpose of analysing its overall motion."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "A spanner is thrown spinning through the air. Describe the path followed by its centre of mass, even though the spanner itself is tumbling.",
+        "steps": [
+          "Recognise that although the spanner's individual parts follow a complicated, tumbling path due to its rotation, its centre of mass behaves as though it were a single point object.",
+          "As a single point object subject to gravity alone (ignoring air resistance), its centre of mass follows the predictable curved path described by projectile motion.",
+          "This means the centre of mass traces a smooth parabola through the air, regardless of how the spanner is spinning around it."
+        ],
+        "answer": "The spanner's centre of mass follows a smooth parabolic path, exactly as predicted by projectile motion, even while the rest of the spanner tumbles around this point."
+      }
+    ],
+    "practical_applications": [
+      "Vehicle and aircraft design, where a lower centre of mass improves stability",
+      "Sports techniques (e.g. high jump, gymnastics) that manipulate the position of the athlete's centre of mass",
+      "Structural engineering, ensuring the centre of mass of a structure is positioned to maintain stability"
+    ],
+    "common_mistakes": [
+      "Assuming the centre of mass must always be located physically within the object's material (for objects with unusual shapes, such as a horseshoe or a hollow ring, it can actually be located in empty space)",
+      "Confusing centre of mass with the object's geometric centre for non-uniform objects, where the two do not coincide"
+    ],
+    "misconceptions": [
+      "That an object's centre of mass must always lie inside the solid material of the object — for irregularly shaped or hollow objects (such as a ring, a horseshoe, or a boomerang), the centre of mass can actually be located at a point in space where there is no material at all."
+    ],
+    "tips": [
+      "For a uniform, symmetric object, the centre of mass can usually be found quickly by identifying the object's geometric centre (e.g. the midpoint of a uniform rod, or the centre of a uniform circle or sphere)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the location of the centre of mass of a uniform sphere."
+      ],
+      "intermediate": [
+        "Explain why the centre of mass of a uniform ring (such as a hoop) is located at the centre of the ring, even though there is no material there."
+      ],
+      "advanced": [
+        "Explain why a high jumper's technique, which arches their body over the bar, can allow their centre of mass to pass beneath the bar even as their body passes over it."
+      ]
+    },
+    "exam_questions": [
+      "Define centre of mass, and explain its significance when analysing the motion of a spinning or tumbling object."
+    ],
+    "answers": {
+      "basic": [
+        "At the centre of the sphere."
+      ],
+      "intermediate": [
+        "Since the ring is uniform and symmetric, its mass is distributed evenly all the way around the circle; by symmetry, this places the balance point (centre of mass) exactly at the geometric centre of the ring, even though this specific point contains no material itself."
+      ],
+      "advanced": [
+        "By arching their body over the bar in a curved shape, a significant proportion of the jumper's body mass is distributed below the bar at any given moment, which can shift the jumper's overall centre of mass to a position below the bar's height, even while their physical body (and its highest point) passes above the bar — this can allow the jumper to clear a bar height that is actually higher than the height their centre of mass needs to reach."
+      ],
+      "exam": [
+        "Centre of mass is the single point at which an object's entire mass can be considered to act; its significance is that, even for a spinning, tumbling, or otherwise complexly moving extended object, the centre of mass itself follows the same simple, predictable motion (such as a parabolic path under gravity alone) as an idealised single point mass would, greatly simplifying the analysis of the object's overall trajectory."
+      ]
+    },
+    "summary": "Centre of mass is the point at which an object's entire mass can be considered concentrated for analysing its overall motion. For symmetric objects it lies at the geometric centre, and it follows simple, predictable paths (such as projectile motion) even for a rotating or tumbling object.",
+    "revision_notes": [
+      "Centre of mass: point where mass acts, for motion analysis",
+      "Symmetric objects: at the geometric centre",
+      "Follows simple predictable paths (e.g. parabola) even if object is tumbling"
+    ],
+    "related_topics": [
+      "Centre of Gravity",
+      "Stability",
+      "Projectile Motion"
+    ],
+    "prerequisites": [
+      "Mass"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-077",
+    "subject": "Physics",
+    "category": "Turning Effects, Equilibrium and Simple Machines",
+    "title": "Stability",
+    "difficulty": "Intermediate",
+    "description": "A measure of how resistant an object is to toppling over, determined by the position of its centre of mass relative to its base.",
+    "learning_objectives": [
+      "Explain the factors that affect the stability of an object",
+      "Predict whether an object will topple over or return to its original position when tilted",
+      "Relate stability to the height of the centre of mass and the width of the base"
+    ],
+    "explanation": "The stability of an object describes how resistant it is to toppling over when tilted or disturbed. An object remains stable, and will return to its original position, as long as a vertical line drawn straight downward from its centre of mass still falls within the object's base of support. If the object is tilted far enough that this vertical line from the centre of mass falls outside the base, the object becomes unstable and will topple over, since its weight now produces a turning effect (moment) about the edge of the base that continues the tilting motion rather than restoring the object to its original position. Two key factors improve an object's stability: a low centre of mass (requiring a greater angle of tilt before the vertical line from the centre of mass reaches the edge of the base) and a wide base of support (giving more room for the vertical line from the centre of mass to remain within the base as the object tilts). This is why racing cars, buses, and many other vehicles are designed with a wide wheelbase and as low a centre of mass as practical.",
+    "key_concepts": [
+      "Stable if vertical line from centre of mass falls within the base",
+      "Low centre of mass improves stability",
+      "Wide base improves stability"
+    ],
+    "definitions": [
+      {
+        "term": "Stability",
+        "definition": "A measure of an object's resistance to toppling over, determined by whether a vertical line from its centre of mass remains within its base of support."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "Explain why a tall, narrow vase is more likely to topple over than a short, wide bowl of the same mass when both are tilted by the same small angle.",
+        "steps": [
+          "The tall, narrow vase has a relatively high centre of mass and a narrow base.",
+          "For a given small angle of tilt, the vertical line from a higher centre of mass shifts sideways by a larger horizontal distance than for a lower centre of mass.",
+          "Because the vase's base is also narrow, this shifted vertical line is more likely to fall outside the base at a smaller tilt angle.",
+          "The short, wide bowl, having a lower centre of mass and a wider base, can tolerate a much larger tilt angle before its vertical line from the centre of mass reaches the edge of its base."
+        ],
+        "answer": "The tall, narrow vase is less stable because its higher centre of mass and narrower base mean the vertical line from its centre of mass reaches the edge of its base (causing toppling) at a much smaller tilt angle than for the short, wide bowl."
+      }
+    ],
+    "practical_applications": [
+      "Vehicle design (buses, racing cars, forklifts) to maximise stability and prevent rollovers",
+      "Furniture and product design, ensuring items do not topple easily",
+      "Structural engineering of towers and buildings to withstand wind and other disturbances"
+    ],
+    "common_mistakes": [
+      "Assuming a heavier object is automatically more stable than a lighter one, ignoring the position of its centre of mass and the width of its base",
+      "Focusing only on the height of the centre of mass while ignoring the width of the base, or vice versa"
+    ],
+    "misconceptions": [
+      "That stability depends only on an object's total mass or weight — stability specifically depends on the geometry of the situation (the height of the centre of mass and the width of the base), not on the object's overall mass, which cancels out of the underlying comparison of turning effects."
+    ],
+    "tips": [
+      "To judge an object's stability, mentally trace a vertical line straight down from its centre of mass and check how much the object could tilt before that line would fall outside its base."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State two factors that improve an object's stability."
+      ],
+      "intermediate": [
+        "Explain why a racing car is designed with a very low centre of mass."
+      ],
+      "advanced": [
+        "A double-decker bus has passengers only on the upper deck. Explain the effect this has on the bus's stability compared with passengers being evenly distributed between both decks."
+      ]
+    },
+    "exam_questions": [
+      "Explain, in terms of the centre of mass and the base of an object, the condition under which a tilted object will topple over rather than return to its original position."
+    ],
+    "answers": {
+      "basic": [
+        "A low centre of mass, and a wide base of support."
+      ],
+      "intermediate": [
+        "A low centre of mass means the car can tilt through a much larger angle (such as during fast cornering) before the vertical line from its centre of mass moves outside its wheelbase (base), reducing the risk of the car toppling over."
+      ],
+      "advanced": [
+        "Having passengers only on the upper deck raises the overall centre of mass of the bus (and its load) compared with an even distribution, reducing the bus's stability, since a smaller angle of tilt would now be needed before the vertical line from the raised centre of mass reaches the edge of the bus's wheelbase, increasing the risk of toppling."
+      ],
+      "exam": [
+        "A tilted object will topple over if the vertical line drawn straight down from its centre of mass falls outside its base of support; if this vertical line still falls within the base, the object's weight creates a restoring turning effect (moment) that returns it to its original position instead."
+      ]
+    },
+    "summary": "Stability describes an object's resistance to toppling, determined by whether a vertical line from its centre of mass remains within its base of support. A low centre of mass and a wide base both improve stability.",
+    "revision_notes": [
+      "Stable: vertical line from centre of mass falls within the base",
+      "Low centre of mass = more stable",
+      "Wide base = more stable"
+    ],
+    "related_topics": [
+      "Centre of Mass",
+      "Centre of Gravity",
+      "Moments"
+    ],
+    "prerequisites": [
+      "Centre of Mass"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: Two objects side by side, a wide low object and a narrow tall object, each with their centre of mass marked, showing the difference in stability]"
+    ],
+    "images": [
+      {
+        "filename": "physics-stability-077-01.webp",
+        "type": "diagram",
+        "description": "Two shapes side by side: a wide, short trapezoid with a low, clearly marked centre of mass labelled 'more stable', and a narrow, tall trapezoid with a high centre of mass labelled 'less stable'.",
+        "purpose": "Visually demonstrates both key factors affecting stability (base width and centre of mass height) in a single direct comparison.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-078",
+    "subject": "Physics",
+    "category": "Turning Effects, Equilibrium and Simple Machines",
+    "title": "Moments",
+    "difficulty": "Intermediate",
+    "description": "The turning effect of a force about a pivot point, calculated as the product of the force and the perpendicular distance from the pivot.",
+    "learning_objectives": [
+      "Define the moment of a force and state its equation",
+      "Calculate the moment of a force about a given pivot",
+      "Explain why perpendicular distance, rather than direct distance, is used in the calculation"
+    ],
+    "explanation": "A moment is the turning effect produced by a force acting about a pivot (a fixed point around which rotation can occur). The size of a moment is calculated using moment = F x d, where F is the force applied and d is the perpendicular distance from the pivot to the line along which the force acts. Using the perpendicular distance is essential: only the component of a force that acts at right angles to a line from the pivot contributes to turning; a force acting directly along a line through the pivot (with zero perpendicular distance) produces no turning effect at all, regardless of its size. Moments are measured in newton metres (N m). Everyday applications of moments include using a spanner to turn a bolt (a longer spanner handle increases the perpendicular distance, allowing the same force to produce a larger moment) and opening a door by pushing near the handle rather than near the hinge (maximising the perpendicular distance from the pivot, the hinge).",
+    "key_concepts": [
+      "Moment = F x d (perpendicular distance)",
+      "Only the perpendicular component of a force contributes to turning",
+      "Unit: newton metre (N m)"
+    ],
+    "definitions": [
+      {
+        "term": "Moment",
+        "definition": "The turning effect of a force about a pivot, calculated as the product of the force and the perpendicular distance from the pivot to the line of action of the force."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Moment",
+        "equation": "moment = F x d",
+        "variables": {
+          "moment": "moment, N m",
+          "F": "force, N",
+          "d": "perpendicular distance from the pivot to the line of action of the force, m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "moment",
+        "si_unit": "newton metre",
+        "symbol": "N m"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A force of 15 N is applied perpendicular to a spanner at a distance of 0.2 m from the bolt (pivot). Calculate the moment produced.",
+        "steps": [
+          "Use moment = F x d.",
+          "Substitute: moment = 15 x 0.2."
+        ],
+        "answer": "3 N m"
+      }
+    ],
+    "practical_applications": [
+      "Using spanners, wrenches, and levers to apply large turning effects with manageable forces",
+      "Designing door handles positioned far from the hinge to make doors easier to open",
+      "Engineering analysis of turning effects on beams, cranes, and other structures"
+    ],
+    "common_mistakes": [
+      "Using the direct (straight-line) distance from the pivot to where a force is applied, instead of the perpendicular distance from the pivot to the force's line of action",
+      "Forgetting that a force acting directly through the pivot produces zero moment, however large the force"
+    ],
+    "misconceptions": [
+      "That any force applied to an object about a pivot will produce some turning effect — if a force acts exactly along a line passing through the pivot (zero perpendicular distance), it produces zero moment, no matter how large the force is, since there is nothing for it to turn around."
+    ],
+    "tips": [
+      "When a force is not applied perpendicular to the object, resolve it (using trigonometry) to find the component acting perpendicular to the relevant line from the pivot, and use only that component's perpendicular distance in the moment calculation."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for the moment of a force, defining each symbol."
+      ],
+      "intermediate": [
+        "A 40 N force is applied perpendicular to a lever at a distance of 0.5 m from its pivot. Calculate the moment produced."
+      ],
+      "advanced": [
+        "Explain why pushing a door very close to its hinges, even with a large force, makes it very difficult to open the door."
+      ]
+    },
+    "exam_questions": [
+      "Explain why the perpendicular distance from the pivot, rather than the direct distance to where a force is applied, is used when calculating a moment."
+    ],
+    "answers": {
+      "basic": [
+        "moment = F x d, where moment is in N m, F is force in N, and d is the perpendicular distance from the pivot to the force's line of action, in m."
+      ],
+      "intermediate": [
+        "moment = 40 x 0.5 = 20 N m."
+      ],
+      "advanced": [
+        "Pushing very close to the hinge means the perpendicular distance, d, from the pivot (the hinge) to the applied force is very small; since moment = F x d, a very small d results in a very small moment even for a large force, meaning the door experiences little turning effect and is hard to open, which is why door handles are placed as far from the hinge as possible."
+      ],
+      "exam": [
+        "Only the component of a force acting perpendicular to a line from the pivot contributes to turning the object; using the perpendicular distance ensures the moment calculation correctly captures only this turning-relevant component of distance, since a force applied directly along a line through the pivot has zero perpendicular distance and correctly produces zero moment (no turning effect), even though a naive direct distance might otherwise suggest some effect."
+      ]
+    },
+    "summary": "A moment is the turning effect of a force about a pivot, calculated as moment = F x d, using the perpendicular distance from the pivot to the force's line of action. Forces acting directly through the pivot produce zero moment.",
+    "revision_notes": [
+      "moment = F x d (perpendicular distance)",
+      "Unit: N m",
+      "Force through the pivot: zero moment"
+    ],
+    "related_topics": [
+      "Turning Effect of Forces",
+      "Principle of Moments",
+      "Equilibrium"
+    ],
+    "prerequisites": [
+      "Force"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A lever with a pivot, a force arrow, and the perpendicular distance from the pivot to the force clearly labelled]"
+    ],
+    "images": [
+      {
+        "filename": "physics-moments-078-01.webp",
+        "type": "diagram",
+        "description": "A horizontal lever resting on a triangular pivot, with a downward force arrow applied at one end labelled 'Force, F', and a double-headed arrow spanning from the pivot to the force's position labelled 'perpendicular distance, d'.",
+        "purpose": "Clarifies exactly what 'perpendicular distance' means in the moment equation by showing it labelled directly on a simple lever diagram.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-079",
+    "subject": "Physics",
+    "category": "Turning Effects, Equilibrium and Simple Machines",
+    "title": "Turning Effect of Forces",
+    "difficulty": "Foundational",
+    "description": "An introduction to how forces applied away from a pivot cause rotation, forming the basis of the concept of a moment.",
+    "learning_objectives": [
+      "Describe how a force applied away from a pivot causes rotation",
+      "Identify factors that increase the turning effect of a force",
+      "Give everyday examples of the turning effect of forces"
+    ],
+    "explanation": "When a force is applied to an object at some distance from a fixed pivot point, rather than exactly at the pivot, it tends to cause the object to rotate about that pivot; this rotational tendency is called the turning effect of the force. The size of this turning effect depends on two factors: the size of the force itself (a larger force produces a greater turning effect), and the distance from the pivot at which the force is applied (a force applied further from the pivot produces a greater turning effect than the same force applied closer to the pivot). This everyday concept is formalised quantitatively as the moment of a force, calculated as moment = F x d, covered in detail in Moments. Common examples of the turning effect of forces include turning a door handle, using a screwdriver to turn a screw, and pedalling a bicycle to turn the pedal crank about its axle.",
+    "key_concepts": [
+      "Force applied away from a pivot causes rotation",
+      "Turning effect increases with force size",
+      "Turning effect increases with distance from the pivot"
+    ],
+    "definitions": [
+      {
+        "term": "Turning effect",
+        "definition": "The tendency of a force to cause rotation about a pivot, increasing with both the size of the force and its distance from the pivot."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain why it is easier to loosen a tight bolt using a long-handled wrench than a short-handled one, for the same applied force.",
+        "steps": [
+          "The turning effect of a force increases with the distance from the pivot at which it is applied.",
+          "A long-handled wrench allows the same hand force to be applied much further from the bolt (the pivot) than a short-handled wrench.",
+          "This greater distance produces a greater turning effect for the same applied force, making it easier to loosen the bolt."
+        ],
+        "answer": "The long-handled wrench is easier to use because, for the same applied force, the greater distance from the pivot (the bolt) produces a larger turning effect."
+      }
+    ],
+    "practical_applications": [
+      "Design of tools such as wrenches, screwdrivers, and door handles to maximise turning effect for a given effort",
+      "Bicycle pedal and crank design, converting a rider's force into a turning effect on the axle",
+      "Everyday tasks involving levers, such as using a crowbar to lift a heavy object"
+    ],
+    "common_mistakes": [
+      "Assuming only the size of the force matters for turning effect, ignoring the distance from the pivot",
+      "Applying a force directly at (or very close to) the pivot and expecting a significant turning effect"
+    ],
+    "misconceptions": [
+      "That a very large force is always needed to produce a significant turning effect — a relatively small force applied a long way from the pivot can produce the same turning effect as a much larger force applied close to the pivot, which is the entire principle behind using long-handled tools as simple machines."
+    ],
+    "tips": [
+      "When trying to maximise a turning effect (or minimise the force needed), apply the force as far from the pivot as practically possible."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the two factors that affect the size of the turning effect of a force."
+      ],
+      "intermediate": [
+        "Explain why pushing a door open near its handle is much easier than pushing it near the hinge."
+      ],
+      "advanced": [
+        "Explain why a longer-handled screwdriver generally makes it easier to turn a tight screw than a shorter-handled one, assuming the same hand force is used in both cases."
+      ]
+    },
+    "exam_questions": [
+      "Describe, using an everyday example, how the turning effect of a force depends on the distance from the pivot at which it is applied."
+    ],
+    "answers": {
+      "basic": [
+        "The size of the force, and the distance from the pivot at which it is applied."
+      ],
+      "intermediate": [
+        "The handle is positioned far from the hinge (the pivot), so a given push force there produces a much larger turning effect than the same push applied close to the hinge, where the distance from the pivot is small."
+      ],
+      "advanced": [
+        "A longer handle increases the distance from the pivot (the screw) at which the hand's force is applied; since turning effect increases with this distance, the longer handle produces a greater turning effect for the same applied hand force, making the screw easier to turn."
+      ],
+      "exam": [
+        "Using a door as an example: pushing the door near its handle, far from the hinge (the pivot), produces a large turning effect and opens the door easily, whereas pushing with the same force very close to the hinge produces only a small turning effect, since the distance from the pivot is much smaller, making the door much harder to move."
+      ]
+    },
+    "summary": "The turning effect of a force describes its tendency to cause rotation about a pivot, increasing with both the size of the force and its distance from the pivot. This concept is formalised quantitatively as the moment of a force.",
+    "revision_notes": [
+      "Turning effect increases with force size and distance from pivot",
+      "Formalised as: moment = F x d",
+      "Applying force further from pivot needs less force for the same turning effect"
+    ],
+    "related_topics": [
+      "Moments",
+      "Principle of Moments",
+      "Levers"
+    ],
+    "prerequisites": [
+      "Force"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-080",
+    "subject": "Physics",
+    "category": "Turning Effects, Equilibrium and Simple Machines",
+    "title": "Principle of Moments",
+    "difficulty": "Intermediate",
+    "description": "The principle that an object is in rotational equilibrium when the sum of the clockwise moments about a pivot equals the sum of the anticlockwise moments.",
+    "learning_objectives": [
+      "State the principle of moments",
+      "Apply the principle of moments to solve balance problems",
+      "Identify clockwise and anticlockwise moments in a given scenario"
+    ],
+    "explanation": "The principle of moments states that an object is in rotational equilibrium (balanced, not rotating) when the sum of all the clockwise moments acting about a pivot is exactly equal to the sum of all the anticlockwise moments acting about that same pivot. This principle is widely applied to problems involving simple balances, such as a seesaw or a beam balanced on a pivot: if a lighter object sits further from the pivot and a heavier object sits closer to the pivot, the system can still balance perfectly, as long as the product of force and distance (the moment) is the same on each side. This is why a lighter person can balance a heavier person on a seesaw by sitting further from the centre. The principle of moments is a specific application of the more general condition for equilibrium, which also requires that the resultant force on the object is zero (covered in Equilibrium).",
+    "key_concepts": [
+      "Sum of clockwise moments = sum of anticlockwise moments (for balance)",
+      "Applies to beams, seesaws, and similar pivoted systems",
+      "A lighter force further away can balance a heavier force closer to the pivot"
+    ],
+    "definitions": [
+      {
+        "term": "Principle of moments",
+        "definition": "The principle that an object is in rotational equilibrium when the sum of the clockwise moments about a pivot equals the sum of the anticlockwise moments about that pivot."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Principle of moments",
+        "equation": "sum of clockwise moments = sum of anticlockwise moments",
+        "variables": {}
+      }
+    ],
+    "units": [
+      {
+        "quantity": "moment",
+        "si_unit": "newton metre",
+        "symbol": "N m"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A uniform seesaw is balanced with a 20 N force acting 1.5 m from the pivot on one side. Calculate the distance from the pivot at which a 10 N force must be placed on the other side to balance the seesaw.",
+        "steps": [
+          "Calculate the moment of the known force: moment = F x d = 20 x 1.5 = 30 N m.",
+          "By the principle of moments, for the seesaw to balance, the moment on the other side must also equal 30 N m.",
+          "Use moment = F x d, rearranged to find d: d = moment / F = 30 / 10."
+        ],
+        "answer": "3 m"
+      }
+    ],
+    "practical_applications": [
+      "Designing balanced structures such as bridges and cranes",
+      "Balance scales and simple weighing devices based on the principle of moments",
+      "Understanding how to safely position loads on a lever or beam to keep it balanced"
+    ],
+    "common_mistakes": [
+      "Forgetting to correctly identify which moments are clockwise and which are anticlockwise about the chosen pivot",
+      "Using the wrong distance (not the perpendicular distance) when calculating a moment for a balance problem"
+    ],
+    "misconceptions": [
+      "That an object can only be balanced if equal forces act at equal distances from the pivot on each side — the principle of moments shows that balance only requires the products (moments) to be equal, meaning very different forces at different distances can still balance each other perfectly."
+    ],
+    "tips": [
+      "Draw a clear diagram identifying the pivot, and label each force with its distance from the pivot and whether it produces a clockwise or anticlockwise moment, before setting up the balance equation."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the principle of moments."
+      ],
+      "intermediate": [
+        "A beam balances on a pivot with a 15 N weight at 2 m on one side. Calculate the size of a weight placed 3 m from the pivot on the other side needed to balance the beam."
+      ],
+      "advanced": [
+        "A uniform beam has a 5 N weight at 4 m from the pivot on the left, and both a 10 N weight at 1 m and an unknown weight W at 2 m, both on the right of the pivot. If the beam is balanced, calculate W."
+      ]
+    },
+    "exam_questions": [
+      "Using the principle of moments, explain how a small child can balance a much heavier adult on a seesaw."
+    ],
+    "answers": {
+      "basic": [
+        "An object is in rotational equilibrium when the sum of the clockwise moments about a pivot equals the sum of the anticlockwise moments about that pivot."
+      ],
+      "intermediate": [
+        "Moment on known side = 15 x 2 = 30 N m. For balance, unknown weight x 3 = 30, so unknown weight = 30/3 = 10 N."
+      ],
+      "advanced": [
+        "Left (anticlockwise) moment = 5 x 4 = 20 N m. Right (clockwise) moments = (10 x 1) + (W x 2) = 10 + 2W. For balance: 20 = 10 + 2W, so 2W = 10, giving W = 5 N."
+      ],
+      "exam": [
+        "By the principle of moments, the seesaw balances when the clockwise moment equals the anticlockwise moment; since moment = force x distance, a small child (small force) sitting much further from the pivot than a heavier adult (larger force) can produce the same moment as the adult sitting closer to the pivot, allowing the two moments to be equal and the seesaw to balance despite the large difference in their weights."
+      ]
+    },
+    "summary": "The principle of moments states that an object balances (is in rotational equilibrium) when the sum of clockwise moments about a pivot equals the sum of anticlockwise moments. This allows a lighter force at a greater distance to balance a heavier force closer to the pivot.",
+    "revision_notes": [
+      "Balance: clockwise moments = anticlockwise moments",
+      "Applies to seesaws, beams, balances",
+      "Lighter force x greater distance can balance heavier force x smaller distance"
+    ],
+    "related_topics": [
+      "Moments",
+      "Equilibrium",
+      "Turning Effect of Forces"
+    ],
+    "prerequisites": [
+      "Moments"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A balanced seesaw with two different forces at two different distances from the pivot, both moments labelled and shown to be equal]"
+    ],
+    "images": [
+      {
+        "filename": "physics-principle-of-moments-080-01.webp",
+        "type": "diagram",
+        "description": "A balanced beam (seesaw) on a pivot, with a 20 N downward arrow at 1.5 m from the pivot on one side, and a 10 N downward arrow at 3 m from the pivot on the other side, with both distances labelled, and a caption showing 20N x 1.5m = 10N x 3m.",
+        "purpose": "Provides a concrete, correctly-balanced numerical example showing exactly how unequal forces at different distances can still satisfy the principle of moments.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  }
+]

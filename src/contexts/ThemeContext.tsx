@@ -14,6 +14,8 @@ const THEME_KEY = 'academ_theme'
 function getInitialTheme(): Theme {
   if (typeof window === 'undefined') return 'light'
   try {
+    const attr = document.documentElement.getAttribute('data-theme')
+    if (attr === 'light' || attr === 'dark') return attr
     const stored = window.localStorage.getItem(THEME_KEY)
     if (stored === 'light' || stored === 'dark') return stored
   } catch {
@@ -28,6 +30,11 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme)
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
     try {
       window.localStorage.setItem(THEME_KEY, theme)
     } catch {

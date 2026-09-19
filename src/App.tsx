@@ -41,7 +41,6 @@ import SubjectPage from './pages/SubjectPage'
 import LearnPage from './pages/LearnPage'
 import SearchPage from './pages/SearchPage'
 import AccountPage from './pages/AccountPage'
-import SettingsPage from './pages/SettingsPage'
 import BillingPage from './pages/BillingPage'
 import WorkspacePage from './pages/WorkspacePage'
 
@@ -91,7 +90,6 @@ export const App: React.FC = () => {
                       <Route path="notes/:noteId" element={<NoteDetailPage />} />
                       <Route path="search" element={<SearchPage />} />
                       <Route path="account" element={<AccountPage />} />
-                      <Route path="settings" element={<SettingsPage />} />
                       <Route path="billing" element={<BillingPage />} />
                       <Route path="workspace" element={<WorkspacePage />} />
                     </Route>

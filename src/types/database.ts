@@ -4,6 +4,7 @@ export interface Profile {
   id: string
   user_id: string
   display_name?: string
+  full_name?: string
   email?: string
   avatar_path?: string
   education_level?: string
@@ -51,6 +52,7 @@ export interface NoteBlock {
   block_type: 'text' | 'heading' | 'drawing' | 'formula' | 'divider' | string
   content?: any
   position?: number
+  client_rev?: number
   created_at?: string
   updated_at?: string
 }

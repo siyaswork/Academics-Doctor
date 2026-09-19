@@ -48,6 +48,36 @@ export async function updateProfile(updates: Partial<Profile>) {
   return { data, error }
 }
 
+export async function upsertProfile(updates: Partial<Profile>) {
+  const userId = await getCurrentUserId()
+  if (!userId) return { data: null, error: new Error('Not authenticated') }
+
+  const { data: existing } = await supabase.from('profiles').select('id').eq('user_id', userId).maybeSingle()
+
+  const payload = {
+    ...updates,
+    user_id: userId,
+    updated_at: new Date().toISOString(),
+  }
+
+  if (existing?.id) {
+    const { data, error } = await supabase
+      .from('profiles')
+      .update(payload)
+      .eq('user_id', userId)
+      .select()
+      .maybeSingle()
+    return { data, error }
+  } else {
+    const { data, error } = await supabase
+      .from('profiles')
+      .insert(payload)
+      .select()
+      .maybeSingle()
+    return { data, error }
+  }
+}
+
 export async function uploadAvatar(file: File) {
   const userId = await getCurrentUserId()
   if (!userId) return { data: null, error: new Error('Not authenticated') }

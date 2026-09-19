@@ -1,0 +1,1527 @@
+[
+  {
+    "id": 264,
+    "category": "Circles",
+    "topic": "Circle Terminology",
+    "explanation": "A circle is a set of points all equidistant from a fixed central point. Understanding the correct terminology \u2014 radius, diameter, circumference, chord, arc, and more \u2014 is essential for describing and solving circle-related problems accurately.",
+    "key_concepts": [
+      "Centre: the fixed point equidistant from all points on the circle",
+      "Radius: distance from the centre to any point on the circle",
+      "Diameter: distance across the circle through the centre (twice the radius)",
+      "Circumference: the distance around the circle (the circle's perimeter)"
+    ],
+    "definitions": [
+      {
+        "term": "Circle",
+        "definition": "A set of points all equidistant from a fixed central point."
+      },
+      {
+        "term": "Centre",
+        "definition": "The fixed point at the middle of a circle, equidistant from every point on the circle."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Name the line segment from the centre of a circle to any point on its edge.",
+        "solution_steps": [
+          "Recall circle terminology"
+        ],
+        "answer": "Radius"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "What is the term for the distance around a circle?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the relationship between the radius and diameter?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Circumference",
+      "Diameter = 2 \u00d7 radius"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Label the following on a circle diagram: centre, radius, diameter, circumference.",
+        "marks": 4,
+        "answer": "Centre: the middle point. Radius: line from centre to edge. Diameter: line across through the centre. Circumference: the outer boundary/perimeter."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing radius and diameter",
+      "Using 'circumference' to refer to the circle's interior area instead of its boundary"
+    ],
+    "tips": [
+      "Diameter is always exactly double the radius \u2014 if you know one, you instantly know the other."
+    ],
+    "summary": "Circle terminology (centre, radius, diameter, circumference) provides the vocabulary for describing circles precisely.",
+    "quick_revision_notes": [
+      "Radius: centre to edge",
+      "Diameter: across through centre = 2\u00d7radius",
+      "Circumference: distance around"
+    ],
+    "related_prerequisite_topics": [
+      "Radius",
+      "Diameter",
+      "Circumference"
+    ],
+    "images": [
+      {
+        "filename": "circleterminology-264-diagram.svg",
+        "type": "diagram",
+        "description": "A circle diagram with the radius, diameter, and an arc labelled.",
+        "purpose": "Introduces the key parts of a circle visually before deeper study of each.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "category": "Circles",
+    "topic": "Radius",
+    "explanation": "The radius of a circle is the distance from the centre to any point on the circle's edge. All radii (plural of radius) of the same circle are equal in length, and the radius is a fundamental measurement used in nearly every circle formula.",
+    "key_concepts": [
+      "The radius connects the centre to any point on the circle",
+      "All radii of the same circle are equal in length",
+      "Radius = Diameter \u00f7 2",
+      "Used directly in circumference and area formulas"
+    ],
+    "definitions": [
+      {
+        "term": "Radius",
+        "definition": "The distance from the centre of a circle to any point on its circumference."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Radius from diameter",
+        "formula": "r = d / 2",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A circle has a diameter of 18cm. Find its radius.",
+        "solution_steps": [
+          "r = d/2 = 18/2"
+        ],
+        "answer": "9 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A circle has a diameter of 24cm. Find its radius.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A circle has a radius of 6.5cm. Find its diameter.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "12 cm",
+      "13 cm"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Two circles have radii 5cm and 8cm. Find the difference between their diameters.",
+        "marks": 2,
+        "answer": "Diameters: 10cm and 16cm. Difference: 16-10=6cm"
+      }
+    ],
+    "common_mistakes": [
+      "Using the diameter value where the radius is required in a formula (or vice versa)",
+      "Forgetting all radii of the SAME circle are equal"
+    ],
+    "tips": [
+      "Whenever a formula asks for 'r', always double-check whether the given measurement is actually the radius or the diameter."
+    ],
+    "summary": "The radius is the distance from a circle's centre to its edge, equal to half the diameter.",
+    "quick_revision_notes": [
+      "r = d/2"
+    ],
+    "related_prerequisite_topics": [
+      "Circle Terminology",
+      "Diameter",
+      "Area of a Circle"
+    ],
+    "images": []
+  },
+  {
+    "id": 266,
+    "category": "Circles",
+    "topic": "Diameter",
+    "explanation": "The diameter of a circle is the distance across the circle, passing through the centre, connecting two points on opposite sides of the circle. It is always exactly twice the length of the radius, and represents the longest possible chord of the circle.",
+    "key_concepts": [
+      "The diameter passes through the centre, connecting two opposite points",
+      "Diameter = 2 \u00d7 radius",
+      "The diameter is the longest possible chord in a circle",
+      "Used in circumference formula: C = \u03c0d"
+    ],
+    "definitions": [
+      {
+        "term": "Diameter",
+        "definition": "The distance across a circle through its centre, equal to twice the radius."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Diameter from radius",
+        "formula": "d = 2r",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A circle has a radius of 7.5cm. Find its diameter.",
+        "solution_steps": [
+          "d = 2r = 2\u00d77.5"
+        ],
+        "answer": "15 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A circle has a radius of 11cm. Find its diameter.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain why the diameter is the longest possible chord in a circle.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "22 cm",
+      "Any chord not passing through the centre is shorter, because the diameter maximizes the straight-line distance across the circle by passing exactly through the centre, using the full 'width' of the circle."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A circular table has a diameter of 1.2m. Find the radius in centimetres.",
+        "marks": 2,
+        "answer": "Radius = 1.2/2 = 0.6m = 60cm"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the diameter must pass through the CENTRE (not just any chord)",
+      "Using d instead of 2r or vice versa inconsistently within a calculation"
+    ],
+    "tips": [
+      "The diameter is always the LONGEST chord possible in any circle \u2014 a useful fact for comparing chord lengths."
+    ],
+    "summary": "The diameter spans a circle through its centre, equal to twice the radius, and is the longest possible chord.",
+    "quick_revision_notes": [
+      "d = 2r",
+      "Longest possible chord"
+    ],
+    "related_prerequisite_topics": [
+      "Radius",
+      "Chords",
+      "Circumference of a Circle"
+    ],
+    "images": []
+  },
+  {
+    "id": 267,
+    "category": "Circles",
+    "topic": "Circumference",
+    "explanation": "The circumference of a circle is the total distance around its outer edge \u2014 essentially the circle's perimeter. It is calculated using the formula C = \u03c0d (or equivalently C = 2\u03c0r), where \u03c0 (pi) is a mathematical constant approximately equal to 3.14159.",
+    "key_concepts": [
+      "Circumference is the perimeter (distance around) a circle",
+      "C = \u03c0d = 2\u03c0r",
+      "\u03c0 is an irrational constant, approximately 3.14159",
+      "The ratio of circumference to diameter is always exactly \u03c0, for any circle"
+    ],
+    "definitions": [
+      {
+        "term": "Circumference",
+        "definition": "The total distance around the outer edge (perimeter) of a circle."
+      },
+      {
+        "term": "Pi (\u03c0)",
+        "definition": "An irrational mathematical constant, approximately 3.14159, equal to the ratio of a circle's circumference to its diameter."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Circumference",
+        "formula": "C = \u03c0d = 2\u03c0r",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the circumference of a circle with radius 5cm (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "C = 2\u03c0r = 2\u00d73.14\u00d75"
+        ],
+        "answer": "31.4 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the circumference of a circle with diameter 10cm (use \u03c0\u22483.14).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the circumference of a circle with radius 8cm, giving your answer in terms of \u03c0.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "31.4 cm",
+      "16\u03c0 cm"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A circular running track has a circumference of 400m. Find its radius, to 2 decimal places (use \u03c0\u22483.14159).",
+        "marks": 3,
+        "answer": "r = C/(2\u03c0) = 400/(2\u00d73.14159) \u2248 63.66 m"
+      }
+    ],
+    "common_mistakes": [
+      "Using the radius in the formula C=\u03c0d (should use diameter, or double the radius first)",
+      "Rounding \u03c0 too early in multi-step calculations"
+    ],
+    "tips": [
+      "Leaving answers 'in terms of \u03c0' (e.g. 16\u03c0 cm) gives an exact value, avoiding rounding errors \u2014 do this unless a decimal answer is specifically requested."
+    ],
+    "summary": "Circumference is a circle's perimeter, calculated as C=\u03c0d=2\u03c0r using the constant \u03c0.",
+    "quick_revision_notes": [
+      "C = \u03c0d = 2\u03c0r"
+    ],
+    "related_prerequisite_topics": [
+      "Diameter",
+      "Radius",
+      "Circumference of a Circle"
+    ],
+    "images": []
+  },
+  {
+    "id": 268,
+    "category": "Circles",
+    "topic": "Chords",
+    "explanation": "A chord is a straight line segment connecting any two points on a circle's circumference, without necessarily passing through the centre. The diameter is a special case of a chord that does pass through the centre, making it the longest possible chord.",
+    "key_concepts": [
+      "A chord connects any two points on the circle's edge",
+      "Does not need to pass through the centre (unlike the diameter)",
+      "The perpendicular from the centre to a chord always bisects the chord",
+      "Equal chords in the same circle are equidistant from the centre"
+    ],
+    "definitions": [
+      {
+        "term": "Chord",
+        "definition": "A straight line segment connecting two points on a circle's circumference."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A chord is 16cm long in a circle of radius 10cm. Find the distance from the centre to the chord.",
+        "solution_steps": [
+          "The perpendicular from the centre bisects the chord: half-chord = 8cm",
+          "Use Pythagorean theorem: d\u00b2 + 8\u00b2 = 10\u00b2",
+          "d\u00b2 = 100-64 = 36",
+          "d = 6"
+        ],
+        "answer": "6 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A chord is 24cm long in a circle of radius 13cm. Find the distance from the centre to the chord.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Is the diameter considered a chord? Explain.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "5 cm (half-chord=12, 12\u00b2+d\u00b2=13\u00b2, d\u00b2=25, d=5)",
+      "Yes \u2014 the diameter is a chord that happens to pass through the centre, making it the longest possible chord."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A circle has radius 17cm. A chord is drawn 8cm from the centre. Find the length of the chord.",
+        "marks": 3,
+        "answer": "half-chord\u00b2 + 8\u00b2 = 17\u00b2 \u2192 half-chord\u00b2=289-64=225 \u2192 half-chord=15. Full chord=30cm"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the perpendicular from the centre bisects the chord (leading to using the full chord length instead of half in Pythagorean calculations)",
+      "Confusing a chord with a tangent or secant"
+    ],
+    "tips": [
+      "Whenever a chord problem involves the centre's perpendicular distance, you're almost always setting up a right-angled triangle with the radius as the hypotenuse."
+    ],
+    "summary": "A chord connects two points on a circle; the perpendicular from the centre always bisects it, useful for Pythagorean theorem calculations.",
+    "quick_revision_notes": [
+      "Chord: any 2 points on circle",
+      "Perpendicular from centre bisects the chord"
+    ],
+    "related_prerequisite_topics": [
+      "Circle Terminology",
+      "Pythagorean Theorem",
+      "Diameter"
+    ],
+    "images": [
+      {
+        "filename": "chords-268-diagram.svg",
+        "type": "diagram",
+        "description": "A circle with a chord drawn connecting two points on its circumference, not passing through the centre.",
+        "purpose": "Shows the visual appearance and position of a chord within a circle.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "category": "Circles",
+    "topic": "Arcs",
+    "explanation": "An arc is a portion of a circle's circumference between two points. A minor arc is the shorter path between two points; a major arc is the longer path. Arc length can be calculated as a fraction of the full circumference, based on the angle it subtends at the centre.",
+    "key_concepts": [
+      "An arc is a curved portion of the circle's circumference",
+      "Minor arc: the shorter arc between two points",
+      "Major arc: the longer arc between two points",
+      "Arc length is proportional to the angle it subtends at the centre"
+    ],
+    "definitions": [
+      {
+        "term": "Arc",
+        "definition": "A portion of a circle's circumference between two points."
+      },
+      {
+        "term": "Minor Arc",
+        "definition": "The shorter of the two possible arcs between two points on a circle."
+      },
+      {
+        "term": "Major Arc",
+        "definition": "The longer of the two possible arcs between two points on a circle."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Two points on a circle are connected by an arc subtending an angle of 80\u00b0 at the centre. What fraction of the full circle does this arc represent?",
+        "solution_steps": [
+          "Fraction = angle/360\u00b0",
+          "80/360"
+        ],
+        "answer": "2/9 of the circle"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "An arc subtends an angle of 120\u00b0 at the centre. What fraction of the circle is this?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A minor arc subtends 50\u00b0 at the centre. Find the angle subtended by the corresponding major arc.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "1/3",
+      "310\u00b0 (360-50)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain the difference between a minor arc and a major arc, and how their subtended angles relate.",
+        "marks": 2,
+        "answer": "A minor arc is the shorter path between two points on the circle; a major arc is the longer path. Their subtended angles at the centre always sum to 360\u00b0, since together they make up the whole circle."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing minor and major arcs",
+      "Assuming an 'arc' automatically refers to the minor arc without checking context"
+    ],
+    "tips": [
+      "Unless stated otherwise, 'the arc' usually refers to the minor (shorter) arc \u2014 but always check the context or diagram to confirm."
+    ],
+    "summary": "An arc is a portion of a circle's circumference; minor and major arcs between two points always subtend angles summing to 360\u00b0.",
+    "quick_revision_notes": [
+      "Minor arc: shorter. Major arc: longer.",
+      "Their angles sum to 360\u00b0"
+    ],
+    "related_prerequisite_topics": [
+      "Circle Terminology",
+      "Arc Length",
+      "Angle at the Centre"
+    ],
+    "images": []
+  },
+  {
+    "id": 270,
+    "category": "Circles",
+    "topic": "Sectors",
+    "explanation": "A sector is the region of a circle enclosed by two radii and the arc between them \u2014 visually resembling a 'pizza slice'. Like arcs, sectors are classified as minor (smaller) or major (larger), and their area is calculated as a fraction of the full circle's area.",
+    "key_concepts": [
+      "A sector is bounded by two radii and an arc",
+      "Minor sector: the smaller region (associated with the minor arc)",
+      "Major sector: the larger region (associated with the major arc)",
+      "Sector area is proportional to the angle at the centre, as a fraction of the full circle"
+    ],
+    "definitions": [
+      {
+        "term": "Sector",
+        "definition": "The region of a circle enclosed by two radii and the arc between them."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A sector has a central angle of 90\u00b0. What fraction of the full circle's area does it represent?",
+        "solution_steps": [
+          "Fraction = angle/360\u00b0",
+          "90/360"
+        ],
+        "answer": "1/4 (a quarter of the circle)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A sector has a central angle of 45\u00b0. What fraction of the circle's area is this?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A minor sector has a central angle of 100\u00b0. Find the central angle of the corresponding major sector.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "1/8",
+      "260\u00b0 (360-100)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain what visually distinguishes a sector from a segment of a circle.",
+        "marks": 2,
+        "answer": "A sector is bounded by two radii and an arc (like a pizza slice, meeting at the centre). A segment is bounded by a chord and an arc (a region cut off by a straight line, not meeting at the centre)."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing a sector (bounded by 2 radii + arc) with a segment (bounded by a chord + arc)",
+      "Forgetting minor and major sector angles sum to 360\u00b0"
+    ],
+    "tips": [
+      "Visualize a sector as a 'pizza slice' \u2014 always bounded by two straight radius edges meeting at the centre, plus the curved arc."
+    ],
+    "summary": "A sector is the region between two radii and their connecting arc; its area is a fraction of the full circle based on the central angle.",
+    "quick_revision_notes": [
+      "Sector: 2 radii + arc ('pizza slice')",
+      "Minor + major sector angles = 360\u00b0"
+    ],
+    "related_prerequisite_topics": [
+      "Circle Terminology",
+      "Sector Area",
+      "Arcs"
+    ],
+    "images": [
+      {
+        "filename": "sectors-270-diagram.svg",
+        "type": "diagram",
+        "description": "A circle with a shaded 'pizza slice' sector bounded by two radii and an arc.",
+        "purpose": "Shows the visual appearance of a sector within a circle.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "category": "Circles",
+    "topic": "Segments",
+    "explanation": "A segment is the region of a circle enclosed by a chord and the arc it cuts off \u2014 distinct from a sector, which is bounded by two radii instead of a chord. Like arcs and sectors, segments are classified as minor (smaller) or major (larger).",
+    "key_concepts": [
+      "A segment is bounded by a chord and the arc it subtends",
+      "Minor segment: the smaller region (cut off by the chord)",
+      "Major segment: the larger region",
+      "Unlike a sector, a segment does NOT meet at the circle's centre"
+    ],
+    "definitions": [
+      {
+        "term": "Segment",
+        "definition": "The region of a circle enclosed by a chord and the arc it cuts off."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Segment area",
+        "formula": "Segment area = Sector area - Triangle area",
+        "notes": "Where the triangle is formed by the two radii and the chord"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A circle has radius 10cm, and a chord subtends a 90\u00b0 angle at the centre. Find the area of the minor segment (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "Sector area = (90/360) \u00d7 \u03c0 \u00d7 10\u00b2 = 0.25 \u00d7 3.14 \u00d7 100 = 78.5",
+          "Triangle area = (1/2) \u00d7 10 \u00d7 10 \u00d7 sin(90\u00b0) = 50",
+          "Segment area = 78.5 - 50"
+        ],
+        "answer": "28.5 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Explain the difference between a sector and a segment.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A circle has radius 8cm and a central angle of 60\u00b0 for a chord. Find the segment area (use \u03c0\u22483.14, sin60\u00b0\u22480.866).",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "A sector is bounded by two radii and an arc (meeting at the centre); a segment is bounded by a chord and an arc (not meeting at the centre).",
+      "\u22485.78 cm\u00b2 (sector area = (60/360)\u00d73.14\u00d764 \u2248 33.49; triangle area = 0.5\u00d78\u00d78\u00d70.866 \u2248 27.71; segment area \u2248 33.49-27.71 \u2248 5.78 cm\u00b2)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A circle has radius 12cm, and a chord subtends an angle of 120\u00b0 at the centre. Find the area of the minor segment, to 1 decimal place (use \u03c0\u22483.14159, sin120\u00b0\u22480.866).",
+        "marks": 5,
+        "answer": "Sector area = (120/360)\u00d7\u03c0\u00d7144 \u2248 150.8. Triangle area = 0.5\u00d712\u00d712\u00d70.866 \u2248 62.4. Segment area \u2248 150.8-62.4 = 88.4 cm\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing segment area formula with sector area formula (forgetting to subtract the triangle)",
+      "Using the wrong angle (degrees vs radians) in the sine calculation"
+    ],
+    "tips": [
+      "Always calculate segment area in TWO steps: first the full sector area, then subtract the triangle area formed by the two radii and the chord."
+    ],
+    "summary": "A segment is bounded by a chord and an arc; its area is found by subtracting the enclosed triangle's area from the corresponding sector's area.",
+    "quick_revision_notes": [
+      "Segment area = Sector area - Triangle area"
+    ],
+    "related_prerequisite_topics": [
+      "Sectors",
+      "Chords",
+      "Sector Area",
+      "Area Rule"
+    ],
+    "images": [
+      {
+        "filename": "segments-271-diagram.svg",
+        "type": "diagram",
+        "description": "A circle with a shaded segment region bounded by a chord and its arc.",
+        "purpose": "Shows the visual appearance of a segment, distinguishing it from a sector.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "category": "Circles",
+    "topic": "Tangents",
+    "explanation": "A tangent is a straight line that touches a circle at exactly one point, called the point of tangency, without crossing into the circle's interior. A key property is that a tangent is always perpendicular to the radius drawn to the point of tangency.",
+    "key_concepts": [
+      "A tangent touches the circle at exactly ONE point",
+      "The tangent is always perpendicular to the radius at the point of tangency",
+      "Two tangents drawn from the same external point to a circle are always equal in length",
+      "Used extensively in circle theorem problems"
+    ],
+    "definitions": [
+      {
+        "term": "Tangent",
+        "definition": "A straight line that touches a circle at exactly one point, perpendicular to the radius at that point."
+      },
+      {
+        "term": "Point of Tangency",
+        "definition": "The single point where a tangent line touches a circle."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A tangent touches a circle of radius 6cm at point P. A line from the centre to an external point Q (where the tangent also passes) has length 10cm. Find the length of the tangent PQ.",
+        "solution_steps": [
+          "The radius and tangent are perpendicular at P, forming a right-angled triangle",
+          "PQ\u00b2 + 6\u00b2 = 10\u00b2",
+          "PQ\u00b2 = 100-36 = 64",
+          "PQ = 8"
+        ],
+        "answer": "8 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A tangent touches a circle of radius 5cm. The distance from the centre to the external point is 13cm. Find the tangent length.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Two tangents are drawn from the same external point to a circle. What can you say about their lengths?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "12 cm (5\u00b2+t\u00b2=13\u00b2, t\u00b2=144, t=12)",
+      "They are always equal in length."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "From external point A, two tangents touch a circle of radius 9cm at points B and C. If AB=12cm, find AC and explain your reasoning.",
+        "marks": 2,
+        "answer": "AC = 12cm also, since two tangents drawn from the same external point to a circle are always equal in length."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the tangent-radius perpendicularity property (essential for most tangent calculations)",
+      "Assuming a tangent crosses into the circle (it only touches at one point)"
+    ],
+    "tips": [
+      "Whenever a tangent problem gives you the radius and a distance to an external point, you're almost always solving a right-angled triangle using the Pythagorean theorem."
+    ],
+    "summary": "A tangent touches a circle at exactly one point, always perpendicular to the radius there; tangents from the same external point are equal.",
+    "quick_revision_notes": [
+      "Tangent \u22a5 radius at point of tangency",
+      "Tangents from same external point are equal length"
+    ],
+    "related_prerequisite_topics": [
+      "Circle Terminology",
+      "Radius",
+      "Pythagorean Theorem",
+      "Tangent-Chord Theorem"
+    ],
+    "images": [
+      {
+        "filename": "tangents-272-diagram.svg",
+        "type": "diagram",
+        "description": "A circle with a tangent line touching it at exactly one point.",
+        "purpose": "Shows the visual appearance and single point of contact of a tangent line.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 273,
+    "category": "Circles",
+    "topic": "Secants",
+    "explanation": "A secant is a straight line that crosses a circle at exactly two points, passing through the circle's interior. Secants are used in specific circle theorems involving products of line segment lengths, particularly when two secants (or a secant and a tangent) are drawn from the same external point.",
+    "key_concepts": [
+      "A secant intersects the circle at exactly TWO points",
+      "Distinguished from a tangent (1 point) and a chord (a segment fully inside, connecting 2 points on the circle)",
+      "Used in the 'intersecting secants' and 'tangent-secant' theorems relating segment lengths",
+      "A chord is essentially the portion of a secant that lies inside the circle"
+    ],
+    "definitions": [
+      {
+        "term": "Secant",
+        "definition": "A straight line that intersects a circle at exactly two points, extending beyond the circle in both directions."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Intersecting secants (from external point)",
+        "formula": "(whole secant 1) \u00d7 (external part 1) = (whole secant 2) \u00d7 (external part 2)",
+        "notes": "For two secants drawn from the same external point"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "From an external point, two secants are drawn to a circle. One has an external segment of 4cm and total length 10cm. The other has an external segment of 5cm. Find its total length.",
+        "solution_steps": [
+          "Using the intersecting secants rule: 10\u00d74 = L\u00d75",
+          "40 = 5L",
+          "L = 8"
+        ],
+        "answer": "8 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Explain the difference between a secant and a tangent.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "From an external point, two secants have external segments 3cm and 6cm, with the first secant's total length 12cm. Find the second secant's total length.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "A secant crosses the circle at two points; a tangent touches it at only one point.",
+      "6 cm (12\u00d73=6\u00d7L, 36=6L, L=6)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "From an external point P, a tangent PT and a secant PAB are drawn to a circle (A closer to P, B further). If PT=8cm and PA=4cm, find PB using the tangent-secant relationship PT\u00b2=PA\u00d7PB.",
+        "marks": 3,
+        "answer": "8\u00b2 = 4\u00d7PB \u2192 64=4PB \u2192 PB=16cm"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing secants with chords or tangents",
+      "Using the wrong segments (total length vs external segment only) in the intersecting secants formula"
+    ],
+    "tips": [
+      "In secant problems, always clearly identify the 'whole' length (from the external point to the far intersection) versus the 'external' segment (from the external point to the near intersection) before applying any formula."
+    ],
+    "summary": "A secant crosses a circle at two points; segment-length theorems relate secants (and tangents) drawn from a common external point.",
+    "quick_revision_notes": [
+      "Secant crosses circle at 2 points",
+      "(whole)\u00d7(external) is equal for two secants from the same point"
+    ],
+    "related_prerequisite_topics": [
+      "Tangents",
+      "Chords",
+      "Circle Terminology"
+    ],
+    "images": [
+      {
+        "filename": "secants-273-diagram.svg",
+        "type": "diagram",
+        "description": "A circle with a secant line crossing through it at two points, extending beyond the circle on both sides.",
+        "purpose": "Shows the visual appearance of a secant compared to a tangent or chord.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "category": "Circles",
+    "topic": "Area of a Circle",
+    "explanation": "The area of a circle is the amount of space enclosed within its circumference, calculated using the formula A = \u03c0r\u00b2, where r is the radius. This formula is one of the most frequently used in geometry and mensuration.",
+    "key_concepts": [
+      "A = \u03c0r\u00b2, using the radius (not the diameter directly)",
+      "If given the diameter, first halve it to find the radius before applying the formula",
+      "\u03c0 is an irrational constant, approximately 3.14159",
+      "Area is always expressed in square units (e.g. cm\u00b2)"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Area of a circle",
+        "formula": "A = \u03c0r\u00b2",
+        "notes": "r = radius"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the area of a circle with radius 7cm (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "A = \u03c0\u00d77\u00b2 = 3.14\u00d749"
+        ],
+        "answer": "153.86 cm\u00b2"
+      },
+      {
+        "problem": "Find the area of a circle with diameter 20cm, giving your answer in terms of \u03c0.",
+        "solution_steps": [
+          "radius = 20/2 = 10",
+          "A = \u03c0\u00d710\u00b2"
+        ],
+        "answer": "100\u03c0 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the area of a circle with radius 5cm (use \u03c0\u22483.14).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the area of a circle with diameter 16cm, in terms of \u03c0.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "78.5 cm\u00b2",
+      "64\u03c0 cm\u00b2"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A circular garden has an area of 154 m\u00b2. Find its radius, to 1 decimal place (use \u03c0\u22483.14159).",
+        "marks": 3,
+        "answer": "r\u00b2 = 154/\u03c0 \u2248 49.03. r \u2248 \u221a49.03 \u2248 7.0 m"
+      }
+    ],
+    "common_mistakes": [
+      "Using the diameter directly in the formula instead of the radius",
+      "Forgetting to square the radius (calculating \u03c0r instead of \u03c0r\u00b2)"
+    ],
+    "tips": [
+      "Always confirm whether you've been given the radius or diameter before applying A=\u03c0r\u00b2 \u2014 using the diameter directly (without halving) is a very common error."
+    ],
+    "summary": "The area of a circle is calculated as A=\u03c0r\u00b2, using the radius; the diameter must be halved first if given instead.",
+    "quick_revision_notes": [
+      "A = \u03c0r\u00b2"
+    ],
+    "related_prerequisite_topics": [
+      "Radius",
+      "Circumference of a Circle",
+      "Sector Area"
+    ],
+    "images": []
+  },
+  {
+    "id": 275,
+    "category": "Circles",
+    "topic": "Circumference of a Circle",
+    "explanation": "This topic focuses specifically on applying the circumference formula (C=\u03c0d=2\u03c0r) to solve real-world and geometric problems, including finding the radius or diameter when the circumference is known (working backward from the formula).",
+    "key_concepts": [
+      "C = \u03c0d = 2\u03c0r (forward calculation)",
+      "d = C/\u03c0 and r = C/(2\u03c0) (working backward from a known circumference)",
+      "Real-world applications: wheel rotations, running tracks, circular boundaries",
+      "Distance travelled by a rolling circular object = circumference \u00d7 number of rotations"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Circumference",
+        "formula": "C = \u03c0d = 2\u03c0r",
+        "notes": ""
+      },
+      {
+        "name": "Radius from circumference",
+        "formula": "r = C / (2\u03c0)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A wheel has a circumference of 220cm. Find its radius, to 1 decimal place (use \u03c0\u22483.14159).",
+        "solution_steps": [
+          "r = C/(2\u03c0) = 220/(2\u00d73.14159) = 220/6.283"
+        ],
+        "answer": "\u224835.0 cm"
+      },
+      {
+        "problem": "A circular wheel of radius 40cm rolls along the ground. Find the distance travelled in 10 complete rotations (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "Circumference = 2\u03c0\u00d740 = 251.2 cm",
+          "Distance for 10 rotations = 251.2 \u00d7 10"
+        ],
+        "answer": "2,512 cm (25.12 m)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A circle has circumference 62.8cm. Find its radius (use \u03c0\u22483.14).",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A bicycle wheel of diameter 70cm makes 50 full rotations. Find the distance travelled, to the nearest metre (use \u03c0\u22483.14159).",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "10 cm",
+      "\u2248110 m (circumference\u2248219.9cm, \u00d750=10,996cm\u2248110m)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A circular pond has a circumference of 37.7m. Find its diameter, to 1 decimal place, and hence estimate the area of the pond (use \u03c0\u22483.14159).",
+        "marks": 4,
+        "answer": "d = C/\u03c0 = 37.7/3.14159 \u2248 12.0m. Radius\u22486.0m. Area=\u03c0r\u00b2\u22483.14159\u00d736\u2248113.1 m\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Errors when rearranging the formula to solve for radius or diameter",
+      "Forgetting to multiply by the number of rotations in real-world 'rolling' problems"
+    ],
+    "tips": [
+      "For 'rolling wheel' distance problems, always find the circumference FIRST, then multiply by the number of rotations."
+    ],
+    "summary": "Applying the circumference formula (C=\u03c0d=2\u03c0r) to solve for unknown radius, diameter, or real-world rolling distances.",
+    "quick_revision_notes": [
+      "C=\u03c0d=2\u03c0r",
+      "r=C/(2\u03c0)",
+      "Rolling distance = circumference \u00d7 rotations"
+    ],
+    "related_prerequisite_topics": [
+      "Circumference",
+      "Radius",
+      "Diameter"
+    ],
+    "images": []
+  },
+  {
+    "id": 276,
+    "category": "Circles",
+    "topic": "Arc Length",
+    "explanation": "Arc length is the distance along a curved arc, calculated as a fraction of the full circumference based on the central angle the arc subtends. This uses the same 'fraction of the whole' principle as sector area.",
+    "key_concepts": [
+      "Arc length = (angle/360\u00b0) \u00d7 circumference = (angle/360\u00b0) \u00d7 2\u03c0r",
+      "The larger the central angle, the longer the arc",
+      "A full circle (360\u00b0) gives an arc length equal to the full circumference",
+      "Can be rearranged to find the central angle or radius if arc length is known"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Arc length",
+        "formula": "Arc length = (\u03b8/360\u00b0) \u00d7 2\u03c0r",
+        "notes": "\u03b8 = central angle in degrees"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the arc length of a sector with radius 9cm and central angle 60\u00b0 (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "Arc length = (60/360) \u00d7 2\u00d73.14\u00d79",
+          "= (1/6) \u00d7 56.52"
+        ],
+        "answer": "9.42 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the arc length of a sector with radius 12cm and central angle 90\u00b0 (use \u03c0\u22483.14).",
+        "difficulty": "medium"
+      },
+      {
+        "question": "An arc has length 15.7cm on a circle of radius 10cm (use \u03c0\u22483.14). Find the central angle.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "18.84 cm ((90/360)\u00d72\u00d73.14\u00d712)",
+      "90\u00b0 (15.7 = (\u03b8/360)\u00d762.8, \u03b8/360=0.25, \u03b8=90\u00b0)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A sector has radius 15cm and arc length 23.55cm. Find the central angle, to the nearest degree (use \u03c0\u22483.14159).",
+        "marks": 4,
+        "answer": "Circumference=2\u03c0\u00d715\u224894.25cm. Fraction=23.55/94.25\u22480.2498. Angle\u22480.2498\u00d7360\u224890\u00b0"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to convert the angle fraction correctly (angle/360\u00b0, not angle/180\u00b0)",
+      "Using the diameter instead of radius in the circumference part of the formula"
+    ],
+    "tips": [
+      "Arc length is always LESS than the full circumference \u2014 use this as a sanity check on your answer."
+    ],
+    "summary": "Arc length is a fraction of the full circumference, proportional to the central angle: Arc length = (\u03b8/360\u00b0)\u00d72\u03c0r.",
+    "quick_revision_notes": [
+      "Arc length = (\u03b8/360\u00b0) \u00d7 2\u03c0r"
+    ],
+    "related_prerequisite_topics": [
+      "Arcs",
+      "Circumference of a Circle",
+      "Sector Area"
+    ],
+    "images": []
+  },
+  {
+    "id": 277,
+    "category": "Circles",
+    "topic": "Sector Area",
+    "explanation": "Sector area is the area of the 'pizza slice' region bounded by two radii and an arc, calculated as a fraction of the full circle's area based on the central angle. This mirrors the arc length calculation but uses the area formula instead of circumference.",
+    "key_concepts": [
+      "Sector area = (angle/360\u00b0) \u00d7 \u03c0r\u00b2",
+      "The larger the central angle, the larger the sector area",
+      "A full circle (360\u00b0) gives a sector area equal to the full circle's area",
+      "Can be rearranged to find the central angle or radius if the area is known"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Sector area",
+        "formula": "Sector area = (\u03b8/360\u00b0) \u00d7 \u03c0r\u00b2",
+        "notes": "\u03b8 = central angle in degrees"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the area of a sector with radius 8cm and central angle 45\u00b0 (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "Sector area = (45/360) \u00d7 3.14 \u00d7 8\u00b2",
+          "= (1/8) \u00d7 200.96"
+        ],
+        "answer": "25.12 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the area of a sector with radius 10cm and central angle 120\u00b0 (use \u03c0\u22483.14).",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A sector has area 78.5cm\u00b2 on a circle of radius 10cm (use \u03c0\u22483.14). Find the central angle.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "104.67 cm\u00b2 ((120/360)\u00d73.14\u00d7100)",
+      "90\u00b0 (78.5 = (\u03b8/360)\u00d7314, \u03b8/360=0.25, \u03b8=90\u00b0)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A sector has radius 6cm and area 18.84cm\u00b2. Find the central angle, to the nearest degree (use \u03c0\u22483.14159).",
+        "marks": 4,
+        "answer": "Full circle area=\u03c0\u00d736\u2248113.1cm\u00b2. Fraction=18.84/113.1\u22480.1666. Angle\u22480.1666\u00d7360\u224860\u00b0"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to square the radius in the formula",
+      "Confusing sector area formula with arc length formula (using r instead of r\u00b2)"
+    ],
+    "tips": [
+      "Remember arc length uses r (to the power 1), while sector area uses r\u00b2 \u2014 don't mix up the two formulas."
+    ],
+    "summary": "Sector area is a fraction of the full circle's area, proportional to the central angle: Sector area = (\u03b8/360\u00b0)\u00d7\u03c0r\u00b2.",
+    "quick_revision_notes": [
+      "Sector area = (\u03b8/360\u00b0) \u00d7 \u03c0r\u00b2"
+    ],
+    "related_prerequisite_topics": [
+      "Sectors",
+      "Area of a Circle",
+      "Arc Length"
+    ],
+    "images": []
+  },
+  {
+    "id": 278,
+    "category": "Circles",
+    "topic": "Circle Theorems",
+    "explanation": "Circle theorems are a set of important geometric facts about angles and lengths within and around circles. They include rules about angles at the centre versus the circumference, angles in semicircles, angles in the same segment, and tangent-related properties, all of which are essential for solving advanced circle geometry problems.",
+    "key_concepts": [
+      "Angle at the centre is twice the angle at the circumference (subtended by the same arc)",
+      "The angle in a semicircle is always 90\u00b0",
+      "Angles in the same segment (subtended by the same arc) are equal",
+      "Opposite angles in a cyclic quadrilateral sum to 180\u00b0",
+      "A tangent is perpendicular to the radius at the point of tangency"
+    ],
+    "definitions": [
+      {
+        "term": "Cyclic Quadrilateral",
+        "definition": "A quadrilateral whose four vertices all lie on the circumference of a single circle."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "An angle at the centre of a circle is 100\u00b0, subtended by the same arc as an angle at the circumference. Find the angle at the circumference.",
+        "solution_steps": [
+          "Angle at centre = 2 \u00d7 angle at circumference",
+          "100 = 2 \u00d7 angle",
+          "angle = 50"
+        ],
+        "answer": "50\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "An angle at the circumference is 35\u00b0. Find the corresponding angle at the centre (same arc).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A cyclic quadrilateral has one angle of 110\u00b0. Find its opposite angle.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "70\u00b0 (2\u00d735)",
+      "70\u00b0 (180-110)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "State three different circle theorems, briefly explaining each in your own words.",
+        "marks": 3,
+        "answer": "1) Angle at the centre is double the angle at the circumference (same arc). 2) The angle in a semicircle is always 90\u00b0. 3) Opposite angles in a cyclic quadrilateral sum to 180\u00b0."
+      }
+    ],
+    "common_mistakes": [
+      "Mixing up which theorem applies to a given diagram",
+      "Forgetting the angles must be subtended by the SAME arc for the centre/circumference relationship to apply"
+    ],
+    "tips": [
+      "Circle theorem problems almost always require identifying WHICH arc each angle is subtended by \u2014 always trace this carefully before applying a rule."
+    ],
+    "summary": "Circle theorems describe key angle and length relationships within circles, essential tools for advanced geometric problem-solving.",
+    "quick_revision_notes": [
+      "Centre angle = 2\u00d7circumference angle",
+      "Semicircle angle=90\u00b0",
+      "Same segment angles equal",
+      "Cyclic quad opposite angles sum to 180\u00b0"
+    ],
+    "related_prerequisite_topics": [
+      "Angle at the Centre",
+      "Angle in a Semicircle",
+      "Angles in the Same Segment"
+    ],
+    "images": []
+  },
+  {
+    "id": 279,
+    "category": "Circles",
+    "topic": "Angle at the Centre",
+    "explanation": "The angle at the centre theorem states that the angle subtended at the centre of a circle by an arc is exactly twice the angle subtended at the circumference by the same arc. This is one of the most fundamental and widely used circle theorems.",
+    "key_concepts": [
+      "Angle at the centre = 2 \u00d7 angle at the circumference (subtended by the same arc)",
+      "Both angles must be subtended by the SAME arc (looking at the same two endpoints)",
+      "The angle at the circumference is measured from a point on the major arc (for the minor arc's centre angle)",
+      "A special case of this theorem gives the 'angle in a semicircle = 90\u00b0' rule"
+    ],
+    "definitions": [
+      {
+        "term": "Subtended Angle",
+        "definition": "The angle formed at a point by two lines drawn to the endpoints of an arc or chord."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Angle at the centre theorem",
+        "formula": "Angle at centre = 2 \u00d7 Angle at circumference",
+        "notes": "Both angles subtended by the same arc"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "An arc subtends an angle of 130\u00b0 at the centre. Find the angle it subtends at the circumference.",
+        "solution_steps": [
+          "Angle at circumference = (angle at centre)/2 = 130/2"
+        ],
+        "answer": "65\u00b0"
+      },
+      {
+        "problem": "An angle at the circumference is 42\u00b0. Find the angle subtended by the same arc at the centre.",
+        "solution_steps": [
+          "Angle at centre = 2 \u00d7 42"
+        ],
+        "answer": "84\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "An angle at the centre is 96\u00b0. Find the angle at the circumference (same arc).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "An angle at the circumference is 58\u00b0. Find the angle at the centre (same arc).",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "48\u00b0",
+      "116\u00b0"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "In a circle, angle AOB (at the centre) is 140\u00b0, where O is the centre. Point C lies on the major arc. Find angle ACB.",
+        "marks": 3,
+        "answer": "Angle ACB = angle at centre / 2 = 140/2 = 70\u00b0"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to check both angles are subtended by the SAME arc",
+      "Using the reflex angle at the centre instead of the correct (non-reflex) one when the circumference point is on the major arc"
+    ],
+    "tips": [
+      "If the point on the circumference is on the MAJOR arc, use the angle at the centre corresponding to the MINOR arc (and vice versa) \u2014 always trace which arc is 'inside' the angle being measured."
+    ],
+    "summary": "The angle at the centre is always twice the angle at the circumference, when both are subtended by the same arc.",
+    "quick_revision_notes": [
+      "Centre angle = 2 \u00d7 circumference angle (same arc)"
+    ],
+    "related_prerequisite_topics": [
+      "Circle Theorems",
+      "Angles",
+      "Angle in a Semicircle"
+    ],
+    "images": [
+      {
+        "filename": "angleatthecentre-279-diagram.svg",
+        "type": "diagram",
+        "description": "A circle showing an angle at the centre and a corresponding angle at the circumference, both subtended by the same arc.",
+        "purpose": "Visually demonstrates the angle at the centre theorem.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "category": "Circles",
+    "topic": "Angle in a Semicircle",
+    "explanation": "The angle in a semicircle theorem states that any angle subtended at the circumference by a diameter is always exactly 90\u00b0. This is a special case of the angle at the centre theorem, since a diameter subtends a 180\u00b0 angle at the centre, making the circumference angle always half of that: 90\u00b0.",
+    "key_concepts": [
+      "Any angle in a semicircle (subtended by the diameter) is exactly 90\u00b0",
+      "This is a special case of the angle at the centre theorem (180\u00b0/2 = 90\u00b0)",
+      "Applies to ANY point on the circumference of the semicircle (not just one specific point)",
+      "Extremely useful for identifying right angles in circle diagrams"
+    ],
+    "definitions": [
+      {
+        "term": "Angle in a Semicircle",
+        "definition": "The angle subtended at the circumference by a diameter, which is always exactly 90\u00b0."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "AB is a diameter of a circle, and C is a point on the circumference. If angle BAC = 35\u00b0, find angle ACB and angle ABC.",
+        "solution_steps": [
+          "Angle ACB = 90\u00b0 (angle in a semicircle)",
+          "Angle ABC = 180 - 90 - 35 (triangle angle sum)"
+        ],
+        "answer": "Angle ACB = 90\u00b0, Angle ABC = 55\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "AB is a diameter, C is on the circumference, and angle ABC=48\u00b0. Find angle ACB and angle BAC.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Explain why the angle in a semicircle is always 90\u00b0, using the angle at the centre theorem.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Angle ACB=90\u00b0, Angle BAC=42\u00b0 (180-90-48)",
+      "A diameter subtends a straight angle (180\u00b0) at the centre. By the angle at the centre theorem, the angle at the circumference is half of this: 180/2=90\u00b0."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A circle has diameter PQ, and R is a point on the circumference such that angle PQR = 27\u00b0. Find angle QPR.",
+        "marks": 3,
+        "answer": "Angle PRQ=90\u00b0 (angle in a semicircle). Angle QPR = 180-90-27 = 63\u00b0"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the theorem requires the chord in question to be a DIAMETER specifically (not just any chord)",
+      "Applying the rule to a triangle where the relevant side isn't actually a diameter"
+    ],
+    "tips": [
+      "Whenever you see a triangle inscribed in a circle with one side being the diameter, you instantly know the angle opposite that side is 90\u00b0 \u2014 no calculation needed."
+    ],
+    "summary": "The angle in a semicircle (subtended by the diameter) is always exactly 90\u00b0, a special case of the angle at the centre theorem.",
+    "quick_revision_notes": [
+      "Angle subtended by diameter = 90\u00b0 always"
+    ],
+    "related_prerequisite_topics": [
+      "Angle at the Centre",
+      "Right Angles",
+      "Triangle Angle Sum"
+    ],
+    "images": [
+      {
+        "filename": "angleinasemicircle-280-diagram.svg",
+        "type": "diagram",
+        "description": "A circle with a diameter drawn and a triangle formed to a point on the circumference, with the right angle marked at that point.",
+        "purpose": "Visually demonstrates the angle in a semicircle theorem.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "category": "Circles",
+    "topic": "Angles in the Same Segment",
+    "explanation": "The angles in the same segment theorem states that angles subtended at the circumference by the same arc, from points within the same segment, are always equal to each other. This means multiple different points on the circumference can 'see' the same arc at the same angle.",
+    "key_concepts": [
+      "Angles subtended by the same arc, from the same segment, are always EQUAL",
+      "This applies regardless of exactly where on the arc/segment the point is located",
+      "A direct consequence of the angle at the centre theorem (since both circumference angles equal half the same centre angle)",
+      "Useful for identifying multiple equal angles in complex circle diagrams"
+    ],
+    "definitions": [
+      {
+        "term": "Segment",
+        "definition": "The region of a circle cut off by a chord, containing the points from which angles subtended by the chord's arc are measured."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Angles in the same segment",
+        "formula": "Angle 1 = Angle 2 (both subtended by the same arc, from the same segment)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Points C and D lie in the same segment of a circle, both subtending angle ACB and angle ADB from the same arc AB. If angle ACB=48\u00b0, find angle ADB.",
+        "solution_steps": [
+          "Angles in the same segment (subtended by the same arc) are equal"
+        ],
+        "answer": "48\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Points P and Q are in the same segment of a circle, both viewing chord XY. If angle XPY=63\u00b0, find angle XQY.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain why angles in the same segment are equal, referencing the angle at the centre theorem.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "63\u00b0",
+      "Both angles are subtended by the same arc, so both equal half of the SAME angle at the centre (by the angle at the centre theorem). Since they're both equal to the same value (half the centre angle), they must be equal to each other."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "In a circle, angle BAC=55\u00b0 and angle BDC=55\u00b0, where A, B, C, D lie on the circle. Explain what this tells you about points A and D relative to chord BC.",
+        "marks": 2,
+        "answer": "Since angle BAC = angle BDC, and both are subtended by the same chord BC, points A and D must lie in the same segment relative to BC \u2014 confirming the angles in the same segment theorem."
+      }
+    ],
+    "common_mistakes": [
+      "Applying the theorem to points in DIFFERENT segments (where angles are actually supplementary, not equal, for a cyclic quadrilateral)",
+      "Not correctly identifying which arc/chord the angles are subtended by"
+    ],
+    "tips": [
+      "Check carefully whether two given points are actually in the SAME segment before assuming their subtended angles are equal \u2014 if they're on opposite sides of the chord, use the cyclic quadrilateral rule instead (angles sum to 180\u00b0)."
+    ],
+    "summary": "Angles subtended by the same arc, from points within the same segment, are always equal to each other.",
+    "quick_revision_notes": [
+      "Same segment + same arc \u2192 equal angles"
+    ],
+    "related_prerequisite_topics": [
+      "Angle at the Centre",
+      "Circle Theorems",
+      "Segments"
+    ],
+    "images": [
+      {
+        "filename": "anglesinthesamesegment-281-diagram.svg",
+        "type": "diagram",
+        "description": "A circle with two different points in the same segment, both forming angles to the same chord, shown to be equal.",
+        "purpose": "Visually demonstrates the angles in the same segment theorem.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "category": "Circles",
+    "topic": "Alternate Segment Theorem",
+    "explanation": "The alternate segment theorem states that the angle between a tangent and a chord (drawn from the point of tangency) equals the angle subtended by that chord in the alternate segment (the segment on the other side of the chord). This connects tangent properties with inscribed angle properties.",
+    "key_concepts": [
+      "The angle between a tangent and a chord equals the angle in the alternate segment",
+      "'Alternate segment' refers to the segment on the OPPOSITE side of the chord from the angle being measured",
+      "Requires identifying the tangent, the chord from the point of tangency, and the correct alternate segment",
+      "A powerful tool for finding unknown angles involving tangents"
+    ],
+    "definitions": [
+      {
+        "term": "Alternate Segment Theorem",
+        "definition": "The theorem stating that the angle between a tangent and a chord equals the angle subtended by that chord in the alternate (opposite) segment."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A tangent touches a circle at point T, and a chord TA is drawn, making an angle of 50\u00b0 with the tangent. Find the angle subtended by TA in the alternate segment.",
+        "solution_steps": [
+          "By the alternate segment theorem, this angle equals the tangent-chord angle"
+        ],
+        "answer": "50\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A tangent-chord angle is 65\u00b0. Find the corresponding angle in the alternate segment.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "An angle in a segment is 72\u00b0. Find the corresponding tangent-chord angle on the alternate side.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "65\u00b0",
+      "72\u00b0"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A tangent PT touches a circle at T, and chord TQ makes an angle of 40\u00b0 with the tangent. Point R lies in the alternate segment. Find angle TRQ, and explain your reasoning.",
+        "marks": 3,
+        "answer": "By the alternate segment theorem, angle TRQ = 40\u00b0, since it is the angle in the alternate segment corresponding to the tangent-chord angle at T."
+      }
+    ],
+    "common_mistakes": [
+      "Identifying the wrong segment as the 'alternate' one (must be on the OPPOSITE side of the chord)",
+      "Confusing this theorem with the angles in the same segment theorem"
+    ],
+    "tips": [
+      "To identify the alternate segment, look at which side of the chord the tangent-chord angle is measured on \u2014 the alternate segment is always on the OTHER side."
+    ],
+    "summary": "The alternate segment theorem states the tangent-chord angle equals the angle subtended by that chord in the segment on the opposite side.",
+    "quick_revision_notes": [
+      "Tangent-chord angle = angle in the ALTERNATE (opposite) segment"
+    ],
+    "related_prerequisite_topics": [
+      "Tangents",
+      "Chords",
+      "Angles in the Same Segment",
+      "Tangent-Chord Theorem"
+    ],
+    "images": []
+  },
+  {
+    "id": 283,
+    "category": "Circles",
+    "topic": "Tangent-Chord Theorem",
+    "explanation": "The tangent-chord theorem is another name for the alternate segment theorem, emphasizing the specific relationship between a tangent line and a chord drawn from the point of tangency. It states that the angle formed between the tangent and the chord equals the inscribed angle in the alternate segment.",
+    "key_concepts": [
+      "Also known as the alternate segment theorem",
+      "The tangent-chord angle equals the inscribed angle in the alternate segment",
+      "Combined with the fact that a tangent is perpendicular to the radius, this gives powerful tools for solving tangent-related angle problems",
+      "Frequently combined with other circle theorems in multi-step problems"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A tangent touches a circle at T. Chord TS makes a 55\u00b0 angle with the tangent on one side. A point U lies in the alternate segment. Find angle TUS.",
+        "solution_steps": [
+          "By the tangent-chord theorem, angle TUS equals the tangent-chord angle"
+        ],
+        "answer": "55\u00b0"
+      },
+      {
+        "problem": "A tangent-chord angle is 3x\u00b0, and the corresponding angle in the alternate segment is (x+40)\u00b0. Find x.",
+        "solution_steps": [
+          "By the tangent-chord theorem, these angles are equal: 3x = x+40",
+          "2x = 40",
+          "x = 20"
+        ],
+        "answer": "x = 20"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A tangent-chord angle is 48\u00b0. Find the angle in the alternate segment.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A tangent-chord angle is (2x+10)\u00b0, and the alternate segment angle is (3x-15)\u00b0. Find x.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "48\u00b0",
+      "x=25 (2x+10=3x-15, 25=x)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "In a circle, a tangent at point A meets chord AB, forming an angle of 72\u00b0 with the tangent. Point C is in the alternate segment. Using the tangent-chord theorem and the triangle angle sum, find angle ACB and angle ABC if angle BAC=40\u00b0.",
+        "marks": 4,
+        "answer": "Angle ACB = 72\u00b0 (tangent-chord theorem). Angle ABC = 180-72-40 = 68\u00b0 (triangle angle sum)"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing which angle is the 'tangent-chord' angle versus the 'alternate segment' angle",
+      "Combining this theorem incorrectly with other circle theorems in multi-step problems"
+    ],
+    "tips": [
+      "This theorem is identical to the alternate segment theorem \u2014 if you know one, you know both, just under different names."
+    ],
+    "summary": "The tangent-chord theorem (alternate segment theorem) equates the tangent-chord angle with the inscribed angle in the alternate segment.",
+    "quick_revision_notes": [
+      "Same as the alternate segment theorem",
+      "Tangent-chord angle = alternate segment angle"
+    ],
+    "related_prerequisite_topics": [
+      "Alternate Segment Theorem",
+      "Tangents",
+      "Angles in the Same Segment"
+    ],
+    "images": []
+  }
+]

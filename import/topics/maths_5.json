@@ -1,0 +1,499 @@
+[
+  {
+    "id": 128,
+    "category": "Proof, Sets & Logic",
+    "topic": "Algebraic Proof",
+    "explanation": "Algebraic proof uses algebraic manipulation to demonstrate that a mathematical statement is true for all cases, rather than just checking specific examples. Common techniques include representing even numbers as 2n, odd numbers as 2n+1, and consecutive integers as n, n+1, n+2, then manipulating these expressions to reach the desired conclusion.",
+    "key_concepts": [
+      "A proof must work for ALL possible values, not just a few tested examples",
+      "Represent even numbers as 2n, odd numbers as 2n+1 (n is any integer)",
+      "Represent consecutive integers as n, n+1, n+2, ...",
+      "Expand, simplify, and factorise to reach the required form"
+    ],
+    "definitions": [
+      {
+        "term": "Proof",
+        "definition": "A logical argument that demonstrates a mathematical statement is true in all cases, using accepted rules of algebra and logic."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Prove that the sum of two consecutive integers is always odd.",
+        "solution_steps": [
+          "Let the two consecutive integers be n and n+1",
+          "Sum = n + (n+1) = 2n + 1",
+          "2n+1 is of the form 2\u00d7(integer)+1, which is the general form of an odd number"
+        ],
+        "answer": "Proven: the sum of two consecutive integers is always odd."
+      },
+      {
+        "problem": "Prove that (n+1)\u00b2 - n\u00b2 is always odd, for any integer n.",
+        "solution_steps": [
+          "Expand: (n+1)\u00b2 - n\u00b2 = (n\u00b2+2n+1) - n\u00b2",
+          "= 2n + 1",
+          "This is the general form of an odd number"
+        ],
+        "answer": "Proven: (n+1)\u00b2-n\u00b2 = 2n+1, which is always odd."
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Prove that the sum of three consecutive integers is always a multiple of 3.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Prove that the square of an odd number is always odd.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Let integers be n, n+1, n+2. Sum = 3n+3 = 3(n+1), which is a multiple of 3.",
+      "Let the odd number be 2n+1. Its square = 4n\u00b2+4n+1 = 2(2n\u00b2+2n)+1, which is of the form 2k+1, i.e. odd."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Prove algebraically that the difference between the squares of any two consecutive even numbers is always a multiple of 4.",
+        "marks": 4,
+        "answer": "Let the even numbers be 2n and 2n+2. Difference of squares = (2n+2)\u00b2-(2n)\u00b2 = (4n\u00b2+8n+4)-4n\u00b2 = 8n+4 = 4(2n+1), which is a multiple of 4."
+      }
+    ],
+    "common_mistakes": [
+      "Testing only a few numerical examples instead of proving algebraically for all cases",
+      "Using the wrong general form (e.g. 2n instead of 2n+1 for an odd number)",
+      "Making an algebraic error partway through that invalidates the proof"
+    ],
+    "tips": [
+      "A proof must cover EVERY possible case \u2014 testing specific numbers can suggest a pattern, but never proves it in general."
+    ],
+    "summary": "Algebraic proof uses general algebraic representations (like 2n for even numbers) to demonstrate a statement holds for all cases.",
+    "quick_revision_notes": [
+      "Even: 2n. Odd: 2n+1. Consecutive: n, n+1, n+2...",
+      "Manipulate algebraically to reach the required general form"
+    ],
+    "related_prerequisite_topics": [
+      "Even Numbers",
+      "Odd Numbers",
+      "Consecutive Numbers",
+      "Expanding Brackets"
+    ],
+    "images": []
+  },
+  {
+    "id": 129,
+    "category": "Proof, Sets & Logic",
+    "topic": "Mathematical Induction",
+    "explanation": "Mathematical induction is a proof technique used to show a statement is true for all natural numbers (or all numbers from a certain starting point). It works in two steps: first, prove the statement is true for the smallest case (the base case); second, assume it's true for some value k (the inductive hypothesis) and prove it must then be true for k+1 (the inductive step).",
+    "key_concepts": [
+      "Base case: prove the statement is true for the smallest value (often n=1)",
+      "Inductive hypothesis: assume the statement is true for n=k",
+      "Inductive step: use the hypothesis to prove the statement is true for n=k+1",
+      "Conclusion: since it holds for the base case and each step implies the next, it holds for all n"
+    ],
+    "definitions": [
+      {
+        "term": "Mathematical Induction",
+        "definition": "A proof technique that establishes a statement for all natural numbers by proving a base case and showing each case implies the next."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Prove by induction that 1+2+3+...+n = n(n+1)/2 for all positive integers n.",
+        "solution_steps": [
+          "Base case (n=1): LHS=1, RHS=1(2)/2=1. True.",
+          "Inductive hypothesis: assume 1+2+...+k = k(k+1)/2 is true",
+          "Inductive step: show 1+2+...+k+(k+1) = (k+1)(k+2)/2",
+          "LHS = k(k+1)/2 + (k+1) = (k+1)[k/2 + 1] = (k+1)(k+2)/2, which matches the RHS",
+          "Since the base case holds and each case implies the next, the formula holds for all n by induction"
+        ],
+        "answer": "Proven by induction: 1+2+...+n = n(n+1)/2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "State the two main steps required in a proof by mathematical induction.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Prove by induction that the sum of the first n even numbers is n(n+1).",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "1) Prove the base case (usually n=1). 2) Assume true for n=k (inductive hypothesis) and prove true for n=k+1 (inductive step).",
+      "Base case (n=1): sum=2, formula gives 1(2)=2, true. Assume true for n=k: 2+4+...+2k=k(k+1). For n=k+1: k(k+1)+2(k+1)=(k+1)(k+2), matching the formula, so true for all n by induction."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Prove by mathematical induction that n\u00b2 + n is always even, for all positive integers n.",
+        "marks": 5,
+        "answer": "Base case (n=1): 1+1=2, even, true. Assume true for n=k: k\u00b2+k=2m for some integer m. For n=k+1: (k+1)\u00b2+(k+1) = k\u00b2+2k+1+k+1 = (k\u00b2+k)+2k+2 = 2m+2k+2 = 2(m+k+1), which is even. True for base case, and each case implies the next, so true for all n by induction."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to prove the base case explicitly",
+      "Not clearly stating the inductive hypothesis before attempting the inductive step",
+      "Assuming what needs to be proven rather than deriving it from the hypothesis"
+    ],
+    "tips": [
+      "Think of induction like a row of dominoes: the base case knocks over the first domino, and the inductive step proves that each domino knocks over the next one \u2014 together, this guarantees ALL dominoes fall."
+    ],
+    "summary": "Mathematical induction proves a statement for all natural numbers via a base case and an inductive step showing each case implies the next.",
+    "quick_revision_notes": [
+      "Base case \u2192 Inductive hypothesis \u2192 Inductive step \u2192 Conclusion"
+    ],
+    "related_prerequisite_topics": [
+      "Algebraic Proof",
+      "Sequences",
+      "Sum of Arithmetic Series"
+    ],
+    "images": []
+  },
+  {
+    "id": 130,
+    "category": "Proof, Sets & Logic",
+    "topic": "Proof by Contradiction",
+    "explanation": "Proof by contradiction assumes the OPPOSITE of what you want to prove is true, then shows this assumption leads to a logical impossibility or contradiction. Since the assumption leads to something false, the original assumption must be wrong, meaning the statement you wanted to prove must be true. A famous example is the proof that \u221a2 is irrational.",
+    "key_concepts": [
+      "Assume the negation (opposite) of the statement you want to prove",
+      "Follow logical steps from this assumption",
+      "Reach a contradiction (something impossible or self-contradictory)",
+      "Conclude the original assumption was false, so the original statement must be true"
+    ],
+    "definitions": [
+      {
+        "term": "Proof by Contradiction",
+        "definition": "A proof method that assumes the negation of a statement, derives a logical contradiction, and concludes the original statement must be true."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Prove that \u221a2 is irrational, using proof by contradiction.",
+        "solution_steps": [
+          "Assume the opposite: \u221a2 IS rational, so \u221a2 = a/b for some integers a,b with no common factors (fully simplified)",
+          "Then 2 = a\u00b2/b\u00b2, so a\u00b2 = 2b\u00b2, meaning a\u00b2 is even, so a must be even (a=2c for some integer c)",
+          "Substituting: (2c)\u00b2 = 2b\u00b2 \u2192 4c\u00b2 = 2b\u00b2 \u2192 b\u00b2 = 2c\u00b2, meaning b\u00b2 is even, so b must be even too",
+          "But if both a and b are even, they share a common factor of 2 \u2014 contradicting our assumption that a/b was fully simplified",
+          "This contradiction means our original assumption (that \u221a2 is rational) must be false"
+        ],
+        "answer": "Therefore \u221a2 is irrational."
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Explain the general structure of a proof by contradiction in your own words.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Use proof by contradiction to show that there is no smallest positive rational number.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "Assume the opposite of the statement, follow logical steps to reach an impossible/contradictory result, then conclude the original statement must be true.",
+      "Assume there IS a smallest positive rational number, call it q. Then q/2 is also a positive rational number, and q/2 < q. This contradicts q being the smallest, so no smallest positive rational number exists."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Prove by contradiction that there is no largest even number.",
+        "marks": 3,
+        "answer": "Assume there IS a largest even number, call it N. Then N+2 is also even (since N is even), and N+2 > N. This contradicts N being the largest even number, so no largest even number exists."
+      }
+    ],
+    "common_mistakes": [
+      "Not clearly stating what is being assumed (the negation of the original statement)",
+      "Failing to reach a genuine logical contradiction",
+      "Confusing proof by contradiction with other proof methods"
+    ],
+    "tips": [
+      "Always explicitly state your assumption ('Assume, for contradiction, that...') at the start \u2014 this makes the logical structure of the proof clear."
+    ],
+    "summary": "Proof by contradiction assumes the opposite of a statement, derives an impossible conclusion, and thereby proves the original statement true.",
+    "quick_revision_notes": [
+      "Assume the negation \u2192 derive a contradiction \u2192 conclude original statement is true",
+      "Classic example: \u221a2 is irrational"
+    ],
+    "related_prerequisite_topics": [
+      "Irrational Numbers",
+      "Algebraic Proof",
+      "Sets and Set Notation"
+    ],
+    "images": []
+  },
+  {
+    "id": 131,
+    "category": "Proof, Sets & Logic",
+    "topic": "Proof by Deduction and Exhaustion",
+    "explanation": "Proof by deduction uses logical steps and known facts/rules to build a chain of reasoning from given premises to a conclusion. Proof by exhaustion instead checks every single possible case individually, concluding the statement is true because it holds in each and every case \u2014 this only works when there are a small, finite number of possible cases.",
+    "key_concepts": [
+      "Deduction: reason logically from known facts/rules to a conclusion, applicable to general (infinite) cases",
+      "Exhaustion: check every possible case individually \u2014 only feasible for a small, finite number of cases",
+      "Exhaustion is often used for statements about a limited range of integers or specific categories",
+      "Deduction is more powerful and general but requires identifying the right logical steps"
+    ],
+    "definitions": [
+      {
+        "term": "Proof by Deduction",
+        "definition": "A proof method that uses logical reasoning from established facts and definitions to reach a general conclusion."
+      },
+      {
+        "term": "Proof by Exhaustion",
+        "definition": "A proof method that checks every possible individual case to confirm a statement holds in all of them."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Prove by exhaustion that every prime number greater than 3 leaves a remainder of 1 or 5 when divided by 6.",
+        "solution_steps": [
+          "Every integer can be written in one of six forms based on remainder when divided by 6: 6k, 6k+1, 6k+2, 6k+3, 6k+4, 6k+5",
+          "6k, 6k+2, 6k+4 are all even (divisible by 2), so cannot be prime (except 2 itself)",
+          "6k+3 is divisible by 3, so cannot be prime (except 3 itself)",
+          "This leaves only 6k+1 and 6k+5 as possible forms for primes greater than 3"
+        ],
+        "answer": "Every prime greater than 3 must be of the form 6k+1 or 6k+5 (i.e. leaves remainder 1 or 5 when divided by 6)."
+      },
+      {
+        "problem": "Use deduction to show that if a number is divisible by 6, it must also be divisible by 2 and 3.",
+        "solution_steps": [
+          "By definition, 6 = 2\u00d73",
+          "If a number n is divisible by 6, then n = 6m for some integer m",
+          "n = 6m = 2(3m), so n is divisible by 2",
+          "n = 6m = 3(2m), so n is divisible by 3"
+        ],
+        "answer": "Proven by deduction: divisibility by 6 implies divisibility by both 2 and 3."
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Explain the key difference between proof by deduction and proof by exhaustion.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Use proof by exhaustion to show that the square of any integer from 1 to 5 is either odd or a multiple of 4.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Deduction uses logical reasoning from general facts to reach a conclusion valid for all cases; exhaustion checks every individual possible case one by one, which only works for a small, finite set of cases.",
+      "1\u00b2=1 (odd), 2\u00b2=4 (multiple of 4), 3\u00b2=9 (odd), 4\u00b2=16 (multiple of 4), 5\u00b2=25 (odd). All cases confirm the statement."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Prove by exhaustion that n\u00b2 + n is even for every integer n from -2 to 2.",
+        "marks": 4,
+        "answer": "n=-2: 4-2=2 (even). n=-1: 1-1=0 (even). n=0: 0 (even). n=1: 1+1=2 (even). n=2: 4+2=6 (even). All cases confirm n\u00b2+n is even in this range."
+      }
+    ],
+    "common_mistakes": [
+      "Attempting proof by exhaustion on an infinite set of cases (not feasible)",
+      "Missing a case when using exhaustion",
+      "Confusing deduction with induction (deduction doesn't require a base case/inductive step structure)"
+    ],
+    "tips": [
+      "Only use proof by exhaustion when the problem explicitly limits you to a small, checkable number of cases \u2014 otherwise, look for a deductive or algebraic approach instead."
+    ],
+    "summary": "Proof by deduction reasons logically from known facts to a general conclusion; proof by exhaustion checks every possible case individually, suitable only for finite scenarios.",
+    "quick_revision_notes": [
+      "Deduction: logical reasoning, works for infinite cases",
+      "Exhaustion: check every case, only for finite/small sets"
+    ],
+    "related_prerequisite_topics": [
+      "Algebraic Proof",
+      "Divisibility Rules",
+      "Prime Numbers"
+    ],
+    "images": []
+  },
+  {
+    "id": 132,
+    "category": "Proof, Sets & Logic",
+    "topic": "Sets and Set Notation",
+    "explanation": "A set is a well-defined collection of distinct objects, called elements or members. Sets are usually written using curly brackets, e.g. {1, 2, 3, 4}, and set notation provides symbols to describe membership, subsets, and special sets like the empty set. Sets underpin much of probability, logic, and advanced mathematics.",
+    "key_concepts": [
+      "A set is a collection of distinct objects, written with curly brackets {}",
+      "\u2208 means 'is an element of'; \u2209 means 'is not an element of'",
+      "A subset (\u2286) is a set whose elements are all contained within another set",
+      "\u2205 (or {}) represents the empty set, which has no elements",
+      "|A| denotes the number of elements in set A (its cardinality)"
+    ],
+    "definitions": [
+      {
+        "term": "Set",
+        "definition": "A well-defined collection of distinct objects, called elements or members."
+      },
+      {
+        "term": "Subset",
+        "definition": "A set where every element also belongs to another (larger) set, written A \u2286 B."
+      },
+      {
+        "term": "Empty Set",
+        "definition": "The set containing no elements, denoted \u2205 or {}."
+      },
+      {
+        "term": "Universal Set",
+        "definition": "The set containing all elements under consideration in a given context, often denoted \u03be or U."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Let A = {2, 4, 6, 8}. Is 5 \u2208 A? Is 4 \u2208 A?",
+        "solution_steps": [
+          "Check if 5 is listed in set A: it is not",
+          "Check if 4 is listed in set A: it is"
+        ],
+        "answer": "5 \u2209 A; 4 \u2208 A"
+      },
+      {
+        "problem": "Let A = {1, 2, 3} and B = {1, 2, 3, 4, 5}. Is A \u2286 B?",
+        "solution_steps": [
+          "Check if every element of A is also in B: 1\u2208B, 2\u2208B, 3\u2208B \u2014 all true"
+        ],
+        "answer": "Yes, A \u2286 B"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Let A = {3, 6, 9, 12}. State whether 9 \u2208 A and whether 10 \u2208 A.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "List all subsets of the set {1, 2}.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "9 \u2208 A is true; 10 \u2208 A is false",
+      "\u2205, {1}, {2}, {1,2} \u2014 four subsets in total"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The universal set \u03be = {1,2,3,...,10}. Let A = {2,4,6,8,10}. List the elements NOT in A (i.e. the complement of A).",
+        "marks": 2,
+        "answer": "A' = {1,3,5,7,9}"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing \u2208 (element of) with \u2286 (subset of) \u2014 these apply to individual elements versus whole sets",
+      "Forgetting that the empty set is a subset of every set",
+      "Listing repeated elements in a set (sets only contain distinct/unique elements)"
+    ],
+    "tips": [
+      "A set with n elements has 2\u207f possible subsets (including the empty set and the set itself) \u2014 useful as a quick check."
+    ],
+    "summary": "A set is a collection of distinct elements, described using notation like \u2208, \u2286, \u2205, and |A|, forming the foundation of set operations and probability.",
+    "quick_revision_notes": [
+      "\u2208 = 'is an element of'",
+      "\u2286 = 'is a subset of'",
+      "\u2205 = empty set",
+      "|A| = number of elements in A"
+    ],
+    "related_prerequisite_topics": [
+      "Venn Diagrams",
+      "Set Operations (Union, Intersection, Complement)"
+    ],
+    "images": []
+  },
+  {
+    "id": 133,
+    "category": "Proof, Sets & Logic",
+    "topic": "Set Operations (Union, Intersection, Complement)",
+    "explanation": "Set operations combine or compare sets to form new sets. The union (A \u222a B) contains all elements in A, B, or both. The intersection (A \u2229 B) contains only elements in both A and B. The complement (A') contains all elements in the universal set that are NOT in A. These operations are often visualized using Venn diagrams.",
+    "key_concepts": [
+      "Union (A \u222a B): all elements in A OR B (or both), with no duplicates",
+      "Intersection (A \u2229 B): only elements in BOTH A and B",
+      "Complement (A'): all elements in the universal set NOT in A",
+      "Venn diagrams visually represent these operations using overlapping circles"
+    ],
+    "definitions": [
+      {
+        "term": "Union",
+        "definition": "The set of all elements that belong to at least one of two given sets, written A \u222a B."
+      },
+      {
+        "term": "Intersection",
+        "definition": "The set of all elements that belong to both of two given sets, written A \u2229 B."
+      },
+      {
+        "term": "Complement",
+        "definition": "The set of all elements in the universal set that do not belong to a given set, written A'."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Union-intersection size relationship",
+        "formula": "|A \u222a B| = |A| + |B| - |A \u2229 B|",
+        "notes": "Prevents double-counting elements in both sets"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Let A = {1,2,3,4} and B = {3,4,5,6}. Find A \u222a B and A \u2229 B.",
+        "solution_steps": [
+          "Union: combine all elements, no duplicates: {1,2,3,4,5,6}",
+          "Intersection: elements in both: {3,4}"
+        ],
+        "answer": "A \u222a B = {1,2,3,4,5,6}; A \u2229 B = {3,4}"
+      },
+      {
+        "problem": "The universal set \u03be = {1,2,...,10}. Let A = {2,4,6,8,10}. Find A'.",
+        "solution_steps": [
+          "List all elements of \u03be not in A"
+        ],
+        "answer": "A' = {1,3,5,7,9}"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Let A={2,4,6} and B={4,6,8}. Find A \u222a B and A \u2229 B.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "If |A|=12, |B|=9, and |A\u2229B|=4, find |A\u222aB|.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "A\u222aB={2,4,6,8}; A\u2229B={4,6}",
+      "17 (12+9-4)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "In a class of 30 students, 18 study French, 15 study Spanish, and 8 study both. How many students study neither language?",
+        "marks": 4,
+        "answer": "|French\u222aSpanish| = 18+15-8 = 25. Students studying neither = 30-25 = 5"
+      }
+    ],
+    "common_mistakes": [
+      "Double-counting elements that appear in both sets when finding the union",
+      "Confusing union (\u222a, 'or') with intersection (\u2229, 'and')",
+      "Forgetting to subtract the intersection when using the union-size formula"
+    ],
+    "tips": [
+      "Remember: \u222a looks like a cup that 'holds everything' (union = combine all); \u2229 looks like an upside-down cup that 'catches only the overlap' (intersection = only shared elements)."
+    ],
+    "summary": "Set operations combine sets via union (\u222a, combining), intersection (\u2229, overlap only), and complement (', everything else), often visualized with Venn diagrams.",
+    "quick_revision_notes": [
+      "A\u222aB: in A or B",
+      "A\u2229B: in both A and B",
+      "A': not in A (within universal set)",
+      "|A\u222aB|=|A|+|B|-|A\u2229B|"
+    ],
+    "related_prerequisite_topics": [
+      "Sets and Set Notation",
+      "Venn Diagrams"
+    ],
+    "images": [
+      {
+        "filename": "setoperations-133-venn.svg",
+        "type": "concept_map",
+        "description": "Two overlapping circles labelled A and B, with the overlapping region labelled A\u2229B.",
+        "purpose": "Visually shows how intersection represents the shared region between two sets.",
+        "placement": "After the Key Concepts section"
+      }
+    ]
+  }
+]

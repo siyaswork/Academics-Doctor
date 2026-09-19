@@ -29,6 +29,13 @@ function loadLocalNotes(): Note[] {
 type SaveKind = 'meta' | 'content' | 'both'
 export type SaveStatus = 'idle' | 'saving' | 'saved' | 'error'
 
+/**
+ * Inactivity window for the debounced autosave. Typing faster than this never
+ * triggers a request; the save fires once the user pauses (or immediately on
+ * blur via flushNoteSave).
+ */
+const SAVE_DEBOUNCE_MS = 650
+
 function mergeSaveKind(existing: SaveKind | undefined, next: SaveKind): SaveKind {
   if (!existing || existing === next) return next
   return 'both'
@@ -48,6 +55,8 @@ interface NotesContextType {
   appendBlock: (noteId: string, block: RichTextContent) => void
   saveNote: (noteId: string) => void
   loadNoteContent: (noteId: string) => Promise<void>
+  /** Immediately flush any pending debounced save for a note (used on blur). */
+  flushNoteSave: (noteId: string) => void
 }
 
 const NotesContext = createContext<NotesContextType | undefined>(undefined)
@@ -70,7 +79,13 @@ export const NotesProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
   // Pending saves: noteId → what needs to be written ('meta', 'content', or 'both')
   const pendingSave = useRef<Map<string, SaveKind>>(new Map())
-  const saveTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const dirtyContent = useRef<Set<string>>(new Set())
+  // One debounce timer per note so saves fire per block of edits, not globally.
+  const saveTimers = useRef<Map<string, ReturnType<typeof setTimeout>>>(new Map())
+  // In-flight content flush per note; a newer flush aborts the older one so a
+  // stale response can never overwrite newer state.
+  const contentFlush = useRef<Map<string, { controller: AbortController; seq: number }>>(new Map())
+  const contentFlushSeq = useRef(0)
 
   const currentNote = currentNoteId ? notes.find((n) => n.id === currentNoteId) || null : null
 
@@ -113,7 +128,8 @@ export const NotesProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   const flushSaves = useCallback(async () => {
     const pending = new Map(pendingSave.current)
     pendingSave.current.clear()
-    saveTimer.current = null
+    saveTimers.current.forEach((timer) => clearTimeout(timer))
+    saveTimers.current.clear()
     if (!pending.size) return
 
     setSaveStatus('saving')
@@ -121,32 +137,82 @@ export const NotesProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     for (const [noteId, kind] of pending) {
       const note = notesRef.current.find((n) => n.id === noteId)
       if (!note) continue
-      try {
-        if (kind === 'meta' || kind === 'both') {
+      if (kind === 'meta' || kind === 'both') {
+        try {
           const { error } = await dbUpdateNote(noteId, { title: note.title, color: note.color })
           if (error) anyError = true
+        } catch {
+          anyError = true
         }
-        if (kind === 'content' || kind === 'both') {
-          const { error } = await replaceBlocksForNote(noteId, note.content)
-          if (error) anyError = true
+      }
+      if (kind === 'content' || kind === 'both') {
+        // Snapshot the content at flush time so a late resolution can never be
+        // mistaken for a save of edits made after this flush started.
+        const content = notesRef.current.find((n) => n.id === noteId)?.content
+        if (!content) continue
+
+        // Cancel any older in-flight flush for this note — only the newest
+        // initiated request is allowed to complete client-side.
+        contentFlush.current.get(noteId)?.controller.abort()
+        const controller = new AbortController()
+        const seq = ++contentFlushSeq.current
+        contentFlush.current.set(noteId, { controller, seq })
+
+        try {
+          const { error, aborted } = await replaceBlocksForNote(noteId, content, controller.signal)
+          // A superseded flush must not touch shared state: its writes are
+          // stale and its AbortError is expected, not a user-visible failure.
+          if (aborted || contentFlush.current.get(noteId)?.seq !== seq) continue
+          contentFlush.current.delete(noteId)
+          if (error) {
+            anyError = true
+          } else {
+            dirtyContent.current.delete(noteId)
+          }
+        } catch (error) {
+          if (contentFlush.current.get(noteId)?.seq !== seq) continue
+          contentFlush.current.delete(noteId)
+          if (error instanceof Error && error.name === 'AbortError') continue
+          anyError = true
         }
-      } catch {
-        anyError = true
       }
     }
     setSaveStatus(anyError ? 'error' : 'saved')
   }, [])
 
   // Schedule a debounced Supabase write for a given note.
-  // Accumulates multiple rapid edits so we do at most one write per 1.2 s of silence.
+  // Accumulates rapid edits so a save fires only after SAVE_DEBOUNCE_MS of
+  // inactivity for that note — never on every keystroke.
   const scheduleSave = useCallback(
     (noteId: string, kind: SaveKind) => {
       if (!user) return
       pendingSave.current.set(noteId, mergeSaveKind(pendingSave.current.get(noteId), kind))
-      if (saveTimer.current) clearTimeout(saveTimer.current)
-      saveTimer.current = setTimeout(flushSaves, 1200)
+      const existing = saveTimers.current.get(noteId)
+      if (existing) clearTimeout(existing)
+      saveTimers.current.set(
+        noteId,
+        setTimeout(() => {
+          saveTimers.current.delete(noteId)
+          void flushSaves()
+        }, SAVE_DEBOUNCE_MS),
+      )
     },
     [user, flushSaves],
+  )
+
+  // Immediately flush any pending debounced save for a note (e.g. on blur) so
+  // un-saved edits are sent right away instead of waiting out the timer.
+  const flushNoteSave = useCallback(
+    (noteId: string) => {
+      if (!pendingSave.current.has(noteId)) return
+      const timer = saveTimers.current.get(noteId)
+      if (timer) {
+        clearTimeout(timer)
+        saveTimers.current.delete(noteId)
+      }
+      void flushSaves()
+    },
+    [flushSaves],
   )
 
   const createNote = useCallback(
@@ -182,9 +248,11 @@ export const NotesProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
   const updateNote = useCallback(
     (noteId: string, updates: Partial<Note>) => {
-      setNotes((prev) =>
-        prev.map((note) => (note.id === noteId ? { ...note, ...updates, updatedAt: new Date() } : note)),
-      )
+      setNotes((prev) => {
+        const next = prev.map((note) => (note.id === noteId ? { ...note, ...updates, updatedAt: new Date() } : note))
+        notesRef.current = next
+        return next
+      })
       scheduleSave(noteId, 'meta')
     },
     [scheduleSave],
@@ -192,9 +260,12 @@ export const NotesProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
   const updateNoteContent = useCallback(
     (noteId: string, content: RichTextContent[]) => {
-      setNotes((prev) =>
-        prev.map((note) => (note.id === noteId ? { ...note, content, updatedAt: new Date() } : note)),
-      )
+      setNotes((prev) => {
+        const next = prev.map((note) => (note.id === noteId ? { ...note, content, updatedAt: new Date() } : note))
+        notesRef.current = next
+        return next
+      })
+      dirtyContent.current.add(noteId)
       scheduleSave(noteId, 'content')
     },
     [scheduleSave],
@@ -202,13 +273,16 @@ export const NotesProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
   const appendBlock = useCallback(
     (noteId: string, block: RichTextContent) => {
-      setNotes((prev) =>
-        prev.map((note) =>
+      setNotes((prev) => {
+        const next = prev.map((note) =>
           note.id === noteId
             ? { ...note, content: [...note.content, block], updatedAt: new Date() }
             : note,
-        ),
-      )
+        )
+        notesRef.current = next
+        return next
+      })
+      dirtyContent.current.add(noteId)
       scheduleSave(noteId, 'content')
     },
     [scheduleSave],
@@ -245,7 +319,7 @@ export const NotesProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     async (noteId: string) => {
       if (!user) return
       const { note, blocks, error } = await getNoteWithBlocks(noteId)
-      if (error || !note) return
+      if (error || !note || dirtyContent.current.has(noteId)) return
       const content = dbBlocksToFrontContent(blocks)
       setNotes((prev) =>
         prev.map((n) =>
@@ -277,6 +351,7 @@ export const NotesProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     appendBlock,
     saveNote,
     loadNoteContent,
+    flushNoteSave,
   }
 
   return <NotesContext.Provider value={value}>{children}</NotesContext.Provider>

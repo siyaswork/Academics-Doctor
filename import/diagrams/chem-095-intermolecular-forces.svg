@@ -1,0 +1,16 @@
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg">
+<rect width="700" height="340" fill="#ffffff"/>
+<text x="350" y="30" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Types of Intermolecular Force (weakest to strongest)</text>
+<rect x="60" y="65" width="580" height="55" fill="#a8dadc" opacity="0.15" stroke="#a8dadc" stroke-width="1.5"/>
+<text x="80" y="87" font-family="Arial, sans-serif" font-size="13" text-anchor="start" font-weight="bold" fill="#a8dadc">London dispersion forces</text>
+<text x="80" y="108" font-family="Arial, sans-serif" font-size="10" text-anchor="start" font-weight="normal" fill="#1a1a1a">Present between ALL molecules; strength increases with more electrons/larger molecules</text>
+<rect x="60" y="145" width="580" height="55" fill="#457b9d" opacity="0.15" stroke="#457b9d" stroke-width="1.5"/>
+<text x="80" y="167" font-family="Arial, sans-serif" font-size="13" text-anchor="start" font-weight="bold" fill="#457b9d">Permanent dipole-dipole forces</text>
+<text x="80" y="188" font-family="Arial, sans-serif" font-size="10" text-anchor="start" font-weight="normal" fill="#1a1a1a">Between polar molecules with a permanent uneven charge distribution</text>
+<rect x="60" y="225" width="580" height="55" fill="#1d3557" opacity="0.15" stroke="#1d3557" stroke-width="1.5"/>
+<text x="80" y="247" font-family="Arial, sans-serif" font-size="13" text-anchor="start" font-weight="bold" fill="#1d3557">Hydrogen bonding</text>
+<text x="80" y="268" font-family="Arial, sans-serif" font-size="10" text-anchor="start" font-weight="normal" fill="#1a1a1a">Strongest type; requires H bonded to N, O or F with a lone pair on a nearby N, O or F</text>
+<defs><marker id="a5" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#333"/></marker></defs>
+<line x1="660" y1="70" x2="660" y2="290" stroke="#333" stroke-width="2" marker-end="url(#a5)"/>
+<text x="680" y="180" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" transform="rotate(90 680 180)" font-weight="normal" fill="#1a1a1a">increasing strength</text>
+</svg>

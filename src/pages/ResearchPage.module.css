@@ -59,7 +59,7 @@
   border: 0;
   border-radius: var(--radius-sm);
   background: var(--color-primary);
-  color: #fff;
+  color: var(--color-surface);
   cursor: pointer;
   font-weight: var(--font-weight-semibold);
 }

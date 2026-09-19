@@ -1,0 +1,772 @@
+{
+  "batch": "02",
+  "category": "Atomic Structure",
+  "topics_in_batch": 14,
+  "topics_completed_so_far": 24,
+  "topics_remaining_total": 479,
+  "topics": [
+
+    {
+      "id": "chem-011-elements",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Elements",
+      "difficulty": "Foundation",
+      "description": "Elements as the simplest pure substances, represented by unique chemical symbols and arranged on the periodic table.",
+      "learning_objectives": [
+        "Define an element and state how many are currently known",
+        "Write and interpret chemical symbols correctly",
+        "Explain why some chemical symbols do not match the English name of the element"
+      ],
+      "explanation": "An element is a pure substance made of only one type of atom; it cannot be broken down into anything simpler by chemical means. There are 118 confirmed elements, each with a unique chemical symbol of one or two letters (the first letter always capital, the second, if present, always lowercase). Most elements occur naturally; some (mostly with very high atomic numbers) are synthetic, made artificially in laboratories and are often unstable/radioactive. Many symbols come directly from the modern English name (e.g. C for carbon, O for oxygen), but some come from Latin or other historical names (e.g. Na for sodium from 'natrium', Fe for iron from 'ferrum', Pb for lead from 'plumbum', K for potassium from 'kalium'). Every element has a fixed position on the periodic table, determined by its atomic number (see Periodic Table category).",
+      "key_concepts": ["Element definition", "Chemical symbols", "Natural vs synthetic elements", "Historical/Latin-derived symbols"],
+      "definitions": [
+        {"term": "Element", "definition": "A pure substance made of only one type of atom, which cannot be broken down into simpler substances by chemical means."},
+        {"term": "Chemical symbol", "definition": "A one- or two-letter abbreviation representing an element, with the first letter capitalised and any second letter lowercase."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Iron and aluminium as structural metals in construction", "Copper as an electrical conductor", "Silicon in electronics"],
+      "laboratory_applications": ["Observing the distinct physical appearance and properties of elemental samples (e.g. metallic lustre of copper, brittle non-metallic appearance of sulfur)"],
+      "common_mistakes": [
+        "Writing chemical symbols with incorrect capitalisation, e.g. writing 'co' or 'CO' for cobalt (Co) — 'CO' is actually the formula for carbon monoxide, a compound",
+        "Assuming an element's symbol always matches the first letter(s) of its modern English name"
+      ],
+      "misconceptions": ["Believing all 118 elements exist in significant natural quantities — many of the heaviest elements are synthetic and exist only briefly in laboratory conditions"],
+      "tips": ["Learn the Latin-derived symbols separately as a short list: Na (sodium), K (potassium), Fe (iron), Cu (copper), Ag (silver), Au (gold), Sn (tin), Pb (lead), Sb (antimony), Hg (mercury), W (tungsten)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Give the chemical symbol for iron.", "answer": "Fe"},
+          {"question": "State the definition of an element.", "answer": "A pure substance made of only one type of atom, which cannot be broken down into simpler substances by chemical means."}
+        ],
+        "intermediate": [
+          {"question": "Explain why 'Co' and 'CO' represent different things in chemistry.", "answer": "'Co' (capital C, lowercase o) is the chemical symbol for the element cobalt, a single type of atom. 'CO' (two capital letters) is the chemical formula for carbon monoxide, a compound made of one carbon atom and one oxygen atom bonded together."}
+        ],
+        "advanced": [
+          {"question": "Explain why the symbol for sodium is 'Na' rather than 'So' or 'S'.", "answer": "The symbol Na comes from the element's Latin name, 'natrium', rather than its modern English name 'sodium'. This naming pattern is common for elements that were known and named in antiquity or by early chemists using Latin, before modern English names became standard. ('S' is unavailable as it is already used for sulfur.)"}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "State the chemical symbols for potassium and lead, and explain why neither symbol begins with the first letter of its modern English name.", "marks": 3, "model_answer": "Potassium = K; Lead = Pb (1 mark each). Both symbols are derived from the elements' Latin names ('kalium' and 'plumbum' respectively), which were used historically before the modern English names became standard, and the Latin-derived symbols have remained in use (1 mark)."}
+      ],
+      "summary": "Elements are pure substances of one atom type, represented by unique one- or two-letter chemical symbols. 118 elements are known; most occur naturally, while the heaviest are synthetic. Some symbols reflect Latin rather than English names.",
+      "revision_notes": ["Element = one type of atom, cannot be broken down chemically", "Symbol: first letter capital, second (if any) lowercase", "Learn Latin-derived symbols as a specific list"],
+      "related_topics": ["Compounds", "Mixtures", "Development of the Periodic Table"],
+      "prerequisites": ["Introduction to Matter"],
+      "diagram_recommendations": ["[DIAGRAM: Selection of element symbols matched to samples/uses, e.g. Fe, Cu, Au, O, C]"]
+    },
+
+    {
+      "id": "chem-012-compounds",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Compounds",
+      "difficulty": "Foundation",
+      "description": "Pure substances formed when two or more elements chemically combine in a fixed ratio, with properties different from their constituent elements.",
+      "learning_objectives": [
+        "Define a compound and distinguish it from an element and a mixture",
+        "Explain why compounds have different properties from the elements that form them",
+        "Write and interpret simple chemical formulae for compounds"
+      ],
+      "explanation": "A compound forms when two or more different elements chemically bond together in a fixed, whole-number ratio of atoms. Because chemical bonds form (ionic, covalent, or metallic — see Chemical Bonding), the resulting compound has entirely different chemical and physical properties from the elements it is made from. For example, sodium is a soft, highly reactive metal and chlorine is a toxic green gas, but together they form sodium chloride, an unreactive white solid that is safe to eat. A compound's formula shows the ratio of atoms present, using element symbols and subscript numbers (e.g. H2O shows 2 hydrogen atoms to 1 oxygen atom). Compounds can only be broken down into their elements by a chemical reaction (such as electrolysis or thermal decomposition), not by physical methods.",
+      "key_concepts": ["Fixed ratio of elements in a compound", "Properties of compounds differ from their elements", "Chemical formula notation", "Compounds broken down only by chemical reactions"],
+      "definitions": [
+        {"term": "Compound", "definition": "A pure substance made of two or more elements chemically combined in a fixed ratio."},
+        {"term": "Chemical formula", "definition": "A representation of a compound using element symbols and subscript numbers to show the ratio of atoms present."}
+      ],
+      "formulae": [],
+      "equations": ["Formation example: sodium + chlorine → sodium chloride (2Na + Cl2 → 2NaCl)"],
+      "worked_examples": [
+        {
+          "problem": "Interpret the formula Na2CO3 in terms of the number and type of atoms present.",
+          "working": "Na2CO3 contains: 2 sodium (Na) atoms, 1 carbon (C) atom, and 3 oxygen (O) atoms, in the ratio 2:1:3.",
+          "answer": "2 sodium atoms, 1 carbon atom, 3 oxygen atoms per formula unit."
+        }
+      ],
+      "practical_applications": ["Table salt (NaCl), water (H2O) and carbon dioxide (CO2) as everyday compounds essential to life and industry"],
+      "laboratory_applications": ["Decomposing a compound (e.g. heating copper carbonate) to demonstrate that compounds can only be separated into elements/simpler compounds by chemical reactions, not physical methods"],
+      "common_mistakes": [
+        "Assuming a compound retains the properties of its constituent elements (e.g. expecting sodium chloride to be dangerous because sodium and chlorine individually are)",
+        "Misreading subscript numbers in a formula, e.g. confusing CO (carbon monoxide) with Co (cobalt) or misreading H2O2 (hydrogen peroxide) as the same as H2O"
+      ],
+      "misconceptions": ["Believing compounds can be separated back into their elements by simple physical methods such as filtration or evaporation — a chemical reaction is required"],
+      "tips": ["When reading a formula, each element's subscript applies only to the symbol immediately before it, unless brackets are used to group atoms, e.g. Ca(OH)2 means 1 Ca, 2 O, 2 H"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a compound.", "answer": "A pure substance made of two or more elements chemically combined in a fixed ratio."},
+          {"question": "State how many atoms of each element are present in one molecule of CO2.", "answer": "1 carbon atom and 2 oxygen atoms."}
+        ],
+        "intermediate": [
+          {"question": "Explain, using sodium chloride as an example, why a compound can have very different properties from the elements that form it.", "answer": "Sodium is a soft, highly reactive metal, and chlorine is a toxic, reactive green gas. When they react, their atoms form strong ionic bonds and rearrange into a completely new structure (a giant ionic lattice), giving sodium chloride entirely different properties — it is a stable, unreactive, non-toxic white solid, because the chemical bonding has fundamentally changed how the particles are held together and behave."},
+          {"question": "State the number of atoms of each element in Ca(OH)2.", "answer": "1 calcium atom, 2 oxygen atoms, 2 hydrogen atoms."}
+        ],
+        "advanced": [
+          {"question": "Explain why a compound cannot be separated into its elements by filtration or evaporation, referring to the nature of chemical bonding.", "answer": "In a compound, atoms of different elements are held together by strong chemical bonds (ionic, covalent or metallic), forming genuinely new particles or structures rather than a physical mixture of separate substances. Physical separation methods like filtration and evaporation only separate substances that are not chemically bonded (e.g. based on solubility or particle size); they cannot break the strong chemical bonds holding a compound's atoms together, so only a chemical reaction, which provides enough energy to break and reform bonds, can separate a compound into its elements."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Magnesium oxide (MgO) is formed when magnesium burns in oxygen. Explain, in terms of atoms and bonding, why magnesium oxide is a compound and describe one way its formula shows this.", "marks": 3, "model_answer": "Magnesium oxide is a compound because it contains two different elements (magnesium and oxygen) chemically bonded together in a fixed ratio (1 mark). The formula MgO shows this ratio directly: one magnesium atom is combined with one oxygen atom (1 mark). Because the atoms are chemically bonded, the compound has different properties to the individual elements magnesium (a reactive metal) and oxygen (a reactive gas) (1 mark)."}
+      ],
+      "summary": "Compounds are pure substances formed when elements chemically bond in fixed ratios, giving properties distinct from their constituent elements. Their formulae show this fixed ratio using symbols and subscripts. Only chemical reactions, not physical methods, can separate a compound into its elements.",
+      "revision_notes": ["Compound = 2+ elements, chemically bonded, fixed ratio", "Formula shows atom ratio via subscripts", "Only chemical reactions break compounds into elements"],
+      "related_topics": ["Elements", "Mixtures", "Chemical Formulae", "Chemical Bonds"],
+      "prerequisites": ["Elements"],
+      "diagram_recommendations": ["[DIAGRAM: Sodium and chlorine reacting to form sodium chloride, showing property change]"]
+    },
+
+    {
+      "id": "chem-013-mixtures",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Mixtures",
+      "difficulty": "Foundation",
+      "description": "Combinations of two or more substances that are not chemically bonded, including homogeneous and heterogeneous mixtures, and how they differ from compounds.",
+      "learning_objectives": [
+        "Define a mixture and distinguish homogeneous from heterogeneous mixtures",
+        "Give examples of solutions, suspensions and colloids as types of mixture",
+        "Explain why mixtures can be separated by physical methods"
+      ],
+      "explanation": "A mixture contains two or more substances that are physically combined, not chemically bonded, so each substance keeps its own chemical properties and the mixture can be separated by physical methods (filtration, distillation, chromatography, etc. — see Laboratory & Practical Skills). A homogeneous mixture has a uniform composition throughout, so you cannot see the different components (e.g. salt water, air). A heterogeneous mixture has visibly different regions or components (e.g. sand and water, a salad). A solution is a homogeneous mixture where a solute is completely dissolved in a solvent; a suspension is a heterogeneous mixture where solid particles are dispersed but will settle out over time; a colloid has particles intermediate in size between a solution and a suspension, dispersed throughout but not settling out (e.g. milk, fog). Unlike compounds, mixtures can have variable composition (e.g. salt water can be more or less salty).",
+      "key_concepts": ["Homogeneous vs heterogeneous mixtures", "Solutions, suspensions and colloids", "Variable composition of mixtures", "Physical separation of mixtures"],
+      "definitions": [
+        {"term": "Mixture", "definition": "Two or more substances physically combined, not chemically bonded, which can be separated by physical methods and can have variable composition."},
+        {"term": "Homogeneous mixture", "definition": "A mixture with uniform composition throughout, so individual components cannot be visually distinguished."},
+        {"term": "Heterogeneous mixture", "definition": "A mixture with non-uniform composition, where different components or regions can be visually distinguished."},
+        {"term": "Solution", "definition": "A homogeneous mixture formed when a solute dissolves completely in a solvent."},
+        {"term": "Suspension", "definition": "A heterogeneous mixture in which solid particles are dispersed in a liquid but will settle out over time."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Air (a homogeneous gas mixture) supports combustion and respiration", "Alloys such as brass and steel are solid mixtures with enhanced properties compared to pure metals"],
+      "laboratory_applications": ["Distinguishing a solution from a suspension by observing whether particles settle out or scatter light (Tyndall effect, for colloids) over time", "Choosing a separation technique (filtration, distillation, chromatography, crystallisation) based on the type of mixture involved"],
+      "common_mistakes": [
+        "Calling salt water a compound because it 'looks like' one substance — it is a homogeneous mixture (solution), since salt and water are not chemically bonded and can be separated by distillation",
+        "Assuming a mixture must look visibly non-uniform — homogeneous mixtures look uniform but are still mixtures"
+      ],
+      "misconceptions": ["Believing colloids are simply 'solutions with bigger particles' — colloids have distinct light-scattering behaviour (the Tyndall effect) and do not fully dissolve, unlike true solutions"],
+      "tips": ["To test if something is a mixture, ask whether it could (in principle) be separated by a physical method without a chemical reaction — if yes, it is a mixture"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Give one example each of a homogeneous mixture and a heterogeneous mixture.", "answer": "Homogeneous: salt water (or air); Heterogeneous: sand and water (or a salad)."},
+          {"question": "State one physical method that could separate a mixture of sand and water.", "answer": "Filtration."}
+        ],
+        "intermediate": [
+          {"question": "Explain the difference between a solution and a suspension, and how you could distinguish one from the other experimentally.", "answer": "A solution is a homogeneous mixture where the solute has completely dissolved in the solvent and will not settle out over time. A suspension is a heterogeneous mixture where solid particles remain dispersed but not dissolved, and will settle out if left undisturbed. To distinguish them, leave the sample undisturbed: a suspension will show visible settling/sediment over time, while a solution will not."},
+          {"question": "Explain why air is classified as a mixture rather than a compound.", "answer": "Air contains several different gases (mainly nitrogen and oxygen, with smaller amounts of others) that are not chemically bonded to one another; each gas keeps its own separate chemical properties, the proportions can vary slightly, and the gases can be separated from each other by physical methods (e.g. fractional distillation of liquid air), all of which are properties of a mixture, not a compound."}
+        ],
+        "advanced": [
+          {"question": "Explain, using the idea of particle size, why a colloid such as milk appears cloudy and scatters light, while a true solution such as salt water appears clear.", "answer": "In a true solution, the solute particles (ions or molecules) are extremely small — smaller than the wavelength of visible light — so light passes through without significant scattering, giving a clear appearance. In a colloid, the dispersed particles are larger (though still too small to settle out like a suspension), large enough to scatter visible light in many directions as it passes through (the Tyndall effect), which is why colloids like milk appear cloudy or opaque rather than clear."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "A student is given a cloudy liquid and asked to determine whether it is a solution, a suspension, or a colloid. Describe one test they could carry out and explain how the result would help them decide.", "marks": 3, "model_answer": "The student could leave the liquid undisturbed for a period of time and observe whether any solid settles at the bottom (1 mark). If solid settles out, the liquid is a suspension (1 mark). If no solid settles but the liquid remains cloudy and scatters a beam of light shone through it (Tyndall effect), it is a colloid; if the liquid is clear and no scattering occurs, it is a true solution (1 mark)."}
+      ],
+      "summary": "Mixtures contain substances that are physically, not chemically, combined, and so can have variable composition and be separated by physical methods. Homogeneous mixtures (including solutions) appear uniform; heterogeneous mixtures (including suspensions) show visible differences; colloids are intermediate, scattering light without settling.",
+      "revision_notes": ["Mixture: physically combined, variable ratio, separable physically", "Homogeneous = uniform; Heterogeneous = non-uniform", "Solution: fully dissolved; Suspension: settles out; Colloid: scatters light, doesn't settle"],
+      "related_topics": ["Elements", "Compounds", "Solubility", "Filtration, Evaporation and Crystallisation"],
+      "prerequisites": ["Compounds"],
+      "diagram_recommendations": ["[DIAGRAM: Comparison of particle arrangement in a solution, suspension and colloid]"]
+    },
+
+    {
+      "id": "chem-014-atoms",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Atoms",
+      "difficulty": "Foundation",
+      "description": "The atom as the basic building block of elements, consisting of a nucleus (protons and neutrons) surrounded by electrons.",
+      "learning_objectives": [
+        "Describe the basic structure of an atom",
+        "State the relative size of the nucleus compared to the whole atom",
+        "Explain that atoms are electrically neutral overall"
+      ],
+      "explanation": "An atom is the smallest particle of an element that retains the chemical identity of that element. Every atom has a tiny, extremely dense central nucleus, containing positively charged protons and (in all elements except common hydrogen) neutral neutrons, surrounded by negatively charged electrons occupying the much larger surrounding space in shells (energy levels). The nucleus, although it contains almost all of the atom's mass, occupies only a very tiny fraction of the atom's total volume — most of an atom is empty space. In a neutral atom, the number of protons equals the number of electrons, so the positive and negative charges balance exactly, giving the atom no overall charge.",
+      "key_concepts": ["Nucleus (protons + neutrons)", "Electrons in shells around the nucleus", "Atoms are mostly empty space", "Neutral charge of atoms"],
+      "definitions": [
+        {"term": "Atom", "definition": "The smallest particle of an element that retains the chemical properties of that element, consisting of a nucleus surrounded by electrons."},
+        {"term": "Nucleus", "definition": "The small, dense, positively charged centre of an atom, containing protons and neutrons."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Understanding atomic structure underlies all of chemistry, from bonding to nuclear medicine"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Drawing atoms with the nucleus occupying a large proportion of the atom's diameter — in reality, the nucleus is proportionally extremely small compared to the whole atom"],
+      "misconceptions": ["Believing atoms are solid throughout — atoms are almost entirely empty space, with mass concentrated in the tiny nucleus"],
+      "tips": ["Remember: nearly all the mass, in a tiny volume (nucleus); nearly all the volume, with almost no mass (electron shells/empty space)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Name the two types of particle found in the nucleus of an atom.", "answer": "Protons and neutrons."},
+          {"question": "State the overall charge of a neutral atom.", "answer": "Zero (no overall charge)."}
+        ],
+        "intermediate": [
+          {"question": "Explain why a neutral atom has no overall electrical charge.", "answer": "A neutral atom has an equal number of protons (positively charged) and electrons (negatively charged), so the total positive charge exactly balances the total negative charge, giving zero overall charge."}
+        ],
+        "advanced": [
+          {"question": "Explain why almost all of an atom's mass is concentrated in the nucleus, despite the nucleus occupying only a very small fraction of the atom's total volume.", "answer": "Protons and neutrons (found only in the nucleus) each have a relative mass of approximately 1, while electrons (found throughout the much larger surrounding space) have a relative mass roughly 1/1836 that of a proton or neutron — effectively negligible in comparison. Because the nucleus contains all the protons and neutrons, it accounts for almost all the atom's mass, even though it makes up only a tiny fraction of the atom's overall size (the electrons occupy a much larger volume around it but contribute very little mass)."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Describe the basic structure of an atom, including the location and charge of its three main subatomic particles.", "marks": 3, "model_answer": "An atom has a small, dense central nucleus containing positively charged protons and neutral neutrons (1 mark). Negatively charged electrons occupy the much larger space surrounding the nucleus, arranged in shells (1 mark). In a neutral atom, the number of electrons equals the number of protons, giving the atom no overall charge (1 mark)."}
+      ],
+      "summary": "Atoms consist of a small, dense, positively charged nucleus (protons and neutrons) surrounded by negatively charged electrons in shells. Atoms are mostly empty space, with mass concentrated in the nucleus, and are electrically neutral overall since protons and electrons balance.",
+      "revision_notes": ["Nucleus: protons (+) and neutrons (0), almost all the mass, tiny volume", "Electrons (−): surround nucleus, almost all the volume, negligible mass", "Neutral atom: protons = electrons"],
+      "related_topics": ["Protons", "Neutrons", "Electrons", "Atomic Structure"],
+      "prerequisites": ["Elements", "History of Atomic Theory (Dalton to Bohr)"],
+      "diagram_recommendations": ["[DIAGRAM: Structure of an atom showing nucleus (protons and neutrons) and surrounding electron shells]"]
+    },
+
+    {
+      "id": "chem-015-molecules",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Molecules",
+      "difficulty": "Foundation",
+      "description": "Groups of two or more atoms held together by covalent bonds, including elemental molecules and molecular compounds.",
+      "learning_objectives": [
+        "Define a molecule",
+        "Distinguish molecules of elements from molecules of compounds",
+        "Interpret molecular formulae"
+      ],
+      "explanation": "A molecule is a group of two or more atoms held together by covalent bonds (shared pairs of electrons — see Chemical Bonding). Molecules can form from atoms of the same element, called elemental molecules (e.g. O2, N2, and the diatomic halogens such as Cl2), or from atoms of different elements bonded together, called molecular compounds (e.g. H2O, CO2, CH4). Not all compounds are molecular — ionic compounds such as sodium chloride do not exist as individual molecules but as giant lattices of ions (see Ionic Bonding). The molecular formula of a molecule states the exact number of each type of atom present, e.g. C6H12O6 for glucose.",
+      "key_concepts": ["Molecules formed by covalent bonding", "Elemental molecules vs molecular compounds", "Molecular formulae", "Not all compounds are molecular (ionic compounds are not)"],
+      "definitions": [
+        {"term": "Molecule", "definition": "Two or more atoms held together by covalent bonds."},
+        {"term": "Diatomic molecule", "definition": "A molecule made of exactly two atoms, e.g. O2, N2, HCl."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "State the number and type of atoms in one molecule of glucose, C6H12O6.",
+          "working": "Read the subscript after each element symbol.",
+          "answer": "6 carbon atoms, 12 hydrogen atoms, and 6 oxygen atoms."
+        }
+      ],
+      "practical_applications": ["Oxygen (O2) and carbon dioxide (CO2) molecules are essential to respiration and photosynthesis"],
+      "laboratory_applications": [],
+      "common_mistakes": [
+        "Assuming all compounds exist as molecules — ionic compounds (typically a metal + non-metal) form giant lattices, not discrete molecules",
+        "Forgetting that some elements exist as diatomic molecules under normal conditions (H2, N2, O2, F2, Cl2, Br2, I2) rather than single atoms"
+      ],
+      "misconceptions": ["Believing 'molecule' and 'compound' mean the same thing — a molecule can be made of only one element (e.g. O2), while a compound must contain at least two different elements"],
+      "tips": ["Memorise the seven common diatomic elements: H2, N2, O2, F2, Cl2, Br2, I2"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a molecule.", "answer": "Two or more atoms held together by covalent bonds."},
+          {"question": "State the molecular formula of methane, which contains 1 carbon atom and 4 hydrogen atoms.", "answer": "CH4"}
+        ],
+        "intermediate": [
+          {"question": "Explain why oxygen gas (O2) is described as a molecule of an element, not a compound.", "answer": "O2 is made of two atoms of the same element (oxygen) covalently bonded together; because it contains only one type of element, it cannot be a compound (which requires at least two different elements), but it is still a molecule because it consists of atoms joined by covalent bonds."}
+        ],
+        "advanced": [
+          {"question": "Explain why sodium chloride, despite being a compound, is not usually described as being made of 'molecules'.", "answer": "Sodium chloride is an ionic compound, formed by the transfer of electrons between sodium and chlorine atoms to form Na+ and Cl− ions, which are held together by strong electrostatic forces of attraction throughout a giant ionic lattice, rather than by discrete covalent bonds joining a fixed, small number of atoms together. Since there is no individual small unit of a fixed number of atoms bonded together (unlike, say, a water molecule), it is more accurate to describe sodium chloride in terms of its formula unit (NaCl, showing the ratio of ions) rather than as being made of molecules."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "State the difference between a molecule of an element and a molecule of a compound, giving one example of each.", "marks": 2, "model_answer": "A molecule of an element contains only one type of atom, e.g. O2 (1 mark); a molecule of a compound contains at least two different types of atom covalently bonded together, e.g. H2O (1 mark)."}
+      ],
+      "summary": "A molecule is formed when two or more atoms are joined by covalent bonds. Molecules of elements contain only one type of atom (e.g. O2); molecules of compounds contain different types of atom (e.g. H2O, CO2). Not all compounds are molecular — ionic compounds form giant lattices instead.",
+      "revision_notes": ["Molecule = atoms joined by covalent bonds", "Elemental molecule: one element (e.g. O2); Molecular compound: 2+ elements (e.g. H2O)", "Diatomic elements: H2, N2, O2, F2, Cl2, Br2, I2", "Ionic compounds are not molecular"],
+      "related_topics": ["Atoms", "Ions", "Covalent Bonding", "Chemical Formulae"],
+      "prerequisites": ["Atoms"],
+      "diagram_recommendations": ["[DIAGRAM: Examples of elemental molecules (O2, Cl2) and molecular compounds (H2O, CO2)]"]
+    },
+
+    {
+      "id": "chem-016-ions",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Ions",
+      "difficulty": "Foundation",
+      "description": "Charged particles formed when atoms or groups of atoms lose or gain electrons, including cations, anions and common polyatomic ions.",
+      "learning_objectives": [
+        "Define a cation and an anion",
+        "Explain how ions form in terms of electron loss or gain",
+        "State the charges of common simple ions based on periodic table group"
+      ],
+      "explanation": "An ion forms when an atom (or group of atoms) loses or gains one or more electrons, giving it an overall electric charge, since the number of protons and electrons is no longer equal. Losing electrons leaves more protons than electrons, giving a positively charged ion, called a cation. Gaining electrons gives more electrons than protons, giving a negatively charged ion, called an anion. Metals generally lose electrons to form cations (e.g. Na+, Mg2+, Al3+), typically with a charge matching their periodic table group number for groups 1–3; non-metals generally gain electrons to form anions (e.g. Cl−, O2−), typically with a charge of (8 − group number) for groups 15–17. Polyatomic ions are groups of covalently bonded atoms that together carry an overall charge, e.g. the hydroxide ion OH−, the sulfate ion SO4^2−, and the ammonium ion NH4+.",
+      "key_concepts": ["Cation (positive, from electron loss)", "Anion (negative, from electron gain)", "Charge relates to periodic table group for simple ions", "Polyatomic ions"],
+      "definitions": [
+        {"term": "Ion", "definition": "An atom or group of atoms that has lost or gained one or more electrons, giving it an overall electric charge."},
+        {"term": "Cation", "definition": "A positively charged ion, formed when an atom loses one or more electrons."},
+        {"term": "Anion", "definition": "A negatively charged ion, formed when an atom gains one or more electrons."},
+        {"term": "Polyatomic ion", "definition": "An ion made of two or more covalently bonded atoms that together carry an overall charge, e.g. SO4^2−, NH4+, OH−."}
+      ],
+      "formulae": [],
+      "equations": ["Formation of a cation: Na → Na+ + e−", "Formation of an anion: Cl + e− → Cl−"],
+      "worked_examples": [
+        {
+          "problem": "A magnesium atom (12 protons, 12 electrons) loses two electrons to form an ion. State the resulting charge and write the ion's symbol.",
+          "working": "After losing 2 electrons: protons = 12, electrons = 12 − 2 = 10. Overall charge = (+12) + (−10) = +2.",
+          "answer": "Mg2+"
+        }
+      ],
+      "practical_applications": ["Ions in solution conduct electricity, essential to electrolysis and batteries", "Sodium and potassium ions are essential for nerve signal transmission in the body"],
+      "laboratory_applications": ["Identifying ions in solution using flame tests and precipitation tests (see Qualitative Analysis)"],
+      "common_mistakes": [
+        "Confusing which direction the charge goes — remember 'cat-ion' is positive (a helpful mnemonic: a cat has claws, pawing away (losing) electrons)",
+        "Forgetting to adjust the sign correctly when calculating charge from numbers of protons and electrons"
+      ],
+      "misconceptions": ["Believing an atom's mass changes significantly when it becomes an ion — losing or gaining electrons barely affects mass (electrons have negligible mass), only charge"],
+      "tips": ["For simple ions from Groups 1, 2 and 3, the charge equals the group number (e.g. Group 2 → 2+); for Groups 15, 16 and 17, the charge is negative and equals (8 − group number)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State whether a cation is positively or negatively charged.", "answer": "Positively charged."},
+          {"question": "An oxygen atom gains two electrons. Write the symbol for the ion formed.", "answer": "O2−"}
+        ],
+        "intermediate": [
+          {"question": "Explain, in terms of protons and electrons, why a chloride ion (Cl−) has a single negative charge.", "answer": "A chlorine atom has 17 protons and 17 electrons (neutral). When it gains one extra electron to form Cl−, it then has 17 protons but 18 electrons, giving one more negative charge than positive charge, so the overall charge is 1−."},
+          {"question": "Give the formula and charge of the sulfate ion.", "answer": "SO4^2−"}
+        ],
+        "advanced": [
+          {"question": "Explain why metals in Group 1 typically form 1+ ions, while metals in Group 2 typically form 2+ ions, referring to electron configuration.", "answer": "Group 1 metals have one electron in their outer shell; losing this single electron gives the atom a full outer shell (a stable noble gas electron configuration) and leaves one more proton than electron, giving a 1+ ion. Group 2 metals have two electrons in their outer shell; losing both electrons similarly gives a full outer shell, but leaves two more protons than electrons, giving a 2+ ion. In both cases, the number of electrons lost corresponds to the number needed to reach a stable, full outer shell."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "A sodium atom has 11 protons and 11 electrons. It forms an ion by losing one electron. State the overall charge of the ion formed and explain why this charge occurs.", "marks": 2, "model_answer": "The ion has a charge of 1+ (1 mark), because after losing one electron the atom has 11 protons but only 10 electrons, giving one more positive charge than negative charge (1 mark)."}
+      ],
+      "summary": "Ions form when atoms lose electrons (forming positive cations) or gain electrons (forming negative anions). Simple ion charges relate to periodic table group; polyatomic ions are charged groups of covalently bonded atoms, such as SO4^2− and NH4+.",
+      "revision_notes": ["Cation = positive (electron loss); Anion = negative (electron gain)", "Groups 1–3: charge = group number; Groups 15–17: charge = 8 − group number", "Learn common polyatomic ions: OH−, NO3−, SO4^2−, CO3^2−, NH4+"],
+      "related_topics": ["Atoms", "Ionic Bonding", "Formation of Ions", "Valence Electrons"],
+      "prerequisites": ["Atoms"],
+      "diagram_recommendations": ["[DIAGRAM: Electron transfer from a sodium atom to a chlorine atom forming Na+ and Cl− ions]"]
+    },
+
+    {
+      "id": "chem-017-atomic-structure-overview",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Atomic Structure",
+      "difficulty": "Foundation",
+      "description": "An overview topic bringing together the subatomic particles, their relative masses and charges, and how atoms are represented using atomic and mass numbers.",
+      "learning_objectives": [
+        "State the relative mass and charge of protons, neutrons and electrons",
+        "Explain how atomic number and mass number define an atom",
+        "Use atomic and mass numbers to calculate the number of each subatomic particle in an atom"
+      ],
+      "explanation": "Every atom is built from three types of subatomic particle: protons and neutrons, found in the nucleus, and electrons, found in shells surrounding the nucleus. Protons have a relative charge of +1 and a relative mass of 1; neutrons have no charge (0) and a relative mass of approximately 1; electrons have a relative charge of −1 and a relative mass of approximately 1/1836 (considered negligible for most calculations). The atomic number (proton number) of an element equals the number of protons in its nucleus, and uniquely identifies that element. The mass number equals the total number of protons and neutrons in the nucleus (electrons are not counted, as their mass is negligible). For a neutral atom, the number of electrons equals the number of protons (the atomic number). The number of neutrons can be found by subtracting the atomic number from the mass number.",
+      "key_concepts": ["Relative mass and charge of protons, neutrons, electrons", "Atomic number = number of protons", "Mass number = protons + neutrons", "Number of neutrons = mass number − atomic number"],
+      "definitions": [
+        {"term": "Proton", "definition": "A positively charged subatomic particle found in the nucleus, with relative charge +1 and relative mass 1."},
+        {"term": "Neutron", "definition": "An uncharged subatomic particle found in the nucleus, with relative mass approximately 1."},
+        {"term": "Electron", "definition": "A negatively charged subatomic particle found in shells around the nucleus, with relative charge −1 and negligible relative mass."},
+        {"term": "Atomic number", "definition": "The number of protons in an atom's nucleus; unique to each element."},
+        {"term": "Mass number", "definition": "The total number of protons and neutrons in an atom's nucleus."}
+      ],
+      "formulae": [
+        {"name": "Number of neutrons", "formula": "neutrons = mass number − atomic number", "description": "Used to find the number of neutrons in a given atom or isotope."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "An atom of aluminium has atomic number 13 and mass number 27. State the number of protons, neutrons and electrons in this atom.",
+          "working": "Protons = atomic number = 13. Electrons = protons (neutral atom) = 13. Neutrons = mass number − atomic number = 27 − 13 = 14.",
+          "answer": "13 protons, 14 neutrons, 13 electrons."
+        }
+      ],
+      "practical_applications": ["Atomic number determines an element's position on the periodic table and its chemical behaviour"],
+      "laboratory_applications": [],
+      "common_mistakes": [
+        "Confusing atomic number (protons only) with mass number (protons + neutrons)",
+        "Forgetting that electron mass is negligible and should not be included in mass number calculations"
+      ],
+      "misconceptions": ["Believing atomic number can vary for the same element — atomic number is fixed and defines the element; only the number of neutrons (giving isotopes) or electrons (giving ions) can vary"],
+      "tips": ["A quick way to remember: Atomic number = 'A' for 'Above' or the smaller number (usually written at the bottom-left in isotope notation); Mass number is always the larger number (top-left)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the relative charge of a neutron.", "answer": "0 (no charge)"},
+          {"question": "An atom has atomic number 8 and mass number 16. State the number of neutrons.", "answer": "16 − 8 = 8 neutrons"}
+        ],
+        "intermediate": [
+          {"question": "An atom of potassium has 19 protons and 20 neutrons. State its atomic number and mass number.", "answer": "Atomic number = 19 (number of protons); Mass number = 19 + 20 = 39"},
+          {"question": "Explain why the number of electrons in a neutral atom always equals its atomic number.", "answer": "In a neutral atom, the number of negative electrons must exactly balance the number of positive protons so the atom has no overall charge; since atomic number is defined as the number of protons, a neutral atom must therefore have the same number of electrons as its atomic number."}
+        ],
+        "advanced": [
+          {"question": "An ion has 15 protons, 16 neutrons and 18 electrons. Determine its atomic number, mass number and overall charge.", "answer": "Atomic number = number of protons = 15. Mass number = protons + neutrons = 15 + 16 = 31. Charge: protons (15, positive) vs electrons (18, negative) → 3 more electrons than protons → overall charge = 3− (this is the phosphide ion, P3−)."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Complete a table for an atom of chlorine (atomic number 17, mass number 35), stating the number of protons, neutrons and electrons, and explain how you determined each value.", "marks": 3, "model_answer": "Protons = 17, equal to the atomic number (1 mark). Neutrons = mass number − atomic number = 35 − 17 = 18 (1 mark). Electrons = 17, equal to the number of protons in a neutral atom, since the atom has no overall charge (1 mark)."}
+      ],
+      "summary": "Atoms are made of protons (+1 charge, mass 1), neutrons (0 charge, mass ~1) and electrons (−1 charge, negligible mass). Atomic number = number of protons; mass number = protons + neutrons; neutrons = mass number − atomic number; in a neutral atom, electrons = protons = atomic number.",
+      "revision_notes": ["Proton: +1, mass 1, nucleus", "Neutron: 0, mass 1, nucleus", "Electron: −1, negligible mass, shells", "Atomic number = protons; Mass number = protons + neutrons"],
+      "related_topics": ["Protons", "Neutrons", "Electrons", "Atomic Number", "Mass Number", "Isotopes"],
+      "prerequisites": ["Atoms"],
+      "diagram_recommendations": ["[DIAGRAM: Labelled atom showing nucleus (protons, neutrons) and electron shells, with a summary table of relative mass and charge]"]
+    },
+
+    {
+      "id": "chem-018-protons",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Protons",
+      "difficulty": "Foundation",
+      "description": "The positively charged subatomic particle found in the nucleus that determines an element's identity.",
+      "learning_objectives": [
+        "State the relative charge and relative mass of a proton",
+        "Explain why the number of protons defines which element an atom is"
+      ],
+      "explanation": "A proton is a subatomic particle found in the nucleus of every atom, carrying a relative charge of +1 and a relative mass of 1 (approximately 1.67 × 10^-27 kg in absolute terms). The number of protons in an atom's nucleus is called the atomic number, and it uniquely determines which element the atom is — every atom of a given element has the same number of protons, and no two different elements share the same number of protons. Changing the number of protons in an atom's nucleus (which happens only during nuclear reactions, not ordinary chemical reactions) changes the identity of the element itself.",
+      "key_concepts": ["Relative charge (+1) and mass (1) of a proton", "Number of protons = atomic number", "Protons define elemental identity"],
+      "definitions": [
+        {"term": "Proton", "definition": "A positively charged subatomic particle found in the nucleus, with relative charge +1 and relative mass 1."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["The number of protons (atomic number) determines an element's chemical identity and position on the periodic table"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Believing the number of protons in an atom of a given element can vary — it is always fixed for that element (varying neutrons gives isotopes; varying electrons gives ions, but protons stay constant)"],
+      "misconceptions": ["Confusing proton number with mass number — mass number also includes neutrons"],
+      "tips": ["If you know the atomic number, you automatically know the number of protons: they are the same value by definition"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the relative charge of a proton.", "answer": "+1"},
+          {"question": "An atom has atomic number 6. State the number of protons it contains.", "answer": "6 protons"}
+        ],
+        "intermediate": [
+          {"question": "Explain why an atom with 8 protons must be an oxygen atom, regardless of how many neutrons or electrons it has.", "answer": "The number of protons (atomic number) uniquely defines which element an atom is; oxygen is defined as the element with atomic number 8. The number of neutrons can vary (giving different isotopes of oxygen) and the number of electrons can vary (giving oxygen ions), but as long as the number of protons is 8, the atom is oxygen."}
+        ],
+        "advanced": [
+          {"question": "Explain why changing the number of protons in an atom's nucleus is not possible through ordinary chemical reactions.", "answer": "Ordinary chemical reactions only involve the rearrangement, sharing, or transfer of electrons between atoms (forming or breaking chemical bonds); they do not affect the nucleus. Changing the number of protons requires a nuclear reaction, which involves far greater energies than chemical reactions and physically alters the nucleus itself (e.g. radioactive decay or nuclear fission/fusion), converting the atom into a different element entirely."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why the number of protons, rather than the number of neutrons, is used to define an element.", "marks": 2, "model_answer": "The number of protons is always the same for every atom of a given element, and no two different elements share the same number of protons, making it a unique identifier for each element (1 mark). The number of neutrons can vary between atoms of the same element (forming isotopes) without changing which element it is, so it cannot be used to define the element (1 mark)."}
+      ],
+      "summary": "Protons are positively charged (relative charge +1, relative mass 1) particles in the nucleus. The number of protons (atomic number) uniquely defines an element and cannot change in ordinary chemical reactions.",
+      "revision_notes": ["Proton: charge +1, mass 1, found in nucleus", "Number of protons = atomic number = defines the element"],
+      "related_topics": ["Atomic Structure", "Atomic Number", "Neutrons", "Electrons"],
+      "prerequisites": ["Atomic Structure"],
+      "diagram_recommendations": []
+    },
+
+    {
+      "id": "chem-019-neutrons",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Neutrons",
+      "difficulty": "Foundation",
+      "description": "The uncharged subatomic particle found in the nucleus, which contributes to atomic mass and allows for isotopes.",
+      "learning_objectives": [
+        "State the relative charge and relative mass of a neutron",
+        "Explain the role of neutrons in nuclear stability",
+        "Explain how varying neutron number gives rise to isotopes"
+      ],
+      "explanation": "A neutron is a subatomic particle found in the nucleus, alongside protons. It has no electric charge (relative charge 0) and a relative mass of approximately 1, similar to a proton. Neutrons contribute to an atom's mass number but not to its charge or chemical identity. Neutrons play an important role in holding the nucleus together: since protons are all positively charged, they repel each other strongly at very short range, and neutrons help provide additional short-range attractive nuclear forces that overcome this repulsion, stabilising the nucleus (heavier elements generally need proportionally more neutrons than protons for a stable nucleus). Atoms of the same element (same number of protons) can have different numbers of neutrons; these different forms are called isotopes.",
+      "key_concepts": ["Relative charge (0) and mass (1) of a neutron", "Role in nuclear stability", "Isotopes arise from varying neutron number"],
+      "definitions": [
+        {"term": "Neutron", "definition": "An uncharged subatomic particle found in the nucleus, with relative mass approximately 1."},
+        {"term": "Isotope", "definition": "Atoms of the same element (same number of protons) with different numbers of neutrons, and therefore different mass numbers."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "An atom of carbon-14 has atomic number 6. Calculate the number of neutrons it contains.",
+          "working": "Neutrons = mass number − atomic number = 14 − 6",
+          "answer": "8 neutrons"
+        }
+      ],
+      "practical_applications": ["Neutrons are essential to nuclear reactors and radioisotope production used in medicine (see Nuclear Chemistry)"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Assuming neutrons affect an atom's charge — they are uncharged and do not affect charge, only mass"],
+      "misconceptions": ["Believing all atoms of an element must have the same number of neutrons — different isotopes of the same element have different numbers of neutrons by definition"],
+      "tips": ["Number of neutrons is always found by subtracting atomic number from mass number: neutrons = mass number − atomic number"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the relative charge of a neutron.", "answer": "0 (no charge)"},
+          {"question": "Calculate the number of neutrons in an atom with atomic number 11 and mass number 23.", "answer": "23 − 11 = 12 neutrons"}
+        ],
+        "intermediate": [
+          {"question": "Explain why neutrons do not affect the chemical identity of an element, but do affect its mass number.", "answer": "Chemical identity is determined solely by the number of protons (atomic number); neutrons are uncharged and do not change the number of protons or electrons, so they do not affect chemical identity. However, neutrons do contribute to the total number of particles in the nucleus, and since mass number equals protons plus neutrons, changing the number of neutrons directly changes the mass number."}
+        ],
+        "advanced": [
+          {"question": "Explain, in general terms, why neutrons are important for the stability of an atomic nucleus.", "answer": "All protons in a nucleus carry a positive charge and therefore repel each other electrostatically at short range. Neutrons, being uncharged, contribute to the strong short-range nuclear force that holds nucleons (protons and neutrons) together without adding to this electrostatic repulsion, helping to overcome the repulsion between protons and keep the nucleus stable. This is why larger nuclei generally require a greater proportion of neutrons relative to protons to remain stable."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Two atoms both have atomic number 17 but different mass numbers, 35 and 37. Explain what these atoms are called in relation to each other, and state the number of neutrons in each.", "marks": 3, "model_answer": "These atoms are isotopes of the same element (chlorine), since they have the same number of protons but different numbers of neutrons (1 mark). The first atom (mass number 35) has 35 − 17 = 18 neutrons (1 mark). The second atom (mass number 37) has 37 − 17 = 20 neutrons (1 mark)."}
+      ],
+      "summary": "Neutrons are uncharged particles in the nucleus with relative mass approximately 1. They contribute to nuclear stability and to mass number, but not to charge or chemical identity. Atoms of the same element with different neutron numbers are isotopes.",
+      "revision_notes": ["Neutron: charge 0, mass ~1, found in nucleus", "Neutrons = mass number − atomic number", "Different neutron numbers for the same element = isotopes"],
+      "related_topics": ["Atomic Structure", "Mass Number", "Isotopes", "Protons"],
+      "prerequisites": ["Atomic Structure"],
+      "diagram_recommendations": []
+    },
+
+    {
+      "id": "chem-020-electrons",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Electrons",
+      "difficulty": "Foundation",
+      "description": "The negatively charged, low-mass subatomic particle that occupies shells around the nucleus and governs chemical bonding and reactivity.",
+      "learning_objectives": [
+        "State the relative charge and relative mass of an electron",
+        "Describe where electrons are found in an atom",
+        "Explain why electrons are primarily responsible for chemical bonding and reactivity"
+      ],
+      "explanation": "An electron is a subatomic particle with a relative charge of −1 and a relative mass of approximately 1/1836 that of a proton, meaning its mass is usually treated as negligible in chemistry calculations. Electrons occupy the space surrounding the nucleus, arranged in shells (energy levels) at increasing distances from the nucleus, with electrons in outer shells (valence electrons) generally at higher energy than those closer to the nucleus. Because electrons are on the outside of the atom, they are the particles directly involved in forming chemical bonds (through sharing, in covalent bonding, or transfer, in ionic bonding) and are therefore responsible for an element's chemical reactivity and bonding behaviour. In a neutral atom, the number of electrons equals the number of protons; atoms can gain or lose electrons to form ions.",
+      "key_concepts": ["Relative charge (−1) and negligible mass of an electron", "Electrons arranged in shells around the nucleus", "Electrons determine chemical bonding and reactivity", "Electron gain/loss forms ions"],
+      "definitions": [
+        {"term": "Electron", "definition": "A negatively charged subatomic particle found in shells around the nucleus, with relative charge −1 and negligible relative mass."},
+        {"term": "Valence electron", "definition": "An electron in the outermost occupied shell of an atom, primarily responsible for chemical bonding."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Electron behaviour underlies electrical conductivity in metals, semiconductors in electronics, and all chemical bonding"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Including electron mass in mass number calculations — electron mass is negligible and mass number only counts protons and neutrons"],
+      "misconceptions": ["Believing electrons orbit the nucleus in fixed, planet-like circular paths at all times — the modern model describes regions (orbitals) where an electron is likely to be found, though the simpler shell model is a useful approximation at this level"],
+      "tips": ["Electrons in the outermost shell (valence electrons) are the ones involved in bonding — focus on these when predicting reactivity and bonding type"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the relative charge of an electron.", "answer": "−1"},
+          {"question": "State where electrons are found in an atom.", "answer": "In shells (energy levels) surrounding the nucleus."}
+        ],
+        "intermediate": [
+          {"question": "Explain why electron mass is usually ignored when calculating an atom's mass number.", "answer": "An electron's mass is approximately 1/1836 that of a proton or neutron, making it negligible compared to the mass contributed by protons and neutrons; including it would make almost no difference to the calculated mass number, so by convention only protons and neutrons are counted."},
+          {"question": "Explain why electrons, rather than protons or neutrons, are primarily responsible for chemical bonding.", "answer": "Electrons occupy the outer regions of the atom, furthest from the nucleus, so they are the particles that come into contact with, and can be shared with or transferred to, other atoms during a reaction. Protons and neutrons are locked inside the nucleus and do not take part in the formation of chemical bonds under normal chemical conditions."}
+        ],
+        "advanced": [
+          {"question": "A sodium atom (11 protons, 11 electrons) reacts to form a sodium ion. Explain, in terms of electrons, what happens and why this makes the resulting ion more stable.", "answer": "The sodium atom loses its single outer-shell (valence) electron, forming Na+. This leaves the ion with a full outer shell identical in electron arrangement to the noble gas neon, which is a particularly stable, low-energy electron configuration. Atoms tend to react in ways that achieve a full outer shell, since this arrangement is energetically more stable than a atom's original, incomplete outer shell."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why electrons are described as having 'negligible mass' compared to protons and neutrons, and state one consequence of this for how mass number is calculated.", "marks": 2, "model_answer": "An electron's mass is about 1/1836 that of a proton or neutron, so it contributes almost nothing to an atom's total mass compared to protons and neutrons (1 mark). As a consequence, mass number is calculated using only the number of protons and neutrons, without including electrons (1 mark)."}
+      ],
+      "summary": "Electrons are negatively charged (relative charge −1) particles with negligible mass, occupying shells around the nucleus. Outer-shell (valence) electrons govern chemical bonding and reactivity, and electron loss/gain forms ions.",
+      "revision_notes": ["Electron: charge −1, negligible mass, found in shells around nucleus", "Valence electrons (outer shell) determine bonding/reactivity", "Neutral atom: electrons = protons"],
+      "related_topics": ["Atomic Structure", "Electron Shells", "Valence Electrons", "Ions"],
+      "prerequisites": ["Atomic Structure"],
+      "diagram_recommendations": []
+    },
+
+    {
+      "id": "chem-021-atomic-number",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Atomic Number",
+      "difficulty": "Foundation",
+      "description": "The number of protons in an atom's nucleus, which defines the element and its position on the periodic table.",
+      "learning_objectives": [
+        "Define atomic number",
+        "Explain why atomic number determines the identity of an element",
+        "Use atomic number to determine the number of electrons in a neutral atom"
+      ],
+      "explanation": "The atomic number (also called the proton number) of an atom is the number of protons found in its nucleus. Every atom of a given element has the same atomic number, and this number is unique to that element — no two elements share the same atomic number. Elements on the periodic table are arranged in order of increasing atomic number, and each element's atomic number is usually shown above or below its symbol. For a neutral atom, the atomic number also equals the number of electrons, since protons and electrons must balance for the atom to have no overall charge.",
+      "key_concepts": ["Atomic number = number of protons", "Uniquely identifies an element", "Periodic table arranged by increasing atomic number", "Equals electron number in a neutral atom"],
+      "definitions": [
+        {"term": "Atomic number", "definition": "The number of protons in the nucleus of an atom; unique to each element and equal to the number of electrons in a neutral atom."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "An atom has atomic number 20. Identify the element and state the number of electrons in a neutral atom of it.",
+          "working": "Atomic number 20 corresponds to calcium (Ca) on the periodic table. A neutral atom has electrons = protons = atomic number.",
+          "answer": "The element is calcium; a neutral atom has 20 electrons."
+        }
+      ],
+      "practical_applications": ["The periodic table's structure and elements' chemical behaviour are organised entirely around atomic number"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Confusing atomic number with mass number, especially when reading isotope notation"],
+      "misconceptions": ["Believing atomic number can change for a given element under normal chemical conditions — it is fixed and only changes in nuclear reactions"],
+      "tips": ["In standard isotope notation (mass number at top-left, atomic number at bottom-left of the element symbol), atomic number is always the smaller of the two numbers shown"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define atomic number.", "answer": "The number of protons in the nucleus of an atom."},
+          {"question": "State the atomic number of an atom that has 15 protons.", "answer": "15"}
+        ],
+        "intermediate": [
+          {"question": "Explain why all atoms of oxygen have the same atomic number, even though they might have different numbers of neutrons.", "answer": "Atomic number is defined by the number of protons, not neutrons. All oxygen atoms (by definition of being oxygen) must have the same number of protons (8), so they all share the same atomic number, regardless of how many neutrons they have (which would make them different isotopes)."}
+        ],
+        "advanced": [
+          {"question": "Explain why the periodic table is arranged by increasing atomic number rather than by increasing atomic mass.", "answer": "Arranging elements by atomic number (number of protons) ensures elements are ordered in a way that correctly groups elements with similar chemical properties together in the same columns (groups), since chemical behaviour is primarily determined by electron arrangement, which in a neutral atom is directly tied to atomic number. Ordering by atomic mass instead can occasionally place elements out of step with their chemical properties, because atomic mass depends on both proton and neutron numbers, and isotopic abundance can cause slight irregularities (a well-known historical example is that atomic-mass ordering placed a small number of element pairs, such as tellurium and iodine, in a sequence that did not match their chemical properties, which atomic-number ordering resolved)."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "State the atomic number of magnesium and explain what this number tells you about a neutral atom of magnesium.", "marks": 2, "model_answer": "Atomic number of magnesium = 12 (1 mark). This tells you that a magnesium atom has 12 protons in its nucleus, and since it is neutral, it must also have 12 electrons (1 mark)."}
+      ],
+      "summary": "Atomic number is the number of protons in an atom's nucleus, uniquely defining the element and determining the periodic table's arrangement. In a neutral atom, atomic number also equals the number of electrons.",
+      "revision_notes": ["Atomic number = number of protons = unique to each element", "Neutral atom: electrons = atomic number", "Periodic table ordered by increasing atomic number"],
+      "related_topics": ["Atomic Structure", "Mass Number", "Protons", "Development of the Periodic Table"],
+      "prerequisites": ["Protons"],
+      "diagram_recommendations": []
+    },
+
+    {
+      "id": "chem-022-mass-number",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Mass Number",
+      "difficulty": "Foundation",
+      "description": "The total number of protons and neutrons in an atom's nucleus, used to identify specific isotopes.",
+      "learning_objectives": [
+        "Define mass number",
+        "Use mass number and atomic number together to determine the number of neutrons in an atom",
+        "Interpret standard isotope notation showing mass number and atomic number"
+      ],
+      "explanation": "The mass number of an atom is the total number of protons and neutrons in its nucleus (electrons are not included, as their mass is negligible). Unlike atomic number, mass number is not unique to an element — atoms of the same element can have different mass numbers if they have different numbers of neutrons (isotopes). Mass number is written as a whole number, since protons and neutrons are each counted as one whole particle. In standard isotope notation, an element's symbol is written with the mass number as a superscript at the top-left and the atomic number as a subscript at the bottom-left, e.g. for carbon-14, this is written with 14 at the top-left and 6 at the bottom-left of the symbol C.",
+      "key_concepts": ["Mass number = protons + neutrons", "Mass number varies between isotopes of the same element", "Standard isotope notation"],
+      "definitions": [
+        {"term": "Mass number", "definition": "The total number of protons and neutrons in the nucleus of an atom."}
+      ],
+      "formulae": [
+        {"name": "Mass number", "formula": "mass number = number of protons + number of neutrons", "description": "Also written as A = Z + N, where A is mass number, Z is atomic number (protons), and N is the number of neutrons."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "An atom of sodium has 11 protons and 12 neutrons. Calculate its mass number.",
+          "working": "mass number = protons + neutrons = 11 + 12",
+          "answer": "mass number = 23"
+        }
+      ],
+      "practical_applications": ["Mass number is used to identify specific isotopes referenced in nuclear medicine and radiometric dating, e.g. carbon-14"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Forgetting to subtract atomic number correctly when calculating neutrons from a given mass number", "Rounding relative atomic mass (which is an average across isotopes and can be a decimal) and confusing it with mass number (always a whole number for a specific atom)"],
+      "misconceptions": ["Believing mass number is the same as relative atomic mass — mass number applies to one specific atom/isotope and is always a whole number, whereas relative atomic mass is a weighted average across all naturally occurring isotopes of an element and is often not a whole number"],
+      "tips": ["Mass number is always the larger of the two numbers shown in isotope notation, and is always a whole number"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define mass number.", "answer": "The total number of protons and neutrons in the nucleus of an atom."},
+          {"question": "An atom has 6 protons and 8 neutrons. Calculate its mass number.", "answer": "6 + 8 = 14"}
+        ],
+        "intermediate": [
+          {"question": "Two isotopes of chlorine have mass numbers 35 and 37. Both have atomic number 17. Calculate the number of neutrons in each isotope.", "answer": "Chlorine-35: 35 − 17 = 18 neutrons. Chlorine-37: 37 − 17 = 20 neutrons."},
+          {"question": "Explain why mass number, unlike atomic number, is not unique to a particular element.", "answer": "Mass number depends on both the number of protons and the number of neutrons. Since atoms of the same element can have different numbers of neutrons (isotopes), they can have different mass numbers while still being the same element; therefore mass number alone cannot uniquely identify an element."}
+        ],
+        "advanced": [
+          {"question": "Explain the difference between mass number and relative atomic mass, using chlorine as an example (which has isotopes with mass numbers 35 and 37, but a relative atomic mass of 35.5).", "answer": "Mass number refers to a specific atom (or isotope) and is always a whole number, representing the total protons and neutrons in that particular atom — e.g. chlorine-35 has mass number 35 exactly. Relative atomic mass, however, is a weighted average of the mass numbers of all naturally occurring isotopes of an element, taking into account their relative abundance; because chlorine-35 is more abundant (about 75%) than chlorine-37 (about 25%), the weighted average comes out to approximately 35.5, which is not a whole number and does not correspond to any single actual atom."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "An atom is represented with mass number 39 and atomic number 19. State the number of protons, neutrons and electrons in a neutral atom, and identify the element.", "marks": 3, "model_answer": "Protons = 19 (equal to atomic number); Neutrons = 39 − 19 = 20; Electrons = 19 (equal to protons in a neutral atom) (1 mark for each correct value). The element is potassium, atomic number 19."}
+      ],
+      "summary": "Mass number is the total count of protons and neutrons in an atom's nucleus, always a whole number specific to a particular atom or isotope. It differs from relative atomic mass, which is a weighted average across all naturally occurring isotopes of an element.",
+      "revision_notes": ["Mass number = protons + neutrons (whole number, specific atom)", "Neutrons = mass number − atomic number", "Mass number ≠ relative atomic mass (which is a weighted average, often not a whole number)"],
+      "related_topics": ["Atomic Structure", "Atomic Number", "Isotopes", "Relative Atomic Mass"],
+      "prerequisites": ["Atomic Number"],
+      "diagram_recommendations": ["[DIAGRAM: Standard isotope notation showing mass number and atomic number positions around an element symbol]"]
+    },
+
+    {
+      "id": "chem-023-isotopes",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Isotopes",
+      "difficulty": "Foundation",
+      "description": "Atoms of the same element with the same number of protons but different numbers of neutrons, giving different mass numbers but near-identical chemical properties.",
+      "learning_objectives": [
+        "Define isotopes",
+        "Explain why isotopes of the same element have identical chemical properties but can have different physical properties",
+        "Identify isotopes from atomic and mass number data"
+      ],
+      "explanation": "Isotopes are atoms of the same element (the same atomic number, i.e. the same number of protons) that have different numbers of neutrons, and therefore different mass numbers. Because chemical properties are determined almost entirely by the number and arrangement of electrons (which is the same for all isotopes of an element, since they all have the same number of protons/atomic number), isotopes of an element have essentially identical chemical properties and react in the same way. However, because they have different masses, isotopes can have slightly different physical properties, such as density, and different nuclear stability — some isotopes are stable while others are radioactive (unstable) and undergo radioactive decay (see Nuclear Chemistry). Many elements exist naturally as a mixture of isotopes in fixed proportions, which is why relative atomic mass is often not a whole number.",
+      "key_concepts": ["Same protons, different neutrons", "Identical chemical properties", "Different physical properties/mass", "Some isotopes are radioactive"],
+      "definitions": [
+        {"term": "Isotope", "definition": "Atoms of the same element (same atomic number/number of protons) with different numbers of neutrons and therefore different mass numbers."},
+        {"term": "Radioisotope", "definition": "An isotope with an unstable nucleus that undergoes radioactive decay."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Carbon-12 and carbon-14 are both isotopes of carbon. State what is the same and what is different about these two atoms.",
+          "working": "Both have atomic number 6 (6 protons, 6 electrons in the neutral atom), since both are carbon. Carbon-12 has 12 − 6 = 6 neutrons; carbon-14 has 14 − 6 = 8 neutrons.",
+          "answer": "Same: number of protons (6) and electrons (6), and chemical behaviour. Different: number of neutrons (6 vs 8) and mass number (12 vs 14); carbon-14 is also radioactive, while carbon-12 is stable."
+        }
+      ],
+      "practical_applications": ["Carbon-14 dating of archaeological samples", "Radioisotopes used in medical imaging and cancer treatment (see Uses of Radioisotopes)"],
+      "laboratory_applications": [],
+      "common_mistakes": ["Assuming isotopes of an element behave differently in chemical reactions — their chemical behaviour is essentially identical, since this depends on electron arrangement, not neutron number"],
+      "misconceptions": ["Believing isotopes are different elements — they are still the same element, since they share the same atomic number/proton number; only the neutron number differs"],
+      "tips": ["To identify if two atoms are isotopes of each other, check: same atomic number (same element) but different mass number (different neutron count)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define isotopes.", "answer": "Atoms of the same element with the same number of protons but different numbers of neutrons."},
+          {"question": "State one property that is the same for all isotopes of an element, and one that can differ.", "answer": "Same: chemical properties (and number of protons/electrons); Different: number of neutrons, mass number, and some physical properties such as density."}
+        ],
+        "intermediate": [
+          {"question": "Chlorine-35 and chlorine-37 are isotopes of chlorine. Explain why they react in the same way chemically, despite having different mass numbers.", "answer": "Chemical reactions are governed by the number and arrangement of electrons in an atom, particularly the outer-shell (valence) electrons. Since both isotopes have the same atomic number (17 protons and, when neutral, 17 electrons arranged identically), their electron configurations and therefore their chemical behaviour are the same, even though they have different numbers of neutrons and different masses."}
+        ],
+        "advanced": [
+          {"question": "Explain why the relative atomic mass of chlorine (35.5) is not a whole number, given that individual isotopes must have whole-number mass numbers.", "answer": "Relative atomic mass is a weighted average of the mass numbers of all naturally occurring isotopes of an element, weighted according to their relative abundance. Chlorine occurs naturally as a mixture of isotopes, mainly chlorine-35 (about 75% abundance) and chlorine-37 (about 25% abundance); combining these in a weighted average, (0.75 × 35) + (0.25 × 37) = 35.5, gives a non-whole-number result, even though each individual chlorine atom has a whole-number mass number (either 35 or 37)."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain what is meant by the term 'isotopes', and state why isotopes of the same element have the same chemical properties.", "marks": 3, "model_answer": "Isotopes are atoms of the same element that have the same number of protons but different numbers of neutrons (1 mark), and therefore different mass numbers (1 mark). They have the same chemical properties because chemical behaviour is determined by the number and arrangement of electrons, which is identical for all isotopes of the same element, since they all have the same atomic number (1 mark)."}
+      ],
+      "summary": "Isotopes are atoms of the same element with different numbers of neutrons and therefore different mass numbers, but identical chemical properties because electron arrangement (and atomic number) is unchanged. Physical properties and nuclear stability can differ between isotopes.",
+      "revision_notes": ["Isotopes: same protons/atomic number, different neutrons/mass number", "Identical chemical properties (same electron arrangement)", "Can differ in physical properties, density, and stability (radioactive or not)"],
+      "related_topics": ["Mass Number", "Relative Atomic Mass", "Radioactivity and Nuclear Decay"],
+      "prerequisites": ["Mass Number"],
+      "diagram_recommendations": ["[DIAGRAM: Two isotopes of carbon (carbon-12 and carbon-14) compared, showing identical protons/electrons but different neutron counts]"]
+    },
+
+    {
+      "id": "chem-024-relative-atomic-mass",
+      "subject": "Chemistry",
+      "category": "Atomic Structure",
+      "title": "Relative Atomic Mass",
+      "difficulty": "Foundation",
+      "description": "The weighted average mass of the isotopes of an element, measured relative to 1/12th the mass of a carbon-12 atom.",
+      "learning_objectives": [
+        "Define relative atomic mass",
+        "Calculate relative atomic mass from isotopic abundance data",
+        "Explain why relative atomic mass is often not a whole number"
+      ],
+      "explanation": "Relative atomic mass (Ar) is the weighted average mass of the isotopes of an element, taking into account their relative natural abundance, measured on a scale where one atom of carbon-12 is defined as having a mass of exactly 12 units. Because it is a weighted average across all naturally occurring isotopes, relative atomic mass is often not a whole number (e.g. chlorine has Ar = 35.5, reflecting a natural mixture of about 75% chlorine-35 and 25% chlorine-37). Relative atomic mass is a ratio (comparing an atom's average mass to 1/12th the mass of carbon-12) and therefore has no units. It is found on the periodic table for every element and is essential for mole calculations (see Mole Concept).",
+      "key_concepts": ["Weighted average based on isotopic abundance", "Carbon-12 as the reference standard", "No units (a ratio)", "Used throughout quantitative chemistry"],
+      "definitions": [
+        {"term": "Relative atomic mass (Ar)", "definition": "The weighted average mass of the isotopes of an element, relative to 1/12th the mass of an atom of carbon-12."}
+      ],
+      "formulae": [
+        {"name": "Relative atomic mass from isotopic abundance", "formula": "Ar = Σ (isotope mass number × % abundance) / 100", "description": "Sum the product of each isotope's mass number and its percentage abundance, then divide by 100."}
+      ],
+      "equations": [],
+      "worked_examples": [
+        {
+          "problem": "Chlorine consists of 75% chlorine-35 and 25% chlorine-37. Calculate its relative atomic mass.",
+          "working": "Ar = [(35 × 75) + (37 × 25)] / 100 = [2625 + 925] / 100 = 3550 / 100",
+          "answer": "Ar = 35.5"
+        }
+      ],
+      "practical_applications": ["Relative atomic mass values underpin all quantitative chemistry, including industrial calculations of reactant/product quantities"],
+      "laboratory_applications": ["Used with data from a mass spectrometer, which measures the mass and relative abundance of isotopes in a sample, to calculate an element's relative atomic mass (see Mass Spectrometry)"],
+      "common_mistakes": [
+        "Forgetting to divide by 100 after multiplying mass numbers by percentage abundances",
+        "Confusing relative atomic mass (a weighted average across isotopes, often not a whole number) with mass number (a whole number specific to one isotope)"
+      ],
+      "misconceptions": ["Believing relative atomic mass has units — it is a ratio compared to carbon-12 and therefore has no units"],
+      "tips": ["Always check your final Ar value is reasonable — it should be close to the mass number of the most abundant isotope"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define relative atomic mass.", "answer": "The weighted average mass of the isotopes of an element, relative to 1/12th the mass of a carbon-12 atom."},
+          {"question": "State the units of relative atomic mass.", "answer": "No units (it is a ratio)."}
+        ],
+        "intermediate": [
+          {"question": "Copper consists of 69% copper-63 and 31% copper-65. Calculate the relative atomic mass of copper to 1 decimal place.", "answer": "Ar = [(63 × 69) + (65 × 31)] / 100 = [4347 + 2015] / 100 = 6362/100 = 63.6"},
+          {"question": "Explain why the relative atomic mass of bromine (79.9) suggests it consists of roughly equal proportions of two isotopes with mass numbers 79 and 81.", "answer": "If bromine's relative atomic mass (79.9) is very close to the midpoint between 79 and 81 (which is 80), this suggests the two isotopes are present in roughly similar (close to 50:50) abundance, since a weighted average close to the simple midpoint implies neither isotope dominates strongly over the other."}
+        ],
+        "advanced": [
+          {"question": "An element has three isotopes: 70% with mass number 24, 10% with mass number 25, and 20% with mass number 26. Calculate its relative atomic mass.", "answer": "Ar = [(24 × 70) + (25 × 10) + (26 × 20)] / 100 = [1680 + 250 + 520] / 100 = 2450/100 = 24.5"}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Silicon consists of 92.2% silicon-28, 4.7% silicon-29 and 3.1% silicon-30. Calculate the relative atomic mass of silicon to 1 decimal place, showing your working.", "marks": 3, "model_answer": "Ar = [(28 × 92.2) + (29 × 4.7) + (30 × 3.1)] / 100 (1 mark for correct method/substitution) = [2581.6 + 136.3 + 93] / 100 = 2810.9/100 = 28.1 (2 marks for correct final answer to 1 d.p.)."}
+      ],
+      "summary": "Relative atomic mass (Ar) is the weighted average mass of an element's naturally occurring isotopes, measured relative to 1/12th the mass of carbon-12, and has no units. It is calculated using isotopic abundance data and underpins quantitative chemistry.",
+      "revision_notes": ["Ar = Σ(mass number × % abundance) ÷ 100", "Reference standard: carbon-12 = exactly 12", "No units; often not a whole number due to isotopic mixtures"],
+      "related_topics": ["Isotopes", "Mass Number", "Relative Molecular Mass", "Mass Spectrometry"],
+      "prerequisites": ["Isotopes"],
+      "diagram_recommendations": ["[DIAGRAM: Mass spectrum of chlorine showing peaks for chlorine-35 and chlorine-37 with relative abundances]"]
+    }
+  ]
+}

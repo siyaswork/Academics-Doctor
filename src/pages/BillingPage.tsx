@@ -71,7 +71,6 @@ export default function BillingPage() {
     void loadSubscription()
   }, [user])
 
-  // Load the PayPal JS SDK once.
   useEffect(() => {
     if (window.paypal) {
       setSdkReady(true)
@@ -90,7 +89,6 @@ export default function BillingPage() {
 
   const isActive = subscription?.status === 'active'
 
-  // Render the actual PayPal Buttons once the SDK is ready and checkout should be shown.
   useEffect(() => {
     if (!sdkReady || !window.paypal || isActive || !buttonContainerRef.current || !user) return
 
@@ -102,8 +100,6 @@ export default function BillingPage() {
           setPaypalError(null)
           const { data: sessionData } = await supabase.auth.getSession()
           const accessToken = sessionData.session?.access_token
-          const { data: keys } = await supabase.auth.getSession() // reuse session for apikey too via anon key constant below
-          void keys
           const res = await fetch(`${FUNCTIONS_BASE}/paypal-create-order`, {
             method: 'POST',
             headers: {
@@ -169,16 +165,10 @@ export default function BillingPage() {
       </header>
 
       <nav className={styles.navTabs} aria-label="Account Navigation">
-        <NavLink
-          to="/account"
-          className={({ isActive }) => (isActive ? `${styles.tabLink} ${styles.tabLinkActive}` : styles.tabLink)}
-        >
+        <NavLink to="/account" className={({ isActive }) => (isActive ? `${styles.tabLink} ${styles.tabLinkActive}` : styles.tabLink)}>
           Profile
         </NavLink>
-        <NavLink
-          to="/billing"
-          className={({ isActive }) => (isActive ? `${styles.tabLink} ${styles.tabLinkActive}` : styles.tabLink)}
-        >
+        <NavLink to="/billing" className={({ isActive }) => (isActive ? `${styles.tabLink} ${styles.tabLinkActive}` : styles.tabLink)}>
           Billing & Payments
         </NavLink>
       </nav>
@@ -195,8 +185,8 @@ export default function BillingPage() {
                 {isActive
                   ? `Active — ${MONTHLY_PRICE}/month`
                   : trialExpired
-                    ? 'Trial expired'
-                    : `Free trial`}
+                  ? 'Trial expired'
+                  : `Free trial`}
               </span>
             </div>
             <div className={styles.statusRow}>
@@ -205,10 +195,10 @@ export default function BillingPage() {
                 {isActive && subscription?.paid_at
                   ? `Paid on ${formatDate(subscription.paid_at)} — next payment ${subscription.next_payment_at ? formatDate(subscription.next_payment_at) : 'N/A'}`
                   : trialExpired
-                    ? 'Your free trial has ended. Subscribe to keep full access.'
-                    : subscription
-                      ? `Free trial until ${formatDate(subscription.trial_ends_at)}, then ${MONTHLY_PRICE}/month`
-                      : 'N/A'}
+                  ? 'Your free trial has ended. Subscribe to keep full access.'
+                  : subscription
+                  ? `Free trial until ${formatDate(subscription.trial_ends_at)}, then ${MONTHLY_PRICE}/month`
+                  : 'N/A'}
               </span>
             </div>
             <div className={styles.statusRow}>

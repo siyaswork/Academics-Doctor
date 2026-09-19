@@ -1,0 +1,1771 @@
+[
+  {
+    "id": 404,
+    "category": "Statistics",
+    "topic": "Data Collection",
+    "explanation": "Data collection is the process of gathering information to answer a specific question or investigate a particular topic. Good data collection methods are crucial for ensuring that any conclusions drawn from the data are accurate and reliable, avoiding bias wherever possible.",
+    "key_concepts": [
+      "Data collection should have a clear purpose or question to answer",
+      "Common methods: surveys, questionnaires, experiments, observations, existing records",
+      "Choice of method affects reliability, cost, and how representative the data is",
+      "Poor collection methods can introduce bias, undermining the validity of conclusions"
+    ],
+    "definitions": [
+      {
+        "term": "Data Collection",
+        "definition": "The systematic process of gathering information to answer a question or investigate a topic."
+      },
+      {
+        "term": "Bias",
+        "definition": "A systematic error in data collection that causes results to be skewed away from the true value."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A school wants to find out students' favourite subjects. Suggest an appropriate data collection method.",
+        "solution_steps": [
+          "Consider what's practical and representative",
+          "A questionnaire/survey given to a sample of students across different year groups would work well"
+        ],
+        "answer": "A survey or questionnaire distributed to a representative sample of students"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Suggest a suitable data collection method for finding the average time students spend on homework.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain why asking only your close friends about their favourite sport might introduce bias.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "A survey/questionnaire asking students to record or estimate their homework time.",
+      "Close friends often share similar interests or backgrounds, so their answers may not represent the wider population's views, leading to unrepresentative (biased) results."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A company wants to know if customers are satisfied with a new product. Describe one method of data collection they could use, and explain one potential source of bias.",
+        "marks": 3,
+        "answer": "Method: an online customer satisfaction survey. Potential bias: only customers who feel strongly (very satisfied or very dissatisfied) might be more likely to respond, skewing the results away from the average customer's true opinion."
+      }
+    ],
+    "common_mistakes": [
+      "Choosing a data collection method that's impractical or too costly for the purpose",
+      "Failing to consider potential sources of bias in the chosen method"
+    ],
+    "tips": [
+      "Always ask: 'Is this method going to give me data that fairly represents what I'm trying to investigate?' before finalizing a data collection approach."
+    ],
+    "summary": "Data collection gathers information to answer questions, requiring careful method choice to minimize bias and ensure reliable conclusions.",
+    "quick_revision_notes": [
+      "Clear purpose needed",
+      "Common methods: surveys, experiments, observations",
+      "Watch for bias"
+    ],
+    "related_prerequisite_topics": [
+      "Primary Data",
+      "Secondary Data",
+      "Sampling Methods"
+    ],
+    "images": []
+  },
+  {
+    "id": 405,
+    "category": "Statistics",
+    "topic": "Primary Data",
+    "explanation": "Primary data is information collected firsthand by the researcher specifically for their current investigation, such as through surveys, experiments, or direct observations. It contrasts with secondary data, which is collected by someone else for a different original purpose.",
+    "key_concepts": [
+      "Primary data is collected directly by the researcher for their specific purpose",
+      "Methods: surveys, questionnaires, experiments, observations, interviews",
+      "Advantages: tailored exactly to the research question, up-to-date, controllable methodology",
+      "Disadvantages: often more time-consuming and expensive to collect than using existing data"
+    ],
+    "definitions": [
+      {
+        "term": "Primary Data",
+        "definition": "Data collected firsthand by the researcher specifically for their current investigation."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A student conducts their own survey of classmates' pet ownership for a school project. Is this primary or secondary data?",
+        "solution_steps": [
+          "The student collected this data themselves, specifically for their project"
+        ],
+        "answer": "Primary data"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is data collected by personally timing how long it takes people to solve a puzzle primary or secondary data?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Give one advantage of using primary data over secondary data.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Primary data (collected firsthand by the researcher for their specific investigation).",
+      "Primary data is tailored exactly to the specific research question, ensuring relevance, and the researcher has full control over how it's collected."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A researcher wants to investigate reaction times in teenagers. Explain why conducting their own experiment would produce primary data, and give one advantage of this over using data from a published study.",
+        "marks": 3,
+        "answer": "Conducting their own experiment produces primary data because the researcher collects it firsthand for their specific investigation. An advantage over a published study (secondary data) is that the researcher can control the exact conditions and methodology to precisely match their research question."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing primary data with secondary data (mixing up who originally collected it and for what purpose)",
+      "Assuming primary data is always 'better' \u2014 it depends on the context (secondary data can be more efficient when suitable data already exists)"
+    ],
+    "tips": [
+      "Ask: 'Did I (or my team) collect this data myself, specifically for this investigation?' If yes, it's primary data."
+    ],
+    "summary": "Primary data is collected firsthand by the researcher for their specific investigation, offering tailored relevance but requiring more effort.",
+    "quick_revision_notes": [
+      "Collected firsthand, for THIS investigation"
+    ],
+    "related_prerequisite_topics": [
+      "Data Collection",
+      "Secondary Data"
+    ],
+    "images": []
+  },
+  {
+    "id": 406,
+    "category": "Statistics",
+    "topic": "Secondary Data",
+    "explanation": "Secondary data is information that was originally collected by someone else, for a different purpose, but is being reused by a new researcher for their own investigation. Examples include government statistics, published research, or historical records.",
+    "key_concepts": [
+      "Secondary data was collected by someone else, for a different original purpose",
+      "Sources: government databases, published research, historical records, company reports",
+      "Advantages: often free or cheap to access, saves time, may cover large populations or long time periods",
+      "Disadvantages: may not exactly match the current research question, and its collection methodology can't be controlled or verified as easily"
+    ],
+    "definitions": [
+      {
+        "term": "Secondary Data",
+        "definition": "Data originally collected by someone else, for a different purpose, but reused for a new investigation."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A student uses census data published by the government to study population trends. Is this primary or secondary data?",
+        "solution_steps": [
+          "The census data was collected by the government, for their own purposes, not specifically by the student"
+        ],
+        "answer": "Secondary data"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is using weather records from a national meteorological agency primary or secondary data?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Give one disadvantage of using secondary data.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Secondary data (collected by the meteorological agency, not the current researcher, for their own purposes).",
+      "It may not exactly match the specific research question, and the researcher cannot control or verify the original data collection methodology."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A researcher uses hospital records (collected by the hospital for patient care purposes) to study disease trends. Explain why this is secondary data, and state one advantage of using it over collecting primary data.",
+        "marks": 3,
+        "answer": "This is secondary data because the hospital originally collected the records for patient care, not specifically for the researcher's disease-trend study. An advantage is that it saves significant time and cost compared to conducting new primary data collection, and may cover a much larger population."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming any data found online or in a report is automatically 'secondary' without checking who collected it and why",
+      "Overlooking potential reliability issues since the original collection methodology may be unknown or uncontrolled"
+    ],
+    "tips": [
+      "Ask: 'Was this data collected by someone else, for a different original purpose?' If yes, it's secondary data \u2014 even if it's highly relevant to your current question."
+    ],
+    "summary": "Secondary data was originally collected by someone else for a different purpose, offering efficiency but less exact relevance and control.",
+    "quick_revision_notes": [
+      "Collected by someone else, for a DIFFERENT purpose"
+    ],
+    "related_prerequisite_topics": [
+      "Primary Data",
+      "Data Collection"
+    ],
+    "images": []
+  },
+  {
+    "id": 407,
+    "category": "Statistics",
+    "topic": "Qualitative Data",
+    "explanation": "Qualitative data describes qualities or characteristics that cannot be measured numerically, such as colours, opinions, or categories. It is also called categorical data, and is typically summarized using frequency counts rather than numerical calculations like averages.",
+    "key_concepts": [
+      "Qualitative (categorical) data describes non-numerical qualities or categories",
+      "Examples: eye colour, favourite food, yes/no responses, brand preferences",
+      "Cannot be meaningfully averaged (e.g. you can't find the 'average' hair colour)",
+      "Typically displayed using bar charts, pie charts, or frequency tables"
+    ],
+    "definitions": [
+      {
+        "term": "Qualitative Data",
+        "definition": "Data describing qualities or categories rather than numerical quantities; also called categorical data."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Classify 'favourite colour' as qualitative or quantitative data.",
+        "solution_steps": [
+          "Colour is a category/quality, not a number"
+        ],
+        "answer": "Qualitative"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Classify 'type of pet owned' as qualitative or quantitative.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain why qualitative data cannot have a meaningful 'mean' calculated.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Qualitative",
+      "The mean requires adding numerical values and dividing \u2014 since qualitative data consists of categories or labels (not numbers), there's no way to meaningfully add or divide them to produce an average."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A survey records participants' 'preferred mode of transport' (car, bus, bike, walk). Explain why this is qualitative data, and suggest an appropriate way to display it.",
+        "marks": 2,
+        "answer": "This is qualitative data because it describes categories (types of transport) rather than numerical quantities. An appropriate display would be a bar chart or pie chart, showing the frequency of each category."
+      }
+    ],
+    "common_mistakes": [
+      "Attempting to calculate a mean or median for qualitative data (only the mode makes sense for such data)",
+      "Confusing qualitative data with quantitative data that happens to be grouped into categories"
+    ],
+    "tips": [
+      "Only the MODE (most frequent category) is a meaningful 'average' for qualitative data \u2014 mean and median require actual numerical values."
+    ],
+    "summary": "Qualitative (categorical) data describes non-numerical qualities, displayed with bar/pie charts and summarized using the mode.",
+    "quick_revision_notes": [
+      "Categories/qualities, not numbers",
+      "Use mode, not mean/median"
+    ],
+    "related_prerequisite_topics": [
+      "Quantitative Data",
+      "Data Collection",
+      "Bar Charts"
+    ],
+    "images": []
+  },
+  {
+    "id": 408,
+    "category": "Statistics",
+    "topic": "Quantitative Data",
+    "explanation": "Quantitative data consists of numerical values that can be measured or counted, allowing for mathematical operations like averaging. Quantitative data is further divided into discrete data (countable, distinct values) and continuous data (measurable, any value within a range).",
+    "key_concepts": [
+      "Quantitative data consists of numbers representing measurable or countable quantities",
+      "Can be summarized using mean, median, mode, and range",
+      "Subdivided into discrete data (exact, countable values) and continuous data (measured, any value in a range)",
+      "Displayed using histograms, line graphs, or other numerical charts"
+    ],
+    "definitions": [
+      {
+        "term": "Quantitative Data",
+        "definition": "Numerical data representing measurable or countable quantities."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Classify 'number of siblings' as qualitative or quantitative data.",
+        "solution_steps": [
+          "This is a count, a numerical value"
+        ],
+        "answer": "Quantitative (specifically discrete, since it's a countable whole number)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Classify 'height in cm' as qualitative or quantitative data.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain the difference between discrete and continuous quantitative data.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Quantitative (specifically continuous, since height can take any value within a range)",
+      "Discrete data consists of distinct, countable values (like whole numbers, e.g. number of pets), while continuous data can take any value within a range (like height or weight, which can be measured to any level of precision)."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A study records participants' 'daily step count' and 'blood pressure reading'. Explain why both are examples of quantitative data, and classify each as discrete or continuous.",
+        "marks": 3,
+        "answer": "Both are quantitative because they are numerical measurements. Daily step count is DISCRETE (a countable whole number of steps). Blood pressure reading is CONTINUOUS (it can take any value within a range, measured to any level of precision)."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing quantitative data with qualitative data that happens to involve numerical labels or codes (e.g. postcodes aren't truly quantitative, despite being numbers)",
+      "Misclassifying discrete vs continuous data"
+    ],
+    "tips": [
+      "A quick test for quantitative data: 'Does it make sense to calculate an average (mean) for this?' If yes, it's quantitative."
+    ],
+    "summary": "Quantitative data consists of numerical values (discrete or continuous), summarized using mean, median, mode, and range.",
+    "quick_revision_notes": [
+      "Numbers you can calculate with",
+      "Discrete: countable. Continuous: measurable, any value"
+    ],
+    "related_prerequisite_topics": [
+      "Qualitative Data",
+      "Discrete Data",
+      "Continuous Data"
+    ],
+    "images": []
+  },
+  {
+    "id": 409,
+    "category": "Statistics",
+    "topic": "Discrete Data",
+    "explanation": "Discrete data consists of distinct, separate, countable values, typically whole numbers, with no meaningful values possible in between. Examples include the number of students in a class or the number of cars in a car park \u2014 you can't have half a student or a fractional car.",
+    "key_concepts": [
+      "Discrete data takes distinct, separate values, usually whole numbers",
+      "Cannot meaningfully take values 'in between' the countable options (e.g. you can't have 2.5 children)",
+      "Typically arises from COUNTING rather than measuring",
+      "Displayed using bar charts, frequency tables, or dot plots (not histograms, which are for continuous data)"
+    ],
+    "definitions": [
+      {
+        "term": "Discrete Data",
+        "definition": "Numerical data that takes distinct, separate (usually whole-number) values, arising from counting."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Classify 'number of goals scored in a football match' as discrete or continuous.",
+        "solution_steps": [
+          "Goals are counted in whole numbers; you can't score 2.5 goals"
+        ],
+        "answer": "Discrete"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Classify 'number of books on a shelf' as discrete or continuous.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain why 'shoe size' might be considered discrete data, even though half sizes exist.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Discrete (counted in whole numbers)",
+      "Shoe sizes only take specific, distinct values (whole numbers and halves) from a predetermined list \u2014 you can't have a shoe size of, say, 7.3 \u2014 so it's still discrete, just with a slightly finer set of allowed distinct values than pure whole numbers."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A survey records the 'number of pets owned' by each household. Explain why this is discrete data, and suggest an appropriate way to display it graphically.",
+        "marks": 2,
+        "answer": "This is discrete data because the number of pets must be a whole, countable number (you can't own a fraction of a pet). An appropriate display would be a bar chart or frequency table, showing how many households have 0, 1, 2, etc. pets."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing discrete data with continuous data (especially for measurements that are rounded to whole numbers, but are actually continuous underneath, like age rounded to the nearest year)",
+      "Using a histogram (designed for continuous data) instead of a bar chart for discrete data"
+    ],
+    "tips": [
+      "Ask: 'Does this arise from COUNTING distinct items?' If yes, it's likely discrete; if it arises from MEASURING (which could theoretically be any value), it's likely continuous."
+    ],
+    "summary": "Discrete data takes distinct, countable (usually whole-number) values, arising from counting, displayed with bar charts.",
+    "quick_revision_notes": [
+      "Countable, distinct values (often whole numbers)",
+      "Use bar charts, not histograms"
+    ],
+    "related_prerequisite_topics": [
+      "Quantitative Data",
+      "Continuous Data",
+      "Bar Charts"
+    ],
+    "images": []
+  },
+  {
+    "id": 410,
+    "category": "Statistics",
+    "topic": "Continuous Data",
+    "explanation": "Continuous data can take any value within a given range, typically arising from measurement rather than counting. Examples include height, weight, time, and temperature \u2014 these can theoretically be measured to any level of precision, with infinitely many possible values between any two points.",
+    "key_concepts": [
+      "Continuous data can take ANY value within a range, not just distinct separate values",
+      "Typically arises from MEASURING (length, weight, time, temperature) rather than counting",
+      "Often grouped into class intervals for display, since exact individual values are numerous and varied",
+      "Displayed using histograms (not bar charts, which are for discrete/categorical data)"
+    ],
+    "definitions": [
+      {
+        "term": "Continuous Data",
+        "definition": "Numerical data that can take any value within a given range, arising from measurement."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Classify 'time taken to run 100m' as discrete or continuous.",
+        "solution_steps": [
+          "Time can be measured to any level of precision (e.g. 12.34 seconds, 12.345 seconds, etc.)"
+        ],
+        "answer": "Continuous"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Classify 'weight of a bag of apples' as discrete or continuous.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain why continuous data is often grouped into class intervals for display.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Continuous (weight can take any value, measured to any precision)",
+      "Since continuous data can take infinitely many possible values, listing every individual value would be impractical; grouping into class intervals (ranges) makes the data more manageable to summarize and display, typically using a histogram."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A scientist records the 'temperature of a chemical reaction' every minute. Explain why this is continuous data, and state the appropriate type of chart to display grouped temperature data.",
+        "marks": 2,
+        "answer": "Temperature is continuous data because it can take any value within a range (e.g. 25.3\u00b0C, 25.34\u00b0C, etc.), arising from measurement. A histogram is the appropriate chart for displaying grouped continuous data."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing continuous data with discrete data that has simply been measured with many decimal places",
+      "Using a bar chart (with gaps between bars) instead of a histogram (with no gaps, since the data is continuous) to display grouped continuous data"
+    ],
+    "tips": [
+      "Histograms for continuous data have NO gaps between bars (since the data flows continuously); bar charts for discrete/categorical data DO have gaps, since categories are separate and distinct."
+    ],
+    "summary": "Continuous data can take any value within a range, arising from measurement, typically grouped and displayed using histograms.",
+    "quick_revision_notes": [
+      "Any value within a range (measured)",
+      "Use histograms (no gaps)"
+    ],
+    "related_prerequisite_topics": [
+      "Quantitative Data",
+      "Discrete Data",
+      "Histograms"
+    ],
+    "images": []
+  },
+  {
+    "id": 411,
+    "category": "Statistics",
+    "topic": "Population",
+    "explanation": "In statistics, a population refers to the entire group of individuals or items that a study aims to investigate or draw conclusions about \u2014 not just people, but any complete set of relevant items (like all light bulbs produced by a factory). Studying an entire population directly is often impractical, leading to the use of samples instead.",
+    "key_concepts": [
+      "A population is the COMPLETE set of individuals/items relevant to a study",
+      "Can refer to people, animals, objects, events \u2014 any well-defined group",
+      "Studying an entire population (a 'census') is often costly, time-consuming, or impossible",
+      "Statistical inference uses a sample to estimate properties of the whole population"
+    ],
+    "definitions": [
+      {
+        "term": "Population (Statistics)",
+        "definition": "The entire group of individuals or items that a study aims to investigate or draw conclusions about."
+      },
+      {
+        "term": "Census",
+        "definition": "A study that collects data from every single member of a population, rather than just a sample."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A researcher wants to study the average height of all students in a country's high schools. What is the 'population' in this study?",
+        "solution_steps": [
+          "The population is the group the study aims to draw conclusions about"
+        ],
+        "answer": "All high school students in that country"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A factory tests light bulbs for defects. What is the population in this context?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain why studying an entire population is often impractical.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "All light bulbs produced by the factory.",
+      "Studying an entire population can be extremely costly, time-consuming, or even impossible (e.g. destructive testing would use up the entire product; surveying millions of people is impractical) \u2014 hence samples are typically used instead."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A polling company wants to predict the outcome of a national election. Define the 'population' for this study, and explain why they would use a sample instead of surveying the entire population.",
+        "marks": 3,
+        "answer": "The population is all eligible voters in the country. Surveying the entire population (a census) would be extremely expensive, time-consuming, and impractical to complete before the election, so a representative sample is used instead to estimate the overall outcome."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing 'population' (the general English word for people) with the statistical definition (which can refer to ANY complete group, including objects)",
+      "Not clearly identifying who or what the population actually is in a given study"
+    ],
+    "tips": [
+      "Always ask: 'What is the COMPLETE group this study wants to draw conclusions about?' \u2014 that is the statistical population, regardless of whether it's people, animals, or objects."
+    ],
+    "summary": "A population is the entire group a study aims to investigate; due to practical constraints, samples are typically used to estimate population properties.",
+    "quick_revision_notes": [
+      "Population = entire group of interest",
+      "Census = studying the WHOLE population"
+    ],
+    "related_prerequisite_topics": [
+      "Samples",
+      "Sampling Methods"
+    ],
+    "images": []
+  },
+  {
+    "id": 412,
+    "category": "Statistics",
+    "topic": "Samples",
+    "explanation": "A sample is a smaller subset selected from a larger population, used to make inferences about the whole population without needing to study every single member. A good sample should be representative of the population to ensure conclusions drawn from it are valid.",
+    "key_concepts": [
+      "A sample is a subset of the population, used to represent the whole",
+      "A representative sample accurately reflects the characteristics of the population",
+      "Sample size affects reliability \u2014 generally, larger samples give more reliable estimates (up to practical limits)",
+      "Poor sampling methods can produce unrepresentative samples, leading to biased conclusions"
+    ],
+    "definitions": [
+      {
+        "term": "Sample",
+        "definition": "A subset of individuals or items selected from a larger population, used to represent and draw conclusions about the whole."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A school has 1,200 students. A researcher surveys 100 randomly selected students about their lunch preferences. Identify the population and the sample.",
+        "solution_steps": [
+          "Population = everyone the study is about",
+          "Sample = the smaller subset actually surveyed"
+        ],
+        "answer": "Population: all 1,200 students. Sample: the 100 students surveyed."
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A company has 500 employees. If 50 are surveyed about job satisfaction, identify the population and sample.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain why a larger sample size generally gives more reliable results.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Population: all 500 employees. Sample: the 50 employees surveyed.",
+      "A larger sample is less likely to be skewed by unusual or extreme individual results, and tends to more accurately reflect the true characteristics of the overall population, reducing the impact of random variation."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A researcher wants to estimate the average shoe size of adults in a city. They survey 50 people at a shopping mall. Explain one reason why this sample might not be representative of the whole population.",
+        "marks": 2,
+        "answer": "People at a shopping mall may not represent the full range of the city's adult population (e.g. certain age groups, occupations, or those who don't often visit malls might be underrepresented), potentially introducing bias into the results."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming any sample, regardless of size or selection method, will automatically be representative",
+      "Confusing sample size with sample quality (a large sample can still be biased if poorly selected)"
+    ],
+    "tips": [
+      "A sample's QUALITY (how representative it is) often matters more than its raw SIZE \u2014 a large but biased sample can still give misleading conclusions."
+    ],
+    "summary": "A sample is a representative subset of a population, used to estimate population characteristics without studying every individual.",
+    "quick_revision_notes": [
+      "Sample = subset of the population",
+      "Representativeness matters more than just size"
+    ],
+    "related_prerequisite_topics": [
+      "Population",
+      "Sampling Methods",
+      "Random Sampling"
+    ],
+    "images": []
+  },
+  {
+    "id": 413,
+    "category": "Statistics",
+    "topic": "Sampling Methods",
+    "explanation": "Sampling methods are systematic approaches for selecting a sample from a population, each with different strengths and weaknesses in terms of representativeness, cost, and practicality. Common methods include random, systematic, stratified, and convenience sampling.",
+    "key_concepts": [
+      "Different sampling methods balance representativeness, cost, and ease of implementation differently",
+      "Random sampling: every member has an equal chance of selection",
+      "Systematic sampling: selecting every nth member from a list",
+      "Stratified sampling: dividing the population into subgroups, then sampling proportionally from each",
+      "Convenience sampling: selecting readily available individuals (often less representative)"
+    ],
+    "definitions": [
+      {
+        "term": "Sampling Method",
+        "definition": "A systematic approach for selecting a sample of individuals from a larger population."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A researcher wants a highly representative sample of a school's students, considering different year groups. Which sampling method would be most appropriate, and why?",
+        "solution_steps": [
+          "Different year groups may have different characteristics/opinions",
+          "Stratified sampling accounts for this by sampling proportionally from each year group"
+        ],
+        "answer": "Stratified sampling, since it ensures each year group is proportionally represented in the sample"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Name four common sampling methods.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which sampling method is generally considered the LEAST representative, and why?",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Random sampling, systematic sampling, stratified sampling, convenience sampling",
+      "Convenience sampling, because it selects whoever is easiest to reach, which often doesn't represent the full diversity of the population, introducing bias."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A company wants to survey customer satisfaction across its stores in different regions, ensuring proportional representation from each region. Suggest and justify an appropriate sampling method.",
+        "marks": 3,
+        "answer": "Stratified sampling would be most appropriate, since it involves dividing the population into subgroups (regions) and sampling proportionally from each, ensuring the sample accurately reflects the regional distribution of the whole population."
+      }
+    ],
+    "common_mistakes": [
+      "Choosing convenience sampling for its ease without considering the significant risk of bias",
+      "Not matching the sampling method to the specific needs of the investigation (e.g. using simple random sampling when subgroup representation actually matters)"
+    ],
+    "tips": [
+      "Always match the sampling method to the investigation's goals \u2014 if subgroup representation matters, use stratified sampling; if a numbered list is available, systematic sampling is efficient; for pure fairness, use random sampling."
+    ],
+    "summary": "Sampling methods (random, systematic, stratified, convenience) offer different trade-offs between representativeness, cost, and practicality.",
+    "quick_revision_notes": [
+      "Random: equal chance. Systematic: every nth. Stratified: proportional subgroups. Convenience: easiest to reach (least reliable)"
+    ],
+    "related_prerequisite_topics": [
+      "Random Sampling",
+      "Systematic Sampling",
+      "Stratified Sampling",
+      "Convenience Sampling"
+    ],
+    "images": []
+  },
+  {
+    "id": 414,
+    "category": "Statistics",
+    "topic": "Random Sampling",
+    "explanation": "Random sampling selects individuals from a population such that every member has an equal chance of being chosen, minimizing selection bias. This is often considered the 'gold standard' for producing a representative sample, though it can be logistically challenging for very large populations.",
+    "key_concepts": [
+      "Every member of the population has an EQUAL chance of selection",
+      "Minimizes selection bias, since no systematic favoring of any group occurs",
+      "Can be implemented using random number generators, lottery methods, or drawing names from a hat",
+      "Requires a complete, accurate list of the population to select from (a 'sampling frame')"
+    ],
+    "definitions": [
+      {
+        "term": "Random Sampling",
+        "definition": "A sampling method where every member of the population has an equal chance of being selected."
+      },
+      {
+        "term": "Sampling Frame",
+        "definition": "A complete list of all members of a population, used as the basis for selecting a sample."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Describe how to randomly select 20 students from a school of 500, using random numbers.",
+        "solution_steps": [
+          "Number every student from 1 to 500 (the sampling frame)",
+          "Use a random number generator to produce 20 unique numbers between 1 and 500",
+          "Select the students corresponding to those numbers"
+        ],
+        "answer": "Number all 500 students, generate 20 unique random numbers in that range, and select the matching students"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "What is required to properly implement random sampling?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain one advantage of random sampling over convenience sampling.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "A complete, accurate list of the population (a sampling frame), plus a method for making unbiased random selections (like a random number generator).",
+      "Random sampling gives every individual an equal chance of selection, greatly reducing the risk of bias, whereas convenience sampling only selects those easiest to reach, which may not represent the population well."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A researcher wants to randomly select 50 employees from a company of 2,000 for a survey. Describe a suitable method for doing this.",
+        "marks": 3,
+        "answer": "Assign each of the 2,000 employees a unique number from 1 to 2,000 (creating a sampling frame). Use a random number generator (or computer software) to generate 50 unique random numbers within this range, and select the employees corresponding to those numbers."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing random sampling with simply 'picking without much thought' (true randomness requires a systematic, unbiased selection process)",
+      "Not having a complete sampling frame, making truly random selection impossible"
+    ],
+    "tips": [
+      "True random sampling requires a proper randomization tool (like a random number generator) \u2014 informally 'picking randomly' by hand is often subconsciously biased."
+    ],
+    "summary": "Random sampling gives every population member an equal chance of selection, minimizing bias but requiring a complete sampling frame.",
+    "quick_revision_notes": [
+      "Equal chance for everyone",
+      "Requires a complete sampling frame"
+    ],
+    "related_prerequisite_topics": [
+      "Sampling Methods",
+      "Population",
+      "Samples"
+    ],
+    "images": []
+  },
+  {
+    "id": 415,
+    "category": "Statistics",
+    "topic": "Systematic Sampling",
+    "explanation": "Systematic sampling selects individuals from a population at regular, fixed intervals (every nth member) from an ordered list, after a random starting point. This method is straightforward to implement and generally provides good coverage of the population.",
+    "key_concepts": [
+      "Select every nth member from an ordered list, after a random starting point",
+      "The interval n is calculated as: population size \u00f7 desired sample size",
+      "Easier to implement than pure random sampling, especially for large populations with an existing list",
+      "Can introduce bias if the list has an underlying pattern that coincides with the sampling interval"
+    ],
+    "definitions": [
+      {
+        "term": "Systematic Sampling",
+        "definition": "A sampling method that selects every nth member from an ordered list, after a random starting point."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Sampling interval",
+        "formula": "n = population size / sample size",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A population has 1,000 members, and a sample of 50 is needed using systematic sampling. Find the sampling interval, and describe the method.",
+        "solution_steps": [
+          "Interval = 1000/50 = 20",
+          "Randomly choose a starting point between 1 and 20",
+          "Then select every 20th member from there"
+        ],
+        "answer": "Interval = 20; select every 20th person from a random start point (1-20)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A population has 600 members, and a sample of 30 is needed. Find the sampling interval.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain a potential problem with systematic sampling if the population list has a repeating pattern.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "20 (600/30)",
+      "If the list has a repeating pattern that happens to align with the sampling interval (e.g. every 10th person is always from the same subgroup, and the interval is also 10), the sample could become biased, only capturing that specific subgroup rather than a true cross-section of the population."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A company has 400 employees listed alphabetically. Describe how to select a systematic sample of 20 employees.",
+        "marks": 3,
+        "answer": "Calculate the interval: 400/20=20. Randomly select a starting point between 1 and 20 (e.g. employee number 7). Then select every 20th employee from there: 7, 27, 47, 67, and so on, until 20 employees are selected."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to randomize the STARTING point (simply starting at position 1 introduces potential bias)",
+      "Miscalculating the sampling interval"
+    ],
+    "tips": [
+      "Always randomize the starting point within the first interval \u2014 this small step is what keeps systematic sampling from being fully deterministic and potentially biased."
+    ],
+    "summary": "Systematic sampling selects every nth member from an ordered list after a random start, calculated as population size divided by sample size.",
+    "quick_revision_notes": [
+      "Interval = population/sample size",
+      "Random start, then select every nth member"
+    ],
+    "related_prerequisite_topics": [
+      "Sampling Methods",
+      "Random Sampling"
+    ],
+    "images": []
+  },
+  {
+    "id": 416,
+    "category": "Statistics",
+    "topic": "Stratified Sampling",
+    "explanation": "Stratified sampling divides the population into distinct, non-overlapping subgroups (called strata) based on a shared characteristic, then samples proportionally from each subgroup. This ensures that all relevant subgroups are appropriately represented in the final sample.",
+    "key_concepts": [
+      "Divide the population into strata (subgroups) based on a relevant characteristic (e.g. age, gender, region)",
+      "Sample proportionally from EACH stratum, based on its size relative to the whole population",
+      "Ensures fair representation of all subgroups, especially important when subgroups differ significantly",
+      "Formula: sample size from a stratum = (stratum size / population size) \u00d7 total sample size"
+    ],
+    "definitions": [
+      {
+        "term": "Stratified Sampling",
+        "definition": "A sampling method that divides the population into subgroups (strata) and samples proportionally from each."
+      },
+      {
+        "term": "Strata",
+        "definition": "The distinct, non-overlapping subgroups a population is divided into for stratified sampling."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Proportional sample size from a stratum",
+        "formula": "sample from stratum = (stratum size / population size) \u00d7 total sample size",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A school has 300 Year 10 students and 200 Year 11 students (total 500). A stratified sample of 50 students is needed. Find how many should come from each year group.",
+        "solution_steps": [
+          "Year 10: (300/500) \u00d7 50 = 30",
+          "Year 11: (200/500) \u00d7 50 = 20"
+        ],
+        "answer": "30 from Year 10, 20 from Year 11"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A company has 150 male and 350 female employees (total 500). A stratified sample of 100 is needed. Find how many should come from each group.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Explain the main advantage of stratified sampling over simple random sampling when subgroups differ significantly.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "30 male (150/500\u00d7100), 70 female (350/500\u00d7100)",
+      "Stratified sampling guarantees proportional representation of every subgroup, whereas simple random sampling could, by chance, over- or under-represent a particular subgroup, especially with smaller sample sizes."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A survey of a town's 8,000 residents is planned, using stratified sampling by age group: 2,000 are under 18, 4,500 are 18-65, and 1,500 are over 65. Find the number to sample from each group for a total sample of 400.",
+        "marks": 4,
+        "answer": "Under 18: (2000/8000)\u00d7400=100. 18-65: (4500/8000)\u00d7400=225. Over 65: (1500/8000)\u00d7400=75. Total check: 100+225+75=400 \u2713"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to sample PROPORTIONALLY (using equal numbers from each stratum regardless of its actual size)",
+      "Arithmetic errors when calculating the proportional sample sizes"
+    ],
+    "tips": [
+      "Always double-check your final proportional sample sizes ADD UP to the total required sample size \u2014 this is a quick way to catch calculation errors."
+    ],
+    "summary": "Stratified sampling divides a population into subgroups and samples proportionally from each, ensuring fair subgroup representation.",
+    "quick_revision_notes": [
+      "Sample from stratum = (stratum/population) \u00d7 total sample size"
+    ],
+    "related_prerequisite_topics": [
+      "Sampling Methods",
+      "Ratios",
+      "Population"
+    ],
+    "images": []
+  },
+  {
+    "id": 417,
+    "category": "Statistics",
+    "topic": "Convenience Sampling",
+    "explanation": "Convenience sampling selects individuals who are easiest to reach or most readily available, rather than using a systematic or random method. While quick and inexpensive, this method is highly prone to bias, since it doesn't ensure the sample represents the wider population.",
+    "key_concepts": [
+      "Selects whoever is easiest or most convenient to reach",
+      "Quick, cheap, and easy to implement, but often unrepresentative",
+      "Prone to significant selection bias, since convenient individuals may share characteristics that differ from the wider population",
+      "Generally considered the LEAST reliable of the common sampling methods for drawing valid conclusions"
+    ],
+    "definitions": [
+      {
+        "term": "Convenience Sampling",
+        "definition": "A sampling method that selects individuals who are easiest to reach or most readily available, often leading to unrepresentative results."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A researcher surveys the first 50 people who walk past them on a particular street corner. What sampling method is this, and what is a key limitation?",
+        "solution_steps": [
+          "This selects whoever happens to be conveniently available",
+          "This is convenience sampling"
+        ],
+        "answer": "Convenience sampling; a key limitation is that people passing that specific location may not represent the wider population (e.g. only local residents, or people with a particular routine)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Give an example of convenience sampling.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain why convenience sampling is generally considered less reliable than random sampling.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "e.g. surveying only people in your own social media friend group, or only customers who happen to be in a particular shop at a particular time.",
+      "Convenience sampling doesn't give everyone in the population an equal or fair chance of selection \u2014 it only includes those easiest to reach, which can introduce significant bias and fail to represent the true diversity of the population."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A researcher wants to know the average commute time of workers in a city, but only surveys people at their own workplace. Explain why this is convenience sampling, and describe one way the results might be biased.",
+        "marks": 3,
+        "answer": "This is convenience sampling because the researcher only surveys people readily available to them (their own workplace), rather than a systematic or random selection from the whole city. This could bias results if that specific workplace has commute times that differ from the city average \u2014 e.g. if it's located near or far from residential areas compared to other workplaces."
+      }
+    ],
+    "common_mistakes": [
+      "Using convenience sampling for its ease without acknowledging or discussing its significant limitations",
+      "Assuming a convenience sample is representative just because it is large"
+    ],
+    "tips": [
+      "Convenience sampling should generally be avoided for serious research unless there's no practical alternative \u2014 always consider whether a more systematic method (random, stratified) could be used instead."
+    ],
+    "summary": "Convenience sampling selects readily available individuals; it's quick and easy but highly prone to bias and unrepresentative results.",
+    "quick_revision_notes": [
+      "Easiest/most available individuals",
+      "Quick but often BIASED \u2014 least reliable method"
+    ],
+    "related_prerequisite_topics": [
+      "Sampling Methods",
+      "Random Sampling"
+    ],
+    "images": []
+  },
+  {
+    "id": 418,
+    "category": "Statistics",
+    "topic": "Frequency Tables",
+    "explanation": "A frequency table organizes raw data by listing each distinct value (or category) alongside how many times it occurs (its frequency). Frequency tables provide a clear, organized summary of data, forming the basis for further statistical calculations and graphical displays.",
+    "key_concepts": [
+      "Lists each distinct value/category with its corresponding frequency (count)",
+      "Frequencies should sum to the total number of data points",
+      "Forms the basis for calculating mean, median, mode, and creating charts",
+      "Can be used for both qualitative and quantitative (discrete) data"
+    ],
+    "definitions": [
+      {
+        "term": "Frequency Table",
+        "definition": "A table listing each distinct value or category alongside the number of times it occurs (its frequency)."
+      },
+      {
+        "term": "Frequency",
+        "definition": "The number of times a particular value or category occurs in a data set."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "The number of pets owned by 10 families is: 0,1,2,1,0,3,1,2,1,0. Construct a frequency table.",
+        "solution_steps": [
+          "Count occurrences of each value: 0 appears 3 times, 1 appears 4 times, 2 appears 2 times, 3 appears 1 time"
+        ],
+        "answer": "Pets: 0,1,2,3 | Frequency: 3,4,2,1"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Data: 2,3,2,4,3,3,2,5. Construct a frequency table.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A frequency table shows frequencies 5,8,3,4 for four categories. Find the total number of data points.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "2:3, 3:3, 4:1, 5:1",
+      "20 (5+8+3+4)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The scores (out of 5) of 15 students on a quiz are: 3,4,2,5,3,4,4,3,2,5,4,3,3,4,2. Construct a frequency table for these scores.",
+        "marks": 3,
+        "answer": "Score 2: frequency 3. Score 3: frequency 5. Score 4: frequency 5. Score 5: frequency 2. (Total = 15)"
+      }
+    ],
+    "common_mistakes": [
+      "Miscounting occurrences, especially with larger data sets",
+      "Frequencies not summing to the correct total number of data points (a good way to check for counting errors)"
+    ],
+    "tips": [
+      "Always check that your frequencies sum to the total number of original data points \u2014 this catches most counting errors immediately."
+    ],
+    "summary": "A frequency table organizes data by listing values/categories with their occurrence counts, forming a base for further analysis.",
+    "quick_revision_notes": [
+      "Value/category + frequency (count)",
+      "Frequencies should sum to total data points"
+    ],
+    "related_prerequisite_topics": [
+      "Data Collection",
+      "Grouped Frequency Tables",
+      "Tally Tables"
+    ],
+    "images": []
+  },
+  {
+    "id": 419,
+    "category": "Statistics",
+    "topic": "Grouped Frequency Tables",
+    "explanation": "A grouped frequency table organizes continuous (or a wide range of discrete) data into class intervals (ranges), listing the frequency of data falling within each interval. This is used when individual data values are too numerous or varied to list separately.",
+    "key_concepts": [
+      "Data is grouped into class intervals (ranges), such as 0-9, 10-19, 20-29",
+      "Each interval's frequency counts how many data points fall within that range",
+      "Class intervals should be consistent in width and not overlap",
+      "Loses some precision (individual values within a class aren't distinguishable) but improves manageability"
+    ],
+    "definitions": [
+      {
+        "term": "Class Interval",
+        "definition": "A range of values used to group data in a grouped frequency table, such as 10-19 or 20\u2264x<30."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Construct a grouped frequency table for these test scores using intervals of width 10: 45,52,67,71,58,63,49,82,76,55",
+        "solution_steps": [
+          "Define intervals: 40-49, 50-59, 60-69, 70-79, 80-89",
+          "Count values in each: 40-49: 45,49 (2); 50-59: 52,58,55 (3); 60-69: 67,63 (2); 70-79: 71,76 (2); 80-89: 82 (1)"
+        ],
+        "answer": "40-49:2, 50-59:3, 60-69:2, 70-79:2, 80-89:1"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Group the data 12,18,25,31,22,15,28,35,19,24 into intervals of width 10, starting at 10.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Explain why grouped frequency tables lose some precision compared to ungrouped tables.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "10-19: 12,18,15,19 (4); 20-29: 25,22,28,24 (4); 30-39: 31,35 (2)",
+      "Once data is grouped into an interval, individual values within that range can no longer be distinguished \u2014 we only know how many fall within the range, not their exact values."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The ages of 20 people at an event are grouped as follows: 0-19: 3, 20-39: 8, 40-59: 6, 60-79: 3. Find the total number of people and state the modal class.",
+        "marks": 2,
+        "answer": "Total = 3+8+6+3 = 20. Modal class = 20-39 (highest frequency, 8)"
+      }
+    ],
+    "common_mistakes": [
+      "Using inconsistent or overlapping class interval widths",
+      "Losing track of boundary values (e.g. whether a value of exactly 20 belongs to '10-19' or '20-29')"
+    ],
+    "tips": [
+      "Clearly define whether interval boundaries are inclusive or exclusive (e.g. using notation like 20\u2264x<30) to avoid ambiguity about borderline values."
+    ],
+    "summary": "Grouped frequency tables organize data into class intervals, useful for large or continuous data sets, at the cost of individual precision.",
+    "quick_revision_notes": [
+      "Group into consistent, non-overlapping class intervals",
+      "Loses individual value precision"
+    ],
+    "related_prerequisite_topics": [
+      "Frequency Tables",
+      "Continuous Data",
+      "Histograms"
+    ],
+    "images": []
+  },
+  {
+    "id": 420,
+    "category": "Statistics",
+    "topic": "Tally Tables",
+    "explanation": "A tally table (or tally chart) is a method for recording data as it's collected, using tally marks (typically groups of 5, with the fifth mark crossing the previous four) to count occurrences of each value or category. It's often used as an intermediate step before constructing a full frequency table.",
+    "key_concepts": [
+      "Tally marks record occurrences as data is collected, in real-time",
+      "Standard convention: groups of 5, with the 5th mark drawn diagonally across the previous 4",
+      "Makes counting large numbers of occurrences easier to read at a glance (count in 5s)",
+      "Usually converted into a full frequency table once all data has been collected"
+    ],
+    "definitions": [
+      {
+        "term": "Tally Table",
+        "definition": "A table using tally marks (grouped in 5s) to record data occurrences as they are collected."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Convert the tally marks |||| |||| || (for a category) into a frequency count.",
+        "solution_steps": [
+          "First group of 5 (||||), second group of 5 (||||), plus 2 more (||)",
+          "5+5+2"
+        ],
+        "answer": "12"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Convert the tally |||| |||| |||| into a frequency count.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain the advantage of using groups of 5 in tally marks.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "15 (5+5+5)",
+      "Grouping in 5s makes it much faster and easier to count large totals at a glance, rather than having to count every individual mark one by one."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A survey of favourite fruit produced these tallies: Apple |||| ||, Banana |||| |||| |, Orange |||. Construct the corresponding frequency table.",
+        "marks": 3,
+        "answer": "Apple: 7. Banana: 11. Orange: 3."
+      }
+    ],
+    "common_mistakes": [
+      "Miscounting tally groups, especially when the diagonal 'group of 5' mark isn't drawn clearly",
+      "Forgetting to convert the final tally table into a proper frequency table for further analysis"
+    ],
+    "tips": [
+      "Always draw the 5th tally mark as a clear diagonal line across the previous 4 \u2014 this is the standard convention and makes counting totals fast and reliable."
+    ],
+    "summary": "A tally table records data occurrences in real-time using grouped tally marks (5s), typically converted into a frequency table afterward.",
+    "quick_revision_notes": [
+      "Tally marks grouped in 5s (diagonal 5th mark)",
+      "Convert to frequency table after collection"
+    ],
+    "related_prerequisite_topics": [
+      "Frequency Tables",
+      "Data Collection"
+    ],
+    "images": []
+  },
+  {
+    "id": 421,
+    "category": "Statistics",
+    "topic": "Bar Charts",
+    "explanation": "A bar chart displays categorical (or discrete) data using rectangular bars, with the height (or length) of each bar representing the frequency of that category. Bars are separated by gaps to emphasize that the categories are distinct and not continuous.",
+    "key_concepts": [
+      "Bars represent frequency, with height/length proportional to the count",
+      "Gaps between bars emphasize that categories are distinct (unlike a histogram)",
+      "Bars can be vertical or horizontal, depending on preference or space",
+      "Used for qualitative data and discrete quantitative data"
+    ],
+    "definitions": [
+      {
+        "term": "Bar Chart",
+        "definition": "A chart displaying categorical or discrete data using separated rectangular bars, with height representing frequency."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A survey shows: Football 15, Basketball 10, Tennis 5. Describe how to represent this as a bar chart.",
+        "solution_steps": [
+          "Draw three separated bars, one for each sport",
+          "Height of each bar corresponds to its frequency (15, 10, 5)"
+        ],
+        "answer": "Three bars of heights 15, 10, and 5, with gaps between them, labelled by sport"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Explain why bar charts have gaps between the bars, but histograms do not.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A bar chart shows four categories with frequencies 8, 12, 6, 14. Find the total number of data points.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Bar charts represent discrete/categorical data, where each category is separate and distinct \u2014 the gaps emphasize this. Histograms represent continuous data, which flows without gaps between values, so there are no gaps between the bars.",
+      "40 (8+12+6+14)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A bar chart shows the number of books read by students in a month: 0 books: 5 students, 1 book: 12 students, 2 books: 8 students, 3 books: 3 students. Find the total number of students surveyed, and describe the shape of the bar chart.",
+        "marks": 3,
+        "answer": "Total = 5+12+8+3 = 28 students. The chart would show 4 separated bars, with the tallest bar at '1 book' (12 students), and progressively shorter bars for 0, 2, and 3 books."
+      }
+    ],
+    "common_mistakes": [
+      "Drawing bars touching each other (removing the gaps), which is technically a histogram convention, not a bar chart",
+      "Inconsistent bar widths, which can visually mislead about relative frequencies"
+    ],
+    "tips": [
+      "Keep all bars the SAME width in a bar chart \u2014 only the HEIGHT should vary to represent different frequencies."
+    ],
+    "summary": "A bar chart uses separated bars to display categorical/discrete data, with bar height representing frequency.",
+    "quick_revision_notes": [
+      "Separated bars, height=frequency",
+      "For categorical/discrete data"
+    ],
+    "related_prerequisite_topics": [
+      "Frequency Tables",
+      "Qualitative Data",
+      "Histograms"
+    ],
+    "images": [
+      {
+        "filename": "barcharts-421-diagram.svg",
+        "type": "chart",
+        "description": "A bar chart showing frequencies for four colour categories, with gaps between each bar.",
+        "purpose": "Shows the standard format of a bar chart for categorical data.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 422,
+    "category": "Statistics",
+    "topic": "Pie Charts",
+    "explanation": "A pie chart displays categorical data as a circle divided into sectors, where each sector's angle (or area) is proportional to the frequency (or proportion) of that category. Pie charts are especially useful for showing how a whole is divided into parts.",
+    "key_concepts": [
+      "Each category is represented by a sector, with angle proportional to its frequency",
+      "Sector angle = (category frequency / total frequency) \u00d7 360\u00b0",
+      "Useful for showing proportions of a whole, but less effective for comparing exact values than a bar chart",
+      "All sector angles must sum to exactly 360\u00b0"
+    ],
+    "definitions": [
+      {
+        "term": "Pie Chart",
+        "definition": "A circular chart divided into sectors, each representing a category with an angle proportional to its frequency."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Sector angle for pie chart",
+        "formula": "angle = (category frequency / total frequency) \u00d7 360\u00b0",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A survey of 60 people's favourite season: Spring 15, Summer 20, Autumn 10, Winter 15. Find the angle for the 'Summer' sector.",
+        "solution_steps": [
+          "angle = (20/60) \u00d7 360\u00b0"
+        ],
+        "answer": "120\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Using the same data (total 60), find the angle for the 'Spring' sector.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A pie chart sector has an angle of 90\u00b0. What fraction of the total does this represent?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "90\u00b0 (15/60\u00d7360)",
+      "1/4 (90/360)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A pie chart represents 180 survey responses across 4 categories with frequencies 45, 63, 27, 45. Find the angle for each category, and verify they sum to 360\u00b0.",
+        "marks": 4,
+        "answer": "Category 1: (45/180)\u00d7360=90\u00b0. Category 2: (63/180)\u00d7360=126\u00b0. Category 3: (27/180)\u00d7360=54\u00b0. Category 4: (45/180)\u00d7360=90\u00b0. Sum: 90+126+54+90=360\u00b0 \u2713"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to use the TOTAL frequency (not just one category) as the denominator in the angle formula",
+      "Sector angles not summing to exactly 360\u00b0 (a sign of a calculation error)"
+    ],
+    "tips": [
+      "Always check your calculated sector angles sum to exactly 360\u00b0 \u2014 if they don't, you've made an arithmetic error somewhere."
+    ],
+    "summary": "A pie chart shows categorical data as circle sectors, with angle proportional to frequency: angle=(frequency/total)\u00d7360\u00b0.",
+    "quick_revision_notes": [
+      "angle = (frequency/total) \u00d7 360\u00b0",
+      "All angles sum to 360\u00b0"
+    ],
+    "related_prerequisite_topics": [
+      "Frequency Tables",
+      "Angles",
+      "Bar Charts"
+    ],
+    "images": [
+      {
+        "filename": "piecharts-422-diagram.svg",
+        "type": "chart",
+        "description": "A pie chart divided into four coloured sectors with percentage labels.",
+        "purpose": "Shows how a pie chart represents proportional categories of a whole.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 423,
+    "category": "Statistics",
+    "topic": "Histograms",
+    "explanation": "A histogram displays continuous (or grouped) data using bars with NO gaps between them, where the AREA of each bar (not just its height) represents the frequency. This is especially important when class intervals have unequal widths, requiring the use of frequency density on the vertical axis.",
+    "key_concepts": [
+      "Bars have NO gaps between them (unlike a bar chart), since the data is continuous",
+      "The AREA of each bar represents frequency, not just the height",
+      "Frequency density = frequency \u00f7 class width, plotted on the vertical axis",
+      "Essential when class intervals have unequal widths (equal-width intervals make height and area proportional anyway)"
+    ],
+    "definitions": [
+      {
+        "term": "Frequency Density",
+        "definition": "The value plotted on a histogram's vertical axis, calculated as frequency divided by class width, so that bar AREA represents frequency."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Frequency density",
+        "formula": "Frequency Density = Frequency / Class Width",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A class interval 10-30 (width 20) has a frequency of 40. Find the frequency density.",
+        "solution_steps": [
+          "Frequency density = 40/20"
+        ],
+        "answer": "2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A class interval 0-5 (width 5) has frequency 15. Find the frequency density.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A histogram bar has frequency density 4 and width 6. Find its frequency.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "3 (15/5)",
+      "24 (4\u00d76)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A grouped frequency table has intervals 0-10 (frequency 20), 10-25 (frequency 30), 25-50 (frequency 25). Find the frequency density for each interval, to construct a histogram.",
+        "marks": 5,
+        "answer": "0-10 (width 10): density=20/10=2. 10-25 (width 15): density=30/15=2. 25-50 (width 25): density=25/25=1"
+      }
+    ],
+    "common_mistakes": [
+      "Plotting frequency directly on the vertical axis instead of frequency density, especially when class widths are unequal",
+      "Leaving gaps between histogram bars (this is a bar chart convention, not a histogram one)"
+    ],
+    "tips": [
+      "Only use frequency directly (skipping frequency density) if ALL class widths are exactly equal \u2014 otherwise, frequency density is essential for an accurate histogram."
+    ],
+    "summary": "A histogram represents continuous/grouped data with no gaps, using frequency density (frequency/width) so bar area represents frequency.",
+    "quick_revision_notes": [
+      "No gaps between bars",
+      "Frequency Density = Frequency/Width",
+      "Area = frequency"
+    ],
+    "related_prerequisite_topics": [
+      "Grouped Frequency Tables",
+      "Continuous Data",
+      "Bar Charts"
+    ],
+    "images": [
+      {
+        "filename": "histograms-423-diagram.svg",
+        "type": "chart",
+        "description": "A histogram with bars of varying widths and heights, with no gaps between adjacent bars.",
+        "purpose": "Shows the standard 'no gaps' format of a histogram for continuous data.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 424,
+    "category": "Statistics",
+    "topic": "Frequency Polygons",
+    "explanation": "A frequency polygon displays the shape of a data distribution by plotting points at the midpoint of each class interval (at the height of its frequency), then connecting these points with straight lines. It provides a simpler, line-based alternative to a histogram, especially useful for comparing multiple data sets on the same graph.",
+    "key_concepts": [
+      "Plot a point at the MIDPOINT of each class interval, at the height of its frequency",
+      "Connect consecutive points with straight lines",
+      "Often overlaid on a histogram, or used alone for a cleaner visual",
+      "Useful for comparing the shapes of two or more distributions on the same axes"
+    ],
+    "definitions": [
+      {
+        "term": "Frequency Polygon",
+        "definition": "A line graph showing the shape of a data distribution, formed by plotting frequency against the midpoint of each class interval."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Class midpoint",
+        "formula": "midpoint = (lower bound + upper bound) / 2",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A class interval 10-20 has a frequency of 8. Find the midpoint, and state the coordinate to plot on a frequency polygon.",
+        "solution_steps": [
+          "Midpoint = (10+20)/2 = 15",
+          "Plot the point (15, 8)"
+        ],
+        "answer": "(15, 8)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A class interval 20-30 has frequency 12. Find the coordinate to plot on a frequency polygon.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain the advantage of a frequency polygon for comparing two data sets.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(25, 12)",
+      "Two frequency polygons can be overlaid on the same axes as distinct lines, making it easy to visually compare the shapes, peaks, and spread of two different distributions \u2014 this is harder to do clearly with two overlapping histograms."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A grouped frequency table has intervals 0-10 (frequency 5), 10-20 (frequency 15), 20-30 (frequency 10), 30-40 (frequency 4). Find the coordinates needed to plot the frequency polygon.",
+        "marks": 4,
+        "answer": "(5,5), (15,15), (25,10), (35,4) \u2014 using the midpoint of each interval paired with its frequency"
+      }
+    ],
+    "common_mistakes": [
+      "Using the class interval's boundary (e.g. 10 or 20) instead of the MIDPOINT for the x-coordinate",
+      "Forgetting to connect the points with straight lines (rather than curves)"
+    ],
+    "tips": [
+      "Always calculate the midpoint of EACH interval carefully \u2014 plotting at the wrong x-position (like the boundary instead of the midpoint) is the most common error."
+    ],
+    "summary": "A frequency polygon plots frequency against class midpoints, connected by straight lines, useful for comparing distribution shapes.",
+    "quick_revision_notes": [
+      "Plot (midpoint, frequency) for each class, connect with straight lines"
+    ],
+    "related_prerequisite_topics": [
+      "Grouped Frequency Tables",
+      "Histograms",
+      "Line Graphs"
+    ],
+    "images": []
+  },
+  {
+    "id": 425,
+    "category": "Statistics",
+    "topic": "Line Graphs",
+    "explanation": "A line graph displays data points connected by straight lines, typically used to show how a quantity changes over time (a time series) or across an ordered sequence. Line graphs are excellent for revealing trends, patterns, and rates of change in data.",
+    "key_concepts": [
+      "Data points are plotted and connected with straight lines, in sequential order",
+      "Commonly used for time series data (values changing over time)",
+      "The steepness of a line segment indicates the rate of change between consecutive points",
+      "Multiple lines can be plotted on the same graph to compare different data sets over the same period"
+    ],
+    "definitions": [
+      {
+        "term": "Line Graph",
+        "definition": "A graph displaying data points connected by straight lines, commonly used to show trends over time or a sequence."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A line graph shows temperature readings: 9am:15\u00b0C, 12pm:22\u00b0C, 3pm:25\u00b0C, 6pm:18\u00b0C. Describe the overall trend shown.",
+        "solution_steps": [
+          "Temperature rises from 9am to 3pm, then falls from 3pm to 6pm"
+        ],
+        "answer": "Temperature increases through the morning to a peak around 3pm, then decreases into the evening"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "What type of data is a line graph most commonly used to display?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain what a very steep line segment on a line graph indicates.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Time series data (values that change over time)",
+      "A steep line segment indicates a large, rapid change in the value being measured over that particular interval \u2014 the steeper the line, the faster the rate of change."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A company's monthly sales (in $1000s) are: Jan:20, Feb:25, Mar:22, Apr:30, May:35. Describe the overall trend, and identify the month with the largest increase from the previous month.",
+        "marks": 3,
+        "answer": "Overall trend: sales generally increase over the 5 months, with a small dip in March. The largest increase from the previous month is April (from 22 to 30, an increase of 8), compared to Feb's increase of 5 and May's increase of 5."
+      }
+    ],
+    "common_mistakes": [
+      "Using a line graph for purely categorical data (where connecting points with lines doesn't make logical sense)",
+      "Misreading the scale on either axis, leading to incorrect trend descriptions"
+    ],
+    "tips": [
+      "Line graphs are ideal specifically for ORDERED, sequential, or time-based data \u2014 using them for unordered categories can be visually misleading."
+    ],
+    "summary": "A line graph connects data points with straight lines, commonly used for time series data to reveal trends and rates of change.",
+    "quick_revision_notes": [
+      "Connects sequential data points",
+      "Best for time series/trends"
+    ],
+    "related_prerequisite_topics": [
+      "Time Series",
+      "Frequency Polygons",
+      "Linear Graphs"
+    ],
+    "images": []
+  },
+  {
+    "id": 426,
+    "category": "Statistics",
+    "topic": "Stem-and-Leaf Diagrams",
+    "explanation": "A stem-and-leaf diagram organizes numerical data by splitting each value into a 'stem' (the leading digit(s)) and a 'leaf' (the final digit), displaying the actual data values while also revealing the shape of the distribution. This preserves more detail than a standard frequency table or histogram.",
+    "key_concepts": [
+      "Each data value is split into a stem (leading digits) and a leaf (last digit)",
+      "Leaves are listed in ascending order next to their corresponding stem",
+      "Preserves the actual individual data values, unlike grouped frequency tables",
+      "A key/legend is essential to explain how to read the stem and leaf values (e.g. '5|2 means 52')"
+    ],
+    "definitions": [
+      {
+        "term": "Stem-and-Leaf Diagram",
+        "definition": "A diagram that organizes numerical data by splitting each value into a stem (leading digits) and leaf (last digit), preserving individual data values."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Construct a stem-and-leaf diagram for the data: 23, 25, 31, 34, 34, 42, 45",
+        "solution_steps": [
+          "Stems are the tens digit: 2, 3, 4",
+          "Leaves are the units digit, listed in order under each stem",
+          "2 | 3 5",
+          "3 | 1 4 4",
+          "4 | 2 5"
+        ],
+        "answer": "Stem-leaf: 2|3,5; 3|1,4,4; 4|2,5 (Key: 2|3 means 23)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Construct a stem-and-leaf diagram for the data: 12, 15, 18, 23, 27, 29, 31.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "From a stem-and-leaf diagram with row '5 | 1 3 3 7', list the original data values.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "1|2,5,8; 2|3,7,9; 3|1",
+      "51, 53, 53, 57"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A stem-and-leaf diagram shows: 3|2 5 8; 4|1 1 6 9; 5|0 3. Find the median of this data set.",
+        "marks": 3,
+        "answer": "Data in order: 32,35,38,41,41,46,49,50,53 (9 values). Median is the 5th value: 41"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to include a key/legend explaining how to interpret the stem and leaf values",
+      "Not listing leaves in ascending order within each stem row"
+    ],
+    "tips": [
+      "Always include a clear key (e.g. '3|2 means 32') \u2014 without it, a stem-and-leaf diagram is ambiguous and could be misread."
+    ],
+    "summary": "A stem-and-leaf diagram splits data into stems and leaves, preserving individual values while showing the distribution's shape.",
+    "quick_revision_notes": [
+      "Stem = leading digit(s), Leaf = last digit",
+      "Always include a key"
+    ],
+    "related_prerequisite_topics": [
+      "Frequency Tables",
+      "Median",
+      "Grouped Frequency Tables"
+    ],
+    "images": []
+  },
+  {
+    "id": 427,
+    "category": "Statistics",
+    "topic": "Scatter Plots",
+    "explanation": "A scatter plot displays the relationship between two numerical variables by plotting each data pair as a point on a coordinate grid. Scatter plots are the primary tool for visually assessing correlation \u2014 whether and how two variables are related.",
+    "key_concepts": [
+      "Each point represents a pair of values (x,y) for one individual/observation",
+      "The overall pattern of points reveals the type of relationship (correlation) between the variables",
+      "Positive correlation: points trend upward (as x increases, y increases)",
+      "Negative correlation: points trend downward (as x increases, y decreases). No correlation: no clear pattern"
+    ],
+    "definitions": [
+      {
+        "term": "Scatter Plot",
+        "definition": "A graph displaying paired numerical data as points, used to visually assess the relationship (correlation) between two variables."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A scatter plot shows that as study hours increase, exam scores also tend to increase. What type of correlation does this suggest?",
+        "solution_steps": [
+          "Both variables increase together"
+        ],
+        "answer": "Positive correlation"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A scatter plot shows that as a car's age increases, its resale value tends to decrease. What type of correlation is this?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Describe what a scatter plot with points scattered randomly, with no visible pattern, indicates.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Negative correlation",
+      "No correlation (little to no relationship between the two variables)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A researcher plots ice cream sales against daily temperature and observes a clear upward trend. Explain what this scatter plot suggests, and identify one potential lurking variable that might explain the relationship.",
+        "marks": 3,
+        "answer": "The scatter plot suggests a positive correlation between temperature and ice cream sales \u2014 as temperature increases, sales tend to increase too. However, correlation doesn't prove direct causation; a potential explanation is simply that hotter weather directly makes people want cold treats, which is a plausible direct cause here, though other seasonal factors (like school holidays) could also coincide with warmer weather."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming correlation shown in a scatter plot always implies causation",
+      "Misinterpreting a weak/scattered pattern as a strong correlation, or vice versa"
+    ],
+    "tips": [
+      "Remember: 'correlation does not imply causation' \u2014 a scatter plot can reveal a relationship exists, but not necessarily that one variable directly CAUSES changes in the other."
+    ],
+    "summary": "A scatter plot displays paired data to visually reveal correlation (positive, negative, or none) between two variables.",
+    "quick_revision_notes": [
+      "Points trend up: positive correlation. Down: negative. No pattern: none.",
+      "Correlation \u2260 causation"
+    ],
+    "related_prerequisite_topics": [
+      "Correlation and Correlation Coefficient",
+      "Regression Line (Line of Best Fit)"
+    ],
+    "images": [
+      {
+        "filename": "scatterplots-427-diagram.svg",
+        "type": "chart",
+        "description": "A scatter plot showing data points with a clear positive (upward) trend.",
+        "purpose": "Shows how a scatter plot visually reveals a correlation between two variables.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 428,
+    "category": "Statistics",
+    "topic": "Time Series",
+    "explanation": "A time series is a sequence of data points recorded at successive, typically regular, time intervals, such as monthly sales figures or daily temperature readings. Time series analysis focuses on identifying trends, seasonal patterns, and cyclical variations over time.",
+    "key_concepts": [
+      "Data points are ordered chronologically, usually at regular intervals",
+      "Common patterns to identify: overall trend (long-term direction), seasonality (repeating patterns), and random fluctuation",
+      "Displayed using a line graph with time on the horizontal axis",
+      "Moving averages are often used to smooth out short-term fluctuations and reveal the underlying trend"
+    ],
+    "definitions": [
+      {
+        "term": "Time Series",
+        "definition": "A sequence of data points recorded at successive, typically regular, time intervals."
+      },
+      {
+        "term": "Moving Average",
+        "definition": "A technique for smoothing time series data by averaging consecutive groups of data points, used to reveal underlying trends."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Calculate the 3-point moving average for the first three values of the data: 10, 14, 18, 12, 16.",
+        "solution_steps": [
+          "Average the first three values: (10+14+18)/3"
+        ],
+        "answer": "14"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Calculate the 3-point moving average for the values 20, 24, 22.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain the purpose of using a moving average in time series analysis.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "22 ((20+24+22)/3)",
+      "A moving average smooths out short-term random fluctuations in the data, making the underlying long-term trend easier to see and interpret."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A shop's quarterly sales ($1000s) over 2 years are: 20,35,25,15,22,38,27,17. Identify a likely seasonal pattern in this data, referring to specific quarters.",
+        "marks": 3,
+        "answer": "There appears to be a seasonal pattern where sales peak in the 2nd quarter of each year (35 and 38) and dip in the 4th quarter (15 and 17), suggesting higher sales during a particular season (e.g. possibly summer) and lower sales at another time (e.g. possibly winter)."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing genuine seasonal patterns with random short-term fluctuations",
+      "Errors when calculating moving averages (using the wrong number of points, or forgetting to slide the window correctly for subsequent averages)"
+    ],
+    "tips": [
+      "When calculating a sequence of moving averages, remember to 'slide' the window by dropping the oldest value and adding the next new value each time \u2014 don't just recalculate independently from scratch."
+    ],
+    "summary": "A time series tracks data over successive time intervals, analyzed for trends and seasonality, often smoothed using moving averages.",
+    "quick_revision_notes": [
+      "Chronological data points",
+      "Moving average smooths short-term fluctuations"
+    ],
+    "related_prerequisite_topics": [
+      "Line Graphs",
+      "Mean"
+    ],
+    "images": []
+  }
+]

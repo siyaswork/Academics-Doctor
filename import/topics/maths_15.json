@@ -1,0 +1,1145 @@
+[
+  {
+    "id": 349,
+    "category": "Transformations",
+    "topic": "Translation",
+    "explanation": "A translation moves every point of a shape the same distance in the same direction, without rotating, reflecting, or resizing it. It is described using a column vector, showing the horizontal and vertical movement.",
+    "key_concepts": [
+      "Every point moves the same distance in the same direction",
+      "Described by a column vector (x,y): x=horizontal movement, y=vertical movement",
+      "The shape's size, orientation, and shape remain completely unchanged (only position changes)",
+      "Positive x moves right, negative x moves left; positive y moves up, negative y moves down"
+    ],
+    "definitions": [
+      {
+        "term": "Translation",
+        "definition": "A transformation that moves every point of a shape the same distance in the same direction, described by a vector."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Point A(2,3) is translated by the vector (4,-2). Find the coordinates of the image A'.",
+        "solution_steps": [
+          "Add the vector components: x: 2+4=6, y: 3+(-2)=1"
+        ],
+        "answer": "A' = (6, 1)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Point B(5,-1) is translated by the vector (-3,4). Find B'.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A shape is translated by (2,5) then by (-2,-5). Describe the overall effect.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(2,3)",
+      "No overall change \u2014 the shape returns to its original position, since the two translations are exact opposites (they cancel out)."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Triangle ABC has vertices A(1,1), B(4,1), C(1,3). Find the coordinates of the image after a translation by vector (-2,3).",
+        "marks": 3,
+        "answer": "A'=(-1,4), B'=(2,4), C'=(-1,6)"
+      }
+    ],
+    "common_mistakes": [
+      "Adding the vector components in the wrong order or to the wrong coordinate",
+      "Confusing the direction of movement for negative vector components"
+    ],
+    "tips": [
+      "Simply add the vector's x-component to every point's x-coordinate, and the y-component to every y-coordinate \u2014 no other calculation is needed."
+    ],
+    "summary": "A translation shifts every point of a shape by the same vector, changing position only, not size or orientation.",
+    "quick_revision_notes": [
+      "Add vector (x,y) to every point's coordinates"
+    ],
+    "related_prerequisite_topics": [
+      "Coordinates",
+      "Vector Notation",
+      "Column Vectors"
+    ],
+    "images": [
+      {
+        "filename": "translation-349-diagram.svg",
+        "type": "diagram",
+        "description": "A square shown in its original position and after being translated to a new position, connected visually by the movement.",
+        "purpose": "Shows how translation shifts a shape's position without changing its size or orientation.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "category": "Transformations",
+    "topic": "Reflection",
+    "explanation": "A reflection creates a mirror image of a shape across a specified line, called the line of reflection (or mirror line). Every point in the image is the same perpendicular distance from the mirror line as its corresponding point in the original shape, but on the opposite side.",
+    "key_concepts": [
+      "Creates a mirror image across a specified line (mirror line)",
+      "Every point and its image are equidistant from the mirror line, on opposite sides",
+      "The shape's size remains unchanged, but its orientation is 'flipped'",
+      "Common mirror lines: x-axis, y-axis, y=x, y=-x, or any other specified line"
+    ],
+    "definitions": [
+      {
+        "term": "Reflection",
+        "definition": "A transformation that creates a mirror image of a shape across a specified line (the mirror line)."
+      },
+      {
+        "term": "Mirror Line (Line of Reflection)",
+        "definition": "The line across which a shape is reflected, equidistant from every point and its image."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Reflection in x-axis",
+        "formula": "(x,y) \u2192 (x,-y)",
+        "notes": ""
+      },
+      {
+        "name": "Reflection in y-axis",
+        "formula": "(x,y) \u2192 (-x,y)",
+        "notes": ""
+      },
+      {
+        "name": "Reflection in y=x",
+        "formula": "(x,y) \u2192 (y,x)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Reflect the point (3,5) in the x-axis.",
+        "solution_steps": [
+          "Keep x the same, negate y: (3,-5)"
+        ],
+        "answer": "(3, -5)"
+      },
+      {
+        "problem": "Reflect the point (2,-4) in the line y=x.",
+        "solution_steps": [
+          "Swap the x and y coordinates: (-4,2)"
+        ],
+        "answer": "(-4, 2)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Reflect the point (6,2) in the y-axis.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Reflect the point (1,7) in the line y=x.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(-6,2)",
+      "(7,1)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Triangle ABC has vertices A(2,1), B(5,1), C(2,4). Find the coordinates of the image after reflection in the x-axis.",
+        "marks": 3,
+        "answer": "A'=(2,-1), B'=(5,-1), C'=(2,-4)"
+      }
+    ],
+    "common_mistakes": [
+      "Reflecting in the wrong axis or line (mixing up x-axis and y-axis reflection rules)",
+      "Forgetting the shape's ORIENTATION reverses (like a mirror image), even though size stays the same"
+    ],
+    "tips": [
+      "To reflect in the x-axis, only the y-coordinate changes sign; to reflect in the y-axis, only the x-coordinate changes sign \u2014 the OTHER coordinate stays the same."
+    ],
+    "summary": "A reflection creates a mirror image of a shape across a line, preserving size but reversing orientation.",
+    "quick_revision_notes": [
+      "x-axis: (x,y)\u2192(x,-y)",
+      "y-axis: (x,y)\u2192(-x,y)",
+      "y=x: (x,y)\u2192(y,x)"
+    ],
+    "related_prerequisite_topics": [
+      "Coordinates",
+      "Symmetry",
+      "Symmetry Transformations"
+    ],
+    "images": [
+      {
+        "filename": "reflection-350-diagram.svg",
+        "type": "diagram",
+        "description": "A square shown in its original position and its mirror-image reflection across the y-axis.",
+        "purpose": "Shows how reflection creates a mirror image across a specified line.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 351,
+    "category": "Transformations",
+    "topic": "Rotation",
+    "explanation": "A rotation turns a shape around a fixed point, called the centre of rotation, by a specified angle in a specified direction (clockwise or anticlockwise/counterclockwise). The shape's size and internal proportions remain unchanged, but its orientation and position typically change.",
+    "key_concepts": [
+      "Requires three pieces of information: centre of rotation, angle, and direction",
+      "Common angles: 90\u00b0, 180\u00b0, 270\u00b0 (in either direction)",
+      "A 180\u00b0 rotation gives the same result regardless of direction (clockwise = anticlockwise)",
+      "Shape and size remain unchanged; only position and orientation change"
+    ],
+    "definitions": [
+      {
+        "term": "Rotation",
+        "definition": "A transformation that turns a shape around a fixed point (centre of rotation) by a specified angle and direction."
+      },
+      {
+        "term": "Centre of Rotation",
+        "definition": "The fixed point around which a shape is rotated."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Rotation 90\u00b0 anticlockwise about origin",
+        "formula": "(x,y) \u2192 (-y,x)",
+        "notes": ""
+      },
+      {
+        "name": "Rotation 180\u00b0 about origin",
+        "formula": "(x,y) \u2192 (-x,-y)",
+        "notes": ""
+      },
+      {
+        "name": "Rotation 90\u00b0 clockwise about origin",
+        "formula": "(x,y) \u2192 (y,-x)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Rotate the point (3,2) by 90\u00b0 anticlockwise about the origin.",
+        "solution_steps": [
+          "Apply (x,y)\u2192(-y,x): (-2,3)"
+        ],
+        "answer": "(-2, 3)"
+      },
+      {
+        "problem": "Rotate the point (4,-1) by 180\u00b0 about the origin.",
+        "solution_steps": [
+          "Apply (x,y)\u2192(-x,-y): (-4,1)"
+        ],
+        "answer": "(-4, 1)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Rotate the point (5,3) by 90\u00b0 clockwise about the origin.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Rotate the point (-2,6) by 180\u00b0 about the origin.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "(3,-5)",
+      "(2,-6)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Triangle ABC has vertices A(1,1), B(3,1), C(1,4). Find the image after a 90\u00b0 anticlockwise rotation about the origin.",
+        "marks": 3,
+        "answer": "A'=(-1,1), B'=(-1,3), C'=(-4,1)"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to specify (or check) the direction of rotation, since clockwise and anticlockwise give different results (except at 180\u00b0)",
+      "Using the wrong transformation rule for the specified angle and direction"
+    ],
+    "tips": [
+      "Memorize the origin-centred rotation rules carefully: 90\u00b0 anticlockwise swaps and negates (x,y)\u2192(-y,x); 90\u00b0 clockwise swaps and negates the other way (x,y)\u2192(y,-x)."
+    ],
+    "summary": "A rotation turns a shape around a fixed centre by a specified angle and direction, preserving size and shape.",
+    "quick_revision_notes": [
+      "90\u00b0 ACW: (x,y)\u2192(-y,x)",
+      "180\u00b0: (x,y)\u2192(-x,-y)",
+      "90\u00b0 CW: (x,y)\u2192(y,-x)"
+    ],
+    "related_prerequisite_topics": [
+      "Coordinates",
+      "Rotational Symmetry",
+      "Transformation Matrices"
+    ],
+    "images": [
+      {
+        "filename": "rotation-351-diagram.svg",
+        "type": "diagram",
+        "description": "A rectangle shown in its original position and after being rotated 90\u00b0 anticlockwise about the origin.",
+        "purpose": "Shows how rotation turns a shape around a fixed point.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 352,
+    "category": "Transformations",
+    "topic": "Enlargement",
+    "explanation": "An enlargement resizes a shape, making it larger or smaller, based on a scale factor and a fixed centre of enlargement. Unlike translation, reflection, and rotation, enlargement changes a shape's SIZE (though the shape itself remains similar \u2014 same angles and proportions).",
+    "key_concepts": [
+      "Requires a scale factor and a centre of enlargement",
+      "Scale factor >1: shape gets larger",
+      "0<Scale factor<1: shape gets smaller (sometimes called a reduction)",
+      "Every point's distance from the centre is multiplied by the scale factor"
+    ],
+    "definitions": [
+      {
+        "term": "Enlargement",
+        "definition": "A transformation that resizes a shape by a scale factor from a fixed centre of enlargement."
+      },
+      {
+        "term": "Centre of Enlargement",
+        "definition": "The fixed point from which an enlargement's scale factor is measured."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Enlargement from origin",
+        "formula": "(x,y) \u2192 (kx, ky)",
+        "notes": "k = scale factor, when centre is the origin"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Enlarge the point (2,3) by scale factor 3, centre the origin.",
+        "solution_steps": [
+          "Multiply both coordinates by 3: (2\u00d73, 3\u00d73)"
+        ],
+        "answer": "(6, 9)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Enlarge the point (4,1) by scale factor 2, centre the origin.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A shape is enlarged by scale factor 1/2, centre the origin. What happens to its size?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "(8,2)",
+      "The shape becomes smaller (half its original size), since the scale factor is between 0 and 1."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Triangle ABC has vertices A(1,1), B(2,1), C(1,2). Find the image after an enlargement of scale factor 3, centre the origin.",
+        "marks": 3,
+        "answer": "A'=(3,3), B'=(6,3), C'=(3,6)"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to specify (or use) the correct centre of enlargement when it isn't the origin",
+      "Confusing enlargement (changes size) with other transformations (which preserve size)"
+    ],
+    "tips": [
+      "When the centre of enlargement ISN'T the origin, first find each point's position RELATIVE to the centre, scale that, then add the centre's coordinates back."
+    ],
+    "summary": "An enlargement resizes a shape by a scale factor from a fixed centre, changing size while preserving shape and angles.",
+    "quick_revision_notes": [
+      "(x,y)\u2192(kx,ky) if centre is origin",
+      "Scale factor >1: bigger. 0<k<1: smaller"
+    ],
+    "related_prerequisite_topics": [
+      "Scale Factors",
+      "Enlargement Centre",
+      "Similar Triangles"
+    ],
+    "images": [
+      {
+        "filename": "enlargement-352-diagram.svg",
+        "type": "diagram",
+        "description": "A small square shown alongside its larger enlarged image, scaled by a factor of 2 from the origin.",
+        "purpose": "Shows how enlargement changes a shape's size while preserving its proportions.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 353,
+    "category": "Transformations",
+    "topic": "Reduction",
+    "explanation": "A reduction is an enlargement with a scale factor between 0 and 1, making a shape smaller rather than larger. It follows exactly the same rules as enlargement, just with a fractional (or decimal, between 0 and 1) scale factor.",
+    "key_concepts": [
+      "A reduction is simply an enlargement with 0 < scale factor < 1",
+      "The shape becomes smaller, but retains its original proportions (still similar to the original)",
+      "Uses the exact same formulas and methods as enlargement",
+      "Sometimes textbooks use 'enlargement' to cover BOTH larger and smaller cases, calling any scale factor <1 a 'reduction' informally"
+    ],
+    "definitions": [
+      {
+        "term": "Reduction",
+        "definition": "An enlargement with a scale factor between 0 and 1, resulting in a smaller (but similar) shape."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Reduction from origin",
+        "formula": "(x,y) \u2192 (kx, ky)",
+        "notes": "0 < k < 1"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Reduce the point (8,12) by scale factor 1/4, centre the origin.",
+        "solution_steps": [
+          "Multiply both coordinates by 1/4: (8\u00d71/4, 12\u00d71/4)"
+        ],
+        "answer": "(2, 3)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Reduce the point (10,6) by scale factor 0.5, centre the origin.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A shape has area 40cm\u00b2 before a reduction of scale factor 1/2. Find its new area.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(5,3)",
+      "10 cm\u00b2 (area scale factor = (1/2)\u00b2=1/4, so 40\u00d71/4=10)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Triangle ABC has vertices A(4,4), B(8,4), C(4,8). Find the image after a reduction of scale factor 1/2, centre the origin.",
+        "marks": 3,
+        "answer": "A'=(2,2), B'=(4,2), C'=(2,4)"
+      }
+    ],
+    "common_mistakes": [
+      "Applying the scale factor incorrectly to area or volume without squaring/cubing it appropriately",
+      "Confusing reduction with a negative scale factor (a reduction is still positive, just less than 1)"
+    ],
+    "tips": [
+      "Reduction is really just 'enlargement' with a fractional scale factor \u2014 the same rules, formulas, and methods apply throughout."
+    ],
+    "summary": "A reduction is an enlargement with scale factor between 0 and 1, making the shape smaller while preserving its proportions.",
+    "quick_revision_notes": [
+      "Reduction = enlargement with 0<k<1"
+    ],
+    "related_prerequisite_topics": [
+      "Enlargement",
+      "Scale Factors"
+    ],
+    "images": []
+  },
+  {
+    "id": 354,
+    "category": "Transformations",
+    "topic": "Transformation Matrices",
+    "explanation": "Transformation matrices provide an algebraic way to represent geometric transformations (rotation, reflection, enlargement) using matrix multiplication. Multiplying a point's coordinate vector by a specific transformation matrix produces the image's coordinates directly.",
+    "key_concepts": [
+      "A point (x,y) is represented as a column vector and multiplied by a 2\u00d72 transformation matrix",
+      "Different matrices represent different transformations (rotation, reflection, enlargement)",
+      "Matrix multiplication: [[a,b],[c,d]] \u00d7 [x,y] = [ax+by, cx+dy]",
+      "Combining transformations corresponds to multiplying their matrices together"
+    ],
+    "definitions": [
+      {
+        "term": "Transformation Matrix",
+        "definition": "A matrix that, when multiplied by a point's coordinates, produces the coordinates of the transformed image."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Reflection in x-axis matrix",
+        "formula": "[[1,0],[0,-1]]",
+        "notes": ""
+      },
+      {
+        "name": "Rotation 90\u00b0 anticlockwise matrix",
+        "formula": "[[0,-1],[1,0]]",
+        "notes": ""
+      },
+      {
+        "name": "Enlargement (scale factor k) matrix",
+        "formula": "[[k,0],[0,k]]",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Use the matrix [[0,-1],[1,0]] to rotate the point (3,2) by 90\u00b0 anticlockwise.",
+        "solution_steps": [
+          "New x = 0(3) + (-1)(2) = -2",
+          "New y = 1(3) + 0(2) = 3"
+        ],
+        "answer": "(-2, 3)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Use the matrix [[1,0],[0,-1]] to reflect the point (4,5) in the x-axis.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Use the matrix [[2,0],[0,2]] to enlarge the point (3,4) by scale factor 2.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "(4,-5)",
+      "(6,8)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Find the image of the point (5,-2) under the transformation represented by the matrix [[3,0],[0,3]], and describe the transformation in words.",
+        "marks": 3,
+        "answer": "New point: (15,-6). This matrix represents an enlargement by scale factor 3, centred at the origin."
+      }
+    ],
+    "common_mistakes": [
+      "Errors in the matrix multiplication process (mixing up rows and columns)",
+      "Using the wrong matrix for the intended transformation"
+    ],
+    "tips": [
+      "Memorize the standard matrices for common transformations (90\u00b0/180\u00b0/270\u00b0 rotations, reflections in the axes and y=\u00b1x) \u2014 these appear frequently in exams."
+    ],
+    "summary": "Transformation matrices represent geometric transformations algebraically; multiplying a point's vector by the matrix gives its image.",
+    "quick_revision_notes": [
+      "[[a,b],[c,d]] \u00d7 [x,y] = [ax+by, cx+dy]",
+      "Memorize standard matrices for common transformations"
+    ],
+    "related_prerequisite_topics": [
+      "Matrices",
+      "Matrix Operations",
+      "Rotation",
+      "Reflection"
+    ],
+    "images": []
+  },
+  {
+    "id": 355,
+    "category": "Transformations",
+    "topic": "Composite Transformations",
+    "explanation": "A composite transformation is the result of applying two or more transformations in sequence, one after another. The order in which transformations are applied matters, since performing them in a different order can produce a different final image.",
+    "key_concepts": [
+      "Apply transformations in the specified order, one after another",
+      "The ORDER matters \u2014 reversing the sequence can give a different result",
+      "The image after the first transformation becomes the starting shape for the second",
+      "Can be represented by multiplying transformation matrices together (in the correct order)"
+    ],
+    "definitions": [
+      {
+        "term": "Composite Transformation",
+        "definition": "The combined result of applying two or more transformations in sequence."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Point A(2,3) is first reflected in the x-axis, then translated by vector (1,4). Find the final image.",
+        "solution_steps": [
+          "Reflect in x-axis: (2,3) \u2192 (2,-3)",
+          "Translate by (1,4): (2+1, -3+4)"
+        ],
+        "answer": "(3, 1)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Point B(4,-1) is first translated by (2,3), then reflected in the y-axis. Find the final image.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Explain why the order of composite transformations matters, using a simple example.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(-6,2) (translate: (6,2), then reflect in y-axis: (-6,2))",
+      "e.g. Reflecting then translating a point can give a different result than translating then reflecting the same point, because each transformation acts on wherever the point currently is \u2014 changing the starting position before the second transformation changes its outcome."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Triangle ABC has vertex A(2,2). Find the image of A after a 90\u00b0 rotation anticlockwise about the origin, followed by a reflection in the x-axis.",
+        "marks": 4,
+        "answer": "Rotate 90\u00b0 ACW: (2,2)\u2192(-2,2). Reflect in x-axis: (-2,2)\u2192(-2,-2)"
+      }
+    ],
+    "common_mistakes": [
+      "Applying the transformations in the wrong order",
+      "Using the ORIGINAL shape's coordinates for the second transformation instead of the image from the first"
+    ],
+    "tips": [
+      "Always complete the FIRST transformation fully before starting the second \u2014 never try to combine both steps into one calculation."
+    ],
+    "summary": "A composite transformation applies multiple transformations in sequence; the order significantly affects the final result.",
+    "quick_revision_notes": [
+      "Apply transformations one at a time, in order",
+      "Order matters!"
+    ],
+    "related_prerequisite_topics": [
+      "Translation",
+      "Reflection",
+      "Rotation",
+      "Transformation Matrices"
+    ],
+    "images": []
+  },
+  {
+    "id": 356,
+    "category": "Transformations",
+    "topic": "Invariant Points",
+    "explanation": "An invariant point is a point that remains in exactly the same position after a transformation is applied \u2014 its image is identical to its original position. Identifying invariant points helps understand and describe the specific nature of a transformation.",
+    "key_concepts": [
+      "An invariant point maps to itself under a transformation (image = original position)",
+      "For a rotation, the centre of rotation is always an invariant point",
+      "For a reflection, every point ON the mirror line is invariant",
+      "For an enlargement, the centre of enlargement is always invariant"
+    ],
+    "definitions": [
+      {
+        "term": "Invariant Point",
+        "definition": "A point that remains unchanged (maps to itself) under a given transformation."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A shape is reflected in the line y=2. Which points are invariant?",
+        "solution_steps": [
+          "Any point already ON the mirror line y=2 stays in the same place"
+        ],
+        "answer": "All points with y-coordinate equal to 2 (i.e. on the line y=2)"
+      },
+      {
+        "problem": "A shape undergoes a rotation centred at (3,4). Which point is invariant?",
+        "solution_steps": [
+          "The centre of rotation always stays fixed"
+        ],
+        "answer": "(3, 4)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A shape is reflected in the y-axis. Which points are invariant?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A shape undergoes an enlargement centred at (0,0). Which point is invariant?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "All points on the y-axis (where x=0)",
+      "(0,0), the centre of enlargement"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A shape undergoes a rotation of 180\u00b0 about the point (2,-3). Explain why (2,-3) is the only invariant point for this transformation (unless the shape has special symmetry).",
+        "marks": 2,
+        "answer": "In a rotation, the centre of rotation is always fixed (maps to itself), since it is the pivot point around which everything else moves. Any other point moves to a new position 180\u00b0 around this centre, so unless the point happens to coincide with the centre itself, it will not be invariant."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming every point on a shape is invariant under any transformation (only specific points/lines are invariant for specific transformations)",
+      "Forgetting reflections have a whole LINE of invariant points (the mirror line), not just one point"
+    ],
+    "tips": [
+      "Quickly identify invariant points by asking: 'Which points, if any, are exactly ON the transformation's defining feature (mirror line, centre of rotation/enlargement)?'"
+    ],
+    "summary": "An invariant point maps to itself under a transformation; examples include the centre of rotation/enlargement or points on a mirror line.",
+    "quick_revision_notes": [
+      "Reflection: points on mirror line",
+      "Rotation/enlargement: the centre point"
+    ],
+    "related_prerequisite_topics": [
+      "Reflection",
+      "Rotation",
+      "Enlargement",
+      "Invariant Lines"
+    ],
+    "images": []
+  },
+  {
+    "id": 357,
+    "category": "Transformations",
+    "topic": "Invariant Lines",
+    "explanation": "An invariant line is a line that maps onto itself under a transformation \u2014 though individual points on the line may move to different positions along it, the line as a whole occupies the same location after the transformation. This differs from invariant points, where the exact point stays fixed.",
+    "key_concepts": [
+      "An invariant line maps to itself as a whole line, though points along it may shift position",
+      "For a reflection, the mirror line is always invariant (every point on it is also individually invariant)",
+      "For a reflection, lines PERPENDICULAR to the mirror line are also invariant as lines (though points on them do move)",
+      "Different from invariant points, which must map to the EXACT same point"
+    ],
+    "definitions": [
+      {
+        "term": "Invariant Line",
+        "definition": "A line that maps onto itself under a transformation, though individual points on it may move to different positions along the line."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A shape is reflected in the line y=x. Which lines are invariant?",
+        "solution_steps": [
+          "The mirror line itself (y=x) is invariant, and every point on it is individually invariant too",
+          "Lines perpendicular to y=x (i.e. lines with gradient -1) are also invariant as lines, since reflection swaps points along them but keeps them on the same line"
+        ],
+        "answer": "y=x (with every point on it invariant), and all lines perpendicular to y=x (with points shifting along them but the line remaining in place)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A shape is reflected in the x-axis. Name one invariant line.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Explain the difference between an invariant point and an invariant line.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "The x-axis itself (y=0) is invariant; also, any vertical line (like x=3) is invariant as a line, since points on it just swap to the corresponding point on the same vertical line.",
+      "An invariant point must map to the EXACT same point (no movement at all). An invariant line only requires the LINE overall to occupy the same position, even though individual points on it may move to different positions along that same line."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A shape undergoes a 180\u00b0 rotation about the origin. Explain whether any lines (other than through the origin) can be invariant under this transformation.",
+        "marks": 3,
+        "answer": "Any straight line passing through the origin is invariant under a 180\u00b0 rotation about the origin, since each point on the line maps to another point on the same line (specifically, its diametrically opposite point relative to the origin). Lines NOT passing through the origin are generally not invariant, since they map to a parallel but different line."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing invariant lines (which can have points shifting along them) with invariant points (which must stay exactly fixed)",
+      "Assuming only the mirror line itself can be invariant under a reflection (perpendicular lines are also invariant)"
+    ],
+    "tips": [
+      "Remember: an invariant LINE doesn't require every point to stay fixed \u2014 just that the line as a whole maps onto itself, even if points move along it."
+    ],
+    "summary": "An invariant line maps onto itself under a transformation, even though points along it may shift position, unlike invariant points.",
+    "quick_revision_notes": [
+      "Line maps to itself (points may shift along it)",
+      "Reflection: mirror line + perpendicular lines are invariant"
+    ],
+    "related_prerequisite_topics": [
+      "Invariant Points",
+      "Reflection",
+      "Rotation"
+    ],
+    "images": []
+  },
+  {
+    "id": 358,
+    "category": "Transformations",
+    "topic": "Vector Transformations",
+    "explanation": "Vector transformations describe geometric transformations (particularly translation) using vector notation, and explore how vectors themselves are affected by transformations like rotation and reflection. This connects the study of transformations directly to vector geometry.",
+    "key_concepts": [
+      "A translation is fully described by a single column vector",
+      "Vectors can be rotated or reflected just like points, following the same transformation rules",
+      "The vector connecting two points transforms consistently with the points themselves",
+      "Useful for describing motion, direction, and geometric relationships within transformations"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A vector from point A(1,1) to point B(4,5) is rotated 90\u00b0 anticlockwise about the origin, along with points A and B. Find the new vector from the image A' to the image B'.",
+        "solution_steps": [
+          "Rotate A(1,1): (x,y)\u2192(-y,x) gives A'=(-1,1)",
+          "Rotate B(4,5): gives B'=(-5,4)",
+          "New vector A'B' = B'-A' = (-5-(-1), 4-1) = (-4,3)"
+        ],
+        "answer": "(-4, 3)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "The vector from A(2,0) to B(2,3) is reflected in the x-axis, along with points A and B. Find the new vector A'B'.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Explain why translating two points by the same vector doesn't change the vector connecting them.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(0,-3) (A'=(2,0), B'=(2,-3), so A'B'=(0,-3))",
+      "Since both points shift by the identical amount in the same direction, their relative positions to each other stay exactly the same, so the vector (difference) between them is unchanged."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Points C(1,2) and D(5,2) are both enlarged by scale factor 3, centre the origin. Find the vector CD before and after the enlargement, and describe what changed.",
+        "marks": 4,
+        "answer": "Original CD = D-C = (4,0). After enlargement: C'=(3,6), D'=(15,6). New C'D' = (12,0). The vector's direction stayed the same, but its magnitude scaled by the same factor as the enlargement (3\u00d7)."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting that translation never changes a connecting vector, while enlargement DOES scale it",
+      "Errors when transforming multiple points and then subtracting to find a new vector"
+    ],
+    "tips": [
+      "Under translation, connecting vectors NEVER change. Under enlargement, they scale by the same factor. Under rotation/reflection, they change direction according to the same transformation rule as individual points."
+    ],
+    "summary": "Vector transformations examine how vectors (and the points defining them) are affected by translations, rotations, reflections, and enlargements.",
+    "quick_revision_notes": [
+      "Translation: vector unchanged",
+      "Enlargement: vector scaled by k",
+      "Rotation/reflection: vector transforms like a point"
+    ],
+    "related_prerequisite_topics": [
+      "Translation",
+      "Vector Notation",
+      "Column Vectors"
+    ],
+    "images": []
+  },
+  {
+    "id": 359,
+    "category": "Transformations",
+    "topic": "Enlargement Centre",
+    "explanation": "The centre of enlargement is the fixed point from which all distances are scaled during an enlargement. Finding the centre of enlargement (when it's not given directly) requires drawing lines connecting corresponding points on the original shape and its image, then finding where these lines intersect.",
+    "key_concepts": [
+      "The centre of enlargement is the one point that remains fixed (invariant) during an enlargement",
+      "To find an unknown centre: draw straight lines through each pair of corresponding points (object and image); they all intersect at the centre",
+      "Distances from the centre to the image are the scale factor times the distances to the original object",
+      "Essential for both performing and describing an enlargement fully"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A point A(2,2) is enlarged to A'(6,6), and the scale factor is 3. Find the centre of enlargement, assuming it's the origin.",
+        "solution_steps": [
+          "Check: distance from origin to A is \u221a8; distance to A' is \u221a72",
+          "Ratio: \u221a72/\u221a8 = \u221a9 = 3, matching the given scale factor",
+          "Since A, A', and the origin all lie on the same line through the origin (as 6=3\u00d72 for both coordinates), the origin is confirmed as the centre"
+        ],
+        "answer": "Centre = (0,0) (the origin)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A point B(1,3) is enlarged by scale factor 2, centre (0,0), giving B'. Find B'.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain the method for finding an unknown centre of enlargement using a shape and its image.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(2,6)",
+      "Draw straight lines connecting each pair of corresponding points (an original vertex to its image vertex). Extend these lines if necessary \u2014 they will all intersect at a single point, which is the centre of enlargement."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A shape has vertex P(2,3) which maps to P'(8,9) under an enlargement with scale factor 3. Find the centre of enlargement.",
+        "marks": 4,
+        "answer": "Let centre = (a,b). Using the enlargement relationship: P'-centre = 3\u00d7(P-centre). (8-a,9-b)=3(2-a,3-b) \u2192 8-a=6-3a and 9-b=9-3b \u2192 2a=-2, a=-1; 2b=0, b=0. Centre=(-1,0)"
+      }
+    ],
+    "common_mistakes": [
+      "Assuming the centre of enlargement is always the origin (it must be verified or calculated, not assumed)",
+      "Errors when setting up and solving the simultaneous equations to find an unknown centre"
+    ],
+    "tips": [
+      "When asked to FIND the centre of enlargement from a diagram, always draw and extend lines through at least two pairs of corresponding points \u2014 their intersection point is the answer."
+    ],
+    "summary": "The centre of enlargement is the invariant point from which an enlargement scales; it can be found by intersecting lines through corresponding points.",
+    "quick_revision_notes": [
+      "Centre is invariant under enlargement",
+      "Find by intersecting lines through corresponding points"
+    ],
+    "related_prerequisite_topics": [
+      "Enlargement",
+      "Invariant Points",
+      "Scale Factors"
+    ],
+    "images": []
+  },
+  {
+    "id": 360,
+    "category": "Transformations",
+    "topic": "Negative Scale Factors",
+    "explanation": "A negative scale factor in an enlargement produces an image that is not only resized but also rotated 180\u00b0 relative to the original shape \u2014 appearing on the OPPOSITE side of the centre of enlargement. This is a special extension of the standard enlargement concept.",
+    "key_concepts": [
+      "A negative scale factor places the image on the OPPOSITE side of the centre from the original",
+      "The image is also effectively rotated 180\u00b0 compared to a standard (positive scale factor) enlargement",
+      "The absolute value of the scale factor still determines the size change (e.g. -2 doubles the size, just on the opposite side)",
+      "Distances still scale by the ABSOLUTE VALUE of the scale factor"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Negative enlargement from origin",
+        "formula": "(x,y) \u2192 (kx, ky), for negative k",
+        "notes": "Places image on opposite side of centre"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Enlarge the point (2,3) by scale factor -2, centre the origin.",
+        "solution_steps": [
+          "Multiply both coordinates by -2: (2\u00d7-2, 3\u00d7-2)"
+        ],
+        "answer": "(-4, -6)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Enlarge the point (1,4) by scale factor -3, centre the origin.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Explain how the image differs when using a scale factor of -2 compared to +2, for the same centre.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(-3,-12)",
+      "Both scale factors resize the shape to double its size (absolute value 2), but a scale factor of -2 also places the image on the OPPOSITE side of the centre of enlargement, effectively rotating it 180\u00b0 relative to the +2 case."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Triangle ABC has vertices A(1,1), B(3,1), C(1,2). Find the image after an enlargement of scale factor -2, centre the origin.",
+        "marks": 4,
+        "answer": "A'=(-2,-2), B'=(-6,-2), C'=(-2,-4)"
+      }
+    ],
+    "common_mistakes": [
+      "Treating a negative scale factor the same as a positive one (forgetting the image flips to the opposite side)",
+      "Using only the absolute value for the coordinate calculation (forgetting to keep the negative sign in the multiplication itself)"
+    ],
+    "tips": [
+      "A negative scale factor combines resizing (by the absolute value) with a 180\u00b0 rotation about the centre \u2014 visualize both effects happening together."
+    ],
+    "summary": "A negative scale factor in an enlargement places the image on the opposite side of the centre, combining resizing with an effective 180\u00b0 rotation.",
+    "quick_revision_notes": [
+      "Negative k: image on OPPOSITE side of centre",
+      "Size still scales by |k|"
+    ],
+    "related_prerequisite_topics": [
+      "Enlargement",
+      "Enlargement Centre",
+      "Rotation"
+    ],
+    "images": []
+  },
+  {
+    "id": 361,
+    "category": "Transformations",
+    "topic": "Coordinate Transformations",
+    "explanation": "Coordinate transformations study how the coordinates of points change under each type of geometric transformation, providing a systematic algebraic toolkit (translation, reflection, rotation, enlargement rules) for finding images without needing to draw every transformation graphically.",
+    "key_concepts": [
+      "Each transformation type has a specific coordinate rule: (x,y) \u2192 (new coordinates)",
+      "Translation: add a vector. Reflection: flip sign(s) or swap coordinates. Rotation: rotate using specific origin-centred rules. Enlargement: multiply by scale factor",
+      "These rules allow quick, accurate calculation of images for multiple points without needing a full diagram",
+      "Essential for solving transformation problems algebraically, especially with multiple points or composite transformations"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Summary of coordinate rules",
+        "formula": "Translation: (x,y)\u2192(x+a,y+b). Reflection in x-axis: (x,y)\u2192(x,-y). Reflection in y-axis: (x,y)\u2192(-x,y). Rotation 180\u00b0 (origin): (x,y)\u2192(-x,-y). Enlargement (origin): (x,y)\u2192(kx,ky)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Apply the rule for reflection in the line y=-x to the point (3,5).",
+        "solution_steps": [
+          "Reflection in y=-x rule: (x,y)\u2192(-y,-x)",
+          "Apply: (-5,-3)"
+        ],
+        "answer": "(-5, -3)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Apply the translation rule for vector (3,-2) to the point (1,4).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Apply the rule for rotation 270\u00b0 anticlockwise about the origin, (x,y)\u2192(y,-x), to the point (2,6).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(4,2)",
+      "(6,-2)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A point (4,-3) undergoes reflection in the line y=x, followed by a translation of vector (2,1). Find its final position using coordinate rules.",
+        "marks": 3,
+        "answer": "Reflect in y=x: (4,-3)\u2192(-3,4). Translate: (-3+2, 4+1) = (-1,5)"
+      }
+    ],
+    "common_mistakes": [
+      "Misremembering or misapplying a specific coordinate transformation rule",
+      "Applying rules meant for the origin as the centre/mirror line when the actual problem uses a different centre or line"
+    ],
+    "tips": [
+      "Keep a reference list of all the standard coordinate transformation rules handy \u2014 they are used repeatedly across many transformation problems and are worth memorizing thoroughly."
+    ],
+    "summary": "Coordinate transformation rules provide algebraic shortcuts for finding a point's image under translation, reflection, rotation, or enlargement.",
+    "quick_revision_notes": [
+      "Memorize standard rules for each transformation type"
+    ],
+    "related_prerequisite_topics": [
+      "Translation",
+      "Reflection",
+      "Rotation",
+      "Enlargement"
+    ],
+    "images": []
+  },
+  {
+    "id": 362,
+    "category": "Transformations",
+    "topic": "Symmetry Transformations",
+    "explanation": "Symmetry transformations are specific reflections or rotations that map a shape exactly onto itself, revealing the shape's inherent symmetry. Identifying these transformations connects the study of transformations directly to line and rotational symmetry.",
+    "key_concepts": [
+      "A symmetry transformation maps a shape exactly onto itself (image = original shape, though individual points may swap positions)",
+      "Line symmetry corresponds to a reflection transformation that maps the shape onto itself",
+      "Rotational symmetry corresponds to a rotation transformation (by less than 360\u00b0) that maps the shape onto itself",
+      "The number of symmetry transformations relates directly to the shape's total symmetry properties"
+    ],
+    "definitions": [
+      {
+        "term": "Symmetry Transformation",
+        "definition": "A reflection or rotation that maps a shape exactly onto itself."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A square is reflected in one of its diagonals. Explain why this is a symmetry transformation.",
+        "solution_steps": [
+          "The diagonal is a line of symmetry for the square",
+          "Reflecting in this line maps the square exactly onto itself, though individual vertices swap positions"
+        ],
+        "answer": "It is a symmetry transformation because the square's image after this reflection is identical (in position and shape) to the original square."
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "How many distinct rotational symmetry transformations (other than the trivial 360\u00b0/0\u00b0 one) does a square have?",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Explain why an isosceles (non-equilateral) triangle has exactly one symmetry transformation (a reflection).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "3 (90\u00b0, 180\u00b0, 270\u00b0 rotations about the centre)",
+      "Its single line of symmetry allows exactly one reflection to map the triangle onto itself; there's no rotation (other than the trivial 360\u00b0) that would achieve the same result, since it lacks rotational symmetry beyond order 1."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A regular hexagon undergoes a 60\u00b0 rotation about its centre. Explain why this is a symmetry transformation, and state how many such rotational symmetry transformations exist for the hexagon.",
+        "marks": 3,
+        "answer": "Since a regular hexagon has rotational symmetry of order 6, rotating it by 60\u00b0 (360\u00b0/6) maps it exactly onto itself, making this a symmetry transformation. There are 6 such rotational symmetry transformations in total (at 60\u00b0, 120\u00b0, 180\u00b0, 240\u00b0, 300\u00b0, and 360\u00b0/0\u00b0)."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing a symmetry transformation (mapping the shape onto ITSELF) with a general transformation (mapping to a different image/position)",
+      "Miscounting the total number of symmetry transformations for a given shape"
+    ],
+    "tips": [
+      "The number of rotational symmetry transformations (including the trivial 360\u00b0) always equals the shape's order of rotational symmetry, and the number of reflective symmetry transformations equals its number of lines of symmetry."
+    ],
+    "summary": "Symmetry transformations are reflections or rotations that map a shape exactly onto itself, directly linked to its line and rotational symmetry properties.",
+    "quick_revision_notes": [
+      "Reflection \u2192 line symmetry",
+      "Rotation \u2192 rotational symmetry"
+    ],
+    "related_prerequisite_topics": [
+      "Symmetry",
+      "Rotational Symmetry",
+      "Reflection",
+      "Rotation"
+    ],
+    "images": []
+  },
+  {
+    "id": 363,
+    "category": "Transformations",
+    "topic": "Describing Transformations Fully",
+    "explanation": "Fully describing a transformation means giving ALL the necessary information to uniquely identify it \u2014 not just naming the type of transformation, but including every required detail: for translations, the vector; for reflections, the mirror line's equation; for rotations, the centre, angle, and direction; for enlargements, the centre and scale factor.",
+    "key_concepts": [
+      "Translation: state the TYPE ('translation') and the VECTOR",
+      "Reflection: state the TYPE and the EQUATION of the mirror line",
+      "Rotation: state the TYPE, CENTRE, ANGLE, and DIRECTION (clockwise/anticlockwise)",
+      "Enlargement: state the TYPE, CENTRE, and SCALE FACTOR"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A triangle is transformed such that every point moves 3 units right and 2 units down. Fully describe this transformation.",
+        "solution_steps": [
+          "Identify the type: translation",
+          "State the vector: (3,-2)"
+        ],
+        "answer": "Translation by vector (3, -2)"
+      },
+      {
+        "problem": "A shape is enlarged, tripling in size, using (0,0) as the fixed reference point. Fully describe this transformation.",
+        "solution_steps": [
+          "Identify the type: enlargement",
+          "State scale factor: 3",
+          "State centre: (0,0)"
+        ],
+        "answer": "Enlargement, scale factor 3, centre (0,0)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A shape is turned 90\u00b0 clockwise around the point (2,1). Fully describe this transformation.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A shape is flipped across the vertical line x=4. Fully describe this transformation.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Rotation of 90\u00b0 clockwise, centre (2,1)",
+      "Reflection in the line x=4"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Describe FULLY the single transformation that maps triangle A (vertices (1,1),(3,1),(1,3)) onto triangle B (vertices (-1,1),(-3,1),(-1,3)).",
+        "marks": 3,
+        "answer": "Reflection in the y-axis (the line x=0) \u2014 each point's x-coordinate has been negated while the y-coordinate stayed the same, which is exactly the rule for reflection in the y-axis."
+      }
+    ],
+    "common_mistakes": [
+      "Naming only the TYPE of transformation without giving the full required details (e.g. just saying 'rotation' without stating the centre, angle, and direction)",
+      "Providing extra, unnecessary, or incorrect information not required for that transformation type"
+    ],
+    "tips": [
+      "Memorize exactly what details each transformation type requires: Translation\u2192vector; Reflection\u2192mirror line equation; Rotation\u2192centre+angle+direction; Enlargement\u2192centre+scale factor. Missing any one of these loses marks in an exam."
+    ],
+    "summary": "Fully describing a transformation requires stating its type plus all specific defining details (vector, mirror line, centre/angle/direction, or centre/scale factor).",
+    "quick_revision_notes": [
+      "Translation: vector",
+      "Reflection: mirror line equation",
+      "Rotation: centre+angle+direction",
+      "Enlargement: centre+scale factor"
+    ],
+    "related_prerequisite_topics": [
+      "Translation",
+      "Reflection",
+      "Rotation",
+      "Enlargement"
+    ],
+    "images": []
+  }
+]

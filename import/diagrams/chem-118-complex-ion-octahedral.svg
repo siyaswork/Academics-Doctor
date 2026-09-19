@@ -1,0 +1,26 @@
+<svg viewBox="0 0 500 420" xmlns="http://www.w3.org/2000/svg">
+<rect width="500" height="420" fill="#ffffff"/>
+<text x="250" y="30" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Octahedral Complex Ion: [Cu(H2O)6]2+</text>
+<circle cx="250" cy="200" r="22" fill="#b5651d"/>
+<text x="250" y="205" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" font-weight="bold" fill="#ffffff">Cu2+</text>
+<line x1="250" y1="200" x2="250" y2="90" stroke="#333" stroke-width="1.5"/>
+<circle cx="250" cy="90" r="16" fill="#a8dadc"/>
+<text x="250" y="94" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" font-weight="normal" fill="#1a1a1a">H2O</text>
+<line x1="250" y1="200" x2="250" y2="310" stroke="#333" stroke-width="1.5"/>
+<circle cx="250" cy="310" r="16" fill="#a8dadc"/>
+<text x="250" y="314" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" font-weight="normal" fill="#1a1a1a">H2O</text>
+<line x1="250" y1="200" x2="360" y2="200" stroke="#333" stroke-width="1.5"/>
+<circle cx="360" cy="200" r="16" fill="#a8dadc"/>
+<text x="360" y="204" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" font-weight="normal" fill="#1a1a1a">H2O</text>
+<line x1="250" y1="200" x2="140" y2="200" stroke="#333" stroke-width="1.5"/>
+<circle cx="140" cy="200" r="16" fill="#a8dadc"/>
+<text x="140" y="204" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" font-weight="normal" fill="#1a1a1a">H2O</text>
+<line x1="250" y1="200" x2="320" y2="130" stroke="#333" stroke-width="1.5"/>
+<circle cx="320" cy="130" r="16" fill="#a8dadc"/>
+<text x="320" y="134" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" font-weight="normal" fill="#1a1a1a">H2O</text>
+<line x1="250" y1="200" x2="180" y2="270" stroke="#333" stroke-width="1.5"/>
+<circle cx="180" cy="270" r="16" fill="#a8dadc"/>
+<text x="180" y="274" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" font-weight="normal" fill="#1a1a1a">H2O</text>
+<text x="250" y="370" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="normal" fill="#1a1a1a">Six water ligands donate lone pairs to the central Cu2+ ion</text>
+<text x="250" y="390" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" font-weight="normal" fill="#1a1a1a">via dative (coordinate) covalent bonds - octahedral shape</text>
+</svg>

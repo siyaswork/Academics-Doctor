@@ -1,0 +1,1912 @@
+[
+  {
+    "id": 76,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Ratios",
+    "explanation": "A ratio compares the sizes of two or more quantities, showing how much of one thing there is compared to another. Written as a:b (read 'a to b'), a ratio does not have units and only reflects relative size. For example, a ratio of 2:3 between flour and sugar means for every 2 units of flour, there are 3 units of sugar.",
+    "key_concepts": [
+      "A ratio compares quantities of the same kind, written as a:b",
+      "Ratios have no units \u2014 they express relative proportion",
+      "Order matters: 2:3 is different from 3:2",
+      "Ratios can involve more than two quantities, e.g. a:b:c"
+    ],
+    "definitions": [
+      {
+        "term": "Ratio",
+        "definition": "A comparison of two or more quantities showing their relative sizes, written with a colon, e.g. a:b."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A recipe uses 200g of flour and 150g of butter. Write this as a ratio in its simplest form.",
+        "solution_steps": [
+          "Write the ratio: 200:150",
+          "Find HCF(200,150) = 50",
+          "Divide both by 50: 200\u00f750=4, 150\u00f750=3"
+        ],
+        "answer": "4:3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Write the ratio of 15 to 40 in simplest form.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A classroom has 18 boys and 12 girls. Express this as a ratio in simplest form.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "3:8",
+      "3:2"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A fruit basket contains apples, oranges, and bananas in the ratio 4:3:2. If there are 8 apples, find the number of oranges and bananas.",
+        "marks": 3,
+        "answer": "1 ratio part = 8\u00f74 = 2. Oranges = 3\u00d72=6. Bananas = 2\u00d72=4."
+      }
+    ],
+    "common_mistakes": [
+      "Writing the ratio in the wrong order relative to the question",
+      "Forgetting to simplify the ratio to its lowest terms"
+    ],
+    "tips": [
+      "Always simplify a ratio the same way you would simplify a fraction \u2014 divide by the HCF of all parts."
+    ],
+    "summary": "A ratio compares quantities in relative terms, written as a:b, and is simplified like a fraction using the HCF.",
+    "quick_revision_notes": [
+      "a:b compares two quantities",
+      "No units",
+      "Simplify using HCF"
+    ],
+    "related_prerequisite_topics": [
+      "Fractions and Ratios",
+      "Greatest Common Divisor"
+    ],
+    "images": [
+      {
+        "filename": "ratios-76-bar.svg",
+        "type": "mathematical_visual",
+        "description": "A bar split into 5 equal sections, 3 shaded one colour and 2 shaded another, representing a 3:2 ratio.",
+        "purpose": "Visually shows how a ratio divides a whole into proportional parts.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Equivalent Ratios",
+    "explanation": "Equivalent ratios represent the same proportional relationship, even though the numbers themselves are different \u2014 such as 1:2, 2:4, and 3:6. They are created by multiplying or dividing all parts of a ratio by the same non-zero number, similar to equivalent fractions.",
+    "key_concepts": [
+      "Equivalent ratios represent the same relative size",
+      "Created by multiplying or dividing every part of the ratio by the same number",
+      "Used to scale ratios up or down for comparison or real-world application",
+      "Cross-multiplication can check whether two ratios are equivalent"
+    ],
+    "definitions": [
+      {
+        "term": "Equivalent Ratios",
+        "definition": "Ratios that express the same proportional relationship, obtained by multiplying or dividing all terms by the same value."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find a ratio equivalent to 3:5 with the first term equal to 12.",
+        "solution_steps": [
+          "Determine the multiplier: 12 \u00f7 3 = 4",
+          "Multiply both terms by 4: 3\u00d74=12, 5\u00d74=20"
+        ],
+        "answer": "12:20"
+      },
+      {
+        "problem": "Are 8:12 and 6:9 equivalent ratios?",
+        "solution_steps": [
+          "Simplify 8:12: HCF=4, giving 2:3",
+          "Simplify 6:9: HCF=3, giving 2:3",
+          "Both simplify to the same ratio"
+        ],
+        "answer": "Yes, they are equivalent"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find a ratio equivalent to 2:7 with the second term equal to 35.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Are 9:15 and 12:20 equivalent? Show your working.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "10:35",
+      "Yes: both simplify to 3:5"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Find the missing value: 4:9 = x:63",
+        "marks": 2,
+        "answer": "63\u00f79=7, so x=4\u00d77=28"
+      }
+    ],
+    "common_mistakes": [
+      "Multiplying only one term of the ratio",
+      "Adding instead of multiplying to find equivalent ratios"
+    ],
+    "tips": [
+      "Treat ratios like fractions when scaling \u2014 whatever you do to one term, do to every other term."
+    ],
+    "summary": "Equivalent ratios express the same proportion and are found by multiplying or dividing all terms by the same number.",
+    "quick_revision_notes": [
+      "a:b = ka:kb for any non-zero k"
+    ],
+    "related_prerequisite_topics": [
+      "Ratios",
+      "Equivalent Fractions"
+    ],
+    "images": []
+  },
+  {
+    "id": 78,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Simplifying Ratios",
+    "explanation": "Simplifying a ratio means writing it in its lowest terms, where all parts share no common factor other than 1. This is done by dividing every part of the ratio by their highest common factor (HCF). Ratios involving decimals or fractions are first converted to whole numbers before simplifying.",
+    "key_concepts": [
+      "Divide all parts of the ratio by their HCF to fully simplify",
+      "Ratios with decimals: multiply all parts by a power of 10 to clear decimals first",
+      "Ratios with fractions: multiply all parts by the LCM of the denominators first",
+      "A simplified ratio has no common factor greater than 1 among all its parts"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Simplify the ratio 0.4 : 1.6",
+        "solution_steps": [
+          "Multiply both parts by 10 to clear decimals: 4:16",
+          "Simplify: HCF(4,16)=4, giving 1:4"
+        ],
+        "answer": "1:4"
+      },
+      {
+        "problem": "Simplify the ratio 2/3 : 5/6",
+        "solution_steps": [
+          "LCM of denominators (3,6) is 6",
+          "Multiply both parts by 6: (2/3\u00d76):(5/6\u00d76) = 4:5"
+        ],
+        "answer": "4:5"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Simplify 15:35.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Simplify 0.25 : 0.75.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Simplify 1/2 : 3/4.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "3:7",
+      "1:3",
+      "2:3"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Simplify the ratio 2.5 : 4 : 6, giving your answer using whole numbers.",
+        "marks": 3,
+        "answer": "Multiply all by 2: 5:8:12. Check HCF(5,8,12)=1, so this is fully simplified: 5:8:12"
+      }
+    ],
+    "common_mistakes": [
+      "Only dividing/multiplying one part of the ratio",
+      "Forgetting to clear decimals or fractions before simplifying"
+    ],
+    "tips": [
+      "When a ratio has fractions, multiply by the LCM of denominators; when it has decimals, multiply by the smallest power of 10 that clears them all."
+    ],
+    "summary": "Simplifying ratios reduces them to lowest whole-number terms, clearing decimals/fractions first if necessary.",
+    "quick_revision_notes": [
+      "Clear decimals: \u00d710, \u00d7100...",
+      "Clear fractions: \u00d7 LCM of denominators",
+      "Then divide by HCF"
+    ],
+    "related_prerequisite_topics": [
+      "Ratios",
+      "Greatest Common Divisor",
+      "Lowest Common Multiple"
+    ],
+    "images": []
+  },
+  {
+    "id": 79,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Sharing in a Ratio",
+    "explanation": "Sharing (or dividing) a quantity in a given ratio means splitting it into parts proportional to the ratio. This is done by adding up all the parts of the ratio to find the total number of 'shares', dividing the quantity by this total to find the value of one share, and then multiplying by each ratio part.",
+    "key_concepts": [
+      "Add all parts of the ratio to find the total number of shares",
+      "Divide the total quantity by the number of shares to find the value of 1 share",
+      "Multiply each ratio part by the value of 1 share to find each portion",
+      "Check that all shares add back up to the original total quantity"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Value of one share",
+        "formula": "1 share = Total quantity \u00f7 (sum of ratio parts)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Share $160 between Amy and Ben in the ratio 5:3.",
+        "solution_steps": [
+          "Total parts = 5+3 = 8",
+          "1 share = 160 \u00f7 8 = 20",
+          "Amy = 5 \u00d7 20 = 100",
+          "Ben = 3 \u00d7 20 = 60",
+          "Check: 100+60=160 \u2713"
+        ],
+        "answer": "Amy gets $100, Ben gets $60"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Share 90 sweets between two people in the ratio 4:5.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Share $2,400 among three people in the ratio 2:3:5.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "40 and 50",
+      "$480, $720, $1,200"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A prize fund of $750 is shared among 1st, 2nd, and 3rd place in the ratio 6:3:1. Find the amount each place receives.",
+        "marks": 3,
+        "answer": "Total parts=10. 1 share=75. 1st=450, 2nd=225, 3rd=75."
+      }
+    ],
+    "common_mistakes": [
+      "Dividing the total by the number of PEOPLE instead of the number of ratio PARTS",
+      "Forgetting to check that shares sum back to the original total"
+    ],
+    "tips": [
+      "Always check your final answer by adding all the shares together \u2014 they must equal the original total quantity."
+    ],
+    "summary": "Sharing in a ratio splits a quantity proportionally by dividing it into the total number of ratio parts.",
+    "quick_revision_notes": [
+      "1 share = Total \u00f7 (sum of parts)",
+      "Each portion = ratio part \u00d7 1 share"
+    ],
+    "related_prerequisite_topics": [
+      "Ratios",
+      "Simplifying Ratios"
+    ],
+    "images": [
+      {
+        "filename": "sharinginaratio-79-bar.svg",
+        "type": "mathematical_visual",
+        "description": "A bar split proportionally into 5 and 3 parts, labelled with the resulting dollar amounts from sharing $160 in a 5:3 ratio.",
+        "purpose": "Shows visually how the total is split into shares matching the ratio.",
+        "placement": "Alongside the worked example"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Ratio and Fractions",
+    "explanation": "Ratios and fractions are closely connected: for a ratio a:b, each part can be expressed as a fraction of the whole \u2014 a/(a+b) and b/(a+b). This connection allows ratio problems to be solved using fraction techniques, and vice versa.",
+    "key_concepts": [
+      "For ratio a:b, the fraction of the first quantity is a/(a+b)",
+      "The fraction of the second quantity is b/(a+b)",
+      "These fractions always sum to 1 (the whole)",
+      "Useful for converting between 'part:part' (ratio) and 'part:whole' (fraction) representations"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Ratio to fraction of whole",
+        "formula": "For a:b, fractions are a/(a+b) and b/(a+b)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A garden has flowers and vegetables in the ratio 3:7. What fraction of the garden is vegetables?",
+        "solution_steps": [
+          "Total parts = 3+7 = 10",
+          "Vegetables fraction = 7/10"
+        ],
+        "answer": "7/10"
+      },
+      {
+        "problem": "In a class, 5/8 of students are right-handed. Express the ratio of right-handed to left-handed students.",
+        "solution_steps": [
+          "Right-handed fraction = 5/8, so left-handed fraction = 3/8",
+          "Ratio = 5:3"
+        ],
+        "answer": "5:3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A ratio of red to green marbles is 2:5. What fraction of the marbles are green?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "If 2/9 of a group are children, what is the ratio of children to adults?",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "5/7",
+      "2:7"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A mixture of paint is 2:5 blue to white. If 84 litres of paint are made in total, how many litres are white?",
+        "marks": 3,
+        "answer": "White fraction = 5/7. 5/7 \u00d7 84 = 60 litres"
+      }
+    ],
+    "common_mistakes": [
+      "Using ratio values directly as fractions of the whole without dividing by the sum of parts",
+      "Mixing up which part of the ratio corresponds to which fraction"
+    ],
+    "tips": [
+      "Always find the total number of parts first (add the ratio terms) before converting to fractions."
+    ],
+    "summary": "A ratio a:b corresponds to the fractions a/(a+b) and b/(a+b) of the whole quantity.",
+    "quick_revision_notes": [
+      "a:b \u2192 a/(a+b), b/(a+b)"
+    ],
+    "related_prerequisite_topics": [
+      "Ratios",
+      "Fractions and Ratios",
+      "Sharing in a Ratio"
+    ],
+    "images": []
+  },
+  {
+    "id": 81,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Ratio and Percentages",
+    "explanation": "Ratios and percentages are connected in the same way as ratios and fractions: for a ratio a:b, each part's percentage of the whole is found by converting the corresponding fraction (a/(a+b) or b/(a+b)) into a percentage. This link is useful for expressing proportions in the most convenient form for a given problem.",
+    "key_concepts": [
+      "For ratio a:b, percentage of first part = [a/(a+b)] \u00d7 100%",
+      "Percentage of second part = [b/(a+b)] \u00d7 100%",
+      "The two percentages always sum to 100%",
+      "Useful for expressing survey results, compositions, and mixtures"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Ratio to percentage",
+        "formula": "For a:b, % of first part = a/(a+b) \u00d7 100",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A school has students in the ratio 3:2 (boys:girls). Find the percentage of students who are boys.",
+        "solution_steps": [
+          "Total parts = 3+2=5",
+          "Boys fraction = 3/5",
+          "Percentage = 3/5 \u00d7 100 = 60%"
+        ],
+        "answer": "60%"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A drink is made of juice and water in the ratio 1:4. Find the percentage of the drink that is juice.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "If a class has a ratio of 7:13 for those who play sport versus those who don't, find the percentage who play sport (to 1 decimal place).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "20%",
+      "35.0% (7/20\u00d7100)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "An alloy is made of copper and zinc in the ratio 9:11. Find the percentage of zinc in the alloy.",
+        "marks": 2,
+        "answer": "Total parts=20. Zinc fraction=11/20. Percentage = 11/20\u00d7100 = 55%"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to add the ratio parts together before finding the percentage",
+      "Using the wrong part of the ratio for the requested percentage"
+    ],
+    "tips": [
+      "This is a two-step process: convert the ratio to a fraction of the whole first, then convert that fraction to a percentage."
+    ],
+    "summary": "A ratio a:b corresponds to the percentages [a/(a+b)]\u00d7100% and [b/(a+b)]\u00d7100% of the whole quantity.",
+    "quick_revision_notes": [
+      "a:b \u2192 % = a/(a+b) \u00d7 100"
+    ],
+    "related_prerequisite_topics": [
+      "Ratio and Fractions",
+      "Percentage Basics"
+    ],
+    "images": []
+  },
+  {
+    "id": 82,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Direct Proportion",
+    "explanation": "Two quantities are in direct proportion if they increase or decrease together at the same rate \u2014 when one doubles, so does the other; when one is halved, so is the other. This relationship can be written as y = kx, where k is a constant called the constant of proportionality.",
+    "key_concepts": [
+      "Direct proportion: y = kx, for some constant k",
+      "As x increases, y increases at the same rate (and vice versa)",
+      "The ratio y/x is always constant (equal to k)",
+      "Graph of a direct proportion relationship is a straight line through the origin"
+    ],
+    "definitions": [
+      {
+        "term": "Direct Proportion",
+        "definition": "A relationship between two quantities where one is a constant multiple of the other, y = kx."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Direct proportion",
+        "formula": "y = kx",
+        "notes": "k = constant of proportionality = y/x"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "y is directly proportional to x. When x=5, y=20. Find y when x=8.",
+        "solution_steps": [
+          "Find k: k = y/x = 20/5 = 4",
+          "Equation: y = 4x",
+          "When x=8: y = 4\u00d78"
+        ],
+        "answer": "y = 32"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "y is directly proportional to x. When x=3, y=18. Find y when x=7.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "The cost of apples is directly proportional to the number bought. 5 apples cost $2.50. Find the cost of 12 apples.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "y=42 (k=6, y=6\u00d77)",
+      "$6.00 (k=0.50 per apple)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "P is directly proportional to Q\u00b3. When Q=2, P=40. Find P when Q=3.",
+        "marks": 3,
+        "answer": "k=P/Q\u00b3=40/8=5. P=5\u00d73\u00b3=5\u00d727=135"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to find k first before answering the question",
+      "Assuming any relationship where both quantities increase is direct proportion (must check the ratio is truly constant)"
+    ],
+    "tips": [
+      "Always find the constant k first using given values, then substitute to find the unknown."
+    ],
+    "summary": "Direct proportion means y = kx for a constant k; both quantities scale together at a fixed rate.",
+    "quick_revision_notes": [
+      "y = kx",
+      "k = y/x = constant",
+      "Straight line graph through origin"
+    ],
+    "related_prerequisite_topics": [
+      "Ratios",
+      "Proportionality Constants",
+      "Linear Graphs"
+    ],
+    "images": []
+  },
+  {
+    "id": 83,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Inverse Proportion",
+    "explanation": "Two quantities are in inverse proportion if one increases as the other decreases, such that their product remains constant. This relationship is written as y = k/x, where k is the constant of proportionality. A classic example is speed and time for a fixed distance: faster speed means less time needed.",
+    "key_concepts": [
+      "Inverse proportion: y = k/x, for some constant k",
+      "As x increases, y decreases proportionally (and vice versa)",
+      "The product xy is always constant (equal to k)",
+      "Graph of an inverse proportion relationship is a curve (hyperbola), not a straight line"
+    ],
+    "definitions": [
+      {
+        "term": "Inverse Proportion",
+        "definition": "A relationship between two quantities where their product is constant, y = k/x."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Inverse proportion",
+        "formula": "y = k/x",
+        "notes": "k = constant of proportionality = xy"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "y is inversely proportional to x. When x=4, y=15. Find y when x=6.",
+        "solution_steps": [
+          "Find k: k = xy = 4\u00d715 = 60",
+          "Equation: y = 60/x",
+          "When x=6: y = 60/6"
+        ],
+        "answer": "y = 10"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "y is inversely proportional to x. When x=5, y=8. Find y when x=10.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "It takes 6 workers 12 days to build a wall. How many days would 9 workers take, assuming the same work rate per worker?",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "y=4 (k=40, y=40/10)",
+      "8 days (k=6\u00d712=72, 72/9=8)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The time T (hours) taken to fill a tank is inversely proportional to the number of pumps P used. With 3 pumps, it takes 8 hours. Find the time taken with 5 pumps.",
+        "marks": 3,
+        "answer": "k=TP=3\u00d78=24. T=24/5=4.8 hours"
+      }
+    ],
+    "common_mistakes": [
+      "Using the direct proportion formula (y=kx) instead of y=k/x",
+      "Assuming any decreasing relationship is inverse proportion (must check the product xy stays constant)"
+    ],
+    "tips": [
+      "For inverse proportion, always check that x\u00d7y gives the same constant for every pair of values before trusting the relationship."
+    ],
+    "summary": "Inverse proportion means y = k/x for a constant k; as one quantity increases, the other decreases so their product stays fixed.",
+    "quick_revision_notes": [
+      "y = k/x",
+      "k = xy = constant",
+      "Curved graph (hyperbola)"
+    ],
+    "related_prerequisite_topics": [
+      "Direct Proportion",
+      "Proportionality Constants"
+    ],
+    "images": []
+  },
+  {
+    "id": 84,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Joint Proportion",
+    "explanation": "Joint proportion (also called combined proportion) describes a relationship where one quantity depends on two or more other quantities at once, each varying directly or inversely. For example, the volume of a cylinder is jointly proportional to the square of its radius and its height.",
+    "key_concepts": [
+      "A quantity can be jointly (directly) proportional to two or more variables: z = kxy",
+      "It can combine direct and inverse relationships, e.g. z = kx/y",
+      "Find k using one complete set of known values, then use it to solve for unknowns",
+      "Common in physics and geometry formulas (e.g. force, volume)"
+    ],
+    "definitions": [
+      {
+        "term": "Joint Proportion",
+        "definition": "A relationship where a quantity varies proportionally (directly or inversely) with two or more other quantities simultaneously."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Joint proportion (example)",
+        "formula": "z = kxy or z = kx/y",
+        "notes": "Depends on whether each variable relationship is direct or inverse"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "z is jointly proportional to x and y. When x=2 and y=5, z=20. Find z when x=4 and y=3.",
+        "solution_steps": [
+          "z = kxy",
+          "Find k: 20 = k\u00d72\u00d75 = 10k, so k=2",
+          "z = 2xy",
+          "When x=4,y=3: z = 2\u00d74\u00d73"
+        ],
+        "answer": "z = 24"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "z is jointly proportional to x and y\u00b2. When x=3 and y=2, z=36. Find z when x=5 and y=3.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "The force F is jointly proportional to mass m and acceleration a. If F=20 when m=4 and a=5, find F when m=6 and a=3.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "z=135 (k=3, z=3\u00d75\u00d79)",
+      "F=18 (k=1, F=6\u00d73)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The volume V of a cone is jointly proportional to the square of its radius r and its height h. If V=150.8 when r=4 and h=9, find V when r=5 and h=6 (to 1 decimal place).",
+        "marks": 4,
+        "answer": "k=V/(r\u00b2h)=150.8/(16\u00d79)=150.8/144\u22481.047. V=1.047\u00d725\u00d76\u2248157.1"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to square or cube a variable if the proportion involves powers (e.g. y\u00b2 not y)",
+      "Using the wrong combination of direct/inverse relationships"
+    ],
+    "tips": [
+      "Carefully identify whether each variable is directly or inversely related, and whether any variable is raised to a power, before setting up the equation."
+    ],
+    "summary": "Joint proportion involves a quantity varying proportionally with two or more variables at once, combining direct and/or inverse relationships.",
+    "quick_revision_notes": [
+      "z=kxy (joint direct)",
+      "z=kx/y (mixed direct/inverse)",
+      "Find k from known values first"
+    ],
+    "related_prerequisite_topics": [
+      "Direct Proportion",
+      "Inverse Proportion",
+      "Proportionality Constants"
+    ],
+    "images": []
+  },
+  {
+    "id": 85,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Proportionality Constants",
+    "explanation": "The constant of proportionality (usually denoted k) is the fixed number that relates two proportional quantities. In direct proportion (y=kx), k is the ratio y/x; in inverse proportion (y=k/x), k is the product xy. Finding k from known information is always the first step in solving any proportionality problem.",
+    "key_concepts": [
+      "k is found from ONE known pair of values before solving for an unknown",
+      "Direct proportion: k = y/x (constant ratio)",
+      "Inverse proportion: k = xy (constant product)",
+      "Once k is known, the relationship becomes a complete formula for any x or y"
+    ],
+    "definitions": [
+      {
+        "term": "Constant of Proportionality (k)",
+        "definition": "The fixed numerical value that relates two proportional quantities in equations like y=kx or y=k/x."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Direct proportion constant",
+        "formula": "k = y/x",
+        "notes": ""
+      },
+      {
+        "name": "Inverse proportion constant",
+        "formula": "k = xy",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "y is directly proportional to x\u00b3. When x=2, y=32. Find the constant of proportionality and the formula for y.",
+        "solution_steps": [
+          "y = kx\u00b3",
+          "32 = k \u00d7 2\u00b3 = 8k",
+          "k = 4"
+        ],
+        "answer": "k=4, so y = 4x\u00b3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "y is directly proportional to x\u00b2. When x=3, y=45. Find k.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "y is inversely proportional to x. When x=8, y=3. Find k.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "k=5 (45=k\u00d79)",
+      "k=24 (3=k/8, k=24)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "P is directly proportional to the square root of Q. When Q=16, P=20. Find the constant of proportionality, and hence find P when Q=25.",
+        "marks": 3,
+        "answer": "P=k\u221aQ. 20=k\u00d74, so k=5. When Q=25: P=5\u00d75=25"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to account for powers or roots when calculating k",
+      "Mixing up which formula (y/x vs xy) applies to direct vs inverse proportion"
+    ],
+    "tips": [
+      "Once you've correctly found k using a known pair of values, the rest of the problem is just substitution."
+    ],
+    "summary": "The constant of proportionality k links two proportional quantities and must be found first from known values before solving further.",
+    "quick_revision_notes": [
+      "Direct: k=y/x",
+      "Inverse: k=xy",
+      "Always solve for k first"
+    ],
+    "related_prerequisite_topics": [
+      "Direct Proportion",
+      "Inverse Proportion",
+      "Joint Proportion"
+    ],
+    "images": []
+  },
+  {
+    "id": 86,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Rates",
+    "explanation": "A rate is a comparison between two quantities measured in different units, such as speed (km per hour) or price (dollars per kilogram). Unlike a ratio, a rate always has units attached, since it compares different types of quantities.",
+    "key_concepts": [
+      "A rate compares two quantities with DIFFERENT units",
+      "Rates are usually expressed 'per' unit of the second quantity (e.g. km per hour)",
+      "Common rates: speed, price per item, flow rate, pay rate",
+      "Unlike ratios, rates keep their units in calculations"
+    ],
+    "definitions": [
+      {
+        "term": "Rate",
+        "definition": "A comparison of two quantities measured in different units, typically expressed as an amount 'per' unit of the other quantity."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A car travels 240 km in 3 hours. Find its rate of travel (speed) in km/h.",
+        "solution_steps": [
+          "Speed = distance \u00f7 time = 240 \u00f7 3"
+        ],
+        "answer": "80 km/h"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A tap fills a 60-litre tank in 5 minutes. Find the rate in litres per minute.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A factory produces 450 items in 6 hours. Find the production rate per hour.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "12 litres/minute",
+      "75 items/hour"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A printer prints 900 pages in 15 minutes. Find its printing rate in pages per second.",
+        "marks": 2,
+        "answer": "900 pages \u00f7 (15\u00d760 seconds) = 900\u00f7900 = 1 page/second"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to include units in the final answer",
+      "Confusing rates (different units) with ratios (same units)"
+    ],
+    "tips": [
+      "Always double-check which quantity is 'per' the other \u2014 the wording of the question tells you which value goes on top of the rate."
+    ],
+    "summary": "A rate compares two quantities with different units, typically expressed as an amount 'per' unit, such as speed or price.",
+    "quick_revision_notes": [
+      "Rate = quantity \u00f7 quantity (different units)",
+      "Keep units in the answer"
+    ],
+    "related_prerequisite_topics": [
+      "Ratios",
+      "Unit Rates",
+      "Dividing Fractions"
+    ],
+    "images": []
+  },
+  {
+    "id": 87,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Unit Rates",
+    "explanation": "A unit rate expresses a rate with a denominator of exactly 1, such as '$4 per kg' or '60 km per hour'. Unit rates make it easy to compare different options, since everything is scaled down to a single, common unit.",
+    "key_concepts": [
+      "A unit rate has a denominator of 1 (e.g. 'per 1 item', 'per 1 hour')",
+      "Found by dividing the first quantity by the second",
+      "Useful for comparing prices/values across different package sizes (best buys)",
+      "'Miles per hour', 'price per unit', 'beats per minute' are all unit rates"
+    ],
+    "definitions": [
+      {
+        "term": "Unit Rate",
+        "definition": "A rate expressed per single unit of the second quantity, e.g. cost per 1 kg or distance per 1 hour."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Unit rate",
+        "formula": "Unit rate = Total quantity \u00f7 Number of units",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A 5 kg bag of rice costs $12.50. Find the unit rate (price per kg).",
+        "solution_steps": [
+          "Unit rate = 12.50 \u00f7 5"
+        ],
+        "answer": "$2.50 per kg"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A 8-pack of juice boxes costs $6.40. Find the price per box.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A car uses 45 litres of fuel to travel 540 km. Find the fuel consumption rate in km per litre.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "$0.80 per box",
+      "12 km per litre"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A runner covers 15 km in 1 hour 15 minutes. Find their unit rate of speed in km per hour.",
+        "marks": 2,
+        "answer": "1 hour 15 min = 1.25 hours. Unit rate = 15 \u00f7 1.25 = 12 km/h"
+      }
+    ],
+    "common_mistakes": [
+      "Dividing in the wrong direction (should divide the total by the number of units, not vice versa)",
+      "Forgetting to convert mixed time units (like hours and minutes) into a single unit before dividing"
+    ],
+    "tips": [
+      "Unit rates are the best way to compare 'best buys' or performance \u2014 always scale everything down to '1 unit' first."
+    ],
+    "summary": "A unit rate shows the amount of one quantity per single unit of another, found by dividing total quantity by number of units.",
+    "quick_revision_notes": [
+      "Unit rate = Total \u00f7 Units",
+      "Used for comparisons (best buys, speed, etc.)"
+    ],
+    "related_prerequisite_topics": [
+      "Rates",
+      "Best Buys"
+    ],
+    "images": []
+  },
+  {
+    "id": 88,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Average Speed",
+    "explanation": "Average speed is the total distance travelled divided by the total time taken, giving a single overall rate even if the actual speed varied throughout the journey. It should not be confused with the average of individual speeds, especially when time spent at each speed differs.",
+    "key_concepts": [
+      "Average speed = Total distance \u00f7 Total time",
+      "This is NOT the same as averaging several different speed values directly, unless time spent at each speed is equal",
+      "Units must be consistent (e.g. convert minutes to hours if speed is in km/h)",
+      "Speed, distance, and time relationships form the foundation of many rate problems"
+    ],
+    "definitions": [
+      {
+        "term": "Average Speed",
+        "definition": "The total distance travelled divided by the total time taken for a journey."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Average speed",
+        "formula": "Average Speed = Total Distance / Total Time",
+        "notes": ""
+      },
+      {
+        "name": "Speed-Distance-Time triangle",
+        "formula": "Speed = Distance/Time, Distance = Speed\u00d7Time, Time = Distance/Speed",
+        "notes": "Rearrangements of the same relationship"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A car travels 150 km in 2 hours, then 100 km in 1.5 hours. Find its average speed for the whole journey.",
+        "solution_steps": [
+          "Total distance = 150+100 = 250 km",
+          "Total time = 2+1.5 = 3.5 hours",
+          "Average speed = 250 \u00f7 3.5"
+        ],
+        "answer": "\u224871.4 km/h"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A cyclist rides 60 km in 4 hours. Find their average speed.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A train travels 80 km at 40 km/h, then 60 km at 60 km/h. Find its average speed for the whole trip.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "15 km/h",
+      "\u224846.67 km/h (total distance 140km, total time=2+1=3 hours, 140/3\u224846.67)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A journey of 180 km takes 3 hours for the first half of the distance and 2 hours for the second half. Find the average speed for the entire journey.",
+        "marks": 3,
+        "answer": "Total distance=180. Total time=3+2=5 hours. Average speed=180/5=36 km/h."
+      }
+    ],
+    "common_mistakes": [
+      "Simply averaging the speed values (e.g. (40+60)/2=50) instead of using total distance \u00f7 total time",
+      "Forgetting to convert time units consistently"
+    ],
+    "tips": [
+      "Whenever a journey has multiple stages, always find the TOTAL distance and TOTAL time separately before dividing \u2014 never average the speeds directly."
+    ],
+    "summary": "Average speed is total distance divided by total time for an entire journey, not a simple average of individual speeds.",
+    "quick_revision_notes": [
+      "Average Speed = Total Distance/Total Time",
+      "Never average speeds directly unless times are equal"
+    ],
+    "related_prerequisite_topics": [
+      "Rates",
+      "Unit Rates",
+      "Distance-Time Problems"
+    ],
+    "images": []
+  },
+  {
+    "id": 89,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Distance-Time Problems",
+    "explanation": "Distance-time problems use the relationship between speed, distance, and time to solve real-world scenarios, such as journeys, meetings, and overtaking. These problems can also be represented visually with distance-time graphs, where the gradient of the graph at any point represents the speed.",
+    "key_concepts": [
+      "Speed = Distance \u00f7 Time (and its rearrangements)",
+      "On a distance-time graph, the gradient represents speed",
+      "A horizontal (flat) section of the graph means the object is stationary",
+      "A steeper gradient means a faster speed"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Speed-distance-time",
+        "formula": "Speed = Distance/Time",
+        "notes": "Rearrange for Distance = Speed\u00d7Time or Time = Distance/Speed"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Two friends start 100 km apart and travel toward each other, one at 40 km/h and the other at 60 km/h. How long until they meet?",
+        "solution_steps": [
+          "Combined speed = 40+60 = 100 km/h",
+          "Time to close the 100 km gap = 100 \u00f7 100"
+        ],
+        "answer": "1 hour"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A car travels at 90 km/h for 2.5 hours. Find the distance travelled.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Two cyclists start 45 km apart, cycling toward each other at 20 km/h and 25 km/h. Find how long until they meet.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "225 km",
+      "1 hour (45\u00f745)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A distance-time graph shows a car stationary for the first hour, then travelling 120 km over the next 2 hours. Find the car's speed during the moving section, and describe the shape of the graph during the first hour.",
+        "marks": 3,
+        "answer": "Speed = 120\u00f72 = 60 km/h during the moving section. During the first hour, the graph is a flat (horizontal) line, since the car is stationary."
+      }
+    ],
+    "common_mistakes": [
+      "Misreading the gradient of a distance-time graph as distance rather than speed",
+      "Forgetting to add speeds together for 'moving toward each other' problems"
+    ],
+    "tips": [
+      "For 'moving toward each other' problems, add the two speeds together; for 'catching up' problems, subtract the slower speed from the faster one."
+    ],
+    "summary": "Distance-time problems apply the speed-distance-time relationship to journeys, meetings, and graph interpretation.",
+    "quick_revision_notes": [
+      "Gradient of distance-time graph = speed",
+      "Flat section = stationary",
+      "Add speeds for 'toward each other', subtract for 'catching up'"
+    ],
+    "related_prerequisite_topics": [
+      "Average Speed",
+      "Rates",
+      "Gradient"
+    ],
+    "images": [
+      {
+        "filename": "distancetimeproblems-89-graph.svg",
+        "type": "graph",
+        "description": "A distance-time graph showing a journey with a rising section, a flat (stationary) section, and another rising section.",
+        "purpose": "Shows how gradient represents speed and a flat section represents no movement.",
+        "placement": "After the Key Concepts section"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Speed-Time Graphs",
+    "explanation": "A speed-time graph shows how an object's speed changes over time. The gradient of a speed-time graph represents acceleration, and the area under the graph represents the total distance travelled. These graphs are essential for analyzing motion in physics and advanced maths.",
+    "key_concepts": [
+      "The gradient of a speed-time graph = acceleration",
+      "The area under a speed-time graph = distance travelled",
+      "A horizontal line means constant speed (zero acceleration)",
+      "A line sloping down to the speed axis indicates deceleration"
+    ],
+    "definitions": [
+      {
+        "term": "Acceleration",
+        "definition": "The rate of change of speed with respect to time, represented by the gradient of a speed-time graph."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Acceleration",
+        "formula": "Acceleration = Change in speed / Time taken",
+        "notes": "Gradient of the speed-time graph"
+      },
+      {
+        "name": "Distance from speed-time graph",
+        "formula": "Distance = Area under the graph",
+        "notes": "Often split into triangles/trapeziums/rectangles"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A speed-time graph shows speed increasing from 0 to 10 m/s over 2 seconds, staying constant at 10 m/s for 3 seconds, then decreasing back to 0 over 2 seconds. Find the total distance travelled.",
+        "solution_steps": [
+          "First section (triangle): area = 1/2 \u00d7 2 \u00d7 10 = 10",
+          "Second section (rectangle): area = 3 \u00d7 10 = 30",
+          "Third section (triangle): area = 1/2 \u00d7 2 \u00d7 10 = 10",
+          "Total distance = 10+30+10"
+        ],
+        "answer": "50 metres"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A speed-time graph shows constant acceleration from 0 to 20 m/s over 5 seconds. Find the acceleration.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Using the same graph, find the distance travelled during those 5 seconds.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "4 m/s\u00b2 (20\u00f75)",
+      "50 metres (area of triangle = 1/2\u00d75\u00d720)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A car accelerates from rest to 15 m/s in 3 seconds, travels at 15 m/s for 10 seconds, then decelerates to rest in 5 seconds. Sketch the shape of the graph and find the total distance travelled.",
+        "marks": 4,
+        "answer": "Shape: rising line, flat line, falling line (a trapezium overall). Distance = 1/2\u00d73\u00d715 + 10\u00d715 + 1/2\u00d75\u00d715 = 22.5+150+37.5 = 210 metres"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing speed-time graphs with distance-time graphs (gradient means different things on each)",
+      "Forgetting that area under the graph \u2014 not the gradient \u2014 gives distance"
+    ],
+    "tips": [
+      "Break the area under a speed-time graph into simple shapes (triangles, rectangles, trapeziums) and add their areas together."
+    ],
+    "summary": "On a speed-time graph, gradient = acceleration and area under the graph = distance travelled.",
+    "quick_revision_notes": [
+      "Gradient = acceleration",
+      "Area under graph = distance",
+      "Split into triangles/rectangles/trapeziums to find area"
+    ],
+    "related_prerequisite_topics": [
+      "Distance-Time Problems",
+      "Gradient",
+      "Area of Trapeziums"
+    ],
+    "images": [
+      {
+        "filename": "speedtimegraphs-90-graph.svg",
+        "type": "graph",
+        "description": "A speed-time graph rising to a constant speed, staying flat, then falling back to zero, with the area beneath shaded.",
+        "purpose": "Shows that the shaded area under a speed-time graph represents the distance travelled.",
+        "placement": "After the Key Concepts section"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Work Rates",
+    "explanation": "Work rate problems involve figuring out how long a task takes when multiple people or machines work together, based on their individual rates of work. The key idea is that individual work rates (task per unit time) can be added together when working simultaneously.",
+    "key_concepts": [
+      "Work rate = 1 job \u00f7 time taken to complete it alone",
+      "Combined work rate = sum of individual work rates",
+      "Time to complete together = 1 \u00f7 combined work rate",
+      "Assumes constant, uninterrupted work rates for each person/machine"
+    ],
+    "definitions": [
+      {
+        "term": "Work Rate",
+        "definition": "The fraction of a task completed per unit of time by a person or machine working alone."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Combined work rate",
+        "formula": "1/T_combined = 1/T_A + 1/T_B",
+        "notes": "T = time taken to complete the whole job alone"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Pipe A can fill a tank in 6 hours; Pipe B can fill it in 4 hours. How long would it take to fill the tank with both pipes working together?",
+        "solution_steps": [
+          "Rate of A = 1/6 tank per hour",
+          "Rate of B = 1/4 tank per hour",
+          "Combined rate = 1/6 + 1/4 = 2/12 + 3/12 = 5/12 tank per hour",
+          "Time = 1 \u00f7 (5/12) = 12/5"
+        ],
+        "answer": "2.4 hours"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Worker A can finish a job in 8 hours, Worker B in 12 hours. How long will it take them working together?",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Two taps fill a pool in 10 hours and 15 hours respectively. Find the combined filling time.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "4.8 hours (1/8+1/12=5/24, time=24/5)",
+      "6 hours (1/10+1/15=1/6, time=6)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Machine A alone takes 5 hours to complete a job. Working together, Machines A and B complete the job in 2 hours. Find how long Machine B would take working alone.",
+        "marks": 4,
+        "answer": "1/5 + 1/B = 1/2. 1/B = 1/2 - 1/5 = 5/10-2/10=3/10. B = 10/3 \u2248 3.33 hours"
+      }
+    ],
+    "common_mistakes": [
+      "Adding the TIMES together instead of the RATES (times cannot simply be added)",
+      "Forgetting to take the reciprocal at the end to convert the combined rate back into a time"
+    ],
+    "tips": [
+      "Always work in terms of 'job per hour' rates, not hours \u2014 rates add together correctly, but raw times do not."
+    ],
+    "summary": "Work rate problems combine individual rates (jobs per unit time) to find how long tasks take when working together.",
+    "quick_revision_notes": [
+      "1/T_combined = 1/T_A + 1/T_B + ...",
+      "Work in rates, not times, then convert back at the end"
+    ],
+    "related_prerequisite_topics": [
+      "Rates",
+      "Adding Fractions",
+      "Inverse Proportion"
+    ],
+    "images": []
+  },
+  {
+    "id": 92,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Currency Exchange",
+    "explanation": "Currency exchange involves converting an amount of money from one currency to another using an exchange rate \u2014 the value of one currency expressed in terms of another. Exchange rate problems are solved using the same techniques as unit rates and direct proportion.",
+    "key_concepts": [
+      "An exchange rate expresses how much of one currency equals one unit of another",
+      "To convert from currency A to currency B, multiply by the exchange rate (B per A)",
+      "To convert back, divide by the same rate (or multiply by its reciprocal)",
+      "Exchange rates fluctuate over time based on economic factors"
+    ],
+    "definitions": [
+      {
+        "term": "Exchange Rate",
+        "definition": "The value of one currency expressed in terms of another, e.g. 1 USD = 0.85 GBP."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Currency conversion",
+        "formula": "Amount in B = Amount in A \u00d7 (exchange rate, B per A)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "The exchange rate is 1 USD = 0.92 EUR. Convert $250 to euros.",
+        "solution_steps": [
+          "Multiply by the exchange rate: 250 \u00d7 0.92"
+        ],
+        "answer": "\u20ac230"
+      },
+      {
+        "problem": "Using the same rate (1 USD = 0.92 EUR), convert \u20ac138 back to USD.",
+        "solution_steps": [
+          "Divide by the exchange rate: 138 \u00f7 0.92"
+        ],
+        "answer": "$150"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "If 1 USD = 1.35 AUD, convert $80 USD to AUD.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "If 1 GBP = 1.27 USD, convert $200 USD to GBP.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "$108 AUD",
+      "\u00a3157.48 (200\u00f71.27, rounded to 2 dp)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A traveller exchanges $600 USD to GBP at a rate of 1 USD = 0.79 GBP, and later exchanges the leftover \u00a3150 back to USD at the same rate. Find how much USD they receive back.",
+        "marks": 3,
+        "answer": "$600 \u2192 \u00a3474. Converting \u00a3150 back: 150\u00f70.79 \u2248 $189.87"
+      }
+    ],
+    "common_mistakes": [
+      "Multiplying when division was needed (or vice versa) depending on the direction of conversion",
+      "Using an outdated or inverted exchange rate"
+    ],
+    "tips": [
+      "Always check which direction the exchange rate is quoted in \u2014 'X per Y' means multiply an amount of Y to get X."
+    ],
+    "summary": "Currency exchange converts money between currencies using an exchange rate, applying direct proportion techniques.",
+    "quick_revision_notes": [
+      "Amount in B = Amount in A \u00d7 rate (B per A)",
+      "Reverse: divide by the rate"
+    ],
+    "related_prerequisite_topics": [
+      "Direct Proportion",
+      "Unit Rates"
+    ],
+    "images": []
+  },
+  {
+    "id": 93,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Scale Factors",
+    "explanation": "A scale factor describes how much a shape or quantity is enlarged or reduced compared to its original size. A scale factor greater than 1 enlarges, between 0 and 1 reduces, and negative scale factors (in transformations) also invert direction. Scale factors are used in maps, models, blueprints, and geometric enlargements.",
+    "key_concepts": [
+      "Scale factor = new length \u00f7 original length",
+      "Scale factor > 1: enlargement (bigger)",
+      "0 < Scale factor < 1: reduction (smaller)",
+      "Area scale factor = (linear scale factor)\u00b2; Volume scale factor = (linear scale factor)\u00b3"
+    ],
+    "definitions": [
+      {
+        "term": "Scale Factor",
+        "definition": "The ratio by which a shape or quantity's linear dimensions are enlarged or reduced."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Linear scale factor",
+        "formula": "k = new length / original length",
+        "notes": ""
+      },
+      {
+        "name": "Area scale factor",
+        "formula": "k\u00b2",
+        "notes": "Applies to area when linear dimensions scale by k"
+      },
+      {
+        "name": "Volume scale factor",
+        "formula": "k\u00b3",
+        "notes": "Applies to volume when linear dimensions scale by k"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A model car is built with a scale factor of 1/20 compared to the real car, which is 4.5 m long. Find the model's length.",
+        "solution_steps": [
+          "Model length = 4.5 \u00d7 (1/20)"
+        ],
+        "answer": "0.225 m (22.5 cm)"
+      },
+      {
+        "problem": "A shape is enlarged by scale factor 3. If its original area was 8 cm\u00b2, find the new area.",
+        "solution_steps": [
+          "Area scale factor = 3\u00b2 = 9",
+          "New area = 8 \u00d7 9"
+        ],
+        "answer": "72 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A photo is enlarged by scale factor 2.5. If the original width was 6 cm, find the new width.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A cube has volume 27 cm\u00b3. If it is enlarged with a linear scale factor of 2, find the new volume.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "15 cm",
+      "216 cm\u00b3 (27\u00d72\u00b3=27\u00d78)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Two similar shapes have areas 18 cm\u00b2 and 50 cm\u00b2. Find the linear scale factor between them.",
+        "marks": 3,
+        "answer": "Area scale factor = 50/18 = 25/9. Linear scale factor = \u221a(25/9) = 5/3"
+      }
+    ],
+    "common_mistakes": [
+      "Applying the linear scale factor directly to area or volume without squaring/cubing it",
+      "Confusing which shape is the 'original' and which is the 'new' one when dividing"
+    ],
+    "tips": [
+      "Remember the pattern: length uses k\u00b9, area uses k\u00b2, volume uses k\u00b3."
+    ],
+    "summary": "A scale factor describes the ratio of enlargement or reduction; it applies directly to lengths but must be squared for area and cubed for volume.",
+    "quick_revision_notes": [
+      "k = new/original (length)",
+      "Area factor = k\u00b2",
+      "Volume factor = k\u00b3"
+    ],
+    "related_prerequisite_topics": [
+      "Ratios",
+      "Similar Triangles",
+      "Enlargement"
+    ],
+    "images": []
+  },
+  {
+    "id": 94,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Scale Drawings",
+    "explanation": "A scale drawing is a diagram representing a real object at a reduced or enlarged size, while maintaining accurate proportions. Every measurement in a scale drawing relates to the real object via a consistent scale ratio, such as 1:100 (1 cm on the drawing represents 100 cm in reality).",
+    "key_concepts": [
+      "A scale drawing preserves proportions, just at a different overall size",
+      "The scale (e.g. 1:50) tells you how drawing measurements relate to real measurements",
+      "To find a real measurement: multiply the drawing measurement by the scale factor",
+      "To find a drawing measurement: divide the real measurement by the scale factor"
+    ],
+    "definitions": [
+      {
+        "term": "Scale Drawing",
+        "definition": "An accurate, proportional representation of a real object, drawn larger or smaller according to a fixed scale."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Scale drawing conversion",
+        "formula": "Real length = Drawing length \u00d7 scale factor",
+        "notes": "Scale factor derived from the stated scale, e.g. 1:50 \u2192 factor of 50"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A scale drawing has a scale of 1:200. If a wall measures 3.5 cm on the drawing, find its real length in metres.",
+        "solution_steps": [
+          "Real length (cm) = 3.5 \u00d7 200 = 700 cm",
+          "Convert to metres: 700 \u00f7 100"
+        ],
+        "answer": "7 m"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A scale drawing uses a scale of 1:50. A door measures 1.8 cm on the drawing. Find its real length in cm.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A real garden is 12 m wide. Using a scale of 1:300, find the width on the scale drawing in cm.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "90 cm",
+      "4 cm (1200cm \u00f7 300)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A floor plan uses a scale of 1:75. A room appears as a rectangle 8 cm by 5 cm on the plan. Find the real area of the room in m\u00b2.",
+        "marks": 4,
+        "answer": "Real length=8\u00d775=600cm=6m. Real width=5\u00d775=375cm=3.75m. Area=6\u00d73.75=22.5 m\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to convert units (cm to m) at the end",
+      "Multiplying instead of dividing (or vice versa) when going from real to drawing measurements"
+    ],
+    "tips": [
+      "Always double check whether you're going from drawing\u2192real (multiply) or real\u2192drawing (divide) before starting the calculation."
+    ],
+    "summary": "Scale drawings represent real objects proportionally; converting between drawing and real measurements uses the stated scale factor.",
+    "quick_revision_notes": [
+      "Real = Drawing \u00d7 scale factor",
+      "Drawing = Real \u00f7 scale factor"
+    ],
+    "related_prerequisite_topics": [
+      "Scale Factors",
+      "Ratios",
+      "Maps and Scale"
+    ],
+    "images": []
+  },
+  {
+    "id": 95,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Maps and Scale",
+    "explanation": "Map scales work exactly like scale drawings, showing the relationship between distances on a map and real-world distances. Map scales are often given as a ratio (e.g. 1:25,000) or as a stated equivalence (e.g. 1 cm represents 5 km), and are used to calculate real distances, areas, and travel times.",
+    "key_concepts": [
+      "Map scale relates map distance to real distance, e.g. 1:50,000",
+      "Real distance = Map distance \u00d7 scale factor (with consistent units)",
+      "Map scales can also relate to real-world areas using the square of the scale factor",
+      "Always convert to consistent units (cm, m, km) before or after applying the scale"
+    ],
+    "definitions": [
+      {
+        "term": "Map Scale",
+        "definition": "A ratio or statement describing how distances on a map relate to real-world distances."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Map distance conversion",
+        "formula": "Real distance = Map distance \u00d7 scale factor",
+        "notes": "Ensure consistent units before converting"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A map has a scale of 1:100,000. Two towns are 6.5 cm apart on the map. Find the real distance in km.",
+        "solution_steps": [
+          "Real distance (cm) = 6.5 \u00d7 100,000 = 650,000 cm",
+          "Convert to km: 650,000 cm = 6,500 m = 6.5 km"
+        ],
+        "answer": "6.5 km"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A map scale is 1:25,000. Find the real distance (in km) represented by 4 cm on the map.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Two cities are 180 km apart. On a map with scale 1:2,000,000, find the distance between them on the map in cm.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "1 km",
+      "9 cm (18,000,000cm \u00f7 2,000,000)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A map has a scale of 1:50,000. A national park appears as a rectangle 4 cm by 3 cm on the map. Find its real area in km\u00b2.",
+        "marks": 4,
+        "answer": "Real length=4\u00d750,000=200,000cm=2km. Real width=3\u00d750,000=150,000cm=1.5km. Area=2\u00d71.5=3 km\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to convert cm to km (dividing by 100,000 rather than just 1,000 for m\u2192km, or missing a unit conversion step entirely)",
+      "Applying the scale factor directly to area without squaring it"
+    ],
+    "tips": [
+      "Work in centimetres first when applying the scale factor, then convert the final answer to metres or kilometres."
+    ],
+    "summary": "Map scales relate map distances to real-world distances using a fixed ratio, following the same principles as scale drawings.",
+    "quick_revision_notes": [
+      "Real distance = Map distance \u00d7 scale factor",
+      "Convert units carefully",
+      "Area uses (scale factor)\u00b2"
+    ],
+    "related_prerequisite_topics": [
+      "Scale Drawings",
+      "Scale Factors"
+    ],
+    "images": []
+  },
+  {
+    "id": 96,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Recipes and Proportion",
+    "explanation": "Recipe problems apply direct proportion to scale ingredient quantities up or down depending on how many servings are needed. If a recipe is designed for a certain number of people, all ingredient amounts must be scaled by the same factor to serve a different number of people.",
+    "key_concepts": [
+      "Scale factor = new number of servings \u00f7 original number of servings",
+      "Multiply every ingredient amount by the same scale factor",
+      "This is a direct application of direct proportion",
+      "Real-world recipe scaling often requires rounding sensibly (e.g. 'a pinch' of salt cannot be precisely scaled)"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Recipe scaling",
+        "formula": "New amount = Original amount \u00d7 (new servings / original servings)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A recipe for 4 people uses 300g of pasta. Find the amount needed for 10 people.",
+        "solution_steps": [
+          "Scale factor = 10/4 = 2.5",
+          "New amount = 300 \u00d7 2.5"
+        ],
+        "answer": "750g"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A recipe for 6 people uses 2 cups of flour. Find the amount needed for 9 people.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A recipe for 8 people uses 500g of chicken. Find the amount needed for 3 people.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "3 cups (2\u00d71.5)",
+      "187.5g (500\u00d73/8)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A cake recipe for 12 people requires 3 eggs, 240g sugar, and 360g flour. Find the amounts needed to make the cake for 20 people.",
+        "marks": 3,
+        "answer": "Scale factor = 20/12 = 5/3. Eggs=3\u00d75/3=5. Sugar=240\u00d75/3=400g. Flour=360\u00d75/3=600g"
+      }
+    ],
+    "common_mistakes": [
+      "Scaling only some ingredients and not others",
+      "Rounding scale factors too early, causing inaccurate final amounts"
+    ],
+    "tips": [
+      "Find the scale factor as a fraction first (new servings/original servings) to keep calculations exact before rounding any final answers."
+    ],
+    "summary": "Recipe scaling applies direct proportion: multiply every ingredient by the ratio of new servings to original servings.",
+    "quick_revision_notes": [
+      "Scale factor = new servings/original servings",
+      "Apply to every ingredient equally"
+    ],
+    "related_prerequisite_topics": [
+      "Direct Proportion",
+      "Ratios"
+    ],
+    "images": []
+  },
+  {
+    "id": 97,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Best Buys",
+    "explanation": "'Best buy' problems compare the value for money of different package sizes or deals by calculating the unit price (price per single unit of measurement) for each option. The option with the lowest unit price offers the best value.",
+    "key_concepts": [
+      "Unit price = Total price \u00f7 Total quantity",
+      "Compare unit prices across all options \u2014 the smallest unit price is the best value",
+      "Ensure quantities are in the same units before comparing",
+      "Larger packages aren't always better value \u2014 always calculate, don't assume"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Unit price",
+        "formula": "Unit price = Total price / Total quantity",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A 400g box of cereal costs $3.60, and a 650g box costs $5.85. Which is the better buy?",
+        "solution_steps": [
+          "Unit price (small box) = 3.60/400 = $0.009/g",
+          "Unit price (large box) = 5.85/650 = $0.009/g",
+          "Both have the same unit price"
+        ],
+        "answer": "Both boxes offer equal value for money ($0.009 per gram)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A 2L bottle of juice costs $4.00, and a 3L bottle costs $5.70. Which is the better buy?",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A 12-pack of cans costs $6.00, and a 24-pack costs $11.52. Which is the better buy?",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "The 3L bottle ($1.90/L vs $2.00/L)",
+      "The 24-pack ($0.48/can vs $0.50/can)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Brand A sells 750g of rice for $4.50. Brand B sells 1.2kg of rice for $6.84. Determine which brand offers the better value per kg, showing full working.",
+        "marks": 3,
+        "answer": "Brand A: 4.50/0.75=$6.00/kg. Brand B: 6.84/1.2=$5.70/kg. Brand B offers better value."
+      }
+    ],
+    "common_mistakes": [
+      "Comparing total prices directly without accounting for different package sizes",
+      "Forgetting to convert units (like g to kg) so both unit prices are comparable"
+    ],
+    "tips": [
+      "Always convert all quantities to the SAME unit before calculating and comparing unit prices."
+    ],
+    "summary": "Best buy problems compare unit prices across different package options to determine which offers the best value for money.",
+    "quick_revision_notes": [
+      "Unit price = Total price \u00f7 Total quantity",
+      "Lower unit price = better value"
+    ],
+    "related_prerequisite_topics": [
+      "Unit Rates",
+      "Rates"
+    ],
+    "images": []
+  },
+  {
+    "id": 98,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Mixtures",
+    "explanation": "Mixture problems involve combining two or more substances (or solutions) in a given ratio or proportion, then finding a resulting quantity or concentration. These commonly appear in chemistry-style contexts and use both ratio and proportion techniques.",
+    "key_concepts": [
+      "The total amount of a mixture equals the sum of its component amounts",
+      "Concentration = amount of substance \u00f7 total amount of mixture",
+      "Ratio techniques apply directly to mixture composition",
+      "Mixing two solutions of different concentrations gives a weighted average concentration"
+    ],
+    "definitions": [
+      {
+        "term": "Concentration",
+        "definition": "The proportion of a specific substance within a mixture, often expressed as a fraction or percentage."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Concentration",
+        "formula": "Concentration = Amount of substance / Total amount of mixture",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A 500ml solution contains 100ml of acid, with the rest water. Find the concentration of acid as a percentage.",
+        "solution_steps": [
+          "Concentration = 100/500 = 0.2",
+          "As percentage: 0.2 \u00d7 100"
+        ],
+        "answer": "20%"
+      },
+      {
+        "problem": "2 litres of a 30% salt solution is mixed with 3 litres of a 50% salt solution. Find the concentration of the resulting mixture.",
+        "solution_steps": [
+          "Salt from solution 1: 2 \u00d7 0.30 = 0.6 litres",
+          "Salt from solution 2: 3 \u00d7 0.50 = 1.5 litres",
+          "Total salt = 0.6+1.5 = 2.1 litres",
+          "Total volume = 2+3 = 5 litres",
+          "Concentration = 2.1/5 = 0.42"
+        ],
+        "answer": "42%"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A 2 litre mixture contains 0.4 litres of juice concentrate. Find the concentration as a percentage.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "4 litres of a 20% solution is mixed with 6 litres of a 40% solution. Find the concentration of the mixture.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "20%",
+      "32% (0.8+2.4=3.2 litres of substance out of 10 litres total)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "How many litres of a 60% acid solution must be mixed with 4 litres of a 20% acid solution to produce a 40% acid solution?",
+        "marks": 5,
+        "answer": "Let x = litres of 60% solution. 0.6x + 0.2(4) = 0.4(x+4). 0.6x+0.8=0.4x+1.6. 0.2x=0.8. x=4 litres"
+      }
+    ],
+    "common_mistakes": [
+      "Averaging percentages directly instead of weighting by volume",
+      "Forgetting to add up total volumes correctly when finding the final concentration"
+    ],
+    "tips": [
+      "Always calculate the actual AMOUNT of substance in each part (not just the percentage) before combining and re-dividing by the new total."
+    ],
+    "summary": "Mixture problems combine substances in given ratios or concentrations, requiring careful tracking of amounts (not just percentages) before recombining.",
+    "quick_revision_notes": [
+      "Concentration = substance/total mixture",
+      "Weight by volume, don't just average percentages"
+    ],
+    "related_prerequisite_topics": [
+      "Ratios",
+      "Percentage Basics",
+      "Ratio and Percentages"
+    ],
+    "images": []
+  },
+  {
+    "id": 99,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Variation Problems",
+    "explanation": "Variation problems apply direct, inverse, or joint proportion to real-world word problems, requiring the solver to set up the correct proportional relationship, find the constant of proportionality, and then solve for an unknown quantity.",
+    "key_concepts": [
+      "Identify whether the relationship is direct, inverse, or joint from the wording of the problem",
+      "Set up the correct equation (y=kx, y=k/x, or z=kxy, etc.)",
+      "Use given values to find k",
+      "Substitute to find the required unknown"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "The cost of a party (C) varies directly with the number of guests (n). If a party for 15 guests costs $450, find the cost for 24 guests.",
+        "solution_steps": [
+          "C = kn",
+          "450 = k\u00d715, so k=30",
+          "C = 30\u00d724"
+        ],
+        "answer": "$720"
+      },
+      {
+        "problem": "The time (T) to travel a fixed distance varies inversely with speed (S). If T=4 hours when S=60 km/h, find T when S=80 km/h.",
+        "solution_steps": [
+          "T = k/S",
+          "4 = k/60, so k=240",
+          "T = 240/80"
+        ],
+        "answer": "3 hours"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "The area of a garden bed (A) varies directly with the amount of fertilizer used (F). If A=20 m\u00b2 when F=5 kg, find A when F=8 kg.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "The number of days (D) to complete a job varies inversely with the number of workers (W). If D=12 when W=4, find D when W=6.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "32 m\u00b2 (k=4, A=4\u00d78)",
+      "8 days (k=48, D=48/6)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The pressure (P) of a gas varies inversely with its volume (V) at constant temperature. If P=100 kPa when V=2 m\u00b3, find P when V=5 m\u00b3.",
+        "marks": 3,
+        "answer": "P=k/V. 100=k/2, so k=200. P=200/5=40 kPa"
+      }
+    ],
+    "common_mistakes": [
+      "Misidentifying whether a relationship is direct or inverse from the word problem",
+      "Forgetting to find k before attempting to solve for the unknown"
+    ],
+    "tips": [
+      "Look for keywords: 'varies directly/proportionally with' suggests y=kx; 'varies inversely with' suggests y=k/x."
+    ],
+    "summary": "Variation problems require identifying the correct type of proportional relationship (direct, inverse, or joint) and solving using the constant of proportionality.",
+    "quick_revision_notes": [
+      "Direct: y=kx",
+      "Inverse: y=k/x",
+      "Always find k first from given values"
+    ],
+    "related_prerequisite_topics": [
+      "Direct Proportion",
+      "Inverse Proportion",
+      "Joint Proportion",
+      "Proportionality Constants"
+    ],
+    "images": []
+  },
+  {
+    "id": 100,
+    "category": "Ratio, Proportion & Rates",
+    "topic": "Dimensional Analysis",
+    "explanation": "Dimensional analysis (also called unit analysis or the factor-label method) is a technique for converting between units by multiplying by conversion factors written as fractions equal to 1. Units are treated like algebraic quantities that can cancel out, ensuring the final answer has the correct units.",
+    "key_concepts": [
+      "A conversion factor is a fraction equal to 1, such as (1000 m)/(1 km)",
+      "Multiply by conversion factors so unwanted units cancel out, leaving the desired units",
+      "Chain multiple conversion factors together for multi-step unit conversions",
+      "Especially useful for converting rates (like km/h to m/s)"
+    ],
+    "definitions": [
+      {
+        "term": "Dimensional Analysis",
+        "definition": "A method for converting between units by multiplying by conversion factors so that units cancel algebraically, leaving the desired unit."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Convert 72 km/h to m/s using dimensional analysis.",
+        "solution_steps": [
+          "72 km/h \u00d7 (1000 m / 1 km) \u00d7 (1 h / 3600 s)",
+          "= 72 \u00d7 1000/3600 m/s",
+          "= 72000/3600"
+        ],
+        "answer": "20 m/s"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Convert 5 km to cm using dimensional analysis.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Convert 15 m/s to km/h using dimensional analysis.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "500,000 cm (5\u00d71000\u00d7100)",
+      "54 km/h (15\u00d73600/1000)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A runner's pace is 4 minutes per km. Convert this to a speed in m/s using dimensional analysis.",
+        "marks": 3,
+        "answer": "4 min/km = 240 s/km. Speed = 1000m / 240s \u2248 4.17 m/s"
+      }
+    ],
+    "common_mistakes": [
+      "Setting up conversion factors upside down (which unit cancels depends on which is on top/bottom)",
+      "Forgetting to chain multiple conversion factors for multi-step conversions"
+    ],
+    "tips": [
+      "Always write conversion factors so the unit you want to cancel is on the opposite side (top/bottom) from where it appears in your current expression."
+    ],
+    "summary": "Dimensional analysis converts between units by multiplying by conversion factors that algebraically cancel unwanted units.",
+    "quick_revision_notes": [
+      "Multiply by conversion factors (fractions = 1)",
+      "Units cancel like algebraic terms",
+      "Chain factors for multi-step conversions"
+    ],
+    "related_prerequisite_topics": [
+      "Rates",
+      "Unit Rates",
+      "Multiplying Fractions"
+    ],
+    "images": []
+  }
+]

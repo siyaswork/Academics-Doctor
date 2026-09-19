@@ -1,0 +1,2830 @@
+[
+  {
+    "id": 41,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Proper Fractions",
+    "explanation": "A proper fraction is a fraction where the numerator (top number) is smaller than the denominator (bottom number), representing a value less than 1. For example, 3/4 and 2/5 are proper fractions. Proper fractions represent 'part of a whole' where the part is less than the whole amount.",
+    "key_concepts": [
+      "Numerator < Denominator",
+      "Value is always between 0 and 1",
+      "Represents a part of a whole that is less than the entirety",
+      "Can be simplified if numerator and denominator share common factors"
+    ],
+    "definitions": [
+      {
+        "term": "Proper Fraction",
+        "definition": "A fraction in which the numerator is less than the denominator, so its value is less than 1."
+      },
+      {
+        "term": "Numerator",
+        "definition": "The top number of a fraction, representing how many parts are being considered."
+      },
+      {
+        "term": "Denominator",
+        "definition": "The bottom number of a fraction, representing how many equal parts the whole is divided into."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Identify which of these are proper fractions: 3/7, 9/4, 5/5, 2/9",
+        "solution_steps": [
+          "3/7: numerator (3) < denominator (7) \u2192 proper",
+          "9/4: numerator (9) > denominator (4) \u2192 not proper (improper)",
+          "5/5: numerator = denominator \u2192 not proper (equals 1)",
+          "2/9: numerator (2) < denominator (9) \u2192 proper"
+        ],
+        "answer": "3/7 and 2/9 are proper fractions"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is 7/8 a proper fraction?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Write three different proper fractions with denominator 12.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Yes, since 7 < 8.",
+      "e.g. 1/12, 5/12, 11/12 (any fraction with numerator 1-11)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why a proper fraction always has a value less than 1.",
+        "marks": 1,
+        "answer": "Because the numerator (the number of parts taken) is smaller than the denominator (the total number of equal parts), so you have less than a whole."
+      }
+    ],
+    "common_mistakes": [
+      "Thinking 5/5 or similar fractions where numerator=denominator are proper (they equal exactly 1, not less than 1)",
+      "Confusing proper and improper fractions"
+    ],
+    "tips": [
+      "Quick check: if the top number is smaller than the bottom number, it's a proper fraction \u2014 the value will always be less than 1."
+    ],
+    "summary": "A proper fraction has a numerator smaller than its denominator, giving a value strictly between 0 and 1.",
+    "quick_revision_notes": [
+      "Numerator < Denominator",
+      "Value between 0 and 1"
+    ],
+    "related_prerequisite_topics": [
+      "Improper Fractions",
+      "Equivalent Fractions",
+      "Simplifying Fractions"
+    ],
+    "images": [
+      {
+        "filename": "properfractions-41-circle.svg",
+        "type": "mathematical_visual",
+        "description": "A circle divided into equal parts (e.g. 4) with 3 shaded to represent 3/4 as a proper fraction.",
+        "purpose": "Shows 3/4 as a shaded portion of a circle, illustrating a proper fraction visually.",
+        "placement": "After the Explanation section, before Key Concepts"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Improper Fractions",
+    "explanation": "An improper fraction is a fraction where the numerator is greater than or equal to the denominator, representing a value of 1 or more. For example, 7/4 and 9/9 are improper fractions. Improper fractions can be converted into mixed numbers for easier interpretation.",
+    "key_concepts": [
+      "Numerator \u2265 Denominator",
+      "Value is 1 or greater",
+      "Can be converted to a mixed number (whole number + proper fraction)",
+      "Useful for calculations, even though mixed numbers are often preferred for final answers"
+    ],
+    "definitions": [
+      {
+        "term": "Improper Fraction",
+        "definition": "A fraction in which the numerator is greater than or equal to the denominator, so its value is 1 or more."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Convert 17/5 to a mixed number.",
+        "solution_steps": [
+          "Divide 17 by 5: 17 \u00f7 5 = 3 remainder 2",
+          "The whole number part is 3, the remainder becomes the new numerator over the same denominator"
+        ],
+        "answer": "3 2/5"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is 11/4 an improper fraction?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Convert 23/6 to a mixed number.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Yes, since 11 > 4.",
+      "3 5/6 (23 \u00f7 6 = 3 remainder 5)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Convert 5 3/8 to an improper fraction, showing your working.",
+        "marks": 2,
+        "answer": "5 \u00d7 8 = 40, plus the numerator 3 = 43. So 5 3/8 = 43/8."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to keep the same denominator when converting to/from mixed numbers",
+      "Sign or arithmetic errors in the division step"
+    ],
+    "tips": [
+      "To convert improper \u2192 mixed: divide numerator by denominator; the quotient is the whole number, the remainder is the new numerator."
+    ],
+    "summary": "An improper fraction has a numerator \u2265 denominator, representing a value of 1 or more; it can be converted to a mixed number.",
+    "quick_revision_notes": [
+      "Numerator \u2265 Denominator",
+      "Convert via division: quotient = whole part, remainder = new numerator"
+    ],
+    "related_prerequisite_topics": [
+      "Proper Fractions",
+      "Mixed Numbers"
+    ],
+    "images": []
+  },
+  {
+    "id": 43,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Mixed Numbers",
+    "explanation": "A mixed number combines a whole number and a proper fraction, such as 2 3/4. Mixed numbers are often the preferred way to express quantities greater than 1 in everyday contexts (like 2 1/2 cups of flour), while improper fractions are often more convenient for calculations.",
+    "key_concepts": [
+      "Mixed number = whole number + proper fraction",
+      "Can be converted to/from improper fractions",
+      "Useful for real-world quantities greater than 1",
+      "Must convert to improper fractions before multiplying or dividing"
+    ],
+    "definitions": [
+      {
+        "term": "Mixed Number",
+        "definition": "A number consisting of a whole number part and a proper fraction part, e.g. 3 1/2."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Mixed to improper",
+        "formula": "a b/c = (a\u00d7c + b)/c",
+        "notes": "a = whole number, b/c = fractional part"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Convert 4 2/3 to an improper fraction.",
+        "solution_steps": [
+          "Multiply whole number by denominator: 4 \u00d7 3 = 12",
+          "Add the numerator: 12 + 2 = 14",
+          "Keep the same denominator"
+        ],
+        "answer": "14/3"
+      },
+      {
+        "problem": "Add 2 1/4 + 1 1/2",
+        "solution_steps": [
+          "Convert both to improper fractions: 9/4 and 3/2",
+          "Common denominator: 4. Convert 3/2 to 6/4",
+          "Add: 9/4 + 6/4 = 15/4",
+          "Convert back to mixed number: 15 \u00f7 4 = 3 remainder 3"
+        ],
+        "answer": "3 3/4"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Convert 3 5/6 to an improper fraction.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Add 1 2/3 + 2 1/4.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "23/6",
+      "3 11/12"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A recipe needs 2 3/4 cups of flour, and you want to make 1.5 times the recipe. How much flour is needed? Give your answer as a mixed number.",
+        "marks": 3,
+        "answer": "2 3/4 \u00d7 3/2 = 11/4 \u00d7 3/2 = 33/8 = 4 1/8 cups"
+      }
+    ],
+    "common_mistakes": [
+      "Adding/multiplying mixed numbers directly without converting to improper fractions first",
+      "Forgetting to convert the final improper fraction answer back to a mixed number"
+    ],
+    "tips": [
+      "Always convert mixed numbers to improper fractions before multiplying or dividing \u2014 it avoids errors from handling the whole number and fraction separately."
+    ],
+    "summary": "Mixed numbers combine a whole number and proper fraction; convert to improper fractions for calculations, then convert back for a final answer.",
+    "quick_revision_notes": [
+      "a b/c = (a\u00d7c+b)/c",
+      "Convert before multiplying/dividing"
+    ],
+    "related_prerequisite_topics": [
+      "Improper Fractions",
+      "Proper Fractions",
+      "Adding Fractions"
+    ],
+    "images": []
+  },
+  {
+    "id": 44,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Equivalent Fractions",
+    "explanation": "Equivalent fractions are different fractions that represent the same value or proportion, such as 1/2, 2/4, and 3/6. They are created by multiplying or dividing both the numerator and denominator by the same non-zero number. Understanding equivalent fractions is essential for comparing, adding, and subtracting fractions.",
+    "key_concepts": [
+      "Equivalent fractions represent the same value",
+      "Created by multiplying or dividing numerator and denominator by the same number",
+      "Used to find common denominators for adding/subtracting",
+      "Simplifying a fraction produces an equivalent fraction in lowest terms"
+    ],
+    "definitions": [
+      {
+        "term": "Equivalent Fractions",
+        "definition": "Fractions that have different numerators and denominators but represent the same value."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Equivalence rule",
+        "formula": "a/b = (a\u00d7k)/(b\u00d7k), for any non-zero k",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find a fraction equivalent to 3/5 with a denominator of 20.",
+        "solution_steps": [
+          "Determine the multiplier: 20 \u00f7 5 = 4",
+          "Multiply both numerator and denominator by 4: (3\u00d74)/(5\u00d74)"
+        ],
+        "answer": "12/20"
+      },
+      {
+        "problem": "Are 8/12 and 2/3 equivalent?",
+        "solution_steps": [
+          "Simplify 8/12 by dividing both by their HCF, 4: 8\u00f74=2, 12\u00f74=3",
+          "8/12 simplifies to 2/3"
+        ],
+        "answer": "Yes, they are equivalent"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find a fraction equivalent to 2/7 with denominator 21.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Are 15/25 and 3/5 equivalent? Show your working.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "6/21",
+      "Yes: 15/25 = (15\u00f75)/(25\u00f75) = 3/5"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Find the missing value: 4/9 = x/45",
+        "marks": 2,
+        "answer": "45\u00f79=5, so x = 4\u00d75 = 20"
+      }
+    ],
+    "common_mistakes": [
+      "Multiplying only the numerator or only the denominator (must do both)",
+      "Adding a number to both instead of multiplying"
+    ],
+    "tips": [
+      "To check if two fractions are equivalent, cross-multiply: a/b = c/d if and only if a\u00d7d = b\u00d7c."
+    ],
+    "summary": "Equivalent fractions represent the same value; found by multiplying or dividing both numerator and denominator by the same number.",
+    "quick_revision_notes": [
+      "a/b = (a\u00d7k)/(b\u00d7k)",
+      "Cross-multiply to check equivalence"
+    ],
+    "related_prerequisite_topics": [
+      "Proper Fractions",
+      "Simplifying Fractions",
+      "Common Multiples"
+    ],
+    "images": [
+      {
+        "filename": "equivalentfractions-44-bars.svg",
+        "type": "mathematical_visual",
+        "description": "Two bars of equal length, one divided into 2 parts with 1 shaded, another divided into 4 parts with 2 shaded, showing 1/2 = 2/4.",
+        "purpose": "Shows 1/2 and 2/4 as bars of equal shaded length, proving they represent the same value.",
+        "placement": "After the Explanation section, before Key Concepts"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Simplifying Fractions",
+    "explanation": "Simplifying (or reducing) a fraction means writing it in its lowest terms, where the numerator and denominator share no common factor other than 1. This is done by dividing both the numerator and denominator by their highest common factor (HCF).",
+    "key_concepts": [
+      "A fraction is in 'lowest terms' when numerator and denominator have HCF = 1",
+      "Divide numerator and denominator by their HCF to simplify in one step",
+      "Can also simplify gradually by dividing by any common factor repeatedly",
+      "Simplified fractions are equivalent to the original"
+    ],
+    "definitions": [
+      {
+        "term": "Simplifying a Fraction",
+        "definition": "Reducing a fraction to its lowest terms by dividing numerator and denominator by their highest common factor."
+      },
+      {
+        "term": "Lowest Terms",
+        "definition": "A fraction where the numerator and denominator have no common factor other than 1."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Simplify 42/56",
+        "solution_steps": [
+          "Find HCF of 42 and 56: 42=2\u00d73\u00d77, 56=2\u00b3\u00d77, HCF = 2\u00d77 = 14",
+          "Divide both by 14: 42\u00f714=3, 56\u00f714=4"
+        ],
+        "answer": "3/4"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Simplify 18/24.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Simplify 75/100.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Simplify 84/126.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "3/4",
+      "3/4",
+      "2/3"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Simplify 108/144 fully, showing your method.",
+        "marks": 3,
+        "answer": "HCF(108,144)=36. 108\u00f736=3, 144\u00f736=4. Simplified: 3/4."
+      }
+    ],
+    "common_mistakes": [
+      "Only dividing by a common factor once instead of continuing until fully simplified",
+      "Dividing numerator and denominator by different numbers"
+    ],
+    "tips": [
+      "If you're unsure whether a fraction is fully simplified, check whether the numerator and denominator share any prime factors \u2014 if not, you're done."
+    ],
+    "summary": "Simplifying fractions reduces them to lowest terms by dividing numerator and denominator by their HCF.",
+    "quick_revision_notes": [
+      "Divide by HCF to fully simplify in one step",
+      "Lowest terms = HCF(numerator, denominator) = 1"
+    ],
+    "related_prerequisite_topics": [
+      "Equivalent Fractions",
+      "Greatest Common Divisor",
+      "Factors"
+    ],
+    "images": []
+  },
+  {
+    "id": 46,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Comparing Fractions",
+    "explanation": "Comparing fractions means determining which of two or more fractions is larger, smaller, or equal. The most reliable method is to convert fractions to a common denominator (or to decimals) so they can be compared directly. Fractions with the same denominator can be compared just by looking at the numerators.",
+    "key_concepts": [
+      "Same denominator: compare numerators directly (larger numerator = larger fraction)",
+      "Different denominators: convert to a common denominator first, or convert to decimals",
+      "Cross-multiplication is a quick way to compare two fractions",
+      "Benchmarking against 1/2 or 1 can give a quick estimate"
+    ],
+    "definitions": [
+      {
+        "term": "Common Denominator",
+        "definition": "A shared denominator (often the LCM of the original denominators) used to directly compare or combine fractions."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Cross-multiplication comparison",
+        "formula": "a/b vs c/d: compare a\u00d7d vs c\u00d7b",
+        "notes": "Larger product corresponds to the larger fraction (for positive denominators)"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Compare 3/5 and 5/8 using cross-multiplication.",
+        "solution_steps": [
+          "Cross-multiply: 3\u00d78 = 24, and 5\u00d75 = 25",
+          "24 < 25, so 3/5 < 5/8"
+        ],
+        "answer": "3/5 < 5/8"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Compare 2/3 and 3/4.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Order 1/2, 3/8, 5/6 from smallest to largest.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "2/3 < 3/4 (2/3\u22480.667, 3/4=0.75)",
+      "3/8, 1/2, 5/6 (0.375, 0.5, 0.833)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Which is larger, 7/9 or 8/11? Justify your answer using a common denominator or cross-multiplication.",
+        "marks": 2,
+        "answer": "Cross-multiply: 7\u00d711=77, 8\u00d79=72. Since 77>72, 7/9 > 8/11."
+      }
+    ],
+    "common_mistakes": [
+      "Comparing numerators without accounting for different denominators",
+      "Assuming a fraction with a bigger denominator is automatically bigger or smaller"
+    ],
+    "tips": [
+      "Converting all fractions to decimals is often the fastest, most reliable comparison method when dealing with more than two fractions."
+    ],
+    "summary": "Comparing fractions requires a common denominator, decimal conversion, or cross-multiplication to determine relative size accurately.",
+    "quick_revision_notes": [
+      "Same denominator: compare numerators",
+      "Different denominators: convert first or cross-multiply"
+    ],
+    "related_prerequisite_topics": [
+      "Equivalent Fractions",
+      "Lowest Common Multiple",
+      "Converting Fractions to Decimals"
+    ],
+    "images": []
+  },
+  {
+    "id": 47,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Adding Fractions",
+    "explanation": "To add fractions, they must first have the same denominator (a common denominator). Once denominators match, simply add the numerators and keep the denominator the same. If denominators differ, convert each fraction to an equivalent fraction using the lowest common denominator (LCM of the denominators) before adding.",
+    "key_concepts": [
+      "Fractions must share a common denominator before adding",
+      "Find the LCM of the denominators as the common denominator",
+      "Add numerators only; denominator stays the same",
+      "Simplify the final answer if possible, and convert improper fractions to mixed numbers if needed"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Adding fractions",
+        "formula": "a/b + c/d = (a\u00d7d + c\u00d7b)/(b\u00d7d)",
+        "notes": "General formula; simplify afterward. Using the LCM instead of b\u00d7d keeps numbers smaller."
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Add 1/4 + 3/8",
+        "solution_steps": [
+          "LCM of 4 and 8 is 8",
+          "Convert 1/4 to eighths: 1/4 = 2/8",
+          "Add: 2/8 + 3/8 = 5/8"
+        ],
+        "answer": "5/8"
+      },
+      {
+        "problem": "Add 2/3 + 3/5",
+        "solution_steps": [
+          "LCM of 3 and 5 is 15",
+          "Convert: 2/3 = 10/15, 3/5 = 9/15",
+          "Add: 10/15 + 9/15 = 19/15",
+          "Convert to mixed number: 19/15 = 1 4/15"
+        ],
+        "answer": "1 4/15"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Add 1/6 + 1/3",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Add 3/4 + 5/6",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Add 2 1/3 + 1 3/4",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "1/2 (1/6+2/6=3/6=1/2)",
+      "1 7/12 (9/12+10/12=19/12)",
+      "4 1/12 (7/3+7/4=28/12+21/12=49/12=4 1/12)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A cake recipe uses 2/3 cup of sugar and a second recipe uses 3/8 cup. What is the total amount of sugar if both are combined? Give your answer as a mixed number.",
+        "marks": 3,
+        "answer": "LCM(3,8)=24. 2/3=16/24, 3/8=9/24. Sum=25/24 = 1 1/24 cups."
+      }
+    ],
+    "common_mistakes": [
+      "Adding numerators and denominators directly without finding a common denominator",
+      "Using a common denominator that isn't the LCM, leading to unnecessarily large numbers",
+      "Forgetting to simplify or convert the final answer"
+    ],
+    "tips": [
+      "Never add denominators \u2014 only numerators, once the denominators match."
+    ],
+    "summary": "Adding fractions requires a common denominator; convert each fraction, add the numerators, then simplify.",
+    "quick_revision_notes": [
+      "Common denominator first (use LCM)",
+      "Add numerators only",
+      "Simplify/convert final answer"
+    ],
+    "related_prerequisite_topics": [
+      "Equivalent Fractions",
+      "Lowest Common Multiple",
+      "Mixed Numbers"
+    ],
+    "images": [
+      {
+        "filename": "addingfractions-47-bars.svg",
+        "type": "mathematical_visual",
+        "description": "Two fraction bars split into their respective denominators, converted to a shared denominator, then combined visually.",
+        "purpose": "Shows 1/4 and 3/8 converted to a common denominator and combined to give 5/8.",
+        "placement": "After the Explanation section, before Key Concepts"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Subtracting Fractions",
+    "explanation": "Subtracting fractions follows the same principle as adding: fractions must share a common denominator before subtracting. Once denominators match, subtract the numerators and keep the denominator the same. When subtracting mixed numbers, it can help to convert to improper fractions first, especially if 'borrowing' would be needed.",
+    "key_concepts": [
+      "Fractions must share a common denominator before subtracting",
+      "Subtract numerators only; denominator stays the same",
+      "For mixed numbers, convert to improper fractions to avoid borrowing errors",
+      "Simplify the final answer where possible"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Subtracting fractions",
+        "formula": "a/b - c/d = (a\u00d7d - c\u00d7b)/(b\u00d7d)",
+        "notes": "General formula; simplify afterward."
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Subtract 5/6 - 1/4",
+        "solution_steps": [
+          "LCM of 6 and 4 is 12",
+          "Convert: 5/6 = 10/12, 1/4 = 3/12",
+          "Subtract: 10/12 - 3/12 = 7/12"
+        ],
+        "answer": "7/12"
+      },
+      {
+        "problem": "Subtract 3 1/4 - 1 2/3",
+        "solution_steps": [
+          "Convert to improper fractions: 3 1/4 = 13/4, 1 2/3 = 5/3",
+          "LCM of 4 and 3 is 12: 13/4 = 39/12, 5/3 = 20/12",
+          "Subtract: 39/12 - 20/12 = 19/12",
+          "Convert to mixed number: 19/12 = 1 7/12"
+        ],
+        "answer": "1 7/12"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Subtract 7/8 - 1/2",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Subtract 5 1/6 - 2 2/3",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "3/8",
+      "2 1/2 (31/6 - 16/6 = 15/6 = 2 1/2)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A ribbon is 4 1/3 metres long. A piece 1 3/4 metres long is cut off. How much ribbon remains?",
+        "marks": 3,
+        "answer": "4 1/3 - 1 3/4 = 13/3 - 7/4 = 52/12 - 21/12 = 31/12 = 2 7/12 metres"
+      }
+    ],
+    "common_mistakes": [
+      "Subtracting numerators and denominators separately without a common denominator",
+      "Errors 'borrowing' when subtracting mixed numbers directly (better to convert to improper fractions)"
+    ],
+    "tips": [
+      "For mixed number subtraction where the second fraction part is bigger than the first, convert both to improper fractions first \u2014 it avoids messy borrowing."
+    ],
+    "summary": "Subtracting fractions requires a common denominator; converting mixed numbers to improper fractions first avoids borrowing errors.",
+    "quick_revision_notes": [
+      "Common denominator first",
+      "Subtract numerators only",
+      "Convert mixed numbers to improper fractions first for safety"
+    ],
+    "related_prerequisite_topics": [
+      "Adding Fractions",
+      "Mixed Numbers",
+      "Lowest Common Multiple"
+    ],
+    "images": []
+  },
+  {
+    "id": 49,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Multiplying Fractions",
+    "explanation": "To multiply fractions, multiply the numerators together and multiply the denominators together \u2014 there is no need for a common denominator. Mixed numbers should be converted to improper fractions first. Simplifying before multiplying (cross-cancelling) can make the arithmetic easier.",
+    "key_concepts": [
+      "Multiply numerators together, multiply denominators together",
+      "No common denominator needed (unlike addition/subtraction)",
+      "Convert mixed numbers to improper fractions before multiplying",
+      "Cross-cancel common factors between a numerator and a denominator before multiplying to simplify early"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Multiplying fractions",
+        "formula": "(a/b) \u00d7 (c/d) = (a\u00d7c)/(b\u00d7d)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Multiply 2/3 \u00d7 5/7",
+        "solution_steps": [
+          "Multiply numerators: 2\u00d75=10",
+          "Multiply denominators: 3\u00d77=21"
+        ],
+        "answer": "10/21"
+      },
+      {
+        "problem": "Multiply 4/9 \u00d7 3/8 using cross-cancelling.",
+        "solution_steps": [
+          "Cross-cancel: 4 and 8 share factor 4 \u2192 4/4=1, 8/4=2. 3 and 9 share factor 3 \u2192 3/3=1, 9/3=3",
+          "Now multiply: 1/3 \u00d7 1/2"
+        ],
+        "answer": "1/6"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Multiply 3/5 \u00d7 2/9",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Multiply 2 1/2 \u00d7 1 1/3",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "2/15 (after simplifying 6/45)",
+      "10/3 = 3 1/3 (5/2 \u00d7 4/3 = 20/6 = 10/3)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A recipe requires 3/4 cup of milk per batch. How much milk is needed for 2 1/2 batches?",
+        "marks": 3,
+        "answer": "3/4 \u00d7 5/2 = 15/8 = 1 7/8 cups"
+      }
+    ],
+    "common_mistakes": [
+      "Finding a common denominator before multiplying (unnecessary for multiplication)",
+      "Forgetting to convert mixed numbers to improper fractions first",
+      "Not simplifying the final answer"
+    ],
+    "tips": [
+      "Cross-cancel common factors diagonally before multiplying \u2014 it keeps numbers smaller and reduces the need to simplify at the end."
+    ],
+    "summary": "Multiplying fractions is done by multiplying numerators and denominators directly, with no common denominator required.",
+    "quick_revision_notes": [
+      "(a/b)\u00d7(c/d) = (ac)/(bd)",
+      "No common denominator needed",
+      "Cross-cancel to simplify early"
+    ],
+    "related_prerequisite_topics": [
+      "Simplifying Fractions",
+      "Mixed Numbers",
+      "Improper Fractions"
+    ],
+    "images": [
+      {
+        "filename": "multiplyingfractions-49-area.svg",
+        "type": "mathematical_visual",
+        "description": "A grid model (area model) showing 2/3 \u00d7 3/4 as overlapping shaded regions of a rectangle, giving 6/12 = 1/2.",
+        "purpose": "Shows an area model for 2/3 \u00d7 3/4, where the overlapping shaded region represents the product.",
+        "placement": "After the Explanation section, before Key Concepts"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Dividing Fractions",
+    "explanation": "To divide by a fraction, multiply by its reciprocal (flip the second fraction upside down). This 'keep, change, flip' method turns a division problem into a multiplication problem, which is then solved as usual. Mixed numbers must be converted to improper fractions first.",
+    "key_concepts": [
+      "Dividing by a fraction = multiplying by its reciprocal",
+      "'Keep, Change, Flip': keep the first fraction, change \u00f7 to \u00d7, flip the second fraction",
+      "Convert mixed numbers to improper fractions before dividing",
+      "Simplify the final answer"
+    ],
+    "definitions": [
+      {
+        "term": "Reciprocal",
+        "definition": "The fraction obtained by swapping the numerator and denominator, e.g. the reciprocal of 3/5 is 5/3."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Dividing fractions",
+        "formula": "(a/b) \u00f7 (c/d) = (a/b) \u00d7 (d/c) = (a\u00d7d)/(b\u00d7c)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Divide 3/4 \u00f7 2/5",
+        "solution_steps": [
+          "Keep the first fraction: 3/4",
+          "Change \u00f7 to \u00d7, flip the second: \u00d7 5/2",
+          "Multiply: (3\u00d75)/(4\u00d72) = 15/8"
+        ],
+        "answer": "15/8 = 1 7/8"
+      },
+      {
+        "problem": "Divide 2 1/2 \u00f7 1 1/4",
+        "solution_steps": [
+          "Convert to improper fractions: 5/2 \u00f7 5/4",
+          "Flip and multiply: 5/2 \u00d7 4/5",
+          "= 20/10 = 2"
+        ],
+        "answer": "2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Divide 5/6 \u00f7 1/3",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Divide 3 1/3 \u00f7 2/5",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "5/2 = 2 1/2",
+      "25/3 = 8 1/3 (10/3 \u00d7 5/2 = 50/6 = 25/3)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A piece of ribbon is 5/6 metres long and is cut into pieces each 1/12 metres long. How many pieces can be made?",
+        "marks": 2,
+        "answer": "5/6 \u00f7 1/12 = 5/6 \u00d7 12/1 = 60/6 = 10 pieces"
+      }
+    ],
+    "common_mistakes": [
+      "Flipping the first fraction instead of the second",
+      "Forgetting to convert mixed numbers before dividing",
+      "Dividing numerators and denominators directly instead of using the reciprocal method"
+    ],
+    "tips": [
+      "Remember: 'Keep, Change, Flip' \u2014 keep the first fraction as is, change the operation to multiplication, flip only the second fraction."
+    ],
+    "summary": "Dividing fractions means multiplying by the reciprocal of the second fraction, using the 'Keep, Change, Flip' method.",
+    "quick_revision_notes": [
+      "(a/b)\u00f7(c/d) = (a/b)\u00d7(d/c)",
+      "Keep, Change, Flip"
+    ],
+    "related_prerequisite_topics": [
+      "Multiplying Fractions",
+      "Mixed Numbers"
+    ],
+    "images": []
+  },
+  {
+    "id": 51,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Fraction of a Quantity",
+    "explanation": "Finding a fraction of a quantity means calculating what a given fraction represents of a whole amount, such as finding 3/5 of 40. This is done by dividing the quantity by the denominator (to find one 'part'), then multiplying by the numerator (to find the required number of parts) \u2014 equivalent to multiplying the quantity by the fraction directly.",
+    "key_concepts": [
+      "'Of' in maths usually means multiply",
+      "Fraction of a quantity = (quantity \u00d7 numerator) / denominator",
+      "Can also divide by denominator first, then multiply by numerator",
+      "Applies to money, measurements, populations, and any real-world quantity"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Fraction of a quantity",
+        "formula": "(a/b) of N = (a \u00d7 N) / b",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find 3/8 of 64",
+        "solution_steps": [
+          "Divide by denominator: 64 \u00f7 8 = 8 (this is one part)",
+          "Multiply by numerator: 8 \u00d7 3 = 24"
+        ],
+        "answer": "24"
+      },
+      {
+        "problem": "A class has 30 students. 2/5 of them play a sport. How many students play a sport?",
+        "solution_steps": [
+          "30 \u00f7 5 = 6 (one fifth)",
+          "6 \u00d7 2 = 12"
+        ],
+        "answer": "12 students"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find 2/3 of 45.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find 5/6 of 72.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A shop has 150 items; 3/10 are on sale. How many items are on sale?",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "30",
+      "60",
+      "45 items"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A tank holds 240 litres when full. If the tank is currently 5/8 full, how many litres of water are in the tank?",
+        "marks": 2,
+        "answer": "240 \u00f7 8 = 30, then 30 \u00d7 5 = 150 litres"
+      }
+    ],
+    "common_mistakes": [
+      "Multiplying by the denominator instead of the numerator (or vice versa)",
+      "Forgetting to divide by the denominator first when working mentally"
+    ],
+    "tips": [
+      "Think of it in two steps: divide the total by the denominator to find 'one part', then multiply by the numerator for the number of parts needed."
+    ],
+    "summary": "Finding a fraction of a quantity means multiplying the quantity by the fraction \u2014 divide by the denominator, then multiply by the numerator.",
+    "quick_revision_notes": [
+      "(a/b) of N = (a\u00d7N)/b",
+      "'Of' means multiply"
+    ],
+    "related_prerequisite_topics": [
+      "Multiplying Fractions",
+      "Dividing Fractions"
+    ],
+    "images": []
+  },
+  {
+    "id": 52,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Fractions and Ratios",
+    "explanation": "Fractions and ratios are closely related: a ratio compares two or more quantities, while a fraction expresses one quantity as a part of a whole. If a ratio is a:b, the fraction of the total represented by the first part is a/(a+b). Converting between fractions and ratios is a common skill in proportion and sharing problems.",
+    "key_concepts": [
+      "A ratio a:b can be converted to fractions of the whole: a/(a+b) and b/(a+b)",
+      "A fraction can be converted to a ratio by comparing the part to the remaining part",
+      "Ratios compare parts to parts; fractions typically compare a part to the whole",
+      "Both are used in sharing/dividing quantities proportionally"
+    ],
+    "definitions": [
+      {
+        "term": "Ratio",
+        "definition": "A comparison of two or more quantities, showing their relative sizes, written as a:b."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Ratio to fraction",
+        "formula": "For ratio a:b, fraction of first part = a/(a+b)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A recipe uses flour and sugar in the ratio 5:3. What fraction of the mixture is sugar?",
+        "solution_steps": [
+          "Total parts = 5 + 3 = 8",
+          "Sugar's fraction of the whole = 3/8"
+        ],
+        "answer": "3/8"
+      },
+      {
+        "problem": "In a class, 2/5 of students are boys. Express the ratio of boys to girls.",
+        "solution_steps": [
+          "2/5 are boys, so 3/5 are girls (since 1 - 2/5 = 3/5)",
+          "Ratio of boys:girls = 2:3"
+        ],
+        "answer": "2:3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A ratio of red to blue paint is 4:7. What fraction of the total is blue?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "If 3/8 of a group are adults, what is the ratio of adults to children?",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "7/11",
+      "3:5"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A sum of money is shared between Amy and Ben in the ratio 3:5. What fraction of the money does Amy receive, and if the total is $160, how much does she get?",
+        "marks": 3,
+        "answer": "Amy's fraction = 3/8. Amount = 3/8 \u00d7 160 = $60"
+      }
+    ],
+    "common_mistakes": [
+      "Using the ratio numbers directly as fractions of the whole without dividing by the sum of the parts",
+      "Confusing 'part to part' (ratio) with 'part to whole' (fraction)"
+    ],
+    "tips": [
+      "Always add up all parts of the ratio first \u2014 that sum is your fraction's denominator."
+    ],
+    "summary": "Ratios and fractions are linked: for a ratio a:b, the fraction of the whole for each part is found by dividing by the total number of parts (a+b).",
+    "quick_revision_notes": [
+      "Ratio a:b \u2192 fractions a/(a+b) and b/(a+b)",
+      "Add ratio parts for the denominator"
+    ],
+    "related_prerequisite_topics": [
+      "Ratios",
+      "Simplifying Ratios",
+      "Fraction of a Quantity"
+    ],
+    "images": []
+  },
+  {
+    "id": 53,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Decimal Place Value",
+    "explanation": "Decimal place value extends whole-number place value to the right of the decimal point. Each position represents a fraction with a power of 10 as its denominator: tenths (1/10), hundredths (1/100), thousandths (1/1000), and so on. Understanding decimal place value is essential for reading, comparing, rounding, and calculating with decimal numbers.",
+    "key_concepts": [
+      "Digits to the right of the decimal point represent tenths, hundredths, thousandths, etc.",
+      "Each place moving right is 10 times smaller than the one before it",
+      "The decimal point separates whole numbers from fractional parts",
+      "Trailing zeros after the decimal point don't change the value (0.5 = 0.50) but may indicate precision"
+    ],
+    "definitions": [
+      {
+        "term": "Decimal Place",
+        "definition": "A digit's position relative to the decimal point, indicating its value as a fraction of a power of 10."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "State the value of the digit 4 in 6.847",
+        "solution_steps": [
+          "The digit 4 is the second digit after the decimal point \u2192 hundredths place",
+          "Its value is 4 \u00d7 0.01"
+        ],
+        "answer": "0.04 (four hundredths)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "What is the value of the digit 9 in 3.196?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Write 5.203 in expanded decimal form.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "0.09 (nine hundredths)",
+      "5 + 0.2 + 0.003"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why 0.5 and 0.50 represent the same value.",
+        "marks": 1,
+        "answer": "0.5 = 5/10 and 0.50 = 50/100 = 5/10 \u2014 the extra zero doesn't add value because it's in the next place value column, which is empty (0 hundredths)."
+      }
+    ],
+    "common_mistakes": [
+      "Misreading place values (e.g. confusing tenths with hundredths)",
+      "Thinking 0.5 < 0.50 or treating trailing zeros as changing the value"
+    ],
+    "tips": [
+      "Line up decimal points vertically when comparing or adding decimals \u2014 this keeps place values aligned correctly."
+    ],
+    "summary": "Decimal place value assigns each digit after the decimal point a fractional value based on powers of 10 (tenths, hundredths, thousandths...).",
+    "quick_revision_notes": [
+      "Tenths, hundredths, thousandths...",
+      "Each place = 10x smaller moving right"
+    ],
+    "related_prerequisite_topics": [
+      "Place Value",
+      "Converting Fractions to Decimals"
+    ],
+    "images": [
+      {
+        "filename": "decimalplacevalue-53-chart.svg",
+        "type": "table_visual",
+        "description": "A place value chart extending from Units through the decimal point into Tenths, Hundredths, Thousandths columns.",
+        "purpose": "Shows how each digit in 6.847 corresponds to a specific decimal place value column.",
+        "placement": "After the Explanation section, before Key Concepts"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Terminating Decimals",
+    "explanation": "A terminating decimal is a decimal number that ends after a finite number of digits, such as 0.25 or 0.125. Terminating decimals occur when a fraction's denominator (in lowest terms) has only 2 and/or 5 as prime factors, since these are the prime factors of 10.",
+    "key_concepts": [
+      "A terminating decimal has a finite number of digits after the decimal point",
+      "Occurs when the fraction's simplified denominator has only prime factors 2 and/or 5",
+      "Examples: 1/2 = 0.5, 1/4 = 0.25, 1/8 = 0.125, 3/20 = 0.15",
+      "Fractions with any other prime factor in the denominator (like 3, 7, 11) give recurring decimals instead"
+    ],
+    "definitions": [
+      {
+        "term": "Terminating Decimal",
+        "definition": "A decimal number with a finite number of digits after the decimal point."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Will 7/16 give a terminating decimal? Justify your answer, then find it.",
+        "solution_steps": [
+          "16 = 2\u2074, only prime factor is 2 \u2192 terminating",
+          "7 \u00f7 16 = 0.4375"
+        ],
+        "answer": "Yes, 7/16 = 0.4375"
+      },
+      {
+        "problem": "Will 5/12 give a terminating decimal?",
+        "solution_steps": [
+          "12 = 2\u00b2 \u00d7 3",
+          "The factor 3 is not 2 or 5, so the decimal will not terminate"
+        ],
+        "answer": "No, it will be a recurring decimal"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Does 3/8 give a terminating decimal? Find its value.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Does 7/15 give a terminating decimal? Explain why or why not.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Yes, 8=2\u00b3, terminating. 3/8 = 0.375",
+      "No \u2014 15 = 3\u00d75, and the factor of 3 means the decimal will recur, not terminate."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Without performing the division, determine whether 9/40 will produce a terminating decimal, and explain your reasoning.",
+        "marks": 2,
+        "answer": "40 = 2\u00b3 \u00d7 5. Its only prime factors are 2 and 5, so the decimal will terminate."
+      }
+    ],
+    "common_mistakes": [
+      "Not simplifying the fraction first before checking the denominator's prime factors",
+      "Assuming any 'clean-looking' fraction terminates without checking"
+    ],
+    "tips": [
+      "Always simplify the fraction fully first \u2014 check the denominator of the simplified fraction, not the original."
+    ],
+    "summary": "Terminating decimals end after finitely many digits; they arise from fractions whose simplified denominator has only 2 and/or 5 as prime factors.",
+    "quick_revision_notes": [
+      "Terminates if denominator (simplified) has only prime factors 2 and/or 5",
+      "Otherwise recurring"
+    ],
+    "related_prerequisite_topics": [
+      "Decimal Place Value",
+      "Prime Factorization",
+      "Converting Fractions to Decimals"
+    ],
+    "images": []
+  },
+  {
+    "id": 55,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Recurring Decimals",
+    "explanation": "A recurring (repeating) decimal has one or more digits that repeat infinitely in a set pattern, such as 0.333... or 0.142857142857... Recurring decimals are written with dots or a bar over the repeating digits (e.g. 0.3\u0307 or 0.1\u030442857\u0304). All recurring decimals are rational numbers and can be converted into exact fractions.",
+    "key_concepts": [
+      "A recurring decimal has a digit or block of digits that repeats forever",
+      "Notation: a dot over a single repeating digit, or dots over the first and last digit of a repeating block",
+      "All recurring decimals are rational (can be written as fractions)",
+      "Converted to a fraction using the 'multiply and subtract' algebraic method"
+    ],
+    "definitions": [
+      {
+        "term": "Recurring Decimal",
+        "definition": "A decimal in which a digit or group of digits repeats infinitely in a fixed pattern."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Convert 0.4\u03075\u0307 (i.e. 0.454545...) to a fraction.",
+        "solution_steps": [
+          "Let x = 0.454545...",
+          "The repeating block has 2 digits, so multiply by 100: 100x = 45.454545...",
+          "Subtract: 100x - x = 45.454545... - 0.454545...",
+          "99x = 45",
+          "x = 45/99 = 5/11"
+        ],
+        "answer": "5/11"
+      },
+      {
+        "problem": "Convert 0.16\u0307 (i.e. 0.1666...) to a fraction.",
+        "solution_steps": [
+          "Let x = 0.16666...",
+          "10x = 1.6666...",
+          "100x = 16.6666...",
+          "Subtract 10x from 100x: 90x = 15",
+          "x = 15/90 = 1/6"
+        ],
+        "answer": "1/6"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Convert 0.7\u0307 (0.7777...) to a fraction.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Convert 0.2\u03077\u0307 (0.272727...) to a fraction.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Convert 0.583\u0307 (0.58333...) to a fraction.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "7/9",
+      "3/11 (27/99 simplified)",
+      "7/12"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Prove that 0.9\u0307 (0.9999...) is exactly equal to 1.",
+        "marks": 3,
+        "answer": "Let x = 0.9999.... Then 10x = 9.9999.... Subtract: 10x - x = 9.9999... - 0.9999... \u2192 9x = 9 \u2192 x = 1. So 0.9999... = 1 exactly."
+      }
+    ],
+    "common_mistakes": [
+      "Multiplying by the wrong power of 10 (should match the length of the repeating block)",
+      "Forgetting to subtract the original equation correctly, leaving repeating digits in the result",
+      "Not simplifying the final fraction"
+    ],
+    "tips": [
+      "The power of 10 you multiply by should have as many zeros as there are digits in the repeating block."
+    ],
+    "summary": "Recurring decimals repeat a digit or pattern forever; they are rational and can be converted to exact fractions using the multiply-and-subtract method.",
+    "quick_revision_notes": [
+      "Multiply by 10^(length of repeat), then subtract original",
+      "All recurring decimals are rational"
+    ],
+    "related_prerequisite_topics": [
+      "Rational Numbers",
+      "Terminating Decimals",
+      "Converting Decimals to Fractions"
+    ],
+    "images": []
+  },
+  {
+    "id": 56,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Converting Fractions to Decimals",
+    "explanation": "To convert a fraction to a decimal, divide the numerator by the denominator. This can be done by long division or by first converting to an equivalent fraction with a denominator that is a power of 10 (for simple cases). The result will either terminate or recur, depending on the fraction's denominator.",
+    "key_concepts": [
+      "Fraction to decimal: divide numerator by denominator (a \u00f7 b for a/b)",
+      "If the denominator (in lowest terms) has only 2 and/or 5 as prime factors, the decimal terminates",
+      "Otherwise, the decimal recurs",
+      "Some simple fractions can be converted by finding an equivalent fraction with denominator 10, 100, or 1000"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Convert 5/8 to a decimal.",
+        "solution_steps": [
+          "Divide 5 by 8: 5 \u00f7 8 = 0.625",
+          "(Alternatively: 5/8 = 625/1000 = 0.625)"
+        ],
+        "answer": "0.625"
+      },
+      {
+        "problem": "Convert 2/3 to a decimal.",
+        "solution_steps": [
+          "Divide 2 by 3: 2 \u00f7 3 = 0.666...",
+          "The digit 6 repeats forever"
+        ],
+        "answer": "0.6\u0307 (0.666...)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Convert 3/4 to a decimal.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Convert 7/11 to a decimal (state whether it terminates or recurs).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "0.75",
+      "0.6\u03073\u0307 (0.636363...) \u2014 recurs, since 11 is not a factor of 2 or 5"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Convert 9/40 to a decimal, showing your method.",
+        "marks": 2,
+        "answer": "40 = 8\u00d75, so 9/40 = 225/1000 = 0.225 (or by division: 9\u00f740=0.225)"
+      }
+    ],
+    "common_mistakes": [
+      "Dividing the denominator by the numerator instead of numerator by denominator",
+      "Stopping long division too early and missing that the decimal actually recurs"
+    ],
+    "tips": [
+      "For an easy check, first determine if the denominator's prime factors are only 2s and 5s \u2014 this tells you whether to expect a terminating or recurring result before you even divide."
+    ],
+    "summary": "Converting a fraction to a decimal means dividing numerator by denominator; the result terminates or recurs depending on the denominator's prime factors.",
+    "quick_revision_notes": [
+      "a/b \u2192 a \u00f7 b",
+      "Check denominator's prime factors to predict terminating vs recurring"
+    ],
+    "related_prerequisite_topics": [
+      "Terminating Decimals",
+      "Recurring Decimals",
+      "Dividing Fractions"
+    ],
+    "images": []
+  },
+  {
+    "id": 57,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Converting Decimals to Fractions",
+    "explanation": "To convert a terminating decimal to a fraction, write it over the appropriate power of 10 (based on the number of decimal places) and simplify. To convert a recurring decimal to a fraction, use the multiply-and-subtract algebraic method covered under Recurring Decimals.",
+    "key_concepts": [
+      "Terminating decimal: write over 10, 100, 1000, etc. (matching the number of decimal places), then simplify",
+      "Recurring decimal: use the multiply-and-subtract method",
+      "Always simplify the resulting fraction to lowest terms"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Terminating decimal to fraction",
+        "formula": "0.d\u2081d\u2082...d\u2099 = (d\u2081d\u2082...d\u2099)/10\u207f",
+        "notes": "Then simplify by dividing by the HCF."
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Convert 0.375 to a fraction in lowest terms.",
+        "solution_steps": [
+          "3 decimal places, so write over 1000: 375/1000",
+          "Simplify: HCF(375,1000)=125",
+          "375\u00f7125=3, 1000\u00f7125=8"
+        ],
+        "answer": "3/8"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Convert 0.6 to a fraction in lowest terms.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Convert 0.84 to a fraction in lowest terms.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "3/5",
+      "21/25"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Convert 0.125 to a fraction, simplifying fully, and explain why this decimal terminates.",
+        "marks": 3,
+        "answer": "0.125 = 125/1000 = 1/8. It terminates because 8 = 2\u00b3, whose only prime factor is 2."
+      }
+    ],
+    "common_mistakes": [
+      "Using the wrong power of 10 (miscounting decimal places)",
+      "Forgetting to simplify the resulting fraction"
+    ],
+    "tips": [
+      "Count the decimal places carefully \u2014 that count tells you exactly how many zeros to put in the denominator (10, 100, 1000...)."
+    ],
+    "summary": "Terminating decimals convert to fractions by writing over the correct power of 10 and simplifying; recurring decimals require the multiply-and-subtract method.",
+    "quick_revision_notes": [
+      "n decimal places \u2192 denominator 10\u207f",
+      "Simplify fully afterward"
+    ],
+    "related_prerequisite_topics": [
+      "Terminating Decimals",
+      "Recurring Decimals",
+      "Simplifying Fractions"
+    ],
+    "images": []
+  },
+  {
+    "id": 58,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Decimal Arithmetic",
+    "explanation": "Decimal arithmetic covers adding, subtracting, multiplying, and dividing decimal numbers. For addition and subtraction, align decimal points before calculating. For multiplication, multiply as whole numbers first, then place the decimal point based on the total number of decimal places in the original numbers. For division, convert the divisor to a whole number by shifting the decimal point in both numbers.",
+    "key_concepts": [
+      "Addition/subtraction: align decimal points, pad with zeros if needed",
+      "Multiplication: ignore decimal points, multiply as whole numbers, then count total decimal places to place the point in the answer",
+      "Division: shift the decimal point in both divisor and dividend to make the divisor a whole number, then divide normally",
+      "Estimating first helps catch decimal point placement errors"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Calculate 3.45 + 12.6",
+        "solution_steps": [
+          "Align decimal points: 3.45 and 12.60",
+          "Add: 3.45 + 12.60 = 16.05"
+        ],
+        "answer": "16.05"
+      },
+      {
+        "problem": "Calculate 2.3 \u00d7 1.4",
+        "solution_steps": [
+          "Multiply as whole numbers: 23 \u00d7 14 = 322",
+          "Count total decimal places in the original numbers: 1 + 1 = 2",
+          "Place the decimal point 2 places from the right in 322"
+        ],
+        "answer": "3.22"
+      },
+      {
+        "problem": "Calculate 5.4 \u00f7 0.6",
+        "solution_steps": [
+          "Shift decimal point 1 place right in both numbers to make the divisor a whole number: 54 \u00f7 6",
+          "54 \u00f7 6 = 9"
+        ],
+        "answer": "9"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Calculate 7.8 - 2.35",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Calculate 0.25 \u00d7 0.4",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Calculate 12.6 \u00f7 0.3",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "5.45",
+      "0.1",
+      "42"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A piece of wood 4.8 m long is cut into pieces of length 0.6 m each. How many pieces can be cut?",
+        "marks": 2,
+        "answer": "4.8 \u00f7 0.6 = 48 \u00f7 6 = 8 pieces"
+      }
+    ],
+    "common_mistakes": [
+      "Misaligning decimal points when adding or subtracting",
+      "Placing the decimal point in the wrong position after multiplying",
+      "Forgetting to shift both the divisor and dividend by the same number of places in division"
+    ],
+    "tips": [
+      "Estimate first (e.g. round to whole numbers) so you can sanity-check where the decimal point should go in your final answer."
+    ],
+    "summary": "Decimal arithmetic requires careful alignment (addition/subtraction), decimal-place counting (multiplication), and divisor adjustment (division).",
+    "quick_revision_notes": [
+      "Add/subtract: align points",
+      "Multiply: count total decimal places",
+      "Divide: shift both numbers to make divisor whole"
+    ],
+    "related_prerequisite_topics": [
+      "Decimal Place Value",
+      "Rounding Decimals"
+    ],
+    "images": []
+  },
+  {
+    "id": 59,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Rounding Decimals",
+    "explanation": "Rounding a decimal means approximating it to a specified number of decimal places, making it simpler while keeping it close to the original value. Look at the digit immediately after the rounding position: if it is 5 or more, round up; if it is 4 or less, round down.",
+    "key_concepts": [
+      "Identify the rounding position (e.g. 2 decimal places)",
+      "Look at the next digit to decide whether to round up or down",
+      "5 or more rounds up; 4 or less rounds down",
+      "All digits after the rounding position are removed (not just set to zero, for decimals)"
+    ],
+    "definitions": [
+      {
+        "term": "Rounding",
+        "definition": "Approximating a number to a specified level of precision (decimal places or significant figures)."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Round 7.4863 to 2 decimal places.",
+        "solution_steps": [
+          "Look at the digit after the 2nd decimal place: the 3rd decimal digit is 6",
+          "6 \u2265 5, so round up the 2nd decimal digit (8 \u2192 9)"
+        ],
+        "answer": "7.49"
+      },
+      {
+        "problem": "Round 12.995 to 1 decimal place.",
+        "solution_steps": [
+          "Look at the 2nd decimal digit: 9",
+          "9 \u2265 5, round up the 1st decimal digit (9 \u2192 10, which carries over)",
+          "12.9 rounds up to 13.0"
+        ],
+        "answer": "13.0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Round 5.372 to 1 decimal place.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Round 0.0649 to 3 decimal places.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Round 9.995 to 2 decimal places.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "5.4",
+      "0.065",
+      "10.00 (rounds up and carries over)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A length is measured as 8.4963 m. Round this to 2 decimal places and explain the rounding decision.",
+        "marks": 2,
+        "answer": "8.50 m \u2014 the third decimal digit is 6, which is \u22655, so the second decimal digit (9) rounds up to 10, carrying over to make 8.50."
+      }
+    ],
+    "common_mistakes": [
+      "Rounding based on digits further away than the very next one (must only look at the single digit right after the rounding position)",
+      "Forgetting to carry over when rounding up a 9",
+      "Truncating (just cutting off digits) instead of properly rounding"
+    ],
+    "tips": [
+      "Only ever look at ONE digit \u2014 the one immediately after your rounding position \u2014 to decide whether to round up or down."
+    ],
+    "summary": "Rounding decimals approximates a number to a set number of decimal places by checking the next digit: 5 or more rounds up, 4 or less rounds down.",
+    "quick_revision_notes": [
+      "Check the single digit after the rounding position",
+      "\u22655 rounds up, <5 rounds down",
+      "Watch for carrying (9\u219210)"
+    ],
+    "related_prerequisite_topics": [
+      "Decimal Place Value",
+      "Significant Figures"
+    ],
+    "images": []
+  },
+  {
+    "id": 60,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Percentage Basics",
+    "explanation": "A percentage is a way of expressing a number as a fraction of 100, using the symbol %. For example, 45% means 45 out of every 100, or 45/100. Percentages are widely used to describe proportions, discounts, interest rates, and statistics because they provide an easy, standardized way to compare quantities.",
+    "key_concepts": [
+      "Percent means 'per hundred' \u2014 % = /100",
+      "To convert a percentage to a fraction, write it over 100 and simplify",
+      "To convert a percentage to a decimal, divide by 100 (move decimal point 2 places left)",
+      "100% represents the whole amount"
+    ],
+    "definitions": [
+      {
+        "term": "Percentage",
+        "definition": "A number expressed as a fraction of 100, denoted with the % symbol."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Percentage to fraction",
+        "formula": "x% = x/100",
+        "notes": "Simplify afterward"
+      },
+      {
+        "name": "Percentage to decimal",
+        "formula": "x% = x \u00f7 100",
+        "notes": "Shift the decimal point two places left"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Convert 45% to a fraction in lowest terms.",
+        "solution_steps": [
+          "45% = 45/100",
+          "Simplify: HCF(45,100)=5, so 45/100 = 9/20"
+        ],
+        "answer": "9/20"
+      },
+      {
+        "problem": "Convert 8% to a decimal.",
+        "solution_steps": [
+          "8% = 8/100 = 0.08"
+        ],
+        "answer": "0.08"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Convert 60% to a fraction in lowest terms.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Convert 125% to a decimal.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "3/5",
+      "1.25"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Express 0.6 as a percentage.",
+        "marks": 1,
+        "answer": "60% (multiply decimal by 100)"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to divide by 100 when converting % to a decimal",
+      "Simplification errors when converting % to a fraction"
+    ],
+    "tips": [
+      "Percentages over 100% represent amounts greater than the whole (e.g. 150% = 1.5 times the original amount)."
+    ],
+    "summary": "A percentage expresses a number as a fraction of 100, convertible to fractions or decimals by standard rules.",
+    "quick_revision_notes": [
+      "% = /100",
+      "% \u2192 decimal: \u00f7100",
+      "% \u2192 fraction: /100 then simplify"
+    ],
+    "related_prerequisite_topics": [
+      "Fractions and Ratios",
+      "Decimal Place Value"
+    ],
+    "images": [
+      {
+        "filename": "percentagebasics-60-grid.svg",
+        "type": "mathematical_visual",
+        "description": "A 10\u00d710 grid with 37 of the 100 squares shaded to represent 37%.",
+        "purpose": "Visually grounds the definition of percentage as 'out of 100'.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Converting Percentages",
+    "explanation": "Converting percentages involves moving fluently between percentages, fractions, and decimals \u2014 three different ways of expressing the same proportion. Being able to convert quickly between all three forms is essential for solving a wide range of real-world percentage problems.",
+    "key_concepts": [
+      "Percentage \u2192 Decimal: divide by 100",
+      "Decimal \u2192 Percentage: multiply by 100",
+      "Percentage \u2192 Fraction: write over 100, simplify",
+      "Fraction \u2192 Percentage: convert to a decimal first, then multiply by 100"
+    ],
+    "definitions": [],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Convert 3/8 to a percentage.",
+        "solution_steps": [
+          "Convert to decimal: 3 \u00f7 8 = 0.375",
+          "Multiply by 100: 0.375 \u00d7 100 = 37.5"
+        ],
+        "answer": "37.5%"
+      },
+      {
+        "problem": "Convert 0.09 to a percentage.",
+        "solution_steps": [
+          "Multiply by 100: 0.09 \u00d7 100 = 9"
+        ],
+        "answer": "9%"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Convert 0.72 to a percentage.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Convert 7/20 to a percentage.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "72%",
+      "35%"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Arrange in ascending order: 0.4, 3/8, 45%",
+        "marks": 2,
+        "answer": "Convert all to decimals: 0.4, 0.375, 0.45 \u2192 order: 3/8 (0.375), 0.4, 45% (0.45)"
+      }
+    ],
+    "common_mistakes": [
+      "Multiplying by 100 without first converting a fraction to a decimal",
+      "Confusing which direction to move the decimal point"
+    ],
+    "tips": [
+      "Whenever comparing mixed forms (fractions, decimals, percentages), convert everything to decimals first."
+    ],
+    "summary": "Converting between percentages, decimals, and fractions relies on multiplying or dividing by 100 as the connecting step.",
+    "quick_revision_notes": [
+      "% \u2194 decimal: \u00d7100 / \u00f7100",
+      "fraction \u2192 %: convert to decimal first, then \u00d7100"
+    ],
+    "related_prerequisite_topics": [
+      "Percentage Basics",
+      "Converting Fractions to Decimals"
+    ],
+    "images": []
+  },
+  {
+    "id": 62,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Percentage Increase",
+    "explanation": "A percentage increase describes how much a quantity has grown, expressed as a percentage of its original value. It is calculated by finding the increase (new value minus original value), dividing by the original value, and multiplying by 100. Percentage increase is widely used for pay rises, population growth, and price changes.",
+    "key_concepts": [
+      "Percentage increase = (increase \u00f7 original) \u00d7 100",
+      "To find a new value directly, multiply the original by (1 + percentage as a decimal)",
+      "Always divide by the ORIGINAL value, not the new value"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Percentage increase",
+        "formula": "% increase = (New - Original)/Original \u00d7 100",
+        "notes": ""
+      },
+      {
+        "name": "Direct multiplier method",
+        "formula": "New value = Original \u00d7 (1 + r/100)",
+        "notes": "r = percentage increase"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A price rises from $80 to $92. Find the percentage increase.",
+        "solution_steps": [
+          "Increase = 92 - 80 = 12",
+          "% increase = 12/80 \u00d7 100"
+        ],
+        "answer": "15%"
+      },
+      {
+        "problem": "A salary of $2,400 increases by 8%. Find the new salary using the multiplier method.",
+        "solution_steps": [
+          "Multiplier = 1 + 8/100 = 1.08",
+          "New salary = 2400 \u00d7 1.08"
+        ],
+        "answer": "$2,592"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A population grows from 500 to 620. Find the percentage increase.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Increase $150 by 12% using the multiplier method.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "24%",
+      "$168 (150\u00d71.12)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A shop's sales rise from $4,500 to $5,220 in one year. Find the percentage increase in sales.",
+        "marks": 2,
+        "answer": "(5220-4500)/4500 \u00d7 100 = 720/4500 \u00d7 100 = 16%"
+      }
+    ],
+    "common_mistakes": [
+      "Dividing by the new value instead of the original value",
+      "Forgetting to multiply by 100 at the end",
+      "Using the wrong multiplier (e.g. 8 instead of 1.08)"
+    ],
+    "tips": [
+      "The multiplier method (Original \u00d7 (1+r/100)) is faster for finding a final new value directly, without needing a separate subtraction step."
+    ],
+    "summary": "Percentage increase measures growth relative to an original value, calculated as (increase/original)\u00d7100 or applied via a multiplier.",
+    "quick_revision_notes": [
+      "% increase = (New-Original)/Original \u00d7 100",
+      "New value = Original \u00d7 (1+r/100)"
+    ],
+    "related_prerequisite_topics": [
+      "Percentage Basics",
+      "Finding Percentages of Quantities"
+    ],
+    "images": []
+  },
+  {
+    "id": 63,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Percentage Decrease",
+    "explanation": "A percentage decrease describes how much a quantity has shrunk, expressed as a percentage of its original value. It is calculated by finding the decrease (original value minus new value), dividing by the original value, and multiplying by 100. Percentage decrease is widely used for discounts, depreciation, and population decline.",
+    "key_concepts": [
+      "Percentage decrease = (decrease \u00f7 original) \u00d7 100",
+      "To find a new value directly, multiply the original by (1 - percentage as a decimal)",
+      "Always divide by the ORIGINAL value, not the new value"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Percentage decrease",
+        "formula": "% decrease = (Original - New)/Original \u00d7 100",
+        "notes": ""
+      },
+      {
+        "name": "Direct multiplier method",
+        "formula": "New value = Original \u00d7 (1 - r/100)",
+        "notes": "r = percentage decrease"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A price falls from $60 to $45. Find the percentage decrease.",
+        "solution_steps": [
+          "Decrease = 60 - 45 = 15",
+          "% decrease = 15/60 \u00d7 100"
+        ],
+        "answer": "25%"
+      },
+      {
+        "problem": "A car worth $18,000 depreciates by 15%. Find its new value using the multiplier method.",
+        "solution_steps": [
+          "Multiplier = 1 - 15/100 = 0.85",
+          "New value = 18000 \u00d7 0.85"
+        ],
+        "answer": "$15,300"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A population falls from 8,000 to 7,040. Find the percentage decrease.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Decrease $250 by 18% using the multiplier method.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "12%",
+      "$205 (250\u00d70.82)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A laptop's price drops from $850 to $722.50. Find the percentage decrease.",
+        "marks": 2,
+        "answer": "(850-722.50)/850 \u00d7 100 = 127.5/850 \u00d7 100 = 15%"
+      }
+    ],
+    "common_mistakes": [
+      "Dividing by the new (smaller) value instead of the original value",
+      "Using multiplier (1+r/100) instead of (1-r/100) for a decrease"
+    ],
+    "tips": [
+      "Always identify the ORIGINAL value first in a word problem \u2014 this is always your denominator, whether increasing or decreasing."
+    ],
+    "summary": "Percentage decrease measures reduction relative to an original value, calculated as (decrease/original)\u00d7100 or applied via a multiplier.",
+    "quick_revision_notes": [
+      "% decrease = (Original-New)/Original \u00d7 100",
+      "New value = Original \u00d7 (1-r/100)"
+    ],
+    "related_prerequisite_topics": [
+      "Percentage Basics",
+      "Percentage Increase"
+    ],
+    "images": []
+  },
+  {
+    "id": 64,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Percentage Change",
+    "explanation": "Percentage change is a general term covering both percentage increase and percentage decrease, always calculated relative to the original value. A positive result indicates an increase; a negative result indicates a decrease. This unified formula is useful when you don't know in advance whether a value has gone up or down.",
+    "key_concepts": [
+      "Percentage change = (New - Original)/Original \u00d7 100",
+      "A positive result means an increase; a negative result means a decrease",
+      "Same formula works for both increases and decreases \u2014 just interpret the sign"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Percentage change",
+        "formula": "% change = (New - Original)/Original \u00d7 100",
+        "notes": "Positive = increase, negative = decrease"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A stock price moves from $50 to $42. Find the percentage change.",
+        "solution_steps": [
+          "(42-50)/50 \u00d7 100 = -8/50 \u00d7 100 = -16"
+        ],
+        "answer": "-16% (a 16% decrease)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the percentage change when a value goes from 200 to 250.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the percentage change when a value goes from 90 to 63.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "+25% (an increase)",
+      "-30% (a decrease)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A company's profit changes from $120,000 to $102,000. State the percentage change and describe whether it is an increase or decrease.",
+        "marks": 2,
+        "answer": "(102000-120000)/120000\u00d7100 = -15%. This is a 15% decrease."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to interpret the sign of the result (negative = decrease)",
+      "Dividing by the new value instead of the original"
+    ],
+    "tips": [
+      "Percentage change is just a signed version of increase/decrease \u2014 use it when you're not told in advance whether the value went up or down."
+    ],
+    "summary": "Percentage change unifies increase and decrease into one formula: (New-Original)/Original \u00d7 100, with the sign indicating direction.",
+    "quick_revision_notes": [
+      "% change = (New-Original)/Original \u00d7 100",
+      "Sign shows direction"
+    ],
+    "related_prerequisite_topics": [
+      "Percentage Increase",
+      "Percentage Decrease"
+    ],
+    "images": []
+  },
+  {
+    "id": 65,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Finding Percentages of Quantities",
+    "explanation": "Finding a percentage of a quantity means calculating what that percentage represents in real terms. This is done by converting the percentage to a decimal (or fraction) and multiplying it by the quantity. This skill underlies tax calculations, discounts, tips, and statistics.",
+    "key_concepts": [
+      "Convert the percentage to a decimal, then multiply by the quantity",
+      "Alternatively, convert to a fraction (over 100) and multiply",
+      "Useful shortcut: find 10% by dividing by 10, then scale up or down as needed"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Percentage of a quantity",
+        "formula": "x% of N = (x/100) \u00d7 N",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find 15% of 240.",
+        "solution_steps": [
+          "Convert to decimal: 15% = 0.15",
+          "Multiply: 0.15 \u00d7 240 = 36"
+        ],
+        "answer": "36"
+      },
+      {
+        "problem": "Find 17.5% of 80 using the 10% shortcut method.",
+        "solution_steps": [
+          "10% of 80 = 8",
+          "5% of 80 = 4 (half of 10%)",
+          "2.5% of 80 = 2 (half of 5%)",
+          "17.5% = 10% + 5% + 2.5% = 8 + 4 + 2"
+        ],
+        "answer": "14"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find 25% of 160.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find 8% of 350.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find 32.5% of 200 using the 10% shortcut method.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "40",
+      "28",
+      "65"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A meal costs $64 before a 12.5% service charge is added. Find the amount of the service charge.",
+        "marks": 2,
+        "answer": "12.5% of 64 = 0.125 \u00d7 64 = $8"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to convert the percentage to a decimal before multiplying",
+      "Using the wrong quantity as the base value"
+    ],
+    "tips": [
+      "The '10% method' (find 10% by dividing by 10, then build up other percentages from it) is a fast, reliable mental-maths technique."
+    ],
+    "summary": "Finding a percentage of a quantity means converting the percentage to a decimal and multiplying by the quantity.",
+    "quick_revision_notes": [
+      "x% of N = (x/100)\u00d7N",
+      "10% shortcut: divide by 10, then scale"
+    ],
+    "related_prerequisite_topics": [
+      "Percentage Basics",
+      "Multiplying Fractions"
+    ],
+    "images": []
+  },
+  {
+    "id": 66,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Reverse Percentages",
+    "explanation": "Reverse percentage problems (also called 'finding the original amount') work backward from a final value and a known percentage to find the original value before an increase or decrease was applied. This requires dividing by the appropriate multiplier rather than multiplying.",
+    "key_concepts": [
+      "If a value increased by r%, the new value = Original \u00d7 (1 + r/100), so Original = New \u00f7 (1 + r/100)",
+      "If a value decreased by r%, the new value = Original \u00d7 (1 - r/100), so Original = New \u00f7 (1 - r/100)",
+      "A common mistake is to apply the percentage to the NEW value instead of reversing the multiplier"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Reverse percentage (increase)",
+        "formula": "Original = New \u00f7 (1 + r/100)",
+        "notes": ""
+      },
+      {
+        "name": "Reverse percentage (decrease)",
+        "formula": "Original = New \u00f7 (1 - r/100)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "After a 20% increase, a price is $96. Find the original price.",
+        "solution_steps": [
+          "Multiplier = 1 + 20/100 = 1.2",
+          "Original = 96 \u00f7 1.2"
+        ],
+        "answer": "$80"
+      },
+      {
+        "problem": "After a 15% discount, an item costs $68. Find the original price.",
+        "solution_steps": [
+          "Multiplier = 1 - 15/100 = 0.85",
+          "Original = 68 \u00f7 0.85"
+        ],
+        "answer": "$80"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "After a 25% increase, a value is 150. Find the original value.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "After a 30% decrease, a value is 84. Find the original value.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "120 (150\u00f71.25)",
+      "120 (84\u00f70.7)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A jacket is on sale for $56 after a 30% discount. Find the original price of the jacket.",
+        "marks": 3,
+        "answer": "Original = 56 \u00f7 0.7 = $80"
+      }
+    ],
+    "common_mistakes": [
+      "Incorrectly finding 20% of the new value and adding/subtracting it from the new value, instead of dividing by the correct multiplier",
+      "Using the wrong multiplier direction (adding instead of subtracting, or vice versa)"
+    ],
+    "tips": [
+      "Reverse percentage problems always require DIVISION by the multiplier, never multiplication \u2014 this is the single most important thing to remember."
+    ],
+    "summary": "Reverse percentages find an original value by dividing a known final value by the appropriate percentage multiplier.",
+    "quick_revision_notes": [
+      "Increase: Original = New \u00f7 (1+r/100)",
+      "Decrease: Original = New \u00f7 (1-r/100)"
+    ],
+    "related_prerequisite_topics": [
+      "Percentage Increase",
+      "Percentage Decrease"
+    ],
+    "images": []
+  },
+  {
+    "id": 67,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Percentage Error",
+    "explanation": "Percentage error measures how far a measured or estimated value is from the true (actual) value, expressed as a percentage of the true value. It is commonly used in science and engineering to assess the accuracy of measurements and estimates.",
+    "key_concepts": [
+      "Percentage error compares an estimated/measured value to the true value",
+      "Always divide by the TRUE (actual) value, not the estimated one",
+      "Often expressed as an absolute value (ignoring direction), unless direction matters"
+    ],
+    "definitions": [
+      {
+        "term": "Percentage Error",
+        "definition": "The size of an error in a measurement or estimate, expressed as a percentage of the true value."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Percentage error",
+        "formula": "% error = |Measured - True|/True \u00d7 100",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A length is measured as 24.3 cm, but the true length is 24 cm. Find the percentage error.",
+        "solution_steps": [
+          "Error = |24.3 - 24| = 0.3",
+          "% error = 0.3/24 \u00d7 100"
+        ],
+        "answer": "1.25%"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A recipe estimate says a cake takes 45 minutes, but it actually takes 50 minutes. Find the percentage error.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A scale reads a mass as 102 g when the true mass is 100 g. Find the percentage error.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "10% (5/50\u00d7100, dividing by the TRUE value of 50)",
+      "2%"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A student estimates the area of a field as 500 m\u00b2, but the true area is 480 m\u00b2. Calculate the percentage error in the estimate.",
+        "marks": 2,
+        "answer": "|500-480|/480 \u00d7 100 = 20/480 \u00d7 100 \u2248 4.17%"
+      }
+    ],
+    "common_mistakes": [
+      "Dividing by the measured/estimated value instead of the true value",
+      "Forgetting to take the absolute value (getting a negative percentage error when direction isn't asked for)"
+    ],
+    "tips": [
+      "Identify which value is the 'true' or 'actual' value in the question \u2014 this always goes in the denominator."
+    ],
+    "summary": "Percentage error expresses how far a measured value deviates from the true value, calculated relative to the true value.",
+    "quick_revision_notes": [
+      "% error = |Measured-True|/True \u00d7 100"
+    ],
+    "related_prerequisite_topics": [
+      "Percentage Basics",
+      "Rounding Decimals"
+    ],
+    "images": []
+  },
+  {
+    "id": 68,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Profit and Loss",
+    "explanation": "Profit and loss describe the financial outcome of buying and selling goods. Profit occurs when the selling price is higher than the cost price; loss occurs when the selling price is lower. Profit and loss are often expressed as a percentage of the cost price to allow fair comparison between different transactions.",
+    "key_concepts": [
+      "Profit = Selling Price - Cost Price (when selling price > cost price)",
+      "Loss = Cost Price - Selling Price (when cost price > selling price)",
+      "Percentage profit/loss is calculated relative to the COST price",
+      "Same underlying formula as percentage increase/decrease"
+    ],
+    "definitions": [
+      {
+        "term": "Cost Price (CP)",
+        "definition": "The price at which an item was originally bought or produced."
+      },
+      {
+        "term": "Selling Price (SP)",
+        "definition": "The price at which an item is sold."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Percentage profit",
+        "formula": "% profit = (SP - CP)/CP \u00d7 100",
+        "notes": ""
+      },
+      {
+        "name": "Percentage loss",
+        "formula": "% loss = (CP - SP)/CP \u00d7 100",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "An item is bought for $40 and sold for $52. Find the percentage profit.",
+        "solution_steps": [
+          "Profit = 52-40 = 12",
+          "% profit = 12/40 \u00d7 100"
+        ],
+        "answer": "30%"
+      },
+      {
+        "problem": "A bike is bought for $250 and sold for $210. Find the percentage loss.",
+        "solution_steps": [
+          "Loss = 250-210 = 40",
+          "% loss = 40/250 \u00d7 100"
+        ],
+        "answer": "16%"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "An item costing $60 is sold for $75. Find the percentage profit.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A phone bought for $500 is sold for $425. Find the percentage loss.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "25%",
+      "15%"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A trader buys 50 items at $8 each and sells them all for $10 each. Find the total profit and the percentage profit.",
+        "marks": 4,
+        "answer": "Total CP=400, Total SP=500. Profit=100. % profit = 100/400\u00d7100 = 25%"
+      }
+    ],
+    "common_mistakes": [
+      "Calculating percentage profit/loss relative to the selling price instead of the cost price",
+      "Confusing profit and loss when selling price and cost price are close"
+    ],
+    "tips": [
+      "Percentage profit/loss ALWAYS uses cost price as the base (denominator) \u2014 the same rule as reverse percentages."
+    ],
+    "summary": "Profit and loss compare selling price to cost price; percentage profit/loss is always calculated relative to the cost price.",
+    "quick_revision_notes": [
+      "% profit = (SP-CP)/CP \u00d7 100",
+      "% loss = (CP-SP)/CP \u00d7 100"
+    ],
+    "related_prerequisite_topics": [
+      "Percentage Increase",
+      "Percentage Decrease",
+      "Percentage Basics"
+    ],
+    "images": []
+  },
+  {
+    "id": 69,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Discounts",
+    "explanation": "A discount is a reduction in the original price of an item, usually expressed as a percentage. The discount amount is subtracted from the original (marked) price to give the sale price. Discount problems use the same percentage decrease techniques covered earlier.",
+    "key_concepts": [
+      "Discount amount = Percentage discount \u00d7 Original price",
+      "Sale price = Original price - Discount amount",
+      "Equivalent to applying a percentage decrease using the multiplier (1 - r/100)",
+      "Successive discounts are NOT simply added together (they compound)"
+    ],
+    "definitions": [
+      {
+        "term": "Discount",
+        "definition": "A reduction in price, typically expressed as a percentage of the original price."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Sale price",
+        "formula": "Sale Price = Original Price \u00d7 (1 - discount%/100)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A $120 jacket is discounted by 25%. Find the sale price.",
+        "solution_steps": [
+          "Multiplier = 1 - 25/100 = 0.75",
+          "Sale price = 120 \u00d7 0.75"
+        ],
+        "answer": "$90"
+      },
+      {
+        "problem": "A $200 item has a 10% discount applied, followed by an additional 10% discount. Find the final price.",
+        "solution_steps": [
+          "After first discount: 200 \u00d7 0.9 = 180",
+          "After second discount: 180 \u00d7 0.9 = 162",
+          "Note: this is NOT the same as a single 20% discount (which would give 200\u00d70.8=160)"
+        ],
+        "answer": "$162"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A $80 item is discounted by 15%. Find the sale price.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A $150 item has two successive discounts of 20% and 10%. Find the final price.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "$68",
+      "$108 (150\u00d70.8\u00d70.9)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A store advertises 'Extra 15% off already reduced prices.' An item's original price was $100, and it was first reduced by 30%. Find the final price after both reductions.",
+        "marks": 3,
+        "answer": "100 \u00d7 0.7 = 70, then 70 \u00d7 0.85 = $59.50"
+      }
+    ],
+    "common_mistakes": [
+      "Adding successive percentage discounts together instead of applying them one after another (compounding)",
+      "Calculating the discount amount but forgetting to subtract it from the original price"
+    ],
+    "tips": [
+      "Successive discounts should be applied one at a time, each to the new (already-discounted) price, not added together."
+    ],
+    "summary": "Discounts reduce a price by a percentage; multiple discounts compound rather than add, so they must be applied successively.",
+    "quick_revision_notes": [
+      "Sale Price = Original \u00d7 (1 - r/100)",
+      "Successive discounts compound, don't add"
+    ],
+    "related_prerequisite_topics": [
+      "Percentage Decrease",
+      "Percentage Basics"
+    ],
+    "images": []
+  },
+  {
+    "id": 70,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Markups",
+    "explanation": "A markup is an increase applied to the cost price of an item to determine its selling price, usually expressed as a percentage. Markups are used by businesses to ensure they cover costs and make a profit. Markup problems use the same percentage increase techniques covered earlier, but the percentage is applied to the cost price specifically.",
+    "key_concepts": [
+      "Markup amount = Percentage markup \u00d7 Cost price",
+      "Selling price = Cost price + Markup amount",
+      "Equivalent to applying a percentage increase using the multiplier (1 + r/100)",
+      "Markup percentage is calculated relative to cost price, similar to percentage profit"
+    ],
+    "definitions": [
+      {
+        "term": "Markup",
+        "definition": "An amount added to the cost price of an item to set its selling price, typically expressed as a percentage of the cost price."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Selling price with markup",
+        "formula": "Selling Price = Cost Price \u00d7 (1 + markup%/100)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A wholesaler buys an item for $30 and applies a 40% markup. Find the selling price.",
+        "solution_steps": [
+          "Multiplier = 1 + 40/100 = 1.4",
+          "Selling price = 30 \u00d7 1.4"
+        ],
+        "answer": "$42"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A retailer buys a product for $25 and applies a 60% markup. Find the selling price.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "An item costs $18 to make and is sold for $23.40. Find the percentage markup.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "$40",
+      "30% ((23.40-18)/18 \u00d7 100)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A shop buys pens for $2 each and wants a 75% markup. Find the selling price per pen, and the total revenue from selling 200 pens.",
+        "marks": 3,
+        "answer": "Selling price = 2 \u00d7 1.75 = $3.50. Total revenue = 200 \u00d7 3.50 = $700"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing markup (based on cost price) with margin (sometimes based on selling price) \u2014 always clarify which base is used",
+      "Adding the markup amount incorrectly"
+    ],
+    "tips": [
+      "Markup and percentage profit use the same formula structure \u2014 both are typically based on cost price unless stated otherwise."
+    ],
+    "summary": "A markup increases the cost price by a percentage to determine the selling price, calculated using the same method as percentage increase.",
+    "quick_revision_notes": [
+      "Selling Price = Cost Price \u00d7 (1+r/100)"
+    ],
+    "related_prerequisite_topics": [
+      "Percentage Increase",
+      "Profit and Loss"
+    ],
+    "images": []
+  },
+  {
+    "id": 71,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Commission",
+    "explanation": "Commission is a payment made to a salesperson or agent, calculated as a percentage of the value of sales they make. It is a common way to incentivize sales performance. Commission problems apply the 'percentage of a quantity' technique to sales figures.",
+    "key_concepts": [
+      "Commission = Percentage rate \u00d7 Total sales value",
+      "Some jobs pay a base salary PLUS commission",
+      "Commission rates can vary depending on sales tiers (e.g. higher rate for sales above a threshold)"
+    ],
+    "definitions": [
+      {
+        "term": "Commission",
+        "definition": "Payment calculated as a percentage of the value of sales made, often used to reward sales performance."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Commission earned",
+        "formula": "Commission = (rate/100) \u00d7 Sales value",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A salesperson earns 6% commission on sales. They sell $8,500 worth of goods in a month. Find their commission.",
+        "solution_steps": [
+          "Commission = 0.06 \u00d7 8500"
+        ],
+        "answer": "$510"
+      },
+      {
+        "problem": "An agent earns a base salary of $1,200 plus 4% commission on sales of $15,000. Find their total earnings.",
+        "solution_steps": [
+          "Commission = 0.04 \u00d7 15000 = 600",
+          "Total = 1200 + 600"
+        ],
+        "answer": "$1,800"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A real estate agent earns 2.5% commission on a house sale of $340,000. Find the commission.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A salesperson earns a $500 base salary plus 5% commission on $6,000 of sales. Find their total pay.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "$8,500",
+      "$800 (500 + 300)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A car salesperson earns 3% commission on the first $20,000 of sales and 5% on anything above that. Find their total commission on $32,000 of sales.",
+        "marks": 4,
+        "answer": "3% of 20,000 = 600. 5% of (32,000-20,000)=5% of 12,000=600. Total commission = 600+600 = $1,200"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to add a base salary if one applies",
+      "Applying a single flat rate when tiered rates should be used"
+    ],
+    "tips": [
+      "Read tiered commission problems carefully \u2014 identify exactly which portion of sales each rate applies to before calculating."
+    ],
+    "summary": "Commission is a percentage-based payment on sales value, sometimes combined with a base salary or tiered rates.",
+    "quick_revision_notes": [
+      "Commission = (rate/100) \u00d7 Sales",
+      "Watch for base salary + commission or tiered rates"
+    ],
+    "related_prerequisite_topics": [
+      "Finding Percentages of Quantities"
+    ],
+    "images": []
+  },
+  {
+    "id": 72,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Simple Interest",
+    "explanation": "Simple interest is interest calculated only on the original principal amount, not on any interest that has already accrued. It grows by the same fixed amount each period, making it 'linear' over time. Simple interest is commonly used for short-term loans and some savings products.",
+    "key_concepts": [
+      "Simple interest is calculated only on the original principal",
+      "Interest amount is the same every period (linear growth)",
+      "Formula: I = PRT/100 (Principal \u00d7 Rate \u00d7 Time, divided by 100 if rate is a percentage)",
+      "Total amount after simple interest = Principal + Interest"
+    ],
+    "definitions": [
+      {
+        "term": "Principal (P)",
+        "definition": "The original amount of money invested or borrowed."
+      },
+      {
+        "term": "Simple Interest",
+        "definition": "Interest calculated only on the original principal amount, remaining constant each period."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Simple interest",
+        "formula": "I = (P \u00d7 R \u00d7 T) / 100",
+        "notes": "P=principal, R=rate per period (%), T=number of periods"
+      },
+      {
+        "name": "Total amount",
+        "formula": "A = P + I",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the simple interest on $2,000 invested at 5% per year for 3 years.",
+        "solution_steps": [
+          "I = (2000 \u00d7 5 \u00d7 3)/100 = 30000/100"
+        ],
+        "answer": "$300"
+      },
+      {
+        "problem": "Find the total amount after 4 years if $1,500 is invested at 6% simple interest per year.",
+        "solution_steps": [
+          "I = (1500 \u00d7 6 \u00d7 4)/100 = 36000/100 = 360",
+          "A = 1500 + 360"
+        ],
+        "answer": "$1,860"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the simple interest on $3,000 at 4% per year for 5 years.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A loan of $5,000 accrues simple interest at 7% per year. Find the total amount owed after 2 years.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "$600",
+      "$5,700 (5000 + 700)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "An investment of $4,500 earns simple interest and grows to $5,850 after 5 years. Find the annual interest rate.",
+        "marks": 3,
+        "answer": "I = 5850-4500 = 1350. R = (I\u00d7100)/(P\u00d7T) = (1350\u00d7100)/(4500\u00d75) = 135000/22500 = 6%"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to divide by 100 when the rate is a percentage",
+      "Confusing simple interest with compound interest (assuming interest earns further interest)",
+      "Adding the interest incorrectly to find the total amount"
+    ],
+    "tips": [
+      "With simple interest, the interest earned each year is always the same amount \u2014 a quick check is to divide total interest by the number of years."
+    ],
+    "summary": "Simple interest is calculated only on the original principal, growing by a constant amount each period: I = PRT/100.",
+    "quick_revision_notes": [
+      "I = PRT/100",
+      "A = P + I",
+      "Grows linearly (same amount each period)"
+    ],
+    "related_prerequisite_topics": [
+      "Percentage Basics",
+      "Finding Percentages of Quantities"
+    ],
+    "images": []
+  },
+  {
+    "id": 73,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Compound Interest",
+    "explanation": "Compound interest is interest calculated on both the original principal AND any interest already earned in previous periods. This means the amount grows faster over time compared to simple interest, because interest is earned 'on interest.' Compound interest is used in most savings accounts, investments, and long-term loans.",
+    "key_concepts": [
+      "Compound interest is calculated on the current total (principal + accumulated interest), not just the original principal",
+      "Formula: A = P(1 + r/100)\u207f, where n is the number of compounding periods",
+      "Grows exponentially (faster than simple interest) over time",
+      "The compounding frequency (annually, monthly, etc.) affects the total"
+    ],
+    "definitions": [
+      {
+        "term": "Compound Interest",
+        "definition": "Interest calculated on the accumulated principal and previously earned interest, causing exponential growth."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Compound interest amount",
+        "formula": "A = P(1 + r/100)\u207f",
+        "notes": "P=principal, r=rate per period (%), n=number of periods"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the amount after 3 years if $2,000 is invested at 5% compound interest per year.",
+        "solution_steps": [
+          "A = 2000 \u00d7 (1 + 5/100)\u00b3",
+          "A = 2000 \u00d7 (1.05)\u00b3",
+          "A = 2000 \u00d7 1.157625"
+        ],
+        "answer": "$2,315.25"
+      },
+      {
+        "problem": "Find the compound interest earned (not just total amount) on $1,000 at 10% per year for 2 years.",
+        "solution_steps": [
+          "A = 1000 \u00d7 (1.1)\u00b2 = 1000 \u00d7 1.21 = 1210",
+          "Interest = A - P = 1210 - 1000"
+        ],
+        "answer": "$210"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the amount after 2 years if $5,000 is invested at 8% compound interest per year.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find the compound interest earned on $3,000 at 4% per year over 3 years.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "$5,832 (5000\u00d71.08\u00b2)",
+      "$374.59 (3000\u00d71.04\u00b3-3000 = 3374.59-3000)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "$6,000 is invested at 6% compound interest per year for 4 years. Calculate the total amount, giving your answer to the nearest cent.",
+        "marks": 4,
+        "answer": "A = 6000 \u00d7 (1.06)\u2074 = 6000 \u00d7 1.26247696 \u2248 $7,574.86"
+      }
+    ],
+    "common_mistakes": [
+      "Using the simple interest formula (I=PRT/100) instead of the compound formula",
+      "Forgetting to raise the multiplier to the power of n (using n as a multiplier instead of an exponent)",
+      "Confusing the final amount A with the interest earned (interest = A - P)"
+    ],
+    "tips": [
+      "Compound interest always earns more than simple interest over more than one period \u2014 remember the growth is exponential, not linear."
+    ],
+    "summary": "Compound interest grows on both principal and accumulated interest, calculated with A = P(1+r/100)\u207f, resulting in exponential growth.",
+    "quick_revision_notes": [
+      "A = P(1+r/100)\u207f",
+      "Interest = A - P",
+      "Exponential (faster) growth vs simple interest"
+    ],
+    "related_prerequisite_topics": [
+      "Simple Interest",
+      "Exponential Growth",
+      "Percentage Increase"
+    ],
+    "images": []
+  },
+  {
+    "id": 74,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Depreciation",
+    "explanation": "Depreciation is the decrease in value of an asset (such as a car or equipment) over time, often expressed as a percentage per year. Depreciation is typically calculated in the same way as compound interest, but as a percentage decrease each period rather than an increase.",
+    "key_concepts": [
+      "Depreciation reduces value by a percentage each period",
+      "Formula: A = P(1 - r/100)\u207f, similar to compound interest but with subtraction",
+      "'Straight-line' depreciation (constant amount each year) is a simpler, less common alternative to percentage depreciation",
+      "Used for vehicles, electronics, and other assets that lose value over time"
+    ],
+    "definitions": [
+      {
+        "term": "Depreciation",
+        "definition": "The reduction in value of an asset over time, often expressed as a percentage decrease per period."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Depreciation amount",
+        "formula": "A = P(1 - r/100)\u207f",
+        "notes": "P=original value, r=depreciation rate per period (%), n=number of periods"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A car worth $25,000 depreciates by 12% per year. Find its value after 3 years.",
+        "solution_steps": [
+          "A = 25000 \u00d7 (1 - 12/100)\u00b3",
+          "A = 25000 \u00d7 (0.88)\u00b3",
+          "A = 25000 \u00d7 0.681472"
+        ],
+        "answer": "$17,036.80"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A machine worth $8,000 depreciates by 10% per year. Find its value after 2 years.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A laptop worth $1,200 depreciates by 20% per year. Find its value after 3 years.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "$6,480 (8000\u00d70.9\u00b2)",
+      "$614.40 (1200\u00d70.8\u00b3)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A van is bought for $18,000 and depreciates at 15% per year. Find its value after 4 years, to the nearest dollar.",
+        "marks": 4,
+        "answer": "18000 \u00d7 (0.85)\u2074 \u2248 18000 \u00d7 0.52200625 \u2248 $9,396"
+      }
+    ],
+    "common_mistakes": [
+      "Using (1+r/100) instead of (1-r/100) for depreciation",
+      "Applying depreciation to the original value each year instead of the reducing balance"
+    ],
+    "tips": [
+      "Depreciation is the mirror image of compound interest \u2014 same formula structure, but subtracting instead of adding the rate."
+    ],
+    "summary": "Depreciation models the percentage decrease in an asset's value over time, calculated with A = P(1-r/100)\u207f.",
+    "quick_revision_notes": [
+      "A = P(1-r/100)\u207f",
+      "Mirror of compound interest formula"
+    ],
+    "related_prerequisite_topics": [
+      "Compound Interest",
+      "Percentage Decrease",
+      "Exponential Decay"
+    ],
+    "images": []
+  },
+  {
+    "id": 75,
+    "category": "Fractions, Decimals & Percentages",
+    "topic": "Growth and Decay",
+    "explanation": "Growth and decay problems model quantities that increase or decrease repeatedly by a fixed percentage over time, such as population growth, radioactive decay, or investment growth. Both follow the same general formula as compound interest/depreciation, generalized to any context beyond money.",
+    "key_concepts": [
+      "Exponential growth: A = P(1 + r/100)\u207f",
+      "Exponential decay: A = P(1 - r/100)\u207f",
+      "Applies to populations, bacteria, radioactivity, investments, and depreciating assets",
+      "The base (1 \u00b1 r/100) is called the growth/decay factor"
+    ],
+    "definitions": [
+      {
+        "term": "Exponential Growth",
+        "definition": "Growth where a quantity increases by a fixed percentage of its current value over repeated periods."
+      },
+      {
+        "term": "Exponential Decay",
+        "definition": "Decay where a quantity decreases by a fixed percentage of its current value over repeated periods."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Growth",
+        "formula": "A = P(1 + r/100)\u207f",
+        "notes": ""
+      },
+      {
+        "name": "Decay",
+        "formula": "A = P(1 - r/100)\u207f",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A bacteria population of 500 grows by 20% every hour. Find the population after 4 hours.",
+        "solution_steps": [
+          "A = 500 \u00d7 (1.2)\u2074",
+          "A = 500 \u00d7 2.0736"
+        ],
+        "answer": "1,036.8 \u2192 approximately 1,037 bacteria"
+      },
+      {
+        "problem": "A radioactive sample of mass 80g decays by 8% per year. Find the mass remaining after 5 years, to 1 decimal place.",
+        "solution_steps": [
+          "A = 80 \u00d7 (0.92)\u2075",
+          "A = 80 \u00d7 0.6591 (approximately)"
+        ],
+        "answer": "\u2248 52.7 g"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A town's population of 12,000 grows by 3% per year. Find the population after 5 years, to the nearest whole number.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A chemical sample of 200g decays by 15% per hour. Find the mass remaining after 3 hours.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "\u224813,912",
+      "\u2248122.7g (200\u00d70.85\u00b3)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A car valued at $22,000 loses 18% of its value each year. Find its value after 5 years, and state after how many whole years its value first drops below $10,000.",
+        "marks": 5,
+        "answer": "Value after 5 years: 22000\u00d7(0.82)^5 \u2248 $8,082 (already below 10,000 by year 5). Checking year by year: year 4 \u2248 $9,856, so the value first drops below $10,000 during year 4."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing growth and decay factors (using +r/100 for decay, or vice versa)",
+      "Rounding too early in multi-step calculations, causing inaccurate final answers",
+      "Forgetting these formulas are the generalized version of compound interest/depreciation, applicable beyond money contexts"
+    ],
+    "tips": [
+      "Growth and decay problems are just compound interest/depreciation formulas applied to any real-world quantity \u2014 the underlying maths is identical."
+    ],
+    "summary": "Growth and decay model repeated percentage increase/decrease using A = P(1\u00b1r/100)\u207f, applicable to populations, radioactivity, and finance alike.",
+    "quick_revision_notes": [
+      "Growth: A=P(1+r/100)\u207f",
+      "Decay: A=P(1-r/100)\u207f",
+      "Same structure as compound interest/depreciation"
+    ],
+    "related_prerequisite_topics": [
+      "Compound Interest",
+      "Depreciation",
+      "Exponential Growth",
+      "Exponential Decay"
+    ],
+    "images": []
+  }
+]

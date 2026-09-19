@@ -1,0 +1,1734 @@
+[
+  {
+    "id": "phy-096",
+    "subject": "Physics",
+    "category": "Fluids and Pressure",
+    "title": "Atmospheric Pressure",
+    "difficulty": "Foundational",
+    "description": "The pressure exerted at a point by the weight of the column of air in the atmosphere above it.",
+    "learning_objectives": [
+      "Explain the cause of atmospheric pressure",
+      "Describe how atmospheric pressure changes with altitude",
+      "State the approximate value of atmospheric pressure at sea level"
+    ],
+    "explanation": "Atmospheric pressure is the pressure exerted at a given point by the weight of the entire column of air in the Earth's atmosphere sitting above that point, pressing down due to gravity. At sea level, atmospheric pressure is approximately 101,000 Pa (101 kPa), often also expressed as 101,325 Pa or approximately 1 atmosphere (atm) as a convenient reference unit. As altitude increases, there is progressively less air remaining above a given point (since some of the atmosphere is now below), so atmospheric pressure decreases with increasing altitude — this is why the air becomes noticeably 'thinner' at high altitude, such as on a tall mountain, and why aircraft cabins must be pressurised to maintain a survivable pressure for passengers at cruising altitude. Atmospheric pressure also varies somewhat with weather conditions at a given altitude, which is the basis for using barometers (pressure-measuring instruments) in weather forecasting.",
+    "key_concepts": [
+      "Caused by the weight of air above a point",
+      "Decreases with increasing altitude",
+      "Approximately 101,000 Pa (101 kPa) at sea level"
+    ],
+    "definitions": [
+      {
+        "term": "Atmospheric pressure",
+        "definition": "The pressure exerted at a point by the weight of the column of air in the atmosphere above it."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "pressure",
+        "si_unit": "pascal",
+        "symbol": "Pa"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain why a mountaineer climbing a very tall mountain experiences a noticeable drop in atmospheric pressure, and why this can make breathing more difficult.",
+        "steps": [
+          "As the mountaineer climbs to a higher altitude, there is progressively less air remaining above them in the atmosphere.",
+          "Since atmospheric pressure is caused by the weight of the air above a point, less air above means a lower atmospheric pressure.",
+          "Lower atmospheric pressure means the air is less dense, so each breath draws in fewer oxygen molecules than at sea level, making breathing feel more difficult and requiring the body to work harder to obtain sufficient oxygen."
+        ],
+        "answer": "Atmospheric pressure decreases at higher altitude because there is less air above the mountaineer; the resulting lower air density means fewer oxygen molecules are available per breath, making breathing more difficult."
+      }
+    ],
+    "practical_applications": [
+      "Aircraft cabin pressurisation, maintaining a survivable pressure at high cruising altitude",
+      "Weather forecasting, using barometric pressure changes to predict incoming weather systems",
+      "Altitude sickness prevention, understanding the physiological effects of reduced atmospheric pressure"
+    ],
+    "common_mistakes": [
+      "Assuming atmospheric pressure is constant everywhere on Earth's surface, ignoring its dependence on altitude and weather",
+      "Confusing atmospheric pressure (caused by air) with liquid pressure (caused by a liquid), even though both follow a similar underlying principle"
+    ],
+    "misconceptions": [
+      "That there is no air, and therefore no atmospheric pressure, at high altitudes such as mountain summits — air is still present at high altitude, just less dense (and therefore at a lower pressure) than at sea level, rather than being entirely absent."
+    ],
+    "tips": [
+      "Remember the core principle: atmospheric pressure at a point is caused by the weight of all the air sitting above that specific point, so higher altitude always means lower atmospheric pressure."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the approximate value of atmospheric pressure at sea level."
+      ],
+      "intermediate": [
+        "Explain why atmospheric pressure decreases with increasing altitude."
+      ],
+      "advanced": [
+        "Explain why aircraft flying at high cruising altitude must have pressurised cabins for passenger safety and comfort."
+      ]
+    },
+    "exam_questions": [
+      "Explain what causes atmospheric pressure, and describe how it changes with altitude."
+    ],
+    "answers": {
+      "basic": [
+        "Approximately 101,000 Pa (101 kPa)."
+      ],
+      "intermediate": [
+        "At higher altitude, there is less air remaining above that point in the atmosphere; since atmospheric pressure is caused by the weight of this overlying air, less air above results in lower atmospheric pressure."
+      ],
+      "advanced": [
+        "At typical cruising altitudes, the outside atmospheric pressure is far too low to allow passengers to breathe normally or remain comfortable and healthy; pressurising the cabin maintains an internal pressure much closer to that found at or near sea level, allowing passengers and crew to breathe normally without needing supplemental oxygen or experiencing the physiological effects of very low pressure."
+      ],
+      "exam": [
+        "Atmospheric pressure is caused by the weight of the column of air in the atmosphere pressing down at a given point due to gravity; it decreases with increasing altitude, since there is progressively less air remaining above a point as altitude increases."
+      ]
+    },
+    "summary": "Atmospheric pressure is caused by the weight of the air above a given point, and is approximately 101,000 Pa at sea level. It decreases with increasing altitude, since less air remains above at higher elevations.",
+    "revision_notes": [
+      "Caused by weight of air above a point",
+      "~101,000 Pa (101 kPa) at sea level",
+      "Decreases with altitude"
+    ],
+    "related_topics": [
+      "Pressure",
+      "Pressure in Liquids",
+      "Density"
+    ],
+    "prerequisites": [
+      "Pressure"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A graph of atmospheric pressure against altitude, showing a decreasing curve]"
+    ],
+    "images": [
+      {
+        "filename": "physics-atmospheric-pressure-096-01.webp",
+        "type": "graph",
+        "description": "A graph with altitude (km) on the vertical axis and atmospheric pressure (kPa) on the horizontal axis, showing a smooth curve decreasing from about 101 kPa at sea level as altitude increases.",
+        "purpose": "Shows quantitatively and visually how atmospheric pressure falls off with altitude, reinforcing the qualitative explanation given in the text.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-097",
+    "subject": "Physics",
+    "category": "Fluids and Pressure",
+    "title": "Pascal's Principle",
+    "difficulty": "Intermediate",
+    "description": "The principle that pressure applied to an enclosed liquid is transmitted equally throughout that liquid in all directions.",
+    "learning_objectives": [
+      "State Pascal's principle",
+      "Explain how Pascal's principle enables force multiplication in hydraulic systems",
+      "Apply Pascal's principle to simple enclosed-liquid problems"
+    ],
+    "explanation": "Pascal's principle states that pressure applied to an enclosed liquid is transmitted equally throughout that liquid, and acts equally in all directions on the walls of its container. This occurs because liquid particles are free to move relative to each other but cannot easily be compressed (liquids are considered essentially incompressible for these purposes), meaning any additional pressure applied at one point is passed on, undiminished, to every other point within the connected liquid, in every direction, almost instantaneously. This principle underlies the operation of all hydraulic machines: since pressure = force / area, applying a given pressure to a large-area piston elsewhere in the same enclosed liquid produces a correspondingly large force there, even if the original applied force (on a smaller piston) was much smaller — this is explored quantitatively in Hydraulic Machines. Pascal's principle also explains why liquid pressure at a given depth depends only on that depth and the liquid's density, not on the shape of the container, since pressure passed sideways through the liquid must be consistent throughout.",
+    "key_concepts": [
+      "Pressure applied to an enclosed liquid is transmitted equally, in all directions",
+      "Relies on liquids being (essentially) incompressible",
+      "Basis for force multiplication in hydraulic systems"
+    ],
+    "definitions": [
+      {
+        "term": "Pascal's principle",
+        "definition": "Pressure applied to an enclosed liquid is transmitted equally throughout that liquid, and acts equally in all directions."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "pressure",
+        "si_unit": "pascal",
+        "symbol": "Pa"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A sealed container full of water has a piston that applies an additional 500 Pa of pressure at one point. Explain, using Pascal's principle, the pressure experienced at a different point elsewhere in the container.",
+        "steps": [
+          "By Pascal's principle, pressure applied to an enclosed liquid is transmitted equally throughout the liquid.",
+          "This means the additional 500 Pa of applied pressure is experienced equally at every other point within the connected liquid, not just near the piston.",
+          "The pressure also acts equally in all directions at that other point, not only in the direction the piston pushed."
+        ],
+        "answer": "The additional 500 Pa of pressure is transmitted, undiminished, to the other point in the liquid, and acts equally in all directions there."
+      }
+    ],
+    "practical_applications": [
+      "Hydraulic car jacks, brakes, and industrial presses, all relying on Pascal's principle for force multiplication",
+      "Understanding why liquid pressure at a given depth is independent of the shape of its container",
+      "Fluid power systems used in construction and manufacturing machinery"
+    ],
+    "common_mistakes": [
+      "Assuming pressure applied to a liquid only affects the liquid in the direct line of the applied force, rather than transmitting equally in all directions",
+      "Applying Pascal's principle to a compressible gas, where it does not hold in the same simple way"
+    ],
+    "misconceptions": [
+      "That a force applied to a liquid stays concentrated in the direction it was originally applied — Pascal's principle specifically states that the resulting pressure spreads out equally in all directions through the connected liquid, which is the entire basis for hydraulic systems being able to redirect and multiply forces."
+    ],
+    "tips": [
+      "Remember Pascal's principle applies specifically to enclosed liquids (essentially incompressible); it does not apply in the same straightforward way to compressible fluids such as gases."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State Pascal's principle."
+      ],
+      "intermediate": [
+        "Explain why Pascal's principle relies on the liquid involved being essentially incompressible."
+      ],
+      "advanced": [
+        "Explain, using Pascal's principle, why the shape of a container holding a liquid does not affect the pressure at a given depth within that liquid."
+      ]
+    },
+    "exam_questions": [
+      "Explain how Pascal's principle allows a hydraulic system to multiply an applied force."
+    ],
+    "answers": {
+      "basic": [
+        "Pressure applied to an enclosed liquid is transmitted equally throughout that liquid, and acts equally in all directions."
+      ],
+      "intermediate": [
+        "If the liquid could be significantly compressed, applying additional pressure at one point would partly go into compressing the liquid locally, rather than being fully and immediately transmitted throughout the entire connected liquid; because liquids are essentially incompressible, applied pressure is instead passed on fully and equally to every other point."
+      ],
+      "advanced": [
+        "Since pressure applied anywhere within a connected liquid is transmitted equally in all directions to every other point (Pascal's principle), the pressure at a given depth must be the same regardless of the shape of the surrounding container — any difference in shape would only affect how the pressure is redirected sideways, not its magnitude at a specific depth, which depends only on the weight of liquid directly above that depth."
+      ],
+      "exam": [
+        "By Pascal's principle, pressure applied to the small piston is transmitted equally throughout the enclosed liquid to the large piston; since pressure = force/area, this same pressure acting on the much larger area of the second piston produces a correspondingly much larger force there than was originally applied, achieving force multiplication."
+      ]
+    },
+    "summary": "Pascal's principle states that pressure applied to an enclosed liquid is transmitted equally throughout that liquid and acts equally in all directions. It underlies the operation of hydraulic machines, which use this transmitted pressure to multiply force.",
+    "revision_notes": [
+      "Pressure applied to enclosed liquid: transmitted equally, all directions",
+      "Relies on liquid being incompressible",
+      "Basis for hydraulic force multiplication"
+    ],
+    "related_topics": [
+      "Pressure in Liquids",
+      "Hydraulic Machines",
+      "Pressure"
+    ],
+    "prerequisites": [
+      "Pressure in Liquids"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: An enclosed liquid container with a downward applied force arrow at the top and multiple equal-length outward arrows showing pressure transmitted in all directions]"
+    ],
+    "images": [
+      {
+        "filename": "physics-pascals-principle-097-01.webp",
+        "type": "diagram",
+        "description": "A rectangular sealed container of liquid with a red downward arrow labelled 'applied force' pressing on the top, and multiple blue arrows of equal length radiating outward from within the liquid in different directions (down, and sideways through the container walls), labelled 'pressure transmitted equally in all directions through the liquid'.",
+        "purpose": "Visually demonstrates the defining feature of Pascal's principle — that applied pressure spreads out equally in every direction, not just along the line of the original force.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-098",
+    "subject": "Physics",
+    "category": "Fluids and Pressure",
+    "title": "Density",
+    "difficulty": "Foundational",
+    "description": "A measure of how much mass is contained within a given volume of a substance.",
+    "learning_objectives": [
+      "Define density and state its equation",
+      "Calculate the density of an object or substance from its mass and volume",
+      "Compare the density of different materials"
+    ],
+    "explanation": "Density is a measure of how compactly mass is packed within a given volume of a substance, calculated as density = mass / volume. Density is measured in kilograms per cubic metre (kg/m^3), although grams per cubic centimetre (g/cm^3) is also very commonly used, particularly for everyday materials (1 g/cm^3 = 1000 kg/m^3). Different materials have characteristically different densities, largely determined by how tightly their constituent particles are packed and how much mass each particle has: for example, gases generally have much lower densities than liquids or solids, since their particles are spread far apart, while dense metals such as lead or gold have their atoms packed closely together with a large mass per atom. Density is a useful identifying property of a substance, since it does not depend on the size or shape of a particular sample (a small block and a large block of the same pure material have the same density), and comparing an object's density with that of a surrounding fluid determines whether the object will float or sink, as covered in Floating Objects and Sinking Objects.",
+    "key_concepts": [
+      "density = mass / volume",
+      "Unit: kg/m^3 (or g/cm^3)",
+      "Property of a material, independent of sample size"
+    ],
+    "definitions": [
+      {
+        "term": "Density",
+        "definition": "The mass of a substance per unit volume, calculated as density = mass / volume."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Density",
+        "equation": "density = mass / volume",
+        "variables": {
+          "density": "density, kg/m^3",
+          "mass": "mass, kg",
+          "volume": "volume, m^3"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "density",
+        "si_unit": "kilogram per cubic metre",
+        "symbol": "kg/m^3"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A block of wood has a mass of 0.6 kg and a volume of 0.001 m^3. Calculate its density.",
+        "steps": [
+          "Use density = mass / volume.",
+          "Substitute: density = 0.6 / 0.001."
+        ],
+        "answer": "600 kg/m^3"
+      }
+    ],
+    "practical_applications": [
+      "Identifying unknown materials or checking purity (e.g. testing whether a metal is genuine gold) using density",
+      "Ship and submarine design, relying on the relationship between average density and the ability to float",
+      "Material selection in engineering, balancing density against strength and cost for a given application"
+    ],
+    "common_mistakes": [
+      "Confusing mass and weight when calculating density (density calculations always use mass, in kg, not weight, in N)",
+      "Mixing units (e.g. combining a mass in grams with a volume in m^3) without converting consistently"
+    ],
+    "misconceptions": [
+      "That a 'heavier' object is always denser than a 'lighter' one — density depends on the ratio of mass to volume, not on mass alone; a large block of a low-density material can have a much greater total mass than a small block of a much denser material, while still having a lower density."
+    ],
+    "tips": [
+      "Always ensure mass and volume are in consistent units (both SI, or both in the g/cm^3 system) before calculating density, and be prepared to convert between kg/m^3 and g/cm^3 using the factor of 1000."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for density, defining each symbol."
+      ],
+      "intermediate": [
+        "A metal block has a mass of 2.7 kg and a volume of 0.001 m^3. Calculate its density."
+      ],
+      "advanced": [
+        "Two blocks, A and B, have the same mass, but block A has twice the volume of block B. Compare the densities of the two blocks."
+      ]
+    },
+    "exam_questions": [
+      "A liquid has a density of 800 kg/m^3. Calculate the mass of 0.5 m^3 of this liquid."
+    ],
+    "answers": {
+      "basic": [
+        "density = mass / volume, where density is in kg/m^3, mass is in kg, and volume is in m^3."
+      ],
+      "intermediate": [
+        "density = 2.7 / 0.001 = 2700 kg/m^3."
+      ],
+      "advanced": [
+        "Since density = mass/volume and both blocks have the same mass, but block A has twice the volume of block B, block A's density is half that of block B (density is inversely proportional to volume for a fixed mass)."
+      ],
+      "exam": [
+        "mass = density x volume = 800 x 0.5 = 400 kg."
+      ]
+    },
+    "summary": "Density is the mass of a substance per unit volume, calculated as density = mass/volume. It is a characteristic property of a material, independent of sample size, and determines whether an object will float or sink in a given fluid.",
+    "revision_notes": [
+      "density = mass / volume",
+      "Unit: kg/m^3 (1 g/cm^3 = 1000 kg/m^3)",
+      "Property of the material, not the sample size"
+    ],
+    "related_topics": [
+      "Measuring Density",
+      "Floating Objects",
+      "Sinking Objects",
+      "Mass"
+    ],
+    "prerequisites": [
+      "Mass"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-099",
+    "subject": "Physics",
+    "category": "Fluids and Pressure",
+    "title": "Measuring Density",
+    "difficulty": "Foundational",
+    "description": "Experimental methods for determining the density of an object or substance by measuring its mass and volume.",
+    "learning_objectives": [
+      "Describe methods for measuring the mass and volume of regular and irregular solids",
+      "Describe a method for measuring the density of a liquid",
+      "Calculate density from experimental measurements, considering appropriate precision"
+    ],
+    "explanation": "Measuring the density of a substance requires separately measuring its mass and its volume, then applying density = mass / volume. Mass is typically measured directly using a balance. Volume is measured differently depending on the substance: for a regularly shaped solid (such as a cube or cylinder), volume can be calculated directly from measured dimensions using an appropriate geometric formula (e.g. length x width x height for a cuboid); for an irregularly shaped solid (such as a stone), volume is usually found using the displacement method, submerging the object in a partially filled measuring cylinder and recording the resulting rise in the liquid level, since the volume of liquid displaced equals the volume of the submerged object; and for a liquid, volume can be measured directly using a measuring cylinder, with the corresponding mass found by weighing the liquid (often by finding the mass of a container with and without the liquid, and subtracting).",
+    "key_concepts": [
+      "Mass: measured directly with a balance",
+      "Regular solid volume: calculated from measured dimensions",
+      "Irregular solid volume: found by displacement method",
+      "Liquid volume: measured directly with a measuring cylinder"
+    ],
+    "definitions": [
+      {
+        "term": "Displacement method",
+        "definition": "A technique for measuring the volume of an irregularly shaped solid by submerging it in a liquid and measuring the resulting rise in liquid level, which equals the object's volume."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Volume of a cuboid",
+        "equation": "volume = length x width x height",
+        "variables": {}
+      }
+    ],
+    "units": [
+      {
+        "quantity": "volume",
+        "si_unit": "cubic metre",
+        "symbol": "m^3"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A stone is lowered into a measuring cylinder containing 40 cm^3 of water, and the water level rises to 55 cm^3. The stone has a mass of 45 g. Calculate its density in g/cm^3.",
+        "steps": [
+          "Calculate the volume of the stone using the displacement method: volume = 55 - 40 = 15 cm^3.",
+          "Use density = mass / volume.",
+          "Substitute: density = 45 / 15."
+        ],
+        "answer": "3 g/cm^3"
+      }
+    ],
+    "practical_applications": [
+      "Quality control testing of manufactured components and materials",
+      "Identifying unknown or potentially counterfeit materials (e.g. checking whether jewellery is genuine gold)",
+      "Geological and archaeological analysis of rock and artefact samples"
+    ],
+    "common_mistakes": [
+      "Using the wrong geometric formula for the volume of a regularly shaped object",
+      "Forgetting to subtract the initial liquid level from the final level when using the displacement method, or reading the levels with parallax error"
+    ],
+    "misconceptions": [
+      "That the displacement method can be used for any object, including those that dissolve in, react with, or float on the surface of the liquid used — the displacement method specifically requires the object to fully sink and remain unchanged (not dissolve or react) in the liquid for an accurate volume measurement."
+    ],
+    "tips": [
+      "When using the displacement method, ensure the object is fully submerged and gently lowered in (to avoid splashing), and read the liquid level directly at eye level to avoid parallax error."
+    ],
+    "practice_questions": {
+      "basic": [
+        "Name the method used to measure the volume of an irregularly shaped solid object."
+      ],
+      "intermediate": [
+        "A cuboid block has dimensions 4 cm x 3 cm x 2 cm and a mass of 72 g. Calculate its density."
+      ],
+      "advanced": [
+        "Explain why the displacement method would not give an accurate volume measurement for a small piece of sugar."
+      ]
+    },
+    "exam_questions": [
+      "Describe a method for accurately measuring the density of an irregularly shaped stone, including the equipment used and the calculation performed."
+    ],
+    "answers": {
+      "basic": [
+        "The displacement method."
+      ],
+      "intermediate": [
+        "volume = 4 x 3 x 2 = 24 cm^3. density = mass/volume = 72/24 = 3 g/cm^3."
+      ],
+      "advanced": [
+        "Sugar dissolves in water, so submerging it would not simply displace a volume of water equal to its own volume; instead, some of the sugar would dissolve into the water, changing the water's volume and mass in a way that would give a highly inaccurate (and constantly changing) volume reading."
+      ],
+      "exam": [
+        "Measure the mass of the stone using a balance. Partially fill a measuring cylinder with water and record the initial volume reading. Gently lower the stone into the water, ensuring it is fully submerged, and record the new (higher) volume reading. Calculate the stone's volume as the difference between the two readings (displacement method). Finally, calculate the density using density = mass / volume, using the measured mass and this calculated volume."
+      ]
+    },
+    "summary": "Measuring density requires separately measuring an object's mass (using a balance) and volume. Regular solids' volume is calculated from dimensions; irregular solids use the displacement method; liquid volume is measured directly with a measuring cylinder.",
+    "revision_notes": [
+      "Mass: balance",
+      "Regular solid: calculate volume from dimensions",
+      "Irregular solid: displacement method",
+      "Liquid: measuring cylinder"
+    ],
+    "related_topics": [
+      "Density",
+      "Measurement Techniques"
+    ],
+    "prerequisites": [
+      "Density",
+      "Measurement Techniques"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-100",
+    "subject": "Physics",
+    "category": "Fluids and Pressure",
+    "title": "Upthrust",
+    "difficulty": "Intermediate",
+    "description": "The upward force exerted by a fluid on an object that is partially or fully submerged within it.",
+    "learning_objectives": [
+      "Define upthrust",
+      "Explain the origin of upthrust in terms of pressure difference",
+      "Explain the relationship between upthrust and an object's tendency to float or sink"
+    ],
+    "explanation": "Upthrust is the upward force exerted by a fluid (a liquid or a gas) on an object that is partially or fully submerged within it. Upthrust arises because fluid pressure increases with depth (as covered in Pressure in Liquids), meaning the fluid pressure acting upward on the bottom surface of a submerged object is always greater than the fluid pressure acting downward on its top surface (since the bottom is at a greater depth); this pressure difference results in a net upward force on the object — the upthrust. The size of the upthrust acting on an object depends on the volume of fluid it displaces and the density of that fluid, as described quantitatively by Archimedes' principle. Whether an object floats, sinks, or remains suspended within a fluid depends on the relationship between this upthrust and the object's weight: if upthrust equals weight, the object floats (or remains suspended) in equilibrium; if the object's weight exceeds the maximum possible upthrust, it sinks.",
+    "key_concepts": [
+      "Upthrust: upward force from a fluid on a submerged object",
+      "Arises from greater fluid pressure at the bottom than the top of the object",
+      "Determines whether an object floats or sinks (compared with weight)"
+    ],
+    "definitions": [
+      {
+        "term": "Upthrust",
+        "definition": "The upward force exerted by a fluid on an object partially or fully submerged within it, arising from the difference in fluid pressure between its top and bottom surfaces."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain, in terms of pressure, why a submerged cube experiences an upward net force (upthrust) from the surrounding water.",
+        "steps": [
+          "The bottom face of the cube is at a greater depth in the water than its top face.",
+          "Since liquid pressure increases with depth, the pressure acting upward on the bottom face is greater than the pressure acting downward on the top face.",
+          "Because pressure x area = force, this greater pressure on the bottom face produces a greater upward force there than the downward force on the top face.",
+          "The overall result is a net upward force on the cube, called upthrust."
+        ],
+        "answer": "The cube experiences a net upward force (upthrust) because the water pressure acting upward on its lower, deeper face is greater than the water pressure acting downward on its higher, shallower face."
+      }
+    ],
+    "practical_applications": [
+      "Ship, submarine, and buoy design, ensuring the correct balance of weight and upthrust",
+      "Hot air balloon and airship design, using upthrust from the surrounding air",
+      "Understanding why objects feel lighter when submerged in water (e.g. lifting a person in a swimming pool)"
+    ],
+    "common_mistakes": [
+      "Assuming upthrust depends directly on an object's weight, rather than on the volume of fluid it displaces and the fluid's density",
+      "Forgetting that upthrust acts on any submerged object, including gases (such as a balloon in air), not only objects in liquids"
+    ],
+    "misconceptions": [
+      "That an object only experiences upthrust if it floats — upthrust acts on any object submerged (fully or partially) in a fluid, including objects that sink, even though in that case the upthrust is smaller than the object's weight rather than equal to it."
+    ],
+    "tips": [
+      "Remember that upthrust arises specifically from the pressure difference between the top and bottom of a submerged object, which is a direct consequence of pressure increasing with depth in a fluid."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the direction in which upthrust acts on a submerged object."
+      ],
+      "intermediate": [
+        "Explain why upthrust acts on a fully submerged object even if it is denser than the surrounding fluid and about to sink."
+      ],
+      "advanced": [
+        "Explain, in terms of forces, why a person feels 'lighter' when standing in a swimming pool compared with standing on dry land."
+      ]
+    },
+    "exam_questions": [
+      "Explain the origin of upthrust, referring to the pressure acting on the top and bottom surfaces of a submerged object."
+    ],
+    "answers": {
+      "basic": [
+        "Upward."
+      ],
+      "intermediate": [
+        "Upthrust arises from the pressure difference between the top and bottom of any submerged object, which exists as long as the object has some depth in the fluid, regardless of the object's own density; a denser object simply has a weight that exceeds this upthrust, causing it to sink, rather than experiencing no upthrust at all."
+      ],
+      "advanced": [
+        "The water surrounding the person's submerged body exerts an upward upthrust force on them, in addition to the downward force of their own weight; since this upthrust partially counteracts their weight, the net downward force they exert on the pool floor (and therefore their felt 'weight') is reduced compared with standing on dry land, where no upthrust is present."
+      ],
+      "exam": [
+        "Since fluid pressure increases with depth, the pressure acting upward on the bottom surface of a submerged object is greater than the pressure acting downward on its top surface (which is at a shallower depth); because force = pressure x area, this pressure difference results in a greater upward force on the bottom surface than the downward force on the top surface, and the resulting net upward force is the upthrust."
+      ]
+    },
+    "summary": "Upthrust is the upward force a fluid exerts on a submerged object, arising because fluid pressure is greater at the bottom of the object (deeper) than at the top (shallower). Whether an object floats or sinks depends on the balance between upthrust and weight.",
+    "revision_notes": [
+      "Upthrust: upward force from fluid pressure difference (bottom > top)",
+      "Acts on any submerged object, sinking or floating",
+      "Float: upthrust = weight; sink: weight > max upthrust"
+    ],
+    "related_topics": [
+      "Archimedes' Principle",
+      "Pressure in Liquids",
+      "Floating Objects",
+      "Sinking Objects"
+    ],
+    "prerequisites": [
+      "Pressure in Liquids"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A submerged block with a downward weight arrow and an upward upthrust arrow]"
+    ],
+    "images": [
+      {
+        "filename": "physics-upthrust-100-01.webp",
+        "type": "diagram",
+        "description": "A grey block submerged in shaded water, with a red downward arrow labelled 'Weight' from the block's centre and a green upward arrow labelled 'Upthrust' also from the block's centre.",
+        "purpose": "Provides a simple, clear visual of the two competing forces (weight and upthrust) that determine whether a submerged object floats, sinks, or stays suspended.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-101",
+    "subject": "Physics",
+    "category": "Fluids and Pressure",
+    "title": "Archimedes' Principle",
+    "difficulty": "Intermediate",
+    "description": "The principle that the upthrust on a submerged (or partially submerged) object equals the weight of the fluid it displaces.",
+    "learning_objectives": [
+      "State Archimedes' principle",
+      "Calculate upthrust using Archimedes' principle",
+      "Apply Archimedes' principle to explain floating and sinking"
+    ],
+    "explanation": "Archimedes' principle states that the upthrust acting on an object that is partially or fully submerged in a fluid is equal to the weight of the fluid that the object displaces (pushes out of the way). This can be expressed as upthrust = weight of fluid displaced = (density of fluid) x (volume of fluid displaced) x g. For a fully submerged object, the volume of fluid displaced is exactly equal to the object's own volume; for a floating (partially submerged) object, the volume of fluid displaced is equal only to the volume of the part of the object that is actually below the fluid's surface. Archimedes' principle explains quantitatively why an object floats or sinks: an object will float if it is able to displace a weight of fluid equal to its own weight before becoming fully submerged (which happens automatically if the object's average density is less than that of the fluid); if not, it will sink, since even when fully submerged, the maximum possible upthrust (equal to the weight of fluid displaced by its full volume) remains less than its own weight.",
+    "key_concepts": [
+      "Upthrust = weight of fluid displaced",
+      "Upthrust = (density of fluid) x (volume displaced) x g",
+      "Determines quantitatively whether an object floats or sinks"
+    ],
+    "definitions": [
+      {
+        "term": "Archimedes' principle",
+        "definition": "The upthrust acting on an object submerged (fully or partially) in a fluid is equal to the weight of the fluid displaced by the object."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Archimedes' principle",
+        "equation": "upthrust = (density of fluid) x (volume of fluid displaced) x g",
+        "variables": {
+          "upthrust": "upthrust force, N",
+          "density of fluid": "density of the fluid, kg/m^3",
+          "volume of fluid displaced": "volume of fluid pushed aside by the submerged part of the object, m^3",
+          "g": "gravitational field strength, N/kg"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "upthrust",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A solid object of volume 0.002 m^3 is fully submerged in water (density 1000 kg/m^3, g = 9.8 N/kg). Calculate the upthrust acting on it.",
+        "steps": [
+          "Since the object is fully submerged, the volume of water displaced equals the object's own volume: 0.002 m^3.",
+          "Use upthrust = (density of fluid) x (volume displaced) x g.",
+          "Substitute: upthrust = 1000 x 0.002 x 9.8."
+        ],
+        "answer": "19.6 N"
+      }
+    ],
+    "practical_applications": [
+      "Ship and submarine design, calculating the required displacement to support a given weight",
+      "Hydrometer design, using the depth an object floats at to measure a liquid's density",
+      "Explaining why hot air balloons and helium balloons rise in air, using the same principle applied to a gas"
+    ],
+    "common_mistakes": [
+      "Using the object's total volume for a floating (only partially submerged) object, rather than only the submerged portion's volume",
+      "Confusing the density of the fluid with the density of the submerged object in the upthrust calculation"
+    ],
+    "misconceptions": [
+      "That Archimedes' principle only applies to objects floating on the surface of a liquid — it applies equally to fully submerged objects (using their total volume) and to objects in gases (such as balloons in air), since the underlying pressure-difference explanation for upthrust applies to any fluid."
+    ],
+    "tips": [
+      "Always identify whether the object described is fully or only partially submerged before deciding what volume to use for 'volume of fluid displaced' in the Archimedes' principle calculation."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State Archimedes' principle."
+      ],
+      "intermediate": [
+        "A block displaces 0.0015 m^3 of water when fully submerged. Calculate the upthrust acting on it (density of water = 1000 kg/m^3, g = 9.8 N/kg)."
+      ],
+      "advanced": [
+        "A boat floats with 2 m^3 of its hull below the waterline. Calculate the weight of the boat, assuming it is floating in equilibrium in seawater of density 1025 kg/m^3, using g = 9.8 N/kg."
+      ]
+    },
+    "exam_questions": [
+      "Explain, using Archimedes' principle, how the upthrust on a floating object relates to its own weight."
+    ],
+    "answers": {
+      "basic": [
+        "The upthrust on an object submerged (fully or partially) in a fluid equals the weight of the fluid the object displaces."
+      ],
+      "intermediate": [
+        "upthrust = 1000 x 0.0015 x 9.8 = 14.7 N."
+      ],
+      "advanced": [
+        "Since the boat is floating in equilibrium, its weight equals the upthrust, which by Archimedes' principle equals the weight of the displaced seawater: weight = density x volume x g = 1025 x 2 x 9.8 = 20,090 N."
+      ],
+      "exam": [
+        "By Archimedes' principle, the upthrust on a floating object equals the weight of the fluid it displaces; since the object is floating in equilibrium, its own weight must be exactly balanced by this upthrust, meaning the object's weight is equal to the weight of the fluid it displaces at its floating depth."
+      ]
+    },
+    "summary": "Archimedes' principle states that upthrust equals the weight of fluid displaced by a submerged object, calculated as upthrust = (density of fluid) x (volume displaced) x g. This quantitatively determines whether an object floats or sinks.",
+    "revision_notes": [
+      "upthrust = weight of fluid displaced",
+      "upthrust = (density of fluid) x (volume displaced) x g",
+      "Fully submerged: use full object volume; floating: use only the submerged part's volume"
+    ],
+    "related_topics": [
+      "Upthrust",
+      "Floating Objects",
+      "Sinking Objects",
+      "Density"
+    ],
+    "prerequisites": [
+      "Upthrust",
+      "Density"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-102",
+    "subject": "Physics",
+    "category": "Fluids and Pressure",
+    "title": "Floating Objects",
+    "difficulty": "Intermediate",
+    "description": "Objects that come to rest partially submerged at the surface of a fluid, where upthrust exactly balances weight.",
+    "learning_objectives": [
+      "Explain the condition for an object to float",
+      "Relate floating to the comparison of average density between object and fluid",
+      "Apply Archimedes' principle to calculate the submerged volume of a floating object"
+    ],
+    "explanation": "An object floats on the surface of a fluid when it settles into a position where the upthrust acting on it exactly equals its own weight, achieving equilibrium, with only part of the object submerged below the fluid's surface. This occurs whenever the object's average density is less than the density of the fluid it is placed in, since a lower-density object needs to displace only a relatively small volume of the denser surrounding fluid to generate enough upthrust (weight of fluid displaced) to match its own, comparatively smaller, weight. As an object is gradually lowered into a fluid it will float in, the upthrust increases as more of it becomes submerged (displacing more fluid); the object settles at the specific depth where this increasing upthrust exactly reaches its own weight, then stops sinking further. Objects made from a material denser than water, such as steel, can still be made to float overall if shaped (such as into a hollow hull) so that their average density, including the air space inside, is less than that of water — the principle behind ship design.",
+    "key_concepts": [
+      "Floats when: object's average density < fluid's density",
+      "Floating equilibrium: upthrust = weight",
+      "Hollow shapes can reduce average density below that of the material itself (ships)"
+    ],
+    "definitions": [
+      {
+        "term": "Floating",
+        "definition": "The state of an object resting partially submerged at a fluid's surface, where the upthrust acting on it exactly equals its weight."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Floating equilibrium condition",
+        "equation": "upthrust = weight",
+        "variables": {}
+      }
+    ],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A block of wood with a density of 600 kg/m^3 is placed in water (density 1000 kg/m^3). Explain whether it will float or sink.",
+        "steps": [
+          "Compare the density of the wood (600 kg/m^3) with the density of water (1000 kg/m^3).",
+          "Since the wood's density is less than the water's density, the wood is able to displace a volume of water, before becoming fully submerged, whose weight equals the wood's own weight.",
+          "This means the wood will float, settling at a depth where the upthrust from the displaced water equals its weight."
+        ],
+        "answer": "The wood will float, since its density (600 kg/m^3) is less than the density of water (1000 kg/m^3)."
+      }
+    ],
+    "practical_applications": [
+      "Ship, boat, and hull design, ensuring the overall average density (including internal air space) is less than that of water",
+      "Life jacket and buoyancy aid design, providing enough low-density material to keep a person's average density below that of water",
+      "Understanding why icebergs float, despite ice being a solid form of the same substance as the liquid water it floats in"
+    ],
+    "common_mistakes": [
+      "Comparing the density of a single material (such as steel) directly to water, without accounting for the overall average density of a shaped, hollow object (such as a ship's hull)",
+      "Confusing 'floating' with 'lighter overall' — a very large but low-density object can float even though it has a much greater total weight than a small, dense object that sinks"
+    ],
+    "misconceptions": [
+      "That a material must be less dense than water to float in any form — a dense material such as steel can be shaped into a hollow structure (such as a ship's hull) whose overall average density, including the enclosed air, is less than water's density, allowing it to float even though solid steel itself is much denser than water."
+    ],
+    "tips": [
+      "To predict whether an object will float, compare its overall average density (total mass / total volume, including any hollow or air-filled sections) with the density of the fluid, not just the density of the solid material it is primarily made from."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the condition, in terms of density, for an object to float in a fluid."
+      ],
+      "intermediate": [
+        "Explain why a solid steel ball sinks in water, but a hollow steel ship can float."
+      ],
+      "advanced": [
+        "A floating object has a weight of 40 N. State the upthrust acting on it, explaining your reasoning."
+      ]
+    },
+    "exam_questions": [
+      "Explain, in terms of density and upthrust, why an object floats on the surface of a fluid rather than sinking."
+    ],
+    "answers": {
+      "basic": [
+        "The object's average density must be less than the density of the fluid."
+      ],
+      "intermediate": [
+        "A solid steel ball has the same (high) average density as steel itself, which is greater than water's density, so it sinks; a hollow steel ship, however, encloses a large volume of air within its hull, giving it a much lower overall average density (total mass of steel and contents / total volume including the enclosed air), which can be made less than water's density, allowing it to float."
+      ],
+      "advanced": [
+        "40 N, since the object is floating in equilibrium, meaning the upthrust acting on it must exactly balance its weight."
+      ],
+      "exam": [
+        "An object floats when its average density is less than the density of the surrounding fluid, since this allows it to displace a volume of fluid, before becoming fully submerged, whose weight equals its own weight; at this point the upthrust (equal to the weight of fluid displaced, by Archimedes' principle) exactly balances the object's weight, achieving equilibrium and preventing it from sinking further."
+      ]
+    },
+    "summary": "An object floats when it can displace a weight of fluid equal to its own weight before becoming fully submerged, which occurs when its average density is less than the fluid's density. At the floating equilibrium, upthrust exactly equals weight.",
+    "revision_notes": [
+      "Floats if average density < fluid density",
+      "Floating: upthrust = weight (equilibrium)",
+      "Hollow shapes reduce average density (ships)"
+    ],
+    "related_topics": [
+      "Archimedes' Principle",
+      "Upthrust",
+      "Density",
+      "Sinking Objects"
+    ],
+    "prerequisites": [
+      "Archimedes' Principle",
+      "Density"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-103",
+    "subject": "Physics",
+    "category": "Fluids and Pressure",
+    "title": "Sinking Objects",
+    "difficulty": "Intermediate",
+    "description": "Objects that continue moving downward through a fluid because the maximum possible upthrust is less than their weight.",
+    "learning_objectives": [
+      "Explain the condition for an object to sink",
+      "Relate sinking to the comparison of average density between object and fluid",
+      "Explain what happens to an object's acceleration as it sinks through a fluid"
+    ],
+    "explanation": "An object sinks in a fluid when its weight is greater than the maximum upthrust the fluid can ever provide, which occurs when the object is fully submerged and displacing the largest volume of fluid it possibly can (equal to its own total volume). This happens whenever the object's average density is greater than the density of the surrounding fluid, since in that case, even fully submerged, the weight of fluid displaced (and therefore the maximum available upthrust) remains smaller than the object's own weight. As a sinking object begins to descend, there is a resultant downward force (weight minus upthrust minus any drag), causing it to accelerate downward; as its speed increases, drag (a resistive force, in addition to upthrust) also increases, and the object may eventually reach a terminal velocity through the fluid, in a similar way to an object falling through air, once the combined upward forces (upthrust plus drag) grow to exactly balance its weight.",
+    "key_concepts": [
+      "Sinks when: object's average density > fluid's density",
+      "Maximum upthrust (fully submerged) still less than weight",
+      "Sinking object can reach terminal velocity (upthrust + drag = weight)"
+    ],
+    "definitions": [
+      {
+        "term": "Sinking",
+        "definition": "The continued downward motion of an object through a fluid, occurring because its weight exceeds the maximum upthrust the fluid can provide."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A stone with a density of 2500 kg/m^3 is placed in water (density 1000 kg/m^3). Explain whether it will float or sink, and describe the resultant force acting on it while fully submerged.",
+        "steps": [
+          "Compare the density of the stone (2500 kg/m^3) with the density of water (1000 kg/m^3).",
+          "Since the stone's density is greater than water's density, even when fully submerged (displacing its maximum possible volume of water), the resulting upthrust is still less than the stone's weight.",
+          "The stone will therefore sink.",
+          "While fully submerged and sinking, the resultant force on the stone acts downward, since its weight is greater than the (fully submerged) upthrust acting against it (plus any drag)."
+        ],
+        "answer": "The stone sinks, since its density (2500 kg/m^3) is greater than water's density (1000 kg/m^3); while sinking, the resultant force on it acts downward, since its weight exceeds the maximum upthrust available."
+      }
+    ],
+    "practical_applications": [
+      "Anchor and diving weight design, deliberately using dense materials to ensure sinking",
+      "Understanding sediment and particle settling in rivers, lakes, and industrial fluid processing",
+      "Submarine ballast tank design, allowing a vessel to control its average density and choose to sink or float"
+    ],
+    "common_mistakes": [
+      "Assuming a sinking object experiences no upthrust at all, rather than an upthrust smaller than its weight",
+      "Forgetting that a sinking object can reach a terminal velocity, in a similar way to an object falling through air"
+    ],
+    "misconceptions": [
+      "That an object either 'floats' or 'sinks' as a binary, unchangeable property of a material alone — whether an object floats or sinks depends on the comparison between its own average density (which can be changed by its shape, such as being hollow, or by internal ballast) and the density of the specific fluid it is placed in, meaning the same material can behave differently depending on its shape or the fluid involved."
+    ],
+    "tips": [
+      "Remember that a sinking object still experiences upthrust (as does any submerged object); it sinks specifically because this upthrust, even at its maximum (fully submerged) value, remains smaller than the object's weight."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the condition, in terms of density, for an object to sink in a fluid."
+      ],
+      "intermediate": [
+        "Explain why a fully submerged object continues to sink if its weight is greater than the upthrust acting on it."
+      ],
+      "advanced": [
+        "Explain, using the concept of forces, why a sinking object might eventually reach a constant (terminal) velocity through a fluid, rather than continuing to accelerate indefinitely."
+      ]
+    },
+    "exam_questions": [
+      "Explain, in terms of density and upthrust, why a solid gold ring sinks when dropped into a glass of water."
+    ],
+    "answers": {
+      "basic": [
+        "The object's average density must be greater than the density of the fluid."
+      ],
+      "intermediate": [
+        "If weight is greater than upthrust, the resultant force on the object acts downward (in the direction of the greater force), and by Newton's second law, this resultant force produces a downward acceleration, causing the object to continue sinking."
+      ],
+      "advanced": [
+        "As the sinking object speeds up, the drag (resistive) force acting against its motion increases with speed; eventually, the combined upward forces of upthrust and drag become equal in magnitude to the object's downward weight, giving a resultant force of zero and therefore zero acceleration, at which point the object continues sinking at a constant (terminal) velocity."
+      ],
+      "exam": [
+        "Gold has a much greater density than water, so even when the ring is fully submerged and displacing its maximum possible volume of water, the resulting upthrust remains smaller than the ring's weight; since the ring's weight exceeds the maximum available upthrust, there is a net downward force on it, causing the ring to sink."
+      ]
+    },
+    "summary": "An object sinks when its average density is greater than the fluid's density, meaning even the maximum possible upthrust (fully submerged) is less than its weight. A sinking object may eventually reach a terminal velocity once upthrust plus drag balance its weight.",
+    "revision_notes": [
+      "Sinks if average density > fluid density",
+      "Maximum upthrust (fully submerged) still < weight",
+      "Can reach terminal velocity: upthrust + drag = weight"
+    ],
+    "related_topics": [
+      "Archimedes' Principle",
+      "Upthrust",
+      "Density",
+      "Floating Objects",
+      "Terminal Velocity"
+    ],
+    "prerequisites": [
+      "Archimedes' Principle",
+      "Density"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-104",
+    "subject": "Physics",
+    "category": "Fluids and Pressure",
+    "title": "Fluid Dynamics",
+    "difficulty": "Advanced",
+    "description": "An introduction to the study of fluids in motion, including the basic distinction between smooth and turbulent flow.",
+    "learning_objectives": [
+      "Distinguish laminar (smooth) flow from turbulent flow",
+      "Describe the factors that affect whether flow is laminar or turbulent",
+      "Explain the basic principle behind how flow speed and pipe cross-section are related"
+    ],
+    "explanation": "Fluid dynamics is the branch of physics concerned with fluids (liquids and gases) in motion. A key distinction in fluid dynamics is between laminar flow, in which a fluid moves smoothly in parallel layers with no significant mixing or disruption between them (an idealised, orderly type of flow), and turbulent flow, in which the fluid moves chaotically, with swirling eddies, mixing, and unpredictable variations in speed and direction. Whether a flow is laminar or turbulent depends on factors including the fluid's speed (faster flow is more likely to become turbulent), the shape and roughness of the surfaces or obstacles it flows past (streamlined, smooth surfaces favour laminar flow), and the fluid's own viscosity (thicker, more viscous fluids tend to remain laminar at higher speeds than thin, low-viscosity fluids). One important basic principle in fluid dynamics, relevant to flow through pipes of varying width, is that for a fluid that cannot be compressed and does not accumulate anywhere, the flow speed must increase where the pipe narrows and decrease where it widens, since the same volume of fluid must pass through every cross-section of the pipe in a given time.",
+    "key_concepts": [
+      "Laminar flow: smooth, ordered, parallel layers",
+      "Turbulent flow: chaotic, mixing, swirling eddies",
+      "Narrower pipe cross-section: faster flow speed (for the same volume flow rate)"
+    ],
+    "definitions": [
+      {
+        "term": "Laminar flow",
+        "definition": "Smooth fluid flow in which the fluid moves in ordered, parallel layers with no significant mixing between them."
+      },
+      {
+        "term": "Turbulent flow",
+        "definition": "Chaotic fluid flow characterised by swirling eddies, mixing, and unpredictable variation in speed and direction."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "speed",
+        "si_unit": "metre per second",
+        "symbol": "m/s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Water flows steadily through a pipe that narrows partway along its length. Explain, in terms of the volume of water passing through each section, why the water's speed increases in the narrower section.",
+        "steps": [
+          "Since the water is essentially incompressible and does not accumulate anywhere in the pipe, the same volume of water must pass through the wide section and the narrow section in any given time interval.",
+          "The narrow section has a smaller cross-sectional area than the wide section.",
+          "For the same volume to pass through a smaller cross-sectional area in the same time, the water must move faster through the narrow section to compensate."
+        ],
+        "answer": "The water speeds up in the narrower section because the same volume of water must pass through a smaller cross-sectional area in the same time, requiring a greater flow speed."
+      }
+    ],
+    "practical_applications": [
+      "Aircraft and vehicle aerodynamic design, minimising turbulent flow (drag) around the body",
+      "Designing efficient pipe and duct systems for water, gas, and ventilation networks",
+      "Understanding blood flow through arteries and veins in physiology and medicine"
+    ],
+    "common_mistakes": [
+      "Assuming turbulent flow is always undesirable in every situation (it is sometimes deliberately encouraged, such as for mixing purposes)",
+      "Assuming fluid speed is unaffected by the width of the pipe or channel it flows through"
+    ],
+    "misconceptions": [
+      "That laminar and turbulent flow are simply two names for the same phenomenon at different speeds, rather than genuinely different flow patterns — laminar flow involves smooth, predictable, layered motion, while turbulent flow involves chaotic, unpredictable mixing, and the transition between them (usually as speed increases) represents a fundamental change in how the fluid behaves, not just a change in speed within the same pattern."
+    ],
+    "tips": [
+      "Remember the core principle for flow through a pipe of varying width: narrower sections mean faster flow, and wider sections mean slower flow, for the same overall volume flow rate."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the term for smooth fluid flow in ordered, parallel layers."
+      ],
+      "intermediate": [
+        "Explain, in terms of speed, one factor that makes turbulent flow more likely to occur."
+      ],
+      "advanced": [
+        "Explain why a garden hose's water jet can be made to travel faster and further simply by partially covering the end of the hose with a thumb, narrowing the opening."
+      ]
+    },
+    "exam_questions": [
+      "Explain the difference between laminar and turbulent flow, and describe one factor that affects which type of flow occurs."
+    ],
+    "answers": {
+      "basic": [
+        "Laminar flow."
+      ],
+      "intermediate": [
+        "Higher fluid speed generally makes turbulent flow more likely, since faster-moving fluid is more prone to disruption and chaotic mixing than slow-moving fluid."
+      ],
+      "advanced": [
+        "Partially covering the end of the hose reduces the cross-sectional area of the opening the water flows through; since the same volume of water must still pass through this now-smaller opening in the same time (assuming the flow rate from the tap is unchanged), the water's speed increases as it exits, allowing the jet to travel faster and further."
+      ],
+      "exam": [
+        "Laminar flow is smooth, ordered fluid motion in parallel layers with no significant mixing, while turbulent flow is chaotic fluid motion with swirling eddies and unpredictable mixing; one factor affecting which type occurs is fluid speed, with faster flow being more likely to become turbulent than slow, gentle flow."
+      ]
+    },
+    "summary": "Fluid dynamics studies fluids in motion, distinguishing smooth laminar flow from chaotic turbulent flow, with the transition depending on speed, surface shape, and viscosity. For flow through a pipe, narrower sections produce faster flow to maintain a constant volume flow rate.",
+    "revision_notes": [
+      "Laminar: smooth, ordered, parallel layers",
+      "Turbulent: chaotic, mixing, eddies",
+      "Narrower cross-section = faster flow (same volume flow rate)"
+    ],
+    "related_topics": [
+      "Pressure in Liquids",
+      "Drag",
+      "Density"
+    ],
+    "prerequisites": [
+      "Pressure in Liquids"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-105",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Circular Motion",
+    "difficulty": "Foundational",
+    "description": "The motion of an object travelling along a circular path around a fixed centre point.",
+    "learning_objectives": [
+      "Describe the key features of circular motion",
+      "Explain why an object moving in a circle at constant speed is still accelerating",
+      "Identify examples of circular motion in everyday life"
+    ],
+    "explanation": "Circular motion describes the motion of an object that travels along a circular path around a fixed centre point, maintaining a constant distance (the radius) from that centre throughout its motion. Even when an object moves around a circle at a perfectly constant speed, it is still accelerating, because its velocity (a vector) is continuously changing direction as it moves around the circle, even though its magnitude (speed) stays the same — and since acceleration is defined as the rate of change of velocity, a continuously changing direction counts just as much as a continuously changing speed. This acceleration is always directed toward the centre of the circle, as covered in detail in Centripetal Acceleration, and requires a resultant force, also directed toward the centre, to produce it, as covered in Centripetal Force. Everyday examples of circular motion include a car going around a roundabout, a ball on a string being swung in a horizontal circle, and, on a much larger scale, the Moon orbiting the Earth.",
+    "key_concepts": [
+      "Object moves along a circular path around a fixed centre",
+      "Constant speed circular motion still involves acceleration (changing direction)",
+      "Requires a resultant force directed toward the centre"
+    ],
+    "definitions": [
+      {
+        "term": "Circular motion",
+        "definition": "The motion of an object travelling along a circular path around a fixed centre point, at a constant distance (radius) from that centre."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "speed",
+        "si_unit": "metre per second",
+        "symbol": "m/s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A car travels around a roundabout at a constant speed of 8 m/s. Explain why the car is accelerating, even though its speed does not change.",
+        "steps": [
+          "Recall that acceleration is defined as the rate of change of velocity, and velocity is a vector quantity (magnitude and direction).",
+          "As the car moves around the roundabout, its direction of travel is continuously changing, even though its speed (8 m/s) remains constant.",
+          "Since velocity depends on direction as well as magnitude, this continuously changing direction means the car's velocity is continuously changing.",
+          "A continuously changing velocity means the car has a non-zero acceleration, even though its speed is constant."
+        ],
+        "answer": "The car is accelerating because its direction of travel is continuously changing as it goes around the roundabout, meaning its velocity (which depends on direction as well as speed) is changing, even though its speed itself stays constant."
+      }
+    ],
+    "practical_applications": [
+      "Analysing vehicles travelling around bends and roundabouts",
+      "Designing fairground rides involving circular or rotational motion",
+      "Understanding satellite and planetary orbits, an application of circular motion on an astronomical scale"
+    ],
+    "common_mistakes": [
+      "Assuming an object moving at constant speed around a circle has zero acceleration, confusing 'constant speed' with 'constant velocity'",
+      "Forgetting that circular motion always requires a resultant force directed toward the centre to be maintained"
+    ],
+    "misconceptions": [
+      "That 'acceleration' only refers to a change in speed — in physics, acceleration refers to any change in velocity, which includes a change in direction alone, even at perfectly constant speed, as is the defining feature of circular motion."
+    ],
+    "tips": [
+      "When analysing circular motion, always remember that even 'constant speed' circular motion involves acceleration and requires a resultant force, both directed toward the centre of the circle."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State whether an object moving in a circle at constant speed has zero or non-zero acceleration."
+      ],
+      "intermediate": [
+        "Give two everyday examples of circular motion."
+      ],
+      "advanced": [
+        "Explain why circular motion at constant speed requires a continuously acting resultant force, even though the object's speed never changes."
+      ]
+    },
+    "exam_questions": [
+      "Explain, using the definitions of velocity and acceleration, why an object moving in a circle at constant speed is still classified as accelerating."
+    ],
+    "answers": {
+      "basic": [
+        "Non-zero acceleration."
+      ],
+      "intermediate": [
+        "Any two of: a car going around a roundabout, a ball on a string swung in a circle, a satellite orbiting a planet, a fairground ride."
+      ],
+      "advanced": [
+        "By Newton's first law, a resultant force is required to produce any change in velocity; since the object's direction (and therefore velocity) is continuously changing throughout circular motion, a resultant force must be continuously acting on it to produce this continuous change, even though this force does not change the object's speed (only its direction), because it acts perpendicular to the object's velocity at every instant."
+      ],
+      "exam": [
+        "Velocity is a vector quantity, requiring both magnitude (speed) and direction to be fully specified; even though the object's speed remains constant in circular motion, its direction of travel is continuously changing as it moves around the circle, meaning its velocity is continuously changing overall. Since acceleration is defined as the rate of change of velocity, this continuously changing velocity means the object has a non-zero acceleration, despite its constant speed."
+      ]
+    },
+    "summary": "Circular motion is motion along a circular path at a constant distance from a fixed centre. Even at constant speed, an object in circular motion is accelerating, because its direction (and therefore velocity) is continuously changing, requiring a resultant force directed toward the centre.",
+    "revision_notes": [
+      "Circular motion: constant distance (radius) from a fixed centre",
+      "Constant speed still means non-zero acceleration (direction changes)",
+      "Requires a resultant force toward the centre"
+    ],
+    "related_topics": [
+      "Centripetal Force",
+      "Centripetal Acceleration",
+      "Angular Velocity"
+    ],
+    "prerequisites": [
+      "Velocity",
+      "Acceleration"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-106",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Angular Displacement",
+    "difficulty": "Intermediate",
+    "description": "The angle through which an object has rotated about a fixed centre, typically measured in radians.",
+    "learning_objectives": [
+      "Define angular displacement",
+      "Convert between degrees and radians",
+      "Relate angular displacement to arc length for circular motion"
+    ],
+    "explanation": "Angular displacement is the angle through which an object has rotated about a fixed centre, analogous to how ordinary (linear) displacement describes a straight-line change in position. While angular displacement can be measured in degrees, physics most commonly uses radians (rad) instead, since radians simplify many of the equations used in circular motion. One radian is defined as the angle subtended at the centre of a circle by an arc whose length is equal to the circle's radius; since the full circumference of a circle is 2(pi)r, a complete circle (360 degrees) corresponds to exactly 2(pi) radians. This gives the conversion factor: to convert from degrees to radians, multiply by (pi/180); to convert from radians to degrees, multiply by (180/pi). Angular displacement, theta, is directly related to the arc length, s, travelled along the circle's circumference and the radius, r, of the circle, by the equation s = r(theta), where theta is measured in radians.",
+    "key_concepts": [
+      "Angle of rotation about a fixed centre",
+      "Measured in radians (rad) in physics, not just degrees",
+      "s = r(theta) (arc length = radius x angular displacement in radians)"
+    ],
+    "definitions": [
+      {
+        "term": "Angular displacement",
+        "definition": "The angle through which an object has rotated about a fixed centre, typically measured in radians."
+      },
+      {
+        "term": "Radian",
+        "definition": "The SI unit of angle, defined as the angle subtended at the centre of a circle by an arc equal in length to the circle's radius; a full circle equals 2(pi) radians."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Arc length from angular displacement",
+        "equation": "s = r(theta)",
+        "variables": {
+          "s": "arc length, m",
+          "r": "radius, m",
+          "theta": "angular displacement, rad"
+        }
+      },
+      {
+        "name": "Degrees to radians",
+        "equation": "radians = degrees x (pi/180)",
+        "variables": {}
+      }
+    ],
+    "units": [
+      {
+        "quantity": "angular displacement",
+        "si_unit": "radian",
+        "symbol": "rad"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "An object moves through an angular displacement of 90 degrees around a circle of radius 2 m. Convert this angle to radians, and calculate the arc length travelled.",
+        "steps": [
+          "Convert to radians: radians = 90 x (pi/180) = pi/2 approx 1.57 rad.",
+          "Use s = r(theta).",
+          "Substitute: s = 2 x 1.57."
+        ],
+        "answer": "Angular displacement approx 1.57 rad; arc length approx 3.14 m"
+      }
+    ],
+    "practical_applications": [
+      "Describing the rotation of wheels, gears, and turbines in engineering",
+      "Calculating satellite and planetary positions along their orbits",
+      "Analysing rotational motion in machinery and robotics"
+    ],
+    "common_mistakes": [
+      "Forgetting to convert degrees to radians before using equations (such as s = r(theta)) that specifically require radians",
+      "Confusing angular displacement (an angle) with linear (arc length) displacement (a distance)"
+    ],
+    "misconceptions": [
+      "That radians are just an alternative, interchangeable way of writing degrees with no particular mathematical significance — radians are specifically defined in terms of the circle's own geometry (arc length equal to radius), which is precisely what makes equations such as s = r(theta) work directly without needing an additional conversion factor, unlike using degrees."
+    ],
+    "tips": [
+      "Remember the key conversion: 2(pi) radians = 360 degrees, so (pi) radians = 180 degrees; use this to convert between the two systems as needed."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the number of radians in a full circle."
+      ],
+      "intermediate": [
+        "Convert an angular displacement of 45 degrees into radians."
+      ],
+      "advanced": [
+        "An object travels an arc length of 6 m around a circle of radius 4 m. Calculate its angular displacement in radians."
+      ]
+    },
+    "exam_questions": [
+      "Define the radian, and explain why it is a particularly convenient unit for describing angular displacement in circular motion equations."
+    ],
+    "answers": {
+      "basic": [
+        "2(pi) radians (approximately 6.28 rad)."
+      ],
+      "intermediate": [
+        "radians = 45 x (pi/180) = pi/4 approx 0.785 rad."
+      ],
+      "advanced": [
+        "theta = s / r = 6 / 4 = 1.5 rad."
+      ],
+      "exam": [
+        "A radian is the angle subtended at the centre of a circle by an arc equal in length to the circle's radius; it is convenient for circular motion equations because it directly links angular displacement to arc length via the simple relationship s = r(theta), without requiring any extra conversion factor, unlike using degrees, where an additional factor of pi/180 would be needed in every such equation."
+      ]
+    },
+    "summary": "Angular displacement is the angle through which an object has rotated about a fixed centre, most commonly measured in radians in physics. It relates to arc length via s = r(theta), and a full circle equals 2(pi) radians.",
+    "revision_notes": [
+      "Angular displacement measured in radians (rad)",
+      "s = r(theta)",
+      "2(pi) rad = 360 degrees; (pi) rad = 180 degrees"
+    ],
+    "related_topics": [
+      "Circular Motion",
+      "Angular Velocity",
+      "Angular Acceleration"
+    ],
+    "prerequisites": [
+      "Circular Motion"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-107",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Angular Velocity",
+    "difficulty": "Intermediate",
+    "description": "The rate at which an object's angular displacement changes with time, describing how quickly it rotates.",
+    "learning_objectives": [
+      "Define angular velocity and state its equation",
+      "Calculate angular velocity from angular displacement and time, or from linear speed and radius",
+      "Relate angular velocity to the period and frequency of circular motion"
+    ],
+    "explanation": "Angular velocity, given the symbol omega, is the rate at which an object's angular displacement changes with time, describing how quickly it is rotating about a fixed centre. It is calculated as omega = theta/t, where theta is the angular displacement in radians and t is the time taken, giving angular velocity the unit radians per second (rad/s). Angular velocity is directly related to an object's ordinary (linear) speed, v, and the radius, r, of its circular path, by the equation v = omega x r, since a larger radius means the same angular rotation corresponds to a greater linear distance travelled in the same time. Angular velocity is also related to the period, T (the time taken for one complete revolution), and the frequency, f (the number of complete revolutions per second), by the equations omega = 2(pi)/T and omega = 2(pi)f, since one complete revolution corresponds to an angular displacement of 2(pi) radians.",
+    "key_concepts": [
+      "omega = theta / t (rad/s)",
+      "v = omega x r (links angular and linear speed)",
+      "omega = 2(pi)/T = 2(pi)f"
+    ],
+    "definitions": [
+      {
+        "term": "Angular velocity",
+        "definition": "The rate of change of angular displacement with time, calculated as omega = theta/t, measured in radians per second."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Angular velocity",
+        "equation": "omega = theta / t",
+        "variables": {
+          "omega": "angular velocity, rad/s",
+          "theta": "angular displacement, rad",
+          "t": "time, s"
+        }
+      },
+      {
+        "name": "Linear speed from angular velocity",
+        "equation": "v = omega x r",
+        "variables": {
+          "v": "linear speed, m/s",
+          "omega": "angular velocity, rad/s",
+          "r": "radius, m"
+        }
+      },
+      {
+        "name": "Angular velocity from period",
+        "equation": "omega = 2(pi) / T",
+        "variables": {
+          "T": "period (time for one revolution), s"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "angular velocity",
+        "si_unit": "radian per second",
+        "symbol": "rad/s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A wheel of radius 0.3 m rotates with an angular velocity of 10 rad/s. Calculate the linear speed of a point on the rim of the wheel.",
+        "steps": [
+          "Use v = omega x r.",
+          "Substitute: v = 10 x 0.3."
+        ],
+        "answer": "3 m/s"
+      },
+      {
+        "problem": "A fairground ride completes one full revolution every 8 s. Calculate its angular velocity.",
+        "steps": [
+          "Identify the period: T = 8 s.",
+          "Use omega = 2(pi)/T.",
+          "Substitute: omega = 2(pi) / 8."
+        ],
+        "answer": "Approximately 0.785 rad/s"
+      }
+    ],
+    "practical_applications": [
+      "Analysing the rotational speed of wheels, turbines, and rotating machinery",
+      "Calculating satellite orbital speeds from their angular velocity and orbital radius",
+      "Designing centrifuges and other high-speed rotating equipment"
+    ],
+    "common_mistakes": [
+      "Confusing angular velocity (rad/s, describing rotational speed) with linear velocity (m/s, describing speed along the circular path)",
+      "Using degrees instead of radians when calculating angular velocity"
+    ],
+    "misconceptions": [
+      "That every point on a rotating object has the same linear speed — while every point on a rigid rotating object shares the same angular velocity, points further from the centre (larger radius) have a greater linear speed, since v = omega x r increases with r for a fixed omega."
+    ],
+    "tips": [
+      "Remember that angular velocity is the same for every point on a rigid rotating object, regardless of its distance from the centre, whereas linear speed varies with radius (v = omega x r)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for angular velocity, defining each symbol."
+      ],
+      "intermediate": [
+        "A point moves through an angular displacement of 3 rad in 1.5 s. Calculate its angular velocity."
+      ],
+      "advanced": [
+        "A satellite orbits at a radius of 7000 km with a linear speed of 7.5 km/s. Calculate its angular velocity."
+      ]
+    },
+    "exam_questions": [
+      "Explain why two points at different distances from the centre of a rotating disc have the same angular velocity but different linear speeds."
+    ],
+    "answers": {
+      "basic": [
+        "omega = theta / t, where omega is angular velocity in rad/s, theta is angular displacement in rad, and t is time in s."
+      ],
+      "intermediate": [
+        "omega = 3 / 1.5 = 2 rad/s."
+      ],
+      "advanced": [
+        "omega = v / r = 7.5 / 7000 approx 0.00107 rad/s."
+      ],
+      "exam": [
+        "Since the disc is rigid, every point on it completes the same angular displacement in the same time, giving them all the same angular velocity; however, linear speed depends on v = omega x r, so a point further from the centre (larger r), despite having the same omega, must travel a greater physical (arc) distance in the same time to keep pace with the rotation, giving it a greater linear speed."
+      ]
+    },
+    "summary": "Angular velocity is the rate of change of angular displacement with time (omega = theta/t), measured in rad/s. It relates to linear speed via v = omega x r, and to the period and frequency of rotation via omega = 2(pi)/T = 2(pi)f.",
+    "revision_notes": [
+      "omega = theta/t (rad/s)",
+      "v = omega x r",
+      "omega = 2(pi)/T = 2(pi)f"
+    ],
+    "related_topics": [
+      "Angular Displacement",
+      "Angular Acceleration",
+      "Circular Motion"
+    ],
+    "prerequisites": [
+      "Angular Displacement"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-108",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Angular Acceleration",
+    "difficulty": "Advanced",
+    "description": "The rate at which an object's angular velocity changes with time, describing how quickly its rotational speed is changing.",
+    "learning_objectives": [
+      "Define angular acceleration and state its equation",
+      "Calculate angular acceleration from a change in angular velocity over time",
+      "Relate angular acceleration to linear (tangential) acceleration"
+    ],
+    "explanation": "Angular acceleration, given the symbol alpha, is the rate at which an object's angular velocity changes with time, calculated as alpha = (omega2 - omega1) / t, where omega1 and omega2 are the initial and final angular velocities, and t is the time taken for this change. Angular acceleration is measured in radians per second squared (rad/s^2), and describes how quickly a rotating object is speeding up or slowing down its rotation (as distinct from centripetal acceleration, which is present even at constant angular velocity and relates to the continuous change in direction rather than a change in rotational speed). Angular acceleration is related to linear (tangential) acceleration, a(tangential), the rate of change of an object's linear speed along its circular path, by the equation a(tangential) = alpha x r, analogous to the relationship v = omega x r between linear and angular velocity.",
+    "key_concepts": [
+      "alpha = (change in angular velocity) / time",
+      "Unit: rad/s^2",
+      "Distinct from centripetal acceleration (which relates to changing direction, not rotational speed)"
+    ],
+    "definitions": [
+      {
+        "term": "Angular acceleration",
+        "definition": "The rate of change of angular velocity with time, calculated as alpha = (omega2 - omega1)/t, measured in radians per second squared."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Angular acceleration",
+        "equation": "alpha = (omega2 - omega1) / t",
+        "variables": {
+          "alpha": "angular acceleration, rad/s^2",
+          "omega1": "initial angular velocity, rad/s",
+          "omega2": "final angular velocity, rad/s",
+          "t": "time taken, s"
+        }
+      },
+      {
+        "name": "Tangential acceleration from angular acceleration",
+        "equation": "a(tangential) = alpha x r",
+        "variables": {
+          "a(tangential)": "tangential (linear) acceleration, m/s^2",
+          "r": "radius, m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "angular acceleration",
+        "si_unit": "radian per second squared",
+        "symbol": "rad/s^2"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A spinning wheel increases its angular velocity from 4 rad/s to 14 rad/s over 5 s. Calculate its angular acceleration.",
+        "steps": [
+          "Use alpha = (omega2 - omega1) / t.",
+          "Substitute: alpha = (14 - 4) / 5."
+        ],
+        "answer": "2 rad/s^2"
+      }
+    ],
+    "practical_applications": [
+      "Analysing the spin-up and spin-down of turbines, motors, and flywheels",
+      "Engineering design of rotating machinery requiring controlled angular acceleration",
+      "Sports science analysis of rotational movements, such as a gymnast's spin"
+    ],
+    "common_mistakes": [
+      "Confusing angular acceleration (change in rotational speed) with centripetal acceleration (present even at constant rotational speed, due to changing direction)",
+      "Forgetting to use radians (rather than degrees or revolutions) for angular velocity when calculating angular acceleration"
+    ],
+    "misconceptions": [
+      "That an object rotating at constant angular velocity has zero acceleration entirely — while it has zero angular acceleration (its rotational speed is not changing), it still has a non-zero centripetal acceleration, since its direction of linear motion is continuously changing even at a constant rotational speed; angular acceleration and centripetal acceleration describe two genuinely different aspects of circular motion."
+    ],
+    "tips": [
+      "Keep angular acceleration (change in rotational speed, alpha) and centripetal acceleration (present even at constant rotational speed, due to changing direction) conceptually and mathematically separate — they are calculated differently and describe different physical effects."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for angular acceleration, defining each symbol."
+      ],
+      "intermediate": [
+        "A rotor slows from 20 rad/s to 5 rad/s over 3 s. Calculate its angular acceleration."
+      ],
+      "advanced": [
+        "A disc of radius 0.15 m has an angular acceleration of 6 rad/s^2. Calculate the tangential (linear) acceleration of a point on its rim."
+      ]
+    },
+    "exam_questions": [
+      "Explain the difference between angular acceleration and centripetal acceleration, referring to what each describes about an object's circular motion."
+    ],
+    "answers": {
+      "basic": [
+        "alpha = (omega2 - omega1)/t, where alpha is angular acceleration in rad/s^2, omega1 and omega2 are initial and final angular velocities in rad/s, and t is time in s."
+      ],
+      "intermediate": [
+        "alpha = (5-20)/3 = -5 rad/s^2 (a deceleration of 5 rad/s^2)."
+      ],
+      "advanced": [
+        "a(tangential) = alpha x r = 6 x 0.15 = 0.9 m/s^2."
+      ],
+      "exam": [
+        "Angular acceleration describes how quickly an object's rotational (angular) speed is changing, and is zero for an object rotating at a constant angular velocity; centripetal acceleration describes the continuous change in the direction of an object's linear velocity as it moves around a circular path, and is present even when the object's speed (and angular velocity) is completely constant, since direction alone is still changing."
+      ]
+    },
+    "summary": "Angular acceleration is the rate of change of angular velocity with time (alpha = (omega2-omega1)/t), measured in rad/s^2, distinct from centripetal acceleration. It relates to tangential (linear) acceleration via a(tangential) = alpha x r.",
+    "revision_notes": [
+      "alpha = (omega2 - omega1)/t (rad/s^2)",
+      "a(tangential) = alpha x r",
+      "Distinct from centripetal acceleration (present even at constant angular velocity)"
+    ],
+    "related_topics": [
+      "Angular Velocity",
+      "Centripetal Acceleration",
+      "Acceleration"
+    ],
+    "prerequisites": [
+      "Angular Velocity"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-109",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Centripetal Force",
+    "difficulty": "Intermediate",
+    "description": "The resultant force, directed toward the centre of a circular path, required to keep an object moving in that circle.",
+    "learning_objectives": [
+      "Define centripetal force and state its equation",
+      "Explain why centripetal force always acts toward the centre of the circular path",
+      "Identify the real, physical force(s) that provide the centripetal force in a given scenario"
+    ],
+    "explanation": "Centripetal force is the resultant force required to keep an object moving along a circular path, always directed toward the centre of that circle. This follows directly from Newton's first and second laws: since an object moving in a circle is continuously changing direction (and therefore accelerating, toward the centre, as covered in Centripetal Acceleration), a resultant force must be acting on it, and by Newton's second law, this force must point in the same direction as the resulting acceleration — toward the centre. It is important to understand that 'centripetal force' is not a new, distinct type of force in its own right, but rather a name given to whichever combination of real, physical forces (such as tension, gravity, friction, or normal reaction) happens to be providing the necessary centre-directed resultant force in a given situation: for a ball on a string swung in a circle, centripetal force is provided by the tension in the string; for a car going around a bend, it is provided by friction between the tyres and the road; for the Moon orbiting the Earth, it is provided by gravitational attraction. The size of the centripetal force required is calculated using F = mv^2/r (or the equivalent form F = m(omega^2)r).",
+    "key_concepts": [
+      "Centripetal force: resultant force toward the centre of a circular path",
+      "Not a new force type — provided by real forces (tension, friction, gravity, etc.)",
+      "F = mv^2/r"
+    ],
+    "definitions": [
+      {
+        "term": "Centripetal force",
+        "definition": "The resultant force, directed toward the centre of a circular path, required to keep an object moving along that path."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Centripetal force",
+        "equation": "F = mv^2 / r",
+        "variables": {
+          "F": "centripetal force, N",
+          "m": "mass, kg",
+          "v": "linear speed, m/s",
+          "r": "radius of the circular path, m"
+        }
+      },
+      {
+        "name": "Centripetal force (angular form)",
+        "equation": "F = m(omega^2)r",
+        "variables": {
+          "omega": "angular velocity, rad/s"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A 0.5 kg ball is swung in a horizontal circle of radius 0.8 m at a speed of 4 m/s. Calculate the centripetal force required, and identify what provides this force.",
+        "steps": [
+          "Use F = mv^2/r.",
+          "Substitute: F = (0.5)(4^2)/0.8 = (0.5)(16)/0.8."
+        ],
+        "answer": "10 N; this force is provided by the tension in the string connecting the ball to the person's hand."
+      }
+    ],
+    "practical_applications": [
+      "Designing safe cornering speeds and road camber (banking) for vehicles",
+      "Analysing the forces on passengers and structures in fairground rides",
+      "Understanding the forces required to maintain satellite and planetary orbits (provided by gravity)"
+    ],
+    "common_mistakes": [
+      "Treating centripetal force as an additional, separate force to be added to a free-body diagram, rather than recognising it as the resultant of the real forces already present",
+      "Confusing centripetal force (which acts toward the centre) with the outward sensation sometimes described as 'centrifugal force' (which is not a real force in this context, but an effect of inertia observed from within an accelerating, rotating frame of reference)"
+    ],
+    "misconceptions": [
+      "That centripetal force is a distinct, additional force acting alongside forces like tension, gravity, and friction — it is simply the name given to the net (resultant) effect of whichever real forces are present and happen to sum to a force directed toward the centre; there is no separate 'centripetal force' to add on top of the real forces already identified in a free-body diagram."
+    ],
+    "tips": [
+      "When solving a centripetal force problem, first identify the real, physical force (or combination of forces) providing the centripetal effect (e.g. tension, friction, gravity, normal force) before applying F = mv^2/r."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for centripetal force in terms of mass, speed, and radius."
+      ],
+      "intermediate": [
+        "A 1200 kg car travels around a bend of radius 50 m at a speed of 15 m/s. Calculate the centripetal force required."
+      ],
+      "advanced": [
+        "Explain what provides the centripetal force keeping a satellite in a stable circular orbit around the Earth."
+      ]
+    },
+    "exam_questions": [
+      "Explain why centripetal force is not considered a new, separate type of force, using an example to support your answer."
+    ],
+    "answers": {
+      "basic": [
+        "F = mv^2/r."
+      ],
+      "intermediate": [
+        "F = mv^2/r = (1200)(15^2)/50 = (1200)(225)/50 = 5400 N."
+      ],
+      "advanced": [
+        "The gravitational force of attraction between the satellite and the Earth provides the necessary centripetal force, continuously pulling the satellite toward the centre of the Earth and curving its path into a circular (or elliptical) orbit rather than allowing it to travel off in a straight line."
+      ],
+      "exam": [
+        "Centripetal force is not a new type of force, but simply describes the resultant, centre-directed effect of whichever real forces are acting in a given situation; for example, when a car goes around a bend, the friction between its tyres and the road provides the necessary centripetal force — friction is the real, physical force involved, and 'centripetal force' is just the name given to its role in this specific context, not an additional force acting alongside friction."
+      ]
+    },
+    "summary": "Centripetal force is the resultant, centre-directed force required to keep an object moving in a circular path, calculated as F = mv^2/r. It is always provided by real physical forces (tension, friction, gravity, etc.), not a distinct new force type.",
+    "revision_notes": [
+      "Centripetal force: resultant force toward centre",
+      "F = mv^2/r = m(omega^2)r",
+      "Provided by real forces: tension, friction, gravity, normal force"
+    ],
+    "related_topics": [
+      "Centripetal Acceleration",
+      "Circular Motion",
+      "Newton's Second Law"
+    ],
+    "prerequisites": [
+      "Circular Motion",
+      "Newton's Second Law"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-110",
+    "subject": "Physics",
+    "category": "Circular Motion and Gravitation",
+    "title": "Centripetal Acceleration",
+    "difficulty": "Intermediate",
+    "description": "The acceleration directed toward the centre of a circular path, resulting from the continuous change in direction of a rotating object's velocity.",
+    "learning_objectives": [
+      "Define centripetal acceleration and state its equation",
+      "Explain why centripetal acceleration is directed toward the centre of the circular path",
+      "Calculate centripetal acceleration from speed and radius, or from angular velocity and radius"
+    ],
+    "explanation": "Centripetal acceleration is the acceleration experienced by any object moving in a circular path, directed at every instant toward the centre of that circle. It arises because, even when an object's speed around the circle is constant, its velocity is still continuously changing direction, and acceleration is defined as the rate of change of velocity; a careful analysis of this changing direction shows that the resulting acceleration always points directly toward the centre of the circle (never forward, backward, or outward). Centripetal acceleration is calculated using a = v^2/r, where v is the object's linear speed and r is the radius of its circular path, or equivalently a = (omega^2)r, using angular velocity omega. Centripetal acceleration is directly linked to centripetal force through Newton's second law (F = ma): the centripetal force required to keep an object moving in a circle is simply the object's mass multiplied by this centripetal acceleration.",
+    "key_concepts": [
+      "Centripetal acceleration: always directed toward the centre",
+      "a = v^2/r = (omega^2)r",
+      "Present even at constant speed, due to changing direction"
+    ],
+    "definitions": [
+      {
+        "term": "Centripetal acceleration",
+        "definition": "The acceleration of an object moving in a circular path, directed toward the centre of the circle, calculated as a = v^2/r."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Centripetal acceleration",
+        "equation": "a = v^2 / r",
+        "variables": {
+          "a": "centripetal acceleration, m/s^2",
+          "v": "linear speed, m/s",
+          "r": "radius of the circular path, m"
+        }
+      },
+      {
+        "name": "Centripetal acceleration (angular form)",
+        "equation": "a = (omega^2)r",
+        "variables": {
+          "omega": "angular velocity, rad/s"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "acceleration",
+        "si_unit": "metre per second squared",
+        "symbol": "m/s^2"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "An object moves in a circle of radius 2.5 m at a constant speed of 6 m/s. Calculate its centripetal acceleration.",
+        "steps": [
+          "Use a = v^2/r.",
+          "Substitute: a = 6^2 / 2.5 = 36 / 2.5."
+        ],
+        "answer": "14.4 m/s^2"
+      }
+    ],
+    "practical_applications": [
+      "Calculating the forces experienced by passengers on fairground rides involving circular motion",
+      "Engineering design of centrifuges, which rely on very high centripetal acceleration",
+      "Analysing the stresses on rotating machinery components, such as turbine blades"
+    ],
+    "common_mistakes": [
+      "Forgetting to square the speed when calculating centripetal acceleration",
+      "Assuming centripetal acceleration is directed forward (in the direction of motion) rather than toward the centre"
+    ],
+    "misconceptions": [
+      "That centripetal acceleration and linear (tangential) acceleration are the same thing — centripetal acceleration relates specifically to the changing direction of motion (present even at constant speed), while tangential acceleration relates to a changing speed along the circular path (present only if the object is speeding up or slowing down its rotation); an object can have one, both, or neither, depending on its specific motion."
+    ],
+    "tips": [
+      "Always remember that centripetal acceleration points toward the centre of the circle at every instant, not in the direction the object happens to be moving at that moment (which is tangential to the circle, at right angles to the centripetal direction)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the direction of centripetal acceleration relative to the circular path."
+      ],
+      "intermediate": [
+        "A car travels around a curve of radius 40 m at 12 m/s. Calculate its centripetal acceleration."
+      ],
+      "advanced": [
+        "Explain why an object moving in a circle at constant speed has centripetal acceleration but zero angular acceleration."
+      ]
+    },
+    "exam_questions": [
+      "Explain why an object moving in a circle at a constant speed still has a non-zero acceleration, and state the direction of this acceleration."
+    ],
+    "answers": {
+      "basic": [
+        "Toward the centre of the circle."
+      ],
+      "intermediate": [
+        "a = v^2/r = 12^2/40 = 144/40 = 3.6 m/s^2."
+      ],
+      "advanced": [
+        "Angular acceleration describes a change in rotational (angular) speed, which is zero here since the object's speed is constant; centripetal acceleration, however, arises purely from the continuous change in the direction of the object's velocity as it moves around the circle, which occurs regardless of whether the speed itself is changing, meaning the object can have zero angular acceleration alongside a non-zero centripetal acceleration."
+      ],
+      "exam": [
+        "Even at constant speed, the object's direction of travel is continuously changing as it moves around the circle, meaning its velocity (a vector, dependent on direction as well as magnitude) is continuously changing; since acceleration is the rate of change of velocity, this gives the object a non-zero acceleration, directed at every instant toward the centre of the circular path."
+      ]
+    },
+    "summary": "Centripetal acceleration is the acceleration of an object moving in a circle, always directed toward the centre, calculated as a = v^2/r. It arises from the continuous change in direction of velocity and is present even at constant speed.",
+    "revision_notes": [
+      "a = v^2/r = (omega^2)r",
+      "Always directed toward the centre",
+      "Present even at constant speed (direction changes)"
+    ],
+    "related_topics": [
+      "Centripetal Force",
+      "Circular Motion",
+      "Angular Velocity"
+    ],
+    "prerequisites": [
+      "Circular Motion",
+      "Angular Velocity"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  }
+]

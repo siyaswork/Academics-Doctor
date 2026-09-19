@@ -1,0 +1,1962 @@
+[
+  {
+    "id": 58,
+    "category": "Quadratics",
+    "topic": "Quadratic Expressions",
+    "explanation": "A quadratic expression has the general form ax^2+bx+c (a\u22600), the highest power of x being 2, and forms the basis for quadratic equations, graphs, and inequalities.",
+    "key_concepts": [
+      "Standard form ax^2+bx+c",
+      "Leading coefficient sign and shape",
+      "Evaluating expressions at given x"
+    ],
+    "definitions": [
+      {
+        "term": "Quadratic expression",
+        "definition": "A polynomial expression of degree 2, in the form ax^2+bx+c with a\u22600."
+      }
+    ],
+    "formulas": [
+      "ax^2+bx+c, a\u22600"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Evaluate 2x^2-3x+1 at x=3",
+        "steps": [
+          "2(9)-3(3)+1=18-9+1"
+        ],
+        "answer": "10"
+      },
+      {
+        "problem": "State the leading coefficient and constant of -x^2+4x-7",
+        "steps": [
+          "Leading coefficient: -1",
+          "Constant term: -7"
+        ],
+        "answer": "a=-1, c=-7"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Evaluate x^2+2x-5 at x=-2",
+        "answer": "-5"
+      },
+      {
+        "q": "State a, b, c in 3x^2-x+8",
+        "answer": "a=3,b=-1,c=8"
+      },
+      {
+        "q": "Evaluate 4-x^2 at x=3",
+        "answer": "-5"
+      },
+      {
+        "q": "Is 2x^2-3x is a quadratic (no constant term)?",
+        "answer": "Yes, c=0"
+      },
+      {
+        "q": "Evaluate -2x^2+5x at x=0",
+        "answer": "0"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Given f(x)=2x^2-5x+3, find f(1) and f(-1) and comment on the results.",
+        "answer": "f(1)=0; f(-1)=2+5+3=10; f(1)=0 shows x=1 is a root"
+      },
+      {
+        "q": "For which value of k is kx^2+3x-1 not a quadratic?",
+        "answer": "k=0"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting a cannot equal zero for a true quadratic",
+      "Sign errors substituting negative x values",
+      "Confusing coefficient with the term itself"
+    ],
+    "tips": [
+      "Always check a\u22600 before calling an expression quadratic",
+      "Use brackets when substituting negative values",
+      "Write in standard form before identifying coefficients"
+    ],
+    "summary": "Quadratic expressions are the entry point to the entire Quadratics category, underpinning equations, graphs, and inequalities.",
+    "quick_revision": [
+      "Standard form: ax^2+bx+c, a\u22600",
+      "Evaluate by direct substitution",
+      "Identify a, b, c from standard form"
+    ],
+    "related_topics": [
+      "Quadratic Equations",
+      "Quadratic Graphs",
+      "Factorisation"
+    ],
+    "prerequisites": [
+      "Algebraic Manipulation"
+    ],
+    "images": []
+  },
+  {
+    "id": 59,
+    "category": "Quadratics",
+    "topic": "Quadratic Equations",
+    "explanation": "A quadratic equation sets a quadratic expression equal to zero (ax^2+bx+c=0) and is solved by factorising, completing the square, or using the quadratic formula.",
+    "key_concepts": [
+      "Setting expression to zero",
+      "Factorising method",
+      "Quadratic formula method",
+      "Completing the square method"
+    ],
+    "definitions": [
+      {
+        "term": "Quadratic equation",
+        "definition": "An equation of the form ax^2+bx+c=0, a\u22600."
+      }
+    ],
+    "formulas": [
+      "x = [-b \u00b1 \u221a(b^2-4ac)] / 2a"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Solve x^2-5x+6=0",
+        "steps": [
+          "Factorise: (x-2)(x-3)=0"
+        ],
+        "answer": "x=2 or x=3"
+      },
+      {
+        "problem": "Solve 2x^2+3x-2=0 using the formula",
+        "steps": [
+          "a=2,b=3,c=-2",
+          "x=[-3\u00b1\u221a(9+16)]/4=[-3\u00b15]/4"
+        ],
+        "answer": "x=1/2 or x=-2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Solve x^2-7x+12=0",
+        "answer": "x=3,4"
+      },
+      {
+        "q": "Solve x^2+2x-8=0",
+        "answer": "x=2,-4"
+      },
+      {
+        "q": "Solve 2x^2-5x-3=0",
+        "answer": "x=3,-1/2"
+      },
+      {
+        "q": "Solve x^2-6x+9=0",
+        "answer": "x=3 (repeated)"
+      },
+      {
+        "q": "Solve 3x^2+2x-1=0",
+        "answer": "x=1/3,-1"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Solve 2x^2-7x+3=0, giving exact answers.",
+        "answer": "(2x-1)(x-3)=0; x=1/2, x=3"
+      },
+      {
+        "q": "Solve x^2-3x-2=0, giving your answer in surd form.",
+        "answer": "x=[3\u00b1\u221a17]/2"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to set the equation to zero before solving",
+      "Sign errors in the quadratic formula",
+      "Assuming a quadratic always has two distinct real roots"
+    ],
+    "tips": [
+      "Rearrange to standard form =0 before solving",
+      "Try factorising first \u2014 quicker than the formula when possible",
+      "Check the discriminant to anticipate the type of roots"
+    ],
+    "summary": "Quadratic equations are ubiquitous throughout Add Maths \u2014 mastering all three solution methods gives flexibility for any given problem.",
+    "quick_revision": [
+      "Rearrange to ax^2+bx+c=0",
+      "Try factorising first, else use the formula",
+      "x=[-b\u00b1\u221a(b\u00b2-4ac)]/2a"
+    ],
+    "related_topics": [
+      "Quadratic Formula",
+      "Completing the Square",
+      "Discriminant"
+    ],
+    "prerequisites": [
+      "Factorisation",
+      "Quadratic Expressions"
+    ],
+    "images": []
+  },
+  {
+    "id": 60,
+    "category": "Quadratics",
+    "topic": "Quadratic Formula",
+    "explanation": "The quadratic formula provides an exact solution for any quadratic equation ax^2+bx+c=0, derived by completing the square on the general form.",
+    "key_concepts": [
+      "Formula derivation",
+      "Substitution of a, b, c",
+      "Interpreting the discriminant within the formula"
+    ],
+    "definitions": [
+      {
+        "term": "Quadratic formula",
+        "definition": "x = [-b \u00b1 \u221a(b\u00b2-4ac)] / 2a, giving both roots of ax\u00b2+bx+c=0."
+      }
+    ],
+    "formulas": [
+      "x = [-b \u00b1 \u221a(b^2-4ac)] / 2a"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Solve x^2+3x-10=0 using the formula",
+        "steps": [
+          "a=1,b=3,c=-10",
+          "x=[-3\u00b1\u221a(9+40)]/2=[-3\u00b17]/2"
+        ],
+        "answer": "x=2 or x=-5"
+      },
+      {
+        "problem": "Solve 3x^2-2x-1=0",
+        "steps": [
+          "a=3,b=-2,c=-1",
+          "x=[2\u00b1\u221a(4+12)]/6=[2\u00b14]/6"
+        ],
+        "answer": "x=1 or x=-1/3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Solve x^2-4x+1=0 using the formula (surd form)",
+        "answer": "x=2\u00b1\u221a3"
+      },
+      {
+        "q": "Solve 2x^2+7x+3=0",
+        "answer": "x=-1/2, -3"
+      },
+      {
+        "q": "Solve x^2+x-1=0 (surd form)",
+        "answer": "x=(-1\u00b1\u221a5)/2"
+      },
+      {
+        "q": "Solve 4x^2-4x+1=0",
+        "answer": "x=1/2 (repeated)"
+      },
+      {
+        "q": "Solve x^2+2x+5=0",
+        "answer": "No real roots (discriminant negative)"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Use the quadratic formula to solve 3x^2-5x-2=0, giving exact answers.",
+        "answer": "x=[5\u00b1\u221a49]/6=[5\u00b17]/6; x=2 or x=-1/3"
+      },
+      {
+        "q": "Show that x^2-2x+3=0 has no real solutions.",
+        "answer": "Discriminant=4-12=-8<0, no real roots"
+      }
+    ],
+    "common_mistakes": [
+      "Sign errors substituting b (especially when b is negative)",
+      "Forgetting the \u00b1 sign, missing one root",
+      "Arithmetic slips computing the discriminant"
+    ],
+    "tips": [
+      "Write out a, b, c explicitly before substituting",
+      "Compute the discriminant separately first to check for real roots",
+      "Simplify surds in the final answer where possible"
+    ],
+    "summary": "The quadratic formula is the universal fallback method that solves any quadratic equation, real or complex, and directly reveals root nature via the discriminant.",
+    "quick_revision": [
+      "x=[-b\u00b1\u221a(b\u00b2-4ac)]/2a",
+      "Compute discriminant first to check root type",
+      "Simplify final surd answers"
+    ],
+    "related_topics": [
+      "Quadratic Equations",
+      "Discriminant",
+      "Completing the Square"
+    ],
+    "prerequisites": [
+      "Quadratic Equations",
+      "Surds"
+    ],
+    "images": []
+  },
+  {
+    "id": 61,
+    "category": "Quadratics",
+    "topic": "Completing the Square",
+    "explanation": "Completing the square rewrites ax^2+bx+c in the form a(x+p)^2+q, revealing the vertex of the parabola directly and providing an alternative method for solving quadratic equations.",
+    "key_concepts": [
+      "Halving the coefficient of x",
+      "Vertex form",
+      "Deriving the quadratic formula"
+    ],
+    "definitions": [
+      {
+        "term": "Vertex form",
+        "definition": "A quadratic written as a(x-h)^2+k, where (h,k) is the vertex of the parabola."
+      }
+    ],
+    "formulas": [
+      "x^2+bx = (x+b/2)^2 - (b/2)^2",
+      "a(x+b/2a)^2 + c - b^2/4a for ax^2+bx+c"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Complete the square for x^2+6x+5",
+        "steps": [
+          "(x+3)^2-9+5"
+        ],
+        "answer": "(x+3)^2-4"
+      },
+      {
+        "problem": "Complete the square for 2x^2-8x+3",
+        "steps": [
+          "2(x^2-4x)+3",
+          "2[(x-2)^2-4]+3",
+          "2(x-2)^2-8+3"
+        ],
+        "answer": "2(x-2)^2-5"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Complete the square for x^2-4x+7",
+        "answer": "(x-2)^2+3"
+      },
+      {
+        "q": "Complete the square for x^2+10x",
+        "answer": "(x+5)^2-25"
+      },
+      {
+        "q": "Complete the square for 3x^2+6x-2",
+        "answer": "3(x+1)^2-5"
+      },
+      {
+        "q": "Find the vertex of y=x^2-6x+11 using completing the square",
+        "answer": "(x-3)^2+2, vertex (3,2)"
+      },
+      {
+        "q": "Complete the square for -x^2+4x+1",
+        "answer": "-(x-2)^2+5"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Express 2x^2-12x+7 in the form a(x-p)^2+q, and hence state the minimum value of the expression.",
+        "answer": "2(x-3)^2-11; minimum value -11 at x=3"
+      },
+      {
+        "q": "Use completing the square to solve x^2+8x+10=0, giving exact answers.",
+        "answer": "(x+4)^2-6=0, x=-4\u00b1\u221a6"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to adjust the constant when factoring out 'a' first",
+      "Sign errors in the halved coefficient",
+      "Not correctly identifying the vertex coordinates from the completed square form"
+    ],
+    "tips": [
+      "Always factor out 'a' from the x\u00b2 and x terms first if a\u22601",
+      "Half the coefficient of x, then square it \u2014 remember to subtract it back",
+      "Vertex of a(x-p)^2+q is (p,q) \u2014 watch the sign of p"
+    ],
+    "summary": "Completing the square is essential for finding the vertex, proving minimum/maximum values, and deriving the quadratic formula itself.",
+    "quick_revision": [
+      "x\u00b2+bx\u2192(x+b/2)\u00b2-(b/2)\u00b2",
+      "Factor out a first if a\u22601",
+      "Vertex form a(x-p)\u00b2+q has vertex (p,q)"
+    ],
+    "related_topics": [
+      "Quadratic Formula",
+      "Vertex of a Parabola",
+      "Quadratic Optimisation"
+    ],
+    "prerequisites": [
+      "Perfect Square Trinomials",
+      "Quadratic Expressions"
+    ],
+    "images": []
+  },
+  {
+    "id": 62,
+    "category": "Quadratics",
+    "topic": "Discriminant",
+    "explanation": "The discriminant, b^2-4ac, determines the nature of a quadratic equation's roots: positive gives two distinct real roots, zero gives one repeated root, and negative gives no real roots.",
+    "key_concepts": [
+      "Sign of the discriminant",
+      "Relationship to graph intersections with the x-axis",
+      "Using the discriminant in problems with unknown coefficients"
+    ],
+    "definitions": [
+      {
+        "term": "Discriminant",
+        "definition": "The quantity b\u00b2-4ac in the quadratic formula, determining the number and nature of real roots."
+      }
+    ],
+    "formulas": [
+      "\u0394 = b^2 - 4ac"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the discriminant of x^2-4x+4 and describe the roots",
+        "steps": [
+          "\u0394=16-16=0"
+        ],
+        "answer": "\u0394=0, one repeated real root"
+      },
+      {
+        "problem": "Find the range of k for which x^2+kx+9=0 has no real roots",
+        "steps": [
+          "\u0394<0: k^2-36<0",
+          "-6<k<6"
+        ],
+        "answer": "-6 < k < 6"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Find the discriminant of 2x^2-3x+5",
+        "answer": "9-40=-31"
+      },
+      {
+        "q": "Describe the roots of x^2-6x+9=0",
+        "answer": "\u0394=0, repeated root"
+      },
+      {
+        "q": "Find k such that x^2+4x+k=0 has equal roots",
+        "answer": "16-4k=0, k=4"
+      },
+      {
+        "q": "Determine the nature of roots of 3x^2+2x-1=0",
+        "answer": "\u0394=4+12=16>0, two distinct real roots"
+      },
+      {
+        "q": "For what values of k does x^2-2x+k=0 have real roots?",
+        "answer": "4-4k\u22650, k\u22641"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Find the range of values of k for which x^2+(k-2)x+4=0 has two distinct real roots.",
+        "answer": "\u0394>0: (k-2)^2-16>0, k<-2 or k>6"
+      },
+      {
+        "q": "Show that x^2+px+p+3=0 has real roots for all values of p except a specific range, and find that range.",
+        "answer": "\u0394=p^2-4p-12\u22650; factorise (p-6)(p+2)\u22650, real roots when p\u2264-2 or p\u22656; no real roots for -2<p<6"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the negative sign in -4ac",
+      "Confusing 'no real roots' with 'no roots at all' (complex roots still exist)",
+      "Sign errors when discriminant involves a parameter"
+    ],
+    "tips": [
+      "\u0394=b\u00b2-4ac \u2014 always double-check the sign of each term",
+      "\u0394=0 means tangency to the x-axis (repeated root)",
+      "When a parameter is involved, solve the resulting inequality carefully"
+    ],
+    "summary": "The discriminant is a fast diagnostic for root type without solving the equation \u2014 essential for tangency conditions and parameter-based problems.",
+    "quick_revision": [
+      "\u0394>0: two distinct real roots",
+      "\u0394=0: one repeated real root",
+      "\u0394<0: no real roots"
+    ],
+    "related_topics": [
+      "Nature of Roots",
+      "Quadratic Formula",
+      "Tangency of Quadratics"
+    ],
+    "prerequisites": [
+      "Quadratic Formula"
+    ],
+    "images": [
+      {
+        "filename": "addmaths-discriminant-62-1.webp",
+        "type": "diagram",
+        "description": "Three side-by-side parabola sketches showing \u0394>0 (crossing the x-axis twice), \u0394=0 (touching once), and \u0394<0 (not touching at all), each labelled with its discriminant condition.",
+        "purpose": "Visually connects the sign of the discriminant to the number of real roots and the parabola's relationship to the x-axis.",
+        "placement": "Directly after the key concepts/formulas section."
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "category": "Quadratics",
+    "topic": "Nature of Roots",
+    "explanation": "The nature of a quadratic's roots (real and distinct, real and equal, or complex/no real) is determined entirely by the sign of the discriminant, without needing to solve the equation fully.",
+    "key_concepts": [
+      "Real distinct, real repeated, no real roots",
+      "Using the discriminant to classify roots",
+      "Connection to graph behaviour"
+    ],
+    "definitions": [
+      {
+        "term": "Nature of roots",
+        "definition": "The classification of a quadratic's solutions as real-distinct, real-repeated, or non-real, based on the discriminant."
+      }
+    ],
+    "formulas": [
+      "\u0394>0: real distinct; \u0394=0: real repeated; \u0394<0: no real roots"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Determine the nature of the roots of 2x^2+3x+5=0",
+        "steps": [
+          "\u0394=9-40=-31<0"
+        ],
+        "answer": "No real roots"
+      },
+      {
+        "problem": "Determine the nature of the roots of x^2-8x+16=0",
+        "steps": [
+          "\u0394=64-64=0"
+        ],
+        "answer": "Real, equal (repeated) roots"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Determine the nature of roots of x^2+x+1=0",
+        "answer": "\u0394=1-4=-3<0, no real roots"
+      },
+      {
+        "q": "Determine the nature of roots of 4x^2-4x+1=0",
+        "answer": "\u0394=0, repeated root"
+      },
+      {
+        "q": "Determine the nature of roots of x^2-2x-3=0",
+        "answer": "\u0394=4+12=16>0, two distinct real roots"
+      },
+      {
+        "q": "For x^2+kx+1=0 to have real roots, find the range of k",
+        "answer": "k^2-4\u22650, k\u2264-2 or k\u22652"
+      },
+      {
+        "q": "State the nature of roots of x^2+9=0",
+        "answer": "No real roots (\u0394=-36)"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Find the values of k for which kx^2+4x+1=0 has real roots, considering also the case k=0.",
+        "answer": "For k\u22600: \u0394=16-4k\u22650, k\u22644; for k=0, equation becomes linear 4x+1=0 with one real root. So real roots for k\u22644 (including k=0)"
+      },
+      {
+        "q": "A quadratic x^2-2mx+(m+2)=0 has equal roots. Find the possible values of m.",
+        "answer": "\u0394=4m^2-4(m+2)=0, m^2-m-2=0, (m-2)(m+1)=0, m=2 or m=-1"
+      }
+    ],
+    "common_mistakes": [
+      "Not considering the special case a=0 (equation becomes linear)",
+      "Forgetting \u0394=0 still counts as 'real roots' (just repeated)",
+      "Sign errors setting up the discriminant inequality"
+    ],
+    "tips": [
+      "Always check whether a could be zero, changing the equation's type entirely",
+      "\u0394=0 is real and repeated \u2014 don't say 'no real roots' for this case",
+      "Solve discriminant inequalities carefully, factorising where possible"
+    ],
+    "summary": "Classifying root nature via the discriminant is a fast, essential skill for tangency, intersection, and parameter-range problems throughout Add Maths.",
+    "quick_revision": [
+      "\u0394>0: 2 distinct real roots",
+      "\u0394=0: 1 repeated real root",
+      "\u0394<0: 0 real roots"
+    ],
+    "related_topics": [
+      "Discriminant",
+      "Quadratic Formula",
+      "Tangency of Quadratics"
+    ],
+    "prerequisites": [
+      "Discriminant"
+    ],
+    "images": []
+  },
+  {
+    "id": 64,
+    "category": "Quadratics",
+    "topic": "Sum of Roots",
+    "explanation": "For a quadratic ax^2+bx+c=0 with roots \u03b1 and \u03b2, the sum of the roots equals -b/a, a direct relationship derived from the factorised form of the equation.",
+    "key_concepts": [
+      "Sum formula -b/a",
+      "Constructing quadratics from known sums",
+      "Using sum with product for further calculations"
+    ],
+    "definitions": [
+      {
+        "term": "Sum of roots",
+        "definition": "For ax\u00b2+bx+c=0 with roots \u03b1, \u03b2: \u03b1+\u03b2 = -b/a."
+      }
+    ],
+    "formulas": [
+      "\u03b1 + \u03b2 = -b/a"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the sum of roots of 3x^2-9x+2=0",
+        "steps": [
+          "Sum = -(-9)/3"
+        ],
+        "answer": "3"
+      },
+      {
+        "problem": "Form a quadratic with sum of roots 5, product 6",
+        "steps": [
+          "x^2-(sum)x+(product)=0"
+        ],
+        "answer": "x^2-5x+6=0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Find the sum of roots of x^2-7x+10=0",
+        "answer": "7"
+      },
+      {
+        "q": "Find the sum of roots of 2x^2+5x-3=0",
+        "answer": "-5/2"
+      },
+      {
+        "q": "Form a quadratic with roots summing to -4 and product 3",
+        "answer": "x^2+4x+3=0"
+      },
+      {
+        "q": "If \u03b1+\u03b2=6 for x^2+kx+8=0, find k",
+        "answer": "k=-6"
+      },
+      {
+        "q": "Find the sum of roots of 5x^2-2x-1=0",
+        "answer": "2/5"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "The roots of 2x^2-px+6=0 sum to 5. Find p.",
+        "answer": "5=p/2, p=10"
+      },
+      {
+        "q": "If \u03b1 and \u03b2 are roots of x^2-6x+4=0, find the value of \u03b1+\u03b2+\u03b1\u03b2.",
+        "answer": "\u03b1+\u03b2=6, \u03b1\u03b2=4; sum=10"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the negative sign in -b/a",
+      "Confusing sum formula with product formula",
+      "Sign errors when a is negative"
+    ],
+    "tips": [
+      "Memorise: sum = -b/a (note the minus sign)",
+      "Double-check sign of b before applying the formula",
+      "Useful for constructing quadratics without solving explicitly"
+    ],
+    "summary": "The sum of roots formula is a fast tool for quadratic-construction and root-relationship problems, avoiding the need to solve the equation directly.",
+    "quick_revision": [
+      "\u03b1+\u03b2 = -b/a",
+      "Use with product \u03b1\u03b2 = c/a to build new quadratics",
+      "x\u00b2-(sum)x+(product)=0 constructs a quadratic from known root sum/product"
+    ],
+    "related_topics": [
+      "Product of Roots",
+      "Relationships Between Roots and Coefficients",
+      "Quadratic Equations"
+    ],
+    "prerequisites": [
+      "Quadratic Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 65,
+    "category": "Quadratics",
+    "topic": "Product of Roots",
+    "explanation": "For a quadratic ax^2+bx+c=0 with roots \u03b1 and \u03b2, the product of the roots equals c/a, complementing the sum-of-roots relationship.",
+    "key_concepts": [
+      "Product formula c/a",
+      "Using product with sum to solve related problems",
+      "Constructing quadratics from known products"
+    ],
+    "definitions": [
+      {
+        "term": "Product of roots",
+        "definition": "For ax\u00b2+bx+c=0 with roots \u03b1, \u03b2: \u03b1\u03b2 = c/a."
+      }
+    ],
+    "formulas": [
+      "\u03b1\u03b2 = c/a"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the product of roots of 3x^2-9x+2=0",
+        "steps": [
+          "Product = 2/3"
+        ],
+        "answer": "2/3"
+      },
+      {
+        "problem": "Form a quadratic with sum 4 and product -5",
+        "steps": [
+          "x^2-4x-5=0"
+        ],
+        "answer": "x^2-4x-5=0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Find the product of roots of x^2-7x+10=0",
+        "answer": "10"
+      },
+      {
+        "q": "Find the product of roots of 2x^2+5x-3=0",
+        "answer": "-3/2"
+      },
+      {
+        "q": "Find k if the product of roots of x^2+3x+k=0 is 7",
+        "answer": "k=7"
+      },
+      {
+        "q": "Form a quadratic with roots summing to 2 and product -8",
+        "answer": "x^2-2x-8=0"
+      },
+      {
+        "q": "Find the product of roots of 4x^2-x-3=0",
+        "answer": "-3/4"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "The roots of x^2-5x+q=0 have a product of 3q-2. Find q.",
+        "answer": "q=3q-2, -2q=-2, q=1"
+      },
+      {
+        "q": "If \u03b1 and \u03b2 are roots of 2x^2-3x-1=0, find \u03b1\u00b2\u03b2+\u03b1\u03b2\u00b2.",
+        "answer": "\u03b1\u03b2(\u03b1+\u03b2) = (-1/2)(3/2)=-3/4"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting that a can be a fraction, requiring careful division for c/a",
+      "Confusing product with sum formula",
+      "Not simplifying the final fraction"
+    ],
+    "tips": [
+      "Memorise: product = c/a (no sign flip, unlike sum)",
+      "Combine with sum of roots for expressions like \u03b1\u00b2+\u03b2\u00b2 or \u03b1\u00b2\u03b2+\u03b1\u03b2\u00b2",
+      "Simplify fractions in the final answer"
+    ],
+    "summary": "The product of roots, alongside the sum, allows quick construction and analysis of quadratics without needing to solve for \u03b1 and \u03b2 individually.",
+    "quick_revision": [
+      "\u03b1\u03b2 = c/a",
+      "No sign flip (unlike sum formula)",
+      "Combine with sum for symmetric root expressions"
+    ],
+    "related_topics": [
+      "Sum of Roots",
+      "Relationships Between Roots and Coefficients",
+      "Quadratic Equations"
+    ],
+    "prerequisites": [
+      "Quadratic Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 66,
+    "category": "Quadratics",
+    "topic": "Quadratic Graphs",
+    "explanation": "A quadratic graph is a parabola, whose orientation (opening up or down) is determined by the sign of the leading coefficient, and whose key features include the vertex, axis of symmetry, and intercepts.",
+    "key_concepts": [
+      "Parabola shape",
+      "Vertex and axis of symmetry",
+      "x- and y-intercepts",
+      "Effect of coefficient a on width/direction"
+    ],
+    "definitions": [
+      {
+        "term": "Parabola",
+        "definition": "The U-shaped (or \u2229-shaped) curve produced by a quadratic function."
+      }
+    ],
+    "formulas": [
+      "y=ax^2+bx+c; opens upward if a>0, downward if a<0"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Sketch key features of y=x^2-4x+3",
+        "steps": [
+          "Factorise: (x-1)(x-3), x-intercepts 1,3",
+          "Vertex at x=2 (midpoint of roots): y=4-8+3=-1",
+          "y-intercept: 3"
+        ],
+        "answer": "Roots at 1,3; vertex (2,-1); y-intercept 3; opens upward"
+      },
+      {
+        "problem": "Describe the graph of y=-2x^2+8x-5",
+        "steps": [
+          "a=-2<0, opens downward",
+          "Vertex x=-b/2a=8/4=2, y=-2(4)+16-5=3"
+        ],
+        "answer": "Opens downward, vertex (2,3)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "State whether y=3x^2-5 opens up or down",
+        "answer": "Up (a=3>0)"
+      },
+      {
+        "q": "Find the y-intercept of y=2x^2-3x+7",
+        "answer": "7"
+      },
+      {
+        "q": "Find the x-intercepts of y=x^2-9",
+        "answer": "x=3,-3"
+      },
+      {
+        "q": "Find the axis of symmetry of y=x^2-6x+2",
+        "answer": "x=3"
+      },
+      {
+        "q": "State the effect on the graph if a is doubled",
+        "answer": "The parabola becomes narrower"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Sketch y=x^2+2x-8, labelling all intercepts and the vertex.",
+        "answer": "Factorise (x+4)(x-2): x-intercepts -4,2; y-intercept -8; vertex at x=-1, y=-9"
+      },
+      {
+        "q": "A parabola has vertex (3,-2) and passes through (5,6). Find its equation.",
+        "answer": "y=a(x-3)^2-2; 6=a(4)-2, a=2; y=2(x-3)^2-2"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing the sign of a with the direction of shift",
+      "Forgetting the y-intercept is simply the constant term c",
+      "Miscalculating the vertex x-coordinate (-b/2a)"
+    ],
+    "tips": [
+      "a>0 opens up (has a minimum); a<0 opens down (has a maximum)",
+      "y-intercept is always (0,c)",
+      "Vertex x-coordinate: x=-b/2a, or the midpoint of the roots"
+    ],
+    "summary": "Quadratic graphs connect the algebra of quadratic expressions directly to visual features \u2014 vertex, intercepts, and symmetry all derive from the equation's coefficients.",
+    "quick_revision": [
+      "a>0: opens up (min); a<0: opens down (max)",
+      "y-intercept = c",
+      "Vertex x = -b/2a"
+    ],
+    "related_topics": [
+      "Vertex of a Parabola",
+      "Axis of Symmetry",
+      "Transformation of Quadratics"
+    ],
+    "prerequisites": [
+      "Quadratic Equations",
+      "Completing the Square"
+    ],
+    "images": [
+      {
+        "filename": "addmaths-quadratic-graphs-66-1.webp",
+        "type": "graph",
+        "description": "A labelled parabola y=x\u00b2-4x+3 showing the x-intercepts (roots), y-intercept, vertex (minimum point), and axis of symmetry.",
+        "purpose": "Shows students where each key feature of a quadratic graph appears and how they relate to the equation.",
+        "placement": "Alongside the first worked example."
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "category": "Quadratics",
+    "topic": "Vertex of a Parabola",
+    "explanation": "The vertex is the turning point of a parabola \u2014 the minimum point if it opens upward, or the maximum if it opens downward \u2014 found via completing the square or the formula x=-b/2a.",
+    "key_concepts": [
+      "Vertex form a(x-h)\u00b2+k",
+      "Formula x=-b/2a",
+      "Vertex as maximum or minimum point"
+    ],
+    "definitions": [
+      {
+        "term": "Vertex",
+        "definition": "The turning point of a parabola, at coordinates (h,k) in vertex form a(x-h)\u00b2+k."
+      }
+    ],
+    "formulas": [
+      "Vertex x-coordinate: x = -b/2a",
+      "Vertex form: y = a(x-h)^2 + k, vertex (h,k)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the vertex of y=2x^2-8x+3",
+        "steps": [
+          "x=-(-8)/(2\u00d72)=2",
+          "y=2(4)-16+3=-5"
+        ],
+        "answer": "Vertex (2,-5)"
+      },
+      {
+        "problem": "Find the vertex of y=-(x+1)^2+4 directly from vertex form",
+        "steps": [
+          "Compare to a(x-h)^2+k: h=-1, k=4"
+        ],
+        "answer": "Vertex (-1,4)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Find the vertex of y=x^2-6x+5",
+        "answer": "(3,-4)"
+      },
+      {
+        "q": "Find the vertex of y=3(x-2)^2+1",
+        "answer": "(2,1)"
+      },
+      {
+        "q": "Find the vertex of y=-2x^2+4x",
+        "answer": "(1,2)"
+      },
+      {
+        "q": "Is the vertex of y=x^2+4x+7 a minimum or maximum?",
+        "answer": "Minimum (a>0)"
+      },
+      {
+        "q": "Find the vertex of y=5-x^2",
+        "answer": "(0,5)"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Find the vertex and state whether it's a maximum or minimum for y=-3x^2+12x-7.",
+        "answer": "x=12/6=2, y=-3(4)+24-7=5; vertex (2,5), maximum since a<0"
+      },
+      {
+        "q": "A quadratic has vertex (4,-3) and passes through (0,5). Find its equation in the form y=ax^2+bx+c.",
+        "answer": "y=a(x-4)^2-3; 5=a(16)-3, a=0.5; y=0.5(x-4)^2-3=0.5x^2-4x+5"
+      }
+    ],
+    "common_mistakes": [
+      "Sign errors extracting h from vertex form a(x-h)\u00b2+k (note the minus sign)",
+      "Errors computing -b/2a, especially with negative b",
+      "Confusing maximum with minimum based on the sign of a"
+    ],
+    "tips": [
+      "In a(x-h)\u00b2+k, the vertex x-coordinate is +h even though the bracket shows (x-h)",
+      "Always double-check the sign of a to determine max vs min",
+      "Completing the square is the most reliable method for finding the vertex exactly"
+    ],
+    "summary": "The vertex is the single most important feature of a parabola for optimisation problems, found reliably via completing the square or the -b/2a formula.",
+    "quick_revision": [
+      "Vertex x = -b/2a",
+      "Vertex form a(x-h)\u00b2+k has vertex (h,k)",
+      "a>0: minimum; a<0: maximum"
+    ],
+    "related_topics": [
+      "Completing the Square",
+      "Axis of Symmetry",
+      "Quadratic Optimisation"
+    ],
+    "prerequisites": [
+      "Completing the Square"
+    ],
+    "images": []
+  },
+  {
+    "id": 68,
+    "category": "Quadratics",
+    "topic": "Axis of Symmetry",
+    "explanation": "The axis of symmetry is the vertical line passing through the vertex of a parabola, about which the two halves of the curve are mirror images, given by x=-b/2a.",
+    "key_concepts": [
+      "Vertical line through the vertex",
+      "Mirror symmetry of the parabola",
+      "Relationship to the roots (axis is the midpoint of the roots)"
+    ],
+    "definitions": [
+      {
+        "term": "Axis of symmetry",
+        "definition": "The vertical line x=-b/2a about which a parabola is symmetric."
+      }
+    ],
+    "formulas": [
+      "x = -b/2a",
+      "x = (root\u2081+root\u2082)/2"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the axis of symmetry of y=x^2-8x+12",
+        "steps": [
+          "x=8/2=4"
+        ],
+        "answer": "x = 4"
+      },
+      {
+        "problem": "Find the axis of symmetry of y=(x-2)(x-6)",
+        "steps": [
+          "Roots at 2, 6; midpoint = 4"
+        ],
+        "answer": "x = 4"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Find the axis of symmetry of y=x^2-10x+21",
+        "answer": "x=5"
+      },
+      {
+        "q": "Find the axis of symmetry of y=2x^2+4x-3",
+        "answer": "x=-1"
+      },
+      {
+        "q": "Find the axis of symmetry given roots at -3 and 7",
+        "answer": "x=2"
+      },
+      {
+        "q": "Find the axis of symmetry of y=-x^2+6x",
+        "answer": "x=3"
+      },
+      {
+        "q": "Find the axis of symmetry of y=3x^2-1",
+        "answer": "x=0"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "A parabola has axis of symmetry x=3 and passes through (1,0). State another point on the curve with the same y-value.",
+        "answer": "By symmetry, the point reflects to x=5, so (5,0)"
+      },
+      {
+        "q": "The graph of y=x^2+px+9 has axis of symmetry x=-2. Find p.",
+        "answer": "-p/2=-2, p=4"
+      }
+    ],
+    "common_mistakes": [
+      "Sign errors computing -b/2a",
+      "Confusing the axis of symmetry (a line) with the vertex (a point)",
+      "Not using the root-midpoint shortcut when roots are known"
+    ],
+    "tips": [
+      "The axis of symmetry always has the same x-value as the vertex",
+      "If roots are known, the axis is simply their midpoint \u2014 faster than -b/2a",
+      "Use symmetry to quickly find a second point once one is known"
+    ],
+    "summary": "The axis of symmetry links directly to the vertex and roots, and is a quick way to exploit a parabola's mirror symmetry to find additional points.",
+    "quick_revision": [
+      "x = -b/2a",
+      "Equals the midpoint of the two roots",
+      "Same x-value as the vertex"
+    ],
+    "related_topics": [
+      "Vertex of a Parabola",
+      "Quadratic Graphs",
+      "Sum of Roots"
+    ],
+    "prerequisites": [
+      "Quadratic Graphs"
+    ],
+    "images": [
+      {
+        "filename": "addmaths-axis-of-symmetry-68-1.webp",
+        "type": "graph",
+        "description": "A parabola y=x\u00b2-6x+5 with a dashed vertical line at its axis of symmetry x=3, showing two mirrored points on the curve equidistant from the axis.",
+        "purpose": "Demonstrates the mirror symmetry of a parabola about its axis of symmetry.",
+        "placement": "Alongside the explanation of the axis of symmetry formula."
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "category": "Quadratics",
+    "topic": "Quadratic Inequalities",
+    "explanation": "Quadratic inequalities are solved by finding the roots of the corresponding equation and using the shape of the parabola (or a sign diagram) to determine which x-values satisfy the inequality.",
+    "key_concepts": [
+      "Finding critical values (roots)",
+      "Using the parabola's shape to determine the solution region",
+      "Sign diagram method"
+    ],
+    "definitions": [
+      {
+        "term": "Quadratic inequality",
+        "definition": "An inequality of the form ax\u00b2+bx+c >,<,\u2265, or \u2264 0."
+      }
+    ],
+    "formulas": [
+      "Factorise, find roots, then use the parabola shape: between roots for 'less than 0' (if a>0); outside roots for 'greater than 0' (if a>0)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Solve x^2-5x+6 < 0",
+        "steps": [
+          "Factorise: (x-2)(x-3)<0",
+          "Roots at 2,3; parabola opens up, so negative between roots"
+        ],
+        "answer": "2 < x < 3"
+      },
+      {
+        "problem": "Solve x^2-4 \u2265 0",
+        "steps": [
+          "(x-2)(x+2)\u22650",
+          "Roots at -2,2; parabola opens up, positive/zero outside roots"
+        ],
+        "answer": "x \u2264 -2 or x \u2265 2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Solve x^2-9 > 0",
+        "answer": "x<-3 or x>3"
+      },
+      {
+        "q": "Solve x^2-x-6 \u2264 0",
+        "answer": "-2\u2264x\u22643"
+      },
+      {
+        "q": "Solve 2x^2-3x-2 < 0",
+        "answer": "-1/2<x<2"
+      },
+      {
+        "q": "Solve x^2+2x+1 \u2265 0",
+        "answer": "All real x (since (x+1)\u00b2\u22650 always)"
+      },
+      {
+        "q": "Solve -x^2+4x-3 > 0",
+        "answer": "1<x<3"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Solve the inequality 2x^2-7x+3 \u2264 0, giving your answer in interval notation.",
+        "answer": "(2x-1)(x-3)\u22640; 1/2\u2264x\u22643"
+      },
+      {
+        "q": "Find the values of x for which x^2-4x+4 > 0",
+        "answer": "(x-2)^2>0, so all x\u22602"
+      }
+    ],
+    "common_mistakes": [
+      "Choosing the wrong region (between vs outside the roots)",
+      "Not accounting for a negative leading coefficient flipping the region",
+      "Forgetting to include/exclude endpoints correctly (\u2264 vs <)"
+    ],
+    "tips": [
+      "Sketch the parabola mentally: if it opens up, 'less than 0' is between the roots and 'greater than 0' is outside",
+      "If a<0, the region logic flips \u2014 always sketch or think through the shape",
+      "Use \u2264/\u2265 to include endpoints, </> to exclude them"
+    ],
+    "summary": "Quadratic inequalities connect directly to the parabola's graph shape \u2014 visualising whether the curve is above or below the x-axis between/outside the roots is the key skill.",
+    "quick_revision": [
+      "Factorise, find roots",
+      "a>0: 'less than 0' is between roots, 'greater than 0' is outside",
+      "Flip logic if a<0"
+    ],
+    "related_topics": [
+      "Quadratic Equations",
+      "Quadratic Graphs",
+      "Polynomial Inequalities"
+    ],
+    "prerequisites": [
+      "Quadratic Equations",
+      "Linear Inequalities"
+    ],
+    "images": []
+  },
+  {
+    "id": 70,
+    "category": "Quadratics",
+    "topic": "Quadratic Simultaneous Equations",
+    "explanation": "Quadratic simultaneous equations pair a linear and a quadratic equation (or two quadratics), solved by substitution to reduce to a single quadratic equation in one variable.",
+    "key_concepts": [
+      "Substitution method",
+      "Reducing to a single-variable quadratic",
+      "Interpreting solutions as intersection points"
+    ],
+    "definitions": [
+      {
+        "term": "Simultaneous quadratic system",
+        "definition": "A system involving at least one quadratic equation, solved together with another equation."
+      }
+    ],
+    "formulas": [
+      "Substitute the linear equation into the quadratic, then solve the resulting quadratic"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Solve y=x+1 and y=x^2-5",
+        "steps": [
+          "x+1=x^2-5",
+          "x^2-x-6=0, (x-3)(x+2)=0",
+          "x=3,y=4 or x=-2,y=-1"
+        ],
+        "answer": "(3,4) and (-2,-1)"
+      },
+      {
+        "problem": "Solve x+y=5 and x^2+y^2=17",
+        "steps": [
+          "y=5-x; x^2+(5-x)^2=17",
+          "2x^2-10x+8=0, x^2-5x+4=0, (x-1)(x-4)=0"
+        ],
+        "answer": "(1,4) and (4,1)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Solve y=x-1 and y=x^2-3x+2",
+        "answer": "x-1=x^2-3x+2, x^2-4x+3=0, (x-1)(x-3)=0; (1,0) and (3,2)"
+      },
+      {
+        "q": "Solve x-y=1 and xy=6",
+        "answer": "x=3,y=2 or x=-2,y=-3"
+      },
+      {
+        "q": "Solve y=x^2 and y=4",
+        "answer": "x=2,y=4 or x=-2,y=4"
+      },
+      {
+        "q": "Solve x+2y=4 and y=x^2-4",
+        "answer": "x+2(x^2-4)=4, 2x^2+x-12=0, (2x-... solve via formula) x=(-1\u00b1\u221a97)/4"
+      },
+      {
+        "q": "Solve y=x^2-1 and y=3x-3",
+        "answer": "x^2-3x+2=0, (x-1)(x-2)=0; (1,0) and (2,3)"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Find the points of intersection of the line y=2x-1 and the curve y=x^2-4x+7.",
+        "answer": "2x-1=x^2-4x+7, x^2-6x+8=0, (x-2)(x-4)=0; (2,3) and (4,7)"
+      },
+      {
+        "q": "Show that the line y=2x-1 is tangent to the curve y=x^2, and find the point of tangency.",
+        "answer": "2x-1=x^2, x^2-2x+1=0, (x-1)^2=0, x=1, y=1; tangent at (1,1)"
+      }
+    ],
+    "common_mistakes": [
+      "Substituting into the wrong equation",
+      "Losing one of the two solution pairs",
+      "Forgetting to find the corresponding y for each x value"
+    ],
+    "tips": [
+      "Always substitute the linear equation into the quadratic, not vice versa",
+      "Solve the resulting quadratic fully \u2014 check for two, one, or zero solutions",
+      "Always state solutions as coordinate pairs (x,y)"
+    ],
+    "summary": "These systems model where a line and curve intersect (or two curves meet) \u2014 the discriminant of the resulting single-variable quadratic reveals whether there are two, one (tangent), or zero intersection points.",
+    "quick_revision": [
+      "Substitute linear into quadratic",
+      "Solve resulting quadratic for x",
+      "Find corresponding y for each x"
+    ],
+    "related_topics": [
+      "Simultaneous Equations",
+      "Tangency of Quadratics",
+      "Intersection of Quadratics"
+    ],
+    "prerequisites": [
+      "Simultaneous Equations",
+      "Quadratic Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 71,
+    "category": "Quadratics",
+    "topic": "Quadratic Modelling",
+    "explanation": "Quadratic modelling uses quadratic functions to represent real-world situations such as projectile motion, area optimisation, or profit/cost relationships, then applies algebraic techniques to answer contextual questions.",
+    "key_concepts": [
+      "Translating a word problem into a quadratic equation",
+      "Interpreting the vertex in context",
+      "Interpreting roots in context"
+    ],
+    "definitions": [
+      {
+        "term": "Modelling",
+        "definition": "Representing a real-world scenario mathematically to analyse and predict outcomes."
+      }
+    ],
+    "formulas": [
+      "Context-dependent, e.g. height h=\u22125t\u00b2+ut+h\u2080 for projectile motion"
+    ],
+    "worked_examples": [
+      {
+        "problem": "A ball's height is h=20t-5t^2. Find the maximum height and when it's reached.",
+        "steps": [
+          "Vertex t=-20/(2\u00d7-5)=2",
+          "h(2)=40-20=20"
+        ],
+        "answer": "Maximum height 20m at t=2s"
+      },
+      {
+        "problem": "A rectangle has perimeter 40m; find dimensions maximising area.",
+        "steps": [
+          "Let width=x, length=20-x",
+          "Area A=x(20-x)=20x-x^2",
+          "Vertex at x=10"
+        ],
+        "answer": "Square 10m\u00d710m, maximum area 100m\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "A projectile's height is h=30t-5t^2. Find when it hits the ground.",
+        "answer": "30t-5t^2=0, t(30-5t)=0, t=0 or t=6; hits ground at t=6s"
+      },
+      {
+        "q": "Revenue is R=100x-2x^2 where x is price increase. Find x maximising R.",
+        "answer": "Vertex x=100/4=25"
+      },
+      {
+        "q": "A rectangular field has area 200m^2; find the dimensions minimising the perimeter, given it's a square.",
+        "answer": "x\u00b2=200, x=\u221a200\u224814.14m per side"
+      },
+      {
+        "q": "Find the maximum value of the quadratic modelling profit P=-2x^2+40x-150",
+        "answer": "Vertex x=10, P=-200+400-150=50"
+      },
+      {
+        "q": "A ball is thrown with height h=1+15t-5t^2; find the max height",
+        "answer": "Vertex t=1.5, h=1+22.5-11.25=12.25m"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "A company's profit (in \u00a3000s) is modelled by P=-3x^2+24x-20, where x is the number of items sold (in hundreds). Find the number of items that maximises profit, and the maximum profit.",
+        "answer": "Vertex x=24/6=4 (400 items); P=-48+96-20=28 (\u00a328,000)"
+      },
+      {
+        "q": "A ball is thrown upward from a 2m platform with initial velocity 20 m/s; height h=2+20t-5t^2. Find the time to reach maximum height and the time it hits the ground.",
+        "answer": "Max height at t=2s; hits ground: 2+20t-5t^2=0, 5t^2-20t-2=0, t=(20+\u221a440)/10\u22484.10s"
+      }
+    ],
+    "common_mistakes": [
+      "Misinterpreting the vertex as always being the answer (sometimes roots or specific evaluations are needed)",
+      "Forgetting units or context in the final answer",
+      "Not checking whether negative t or x values make sense in context"
+    ],
+    "tips": [
+      "Identify whether the question asks for the vertex (max/min), a root (when something equals zero), or a specific evaluation",
+      "Always sanity-check answers against the real-world context (e.g. time can't be negative)",
+      "Define variables clearly before setting up the equation"
+    ],
+    "summary": "Quadratic modelling applies all the algebraic tools from this category to real contexts \u2014 correctly identifying what the vertex, roots, or a specific value represents in the story is the key skill.",
+    "quick_revision": [
+      "Vertex \u2192 maximum or minimum value in context",
+      "Roots \u2192 where the quantity is zero (e.g. hits ground)",
+      "Always check answers make sense in context"
+    ],
+    "related_topics": [
+      "Quadratic Optimisation",
+      "Vertex of a Parabola",
+      "Kinematics Using Differentiation"
+    ],
+    "prerequisites": [
+      "Vertex of a Parabola",
+      "Quadratic Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 72,
+    "category": "Quadratics",
+    "topic": "Quadratic Optimisation",
+    "explanation": "Quadratic optimisation finds the maximum or minimum value of a quantity modelled by a quadratic, typically by completing the square or locating the vertex, often subject to a constraint that defines the quadratic in the first place.",
+    "key_concepts": [
+      "Setting up a quadratic from a constraint",
+      "Finding the vertex to optimise",
+      "Interpreting the optimal value in context"
+    ],
+    "definitions": [
+      {
+        "term": "Optimisation",
+        "definition": "Finding the maximum or minimum value of a function, here a quadratic."
+      }
+    ],
+    "formulas": [
+      "Optimal value at x=-b/2a; optimal value itself is c - b\u00b2/4a (from completing the square)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Two numbers sum to 20. Maximise their product.",
+        "steps": [
+          "Let numbers be x and 20-x",
+          "P=x(20-x)=20x-x^2",
+          "Vertex at x=10, P=100"
+        ],
+        "answer": "Numbers are 10 and 10, max product 100"
+      },
+      {
+        "problem": "A farmer has 100m of fencing for a rectangular pen against a wall (one side free). Maximise area.",
+        "steps": [
+          "2x+y=100, y=100-2x",
+          "A=xy=x(100-2x)=100x-2x^2",
+          "Vertex x=25, A=1250"
+        ],
+        "answer": "x=25m, y=50m, max area 1250m\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Two numbers differ by 6; minimise the sum of their squares.",
+        "answer": "Let numbers be x and x+6; S=x^2+(x+6)^2=2x^2+12x+36; vertex x=-3, giving numbers -3 and 3, minimum sum 18"
+      },
+      {
+        "q": "A rectangle has perimeter 60m; maximise its area.",
+        "answer": "x(30-x), vertex x=15, area 225m\u00b2"
+      },
+      {
+        "q": "Minimise x^2-6x+13",
+        "answer": "Vertex x=3, minimum value 4"
+      },
+      {
+        "q": "Maximise -2x^2+8x+3",
+        "answer": "Vertex x=2, maximum value 11"
+      },
+      {
+        "q": "A projectile has height h=40t-5t^2; find the maximum height",
+        "answer": "Vertex t=4, h=80"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "A rectangular garden is to be enclosed using 80m of fencing on three sides (against a wall on the fourth side). Find the dimensions that maximise the enclosed area, and state the maximum area.",
+        "answer": "2x+y=80, y=80-2x; A=x(80-2x)=80x-2x^2; vertex x=20, y=40; max area=800m\u00b2"
+      },
+      {
+        "q": "A ball is thrown so that its height is h=1.5+20t-5t^2. Find the maximum height reached and the time taken.",
+        "answer": "Vertex t=2, h=1.5+40-20=21.5m"
+      }
+    ],
+    "common_mistakes": [
+      "Not setting up the constraint equation correctly before forming the quadratic",
+      "Forgetting to substitute the optimal x back to find y in two-variable problems",
+      "Confusing when to look for a maximum vs a minimum based on the sign of a"
+    ],
+    "tips": [
+      "Always express one variable in terms of the other using the constraint first",
+      "Substitute back to find any remaining unknowns after finding the optimal x",
+      "Double-check whether the problem wants a maximum (a<0) or minimum (a>0)"
+    ],
+    "summary": "Quadratic optimisation is the practical payoff of vertex-finding techniques \u2014 setting up the correct quadratic from a real constraint is often the hardest part.",
+    "quick_revision": [
+      "Express one variable via the constraint",
+      "Form the quadratic, find the vertex",
+      "Substitute back for any other required values"
+    ],
+    "related_topics": [
+      "Vertex of a Parabola",
+      "Completing the Square",
+      "Quadratic Modelling"
+    ],
+    "prerequisites": [
+      "Vertex of a Parabola",
+      "Quadratic Modelling"
+    ],
+    "images": []
+  },
+  {
+    "id": 73,
+    "category": "Quadratics",
+    "topic": "Parametric Quadratics",
+    "explanation": "A parametric quadratic expresses x and y in terms of a third variable (parameter), typically t, which can be eliminated to recover the Cartesian quadratic relationship between x and y.",
+    "key_concepts": [
+      "Parametric equations for a parabola",
+      "Eliminating the parameter",
+      "Converting between parametric and Cartesian form"
+    ],
+    "definitions": [
+      {
+        "term": "Parameter",
+        "definition": "An auxiliary variable (commonly t) used to define x and y separately."
+      }
+    ],
+    "formulas": [
+      "Standard parabola: x=at^2, y=2at (parameter t)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Given x=t^2, y=2t, eliminate t to find the Cartesian equation",
+        "steps": [
+          "From y=2t: t=y/2",
+          "Substitute: x=(y/2)^2=y^2/4"
+        ],
+        "answer": "x = y^2/4, or y^2=4x"
+      },
+      {
+        "problem": "Given x=t+1, y=t^2-2, find the Cartesian equation",
+        "steps": [
+          "t=x-1",
+          "y=(x-1)^2-2"
+        ],
+        "answer": "y = (x-1)^2 - 2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Eliminate t from x=2t, y=t^2",
+        "answer": "y=x^2/4"
+      },
+      {
+        "q": "Eliminate t from x=t-3, y=2t+1",
+        "answer": "y=2(x+3)+1=2x+7"
+      },
+      {
+        "q": "Eliminate t from x=t^2+1, y=t",
+        "answer": "x=y^2+1"
+      },
+      {
+        "q": "Eliminate t from x=3t, y=t^2-4",
+        "answer": "y=(x/3)^2-4=x^2/9-4"
+      },
+      {
+        "q": "Find the Cartesian equation for x=at^2, y=2at in terms of a",
+        "answer": "y^2=4ax"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "A curve is defined parametrically by x=2t^2, y=4t. Find the Cartesian equation and identify the curve.",
+        "answer": "t=y/4; x=2(y/4)^2=y^2/8; y^2=8x, a parabola"
+      },
+      {
+        "q": "Find the coordinates where the parametric curve x=t^2-1, y=t+2 crosses the y-axis.",
+        "answer": "x=0: t^2=1, t=\u00b11; y=3 or y=1; points (0,3) and (0,1)"
+      }
+    ],
+    "common_mistakes": [
+      "Errors isolating t from the linear equation before substituting",
+      "Sign errors when squaring an expression for t",
+      "Forgetting that eliminating t can introduce domain restrictions"
+    ],
+    "tips": [
+      "Isolate t from whichever equation is simpler (usually the linear one)",
+      "Substitute carefully into the other equation and simplify",
+      "Check if the parameter's range restricts the resulting Cartesian curve"
+    ],
+    "summary": "Parametric quadratics connect parametric equation skills directly to quadratic/parabola properties, and are a stepping stone to conic sections.",
+    "quick_revision": [
+      "Isolate the parameter from the simpler equation",
+      "Substitute into the other equation",
+      "Standard parabola: x=at\u00b2, y=2at gives y\u00b2=4ax"
+    ],
+    "related_topics": [
+      "Parametric Equations",
+      "Parametric Parabolas",
+      "Eliminating Parameters"
+    ],
+    "prerequisites": [
+      "Quadratic Expressions",
+      "Parametric Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 74,
+    "category": "Quadratics",
+    "topic": "Quadratic Functions",
+    "explanation": "A quadratic function f(x)=ax^2+bx+c maps each input x to an output value, and can be analysed using function notation for domain, range, and transformations, in addition to its algebraic and graphical properties.",
+    "key_concepts": [
+      "Function notation f(x)",
+      "Domain and range of a quadratic",
+      "One-to-one vs many-to-one behaviour"
+    ],
+    "definitions": [
+      {
+        "term": "Range of a quadratic",
+        "definition": "The set of possible output values, bounded by the vertex's y-value (minimum or maximum)."
+      }
+    ],
+    "formulas": [
+      "For f(x)=a(x-h)^2+k: range is y\u2265k if a>0, y\u2264k if a<0"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the range of f(x)=x^2-4x+7",
+        "steps": [
+          "Complete square: (x-2)^2+3",
+          "Minimum value 3, a>0"
+        ],
+        "answer": "f(x) \u2265 3"
+      },
+      {
+        "problem": "Find the range of f(x)=-2x^2+8x-3",
+        "steps": [
+          "Vertex: x=2, f(2)=-8+16-3=5",
+          "a<0, so maximum"
+        ],
+        "answer": "f(x) \u2264 5"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Find the range of f(x)=x^2+2x+5",
+        "answer": "f(x)\u22654"
+      },
+      {
+        "q": "Find the range of f(x)=-(x-3)^2+10",
+        "answer": "f(x)\u226410"
+      },
+      {
+        "q": "Is f(x)=x^2 one-to-one on all reals?",
+        "answer": "No, many-to-one"
+      },
+      {
+        "q": "State the domain for which f(x)=x^2 is one-to-one, restricted to x\u22650",
+        "answer": "x\u22650 (or x\u22640), giving one-to-one behaviour"
+      },
+      {
+        "q": "Find f(3) for f(x)=2x^2-5x+1",
+        "answer": "18-15+1=4"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "The function f(x)=x^2-6x+11 has domain all real x. Find the range, and state the largest domain (of form x\u2265k) for which f is one-to-one.",
+        "answer": "Complete square: (x-3)^2+2, range f(x)\u22652; one-to-one for x\u22653"
+      },
+      {
+        "q": "Given f(x)=2x^2+px+q has range f(x)\u2265-3 and f(0)=5, find p and q.",
+        "answer": "q=5 (since f(0)=q); minimum value -3 means c-b\u00b2/4a=-3: 5-p\u00b2/8=-3, p\u00b2=64, p=\u00b18"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting a quadratic is many-to-one over its full domain (not invertible without restriction)",
+      "Confusing domain restrictions needed for range with the range itself",
+      "Errors in the completed-square form when extracting the vertex y-value"
+    ],
+    "tips": [
+      "Always complete the square to find the exact minimum/maximum value for the range",
+      "Remember quadratics need a restricted domain to become one-to-one (invertible)",
+      "State the range using inequality notation matching the direction of opening"
+    ],
+    "summary": "Viewing quadratics as functions connects algebra to the broader Functions category \u2014 domain/range and one-to-one restrictions become essential for later work on inverse functions.",
+    "quick_revision": [
+      "Range determined by the vertex y-value and direction of opening",
+      "Quadratics are many-to-one unless domain restricted",
+      "Complete the square to find the exact range boundary"
+    ],
+    "related_topics": [
+      "Domain of a Function",
+      "Range of a Function",
+      "One-to-One Functions"
+    ],
+    "prerequisites": [
+      "Completing the Square",
+      "Function Notation"
+    ],
+    "images": []
+  },
+  {
+    "id": 75,
+    "category": "Quadratics",
+    "topic": "Transformation of Quadratics",
+    "explanation": "Transformations of the base function y=x^2 \u2014 translations, reflections, and stretches \u2014 produce all other quadratics, and can be read directly from the equation's form.",
+    "key_concepts": [
+      "Translation: y=(x-h)^2+k",
+      "Reflection: y=-x^2",
+      "Vertical/horizontal stretch: y=a(x-h)^2+k"
+    ],
+    "definitions": [
+      {
+        "term": "Transformation",
+        "definition": "A change applied to a base graph (translation, reflection, or stretch) to produce a related graph."
+      }
+    ],
+    "formulas": [
+      "y=a(x-h)^2+k: translated (h,k) from origin, reflected if a<0, stretched by factor a vertically"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Describe the transformation from y=x^2 to y=(x-3)^2+2",
+        "steps": [
+          "Compare to a(x-h)^2+k form: h=3, k=2"
+        ],
+        "answer": "Translation 3 right, 2 up"
+      },
+      {
+        "problem": "Describe the transformation from y=x^2 to y=-2x^2",
+        "steps": [
+          "Negative a: reflection in x-axis",
+          "Coefficient 2: vertical stretch by factor 2"
+        ],
+        "answer": "Reflected in x-axis and stretched vertically by factor 2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Describe the transformation from y=x^2 to y=(x+4)^2",
+        "answer": "Translation 4 left"
+      },
+      {
+        "q": "Describe the transformation from y=x^2 to y=x^2-5",
+        "answer": "Translation 5 down"
+      },
+      {
+        "q": "Describe the transformation from y=x^2 to y=3x^2",
+        "answer": "Vertical stretch by factor 3"
+      },
+      {
+        "q": "Describe the transformation from y=x^2 to y=-(x-1)^2+3",
+        "answer": "Reflect in x-axis, translate 1 right and 3 up"
+      },
+      {
+        "q": "Write the equation of y=x^2 translated 2 left and 5 up",
+        "answer": "y=(x+2)^2+5"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "The graph of y=x^2 is transformed to y=2(x-1)^2-4. Describe the sequence of transformations and find the new vertex.",
+        "answer": "Stretch vertically by factor 2, translate 1 right and 4 down; new vertex (1,-4)"
+      },
+      {
+        "q": "A quadratic graph has vertex (-2,5) and passes through (0,1). Express it as a transformation of y=x^2.",
+        "answer": "y=a(x+2)^2+5; 1=a(4)+5, a=-1; y=-(x+2)^2+5, a reflection, translation 2 left and 5 up"
+      }
+    ],
+    "common_mistakes": [
+      "Sign confusion in horizontal translations (x-h moves right, x+h moves left)",
+      "Forgetting that a<0 causes a reflection, not just a stretch",
+      "Applying transformations in the wrong order"
+    ],
+    "tips": [
+      "Remember: (x-h) shifts right by h; (x+h) shifts left by h \u2014 the sign inside is opposite to the direction",
+      "A negative leading coefficient always signals a reflection in the x-axis",
+      "Vertex form a(x-h)\u00b2+k directly encodes all transformations at once"
+    ],
+    "summary": "Every quadratic is a transformation of the base parabola y=x\u00b2 \u2014 recognising translation, reflection, and stretch from vertex form links algebra directly to graph sketching.",
+    "quick_revision": [
+      "(x-h): right by h; (x+h): left by h",
+      "+k: up; -k: down",
+      "Negative a: reflects in x-axis; |a|>1: vertical stretch"
+    ],
+    "related_topics": [
+      "Function Transformations",
+      "Vertex of a Parabola",
+      "Quadratic Graphs"
+    ],
+    "prerequisites": [
+      "Quadratic Graphs",
+      "Function Transformations"
+    ],
+    "images": [
+      {
+        "filename": "addmaths-transformation-of-quadratics-75-1.webp",
+        "type": "graph",
+        "description": "An overlay of y=x\u00b2 (dashed grey) and its transformed version y=2(x-1)\u00b2-4 (solid blue), with both vertices labelled and connected by annotation arrows.",
+        "purpose": "Shows visually how stretch, horizontal shift, and vertical shift combine to transform the base parabola.",
+        "placement": "Alongside the second worked example."
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "category": "Quadratics",
+    "topic": "Intersection of Quadratics",
+    "explanation": "Two quadratic curves intersect where their y-values are equal for the same x, found by setting the expressions equal and solving the resulting equation (which may itself be quadratic or simplify further).",
+    "key_concepts": [
+      "Setting two quadratics equal",
+      "Simplifying to solve for x",
+      "Number of intersection points from the discriminant"
+    ],
+    "definitions": [
+      {
+        "term": "Point of intersection",
+        "definition": "A coordinate pair (x,y) satisfying both curve equations simultaneously."
+      }
+    ],
+    "formulas": [
+      "Set f(x)=g(x), solve for x, then find corresponding y"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the intersection of y=x^2-1 and y=2x^2-5x+2",
+        "steps": [
+          "x^2-1=2x^2-5x+2",
+          "0=x^2-5x+3",
+          "x=[5\u00b1\u221a13]/2"
+        ],
+        "answer": "Two intersection points with x=(5\u00b1\u221a13)/2"
+      },
+      {
+        "problem": "Find the intersection of y=x^2+1 and y=-x^2+9",
+        "steps": [
+          "x^2+1=-x^2+9",
+          "2x^2=8, x^2=4, x=\u00b12"
+        ],
+        "answer": "(2,5) and (-2,5)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Find the intersection of y=x^2 and y=x^2-4x+8",
+        "answer": "x^2=x^2-4x+8, 4x=8, x=2, y=4; point (2,4)"
+      },
+      {
+        "q": "Find the intersections of y=2x^2-3 and y=x^2+1",
+        "answer": "2x^2-3=x^2+1, x^2=4, x=\u00b12; points (2,5),(-2,5)"
+      },
+      {
+        "q": "Find the intersections of y=x^2-2x and y=3x-6",
+        "answer": "x^2-2x=3x-6, x^2-5x+6=0, (x-2)(x-3)=0; points (2,0),(3,3)"
+      },
+      {
+        "q": "Show that y=x^2+1 and y=x^2-1 never intersect",
+        "answer": "x^2+1=x^2-1 gives 1=-1, no solution \u2014 no intersection"
+      },
+      {
+        "q": "Find the number of intersections of y=x^2+2x+5 and y=-x^2+2x-1 without solving fully",
+        "answer": "2x^2+6=0 \u2192 x^2=-3, no real solution \u2014 0 intersections"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Find the points of intersection of y=2x^2-3x+1 and y=x^2+2x-5, and interpret the discriminant of the resulting equation.",
+        "answer": "2x^2-3x+1=x^2+2x-5, x^2-5x+6=0, (x-2)(x-3)=0; points (2,3),(3,10); positive discriminant (1) confirms two distinct intersections"
+      },
+      {
+        "q": "For what value of k does y=x^2+kx+4 intersect y=2x-1 at exactly one point (tangency)?",
+        "answer": "x^2+kx+4=2x-1, x^2+(k-2)x+5=0; discriminant=0: (k-2)^2=20, k=2\u00b12\u221a5"
+      }
+    ],
+    "common_mistakes": [
+      "Not simplifying fully before solving (leaving an x\u00b2 term on both sides uncombined)",
+      "Forgetting to find the y-coordinate for each intersection",
+      "Misinterpreting a negative discriminant as an error rather than 'no intersection'"
+    ],
+    "tips": [
+      "Always move all terms to one side and simplify fully before solving",
+      "State intersection answers as full coordinate pairs, not just x-values",
+      "Use the discriminant of the resulting equation to quickly determine the number of intersections without fully solving"
+    ],
+    "summary": "Finding intersections of two quadratics reduces to solving a single equation \u2014 the discriminant of that equation reveals the number of intersection points before you even solve.",
+    "quick_revision": [
+      "Set f(x)=g(x), simplify, solve",
+      "Find y for each x solution",
+      "Discriminant of resulting equation tells you the number of intersections"
+    ],
+    "related_topics": [
+      "Simultaneous Equations",
+      "Tangency of Quadratics",
+      "Discriminant"
+    ],
+    "prerequisites": [
+      "Quadratic Equations",
+      "Discriminant"
+    ],
+    "images": [
+      {
+        "filename": "addmaths-intersection-of-quadratics-76-1.webp",
+        "type": "graph",
+        "description": "Two parabolas y=x\u00b2+1 and y=-x\u00b2+9 plotted together, with their intersection point clearly marked and labelled with coordinates.",
+        "purpose": "Shows students what an intersection point of two quadratic curves looks like graphically.",
+        "placement": "Alongside the worked examples."
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "category": "Quadratics",
+    "topic": "Tangency of Quadratics",
+    "explanation": "Tangency occurs when a line or curve touches a parabola at exactly one point, which algebraically corresponds to the resulting equation (after substitution) having a discriminant of exactly zero.",
+    "key_concepts": [
+      "Discriminant = 0 condition",
+      "Finding the point of tangency",
+      "Tangency between a line and a curve, or two curves"
+    ],
+    "definitions": [
+      {
+        "term": "Tangent",
+        "definition": "A line or curve that touches another curve at exactly one point without crossing it there."
+      }
+    ],
+    "formulas": [
+      "Substitute, simplify to a quadratic, set discriminant = 0"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find k such that y=x+k is tangent to y=x^2",
+        "steps": [
+          "x+k=x^2",
+          "x^2-x-k=0",
+          "Discriminant=1+4k=0, k=-1/4"
+        ],
+        "answer": "k = -1/4"
+      },
+      {
+        "problem": "Find the point of tangency of y=2x-1 and y=x^2",
+        "steps": [
+          "x^2-2x+1=0, (x-1)^2=0, x=1",
+          "y=1"
+        ],
+        "answer": "(1, 1)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Find k such that y=2x+k is tangent to y=x^2+3",
+        "answer": "x^2-2x+(3-k)=0; disc=4-4(3-k)=0, k=2"
+      },
+      {
+        "q": "Find the point of tangency of y=4x-4 and y=x^2",
+        "answer": "x^2-4x+4=0, (x-2)^2=0, x=2,y=4; point (2,4)"
+      },
+      {
+        "q": "Find m such that y=mx is tangent to y=x^2-4x+4",
+        "answer": "x^2-(4+m)x+4=0; disc=(4+m)^2-16=0, m=0 or m=-8"
+      },
+      {
+        "q": "Determine if y=2x-3 is tangent to y=x^2-4x+1",
+        "answer": "x^2-6x+4=0; disc=36-16=20\u22600, not tangent (two intersections)"
+      },
+      {
+        "q": "Find c such that y=3x+c touches y=x^2+2x",
+        "answer": "x^2-x-c=0; disc=1+4c=0, c=-1/4"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Show that the line y=6x-9 is tangent to the curve y=x^2, and find the point of tangency.",
+        "answer": "x^2-6x+9=0, (x-3)^2=0, x=3, y=9; tangent at (3,9)"
+      },
+      {
+        "q": "Find the values of k for which the line y=kx-4 is tangent to the curve y=x^2-2x, and find the corresponding points of tangency.",
+        "answer": "x^2-(k+2)x+4=0; disc=(k+2)^2-16=0, k=2 or k=-6; for k=2: x=2,y=0; for k=-6: x=-2,y=8"
+      }
+    ],
+    "common_mistakes": [
+      "Setting discriminant >0 or <0 instead of exactly =0 for tangency",
+      "Forgetting to find the actual point of tangency after finding the parameter",
+      "Sign errors rearranging the substituted equation before applying the discriminant"
+    ],
+    "tips": [
+      "Tangency always corresponds to discriminant = 0 \u2014 memorise this condition",
+      "After finding the unknown parameter, substitute back to find the exact point of tangency",
+      "Rearrange fully to standard quadratic form before computing the discriminant"
+    ],
+    "summary": "Tangency problems are a direct, elegant application of the discriminant \u2014 setting it to zero pins down exactly when a line just grazes a curve.",
+    "quick_revision": [
+      "Substitute, simplify to a quadratic",
+      "Set discriminant = 0 for tangency",
+      "Solve resulting (repeated root) equation to find the point of tangency"
+    ],
+    "related_topics": [
+      "Discriminant",
+      "Intersection of Quadratics",
+      "Tangents to Circles"
+    ],
+    "prerequisites": [
+      "Discriminant",
+      "Simultaneous Equations"
+    ],
+    "images": [
+      {
+        "filename": "addmaths-tangency-of-quadratics-77-1.webp",
+        "type": "graph",
+        "description": "A parabola y=x\u00b2 and a line y=2x-1 shown touching at exactly one point, with the point of tangency labelled.",
+        "purpose": "Visually demonstrates what tangency looks like \u2014 a line touching but not crossing a curve \u2014 connecting to the discriminant=0 condition.",
+        "placement": "Alongside the first worked example."
+      }
+    ]
+  }
+]

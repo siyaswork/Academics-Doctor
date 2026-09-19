@@ -151,6 +151,28 @@ export default function Home() {
           1 month free trial, then $4.99/month
         </div>
       </section>
+
+      {/* COMING SOON */}
+      <section style={{ marginTop: 28, marginBottom: 20 }}>
+        <h2 className="section-title">Coming soon</h2>
+        <p className="section-subtitle">More subjects are on the way.</p>
+        <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginTop: 12 }}>
+          {['Computer Science', 'English', 'Accounting', 'Business'].map((name) => (
+            <span
+              key={name}
+              style={{
+                padding: '0.5rem 1rem',
+                borderRadius: 999,
+                border: '1px solid var(--color-border, #ccc)',
+                color: 'var(--color-text-secondary)',
+                fontSize: '0.9rem',
+              }}
+            >
+              {name}
+            </span>
+          ))}
+        </div>
+      </section>
     </Container>
   )
 }

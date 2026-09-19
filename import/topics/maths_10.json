@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 224,
+    "category": "Geometry",
+    "topic": "Points and Lines",
+    "explanation": "A point is an exact location in space, having no size, length, or width \u2014 it is typically represented by a dot and labelled with a capital letter. A line is a straight, one-dimensional figure that extends infinitely in both directions, passing through at least two points.",
+    "key_concepts": [
+      "A point has no dimensions (no length, width, or size), only position",
+      "A line extends infinitely in both directions and has no thickness",
+      "A line is defined by any two distinct points on it",
+      "Lines are usually named using two points on them, e.g. line AB"
+    ],
+    "definitions": [
+      {
+        "term": "Point",
+        "definition": "An exact location in space with no size, length, or width, usually represented by a dot."
+      },
+      {
+        "term": "Line",
+        "definition": "A straight, one-dimensional figure extending infinitely in both directions."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "How many distinct points are needed to define a unique straight line?",
+        "solution_steps": [
+          "A straight line is uniquely determined by exactly two distinct points"
+        ],
+        "answer": "2 points"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Does a point have any length or width?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Can more than one line pass through a single point?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "No, a point has no dimensions at all.",
+      "Yes, infinitely many lines can pass through a single point."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why a single point cannot define a unique line, but two points can.",
+        "marks": 2,
+        "answer": "A single point has no direction associated with it, so infinitely many lines could pass through it. Two distinct points fix both a position and a direction, uniquely determining exactly one straight line."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing a line (infinite) with a line segment (finite, with two endpoints)",
+      "Thinking a point has a small but non-zero size"
+    ],
+    "tips": [
+      "Remember: a line has no endpoints and extends forever; a line SEGMENT has two definite endpoints."
+    ],
+    "summary": "A point marks an exact location with no size; a line is a straight, infinitely extending figure defined by two points.",
+    "quick_revision_notes": [
+      "Point: no dimensions",
+      "Line: infinite length, defined by 2 points"
+    ],
+    "related_prerequisite_topics": [
+      "Line Segments",
+      "Coordinates"
+    ],
+    "images": []
+  },
+  {
+    "id": 225,
+    "category": "Geometry",
+    "topic": "Line Segments",
+    "explanation": "A line segment is a portion of a line bounded by two distinct endpoints, having a definite, measurable length. Unlike a full line, a line segment does not extend infinitely \u2014 it starts and stops at fixed points.",
+    "key_concepts": [
+      "A line segment has two endpoints and a fixed, measurable length",
+      "Named using its two endpoints, e.g. segment AB (or written AB with a bar over it)",
+      "The midpoint of a line segment divides it into two equal halves",
+      "Distinguished from a 'ray', which has one endpoint and extends infinitely in one direction"
+    ],
+    "definitions": [
+      {
+        "term": "Line Segment",
+        "definition": "A portion of a line with two distinct endpoints and a fixed, measurable length."
+      },
+      {
+        "term": "Ray",
+        "definition": "A part of a line that has one endpoint and extends infinitely in one direction."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Line segment AB has length 12 cm. Point M is the midpoint. Find the length of AM.",
+        "solution_steps": [
+          "The midpoint divides the segment into two equal halves",
+          "AM = 12/2"
+        ],
+        "answer": "6 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A line segment CD is 20 cm long. Find the length from C to its midpoint.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Explain the difference between a line, a ray, and a line segment.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "10 cm",
+      "A line extends infinitely in both directions with no endpoints; a ray has one endpoint and extends infinitely in one direction; a line segment has two endpoints and a fixed length."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Points A, B, and C lie on a straight line, with B between A and C. If AB=7cm and BC=5cm, find AC.",
+        "marks": 2,
+        "answer": "AC = AB + BC = 7+5 = 12 cm"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing a line segment's fixed length with a full line's infinite length",
+      "Forgetting that a midpoint creates two EQUAL segments"
+    ],
+    "tips": [
+      "When points lie on a straight line in order, the total length equals the sum of the individual segment lengths between consecutive points."
+    ],
+    "summary": "A line segment is a finite portion of a line with two endpoints and a measurable length, distinct from a full line or a ray.",
+    "quick_revision_notes": [
+      "2 endpoints, fixed length",
+      "Midpoint splits into 2 equal halves"
+    ],
+    "related_prerequisite_topics": [
+      "Points and Lines",
+      "Midpoint of a Line Segment"
+    ],
+    "images": []
+  },
+  {
+    "id": 226,
+    "category": "Geometry",
+    "topic": "Angles",
+    "explanation": "An angle is the amount of turn between two lines or rays that share a common endpoint, called the vertex. Angles are measured in degrees (\u00b0), and are classified into types based on their size, such as acute, right, obtuse, straight, and reflex.",
+    "key_concepts": [
+      "An angle is formed by two rays sharing a common endpoint (the vertex)",
+      "Measured in degrees, with a full turn equal to 360\u00b0",
+      "Named using three points (e.g. angle ABC, with B as the vertex) or a single letter/symbol at the vertex",
+      "Classified by size: acute (<90\u00b0), right (=90\u00b0), obtuse (90\u00b0-180\u00b0), straight (=180\u00b0), reflex (>180\u00b0)"
+    ],
+    "definitions": [
+      {
+        "term": "Angle",
+        "definition": "The amount of turn between two rays sharing a common endpoint (vertex), measured in degrees."
+      },
+      {
+        "term": "Vertex",
+        "definition": "The common endpoint where two rays or line segments meet to form an angle."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Classify an angle of 75\u00b0.",
+        "solution_steps": [
+          "75\u00b0 is less than 90\u00b0"
+        ],
+        "answer": "Acute angle"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Classify an angle of 120\u00b0.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Classify an angle of 200\u00b0.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Obtuse",
+      "Reflex"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "State the size range for an obtuse angle, and give one real-world example of an obtuse angle.",
+        "marks": 2,
+        "answer": "An obtuse angle is between 90\u00b0 and 180\u00b0. Example: the angle of a fully-opened book laid flatter than a right angle, or an open pair of scissors held wide."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing angle classifications (e.g. thinking 90\u00b0 is obtuse rather than exactly right)",
+      "Misreading a protractor and getting an angle's supplement instead of the angle itself"
+    ],
+    "tips": [
+      "Memorize the boundary values clearly: 90\u00b0 is exactly right, 180\u00b0 is exactly straight \u2014 everything is classified relative to these landmarks."
+    ],
+    "summary": "An angle measures the turn between two rays sharing a vertex, classified by size as acute, right, obtuse, straight, or reflex.",
+    "quick_revision_notes": [
+      "Acute<90\u00b0<Right=90\u00b0<Obtuse<180\u00b0=Straight<Reflex<360\u00b0"
+    ],
+    "related_prerequisite_topics": [
+      "Points and Lines",
+      "Acute Angles",
+      "Obtuse Angles",
+      "Right Angles"
+    ],
+    "images": []
+  },
+  {
+    "id": 227,
+    "category": "Geometry",
+    "topic": "Acute Angles",
+    "explanation": "An acute angle is any angle measuring strictly between 0\u00b0 and 90\u00b0. Acute angles appear frequently in triangles, polygons, and everyday shapes, and are visually 'sharp' or 'narrow' compared to right or obtuse angles.",
+    "key_concepts": [
+      "0\u00b0 < acute angle < 90\u00b0",
+      "Visually appears 'narrow' or 'sharp'",
+      "A triangle with all three angles acute is called an 'acute triangle'",
+      "Never equal to exactly 0\u00b0 or 90\u00b0"
+    ],
+    "definitions": [
+      {
+        "term": "Acute Angle",
+        "definition": "An angle measuring strictly between 0\u00b0 and 90\u00b0."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Is a 45\u00b0 angle acute?",
+        "solution_steps": [
+          "45\u00b0 is between 0\u00b0 and 90\u00b0"
+        ],
+        "answer": "Yes"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is an 89\u00b0 angle acute?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Is a 90\u00b0 angle acute?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Yes, since 89\u00b0<90\u00b0.",
+      "No, 90\u00b0 is exactly a right angle, not acute."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A triangle has angles of 50\u00b0, 60\u00b0, and 70\u00b0. Explain why this is called an acute triangle.",
+        "marks": 1,
+        "answer": "All three angles (50\u00b0, 60\u00b0, 70\u00b0) are less than 90\u00b0, so every angle is acute, making the whole triangle an acute triangle."
+      }
+    ],
+    "common_mistakes": [
+      "Including 90\u00b0 as an acute angle (it is exactly a right angle, a separate category)",
+      "Assuming all 'small-looking' angles in a diagram are automatically acute without checking the actual measurement"
+    ],
+    "tips": [
+      "A useful memory aid: 'acute' angles look 'cute' and small \u2014 anything narrower than a right angle."
+    ],
+    "summary": "An acute angle measures strictly between 0\u00b0 and 90\u00b0, appearing narrow or sharp.",
+    "quick_revision_notes": [
+      "0\u00b0 < acute < 90\u00b0"
+    ],
+    "related_prerequisite_topics": [
+      "Angles",
+      "Right Angles",
+      "Obtuse Angles"
+    ],
+    "images": [
+      {
+        "filename": "acuteangles-227-diagram.svg",
+        "type": "diagram",
+        "description": "A diagram showing a 50\u00b0 angle marked between two rays from a vertex.",
+        "purpose": "Visually illustrates what an acute angle looks like.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "category": "Geometry",
+    "topic": "Obtuse Angles",
+    "explanation": "An obtuse angle is any angle measuring strictly between 90\u00b0 and 180\u00b0. Obtuse angles appear wider and more 'open' than right angles, but not as wide as a straight line.",
+    "key_concepts": [
+      "90\u00b0 < obtuse angle < 180\u00b0",
+      "Visually appears 'wide' or 'open', but not a straight line",
+      "A triangle with one obtuse angle is called an 'obtuse triangle'",
+      "Never equal to exactly 90\u00b0 or 180\u00b0"
+    ],
+    "definitions": [
+      {
+        "term": "Obtuse Angle",
+        "definition": "An angle measuring strictly between 90\u00b0 and 180\u00b0."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Is a 150\u00b0 angle obtuse?",
+        "solution_steps": [
+          "150\u00b0 is between 90\u00b0 and 180\u00b0"
+        ],
+        "answer": "Yes"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is a 91\u00b0 angle obtuse?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Is a 180\u00b0 angle obtuse?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Yes, since 90\u00b0<91\u00b0<180\u00b0.",
+      "No, 180\u00b0 is exactly a straight angle, not obtuse."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A triangle has angles 30\u00b0, 20\u00b0, and 130\u00b0. Explain why this is called an obtuse triangle.",
+        "marks": 1,
+        "answer": "One of the angles (130\u00b0) is between 90\u00b0 and 180\u00b0, making it obtuse, which classifies the whole triangle as an obtuse triangle."
+      }
+    ],
+    "common_mistakes": [
+      "Including exactly 90\u00b0 or 180\u00b0 as obtuse (these are separate categories: right and straight)",
+      "Confusing obtuse with reflex angles (obtuse is strictly less than 180\u00b0, reflex is strictly greater than 180\u00b0)"
+    ],
+    "tips": [
+      "Obtuse angles are always LESS than a straight line (180\u00b0) but MORE than a right angle (90\u00b0) \u2014 never confuse this range with reflex angles, which exceed 180\u00b0."
+    ],
+    "summary": "An obtuse angle measures strictly between 90\u00b0 and 180\u00b0, appearing wide but less than a straight line.",
+    "quick_revision_notes": [
+      "90\u00b0 < obtuse < 180\u00b0"
+    ],
+    "related_prerequisite_topics": [
+      "Angles",
+      "Acute Angles",
+      "Reflex Angles"
+    ],
+    "images": [
+      {
+        "filename": "obtuseangles-228-diagram.svg",
+        "type": "diagram",
+        "description": "A diagram showing a 130\u00b0 angle marked between two rays from a vertex.",
+        "purpose": "Visually illustrates what an obtuse angle looks like.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "category": "Geometry",
+    "topic": "Right Angles",
+    "explanation": "A right angle is an angle measuring exactly 90\u00b0, often marked with a small square symbol in diagrams instead of a curved arc. Right angles are fundamental in geometry, appearing in squares, rectangles, and the Pythagorean theorem.",
+    "key_concepts": [
+      "A right angle measures exactly 90\u00b0",
+      "Marked in diagrams with a small square symbol, not a curved arc",
+      "Two lines meeting at a right angle are called perpendicular",
+      "A triangle with one right angle is called a right-angled triangle"
+    ],
+    "definitions": [
+      {
+        "term": "Right Angle",
+        "definition": "An angle measuring exactly 90\u00b0, often marked with a small square in diagrams."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Two angles on a straight line are 90\u00b0 and x\u00b0. Find x.",
+        "solution_steps": [
+          "Angles on a straight line sum to 180\u00b0",
+          "90+x=180",
+          "x=90"
+        ],
+        "answer": "x = 90 (both angles are right angles)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "How many degrees are in a right angle?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What symbol is used to mark a right angle in a diagram?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "90\u00b0",
+      "A small square drawn in the corner of the angle."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Two right angles are placed adjacent to each other on a straight line. Show that they exactly fill the straight line.",
+        "marks": 2,
+        "answer": "Each right angle is 90\u00b0. Two adjacent right angles sum to 90+90=180\u00b0, which is exactly the size of a straight angle, so they fill it completely."
+      }
+    ],
+    "common_mistakes": [
+      "Using a curved arc instead of the correct square symbol to mark a right angle",
+      "Assuming any 'corner-looking' angle is automatically a right angle without verification"
+    ],
+    "tips": [
+      "Whenever you see a small square drawn inside an angle in a diagram, that's the standard symbol confirming it's exactly 90\u00b0."
+    ],
+    "summary": "A right angle measures exactly 90\u00b0, marked with a square symbol, and defines perpendicular lines.",
+    "quick_revision_notes": [
+      "Right angle = 90\u00b0 exactly",
+      "Marked with a square symbol"
+    ],
+    "related_prerequisite_topics": [
+      "Angles",
+      "Perpendicular and Parallel Lines (Angle Facts)"
+    ],
+    "images": []
+  },
+  {
+    "id": 230,
+    "category": "Geometry",
+    "topic": "Reflex Angles",
+    "explanation": "A reflex angle is any angle measuring strictly between 180\u00b0 and 360\u00b0. Reflex angles represent 'the other side' of a smaller angle \u2014 for any angle \u03b8 measured the standard way, there's a corresponding reflex angle of 360\u00b0-\u03b8 on the outside.",
+    "key_concepts": [
+      "180\u00b0 < reflex angle < 360\u00b0",
+      "A reflex angle and its corresponding non-reflex angle at the same vertex sum to 360\u00b0",
+      "Visually 'wraps around' further than a straight line",
+      "Common in angle-at-a-point problems"
+    ],
+    "definitions": [
+      {
+        "term": "Reflex Angle",
+        "definition": "An angle measuring strictly between 180\u00b0 and 360\u00b0."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Reflex angle relationship",
+        "formula": "Reflex angle = 360\u00b0 - (corresponding non-reflex angle)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "An angle measures 80\u00b0. Find the size of the reflex angle at the same point.",
+        "solution_steps": [
+          "Reflex angle = 360 - 80"
+        ],
+        "answer": "280\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "An angle is 145\u00b0. Find the reflex angle at the same point.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A reflex angle is 250\u00b0. Find the corresponding non-reflex angle.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "215\u00b0",
+      "110\u00b0 (360-250)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A clock shows 4 o'clock. Find the reflex angle between the hour and minute hands.",
+        "marks": 3,
+        "answer": "At 4 o'clock, the angle between the hands (the smaller one) is 4\u00d730\u00b0=120\u00b0. The reflex angle is 360-120=240\u00b0"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting that a reflex angle must be MORE than 180\u00b0 (not just 'large')",
+      "Subtracting from the wrong total (should always be 360\u00b0, not 180\u00b0, for reflex angle calculations)"
+    ],
+    "tips": [
+      "Reflex angles and their 'partner' angle at the same point always add up to exactly 360\u00b0 \u2014 the full angle around a point."
+    ],
+    "summary": "A reflex angle measures strictly between 180\u00b0 and 360\u00b0, and pairs with a non-reflex angle at the same point to total 360\u00b0.",
+    "quick_revision_notes": [
+      "180\u00b0 < reflex < 360\u00b0",
+      "Reflex + non-reflex (same vertex) = 360\u00b0"
+    ],
+    "related_prerequisite_topics": [
+      "Angles",
+      "Obtuse Angles"
+    ],
+    "images": [
+      {
+        "filename": "reflexangles-230-diagram.svg",
+        "type": "diagram",
+        "description": "A diagram showing a 300\u00b0 reflex angle marked with a curved arc wrapping most of the way around a vertex.",
+        "purpose": "Visually illustrates what a reflex angle looks like compared to smaller angle types.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "category": "Geometry",
+    "topic": "Complementary Angles",
+    "explanation": "Complementary angles are two angles whose measures add up to exactly 90\u00b0. They don't need to be adjacent (next to each other) \u2014 the only requirement is that their sum equals 90\u00b0.",
+    "key_concepts": [
+      "Two angles are complementary if their sum equals 90\u00b0",
+      "Each angle is called the 'complement' of the other",
+      "Do not need to be adjacent or share a vertex",
+      "Common in right-angled triangles, where the two non-right angles are always complementary"
+    ],
+    "definitions": [
+      {
+        "term": "Complementary Angles",
+        "definition": "Two angles whose measures sum to exactly 90\u00b0."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Complementary angle relationship",
+        "formula": "angle A + angle B = 90\u00b0",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Angle A is 35\u00b0. Find its complement.",
+        "solution_steps": [
+          "Complement = 90 - 35"
+        ],
+        "answer": "55\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the complement of a 62\u00b0 angle.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Two complementary angles are in the ratio 2:3. Find both angles.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "28\u00b0",
+      "36\u00b0 and 54\u00b0 (5 parts=90\u00b0, 1 part=18\u00b0, so 2\u00d718=36 and 3\u00d718=54)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "In a right-angled triangle, one non-right angle is 3 times the other. Find both angles, using the fact that they are complementary.",
+        "marks": 3,
+        "answer": "Let the smaller angle be x, the larger is 3x. x+3x=90 \u2192 4x=90 \u2192 x=22.5\u00b0. Angles are 22.5\u00b0 and 67.5\u00b0"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing complementary (sum to 90\u00b0) with supplementary (sum to 180\u00b0)",
+      "Assuming complementary angles must be adjacent"
+    ],
+    "tips": [
+      "Memory aid: 'C' for Complementary comes before 'S' for Supplementary in the alphabet, and 90 comes before 180 \u2014 small sum (90\u00b0) is complementary, large sum (180\u00b0) is supplementary."
+    ],
+    "summary": "Complementary angles are two angles that sum to exactly 90\u00b0, commonly found in right-angled triangles.",
+    "quick_revision_notes": [
+      "Sum = 90\u00b0"
+    ],
+    "related_prerequisite_topics": [
+      "Angles",
+      "Right Angles",
+      "Supplementary Angles"
+    ],
+    "images": []
+  },
+  {
+    "id": 232,
+    "category": "Geometry",
+    "topic": "Supplementary Angles",
+    "explanation": "Supplementary angles are two angles whose measures add up to exactly 180\u00b0. Like complementary angles, they don't need to be adjacent \u2014 the only requirement is that their sum equals 180\u00b0. Angles on a straight line are always supplementary.",
+    "key_concepts": [
+      "Two angles are supplementary if their sum equals 180\u00b0",
+      "Each angle is called the 'supplement' of the other",
+      "Angles on a straight line always sum to 180\u00b0 (are supplementary)",
+      "Do not need to be adjacent or share a vertex"
+    ],
+    "definitions": [
+      {
+        "term": "Supplementary Angles",
+        "definition": "Two angles whose measures sum to exactly 180\u00b0."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Supplementary angle relationship",
+        "formula": "angle A + angle B = 180\u00b0",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Angle A is 115\u00b0. Find its supplement.",
+        "solution_steps": [
+          "Supplement = 180 - 115"
+        ],
+        "answer": "65\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the supplement of a 48\u00b0 angle.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Two supplementary angles are in the ratio 5:7. Find both angles.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "132\u00b0",
+      "75\u00b0 and 105\u00b0 (12 parts=180\u00b0, 1 part=15\u00b0, so 5\u00d715=75 and 7\u00d715=105)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Two angles lie on a straight line. One is 3 times the other. Find both angles, using the fact that angles on a straight line are supplementary.",
+        "marks": 3,
+        "answer": "Let smaller angle=x, larger=3x. x+3x=180 \u2192 4x=180 \u2192 x=45. Angles are 45\u00b0 and 135\u00b0"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing supplementary (sum to 180\u00b0) with complementary (sum to 90\u00b0)",
+      "Assuming supplementary angles must be adjacent or on a visible straight line in a diagram"
+    ],
+    "tips": [
+      "Whenever you see angles on a straight line in a diagram, they are automatically supplementary \u2014 this is a very common exam fact to apply."
+    ],
+    "summary": "Supplementary angles are two angles that sum to exactly 180\u00b0, always true for angles lying on a straight line.",
+    "quick_revision_notes": [
+      "Sum = 180\u00b0",
+      "Angles on a straight line are always supplementary"
+    ],
+    "related_prerequisite_topics": [
+      "Angles",
+      "Complementary Angles",
+      "Vertically Opposite Angles"
+    ],
+    "images": []
+  },
+  {
+    "id": 233,
+    "category": "Geometry",
+    "topic": "Vertically Opposite Angles",
+    "explanation": "Vertically opposite angles are the pairs of equal angles formed when two straight lines cross each other. They are located directly across from each other at the intersection point, and are always exactly equal in measure.",
+    "key_concepts": [
+      "Formed when two straight lines intersect",
+      "Vertically opposite angles are always EQUAL",
+      "There are two pairs of vertically opposite angles at any intersection of two lines",
+      "The four angles formed always sum to 360\u00b0 in total"
+    ],
+    "definitions": [
+      {
+        "term": "Vertically Opposite Angles",
+        "definition": "The pairs of equal angles formed directly across from each other when two straight lines intersect."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Two lines cross, forming an angle of 65\u00b0. Find the vertically opposite angle, and the two other angles formed.",
+        "solution_steps": [
+          "The vertically opposite angle equals 65\u00b0 (they are always equal)",
+          "The two adjacent angles are supplementary to 65\u00b0: 180-65=115\u00b0",
+          "Both adjacent angles are 115\u00b0 (vertically opposite to each other too)"
+        ],
+        "answer": "Angles are 65\u00b0, 115\u00b0, 65\u00b0, 115\u00b0 (going around the intersection)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Two lines cross, forming a 40\u00b0 angle. Find its vertically opposite angle.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Two lines cross, forming angles of x\u00b0 and 3x\u00b0, which are adjacent (not vertically opposite). Find x.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "40\u00b0",
+      "45\u00b0 (adjacent angles at an intersection are supplementary: x+3x=180, 4x=180, x=45)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Two straight lines intersect. One of the four angles formed is 3 times another (non-vertically-opposite) angle. Find all four angles.",
+        "marks": 4,
+        "answer": "Adjacent angles are supplementary: x+3x=180, x=45. Angles are 45\u00b0, 135\u00b0, 45\u00b0, 135\u00b0 (vertically opposite pairs)"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing vertically opposite angles (equal) with adjacent angles (supplementary) at an intersection",
+      "Assuming all four angles at an intersection are equal (only opposite pairs are equal, unless all angles are 90\u00b0)"
+    ],
+    "tips": [
+      "Vertically opposite angles form an 'X' shape \u2014 they are the angles diagonally across from each other, not next to each other."
+    ],
+    "summary": "Vertically opposite angles, formed by two intersecting lines, are always equal, occurring in two matching pairs.",
+    "quick_revision_notes": [
+      "Vertically opposite angles are EQUAL",
+      "Adjacent angles at intersection are SUPPLEMENTARY"
+    ],
+    "related_prerequisite_topics": [
+      "Angles",
+      "Supplementary Angles",
+      "Points and Lines"
+    ],
+    "images": []
+  },
+  {
+    "id": 234,
+    "category": "Geometry",
+    "topic": "Angles on Parallel Lines",
+    "explanation": "When a straight line (transversal) crosses two parallel lines, it creates several pairs of related angles: corresponding angles (equal), alternate angles (equal), and co-interior angles (supplementary). These angle relationships are extremely useful for solving geometry problems involving parallel lines.",
+    "key_concepts": [
+      "Corresponding angles: same position at each intersection \u2014 EQUAL",
+      "Alternate angles: on opposite sides of the transversal, between the parallel lines \u2014 EQUAL",
+      "Co-interior (allied) angles: on the same side of the transversal, between the parallel lines \u2014 SUPPLEMENTARY (sum to 180\u00b0)",
+      "These relationships only apply when the two lines being crossed ARE parallel"
+    ],
+    "definitions": [
+      {
+        "term": "Corresponding Angles",
+        "definition": "Angles in matching positions at each intersection when a transversal crosses two parallel lines; always equal."
+      },
+      {
+        "term": "Alternate Angles",
+        "definition": "Angles on opposite sides of a transversal, between two parallel lines; always equal."
+      },
+      {
+        "term": "Co-interior (Allied) Angles",
+        "definition": "Angles on the same side of a transversal, between two parallel lines; always supplementary (sum to 180\u00b0)."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A transversal crosses two parallel lines, creating a 70\u00b0 angle at the first intersection. Find the corresponding angle at the second intersection.",
+        "solution_steps": [
+          "Corresponding angles are equal"
+        ],
+        "answer": "70\u00b0"
+      },
+      {
+        "problem": "Using the same setup, find the co-interior angle to the 70\u00b0 angle.",
+        "solution_steps": [
+          "Co-interior angles sum to 180\u00b0",
+          "180-70"
+        ],
+        "answer": "110\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A transversal creates a 55\u00b0 angle with one parallel line. Find the alternate angle at the other parallel line.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Two co-interior angles are x\u00b0 and (2x+30)\u00b0. Find x.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "55\u00b0 (alternate angles are equal)",
+      "50\u00b0 (x+2x+30=180, 3x=150, x=50)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "In a diagram with two parallel lines cut by a transversal, one angle is labelled 112\u00b0. Find the corresponding, alternate, and co-interior angles relative to it.",
+        "marks": 4,
+        "answer": "Corresponding angle = 112\u00b0 (equal). Alternate angle = 112\u00b0 (equal). Co-interior angle = 180-112 = 68\u00b0 (supplementary)."
+      }
+    ],
+    "common_mistakes": [
+      "Mixing up which angle relationships give equal angles versus supplementary angles",
+      "Applying these rules to lines that are NOT actually parallel"
+    ],
+    "tips": [
+      "Look for the tell-tale 'Z' shape (alternate angles), 'F' shape (corresponding angles), and 'C'/'U' shape (co-interior angles) formed by the transversal and parallel lines \u2014 these shapes are memorable visual cues."
+    ],
+    "summary": "A transversal crossing parallel lines creates corresponding (equal), alternate (equal), and co-interior (supplementary) angle pairs.",
+    "quick_revision_notes": [
+      "Corresponding: equal (F-shape)",
+      "Alternate: equal (Z-shape)",
+      "Co-interior: sum to 180\u00b0 (C-shape)"
+    ],
+    "related_prerequisite_topics": [
+      "Angles",
+      "Transversals",
+      "Supplementary Angles"
+    ],
+    "images": [
+      {
+        "filename": "anglesonparallellines-234-diagram.svg",
+        "type": "diagram",
+        "description": "Two parallel horizontal lines crossed by a single transversal line, forming multiple angle intersection points.",
+        "purpose": "Sets up the visual scenario for identifying corresponding, alternate, and co-interior angles.",
+        "placement": "After the Key Concepts section"
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "category": "Geometry",
+    "topic": "Transversals",
+    "explanation": "A transversal is a straight line that crosses two or more other lines, typically two parallel lines, creating multiple angles at each intersection point. The transversal is the key structural element that generates the angle relationships (corresponding, alternate, co-interior) studied in parallel line geometry.",
+    "key_concepts": [
+      "A transversal is any line that intersects two or more other lines",
+      "When crossing two parallel lines, a transversal creates 8 angles in total (4 at each intersection)",
+      "These 8 angles fall into pairs of equal or supplementary angles, based on their relative positions",
+      "The transversal does not need to be perpendicular to the lines it crosses"
+    ],
+    "definitions": [
+      {
+        "term": "Transversal",
+        "definition": "A straight line that crosses two or more other lines, creating multiple angles at each intersection."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A transversal crosses two parallel lines. How many distinct angles are formed in total?",
+        "solution_steps": [
+          "Each intersection creates 4 angles",
+          "Two intersections: 4\u00d72"
+        ],
+        "answer": "8 angles"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Can a transversal cross lines that are not parallel?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "How many angles are formed at a SINGLE intersection point of two lines?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Yes \u2014 a transversal simply crosses two or more lines; they don't need to be parallel (though the special equal/supplementary angle rules only apply when they ARE parallel).",
+      "4 angles"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why the angle relationships (corresponding, alternate, co-interior) only hold true when a transversal crosses PARALLEL lines.",
+        "marks": 2,
+        "answer": "These relationships arise specifically from the equal 'slope' or direction of parallel lines relative to the transversal. If the lines aren't parallel, the angles at each intersection will differ, and the equal/supplementary relationships won't hold."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming any line crossing two others is automatically creating equal/supplementary special angle pairs (only true for parallel lines)",
+      "Miscounting the total number of angles formed"
+    ],
+    "tips": [
+      "Always confirm the two lines being crossed are marked or stated as parallel before applying corresponding/alternate/co-interior angle rules."
+    ],
+    "summary": "A transversal is a line crossing two or more other lines, generating angle pairs whose special equal/supplementary relationships apply specifically when the crossed lines are parallel.",
+    "quick_revision_notes": [
+      "Transversal crosses \u22652 lines",
+      "Creates 4 angles per intersection"
+    ],
+    "related_prerequisite_topics": [
+      "Angles on Parallel Lines",
+      "Angles"
+    ],
+    "images": []
+  },
+  {
+    "id": 236,
+    "category": "Geometry",
+    "topic": "Perpendicular and Parallel Lines (Angle Facts)",
+    "explanation": "Perpendicular lines meet at exactly 90\u00b0 (a right angle), while parallel lines never meet at all, no matter how far extended, and remain the same distance apart everywhere. Both concepts are foundational for understanding angle relationships in geometric figures.",
+    "key_concepts": [
+      "Perpendicular lines intersect at exactly 90\u00b0",
+      "Parallel lines never intersect and are always equidistant from each other",
+      "Parallel lines are marked with matching arrow symbols (>, >>) in diagrams",
+      "Perpendicular lines are marked with a small square at their intersection"
+    ],
+    "definitions": [
+      {
+        "term": "Perpendicular Lines",
+        "definition": "Two lines that intersect at exactly 90\u00b0."
+      },
+      {
+        "term": "Parallel Lines",
+        "definition": "Two lines in the same plane that never intersect, remaining the same distance apart everywhere."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Two lines are perpendicular. What is the angle between them?",
+        "solution_steps": [
+          "By definition, perpendicular lines meet at 90\u00b0"
+        ],
+        "answer": "90\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "What symbol is typically used to mark parallel lines in a diagram?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Can two parallel lines ever be perpendicular to each other?",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Matching arrow symbols (e.g. single or double arrowheads) on each line.",
+      "No \u2014 if two lines are parallel, they never intersect, so they cannot meet at a right angle (or any angle) at all."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Line A is perpendicular to line B, and line B is parallel to line C. What is the relationship between line A and line C?",
+        "marks": 2,
+        "answer": "Line A must also be perpendicular to line C, since line C has the same direction as line B (being parallel to it)."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing the arrow symbols for parallel lines with the square symbol for perpendicular/right angles",
+      "Assuming lines that merely 'look' parallel or perpendicular in a diagram are officially so without being marked or stated"
+    ],
+    "tips": [
+      "If line A is perpendicular to line B, and B is parallel to C, then A must be perpendicular to C too \u2014 perpendicularity 'transfers' through parallel relationships."
+    ],
+    "summary": "Perpendicular lines meet at 90\u00b0; parallel lines never meet and stay equidistant, both marked with specific diagram symbols.",
+    "quick_revision_notes": [
+      "Perpendicular: meet at 90\u00b0 (square symbol)",
+      "Parallel: never meet (arrow symbols)"
+    ],
+    "related_prerequisite_topics": [
+      "Right Angles",
+      "Angles on Parallel Lines",
+      "Perpendicular Lines (Gradient Condition)"
+    ],
+    "images": []
+  },
+  {
+    "id": 237,
+    "category": "Geometry",
+    "topic": "Triangles",
+    "explanation": "A triangle is a polygon with exactly three sides and three angles. Triangles are classified by their side lengths (equilateral, isosceles, scalene) and by their angles (acute, right, obtuse), and are among the most fundamental shapes in geometry due to their structural rigidity and simplicity.",
+    "key_concepts": [
+      "A triangle has exactly 3 sides and 3 angles",
+      "The three interior angles always sum to 180\u00b0",
+      "Classified by sides: equilateral (all equal), isosceles (two equal), scalene (all different)",
+      "Classified by angles: acute (all <90\u00b0), right (one =90\u00b0), obtuse (one >90\u00b0)"
+    ],
+    "definitions": [
+      {
+        "term": "Triangle",
+        "definition": "A polygon with exactly three sides and three angles, whose angles always sum to 180\u00b0."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A triangle has angles 50\u00b0 and 60\u00b0. Find the third angle.",
+        "solution_steps": [
+          "Angles sum to 180\u00b0",
+          "180-50-60"
+        ],
+        "answer": "70\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A triangle has angles 40\u00b0 and 90\u00b0. Find the third angle.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Classify a triangle with sides 5cm, 5cm, and 8cm.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "50\u00b0",
+      "Isosceles (two equal sides)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A triangle has all three sides of different lengths and one angle of 95\u00b0. Classify the triangle fully (by both side and angle type).",
+        "marks": 2,
+        "answer": "Scalene (all sides different) and obtuse (one angle >90\u00b0) \u2014 an 'obtuse scalene triangle'."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the angle sum property (180\u00b0) when solving for a missing angle",
+      "Misclassifying a triangle by only checking sides OR angles, not considering both classification systems"
+    ],
+    "tips": [
+      "Triangles can be classified by BOTH their sides and their angles simultaneously \u2014 always consider giving a full classification when asked."
+    ],
+    "summary": "A triangle is a three-sided polygon whose angles sum to 180\u00b0, classified by side lengths and angle types.",
+    "quick_revision_notes": [
+      "3 sides, 3 angles, sum to 180\u00b0",
+      "By sides: equilateral/isosceles/scalene",
+      "By angles: acute/right/obtuse"
+    ],
+    "related_prerequisite_topics": [
+      "Angles",
+      "Triangle Angle Sum",
+      "Equilateral Triangles"
+    ],
+    "images": []
+  },
+  {
+    "id": 238,
+    "category": "Geometry",
+    "topic": "Equilateral Triangles",
+    "explanation": "An equilateral triangle has all three sides of equal length, and consequently all three interior angles are also equal, each measuring 60\u00b0 (since the angles sum to 180\u00b0 and are all equal). Equilateral triangles have a high degree of symmetry, including three lines of reflective symmetry.",
+    "key_concepts": [
+      "All three sides are equal in length",
+      "All three angles are equal, each measuring exactly 60\u00b0",
+      "Has 3 lines of symmetry and rotational symmetry of order 3",
+      "A special case of an isosceles triangle (with all three, not just two, sides equal)"
+    ],
+    "definitions": [
+      {
+        "term": "Equilateral Triangle",
+        "definition": "A triangle with all three sides equal in length and all three angles equal to 60\u00b0."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "An equilateral triangle has a perimeter of 27 cm. Find the length of each side.",
+        "solution_steps": [
+          "All sides are equal, so divide the perimeter by 3",
+          "27\u00f73"
+        ],
+        "answer": "9 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "State the size of each angle in an equilateral triangle.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "An equilateral triangle has one side of length 6cm. Find its perimeter.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "60\u00b0 each",
+      "18 cm"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why an equilateral triangle must have all angles equal to exactly 60\u00b0, using the angle sum property.",
+        "marks": 2,
+        "answer": "The three angles of any triangle sum to 180\u00b0. Since an equilateral triangle has all three angles equal, each angle = 180\u00b0\u00f73 = 60\u00b0."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming 'equilateral' only refers to angles, forgetting it primarily describes equal SIDE lengths",
+      "Miscounting the lines of symmetry (there are exactly 3, not more or fewer)"
+    ],
+    "tips": [
+      "Remember: equal sides ALWAYS force equal angles in a triangle \u2014 you never need to separately verify both properties."
+    ],
+    "summary": "An equilateral triangle has all sides and all angles equal (each angle = 60\u00b0), with 3 lines of symmetry.",
+    "quick_revision_notes": [
+      "All sides equal",
+      "All angles = 60\u00b0",
+      "3 lines of symmetry"
+    ],
+    "related_prerequisite_topics": [
+      "Triangles",
+      "Isosceles Triangles",
+      "Symmetry"
+    ],
+    "images": [
+      {
+        "filename": "equilateraltriangles-238-diagram.svg",
+        "type": "diagram",
+        "description": "An equilateral triangle labelled A, B, C with all sides visually equal in length.",
+        "purpose": "Shows the visual appearance of an equilateral triangle's equal sides and angles.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "category": "Geometry",
+    "topic": "Isosceles Triangles",
+    "explanation": "An isosceles triangle has exactly two sides of equal length (called the 'legs'), and the two angles opposite these equal sides (the 'base angles') are also equal to each other. This property is extremely useful for solving for unknown angles.",
+    "key_concepts": [
+      "Exactly two sides are equal in length (the 'legs')",
+      "The two base angles (opposite the equal sides) are equal to each other",
+      "Has exactly 1 line of symmetry (through the apex and midpoint of the base)",
+      "The third side (the 'base') and its opposite angle (the 'apex angle') are generally different from the other two"
+    ],
+    "definitions": [
+      {
+        "term": "Isosceles Triangle",
+        "definition": "A triangle with exactly two equal sides, and consequently two equal angles opposite those sides."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "An isosceles triangle has a base angle of 70\u00b0. Find the other two angles.",
+        "solution_steps": [
+          "Base angles are equal, so the other base angle is also 70\u00b0",
+          "Apex angle = 180 - 70 - 70"
+        ],
+        "answer": "70\u00b0, 70\u00b0, and 40\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "An isosceles triangle has an apex angle of 40\u00b0. Find each base angle.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "An isosceles triangle has two sides of length 8cm and a base of 5cm. Find its perimeter.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "70\u00b0 each ((180-40)/2)",
+      "21 cm"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "An isosceles triangle has one angle of 100\u00b0. Explain why this MUST be the apex angle, and find the other two angles.",
+        "marks": 3,
+        "answer": "If 100\u00b0 were a base angle, the two base angles alone would sum to 200\u00b0, exceeding 180\u00b0 total \u2014 impossible. So 100\u00b0 must be the apex angle. The two base angles are equal: (180-100)/2=40\u00b0 each."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming the given angle is always a base angle without checking if that's geometrically possible",
+      "Forgetting only ONE pair of angles is guaranteed equal (not all three, unless it's also equilateral)"
+    ],
+    "tips": [
+      "If a given angle is 90\u00b0 or more, it cannot be a base angle (since two base angles that size or larger would exceed 180\u00b0 total) \u2014 it must be the apex angle."
+    ],
+    "summary": "An isosceles triangle has two equal sides and two equal base angles, with exactly one line of symmetry.",
+    "quick_revision_notes": [
+      "2 equal sides, 2 equal base angles",
+      "1 line of symmetry"
+    ],
+    "related_prerequisite_topics": [
+      "Triangles",
+      "Equilateral Triangles",
+      "Triangle Angle Sum"
+    ],
+    "images": [
+      {
+        "filename": "isoscelestriangles-239-diagram.svg",
+        "type": "diagram",
+        "description": "An isosceles triangle labelled A, B, C with two visually equal sides.",
+        "purpose": "Shows the visual appearance of an isosceles triangle's two equal sides and matching base angles.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "category": "Geometry",
+    "topic": "Scalene Triangles",
+    "explanation": "A scalene triangle has all three sides of different lengths, and consequently all three angles are also different from each other. Scalene triangles have no lines of symmetry, distinguishing them from isosceles and equilateral triangles.",
+    "key_concepts": [
+      "All three sides have different lengths",
+      "All three angles have different measures",
+      "Has NO lines of symmetry",
+      "The angle sum property (180\u00b0) still applies, as with all triangles"
+    ],
+    "definitions": [
+      {
+        "term": "Scalene Triangle",
+        "definition": "A triangle with all three sides of different lengths and all three angles of different measures."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A triangle has angles 40\u00b0, 65\u00b0, and 75\u00b0, and sides 6cm, 8cm, and 9cm. Is this triangle scalene?",
+        "solution_steps": [
+          "Check all sides are different: 6, 8, 9 \u2014 yes, all different",
+          "Check all angles are different: 40, 65, 75 \u2014 yes, all different"
+        ],
+        "answer": "Yes, this is a scalene triangle"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Does a scalene triangle have any lines of symmetry?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A triangle has sides 4cm, 5cm, and 5cm. Is it scalene? Explain.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "No, it has zero lines of symmetry.",
+      "No \u2014 since two sides are equal (5cm and 5cm), this is isosceles, not scalene."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why a scalene triangle cannot have any lines of symmetry.",
+        "marks": 2,
+        "answer": "A line of symmetry would require matching (equal) sides and angles reflected across it, but a scalene triangle has all different side lengths and angles, so no such symmetric reflection is possible."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming a triangle is scalene just because it 'looks irregular', without confirming all sides/angles are actually different",
+      "Confusing scalene (no symmetry) with isosceles (1 line of symmetry)"
+    ],
+    "tips": [
+      "To confirm a triangle is scalene, check ALL THREE sides (or angles) are different from each other \u2014 even one matching pair rules it out."
+    ],
+    "summary": "A scalene triangle has all different side lengths and angles, with no lines of symmetry.",
+    "quick_revision_notes": [
+      "All sides different, all angles different, 0 lines of symmetry"
+    ],
+    "related_prerequisite_topics": [
+      "Triangles",
+      "Isosceles Triangles",
+      "Symmetry"
+    ],
+    "images": []
+  },
+  {
+    "id": 241,
+    "category": "Geometry",
+    "topic": "Right-Angled Triangles",
+    "explanation": "A right-angled triangle has exactly one angle measuring 90\u00b0. The side opposite the right angle is called the hypotenuse and is always the longest side. Right-angled triangles are central to trigonometry and the Pythagorean theorem.",
+    "key_concepts": [
+      "Exactly one angle is 90\u00b0",
+      "The side opposite the right angle is the hypotenuse (the longest side)",
+      "The other two angles are always complementary (sum to 90\u00b0)",
+      "The Pythagorean theorem (a\u00b2+b\u00b2=c\u00b2) applies specifically to right-angled triangles"
+    ],
+    "definitions": [
+      {
+        "term": "Right-Angled Triangle",
+        "definition": "A triangle with exactly one 90\u00b0 angle."
+      },
+      {
+        "term": "Hypotenuse",
+        "definition": "The longest side of a right-angled triangle, located opposite the right angle."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A right-angled triangle has one non-right angle of 35\u00b0. Find the other non-right angle.",
+        "solution_steps": [
+          "The two non-right angles are complementary (sum to 90\u00b0)",
+          "90-35"
+        ],
+        "answer": "55\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A right-angled triangle has a non-right angle of 62\u00b0. Find the other non-right angle.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which side of a right-angled triangle is always the longest?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "28\u00b0",
+      "The hypotenuse (opposite the right angle)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why the hypotenuse is always the longest side of a right-angled triangle.",
+        "marks": 2,
+        "answer": "The hypotenuse is opposite the largest angle in the triangle (90\u00b0, the right angle). In any triangle, the longest side is always opposite the largest angle, so the hypotenuse must be the longest side."
+      }
+    ],
+    "common_mistakes": [
+      "Misidentifying the hypotenuse (it must be opposite the right angle, not just 'any long side')",
+      "Forgetting the two non-right angles are always complementary"
+    ],
+    "tips": [
+      "To find the hypotenuse in a diagram, look for the side directly opposite the small square (right angle) symbol."
+    ],
+    "summary": "A right-angled triangle has one 90\u00b0 angle, with the hypotenuse (longest side) opposite it, and complementary remaining angles.",
+    "quick_revision_notes": [
+      "One angle = 90\u00b0",
+      "Hypotenuse = longest side, opposite right angle",
+      "Other 2 angles are complementary"
+    ],
+    "related_prerequisite_topics": [
+      "Triangles",
+      "Right Angles",
+      "Pythagorean Theorem",
+      "Complementary Angles"
+    ],
+    "images": []
+  },
+  {
+    "id": 242,
+    "category": "Geometry",
+    "topic": "Triangle Angle Sum",
+    "explanation": "The angle sum property states that the three interior angles of any triangle always add up to exactly 180\u00b0, regardless of the triangle's size or shape. This is one of the most fundamental and frequently used facts in geometry.",
+    "key_concepts": [
+      "The three interior angles of ANY triangle sum to exactly 180\u00b0",
+      "This holds true for all triangle types: equilateral, isosceles, scalene, right, acute, obtuse",
+      "Can be proven using the properties of parallel lines and alternate angles",
+      "Used to find a missing angle when two others are known"
+    ],
+    "definitions": [
+      {
+        "term": "Angle Sum Property",
+        "definition": "The rule that the three interior angles of any triangle always sum to exactly 180\u00b0."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Triangle angle sum",
+        "formula": "angle A + angle B + angle C = 180\u00b0",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A triangle has angles of 55\u00b0 and 82\u00b0. Find the third angle.",
+        "solution_steps": [
+          "180 - 55 - 82"
+        ],
+        "answer": "43\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A triangle has angles 30\u00b0 and 100\u00b0. Find the third angle.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A triangle has angles in the ratio 2:3:4. Find each angle.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "50\u00b0",
+      "40\u00b0, 60\u00b0, 80\u00b0 (9 parts=180\u00b0, 1 part=20\u00b0)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Prove that the angle sum of a triangle is 180\u00b0, using the property of alternate angles on parallel lines.",
+        "marks": 4,
+        "answer": "Draw a line through one vertex parallel to the opposite side. The two 'new' angles formed are equal to the triangle's other two interior angles (alternate angles). Since these two angles together with the vertex's original angle form a straight line (180\u00b0), the three angles of the triangle also sum to 180\u00b0."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the angle sum rule and attempting to solve using an incorrect total",
+      "Arithmetic errors when subtracting from 180\u00b0"
+    ],
+    "tips": [
+      "The angle sum property (180\u00b0) is one of the most-used facts in geometry \u2014 always check if a missing angle in a triangle can be found this way first."
+    ],
+    "summary": "The angles of any triangle always sum to exactly 180\u00b0, a fundamental property used to find missing angles.",
+    "quick_revision_notes": [
+      "Angle A + Angle B + Angle C = 180\u00b0"
+    ],
+    "related_prerequisite_topics": [
+      "Triangles",
+      "Angles on Parallel Lines"
+    ],
+    "images": []
+  },
+  {
+    "id": 243,
+    "category": "Geometry",
+    "topic": "Exterior Angles of Triangles",
+    "explanation": "An exterior angle of a triangle is formed by extending one side of the triangle beyond a vertex. The exterior angle theorem states that an exterior angle equals the sum of the two non-adjacent (remote) interior angles, and also that it is supplementary to the adjacent interior angle.",
+    "key_concepts": [
+      "An exterior angle is formed by extending a side of the triangle",
+      "Exterior Angle Theorem: exterior angle = sum of the two remote (non-adjacent) interior angles",
+      "An exterior angle is also supplementary to its adjacent interior angle (they lie on a straight line)",
+      "Each vertex of a triangle has an exterior angle (though usually only one per vertex is drawn)"
+    ],
+    "definitions": [
+      {
+        "term": "Exterior Angle",
+        "definition": "The angle formed outside a triangle by extending one of its sides beyond a vertex."
+      },
+      {
+        "term": "Exterior Angle Theorem",
+        "definition": "The theorem stating that an exterior angle of a triangle equals the sum of the two non-adjacent interior angles."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Exterior angle theorem",
+        "formula": "Exterior angle = sum of the two remote interior angles",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A triangle has interior angles 50\u00b0 and 70\u00b0 at two vertices. Find the exterior angle at the third vertex.",
+        "solution_steps": [
+          "The exterior angle equals the sum of the two OTHER (remote) interior angles: 50+70"
+        ],
+        "answer": "120\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A triangle has interior angles 35\u00b0 and 85\u00b0. Find the exterior angle at the third vertex.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "An exterior angle of a triangle is 130\u00b0, and one remote interior angle is 55\u00b0. Find the other remote interior angle.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "120\u00b0",
+      "75\u00b0 (130-55)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Prove the exterior angle theorem using the triangle angle sum property and the fact that angles on a straight line sum to 180\u00b0.",
+        "marks": 4,
+        "answer": "Let the triangle have interior angles A, B, C, with exterior angle E adjacent to C. Since C and E lie on a straight line: C+E=180. Also, A+B+C=180. Subtracting: E-A-B=0, so E=A+B, proving the exterior angle equals the sum of the two remote interior angles."
+      }
+    ],
+    "common_mistakes": [
+      "Adding the WRONG two angles (must use the two angles NOT adjacent to the exterior angle)",
+      "Confusing the exterior angle with its adjacent (supplementary) interior angle"
+    ],
+    "tips": [
+      "The exterior angle theorem is often faster than using the full angle sum property \u2014 it directly gives you the exterior angle from just the two remote interior angles."
+    ],
+    "summary": "An exterior angle of a triangle equals the sum of the two remote interior angles, and is supplementary to its adjacent interior angle.",
+    "quick_revision_notes": [
+      "Exterior angle = sum of 2 remote interior angles",
+      "Exterior + adjacent interior = 180\u00b0"
+    ],
+    "related_prerequisite_topics": [
+      "Triangle Angle Sum",
+      "Supplementary Angles"
+    ],
+    "images": []
+  },
+  {
+    "id": 244,
+    "category": "Geometry",
+    "topic": "Congruent Triangles",
+    "explanation": "Two triangles are congruent if they are exactly the same size and shape \u2014 meaning all corresponding sides and angles are equal. Congruence can be proven using specific criteria: SSS, SAS, ASA, AAS, and RHS, without needing to check every single side and angle individually.",
+    "key_concepts": [
+      "Congruent triangles have identical corresponding sides and angles",
+      "SSS: all three sides equal",
+      "SAS: two sides and the included angle equal",
+      "ASA/AAS: two angles and a side equal",
+      "RHS: right angle, hypotenuse, and one other side equal (specific to right-angled triangles)"
+    ],
+    "definitions": [
+      {
+        "term": "Congruent Triangles",
+        "definition": "Triangles that are identical in size and shape, with all corresponding sides and angles equal."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Two triangles have sides 5cm, 7cm, 9cm and 5cm, 7cm, 9cm respectively. Are they congruent? By which criterion?",
+        "solution_steps": [
+          "All three corresponding sides are equal"
+        ],
+        "answer": "Yes, congruent by SSS (Side-Side-Side)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Two triangles share two equal sides and the angle between them. Which congruence criterion applies?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Two right-angled triangles have equal hypotenuses and one equal leg. Which criterion applies?",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "SAS (Side-Angle-Side)",
+      "RHS (Right angle-Hypotenuse-Side)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Two triangles have two pairs of equal angles and one pair of equal sides (not between the equal angles). State the congruence criterion and explain why AAS works even though the equal side isn't 'included'.",
+        "marks": 3,
+        "answer": "This is AAS (Angle-Angle-Side). It works because if two angles are known, the third angle is automatically determined (angles sum to 180\u00b0), so effectively all three angles are known, making the position of the given side irrelevant to establishing congruence."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing SSA (not a valid congruence criterion in general) with SAS or ASA",
+      "Misidentifying which angle is 'included' between two given sides for SAS"
+    ],
+    "tips": [
+      "Remember there is NO 'SSA' congruence rule in general \u2014 the angle must be INCLUDED between the two known sides (i.e. SAS specifically) for it to guarantee congruence."
+    ],
+    "summary": "Congruent triangles are identical in size and shape, provable using criteria like SSS, SAS, ASA, AAS, and RHS.",
+    "quick_revision_notes": [
+      "SSS, SAS, ASA, AAS, RHS are valid congruence criteria",
+      "SSA is NOT valid in general"
+    ],
+    "related_prerequisite_topics": [
+      "Triangles",
+      "Similar Triangles"
+    ],
+    "images": []
+  },
+  {
+    "id": 245,
+    "category": "Geometry",
+    "topic": "Similar Triangles",
+    "explanation": "Two triangles are similar if they have the same shape but not necessarily the same size \u2014 meaning their corresponding angles are equal, and their corresponding sides are in the same proportion (ratio). Similarity is proven using criteria such as AA, SAS, and SSS (for similarity, not congruence).",
+    "key_concepts": [
+      "Similar triangles have equal corresponding angles and proportional corresponding sides",
+      "AA (Angle-Angle): if two angles match, the triangles are similar (third angle is automatically equal too)",
+      "SAS similarity: two sides in proportion, with the included angle equal",
+      "SSS similarity: all three pairs of corresponding sides in the same proportion"
+    ],
+    "definitions": [
+      {
+        "term": "Similar Triangles",
+        "definition": "Triangles with equal corresponding angles and proportional corresponding sides, having the same shape but not necessarily the same size."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Scale factor between similar triangles",
+        "formula": "k = corresponding side length ratio",
+        "notes": "Same k applies to ALL corresponding side pairs"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Triangle ABC has sides 4, 6, 8. Triangle DEF has sides 6, 9, 12. Are they similar?",
+        "solution_steps": [
+          "Check ratios: 6/4=1.5, 9/6=1.5, 12/8=1.5",
+          "All ratios are equal"
+        ],
+        "answer": "Yes, similar by SSS similarity, with scale factor 1.5"
+      },
+      {
+        "problem": "Two similar triangles have a scale factor of 3. If the smaller triangle has a side of 5cm, find the corresponding side in the larger triangle.",
+        "solution_steps": [
+          "Multiply by the scale factor: 5\u00d73"
+        ],
+        "answer": "15 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Two triangles have angles 40\u00b0,70\u00b0,70\u00b0 and 40\u00b0,70\u00b0,70\u00b0. Are they similar? By which criterion?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Similar triangles have a scale factor of 2.5. A side in the smaller triangle is 8cm. Find the corresponding side in the larger triangle.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Yes, similar by AA (two, in fact three, matching angles)",
+      "20 cm"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Triangle PQR is similar to triangle XYZ, with scale factor 4. If PQ=3cm and QR=5cm, find XY and YZ.",
+        "marks": 3,
+        "answer": "XY=3\u00d74=12cm, YZ=5\u00d74=20cm"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing similarity (same shape, proportional sides) with congruence (same shape AND size)",
+      "Applying the scale factor inconsistently across different sides"
+    ],
+    "tips": [
+      "Once you establish a scale factor from ONE pair of corresponding sides, that SAME factor applies to every other pair of corresponding sides and lengths in the triangle."
+    ],
+    "summary": "Similar triangles share equal angles and proportional sides, provable via AA, SAS, or SSS similarity criteria.",
+    "quick_revision_notes": [
+      "Same shape, proportional sides",
+      "AA, SAS, SSS similarity criteria",
+      "Same scale factor for all corresponding sides"
+    ],
+    "related_prerequisite_topics": [
+      "Congruent Triangles",
+      "Scale Factors",
+      "Ratios"
+    ],
+    "images": []
+  },
+  {
+    "id": 246,
+    "category": "Geometry",
+    "topic": "Triangle Inequality",
+    "explanation": "The triangle inequality theorem states that the sum of the lengths of any two sides of a triangle must be greater than the length of the third side. If this condition isn't met, the three given lengths cannot actually form a triangle.",
+    "key_concepts": [
+      "For any triangle with sides a, b, c: a+b>c, a+c>b, and b+c>a (all three must hold)",
+      "If the sum of two sides equals or is less than the third, no triangle can be formed",
+      "Used to check whether three given lengths could form a valid triangle",
+      "Also used to find the possible range of values for an unknown side"
+    ],
+    "definitions": [
+      {
+        "term": "Triangle Inequality Theorem",
+        "definition": "The rule that the sum of any two sides of a triangle must exceed the length of the third side."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Triangle inequality",
+        "formula": "a + b > c (and similarly for all pairs)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Can sides of length 3cm, 4cm, and 8cm form a triangle?",
+        "solution_steps": [
+          "Check: 3+4=7, which is NOT greater than 8"
+        ],
+        "answer": "No, these lengths cannot form a triangle"
+      },
+      {
+        "problem": "A triangle has sides 7cm and 10cm. Find the range of possible values for the third side, x.",
+        "solution_steps": [
+          "x must satisfy: 7+10>x, so x<17",
+          "Also: 7+x>10, so x>3",
+          "Combine: 3<x<17"
+        ],
+        "answer": "3 cm < x < 17 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Can sides of 5cm, 6cm, and 10cm form a triangle?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A triangle has sides 4cm and 9cm. Find the range of possible values for the third side.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Yes (5+6=11>10, 5+10>6, 6+10>5, all conditions satisfied)",
+      "5cm < x < 13cm"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A triangle has sides x, x+2, and 12. Find the range of possible values of x such that a valid triangle is formed.",
+        "marks": 4,
+        "answer": "x+(x+2)>12 \u2192 2x+2>12 \u2192 x>5. Also x+12>x+2 (always true). And (x+2)+12>x (always true). So the constraint is x>5 (and x+2 must also be positive, automatically satisfied for x>5)."
+      }
+    ],
+    "common_mistakes": [
+      "Only checking ONE of the three inequality conditions instead of all three",
+      "Using \u2265 instead of > (the inequality must be strict \u2014 equal sums do NOT form a valid triangle, only a degenerate flat line)"
+    ],
+    "tips": [
+      "You technically only need to check that the sum of the two SHORTEST sides exceeds the longest side \u2014 if this holds, the other two conditions are automatically satisfied."
+    ],
+    "summary": "The triangle inequality requires the sum of any two sides to exceed the third; violating this means no valid triangle exists.",
+    "quick_revision_notes": [
+      "a+b>c (for all pairs of sides)",
+      "Check shortest two sides vs longest side is often enough"
+    ],
+    "related_prerequisite_topics": [
+      "Triangles",
+      "Linear Inequalities"
+    ],
+    "images": []
+  },
+  {
+    "id": 247,
+    "category": "Geometry",
+    "topic": "Pythagorean Theorem",
+    "explanation": "The Pythagorean theorem states that in a right-angled triangle, the square of the hypotenuse (the longest side, opposite the right angle) equals the sum of the squares of the other two sides. This relationship, a\u00b2+b\u00b2=c\u00b2, is one of the most famous and useful results in all of mathematics.",
+    "key_concepts": [
+      "Only applies to right-angled triangles",
+      "a\u00b2 + b\u00b2 = c\u00b2, where c is the hypotenuse (longest side)",
+      "Used to find a missing side when the other two are known",
+      "Forms the basis of the distance formula in coordinate geometry"
+    ],
+    "definitions": [
+      {
+        "term": "Pythagorean Theorem",
+        "definition": "In a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two sides: a\u00b2+b\u00b2=c\u00b2."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Pythagorean theorem",
+        "formula": "a\u00b2 + b\u00b2 = c\u00b2",
+        "notes": "c = hypotenuse (longest side, opposite the right angle)"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A right-angled triangle has legs of 6cm and 8cm. Find the hypotenuse.",
+        "solution_steps": [
+          "c\u00b2 = 6\u00b2 + 8\u00b2 = 36+64 = 100",
+          "c = \u221a100"
+        ],
+        "answer": "10 cm"
+      },
+      {
+        "problem": "A right-angled triangle has a hypotenuse of 13cm and one leg of 5cm. Find the other leg.",
+        "solution_steps": [
+          "5\u00b2 + b\u00b2 = 13\u00b2",
+          "25 + b\u00b2 = 169",
+          "b\u00b2 = 144",
+          "b = \u221a144"
+        ],
+        "answer": "12 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A right-angled triangle has legs 9cm and 12cm. Find the hypotenuse.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A right-angled triangle has hypotenuse 25cm and one leg 7cm. Find the other leg.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "15 cm",
+      "24 cm"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A ladder 5m long leans against a wall, with its base 3m from the wall. How high up the wall does the ladder reach?",
+        "marks": 3,
+        "answer": "3\u00b2 + h\u00b2 = 5\u00b2 \u2192 9+h\u00b2=25 \u2192 h\u00b2=16 \u2192 h=4m"
+      }
+    ],
+    "common_mistakes": [
+      "Applying the theorem to a triangle that isn't right-angled",
+      "Mixing up which side is the hypotenuse when solving for a leg instead of the hypotenuse",
+      "Forgetting to take the square root at the final step"
+    ],
+    "tips": [
+      "Always double check WHICH side you're solving for \u2014 if it's a leg (not the hypotenuse), you'll SUBTRACT the squares rather than add them."
+    ],
+    "summary": "The Pythagorean theorem (a\u00b2+b\u00b2=c\u00b2) relates the sides of a right-angled triangle, used to find any missing side.",
+    "quick_revision_notes": [
+      "a\u00b2+b\u00b2=c\u00b2 (c=hypotenuse)",
+      "Adding for hypotenuse, subtracting for a leg"
+    ],
+    "related_prerequisite_topics": [
+      "Right-Angled Triangles",
+      "Square Numbers",
+      "Distance Between Points"
+    ],
+    "images": [
+      {
+        "filename": "pythagoreantheorem-247-diagram.svg",
+        "type": "diagram",
+        "description": "A right-angled triangle with sides labelled 3, 4, and 5 (hypotenuse), with a right-angle marker at the corresponding vertex.",
+        "purpose": "Illustrates the classic 3-4-5 right triangle and the relationship a\u00b2+b\u00b2=c\u00b2.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "category": "Geometry",
+    "topic": "Converse of Pythagorean Theorem",
+    "explanation": "The converse of the Pythagorean theorem states that if the square of the longest side of a triangle equals the sum of the squares of the other two sides, then the triangle MUST be right-angled. This allows the theorem to be used in reverse \u2014 as a TEST for whether a triangle is right-angled, given its three side lengths.",
+    "key_concepts": [
+      "If a\u00b2+b\u00b2=c\u00b2 (with c the longest side), then the triangle is right-angled",
+      "Used as a test to verify a triangle is right-angled from its side lengths alone",
+      "If a\u00b2+b\u00b2>c\u00b2, the angle opposite c is acute (less than 90\u00b0)",
+      "If a\u00b2+b\u00b2<c\u00b2, the angle opposite c is obtuse (greater than 90\u00b0)"
+    ],
+    "definitions": [
+      {
+        "term": "Converse of Pythagorean Theorem",
+        "definition": "The theorem stating that if a\u00b2+b\u00b2=c\u00b2 for a triangle's sides (c longest), the triangle must be right-angled."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A triangle has sides 9cm, 12cm, and 15cm. Is it right-angled?",
+        "solution_steps": [
+          "Identify the longest side: 15",
+          "Check: 9\u00b2+12\u00b2 = 81+144 = 225",
+          "15\u00b2 = 225",
+          "225 = 225, so the condition is satisfied"
+        ],
+        "answer": "Yes, it is a right-angled triangle"
+      },
+      {
+        "problem": "A triangle has sides 5cm, 6cm, and 9cm. Is it right-angled?",
+        "solution_steps": [
+          "Longest side: 9",
+          "5\u00b2+6\u00b2 = 25+36 = 61",
+          "9\u00b2 = 81",
+          "61 \u2260 81"
+        ],
+        "answer": "No, it is not right-angled (since 61<81, the angle opposite 9cm is actually obtuse)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is a triangle with sides 7cm, 24cm, 25cm right-angled?",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Is a triangle with sides 6cm, 7cm, 8cm right-angled?",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Yes (7\u00b2+24\u00b2=49+576=625=25\u00b2)",
+      "No (36+49=85, but 8\u00b2=64; since 85>64, this triangle is actually acute, not right-angled)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A triangle has sides 10cm, 24cm, and 26cm. Use the converse of the Pythagorean theorem to determine if it is right-angled, and identify which angle (if any) is 90\u00b0.",
+        "marks": 3,
+        "answer": "Longest side=26. 10\u00b2+24\u00b2=100+576=676. 26\u00b2=676. Since these are equal, the triangle is right-angled, with the right angle opposite the 26cm side."
+      }
+    ],
+    "common_mistakes": [
+      "Not correctly identifying the LONGEST side as 'c' before testing",
+      "Misinterpreting the inequality direction (confusing which case gives acute vs obtuse)"
+    ],
+    "tips": [
+      "Always square each side individually before comparing \u2014 a common shortcut error is comparing the un-squared side lengths instead."
+    ],
+    "summary": "The converse of the Pythagorean theorem tests whether a triangle is right-angled using its side lengths: a\u00b2+b\u00b2=c\u00b2 confirms a right angle.",
+    "quick_revision_notes": [
+      "a\u00b2+b\u00b2=c\u00b2 \u2192 right-angled",
+      "a\u00b2+b\u00b2>c\u00b2 \u2192 acute",
+      "a\u00b2+b\u00b2<c\u00b2 \u2192 obtuse"
+    ],
+    "related_prerequisite_topics": [
+      "Pythagorean Theorem",
+      "Right-Angled Triangles"
+    ],
+    "images": []
+  },
+  {
+    "id": 249,
+    "category": "Geometry",
+    "topic": "Quadrilaterals",
+    "explanation": "A quadrilateral is a polygon with exactly four sides and four angles. Quadrilaterals include many familiar shapes like squares, rectangles, parallelograms, rhombuses, kites, and trapeziums, each with its own defining properties.",
+    "key_concepts": [
+      "A quadrilateral has exactly 4 sides and 4 angles",
+      "The four interior angles always sum to 360\u00b0",
+      "Common types: square, rectangle, parallelogram, rhombus, kite, trapezium",
+      "Classified based on properties like side lengths, angle sizes, and parallel sides"
+    ],
+    "definitions": [
+      {
+        "term": "Quadrilateral",
+        "definition": "A polygon with exactly four sides and four angles, whose interior angles sum to 360\u00b0."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Quadrilateral angle sum",
+        "formula": "Sum of interior angles = 360\u00b0",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A quadrilateral has angles 80\u00b0, 95\u00b0, and 110\u00b0. Find the fourth angle.",
+        "solution_steps": [
+          "360 - 80 - 95 - 110"
+        ],
+        "answer": "75\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A quadrilateral has angles 90\u00b0, 90\u00b0, and 90\u00b0. Find the fourth angle.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Name three different types of quadrilateral.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "90\u00b0",
+      "Any three of: square, rectangle, parallelogram, rhombus, kite, trapezium"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why the angle sum of any quadrilateral is 360\u00b0, using the fact that a quadrilateral can be split into two triangles.",
+        "marks": 2,
+        "answer": "Drawing one diagonal splits the quadrilateral into two triangles, each with an angle sum of 180\u00b0. Since the quadrilateral's angles are made up of these two triangles' angles combined, the total is 180+180=360\u00b0."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing the quadrilateral angle sum (360\u00b0) with the triangle angle sum (180\u00b0)",
+      "Assuming all quadrilaterals have equal sides or angles (only specific types do)"
+    ],
+    "tips": [
+      "Any quadrilateral can be split into 2 triangles by drawing one diagonal \u2014 this is why its angle sum (2\u00d7180\u00b0=360\u00b0) is exactly double a triangle's."
+    ],
+    "summary": "A quadrilateral is a four-sided polygon whose angles sum to 360\u00b0, encompassing many specific shape types.",
+    "quick_revision_notes": [
+      "4 sides, 4 angles, sum to 360\u00b0"
+    ],
+    "related_prerequisite_topics": [
+      "Triangles",
+      "Parallelograms",
+      "Polygon Properties"
+    ],
+    "images": []
+  },
+  {
+    "id": 250,
+    "category": "Geometry",
+    "topic": "Parallelograms",
+    "explanation": "A parallelogram is a quadrilateral with two pairs of parallel sides. Its key properties include equal opposite sides, equal opposite angles, and diagonals that bisect each other. Rectangles, rhombuses, and squares are all special types of parallelograms.",
+    "key_concepts": [
+      "Both pairs of opposite sides are parallel and equal in length",
+      "Opposite angles are equal",
+      "Consecutive (adjacent) angles are supplementary (sum to 180\u00b0)",
+      "Diagonals bisect each other (but are not necessarily equal length or perpendicular)"
+    ],
+    "definitions": [
+      {
+        "term": "Parallelogram",
+        "definition": "A quadrilateral with two pairs of parallel sides, equal opposite sides, and equal opposite angles."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A parallelogram has one angle of 70\u00b0. Find the other three angles.",
+        "solution_steps": [
+          "Opposite angle is also 70\u00b0 (opposite angles are equal)",
+          "Adjacent angles are supplementary: 180-70=110\u00b0",
+          "The fourth angle (opposite the 110\u00b0 one) is also 110\u00b0"
+        ],
+        "answer": "70\u00b0, 110\u00b0, 70\u00b0, 110\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A parallelogram has sides 6cm and 9cm. Find its perimeter.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A parallelogram has one angle of 55\u00b0. Find the largest angle in the shape.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "30 cm (2\u00d7(6+9))",
+      "125\u00b0 (180-55)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Prove that opposite angles in a parallelogram are equal, using the property that adjacent angles are supplementary.",
+        "marks": 3,
+        "answer": "Let the angles be A, B, C, D in order. Since AB is parallel to DC (co-interior angles), A+B=180. Similarly B+C=180. Since both equal 180-B, A=C, so opposite angles A and C are equal. The same reasoning applies to B and D."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming a parallelogram's diagonals are always equal length (only true for rectangles) or always perpendicular (only true for rhombuses)",
+      "Confusing 'opposite' angles with 'adjacent' angles when applying the equal vs supplementary rules"
+    ],
+    "tips": [
+      "Remember: OPPOSITE angles/sides in a parallelogram are EQUAL; ADJACENT (consecutive) angles are SUPPLEMENTARY."
+    ],
+    "summary": "A parallelogram has two pairs of parallel, equal sides, equal opposite angles, and diagonals that bisect each other.",
+    "quick_revision_notes": [
+      "Opposite sides parallel & equal",
+      "Opposite angles equal",
+      "Adjacent angles supplementary",
+      "Diagonals bisect each other"
+    ],
+    "related_prerequisite_topics": [
+      "Quadrilaterals",
+      "Rectangles",
+      "Rhombuses"
+    ],
+    "images": [
+      {
+        "filename": "parallelograms-250-diagram.svg",
+        "type": "diagram",
+        "description": "A parallelogram shape with visually parallel opposite sides.",
+        "purpose": "Shows the characteristic slanted shape of a parallelogram with parallel opposite sides.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "category": "Geometry",
+    "topic": "Rectangles",
+    "explanation": "A rectangle is a parallelogram in which all four angles are right angles (90\u00b0). Opposite sides are equal and parallel, and unlike a general parallelogram, a rectangle's diagonals are always equal in length (as well as bisecting each other).",
+    "key_concepts": [
+      "All four angles are exactly 90\u00b0",
+      "Opposite sides are equal and parallel (inherited from being a parallelogram)",
+      "Diagonals are equal in length AND bisect each other",
+      "A square is a special case of a rectangle with all sides equal"
+    ],
+    "definitions": [
+      {
+        "term": "Rectangle",
+        "definition": "A parallelogram with four right angles (90\u00b0 each)."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A rectangle has diagonals of length 10cm. If one diagonal is split by the intersection point into two equal parts, find the length of each part.",
+        "solution_steps": [
+          "Diagonals bisect each other into two equal halves",
+          "10\u00f72"
+        ],
+        "answer": "5 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "What is the size of each angle in a rectangle?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A rectangle has one diagonal of length 13cm. State the length of the other diagonal.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "90\u00b0 each",
+      "13cm (diagonals of a rectangle are always equal)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A rectangle has sides 6cm and 8cm. Use the Pythagorean theorem to find the length of its diagonal.",
+        "marks": 3,
+        "answer": "diagonal\u00b2 = 6\u00b2+8\u00b2 = 36+64=100, diagonal=\u221a100=10cm"
+      }
+    ],
+    "common_mistakes": [
+      "Assuming a rectangle's diagonals are perpendicular (they are not, unless it's also a square)",
+      "Confusing rectangle properties with general parallelogram properties"
+    ],
+    "tips": [
+      "The diagonal of a rectangle can always be found using the Pythagorean theorem, treating the two sides as the legs of a right-angled triangle."
+    ],
+    "summary": "A rectangle is a parallelogram with four right angles, equal parallel opposite sides, and equal diagonals that bisect each other.",
+    "quick_revision_notes": [
+      "4 right angles",
+      "Equal diagonals that bisect each other"
+    ],
+    "related_prerequisite_topics": [
+      "Parallelograms",
+      "Squares",
+      "Pythagorean Theorem"
+    ],
+    "images": []
+  },
+  {
+    "id": 252,
+    "category": "Geometry",
+    "topic": "Squares",
+    "explanation": "A square is a special quadrilateral that is both a rectangle (four right angles) and a rhombus (four equal sides) simultaneously. It has the highest degree of symmetry among quadrilaterals, with 4 lines of symmetry and rotational symmetry of order 4.",
+    "key_concepts": [
+      "All four sides are equal in length",
+      "All four angles are exactly 90\u00b0",
+      "Diagonals are equal, bisect each other, AND are perpendicular",
+      "Has 4 lines of symmetry and rotational symmetry of order 4"
+    ],
+    "definitions": [
+      {
+        "term": "Square",
+        "definition": "A quadrilateral with four equal sides and four right angles, combining the properties of a rectangle and a rhombus."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A square has a diagonal of length 8\u221a2 cm. Find the side length.",
+        "solution_steps": [
+          "For a square with side s, diagonal = s\u221a2",
+          "s\u221a2 = 8\u221a2",
+          "s = 8"
+        ],
+        "answer": "8 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "How many lines of symmetry does a square have?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A square has side length 5cm. Find the length of its diagonal, in surd form.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "4",
+      "5\u221a2 cm"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Prove that the diagonals of a square are perpendicular, using the fact that a square is a rhombus.",
+        "marks": 3,
+        "answer": "A rhombus has perpendicular diagonals (a known rhombus property). Since a square is a special case of a rhombus (with all sides equal and additionally all angles 90\u00b0), it inherits this property \u2014 its diagonals are also perpendicular."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting that a square combines BOTH rectangle and rhombus properties (not just one)",
+      "Errors in the diagonal formula (s\u221a2), especially forgetting to simplify or rationalise correctly"
+    ],
+    "tips": [
+      "A square's diagonal can always be found via d=s\u221a2 (from the Pythagorean theorem with two equal legs of length s)."
+    ],
+    "summary": "A square has four equal sides, four right angles, and perpendicular, equal, bisecting diagonals \u2014 combining rectangle and rhombus properties.",
+    "quick_revision_notes": [
+      "4 equal sides, 4 right angles",
+      "Diagonal = s\u221a2",
+      "4 lines of symmetry"
+    ],
+    "related_prerequisite_topics": [
+      "Rectangles",
+      "Rhombuses",
+      "Symmetry"
+    ],
+    "images": []
+  },
+  {
+    "id": 253,
+    "category": "Geometry",
+    "topic": "Rhombuses",
+    "explanation": "A rhombus is a parallelogram in which all four sides are equal in length. Its diagonals bisect each other at right angles (perpendicular) and also bisect the interior angles at each vertex. A square is a special case of a rhombus with additionally all angles equal to 90\u00b0.",
+    "key_concepts": [
+      "All four sides are equal in length",
+      "Opposite angles are equal (inherited from being a parallelogram)",
+      "Diagonals bisect each other AND are perpendicular to each other",
+      "Diagonals also bisect the angles at each vertex"
+    ],
+    "definitions": [
+      {
+        "term": "Rhombus",
+        "definition": "A parallelogram with all four sides equal in length, whose diagonals are perpendicular and bisect each other."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A rhombus has diagonals of length 6cm and 8cm. Find the side length using the Pythagorean theorem.",
+        "solution_steps": [
+          "Diagonals bisect each other at right angles, forming 4 right triangles with legs 3cm and 4cm",
+          "side\u00b2 = 3\u00b2 + 4\u00b2 = 9+16 = 25",
+          "side = \u221a25"
+        ],
+        "answer": "5 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A rhombus has all sides equal to 7cm. Find its perimeter.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A rhombus has diagonals 10cm and 24cm. Find its side length.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "28 cm",
+      "13 cm (half-diagonals 5 and 12, 5\u00b2+12\u00b2=169, \u221a169=13)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why the diagonals of a rhombus are perpendicular, referencing its congruent triangle properties.",
+        "marks": 3,
+        "answer": "The diagonals of a rhombus divide it into 4 triangles, which are all congruent (by SSS, since all sides of the rhombus are equal and the diagonals are shared/bisected). This congruence forces the angles at the intersection point to be equal, and since they also sum to 360\u00b0 around the point in pairs of supplementary angles, each angle must be 90\u00b0, confirming the diagonals are perpendicular."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming a rhombus has right angles (only true if it's also a square)",
+      "Forgetting that diagonals of a rhombus, though perpendicular, are NOT necessarily equal in length"
+    ],
+    "tips": [
+      "Since a rhombus's diagonals bisect each other at right angles, they always form 4 congruent right-angled triangles \u2014 useful for Pythagorean theorem calculations."
+    ],
+    "summary": "A rhombus has four equal sides, with diagonals that bisect each other perpendicularly and also bisect its angles.",
+    "quick_revision_notes": [
+      "4 equal sides",
+      "Diagonals: perpendicular, bisect each other, bisect angles"
+    ],
+    "related_prerequisite_topics": [
+      "Parallelograms",
+      "Squares",
+      "Pythagorean Theorem"
+    ],
+    "images": []
+  },
+  {
+    "id": 254,
+    "category": "Geometry",
+    "topic": "Kites",
+    "explanation": "A kite is a quadrilateral with two distinct pairs of adjacent (consecutive) sides that are equal in length, rather than opposite sides as in a parallelogram. A kite has exactly one line of symmetry, and its diagonals are perpendicular, with only one diagonal being bisected.",
+    "key_concepts": [
+      "Two pairs of ADJACENT (not opposite) sides are equal",
+      "Has exactly 1 line of symmetry, running along the axis between the two unequal-length diagonal segments",
+      "Diagonals are perpendicular, but only ONE diagonal is bisected by the other",
+      "One pair of opposite angles (between the unequal sides) is equal"
+    ],
+    "definitions": [
+      {
+        "term": "Kite",
+        "definition": "A quadrilateral with two distinct pairs of adjacent equal sides, having perpendicular diagonals and one line of symmetry."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A kite has diagonals of 12cm and 16cm. Find its area.",
+        "solution_steps": [
+          "Area of a kite = (1/2) \u00d7 d\u2081 \u00d7 d\u2082",
+          "(1/2) \u00d7 12 \u00d7 16"
+        ],
+        "answer": "96 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A kite has diagonals of 10cm and 14cm. Find its area.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "How many lines of symmetry does a kite have?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "70 cm\u00b2",
+      "1"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why a kite's diagonals are perpendicular but generally NOT both bisected, unlike a rhombus.",
+        "marks": 3,
+        "answer": "A kite's line of symmetry runs along one diagonal, which reflects the shape onto itself \u2014 this symmetry forces the diagonals to be perpendicular and forces the OTHER diagonal (perpendicular to the symmetry line) to be bisected. However, the diagonal that IS the line of symmetry is not itself bisected by the other diagonal (unless the kite happens to also be a rhombus)."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming ALL sides of a kite are related, when only two SEPARATE pairs of adjacent sides are equal",
+      "Assuming both diagonals are bisected (only one is, in general)"
+    ],
+    "tips": [
+      "A kite's area formula (\u00bd \u00d7 d\u2081 \u00d7 d\u2082) is identical to a rhombus's \u2014 both rely on the diagonals being perpendicular."
+    ],
+    "summary": "A kite has two pairs of adjacent equal sides, perpendicular diagonals (only one bisected), and exactly one line of symmetry.",
+    "quick_revision_notes": [
+      "2 pairs of ADJACENT equal sides",
+      "Diagonals perpendicular, only 1 bisected",
+      "1 line of symmetry",
+      "Area = \u00bdd\u2081d\u2082"
+    ],
+    "related_prerequisite_topics": [
+      "Quadrilaterals",
+      "Symmetry",
+      "Area of Kites"
+    ],
+    "images": [
+      {
+        "filename": "kites-254-diagram.svg",
+        "type": "diagram",
+        "description": "A kite shape showing two pairs of adjacent equal sides and its characteristic elongated diamond form.",
+        "purpose": "Shows the visual appearance and shape of a kite quadrilateral.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "category": "Geometry",
+    "topic": "Trapeziums",
+    "explanation": "A trapezium (called a trapezoid in some countries) is a quadrilateral with exactly one pair of parallel sides. The parallel sides are called the 'bases', and the non-parallel sides are called the 'legs'. An isosceles trapezium has equal legs and equal base angles.",
+    "key_concepts": [
+      "Exactly ONE pair of sides is parallel (the 'bases')",
+      "The non-parallel sides are called the 'legs'",
+      "An isosceles trapezium has equal legs and equal base angles, plus one line of symmetry",
+      "Co-interior angles between the parallel sides (on the same leg) are supplementary"
+    ],
+    "definitions": [
+      {
+        "term": "Trapezium",
+        "definition": "A quadrilateral with exactly one pair of parallel sides."
+      },
+      {
+        "term": "Isosceles Trapezium",
+        "definition": "A trapezium with equal (non-parallel) legs and equal base angles."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A trapezium has one base angle of 70\u00b0. Find the co-interior angle on the same leg.",
+        "solution_steps": [
+          "Co-interior angles between the parallel sides are supplementary",
+          "180-70"
+        ],
+        "answer": "110\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "How many pairs of parallel sides does a trapezium have?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "An isosceles trapezium has one base angle of 65\u00b0. Find the other base angle on the same parallel side.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Exactly 1 pair",
+      "65\u00b0 (base angles on the same parallel side are equal in an isosceles trapezium)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "An isosceles trapezium has base angles of 72\u00b0 at the longer base. Find all four angles of the trapezium.",
+        "marks": 3,
+        "answer": "Both angles at the longer base are 72\u00b0 (isosceles trapezium property). Co-interior angles at the shorter base are supplementary: 180-72=108\u00b0, and both angles there are equal too. Angles: 72\u00b0,72\u00b0,108\u00b0,108\u00b0"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing a trapezium (1 pair of parallel sides) with a parallelogram (2 pairs)",
+      "Assuming all trapeziums are isosceles (only specific ones are)"
+    ],
+    "tips": [
+      "Only an ISOSCELES trapezium has equal base angles and legs \u2014 a general trapezium does not guarantee this property."
+    ],
+    "summary": "A trapezium has exactly one pair of parallel sides; isosceles trapeziums additionally have equal legs and base angles.",
+    "quick_revision_notes": [
+      "1 pair of parallel sides ('bases')",
+      "Isosceles: equal legs, equal base angles"
+    ],
+    "related_prerequisite_topics": [
+      "Quadrilaterals",
+      "Angles on Parallel Lines",
+      "Area of Trapeziums"
+    ],
+    "images": [
+      {
+        "filename": "trapeziums-255-diagram.svg",
+        "type": "diagram",
+        "description": "A trapezium shape with one clearly parallel pair of sides (top and bottom) and two non-parallel legs.",
+        "purpose": "Shows the visual appearance of a trapezium with its single pair of parallel sides.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "category": "Geometry",
+    "topic": "Polygon Properties",
+    "explanation": "A polygon is any closed 2D shape made up of straight line segments. Polygons are classified by their number of sides (triangle, quadrilateral, pentagon, hexagon, etc.) and can be regular (all sides and angles equal) or irregular. Key properties include interior angle sums, exterior angle sums, and diagonal counts.",
+    "key_concepts": [
+      "A polygon is a closed shape with straight sides (no curves)",
+      "Named by number of sides: triangle (3), quadrilateral (4), pentagon (5), hexagon (6), heptagon (7), octagon (8), etc.",
+      "Regular polygons have all sides and all angles equal; irregular polygons do not",
+      "Convex polygons have all interior angles less than 180\u00b0; concave polygons have at least one reflex interior angle"
+    ],
+    "definitions": [
+      {
+        "term": "Polygon",
+        "definition": "A closed two-dimensional shape made up of straight line segments."
+      },
+      {
+        "term": "Regular Polygon",
+        "definition": "A polygon with all sides equal in length and all interior angles equal in measure."
+      },
+      {
+        "term": "Convex Polygon",
+        "definition": "A polygon where all interior angles are less than 180\u00b0, with no indentations."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Name the polygon with 8 sides.",
+        "solution_steps": [
+          "Recall polygon naming conventions"
+        ],
+        "answer": "Octagon"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Name the polygon with 5 sides.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Name the polygon with 10 sides.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Pentagon",
+      "Decagon"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain the difference between a convex and a concave polygon, giving an example of each.",
+        "marks": 2,
+        "answer": "A convex polygon has all interior angles less than 180\u00b0 (no indentations), e.g. a regular hexagon. A concave polygon has at least one reflex interior angle (an indentation), e.g. an arrow or star shape."
+      }
+    ],
+    "common_mistakes": [
+      "Mixing up polygon names for higher numbers of sides (e.g. confusing heptagon and hexagon)",
+      "Assuming all polygons are regular by default"
+    ],
+    "tips": [
+      "Memorize the names for polygons up to at least decagon (10 sides) \u2014 these come up frequently in geometry problems."
+    ],
+    "summary": "A polygon is a closed straight-sided shape, classified by number of sides and whether it is regular/irregular or convex/concave.",
+    "quick_revision_notes": [
+      "3:triangle 4:quad 5:pentagon 6:hexagon 7:heptagon 8:octagon 9:nonagon 10:decagon"
+    ],
+    "related_prerequisite_topics": [
+      "Quadrilaterals",
+      "Triangles",
+      "Regular Polygons"
+    ],
+    "images": []
+  },
+  {
+    "id": 257,
+    "category": "Geometry",
+    "topic": "Regular Polygons",
+    "explanation": "A regular polygon has all sides equal in length and all interior angles equal in measure. This high degree of symmetry means regular polygons have special, predictable properties, including formulas for their interior and exterior angles based purely on the number of sides.",
+    "key_concepts": [
+      "All sides are equal length; all interior angles are equal measure",
+      "Each exterior angle = 360\u00b0 \u00f7 number of sides",
+      "Each interior angle = 180\u00b0 - exterior angle",
+      "A regular n-sided polygon has n lines of symmetry and rotational symmetry of order n"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Exterior angle of a regular polygon",
+        "formula": "Exterior angle = 360\u00b0 / n",
+        "notes": "n = number of sides"
+      },
+      {
+        "name": "Interior angle of a regular polygon",
+        "formula": "Interior angle = 180\u00b0 - (360\u00b0/n)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the interior angle of a regular hexagon (6 sides).",
+        "solution_steps": [
+          "Exterior angle = 360/6 = 60\u00b0",
+          "Interior angle = 180 - 60"
+        ],
+        "answer": "120\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the exterior angle of a regular pentagon (5 sides).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the interior angle of a regular decagon (10 sides).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "72\u00b0",
+      "144\u00b0 (exterior=36\u00b0, interior=180-36)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A regular polygon has an interior angle of 156\u00b0. Find the number of sides.",
+        "marks": 3,
+        "answer": "Exterior angle = 180-156=24\u00b0. n = 360/24 = 15 sides"
+      }
+    ],
+    "common_mistakes": [
+      "Using the wrong formula (mixing up interior and exterior angle calculations)",
+      "Forgetting that these specific formulas only apply to REGULAR polygons (not irregular ones)"
+    ],
+    "tips": [
+      "If given the interior angle, find the exterior angle first (180\u00b0 minus interior), then use 360\u00b0\u00f7exterior angle to find the number of sides."
+    ],
+    "summary": "A regular polygon has equal sides and angles, with exterior angle = 360\u00b0/n and interior angle = 180\u00b0 - exterior angle.",
+    "quick_revision_notes": [
+      "Exterior angle = 360\u00b0/n",
+      "Interior angle = 180\u00b0 - exterior angle"
+    ],
+    "related_prerequisite_topics": [
+      "Polygon Properties",
+      "Interior Angles",
+      "Exterior Angles"
+    ],
+    "images": [
+      {
+        "filename": "regularpolygons-257-hexagon.svg",
+        "type": "diagram",
+        "description": "A regular hexagon with all six sides and angles visually equal.",
+        "purpose": "Shows the visual symmetry of a regular polygon.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "category": "Geometry",
+    "topic": "Interior Angles",
+    "explanation": "The interior angles of a polygon are the angles inside the shape, formed at each vertex between two adjacent sides. The sum of all interior angles depends on the number of sides, calculated using the formula (n-2)\u00d7180\u00b0, based on splitting the polygon into triangles.",
+    "key_concepts": [
+      "Interior angles are measured INSIDE the polygon at each vertex",
+      "Sum of interior angles = (n-2) \u00d7 180\u00b0, where n = number of sides",
+      "For a regular polygon, each interior angle = [(n-2)\u00d7180\u00b0] / n",
+      "This formula comes from splitting any polygon into (n-2) triangles"
+    ],
+    "definitions": [
+      {
+        "term": "Interior Angle",
+        "definition": "An angle formed inside a polygon between two adjacent sides, at a vertex."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Sum of interior angles",
+        "formula": "Sum = (n - 2) \u00d7 180\u00b0",
+        "notes": "n = number of sides"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the sum of interior angles of a heptagon (7 sides).",
+        "solution_steps": [
+          "Sum = (7-2) \u00d7 180 = 5 \u00d7 180"
+        ],
+        "answer": "900\u00b0"
+      },
+      {
+        "problem": "A pentagon has four known interior angles: 100\u00b0, 110\u00b0, 95\u00b0, 105\u00b0. Find the fifth angle.",
+        "solution_steps": [
+          "Sum of interior angles for a pentagon (n=5): (5-2)\u00d7180=540\u00b0",
+          "Fifth angle = 540 - 100 - 110 - 95 - 105"
+        ],
+        "answer": "130\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the sum of interior angles of an octagon (8 sides).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A hexagon has five known angles summing to 600\u00b0. Find the sixth angle.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "1080\u00b0 ((8-2)\u00d7180)",
+      "120\u00b0 (sum for hexagon=720\u00b0, 720-600=120)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why the sum of interior angles formula is (n-2)\u00d7180\u00b0, referring to how a polygon can be divided into triangles.",
+        "marks": 3,
+        "answer": "Any polygon with n sides can be divided into (n-2) triangles by drawing diagonals from one vertex. Since each triangle contributes 180\u00b0 to the total angle sum, the overall sum of interior angles is (n-2)\u00d7180\u00b0."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to subtract 2 from n before multiplying by 180\u00b0",
+      "Using the wrong value of n (miscounting the number of sides)"
+    ],
+    "tips": [
+      "Visualize drawing diagonals from ONE vertex of the polygon to all other non-adjacent vertices \u2014 this always creates exactly (n-2) triangles."
+    ],
+    "summary": "The sum of a polygon's interior angles is (n-2)\u00d7180\u00b0, derived from dividing the shape into (n-2) triangles.",
+    "quick_revision_notes": [
+      "Sum of interior angles = (n-2)\u00d7180\u00b0"
+    ],
+    "related_prerequisite_topics": [
+      "Polygon Properties",
+      "Triangle Angle Sum",
+      "Exterior Angles"
+    ],
+    "images": []
+  },
+  {
+    "id": 259,
+    "category": "Geometry",
+    "topic": "Exterior Angles",
+    "explanation": "The exterior angle of a polygon at a given vertex is formed by extending one side beyond that vertex. Each interior angle and its corresponding exterior angle are supplementary (sum to 180\u00b0). Remarkably, the sum of all exterior angles of any convex polygon is always exactly 360\u00b0, regardless of the number of sides.",
+    "key_concepts": [
+      "An exterior angle is formed by extending a side beyond a vertex",
+      "Interior angle + exterior angle (at the same vertex) = 180\u00b0",
+      "The sum of ALL exterior angles of any convex polygon is always 360\u00b0",
+      "For a regular polygon: each exterior angle = 360\u00b0/n"
+    ],
+    "definitions": [
+      {
+        "term": "Exterior Angle (of a Polygon)",
+        "definition": "The angle formed outside a polygon by extending one of its sides beyond a vertex, supplementary to the interior angle there."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Sum of exterior angles",
+        "formula": "Sum = 360\u00b0",
+        "notes": "True for any convex polygon, regardless of number of sides"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A polygon has exterior angles of 40\u00b0, 60\u00b0, 70\u00b0, 90\u00b0, and one unknown angle. Find the unknown angle.",
+        "solution_steps": [
+          "Sum of all exterior angles = 360\u00b0",
+          "360 - 40 - 60 - 70 - 90"
+        ],
+        "answer": "100\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A polygon has exterior angles 50\u00b0, 65\u00b0, 75\u00b0, and 90\u00b0. Find the remaining exterior angle if the polygon has 5 sides.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A regular polygon has an exterior angle of 45\u00b0. Find the number of sides.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "80\u00b0 (360-50-65-75-90)",
+      "8 sides (360/45)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why the sum of exterior angles of any convex polygon is always 360\u00b0, regardless of the number of sides.",
+        "marks": 3,
+        "answer": "As you travel around the perimeter of a polygon, at each vertex you turn through an angle equal to the exterior angle. After completing a full lap around the polygon, you have made one complete 360\u00b0 turn overall, which means the sum of all the individual turning angles (the exterior angles) must total exactly 360\u00b0."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing the sum of exterior angles (always 360\u00b0, regardless of n) with the sum of interior angles (which depends on n)",
+      "Forgetting interior and exterior angles at the SAME vertex are supplementary, not equal"
+    ],
+    "tips": [
+      "The sum of exterior angles being ALWAYS 360\u00b0 (no matter how many sides) is one of the most useful and memorable polygon facts."
+    ],
+    "summary": "Exterior angles of a polygon sum to 360\u00b0 regardless of the number of sides; each is supplementary to its corresponding interior angle.",
+    "quick_revision_notes": [
+      "Sum of exterior angles = 360\u00b0 (always)",
+      "Interior + exterior (same vertex) = 180\u00b0"
+    ],
+    "related_prerequisite_topics": [
+      "Interior Angles",
+      "Regular Polygons",
+      "Polygon Angle Sums"
+    ],
+    "images": []
+  },
+  {
+    "id": 260,
+    "category": "Geometry",
+    "topic": "Polygon Angle Sums",
+    "explanation": "Polygon angle sums bring together the interior and exterior angle formulas into a unified framework for solving a wide range of polygon problems, whether the polygon is regular or irregular, and whether angles are given as interior, exterior, or a mix of both.",
+    "key_concepts": [
+      "Interior angle sum: (n-2) \u00d7 180\u00b0",
+      "Exterior angle sum: always 360\u00b0, regardless of n",
+      "For any single vertex: interior + exterior = 180\u00b0",
+      "Combine these facts to solve for missing angles, number of sides, or verify polygon properties"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Interior angle sum",
+        "formula": "(n-2) \u00d7 180\u00b0",
+        "notes": ""
+      },
+      {
+        "name": "Exterior angle sum",
+        "formula": "360\u00b0",
+        "notes": "always, regardless of n"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A regular polygon has an interior angle sum of 1440\u00b0. Find the number of sides, then find each interior and exterior angle.",
+        "solution_steps": [
+          "(n-2)\u00d7180 = 1440",
+          "n-2 = 8",
+          "n = 10",
+          "Each interior angle = 1440/10 = 144\u00b0",
+          "Each exterior angle = 180-144 = 36\u00b0 (check: 360/10=36 \u2713)"
+        ],
+        "answer": "10 sides; interior angle 144\u00b0, exterior angle 36\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A regular polygon has an interior angle sum of 1080\u00b0. Find the number of sides and each interior angle.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A regular polygon has each exterior angle equal to 20\u00b0. Find the number of sides and the interior angle sum.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "8 sides, each interior angle 135\u00b0",
+      "18 sides (360/20), interior angle sum=(18-2)\u00d7180=2880\u00b0"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A polygon has an interior angle sum 3 times its exterior angle sum. Find the number of sides.",
+        "marks": 4,
+        "answer": "Exterior angle sum is always 360\u00b0. Interior angle sum = 3\u00d7360=1080\u00b0. (n-2)\u00d7180=1080 \u2192 n-2=6 \u2192 n=8 sides"
+      }
+    ],
+    "common_mistakes": [
+      "Mixing up which formula applies to interior vs exterior angle sums",
+      "Forgetting the exterior angle sum is a CONSTANT (360\u00b0) regardless of n, while the interior sum DEPENDS on n"
+    ],
+    "tips": [
+      "When a problem mentions BOTH interior and exterior angle sums, remember only the interior sum changes with n \u2014 the exterior sum is always fixed at 360\u00b0."
+    ],
+    "summary": "Polygon angle sum problems combine the interior angle formula (n-2)\u00d7180\u00b0 with the constant exterior angle sum of 360\u00b0 to solve for unknowns.",
+    "quick_revision_notes": [
+      "Interior sum=(n-2)\u00d7180\u00b0",
+      "Exterior sum=360\u00b0 (constant)"
+    ],
+    "related_prerequisite_topics": [
+      "Interior Angles",
+      "Exterior Angles",
+      "Regular Polygons"
+    ],
+    "images": []
+  },
+  {
+    "id": 261,
+    "category": "Geometry",
+    "topic": "Tessellations",
+    "explanation": "A tessellation is a repeating pattern of shapes that covers a flat surface completely, with no gaps or overlaps. Regular tessellations use only one type of regular polygon, and only three regular polygons can tessellate on their own: equilateral triangles, squares, and regular hexagons.",
+    "key_concepts": [
+      "A tessellation covers a plane completely with no gaps or overlaps",
+      "For shapes to tessellate around a point, their angles at that point must sum to exactly 360\u00b0",
+      "Only equilateral triangles (60\u00b0), squares (90\u00b0), and regular hexagons (120\u00b0) can tessellate alone as regular polygons",
+      "Semi-regular tessellations combine two or more different regular polygons"
+    ],
+    "definitions": [
+      {
+        "term": "Tessellation",
+        "definition": "A repeating pattern of shapes covering a flat surface completely, with no gaps or overlaps."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Explain why regular hexagons can tessellate, using their interior angle.",
+        "solution_steps": [
+          "Interior angle of a regular hexagon = 120\u00b0",
+          "Check if a whole number of hexagons fit around a point: 360\u00f7120=3"
+        ],
+        "answer": "Yes, since 3 hexagons meeting at a point give exactly 3\u00d7120\u00b0=360\u00b0, they tessellate perfectly"
+      },
+      {
+        "problem": "Explain why regular pentagons cannot tessellate alone.",
+        "solution_steps": [
+          "Interior angle of a regular pentagon = 108\u00b0",
+          "Check: 360\u00f7108 = 3.33... (not a whole number)"
+        ],
+        "answer": "Regular pentagons cannot tessellate alone, since their interior angle doesn't divide evenly into 360\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Show that equilateral triangles can tessellate, using their interior angle.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Show that squares can tessellate, using their interior angle.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "Interior angle=60\u00b0. 360\u00f760=6, a whole number, so 6 triangles fit perfectly around a point \u2014 triangles tessellate.",
+      "Interior angle=90\u00b0. 360\u00f790=4, a whole number, so 4 squares fit perfectly around a point \u2014 squares tessellate."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Determine, with justification, whether a regular octagon can tessellate alone.",
+        "marks": 3,
+        "answer": "Interior angle of a regular octagon = 135\u00b0. 360\u00f7135 \u2248 2.67, not a whole number, so regular octagons cannot tessellate alone (gaps would remain around each point)."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming any regular polygon can tessellate (only triangles, squares, and hexagons work alone)",
+      "Forgetting to check that 360\u00b0 divides evenly by the interior angle"
+    ],
+    "tips": [
+      "The quick test for whether a regular polygon tessellates alone: does 360\u00b0 divide evenly (with a whole number result) by its interior angle?"
+    ],
+    "summary": "A tessellation covers a surface with no gaps; only equilateral triangles, squares, and regular hexagons can tessellate alone among regular polygons.",
+    "quick_revision_notes": [
+      "Shapes tessellate if their angles sum to 360\u00b0 around a point",
+      "Only triangles, squares, hexagons tessellate alone (regular polygons)"
+    ],
+    "related_prerequisite_topics": [
+      "Regular Polygons",
+      "Interior Angles",
+      "Polygon Angle Sums"
+    ],
+    "images": [
+      {
+        "filename": "tessellations-261-pattern.svg",
+        "type": "diagram",
+        "description": "A repeating pattern of hexagons tiling a flat surface with no gaps.",
+        "purpose": "Shows a real example of a tessellation using regular hexagons.",
+        "placement": "After the Worked Examples section"
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "category": "Geometry",
+    "topic": "Symmetry",
+    "explanation": "Symmetry describes a shape's property of looking identical after being reflected or rotated. Line (reflective) symmetry occurs when a shape can be folded along a line so both halves match exactly; the number of such lines varies by shape. Symmetry is a key tool for classifying and understanding geometric figures.",
+    "key_concepts": [
+      "Line (reflective) symmetry: a shape looks identical when reflected across a line",
+      "A line of symmetry divides a shape into two mirror-image halves",
+      "Different shapes have different numbers of lines of symmetry (e.g. square: 4, rectangle: 2, scalene triangle: 0)",
+      "Symmetry also includes rotational symmetry (see the dedicated topic)"
+    ],
+    "definitions": [
+      {
+        "term": "Line of Symmetry",
+        "definition": "A line along which a shape can be folded so that both halves match exactly."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "How many lines of symmetry does a regular pentagon have?",
+        "solution_steps": [
+          "A regular polygon with n sides has n lines of symmetry"
+        ],
+        "answer": "5 lines of symmetry"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "How many lines of symmetry does an isosceles triangle have?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "How many lines of symmetry does a regular octagon have?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "1",
+      "8"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A shape has exactly 2 lines of symmetry, and all four sides are not equal. What quadrilateral could this be?",
+        "marks": 2,
+        "answer": "A (non-square) rectangle \u2014 it has exactly 2 lines of symmetry (through the midpoints of opposite sides), and its sides are not all equal (only opposite sides match)."
+      }
+    ],
+    "common_mistakes": [
+      "Miscounting lines of symmetry, especially for less regular shapes",
+      "Confusing line symmetry with rotational symmetry (they are related but distinct concepts)"
+    ],
+    "tips": [
+      "For any regular polygon with n sides, the number of lines of symmetry always equals n."
+    ],
+    "summary": "Line symmetry means a shape can be folded along a line into two identical mirror-image halves; the count varies by shape type.",
+    "quick_revision_notes": [
+      "Regular n-sided polygon: n lines of symmetry",
+      "Isosceles: 1, Scalene: 0, Square: 4"
+    ],
+    "related_prerequisite_topics": [
+      "Rotational Symmetry",
+      "Regular Polygons",
+      "Isosceles Triangles"
+    ],
+    "images": []
+  },
+  {
+    "id": 263,
+    "category": "Geometry",
+    "topic": "Rotational Symmetry",
+    "explanation": "Rotational symmetry describes a shape's property of looking identical after being rotated by some angle less than a full 360\u00b0 turn, around a central point. The 'order' of rotational symmetry is the number of times the shape matches its original position during one complete 360\u00b0 rotation.",
+    "key_concepts": [
+      "A shape has rotational symmetry if it looks the same after rotating by less than 360\u00b0",
+      "'Order' of rotational symmetry = number of matching positions in a full 360\u00b0 turn",
+      "Order 1 technically means no rotational symmetry (only matches at the full 360\u00b0 turn)",
+      "A regular n-sided polygon has rotational symmetry of order n"
+    ],
+    "definitions": [
+      {
+        "term": "Rotational Symmetry",
+        "definition": "A shape's property of looking identical after being rotated by some angle less than 360\u00b0 around a central point."
+      },
+      {
+        "term": "Order of Rotational Symmetry",
+        "definition": "The number of times a shape matches its original appearance during one complete 360\u00b0 rotation."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find the order of rotational symmetry of a regular hexagon.",
+        "solution_steps": [
+          "A regular n-sided polygon has rotational symmetry of order n",
+          "n=6 for a hexagon"
+        ],
+        "answer": "Order 6"
+      },
+      {
+        "problem": "Find the angle of rotation between each matching position for a shape with rotational symmetry of order 4.",
+        "solution_steps": [
+          "360\u00b0 \u00f7 order",
+          "360\u00f74"
+        ],
+        "answer": "90\u00b0"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the order of rotational symmetry of a square.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A shape has rotational symmetry of order 5. Find the angle between matching positions.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Order 4",
+      "72\u00b0 (360/5)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "An isosceles (non-equilateral) triangle \u2014 does it have rotational symmetry greater than order 1? Explain.",
+        "marks": 2,
+        "answer": "No \u2014 an isosceles triangle (that isn't equilateral) only matches its original position after a full 360\u00b0 rotation, so it has rotational symmetry of order 1, which effectively means it has NO rotational symmetry."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing rotational symmetry with line (reflective) symmetry",
+      "Forgetting that order 1 effectively means 'no rotational symmetry' (since every shape trivially matches itself after a full 360\u00b0 turn)"
+    ],
+    "tips": [
+      "For any regular polygon, the order of rotational symmetry always exactly matches its number of sides (n)."
+    ],
+    "summary": "Rotational symmetry means a shape matches itself after rotating less than 360\u00b0; the order counts how many times this occurs in a full turn.",
+    "quick_revision_notes": [
+      "Order = number of matches in 360\u00b0",
+      "Regular n-gon: order n",
+      "Angle between matches = 360\u00b0/order"
+    ],
+    "related_prerequisite_topics": [
+      "Symmetry",
+      "Regular Polygons",
+      "Rotation"
+    ],
+    "images": []
+  }
+]

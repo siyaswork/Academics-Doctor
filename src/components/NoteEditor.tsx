@@ -21,7 +21,7 @@ const isExtraBlock = (block: RichTextContent) => block.type === 'formula' || blo
  * Formula Library while mounted.
  */
 export const NoteEditor: React.FC<NoteEditorProps> = ({ note, hideExtraBlocks }) => {
-  const { updateNoteContent, appendBlock } = useNotes()
+  const { updateNoteContent, appendBlock, flushNoteSave } = useNotes()
   const { registerInsertHandler, registerBlockInsertHandler } = useCalculator()
 
   useEffect(() => {
@@ -53,7 +53,7 @@ export const NoteEditor: React.FC<NoteEditorProps> = ({ note, hideExtraBlocks })
 
   return (
     <div className={styles.editor}>
-      <RichTextEditor content={textBlocks} onChange={handleTextChange} />
+      <RichTextEditor content={textBlocks} onChange={handleTextChange} onBlurFlush={() => flushNoteSave(note.id)} />
       {!hideExtraBlocks && (
         <div className={styles.extraBlocks}>
           {extraBlocks.map((block, index) => (

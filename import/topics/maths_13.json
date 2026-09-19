@@ -1,0 +1,1510 @@
+[
+  {
+    "id": 304,
+    "category": "3D Geometry",
+    "topic": "Three-Dimensional Coordinates",
+    "explanation": "Three-dimensional coordinates extend the familiar (x,y) system into 3D space by adding a third axis, z, perpendicular to both x and y. A point in 3D space is described by an ordered triple (x, y, z), representing its position relative to three mutually perpendicular axes.",
+    "key_concepts": [
+      "A 3D point is written (x, y, z)",
+      "Three mutually perpendicular axes: x, y, and z",
+      "The origin is (0, 0, 0), where all three axes meet",
+      "Used to describe positions in 3D space, essential for 3D geometry and vectors"
+    ],
+    "definitions": [
+      {
+        "term": "3D Coordinate",
+        "definition": "An ordered triple (x, y, z) describing a point's position in three-dimensional space."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "3D distance formula",
+        "formula": "d = \u221a[(x\u2082-x\u2081)\u00b2 + (y\u2082-y\u2081)\u00b2 + (z\u2082-z\u2081)\u00b2]",
+        "notes": "Extension of the 2D distance formula"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the distance between the points (1,2,3) and (4,6,3) in 3D space.",
+        "solution_steps": [
+          "\u0394x=3, \u0394y=4, \u0394z=0",
+          "d = \u221a(3\u00b2+4\u00b2+0\u00b2) = \u221a(9+16+0) = \u221a25"
+        ],
+        "answer": "5"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "State the coordinates of the origin in 3D space.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the distance between (0,0,0) and (2,3,6).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "(0,0,0)",
+      "7 (\u221a(4+9+36)=\u221a49)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Find the distance between the points A(1,-2,4) and B(3,1,0).",
+        "marks": 3,
+        "answer": "d=\u221a[(3-1)\u00b2+(1-(-2))\u00b2+(0-4)\u00b2]=\u221a[4+9+16]=\u221a29 \u22485.39"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to include the z-coordinate difference in the distance formula",
+      "Confusing which axis is which when plotting a 3D point"
+    ],
+    "tips": [
+      "The 3D distance formula is a direct extension of the 2D version \u2014 just add the squared z-difference under the square root."
+    ],
+    "summary": "3D coordinates (x,y,z) describe positions in three-dimensional space using three perpendicular axes.",
+    "quick_revision_notes": [
+      "(x,y,z) coordinate",
+      "3D distance: \u221a[(\u0394x)\u00b2+(\u0394y)\u00b2+(\u0394z)\u00b2]"
+    ],
+    "related_prerequisite_topics": [
+      "Coordinates",
+      "Distance Between Points",
+      "Vectors in Three Dimensions"
+    ],
+    "images": [
+      {
+        "filename": "threedimensionalcoordinates-304-diagram.svg",
+        "type": "diagram",
+        "description": "A 3D axis system showing the x, y, and z axes with a point plotted and its coordinate projections shown as dashed lines.",
+        "purpose": "Shows how a point is located in 3D space using three coordinates.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "category": "3D Geometry",
+    "topic": "Nets of Solids",
+    "explanation": "A net is a two-dimensional pattern that can be folded to form a three-dimensional solid. Nets are useful for visualizing and calculating a solid's surface area, since each face of the net can be measured and summed using simple 2D area formulas.",
+    "key_concepts": [
+      "A net is the 'unfolded' flat version of a 3D solid",
+      "Folding a net exactly forms the corresponding 3D shape, with no gaps or overlaps",
+      "Different nets can sometimes fold into the same solid (e.g. multiple valid cube nets exist)",
+      "Used to calculate surface area systematically, face by face"
+    ],
+    "definitions": [
+      {
+        "term": "Net",
+        "definition": "A two-dimensional pattern that can be folded to form a three-dimensional solid."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A cube's net consists of 6 identical squares. If each square has side 4cm, find the cube's total surface area using the net.",
+        "solution_steps": [
+          "Area of one square = 4\u00b2=16",
+          "Total surface area = 6\u00d716"
+        ],
+        "answer": "96 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "How many faces are in the net of a cube?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A triangular prism's net consists of 2 triangles and 3 rectangles. Explain why this matches the prism's structure.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "6 (one for each face of the cube)",
+      "A triangular prism has 2 triangular end faces and 3 rectangular side faces connecting them, which is exactly what unfolds into the net."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A cylinder's net consists of 2 circles (radius 5cm) and a rectangle. If the cylinder's height is 12cm, find the dimensions of the rectangular part of the net.",
+        "marks": 3,
+        "answer": "The rectangle's width equals the circle's circumference: 2\u03c0\u00d75\u224831.4cm. Its height equals the cylinder's height: 12cm. So the rectangle is approximately 31.4cm \u00d7 12cm."
+      }
+    ],
+    "common_mistakes": [
+      "Missing a face when drawing or interpreting a net",
+      "Incorrectly matching net dimensions to the corresponding 3D solid's measurements"
+    ],
+    "tips": [
+      "When working with a cylinder's net, remember the rectangular (curved surface) part's width must exactly equal the circle's circumference for the net to fold correctly."
+    ],
+    "summary": "A net is the flat, unfolded pattern of a 3D solid, useful for visualizing and calculating surface area face by face.",
+    "quick_revision_notes": [
+      "Net = unfolded 3D solid",
+      "Sum face areas for surface area"
+    ],
+    "related_prerequisite_topics": [
+      "Surface Area",
+      "Faces, Edges and Vertices",
+      "Cross-Sections"
+    ],
+    "images": [
+      {
+        "filename": "netsofsolids-305-diagram.svg",
+        "type": "diagram",
+        "description": "A net of a cube shown as six connected squares in a cross-like pattern, ready to be folded.",
+        "purpose": "Shows a real example of a net that folds into a cube.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  },
+  {
+    "id": 306,
+    "category": "3D Geometry",
+    "topic": "Cross-Sections",
+    "explanation": "A cross-section is the two-dimensional shape formed when a three-dimensional solid is sliced through by a plane. The shape of the cross-section depends on both the solid and the angle/position of the slice, and understanding cross-sections is key to calculating a prism's volume.",
+    "key_concepts": [
+      "A cross-section is the 2D shape revealed by slicing through a solid",
+      "For a prism, the cross-section is CONSTANT along its length (this defines a prism)",
+      "The same solid can have different cross-sections depending on the angle of the cut",
+      "Essential for the prism volume formula (cross-sectional area \u00d7 length)"
+    ],
+    "definitions": [
+      {
+        "term": "Cross-Section",
+        "definition": "The two-dimensional shape formed when a solid is sliced through by a plane."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A cylinder is sliced horizontally (parallel to its circular base). What shape is the cross-section?",
+        "solution_steps": [
+          "Slicing parallel to the circular base reveals the same circular shape"
+        ],
+        "answer": "A circle"
+      },
+      {
+        "problem": "A cylinder is sliced vertically through its centre (perpendicular to its base). What shape is the cross-section?",
+        "solution_steps": [
+          "This slice reveals the full height and diameter of the cylinder"
+        ],
+        "answer": "A rectangle"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A cube is sliced parallel to one of its faces. What shape is the cross-section?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A cone is sliced parallel to its circular base. What shape is the cross-section?",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "A square",
+      "A (smaller) circle"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why a triangular prism's cross-section is always a triangle, regardless of where along its length it is sliced (as long as the slice is parallel to the triangular ends).",
+        "marks": 2,
+        "answer": "By definition, a prism has an identical, constant cross-sectional shape running the entire length of the solid. Since a triangular prism's defining cross-section is a triangle, any slice parallel to its triangular ends will reveal the same triangular shape."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming a cross-section is always the same shape regardless of the angle/direction of the cut",
+      "Confusing a cross-section with a net"
+    ],
+    "tips": [
+      "Always consider the ANGLE of the cut before determining a cross-section's shape \u2014 cutting parallel to a prism's cross-section reveals it directly, but a diagonal or perpendicular cut can reveal a completely different shape."
+    ],
+    "summary": "A cross-section is the 2D shape revealed by slicing a solid; prisms have a constant cross-section along their length.",
+    "quick_revision_notes": [
+      "2D shape from slicing a 3D solid",
+      "Constant for prisms along their length"
+    ],
+    "related_prerequisite_topics": [
+      "Prisms",
+      "Volume of Prisms",
+      "Nets of Solids"
+    ],
+    "images": []
+  },
+  {
+    "id": 307,
+    "category": "3D Geometry",
+    "topic": "Faces, Edges and Vertices",
+    "explanation": "Faces, edges, and vertices are the three basic structural components of a three-dimensional solid. A face is a flat (or curved) surface; an edge is a line where two faces meet; a vertex is a point where edges meet (a 'corner'). Counting these components helps classify and analyze solids.",
+    "key_concepts": [
+      "Face: a flat or curved surface of a solid",
+      "Edge: a line segment where two faces meet",
+      "Vertex (plural: vertices): a point where edges meet (a corner)",
+      "These counts are related by Euler's Formula"
+    ],
+    "definitions": [
+      {
+        "term": "Face",
+        "definition": "A flat or curved surface of a three-dimensional solid."
+      },
+      {
+        "term": "Edge",
+        "definition": "A line segment where two faces of a solid meet."
+      },
+      {
+        "term": "Vertex",
+        "definition": "A point where two or more edges of a solid meet (a corner)."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Count the faces, edges, and vertices of a cube.",
+        "solution_steps": [
+          "Faces: 6 (top, bottom, 4 sides)",
+          "Edges: 12 (4 on top, 4 on bottom, 4 vertical connectors)",
+          "Vertices: 8 (4 on top, 4 on bottom)"
+        ],
+        "answer": "6 faces, 12 edges, 8 vertices"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Count the faces, edges, and vertices of a triangular prism.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Count the faces, edges, and vertices of a square pyramid.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "5 faces (2 triangles, 3 rectangles), 9 edges, 6 vertices",
+      "5 faces (1 square, 4 triangles), 8 edges, 5 vertices"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A solid has 8 faces and 12 vertices. Using Euler's Formula, find the number of edges.",
+        "marks": 2,
+        "answer": "F+V=E+2 \u2192 8+12=E+2 \u2192 E=18"
+      }
+    ],
+    "common_mistakes": [
+      "Miscounting edges, especially on more complex solids",
+      "Confusing which structural element (face, edge, vertex) is being asked about"
+    ],
+    "tips": [
+      "For any solid with flat faces, systematically count one component at a time (all faces first, then all edges, then all vertices) rather than trying to count everything at once."
+    ],
+    "summary": "Faces (surfaces), edges (lines where faces meet), and vertices (corners) are the structural components of 3D solids, related by Euler's Formula.",
+    "quick_revision_notes": [
+      "Face: surface. Edge: line where 2 faces meet. Vertex: corner point."
+    ],
+    "related_prerequisite_topics": [
+      "Euler's Formula",
+      "Nets of Solids",
+      "Cubes"
+    ],
+    "images": []
+  },
+  {
+    "id": 308,
+    "category": "3D Geometry",
+    "topic": "Euler's Formula",
+    "explanation": "Euler's Formula for polyhedra states that for any solid with flat faces (a polyhedron) without holes, the number of faces plus the number of vertices always equals the number of edges plus 2: F + V = E + 2. This elegant relationship holds true across a huge variety of 3D solids.",
+    "key_concepts": [
+      "F + V = E + 2, where F=faces, V=vertices, E=edges",
+      "Applies to any simple (no holes) polyhedron with flat faces",
+      "Can be rearranged to find any one quantity if the other two are known",
+      "Does not apply to solids with curved surfaces (like spheres or cylinders) in this simple form"
+    ],
+    "definitions": [
+      {
+        "term": "Euler's Formula (for Polyhedra)",
+        "definition": "The relationship F + V = E + 2, connecting the number of faces, vertices, and edges of a simple polyhedron."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Euler's formula",
+        "formula": "F + V = E + 2",
+        "notes": "F=faces, V=vertices, E=edges"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A solid has 6 faces and 8 vertices. Find the number of edges using Euler's Formula.",
+        "solution_steps": [
+          "F+V=E+2",
+          "6+8=E+2",
+          "14=E+2",
+          "E=12"
+        ],
+        "answer": "12 edges (this describes a cube)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A solid has 5 faces and 6 vertices. Find the number of edges.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A solid has 20 faces and 30 edges. Find the number of vertices.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "9 (5+6=E+2, E=9)",
+      "12 (F+V=E+2, 20+V=32, V=12)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Verify Euler's Formula for a triangular prism, which has 5 faces, 9 edges, and 6 vertices.",
+        "marks": 2,
+        "answer": "F+V = 5+6 = 11. E+2 = 9+2 = 11. Since both sides equal 11, Euler's Formula is verified for the triangular prism."
+      }
+    ],
+    "common_mistakes": [
+      "Mixing up which quantity is being solved for when rearranging the formula",
+      "Applying the formula to solids with curved surfaces without appropriate caveats"
+    ],
+    "tips": [
+      "Euler's Formula is a great way to CHECK your face/edge/vertex counts for a solid \u2014 if they don't satisfy F+V=E+2, you've likely made a counting error."
+    ],
+    "summary": "Euler's Formula (F+V=E+2) relates the faces, vertices, and edges of any simple polyhedron.",
+    "quick_revision_notes": [
+      "F + V = E + 2"
+    ],
+    "related_prerequisite_topics": [
+      "Faces, Edges and Vertices"
+    ],
+    "images": []
+  },
+  {
+    "id": 309,
+    "category": "3D Geometry",
+    "topic": "Volume of Prisms",
+    "explanation": "This topic focuses specifically on applying the general prism volume formula (cross-sectional area \u00d7 length) to a variety of prism types, including triangular, trapezoidal, and other polygonal cross-sections, through targeted practice.",
+    "key_concepts": [
+      "Volume = cross-sectional area \u00d7 length",
+      "First calculate the 2D area of the cross-section using the appropriate shape formula",
+      "Then multiply by the prism's length (the dimension perpendicular to the cross-section)",
+      "Works for ANY prism shape, as long as the cross-section is correctly identified and calculated"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Volume of a prism",
+        "formula": "V = A \u00d7 l",
+        "notes": "A=cross-sectional area, l=length"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A prism has a trapezoidal cross-section with parallel sides 4cm and 8cm, height 5cm, and the prism's length is 20cm. Find the volume.",
+        "solution_steps": [
+          "Cross-sectional area = (1/2)(4+8)(5) = (1/2)(12)(5) = 30",
+          "Volume = 30 \u00d7 20"
+        ],
+        "answer": "600 cm\u00b3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A prism has a triangular cross-section with base 6cm, height 8cm, and length 15cm. Find the volume.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "A prism has volume 500cm\u00b3 and cross-sectional area 25cm\u00b2. Find its length.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "360 cm\u00b3 (cross-section=24, 24\u00d715)",
+      "20 cm (500\u00f725)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A swimming pool is shaped like a prism with a trapezoidal cross-section (depths 1m and 2m, horizontal length 25m) and a uniform width of 10m. Find the volume of water needed to fill the pool.",
+        "marks": 5,
+        "answer": "Cross-sectional area (the trapezoidal side profile) = (1/2)(1+2)(25) = 37.5 m\u00b2. Volume = 37.5 \u00d7 10 (pool width) = 375 m\u00b3"
+      }
+    ],
+    "common_mistakes": [
+      "Using the wrong 2D formula for the specific cross-sectional shape",
+      "Confusing which dimension is the prism's 'length' versus part of the cross-section"
+    ],
+    "tips": [
+      "Always sketch the cross-section separately and calculate its area FIRST, using the correct 2D formula, before multiplying by the prism's length."
+    ],
+    "summary": "The volume of any prism is found by multiplying its cross-sectional area by its length, applicable to any cross-section shape.",
+    "quick_revision_notes": [
+      "V = cross-sectional area \u00d7 length"
+    ],
+    "related_prerequisite_topics": [
+      "Prisms",
+      "Cross-Sections",
+      "Area of Trapeziums"
+    ],
+    "images": []
+  },
+  {
+    "id": 310,
+    "category": "3D Geometry",
+    "topic": "Volume of Cylinders",
+    "explanation": "This topic focuses specifically on applying the cylinder volume formula (V=\u03c0r\u00b2h) to a range of practical and exam-style problems, including working backward to find missing radius or height when volume is known.",
+    "key_concepts": [
+      "V = \u03c0r\u00b2h",
+      "If given the diameter, halve it first to find the radius",
+      "Can rearrange to find r or h if volume and the other dimension are known",
+      "Real-world applications: tanks, pipes, cans, and other cylindrical containers"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Volume of a cylinder",
+        "formula": "V = \u03c0r\u00b2h",
+        "notes": ""
+      },
+      {
+        "name": "Height from volume",
+        "formula": "h = V / (\u03c0r\u00b2)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A cylindrical can has volume 942cm\u00b3 and radius 5cm. Find its height, to 1 decimal place (use \u03c0\u22483.14159).",
+        "solution_steps": [
+          "h = V/(\u03c0r\u00b2) = 942/(3.14159\u00d725) = 942/78.54"
+        ],
+        "answer": "\u224812.0 cm"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A cylinder has radius 4cm and height 15cm. Find its volume, to 1 decimal place (use \u03c0\u22483.14159).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A cylindrical tank has volume 2,000cm\u00b3 and height 25cm. Find its radius, to 1 decimal place.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "754.0 cm\u00b3",
+      "\u22485.0 cm (r\u00b2=2000/(\u03c0\u00d725)\u224825.46, r\u22485.05)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A cylindrical water pipe has an internal diameter of 8cm and is 3m long. Find the volume of water it can hold, in litres, to 2 decimal places (1 litre=1000cm\u00b3, use \u03c0\u22483.14159).",
+        "marks": 4,
+        "answer": "radius=4cm, length=300cm. V=\u03c0\u00d716\u00d7300\u224815,079.6 cm\u00b3 \u224815.08 litres"
+      }
+    ],
+    "common_mistakes": [
+      "Using diameter instead of radius directly in the formula",
+      "Unit inconsistency (mixing cm and m without converting)"
+    ],
+    "tips": [
+      "Always convert all measurements to the SAME unit before calculating volume, especially in real-world problems mixing cm and m."
+    ],
+    "summary": "Applying V=\u03c0r\u00b2h to solve for cylinder volume, radius, or height in a variety of contexts.",
+    "quick_revision_notes": [
+      "V = \u03c0r\u00b2h",
+      "h = V/(\u03c0r\u00b2)"
+    ],
+    "related_prerequisite_topics": [
+      "Cylinders",
+      "Area of a Circle"
+    ],
+    "images": []
+  },
+  {
+    "id": 311,
+    "category": "3D Geometry",
+    "topic": "Volume of Pyramids",
+    "explanation": "This topic focuses specifically on applying the pyramid volume formula (V=\u2153\u00d7base area\u00d7height) across different base shapes, including triangular, square, and rectangular pyramids, through targeted practice and exam-style problems.",
+    "key_concepts": [
+      "V = (1/3) \u00d7 base area \u00d7 height",
+      "The base can be any polygon; calculate its area using the appropriate 2D formula",
+      "Height must be the PERPENDICULAR distance from the apex to the base",
+      "Often combined with Pythagorean theorem problems to find the height from a slant edge"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Volume of a pyramid",
+        "formula": "V = (1/3) \u00d7 base area \u00d7 height",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A pyramid has a rectangular base 6cm \u00d7 4cm and height 9cm. Find its volume.",
+        "solution_steps": [
+          "Base area = 6\u00d74 = 24",
+          "V = (1/3) \u00d7 24 \u00d7 9"
+        ],
+        "answer": "72 cm\u00b3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A pyramid has a triangular base with area 20cm\u00b2 and height 15cm. Find its volume.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A square pyramid has volume 150cm\u00b3 and base side 5cm. Find its height.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "100 cm\u00b3",
+      "18 cm (150 = (1/3)(25)h, so 450 = 25h, h = 18)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A square pyramid has a base side of 10cm and a slant edge (from apex to base corner) of 13cm. Find the pyramid's perpendicular height, then its volume.",
+        "marks": 5,
+        "answer": "Half-diagonal of base = (10\u221a2)/2 = 5\u221a2 \u22487.07cm. Using Pythagorean theorem: height\u00b2+7.07\u00b2=13\u00b2 \u2192 height\u00b2=169-50=119 \u2192 height\u224810.9cm. Volume=(1/3)(100)(10.9)\u2248363.3 cm\u00b3"
+      }
+    ],
+    "common_mistakes": [
+      "Using a slant edge or slant height instead of the true perpendicular height",
+      "Forgetting the \u2153 factor"
+    ],
+    "tips": [
+      "When only a slant edge is given, you'll usually need the Pythagorean theorem (using half the base diagonal) to first find the true perpendicular height."
+    ],
+    "summary": "Applying V=(1/3)\u00d7base area\u00d7height to solve pyramid volume problems across various base shapes.",
+    "quick_revision_notes": [
+      "V = (1/3) \u00d7 base area \u00d7 height"
+    ],
+    "related_prerequisite_topics": [
+      "Pyramids",
+      "Pythagorean Theorem",
+      "Area of Rectangles"
+    ],
+    "images": []
+  },
+  {
+    "id": 312,
+    "category": "3D Geometry",
+    "topic": "Volume of Cones",
+    "explanation": "This topic focuses specifically on applying the cone volume formula (V=\u2153\u03c0r\u00b2h) to practical and exam-style problems, including scenarios requiring the Pythagorean theorem to first find the height or radius from a given slant height.",
+    "key_concepts": [
+      "V = (1/3)\u03c0r\u00b2h",
+      "If given the slant height (l) instead of the perpendicular height (h), use l\u00b2=r\u00b2+h\u00b2 to find h first",
+      "Real-world applications: ice cream cones, funnels, traffic cones",
+      "Can rearrange to find r or h if volume and the other dimension are known"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Volume of a cone",
+        "formula": "V = (1/3)\u03c0r\u00b2h",
+        "notes": ""
+      },
+      {
+        "name": "Height from slant height",
+        "formula": "h = \u221a(l\u00b2 - r\u00b2)",
+        "notes": "l=slant height"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A cone has radius 6cm and slant height 10cm. Find its volume (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "Find height: h=\u221a(10\u00b2-6\u00b2)=\u221a(100-36)=\u221a64=8",
+          "V = (1/3) \u00d7 3.14 \u00d7 6\u00b2 \u00d7 8 = (1/3) \u00d7 3.14 \u00d7 36 \u00d7 8"
+        ],
+        "answer": "301.44 cm\u00b3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A cone has radius 3cm and height 10cm. Find its volume (use \u03c0\u22483.14).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A cone has radius 5cm and slant height 13cm. Find its volume (use \u03c0\u22483.14).",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "94.2 cm\u00b3",
+      "\u2248314 cm\u00b3 (h=\u221a(169-25)=12, V=(1/3)\u00d73.14\u00d725\u00d712=314)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A conical tent has a base radius of 3m and a slant height of 5m. Find the volume of air inside the tent, to 1 decimal place (use \u03c0\u22483.14159).",
+        "marks": 5,
+        "answer": "h=\u221a(25-9)=4m. V=(1/3)\u00d73.14159\u00d79\u00d74\u224837.7 m\u00b3"
+      }
+    ],
+    "common_mistakes": [
+      "Using the slant height directly in the volume formula instead of finding the perpendicular height first",
+      "Sign or arithmetic errors when applying the Pythagorean theorem to find height"
+    ],
+    "tips": [
+      "Whenever a cone problem gives you the slant height, that's a signal you'll likely need the Pythagorean theorem before you can use the volume formula."
+    ],
+    "summary": "Applying V=(1/3)\u03c0r\u00b2h to solve cone volume problems, often requiring the Pythagorean theorem to find the height from the slant height first.",
+    "quick_revision_notes": [
+      "V = (1/3)\u03c0r\u00b2h",
+      "h = \u221a(l\u00b2-r\u00b2)"
+    ],
+    "related_prerequisite_topics": [
+      "Cones",
+      "Pythagorean Theorem"
+    ],
+    "images": []
+  },
+  {
+    "id": 313,
+    "category": "3D Geometry",
+    "topic": "Volume of Spheres",
+    "explanation": "This topic focuses specifically on applying the sphere volume formula (V=(4/3)\u03c0r\u00b3) to practical and exam-style problems, including working backward to find the radius from a known volume, and problems involving hemispheres (half-spheres).",
+    "key_concepts": [
+      "V = (4/3)\u03c0r\u00b3",
+      "A hemisphere's volume is exactly half of the corresponding full sphere: V = (2/3)\u03c0r\u00b3",
+      "Working backward: r = \u221b[3V/(4\u03c0)]",
+      "Real-world applications: balls, planets, bubbles"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Volume of a sphere",
+        "formula": "V = (4/3)\u03c0r\u00b3",
+        "notes": ""
+      },
+      {
+        "name": "Volume of a hemisphere",
+        "formula": "V = (2/3)\u03c0r\u00b3",
+        "notes": "Half of a full sphere"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the volume of a sphere with radius 9cm, to 1 decimal place (use \u03c0\u22483.14159).",
+        "solution_steps": [
+          "V = (4/3) \u00d7 3.14159 \u00d7 9\u00b3 = (4/3) \u00d7 3.14159 \u00d7 729"
+        ],
+        "answer": "\u22483,053.6 cm\u00b3"
+      },
+      {
+        "problem": "A hemisphere has radius 6cm. Find its volume (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "V = (2/3) \u00d7 3.14 \u00d7 6\u00b3 = (2/3) \u00d7 3.14 \u00d7 216"
+        ],
+        "answer": "452.16 cm\u00b3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the volume of a sphere with radius 4cm (use \u03c0\u22483.14).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A sphere has volume 500cm\u00b3. Find its radius, to 1 decimal place (use \u03c0\u22483.14159).",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "\u2248267.9 cm\u00b3",
+      "\u22484.9 cm (r\u00b3=500\u00d73/(4\u00d73.14159)\u2248119.4, r\u22484.925)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A spherical scoop of ice cream has radius 3cm and is placed on top of a hemispherical bowl of the same radius. Find the total volume of ice cream in both the sphere and hemisphere combined, to 1 decimal place (use \u03c0\u22483.14159).",
+        "marks": 5,
+        "answer": "Sphere volume=(4/3)\u03c0(27)\u2248113.1 cm\u00b3. Hemisphere volume=(2/3)\u03c0(27)\u224856.5 cm\u00b3. Total\u2248169.6 cm\u00b3"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to halve the sphere formula for a hemisphere",
+      "Errors when taking the cube root to solve for radius from a known volume"
+    ],
+    "tips": [
+      "A hemisphere's volume formula is simply the sphere formula with the (4/3) changed to (2/3) \u2014 exactly half."
+    ],
+    "summary": "Applying V=(4/3)\u03c0r\u00b3 (or (2/3)\u03c0r\u00b3 for a hemisphere) to solve sphere volume problems.",
+    "quick_revision_notes": [
+      "V = (4/3)\u03c0r\u00b3 (sphere)",
+      "V = (2/3)\u03c0r\u00b3 (hemisphere)"
+    ],
+    "related_prerequisite_topics": [
+      "Spheres",
+      "Cones"
+    ],
+    "images": []
+  },
+  {
+    "id": 314,
+    "category": "3D Geometry",
+    "topic": "Surface Area of Prisms",
+    "explanation": "The surface area of a prism is found by adding together the areas of all its faces: the two identical cross-sectional end faces, plus the rectangular side faces connecting them. This is often calculated systematically using the prism's net.",
+    "key_concepts": [
+      "Surface area = 2 \u00d7 (cross-sectional area) + (perimeter of cross-section \u00d7 length)",
+      "The '2\u00d7 cross-sectional area' accounts for the two identical end faces",
+      "The 'perimeter \u00d7 length' accounts for all the rectangular side faces combined",
+      "Using a net helps ensure no face is missed or double-counted"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Surface area of a prism",
+        "formula": "SA = 2 \u00d7 (cross-sectional area) + (perimeter of cross-section) \u00d7 length",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A triangular prism has a triangular cross-section with area 12cm\u00b2 and perimeter 16cm. The prism's length is 10cm. Find its surface area.",
+        "solution_steps": [
+          "SA = 2\u00d712 + 16\u00d710",
+          "= 24 + 160"
+        ],
+        "answer": "184 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A prism has cross-sectional area 20cm\u00b2, cross-section perimeter 18cm, and length 12cm. Find its surface area.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Explain why the surface area formula for a prism includes '2\u00d7cross-sectional area'.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "256 cm\u00b2 (2\u00d720 + 18\u00d712 = 40+216)",
+      "A prism has TWO identical end faces (the cross-sections at each end), so their combined area is 2 times the area of a single cross-section."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A triangular prism has a right-angled triangular cross-section with legs 3cm and 4cm (hypotenuse 5cm), and a length of 15cm. Find its total surface area.",
+        "marks": 5,
+        "answer": "Cross-sectional area = 0.5\u00d73\u00d74=6. Perimeter = 3+4+5=12. SA = 2\u00d76 + 12\u00d715 = 12+180 = 192 cm\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to double the cross-sectional area (missing one of the two end faces)",
+      "Using the cross-section's AREA instead of its PERIMETER when calculating the side faces"
+    ],
+    "tips": [
+      "Break the calculation into two clear parts: the two end faces (2\u00d7area) and the side faces (perimeter\u00d7length) \u2014 never combine these into a single formula step mentally."
+    ],
+    "summary": "A prism's surface area is 2\u00d7(cross-sectional area) + (cross-section perimeter)\u00d7length, covering both end faces and all side faces.",
+    "quick_revision_notes": [
+      "SA = 2\u00d7(cross-section area) + (cross-section perimeter)\u00d7length"
+    ],
+    "related_prerequisite_topics": [
+      "Prisms",
+      "Surface Area",
+      "Nets of Solids"
+    ],
+    "images": []
+  },
+  {
+    "id": 315,
+    "category": "3D Geometry",
+    "topic": "Surface Area of Cylinders",
+    "explanation": "This topic focuses on applying the cylinder surface area formula (SA=2\u03c0r\u00b2+2\u03c0rh) to solve practical problems, including cases involving only the curved surface (no ends), such as a pipe open at both ends.",
+    "key_concepts": [
+      "Full surface area: SA = 2\u03c0r\u00b2 (two circular ends) + 2\u03c0rh (curved surface)",
+      "Curved surface area ONLY (open cylinder/pipe): SA = 2\u03c0rh",
+      "If given diameter, halve it first to find radius",
+      "Real-world applications: cans, pipes, tanks"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Total surface area of a cylinder",
+        "formula": "SA = 2\u03c0r\u00b2 + 2\u03c0rh",
+        "notes": ""
+      },
+      {
+        "name": "Curved surface area only",
+        "formula": "SA = 2\u03c0rh",
+        "notes": "For an open cylinder/pipe with no end caps"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the total surface area of a closed cylinder with radius 4cm and height 9cm (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "2\u03c0r\u00b2 = 2\u00d73.14\u00d716 = 100.48",
+          "2\u03c0rh = 2\u00d73.14\u00d74\u00d79 = 226.08",
+          "Total = 100.48+226.08"
+        ],
+        "answer": "326.56 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the curved surface area only of a cylinder with radius 3cm and height 10cm (use \u03c0\u22483.14).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A cylindrical pipe (open both ends) has radius 5cm and length 40cm. Find its curved surface area (use \u03c0\u22483.14).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "188.4 cm\u00b2",
+      "1,256 cm\u00b2"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A closed cylindrical tin has diameter 10cm and height 15cm. Find its total surface area, to 1 decimal place (use \u03c0\u22483.14159).",
+        "marks": 4,
+        "answer": "radius=5cm. 2\u03c0r\u00b2=2\u00d73.14159\u00d725\u2248157.1. 2\u03c0rh=2\u00d73.14159\u00d75\u00d715\u2248471.2. Total\u2248628.3 cm\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Including the end caps when the problem specifies an OPEN cylinder or pipe",
+      "Using diameter instead of radius in the formula"
+    ],
+    "tips": [
+      "Always check whether the cylinder is described as 'closed' (both ends) or 'open'/'a pipe' (no ends, or open on one/both ends) \u2014 this changes which formula to use."
+    ],
+    "summary": "Applying SA=2\u03c0r\u00b2+2\u03c0rh (or just 2\u03c0rh for open cylinders) to solve cylinder surface area problems.",
+    "quick_revision_notes": [
+      "Closed: SA=2\u03c0r\u00b2+2\u03c0rh",
+      "Open/pipe: SA=2\u03c0rh only"
+    ],
+    "related_prerequisite_topics": [
+      "Cylinders",
+      "Surface Area",
+      "Area of a Circle"
+    ],
+    "images": []
+  },
+  {
+    "id": 316,
+    "category": "3D Geometry",
+    "topic": "Surface Area of Pyramids",
+    "explanation": "The surface area of a pyramid is found by adding the base area to the areas of all the triangular side faces (called the lateral faces). For a regular pyramid (with a regular polygon base), all lateral faces are identical, simplifying the calculation using the slant height.",
+    "key_concepts": [
+      "Surface area = base area + sum of lateral (triangular) face areas",
+      "For a regular pyramid: lateral surface area = (1/2) \u00d7 perimeter of base \u00d7 slant height",
+      "The slant height is measured from the apex to the midpoint of a base edge (along a face), NOT the same as the pyramid's perpendicular height",
+      "Each triangular face's area can also be calculated individually if the pyramid isn't regular"
+    ],
+    "definitions": [
+      {
+        "term": "Slant Height (of a Pyramid)",
+        "definition": "The distance from the apex to the midpoint of a base edge, measured along a triangular face."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Surface area of a regular pyramid",
+        "formula": "SA = base area + (1/2) \u00d7 base perimeter \u00d7 slant height",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A square pyramid has a base side of 6cm and a slant height of 5cm. Find its total surface area.",
+        "solution_steps": [
+          "Base area = 6\u00b2 = 36",
+          "Base perimeter = 4\u00d76 = 24",
+          "Lateral surface area = (1/2)\u00d724\u00d75 = 60",
+          "Total surface area = 36+60"
+        ],
+        "answer": "96 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A square pyramid has base side 8cm and slant height 6cm. Find its total surface area.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Explain the difference between the slant height and the perpendicular height of a pyramid.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "160 cm\u00b2 (base=64, lateral=(1/2)(32)(6)=96, total=160)",
+      "The slant height runs along the surface of a triangular face, from the apex to the midpoint of a base edge. The perpendicular height runs straight down from the apex to the centre of the base, inside the pyramid."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A square pyramid has base side 10cm and perpendicular height 12cm. Find the slant height (using the base's half-side and the Pythagorean theorem), then find the total surface area.",
+        "marks": 5,
+        "answer": "Half base side=5. Slant height: l\u00b2=12\u00b2+5\u00b2=144+25=169, l=13cm. Base area=100. Lateral area=(1/2)(40)(13)=260. Total=100+260=360 cm\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing slant height with perpendicular height",
+      "Forgetting to add the base area to the lateral surface area (only calculating one part)"
+    ],
+    "tips": [
+      "If given the perpendicular height instead of slant height, use the Pythagorean theorem with HALF the base side (not the full side) as one leg, since the slant height connects to the midpoint of a base edge."
+    ],
+    "summary": "A pyramid's surface area is its base area plus the lateral (triangular face) area, using slant height for regular pyramids.",
+    "quick_revision_notes": [
+      "SA = base area + (1/2)(base perimeter)(slant height)"
+    ],
+    "related_prerequisite_topics": [
+      "Pyramids",
+      "Pythagorean Theorem",
+      "Surface Area"
+    ],
+    "images": []
+  },
+  {
+    "id": 317,
+    "category": "3D Geometry",
+    "topic": "Surface Area of Cones",
+    "explanation": "This topic focuses on applying the cone surface area formula (SA=\u03c0r\u00b2+\u03c0rl) to solve practical problems, including cases requiring the slant height to be calculated first from the radius and perpendicular height using the Pythagorean theorem.",
+    "key_concepts": [
+      "Total surface area: SA = \u03c0r\u00b2 (base) + \u03c0rl (curved surface)",
+      "Curved surface area only (open cone, like a party hat): SA = \u03c0rl",
+      "If only the perpendicular height is given, find l using l\u00b2=r\u00b2+h\u00b2 first",
+      "Real-world applications: traffic cones, party hats, ice cream cones"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Total surface area of a cone",
+        "formula": "SA = \u03c0r\u00b2 + \u03c0rl",
+        "notes": "l = slant height"
+      },
+      {
+        "name": "Curved surface area only",
+        "formula": "SA = \u03c0rl",
+        "notes": "For an open cone (no base)"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the total surface area of a cone with radius 5cm and slant height 13cm (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "\u03c0r\u00b2 = 3.14\u00d725 = 78.5",
+          "\u03c0rl = 3.14\u00d75\u00d713 = 204.1",
+          "Total = 78.5+204.1"
+        ],
+        "answer": "282.6 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the curved surface area only of a cone with radius 4cm and slant height 9cm (use \u03c0\u22483.14).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A cone has radius 6cm and perpendicular height 8cm. Find its total surface area, to 1 decimal place (use \u03c0\u22483.14159).",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "113.04 cm\u00b2",
+      "301.6 cm\u00b2 (l=\u221a(36+64)=10, \u03c0r\u00b2=113.1, \u03c0rl=188.5, total=301.6)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A party hat (open cone, no base) has radius 7cm and slant height 20cm. Find the amount of paper needed to make it, to the nearest cm\u00b2 (use \u03c0\u22483.14159).",
+        "marks": 3,
+        "answer": "SA = \u03c0rl = 3.14159\u00d77\u00d720 \u2248 439.8 cm\u00b2 \u2248 440 cm\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Including the base area for an OPEN cone (like a party hat, which has no base)",
+      "Using the perpendicular height instead of the slant height in the curved surface formula"
+    ],
+    "tips": [
+      "Real-world 'open' cones (party hats, filter cones) only need the curved surface formula (\u03c0rl) \u2014 always check if the problem implies a base is included or not."
+    ],
+    "summary": "Applying SA=\u03c0r\u00b2+\u03c0rl (or just \u03c0rl for open cones) to solve cone surface area problems, using slant height.",
+    "quick_revision_notes": [
+      "Closed: SA=\u03c0r\u00b2+\u03c0rl",
+      "Open: SA=\u03c0rl only"
+    ],
+    "related_prerequisite_topics": [
+      "Cones",
+      "Pythagorean Theorem",
+      "Surface Area"
+    ],
+    "images": []
+  },
+  {
+    "id": 318,
+    "category": "3D Geometry",
+    "topic": "Surface Area of Spheres",
+    "explanation": "This topic focuses on applying the sphere surface area formula (SA=4\u03c0r\u00b2) to practical and exam-style problems, including hemispheres, where the curved surface and the flat circular base must both be considered.",
+    "key_concepts": [
+      "Full sphere: SA = 4\u03c0r\u00b2",
+      "Hemisphere curved surface only: SA = 2\u03c0r\u00b2 (half of the full sphere's curved surface)",
+      "Hemisphere TOTAL surface area (curved + flat circular base): SA = 2\u03c0r\u00b2 + \u03c0r\u00b2 = 3\u03c0r\u00b2",
+      "Real-world applications: balls, domes, planets"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Surface area of a sphere",
+        "formula": "SA = 4\u03c0r\u00b2",
+        "notes": ""
+      },
+      {
+        "name": "Total surface area of a hemisphere",
+        "formula": "SA = 3\u03c0r\u00b2",
+        "notes": "Curved surface (2\u03c0r\u00b2) + flat circular base (\u03c0r\u00b2)"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the surface area of a sphere with radius 7cm (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "SA = 4 \u00d7 3.14 \u00d7 7\u00b2 = 4\u00d73.14\u00d749"
+        ],
+        "answer": "615.44 cm\u00b2"
+      },
+      {
+        "problem": "Find the total surface area of a solid hemisphere with radius 6cm (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "SA = 3 \u00d7 3.14 \u00d7 6\u00b2 = 3\u00d73.14\u00d736"
+        ],
+        "answer": "339.12 cm\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the surface area of a sphere with radius 10cm (use \u03c0\u22483.14).",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the curved surface area only (excluding the flat base) of a hemisphere with radius 5cm (use \u03c0\u22483.14).",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "1,256 cm\u00b2",
+      "157 cm\u00b2 (2\u00d73.14\u00d725)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A solid hemisphere-shaped dome has radius 8m. Find its total surface area (curved surface plus the flat circular base), to 1 decimal place (use \u03c0\u22483.14159).",
+        "marks": 4,
+        "answer": "SA = 3\u03c0(64) = 3\u00d73.14159\u00d764 \u2248 603.2 m\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to include the flat circular base for a SOLID hemisphere's total surface area",
+      "Using the sphere formula (4\u03c0r\u00b2) directly for a hemisphere without adjusting"
+    ],
+    "tips": [
+      "For a hemisphere, remember there are three possible answers depending on the question: curved surface only (2\u03c0r\u00b2), flat base only (\u03c0r\u00b2), or total (3\u03c0r\u00b2) \u2014 always identify which is being asked for."
+    ],
+    "summary": "Applying SA=4\u03c0r\u00b2 for spheres, or 3\u03c0r\u00b2 for a solid hemisphere's total surface area (curved + flat base).",
+    "quick_revision_notes": [
+      "Sphere: SA=4\u03c0r\u00b2",
+      "Hemisphere total: SA=3\u03c0r\u00b2"
+    ],
+    "related_prerequisite_topics": [
+      "Spheres",
+      "Surface Area",
+      "Area of a Circle"
+    ],
+    "images": []
+  },
+  {
+    "id": 319,
+    "category": "3D Geometry",
+    "topic": "Composite Solids",
+    "explanation": "A composite solid is a three-dimensional shape made up of two or more simpler solids combined, such as a cylinder topped with a cone (like an ice cream cone with a scoop), or a cuboid with a pyramid on top. Volume and surface area of composite solids are found by breaking them into their component parts.",
+    "key_concepts": [
+      "Split the composite solid into simpler, recognizable solids",
+      "For volume: calculate each component's volume separately, then add together",
+      "For surface area: be careful NOT to include internal 'joining' faces that aren't part of the outer surface",
+      "Common combinations: cylinder+cone, cuboid+pyramid, hemisphere+cylinder"
+    ],
+    "definitions": [
+      {
+        "term": "Composite Solid",
+        "definition": "A three-dimensional shape made up of two or more simpler solids combined together."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A solid consists of a cylinder (radius 4cm, height 10cm) topped with a cone (same radius, height 6cm). Find the total volume (use \u03c0\u22483.14).",
+        "solution_steps": [
+          "Cylinder volume: \u03c0\u00d74\u00b2\u00d710 = 3.14\u00d716\u00d710 = 502.4",
+          "Cone volume: (1/3)\u00d73.14\u00d716\u00d76 = 100.48",
+          "Total volume: 502.4+100.48"
+        ],
+        "answer": "602.88 cm\u00b3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A solid consists of a cube (side 5cm) topped with a square pyramid (same base, height 4cm). Find the total volume.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Explain why the surface area of a composite solid isn't simply the sum of the surface areas of its individual parts.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "158.33 cm\u00b3 (cube=125, pyramid=(1/3)(25)(4)=33.33, total=158.33)",
+      "When two solids are joined, the faces where they connect become INTERNAL and are no longer part of the outer surface \u2014 these joining faces must be subtracted from the sum of each solid's individual surface area."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A solid consists of a hemisphere (radius 5cm) attached to a cylinder (same radius, height 12cm). Find the total volume, to 1 decimal place (use \u03c0\u22483.14159).",
+        "marks": 5,
+        "answer": "Hemisphere volume = (2/3)\u03c0(125) \u2248 261.8 cm\u00b3. Cylinder volume = \u03c0(25)(12) \u2248 942.5 cm\u00b3. Total \u2248 1,204.3 cm\u00b3"
+      }
+    ],
+    "common_mistakes": [
+      "Including internal joining faces when calculating surface area (these aren't part of the visible outer surface)",
+      "Forgetting to correctly identify and separate the individual component solids"
+    ],
+    "tips": [
+      "For surface area of composite solids, always sketch the shape and mentally 'remove' any faces where two solids join internally, since these aren't part of the exposed surface."
+    ],
+    "summary": "Composite solids combine simpler shapes; their volumes add directly, but surface areas require care to exclude internal joining faces.",
+    "quick_revision_notes": [
+      "Volume: add component volumes directly",
+      "Surface area: exclude internal joining faces"
+    ],
+    "related_prerequisite_topics": [
+      "Volume",
+      "Surface Area",
+      "Cylinders",
+      "Cones"
+    ],
+    "images": []
+  },
+  {
+    "id": 320,
+    "category": "3D Geometry",
+    "topic": "Similar Solids",
+    "explanation": "Similar solids are three-dimensional shapes with the same shape but different sizes, where all corresponding lengths are in the same ratio (scale factor). Just as with 2D similar shapes, similar solids have special relationships for how their surface areas and volumes scale.",
+    "key_concepts": [
+      "Similar solids have the same shape, with all corresponding lengths in the same ratio (scale factor k)",
+      "Corresponding surface areas scale by k\u00b2 (the square of the linear scale factor)",
+      "Corresponding volumes scale by k\u00b3 (the cube of the linear scale factor)",
+      "This 'squared for area, cubed for volume' pattern extends the 2D similar shapes principle to 3D"
+    ],
+    "definitions": [
+      {
+        "term": "Similar Solids",
+        "definition": "Three-dimensional shapes with the same shape but different sizes, where all corresponding lengths share a common scale factor."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Surface area ratio",
+        "formula": "Area ratio = k\u00b2",
+        "notes": "k = linear scale factor"
+      },
+      {
+        "name": "Volume ratio",
+        "formula": "Volume ratio = k\u00b3",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Two similar cylinders have a linear scale factor of 3. If the smaller cylinder has a volume of 20cm\u00b3, find the larger cylinder's volume.",
+        "solution_steps": [
+          "Volume ratio = k\u00b3 = 3\u00b3 = 27",
+          "Larger volume = 20 \u00d7 27"
+        ],
+        "answer": "540 cm\u00b3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Two similar cubes have a linear scale factor of 2. If the smaller cube has surface area 24cm\u00b2, find the larger cube's surface area.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Two similar spheres have volumes 8cm\u00b3 and 64cm\u00b3. Find the linear scale factor between them.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "96 cm\u00b2 (24\u00d72\u00b2=24\u00d74)",
+      "2 (volume ratio=64/8=8=k\u00b3, so k=\u221b8=2)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Two similar cones have surface areas 50cm\u00b2 and 200cm\u00b2. Find the ratio of their volumes.",
+        "marks": 4,
+        "answer": "Area ratio=200/50=4=k\u00b2. k=2. Volume ratio=k\u00b3=8. So the volume ratio is 1:8"
+      }
+    ],
+    "common_mistakes": [
+      "Applying the linear scale factor directly to area or volume without squaring/cubing",
+      "Confusing which direction (larger to smaller, or smaller to larger) the scale factor applies"
+    ],
+    "tips": [
+      "Remember the pattern from 2D similar shapes extends directly: length uses k\u00b9, area uses k\u00b2, volume uses k\u00b3 \u2014 this never changes regardless of the solid's shape."
+    ],
+    "summary": "Similar solids scale linearly by factor k, with areas scaling by k\u00b2 and volumes scaling by k\u00b3.",
+    "quick_revision_notes": [
+      "Length ratio: k",
+      "Area ratio: k\u00b2",
+      "Volume ratio: k\u00b3"
+    ],
+    "related_prerequisite_topics": [
+      "Scale Factors in 3D",
+      "Similar Triangles",
+      "Scale Factors"
+    ],
+    "images": []
+  },
+  {
+    "id": 321,
+    "category": "3D Geometry",
+    "topic": "Scale Factors in 3D",
+    "explanation": "Scale factors in 3D describe how the linear dimensions, surface area, and volume of a solid change when it is enlarged or reduced. This extends the 2D scale factor concept, with surface area affected by the square of the scale factor and volume by its cube.",
+    "key_concepts": [
+      "Linear scale factor k: applies directly to lengths, heights, radii, etc.",
+      "Surface area scale factor: k\u00b2",
+      "Volume scale factor: k\u00b3",
+      "Working backward: given an area or volume ratio, take the square root or cube root (respectively) to find k"
+    ],
+    "definitions": [],
+    "formulas": [
+      {
+        "name": "Linear scale factor",
+        "formula": "k = corresponding length ratio",
+        "notes": ""
+      },
+      {
+        "name": "Finding k from volume ratio",
+        "formula": "k = \u221b(volume ratio)",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A model of a building is built at a scale factor of 1/50. If the real building's volume is 4,000,000 m\u00b3, find the model's volume in m\u00b3.",
+        "solution_steps": [
+          "Volume scale factor = (1/50)\u00b3 = 1/125,000",
+          "Model volume = 4,000,000 \u00d7 (1/125,000)"
+        ],
+        "answer": "32 m\u00b3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Two similar solids have a linear scale factor of 4. Find the surface area scale factor and volume scale factor.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Two similar solids have a volume ratio of 1:27. Find the linear scale factor between them.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Surface area factor: 16 (4\u00b2). Volume factor: 64 (4\u00b3)",
+      "1:3 (\u221b27=3)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A manufacturer makes two similar toy cars at different sizes, with a volume ratio of 8:125. Find the linear scale factor and the surface area ratio between them.",
+        "marks": 4,
+        "answer": "Linear scale factor: \u221b(125/8)=5/2=2.5. Surface area ratio: (2.5)\u00b2=6.25, i.e. 1:6.25 (or equivalently 16:100, i.e. 4:25 in simplest whole-number form)"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to take the appropriate root (square root for area, cube root for volume) when working backward to find k",
+      "Confusing which ratio (length, area, or volume) is being asked for or given"
+    ],
+    "tips": [
+      "When working backward from an area or volume ratio to find the linear scale factor, remember: \u221a(area ratio) for k, or \u221b(volume ratio) for k."
+    ],
+    "summary": "3D scale factors extend linearly (k) to area (k\u00b2) and volume (k\u00b3), usable forward or backward between similar solids.",
+    "quick_revision_notes": [
+      "Length: k. Area: k\u00b2. Volume: k\u00b3.",
+      "Reverse: k=\u221a(area ratio) or \u221b(volume ratio)"
+    ],
+    "related_prerequisite_topics": [
+      "Similar Solids",
+      "Scale Factors"
+    ],
+    "images": []
+  },
+  {
+    "id": 322,
+    "category": "3D Geometry",
+    "topic": "Density",
+    "explanation": "Density is a measure of how much mass is packed into a given volume of a substance, calculated as mass divided by volume. Density is a key property used to identify materials and solve problems involving mass, volume, and material composition.",
+    "key_concepts": [
+      "Density = Mass \u00f7 Volume",
+      "Common units: g/cm\u00b3 or kg/m\u00b3",
+      "Rearranged forms: Mass = Density \u00d7 Volume, Volume = Mass \u00f7 Density",
+      "Different materials have characteristic densities (e.g. water \u22481 g/cm\u00b3, gold \u224819.3 g/cm\u00b3)"
+    ],
+    "definitions": [
+      {
+        "term": "Density",
+        "definition": "A measure of mass per unit volume, calculated as mass divided by volume."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Density",
+        "formula": "Density = Mass / Volume",
+        "notes": ""
+      },
+      {
+        "name": "Mass from density",
+        "formula": "Mass = Density \u00d7 Volume",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A metal block has a mass of 540g and a volume of 60cm\u00b3. Find its density.",
+        "solution_steps": [
+          "Density = Mass/Volume = 540/60"
+        ],
+        "answer": "9 g/cm\u00b3"
+      },
+      {
+        "problem": "A material has density 2.5 g/cm\u00b3. Find the mass of 40cm\u00b3 of this material.",
+        "solution_steps": [
+          "Mass = Density \u00d7 Volume = 2.5\u00d740"
+        ],
+        "answer": "100 g"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "A liquid has mass 250g and volume 200cm\u00b3. Find its density.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "A material has density 8 g/cm\u00b3 and mass 400g. Find its volume.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "1.25 g/cm\u00b3",
+      "50 cm\u00b3 (400\u00f78)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A solid gold bar has dimensions 10cm \u00d7 5cm \u00d7 4cm, and gold has a density of 19.3 g/cm\u00b3. Find the mass of the bar, in kg, to 2 decimal places.",
+        "marks": 4,
+        "answer": "Volume = 10\u00d75\u00d74=200cm\u00b3. Mass = 19.3\u00d7200=3,860g = 3.86 kg"
+      }
+    ],
+    "common_mistakes": [
+      "Dividing mass and volume in the wrong order (should always be mass \u00f7 volume, not volume \u00f7 mass)",
+      "Forgetting to find the volume first when given only dimensions, before applying the density formula"
+    ],
+    "tips": [
+      "Whenever a density problem gives you dimensions instead of a direct volume, calculate the volume FIRST using the appropriate 3D formula, then apply the density formula."
+    ],
+    "summary": "Density measures mass per unit volume (Density=Mass/Volume), used to relate mass, volume, and material properties.",
+    "quick_revision_notes": [
+      "Density = Mass/Volume",
+      "Mass = Density \u00d7 Volume"
+    ],
+    "related_prerequisite_topics": [
+      "Volume",
+      "Rates",
+      "Cuboids"
+    ],
+    "images": []
+  },
+  {
+    "id": 323,
+    "category": "3D Geometry",
+    "topic": "Plans and Elevations",
+    "explanation": "Plans and elevations are standard 2D views used to represent a 3D solid from specific angles: the plan is the view from directly above, the front elevation is the view from the front, and the side elevation is the view from the side. These views are commonly used in architecture and engineering drawings.",
+    "key_concepts": [
+      "Plan: the view of a solid looking straight down from above",
+      "Front elevation: the view of a solid looking straight on from the front",
+      "Side elevation: the view of a solid looking straight on from the side",
+      "Together, these three views can fully describe the shape of many 3D solids"
+    ],
+    "definitions": [
+      {
+        "term": "Plan",
+        "definition": "The two-dimensional view of a solid seen from directly above."
+      },
+      {
+        "term": "Elevation",
+        "definition": "The two-dimensional view of a solid seen from the front or side."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Describe the plan view of a cylinder standing upright.",
+        "solution_steps": [
+          "Looking straight down at a cylinder reveals its circular cross-section"
+        ],
+        "answer": "A circle"
+      },
+      {
+        "problem": "Describe the front elevation of a cylinder lying on its side.",
+        "solution_steps": [
+          "Looking at a horizontal cylinder from the front reveals a rectangle (its length and diameter)"
+        ],
+        "answer": "A rectangle"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Describe the plan view of a cube.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Describe the front elevation of a triangular prism lying with its triangular ends facing left and right.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "A square",
+      "A rectangle (showing the prism's length and height)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A solid consists of a cuboid with a triangular prism roof on top (like a simple house shape). Describe the front elevation of this solid.",
+        "marks": 2,
+        "answer": "The front elevation would show a rectangle (the cuboid's front face) topped with a triangle (the prism roof's triangular end face) \u2014 resembling a simple house-shaped outline."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing which direction (plan, front, or side) is being asked for",
+      "Forgetting that hidden or internal edges might need to be shown as dashed lines in technical drawings"
+    ],
+    "tips": [
+      "Imagine physically standing in each position (directly above, directly in front, directly to the side) and picture exactly what outline you would see \u2014 this mental exercise makes plans and elevations much easier to sketch correctly."
+    ],
+    "summary": "Plans (from above) and elevations (from front/side) are standard 2D views used to represent and analyze 3D solids.",
+    "quick_revision_notes": [
+      "Plan: view from above",
+      "Front/side elevation: view from front/side"
+    ],
+    "related_prerequisite_topics": [
+      "Cross-Sections",
+      "Nets of Solids",
+      "Cuboids"
+    ],
+    "images": [
+      {
+        "filename": "plansandelevations-323-diagram.svg",
+        "type": "diagram",
+        "description": "Three side-by-side rectangles labelled Plan, Front Elevation, and Side Elevation, representing the standard views of a solid.",
+        "purpose": "Shows the layout convention for presenting plan and elevation views together.",
+        "placement": "After the Explanation section"
+      }
+    ]
+  }
+]

@@ -16,6 +16,7 @@
   --color-text-secondary: var(--color-slate);
   --color-surface: var(--color-paper);
   --color-surface-raised: #FFFFFF; /* small raised surfaces remain slightly distinct */
+  --color-bg: var(--color-paper);
   --color-bg-secondary: #F2F2F0;
   --color-primary: var(--color-ink-navy);
   --color-primary-strong: #000000;
@@ -23,6 +24,7 @@
   --color-border-subtle: rgba(226,224,219,0.8);
   --color-border-strong: rgba(89,89,89,0.18);
   --color-danger: #B3261E;           /* kept as a distinct error color — errors should still stand out */
+  --color-success: #1E7E34;
   --color-text-muted: rgba(26,26,26,0.7);
 
   /* Typography */
@@ -63,6 +65,36 @@
 
   /* Focus ring (muted teal) */
   --focus-ring: 0 0 0 3px rgba(47,111,98,0.18);
+}
+
+[data-theme='dark'],
+.dark {
+  --color-ink-navy: #E6E8EC;
+  --color-paper: #12141C;
+  --color-muted-teal: #E6E8EC;
+  --color-warm-amber: #B0B7C0;
+  --color-slate: #9DA4B0;
+  --color-soft-border: #2D3342;
+
+  --color-text-primary: #F0F2F5;
+  --color-text-secondary: #9DA4B0;
+  --color-surface: #12141C;
+  --color-surface-raised: #1A1D2A;
+  --color-bg: #12141C;
+  --color-bg-secondary: #222636;
+  --color-primary: #E6E8EC;
+  --color-primary-strong: #FFFFFF;
+  --color-border: #2D3342;
+  --color-border-subtle: rgba(255, 255, 255, 0.12);
+  --color-border-strong: rgba(255, 255, 255, 0.25);
+  --color-danger: #F2B8B5;
+  --color-success: #81C784;
+  --color-text-muted: rgba(240, 242, 245, 0.7);
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.6);
+  --focus-ring: 0 0 0 3px rgba(230, 232, 236, 0.25);
 }
 
 /* Base / box-sizing */

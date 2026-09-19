@@ -1,0 +1,3355 @@
+[
+  {
+    "id": 1,
+    "category": "Number & Arithmetic",
+    "topic": "Natural Numbers",
+    "explanation": "Natural numbers are the numbers we naturally use for counting: 1, 2, 3, 4, 5, and so on, continuing forever. Some definitions include 0 as a natural number and some do not \u2014 this varies by country and textbook, so always check the convention being used. Natural numbers are the most basic building block of the number system: every other type of number (integers, rationals, reals) is built by extending the natural numbers.",
+    "key_concepts": [
+      "Natural numbers are positive whole numbers used for counting",
+      "The set is infinite \u2014 there is no largest natural number",
+      "Whether 0 is included depends on convention (0 is included in the 'whole numbers' definition either way)",
+      "Natural numbers are closed under addition and multiplication (adding or multiplying two natural numbers always gives a natural number)",
+      "Natural numbers are NOT closed under subtraction or division (e.g. 3 - 5 is not a natural number)"
+    ],
+    "definitions": [
+      {
+        "term": "Natural Numbers",
+        "definition": "The counting numbers 1, 2, 3, 4, ... (sometimes including 0), denoted by the symbol \u2115."
+      },
+      {
+        "term": "Closure",
+        "definition": "A set is 'closed' under an operation if performing that operation on members of the set always produces another member of the set."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "State whether the following are natural numbers: 7, -3, 0.5, 12, 0",
+        "solution_steps": [
+          "7 is a positive whole number \u2192 natural number",
+          "-3 is negative \u2192 not a natural number",
+          "0.5 is not a whole number \u2192 not a natural number",
+          "12 is a positive whole number \u2192 natural number",
+          "0 \u2192 depends on the convention used (include a note on which convention your syllabus uses)"
+        ],
+        "answer": "Natural numbers: 7, 12 (and 0 if your convention includes it)"
+      },
+      {
+        "problem": "Is the set of natural numbers closed under subtraction? Give an example to justify your answer.",
+        "solution_steps": [
+          "Take two natural numbers, e.g. 4 and 9",
+          "Compute 4 - 9 = -5",
+          "-5 is not a natural number"
+        ],
+        "answer": "No \u2014 natural numbers are not closed under subtraction, since the result can be negative."
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "List the first five natural numbers.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Is 100 a natural number? Is -100?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Give an example showing natural numbers are not closed under division.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "1, 2, 3, 4, 5",
+      "100 is a natural number; -100 is not (it is negative).",
+      "e.g. 3 \u00f7 5 = 0.6, which is not a natural number."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain, with an example, why the natural numbers are not closed under subtraction.",
+        "marks": 2,
+        "answer": "Closure means an operation on two members of a set stays within the set. e.g. 2 - 5 = -3, which is not a natural number, so the set is not closed under subtraction."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming 0 is always included \u2014 always check the definition being used in your course",
+      "Confusing natural numbers with integers (integers also include negative whole numbers)",
+      "Thinking natural numbers include fractions or decimals"
+    ],
+    "tips": [
+      "When a question says 'natural number', check your syllabus's convention on 0 first",
+      "Natural numbers are a subset of whole numbers, which are a subset of integers, which are a subset of rational numbers, which are a subset of real numbers"
+    ],
+    "summary": "Natural numbers are the positive counting numbers 1, 2, 3, ... (sometimes including 0). They are closed under addition and multiplication but not subtraction or division.",
+    "quick_revision_notes": [
+      "\u2115 = {1, 2, 3, 4, ...} (or {0, 1, 2, 3, ...} depending on convention)",
+      "Closed under: + and \u00d7",
+      "Not closed under: \u2212 and \u00f7"
+    ],
+    "related_prerequisite_topics": [
+      "Whole Numbers",
+      "Integers",
+      "Place Value"
+    ],
+    "images": [
+      {
+        "filename": "naturals-01-numberline.svg",
+        "type": "diagram",
+        "description": "A number line from 0 to 10 with natural numbers marked as dots, showing the set extending infinitely to the right with an arrow.",
+        "purpose": "Shows that natural numbers start at 1 and extend infinitely in one direction.",
+        "placement": "After the Explanation section, before Key Concepts"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Number & Arithmetic",
+    "topic": "Whole Numbers",
+    "explanation": "Whole numbers are the natural numbers together with 0: 0, 1, 2, 3, 4, and so on. They have no fractional or decimal parts and are never negative. Whole numbers are used for counting quantities that can legitimately be zero (e.g. the number of pets someone owns).",
+    "key_concepts": [
+      "Whole numbers = {0, 1, 2, 3, 4, ...}",
+      "No negative numbers, no fractions, no decimals",
+      "Every natural number is a whole number, but 0 is a whole number that may not be a natural number (depending on convention)",
+      "Closed under addition and multiplication, not under subtraction or division"
+    ],
+    "definitions": [
+      {
+        "term": "Whole Numbers",
+        "definition": "The set {0, 1, 2, 3, 4, ...} \u2014 all non-negative integers."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Which of these are whole numbers? -4, 0, 3.5, 9, 100",
+        "solution_steps": [
+          "-4 is negative \u2192 not a whole number",
+          "0 \u2192 whole number",
+          "3.5 has a decimal part \u2192 not a whole number",
+          "9 \u2192 whole number",
+          "100 \u2192 whole number"
+        ],
+        "answer": "0, 9, 100"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is -1 a whole number? Explain.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Write down all whole numbers between -3 and 4.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "No \u2014 whole numbers cannot be negative.",
+      "0, 1, 2, 3"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "State the difference between the set of natural numbers and the set of whole numbers.",
+        "marks": 1,
+        "answer": "Whole numbers include 0 as well as all the natural numbers (the difference depends on whether the natural numbers convention used includes 0)."
+      }
+    ],
+    "common_mistakes": [
+      "Thinking whole numbers can be negative",
+      "Confusing 'whole number' with 'integer' (integers include negatives too)"
+    ],
+    "tips": [
+      "Remember: whole numbers start at 0 and only go up (no negatives, no decimals)."
+    ],
+    "summary": "Whole numbers are 0, 1, 2, 3, ... \u2014 non-negative numbers with no fractional part.",
+    "quick_revision_notes": [
+      "Whole numbers = Natural numbers \u222a {0}",
+      "No negatives, no decimals/fractions"
+    ],
+    "related_prerequisite_topics": [
+      "Natural Numbers",
+      "Integers"
+    ],
+    "images": []
+  },
+  {
+    "id": 3,
+    "category": "Number & Arithmetic",
+    "topic": "Integers",
+    "explanation": "Integers are all whole numbers, both positive and negative, including zero: ..., -3, -2, -1, 0, 1, 2, 3, .... Unlike whole numbers, integers allow negative values, which makes them closed under subtraction as well as addition and multiplication. Integers are used to represent quantities that can go below zero, such as temperature or bank balance.",
+    "key_concepts": [
+      "Integers = {..., -3, -2, -1, 0, 1, 2, 3, ...}, denoted \u2124",
+      "Include positive whole numbers, negative whole numbers, and zero",
+      "Closed under addition, subtraction, and multiplication",
+      "NOT closed under division (e.g. 3 \u00f7 4 is not an integer)"
+    ],
+    "definitions": [
+      {
+        "term": "Integer",
+        "definition": "Any whole number, positive, negative, or zero, with no fractional or decimal part."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Evaluate -8 + 3 - (-5)",
+        "solution_steps": [
+          "-8 + 3 = -5",
+          "Subtracting a negative is the same as adding: -5 - (-5) = -5 + 5",
+          "-5 + 5 = 0"
+        ],
+        "answer": "0"
+      },
+      {
+        "problem": "Is the set of integers closed under division? Justify with an example.",
+        "solution_steps": [
+          "Take two integers, e.g. 5 and 2",
+          "5 \u00f7 2 = 2.5",
+          "2.5 is not an integer"
+        ],
+        "answer": "No, integers are not closed under division."
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Evaluate: -6 - (-9)",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Order these integers from smallest to largest: -5, 3, -1, 0, -8",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Evaluate: (-4) \u00d7 (-3) + 7",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "3",
+      "-8, -5, -1, 0, 3",
+      "19"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Show, using an example, that the integers are closed under subtraction but not under division.",
+        "marks": 3,
+        "answer": "Subtraction: e.g. 4 - 9 = -5, which is an integer, so closed. Division: e.g. 5 \u00f7 2 = 2.5, which is not an integer, so not closed."
+      }
+    ],
+    "common_mistakes": [
+      "Sign errors when subtracting a negative number (forgetting two negatives make a positive)",
+      "Assuming integers include fractions",
+      "Miscounting when ordering negative numbers (e.g. thinking -8 > -5)"
+    ],
+    "tips": [
+      "On a number line, numbers further right are always larger, even when negative",
+      "Subtracting a negative = adding a positive"
+    ],
+    "summary": "Integers are all positive and negative whole numbers plus zero. They are closed under +, -, and \u00d7 but not \u00f7.",
+    "quick_revision_notes": [
+      "\u2124 = {..., -2, -1, 0, 1, 2, ...}",
+      "Closed under +, \u2212, \u00d7; not closed under \u00f7"
+    ],
+    "related_prerequisite_topics": [
+      "Whole Numbers",
+      "Positive Numbers",
+      "Negative Numbers",
+      "Number Lines"
+    ],
+    "images": [
+      {
+        "filename": "integers-03-numberline.svg",
+        "type": "diagram",
+        "description": "A number line from -10 to 10 showing integers marked at every unit, with arrows at both ends.",
+        "purpose": "Shows integers as whole numbers extending in both directions from 0, including negatives.",
+        "placement": "After the Explanation section, before Key Concepts"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Number & Arithmetic",
+    "topic": "Rational Numbers",
+    "explanation": "A rational number is any number that can be written as a fraction a/b, where a and b are integers and b is not zero. This includes all integers (since e.g. 5 = 5/1), all terminating decimals (e.g. 0.75 = 3/4), and all recurring decimals (e.g. 0.333... = 1/3). Rational numbers are 'ratio-nal' because they are ratios of two integers.",
+    "key_concepts": [
+      "Rational numbers can be written as a/b with a, b integers and b \u2260 0",
+      "All integers are rational (denominator of 1)",
+      "All terminating and recurring decimals are rational",
+      "Denoted by the symbol \u211a",
+      "Closed under addition, subtraction, multiplication, and division (except dividing by zero)"
+    ],
+    "definitions": [
+      {
+        "term": "Rational Number",
+        "definition": "A number that can be expressed as a fraction a/b where a and b are integers and b \u2260 0."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Show that 0.6 is a rational number.",
+        "solution_steps": [
+          "0.6 = 6/10",
+          "Simplify: 6/10 = 3/5",
+          "3 and 5 are both integers, and the denominator is not zero"
+        ],
+        "answer": "0.6 = 3/5, which is a ratio of two integers, so it is rational."
+      },
+      {
+        "problem": "Express the recurring decimal 0.777... as a fraction.",
+        "solution_steps": [
+          "Let x = 0.777...",
+          "Then 10x = 7.777...",
+          "Subtract: 10x - x = 7.777... - 0.777...",
+          "9x = 7",
+          "x = 7/9"
+        ],
+        "answer": "7/9"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is -3 a rational number? Explain.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Write 0.125 as a fraction in simplest form.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Convert the recurring decimal 0.454545... into a fraction.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "Yes, because -3 = -3/1, a ratio of two integers.",
+      "1/8",
+      "5/11"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Prove that 0.181818... is a rational number by expressing it as a fraction.",
+        "marks": 3,
+        "answer": "Let x = 0.181818..., then 100x = 18.181818.... Subtracting: 100x - x = 18, so 99x = 18, x = 18/99 = 2/11."
+      }
+    ],
+    "common_mistakes": [
+      "Thinking recurring decimals are irrational (they are actually rational)",
+      "Forgetting to simplify the fraction fully",
+      "Sign errors when subtracting equations in the recurring-decimal-to-fraction method"
+    ],
+    "tips": [
+      "Any decimal that terminates or repeats in a pattern is rational",
+      "Use the 'multiply and subtract' method to convert any recurring decimal to a fraction"
+    ],
+    "summary": "Rational numbers are numbers expressible as a fraction of two integers. This includes integers, terminating decimals, and recurring decimals.",
+    "quick_revision_notes": [
+      "\u211a = {a/b : a, b \u2208 \u2124, b \u2260 0}",
+      "Recurring & terminating decimals ARE rational"
+    ],
+    "related_prerequisite_topics": [
+      "Integers",
+      "Proper Fractions",
+      "Terminating Decimals",
+      "Recurring Decimals"
+    ],
+    "images": []
+  },
+  {
+    "id": 5,
+    "category": "Number & Arithmetic",
+    "topic": "Irrational Numbers",
+    "explanation": "An irrational number cannot be written as a fraction of two integers. Its decimal expansion goes on forever without repeating in any pattern. Famous examples include \u03c0 (pi), \u221a2, and e. Irrational numbers 'fill in the gaps' left by the rational numbers on the number line, and together the rationals and irrationals make up the real numbers.",
+    "key_concepts": [
+      "Cannot be expressed as a/b for integers a, b",
+      "Decimal expansion is infinite and non-repeating",
+      "Common examples: \u03c0, e, \u221a2, \u221a3, the golden ratio \u03c6",
+      "The square root of any non-perfect-square positive integer is irrational",
+      "Rational + Irrational = Irrational; Irrational \u00d7 non-zero rational = Irrational"
+    ],
+    "definitions": [
+      {
+        "term": "Irrational Number",
+        "definition": "A real number that cannot be written as a ratio of two integers; its decimal expansion is infinite and non-repeating."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Is \u221a9 rational or irrational?",
+        "solution_steps": [
+          "\u221a9 = 3",
+          "3 can be written as 3/1"
+        ],
+        "answer": "Rational (because 9 is a perfect square, its root is a whole number)"
+      },
+      {
+        "problem": "Is \u221a7 rational or irrational?",
+        "solution_steps": [
+          "7 is not a perfect square (no integer squared gives 7)",
+          "Therefore \u221a7 cannot be simplified to a whole number or exact fraction",
+          "Its decimal expansion (2.6457513...) never terminates or repeats"
+        ],
+        "answer": "Irrational"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Classify as rational or irrational: \u221a16, \u221a20, 0.101101110...",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Is \u03c0 + 1 rational or irrational? Explain briefly.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "\u221a16 = 4 \u2192 rational; \u221a20 \u2192 irrational (20 is not a perfect square); 0.101101110... \u2192 irrational (non-repeating, non-terminating pattern)",
+      "Irrational \u2014 adding a rational number (1) to an irrational number (\u03c0) always gives an irrational result."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why \u221a2 is irrational, using the fact that no perfect square equals 2.",
+        "marks": 2,
+        "answer": "A number's square root is rational only if the number is a perfect square (i.e. a square of an integer). Since no integer squared equals 2, \u221a2 cannot be written as a ratio of two integers, so it is irrational."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming all square roots are irrational (roots of perfect squares are rational)",
+      "Thinking a long decimal is automatically irrational \u2014 it must be non-repeating, not just long",
+      "Believing \u03c0 = 22/7 exactly (22/7 is only an approximation)"
+    ],
+    "tips": [
+      "Check if a number under a square root is a perfect square first \u2014 if yes, it simplifies to a rational number",
+      "\u03c0 and e are the two most common irrational constants in exams"
+    ],
+    "summary": "Irrational numbers cannot be written as fractions; their decimals never terminate or repeat. Examples: \u03c0, e, \u221a2.",
+    "quick_revision_notes": [
+      "Irrational = not expressible as a/b",
+      "\u221an is irrational unless n is a perfect square",
+      "\u03c0, e are irrational"
+    ],
+    "related_prerequisite_topics": [
+      "Rational Numbers",
+      "Square Numbers",
+      "Real Numbers"
+    ],
+    "images": []
+  },
+  {
+    "id": 6,
+    "category": "Number & Arithmetic",
+    "topic": "Real Numbers",
+    "explanation": "Real numbers include every number that can be placed on a number line \u2014 all rational numbers (integers, fractions, terminating and recurring decimals) together with all irrational numbers (like \u03c0 and \u221a2). The only common numbers not included in the real numbers are complex numbers involving \u221a(-1).",
+    "key_concepts": [
+      "Real numbers = Rational numbers \u222a Irrational numbers",
+      "Denoted by the symbol \u211d",
+      "Every point on a standard number line represents exactly one real number",
+      "Closed under addition, subtraction, multiplication, and division (except division by zero)",
+      "Complex numbers (involving i = \u221a-1) are NOT real numbers"
+    ],
+    "definitions": [
+      {
+        "term": "Real Number",
+        "definition": "Any number that is either rational or irrational; equivalently, any number that can be represented as a point on the number line."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Classify each of the following as rational, irrational, or not real: 5, \u221a2, -3/4, \u221a-9, 0.3333...",
+        "solution_steps": [
+          "5 \u2192 rational (and real)",
+          "\u221a2 \u2192 irrational (and real)",
+          "-3/4 \u2192 rational (and real)",
+          "\u221a-9 \u2192 involves the square root of a negative number \u2192 not real (it is a complex number, 3i)",
+          "0.3333... \u2192 recurring decimal \u2192 rational (and real)"
+        ],
+        "answer": "Rational: 5, -3/4, 0.3333...; Irrational: \u221a2; Not real: \u221a-9"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is 0 a real number?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Give one example each of a rational and an irrational real number between 3 and 4.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Yes \u2014 0 is both rational and real.",
+      "e.g. rational: 3.5; irrational: \u221a11 (\u2248 3.317)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Place the following in a Venn diagram with circles for Rational and Irrational numbers, all inside a rectangle labelled Real Numbers: 7, \u221a5, -2/3, \u03c0, 0.25",
+        "marks": 3,
+        "answer": "Rational circle: 7, -2/3, 0.25. Irrational circle: \u221a5, \u03c0. All five sit inside the Real Numbers rectangle."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting that irrational numbers are still real numbers",
+      "Thinking negative numbers are not real",
+      "Confusing 'real number' with 'rational number'"
+    ],
+    "tips": [
+      "If you can plot it on a normal number line, it's a real number \u2014 including negatives, fractions, and irrationals."
+    ],
+    "summary": "Real numbers are all rational and irrational numbers combined \u2014 every number on the standard number line, excluding complex numbers.",
+    "quick_revision_notes": [
+      "\u211d = \u211a \u222a (irrationals)",
+      "Every point on the number line is a real number",
+      "\u221a(negative) is not real"
+    ],
+    "related_prerequisite_topics": [
+      "Rational Numbers",
+      "Irrational Numbers",
+      "Number Lines"
+    ],
+    "images": [
+      {
+        "filename": "realnumbers-06-venn.svg",
+        "type": "concept_map",
+        "description": "Nested set diagram: Natural \u2282 Whole \u2282 Integers \u2282 Rational \u2282 Real, with Irrational shown as a separate piece of Real not overlapping Rational.",
+        "purpose": "Shows that the real numbers are made up of the rational and irrational numbers combined.",
+        "placement": "After the Explanation section, before Key Concepts"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Number & Arithmetic",
+    "topic": "Complex Numbers",
+    "explanation": "A complex number is a number of the form a + bi, where a and b are real numbers and i is the imaginary unit, defined by i\u00b2 = -1. The real numbers are a special case of complex numbers where b = 0. Complex numbers let us solve equations that have no real solutions, such as x\u00b2 = -1, and are essential in advanced algebra, engineering, and physics.",
+    "key_concepts": [
+      "A complex number has the form a + bi (a = real part, b = imaginary part)",
+      "i is defined by i\u00b2 = -1, so i = \u221a-1",
+      "Every real number is a complex number with b = 0",
+      "Complex numbers are added, subtracted, and multiplied like binomials, using i\u00b2 = -1 to simplify",
+      "Full operations and geometry of complex numbers are covered in the dedicated Complex Numbers category (Argand diagrams, modulus/argument, polar form, De Moivre's Theorem)"
+    ],
+    "definitions": [
+      {
+        "term": "Imaginary Unit",
+        "definition": "The number i, defined so that i\u00b2 = -1."
+      },
+      {
+        "term": "Complex Number",
+        "definition": "A number of the form a + bi, where a, b \u2208 \u211d; a is the real part, b is the imaginary part."
+      },
+      {
+        "term": "Purely Imaginary Number",
+        "definition": "A complex number where the real part a = 0, e.g. 5i."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Definition of i",
+        "formula": "i\u00b2 = -1",
+        "notes": "The foundation of all complex number arithmetic."
+      },
+      {
+        "name": "Addition",
+        "formula": "(a+bi) + (c+di) = (a+c) + (b+d)i",
+        "notes": "Add real parts and imaginary parts separately."
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Simplify \u221a-16",
+        "solution_steps": [
+          "\u221a-16 = \u221a(16 \u00d7 -1) = \u221a16 \u00d7 \u221a-1",
+          "\u221a16 = 4, and \u221a-1 = i",
+          "So \u221a-16 = 4i"
+        ],
+        "answer": "4i"
+      },
+      {
+        "problem": "Simplify (3 + 2i) + (1 - 5i)",
+        "solution_steps": [
+          "Add real parts: 3 + 1 = 4",
+          "Add imaginary parts: 2i + (-5i) = -3i"
+        ],
+        "answer": "4 - 3i"
+      },
+      {
+        "problem": "Simplify (2 + i)(3 - i)",
+        "solution_steps": [
+          "Expand like a binomial: 2(3) + 2(-i) + i(3) + i(-i)",
+          "= 6 - 2i + 3i - i\u00b2",
+          "Since i\u00b2 = -1: = 6 - 2i + 3i + 1",
+          "Combine: 7 + i"
+        ],
+        "answer": "7 + i"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Simplify \u221a-25",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Simplify (4 - 3i) - (1 + 2i)",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Simplify (1 + i)\u00b2",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "5i",
+      "3 - 5i",
+      "2i (since (1+i)\u00b2 = 1 + 2i + i\u00b2 = 1 + 2i - 1 = 2i)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve x\u00b2 + 9 = 0, giving your answer in the form bi.",
+        "marks": 2,
+        "answer": "x\u00b2 = -9, so x = \u00b1\u221a-9 = \u00b13i"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting that i\u00b2 = -1 when expanding brackets",
+      "Treating i like an ordinary variable and forgetting to simplify i\u00b2",
+      "Sign errors when subtracting complex numbers"
+    ],
+    "tips": [
+      "Complex number arithmetic works just like algebra with a variable \u2014 just remember to replace i\u00b2 with -1 wherever it appears."
+    ],
+    "summary": "Complex numbers extend the real numbers with i = \u221a-1, allowing equations like x\u00b2 = -1 to be solved. They take the form a + bi and combine using standard algebraic rules with i\u00b2 = -1.",
+    "quick_revision_notes": [
+      "a + bi form",
+      "i\u00b2 = -1",
+      "Real numbers are complex numbers with b = 0"
+    ],
+    "related_prerequisite_topics": [
+      "Real Numbers",
+      "Algebraic Expressions",
+      "Quadratic Formula"
+    ],
+    "images": []
+  },
+  {
+    "id": 8,
+    "category": "Number & Arithmetic",
+    "topic": "Number Lines",
+    "explanation": "A number line is a straight line on which every point represents a real number, with numbers increasing from left to right. Number lines are a fundamental visual tool for comparing numbers, understanding order, performing addition/subtraction, and representing inequalities.",
+    "key_concepts": [
+      "Numbers increase from left to right",
+      "Zero is the reference point separating positive and negative numbers",
+      "Equal spacing represents equal differences between numbers",
+      "Used to compare, order, add, subtract, and represent inequalities/solution sets"
+    ],
+    "definitions": [
+      {
+        "term": "Number Line",
+        "definition": "A visual, straight-line representation of numbers in order, with equal spacing between consecutive integers."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Use a number line to work out -3 + 5",
+        "solution_steps": [
+          "Start at -3 on the number line",
+          "Move 5 units to the right (because we are adding a positive number)",
+          "Land on 2"
+        ],
+        "answer": "2"
+      },
+      {
+        "problem": "Represent the inequality x \u2265 -2 on a number line",
+        "solution_steps": [
+          "Draw a closed (filled) circle at -2, since -2 is included",
+          "Draw an arrow extending to the right, since x can be any value greater than or equal to -2"
+        ],
+        "answer": "Closed circle at -2 with an arrow extending right"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Use a number line to compute 4 - 7.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Represent x < 3 on a number line \u2014 describe the circle type and direction.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "-3 (start at 4, move 7 left)",
+      "Open circle at 3 (since 3 is not included), arrow pointing left"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Draw a number line to show all integers satisfying -3 < x \u2264 2.",
+        "marks": 2,
+        "answer": "Open circle at -3, closed circle at 2, with the segment between them marked."
+      }
+    ],
+    "common_mistakes": [
+      "Using an open circle for \u2264 or \u2265 (should be closed/filled)",
+      "Moving the wrong direction when adding or subtracting negative numbers",
+      "Uneven spacing between marked numbers, causing misreads"
+    ],
+    "tips": [
+      "Closed (filled) circle = 'or equal to' is included; open circle = strictly less/greater than, not included."
+    ],
+    "summary": "A number line visually orders real numbers left to right and is used for comparing values, performing arithmetic, and representing inequalities.",
+    "quick_revision_notes": [
+      "Left = smaller, right = larger",
+      "Closed circle = included (\u2264, \u2265); open circle = excluded (<, >)"
+    ],
+    "related_prerequisite_topics": [
+      "Integers",
+      "Positive Numbers",
+      "Negative Numbers",
+      "Comparing Numbers"
+    ],
+    "images": [
+      {
+        "filename": "numberlines-08-inequality.svg",
+        "type": "diagram",
+        "description": "A horizontal number line from -10 to 10 with tick marks at every integer, arrows on both ends, and 0 highlighted.",
+        "purpose": "Demonstrates how a closed circle and rightward arrow represent the inequality x \u2265 -2 on a number line.",
+        "placement": "After the Explanation section, before Key Concepts"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Number & Arithmetic",
+    "topic": "Place Value",
+    "explanation": "Place value is the value a digit holds based on its position within a number. In the base-10 system, each position represents a power of 10: units, tens, hundreds, thousands to the left of the decimal point, and tenths, hundredths, thousandths to the right. Understanding place value is essential for reading, writing, comparing, and performing arithmetic with numbers of any size.",
+    "key_concepts": [
+      "Each digit's value depends on its position (place) within the number",
+      "Moving one place left multiplies the value by 10; moving one place right divides by 10",
+      "The decimal point separates whole-number places from fractional places",
+      "Place value underlies all written arithmetic algorithms (column addition, long multiplication, etc.)"
+    ],
+    "definitions": [
+      {
+        "term": "Place Value",
+        "definition": "The value represented by a digit based on its position in a number, e.g. the '5' in 452 represents 5 tens (50)."
+      },
+      {
+        "term": "Face Value",
+        "definition": "The actual digit itself, regardless of position (e.g. the face value of '5' in 452 is just 5)."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Decimal place value",
+        "formula": "digit \u00d7 10^(position)",
+        "notes": "Position counts from the units place (10^0) increasing left, decreasing (negative powers) right of the decimal point."
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "State the place value of the digit 7 in the number 3,templates: 3,762.4",
+        "solution_steps": [
+          "Identify the position of the 7: it is the third digit from the left, in the 'hundreds' column",
+          "The place value is 7 \u00d7 100"
+        ],
+        "answer": "700 (seven hundreds)"
+      },
+      {
+        "problem": "Write 4.083 in expanded form using place value.",
+        "solution_steps": [
+          "4 is in the units place: 4 \u00d7 1 = 4",
+          "0 is in the tenths place: 0 \u00d7 0.1 = 0",
+          "8 is in the hundredths place: 8 \u00d7 0.01 = 0.08",
+          "3 is in the thousandths place: 3 \u00d7 0.001 = 0.003"
+        ],
+        "answer": "4 + 0.08 + 0.003"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "What is the place value of the digit 6 in 26,145?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Write 507.019 in expanded form.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "6,000 (six thousands)",
+      "500 + 7 + 0.01 + 0.009"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The number 3A5.2 has digit A in the tens place. If the value of A's place value contribution is 40, find A.",
+        "marks": 2,
+        "answer": "A \u00d7 10 = 40, so A = 4"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing face value with place value",
+      "Miscounting decimal places (tenths vs hundredths)",
+      "Errors when a number contains a zero placeholder"
+    ],
+    "tips": [
+      "Line up decimal points when comparing or adding numbers to keep place values aligned."
+    ],
+    "summary": "Place value is the value a digit represents based on its position; it's the foundation for reading, comparing, and calculating with numbers.",
+    "quick_revision_notes": [
+      "Each place = a power of 10",
+      "Left of decimal: units, tens, hundreds...",
+      "Right of decimal: tenths, hundredths, thousandths..."
+    ],
+    "related_prerequisite_topics": [
+      "Natural Numbers",
+      "Decimal Place Value"
+    ],
+    "images": [
+      {
+        "filename": "placevalue-09-chart.svg",
+        "type": "table_visual",
+        "description": "A place value chart/table with column headers Thousands, Hundreds, Tens, Units | Tenths, Hundredths, Thousandths, showing a sample number's digits placed in each column.",
+        "purpose": "Shows how each digit in 3,762.4 corresponds to a specific place value column.",
+        "placement": "After the Explanation section, before Key Concepts"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "category": "Number & Arithmetic",
+    "topic": "Comparing Numbers",
+    "explanation": "Comparing numbers means determining which of two numbers is larger, smaller, or if they are equal, using the symbols <, >, and =. For whole numbers, compare digit-by-digit from the highest place value. For decimals, compare digit-by-digit after aligning decimal points. For negative numbers, remember that numbers further left on the number line (more negative) are smaller.",
+    "key_concepts": [
+      "Symbols: < (less than), > (greater than), = (equal to), \u2264, \u2265",
+      "Compare whole numbers by number of digits first, then leading digits",
+      "Compare decimals by aligning decimal points and comparing place by place",
+      "For negative numbers, the number closer to zero (less negative) is larger"
+    ],
+    "definitions": [
+      {
+        "term": "Inequality Symbol",
+        "definition": "A symbol (<, >, \u2264, \u2265, \u2260) used to show the relative size of two values."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Compare 0.45 and 0.5 using <, >, or =",
+        "solution_steps": [
+          "Align decimals: 0.45 and 0.50",
+          "Compare tenths digit: 4 vs 5 \u2192 5 is larger",
+          "So 0.5 is larger"
+        ],
+        "answer": "0.45 < 0.5"
+      },
+      {
+        "problem": "Compare -8 and -3",
+        "solution_steps": [
+          "On a number line, -3 is to the right of -8",
+          "Numbers further right are larger"
+        ],
+        "answer": "-8 < -3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Compare 128 and 812 using < or >.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Compare -15 and -20.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Compare 3/4 and 0.7.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "128 < 812",
+      "-15 > -20",
+      "3/4 = 0.75, so 3/4 > 0.7"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Order the following from smallest to largest: -2, 0.3, -0.5, 1, -3",
+        "marks": 2,
+        "answer": "-3, -2, -0.5, 0.3, 1"
+      }
+    ],
+    "common_mistakes": [
+      "Assuming a negative number with a larger digit is 'bigger' (e.g. thinking -20 > -15)",
+      "Comparing decimals without aligning place values first",
+      "Comparing fractions without converting to a common form (decimal or common denominator)"
+    ],
+    "tips": [
+      "When comparing negatives, compare the positive versions first, then flip the inequality."
+    ],
+    "summary": "Comparing numbers uses <, >, and = to establish relative size, requiring careful handling of decimals, fractions, and negative numbers.",
+    "quick_revision_notes": [
+      "Align decimals before comparing",
+      "More negative = smaller",
+      "Convert fractions to decimals to compare easily"
+    ],
+    "related_prerequisite_topics": [
+      "Number Lines",
+      "Place Value",
+      "Ordering Numbers"
+    ],
+    "images": []
+  },
+  {
+    "id": 11,
+    "category": "Number & Arithmetic",
+    "topic": "Ordering Numbers",
+    "explanation": "Ordering numbers means arranging a set of numbers from smallest to largest (ascending order) or largest to smallest (descending order). This builds directly on comparing numbers and requires consistent handling of positive numbers, negative numbers, fractions, and decimals within the same set.",
+    "key_concepts": [
+      "Ascending order = smallest to largest",
+      "Descending order = largest to smallest",
+      "Convert all numbers to a common format (e.g. all decimals) before ordering a mixed set",
+      "Use a number line as a check for ordering negative numbers"
+    ],
+    "definitions": [
+      {
+        "term": "Ascending Order",
+        "definition": "Arrangement of numbers from smallest to largest."
+      },
+      {
+        "term": "Descending Order",
+        "definition": "Arrangement of numbers from largest to smallest."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Arrange in ascending order: 0.6, 3/5, -1, 2, 0.55",
+        "solution_steps": [
+          "Convert 3/5 to a decimal: 3/5 = 0.6",
+          "Now compare: -1, 0.55, 0.6, 0.6, 2",
+          "Note 0.6 and 3/5 are equal"
+        ],
+        "answer": "-1, 0.55, 0.6 (= 3/5), 2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Arrange in descending order: -4, 7, 0, -1, 3",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Arrange in ascending order: 1/2, 0.4, 3/4, 0.6",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "7, 3, 0, -1, -4",
+      "0.4, 1/2 (0.5), 0.6, 3/4 (0.75)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A list of temperatures (\u00b0C) recorded over a week is: -3, 5, 0, -7, 2, -1, 4. Order them from coldest to warmest.",
+        "marks": 2,
+        "answer": "-7, -3, -1, 0, 2, 4, 5"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to convert fractions/decimals to the same format before ordering",
+      "Ordering negatives incorrectly (treating -7 as bigger than -3)"
+    ],
+    "tips": [
+      "When a list mixes fractions, decimals, and negatives, convert everything to decimals first \u2014 it's the fastest way to avoid mistakes."
+    ],
+    "summary": "Ordering numbers arranges them by size (ascending or descending), often requiring conversion to a common format first.",
+    "quick_revision_notes": [
+      "Ascending = small to large",
+      "Descending = large to small",
+      "Convert to decimals to compare mixed types easily"
+    ],
+    "related_prerequisite_topics": [
+      "Comparing Numbers",
+      "Number Lines",
+      "Converting Fractions to Decimals"
+    ],
+    "images": []
+  },
+  {
+    "id": 12,
+    "category": "Number & Arithmetic",
+    "topic": "Positive Numbers",
+    "explanation": "A positive number is any number greater than zero. Positive numbers are written without a sign (or occasionally with a '+' sign for clarity) and lie to the right of zero on a number line. They represent quantities such as gains, increases, or amounts above a reference point.",
+    "key_concepts": [
+      "Positive numbers are greater than 0",
+      "Lie to the right of zero on a number line",
+      "Multiplying or dividing two positive numbers gives a positive result",
+      "Adding two positive numbers always gives a larger positive number"
+    ],
+    "definitions": [
+      {
+        "term": "Positive Number",
+        "definition": "Any real number greater than zero."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A submarine rises 15 metres. Represent this change as a signed number.",
+        "solution_steps": [
+          "Rising is an increase relative to the reference depth",
+          "This is represented with a positive number"
+        ],
+        "answer": "+15 m"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is 0 a positive number?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "State the sign of the product of three positive numbers.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "No \u2014 0 is neither positive nor negative.",
+      "Positive"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why 0 is not classified as a positive number.",
+        "marks": 1,
+        "answer": "A positive number must be strictly greater than 0; since 0 = 0, it does not satisfy this condition, so it is classified separately as neither positive nor negative."
+      }
+    ],
+    "common_mistakes": [
+      "Believing 0 is a positive number",
+      "Assuming all numbers without a written sign are automatically 'positive' when context may involve negatives"
+    ],
+    "tips": [
+      "Whenever a number is written with no sign, it's understood to be positive."
+    ],
+    "summary": "Positive numbers are values greater than zero, lying right of zero on a number line.",
+    "quick_revision_notes": [
+      "Positive = greater than 0",
+      "0 is neither positive nor negative"
+    ],
+    "related_prerequisite_topics": [
+      "Number Lines",
+      "Integers"
+    ],
+    "images": []
+  },
+  {
+    "id": 13,
+    "category": "Number & Arithmetic",
+    "topic": "Negative Numbers",
+    "explanation": "A negative number is any number less than zero, written with a minus sign (e.g. -7). Negative numbers lie to the left of zero on a number line and represent quantities below a reference point, such as debt, temperatures below freezing, or depths below sea level.",
+    "key_concepts": [
+      "Negative numbers are less than 0",
+      "Lie to the left of zero on a number line",
+      "Adding a negative number is the same as subtracting its positive value",
+      "Multiplying/dividing two negatives gives a positive; one negative and one positive gives a negative"
+    ],
+    "definitions": [
+      {
+        "term": "Negative Number",
+        "definition": "Any real number less than zero, indicated with a minus sign."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Sign rules for multiplication/division",
+        "formula": "(+)\u00d7(+)=+, (-)\u00d7(-)=+, (+)\u00d7(-)=-, (-)\u00d7(+)=-",
+        "notes": "Same signs multiply/divide to give positive; different signs give negative."
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Evaluate -6 \u00d7 -3",
+        "solution_steps": [
+          "Both numbers are negative, so the result is positive",
+          "6 \u00d7 3 = 18"
+        ],
+        "answer": "18"
+      },
+      {
+        "problem": "Evaluate -20 \u00f7 4",
+        "solution_steps": [
+          "Signs differ (negative \u00f7 positive), so the result is negative",
+          "20 \u00f7 4 = 5"
+        ],
+        "answer": "-5"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Evaluate -7 \u00d7 -8",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Evaluate -45 \u00f7 -9",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Evaluate -5 \u00d7 6 \u00f7 -3",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "56",
+      "5",
+      "10 (since -5 \u00d7 6 = -30, then -30 \u00f7 -3 = 10)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A diver is at -12 m relative to sea level and descends a further 8 m. What is their new position?",
+        "marks": 2,
+        "answer": "-12 + (-8) = -20 m"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting that two negatives multiplied give a positive",
+      "Sign errors when combining multiple operations",
+      "Misreading '-' as subtraction when it indicates a negative number"
+    ],
+    "tips": [
+      "Count the number of negative signs in a multiplication/division chain: an even count gives a positive result, an odd count gives a negative result."
+    ],
+    "summary": "Negative numbers are values less than zero. Sign rules govern their behaviour under multiplication and division: same signs give positive, different signs give negative.",
+    "quick_revision_notes": [
+      "Negative = less than 0",
+      "Same signs multiply to +, different signs multiply to -"
+    ],
+    "related_prerequisite_topics": [
+      "Positive Numbers",
+      "Number Lines",
+      "Integers"
+    ],
+    "images": [
+      {
+        "filename": "negativenumbers-13-signrules.svg",
+        "type": "table_visual",
+        "description": "Number line with the negative region (left of 0) shaded, and a sign-rule grid (2x2 table) showing multiplication sign outcomes.",
+        "purpose": "Shows the four sign outcomes when multiplying or dividing positive and negative numbers.",
+        "placement": "After the Explanation section, before Key Concepts"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "category": "Number & Arithmetic",
+    "topic": "Absolute Value",
+    "explanation": "The absolute value of a number is its distance from zero on the number line, regardless of direction. It is always non-negative and is written using two vertical bars, e.g. |\u22125| = 5. Absolute value is used to measure size or magnitude without regard to sign.",
+    "key_concepts": [
+      "Absolute value = distance from zero, always \u2265 0",
+      "|x| = x if x \u2265 0, and |x| = -x if x < 0",
+      "|a - b| gives the distance between a and b on a number line",
+      "Absolute value equations can have two solutions"
+    ],
+    "definitions": [
+      {
+        "term": "Absolute Value",
+        "definition": "The non-negative distance of a number from zero, denoted |x|."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Piecewise definition",
+        "formula": "|x| = x (x \u2265 0), |x| = -x (x < 0)",
+        "notes": "Used to remove absolute value bars when solving equations/inequalities."
+      },
+      {
+        "name": "Distance between two points",
+        "formula": "distance = |a - b|",
+        "notes": "Works on a 1D number line."
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Evaluate |-9| and |9|",
+        "solution_steps": [
+          "|-9| = 9 (distance from 0 is 9)",
+          "|9| = 9 (already non-negative)"
+        ],
+        "answer": "Both equal 9"
+      },
+      {
+        "problem": "Solve |x - 3| = 5",
+        "solution_steps": [
+          "Split into two cases: x - 3 = 5 or x - 3 = -5",
+          "Case 1: x = 8",
+          "Case 2: x = -2"
+        ],
+        "answer": "x = 8 or x = -2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Evaluate |-14|",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Solve |x + 2| = 7",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find the distance between -6 and 4 using absolute value.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "14",
+      "x = 5 or x = -9",
+      "|-6 - 4| = |-10| = 10"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Solve the equation |2x - 1| = 9, showing both cases.",
+        "marks": 3,
+        "answer": "2x - 1 = 9 \u2192 x = 5; or 2x - 1 = -9 \u2192 x = -4. So x = 5 or x = -4."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the negative case when solving absolute value equations",
+      "Treating |x| = -x as always true rather than only for x < 0",
+      "Assuming absolute value equations always have two solutions (sometimes they have one or none)"
+    ],
+    "tips": [
+      "Always split |expression| = k into two separate equations when solving, then check both solutions are valid."
+    ],
+    "summary": "Absolute value measures distance from zero and is always non-negative. Equations with absolute value typically split into two cases.",
+    "quick_revision_notes": [
+      "|x| \u2265 0 always",
+      "|x|=k \u2192 x=k or x=-k (for k\u22650)",
+      "|a-b| = distance between a and b"
+    ],
+    "related_prerequisite_topics": [
+      "Number Lines",
+      "Negative Numbers",
+      "Linear Equations"
+    ],
+    "images": [
+      {
+        "filename": "absolutevalue-14-numberline.svg",
+        "type": "diagram",
+        "description": "Number line showing -5 and 5 both at distance 5 from 0, illustrating |\u22125| = |5| = 5.",
+        "purpose": "Shows that -5 and 5 are both exactly 5 units from zero, illustrating equal absolute value.",
+        "placement": "After the Explanation section, before Key Concepts"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "category": "Number & Arithmetic",
+    "topic": "Even Numbers",
+    "explanation": "An even number is any integer that is exactly divisible by 2, with no remainder. Even numbers always end in 0, 2, 4, 6, or 8. Zero is considered an even number. Even numbers can be written in the general form 2n, where n is any integer.",
+    "key_concepts": [
+      "Even numbers are divisible by 2 exactly",
+      "General form: 2n, for integer n",
+      "Even \u00b1 Even = Even; Even \u00b1 Odd = Odd; Odd \u00b1 Odd = Even",
+      "Even \u00d7 any integer = Even"
+    ],
+    "definitions": [
+      {
+        "term": "Even Number",
+        "definition": "An integer divisible by 2 with no remainder; expressible as 2n for some integer n."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "General even number",
+        "formula": "2n (n \u2208 \u2124)",
+        "notes": "Used in algebraic proofs about even numbers."
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Prove that the sum of two even numbers is always even.",
+        "solution_steps": [
+          "Let the two even numbers be 2a and 2b, for integers a and b",
+          "Sum: 2a + 2b = 2(a + b)",
+          "Since a + b is an integer, 2(a+b) is of the form 2n, i.e. even"
+        ],
+        "answer": "Proven: the sum of two even numbers is always even."
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is 0 an even number?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Prove algebraically that an even number multiplied by any integer is always even.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "Yes, 0 = 2 \u00d7 0, so it is even.",
+      "Let the even number be 2a and the integer be k. Their product is 2a \u00d7 k = 2(ak), which is of the form 2n, so it is even."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Prove that the square of an even number is always even.",
+        "marks": 3,
+        "answer": "Let the even number be 2n. Its square is (2n)\u00b2 = 4n\u00b2 = 2(2n\u00b2), which is of the form 2 \u00d7 integer, so it is even."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting 0 counts as even",
+      "Using specific numeric examples instead of algebraic form (2n) in a general proof"
+    ],
+    "tips": [
+      "For 'prove that...' questions about even/odd numbers, always use the algebraic forms 2n (even) and 2n+1 (odd) rather than specific examples."
+    ],
+    "summary": "Even numbers are divisible by 2 and can be written as 2n. They follow predictable parity rules under addition, subtraction, and multiplication.",
+    "quick_revision_notes": [
+      "Even = 2n",
+      "Even+Even=Even, Odd+Odd=Even, Even+Odd=Odd"
+    ],
+    "related_prerequisite_topics": [
+      "Integers",
+      "Divisibility Rules",
+      "Odd Numbers"
+    ],
+    "images": [
+      {
+        "filename": "evennumbers-15-numberline.svg",
+        "type": "diagram",
+        "description": "Number line with even numbers circled at 0, 2, 4, 6, 8, 10 to show the pattern.",
+        "purpose": "Highlights the even numbers on a number line to show their regular spacing of 2.",
+        "placement": "After the Explanation section, before Key Concepts"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "category": "Number & Arithmetic",
+    "topic": "Odd Numbers",
+    "explanation": "An odd number is any integer that is not exactly divisible by 2 \u2014 dividing it by 2 leaves a remainder of 1. Odd numbers always end in 1, 3, 5, 7, or 9. Odd numbers can be written in the general form 2n + 1 (or 2n \u2212 1), where n is any integer.",
+    "key_concepts": [
+      "Odd numbers are not divisible by 2 (remainder 1)",
+      "General form: 2n + 1, for integer n",
+      "Odd + Odd = Even; Odd + Even = Odd; Odd \u00d7 Odd = Odd",
+      "Every integer is either even or odd, never both"
+    ],
+    "definitions": [
+      {
+        "term": "Odd Number",
+        "definition": "An integer not divisible by 2; expressible as 2n + 1 for some integer n."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "General odd number",
+        "formula": "2n + 1 (n \u2208 \u2124)",
+        "notes": "Used in algebraic proofs about odd numbers."
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Prove that the sum of two odd numbers is always even.",
+        "solution_steps": [
+          "Let the two odd numbers be 2a+1 and 2b+1, for integers a, b",
+          "Sum: (2a+1) + (2b+1) = 2a + 2b + 2 = 2(a+b+1)",
+          "Since a+b+1 is an integer, this is of the form 2n, i.e. even"
+        ],
+        "answer": "Proven: the sum of two odd numbers is always even."
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Write the general algebraic form of an odd number.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Prove that the product of two odd numbers is always odd.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "2n + 1 (or equivalently 2n - 1), for integer n",
+      "Let the odd numbers be 2a+1 and 2b+1. Product = (2a+1)(2b+1) = 4ab + 2a + 2b + 1 = 2(2ab+a+b) + 1, which is of the form 2n+1, so it is odd."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Prove algebraically that the sum of three consecutive odd numbers is always divisible by 3.",
+        "marks": 4,
+        "answer": "Let the three consecutive odd numbers be 2n+1, 2n+3, 2n+5. Sum = 6n + 9 = 3(2n+3), which is divisible by 3."
+      }
+    ],
+    "common_mistakes": [
+      "Using 2n instead of 2n+1 to represent an odd number",
+      "Numeric-only 'proofs' (checking a few examples) instead of full algebraic proof"
+    ],
+    "tips": [
+      "When a proof involves consecutive odd numbers, they differ by 2 each time: 2n+1, 2n+3, 2n+5, ..."
+    ],
+    "summary": "Odd numbers are not divisible by 2 and take the form 2n+1. Sums and products of odd numbers follow predictable parity patterns, provable algebraically.",
+    "quick_revision_notes": [
+      "Odd = 2n+1",
+      "Odd+Odd=Even, Odd\u00d7Odd=Odd"
+    ],
+    "related_prerequisite_topics": [
+      "Integers",
+      "Even Numbers",
+      "Divisibility Rules"
+    ],
+    "images": [
+      {
+        "filename": "oddnumbers-16-numberline.svg",
+        "type": "diagram",
+        "description": "Number line with odd numbers circled at 1, 3, 5, 7, 9 to show the pattern, alternating with even numbers.",
+        "purpose": "Highlights the odd numbers on a number line to show their regular spacing of 2.",
+        "placement": "After the Explanation section, before Key Concepts"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "category": "Number & Arithmetic",
+    "topic": "Prime Numbers",
+    "explanation": "A prime number is a natural number greater than 1 that has exactly two factors: 1 and itself. The number 2 is the only even prime number; all other primes are odd. Prime numbers are the 'building blocks' of the natural numbers because every natural number greater than 1 can be written as a product of primes (prime factorization).",
+    "key_concepts": [
+      "A prime number has exactly two factors: 1 and itself",
+      "1 is NOT a prime number (it has only one factor)",
+      "2 is the only even prime; all other primes are odd",
+      "There are infinitely many prime numbers",
+      "The first few primes are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29..."
+    ],
+    "definitions": [
+      {
+        "term": "Prime Number",
+        "definition": "A natural number greater than 1 with exactly two positive factors: 1 and itself."
+      },
+      {
+        "term": "Composite Number",
+        "definition": "A natural number greater than 1 that is not prime (has more than two factors)."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Is 51 a prime number?",
+        "solution_steps": [
+          "Check divisibility by small primes: 2, 3, 5, 7",
+          "51 \u00f7 3 = 17, exactly",
+          "So 51 has factors 1, 3, 17, 51 \u2014 more than two"
+        ],
+        "answer": "No, 51 is not prime (51 = 3 \u00d7 17)"
+      },
+      {
+        "problem": "List all prime numbers between 20 and 40.",
+        "solution_steps": [
+          "Test each number for exactly two factors",
+          "21=3\u00d77 (not prime), 22 (not prime), 23 (prime), 24-28 (not prime), 29 (prime), 30-36 (not prime), 37 (prime), 38-39 (not prime)"
+        ],
+        "answer": "23, 29, 31, 37"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is 1 a prime number? Explain.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "List all prime numbers less than 20.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Is 91 prime? Show your working.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "No \u2014 a prime number must have exactly two factors, but 1 has only one factor (itself).",
+      "2, 3, 5, 7, 11, 13, 17, 19",
+      "No, 91 = 7 \u00d7 13, so it has more than two factors."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why 2 is the only even prime number.",
+        "marks": 2,
+        "answer": "Every even number greater than 2 is divisible by 2 and by itself, giving at least three factors (1, 2, and the number), so it cannot be prime. 2 itself has exactly two factors (1 and 2), so it is prime."
+      }
+    ],
+    "common_mistakes": [
+      "Believing 1 is prime",
+      "Assuming all odd numbers are prime (e.g. 9, 15, 21 are odd but not prime)",
+      "Not checking all possible small-prime divisors when testing for primality"
+    ],
+    "tips": [
+      "To test if a number n is prime, you only need to check divisibility by primes up to \u221an."
+    ],
+    "summary": "Prime numbers have exactly two factors (1 and themselves). 2 is the only even prime; 1 is not prime. Primes are the building blocks of all natural numbers via prime factorization.",
+    "quick_revision_notes": [
+      "Prime = exactly 2 factors",
+      "1 is not prime",
+      "2 is the only even prime"
+    ],
+    "related_prerequisite_topics": [
+      "Factors",
+      "Composite Numbers",
+      "Prime Factorization"
+    ],
+    "images": []
+  },
+  {
+    "id": 18,
+    "category": "Number & Arithmetic",
+    "topic": "Composite Numbers",
+    "explanation": "A composite number is a natural number greater than 1 that has more than two factors \u2014 meaning it can be divided evenly by at least one number other than 1 and itself. Every natural number greater than 1 is either prime or composite, never both.",
+    "key_concepts": [
+      "A composite number has more than two factors",
+      "Every composite number can be broken down into prime factors",
+      "1 is neither prime nor composite",
+      "The smallest composite number is 4"
+    ],
+    "definitions": [
+      {
+        "term": "Composite Number",
+        "definition": "A natural number greater than 1 that has more than two positive factors."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Classify 15, 17, 1, 4 as prime, composite, or neither.",
+        "solution_steps": [
+          "15 = 3 \u00d7 5 \u2192 factors 1,3,5,15 \u2192 composite",
+          "17 \u2192 factors 1,17 only \u2192 prime",
+          "1 \u2192 only one factor \u2192 neither",
+          "4 = 2 \u00d7 2 \u2192 factors 1,2,4 \u2192 composite"
+        ],
+        "answer": "15: composite; 17: prime; 1: neither; 4: composite"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "What is the smallest composite number?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Is 97 composite? Justify briefly.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "4",
+      "No, 97 is prime \u2014 it is not divisible by 2, 3, 5, or 7 (the primes up to \u221a97 \u2248 9.8), so it has only two factors."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Express 84 as a product of its prime factors, and state whether 84 is composite.",
+        "marks": 3,
+        "answer": "84 = 2\u00b2 \u00d7 3 \u00d7 7. Since it has more than two factors, 84 is composite."
+      }
+    ],
+    "common_mistakes": [
+      "Classifying 1 as composite (it is neither prime nor composite)",
+      "Assuming all even numbers greater than 2 might not be composite \u2014 they always are, since they're divisible by 2"
+    ],
+    "tips": [
+      "Every even number greater than 2 is automatically composite, since it's divisible by 2 as well as 1 and itself."
+    ],
+    "summary": "Composite numbers have more than two factors. Every natural number greater than 1 is either prime or composite.",
+    "quick_revision_notes": [
+      "Composite = more than 2 factors",
+      "1 is neither prime nor composite",
+      "Smallest composite = 4"
+    ],
+    "related_prerequisite_topics": [
+      "Prime Numbers",
+      "Factors",
+      "Prime Factorization"
+    ],
+    "images": []
+  },
+  {
+    "id": 19,
+    "category": "Number & Arithmetic",
+    "topic": "Factors",
+    "explanation": "A factor of a number is any integer that divides into it exactly, with no remainder. Every number has at least two factors (1 and itself), except 1, which has only itself. Finding factors is essential for simplifying fractions, factorizing expressions, and finding HCF/LCM.",
+    "key_concepts": [
+      "A factor divides a number exactly (remainder 0)",
+      "Factors come in pairs that multiply to give the original number",
+      "1 and the number itself are always factors",
+      "Only perfect squares have an odd number of factors"
+    ],
+    "definitions": [
+      {
+        "term": "Factor",
+        "definition": "An integer that divides exactly into another integer with no remainder."
+      },
+      {
+        "term": "Factor Pair",
+        "definition": "Two factors that multiply together to give the original number."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "List all factors of 36.",
+        "solution_steps": [
+          "Test each integer from 1 upward: 1\u00d736, 2\u00d718, 3\u00d712, 4\u00d79, 6\u00d76",
+          "Stop when factor pairs start repeating (past the square root of 36, which is 6)"
+        ],
+        "answer": "1, 2, 3, 4, 6, 9, 12, 18, 36"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "List all factors of 24.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "How many factors does 100 have?",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which numbers less than 20 have exactly 3 factors?",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "1, 2, 3, 4, 6, 8, 12, 24",
+      "9 (1, 2, 4, 5, 10, 20, 25, 50, 100)",
+      "4, 9 (both are squares of primes: 2\u00b2 and 3\u00b2; only squares of primes have exactly 3 factors)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Find all factor pairs of 48 and hence list all its factors.",
+        "marks": 3,
+        "answer": "1\u00d748, 2\u00d724, 3\u00d716, 4\u00d712, 6\u00d78 \u2192 factors: 1, 2, 3, 4, 6, 8, 12, 16, 24, 48"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting 1 and the number itself as factors",
+      "Stopping the search for factor pairs too early or too late (should stop at \u221an)",
+      "Confusing 'factor' with 'multiple'"
+    ],
+    "tips": [
+      "Only test up to the square root of the number \u2014 every factor pair has one factor \u2264 \u221an and one \u2265 \u221an."
+    ],
+    "summary": "Factors are integers that divide a number exactly. They come in pairs and are found systematically by testing integers up to \u221an.",
+    "quick_revision_notes": [
+      "Factor divides exactly (no remainder)",
+      "Only need to check up to \u221an",
+      "Perfect squares have an odd number of factors"
+    ],
+    "related_prerequisite_topics": [
+      "Multiples",
+      "Prime Factorization",
+      "Divisibility Rules"
+    ],
+    "images": []
+  },
+  {
+    "id": 20,
+    "category": "Number & Arithmetic",
+    "topic": "Multiples",
+    "explanation": "A multiple of a number is the result of multiplying that number by any positive integer. Every number has infinitely many multiples. Multiples are used to find common denominators, solve timing/cycle problems, and compute the lowest common multiple (LCM).",
+    "key_concepts": [
+      "Multiples are found by multiplying by 1, 2, 3, 4, ...",
+      "Every number is a multiple of itself and of 1",
+      "There are infinitely many multiples of any number",
+      "A number is a multiple of each of its factors"
+    ],
+    "definitions": [
+      {
+        "term": "Multiple",
+        "definition": "The product of a given number and any positive integer."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "List the first six multiples of 7.",
+        "solution_steps": [
+          "Multiply 7 by 1, 2, 3, 4, 5, 6"
+        ],
+        "answer": "7, 14, 21, 28, 35, 42"
+      },
+      {
+        "problem": "Is 96 a multiple of 8?",
+        "solution_steps": [
+          "Divide 96 by 8: 96 \u00f7 8 = 12, exactly",
+          "No remainder means 96 is a multiple of 8"
+        ],
+        "answer": "Yes, 96 = 8 \u00d7 12"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "List the first five multiples of 9.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Is 150 a multiple of 6? Show your working.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "9, 18, 27, 36, 45",
+      "Yes, 150 \u00f7 6 = 25, exactly."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Find the smallest number that is a multiple of both 4 and 6, other than 0.",
+        "marks": 2,
+        "answer": "Multiples of 4: 4,8,12,16...; multiples of 6: 6,12,18...; smallest common value is 12."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing 'multiple' with 'factor' (multiples are \u2265 the number; factors are \u2264 the number)",
+      "Forgetting multiples are infinite (there's no 'largest multiple')"
+    ],
+    "tips": [
+      "A quick way to remember: Factors are Few (finite, \u2264 the number); Multiples are Many (infinite, \u2265 the number)."
+    ],
+    "summary": "Multiples are the products of a number with positive integers; every number has infinitely many multiples.",
+    "quick_revision_notes": [
+      "Multiples = n\u00d71, n\u00d72, n\u00d73, ...",
+      "Infinite in number",
+      "Used for LCM and common denominators"
+    ],
+    "related_prerequisite_topics": [
+      "Factors",
+      "Lowest Common Multiple",
+      "Common Multiples"
+    ],
+    "images": []
+  },
+  {
+    "id": 21,
+    "category": "Number & Arithmetic",
+    "topic": "Common Factors",
+    "explanation": "Common factors are numbers that are factors of two or more given numbers. Identifying common factors is the first step in simplifying fractions and finding the greatest common divisor (GCD/HCF) of a set of numbers.",
+    "key_concepts": [
+      "A common factor divides exactly into every number in a given set",
+      "1 is always a common factor of any set of numbers",
+      "The greatest common factor is called the Highest Common Factor (HCF) or Greatest Common Divisor (GCD)"
+    ],
+    "definitions": [
+      {
+        "term": "Common Factor",
+        "definition": "A number that is a factor of two or more given numbers."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find all common factors of 18 and 24.",
+        "solution_steps": [
+          "Factors of 18: 1, 2, 3, 6, 9, 18",
+          "Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24",
+          "Compare the two lists for shared values"
+        ],
+        "answer": "1, 2, 3, 6"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the common factors of 12 and 20.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the common factors of 15, 30, and 45.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "1, 2, 4",
+      "1, 3, 5, 15"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "List the common factors of 36 and 60, and identify the highest one.",
+        "marks": 3,
+        "answer": "Factors of 36: 1,2,3,4,6,9,12,18,36. Factors of 60: 1,2,3,4,5,6,10,12,15,20,30,60. Common: 1,2,3,4,6,12. Highest common factor: 12."
+      }
+    ],
+    "common_mistakes": [
+      "Missing some factors when listing (forgetting to check up to \u221an)",
+      "Confusing common factors with common multiples"
+    ],
+    "tips": [
+      "List factors of the smaller number first \u2014 you only need to check which of those also divide the larger number(s)."
+    ],
+    "summary": "Common factors are shared factors between two or more numbers, forming the basis for finding the HCF.",
+    "quick_revision_notes": [
+      "Common factor = factor of all numbers in the set",
+      "1 is always a common factor"
+    ],
+    "related_prerequisite_topics": [
+      "Factors",
+      "Greatest Common Divisor",
+      "Simplifying Fractions"
+    ],
+    "images": []
+  },
+  {
+    "id": 22,
+    "category": "Number & Arithmetic",
+    "topic": "Common Multiples",
+    "explanation": "Common multiples are numbers that are multiples of two or more given numbers. Finding common multiples is essential for adding/subtracting fractions with different denominators and for solving problems involving repeating cycles or events.",
+    "key_concepts": [
+      "A common multiple is a multiple of every number in a given set",
+      "There are infinitely many common multiples of any set of numbers",
+      "The smallest one is called the Lowest Common Multiple (LCM)"
+    ],
+    "definitions": [
+      {
+        "term": "Common Multiple",
+        "definition": "A number that is a multiple of two or more given numbers."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find the first three common multiples of 4 and 6.",
+        "solution_steps": [
+          "Multiples of 4: 4, 8, 12, 16, 20, 24, 28, 32, 36...",
+          "Multiples of 6: 6, 12, 18, 24, 30, 36...",
+          "Shared values: 12, 24, 36"
+        ],
+        "answer": "12, 24, 36"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the first two common multiples of 3 and 5.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Two lighthouses flash every 8 seconds and every 12 seconds respectively, starting together. After how many seconds do they next flash together?",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "15, 30",
+      "24 seconds (the LCM of 8 and 12)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Buses on Route A leave every 15 minutes and buses on Route B leave every 20 minutes, both starting at 9:00am. At what time do they next leave together?",
+        "marks": 3,
+        "answer": "LCM(15,20) = 60 minutes, so they next leave together at 10:00am."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing common multiples with common factors",
+      "Stopping the list too early and missing the actual common value"
+    ],
+    "tips": [
+      "'Together again' word problems (buses, flashing lights, bells) are LCM problems in disguise."
+    ],
+    "summary": "Common multiples are shared multiples of two or more numbers; the smallest is the LCM, useful in fraction and cycle problems.",
+    "quick_revision_notes": [
+      "Common multiple = multiple of all given numbers",
+      "Infinite in number",
+      "Smallest = LCM"
+    ],
+    "related_prerequisite_topics": [
+      "Multiples",
+      "Lowest Common Multiple",
+      "Adding Fractions"
+    ],
+    "images": []
+  },
+  {
+    "id": 23,
+    "category": "Number & Arithmetic",
+    "topic": "Prime Factorization",
+    "explanation": "Prime factorization is the process of expressing a number as a product of its prime factors. Every composite number has a unique prime factorization (this is the Fundamental Theorem of Arithmetic). Prime factorization is used to find the HCF, LCM, and to simplify surds and fractions.",
+    "key_concepts": [
+      "Every composite number can be broken down into a product of primes",
+      "This factorization is unique (ignoring order) \u2014 the Fundamental Theorem of Arithmetic",
+      "Factor trees or repeated division are common methods to find prime factorization",
+      "Written using index notation, e.g. 72 = 2\u00b3 \u00d7 3\u00b2"
+    ],
+    "definitions": [
+      {
+        "term": "Prime Factorization",
+        "definition": "The expression of a number as a product of prime numbers."
+      },
+      {
+        "term": "Factor Tree",
+        "definition": "A diagram used to break a number down step by step into its prime factors."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find the prime factorization of 120.",
+        "solution_steps": [
+          "120 \u00f7 2 = 60",
+          "60 \u00f7 2 = 30",
+          "30 \u00f7 2 = 15",
+          "15 \u00f7 3 = 5",
+          "5 is prime, stop",
+          "Collect all the prime divisors used: 2, 2, 2, 3, 5"
+        ],
+        "answer": "120 = 2\u00b3 \u00d7 3 \u00d7 5"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the prime factorization of 84.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the prime factorization of 300.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Use prime factorization to find the HCF of 60 and 90.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "84 = 2\u00b2 \u00d7 3 \u00d7 7",
+      "300 = 2\u00b2 \u00d7 3 \u00d7 5\u00b2",
+      "60 = 2\u00b2\u00d73\u00d75, 90 = 2\u00d73\u00b2\u00d75; HCF = 2\u00d73\u00d75 = 30 (take the lowest power of each common prime)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Express 450 as a product of its prime factors, giving your answer in index form.",
+        "marks": 3,
+        "answer": "450 = 2 \u00d7 3\u00b2 \u00d7 5\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Stopping the division process before reaching a prime number",
+      "Forgetting to write repeated primes using index notation",
+      "Using a composite number as a divisor instead of a prime"
+    ],
+    "tips": [
+      "Always divide by the smallest possible prime first (2, then 3, then 5, ...) to keep the process systematic."
+    ],
+    "summary": "Prime factorization breaks a number into a unique product of primes, useful for finding HCF, LCM, and simplifying expressions.",
+    "quick_revision_notes": [
+      "Use factor trees or repeated division by primes",
+      "Always divide by smallest prime first",
+      "Unique for every number (Fundamental Theorem of Arithmetic)"
+    ],
+    "related_prerequisite_topics": [
+      "Prime Numbers",
+      "Factors",
+      "Fundamental Theorem of Arithmetic"
+    ],
+    "images": [
+      {
+        "filename": "primefactorization-23-tree.svg",
+        "type": "diagram",
+        "description": "A factor tree for 120 branching down step by step to 2, 2, 2, 3, 5 at the leaves.",
+        "purpose": "Shows step-by-step how 120 breaks down into its prime factors 2\u00b3\u00d73\u00d75 using a factor tree.",
+        "placement": "After the Explanation section, before Key Concepts"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "category": "Number & Arithmetic",
+    "topic": "Divisibility Rules",
+    "explanation": "Divisibility rules are quick tests to check whether a number is exactly divisible by another number, without performing full division. These rules save time on factorization, simplifying fractions, and checking answers.",
+    "key_concepts": [
+      "Each divisor (2, 3, 4, 5, 6, 8, 9, 10, 11...) has its own quick test",
+      "Rules are based on the last digit(s) or digit sum of the number",
+      "Combining rules (e.g. divisible by both 2 and 3) tells you divisibility by 6"
+    ],
+    "definitions": [
+      {
+        "term": "Divisibility",
+        "definition": "A number is divisible by another if dividing gives a whole number with no remainder."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Divisible by 2",
+        "formula": "Last digit is even (0,2,4,6,8)",
+        "notes": ""
+      },
+      {
+        "name": "Divisible by 3",
+        "formula": "Digit sum divisible by 3",
+        "notes": ""
+      },
+      {
+        "name": "Divisible by 4",
+        "formula": "Last two digits divisible by 4",
+        "notes": ""
+      },
+      {
+        "name": "Divisible by 5",
+        "formula": "Last digit is 0 or 5",
+        "notes": ""
+      },
+      {
+        "name": "Divisible by 6",
+        "formula": "Divisible by both 2 and 3",
+        "notes": ""
+      },
+      {
+        "name": "Divisible by 9",
+        "formula": "Digit sum divisible by 9",
+        "notes": ""
+      },
+      {
+        "name": "Divisible by 10",
+        "formula": "Last digit is 0",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Is 4,572 divisible by 3?",
+        "solution_steps": [
+          "Sum the digits: 4+5+7+2 = 18",
+          "Check if 18 is divisible by 3: 18 \u00f7 3 = 6, yes"
+        ],
+        "answer": "Yes, 4,572 is divisible by 3"
+      },
+      {
+        "problem": "Is 3,128 divisible by 4?",
+        "solution_steps": [
+          "Look at the last two digits: 28",
+          "28 \u00f7 4 = 7, exactly"
+        ],
+        "answer": "Yes, 3,128 is divisible by 4"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is 837 divisible by 9?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Is 2,450 divisible by 6?",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Is 9,999 divisible by 11? (Hint: alternating sum of digits)",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "Yes: 8+3+7=18, divisible by 9",
+      "No: 2,450 is even (divisible by 2) but digit sum 2+4+5+0=11, not divisible by 3, so not divisible by 6",
+      "Yes: alternating sum 9-9+9-9=0, which is divisible by 11"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Without performing division, determine whether 5,940 is divisible by 2, 3, 5, and 9. Show your reasoning for each.",
+        "marks": 4,
+        "answer": "By 2: last digit 0, even \u2192 yes. By 5: last digit 0 \u2192 yes. Digit sum = 5+9+4+0 = 18: divisible by 3 (yes) and by 9 (yes, 18\u00f79=2)."
+      }
+    ],
+    "common_mistakes": [
+      "Using the digit-sum rule for the wrong divisor (it only directly works for 3 and 9)",
+      "Forgetting that divisibility by 6 requires checking BOTH 2 and 3",
+      "Misapplying the 'last two digits' rule for 4 to more digits than needed"
+    ],
+    "tips": [
+      "Memorise rules for 2, 3, 5, 9, and 10 first \u2014 they're the most commonly tested and the easiest to apply."
+    ],
+    "summary": "Divisibility rules provide quick shortcuts to test if a number divides exactly by another, based on last digits or digit sums.",
+    "quick_revision_notes": [
+      "\u00f72: last digit even",
+      "\u00f73: digit sum \u00f73",
+      "\u00f75: ends in 0 or 5",
+      "\u00f79: digit sum \u00f79",
+      "\u00f710: ends in 0"
+    ],
+    "related_prerequisite_topics": [
+      "Factors",
+      "Place Value",
+      "Prime Factorization"
+    ],
+    "images": []
+  },
+  {
+    "id": 25,
+    "category": "Number & Arithmetic",
+    "topic": "Greatest Common Divisor",
+    "explanation": "The Greatest Common Divisor (GCD), also called the Highest Common Factor (HCF), is the largest number that divides exactly into two or more given numbers. It is found by comparing common factors or by using prime factorization, and is essential for simplifying fractions to their lowest terms.",
+    "key_concepts": [
+      "GCD/HCF is the largest shared factor of a set of numbers",
+      "Can be found by listing factors, prime factorization, or the Euclidean algorithm",
+      "Used to simplify fractions to lowest terms",
+      "GCD(a,b) \u00d7 LCM(a,b) = a \u00d7 b"
+    ],
+    "definitions": [
+      {
+        "term": "Greatest Common Divisor (GCD) / Highest Common Factor (HCF)",
+        "definition": "The largest positive integer that divides exactly into all numbers in a given set."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "GCD-LCM relationship",
+        "formula": "GCD(a,b) \u00d7 LCM(a,b) = a \u00d7 b",
+        "notes": "Valid for two positive integers a and b."
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the HCF of 48 and 60 using prime factorization.",
+        "solution_steps": [
+          "48 = 2\u2074 \u00d7 3",
+          "60 = 2\u00b2 \u00d7 3 \u00d7 5",
+          "Take the lowest power of each common prime: 2\u00b2 and 3\u00b9",
+          "HCF = 4 \u00d7 3 = 12"
+        ],
+        "answer": "12"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the HCF of 18 and 30.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the HCF of 36, 60, and 96.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Simplify 42/56 using the HCF.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "6",
+      "12",
+      "HCF(42,56)=14, so 42/56 = 3/4"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Two ribbons of length 84 cm and 126 cm are to be cut into equal-length pieces with no leftover. Find the greatest possible length of each piece.",
+        "marks": 3,
+        "answer": "This requires the HCF of 84 and 126. 84=2\u00b2\u00d73\u00d77, 126=2\u00d73\u00b2\u00d77, so HCF=2\u00d73\u00d77=42. Greatest piece length = 42 cm."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing HCF (largest shared factor) with LCM (smallest shared multiple)",
+      "Taking the highest power instead of the lowest power of shared primes when using prime factorization",
+      "Forgetting to include all common prime factors"
+    ],
+    "tips": [
+      "'Greatest'/'Highest' + 'divides evenly into pieces' word problems are always HCF; 'together again'/'smallest amount' problems are usually LCM."
+    ],
+    "summary": "The GCD/HCF is the largest number dividing exactly into a set of numbers, found via factor lists, prime factorization, or the Euclidean algorithm.",
+    "quick_revision_notes": [
+      "HCF = largest shared factor",
+      "Use lowest powers of shared primes",
+      "GCD \u00d7 LCM = product of the two numbers"
+    ],
+    "related_prerequisite_topics": [
+      "Common Factors",
+      "Prime Factorization",
+      "Lowest Common Multiple"
+    ],
+    "images": []
+  },
+  {
+    "id": 26,
+    "category": "Number & Arithmetic",
+    "topic": "Lowest Common Multiple",
+    "explanation": "The Lowest Common Multiple (LCM), also called the Least Common Multiple, is the smallest positive number that is a multiple of two or more given numbers. It is found by listing multiples, using prime factorization, or via the relationship with the GCD. LCM is essential for adding and subtracting fractions with different denominators.",
+    "key_concepts": [
+      "LCM is the smallest shared multiple of a set of numbers",
+      "Can be found by listing multiples, prime factorization, or GCD \u00d7 LCM = a \u00d7 b",
+      "Used to find common denominators when adding/subtracting fractions",
+      "For prime factorization method, take the HIGHEST power of every prime that appears"
+    ],
+    "definitions": [
+      {
+        "term": "Lowest Common Multiple (LCM)",
+        "definition": "The smallest positive integer that is a multiple of every number in a given set."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "GCD-LCM relationship",
+        "formula": "LCM(a,b) = (a \u00d7 b) / GCD(a,b)",
+        "notes": "Valid for two positive integers."
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the LCM of 12 and 18 using prime factorization.",
+        "solution_steps": [
+          "12 = 2\u00b2 \u00d7 3",
+          "18 = 2 \u00d7 3\u00b2",
+          "Take the highest power of each prime present: 2\u00b2 and 3\u00b2",
+          "LCM = 4 \u00d7 9 = 36"
+        ],
+        "answer": "36"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the LCM of 8 and 10.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the LCM of 15 and 20 using the GCD relationship (GCD=5).",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find the LCM of 6, 8, and 12.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "40",
+      "LCM = (15\u00d720)/5 = 60",
+      "24"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Add the fractions 1/6 + 1/8 using the LCM of the denominators.",
+        "marks": 3,
+        "answer": "LCM(6,8) = 24. 1/6 = 4/24, 1/8 = 3/24. Sum = 7/24."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing LCM (smallest shared multiple) with HCF (largest shared factor)",
+      "Taking the lowest power instead of highest power of a prime when using factorization",
+      "Missing a prime factor that appears in only one of the numbers"
+    ],
+    "tips": [
+      "When finding a common denominator for fractions, you're always finding the LCM of the denominators."
+    ],
+    "summary": "The LCM is the smallest common multiple of a set of numbers, key for fraction addition and cycle/timing problems.",
+    "quick_revision_notes": [
+      "LCM = smallest shared multiple",
+      "Use highest powers of all primes present",
+      "LCM \u00d7 GCD = product of the numbers (for 2 numbers)"
+    ],
+    "related_prerequisite_topics": [
+      "Multiples",
+      "Prime Factorization",
+      "Greatest Common Divisor"
+    ],
+    "images": []
+  },
+  {
+    "id": 27,
+    "category": "Number & Arithmetic",
+    "topic": "Fundamental Theorem of Arithmetic",
+    "explanation": "The Fundamental Theorem of Arithmetic states that every integer greater than 1 is either a prime number itself, or can be expressed as a product of prime numbers in exactly one way (ignoring the order of the factors). This theorem is why prime factorization is meaningful and consistent \u2014 no matter how you break a number down, you always end up with the same set of prime factors.",
+    "key_concepts": [
+      "Every integer > 1 is prime or a unique product of primes",
+      "The factorization is unique up to the order of factors",
+      "This underpins prime factorization, HCF, and LCM calculations",
+      "Primes are the 'atoms' from which all other integers are built"
+    ],
+    "definitions": [
+      {
+        "term": "Fundamental Theorem of Arithmetic",
+        "definition": "Every integer greater than 1 has a unique prime factorization, up to the order of the factors."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Show that 60 has a unique prime factorization by factorizing it two different ways.",
+        "solution_steps": [
+          "Method 1: 60 = 6 \u00d7 10 = (2\u00d73) \u00d7 (2\u00d75) = 2\u00b2 \u00d7 3 \u00d7 5",
+          "Method 2: 60 = 4 \u00d7 15 = (2\u00b2) \u00d7 (3\u00d75) = 2\u00b2 \u00d7 3 \u00d7 5",
+          "Both methods give the same prime factors, just reached via different routes"
+        ],
+        "answer": "60 = 2\u00b2 \u00d7 3 \u00d7 5 regardless of the method used, confirming uniqueness"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "State the Fundamental Theorem of Arithmetic in your own words.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Factorize 90 in two different ways (different first steps) and show the final prime factorization is the same.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "Every integer greater than 1 can be written as a product of prime numbers in exactly one way (regardless of order).",
+      "e.g. 90 = 9\u00d710 = (3\u00b2)(2\u00d75) = 2\u00d73\u00b2\u00d75; also 90 = 6\u00d715 = (2\u00d73)(3\u00d75) = 2\u00d73\u00b2\u00d75 \u2014 same result both ways."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why the number 1 is excluded from the Fundamental Theorem of Arithmetic.",
+        "marks": 2,
+        "answer": "The theorem applies to integers greater than 1. If 1 were included, factorizations would not be unique, since 1 could be multiplied any number of times without changing the value (e.g. 6 = 2\u00d73 = 1\u00d72\u00d73 = 1\u00d71\u00d72\u00d73...)."
+      }
+    ],
+    "common_mistakes": [
+      "Thinking the theorem allows different sets of prime factors for the same number",
+      "Forgetting that order doesn't matter (2\u00d73\u00d75 is the same factorization as 5\u00d73\u00d72)"
+    ],
+    "tips": [
+      "This theorem is the reason prime factorization gives a reliable, single 'fingerprint' for every number \u2014 useful for HCF/LCM problems."
+    ],
+    "summary": "The Fundamental Theorem of Arithmetic guarantees every integer greater than 1 has one unique prime factorization, forming the basis of number theory.",
+    "quick_revision_notes": [
+      "Every integer >1 has a unique prime factorization",
+      "Order doesn't matter",
+      "1 is excluded from the theorem"
+    ],
+    "related_prerequisite_topics": [
+      "Prime Numbers",
+      "Prime Factorization",
+      "Composite Numbers"
+    ],
+    "images": []
+  },
+  {
+    "id": 28,
+    "category": "Number & Arithmetic",
+    "topic": "Counting Numbers",
+    "explanation": "Counting numbers are the numbers used to count objects: 1, 2, 3, 4, and so on. This term is essentially synonymous with 'natural numbers' in the convention that excludes 0, since counting objects always starts from 1 (you wouldn't say 'I have 0 apples' when counting a real collection you're pointing to one by one).",
+    "key_concepts": [
+      "Counting numbers = {1, 2, 3, 4, ...}",
+      "Do not include 0, negative numbers, fractions, or decimals",
+      "Used for counting discrete, whole objects",
+      "Synonymous with 'natural numbers' under the convention that excludes 0"
+    ],
+    "definitions": [
+      {
+        "term": "Counting Numbers",
+        "definition": "The positive whole numbers 1, 2, 3, 4, ... used for counting objects."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "A classroom has 27 students. Is 27 a counting number?",
+        "solution_steps": [
+          "27 is a positive whole number used to count a real quantity of objects (students)"
+        ],
+        "answer": "Yes, 27 is a counting number"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Is 0 a counting number?",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Is 3.5 a counting number?",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "No \u2014 counting starts from 1, not 0.",
+      "No \u2014 counting numbers must be whole numbers."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain the relationship between counting numbers and natural numbers.",
+        "marks": 1,
+        "answer": "Counting numbers are the same as natural numbers under the convention where the natural numbers start at 1 (excluding 0)."
+      }
+    ],
+    "common_mistakes": [
+      "Including 0 as a counting number",
+      "Including fractions or decimals as counting numbers"
+    ],
+    "tips": [
+      "Think of counting numbers as literally what you say when counting real objects: 1, 2, 3, ..."
+    ],
+    "summary": "Counting numbers are the positive whole numbers starting from 1, used to count discrete objects.",
+    "quick_revision_notes": [
+      "Counting numbers = {1,2,3,4,...}",
+      "Equivalent to natural numbers (excluding 0 convention)"
+    ],
+    "related_prerequisite_topics": [
+      "Natural Numbers",
+      "Whole Numbers"
+    ],
+    "images": []
+  },
+  {
+    "id": 29,
+    "category": "Number & Arithmetic",
+    "topic": "Consecutive Numbers",
+    "explanation": "Consecutive numbers are numbers that follow each other in order, each one more than the previous, such as 5, 6, 7, 8. Consecutive even numbers increase by 2 each time (e.g. 4, 6, 8), as do consecutive odd numbers (e.g. 3, 5, 7). Consecutive number problems are common in algebraic word problems and proofs.",
+    "key_concepts": [
+      "Consecutive integers: n, n+1, n+2, ...",
+      "Consecutive even numbers: 2n, 2n+2, 2n+4, ...",
+      "Consecutive odd numbers: 2n+1, 2n+3, 2n+5, ...",
+      "Used to set up algebraic equations from word problems"
+    ],
+    "definitions": [
+      {
+        "term": "Consecutive Numbers",
+        "definition": "Numbers that follow one another in sequence, each differing from the next by a constant amount (usually 1)."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Three consecutive integers sum to 72. Find the integers.",
+        "solution_steps": [
+          "Let the integers be n, n+1, n+2",
+          "Sum: n + (n+1) + (n+2) = 72",
+          "3n + 3 = 72",
+          "3n = 69",
+          "n = 23"
+        ],
+        "answer": "23, 24, 25"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find three consecutive even numbers that sum to 60.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Two consecutive odd numbers multiply to give 143. Find the numbers.",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "18, 20, 22",
+      "11 and 13 (since 11\u00d713 = 143)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The sum of four consecutive integers is 90. Find the largest of the four integers.",
+        "marks": 3,
+        "answer": "Let integers be n, n+1, n+2, n+3. Sum = 4n+6 = 90, so n = 21. Largest integer = n+3 = 24."
+      }
+    ],
+    "common_mistakes": [
+      "Using n, n+2, n+4 for consecutive integers instead of consecutive even/odd numbers",
+      "Forgetting consecutive odd/even numbers differ by 2, not 1"
+    ],
+    "tips": [
+      "Always define your first unknown as 'n' and express the rest relative to it \u2014 this keeps algebraic word problems organized."
+    ],
+    "summary": "Consecutive numbers follow a fixed pattern (differ by 1 for integers, by 2 for even/odd numbers) and are commonly used to set up algebraic equations.",
+    "quick_revision_notes": [
+      "Consecutive integers: n, n+1, n+2...",
+      "Consecutive even/odd: differ by 2"
+    ],
+    "related_prerequisite_topics": [
+      "Integers",
+      "Even Numbers",
+      "Odd Numbers",
+      "Forming Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 30,
+    "category": "Number & Arithmetic",
+    "topic": "Square Numbers",
+    "explanation": "A square number (or perfect square) is the result of multiplying an integer by itself. Square numbers get their name because they can be arranged into a perfect square grid of dots, e.g. 9 = 3\u00d73 can form a 3-by-3 grid. The first few square numbers are 1, 4, 9, 16, 25, 36...",
+    "key_concepts": [
+      "Square number = n \u00d7 n = n\u00b2, for integer n",
+      "Can be visually arranged as a square grid of dots",
+      "The difference between consecutive square numbers increases by 2 each time (1,4,9,16... differences are 3,5,7...)",
+      "All square numbers are non-negative"
+    ],
+    "definitions": [
+      {
+        "term": "Square Number",
+        "definition": "A number obtained by multiplying an integer by itself: n\u00b2."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "nth square number",
+        "formula": "n\u00b2",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the 10th square number.",
+        "solution_steps": [
+          "10\u00b2 = 10 \u00d7 10 = 100"
+        ],
+        "answer": "100"
+      },
+      {
+        "problem": "Is 50 a square number?",
+        "solution_steps": [
+          "\u221a50 \u2248 7.07, not a whole number",
+          "So 50 is not a perfect square (7\u00b2=49, 8\u00b2=64, and 50 falls between)"
+        ],
+        "answer": "No"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "List the first eight square numbers.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Is 144 a square number? If so, what is its square root?",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "1, 4, 9, 16, 25, 36, 49, 64",
+      "Yes, \u221a144 = 12"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Show that the sum of the first n odd numbers equals n\u00b2, using n=4 as an example.",
+        "marks": 3,
+        "answer": "First 4 odd numbers: 1+3+5+7 = 16 = 4\u00b2. This illustrates the general pattern that the sum of the first n odd numbers equals n\u00b2."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing 'square number' with 'squaring a number' generally (square numbers specifically come from integers)",
+      "Thinking negative numbers can't produce square numbers when squared (e.g. (-4)\u00b2 = 16 is still a square number)"
+    ],
+    "tips": [
+      "Memorize the square numbers up to 15\u00b2 (225) \u2014 they appear constantly in surds, factoring, and Pythagoras problems."
+    ],
+    "summary": "Square numbers result from multiplying an integer by itself and can be arranged into square dot grids.",
+    "quick_revision_notes": [
+      "n\u00b2 for integer n",
+      "1,4,9,16,25,36,49,64,81,100...",
+      "Differences between consecutive squares increase by 2"
+    ],
+    "related_prerequisite_topics": [
+      "Perfect Squares",
+      "Multiples",
+      "Indices"
+    ],
+    "images": [
+      {
+        "filename": "squarenumbers-30-grid.svg",
+        "type": "mathematical_visual",
+        "description": "A grid of dots arranged in a 4x4 square to visually represent 16 as a square number.",
+        "purpose": "Shows a 4\u00d74 grid of dots to demonstrate why 16 is called a 'square number'.",
+        "placement": "After the Explanation section, before Key Concepts"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "category": "Number & Arithmetic",
+    "topic": "Cube Numbers",
+    "explanation": "A cube number is the result of multiplying an integer by itself three times (n \u00d7 n \u00d7 n = n\u00b3). Cube numbers get their name because they represent the volume of a cube with whole-number side lengths. The first few cube numbers are 1, 8, 27, 64, 125...",
+    "key_concepts": [
+      "Cube number = n\u00b3 = n \u00d7 n \u00d7 n, for integer n",
+      "Represents the volume of a cube with side length n",
+      "Cube numbers can be negative (e.g. (-2)\u00b3 = -8), unlike square numbers",
+      "The cube root undoes cubing: \u221b125 = 5"
+    ],
+    "definitions": [
+      {
+        "term": "Cube Number",
+        "definition": "A number obtained by multiplying an integer by itself three times: n\u00b3."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "nth cube number",
+        "formula": "n\u00b3",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the 5th cube number.",
+        "solution_steps": [
+          "5\u00b3 = 5 \u00d7 5 \u00d7 5 = 125"
+        ],
+        "answer": "125"
+      },
+      {
+        "problem": "Evaluate (-3)\u00b3",
+        "solution_steps": [
+          "(-3)\u00b3 = (-3) \u00d7 (-3) \u00d7 (-3)",
+          "(-3)\u00d7(-3) = 9",
+          "9 \u00d7 (-3) = -27"
+        ],
+        "answer": "-27"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "List the first six cube numbers.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find \u221b216.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "1, 8, 27, 64, 125, 216",
+      "6 (since 6\u00b3 = 216)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A cube-shaped storage box has a volume of 343 cm\u00b3. Find the length of one side.",
+        "marks": 2,
+        "answer": "Side = \u221b343 = 7 cm"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting that cubes of negative numbers are negative (unlike squares, which are always positive)",
+      "Confusing n\u00b3 with 3n"
+    ],
+    "tips": [
+      "Unlike square roots, cube roots of negative numbers are real (e.g. \u221b-8 = -2), so don't discard negative solutions when cube rooting."
+    ],
+    "summary": "Cube numbers result from multiplying an integer by itself three times; they represent the volume of a cube and can be negative.",
+    "quick_revision_notes": [
+      "n\u00b3",
+      "1,8,27,64,125,216...",
+      "Negative numbers cubed give negative results"
+    ],
+    "related_prerequisite_topics": [
+      "Square Numbers",
+      "Perfect Cubes",
+      "Indices"
+    ],
+    "images": []
+  },
+  {
+    "id": 32,
+    "category": "Number & Arithmetic",
+    "topic": "Perfect Squares",
+    "explanation": "A perfect square is a number that is the square of an integer \u2014 meaning its square root is a whole number. 'Perfect square' and 'square number' refer to the same concept: 1, 4, 9, 16, 25, and so on. Recognizing perfect squares is crucial for simplifying surds and factorizing quadratic expressions.",
+    "key_concepts": [
+      "A perfect square has a whole-number square root",
+      "Perfect squares: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225...",
+      "Used to simplify surds by extracting perfect square factors",
+      "Perfect square trinomials (like x\u00b2+6x+9) factor into a squared binomial"
+    ],
+    "definitions": [
+      {
+        "term": "Perfect Square",
+        "definition": "A number whose square root is an integer; equivalently, a number of the form n\u00b2 for integer n."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Simplify \u221a72 by identifying the largest perfect square factor.",
+        "solution_steps": [
+          "Find the largest perfect square factor of 72: 72 = 36 \u00d7 2",
+          "\u221a72 = \u221a36 \u00d7 \u221a2",
+          "\u221a36 = 6"
+        ],
+        "answer": "6\u221a2"
+      },
+      {
+        "problem": "Is 225 a perfect square?",
+        "solution_steps": [
+          "\u221a225 = 15, which is a whole number"
+        ],
+        "answer": "Yes, 225 = 15\u00b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "List all perfect squares between 1 and 100.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Simplify \u221a98 using perfect square factors.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "1, 4, 9, 16, 25, 36, 49, 64, 81, 100",
+      "\u221a98 = \u221a(49\u00d72) = 7\u221a2"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Factorize x\u00b2 + 10x + 25, recognising it as a perfect square trinomial.",
+        "marks": 2,
+        "answer": "x\u00b2 + 10x + 25 = (x + 5)\u00b2"
+      }
+    ],
+    "common_mistakes": [
+      "Not finding the LARGEST perfect square factor when simplifying surds (leads to incomplete simplification)",
+      "Assuming a number is a perfect square just because it's even"
+    ],
+    "tips": [
+      "Memorize perfect squares up to at least 15\u00b2 \u2014 this speeds up surd simplification and factorization dramatically."
+    ],
+    "summary": "Perfect squares are numbers with whole-number square roots; recognizing them helps simplify surds and factorize expressions.",
+    "quick_revision_notes": [
+      "Perfect square = n\u00b2 for integer n",
+      "Key list: 1,4,9,16,25,36,49,64,81,100,121,144,169,196,225"
+    ],
+    "related_prerequisite_topics": [
+      "Square Numbers",
+      "Simplifying Surds",
+      "Factorising Expressions"
+    ],
+    "images": []
+  },
+  {
+    "id": 33,
+    "category": "Number & Arithmetic",
+    "topic": "Perfect Cubes",
+    "explanation": "A perfect cube is a number that is the cube of an integer \u2014 its cube root is a whole number. 'Perfect cube' and 'cube number' refer to the same concept: 1, 8, 27, 64, 125, and so on. Recognizing perfect cubes helps simplify cube roots and factor sum/difference of cubes expressions.",
+    "key_concepts": [
+      "A perfect cube has a whole-number cube root",
+      "Perfect cubes: 1, 8, 27, 64, 125, 216, 343, 512, 729, 1000...",
+      "Negative integers cubed give negative perfect cubes (e.g. -8 = (-2)\u00b3)",
+      "Used in simplifying cube roots and factorizing sum/difference of cubes"
+    ],
+    "definitions": [
+      {
+        "term": "Perfect Cube",
+        "definition": "A number whose cube root is an integer; equivalently, a number of the form n\u00b3 for integer n."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Is 512 a perfect cube?",
+        "solution_steps": [
+          "\u221b512 = 8, since 8\u00b3 = 512"
+        ],
+        "answer": "Yes, 512 = 8\u00b3"
+      },
+      {
+        "problem": "Simplify \u221b250 by identifying the largest perfect cube factor.",
+        "solution_steps": [
+          "250 = 125 \u00d7 2",
+          "\u221b250 = \u221b125 \u00d7 \u221b2",
+          "\u221b125 = 5"
+        ],
+        "answer": "5\u221b2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "List the first six perfect cubes.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Simplify \u221b54.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "1, 8, 27, 64, 125, 216",
+      "\u221b54 = \u221b(27\u00d72) = 3\u221b2"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A cube-shaped tank has a volume of 1000 litres. If 1 litre = 1000 cm\u00b3, find the side length of the tank in cm.",
+        "marks": 3,
+        "answer": "Volume = 1,000,000 cm\u00b3. Side = \u221b1,000,000 = 100 cm."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting negative numbers can be perfect cubes (e.g. -27 = (-3)\u00b3)",
+      "Confusing perfect cube factor extraction with perfect square factor extraction"
+    ],
+    "tips": [
+      "When simplifying cube roots, look specifically for factors that are perfect cubes (1, 8, 27, 64, 125...), not perfect squares."
+    ],
+    "summary": "Perfect cubes are numbers with whole-number cube roots; they can be positive or negative and are used to simplify cube root expressions.",
+    "quick_revision_notes": [
+      "Perfect cube = n\u00b3",
+      "1,8,27,64,125,216,343,512,729,1000",
+      "Can be negative"
+    ],
+    "related_prerequisite_topics": [
+      "Cube Numbers",
+      "Perfect Squares"
+    ],
+    "images": []
+  },
+  {
+    "id": 34,
+    "category": "Number & Arithmetic",
+    "topic": "Triangular Numbers",
+    "explanation": "A triangular number is the number of dots needed to form an equilateral triangle pattern, where each row has one more dot than the row above. The nth triangular number equals the sum of all whole numbers from 1 to n, and can be calculated with the formula n(n+1)/2. The first few triangular numbers are 1, 3, 6, 10, 15...",
+    "key_concepts": [
+      "Triangular numbers form a triangular dot pattern",
+      "The nth triangular number = 1 + 2 + 3 + ... + n = n(n+1)/2",
+      "First few: 1, 3, 6, 10, 15, 21, 28...",
+      "Each triangular number is the previous one plus the next integer"
+    ],
+    "definitions": [
+      {
+        "term": "Triangular Number",
+        "definition": "A number that can be represented as a triangular arrangement of dots; the nth triangular number equals n(n+1)/2."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "nth triangular number",
+        "formula": "T\u2099 = n(n+1)/2",
+        "notes": "Also the formula for the sum of the first n positive integers."
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the 8th triangular number.",
+        "solution_steps": [
+          "T\u2088 = 8(8+1)/2 = 8\u00d79/2 = 72/2"
+        ],
+        "answer": "36"
+      },
+      {
+        "problem": "Which triangular number is 55?",
+        "solution_steps": [
+          "Solve n(n+1)/2 = 55",
+          "n(n+1) = 110",
+          "Try n=10: 10\u00d711=110 \u2713"
+        ],
+        "answer": "The 10th triangular number (T\u2081\u2080 = 55)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the 12th triangular number.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Show that the 5th triangular number equals 1+2+3+4+5.",
+        "difficulty": "easy"
+      }
+    ],
+    "answers": [
+      "T\u2081\u2082 = 12\u00d713/2 = 78",
+      "1+2+3+4+5 = 15, and T\u2085 = 5\u00d76/2 = 15, confirming the pattern."
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A stack of cans is arranged so that each row has one more can than the row above, with 1 can on top and 9 rows total. How many cans are there in total?",
+        "marks": 2,
+        "answer": "This is the 9th triangular number: T\u2089 = 9\u00d710/2 = 45 cans."
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to divide by 2 in the formula",
+      "Miscounting the number of rows/terms when applying the formula"
+    ],
+    "tips": [
+      "Triangular numbers are exactly the running totals when adding consecutive integers 1+2+3+..."
+    ],
+    "summary": "Triangular numbers represent sums of consecutive integers from 1 to n, calculated using T\u2099 = n(n+1)/2.",
+    "quick_revision_notes": [
+      "T\u2099 = n(n+1)/2",
+      "1,3,6,10,15,21,28..."
+    ],
+    "related_prerequisite_topics": [
+      "Number Patterns",
+      "Arithmetic Series",
+      "Sum of Arithmetic Series"
+    ],
+    "images": [
+      {
+        "filename": "triangularnumbers-34-dots.svg",
+        "type": "mathematical_visual",
+        "description": "A triangular arrangement of dots with rows of 1, 2, 3, 4 dots stacked to visually build T\u2084=10.",
+        "purpose": "Shows a triangular dot arrangement to demonstrate why T4=10 is called a 'triangular number'.",
+        "placement": "After the Explanation section, before Key Concepts"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "category": "Number & Arithmetic",
+    "topic": "Fibonacci Numbers",
+    "explanation": "The Fibonacci sequence is a series of numbers where each term is the sum of the two preceding terms, starting with 0 and 1 (or sometimes 1 and 1): 0, 1, 1, 2, 3, 5, 8, 13, 21, 34... Fibonacci numbers appear throughout nature (spiral patterns in shells, flower petals, pinecones) and are closely linked to the golden ratio.",
+    "key_concepts": [
+      "Each term = sum of the previous two terms",
+      "Standard sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55...",
+      "Defined recursively: F\u2099 = F\u2099\u208b\u2081 + F\u2099\u208b\u2082",
+      "The ratio of consecutive Fibonacci numbers approaches the golden ratio \u03c6 \u2248 1.618 as n increases"
+    ],
+    "definitions": [
+      {
+        "term": "Fibonacci Sequence",
+        "definition": "A sequence where each term is the sum of the two preceding terms, typically starting 0, 1, 1, 2, 3, 5..."
+      },
+      {
+        "term": "Golden Ratio (\u03c6)",
+        "definition": "The value approximately 1.618, approached by the ratio of consecutive Fibonacci numbers."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Fibonacci recurrence",
+        "formula": "F\u2099 = F\u2099\u208b\u2081 + F\u2099\u208b\u2082, with F\u2080=0, F\u2081=1",
+        "notes": ""
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the next three terms after 5, 8, 13, 21, 34.",
+        "solution_steps": [
+          "Next term = 21 + 34 = 55",
+          "Next term = 34 + 55 = 89",
+          "Next term = 55 + 89 = 144"
+        ],
+        "answer": "55, 89, 144"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Write the first 10 terms of the Fibonacci sequence, starting 0, 1.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "If F\u2099 = 13 and F\u2099\u208b\u2081 = 8, find F\u2099\u208a\u2081.",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "0, 1, 1, 2, 3, 5, 8, 13, 21, 34",
+      "F\u2099\u208a\u2081 = F\u2099 + F\u2099\u208b\u2081 = 13 + 8 = 21"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Explain why the Fibonacci sequence is called a 'recursive' sequence.",
+        "marks": 2,
+        "answer": "It is recursive because each term is defined in terms of previous terms in the same sequence (specifically, the sum of the two immediately preceding terms), rather than by a direct formula based on position alone."
+      }
+    ],
+    "common_mistakes": [
+      "Starting the sequence incorrectly (some definitions start 1, 1 instead of 0, 1 \u2014 both are used, so state your starting convention)",
+      "Adding the wrong pair of preceding terms"
+    ],
+    "tips": [
+      "To generate more terms quickly, just keep adding the last two numbers you wrote down."
+    ],
+    "summary": "Fibonacci numbers form a sequence where each term is the sum of the previous two, connected to the golden ratio and widely observed in nature.",
+    "quick_revision_notes": [
+      "F\u2099 = F\u2099\u208b\u2081 + F\u2099\u208b\u2082",
+      "0,1,1,2,3,5,8,13,21,34,55...",
+      "Ratio \u2192 golden ratio \u03c6 \u22481.618"
+    ],
+    "related_prerequisite_topics": [
+      "Number Patterns",
+      "Recurrence Relations",
+      "Sequences"
+    ],
+    "images": []
+  },
+  {
+    "id": 36,
+    "category": "Number & Arithmetic",
+    "topic": "Arithmetic Sequences",
+    "explanation": "An arithmetic sequence is a list of numbers where the difference between consecutive terms is always the same, called the common difference. For example, 2, 5, 8, 11, 14 is arithmetic with common difference 3. Arithmetic sequences are found throughout finance, physics, and everyday patterns, and are studied in detail in the Sequences & Series category.",
+    "key_concepts": [
+      "Consecutive terms differ by a constant amount (the common difference, d)",
+      "The nth term formula is a\u2099 = a\u2081 + (n-1)d",
+      "Can increase (d > 0) or decrease (d < 0)",
+      "Full treatment (series, sums) is covered under Arithmetic Progressions and Arithmetic Series"
+    ],
+    "definitions": [
+      {
+        "term": "Arithmetic Sequence",
+        "definition": "A sequence in which the difference between consecutive terms is constant."
+      },
+      {
+        "term": "Common Difference (d)",
+        "definition": "The constant amount added to each term to get the next term in an arithmetic sequence."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "nth term",
+        "formula": "a\u2099 = a\u2081 + (n-1)d",
+        "notes": "a\u2081 = first term, d = common difference, n = term number"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the 10th term of the sequence 4, 9, 14, 19...",
+        "solution_steps": [
+          "First term a\u2081 = 4, common difference d = 5",
+          "a\u2081\u2080 = 4 + (10-1)\u00d75 = 4 + 45"
+        ],
+        "answer": "49"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the common difference of the sequence 20, 17, 14, 11...",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the 15th term of the sequence 3, 8, 13, 18...",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "-3",
+      "a\u2081\u2085 = 3 + 14\u00d75 = 73"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The 4th term of an arithmetic sequence is 20 and the common difference is 6. Find the first term.",
+        "marks": 2,
+        "answer": "a\u2084 = a\u2081 + 3d \u2192 20 = a\u2081 + 18 \u2192 a\u2081 = 2"
+      }
+    ],
+    "common_mistakes": [
+      "Using n instead of (n-1) in the formula",
+      "Miscalculating the common difference (should be term\u2082 - term\u2081, checked consistently)"
+    ],
+    "tips": [
+      "Always verify the common difference using at least two pairs of consecutive terms before applying the formula."
+    ],
+    "summary": "Arithmetic sequences have a constant difference between terms, described by a\u2099 = a\u2081 + (n-1)d.",
+    "quick_revision_notes": [
+      "Constant common difference d",
+      "a\u2099 = a\u2081 + (n-1)d"
+    ],
+    "related_prerequisite_topics": [
+      "Number Patterns",
+      "Arithmetic Progressions",
+      "Linear Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 37,
+    "category": "Number & Arithmetic",
+    "topic": "Geometric Sequences",
+    "explanation": "A geometric sequence is a list of numbers where each term is found by multiplying the previous term by a constant value, called the common ratio. For example, 3, 6, 12, 24, 48 is geometric with common ratio 2. Geometric sequences model exponential growth and decay and are studied in full detail under Geometric Progressions in the Sequences & Series category.",
+    "key_concepts": [
+      "Consecutive terms have a constant ratio (the common ratio, r)",
+      "The nth term formula is a\u2099 = a\u2081 \u00d7 r^(n-1)",
+      "If |r| > 1, terms grow; if 0 < |r| < 1, terms shrink toward zero",
+      "Full treatment (series, sums) is covered under Geometric Progressions and Geometric Series"
+    ],
+    "definitions": [
+      {
+        "term": "Geometric Sequence",
+        "definition": "A sequence in which each term is obtained by multiplying the previous term by a constant ratio."
+      },
+      {
+        "term": "Common Ratio (r)",
+        "definition": "The constant factor by which each term is multiplied to get the next term."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "nth term",
+        "formula": "a\u2099 = a\u2081 \u00d7 r^(n-1)",
+        "notes": "a\u2081 = first term, r = common ratio, n = term number"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Find the 6th term of the sequence 2, 6, 18, 54...",
+        "solution_steps": [
+          "a\u2081 = 2, r = 3",
+          "a\u2086 = 2 \u00d7 3^(6-1) = 2 \u00d7 3\u2075 = 2 \u00d7 243"
+        ],
+        "answer": "486"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the common ratio of the sequence 100, 50, 25, 12.5...",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the 5th term of the sequence 5, 15, 45...",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "0.5 (or 1/2)",
+      "a\u2085 = 5 \u00d7 3\u2074 = 405"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The 3rd term of a geometric sequence is 18, and the common ratio is 3. Find the first term.",
+        "marks": 2,
+        "answer": "a\u2083 = a\u2081 \u00d7 r\u00b2 \u2192 18 = a\u2081 \u00d7 9 \u2192 a\u2081 = 2"
+      }
+    ],
+    "common_mistakes": [
+      "Using n instead of (n-1) as the exponent",
+      "Confusing the common ratio with the common difference (using subtraction instead of division to find r)"
+    ],
+    "tips": [
+      "Find r by dividing any term by the one before it \u2014 check this is consistent across at least two pairs before trusting the pattern."
+    ],
+    "summary": "Geometric sequences have a constant ratio between terms, described by a\u2099 = a\u2081 \u00d7 r^(n-1).",
+    "quick_revision_notes": [
+      "Constant common ratio r",
+      "a\u2099 = a\u2081 \u00d7 r^(n-1)"
+    ],
+    "related_prerequisite_topics": [
+      "Arithmetic Sequences",
+      "Geometric Progressions",
+      "Exponential Growth"
+    ],
+    "images": []
+  },
+  {
+    "id": 38,
+    "category": "Number & Arithmetic",
+    "topic": "Number Patterns",
+    "explanation": "A number pattern (or sequence pattern) is a set of numbers that follow a specific, predictable rule. Recognizing the rule \u2014 whether it's a constant difference, a constant ratio, or something more complex like squaring or alternating \u2014 allows you to predict future terms and describe the pattern algebraically.",
+    "key_concepts": [
+      "Patterns can be arithmetic (constant difference), geometric (constant ratio), or based on other rules (squares, cubes, alternating signs)",
+      "Look at first differences, then second differences, to identify the type of pattern",
+      "Constant first differences \u2192 arithmetic (linear) pattern",
+      "Constant second differences \u2192 quadratic pattern"
+    ],
+    "definitions": [
+      {
+        "term": "Number Pattern",
+        "definition": "A sequence of numbers arranged according to a consistent, identifiable rule."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Find the next term in the pattern: 1, 4, 9, 16, 25, ...",
+        "solution_steps": [
+          "Recognize these are square numbers: 1\u00b2, 2\u00b2, 3\u00b2, 4\u00b2, 5\u00b2",
+          "Next term is 6\u00b2"
+        ],
+        "answer": "36"
+      },
+      {
+        "problem": "Find the rule for the pattern 2, 5, 10, 17, 26...",
+        "solution_steps": [
+          "First differences: 3, 5, 7, 9 (not constant)",
+          "Second differences: 2, 2, 2 (constant) \u2192 quadratic pattern",
+          "Compare to n\u00b2: 1,4,9,16,25 \u2192 pattern is n\u00b2+1"
+        ],
+        "answer": "The rule is n\u00b2 + 1"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the next two terms: 3, 7, 11, 15, ...",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Find the next term: 1, 1, 2, 3, 5, 8, ...",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Find the nth term rule for: 5, 8, 13, 20, 29...",
+        "difficulty": "hard"
+      }
+    ],
+    "answers": [
+      "19, 23",
+      "13 (Fibonacci pattern: sum of previous two terms)",
+      "n\u00b2 + 4"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "The pattern 4, 7, 10, 13... continues in the same way. Find an expression for the nth term, and use it to find the 20th term.",
+        "marks": 3,
+        "answer": "nth term = 3n + 1 (common difference 3, first term 4 = 3(1)+1). 20th term = 3(20)+1 = 61."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming a pattern is arithmetic without checking the differences are truly constant",
+      "Not checking second differences when first differences aren't constant"
+    ],
+    "tips": [
+      "Always compute at least the first and second differences before deciding what type of pattern you're dealing with."
+    ],
+    "summary": "Number patterns follow identifiable rules; checking first and second differences helps classify and describe them algebraically.",
+    "quick_revision_notes": [
+      "Constant 1st differences \u2192 linear/arithmetic",
+      "Constant 2nd differences \u2192 quadratic",
+      "Check ratios for geometric patterns"
+    ],
+    "related_prerequisite_topics": [
+      "Arithmetic Sequences",
+      "Geometric Sequences",
+      "Quadratic Sequences"
+    ],
+    "images": []
+  },
+  {
+    "id": 39,
+    "category": "Number & Arithmetic",
+    "topic": "Order of Operations (BODMAS/PEMDAS)",
+    "explanation": "The order of operations is the agreed sequence in which mathematical operations must be carried out so that any expression has one unambiguous value. It's remembered using acronyms like BODMAS/BIDMAS (Brackets, Orders/Indices, Division, Multiplication, Addition, Subtraction) or PEMDAS (Parentheses, Exponents, Multiplication, Division, Addition, Subtraction). Multiplication/division are done together left to right, and addition/subtraction are done together left to right.",
+    "key_concepts": [
+      "Brackets/Parentheses are evaluated first",
+      "Orders/Exponents (powers and roots) come next",
+      "Multiplication and Division have equal priority \u2014 work left to right",
+      "Addition and Subtraction have equal priority \u2014 work left to right",
+      "Without this convention, expressions like 2+3\u00d74 would be ambiguous"
+    ],
+    "definitions": [
+      {
+        "term": "BODMAS/BIDMAS",
+        "definition": "Brackets, Orders/Indices, Division, Multiplication, Addition, Subtraction \u2014 the UK convention acronym for order of operations."
+      },
+      {
+        "term": "PEMDAS",
+        "definition": "Parentheses, Exponents, Multiplication, Division, Addition, Subtraction \u2014 the US convention acronym for order of operations (same rule as BODMAS)."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Evaluate 3 + 4 \u00d7 2",
+        "solution_steps": [
+          "Multiplication before addition: 4 \u00d7 2 = 8",
+          "3 + 8 = 11"
+        ],
+        "answer": "11"
+      },
+      {
+        "problem": "Evaluate (5 + 3)\u00b2 \u00f7 4 - 1",
+        "solution_steps": [
+          "Brackets first: 5+3 = 8",
+          "Orders: 8\u00b2 = 64",
+          "Division: 64 \u00f7 4 = 16",
+          "Subtraction: 16 - 1 = 15"
+        ],
+        "answer": "15"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Evaluate 10 - 2 \u00d7 3",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Evaluate (6 + 2) \u00d7 3 - 4\u00b2",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Evaluate 20 \u00f7 (2 + 3) \u00d7 4 - 1",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "4",
+      "8 (since (6+2)\u00d73=24, 4\u00b2=16, 24-16=8)",
+      "15 (20\u00f75=4, 4\u00d74=16, 16-1=15)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "Insert brackets into 2 + 3 \u00d7 4 - 1 so that the expression equals 19.",
+        "marks": 2,
+        "answer": "(2 + 3) \u00d7 (4 - 1) = 5 \u00d7 3 = 15 \u2014 not quite; correct answer: 2 + 3 \u00d7 (4-1) = 2+9 = 11 also not 19. Try 2 + 3 \u00d7 4 + 1 arrangement isn't valid since brackets must be inserted: (2+3)\u00d74-1 = 20-1 =19. Answer: (2+3)\u00d74-1 = 19."
+      }
+    ],
+    "common_mistakes": [
+      "Doing addition/subtraction before multiplication/division",
+      "Believing multiplication always comes before division (they have equal priority \u2014 go left to right)",
+      "Believing addition always comes before subtraction (they have equal priority \u2014 go left to right)",
+      "Forgetting to evaluate exponents before other operations"
+    ],
+    "tips": [
+      "Remember M and D are 'tied' in priority (do left to right), and so are A and S \u2014 BODMAS is a helpful memory aid, not a strict left-to-right hierarchy for every letter."
+    ],
+    "summary": "Order of operations (BODMAS/PEMDAS) ensures expressions have one correct value: Brackets, then Orders/Exponents, then Multiplication/Division (left to right), then Addition/Subtraction (left to right).",
+    "quick_revision_notes": [
+      "B/P \u2192 O/E \u2192 DM (left to right) \u2192 AS (left to right)",
+      "M and D are equal priority; A and S are equal priority"
+    ],
+    "related_prerequisite_topics": [
+      "Algebraic Expressions",
+      "Index Notation",
+      "Evaluating Expressions"
+    ],
+    "images": []
+  },
+  {
+    "id": 40,
+    "category": "Number & Arithmetic",
+    "topic": "Significant Figures",
+    "explanation": "Significant figures are the digits in a number that carry meaningful information about its precision. Rounding to a given number of significant figures is used to express numbers to an appropriate level of accuracy, especially in scientific and real-world measurement contexts. Leading zeros are never significant, but zeros between or after other significant digits often are.",
+    "key_concepts": [
+      "All non-zero digits are significant",
+      "Zeros between non-zero digits are significant (e.g. 205 has 3 sig figs)",
+      "Leading zeros are never significant (e.g. 0.0032 has 2 sig figs)",
+      "Trailing zeros after a decimal point ARE significant (e.g. 3.500 has 4 sig figs)",
+      "Trailing zeros in a whole number without a decimal point are ambiguous and depend on context"
+    ],
+    "definitions": [
+      {
+        "term": "Significant Figures",
+        "definition": "The digits in a number that contribute to its precision, starting from the first non-zero digit."
+      }
+    ],
+    "formulas": [],
+    "worked_examples": [
+      {
+        "problem": "Round 27,483 to 2 significant figures.",
+        "solution_steps": [
+          "Identify the first 2 significant digits: 2 and 7",
+          "Look at the next digit (4) to decide rounding: 4 rounds down",
+          "Replace remaining digits with zeros to keep place value"
+        ],
+        "answer": "27,000"
+      },
+      {
+        "problem": "Round 0.004672 to 3 significant figures.",
+        "solution_steps": [
+          "Leading zeros (0.00) are not significant",
+          "First 3 significant digits: 4, 6, 7",
+          "Next digit is 2, so round down"
+        ],
+        "answer": "0.00467"
+      }
+    ],
+    "practice_questions": [
+      {
+        "question": "Round 5,847 to 1 significant figure.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Round 0.09384 to 2 significant figures.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "How many significant figures does 3.0500 have?",
+        "difficulty": "medium"
+      }
+    ],
+    "answers": [
+      "6,000",
+      "0.094",
+      "5 significant figures (all digits count, including trailing zeros after the decimal point)"
+    ],
+    "exam_style_questions": [
+      {
+        "question": "A measured length is 12.396 cm. Round this to 3 significant figures and explain your rounding decision.",
+        "marks": 2,
+        "answer": "12.4 cm \u2014 the digit after the third significant figure (9) is 9, which rounds the 3 up to 4."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing significant figures with decimal places",
+      "Treating leading zeros as significant",
+      "Losing track of place value when rounding large numbers (e.g. writing 27 instead of 27,000)"
+    ],
+    "tips": [
+      "When rounding a whole number, keep the correct place value by replacing removed digits with zeros, not by shortening the number."
+    ],
+    "summary": "Significant figures indicate a number's precision; leading zeros don't count, but zeros between or trailing after significant digits often do.",
+    "quick_revision_notes": [
+      "Non-zero digits: always significant",
+      "Leading zeros: never significant",
+      "Zeros between digits: significant",
+      "Trailing zeros after decimal point: significant"
+    ],
+    "related_prerequisite_topics": [
+      "Rounding Decimals",
+      "Place Value",
+      "Standard Form"
+    ],
+    "images": []
+  }
+]

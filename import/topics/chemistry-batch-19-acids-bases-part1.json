@@ -1,0 +1,462 @@
+{
+  "batch": "19",
+  "category": "Acids, Bases and Salts",
+  "topics_in_batch": 9,
+  "topics_completed_so_far": 194,
+  "topics_remaining_total": 305,
+  "topics": [
+
+    {
+      "id": "chem-187-acids",
+      "subject": "Chemistry",
+      "category": "Acids, Bases and Salts",
+      "title": "Acids",
+      "difficulty": "Foundation",
+      "description": "Substances that release hydrogen ions (H+) in aqueous solution, characterised by a sour taste, corrosive properties, and a pH below 7.",
+      "learning_objectives": [
+        "Define an acid in terms of hydrogen ion release",
+        "State common physical and chemical properties of acids",
+        "Name common laboratory and everyday acids"
+      ],
+      "explanation": "An acid is a substance that releases hydrogen ions, H+, when dissolved in water (following the Arrhenius definition, one of several definitions of acids used in chemistry, with the Brønsted-Lowry definition — a proton donor — being a more general, widely used alternative). Acids typically have a sour taste (though tasting chemicals is never done as a safety practice in a laboratory), are corrosive (particularly concentrated acids, which can cause skin and eye damage), turn blue litmus paper red, and have a pH value below 7 on the pH scale. Common laboratory acids include hydrochloric acid (HCl), sulfuric acid (H2SO4), and nitric acid (HNO3); common everyday acids include citric acid (in citrus fruits), acetic acid (vinegar), and carbonic acid (found in carbonated drinks).",
+      "key_concepts": ["Acid: releases H+ ions in aqueous solution", "Sour taste, corrosive, pH below 7, turns blue litmus red", "Common examples: HCl, H2SO4, HNO3"],
+      "definitions": [
+        {"term": "Acid", "definition": "A substance that releases hydrogen ions (H+) when dissolved in water."}
+      ],
+      "formulae": [],
+      "equations": ["HCl(g) → H+(aq) + Cl−(aq)   (in water)"],
+      "worked_examples": [],
+      "practical_applications": ["Acids are essential in numerous industrial processes (fertiliser production, metal cleaning/pickling), food preservation, and biological digestion (stomach acid)"],
+      "laboratory_applications": ["Using dilute acids (hydrochloric, sulfuric) in numerous standard reactions, including with metals, carbonates, and bases, and in titration experiments"],
+      "common_mistakes": ["Believing all acids are equally dangerous or corrosive — weak, dilute acids (such as dilute vinegar) are relatively mild, while concentrated strong acids can be extremely hazardous, requiring careful handling and appropriate PPE"],
+      "misconceptions": ["Believing acidity is simply about how 'strong-smelling' or 'dangerous' a substance is — acidity is specifically defined by hydrogen ion release/concentration, a property distinct from (though sometimes loosely associated with) general hazard level or smell"],
+      "tips": ["Remember the key identifying property: acids release H+ ions in water, giving them a pH below 7 and the ability to turn blue litmus paper red"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define an acid.", "answer": "A substance that releases hydrogen ions (H+) when dissolved in water."},
+          {"question": "State the colour change of blue litmus paper when dipped in an acid.", "answer": "It turns red."}
+        ],
+        "intermediate": [
+          {"question": "Name three common laboratory acids.", "answer": "Any three of: hydrochloric acid, sulfuric acid, nitric acid, ethanoic (acetic) acid, citric acid."},
+          {"question": "Explain why hydrochloric acid, HCl, is classified as an acid using the Arrhenius definition.", "answer": "When hydrochloric acid gas (or the pure compound) dissolves in water, it releases hydrogen ions, H+, into the solution (HCl → H+ + Cl−); since it releases hydrogen ions when dissolved in water, it meets the Arrhenius definition of an acid."}
+        ],
+        "advanced": [
+          {"question": "Explain why the Brønsted-Lowry definition of an acid (a proton donor) is considered more generally applicable than the Arrhenius definition (releases H+ in water).", "answer": "The Arrhenius definition specifically requires the acid to be dissolved in water and to release H+ ions into that aqueous solution, which restricts its applicability to reactions occurring in an aqueous (water-based) context. The Brønsted-Lowry definition, describing an acid as any species that donates a proton (H+) to another species, is not restricted to aqueous solutions and can be applied to a wider range of chemical contexts, including reactions occurring in non-aqueous solvents or even in the gas phase, where a species can still donate a proton to a suitable acceptor (a base) without water being directly involved; this makes the Brønsted-Lowry definition more broadly and generally applicable across a wider range of chemical situations than the more limited Arrhenius definition."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "State the Arrhenius definition of an acid, and name one common laboratory acid.", "marks": 2, "model_answer": "An acid is a substance that releases hydrogen ions (H+) when dissolved in water (1 mark). Example: hydrochloric acid (or sulfuric acid, or nitric acid) (1 mark)."}
+      ],
+      "summary": "Acids release hydrogen ions (H+) in aqueous solution (Arrhenius definition), giving them a sour taste, corrosive properties, a pH below 7, and the ability to turn blue litmus red. Common examples include hydrochloric, sulfuric, and nitric acid.",
+      "revision_notes": ["Acid: releases H+ in water (Arrhenius); more general: proton donor (Brønsted-Lowry)", "Properties: sour taste, corrosive, pH < 7, turns blue litmus red", "Common: HCl, H2SO4, HNO3"],
+      "related_topics": ["Bases", "Properties of Acids", "pH Scale", "Strong Acids", "Weak Acids"],
+      "prerequisites": ["Ions"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-188-bases",
+      "subject": "Chemistry",
+      "category": "Acids, Bases and Salts",
+      "title": "Bases",
+      "difficulty": "Foundation",
+      "description": "Substances that can neutralise acids, generally accepting hydrogen ions or releasing hydroxide ions, including metal oxides, hydroxides, and carbonates.",
+      "learning_objectives": [
+        "Define a base",
+        "Distinguish bases from alkalis",
+        "Give examples of common bases and their classification"
+      ],
+      "explanation": "A base is a substance that can neutralise an acid, generally by accepting hydrogen ions (following the Brønsted-Lowry definition, a base is a proton acceptor) or by reacting with an acid to form a salt and water. Common bases include metal oxides (e.g. copper(II) oxide, CuO), metal hydroxides (e.g. sodium hydroxide, NaOH), and metal carbonates (e.g. calcium carbonate, CaCO3). Bases that are soluble in water are specifically called alkalis (see Alkalis), and release hydroxide ions, OH−, into solution; not all bases are soluble (and therefore not all bases are alkalis), since many metal oxides and carbonates are insoluble in water but can still act as bases when reacted directly with an acid.",
+      "key_concepts": ["Base: neutralises acid, accepts H+ (Brønsted-Lowry)", "Includes metal oxides, hydroxides, carbonates", "Soluble bases = alkalis (release OH− in solution); not all bases are soluble"],
+      "definitions": [
+        {"term": "Base", "definition": "A substance that can neutralise an acid, generally by accepting hydrogen ions or reacting with an acid to form a salt and water."}
+      ],
+      "formulae": [],
+      "equations": [],
+      "worked_examples": [],
+      "practical_applications": ["Bases are used in numerous industrial applications, including neutralising acidic waste, soap and detergent manufacture (using sodium hydroxide), and agricultural soil treatment (using calcium oxide/hydroxide to correct acidic soils)"],
+      "laboratory_applications": ["Reacting insoluble metal oxides or carbonates (bases) with dilute acids to prepare soluble salts, an essential preparative technique in inorganic chemistry"],
+      "common_mistakes": ["Assuming all bases are alkalis — only SOLUBLE bases are correctly termed alkalis; many bases (such as most metal oxides and carbonates) are insoluble and are simply called bases, not alkalis"],
+      "misconceptions": ["Believing bases must always contain a hydroxide group to act as a base — metal oxides and carbonates can also act as bases, neutralising acids, without themselves containing a hydroxide group; the hydroxide ion is specifically associated with soluble alkalis, not all bases generally"],
+      "tips": ["Remember the key relationship: ALL alkalis are bases (since they neutralise acids), but NOT all bases are alkalis (only the soluble ones are)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a base.", "answer": "A substance that can neutralise an acid, generally by accepting hydrogen ions or reacting with an acid to form a salt and water."},
+          {"question": "Name three types of substance commonly classified as bases.", "answer": "Metal oxides, metal hydroxides, and metal carbonates."}
+        ],
+        "intermediate": [
+          {"question": "Explain the relationship between bases and alkalis.", "answer": "An alkali is specifically a base that is soluble in water, releasing hydroxide ions (OH−) into solution. All alkalis are therefore bases, but not all bases are alkalis, since many bases (such as most metal oxides and carbonates) are insoluble in water and therefore cannot be classified as alkalis, even though they can still neutralise acids when reacted with them directly."},
+          {"question": "Explain why copper(II) oxide, an insoluble base, can still react with and neutralise dilute sulfuric acid.", "answer": "Although copper(II) oxide is insoluble and does not dissolve to release ions into solution beforehand, it can still react directly with the acid when the two are mixed and heated; the oxide ions in the solid copper(II) oxide react directly with hydrogen ions from the acid (accepting protons, consistent with the Brønsted-Lowry definition of a base), forming water, while the copper ions combine with the sulfate ions from the acid to form the soluble salt, copper(II) sulfate. This direct reaction, even without the base first dissolving, is sufficient to classify copper(II) oxide as a base."}
+        ],
+        "advanced": [
+          {"question": "Explain, using the Brønsted-Lowry definition, why a base is described as a 'proton acceptor', using the reaction between ammonia and water as an example.", "answer": "According to the Brønsted-Lowry definition, a base is any species capable of accepting a proton (H+) from another species (an acid). In the reaction NH3 + H2O ⇌ NH4+ + OH−, the ammonia molecule (NH3) has a lone pair of electrons on its nitrogen atom, which it uses to accept (bond to) a proton donated by a water molecule (which is acting as the acid in this specific reaction, donating one of its protons); this proton transfer forms the ammonium ion, NH4+, and leaves a hydroxide ion, OH−, behind from the water molecule that donated the proton. Since ammonia accepts a proton in this reaction, it is correctly classified as a Brønsted-Lowry base, even though it does not itself contain a hydroxide group and is not, strictly speaking, an alkali in the Arrhenius sense until it reacts with water to generate hydroxide ions as a product of this proton-transfer reaction."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain the difference between a base and an alkali, giving one example of a base that is not an alkali.", "marks": 3, "model_answer": "A base is any substance that can neutralise an acid, generally by accepting hydrogen ions (1 mark). An alkali is specifically a base that is soluble in water, releasing hydroxide ions into solution; not all bases are soluble, so not all bases are alkalis (1 mark). Example of a base that is not an alkali: copper(II) oxide (or any other insoluble metal oxide/carbonate) (1 mark)."}
+      ],
+      "summary": "A base neutralises acids by accepting hydrogen ions (Brønsted-Lowry definition), including metal oxides, hydroxides, and carbonates. Soluble bases are specifically termed alkalis; not all bases are soluble, so not all bases are alkalis.",
+      "revision_notes": ["Base: neutralises acid, accepts H+ (proton acceptor)", "Includes: metal oxides, hydroxides, carbonates", "Alkali = SOLUBLE base (releases OH− in solution); not all bases are alkalis"],
+      "related_topics": ["Alkalis", "Acids", "Properties of Bases", "Neutralisation"],
+      "prerequisites": ["Acids"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-189-alkalis",
+      "subject": "Chemistry",
+      "category": "Acids, Bases and Salts",
+      "title": "Alkalis",
+      "difficulty": "Foundation",
+      "description": "Bases that are soluble in water, releasing hydroxide ions and forming solutions with a pH above 7.",
+      "learning_objectives": [
+        "Define an alkali",
+        "State common physical and chemical properties of alkalis",
+        "Name common laboratory and everyday alkalis"
+      ],
+      "explanation": "An alkali is a base that is soluble in water, dissolving to release hydroxide ions, OH−, into solution. Alkalis typically feel soapy or slippery to the touch (though this should never be tested deliberately in a laboratory setting for safety reasons), are corrosive (particularly concentrated alkalis), turn red litmus paper blue, and have a pH value above 7 on the pH scale. Common laboratory alkalis include sodium hydroxide (NaOH) and potassium hydroxide (KOH); common everyday alkalis include ammonia solution (used in some cleaning products) and calcium hydroxide (limewater, used in agriculture and construction).",
+      "key_concepts": ["Alkali: soluble base, releases OH− ions in solution", "Soapy/slippery feel, corrosive, pH above 7, turns red litmus blue", "Common examples: NaOH, KOH, ammonia solution"],
+      "definitions": [
+        {"term": "Alkali", "definition": "A base that is soluble in water, dissolving to release hydroxide ions (OH−) into solution."}
+      ],
+      "formulae": [],
+      "equations": ["NaOH(s) → Na+(aq) + OH−(aq)   (dissolving in water)"],
+      "worked_examples": [],
+      "practical_applications": ["Alkalis are used extensively in soap and detergent manufacture, water treatment, food processing (e.g. curing olives), and numerous industrial neutralisation and cleaning processes"],
+      "laboratory_applications": ["Using dilute sodium hydroxide solution in acid-base titrations and in preparative reactions with acids to produce soluble salts"],
+      "common_mistakes": ["Assuming any basic solution is automatically an alkali — while all alkalis produce a solution with pH above 7 and are indeed bases, the specific term 'alkali' should be reserved for describing the soluble base itself (or, informally, its resulting solution), following the more general definition"],
+      "misconceptions": ["Believing all alkalis are equally strong or equally hazardous — as with acids, alkali strength (extent of ionisation) and concentration both vary considerably, from mild, dilute solutions to highly corrosive, concentrated ones"],
+      "tips": ["Remember the key identifying property: alkalis release OH− ions in water, giving them a pH above 7 and the ability to turn red litmus paper blue"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define an alkali.", "answer": "A base that is soluble in water, dissolving to release hydroxide ions (OH−) into solution."},
+          {"question": "State the colour change of red litmus paper when dipped in an alkali.", "answer": "It turns blue."}
+        ],
+        "intermediate": [
+          {"question": "Explain why ammonia solution is classified as an alkali, even though ammonia itself, NH3, does not contain a hydroxide group.", "answer": "When ammonia gas dissolves in water, it reacts partially with water molecules to form ammonium ions and hydroxide ions (NH3 + H2O ⇌ NH4+ + OH−); since this process results in the release of hydroxide ions into solution, ammonia solution is classified as an alkali, even though the original ammonia molecule itself does not contain a hydroxide group directly."},
+          {"question": "State two properties that distinguish an alkali from a substance with a neutral pH.", "answer": "An alkali has a pH above 7 (whereas a neutral substance has a pH of exactly 7), and an alkali turns red litmus paper blue (whereas a neutral substance does not change the colour of litmus paper)."}
+        ],
+        "advanced": [
+          {"question": "Explain why not all bases dissolve in water to form alkaline solutions, using copper(II) oxide as an example.", "answer": "Copper(II) oxide is a base (capable of neutralising an acid by accepting hydrogen ions/reacting to form a salt and water), but it is insoluble in water, meaning it does not dissolve to release a significant concentration of hydroxide ions (or any other ions) into an aqueous solution. Since the defining characteristic of an alkali is specifically that the base is soluble and releases hydroxide ions into solution, an insoluble base like copper(II) oxide, despite being a genuine base, cannot form an alkaline solution and is therefore not classified as an alkali."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Define an alkali and state one property that distinguishes an alkaline solution from a neutral solution.", "marks": 2, "model_answer": "An alkali is a base that is soluble in water, releasing hydroxide ions into solution (1 mark). An alkaline solution has a pH above 7, while a neutral solution has a pH of exactly 7 (1 mark, or any other valid distinguishing property such as litmus colour change)."}
+      ],
+      "summary": "An alkali is a soluble base that releases hydroxide ions (OH−) in water, giving a solution with pH above 7, a soapy feel, and the ability to turn red litmus blue. Common examples include sodium hydroxide, potassium hydroxide, and ammonia solution.",
+      "revision_notes": ["Alkali = soluble base, releases OH− in water", "Properties: soapy feel, corrosive, pH > 7, turns red litmus blue", "Common: NaOH, KOH, ammonia solution"],
+      "related_topics": ["Bases", "pH Scale", "Strong Bases", "Weak Bases"],
+      "prerequisites": ["Bases"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-190-properties-of-acids",
+      "subject": "Chemistry",
+      "category": "Acids, Bases and Salts",
+      "title": "Properties of Acids",
+      "difficulty": "Foundation",
+      "description": "The characteristic chemical reactions of acids with metals, carbonates, and bases, each producing specific, predictable products.",
+      "learning_objectives": [
+        "Describe the general reactions of acids with metals, carbonates, and bases",
+        "Write word and symbol equations for these characteristic acid reactions",
+        "Identify observable evidence confirming each reaction type"
+      ],
+      "explanation": "Acids show several characteristic chemical reactions, each producing predictable products: acids react with reactive metals to produce a salt and hydrogen gas (metal + acid → salt + hydrogen, e.g. Mg + 2HCl → MgCl2 + H2), observable as bubbling/effervescence, with the gas confirmed using the 'squeaky pop' test with a lit splint; acids react with metal carbonates to produce a salt, water, and carbon dioxide gas (metal carbonate + acid → salt + water + carbon dioxide, e.g. CaCO3 + 2HCl → CaCl2 + H2O + CO2), observable as bubbling/effervescence, with the gas confirmed using limewater (turning cloudy); and acids react with bases (metal oxides, hydroxides) in neutralisation reactions to produce a salt and water (acid + base → salt + water, e.g. HCl + NaOH → NaCl + H2O). In each case, the specific salt formed depends on both the metal (or metal compound) reacted and the specific acid used (e.g. hydrochloric acid gives chloride salts, sulfuric acid gives sulfate salts, nitric acid gives nitrate salts).",
+      "key_concepts": ["Acid + metal → salt + hydrogen (squeaky pop test)", "Acid + carbonate → salt + water + CO2 (limewater test)", "Acid + base → salt + water (neutralisation)", "Specific acid determines salt type (chloride, sulfate, nitrate)"],
+      "definitions": [],
+      "formulae": [],
+      "equations": [
+        "Mg(s) + 2HCl(aq) → MgCl2(aq) + H2(g)",
+        "CaCO3(s) + 2HCl(aq) → CaCl2(aq) + H2O(l) + CO2(g)",
+        "HCl(aq) + NaOH(aq) → NaCl(aq) + H2O(l)"
+      ],
+      "worked_examples": [
+        {
+          "problem": "Write the word and balanced symbol equation for the reaction between zinc and dilute sulfuric acid.",
+          "working": "Zinc, a reactive metal, reacts with sulfuric acid to produce a salt (zinc sulfate) and hydrogen gas.",
+          "answer": "Word equation: zinc + sulfuric acid → zinc sulfate + hydrogen. Symbol equation: Zn(s) + H2SO4(aq) → ZnSO4(aq) + H2(g)"
+        }
+      ],
+      "practical_applications": ["These characteristic acid reactions underpin numerous industrial and laboratory salt preparation processes, as well as everyday phenomena such as limestone erosion by acidic rainwater"],
+      "laboratory_applications": ["Carrying out and confirming each characteristic acid reaction using appropriate confirmatory tests: squeaky pop test (hydrogen), limewater test (carbon dioxide), and temperature/indicator changes (neutralisation)"],
+      "common_mistakes": ["Forgetting that unreactive metals (such as copper, gold, silver) do not react with dilute acids, since they are below hydrogen in the reactivity series", "Confusing the specific test used to confirm hydrogen gas (squeaky pop with a lit splint) with the test for carbon dioxide gas (turning limewater cloudy)"],
+      "misconceptions": ["Believing all metals react with dilute acids in the same way — only metals above hydrogen in the reactivity series react with dilute acids to produce hydrogen gas; unreactive metals below hydrogen do not react"],
+      "tips": ["Learn the three characteristic acid reaction patterns as a set, along with their specific confirmatory tests: metal → hydrogen (squeaky pop); carbonate → carbon dioxide (limewater); base → neutralisation (no gas, but temperature/indicator change)"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the products formed when a reactive metal reacts with a dilute acid.", "answer": "A salt and hydrogen gas."},
+          {"question": "State the test used to confirm the presence of hydrogen gas.", "answer": "The squeaky pop test, using a lit splint."}
+        ],
+        "intermediate": [
+          {"question": "Write the word and balanced symbol equation for the reaction between magnesium carbonate and dilute nitric acid.", "answer": "Word equation: magnesium carbonate + nitric acid → magnesium nitrate + water + carbon dioxide. Symbol equation: MgCO3(s) + 2HNO3(aq) → Mg(NO3)2(aq) + H2O(l) + CO2(g)"},
+          {"question": "Explain why copper does not react when added to dilute hydrochloric acid.", "answer": "Copper is less reactive than hydrogen (positioned below hydrogen in the reactivity series), and only metals more reactive than hydrogen can displace hydrogen from a dilute acid to form a salt and hydrogen gas; since copper cannot do this, no reaction occurs when copper is added to dilute hydrochloric acid."}
+        ],
+        "advanced": [
+          {"question": "Explain why the reaction between an acid and a metal carbonate can be considered as involving two combined steps: an acid-base neutralisation followed by decomposition of an unstable intermediate product.", "answer": "The reaction between an acid and a metal carbonate can be conceptually understood as the acid first neutralising the carbonate (a base) to form a salt and carbonic acid (H2CO3) as an intermediate product: e.g. CaCO3 + 2HCl → CaCl2 + H2CO3. However, carbonic acid is highly unstable and decomposes essentially immediately and spontaneously into water and carbon dioxide gas (H2CO3 → H2O + CO2), which is why carbon dioxide gas and water are observed directly as final products in the overall reaction, rather than carbonic acid itself; the overall equation (CaCO3 + 2HCl → CaCl2 + H2O + CO2) represents the combined result of this initial neutralisation step and the subsequent, essentially instantaneous decomposition of the unstable carbonic acid intermediate."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Describe how you would test the gas produced when calcium carbonate reacts with dilute hydrochloric acid, and state the expected positive result.", "marks": 2, "model_answer": "Bubble the gas through limewater (1 mark). The limewater turns cloudy/milky if carbon dioxide is present, confirming a positive result (1 mark)."}
+      ],
+      "summary": "Acids show characteristic reactions: with reactive metals (salt + hydrogen, squeaky pop test), with carbonates (salt + water + carbon dioxide, limewater test), and with bases (salt + water, neutralisation), with the specific acid used determining the type of salt formed (chloride, sulfate, nitrate).",
+      "revision_notes": ["Acid + metal → salt + H2 (squeaky pop test)", "Acid + carbonate → salt + H2O + CO2 (limewater test)", "Acid + base → salt + H2O (neutralisation)", "HCl→chloride; H2SO4→sulfate; HNO3→nitrate salts"],
+      "related_topics": ["Acids", "Neutralisation", "Reactivity Series", "Types of Chemical Reactions"],
+      "prerequisites": ["Acids", "Reactivity Series"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-191-properties-of-bases",
+      "subject": "Chemistry",
+      "category": "Acids, Bases and Salts",
+      "title": "Properties of Bases",
+      "difficulty": "Foundation",
+      "description": "The characteristic chemical properties of bases, including their reactions with acids and, for some bases, with ammonium salts.",
+      "learning_objectives": [
+        "Describe the characteristic reaction of bases with acids",
+        "Describe the reaction of alkalis with ammonium salts to release ammonia gas",
+        "Identify observable evidence confirming each reaction type"
+      ],
+      "explanation": "The defining characteristic reaction of a base is its ability to neutralise an acid, forming a salt and water (base + acid → salt + water); this occurs whether the base is a metal oxide, hydroxide, or carbonate (with carbonates additionally producing carbon dioxide gas, as covered under Properties of Acids). Alkalis, specifically, show an additional characteristic reaction with ammonium salts when warmed: the alkali reacts with the ammonium ion to release ammonia gas, water, and the corresponding salt of the alkali's metal (ammonium salt + alkali → salt + water + ammonia, e.g. NH4Cl + NaOH → NaCl + H2O + NH3), a reaction used as a standard laboratory test for the presence of either ammonium ions or an alkali (a hydroxide ion source), with the ammonia gas confirmed by its characteristic pungent smell and by turning damp red litmus paper blue.",
+      "key_concepts": ["Base + acid → salt + water (neutralisation, defining reaction)", "Alkali + ammonium salt (warmed) → salt + water + ammonia gas", "Ammonia confirmed: pungent smell, turns damp red litmus blue"],
+      "definitions": [],
+      "formulae": [],
+      "equations": ["NH4Cl(aq) + NaOH(aq) → NaCl(aq) + H2O(l) + NH3(g)   (on warming)"],
+      "worked_examples": [
+        {
+          "problem": "Describe how you would test for the presence of ammonium ions in an unknown solid sample.",
+          "working": "Ammonium ions react with a warmed alkali to release ammonia gas.",
+          "answer": "Add sodium hydroxide solution to the sample and gently warm the mixture; if ammonium ions are present, ammonia gas is released, which can be confirmed by its pungent smell and by holding a piece of damp red litmus paper near the mouth of the test tube, which will turn blue."
+        }
+      ],
+      "practical_applications": ["The alkali-ammonium salt reaction is used in fertiliser analysis and in general qualitative analysis to confirm the presence of ammonium ions in an unknown sample"],
+      "laboratory_applications": ["Performing the standard ammonium ion test: warming a suspected ammonium salt with sodium hydroxide solution and testing the gas produced with damp red litmus paper"],
+      "common_mistakes": ["Forgetting that the alkali-ammonium salt reaction specifically requires gentle warming/heating to proceed at a reasonable, observable rate — simply mixing the two at room temperature may not release a clearly detectable amount of ammonia gas quickly enough"],
+      "misconceptions": ["Believing any base can react with ammonium salts to release ammonia gas — this specific reaction requires a source of hydroxide ions in sufficient concentration, characteristic of an alkali (soluble base); some weaker or less soluble bases may not react as readily or effectively in this specific test"],
+      "tips": ["Remember the specific test for ammonium ions: warm with an alkali, then test any gas released with DAMP red litmus paper (which turns blue) — this combination of warming, alkali, and litmus test is a frequently examined standard procedure"],
+      "practice_questions": {
+        "basic": [
+          {"question": "State the general products formed when a base reacts with an acid.", "answer": "A salt and water."},
+          {"question": "State the colour change observed when damp red litmus paper is exposed to ammonia gas.", "answer": "It turns blue."}
+        ],
+        "intermediate": [
+          {"question": "Write the balanced equation for the reaction between ammonium sulfate and potassium hydroxide solution, on warming.", "answer": "(NH4)2SO4(aq) + 2KOH(aq) → K2SO4(aq) + 2H2O(l) + 2NH3(g)"},
+          {"question": "Explain why gentle warming, rather than strong heating, is typically recommended when testing for ammonium ions using an alkali.", "answer": "Gentle warming is usually sufficient to drive off the ammonia gas at a controlled, observable rate, allowing safe and clear identification via smell and the litmus test; excessive or overly strong heating is generally unnecessary and could increase safety risks (such as rapid, uncontrolled gas release, or splashing of the alkaline solution) without providing any additional benefit to the test's effectiveness."}
+        ],
+        "advanced": [
+          {"question": "Explain why the reaction between an ammonium salt and an alkali can be understood, at the ionic level, as a competition for protons (H+) between the hydroxide ion and the ammonium ion.", "answer": "In this reaction, the ammonium ion, NH4+, can act as a weak Brønsted-Lowry acid, capable of donating a proton to a suitable base. The hydroxide ion, OH−, provided by the alkali, is itself a strong Brønsted-Lowry base with a strong affinity for accepting protons. When these two species come into contact, the hydroxide ion removes (accepts) a proton from the ammonium ion, converting NH4+ into NH3 (ammonia) and OH− into H2O (water): NH4+ + OH− → NH3 + H2O. This can be understood as the hydroxide ion 'winning' the competition for the proton, since water (the product formed from OH− accepting a proton) is a much weaker base than ammonia (the product formed if the ammonium ion had retained its proton), meaning the reaction proceeds strongly in the direction of forming water and releasing ammonia gas, consistent with the general principle that a stronger base displaces the conjugate base of a weaker acid (or, equivalently, a stronger base outcompetes a weaker base for a shared proton)."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Describe a test that could be used to confirm the presence of ammonium ions in a solid sample, including the reagent needed, the observation expected, and a confirmatory test for any gas produced.", "marks": 4, "model_answer": "Add sodium hydroxide solution to the sample and gently warm the mixture (2 marks). If ammonium ions are present, a gas with a characteristic pungent smell (ammonia) is released (1 mark). This can be confirmed by holding a piece of damp red litmus paper near the mouth of the test tube; if the litmus paper turns blue, this confirms the presence of ammonia gas and therefore ammonium ions in the original sample (1 mark)."}
+      ],
+      "summary": "Bases characteristically neutralise acids to form a salt and water. Alkalis specifically react with ammonium salts on warming to release ammonia gas (salt + water + ammonia), a standard test confirmed by smell and by damp red litmus paper turning blue.",
+      "revision_notes": ["Base + acid → salt + water (defining reaction of a base)", "Alkali + ammonium salt (warm) → salt + water + NH3", "Test for NH3: pungent smell, turns damp red litmus BLUE"],
+      "related_topics": ["Bases", "Alkalis", "Neutralisation", "Ammonia Tests"],
+      "prerequisites": ["Bases", "Alkalis"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-192-strong-acids",
+      "subject": "Chemistry",
+      "category": "Acids, Bases and Salts",
+      "title": "Strong Acids",
+      "difficulty": "Higher",
+      "description": "Acids that fully ionise (dissociate) in aqueous solution, releasing the maximum possible concentration of hydrogen ions for a given concentration of acid.",
+      "learning_objectives": [
+        "Define a strong acid in terms of ionisation",
+        "Give examples of common strong acids",
+        "Distinguish acid strength from acid concentration"
+      ],
+      "explanation": "A strong acid is an acid that fully (or essentially completely) ionises, or dissociates, into its ions when dissolved in water, meaning virtually every acid molecule releases its hydrogen ion(s), producing the maximum possible concentration of H+ ions for a given starting concentration of the acid. Common strong acids include hydrochloric acid (HCl), sulfuric acid (H2SO4), and nitric acid (HNO3), all of which are considered to ionise essentially completely in dilute aqueous solution. It is important to distinguish acid strength (the EXTENT of ionisation, a fixed chemical property of a particular acid) from acid concentration (how much of the acid is dissolved in a given volume of solution, which can be varied by dilution); a strong acid can be either concentrated or dilute, and a weak acid can also be either concentrated or dilute — strength and concentration are two entirely independent properties.",
+      "key_concepts": ["Strong acid: fully/completely ionises in water", "Common strong acids: HCl, H2SO4, HNO3", "Strength (extent of ionisation) is DIFFERENT from concentration (amount dissolved)"],
+      "definitions": [
+        {"term": "Strong acid", "definition": "An acid that fully or essentially completely ionises (dissociates) into its ions when dissolved in water."}
+      ],
+      "formulae": [],
+      "equations": ["HCl(aq) → H+(aq) + Cl−(aq)   (complete ionisation, one-way arrow)"],
+      "worked_examples": [],
+      "practical_applications": ["Understanding acid strength is essential for predicting reaction rates, pH values, and appropriate handling/safety precautions in industrial and laboratory chemistry"],
+      "laboratory_applications": ["Using strong acids in titrations and other quantitative work, where their essentially complete ionisation allows for more straightforward, predictable pH and concentration calculations"],
+      "common_mistakes": ["Confusing 'strong' acid with 'concentrated' acid — these are entirely separate, independent properties; a dilute solution of a strong acid is still described as 'strong' (fully ionising), just at a lower overall concentration"],
+      "misconceptions": ["Believing a strong acid is necessarily more corrosive or dangerous than a weak acid at the same concentration, in every single respect — while a strong acid does typically produce a higher concentration of H+ ions (and therefore often greater immediate reactivity/corrosiveness) than a weak acid at the same overall concentration, other specific hazards (such as reactivity with particular materials or toxicity) can vary independently of acid strength"],
+      "tips": ["Remember: 'strong' vs 'weak' refers specifically to the EXTENT of ionisation (a fixed chemical property); 'concentrated' vs 'dilute' refers to the AMOUNT of acid dissolved per unit volume (which can be freely varied by adding more water) — these are two completely independent, non-interchangeable concepts"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a strong acid.", "answer": "An acid that fully (or essentially completely) ionises into its ions when dissolved in water."},
+          {"question": "Name two common strong acids.", "answer": "Any two of: hydrochloric acid, sulfuric acid, nitric acid."}
+        ],
+        "intermediate": [
+          {"question": "Explain the difference between 'strong' and 'concentrated' when describing an acid.", "answer": "'Strong' refers to the extent to which an acid ionises in water: a strong acid ionises fully (or almost fully), releasing the maximum possible concentration of H+ ions for its given concentration. 'Concentrated' refers to how much acid is dissolved in a given volume of solution (a measure of amount, not extent of ionisation). These are independent properties: an acid can be both strong and dilute (fully ionising, but not much acid dissolved overall), or weak and concentrated (a large amount of acid dissolved, but only a small proportion actually ionising), and all other combinations are equally possible."},
+          {"question": "Write the ionisation equation for nitric acid in water, and explain why a single, one-way arrow is used.", "answer": "HNO3(aq) → H+(aq) + NO3−(aq). A single, one-way arrow is used because nitric acid, as a strong acid, ionises essentially completely in water; the reverse reaction (H+ and NO3− recombining to reform HNO3 molecules) does not occur to any significant extent, so the process is treated as effectively irreversible, justified by the single arrow notation."}
+        ],
+        "advanced": [
+          {"question": "Explain why two solutions of hydrochloric acid and ethanoic (acetic) acid, both prepared at the same molar concentration, would have different pH values, despite containing the 'same amount' of acid.", "answer": "Hydrochloric acid is a strong acid and ionises essentially completely in water, so virtually all of the HCl molecules originally dissolved release their hydrogen ion, producing a hydrogen ion concentration in solution that is very close to the original stated concentration of HCl. Ethanoic acid is a weak acid and only partially ionises in water (establishing a dynamic equilibrium between the un-ionised acid and its ions), meaning that only a relatively small proportion of the ethanoic acid molecules actually release a hydrogen ion at any given time, resulting in a considerably lower actual hydrogen ion concentration in solution than the strong acid, despite both solutions being prepared at the same overall molar concentration of 'acid'. Since pH depends specifically on hydrogen ion concentration (not on the total, nominal concentration of acid dissolved), the strong acid solution will have a lower pH (be more acidic, in terms of actual H+ concentration) than the weak acid solution at the same nominal molar concentration."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain what is meant by a 'strong acid', and explain why this is different from a 'concentrated acid'.", "marks": 3, "model_answer": "A strong acid is one that fully (or almost completely) ionises into its ions when dissolved in water (1 mark). This is different from concentration, which describes the amount of acid dissolved in a given volume of solution, not the extent to which it ionises (1 mark). An acid can independently be strong or weak, and separately concentrated or dilute, since these are two entirely separate properties (1 mark)."}
+      ],
+      "summary": "A strong acid fully ionises in water (e.g. HCl, H2SO4, HNO3), producing the maximum possible H+ concentration for its given concentration. Acid strength (extent of ionisation) is entirely independent of acid concentration (amount dissolved).",
+      "revision_notes": ["Strong acid: fully/completely ionises (one-way arrow, →)", "Common: HCl, H2SO4, HNO3", "STRENGTH (ionisation extent) ≠ CONCENTRATION (amount dissolved) — independent properties"],
+      "related_topics": ["Weak Acids", "Acids", "pH Scale", "Hydrogen Ion Concentration"],
+      "prerequisites": ["Acids"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-193-weak-acids",
+      "subject": "Chemistry",
+      "category": "Acids, Bases and Salts",
+      "title": "Weak Acids",
+      "difficulty": "Higher",
+      "description": "Acids that only partially ionise in aqueous solution, establishing a dynamic equilibrium between the un-ionised acid and its ions.",
+      "learning_objectives": [
+        "Define a weak acid in terms of partial ionisation",
+        "Give examples of common weak acids",
+        "Compare the pH and conductivity of strong and weak acids at the same concentration"
+      ],
+      "explanation": "A weak acid is an acid that only partially ionises when dissolved in water, meaning only a relatively small proportion of the acid molecules release a hydrogen ion at any given time, with the majority of the acid remaining in its un-ionised molecular form; this partial ionisation establishes a dynamic equilibrium between the un-ionised acid molecules and the ions formed. Common weak acids include ethanoic (acetic) acid (CH3COOH, found in vinegar), citric acid (found in citrus fruits), and carbonic acid (H2CO3, found in carbonated drinks). Because only a small fraction of a weak acid's molecules are ionised at any time, a solution of a weak acid has a higher pH (is less acidic, in terms of measured H+ concentration) and a lower electrical conductivity than a solution of a strong acid at the same overall molar concentration.",
+      "key_concepts": ["Weak acid: only partially ionises, establishes dynamic equilibrium", "Common weak acids: ethanoic acid, citric acid, carbonic acid", "Higher pH and lower conductivity than a strong acid at the same concentration"],
+      "definitions": [
+        {"term": "Weak acid", "definition": "An acid that only partially ionises when dissolved in water, establishing a dynamic equilibrium between the un-ionised acid and its ions."}
+      ],
+      "formulae": [],
+      "equations": ["CH3COOH(aq) ⇌ CH3COO−(aq) + H+(aq)   (partial ionisation, equilibrium arrow)"],
+      "worked_examples": [],
+      "practical_applications": ["Weak acids such as citric and ethanoic acid are widely used in food and beverage products, where their milder acidity (compared to strong acids at the same concentration) is important for taste and safety"],
+      "laboratory_applications": ["Comparing the electrical conductivity or measured pH of a strong acid solution and a weak acid solution at the same molar concentration as a direct experimental demonstration of the difference between strong and weak acids"],
+      "common_mistakes": ["Assuming a weak acid is automatically dilute, or that a strong acid is automatically concentrated — as with strong acids, weak acid strength (partial ionisation) is entirely independent of its concentration (amount dissolved)"],
+      "misconceptions": ["Believing weak acids are always 'safe' or non-hazardous simply because they are 'weak' — a concentrated solution of a weak acid can still be significantly acidic and potentially hazardous, since a large total amount of acid is present, even if only a fraction of it is ionised at any given moment"],
+      "tips": ["Remember the equilibrium arrow (⇌) used for weak acid ionisation, contrasting with the single, one-way arrow (→) used for strong acid ionisation, reflecting the fundamental difference in the extent (complete vs partial) of ionisation"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a weak acid.", "answer": "An acid that only partially ionises when dissolved in water, establishing a dynamic equilibrium between the un-ionised acid and its ions."},
+          {"question": "Name one common weak acid.", "answer": "Any one of: ethanoic (acetic) acid, citric acid, carbonic acid."}
+        ],
+        "intermediate": [
+          {"question": "Write the ionisation equation for ethanoic acid in water, explaining why an equilibrium arrow is used.", "answer": "CH3COOH(aq) ⇌ CH3COO−(aq) + H+(aq). An equilibrium arrow is used because ethanoic acid, as a weak acid, only partially ionises in water; a significant proportion of the acid remains as un-ionised CH3COOH molecules, with a dynamic equilibrium established between the un-ionised acid and its ions, rather than the essentially complete, one-way ionisation seen in a strong acid."},
+          {"question": "Explain why a 1 mol/dm3 solution of ethanoic acid has a higher pH than a 1 mol/dm3 solution of hydrochloric acid.", "answer": "Hydrochloric acid, a strong acid, ionises essentially completely, so the hydrogen ion concentration in a 1 mol/dm3 HCl solution is very close to 1 mol/dm3. Ethanoic acid, a weak acid, only partially ionises, so the actual hydrogen ion concentration in a 1 mol/dm3 ethanoic acid solution is considerably lower than 1 mol/dm3 (most of the acid remains as un-ionised molecules). Since pH decreases as hydrogen ion concentration increases, the lower hydrogen ion concentration in the ethanoic acid solution gives it a higher pH (less acidic, in terms of measured H+ concentration) than the hydrochloric acid solution, despite both having the same overall, nominal molar concentration of 'acid'."}
+        ],
+        "advanced": [
+          {"question": "Explain why a dilute solution of a strong acid can sometimes have a lower pH (be more acidic) than a concentrated solution of a weak acid, using specific reasoning about ionisation extent and concentration together.", "answer": "The actual pH of an acid solution depends specifically on the hydrogen ion concentration achieved, which is a combined result of BOTH the acid's concentration (how much total acid is present) AND its degree of ionisation (what fraction of that acid actually releases hydrogen ions). If a strong acid is only mildly diluted (e.g. remains at a moderate concentration) it will still ionise essentially completely, producing a substantial hydrogen ion concentration. If a weak acid is used at a very high concentration, even though only a small FRACTION of its molecules ionise at any given time, the large total amount of acid present means that even this small ionised fraction can still correspond to a meaningful, sometimes substantial, absolute hydrogen ion concentration. Depending on the specific concentrations and ionisation constants involved, it is possible for a sufficiently concentrated weak acid solution to have a comparable, or even in some specific numerical cases, a LOWER hydrogen ion concentration (higher pH, less acidic) than a sufficiently dilute strong acid solution, or vice versa; the key point is that both concentration and ionisation extent must be considered together to accurately predict and compare the actual pH of different acid solutions, rather than assuming 'strong' or 'concentrated' alone determines the outcome."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why a solution of ethanoic acid has a lower electrical conductivity than a solution of hydrochloric acid at the same concentration.", "marks": 3, "model_answer": "Ethanoic acid is a weak acid and only partially ionises in water, meaning relatively few ions are present in solution at any given time (1 mark). Hydrochloric acid is a strong acid and ionises essentially completely, producing a much higher concentration of ions in solution (1 mark). Since electrical conductivity depends on the concentration of free-moving ions available to carry charge, the solution with fewer ions (ethanoic acid) has lower conductivity than the solution with more ions (hydrochloric acid) at the same overall concentration (1 mark)."}
+      ],
+      "summary": "A weak acid only partially ionises in water (shown with an equilibrium arrow), establishing a dynamic equilibrium, giving a higher pH and lower conductivity than a strong acid at the same concentration. Common examples include ethanoic, citric, and carbonic acid.",
+      "revision_notes": ["Weak acid: PARTIALLY ionises (equilibrium arrow, ⇌)", "Common: ethanoic acid, citric acid, carbonic acid", "Same concentration as strong acid → HIGHER pH, LOWER conductivity than strong acid"],
+      "related_topics": ["Strong Acids", "Acid-Base Equilibria", "pH Scale"],
+      "prerequisites": ["Strong Acids"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-194-strong-bases",
+      "subject": "Chemistry",
+      "category": "Acids, Bases and Salts",
+      "title": "Strong Bases",
+      "difficulty": "Higher",
+      "description": "Bases that fully ionise (dissociate) in aqueous solution, releasing the maximum possible concentration of hydroxide ions.",
+      "learning_objectives": [
+        "Define a strong base in terms of ionisation",
+        "Give examples of common strong bases",
+        "Explain the implications of full ionisation for pH and reactivity"
+      ],
+      "explanation": "A strong base (or strong alkali) is a base that fully, or essentially completely, ionises into its ions when dissolved in water, releasing the maximum possible concentration of hydroxide ions, OH−, for a given concentration of the base. Common strong bases include sodium hydroxide (NaOH) and potassium hydroxide (KOH), both of which are considered to ionise essentially completely in dilute aqueous solution. As with strong acids, the essentially complete ionisation of a strong base means that solutions of a given concentration will have a hydroxide ion concentration very close to the nominal concentration of the base dissolved, resulting in a correspondingly high pH (very alkaline) for a given concentration, compared to a weak base at the same concentration.",
+      "key_concepts": ["Strong base: fully/completely ionises in water", "Common strong bases: NaOH, KOH", "High pH for a given concentration (complete ionisation)"],
+      "definitions": [
+        {"term": "Strong base", "definition": "A base that fully or essentially completely ionises (dissociates) into its ions when dissolved in water, releasing the maximum possible hydroxide ion concentration."}
+      ],
+      "formulae": [],
+      "equations": ["NaOH(aq) → Na+(aq) + OH−(aq)   (complete ionisation, one-way arrow)"],
+      "worked_examples": [],
+      "practical_applications": ["Strong bases such as sodium hydroxide are used extensively in industrial processes, including soap manufacture, paper production, and water treatment"],
+      "laboratory_applications": ["Using strong bases in titrations and preparative chemistry, where their essentially complete ionisation allows for straightforward, predictable pH and concentration calculations"],
+      "common_mistakes": ["Confusing 'strong' base with 'concentrated' base, as with the equivalent distinction for acids — these remain entirely separate, independent properties"],
+      "misconceptions": ["Believing all common laboratory hydroxides are strong bases — while NaOH and KOH are strong bases, other hydroxides (such as ammonium hydroxide, formed when ammonia dissolves in water) are weak bases, only partially ionising"],
+      "tips": ["Remember the parallel structure with strong acids: strong base = full ionisation (single arrow, →); this mirrors the definition of a strong acid exactly, just with hydroxide ions rather than hydrogen ions being released"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a strong base.", "answer": "A base that fully or essentially completely ionises into its ions when dissolved in water."},
+          {"question": "Name two common strong bases.", "answer": "Sodium hydroxide and potassium hydroxide."}
+        ],
+        "intermediate": [
+          {"question": "Write the ionisation equation for potassium hydroxide in water, and explain why a single, one-way arrow is used.", "answer": "KOH(aq) → K+(aq) + OH−(aq). A single, one-way arrow is used because potassium hydroxide, as a strong base, ionises essentially completely in water, with negligible reverse reaction occurring, justifying the treatment of this process as effectively irreversible."},
+          {"question": "Explain why a 0.1 mol/dm3 solution of sodium hydroxide has a higher pH than a 0.1 mol/dm3 solution of ammonia.", "answer": "Sodium hydroxide is a strong base and ionises essentially completely, so the hydroxide ion concentration in the solution is very close to 0.1 mol/dm3. Ammonia is a weak base and only partially reacts with water to form hydroxide ions, so the actual hydroxide ion concentration achieved is considerably lower than 0.1 mol/dm3. Since a higher hydroxide ion concentration corresponds to a higher pH, the sodium hydroxide solution has a higher pH than the ammonia solution at the same nominal concentration."}
+        ],
+        "advanced": [
+          {"question": "Explain why calcium hydroxide, despite being classified as a strong base in terms of the extent to which it ionises, produces a relatively less alkaline (lower pH) solution than sodium hydroxide at the same molar concentration, referring to solubility.", "answer": "Calcium hydroxide is indeed a strong base in the sense that any calcium hydroxide that does dissolve ionises essentially completely into Ca2+ and OH− ions. However, calcium hydroxide has relatively low solubility in water compared to sodium hydroxide, meaning that at a given nominal concentration, a significant proportion of the calcium hydroxide may not actually dissolve at all (remaining as undissolved solid), rather than failing to ionise once dissolved. Because less of the compound is actually present in solution as dissociated ions (due to limited solubility, not limited ionisation of the dissolved portion), the actual hydroxide ion concentration achieved — and therefore the resulting pH — can be lower than would be predicted from the nominal concentration alone, and lower than an equally concentrated, more soluble strong base like sodium hydroxide would achieve; this illustrates the important distinction between a base's fundamental 'strength' (ionisation extent, once dissolved) and its solubility (how much of it actually dissolves in the first place), which are two separate properties that both influence a solution's final measured pH."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain what is meant by a 'strong base', using sodium hydroxide as an example.", "marks": 2, "model_answer": "A strong base fully, or essentially completely, ionises into its ions when dissolved in water (1 mark). Sodium hydroxide ionises completely: NaOH(aq) → Na+(aq) + OH−(aq), releasing the maximum possible hydroxide ion concentration for its given concentration (1 mark)."}
+      ],
+      "summary": "A strong base fully ionises in water (e.g. NaOH, KOH), releasing the maximum possible hydroxide ion concentration, giving a high pH for a given concentration compared to a weak base.",
+      "revision_notes": ["Strong base: fully/completely ionises (one-way arrow, →)", "Common: NaOH, KOH", "High pH for given concentration (complete ionisation → high [OH−])"],
+      "related_topics": ["Weak Bases", "Bases", "Alkalis", "pH Scale"],
+      "prerequisites": ["Bases", "Strong Acids"],
+      "diagram_recommendations": [],
+      "images": []
+    },
+
+    {
+      "id": "chem-195-weak-bases",
+      "subject": "Chemistry",
+      "category": "Acids, Bases and Salts",
+      "title": "Weak Bases",
+      "difficulty": "Higher",
+      "description": "Bases that only partially ionise or react with water in aqueous solution, establishing a dynamic equilibrium and producing a lower hydroxide ion concentration than a strong base at the same concentration.",
+      "learning_objectives": [
+        "Define a weak base in terms of partial ionisation",
+        "Give examples of common weak bases",
+        "Compare the pH of strong and weak bases at the same concentration"
+      ],
+      "explanation": "A weak base is a base that only partially ionises, or reacts with water, when dissolved in aqueous solution, meaning only a relatively small proportion of the base actually produces hydroxide ions at any given time, with the majority remaining in its original, un-reacted form; this partial reaction establishes a dynamic equilibrium. The most commonly encountered weak base is ammonia, which reacts partially with water: NH3(aq) + H2O(l) ⇌ NH4+(aq) + OH−(aq). Because only a small fraction of ammonia molecules react with water to form hydroxide ions at any given time, a solution of ammonia has a lower pH (is less alkaline, in terms of measured OH− concentration) than a solution of a strong base such as sodium hydroxide at the same overall molar concentration.",
+      "key_concepts": ["Weak base: only partially ionises/reacts with water, dynamic equilibrium", "Most common example: ammonia", "Lower pH than a strong base at the same concentration"],
+      "definitions": [
+        {"term": "Weak base", "definition": "A base that only partially ionises, or reacts with water, when dissolved in aqueous solution, establishing a dynamic equilibrium."}
+      ],
+      "formulae": [],
+      "equations": ["NH3(aq) + H2O(l) ⇌ NH4+(aq) + OH−(aq)"],
+      "worked_examples": [],
+      "practical_applications": ["Ammonia, a weak base, is widely used in household cleaning products and, industrially, as a key starting material for fertiliser production"],
+      "laboratory_applications": ["Comparing the pH of ammonia solution and sodium hydroxide solution at the same concentration as a direct experimental demonstration of the difference between weak and strong bases"],
+      "common_mistakes": ["Assuming ammonia is a strong base simply because ammonia solution is commonly used and readily available as an alkali in the laboratory — ammonia is specifically a weak base, only partially reacting with water"],
+      "misconceptions": ["Believing weak bases cannot be hazardous or effective — a sufficiently concentrated solution of a weak base can still be significantly alkaline and hazardous, and weak bases remain effective and useful for numerous practical applications (such as cleaning), despite only partially ionising"],
+      "tips": ["Remember the parallel with weak acids: weak base = partial ionisation/reaction (equilibrium arrow, ⇌), with ammonia as the standard, most frequently referenced example of a weak base"],
+      "practice_questions": {
+        "basic": [
+          {"question": "Define a weak base.", "answer": "A base that only partially ionises, or reacts with water, when dissolved in aqueous solution, establishing a dynamic equilibrium."},
+          {"question": "Name the most commonly encountered weak base.", "answer": "Ammonia"}
+        ],
+        "intermediate": [
+          {"question": "Write the equilibrium equation for ammonia reacting with water, and explain why an equilibrium arrow is used.", "answer": "NH3(aq) + H2O(l) ⇌ NH4+(aq) + OH−(aq). An equilibrium arrow is used because ammonia, as a weak base, only partially reacts with water; most of the ammonia remains as un-reacted NH3 molecules, with a dynamic equilibrium established between the ammonia/water and the ammonium/hydroxide ions, rather than a complete, one-way reaction."},
+          {"question": "Explain why a solution of ammonia has a lower pH than a solution of sodium hydroxide at the same molar concentration.", "answer": "Sodium hydroxide, a strong base, ionises essentially completely, releasing a hydroxide ion concentration very close to its nominal concentration. Ammonia, a weak base, only partially reacts with water to form hydroxide ions, so the actual hydroxide ion concentration achieved is considerably lower than the nominal ammonia concentration. Since a lower hydroxide ion concentration corresponds to a lower pH, the ammonia solution has a lower pH (less alkaline, in terms of measured OH− concentration) than the sodium hydroxide solution at the same nominal concentration."}
+        ],
+        "advanced": [
+          {"question": "Explain why, despite ammonia being a weak base, ammonia solution can still be an effective and widely used household cleaning agent.", "answer": "Although ammonia only partially reacts with water at any given moment (establishing a dynamic equilibrium, with most ammonia remaining un-reacted as NH3), this equilibrium is dynamic and continuously shifts as hydroxide ions are consumed (for example, in reactions with grease, dirt, or other acidic substances during cleaning); according to Le Chatelier's principle, removing hydroxide ions from the equilibrium mixture causes more ammonia to react with water to replace them, continuously regenerating a useful, ongoing supply of hydroxide ions and cleaning-active ammonia-related species. Additionally, ammonia solutions can be prepared and used at a range of concentrations, and a sufficiently concentrated ammonia solution, even though only partially ionised, can still achieve a meaningful, practically useful concentration of hydroxide ions and retain effective cleaning action, illustrating that being a 'weak' base does not prevent a substance from being practically effective for its intended purpose, especially when used at an appropriately chosen concentration."}
+        ]
+      },
+      "exam_style_questions": [
+        {"question": "Explain why ammonia is classified as a weak base, and write the relevant equilibrium equation.", "marks": 3, "model_answer": "Ammonia is classified as a weak base because it only partially reacts with water when dissolved, rather than reacting completely (1 mark). This establishes a dynamic equilibrium between un-reacted ammonia/water and the ammonium/hydroxide ions formed (1 mark). Equation: NH3(aq) + H2O(l) ⇌ NH4+(aq) + OH−(aq) (1 mark)."}
+      ],
+      "summary": "A weak base only partially ionises/reacts with water (equilibrium arrow), the most common example being ammonia, giving a lower pH than a strong base at the same concentration, though still practically effective when used at appropriate concentrations.",
+      "revision_notes": ["Weak base: PARTIALLY ionises/reacts with water (equilibrium arrow, ⇌)", "Most common example: ammonia (NH3 + H2O ⇌ NH4+ + OH−)", "Same concentration as strong base → LOWER pH than strong base"],
+      "related_topics": ["Strong Bases", "Bases", "Acid-Base Equilibria"],
+      "prerequisites": ["Strong Bases", "Weak Acids"],
+      "diagram_recommendations": [],
+      "images": []
+    }
+  ]
+}

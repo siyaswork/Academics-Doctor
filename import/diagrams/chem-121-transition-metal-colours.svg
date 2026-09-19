@@ -1,0 +1,19 @@
+<svg viewBox="0 0 650 300" xmlns="http://www.w3.org/2000/svg">
+<rect width="650" height="300" fill="#ffffff"/>
+<text x="325" y="30" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Colours of Common Transition Metal Ions in Solution</text>
+<circle cx="90" cy="150" r="35" fill="#4a90d9" stroke="#333" stroke-width="1.5"/>
+<text x="90" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Cu2+</text>
+<circle cx="220" cy="150" r="35" fill="#8fbf6a" stroke="#333" stroke-width="1.5"/>
+<text x="220" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Fe2+</text>
+<circle cx="350" cy="150" r="35" fill="#c98a3b" stroke="#333" stroke-width="1.5"/>
+<text x="350" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Fe3+</text>
+<circle cx="480" cy="150" r="35" fill="#7fbf7f" stroke="#333" stroke-width="1.5"/>
+<text x="480" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Ni2+</text>
+<circle cx="610" cy="150" r="35" fill="#f2d9d9" stroke="#333" stroke-width="1.5"/>
+<text x="610" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">Mn2+</text>
+<text x="90" y="270" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" font-weight="normal" fill="#1a1a1a">blue</text>
+<text x="220" y="270" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" font-weight="normal" fill="#1a1a1a">pale green</text>
+<text x="350" y="270" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" font-weight="normal" fill="#1a1a1a">yellow-brown</text>
+<text x="480" y="270" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" font-weight="normal" fill="#1a1a1a">green</text>
+<text x="610" y="270" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" font-weight="normal" fill="#1a1a1a">pale pink</text>
+</svg>

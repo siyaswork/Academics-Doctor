@@ -1,0 +1,1828 @@
+[
+  {
+    "id": "phy-006",
+    "subject": "Physics",
+    "category": "Foundations of Physics",
+    "title": "Vectors",
+    "difficulty": "Foundational",
+    "description": "Physical quantities that require both a magnitude and a direction to be fully described.",
+    "learning_objectives": [
+      "Define a vector quantity",
+      "Identify common vector quantities used in physics",
+      "Represent a vector graphically as an arrow",
+      "Explain why stating only a magnitude is insufficient for a vector"
+    ],
+    "explanation": "A vector quantity is one that must be described by both a magnitude and a direction — stating only the size is incomplete. Common examples include displacement, velocity, acceleration, force, momentum, and weight. Vectors are usually represented graphically as an arrow: the length of the arrow represents the magnitude (drawn to scale), and the direction the arrow points represents the direction of the quantity. In writing, vectors are often shown in bold (v) or with an arrow above the symbol to distinguish them from scalar quantities. Saying 'the car moves at 20 m/s' is incomplete as a velocity statement; 'the car moves at 20 m/s due north' fully specifies the vector.",
+    "key_concepts": [
+      "Magnitude and direction both required",
+      "Graphical representation as a scaled arrow",
+      "Common vectors: displacement, velocity, acceleration, force, momentum"
+    ],
+    "definitions": [
+      {
+        "term": "Vector quantity",
+        "definition": "A physical quantity fully described only when both its magnitude and its direction are stated."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      },
+      {
+        "quantity": "velocity",
+        "si_unit": "metre per second",
+        "symbol": "m/s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "An aircraft's velocity is given as '250 m/s'. Explain why this is an incomplete description, and correct it.",
+        "steps": [
+          "Recall that velocity is a vector quantity.",
+          "A vector requires both magnitude and direction to be fully specified.",
+          "'250 m/s' gives only magnitude, with no direction stated.",
+          "A complete statement must add a direction, e.g. '250 m/s on a bearing of 070 degrees.'"
+        ],
+        "answer": "The statement is incomplete because it omits direction; a correct version is '250 m/s on a bearing of 070 degrees'."
+      }
+    ],
+    "practical_applications": [
+      "Aircraft and ship navigation, which require both speed and heading",
+      "Force analysis in structural and mechanical engineering",
+      "GPS and satellite navigation systems"
+    ],
+    "common_mistakes": [
+      "Stating only the magnitude of a vector quantity",
+      "Treating vector quantities as scalars when combining them"
+    ],
+    "misconceptions": [
+      "That direction is an optional extra detail rather than a required part of the quantity itself"
+    ],
+    "tips": [
+      "Always state direction using a clear reference (compass point, bearing, or angle from a defined axis)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "List four vector quantities used in physics.",
+        "State what two pieces of information a vector must include."
+      ],
+      "intermediate": [
+        "A force is described as '10 N'. Explain what information is missing."
+      ],
+      "advanced": [
+        "Explain why two vectors of equal magnitude can produce a resultant of zero, using force as an example."
+      ]
+    },
+    "exam_questions": [
+      "Define a vector quantity and give two examples.",
+      "Explain, using an example, why a scalar description is insufficient for a quantity such as force."
+    ],
+    "answers": {
+      "basic": [
+        "Any four of: displacement, velocity, acceleration, force, momentum, weight.",
+        "Magnitude and direction."
+      ],
+      "intermediate": [
+        "The direction in which the 10 N force acts is missing."
+      ],
+      "advanced": [
+        "If two forces of equal magnitude act in exactly opposite directions, their effects cancel, giving a resultant force of zero — this could not be predicted from magnitude alone."
+      ],
+      "exam": [
+        "A vector quantity is one requiring both magnitude and direction to be fully described; examples: force, velocity.",
+        "Force applied to an object has an effect that depends on its direction as well as its size — a scalar description ('10 N') cannot show whether the force pushes, pulls, or acts sideways on the object."
+      ]
+    },
+    "summary": "A vector quantity requires both magnitude and direction to be fully specified, unlike a scalar. Vectors are represented as scaled arrows and include displacement, velocity, acceleration, force, and momentum.",
+    "revision_notes": [
+      "Vector = magnitude + direction",
+      "Represented as a scaled arrow",
+      "Examples: displacement, velocity, acceleration, force, momentum"
+    ],
+    "related_topics": [
+      "Scalars",
+      "Vector Addition and Resolution",
+      "Displacement",
+      "Force"
+    ],
+    "prerequisites": [
+      "Scalars"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: An arrow on a compass rose, labelled with a magnitude and a direction, illustrating how a vector is represented graphically]"
+    ],
+    "images": [
+      {
+        "filename": "physics-vectors-006-01.webp",
+        "type": "diagram",
+        "description": "A single blue arrow drawn on a set of axes, with its length labelled as the magnitude (20 m/s) and the angle it makes from the horizontal axis marked and labelled as the direction.",
+        "purpose": "Helps students see concretely that a vector is defined by two separate pieces of information — length (magnitude) and angle (direction) — rather than a single number.",
+        "placement": "Alongside the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-007",
+    "subject": "Physics",
+    "category": "Foundations of Physics",
+    "title": "Vector Addition and Resolution",
+    "difficulty": "Intermediate",
+    "description": "Methods for combining two or more vectors into a single resultant vector, and for splitting a vector into perpendicular components.",
+    "learning_objectives": [
+      "Add two perpendicular vectors using Pythagoras' theorem",
+      "Find the direction of a resultant vector using trigonometry",
+      "Resolve a single vector into horizontal and vertical components"
+    ],
+    "explanation": "When vectors do not act along the same line, they cannot be combined by simple arithmetic addition as scalars can. Two related techniques handle this. Vector addition finds a single resultant vector equivalent to the combined effect of two or more vectors; for two perpendicular vectors of magnitude a and b, the resultant magnitude is found using Pythagoras' theorem, R = root(a^2 + b^2), and its direction using trigonometry, theta = tan^-1(b/a). Vector resolution is the reverse process: splitting one vector into two perpendicular components (usually horizontal and vertical). For a vector of magnitude V acting at angle theta to the horizontal, the horizontal component is V cos(theta) and the vertical component is V sin(theta). These two operations are central to solving problems involving forces or motion that act at an angle, and they underpin later topics such as projectile motion.",
+    "key_concepts": [
+      "Resultant vector",
+      "Pythagoras' theorem for perpendicular vectors",
+      "Resolving a vector into components using sine and cosine"
+    ],
+    "definitions": [
+      {
+        "term": "Resultant vector",
+        "definition": "A single vector that has the same overall effect as two or more vectors acting together."
+      },
+      {
+        "term": "Component",
+        "definition": "The part of a vector that acts along one particular chosen direction (commonly horizontal or vertical)."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Resultant of two perpendicular vectors",
+        "equation": "R = root(a^2 + b^2)",
+        "variables": {
+          "R": "magnitude of resultant vector",
+          "a, b": "magnitudes of the two perpendicular vectors"
+        }
+      },
+      {
+        "name": "Direction of resultant",
+        "equation": "theta = tan^-1(b/a)",
+        "variables": {
+          "theta": "angle of resultant from the direction of a"
+        }
+      },
+      {
+        "name": "Horizontal component",
+        "equation": "Vx = V cos(theta)",
+        "variables": {
+          "Vx": "horizontal component",
+          "V": "magnitude of the vector",
+          "theta": "angle from the horizontal"
+        }
+      },
+      {
+        "name": "Vertical component",
+        "equation": "Vy = V sin(theta)",
+        "variables": {
+          "Vy": "vertical component",
+          "V": "magnitude of the vector",
+          "theta": "angle from the horizontal"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "velocity",
+        "si_unit": "metre per second",
+        "symbol": "m/s"
+      },
+      {
+        "quantity": "force",
+        "si_unit": "newton",
+        "symbol": "N"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A boat's engine gives it a velocity of 4 m/s due east, while a current pushes it at 3 m/s due north. Find the resultant velocity of the boat.",
+        "steps": [
+          "The two velocities are perpendicular (east and north), so use Pythagoras: R = root(4^2 + 3^2).",
+          "Calculate: R = root(16 + 9) = root(25) = 5 m/s.",
+          "Find the direction: theta = tan^-1(3/4) = 36.9 degrees north of east."
+        ],
+        "answer": "5 m/s at 36.9 degrees north of east"
+      },
+      {
+        "problem": "A force of 10 N acts at 30 degrees above the horizontal. Find its horizontal and vertical components.",
+        "steps": [
+          "Horizontal component: Vx = 10 x cos(30) = 10 x 0.866 = 8.66 N.",
+          "Vertical component: Vy = 10 x sin(30) = 10 x 0.500 = 5.00 N."
+        ],
+        "answer": "Horizontal component approx 8.66 N; vertical component = 5.00 N"
+      }
+    ],
+    "practical_applications": [
+      "Correcting an aircraft's heading for crosswind",
+      "Analysing forces on structures acting at an angle",
+      "Breaking down projectile motion into independent horizontal and vertical parts"
+    ],
+    "common_mistakes": [
+      "Adding vector magnitudes directly when they are not parallel",
+      "Mixing up which trigonometric function (sine or cosine) applies to which component",
+      "Forgetting to state the direction of a calculated resultant"
+    ],
+    "misconceptions": [
+      "That the resultant of two vectors is always larger than either individual vector — this is only true when they act in similar directions; vectors that partly oppose each other produce a smaller resultant."
+    ],
+    "tips": [
+      "Sketch the vectors tip-to-tail before calculating, to check the answer looks reasonable.",
+      "Always double-check which angle is being measured from before applying sine or cosine."
+    ],
+    "practice_questions": {
+      "basic": [
+        "Two perpendicular forces of 6 N and 8 N act on an object. Find the magnitude of the resultant force."
+      ],
+      "intermediate": [
+        "Resolve a velocity of 15 m/s acting at 40 degrees above the horizontal into its horizontal and vertical components."
+      ],
+      "advanced": [
+        "A hiker walks 3 km north, then 4 km east. Find the magnitude and direction of the hiker's overall displacement from the starting point."
+      ]
+    },
+    "exam_questions": [
+      "Two forces of 5 N and 12 N act at right angles to each other on an object. Calculate the magnitude and direction of the resultant force.",
+      "Explain the process of resolving a vector into components, and state why this technique is useful."
+    ],
+    "answers": {
+      "basic": [
+        "R = root(6^2 + 8^2) = root(36 + 64) = root(100) = 10 N."
+      ],
+      "intermediate": [
+        "Horizontal: 15 cos(40) approx 11.5 m/s. Vertical: 15 sin(40) approx 9.64 m/s."
+      ],
+      "advanced": [
+        "R = root(3^2 + 4^2) = root(25) = 5 km, direction = tan^-1(4/3) = 53.1 degrees east of north."
+      ],
+      "exam": [
+        "R = root(5^2 + 12^2) = root(25 + 144) = root(169) = 13 N; theta = tan^-1(12/5) = 67.4 degrees from the 5 N force.",
+        "Resolving a vector splits it into two perpendicular components (typically horizontal and vertical) using V cos(theta) and V sin(theta); this is useful because each component can then be analysed independently using simple one-dimensional equations, which is especially valuable for problems involving motion or forces at an angle, such as projectile motion."
+      ]
+    },
+    "summary": "Vectors that act at an angle to one another cannot be combined by simple arithmetic. Two perpendicular vectors are combined into a resultant using Pythagoras' theorem and trigonometry, while a single vector can be split into horizontal and vertical components using V cos(theta) and V sin(theta).",
+    "revision_notes": [
+      "R = root(a^2 + b^2) for perpendicular vectors",
+      "theta = tan^-1(opposite/adjacent)",
+      "Vx = V cos(theta), Vy = V sin(theta)"
+    ],
+    "related_topics": [
+      "Vectors",
+      "Projectile Motion",
+      "Resultant Force"
+    ],
+    "prerequisites": [
+      "Vectors"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: Tip-to-tail addition of two perpendicular vectors forming a right-angled triangle with the resultant as the hypotenuse]",
+      "[DIAGRAM: A single vector at an angle, with dashed lines showing its horizontal and vertical components]"
+    ],
+    "images": [
+      {
+        "filename": "physics-vector-addition-and-resolution-007-01.webp",
+        "type": "diagram",
+        "description": "The boat example shown as tip-to-tail vectors: a blue 4 m/s East arrow, a green 3 m/s North arrow starting where the first ends, and a dashed red resultant arrow of 5 m/s at 36.9 degrees connecting the very start to the very end.",
+        "purpose": "Shows visually why the resultant is the straight line from the start of the first vector to the end of the second, and how Pythagoras' theorem applies to the right-angled triangle formed.",
+        "placement": "Directly above or beside the first worked example (the boat problem)."
+      },
+      {
+        "filename": "physics-vector-addition-and-resolution-007-02.webp",
+        "type": "diagram",
+        "description": "A single blue vector V=10N at an angle theta above the horizontal, with a red horizontal component arrow (Vx = V cos theta) and a green vertical component arrow (Vy = V sin theta) forming a right triangle with V as the hypotenuse.",
+        "purpose": "Shows how a single vector decomposes into two independent perpendicular parts, making clear which side of the triangle corresponds to cosine and which to sine.",
+        "placement": "Directly above or beside the second worked example (the 10 N force problem)."
+      }
+    ]
+  },
+  {
+    "id": "phy-008",
+    "subject": "Physics",
+    "category": "Foundations of Physics",
+    "title": "Measurement Techniques",
+    "difficulty": "Foundational",
+    "description": "The instruments and good practice used to measure physical quantities accurately and reliably in the laboratory.",
+    "learning_objectives": [
+      "Select an appropriate instrument for a given quantity and required precision",
+      "Read common laboratory instruments correctly, avoiding parallax error",
+      "Explain why repeated readings are taken and averaged"
+    ],
+    "explanation": "Measuring a physical quantity accurately depends on choosing the right instrument and using it correctly. Length can be measured with a ruler (to the nearest mm), vernier calipers (to 0.1 mm or better), or a micrometer screw gauge (to 0.01 mm), depending on the precision needed. Mass is measured with a balance, time with a stopwatch or light gates, temperature with a thermometer or thermocouple, and the volume of a liquid with a measuring cylinder, read at the bottom of the meniscus. A key source of error when reading any scale is parallax error, an apparent shift in the reading caused by viewing the scale from an angle rather than directly in line with it (at eye level, perpendicular to the scale). Good practice also includes taking several repeated readings of the same quantity and calculating their mean, which reduces the effect of random variation in the measurements.",
+    "key_concepts": [
+      "Matching instrument resolution to the required precision",
+      "Avoiding parallax error",
+      "Repeating and averaging readings"
+    ],
+    "definitions": [
+      {
+        "term": "Resolution (of an instrument)",
+        "definition": "The smallest change in a quantity that an instrument can detect or display."
+      },
+      {
+        "term": "Parallax error",
+        "definition": "An apparent error in a scale reading caused by viewing it from an angle rather than directly in line with the marker or meniscus."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Mean of repeated readings",
+        "equation": "mean = (sum of readings) / (number of readings)",
+        "variables": {
+          "mean": "best estimate of the true value from repeated measurements"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "length",
+        "si_unit": "metre",
+        "symbol": "m"
+      },
+      {
+        "quantity": "time",
+        "si_unit": "second",
+        "symbol": "s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A student measures the length of a pencil three times using a ruler, obtaining 14.2 cm, 14.3 cm, and 14.1 cm. Calculate the best estimate of the pencil's length.",
+        "steps": [
+          "Add the three readings: 14.2 + 14.3 + 14.1 = 42.6.",
+          "Divide by the number of readings: 42.6 / 3."
+        ],
+        "answer": "14.2 cm"
+      }
+    ],
+    "practical_applications": [
+      "Setting up reliable school and university laboratory experiments",
+      "Quality control measurements in manufacturing",
+      "Field data collection in engineering and environmental science"
+    ],
+    "common_mistakes": [
+      "Reading a scale from an angle instead of straight on (causing parallax error)",
+      "Using an instrument with insufficient resolution for the precision required",
+      "Taking only a single reading rather than repeating and averaging"
+    ],
+    "misconceptions": [
+      "That any measuring instrument gives equally trustworthy results regardless of its design or how carefully it is used",
+      "That a single reading is always sufficient for a reliable result"
+    ],
+    "tips": [
+      "View a scale directly in line with your eye to avoid parallax error, especially with a meniscus.",
+      "Choose an instrument whose resolution matches the precision the experiment actually needs.",
+      "Take at least three repeated readings and average them where practical."
+    ],
+    "practice_questions": {
+      "basic": [
+        "Name a suitable instrument for measuring the diameter of a wire to 0.01 mm.",
+        "Explain what parallax error is."
+      ],
+      "intermediate": [
+        "Describe how to correctly read the volume of a liquid in a measuring cylinder to avoid parallax error."
+      ],
+      "advanced": [
+        "Explain why averaging several repeated length measurements improves the reliability of a result, but would not correct a bent ruler used for all the measurements."
+      ]
+    },
+    "exam_questions": [
+      "Describe how a student should measure the diameter of a small metal ball as accurately as possible, naming a suitable instrument and explaining how to avoid parallax error."
+    ],
+    "answers": {
+      "basic": [
+        "A micrometer screw gauge (resolution 0.01 mm).",
+        "Parallax error is an apparent shift in a scale reading caused by viewing the scale from an angle rather than directly in line with it."
+      ],
+      "intermediate": [
+        "Position the eye level with the bottom of the meniscus and read the scale directly in line with it, rather than looking down or up at an angle."
+      ],
+      "advanced": [
+        "Averaging reduces the effect of random error, because small unpredictable variations between individual readings tend to cancel out; however, a bent ruler introduces a systematic error that shifts every reading in the same direction by roughly the same amount, so averaging the readings would not remove this consistent offset."
+      ],
+      "exam": [
+        "A micrometer screw gauge should be used, since it offers a resolution of 0.01 mm, suitable for a small object; the scale should be read directly in line with the eye (not from an angle) to avoid parallax error, and several repeat readings should be taken and averaged."
+      ]
+    },
+    "summary": "Accurate measurement depends on selecting an instrument with appropriate resolution, reading scales directly in line with the eye to avoid parallax error, and taking repeated readings to reduce the effect of random variation.",
+    "revision_notes": [
+      "Match instrument resolution to required precision",
+      "Avoid parallax: read scales at eye level, in line",
+      "Repeat readings and take the mean to reduce random error"
+    ],
+    "related_topics": [
+      "Measurement Errors",
+      "Accuracy and Precision",
+      "Significant Figures"
+    ],
+    "prerequisites": [
+      "Physical Quantities",
+      "SI Units"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A measuring cylinder shown with three eye positions - one too high, one too low, and one correctly level with the meniscus - illustrating parallax error]"
+    ],
+    "images": [
+      {
+        "filename": "physics-measurement-techniques-008-01.webp",
+        "type": "diagram",
+        "description": "A measuring cylinder with a liquid meniscus marked, and three labelled eye positions (too high, correct/level, too low) each with a dotted sight-line to the meniscus, showing how an off-level eye position leads to a misread scale value.",
+        "purpose": "Makes the abstract idea of parallax error concrete by showing exactly how the line of sight must align with the meniscus to get a correct reading.",
+        "placement": "Alongside the explanation of parallax error, before the practice questions."
+      }
+    ]
+  },
+  {
+    "id": "phy-009",
+    "subject": "Physics",
+    "category": "Foundations of Physics",
+    "title": "Measurement Errors",
+    "difficulty": "Foundational",
+    "description": "An introduction to why every measurement carries some uncertainty, and the distinction between a measurement error and a careless mistake.",
+    "learning_objectives": [
+      "Explain why measurements always carry some uncertainty",
+      "Distinguish between a measurement error and an avoidable mistake",
+      "Identify possible sources of error in a simple experiment"
+    ],
+    "explanation": "No measurement is ever perfectly exact — every instrument and every observer has limitations, so there is always some difference between a measured value and the true value of the quantity being measured. This difference is called an error, and it is a normal, unavoidable feature of measurement rather than a sign that something has gone wrong. This is different from a mistake (or blunder), which is an avoidable human error, such as misreading a scale, recording the wrong number, or using the wrong instrument entirely — mistakes should simply be corrected, not treated as part of the experiment's uncertainty. Sources of genuine error include the limited resolution of an instrument, small variations in technique between repeated readings, and environmental conditions such as temperature drift. Recognising and minimising these sources is central to producing reliable experimental results, and is explored further in the specific categories of random and systematic error.",
+    "key_concepts": [
+      "Measurement error is unavoidable, not a sign of carelessness",
+      "Error is distinct from a mistake/blunder",
+      "Common sources: instrument resolution, technique variation, environmental conditions"
+    ],
+    "definitions": [
+      {
+        "term": "Error",
+        "definition": "The difference between a measured value and the true value of a quantity, arising from the limitations of instruments or technique."
+      },
+      {
+        "term": "Mistake (blunder)",
+        "definition": "An avoidable human error, such as misreading an instrument or recording an incorrect value, which is distinct from measurement error."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "A student measures the length of a table five times, obtaining 120.1 cm, 120.3 cm, 119.9 cm, 120.2 cm, and 120.0 cm. Explain what these results suggest about the measurement.",
+        "steps": [
+          "Observe that the readings scatter both above and below a central value, rather than all being shifted consistently in one direction.",
+          "This scatter, rather than a consistent offset, is characteristic of a genuine measurement error rather than a single blunder.",
+          "The best estimate of the table's length is the mean of the readings."
+        ],
+        "answer": "The scatter suggests normal measurement variation (explored further as random error); the mean, (120.1+120.3+119.9+120.2+120.0)/5 = 120.1 cm, is the best estimate of the true length."
+      }
+    ],
+    "practical_applications": [
+      "Quality control in manufacturing, where products must meet stated tolerances",
+      "Scientific measurement validation and peer review",
+      "Calibration of medical and laboratory instruments"
+    ],
+    "common_mistakes": [
+      "Treating every discrepancy in results as a 'mistake' rather than recognising it as expected measurement error",
+      "Assuming a measurement with more decimal places is automatically more accurate"
+    ],
+    "misconceptions": [
+      "That all differences between measurements and expected values are due to carelessness, rather than being an inherent feature of measurement"
+    ],
+    "tips": [
+      "Look at the pattern in a set of repeated readings — scattered values usually indicate normal measurement error, while a large one-off difference may indicate a genuine mistake worth investigating."
+    ],
+    "practice_questions": {
+      "basic": [
+        "Explain the difference between a measurement error and a mistake."
+      ],
+      "intermediate": [
+        "A student records five readings of a time interval, all within 0.1 s of each other except one that is 3 s different from the rest. Suggest what might explain the outlier."
+      ],
+      "advanced": [
+        "Explain why it is impossible, in principle, for any measurement to be completely free of error."
+      ]
+    },
+    "exam_questions": [
+      "State the difference between an 'error' and a 'mistake' in the context of experimental measurement, giving an example of each."
+    ],
+    "answers": {
+      "basic": [
+        "A measurement error is an unavoidable difference between a measured value and the true value, arising from the limits of instruments or technique; a mistake is an avoidable human error, such as misreading a scale."
+      ],
+      "intermediate": [
+        "The outlier is most likely a mistake (e.g. the stopwatch was started or stopped incorrectly on that attempt) rather than normal measurement error, since it is far outside the spread of the other readings."
+      ],
+      "advanced": [
+        "Every instrument has a finite resolution and every observer has some variability in technique, so a measured value can never be guaranteed to exactly equal the true value of the quantity — some level of uncertainty is an inherent feature of the measurement process itself."
+      ],
+      "exam": [
+        "An error is an unavoidable difference between a measurement and the true value caused by the limitations of equipment or technique (e.g. the small resolution limit of a ruler); a mistake is an avoidable human error, such as recording '12.3' instead of the correctly read '13.2'."
+      ]
+    },
+    "summary": "Every measurement carries some inherent uncertainty, called error, which is distinct from an avoidable mistake such as misreading an instrument. Common sources of error include instrument resolution, technique variation, and environmental conditions.",
+    "revision_notes": [
+      "Error = unavoidable, inherent to measurement; mistake = avoidable human blunder",
+      "Sources of error: instrument resolution, technique, environment"
+    ],
+    "related_topics": [
+      "Systematic and Random Errors",
+      "Accuracy and Precision",
+      "Measurement Techniques"
+    ],
+    "prerequisites": [
+      "Measurement Techniques"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-010",
+    "subject": "Physics",
+    "category": "Foundations of Physics",
+    "title": "Systematic and Random Errors",
+    "difficulty": "Intermediate",
+    "description": "The two fundamental categories of measurement error, how to recognise each from a set of data, and how to reduce them.",
+    "learning_objectives": [
+      "Distinguish systematic error from random error using the pattern of a set of readings",
+      "Explain why repeating and averaging reduces random error but not systematic error",
+      "Suggest suitable methods to reduce each type of error"
+    ],
+    "explanation": "Random errors arise from unpredictable variations in the measuring conditions or the observer — for example, a slightly different reaction time each time a stopwatch is started by hand. They cause repeated readings to scatter randomly above and below the true value. Because the scatter is random, taking many repeated readings and averaging them reduces the overall effect of random error, since the too-high and too-low readings tend to cancel out. Systematic errors, in contrast, arise from a consistent flaw in the equipment or method — for example, a balance that has not been zeroed correctly, or a ruler with a worn end. Every reading is shifted in the same direction by roughly the same amount. Because the offset is consistent rather than random, averaging repeated readings does not reduce systematic error at all; it must instead be identified (often by comparing against a known standard) and removed by recalibrating the instrument, correcting the technique, or changing the method.",
+    "key_concepts": [
+      "Random error causes scatter; averaging reduces it",
+      "Systematic error causes a consistent offset; averaging does not reduce it",
+      "Systematic error is found and removed by calibration, not repetition"
+    ],
+    "definitions": [
+      {
+        "term": "Random error",
+        "definition": "Unpredictable variation in measurements that causes readings to scatter above and below the true value."
+      },
+      {
+        "term": "Systematic error",
+        "definition": "A consistent, repeatable offset between measured and true values, caused by a flaw in the equipment or method used."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "A student times a pendulum swing five times, getting 2.01 s, 1.98 s, 2.03 s, 1.99 s, and 2.02 s using a stopwatch they start and stop by hand. Separately, it is later discovered the stopwatch itself reads 0.50 s too high on every measurement. Identify the type of error present in each case.",
+        "steps": [
+          "The five hand-timed readings scatter both above and below a central value (around 2.01 s) — this pattern is characteristic of random error, caused by variable human reaction time.",
+          "The stopwatch consistently adding 0.50 s to every single reading, regardless of the true time, is a fixed offset in the same direction — this is characteristic of systematic error.",
+          "Averaging the five readings reduces the effect of the random error, but the resulting mean is still 0.50 s too high because of the systematic error, which must be corrected separately (e.g. by subtracting 0.50 s from every reading, or recalibrating the stopwatch)."
+        ],
+        "answer": "The reaction-time variation is a random error; the stopwatch's constant 0.50 s offset is a systematic error."
+      }
+    ],
+    "practical_applications": [
+      "Calibrating laboratory balances and thermometers against known standards",
+      "Quality assurance processes in manufacturing",
+      "Correcting for known instrument drift in precision timing systems such as GPS"
+    ],
+    "common_mistakes": [
+      "Believing that averaging more readings will fix any type of error, including systematic error",
+      "Failing to notice a systematic error because the readings appear consistent (and therefore seem trustworthy)"
+    ],
+    "misconceptions": [
+      "That a systematic error is somehow 'less serious' than a random error — in fact, a systematic error can make a measurement look precise (tightly clustered) while still being far from the true value, which can be more misleading than obvious random scatter."
+    ],
+    "tips": [
+      "Check an instrument against a known, trusted standard before use to detect systematic error.",
+      "If repeated readings cluster tightly but the source of the measurement (e.g. the instrument's zero point) hasn't been checked, be suspicious of systematic error rather than assuming the result is accurate."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State whether repeating and averaging readings reduces random error, systematic error, both, or neither."
+      ],
+      "intermediate": [
+        "A set of mass readings taken on an uncalibrated balance are all consistently 2.0 g higher than the true value. Explain why taking more readings and averaging them would not solve this problem."
+      ],
+      "advanced": [
+        "Describe an experiment where both random and systematic error could occur, and suggest one method to reduce each."
+      ]
+    },
+    "exam_questions": [
+      "Distinguish between random error and systematic error, giving one example of each and explaining how each could be reduced."
+    ],
+    "answers": {
+      "basic": [
+        "It reduces random error only; it has no effect on systematic error."
+      ],
+      "intermediate": [
+        "Since every reading is shifted by the same consistent 2.0 g offset, averaging the readings simply produces a mean that is still 2.0 g too high — repetition cannot cancel out an error that always acts in the same direction; the balance must instead be recalibrated (zeroed correctly)."
+      ],
+      "advanced": [
+        "Example: measuring the period of a pendulum with a hand-operated stopwatch on an incorrectly zeroed stand. Random error (from reaction time) can be reduced by timing multiple oscillations and repeating the measurement several times, then averaging. Systematic error (from the incorrectly zeroed stand affecting the pendulum's starting angle) can be reduced by checking and correcting the stand's alignment before the experiment."
+      ],
+      "exam": [
+        "Random error causes unpredictable scatter in repeated readings (e.g. variation in reaction time when using a stopwatch) and can be reduced by taking multiple readings and calculating the mean. Systematic error causes a consistent offset in the same direction for every reading (e.g. an incorrectly zeroed instrument) and can be reduced by recalibrating the instrument against a known standard, not by repeating the measurement."
+      ]
+    },
+    "summary": "Random error causes unpredictable scatter around the true value and is reduced by repeating and averaging measurements. Systematic error causes a consistent offset in the same direction and can only be reduced by identifying and correcting the underlying flaw in equipment or method, such as through recalibration.",
+    "revision_notes": [
+      "Random error: scatter, reduced by averaging",
+      "Systematic error: consistent offset, reduced by recalibration, NOT by averaging",
+      "Check against a known standard to detect systematic error"
+    ],
+    "related_topics": [
+      "Measurement Errors",
+      "Accuracy and Precision",
+      "Percentage Uncertainty"
+    ],
+    "prerequisites": [
+      "Measurement Errors"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: Two sets of scattered dots on a target - one cluster spread randomly around the centre (random error) and one cluster tightly grouped but off to one side (systematic error)]"
+    ],
+    "images": [
+      {
+        "filename": "physics-systematic-and-random-errors-010-01.webp",
+        "type": "diagram",
+        "description": "Two side-by-side target diagrams. The left target shows blue points scattered randomly around the bullseye (random error). The right target shows red points tightly clustered together but offset away from the bullseye (systematic error).",
+        "purpose": "Gives students an immediate visual pattern to recognise: scatter around the centre means random error, while a tight but off-centre cluster means systematic error.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-011",
+    "subject": "Physics",
+    "category": "Foundations of Physics",
+    "title": "Accuracy and Precision",
+    "difficulty": "Foundational",
+    "description": "The distinction between how close a measurement is to the true value (accuracy) and how consistent repeated measurements are with each other (precision).",
+    "learning_objectives": [
+      "Define accuracy and precision",
+      "Distinguish accurate from precise results using example data",
+      "Relate accuracy to systematic error and precision to random error"
+    ],
+    "explanation": "Accuracy describes how close a measured value is to the true (accepted) value of the quantity. Precision describes how close a set of repeated measurements are to each other, regardless of whether they are close to the true value or not. These are independent properties: a set of results can be precise but not accurate (tightly clustered together but consistently offset from the true value, usually due to a systematic error), accurate but not precise (scattered widely, but happening to average close to the true value), both accurate and precise, or neither. In general, high precision reflects low random error, while high accuracy requires low systematic error as well as reasonably low random error.",
+    "key_concepts": [
+      "Accuracy = closeness to true value",
+      "Precision = closeness of repeated readings to each other",
+      "Accuracy relates to systematic error; precision relates to random error"
+    ],
+    "definitions": [
+      {
+        "term": "Accuracy",
+        "definition": "How close a measured value is to the true or accepted value of the quantity being measured."
+      },
+      {
+        "term": "Precision",
+        "definition": "How close a set of repeated measurements of the same quantity are to one another."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "Four darts are thrown at a target. Set A lands tightly clustered but off to one side of the bullseye. Set B lands scattered widely but roughly centred on the bullseye on average. Describe the accuracy and precision of each set.",
+        "steps": [
+          "Set A: the darts are close together (tightly clustered), so this set is precise.",
+          "Set A: the darts are not near the bullseye (the true value), so this set is not accurate.",
+          "Set B: the darts are spread out, so this set is not precise.",
+          "Set B: the darts average out close to the bullseye, so this set is accurate on average."
+        ],
+        "answer": "Set A is precise but not accurate; Set B is accurate (on average) but not precise."
+      }
+    ],
+    "practical_applications": [
+      "Calibrating scientific instruments against trusted reference standards",
+      "Manufacturing tolerance checks",
+      "Comparing GPS device specifications, which quote both accuracy and precision separately"
+    ],
+    "common_mistakes": [
+      "Using the words 'accurate' and 'precise' interchangeably",
+      "Assuming a result with more decimal places is automatically more accurate, when it may only reflect the instrument's resolution"
+    ],
+    "misconceptions": [
+      "That precision guarantees accuracy — a highly precise (tightly clustered) set of results can still be far from the true value if a systematic error is present."
+    ],
+    "tips": [
+      "Link accuracy to systematic error (bias) and precision to random error (spread) when analysing a data set.",
+      "Check both the clustering of a data set (precision) and its agreement with a known or expected value (accuracy) separately."
+    ],
+    "practice_questions": {
+      "basic": [
+        "Define accuracy and precision in your own words."
+      ],
+      "intermediate": [
+        "A student's repeated mass measurements are 50.1 g, 50.0 g, 50.2 g, and 50.1 g, but the true mass is 55.0 g. Describe the accuracy and precision of these results."
+      ],
+      "advanced": [
+        "Explain why a set of measurements can be precise without being accurate, but a truly accurate mean value generally requires the underlying measurements to also be reasonably precise."
+      ]
+    },
+    "exam_questions": [
+      "Using an example, explain the difference between accuracy and precision in experimental measurements."
+    ],
+    "answers": {
+      "basic": [
+        "Accuracy is how close a measurement is to the true value; precision is how close repeated measurements are to each other."
+      ],
+      "intermediate": [
+        "The readings are tightly clustered together (50.0-50.2 g), so they are precise, but they are far from the true value of 55.0 g, so they are not accurate — this pattern suggests a systematic error (e.g. an incorrectly calibrated balance)."
+      ],
+      "advanced": [
+        "Precision only reflects the spread of repeated readings, not their relationship to the true value, so a set of readings can cluster tightly (precise) while all being consistently offset from the truth by a systematic error (not accurate). However, if the individual readings are very scattered (imprecise), it becomes harder to trust that their average is close to the true value, since any single small sample of very spread-out data could by chance average far from the truth — so while precision doesn't guarantee accuracy, reasonable precision makes a claimed accurate mean more trustworthy."
+      ],
+      "exam": [
+        "Accuracy refers to how close a measured value is to the true value, while precision refers to how close repeated measurements are to each other. For example, if the true length of an object is 10.0 cm, measurements of 9.9, 10.0, and 10.1 cm are both accurate and precise, but measurements of 12.1, 12.0, and 12.2 cm would be precise (tightly clustered) but not accurate (far from the true value of 10.0 cm)."
+      ]
+    },
+    "summary": "Accuracy describes closeness to the true value, while precision describes closeness of repeated measurements to each other. High precision reflects low random error; high accuracy requires low systematic error as well.",
+    "revision_notes": [
+      "Accurate = close to true value",
+      "Precise = repeated readings close together",
+      "Precise not equal to accurate; both matter for a reliable result"
+    ],
+    "related_topics": [
+      "Measurement Errors",
+      "Systematic and Random Errors",
+      "Significant Figures"
+    ],
+    "prerequisites": [
+      "Measurement Errors"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: Four dartboard-style targets illustrating the four combinations: accurate & precise, accurate but not precise, precise but not accurate, neither accurate nor precise]"
+    ],
+    "images": [
+      {
+        "filename": "physics-accuracy-and-precision-011-01.webp",
+        "type": "diagram",
+        "description": "A 2x2 grid of four target diagrams labelled 'Accurate & precise', 'Precise, not accurate', 'Accurate, not precise', and 'Neither accurate nor precise', each showing a different pattern of points relative to the bullseye.",
+        "purpose": "Provides the classic, immediately recognisable visual (the four-target comparison) that lets students map each combination of accuracy/precision directly onto a data pattern.",
+        "placement": "Directly after the explanation, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-012",
+    "subject": "Physics",
+    "category": "Foundations of Physics",
+    "title": "Significant Figures",
+    "difficulty": "Foundational",
+    "description": "The rules for identifying and using significant figures to express the precision of a measured or calculated value correctly.",
+    "learning_objectives": [
+      "Identify the number of significant figures in a given value",
+      "Round a calculated answer to an appropriate number of significant figures",
+      "Apply the correct significant-figure rule for addition/subtraction and multiplication/division"
+    ],
+    "explanation": "Significant figures are the digits in a number that carry meaningful information about its precision. The rules are: all non-zero digits are significant; zeros between non-zero digits are significant (e.g. 405 has 3 significant figures); leading zeros before the first non-zero digit are never significant (0.0032 has 2 significant figures); trailing zeros after a decimal point are significant (3.20 has 3 significant figures); trailing zeros in a whole number with no decimal point are ambiguous and best avoided by using standard form. When performing a calculation, the final answer should not be reported with more significant figures than the least precise value used: for multiplication and division, match the smallest number of significant figures among the values used; for addition and subtraction, match the smallest number of decimal places among the values used.",
+    "key_concepts": [
+      "Rules for counting significant figures",
+      "Multiplication/division rule (match fewest sig figs)",
+      "Addition/subtraction rule (match fewest decimal places)"
+    ],
+    "definitions": [
+      {
+        "term": "Significant figure",
+        "definition": "A digit in a number that contributes meaningfully to its precision, as opposed to a digit that only indicates place value."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "Multiply 4.52 (3 significant figures) by 2.1 (2 significant figures), and give the answer to the correct number of significant figures.",
+        "steps": [
+          "Calculate the raw product: 4.52 x 2.1 = 9.492.",
+          "Identify the least number of significant figures among the inputs: 2.1 has 2 significant figures.",
+          "Round the answer to 2 significant figures."
+        ],
+        "answer": "9.5"
+      },
+      {
+        "problem": "Add 12.11 and 0.3, and give the answer to the correct number of decimal places.",
+        "steps": [
+          "Calculate the raw sum: 12.11 + 0.3 = 12.41.",
+          "Identify the least number of decimal places among the inputs: 0.3 has 1 decimal place.",
+          "Round the answer to 1 decimal place."
+        ],
+        "answer": "12.4"
+      }
+    ],
+    "practical_applications": [
+      "Reporting experimental results in scientific papers",
+      "Engineering specifications and manufacturing tolerances",
+      "Communicating measurement precision consistently across a research team"
+    ],
+    "common_mistakes": [
+      "Reporting far more significant figures than the data justifies, implying false precision",
+      "Miscounting significant figures in numbers containing zeros"
+    ],
+    "misconceptions": [
+      "That more digits in a calculated answer always means a more precise or better result — the precision of a final answer can never exceed the precision of the least precise measurement used to calculate it."
+    ],
+    "tips": [
+      "Identify the least precise value in a calculation first, then round the final answer to match it.",
+      "Only round the final answer — keep extra digits during intermediate calculation steps to avoid compounding rounding errors."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the number of significant figures in 0.00420.",
+        "State the number of significant figures in 3.070."
+      ],
+      "intermediate": [
+        "Calculate 6.75 x 3.2 and give the answer to the correct number of significant figures.",
+        "Calculate 8.4 + 0.256 and give the answer to the correct number of decimal places."
+      ],
+      "advanced": [
+        "Explain why the rule for addition/subtraction (matching decimal places) differs from the rule for multiplication/division (matching significant figures)."
+      ]
+    },
+    "exam_questions": [
+      "A student calculates the area of a rectangle with sides 5.20 cm and 3.1 cm as 16.12 cm^2. Give the answer to the appropriate number of significant figures, explaining your reasoning."
+    ],
+    "answers": {
+      "basic": [
+        "3 significant figures.",
+        "4 significant figures."
+      ],
+      "intermediate": [
+        "6.75 x 3.2 = 21.6 (raw); the least precise value (3.2) has 2 significant figures, so the answer should be 22.",
+        "8.4 + 0.256 = 8.656 (raw); the least precise value (8.4) has 1 decimal place, so the answer should be 8.7."
+      ],
+      "advanced": [
+        "Multiplication and division combine the relative precision of each value, so the result's significant figures are limited by the least precise (fewest significant figure) input. Addition and subtraction instead combine absolute precision (the position of the last reliable digit), so the result's decimal places are limited by the least precise (fewest decimal place) input — these are fundamentally different measures of 'precision', which is why the two rules differ."
+      ],
+      "exam": [
+        "The side 3.1 cm has only 2 significant figures, the fewest among the two measurements, so the final answer should be rounded to 2 significant figures: 16 cm^2."
+      ]
+    },
+    "summary": "Significant figures indicate the precision of a measured or calculated value. Leading zeros are never significant, while zeros between or after non-zero digits usually are. Multiplication and division results are rounded to match the fewest significant figures among the inputs; addition and subtraction results are rounded to match the fewest decimal places.",
+    "revision_notes": [
+      "Non-zero digits: always significant",
+      "Zeros between digits: significant",
+      "Leading zeros: never significant",
+      "Trailing zeros after decimal point: significant",
+      "x/div: match fewest sig figs; +/-: match fewest decimal places"
+    ],
+    "related_topics": [
+      "Standard Form (Scientific Notation)",
+      "Accuracy and Precision",
+      "Significant Figures in Experiments"
+    ],
+    "prerequisites": [
+      "Accuracy and Precision"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-013",
+    "subject": "Physics",
+    "category": "Foundations of Physics",
+    "title": "Standard Form (Scientific Notation)",
+    "difficulty": "Foundational",
+    "description": "A concise way of writing very large or very small numbers as a value between 1 and 10 multiplied by a power of ten.",
+    "learning_objectives": [
+      "Convert an ordinary number into standard form",
+      "Convert a number in standard form back into an ordinary number",
+      "Perform simple multiplication and division using numbers in standard form"
+    ],
+    "explanation": "Standard form (also called scientific notation) expresses a number as A x 10^n, where A is between 1 and 10 (1 <= A < 10) and n is a positive or negative integer. Large numbers use a positive exponent: the average Earth-Sun distance, 93,000,000 km, is written as 9.3 x 10^7 km. Small numbers use a negative exponent: a wavelength of 0.0000005 m is written as 5 x 10^-7 m. This notation avoids writing out long strings of zeros, makes it far easier to compare the relative size of very different quantities at a glance, and pairs naturally with SI prefixes, since each prefix corresponds to a specific power of ten.",
+    "key_concepts": [
+      "A x 10^n with 1 <= A < 10",
+      "Positive exponent for large numbers, negative for small numbers",
+      "Standard form simplifies comparison and calculation with extreme values"
+    ],
+    "definitions": [
+      {
+        "term": "Standard form",
+        "definition": "A way of writing a number as a value between 1 and 10 multiplied by an integer power of ten."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Standard form",
+        "equation": "number = A x 10^n",
+        "variables": {
+          "A": "coefficient, 1 <= A < 10",
+          "n": "integer exponent (power of ten)"
+        }
+      }
+    ],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "Write 45,000 in standard form.",
+        "steps": [
+          "Move the decimal point so that only one non-zero digit remains before it: 4.5.",
+          "Count how many places the decimal point moved: 4 places to the left.",
+          "Write the number as the coefficient multiplied by 10 to the power of the number of places moved: 4.5 x 10^4."
+        ],
+        "answer": "4.5 x 10^4"
+      },
+      {
+        "problem": "Convert 3.2 x 10^-3 back into an ordinary number.",
+        "steps": [
+          "A negative exponent of -3 means the decimal point moves 3 places to the left from 3.2.",
+          "Moving the decimal point of 3.2 three places to the left gives 0.0032."
+        ],
+        "answer": "0.0032"
+      }
+    ],
+    "practical_applications": [
+      "Expressing astronomical distances (e.g. light-years)",
+      "Expressing atomic and subatomic sizes in particle physics",
+      "Avoiding transcription errors in engineering calculations involving very large or very small numbers"
+    ],
+    "common_mistakes": [
+      "Writing the coefficient outside the range 1-10 (e.g. 45 x 10^3 instead of 4.5 x 10^4)",
+      "Getting the sign of the exponent wrong for numbers smaller than 1"
+    ],
+    "misconceptions": [
+      "Confusing 'standard form' with the general phrase 'standard units' — they refer to different concepts."
+    ],
+    "tips": [
+      "Count how many places the decimal point moves to determine the exponent: moving left for a large number gives a positive exponent; moving right for a small number gives a negative exponent."
+    ],
+    "practice_questions": {
+      "basic": [
+        "Write 720,000 in standard form.",
+        "Write 4.1 x 10^3 as an ordinary number."
+      ],
+      "intermediate": [
+        "Write 0.000063 in standard form.",
+        "Calculate (2 x 10^3) x (3 x 10^2), giving the answer in standard form."
+      ],
+      "advanced": [
+        "Calculate (6 x 10^8) / (2 x 10^3), giving the answer in standard form, and explain the rule used for dividing the powers of ten."
+      ]
+    },
+    "exam_questions": [
+      "The wavelength of red light is approximately 0.00000065 m. Write this value in standard form."
+    ],
+    "answers": {
+      "basic": [
+        "7.2 x 10^5.",
+        "4100."
+      ],
+      "intermediate": [
+        "6.3 x 10^-5.",
+        "(2 x 3) x 10^(3+2) = 6 x 10^5."
+      ],
+      "advanced": [
+        "(6/2) x 10^(8-3) = 3 x 10^5; when dividing numbers in standard form, the coefficients are divided normally, and the exponents are subtracted."
+      ],
+      "exam": [
+        "6.5 x 10^-7 m."
+      ]
+    },
+    "summary": "Standard form writes a number as a coefficient between 1 and 10 multiplied by a power of ten, making very large or very small numbers easier to write, compare, and calculate with.",
+    "revision_notes": [
+      "A x 10^n, with 1 <= A < 10",
+      "Large numbers: positive exponent; small numbers: negative exponent",
+      "Multiplying: multiply coefficients, add exponents; dividing: divide coefficients, subtract exponents"
+    ],
+    "related_topics": [
+      "SI Prefixes",
+      "Significant Figures",
+      "Derived Units"
+    ],
+    "prerequisites": [],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-014",
+    "subject": "Physics",
+    "category": "Foundations of Physics",
+    "title": "Dimensional Analysis",
+    "difficulty": "Advanced",
+    "description": "Using the fundamental dimensions of physical quantities to check whether an equation is consistent, and to help derive the form of simple relationships.",
+    "learning_objectives": [
+      "Express the dimensions of a physical quantity in terms of mass (M), length (L), and time (T)",
+      "Check whether an equation is dimensionally consistent",
+      "Use dimensional analysis to derive the form of a simple physical relationship"
+    ],
+    "explanation": "Every physical quantity can be expressed in terms of the dimensions of the base quantities, most commonly using the symbols M (mass), L (length), and T (time) for mechanics problems. For example, speed has dimensions [L][T]^-1 (length divided by time), force has dimensions [M][L][T]^-2 (from F = ma), and energy has dimensions [M][L]^2[T]^-2 (from E = Fd). Dimensional analysis uses these dimensions to check whether an equation is physically plausible: both sides of a correct equation must have exactly the same combination of dimensions. This technique can also be used, if the variables a quantity depends on are already suspected, to work out the powers of each variable in a relationship, without deriving the equation fully from theory. It is a powerful sanity check, but it has a key limitation: it cannot determine dimensionless numerical constants (like the 1/2 in s = ut + (1/2)at^2, or the 2*pi in a pendulum's period), since these have no dimensions of their own.",
+    "key_concepts": [
+      "Dimensions (M, L, T) versus units",
+      "Dimensional consistency as an equation check",
+      "Deriving the form of a relationship from dimensions",
+      "Cannot determine dimensionless constants"
+    ],
+    "definitions": [
+      {
+        "term": "Dimension",
+        "definition": "The fundamental nature of a physical quantity, expressed in terms of the base quantities (mass, length, time, etc.), independent of the specific unit chosen to measure it."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Dimensions of speed",
+        "equation": "[v] = L T^-1",
+        "variables": {
+          "[v]": "dimensions of velocity"
+        }
+      },
+      {
+        "name": "Dimensions of force",
+        "equation": "[F] = M L T^-2",
+        "variables": {
+          "[F]": "dimensions of force"
+        }
+      },
+      {
+        "name": "Dimensions of energy",
+        "equation": "[E] = M L^2 T^-2",
+        "variables": {
+          "[E]": "dimensions of energy"
+        }
+      }
+    ],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "Check whether the equation s = ut + (1/2)at^2 is dimensionally consistent.",
+        "steps": [
+          "Find the dimensions of each term. [s] = L.",
+          "[ut] = [u][t] = (L T^-1)(T) = L.",
+          "[at^2] = [a][t]^2 = (L T^-2)(T^2) = L.",
+          "All three terms (s, ut, and at^2) have dimensions of L, matching each other."
+        ],
+        "answer": "The equation is dimensionally consistent (though this check cannot confirm that the numerical factor 1/2 is correct - only that the structure of the equation is dimensionally sound)."
+      },
+      {
+        "problem": "The period T of a simple pendulum is thought to depend on its length l and the gravitational field strength g, in the form T = k l^a g^b, where k is a dimensionless constant. Use dimensional analysis to find a and b.",
+        "steps": [
+          "Write the dimensions of each side: [T] = T^1.",
+          "[l]^a = L^a. [g]^b = (L T^-2)^b = L^b T^-2b.",
+          "Compare powers of L: 0 = a + b (since the left side has no L).",
+          "Compare powers of T: 1 = -2b, so b = -1/2, and therefore a = 1/2."
+        ],
+        "answer": "T is proportional to l^(1/2) g^(-1/2), i.e. T proportional to root(l/g), matching the known form of the pendulum period equation (the constant k = 2*pi must be found separately, e.g. experimentally or from full theory)."
+      }
+    ],
+    "practical_applications": [
+      "Checking a newly derived or rearranged formula before using it in engineering design",
+      "Deriving scaling laws in fluid dynamics and aerodynamics",
+      "Spotting a likely error in a remembered equation during problem-solving"
+    ],
+    "common_mistakes": [
+      "Assuming that dimensional consistency proves an equation is fully correct - it only rules out certain classes of error",
+      "Confusing 'dimension' with 'unit' - length has the dimension L whether it is measured in metres, centimetres, or miles"
+    ],
+    "misconceptions": [
+      "That passing a dimensional analysis check guarantees an equation is correct — a dimensionally consistent equation can still have the wrong numerical constant or even the wrong physical relationship if the dimensionless part is wrong."
+    ],
+    "tips": [
+      "Express every quantity in an equation in terms of M, L, T systematically before comparing sides.",
+      "Use dimensional analysis as a first-pass sanity check on a formula, not as a full derivation."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the dimensions of area and of volume in terms of L."
+      ],
+      "intermediate": [
+        "A student proposes the equation v^2 = u^2 + 2as, where v and u are velocities, a is acceleration, and s is displacement. Check whether this equation is dimensionally consistent."
+      ],
+      "advanced": [
+        "The force F needed to keep an object moving in a circle is thought to depend on its mass m, speed v, and the radius r of the circle, in the form F = k m^a v^b r^c. Use dimensional analysis to find a, b, and c."
+      ]
+    },
+    "exam_questions": [
+      "Show, using dimensional analysis, that the equation F = ma is dimensionally consistent with F expressed in newtons.",
+      "Explain one limitation of using dimensional analysis to check whether an equation is correct."
+    ],
+    "answers": {
+      "basic": [
+        "Area: L^2. Volume: L^3."
+      ],
+      "intermediate": [
+        "[v^2] = (LT^-1)^2 = L^2T^-2. [u^2] = L^2T^-2. [2as] = [a][s] = (LT^-2)(L) = L^2T^-2 (the constant 2 is dimensionless). All terms have dimensions L^2T^-2, so the equation is dimensionally consistent."
+      ],
+      "advanced": [
+        "[F] = MLT^-2. [m]^a = M^a. [v]^b = (LT^-1)^b = L^bT^-b. [r]^c = L^c. Comparing M: 1 = a. Comparing L: 1 = b + c. Comparing T: -2 = -b, so b = 2, giving c = 1 - 2 = -1. So F is proportional to m v^2 / r (matching the known centripetal force relationship, with k = 1)."
+      ],
+      "exam": [
+        "[F] should equal [m][a] = M x (LT^-2) = MLT^-2. The newton is defined as kg m s^-2, which matches MLT^-2 exactly (M=kg, L=m, T=s), confirming the equation is dimensionally consistent.",
+        "Dimensional analysis cannot detect or determine dimensionless numerical constants in an equation (such as the 1/2 in s = ut + (1/2)at^2), so an equation can pass a dimensional check while still containing an incorrect numerical factor."
+      ]
+    },
+    "summary": "Dimensional analysis expresses physical quantities in terms of fundamental dimensions (M, L, T) to check whether an equation is consistent, and can be used to derive the form of a relationship between variables. It cannot, however, determine dimensionless numerical constants within an equation.",
+    "revision_notes": [
+      "[v]=LT^-1, [F]=MLT^-2, [E]=ML^2T^-2",
+      "Both sides of a correct equation must have matching dimensions",
+      "Cannot find dimensionless constants (e.g. 1/2, 2*pi)"
+    ],
+    "related_topics": [
+      "Derived Units",
+      "SI Units",
+      "Equations of Motion"
+    ],
+    "prerequisites": [
+      "Derived Units"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-015",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Distance",
+    "difficulty": "Foundational",
+    "description": "The scalar quantity describing the total length of the path travelled by a moving object.",
+    "learning_objectives": [
+      "Define distance as a scalar quantity",
+      "Calculate total distance travelled over a multi-stage journey"
+    ],
+    "explanation": "Distance is a scalar quantity that measures how much ground an object has covered while moving, without regard to direction. Because it has no direction, distance is always positive and can only stay the same or increase as an object moves — it never decreases, even if the object changes direction or returns to where it started. For example, walking 5 m forward and then 5 m back covers a total distance of 10 m, even though the object ends up exactly where it began.",
+    "key_concepts": [
+      "Scalar quantity",
+      "Cumulative path length",
+      "Always positive, never decreases"
+    ],
+    "definitions": [
+      {
+        "term": "Distance",
+        "definition": "The total length of the path travelled by an object, without regard to direction."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Total distance",
+        "equation": "total distance = sum of individual path lengths",
+        "variables": {}
+      }
+    ],
+    "units": [
+      {
+        "quantity": "distance",
+        "si_unit": "metre",
+        "symbol": "m"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A cyclist rides 3 km east, then turns around and rides 2 km west. Calculate the total distance travelled.",
+        "steps": [
+          "Add the two path lengths, since distance is scalar and does not depend on direction: 3 km + 2 km."
+        ],
+        "answer": "5 km"
+      }
+    ],
+    "practical_applications": [
+      "Odometer readings in vehicles",
+      "Total distance tracking in fitness and running apps",
+      "Fuel efficiency calculations based on distance travelled"
+    ],
+    "common_mistakes": [
+      "Confusing distance with displacement, especially for journeys that involve a change of direction or a return to the start"
+    ],
+    "misconceptions": [
+      "That distance can be zero or negative if an object returns to its starting point — distance can never decrease, even on a round trip."
+    ],
+    "tips": [
+      "Distance only ever adds up over a journey; it never cancels or subtracts, unlike displacement."
+    ],
+    "practice_questions": {
+      "basic": [
+        "A person walks 200 m to a shop and then 200 m back home. State the total distance travelled."
+      ],
+      "intermediate": [
+        "A delivery van drives 12 km, 8 km, and 5 km on three separate legs of a route. Calculate the total distance travelled."
+      ],
+      "advanced": [
+        "Explain why distance can never be negative, using the definition of distance as a scalar quantity."
+      ]
+    },
+    "exam_questions": [
+      "Define distance and explain why it is classified as a scalar quantity."
+    ],
+    "answers": {
+      "basic": [
+        "400 m."
+      ],
+      "intermediate": [
+        "12 + 8 + 5 = 25 km."
+      ],
+      "advanced": [
+        "Distance is a scalar quantity, meaning it has magnitude only and no direction; since it represents a cumulative path length, it can only add up as an object moves, and there is no directional component that could make it 'cancel' or become negative."
+      ],
+      "exam": [
+        "Distance is the total length of the path travelled by an object; it is classified as scalar because it is described fully by a magnitude alone, with no associated direction."
+      ]
+    },
+    "summary": "Distance is a scalar quantity representing the total path length travelled by an object. It is always positive and accumulates continuously, regardless of any changes in direction.",
+    "revision_notes": [
+      "Distance = total path length (scalar)",
+      "Always positive; never decreases",
+      "Distance not equal to displacement"
+    ],
+    "related_topics": [
+      "Displacement",
+      "Speed",
+      "Scalars"
+    ],
+    "prerequisites": [
+      "Scalars"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-016",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Displacement",
+    "difficulty": "Foundational",
+    "description": "The vector quantity describing the straight-line distance and direction from an object's starting point to its final position.",
+    "learning_objectives": [
+      "Define displacement as a vector quantity",
+      "Calculate displacement for straight-line and simple right-angle journeys",
+      "Distinguish displacement from distance"
+    ],
+    "explanation": "Displacement is a vector quantity measuring the straight-line distance from an object's starting position to its final position, together with the direction of that straight line. Unlike distance, displacement can be smaller than the total distance travelled, and can even be zero if the object returns to its starting point after any journey. For motion confined to a single straight line, opposite directions are usually given opposite signs (e.g. positive for one direction, negative for the other), and displacements are combined algebraically rather than simply added. For a journey with a change of direction at right angles, the resultant displacement is found using Pythagoras' theorem and trigonometry, as covered in Vector Addition and Resolution.",
+    "key_concepts": [
+      "Vector quantity: magnitude and direction",
+      "Straight-line distance from start to finish",
+      "Magnitude of displacement is always <= distance travelled, with equality only for one-directional motion"
+    ],
+    "definitions": [
+      {
+        "term": "Displacement",
+        "definition": "The straight-line distance from an object's initial position to its final position, together with the direction of that line."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Displacement",
+        "equation": "displacement = final position - initial position",
+        "variables": {}
+      }
+    ],
+    "units": [
+      {
+        "quantity": "displacement",
+        "si_unit": "metre",
+        "symbol": "m"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A person walks 5 m east, then 5 m west, back to their starting point. Find the total distance travelled and the displacement.",
+        "steps": [
+          "Distance is scalar, so it adds directly: 5 + 5 = 10 m.",
+          "Displacement is vector; taking east as positive: +5 + (-5) = 0 m."
+        ],
+        "answer": "Distance = 10 m; displacement = 0 m."
+      },
+      {
+        "problem": "A hiker walks 3 km north, then 4 km east. Find the magnitude of the resultant displacement.",
+        "steps": [
+          "The two legs are perpendicular, so use Pythagoras' theorem: R = root(3^2 + 4^2).",
+          "Calculate: R = root(9 + 16) = root(25) = 5 km."
+        ],
+        "answer": "5 km (direction found using tan^-1(4/3) from north, as covered in Vector Addition and Resolution)"
+      }
+    ],
+    "practical_applications": [
+      "Navigation systems calculating the most direct route between two points",
+      "Analysing the net effect of a robot's or vehicle's motion"
+    ],
+    "common_mistakes": [
+      "Treating displacement and distance as always equal",
+      "Forgetting to assign a sign or direction to displacement"
+    ],
+    "misconceptions": [
+      "That displacement is always smaller than or equal to distance is a coincidence — this relationship is a direct consequence of displacement being a straight-line vector while distance accounts for every twist and turn of the path taken."
+    ],
+    "tips": [
+      "Choose a positive direction at the start of a problem and stay consistent with it throughout."
+    ],
+    "practice_questions": {
+      "basic": [
+        "A runner starts and finishes a 400 m lap at the same point on the track. State the runner's displacement."
+      ],
+      "intermediate": [
+        "A car travels 40 m north and then 30 m south. Calculate the car's distance travelled and its displacement."
+      ],
+      "advanced": [
+        "A ship sails 6 km east, then 8 km north. Calculate the magnitude of its displacement from the starting point."
+      ]
+    },
+    "exam_questions": [
+      "Explain the difference between distance and displacement, using an example where the two values are different."
+    ],
+    "answers": {
+      "basic": [
+        "0 m (the runner returns to the starting point)."
+      ],
+      "intermediate": [
+        "Distance = 40 + 30 = 70 m. Displacement (taking north as positive) = 40 - 30 = 10 m north."
+      ],
+      "advanced": [
+        "R = root(6^2 + 8^2) = root(36 + 64) = root(100) = 10 km."
+      ],
+      "exam": [
+        "Distance is the total path length travelled and is scalar, while displacement is the straight-line distance from start to finish, together with direction, and is a vector. For example, a person who walks 100 m east and then 100 m west has travelled a total distance of 200 m, but their displacement is 0 m, since they end up back at their starting point."
+      ]
+    },
+    "summary": "Displacement is a vector quantity giving the straight-line distance and direction from an object's starting point to its final position. It can be smaller than, and even zero compared to, the total distance travelled.",
+    "revision_notes": [
+      "Displacement = straight-line distance + direction (vector)",
+      "Can be zero even after a long journey",
+      "|displacement| <= distance always"
+    ],
+    "related_topics": [
+      "Distance",
+      "Vectors",
+      "Vector Addition and Resolution"
+    ],
+    "prerequisites": [
+      "Distance",
+      "Vectors"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A curved, winding path between two points (showing the greater distance travelled) with a straight dashed arrow directly connecting the same two points (showing the shorter displacement)]"
+    ],
+    "images": [
+      {
+        "filename": "physics-displacement-016-01.webp",
+        "type": "diagram",
+        "description": "A winding red path from a labelled 'Start' point to a labelled 'Finish' point, with a straight blue arrow drawn directly between the same two points representing displacement.",
+        "purpose": "Makes visible, in a single image, why the distance travelled (the length of the winding path) is always greater than or equal to the displacement (the straight-line arrow).",
+        "placement": "Directly after the explanation, before the worked examples."
+      }
+    ]
+  },
+  {
+    "id": "phy-017",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Speed",
+    "difficulty": "Foundational",
+    "description": "The scalar rate at which an object covers distance, calculated as distance travelled divided by time taken.",
+    "learning_objectives": [
+      "Define speed and state its formula",
+      "Calculate average speed from distance and time",
+      "Distinguish average speed from instantaneous speed"
+    ],
+    "explanation": "Speed is a scalar quantity describing how quickly an object covers distance. Average speed considers an entire journey, calculated as the total distance travelled divided by the total time taken. Instantaneous speed is the speed at one specific moment, found from the gradient of a distance-time graph at that instant (covered in Motion Graphs). Because speed is scalar, it carries no information about direction — an object moving at a constant speed around a circular track is continuously changing direction even though its speed never changes.",
+    "key_concepts": [
+      "Average speed vs instantaneous speed",
+      "Scalar rate of covering distance"
+    ],
+    "definitions": [
+      {
+        "term": "Speed",
+        "definition": "The distance travelled by an object per unit time."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Average speed",
+        "equation": "speed = distance / time",
+        "variables": {
+          "speed": "average speed, m/s",
+          "distance": "total distance travelled, m",
+          "time": "total time taken, s"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "speed",
+        "si_unit": "metre per second",
+        "symbol": "m/s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A runner covers 400 m in 50 s. Calculate the runner's average speed.",
+        "steps": [
+          "Use speed = distance / time.",
+          "Substitute the values: speed = 400 / 50.",
+          "Calculate: speed = 8."
+        ],
+        "answer": "8 m/s"
+      }
+    ],
+    "practical_applications": [
+      "Vehicle speedometers",
+      "Athletics timing and performance analysis",
+      "Traffic speed monitoring and enforcement"
+    ],
+    "common_mistakes": [
+      "Confusing speed with velocity by ignoring the need for direction",
+      "Calculating average speed as the average of individual speeds rather than total distance / total time when time intervals are unequal"
+    ],
+    "misconceptions": [
+      "That speed and velocity are always interchangeable — they are only numerically equal for motion in a single, unchanging direction."
+    ],
+    "tips": [
+      "Always use total distance / total time to find an accurate average speed for a whole journey."
+    ],
+    "practice_questions": {
+      "basic": [
+        "A car travels 150 km in 3 hours. Calculate its average speed."
+      ],
+      "intermediate": [
+        "A cyclist covers 20 km in the first hour and 10 km in the next 30 minutes. Calculate the cyclist's average speed for the whole journey."
+      ],
+      "advanced": [
+        "Explain why an object can have zero average velocity but a non-zero average speed, using a round-trip journey as an example."
+      ]
+    },
+    "exam_questions": [
+      "State the equation for average speed, defining each symbol and its unit."
+    ],
+    "answers": {
+      "basic": [
+        "speed = 150 / 3 = 50 km/h."
+      ],
+      "intermediate": [
+        "Total distance = 20 + 10 = 30 km. Total time = 1 + 0.5 = 1.5 h. Speed = 30 / 1.5 = 20 km/h."
+      ],
+      "advanced": [
+        "If an object travels away from a point and then returns along exactly the same path, its total distance travelled is greater than zero, giving a non-zero average speed, but its net displacement is zero (it ends where it started), giving zero average velocity — this shows the two quantities are calculated from different underlying quantities (distance vs displacement)."
+      ],
+      "exam": [
+        "speed = distance / time, where speed is measured in m/s, distance in m, and time in s."
+      ]
+    },
+    "summary": "Speed is a scalar quantity equal to distance travelled divided by time taken. Average speed uses the total journey, while instantaneous speed applies to a single moment.",
+    "revision_notes": [
+      "speed = distance / time",
+      "Scalar - no direction included",
+      "Average speed uses total distance / total time"
+    ],
+    "related_topics": [
+      "Velocity",
+      "Distance",
+      "Motion Graphs"
+    ],
+    "prerequisites": [
+      "Distance"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-018",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Velocity",
+    "difficulty": "Foundational",
+    "description": "The vector rate at which an object's displacement changes with time, combining speed with a stated direction.",
+    "learning_objectives": [
+      "Define velocity and state its formula",
+      "Calculate average velocity from displacement and time",
+      "Distinguish velocity from speed"
+    ],
+    "explanation": "Velocity is the vector counterpart of speed: it measures the rate of change of displacement with time, and therefore includes direction as well as magnitude. Average velocity is calculated as displacement divided by time. Because displacement can be zero for a round trip, average velocity can be zero even when average speed is not. Instantaneous velocity is the velocity at a single moment, found from the gradient of a displacement-time (or position-time) graph at that point.",
+    "key_concepts": [
+      "Vector rate of change of displacement",
+      "Average velocity vs instantaneous velocity",
+      "Velocity can be zero even with non-zero speed"
+    ],
+    "definitions": [
+      {
+        "term": "Velocity",
+        "definition": "The rate of change of displacement with time, including direction."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Average velocity",
+        "equation": "velocity = displacement / time",
+        "variables": {
+          "velocity": "average velocity, m/s",
+          "displacement": "change in position, m",
+          "time": "time taken, s"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "velocity",
+        "si_unit": "metre per second",
+        "symbol": "m/s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A cyclist travels 5 km north in 0.5 h, then 5 km south in 0.5 h, returning to the starting point. Calculate the average speed and average velocity for the whole journey.",
+        "steps": [
+          "Total distance = 5 + 5 = 10 km. Total time = 0.5 + 0.5 = 1 h. Average speed = 10 / 1 = 10 km/h.",
+          "Net displacement (taking north as positive) = +5 + (-5) = 0 km. Average velocity = 0 / 1 = 0 km/h."
+        ],
+        "answer": "Average speed = 10 km/h; average velocity = 0 km/h."
+      }
+    ],
+    "practical_applications": [
+      "Aviation navigation, where both speed and heading (velocity) matter",
+      "Robotics and autonomous vehicle motion control",
+      "Analysing projectile and orbital motion"
+    ],
+    "common_mistakes": [
+      "Using total distance instead of displacement when calculating velocity",
+      "Omitting direction when stating a velocity value"
+    ],
+    "misconceptions": [
+      "That velocity and speed are simply two names for the same thing — they are only numerically equal when motion is confined to one direction without any reversal."
+    ],
+    "tips": [
+      "Always check whether a problem provides distance or displacement before deciding whether to calculate speed or velocity."
+    ],
+    "practice_questions": {
+      "basic": [
+        "A car travels 100 m east in 20 s. Calculate its average velocity."
+      ],
+      "intermediate": [
+        "An object moves 30 m north in 5 s, then 30 m south in 5 s. Calculate the average speed and average velocity for the whole 10 s journey."
+      ],
+      "advanced": [
+        "Explain, using the definitions of displacement and velocity, why average velocity can never have a greater magnitude than average speed for the same journey."
+      ]
+    },
+    "exam_questions": [
+      "State the equation for average velocity, and explain how it differs from the equation for average speed."
+    ],
+    "answers": {
+      "basic": [
+        "velocity = 100 / 20 = 5 m/s east."
+      ],
+      "intermediate": [
+        "Average speed = (30+30) / 10 = 6 m/s. Average velocity = (30 - 30) / 10 = 0 m/s."
+      ],
+      "advanced": [
+        "Average velocity uses displacement, whose magnitude can never exceed the total distance travelled (since displacement is the most direct straight-line path, while distance accounts for the full, possibly winding, path). Since average speed uses this same, always-larger-or-equal distance in its numerator, average velocity's magnitude can never exceed average speed for the same journey and time interval."
+      ],
+      "exam": [
+        "velocity = displacement / time; it differs from speed = distance / time because velocity uses displacement (a vector, giving a result with direction) rather than distance (a scalar), so velocity can be zero or smaller in magnitude than speed for the same journey."
+      ]
+    },
+    "summary": "Velocity is a vector quantity equal to displacement divided by time, combining a magnitude (speed) with a direction. It can differ significantly from speed for journeys that change direction or return to the starting point.",
+    "revision_notes": [
+      "velocity = displacement / time (vector)",
+      "Velocity can be zero even if speed is not",
+      "|average velocity| <= average speed always"
+    ],
+    "related_topics": [
+      "Speed",
+      "Displacement",
+      "Acceleration"
+    ],
+    "prerequisites": [
+      "Speed",
+      "Displacement"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-019",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Acceleration",
+    "difficulty": "Foundational",
+    "description": "The vector rate at which an object's velocity changes with time, including speeding up, slowing down, and changing direction.",
+    "learning_objectives": [
+      "Define acceleration and state its formula",
+      "Calculate acceleration from a change in velocity over time",
+      "Recognise that deceleration and direction change both count as acceleration"
+    ],
+    "explanation": "Acceleration measures how quickly velocity changes, whether that change is in magnitude, direction, or both. An acceleration in the same direction as motion means the object is speeding up; an acceleration opposite to the direction of motion (often called deceleration) means the object is slowing down. Importantly, an object moving at a constant speed while changing direction — for example, travelling at a steady speed around a bend — is still accelerating, because its velocity vector is continuously changing direction even though its speed stays the same; this idea is developed further in Centripetal Acceleration.",
+    "key_concepts": [
+      "Acceleration = rate of change of velocity (vector)",
+      "Speeding up, slowing down, and direction change all count as acceleration",
+      "Deceleration is acceleration opposing the direction of motion"
+    ],
+    "definitions": [
+      {
+        "term": "Acceleration",
+        "definition": "The rate of change of velocity with time."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Acceleration",
+        "equation": "a = (v - u) / t",
+        "variables": {
+          "a": "acceleration, m/s^2",
+          "v": "final velocity, m/s",
+          "u": "initial velocity, m/s",
+          "t": "time taken for the change, s"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "acceleration",
+        "si_unit": "metre per second squared",
+        "symbol": "m/s^2"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A car speeds up from 10 m/s to 25 m/s in 5 s. Calculate its acceleration.",
+        "steps": [
+          "Use a = (v - u) / t.",
+          "Substitute: a = (25 - 10) / 5.",
+          "Calculate: a = 15 / 5."
+        ],
+        "answer": "3 m/s^2"
+      },
+      {
+        "problem": "A ball decelerates from 20 m/s to rest in 4 s while rolling to a stop. Calculate its acceleration.",
+        "steps": [
+          "Use a = (v - u) / t, with v = 0 (at rest).",
+          "Substitute: a = (0 - 20) / 4.",
+          "Calculate: a = -20 / 4."
+        ],
+        "answer": "-5 m/s^2 (the negative sign shows the acceleration acts opposite to the direction of motion, i.e. deceleration)"
+      }
+    ],
+    "practical_applications": [
+      "Vehicle safety systems such as crumple zones, designed around controlled deceleration",
+      "Roller coaster and ride design",
+      "Rocket launch and re-entry acceleration profiles"
+    ],
+    "common_mistakes": [
+      "Sign errors from not defining a consistent positive direction before calculating",
+      "Assuming deceleration is a fundamentally different quantity from acceleration, rather than acceleration acting opposite to motion"
+    ],
+    "misconceptions": [
+      "That acceleration only ever means 'speeding up' — an object slowing down, or moving at constant speed but changing direction, is also accelerating."
+    ],
+    "tips": [
+      "Define a positive direction at the start of a problem; a negative result for acceleration then simply means the acceleration acts in the opposite direction to that chosen as positive."
+    ],
+    "practice_questions": {
+      "basic": [
+        "A cyclist increases their velocity from 2 m/s to 8 m/s in 3 s. Calculate the acceleration."
+      ],
+      "intermediate": [
+        "A train decelerates from 40 m/s to 10 m/s over 15 s. Calculate the train's acceleration, stating its direction relative to the motion."
+      ],
+      "advanced": [
+        "Explain why a satellite moving in a circular orbit at constant speed is still considered to be accelerating."
+      ]
+    },
+    "exam_questions": [
+      "State the equation linking acceleration to initial velocity, final velocity, and time, defining each symbol and its unit."
+    ],
+    "answers": {
+      "basic": [
+        "a = (8 - 2) / 3 = 2 m/s^2."
+      ],
+      "intermediate": [
+        "a = (10 - 40) / 15 = -2 m/s^2, i.e. 2 m/s^2 acting opposite to the direction of motion (deceleration)."
+      ],
+      "advanced": [
+        "Although the satellite's speed stays constant, its direction of travel is continuously changing as it moves around the orbit, meaning its velocity (a vector) is constantly changing; since acceleration is defined as the rate of change of velocity, this continuous change in direction means the satellite is accelerating, even without any change in speed."
+      ],
+      "exam": [
+        "a = (v - u) / t, where a is acceleration in m/s^2, v is final velocity in m/s, u is initial velocity in m/s, and t is the time taken for the change, in s."
+      ]
+    },
+    "summary": "Acceleration is a vector quantity equal to the rate of change of velocity with time. It includes speeding up, slowing down (deceleration), and changing direction at constant speed.",
+    "revision_notes": [
+      "a = (v - u) / t",
+      "Deceleration = acceleration opposing motion",
+      "Constant speed with changing direction still counts as acceleration"
+    ],
+    "related_topics": [
+      "Velocity",
+      "Equations of Motion",
+      "Centripetal Acceleration"
+    ],
+    "prerequisites": [
+      "Velocity"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-020",
+    "subject": "Physics",
+    "category": "Kinematics",
+    "title": "Uniform Motion",
+    "difficulty": "Foundational",
+    "description": "Motion at constant velocity, meaning both speed and direction remain unchanged, corresponding to zero acceleration.",
+    "learning_objectives": [
+      "Define uniform motion",
+      "Recognise uniform motion on distance-time and velocity-time graphs",
+      "Calculate distance travelled during uniform motion"
+    ],
+    "explanation": "Uniform motion describes an object moving with constant velocity — unchanging speed and unchanging direction — which means its acceleration is exactly zero. On a distance-time graph, uniform motion appears as a straight line, since the gradient (which represents speed) stays constant throughout. On a velocity-time graph, uniform motion appears as a flat, horizontal line, since the velocity value never changes and the gradient (which represents acceleration) is zero. In practice, few real objects experience perfectly uniform motion for long, since forces such as friction and air resistance tend to change an object's velocity over time, but it remains a useful idealised starting case for introducing motion graphs and the equations of motion.",
+    "key_concepts": [
+      "Constant velocity = zero acceleration",
+      "Straight line on distance-time graph",
+      "Horizontal line on velocity-time graph"
+    ],
+    "definitions": [
+      {
+        "term": "Uniform motion",
+        "definition": "Motion in which an object's velocity (both speed and direction) remains constant, so its acceleration is zero."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Distance during uniform motion",
+        "equation": "distance = speed x time",
+        "variables": {
+          "distance": "distance covered, m",
+          "speed": "constant speed, m/s",
+          "time": "time interval, s"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "speed",
+        "si_unit": "metre per second",
+        "symbol": "m/s"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A train moves at a constant 30 m/s for 10 s. Calculate the distance it covers.",
+        "steps": [
+          "Use distance = speed x time (valid because the motion is uniform).",
+          "Substitute: distance = 30 x 10."
+        ],
+        "answer": "300 m"
+      }
+    ],
+    "practical_applications": [
+      "Cruise control systems in vehicles, designed to maintain a constant speed",
+      "Conveyor belt systems in manufacturing",
+      "Simplified physics problems used as a first approximation before adding forces such as friction"
+    ],
+    "common_mistakes": [
+      "Assuming that all real-world motion is uniform",
+      "Misreading the shape of a distance-time or velocity-time graph as representing uniform motion when the gradient is actually changing"
+    ],
+    "misconceptions": [
+      "That 'uniform motion' means an object is not moving at all — it actually means the object is moving with unchanging velocity, which may be a large, constant speed."
+    ],
+    "tips": [
+      "Check that both magnitude (speed) and direction are constant before concluding that motion is uniform — a constant speed with changing direction is not uniform motion."
+    ],
+    "practice_questions": {
+      "basic": [
+        "A car moves at a constant 20 m/s for 15 s. Calculate the distance travelled."
+      ],
+      "intermediate": [
+        "Sketch, in words, the shape of a distance-time graph and a velocity-time graph for an object undergoing uniform motion."
+      ],
+      "advanced": [
+        "Explain why an object moving at a constant speed around a circular track is not undergoing uniform motion."
+      ]
+    },
+    "exam_questions": [
+      "Define uniform motion, and state the shape of the velocity-time graph that represents it."
+    ],
+    "answers": {
+      "basic": [
+        "distance = 20 x 15 = 300 m."
+      ],
+      "intermediate": [
+        "Distance-time graph: a straight, sloped line with a constant gradient. Velocity-time graph: a straight, horizontal line at a constant velocity value."
+      ],
+      "advanced": [
+        "Although the object's speed is constant, its direction is continuously changing as it moves around the circular track, so its velocity (a vector, which depends on direction as well as magnitude) is not constant — uniform motion requires both speed and direction to remain unchanged, so this motion does not qualify."
+      ],
+      "exam": [
+        "Uniform motion is motion at constant velocity (unchanging speed and direction), corresponding to zero acceleration; it is represented on a velocity-time graph by a straight, horizontal line."
+      ]
+    },
+    "summary": "Uniform motion occurs when an object's velocity remains constant, meaning zero acceleration. It appears as a straight line on a distance-time graph and a horizontal line on a velocity-time graph.",
+    "revision_notes": [
+      "Uniform motion = constant velocity = zero acceleration",
+      "distance = speed x time (only valid for uniform motion)",
+      "Distance-time graph: straight line; velocity-time graph: horizontal line"
+    ],
+    "related_topics": [
+      "Non-Uniform Motion",
+      "Motion Graphs",
+      "Velocity-Time Graphs"
+    ],
+    "prerequisites": [
+      "Velocity"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: Side-by-side distance-time graph (straight sloped line) and velocity-time graph (horizontal line) for the same object undergoing uniform motion]"
+    ],
+    "images": [
+      {
+        "filename": "physics-uniform-motion-020-01.webp",
+        "type": "graph",
+        "description": "Two side-by-side graphs for the same object: a distance-time graph showing a straight sloped line, and a velocity-time graph showing a straight horizontal line at a constant velocity value.",
+        "purpose": "Lets students directly compare how the same uniform motion looks on the two different graph types, reinforcing that a straight sloped line (distance-time) and a flat horizontal line (velocity-time) both represent constant velocity.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  }
+]

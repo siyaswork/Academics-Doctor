@@ -1,0 +1,3720 @@
+[
+  {
+    "id": 1,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Algebraic Manipulation",
+    "explanation": "Algebraic manipulation is the process of rearranging, expanding, and simplifying expressions using the rules of arithmetic so an expression is written in an equivalent, more useful form.",
+    "key_concepts": [
+      "Like terms",
+      "Expanding brackets",
+      "Collecting terms",
+      "Order of operations",
+      "Equivalent expressions"
+    ],
+    "definitions": [
+      {
+        "term": "Like terms",
+        "definition": "Terms with identical variable parts, e.g. 3x and 5x."
+      },
+      {
+        "term": "Expand",
+        "definition": "To remove brackets by multiplying every term inside by the term(s) outside."
+      }
+    ],
+    "formulas": [
+      "a(b + c) = ab + ac",
+      "(a + b)(c + d) = ac + ad + bc + bd"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Simplify 3x + 5y - 2x + 4y",
+        "steps": [
+          "Collect x terms: 3x - 2x = x",
+          "Collect y terms: 5y + 4y = 9y"
+        ],
+        "answer": "x + 9y"
+      },
+      {
+        "problem": "Expand and simplify 2(3x - 1) - (x + 4)",
+        "steps": [
+          "Expand: 6x - 2 - x - 4",
+          "Collect like terms: 5x - 6"
+        ],
+        "answer": "5x - 6"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Simplify 4a + 7b - 3a + 2b",
+        "answer": "a + 9b"
+      },
+      {
+        "q": "Expand 3(2x + 5)",
+        "answer": "6x + 15"
+      },
+      {
+        "q": "Expand and simplify (x + 2)(x - 3)",
+        "answer": "x^2 - x - 6"
+      },
+      {
+        "q": "Simplify 5(x - 2) - 3(x + 1)",
+        "answer": "2x - 13"
+      },
+      {
+        "q": "Expand -2(3 - x)",
+        "answer": "2x - 6"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Simplify fully 3(2x - 1) - 2(x - 4)",
+        "answer": "4x + 5"
+      },
+      {
+        "q": "Expand and simplify (2x - 1)(x + 3) - x(x - 2)",
+        "answer": "x^2 + 7x - 3"
+      }
+    ],
+    "common_mistakes": [
+      "Sign errors when distributing a negative across a bracket",
+      "Only multiplying the first term in a bracket",
+      "Combining unlike terms"
+    ],
+    "tips": [
+      "Distribute the sign into every term in the bracket",
+      "Underline or colour-code like terms before combining",
+      "Expand fully before attempting to simplify"
+    ],
+    "summary": "Algebraic manipulation is the foundation skill for nearly every other algebra topic; fluency with brackets and like terms is essential before factorisation, equations, or calculus.",
+    "quick_revision": [
+      "Multiply every term inside a bracket by what's outside",
+      "Only combine terms with identical variable parts",
+      "Watch signs carefully when subtracting a bracket"
+    ],
+    "related_topics": [
+      "Algebraic Fractions",
+      "Algebraic Identities",
+      "Factorisation"
+    ],
+    "prerequisites": [
+      "Basic arithmetic",
+      "Directed numbers"
+    ],
+    "images": []
+  },
+  {
+    "id": 2,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Algebraic Fractions",
+    "explanation": "Algebraic fractions are fractions whose numerator and/or denominator contain algebraic expressions. They are simplified, added, subtracted, multiplied, and divided using the same rules as numerical fractions, with factorisation used to cancel common factors.",
+    "key_concepts": [
+      "Simplifying by cancelling common factors",
+      "Common denominators",
+      "Multiplying and dividing fractions",
+      "Restrictions on the variable (denominator \u2260 0)"
+    ],
+    "definitions": [
+      {
+        "term": "Algebraic fraction",
+        "definition": "A fraction with a polynomial in the numerator, denominator, or both."
+      }
+    ],
+    "formulas": [
+      "a/b + c/d = (ad + bc)/bd",
+      "a/b \u00f7 c/d = a/b \u00d7 d/c"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Simplify (x^2 - 4)/(x + 2)",
+        "steps": [
+          "Factorise numerator: (x-2)(x+2)",
+          "Cancel (x+2)"
+        ],
+        "answer": "x - 2, x \u2260 -2"
+      },
+      {
+        "problem": "Simplify 2/(x+1) + 3/(x-1)",
+        "steps": [
+          "Common denominator (x+1)(x-1)",
+          "Combine: [2(x-1) + 3(x+1)]/[(x+1)(x-1)]",
+          "Expand numerator: 5x + 1"
+        ],
+        "answer": "(5x + 1)/[(x+1)(x-1)]"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Simplify (x^2 - 9)/(3x + 9)",
+        "answer": "(x-3)/3"
+      },
+      {
+        "q": "Simplify (2x)/(x+3) \u00d7 (x+3)/(4x^2)",
+        "answer": "1/(2x)"
+      },
+      {
+        "q": "Simplify 1/x - 1/(x+1)",
+        "answer": "1/[x(x+1)]"
+      },
+      {
+        "q": "Simplify (x^2+5x+6)/(x^2-4)",
+        "answer": "(x+3)/(x-2)"
+      },
+      {
+        "q": "Simplify 3/(x-2) \u00f7 6/(x^2-4)",
+        "answer": "(x+2)/2"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Express 2/(x-1) + 1/(x+2) as a single fraction in its simplest form.",
+        "answer": "(3x + 3)/[(x-1)(x+2)] = 3(x+1)/[(x-1)(x+2)]"
+      },
+      {
+        "q": "Simplify (x^2 - x - 6)/(x^2 - 9)",
+        "answer": "(x+2)/(x+3)"
+      }
+    ],
+    "common_mistakes": [
+      "Cancelling terms instead of factors (e.g. cancelling x's across a sum)",
+      "Forgetting to factorise before cancelling",
+      "Not stating restrictions where denominator = 0"
+    ],
+    "tips": [
+      "Always factorise fully before cancelling",
+      "Find a common denominator before adding/subtracting",
+      "Flip and multiply for division"
+    ],
+    "summary": "Algebraic fractions combine fraction arithmetic with factorisation skills \u2014 the key error to avoid is cancelling terms rather than common factors.",
+    "quick_revision": [
+      "Factorise first, then cancel common factors only",
+      "Use lowest common denominator for + and -",
+      "Dividing by a fraction = multiplying by its reciprocal"
+    ],
+    "related_topics": [
+      "Factorisation",
+      "Partial Fractions",
+      "Rational Inequalities"
+    ],
+    "prerequisites": [
+      "Factorisation",
+      "Algebraic Manipulation"
+    ],
+    "images": []
+  },
+  {
+    "id": 3,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Algebraic Identities",
+    "explanation": "Algebraic identities are equations that hold true for all values of the variable(s), used to quickly expand or factorise common expression patterns.",
+    "key_concepts": [
+      "Difference of two squares",
+      "Perfect square expansions",
+      "Sum/difference of cubes",
+      "Verifying identities"
+    ],
+    "definitions": [
+      {
+        "term": "Identity",
+        "definition": "An equation true for all values of the variables, denoted with \u2261."
+      }
+    ],
+    "formulas": [
+      "(a+b)^2 = a^2 + 2ab + b^2",
+      "(a-b)^2 = a^2 - 2ab + b^2",
+      "a^2 - b^2 = (a+b)(a-b)",
+      "a^3 + b^3 = (a+b)(a^2-ab+b^2)",
+      "a^3 - b^3 = (a-b)(a^2+ab+b^2)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Expand (2x + 3)^2 using the identity",
+        "steps": [
+          "(a+b)^2 = a^2+2ab+b^2 with a=2x, b=3",
+          "= 4x^2 + 12x + 9"
+        ],
+        "answer": "4x^2 + 12x + 9"
+      },
+      {
+        "problem": "Factorise x^3 - 8",
+        "steps": [
+          "Recognise as a^3 - b^3 with a=x, b=2",
+          "Apply a^3-b^3 = (a-b)(a^2+ab+b^2)"
+        ],
+        "answer": "(x-2)(x^2+2x+4)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Expand (x - 5)^2",
+        "answer": "x^2 - 10x + 25"
+      },
+      {
+        "q": "Factorise 9x^2 - 16",
+        "answer": "(3x-4)(3x+4)"
+      },
+      {
+        "q": "Expand (3x + 2y)^2",
+        "answer": "9x^2 + 12xy + 4y^2"
+      },
+      {
+        "q": "Factorise x^3 + 27",
+        "answer": "(x+3)(x^2-3x+9)"
+      },
+      {
+        "q": "Show that (x+1)^2 - (x-1)^2 \u2261 4x",
+        "answer": "Expand both: (x^2+2x+1)-(x^2-2x+1)=4x \u2713"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Prove the identity (a+b)^3 \u2261 a^3 + 3a^2b + 3ab^2 + b^3.",
+        "answer": "Expand (a+b)(a+b)^2 = (a+b)(a^2+2ab+b^2) = a^3+3a^2b+3ab^2+b^3"
+      },
+      {
+        "q": "Factorise fully 4x^2 - 25y^2",
+        "answer": "(2x-5y)(2x+5y)"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing (a+b)^2 with a^2+b^2",
+      "Sign errors in cube identities",
+      "Not spotting a difference-of-squares pattern with coefficients"
+    ],
+    "tips": [
+      "Memorise the five standard identities",
+      "Check by expanding your factorised answer back out",
+      "Look for a^2-b^2 patterns even with fractional/surd terms"
+    ],
+    "summary": "Standard identities are shortcuts that save time \u2014 recognising the pattern is the main skill, since the algebra itself is mechanical once spotted.",
+    "quick_revision": [
+      "(a\u00b1b)^2 = a^2 \u00b1 2ab + b^2",
+      "a^2-b^2 = (a+b)(a-b)",
+      "a^3\u00b1b^3 factorisations use a quadratic-looking second factor"
+    ],
+    "related_topics": [
+      "Difference of Two Squares",
+      "Perfect Square Trinomials",
+      "Factorisation"
+    ],
+    "prerequisites": [
+      "Algebraic Manipulation"
+    ],
+    "images": []
+  },
+  {
+    "id": 4,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Factorisation",
+    "explanation": "Factorisation is the reverse of expansion: writing an expression as a product of simpler factors, which is essential for solving equations, simplifying fractions, and sketching graphs.",
+    "key_concepts": [
+      "Common factor extraction",
+      "Factorising quadratics",
+      "Recognising special patterns",
+      "Checking by expansion"
+    ],
+    "definitions": [
+      {
+        "term": "Factor",
+        "definition": "An expression that divides exactly into another expression."
+      }
+    ],
+    "formulas": [
+      "x^2 + (a+b)x + ab = (x+a)(x+b)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Factorise 6x^2 - 3x",
+        "steps": [
+          "Take out common factor 3x",
+          "6x^2-3x = 3x(2x-1)"
+        ],
+        "answer": "3x(2x - 1)"
+      },
+      {
+        "problem": "Factorise x^2 + 7x + 12",
+        "steps": [
+          "Find two numbers multiplying to 12, summing to 7: 3 and 4"
+        ],
+        "answer": "(x+3)(x+4)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Factorise 4x^2 + 8x",
+        "answer": "4x(x+2)"
+      },
+      {
+        "q": "Factorise x^2 - x - 6",
+        "answer": "(x-3)(x+2)"
+      },
+      {
+        "q": "Factorise 2x^2 + 5x + 3",
+        "answer": "(2x+3)(x+1)"
+      },
+      {
+        "q": "Factorise x^2 - 49",
+        "answer": "(x-7)(x+7)"
+      },
+      {
+        "q": "Factorise 3x^2 - 12",
+        "answer": "3(x-2)(x+2)"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Factorise fully 2x^3 - 8x",
+        "answer": "2x(x-2)(x+2)"
+      },
+      {
+        "q": "Factorise 6x^2 + x - 12",
+        "answer": "(3x-4)(2x+3)"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to check for a common factor first",
+      "Sign errors when the constant term is negative",
+      "Leaving an answer only partially factorised"
+    ],
+    "tips": [
+      "Always extract common factors before anything else",
+      "Always factorise fully \u2014 check for a further difference-of-squares",
+      "Verify by expanding your answer"
+    ],
+    "summary": "Factorisation is one of the most-used Add Maths skills, appearing throughout equations, fractions, calculus, and graph sketching \u2014 fluency here pays off everywhere.",
+    "quick_revision": [
+      "Common factor first, always",
+      "For x^2+bx+c, find factors of c summing to b",
+      "Check for difference of squares / perfect square patterns"
+    ],
+    "related_topics": [
+      "Advanced Factorisation",
+      "Quadratic Equations",
+      "Algebraic Identities"
+    ],
+    "prerequisites": [
+      "Algebraic Manipulation",
+      "Algebraic Identities"
+    ],
+    "images": []
+  },
+  {
+    "id": 5,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Advanced Factorisation",
+    "explanation": "Advanced factorisation extends basic techniques to expressions with non-unit leading coefficients, multiple variables, or combinations of methods (grouping, identities, and trial factors together).",
+    "key_concepts": [
+      "Factorising ax^2+bx+c with a\u22601",
+      "Combining multiple techniques",
+      "Factorising with multiple variables"
+    ],
+    "definitions": [
+      {
+        "term": "Leading coefficient",
+        "definition": "The coefficient of the highest power term, here the coefficient a of x^2."
+      }
+    ],
+    "formulas": [
+      "For ax^2+bx+c: find two numbers multiplying to ac and summing to b, then split the middle term"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Factorise 6x^2 + 7x - 3",
+        "steps": [
+          "ac = -18; need two numbers multiplying to -18, summing to 7: 9 and -2",
+          "Split: 6x^2+9x-2x-3",
+          "Group: 3x(2x+3) -1(2x+3)"
+        ],
+        "answer": "(2x+3)(3x-1)"
+      },
+      {
+        "problem": "Factorise x^2 - xy - 2y^2",
+        "steps": [
+          "Treat as quadratic in x: find factors of -2y^2 summing to -y: -2y and y"
+        ],
+        "answer": "(x-2y)(x+y)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Factorise 4x^2 + 4x - 3",
+        "answer": "(2x+3)(2x-1)"
+      },
+      {
+        "q": "Factorise 2x^2 - 5x - 12",
+        "answer": "(2x+3)(x-4)"
+      },
+      {
+        "q": "Factorise x^2 + 3xy - 10y^2",
+        "answer": "(x+5y)(x-2y)"
+      },
+      {
+        "q": "Factorise 9x^2 - 6x + 1",
+        "answer": "(3x-1)^2"
+      },
+      {
+        "q": "Factorise 3x^2 - 11x + 6",
+        "answer": "(3x-2)(x-3)"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Factorise 6x^2 - x - 15",
+        "answer": "(3x-5)(2x+3)"
+      },
+      {
+        "q": "Factorise 2x^2 + 7xy + 3y^2",
+        "answer": "(2x+y)(x+3y)"
+      }
+    ],
+    "common_mistakes": [
+      "Guessing factor pairs without using the ac-method systematically",
+      "Sign errors when splitting the middle term",
+      "Not checking the final factorisation by expansion"
+    ],
+    "tips": [
+      "Use the ac-method (product-sum) for a\u22601",
+      "List factor pairs of ac systematically",
+      "Always expand back to check"
+    ],
+    "summary": "Advanced factorisation is basic factorisation with an extra layer of searching for the right split \u2014 systematic use of the ac-method removes the guesswork.",
+    "quick_revision": [
+      "ac-method: find factors of ac summing to b",
+      "Split middle term, then factorise by grouping",
+      "Works the same way with two variables"
+    ],
+    "related_topics": [
+      "Factorisation",
+      "Factorising by Grouping",
+      "Quadratic Equations"
+    ],
+    "prerequisites": [
+      "Factorisation"
+    ],
+    "images": []
+  },
+  {
+    "id": 6,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Difference of Two Squares",
+    "explanation": "The difference of two squares identity factorises any expression of the form a^2 - b^2 into (a+b)(a-b), which applies even when a and b are themselves algebraic expressions.",
+    "key_concepts": [
+      "Recognising a^2 - b^2 patterns",
+      "Repeated application",
+      "Combining with common-factor extraction"
+    ],
+    "definitions": [
+      {
+        "term": "Difference of two squares",
+        "definition": "An expression of the form a^2 - b^2, always factorisable as (a+b)(a-b)."
+      }
+    ],
+    "formulas": [
+      "a^2 - b^2 = (a+b)(a-b)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Factorise 25x^2 - 16",
+        "steps": [
+          "a=5x, b=4",
+          "25x^2-16 = (5x+4)(5x-4)"
+        ],
+        "answer": "(5x+4)(5x-4)"
+      },
+      {
+        "problem": "Factorise x^4 - 16",
+        "steps": [
+          "Recognise as (x^2)^2 - 4^2",
+          "= (x^2-4)(x^2+4)",
+          "Factorise further: x^2-4 = (x-2)(x+2)"
+        ],
+        "answer": "(x-2)(x+2)(x^2+4)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Factorise x^2 - 100",
+        "answer": "(x-10)(x+10)"
+      },
+      {
+        "q": "Factorise 49x^2 - y^2",
+        "answer": "(7x-y)(7x+y)"
+      },
+      {
+        "q": "Factorise 2x^2 - 8",
+        "answer": "2(x-2)(x+2)"
+      },
+      {
+        "q": "Factorise (x+1)^2 - 9",
+        "answer": "(x+4)(x-2)"
+      },
+      {
+        "q": "Factorise 81 - x^4",
+        "answer": "(9-x^2)(9+x^2) = (3-x)(3+x)(9+x^2)"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Factorise fully 3x^2 - 48",
+        "answer": "3(x-4)(x+4)"
+      },
+      {
+        "q": "Factorise (2x-1)^2 - (x+3)^2",
+        "answer": "using a^2-b^2 with a=2x-1, b=x+3: (3x+2)(x-4)"
+      }
+    ],
+    "common_mistakes": [
+      "Trying to apply it to a^2+b^2 (does not factorise over the reals)",
+      "Missing a common factor before spotting the squares pattern",
+      "Not factorising the result fully if it factorises again"
+    ],
+    "tips": [
+      "Always check for a common factor first",
+      "Look for squares hidden in higher powers (x^4 = (x^2)^2)",
+      "It never applies to a sum of two squares"
+    ],
+    "summary": "One of the fastest identities to apply \u2014 the key skill is spotting the pattern, including when it's disguised inside brackets or higher powers.",
+    "quick_revision": [
+      "a^2-b^2 = (a+b)(a-b)",
+      "Never works for a^2+b^2",
+      "Check if either factor factorises further"
+    ],
+    "related_topics": [
+      "Algebraic Identities",
+      "Factorisation",
+      "Surd Rationalisation"
+    ],
+    "prerequisites": [
+      "Algebraic Identities"
+    ],
+    "images": []
+  },
+  {
+    "id": 7,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Perfect Square Trinomials",
+    "explanation": "A perfect square trinomial is a quadratic expression that factorises into the square of a binomial, following the pattern a^2 \u00b1 2ab + b^2 = (a \u00b1 b)^2.",
+    "key_concepts": [
+      "Recognising the pattern",
+      "Relationship to completing the square",
+      "Checking the middle term matches 2ab"
+    ],
+    "definitions": [
+      {
+        "term": "Perfect square trinomial",
+        "definition": "A trinomial of the form a^2+2ab+b^2 or a^2-2ab+b^2, factorising to (a+b)^2 or (a-b)^2."
+      }
+    ],
+    "formulas": [
+      "a^2 + 2ab + b^2 = (a+b)^2",
+      "a^2 - 2ab + b^2 = (a-b)^2"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Factorise x^2 + 10x + 25",
+        "steps": [
+          "Check: is 25 a square? Yes, 5^2",
+          "Check middle term: 2(x)(5)=10x \u2713"
+        ],
+        "answer": "(x+5)^2"
+      },
+      {
+        "problem": "Factorise 9x^2 - 12x + 4",
+        "steps": [
+          "9x^2=(3x)^2, 4=2^2",
+          "Check middle: 2(3x)(2)=12x \u2713"
+        ],
+        "answer": "(3x-2)^2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Factorise x^2 + 6x + 9",
+        "answer": "(x+3)^2"
+      },
+      {
+        "q": "Factorise x^2 - 14x + 49",
+        "answer": "(x-7)^2"
+      },
+      {
+        "q": "Factorise 4x^2 + 20x + 25",
+        "answer": "(2x+5)^2"
+      },
+      {
+        "q": "Is x^2 + 8x + 15 a perfect square trinomial?",
+        "answer": "No \u2014 15 is not a perfect square and middle term doesn't match"
+      },
+      {
+        "q": "Factorise 16x^2 - 8x + 1",
+        "answer": "(4x-1)^2"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Show that x^2 - 6x + 9 = (x-3)^2 and hence solve x^2-6x+9=0",
+        "answer": "(x-3)^2=0 so x=3 (repeated root)"
+      },
+      {
+        "q": "Find k such that x^2 + kx + 36 is a perfect square trinomial (k>0)",
+        "answer": "k = 12, since 2(6)=12"
+      }
+    ],
+    "common_mistakes": [
+      "Assuming any trinomial with a square constant is a perfect square (must also check the middle term)",
+      "Sign confusion between (a+b)^2 and (a-b)^2",
+      "Forgetting the middle term must equal exactly 2ab"
+    ],
+    "tips": [
+      "Always verify the middle term equals 2ab before concluding it's a perfect square",
+      "Perfect squares always have a repeated (double) root when set to zero",
+      "Useful for quickly spotting discriminant = 0 cases"
+    ],
+    "summary": "Recognising perfect square trinomials speeds up factorisation and directly connects to completing the square and the discriminant being zero.",
+    "quick_revision": [
+      "Check constant is a perfect square AND middle term = 2ab",
+      "(a+b)^2 vs (a-b)^2 depends on the sign of the middle term",
+      "Perfect square = 0 gives a repeated root"
+    ],
+    "related_topics": [
+      "Completing the Square",
+      "Discriminant",
+      "Algebraic Identities"
+    ],
+    "prerequisites": [
+      "Algebraic Identities",
+      "Factorisation"
+    ],
+    "images": []
+  },
+  {
+    "id": 8,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Factorising by Grouping",
+    "explanation": "Factorising by grouping splits an expression with four (or more) terms into pairs, factors each pair separately, and then extracts a common binomial factor.",
+    "key_concepts": [
+      "Grouping terms in pairs",
+      "Extracting common factors from each pair",
+      "Finding a shared binomial factor"
+    ],
+    "definitions": [
+      {
+        "term": "Grouping",
+        "definition": "Rearranging terms into pairs that share a common factor, to reveal an overall common binomial factor."
+      }
+    ],
+    "formulas": [
+      "ac + ad + bc + bd = a(c+d) + b(c+d) = (a+b)(c+d)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Factorise x^3 + 3x^2 + 2x + 6",
+        "steps": [
+          "Group: (x^3+3x^2) + (2x+6)",
+          "Factor each: x^2(x+3) + 2(x+3)",
+          "Extract common factor (x+3)"
+        ],
+        "answer": "(x+3)(x^2+2)"
+      },
+      {
+        "problem": "Factorise 6x^2+7x-3 by grouping",
+        "steps": [
+          "Split middle term using ac-method: 6x^2+9x-2x-3",
+          "Group and factor: 3x(2x+3) - 1(2x+3)"
+        ],
+        "answer": "(2x+3)(3x-1)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Factorise x^3 - 2x^2 + 3x - 6",
+        "answer": "(x-2)(x^2+3)"
+      },
+      {
+        "q": "Factorise ax + ay + bx + by",
+        "answer": "(a+b)(x+y)"
+      },
+      {
+        "q": "Factorise 2x^2 + 4x + 3x + 6 by grouping",
+        "answer": "2x(x+2)+3(x+2) = (x+2)(2x+3)"
+      },
+      {
+        "q": "Factorise x^3 + x^2 - 4x - 4",
+        "answer": "(x+1)(x^2-4) = (x+1)(x-2)(x+2)"
+      },
+      {
+        "q": "Factorise 5x^2 - 10x + 3x - 6",
+        "answer": "(x-2)(5x+3)"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Factorise fully 2x^3 + x^2 - 8x - 4",
+        "answer": "x^2(2x+1) - 4(2x+1) = (2x+1)(x-2)(x+2)"
+      },
+      {
+        "q": "Factorise 6x^2 - 9x - 4x + 6",
+        "answer": "3x(2x-3)-2(2x-3) = (2x-3)(3x-2)"
+      }
+    ],
+    "common_mistakes": [
+      "Grouping terms in an order that doesn't share a common factor",
+      "Sign errors when factoring out a negative from the second pair",
+      "Stopping before extracting the final common binomial"
+    ],
+    "tips": [
+      "If grouping doesn't work, try rearranging or regrouping the terms",
+      "Watch signs carefully when the second pair starts negative",
+      "Always check both pairs produce the same bracket"
+    ],
+    "summary": "Grouping is essential for factorising cubics and higher-coefficient quadratics \u2014 it turns a four-term expression into a clean product of two binomials.",
+    "quick_revision": [
+      "Pair terms that share a factor",
+      "Factor each pair, look for a matching bracket",
+      "Extract that bracket as the common factor"
+    ],
+    "related_topics": [
+      "Advanced Factorisation",
+      "Cubic Factorisation",
+      "Factor Theorem"
+    ],
+    "prerequisites": [
+      "Factorisation"
+    ],
+    "images": []
+  },
+  {
+    "id": 9,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Change of Subject of Formula",
+    "explanation": "Changing the subject of a formula means rearranging an equation to isolate a different variable, using inverse operations in the correct order \u2014 including when the target variable appears more than once.",
+    "key_concepts": [
+      "Inverse operations",
+      "Collecting the target variable",
+      "Factorising to isolate a repeated variable",
+      "Square roots and squaring"
+    ],
+    "definitions": [
+      {
+        "term": "Subject",
+        "definition": "The variable that is isolated alone on one side of a formula."
+      }
+    ],
+    "formulas": [
+      "If the target variable appears twice, collect all its terms on one side and factorise it out"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Make x the subject of y = 3x + 5",
+        "steps": [
+          "Subtract 5: y-5 = 3x",
+          "Divide by 3"
+        ],
+        "answer": "x = (y-5)/3"
+      },
+      {
+        "problem": "Make x the subject of ax + b = cx + d",
+        "steps": [
+          "Collect x terms: ax - cx = d - b",
+          "Factorise: x(a-c) = d-b"
+        ],
+        "answer": "x = (d-b)/(a-c)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Make r the subject of A = \u03c0r^2",
+        "answer": "r = \u221a(A/\u03c0)"
+      },
+      {
+        "q": "Make u the subject of v^2 = u^2 + 2as",
+        "answer": "u = \u221a(v^2-2as)"
+      },
+      {
+        "q": "Make x the subject of y = (x+2)/(x-1)",
+        "answer": "x = (y+2)/(y-1)"
+      },
+      {
+        "q": "Make h the subject of V = (1/3)\u03c0r^2h",
+        "answer": "h = 3V/(\u03c0r^2)"
+      },
+      {
+        "q": "Make t the subject of s = ut + (1/2)at^2 for the case where the equation is treated as linear in t (i.e. rearrange for u)",
+        "answer": "u = (s - 0.5at^2)/t"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Make x the subject of y = \u221a(x-3)/2, stating any restrictions",
+        "answer": "x = 4y^2 + 3, valid for x \u2265 3"
+      },
+      {
+        "q": "Given P = (2x+y)/(x-y), make x the subject",
+        "answer": "x = y(P+1)/(P-2)"
+      }
+    ],
+    "common_mistakes": [
+      "Performing operations to only one term instead of the whole side",
+      "Forgetting to factorise when the variable appears twice",
+      "Losing a \u00b1 sign when taking a square root"
+    ],
+    "tips": [
+      "Work outward using inverse operations in reverse BIDMAS order",
+      "If the target variable appears twice, collect and factorise",
+      "Always check by substituting back into the original formula"
+    ],
+    "summary": "Change of subject relies on the same inverse-operation logic as solving equations, just with letters instead of numbers \u2014 factorising is the key extra skill when the variable repeats.",
+    "quick_revision": [
+      "Undo operations in reverse order",
+      "Collect repeated variable terms, then factorise",
+      "Square root introduces a \u00b1 unless context restricts it"
+    ],
+    "related_topics": [
+      "Algebraic Manipulation",
+      "Simultaneous Equations",
+      "Surd Equations"
+    ],
+    "prerequisites": [
+      "Algebraic Manipulation",
+      "Factorisation"
+    ],
+    "images": []
+  },
+  {
+    "id": 10,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Surds",
+    "explanation": "Surds are irrational roots (such as \u221a2 or \u221a5) that cannot be simplified to exact fractions or decimals, and are kept in exact root form for precise calculation.",
+    "key_concepts": [
+      "Irrational numbers",
+      "Exact vs. decimal form",
+      "Surd arithmetic rules"
+    ],
+    "definitions": [
+      {
+        "term": "Surd",
+        "definition": "An irrational root, e.g. \u221a2, that cannot be expressed as an exact fraction."
+      }
+    ],
+    "formulas": [
+      "\u221aa \u00d7 \u221ab = \u221a(ab)",
+      "\u221aa / \u221ab = \u221a(a/b)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Simplify \u221a2 \u00d7 \u221a8",
+        "steps": [
+          "\u221a2\u00d7\u221a8 = \u221a16"
+        ],
+        "answer": "4"
+      },
+      {
+        "problem": "Simplify \u221a50",
+        "steps": [
+          "\u221a50 = \u221a(25\u00d72) = \u221a25\u00d7\u221a2"
+        ],
+        "answer": "5\u221a2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Simplify \u221a3 \u00d7 \u221a12",
+        "answer": "6"
+      },
+      {
+        "q": "Simplify \u221a18",
+        "answer": "3\u221a2"
+      },
+      {
+        "q": "Simplify \u221a20 + \u221a45",
+        "answer": "5\u221a5"
+      },
+      {
+        "q": "Simplify (\u221a5)^2",
+        "answer": "5"
+      },
+      {
+        "q": "Simplify \u221a72",
+        "answer": "6\u221a2"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Express 3\u221a2 + \u221a8 in the form k\u221a2",
+        "answer": "5\u221a2"
+      },
+      {
+        "q": "Simplify \u221a48 - \u221a27 + \u221a12",
+        "answer": "3\u221a3"
+      }
+    ],
+    "common_mistakes": [
+      "Treating \u221aa + \u221ab as \u221a(a+b)",
+      "Not simplifying to lowest surd form",
+      "Rounding surds instead of keeping exact form when required"
+    ],
+    "tips": [
+      "Never add/subtract surds unless they have the same radicand",
+      "Always simplify by extracting the largest perfect-square factor",
+      "Keep answers exact unless a decimal is requested"
+    ],
+    "summary": "Surds are the gateway to exact-value working in Add Maths; the core skill is factoring out perfect squares to simplify.",
+    "quick_revision": [
+      "\u221aa\u00d7\u221ab=\u221a(ab); \u221aa/\u221ab=\u221a(a/b)",
+      "\u221aa+\u221ab \u2260 \u221a(a+b)",
+      "Simplify by extracting perfect square factors"
+    ],
+    "related_topics": [
+      "Simplifying Surds",
+      "Surd Rationalisation",
+      "Surd Equations"
+    ],
+    "prerequisites": [
+      "Indices"
+    ],
+    "images": []
+  },
+  {
+    "id": 11,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Simplifying Surds",
+    "explanation": "Simplifying a surd means writing it with the smallest possible number under the root sign, by extracting any perfect-square factors.",
+    "key_concepts": [
+      "Identifying perfect square factors",
+      "Simplest radical form",
+      "Combining like surds"
+    ],
+    "definitions": [
+      {
+        "term": "Simplest surd form",
+        "definition": "A surd written as k\u221an where n has no perfect-square factors other than 1."
+      }
+    ],
+    "formulas": [
+      "\u221a(a^2 \u00d7 b) = a\u221ab"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Simplify \u221a200",
+        "steps": [
+          "200 = 100\u00d72",
+          "\u221a200 = \u221a100\u00d7\u221a2 = 10\u221a2"
+        ],
+        "answer": "10\u221a2"
+      },
+      {
+        "problem": "Simplify 2\u221a12 + 3\u221a27",
+        "steps": [
+          "\u221a12=2\u221a3, \u221a27=3\u221a3",
+          "2(2\u221a3)+3(3\u221a3) = 4\u221a3+9\u221a3"
+        ],
+        "answer": "13\u221a3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Simplify \u221a98",
+        "answer": "7\u221a2"
+      },
+      {
+        "q": "Simplify \u221a75",
+        "answer": "5\u221a3"
+      },
+      {
+        "q": "Simplify 3\u221a8 - \u221a32",
+        "answer": "2\u221a2"
+      },
+      {
+        "q": "Simplify \u221a125",
+        "answer": "5\u221a5"
+      },
+      {
+        "q": "Simplify 4\u221a18 + 2\u221a50",
+        "answer": "22\u221a2"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Simplify \u221a245 fully",
+        "answer": "7\u221a5"
+      },
+      {
+        "q": "Express 5\u221a8 + 2\u221a18 in the form a\u221a2",
+        "answer": "16\u221a2"
+      }
+    ],
+    "common_mistakes": [
+      "Not finding the largest perfect-square factor (only partially simplifying)",
+      "Combining surds with different radicands",
+      "Errors in prime-factorising the number under the root"
+    ],
+    "tips": [
+      "Prime-factorise the number to spot square factors quickly",
+      "Always check your surd is fully simplified (no more square factors)",
+      "Only combine surds with identical radicands"
+    ],
+    "summary": "Simplifying surds is a mechanical but essential skill that feeds directly into rationalisation, surd equations, and exact trigonometric values.",
+    "quick_revision": [
+      "Extract the largest perfect square factor",
+      "\u221a(a\u00b2b) = a\u221ab",
+      "Only like surds combine by addition/subtraction"
+    ],
+    "related_topics": [
+      "Surds",
+      "Surd Rationalisation",
+      "Exact Trigonometric Values"
+    ],
+    "prerequisites": [
+      "Surds"
+    ],
+    "images": []
+  },
+  {
+    "id": 12,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Surd Rationalisation",
+    "explanation": "Rationalising the denominator removes surds from the bottom of a fraction by multiplying top and bottom by a suitable expression, so the denominator becomes rational.",
+    "key_concepts": [
+      "Multiplying by the conjugate",
+      "Using the difference of two squares",
+      "Simplifying after rationalising"
+    ],
+    "definitions": [
+      {
+        "term": "Conjugate",
+        "definition": "For a+\u221ab, the conjugate is a-\u221ab; multiplying them gives a rational result a^2-b."
+      }
+    ],
+    "formulas": [
+      "1/\u221aa = \u221aa/a",
+      "1/(a+\u221ab) = (a-\u221ab)/(a^2-b)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Rationalise 3/\u221a5",
+        "steps": [
+          "Multiply top and bottom by \u221a5",
+          "3\u221a5/5"
+        ],
+        "answer": "3\u221a5/5"
+      },
+      {
+        "problem": "Rationalise 4/(2+\u221a3)",
+        "steps": [
+          "Multiply by conjugate (2-\u221a3)/(2-\u221a3)",
+          "Denominator: 4-3=1",
+          "Numerator: 4(2-\u221a3)=8-4\u221a3"
+        ],
+        "answer": "8 - 4\u221a3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Rationalise 1/\u221a7",
+        "answer": "\u221a7/7"
+      },
+      {
+        "q": "Rationalise 5/\u221a2",
+        "answer": "5\u221a2/2"
+      },
+      {
+        "q": "Rationalise 1/(3-\u221a2)",
+        "answer": "(3+\u221a2)/7"
+      },
+      {
+        "q": "Rationalise 2/(\u221a5-1)",
+        "answer": "(\u221a5+1)/2"
+      },
+      {
+        "q": "Rationalise (1+\u221a3)/(1-\u221a3)",
+        "answer": "-2-\u221a3"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Express 6/(\u221a5+\u221a2) in the form a\u221a5+b\u221a2",
+        "answer": "2\u221a5 - 2\u221a2"
+      },
+      {
+        "q": "Simplify (4+\u221a2)/(4-\u221a2) into the form p+q\u221a2",
+        "answer": "(9+8\u221a2)/7 \u2014 leave as p=9/7, q=8/7"
+      }
+    ],
+    "common_mistakes": [
+      "Multiplying only the numerator or only the denominator",
+      "Using the wrong conjugate (sign error)",
+      "Not simplifying the resulting fraction fully"
+    ],
+    "tips": [
+      "Multiply by a form equal to 1 (same top and bottom)",
+      "For a+\u221ab use conjugate a-\u221ab to trigger difference of squares",
+      "Simplify the final fraction if numerator and denominator share a factor"
+    ],
+    "summary": "Rationalisation is required for exact-value answers throughout Add Maths (trig ratios, coordinate geometry, calculus) \u2014 the conjugate trick is the essential tool.",
+    "quick_revision": [
+      "Multiply by the conjugate to remove surds from denominator",
+      "(a+\u221ab)(a-\u221ab) = a\u00b2-b",
+      "Always simplify the final result"
+    ],
+    "related_topics": [
+      "Surds",
+      "Simplifying Surds",
+      "Exact Trigonometric Values"
+    ],
+    "prerequisites": [
+      "Surds",
+      "Algebraic Identities"
+    ],
+    "images": []
+  },
+  {
+    "id": 13,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Surd Equations",
+    "explanation": "Surd equations contain the unknown under a root sign; they are solved by isolating the surd and squaring both sides, then checking solutions in the original equation since squaring can introduce extraneous roots.",
+    "key_concepts": [
+      "Isolating the surd",
+      "Squaring both sides",
+      "Checking for extraneous solutions"
+    ],
+    "definitions": [
+      {
+        "term": "Extraneous solution",
+        "definition": "A value produced by squaring that does not actually satisfy the original surd equation."
+      }
+    ],
+    "formulas": [
+      "If \u221a(f(x)) = g(x), then f(x) = [g(x)]^2, requiring g(x) \u2265 0"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Solve \u221a(x+3) = 4",
+        "steps": [
+          "Square both sides: x+3=16",
+          "x=13"
+        ],
+        "answer": "x = 13 (check: \u221a16=4 \u2713)"
+      },
+      {
+        "problem": "Solve \u221a(2x-1) = x-2",
+        "steps": [
+          "Square: 2x-1 = x^2-4x+4",
+          "x^2-6x+5=0",
+          "(x-1)(x-5)=0, x=1 or x=5"
+        ],
+        "answer": "Check x=1: \u221a1=1 but x-2=-1, fails. Check x=5: \u221a9=3=5-2 \u2713. So x=5 only."
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Solve \u221a(x-2) = 5",
+        "answer": "x = 27"
+      },
+      {
+        "q": "Solve \u221a(3x+1) = 4",
+        "answer": "x = 5"
+      },
+      {
+        "q": "Solve \u221a(x+7) = x+1",
+        "answer": "x = 2 (check other root rejected)"
+      },
+      {
+        "q": "Solve 2\u221ax = 10",
+        "answer": "x = 25"
+      },
+      {
+        "q": "Solve \u221a(x^2-9) = 4",
+        "answer": "x = \u00b15"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Solve \u221a(5x+6) = x, stating why any extra solution is rejected",
+        "answer": "5x+6=x^2 \u2192 x^2-5x-6=0 \u2192 x=6 or x=-1; x=-1 rejected since \u221a(1)=1\u2260-1"
+      },
+      {
+        "q": "Solve \u221a(2x+3) - \u221a(x+1) = 1",
+        "answer": "Isolate, square, resolve to get x = 4 (check validity)"
+      }
+    ],
+    "common_mistakes": [
+      "Not checking solutions in the original equation",
+      "Forgetting that a square root is always non-negative",
+      "Squaring before isolating the surd, causing extra cross-terms"
+    ],
+    "tips": [
+      "Always isolate the surd on one side before squaring",
+      "Always verify each solution in the original equation",
+      "Reject any solution making the original surd negative"
+    ],
+    "summary": "Surd equations require an extra verification step \u2014 squaring is not a reversible operation, so checking solutions is non-negotiable.",
+    "quick_revision": [
+      "Isolate surd, then square both sides",
+      "Solve resulting equation",
+      "Always check solutions in the original equation"
+    ],
+    "related_topics": [
+      "Surds",
+      "Change of Subject of Formula",
+      "Modulus Equations"
+    ],
+    "prerequisites": [
+      "Surds",
+      "Quadratic Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 14,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Indices",
+    "explanation": "Indices (or exponents/powers) indicate repeated multiplication of a base number, and follow a consistent set of laws for combining powers.",
+    "key_concepts": [
+      "Base and exponent",
+      "Positive integer powers",
+      "Zero and negative powers",
+      "Power laws"
+    ],
+    "definitions": [
+      {
+        "term": "Index/Exponent",
+        "definition": "The small number showing how many times a base is multiplied by itself, e.g. in a^n, n is the index."
+      }
+    ],
+    "formulas": [
+      "a^m \u00d7 a^n = a^(m+n)",
+      "a^m \u00f7 a^n = a^(m-n)",
+      "(a^m)^n = a^(mn)",
+      "a^0 = 1"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Simplify x^3 \u00d7 x^5",
+        "steps": [
+          "Add exponents: 3+5=8"
+        ],
+        "answer": "x^8"
+      },
+      {
+        "problem": "Simplify (2x^3)^2",
+        "steps": [
+          "Square the coefficient and multiply exponent by 2",
+          "4x^6"
+        ],
+        "answer": "4x^6"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Simplify x^7 \u00f7 x^2",
+        "answer": "x^5"
+      },
+      {
+        "q": "Simplify (x^2)^4",
+        "answer": "x^8"
+      },
+      {
+        "q": "Evaluate 5^0",
+        "answer": "1"
+      },
+      {
+        "q": "Simplify (3x^2y)^3",
+        "answer": "27x^6y^3"
+      },
+      {
+        "q": "Simplify x^4 \u00d7 x^-2",
+        "answer": "x^2"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Simplify fully (2x^3)^2 \u00d7 (3x)^-1",
+        "answer": "(4x^6)(1/(3x)) = 4x^5/3"
+      },
+      {
+        "q": "Solve for x: 2^x \u00d7 2^(x+1) = 32",
+        "answer": "2^(2x+1)=2^5, 2x+1=5, x=2"
+      }
+    ],
+    "common_mistakes": [
+      "Adding exponents when multiplying different bases",
+      "Confusing a^0=1 with a\u00d70=0",
+      "Errors distributing an exponent onto a sum, e.g. (a+b)^2\u2260a^2+b^2"
+    ],
+    "tips": [
+      "Index laws only combine when the base is the same",
+      "a^0=1 for any nonzero a",
+      "Apply exponent laws step by step, don't rush"
+    ],
+    "summary": "Index laws are foundational for exponential equations, logarithms, differentiation, and surds \u2014 total fluency here is essential.",
+    "quick_revision": [
+      "Same base: add/subtract exponents when multiplying/dividing",
+      "Power of a power: multiply exponents",
+      "a^0=1"
+    ],
+    "related_topics": [
+      "Laws of Indices",
+      "Fractional Indices",
+      "Negative Indices"
+    ],
+    "prerequisites": [
+      "Algebraic Manipulation"
+    ],
+    "images": []
+  },
+  {
+    "id": 15,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Laws of Indices",
+    "explanation": "The laws of indices are the full set of rules governing how powers combine under multiplication, division, powers of powers, and roots, including negative and fractional exponents.",
+    "key_concepts": [
+      "Multiplication and division rules",
+      "Power of a power",
+      "Negative and fractional exponents combined"
+    ],
+    "definitions": [
+      {
+        "term": "Index law",
+        "definition": "A rule describing how exponents combine under a specific operation."
+      }
+    ],
+    "formulas": [
+      "a^m\u00b7a^n=a^(m+n)",
+      "a^m/a^n=a^(m-n)",
+      "(a^m)^n=a^(mn)",
+      "a^(-n)=1/a^n",
+      "a^(1/n)=\u207f\u221aa",
+      "a^(m/n)=(\u207f\u221aa)^m"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Simplify (x^-2y^3)^-1",
+        "steps": [
+          "Apply power to each factor: x^2 y^-3",
+          "Rewrite: x^2/y^3"
+        ],
+        "answer": "x^2/y^3"
+      },
+      {
+        "problem": "Simplify (8x^6)^(1/3)",
+        "steps": [
+          "Cube root of 8 is 2; divide exponent by 3: x^2"
+        ],
+        "answer": "2x^2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Simplify (x^3y^-2)^2",
+        "answer": "x^6/y^4"
+      },
+      {
+        "q": "Simplify (16x^4)^(1/2)",
+        "answer": "4x^2"
+      },
+      {
+        "q": "Simplify x^(1/2) \u00d7 x^(3/2)",
+        "answer": "x^2"
+      },
+      {
+        "q": "Simplify (2x^-1)^-3",
+        "answer": "x^3/8"
+      },
+      {
+        "q": "Simplify (27x^9)^(1/3)",
+        "answer": "3x^3"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Simplify fully (4x^2)^(3/2)",
+        "answer": "8x^3"
+      },
+      {
+        "q": "Solve 9^x = 27^(x-1)",
+        "answer": "3^(2x)=3^(3x-3), 2x=3x-3, x=3"
+      }
+    ],
+    "common_mistakes": [
+      "Applying a power only to the coefficient, not the whole term",
+      "Sign errors when combining negative and fractional indices",
+      "Forgetting to apply the outer power to every factor inside brackets"
+    ],
+    "tips": [
+      "Apply an outer power to every factor inside the bracket",
+      "Convert to a single common base when solving exponential equations",
+      "Combine index laws step-by-step to avoid mistakes"
+    ],
+    "summary": "This is the complete toolkit of exponent rules; every later topic on exponentials and logs assumes total fluency here.",
+    "quick_revision": [
+      "Same base, multiply \u2192 add exponents",
+      "Power of a power \u2192 multiply exponents",
+      "Fractional exponent \u2192 root; negative exponent \u2192 reciprocal"
+    ],
+    "related_topics": [
+      "Indices",
+      "Fractional Indices",
+      "Negative Indices",
+      "Exponential Equations"
+    ],
+    "prerequisites": [
+      "Indices"
+    ],
+    "images": []
+  },
+  {
+    "id": 16,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Fractional Indices",
+    "explanation": "A fractional index represents a root: a^(1/n) means the nth root of a, and a^(m/n) means the nth root of a raised to the power m (or equivalently, a to the power m, then nth-rooted).",
+    "key_concepts": [
+      "Numerator as power, denominator as root",
+      "Order of operations for roots and powers",
+      "Simplifying expressions with fractional exponents"
+    ],
+    "definitions": [
+      {
+        "term": "Fractional index",
+        "definition": "An exponent expressed as a fraction m/n, representing (\u207f\u221aa)^m."
+      }
+    ],
+    "formulas": [
+      "a^(1/n) = \u207f\u221aa",
+      "a^(m/n) = (\u207f\u221aa)^m = \u207f\u221a(a^m)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Evaluate 8^(2/3)",
+        "steps": [
+          "Cube root of 8 is 2",
+          "Square it: 2^2=4"
+        ],
+        "answer": "4"
+      },
+      {
+        "problem": "Simplify 25^(-1/2)",
+        "steps": [
+          "Square root of 25 is 5",
+          "Negative power \u2192 reciprocal: 1/5"
+        ],
+        "answer": "1/5"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Evaluate 27^(1/3)",
+        "answer": "3"
+      },
+      {
+        "q": "Evaluate 16^(3/4)",
+        "answer": "8"
+      },
+      {
+        "q": "Evaluate 4^(-3/2)",
+        "answer": "1/8"
+      },
+      {
+        "q": "Simplify x^(2/3) \u00d7 x^(1/3)",
+        "answer": "x"
+      },
+      {
+        "q": "Evaluate 32^(2/5)",
+        "answer": "4"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Solve x^(3/2) = 27",
+        "answer": "x = 9"
+      },
+      {
+        "q": "Simplify (x^(1/2)y^(3/2))^2",
+        "answer": "xy^3"
+      }
+    ],
+    "common_mistakes": [
+      "Applying the root and power in the wrong order (usually fine either way, but errors occur with negative bases)",
+      "Confusing 1/n as a coefficient rather than a root",
+      "Sign errors combining fractional and negative exponents"
+    ],
+    "tips": [
+      "Take the root (denominator) first, then apply the power (numerator) \u2014 often easier with small numbers",
+      "Recognise perfect nth powers quickly (8=2^3, 16=2^4, etc.)",
+      "Combine with negative-index rule for reciprocals"
+    ],
+    "summary": "Fractional indices unify roots and powers into one notation, which is essential for calculus, exponential functions, and simplifying surds algebraically.",
+    "quick_revision": [
+      "a^(m/n) = (\u207f\u221aa)^m",
+      "Take the root first for easier numbers",
+      "Combine with negative-index reciprocal rule as needed"
+    ],
+    "related_topics": [
+      "Indices",
+      "Laws of Indices",
+      "Surds"
+    ],
+    "prerequisites": [
+      "Indices",
+      "Surds"
+    ],
+    "images": []
+  },
+  {
+    "id": 17,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Negative Indices",
+    "explanation": "A negative index indicates a reciprocal: a^(-n) = 1/a^n, allowing expressions with division to be rewritten using positive powers or vice versa.",
+    "key_concepts": [
+      "Reciprocal relationship",
+      "Combining with other index laws",
+      "Negative indices in fractions"
+    ],
+    "definitions": [
+      {
+        "term": "Negative index",
+        "definition": "An exponent of the form -n meaning 1/a^n."
+      }
+    ],
+    "formulas": [
+      "a^(-n) = 1/a^n",
+      "1/a^(-n) = a^n"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Evaluate 2^-3",
+        "steps": [
+          "2^-3 = 1/2^3 = 1/8"
+        ],
+        "answer": "1/8"
+      },
+      {
+        "problem": "Simplify (x^-2)/(y^-3)",
+        "steps": [
+          "Flip both: y^3/x^2"
+        ],
+        "answer": "y^3/x^2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Evaluate 5^-2",
+        "answer": "1/25"
+      },
+      {
+        "q": "Simplify x^-4 \u00d7 x^6",
+        "answer": "x^2"
+      },
+      {
+        "q": "Simplify (2x)^-2",
+        "answer": "1/(4x^2)"
+      },
+      {
+        "q": "Simplify (x^3/y^-2)",
+        "answer": "x^3y^2"
+      },
+      {
+        "q": "Evaluate (1/3)^-2",
+        "answer": "9"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Simplify (2x^-1y^2)^-3",
+        "answer": "x^3/(8y^6)"
+      },
+      {
+        "q": "Solve 3^(-x) = 1/81",
+        "answer": "3^-x=3^-4, x=4"
+      }
+    ],
+    "common_mistakes": [
+      "Thinking a negative index makes the value negative",
+      "Forgetting to flip only the base with the negative exponent, not the whole fraction",
+      "Sign errors when combining with other laws"
+    ],
+    "tips": [
+      "A negative index never makes the value negative \u2014 it makes it a reciprocal",
+      "Only the factor with the negative index flips position",
+      "Convert to positive indices before solving equations if it's clearer"
+    ],
+    "summary": "Negative indices are a specific case of the general index laws \u2014 the key misconception to avoid is confusing 'negative exponent' with 'negative value.'",
+    "quick_revision": [
+      "a^-n = 1/a^n",
+      "Negative index \u2260 negative value",
+      "Flip base to change sign of its exponent"
+    ],
+    "related_topics": [
+      "Indices",
+      "Laws of Indices",
+      "Fractional Indices"
+    ],
+    "prerequisites": [
+      "Indices"
+    ],
+    "images": []
+  },
+  {
+    "id": 18,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Exponential Equations",
+    "explanation": "Exponential equations have the unknown in the exponent, and are solved either by expressing both sides with a common base and equating exponents, or (when bases differ) by taking logarithms.",
+    "key_concepts": [
+      "Equal bases \u2192 equal exponents",
+      "Using logarithms for unlike bases",
+      "Substitution for quadratic-type exponential equations"
+    ],
+    "definitions": [
+      {
+        "term": "Exponential equation",
+        "definition": "An equation in which the variable appears as an exponent."
+      }
+    ],
+    "formulas": [
+      "If a^x = a^y then x = y (for a>0, a\u22601)",
+      "If a^x = b, then x = log_a(b) = ln(b)/ln(a)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Solve 2^x = 32",
+        "steps": [
+          "Express 32 as 2^5",
+          "Equate exponents"
+        ],
+        "answer": "x = 5"
+      },
+      {
+        "problem": "Solve 3^(2x) - 4(3^x) + 3 = 0",
+        "steps": [
+          "Let y=3^x: y^2-4y+3=0",
+          "(y-1)(y-3)=0, y=1 or y=3",
+          "3^x=1 \u2192 x=0; 3^x=3 \u2192 x=1"
+        ],
+        "answer": "x = 0 or x = 1"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Solve 5^x = 125",
+        "answer": "x = 3"
+      },
+      {
+        "q": "Solve 4^x = 8",
+        "answer": "x = 3/2"
+      },
+      {
+        "q": "Solve 2^(x+1) = 16",
+        "answer": "x = 3"
+      },
+      {
+        "q": "Solve 3^x = 20 (to 3 s.f.)",
+        "answer": "x \u2248 2.73"
+      },
+      {
+        "q": "Solve 9^x - 3^(x+1) + ... form check: 9^x = 3^x + 6 (using y=3^x)",
+        "answer": "y^2 - y - 6=0 \u2192 y=3 (y=-2 rejected) \u2192 x=1"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Solve 2^(2x) - 6(2^x) + 8 = 0",
+        "answer": "y=2^x: y^2-6y+8=0, y=2 or y=4, so x=1 or x=2"
+      },
+      {
+        "q": "Solve 7^x = 50, giving your answer to 3 significant figures",
+        "answer": "x = ln50/ln7 \u2248 2.01"
+      }
+    ],
+    "common_mistakes": [
+      "Taking logs unnecessarily when bases could be matched exactly",
+      "Losing solutions in quadratic-type exponential equations by not substituting",
+      "Rejecting valid negative y values without checking a^x>0 always"
+    ],
+    "tips": [
+      "Try to express both sides with the same base first",
+      "For quadratic-shaped equations, substitute y=a^x",
+      "Remember a^x is always positive, so reject negative y solutions"
+    ],
+    "summary": "Exponential equations combine index laws with either base-matching or logarithms \u2014 recognising the quadratic-in-disguise form is a key exam skill.",
+    "quick_revision": [
+      "Match bases where possible, then equate exponents",
+      "Otherwise take logs of both sides",
+      "Substitute y=a^x for quadratic-type equations, reject y\u22640"
+    ],
+    "related_topics": [
+      "Laws of Indices",
+      "Logarithms",
+      "Logarithmic Equations"
+    ],
+    "prerequisites": [
+      "Laws of Indices",
+      "Quadratic Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 19,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Logarithms",
+    "explanation": "A logarithm is the inverse of an exponential: log_a(b) = c means a^c = b. Logarithms convert multiplicative relationships into additive ones and are used to solve exponential equations.",
+    "key_concepts": [
+      "Logarithm as inverse of exponentiation",
+      "Common log (base 10) and natural log (base e)",
+      "Converting between log and exponential form"
+    ],
+    "definitions": [
+      {
+        "term": "Logarithm",
+        "definition": "log_a(b) is the power to which a must be raised to give b."
+      }
+    ],
+    "formulas": [
+      "log_a(b) = c \u27fa a^c = b",
+      "log_a(a) = 1",
+      "log_a(1) = 0"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Evaluate log_2(8)",
+        "steps": [
+          "2^c=8, c=3"
+        ],
+        "answer": "3"
+      },
+      {
+        "problem": "Solve log_5(x) = 2",
+        "steps": [
+          "5^2 = x"
+        ],
+        "answer": "x = 25"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Evaluate log_3(9)",
+        "answer": "2"
+      },
+      {
+        "q": "Evaluate log_10(1000)",
+        "answer": "3"
+      },
+      {
+        "q": "Solve log_4(x) = 3",
+        "answer": "x = 64"
+      },
+      {
+        "q": "Evaluate log_2(1/8)",
+        "answer": "-3"
+      },
+      {
+        "q": "Evaluate log_7(1)",
+        "answer": "0"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Solve log_2(x+3) = 4",
+        "answer": "x+3=16, x=13"
+      },
+      {
+        "q": "Given log_a(64) = 3, find a",
+        "answer": "a^3=64, a=4"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing log_a(b) with b/a",
+      "Forgetting the domain restriction x>0 inside a log",
+      "Errors converting between log and index form"
+    ],
+    "tips": [
+      "Always rewrite log_a(b)=c as a^c=b to check your work",
+      "Logs are only defined for positive arguments",
+      "Practice converting fluently between the two forms"
+    ],
+    "summary": "Logarithms are the essential inverse tool for exponential equations and underpin log laws, log graphs, and log-based modelling.",
+    "quick_revision": [
+      "log_a(b)=c means a^c=b",
+      "log_a(1)=0, log_a(a)=1",
+      "Argument of a log must be positive"
+    ],
+    "related_topics": [
+      "Laws of Logarithms",
+      "Exponential Equations",
+      "Logarithmic Equations"
+    ],
+    "prerequisites": [
+      "Laws of Indices"
+    ],
+    "images": []
+  },
+  {
+    "id": 20,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Laws of Logarithms",
+    "explanation": "The laws of logarithms mirror the index laws, turning multiplication of numbers into addition of logs, division into subtraction, and powers into multiplication.",
+    "key_concepts": [
+      "Product rule",
+      "Quotient rule",
+      "Power rule",
+      "Combining multiple log terms"
+    ],
+    "definitions": [
+      {
+        "term": "Log law",
+        "definition": "A rule for combining or splitting logarithmic expressions."
+      }
+    ],
+    "formulas": [
+      "log_a(xy) = log_a(x) + log_a(y)",
+      "log_a(x/y) = log_a(x) - log_a(y)",
+      "log_a(x^n) = n\u00b7log_a(x)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Write log(3) + log(4) as a single log",
+        "steps": [
+          "Product rule: log(3\u00d74)"
+        ],
+        "answer": "log(12)"
+      },
+      {
+        "problem": "Simplify 2log(x) - log(y)",
+        "steps": [
+          "Power rule: log(x^2)",
+          "Quotient rule: log(x^2/y)"
+        ],
+        "answer": "log(x^2/y)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Write log(5)+log(2) as a single log",
+        "answer": "log(10)"
+      },
+      {
+        "q": "Write 3log(2) as a single log",
+        "answer": "log(8)"
+      },
+      {
+        "q": "Simplify log(20) - log(4)",
+        "answer": "log(5)"
+      },
+      {
+        "q": "Simplify log(x^3) + log(y) - log(x)",
+        "answer": "log(x^2y)"
+      },
+      {
+        "q": "Write 2log(3) + log(5) as a single log",
+        "answer": "log(45)"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Express log(8) + 2log(3) - log(2) as a single logarithm",
+        "answer": "log(8\u00d79/2)=log(36)"
+      },
+      {
+        "q": "Solve log(x) + log(x-3) = log(10)",
+        "answer": "x(x-3)=10, x^2-3x-10=0, (x-5)(x+2)=0, x=5 (x=-2 rejected)"
+      }
+    ],
+    "common_mistakes": [
+      "Treating log(x+y) as log(x)+log(y) (incorrect \u2014 no such rule)",
+      "Forgetting to check domain restrictions after solving",
+      "Sign errors applying the quotient rule"
+    ],
+    "tips": [
+      "There is no rule for log(x+y) \u2014 only for products, quotients, and powers",
+      "Always check solutions satisfy the original log's domain",
+      "Combine all log terms into one before removing the log"
+    ],
+    "summary": "The log laws let you condense or expand logarithmic expressions, which is essential for solving log equations and manipulating logarithmic models.",
+    "quick_revision": [
+      "log(xy)=log x+log y",
+      "log(x/y)=log x-log y",
+      "log(x^n)=n log x",
+      "No rule exists for log(x+y)"
+    ],
+    "related_topics": [
+      "Logarithms",
+      "Change of Base",
+      "Logarithmic Equations"
+    ],
+    "prerequisites": [
+      "Logarithms"
+    ],
+    "images": []
+  },
+  {
+    "id": 21,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Change of Base",
+    "explanation": "The change of base formula converts a logarithm from one base to another, which is necessary for evaluating logs on a calculator (which typically only has base 10 and base e).",
+    "key_concepts": [
+      "Converting to base 10 or base e",
+      "Evaluating logs numerically"
+    ],
+    "definitions": [
+      {
+        "term": "Change of base formula",
+        "definition": "log_a(b) = log_c(b)/log_c(a) for any valid base c."
+      }
+    ],
+    "formulas": [
+      "log_a(b) = ln(b)/ln(a) = log(b)/log(a)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Evaluate log_5(20) to 3 s.f.",
+        "steps": [
+          "log_5(20) = ln(20)/ln(5) = 2.9957/1.6094"
+        ],
+        "answer": "\u2248 1.86"
+      },
+      {
+        "problem": "Evaluate log_2(50)",
+        "steps": [
+          "= ln(50)/ln(2) = 3.912/0.693"
+        ],
+        "answer": "\u2248 5.64"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Evaluate log_3(10) to 3 s.f.",
+        "answer": "\u2248 2.10"
+      },
+      {
+        "q": "Evaluate log_7(2) to 3 s.f.",
+        "answer": "\u2248 0.356"
+      },
+      {
+        "q": "Evaluate log_4(100) to 3 s.f.",
+        "answer": "\u2248 3.32"
+      },
+      {
+        "q": "Evaluate log_6(6)",
+        "answer": "1"
+      },
+      {
+        "q": "Evaluate log_2(0.5)",
+        "answer": "-1"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Solve 5^x = 40 using change of base, to 3 s.f.",
+        "answer": "x = ln40/ln5 \u2248 2.29"
+      },
+      {
+        "q": "Show that log_a(b) \u00d7 log_b(a) = 1",
+        "answer": "log_a(b)=ln b/ln a; log_b(a)=ln a/ln b; product = 1"
+      }
+    ],
+    "common_mistakes": [
+      "Dividing in the wrong order (log(a)/log(b) instead of log(b)/log(a))",
+      "Mixing bases inconsistently within one calculation",
+      "Rounding too early in multi-step problems"
+    ],
+    "tips": [
+      "Remember: the base being converted FROM goes in the denominator",
+      "Use either natural log or log base 10 consistently",
+      "Keep full calculator precision until the final answer"
+    ],
+    "summary": "Change of base is a practical tool that makes any logarithm calculator-computable, and it's the standard method for solving a^x=b equations numerically.",
+    "quick_revision": [
+      "log_a(b) = ln b / ln a",
+      "Use consistently with either ln or log10",
+      "Keeps unrounded precision until final step"
+    ],
+    "related_topics": [
+      "Logarithms",
+      "Laws of Logarithms",
+      "Exponential Equations"
+    ],
+    "prerequisites": [
+      "Logarithms"
+    ],
+    "images": []
+  },
+  {
+    "id": 22,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Logarithmic Equations",
+    "explanation": "Logarithmic equations involve unknowns inside a logarithm, and are solved by combining log terms using the log laws, then converting to exponential form and checking the domain.",
+    "key_concepts": [
+      "Combining logs into one term",
+      "Converting to index form",
+      "Checking domain validity"
+    ],
+    "definitions": [
+      {
+        "term": "Domain restriction",
+        "definition": "In log_a(f(x)), we require f(x) > 0 for the logarithm to be defined."
+      }
+    ],
+    "formulas": [
+      "log_a(x) = k \u27f9 x = a^k"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Solve log_2(x) + log_2(x-2) = 3",
+        "steps": [
+          "Combine: log_2[x(x-2)]=3",
+          "x(x-2)=8",
+          "x^2-2x-8=0, (x-4)(x+2)=0",
+          "x=4 or x=-2, reject x=-2 (log undefined)"
+        ],
+        "answer": "x = 4"
+      },
+      {
+        "problem": "Solve log(3x-1) = 2",
+        "steps": [
+          "3x-1=10^2=100",
+          "3x=101"
+        ],
+        "answer": "x = 101/3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Solve log_3(x) = 4",
+        "answer": "x = 81"
+      },
+      {
+        "q": "Solve log(x) + log(2) = log(20)",
+        "answer": "x = 10"
+      },
+      {
+        "q": "Solve log_2(x+1) = 3",
+        "answer": "x = 7"
+      },
+      {
+        "q": "Solve log(x^2) = 2log(5)",
+        "answer": "x^2=25, x=5 or x=-5 (check both valid since x^2 always positive)"
+      },
+      {
+        "q": "Solve 2log(x) = log(x+6)",
+        "answer": "x^2=x+6, x^2-x-6=0, x=3 (x=-2 rejected)"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Solve log_2(x) + log_2(x+2) = 3, showing why any extraneous root is rejected",
+        "answer": "x(x+2)=8, x^2+2x-8=0, (x+4)(x-2)=0, x=2 (x=-4 rejected as log undefined)"
+      },
+      {
+        "q": "Solve ln(x) - ln(x-1) = 1",
+        "answer": "ln[x/(x-1)]=1, x/(x-1)=e, x=e/(e-1)"
+      }
+    ],
+    "common_mistakes": [
+      "Not checking the domain and accepting invalid negative solutions",
+      "Combining logs incorrectly (mixing addition/subtraction rules)",
+      "Forgetting the base when converting log to exponential form"
+    ],
+    "tips": [
+      "Combine all logs into a single log before converting to index form",
+      "Always verify solutions satisfy the original log's domain",
+      "Convert log_a(x)=k to x=a^k directly"
+    ],
+    "summary": "Logarithmic equations require careful use of log laws plus a mandatory domain check \u2014 this is one of the most common places marks are lost through invalid solutions.",
+    "quick_revision": [
+      "Combine logs into one, convert to index form",
+      "Always check x>0 for every log argument",
+      "Reject any solution failing the domain check"
+    ],
+    "related_topics": [
+      "Logarithms",
+      "Laws of Logarithms",
+      "Exponential Equations"
+    ],
+    "prerequisites": [
+      "Logarithms",
+      "Laws of Logarithms",
+      "Quadratic Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 23,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Exponential Growth",
+    "explanation": "Exponential growth describes a quantity that increases at a rate proportional to its current value, modelled by P = P\u2080(1+r)^t or P = P\u2080e^(kt) with k > 0.",
+    "key_concepts": [
+      "Growth factor > 1",
+      "Modelling with P\u2080e^(kt)",
+      "Doubling time"
+    ],
+    "definitions": [
+      {
+        "term": "Growth rate",
+        "definition": "The constant k (or r) determining how fast the quantity increases."
+      }
+    ],
+    "formulas": [
+      "P(t) = P\u2080e^(kt), k>0",
+      "P(t) = P\u2080(1+r)^t"
+    ],
+    "worked_examples": [
+      {
+        "problem": "A population grows as P=500e^(0.03t). Find P after 10 years.",
+        "steps": [
+          "P=500e^0.3",
+          "e^0.3\u22481.3499"
+        ],
+        "answer": "\u2248 675"
+      },
+      {
+        "problem": "Find the doubling time for P=P\u2080e^(0.05t)",
+        "steps": [
+          "2=e^(0.05t)",
+          "ln2=0.05t",
+          "t=ln2/0.05"
+        ],
+        "answer": "t \u2248 13.9 years"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "A bacteria colony grows as N=100e^(0.2t). Find N at t=5.",
+        "answer": "N \u2248 272"
+      },
+      {
+        "q": "Find k if P=P\u2080e^(kt) doubles in 10 years",
+        "answer": "k = ln2/10 \u2248 0.0693"
+      },
+      {
+        "q": "An investment grows at 4% p.a. compounded; find the value of \u00a31000 after 8 years using (1+r)^t",
+        "answer": "\u2248 \u00a31368.57"
+      },
+      {
+        "q": "Find t if P=200e^(0.1t)=500",
+        "answer": "t = ln2.5/0.1 \u2248 9.16"
+      },
+      {
+        "q": "State the condition on k for exponential growth",
+        "answer": "k > 0"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "The number of subscribers to a service is modelled by N=A e^(kt). If N=200 at t=0 and N=320 at t=5, find k.",
+        "answer": "320=200e^(5k), e^(5k)=1.6, k=ln1.6/5\u22480.0940"
+      },
+      {
+        "q": "Using the model from the previous question, find N at t=10",
+        "answer": "N=200e^(0.940)\u2248512"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing growth (k>0) with decay (k<0)",
+      "Using r as a percentage instead of a decimal in (1+r)^t",
+      "Rounding k too early, compounding error in later calculations"
+    ],
+    "tips": [
+      "Always confirm k>0 for growth models",
+      "Convert percentages to decimals before substituting",
+      "Carry extra decimal places for k until the final answer"
+    ],
+    "summary": "Exponential growth models are widely used in Add Maths for population, finance, and biological contexts, and rely on fluent logarithm and index skills to solve for unknowns.",
+    "quick_revision": [
+      "P=P\u2080e^(kt), k>0 for growth",
+      "Doubling time: t=ln2/k",
+      "Use logs to solve for t or k"
+    ],
+    "related_topics": [
+      "Exponential Decay",
+      "Exponential Equations",
+      "Differential Equations in Modelling"
+    ],
+    "prerequisites": [
+      "Exponential Equations",
+      "Logarithms"
+    ],
+    "images": [
+      {
+        "filename": "addmaths-exponential-growth-23-1.webp",
+        "type": "graph",
+        "description": "A graph of P = P0 e^(kt) showing a smooth upward-curving exponential growth curve starting at P0, with the starting value labelled.",
+        "purpose": "Helps students visualise how exponential growth accelerates over time from a starting value P0.",
+        "placement": "Alongside the explanation of the growth formula, before the worked examples."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Exponential Decay",
+    "explanation": "Exponential decay describes a quantity that decreases at a rate proportional to its current value, modelled by P = P\u2080e^(-kt) with k > 0, approaching zero but never reaching it.",
+    "key_concepts": [
+      "Decay factor between 0 and 1",
+      "Modelling with P\u2080e^(-kt)",
+      "Half-life"
+    ],
+    "definitions": [
+      {
+        "term": "Half-life",
+        "definition": "The time taken for a decaying quantity to reduce to half its original value."
+      }
+    ],
+    "formulas": [
+      "P(t) = P\u2080e^(-kt), k>0",
+      "Half-life: t\u00bd = ln2/k"
+    ],
+    "worked_examples": [
+      {
+        "problem": "A radioactive sample decays as N=800e^(-0.1t). Find N at t=5.",
+        "steps": [
+          "N=800e^-0.5",
+          "e^-0.5\u22480.6065"
+        ],
+        "answer": "\u2248 485"
+      },
+      {
+        "problem": "Find the half-life if k=0.05",
+        "steps": [
+          "t\u00bd=ln2/0.05"
+        ],
+        "answer": "\u2248 13.9 (same units as t)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "A substance decays as M=50e^(-0.2t). Find M at t=3.",
+        "answer": "\u2248 27.4"
+      },
+      {
+        "q": "Find k given half-life of 20 years",
+        "answer": "k=ln2/20\u22480.0347"
+      },
+      {
+        "q": "Find t when M=50e^(-0.2t)=10",
+        "answer": "t=ln5/0.2\u22488.05"
+      },
+      {
+        "q": "State the condition on the exponent for decay when written as P\u2080e^(kt)",
+        "answer": "k < 0"
+      },
+      {
+        "q": "A car depreciates at 15% per year from \u00a320000; find value after 6 years",
+        "answer": "20000(0.85)^6 \u2248 \u00a37542"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "A cooling liquid follows T=20+80e^(-0.15t). Find the temperature after 10 minutes.",
+        "answer": "T=20+80e^-1.5\u224820+17.86\u224837.9\u00b0C"
+      },
+      {
+        "q": "Using the previous model, find how long it takes to reach 30\u00b0C.",
+        "answer": "10=80e^(-0.15t), t=ln8/0.15\u224813.9 min"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the negative sign in the exponent for decay",
+      "Assuming the quantity reaches exactly zero",
+      "Errors isolating the exponential term before taking logs"
+    ],
+    "tips": [
+      "Decay always has a negative exponent (or explicit minus sign with positive k)",
+      "The quantity approaches but never reaches zero \u2014 a horizontal asymptote",
+      "Isolate the exponential term fully before taking logs"
+    ],
+    "summary": "Exponential decay mirrors growth with a negative rate, commonly appearing in radioactivity, cooling, and depreciation contexts in Add Maths.",
+    "quick_revision": [
+      "P=P\u2080e^(-kt), k>0 for decay",
+      "Half-life: t\u00bd=ln2/k",
+      "Curve approaches zero asymptotically"
+    ],
+    "related_topics": [
+      "Exponential Growth",
+      "Exponential Equations",
+      "Growth and Decay Differential Equations"
+    ],
+    "prerequisites": [
+      "Exponential Equations",
+      "Logarithms"
+    ],
+    "images": [
+      {
+        "filename": "addmaths-exponential-decay-24-1.webp",
+        "type": "graph",
+        "description": "A graph of P = P0 e^(-kt) showing a downward-curving decay curve approaching zero, with the half-life point marked and labelled.",
+        "purpose": "Helps students visualise how exponential decay approaches (but never reaches) zero, and see the half-life concept.",
+        "placement": "Alongside the explanation of the decay formula, before the worked examples."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Algebraic Proof",
+    "explanation": "Algebraic proof uses symbolic manipulation to demonstrate that a mathematical statement is true for all values in its domain, typically by expanding, simplifying, or substituting general expressions.",
+    "key_concepts": [
+      "Generalising with variables (e.g. 2n for even numbers)",
+      "Showing both sides of an identity are equal",
+      "Structuring a logical argument"
+    ],
+    "definitions": [
+      {
+        "term": "Proof",
+        "definition": "A logical argument establishing that a statement is true in all cases, not just checked examples."
+      }
+    ],
+    "formulas": [
+      "Even number: 2n; Odd number: 2n+1 (n integer)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Prove that the sum of two consecutive integers is always odd",
+        "steps": [
+          "Let integers be n and n+1",
+          "Sum = 2n+1, which is of the form 2k+1 (odd)"
+        ],
+        "answer": "Sum is always odd \u2014 proven"
+      },
+      {
+        "problem": "Prove (n+1)^2 - n^2 = 2n+1",
+        "steps": [
+          "Expand: n^2+2n+1-n^2"
+        ],
+        "answer": "= 2n+1, proven"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Prove that the product of two even numbers is always even",
+        "answer": "2m\u00d72n=4mn=2(2mn), which is even"
+      },
+      {
+        "q": "Prove that the sum of three consecutive integers is a multiple of 3",
+        "answer": "n+(n+1)+(n+2)=3n+3=3(n+1)"
+      },
+      {
+        "q": "Prove (2n+1)^2 is always odd",
+        "answer": "=4n^2+4n+1=2(2n^2+2n)+1, form 2k+1"
+      },
+      {
+        "q": "Prove that the difference of squares of consecutive odd numbers is a multiple of 8",
+        "answer": "(2n+3)^2-(2n+1)^2 = 8n+8 = 8(n+1)"
+      },
+      {
+        "q": "Prove that n^2-n is always even for integer n",
+        "answer": "n^2-n=n(n-1), product of consecutive integers, always even"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Prove algebraically that the sum of two odd numbers is always even.",
+        "answer": "(2m+1)+(2n+1)=2m+2n+2=2(m+n+1), which is even"
+      },
+      {
+        "q": "Prove that (n+2)^2 - (n-2)^2 is always a multiple of 8.",
+        "answer": "Expand: (n^2+4n+4)-(n^2-4n+4)=8n=8(n)"
+      }
+    ],
+    "common_mistakes": [
+      "Proving only a specific numerical case rather than the general case",
+      "Algebraic slips when expanding brackets",
+      "Not clearly stating the conclusion links back to the claim"
+    ],
+    "tips": [
+      "Always use general expressions like n, 2n, 2n+1 \u2014 never just numbers",
+      "Finish by explicitly stating why the result proves the claim",
+      "Expand carefully and double-check each step"
+    ],
+    "summary": "Algebraic proof trains rigorous, general reasoning \u2014 testing examples is never sufficient; the argument must hold for every possible value.",
+    "quick_revision": [
+      "Use n for any integer, 2n for even, 2n+1 for odd",
+      "Expand and simplify to reach the required form",
+      "State the conclusion explicitly"
+    ],
+    "related_topics": [
+      "Mathematical Proof",
+      "Proof by Deduction",
+      "Proof Using Identities"
+    ],
+    "prerequisites": [
+      "Algebraic Manipulation",
+      "Algebraic Identities"
+    ],
+    "images": []
+  },
+  {
+    "id": 26,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Mathematical Proof",
+    "explanation": "Mathematical proof is the umbrella process of establishing truth through logically valid steps from agreed definitions and known facts, using methods such as direct proof, deduction, contradiction, and exhaustion.",
+    "key_concepts": [
+      "Direct proof",
+      "Proof by exhaustion",
+      "Logical structure and rigor",
+      "Counterexamples to disprove statements"
+    ],
+    "definitions": [
+      {
+        "term": "Counterexample",
+        "definition": "A single example that disproves a general statement."
+      }
+    ],
+    "formulas": [
+      "No single formula \u2014 proof relies on logical structure, not computation alone"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Disprove: 'n^2+n+41 is always prime' using a counterexample",
+        "steps": [
+          "Test n=40: 40^2+40+41=1681=41^2, not prime"
+        ],
+        "answer": "Counterexample n=40 disproves the claim"
+      },
+      {
+        "problem": "Prove by exhaustion that every integer from 1 to 5 squared is less than 30",
+        "steps": [
+          "Check 1,4,9,16,25 \u2014 all < 30"
+        ],
+        "answer": "True for all cases checked, so proven for this finite set"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Find a counterexample to 'all prime numbers are odd'",
+        "answer": "n = 2 is prime and even"
+      },
+      {
+        "q": "Prove by exhaustion that all square numbers from 1 to 16 are either 0 or 1 more than a multiple of 4",
+        "answer": "Check 1,4,9,16 mod 4 = 1,0,1,0 \u2014 confirmed"
+      },
+      {
+        "q": "Disprove 'x^2 > x for all x'",
+        "answer": "x=0.5: 0.25 < 0.5, counterexample"
+      },
+      {
+        "q": "State the difference between proof by exhaustion and a general algebraic proof",
+        "answer": "Exhaustion checks every case in a finite set; algebraic proof uses a general variable covering infinitely many cases"
+      },
+      {
+        "q": "Disprove 'n^2 - n + 1 is always even'",
+        "answer": "n=1: 1-1+1=1, odd \u2014 counterexample"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "A student claims that 'for all integers n, n^3 - n is divisible by 6.' Prove this statement.",
+        "answer": "n^3-n=n(n-1)(n+1), product of 3 consecutive integers, always divisible by 6 (by 2 and 3)"
+      },
+      {
+        "q": "Disprove the statement 'the sum of two irrational numbers is always irrational.'",
+        "answer": "\u221a2 + (-\u221a2) = 0, which is rational \u2014 counterexample"
+      }
+    ],
+    "common_mistakes": [
+      "Believing several checked examples constitute a general proof",
+      "Using a flawed counterexample that doesn't actually violate the statement",
+      "Confusing 'prove' with 'verify for some cases'"
+    ],
+    "tips": [
+      "One valid counterexample is enough to disprove a general claim",
+      "A finite number of checked cases never proves an infinite claim (unless it's proof by exhaustion over a genuinely finite set)",
+      "Be precise about what is being claimed before attempting to prove or disprove"
+    ],
+    "summary": "Mathematical proof develops the discipline of general, watertight reasoning \u2014 a single counterexample is enough to destroy a claim, but only a general argument can establish one.",
+    "quick_revision": [
+      "Direct proof, deduction, contradiction, and exhaustion are the four main methods",
+      "One counterexample disproves a universal claim",
+      "Checked examples alone never prove a general statement"
+    ],
+    "related_topics": [
+      "Algebraic Proof",
+      "Proof by Deduction",
+      "Proof by Contradiction"
+    ],
+    "prerequisites": [
+      "Algebraic Manipulation"
+    ],
+    "images": []
+  },
+  {
+    "id": 27,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Proof by Deduction",
+    "explanation": "Proof by deduction starts from known facts, definitions, or previously proven results and applies logical steps to reach the desired conclusion directly.",
+    "key_concepts": [
+      "Starting from known true statements",
+      "Applying logical, valid steps",
+      "Reaching the conclusion directly (not by contradiction)"
+    ],
+    "definitions": [
+      {
+        "term": "Deduction",
+        "definition": "Reasoning from general premises to a specific, logically certain conclusion."
+      }
+    ],
+    "formulas": [
+      "No specific formula \u2014 structured logical argument from definitions"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Prove by deduction that the sum of the squares of two consecutive even numbers is always even",
+        "steps": [
+          "Let numbers be 2n and 2n+2",
+          "Sum of squares: 4n^2 + (2n+2)^2 = 4n^2+4n^2+8n+4=8n^2+8n+4",
+          "= 4(2n^2+2n+1)"
+        ],
+        "answer": "Divisible by 4, hence even \u2014 proven"
+      },
+      {
+        "problem": "Prove by deduction that the angles in a triangle sum to 180\u00b0, using the parallel-line angle facts",
+        "steps": [
+          "Draw a line through one vertex parallel to the opposite side",
+          "Alternate angles equal the triangle's base angles",
+          "The three angles on the straight line sum to 180\u00b0"
+        ],
+        "answer": "Angles of triangle sum to 180\u00b0 \u2014 proven"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Prove by deduction that (2n+1)^2 - (2n-1)^2 is a multiple of 8",
+        "answer": "Expand: 8n, which is 8(n)"
+      },
+      {
+        "q": "Prove that the sum of the first n even numbers is n(n+1)",
+        "answer": "2+4+...+2n = 2(1+2+...+n) = 2\u00b7n(n+1)/2 = n(n+1)"
+      },
+      {
+        "q": "Prove that if a and b are both multiples of 3, a+b is also a multiple of 3",
+        "answer": "a=3m, b=3n, a+b=3(m+n)"
+      },
+      {
+        "q": "Prove that the product of any two consecutive integers is even",
+        "answer": "n(n+1): one of n, n+1 is always even, so product is even"
+      },
+      {
+        "q": "Prove that x^2+2x+2 > 0 for all real x",
+        "answer": "x^2+2x+2 = (x+1)^2+1 \u2265 1 > 0"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Prove by deduction that the sum of the interior angles of a hexagon is 720\u00b0.",
+        "answer": "Split hexagon into 4 triangles from one vertex; 4\u00d7180\u00b0=720\u00b0"
+      },
+      {
+        "q": "Prove that for all integers n, n^2+n is always even.",
+        "answer": "n^2+n=n(n+1), product of consecutive integers, always even"
+      }
+    ],
+    "common_mistakes": [
+      "Assuming the result rather than deriving it from definitions",
+      "Skipping justification steps",
+      "Circular reasoning (using the conclusion to prove itself)"
+    ],
+    "tips": [
+      "Start explicitly from a known, agreed fact or definition",
+      "Each step should follow logically and be justified",
+      "State the conclusion clearly at the end"
+    ],
+    "summary": "Proof by deduction is the most common style of proof in Add Maths \u2014 building forward step-by-step from known facts to the required conclusion.",
+    "quick_revision": [
+      "Start from known facts/definitions",
+      "Apply valid algebraic/logical steps",
+      "End with a clear statement of the conclusion"
+    ],
+    "related_topics": [
+      "Mathematical Proof",
+      "Algebraic Proof",
+      "Proof Using Identities"
+    ],
+    "prerequisites": [
+      "Algebraic Proof"
+    ],
+    "images": []
+  },
+  {
+    "id": 28,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Proof by Contradiction",
+    "explanation": "Proof by contradiction assumes the opposite of what is to be proven, then shows this assumption leads to a logical impossibility, thereby proving the original statement must be true.",
+    "key_concepts": [
+      "Assuming the negation",
+      "Deriving a contradiction",
+      "Concluding the original statement is true"
+    ],
+    "definitions": [
+      {
+        "term": "Contradiction",
+        "definition": "A logically impossible or self-contradicting result that invalidates the initial assumption."
+      }
+    ],
+    "formulas": [
+      "No specific formula \u2014 structured logical argument"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Prove that \u221a2 is irrational",
+        "steps": [
+          "Assume \u221a2 = p/q in lowest terms",
+          "Then 2q^2=p^2, so p^2 is even, so p is even: p=2k",
+          "Then 2q^2=4k^2, q^2=2k^2, so q is also even",
+          "But p and q can't both be even if p/q is in lowest terms \u2014 contradiction"
+        ],
+        "answer": "\u221a2 is irrational \u2014 proven"
+      },
+      {
+        "problem": "Prove there is no smallest positive rational number",
+        "steps": [
+          "Assume r is the smallest positive rational",
+          "Consider r/2, which is smaller and still positive and rational",
+          "Contradicts r being smallest"
+        ],
+        "answer": "No smallest positive rational exists \u2014 proven"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Prove that there is no largest even number",
+        "answer": "Assume n is the largest even number; n+2 is also even and larger \u2014 contradiction"
+      },
+      {
+        "q": "Prove that if n^2 is even, then n is even",
+        "answer": "Assume n odd: n=2k+1, n^2=4k^2+4k+1, odd \u2014 contradicts n^2 even"
+      },
+      {
+        "q": "Prove that \u221a3 is irrational (outline the method)",
+        "answer": "Same structure as \u221a2: assume p/q in lowest terms, derive that p and q share a factor of 3 \u2014 contradiction"
+      },
+      {
+        "q": "Prove that there are infinitely many prime numbers (outline)",
+        "answer": "Assume finitely many primes p1...pn; consider N=p1p2...pn+1, which has a prime factor not in the list \u2014 contradiction"
+      },
+      {
+        "q": "Prove that the sum of a rational and an irrational number is irrational",
+        "answer": "Assume rational+irrational=rational r; then irrational = r-rational = rational \u2014 contradiction"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Prove by contradiction that there is no smallest positive real number.",
+        "answer": "Assume x is smallest positive real; x/2 is smaller and still positive \u2014 contradiction"
+      },
+      {
+        "q": "Prove by contradiction that if x^2 is irrational, then x is irrational.",
+        "answer": "Assume x rational: x=p/q; x^2=p^2/q^2, rational \u2014 contradicts x^2 irrational"
+      }
+    ],
+    "common_mistakes": [
+      "Not clearly stating the initial assumption (negation of the claim)",
+      "Failing to reach a genuine logical contradiction",
+      "Confusing this method with direct deduction"
+    ],
+    "tips": [
+      "Always begin by explicitly stating 'Assume the opposite is true'",
+      "Work carefully to a clear, unavoidable contradiction",
+      "Finish by stating the original claim must therefore be true"
+    ],
+    "summary": "Proof by contradiction is powerful for statements about non-existence or irrationality, where a direct proof is difficult \u2014 the irrationality of \u221a2 is the classic example.",
+    "quick_revision": [
+      "Assume the negation of the statement",
+      "Derive a logical contradiction",
+      "Conclude the original statement is true"
+    ],
+    "related_topics": [
+      "Mathematical Proof",
+      "Proof by Deduction",
+      "Surds"
+    ],
+    "prerequisites": [
+      "Mathematical Proof",
+      "Surds"
+    ],
+    "images": []
+  },
+  {
+    "id": 29,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Proof Using Identities",
+    "explanation": "Proof using identities establishes that two expressions are equivalent for all values of the variable, typically by expanding one side (or both) and showing they simplify to the same expression.",
+    "key_concepts": [
+      "Working from one side to match the other",
+      "Using standard identities (difference of squares, perfect squares, trig identities)",
+      "Showing LHS \u2261 RHS"
+    ],
+    "definitions": [
+      {
+        "term": "\u2261 (identically equal to)",
+        "definition": "Denotes an equation true for all values of the variable, as opposed to = which may hold only for specific values."
+      }
+    ],
+    "formulas": [
+      "Standard algebraic and trigonometric identities as building blocks"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Prove that (x+y)^2 - (x-y)^2 \u2261 4xy",
+        "steps": [
+          "Expand LHS: (x^2+2xy+y^2)-(x^2-2xy+y^2)",
+          "= 4xy"
+        ],
+        "answer": "LHS = RHS \u2014 proven"
+      },
+      {
+        "problem": "Prove that sin^2\u03b8 + cos^2\u03b8 \u2261 1 leads to 1+tan^2\u03b8 \u2261 sec^2\u03b8",
+        "steps": [
+          "Divide both sides of sin^2\u03b8+cos^2\u03b8=1 by cos^2\u03b8",
+          "tan^2\u03b8+1 = 1/cos^2\u03b8 = sec^2\u03b8"
+        ],
+        "answer": "Identity proven"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Prove that (a+b)^2 + (a-b)^2 \u2261 2a^2+2b^2",
+        "answer": "Expand both and add: 2a^2+2b^2"
+      },
+      {
+        "q": "Prove that (x+1)^3 - x^3 \u2261 3x^2+3x+1",
+        "answer": "Expand (x+1)^3 = x^3+3x^2+3x+1, subtract x^3"
+      },
+      {
+        "q": "Prove that (n+1)^2 - (n-1)^2 \u2261 4n",
+        "answer": "Expand and simplify to 4n"
+      },
+      {
+        "q": "Prove that x^4 - y^4 \u2261 (x-y)(x+y)(x^2+y^2)",
+        "answer": "Factor as difference of squares twice"
+      },
+      {
+        "q": "Prove cot^2\u03b8 + 1 \u2261 cosec^2\u03b8 from sin^2\u03b8+cos^2\u03b8\u22611",
+        "answer": "Divide identity by sin^2\u03b8"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Prove the identity (2x-3)^2 - (2x+3)^2 \u2261 -24x.",
+        "answer": "Expand both, subtract: -24x"
+      },
+      {
+        "q": "Prove that x^3+y^3 \u2261 (x+y)(x^2-xy+y^2), and hence factorise 8+27x^3.",
+        "answer": "Standard sum-of-cubes proof; 8+27x^3=(2+3x)(4-6x+9x^2)"
+      }
+    ],
+    "common_mistakes": [
+      "Working from both sides simultaneously and creating a circular argument",
+      "Sign errors when expanding subtracted brackets",
+      "Stopping before reaching an explicit match to the other side"
+    ],
+    "tips": [
+      "Work one side only until it matches the other exactly",
+      "Show every expansion step clearly for method marks",
+      "State clearly 'LHS = RHS, hence proven' at the end"
+    ],
+    "summary": "Proof using identities is a direct-proof technique relying on careful, correct expansion \u2014 the goal is always to show both sides reduce to the same expression.",
+    "quick_revision": [
+      "Expand one side fully",
+      "Simplify until it matches the other side exactly",
+      "State the conclusion explicitly"
+    ],
+    "related_topics": [
+      "Algebraic Identities",
+      "Proof by Deduction",
+      "Trigonometric Identities"
+    ],
+    "prerequisites": [
+      "Algebraic Identities",
+      "Algebraic Manipulation"
+    ],
+    "images": []
+  },
+  {
+    "id": 30,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Further Proof Techniques",
+    "explanation": "Beyond deduction and contradiction, further proof techniques include proof by exhaustion (checking every case in a finite set) and disproof by counterexample, both of which are essential complements to general algebraic proof.",
+    "key_concepts": [
+      "Proof by exhaustion",
+      "Disproof by counterexample",
+      "Choosing the appropriate method for a given claim"
+    ],
+    "definitions": [
+      {
+        "term": "Proof by exhaustion",
+        "definition": "Proving a statement by checking every possible case in a finite set."
+      }
+    ],
+    "formulas": [
+      "No specific formula \u2014 method selection depends on the claim type"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Prove by exhaustion that all prime numbers between 10 and 20 are odd",
+        "steps": [
+          "List primes in range: 11,13,17,19",
+          "Check each is odd"
+        ],
+        "answer": "All are odd \u2014 proven for this finite set"
+      },
+      {
+        "problem": "Disprove: 'n^2 - n + 11 is prime for all positive integers n'",
+        "steps": [
+          "Test n=11: 121-11+11=121=11^2, not prime"
+        ],
+        "answer": "Counterexample n=11 disproves the claim"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Prove by exhaustion that n^2 is odd for all odd n from 1 to 9",
+        "answer": "Check 1,9,25,49,81 \u2014 all odd, confirmed"
+      },
+      {
+        "q": "Disprove 'all quadrilaterals have equal diagonals'",
+        "answer": "A general parallelogram (non-rectangle) is a counterexample"
+      },
+      {
+        "q": "Prove by exhaustion that the remainder of n^2 divided by 4 is 0 or 1, for n=1 to 6",
+        "answer": "Check each: remainders are 1,0,1,0,1,0 \u2014 confirmed"
+      },
+      {
+        "q": "Disprove 'x^2 \u2265 x for all real x'",
+        "answer": "x = 0.5 gives 0.25 < 0.5"
+      },
+      {
+        "q": "State which proof method is most appropriate for 'there is no largest prime number'",
+        "answer": "Proof by contradiction"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "A claim states 'the sum of any three consecutive square numbers is never divisible by 3.' Prove or disprove this.",
+        "answer": "Test n=1: 1+4+9=14 (not div by 3); n=2: 4+9+16=29; general proof possible via mod-3 case analysis by exhaustion of residues 0,1,2 \u2014 claim holds"
+      },
+      {
+        "q": "Disprove: 'for all integers n, 2n^2+11 is prime.'",
+        "answer": "n=11: 2(121)+11=253=11\u00d723, not prime \u2014 counterexample"
+      }
+    ],
+    "common_mistakes": [
+      "Using exhaustion for an infinite set (not valid)",
+      "Choosing a weak or invalid counterexample",
+      "Confusing disproof of a universal claim with proof of an existence claim"
+    ],
+    "tips": [
+      "Exhaustion only works for genuinely finite, checkable sets of cases",
+      "One correct counterexample is sufficient to disprove a 'for all' claim",
+      "Match the proof method to the structure of the statement being tested"
+    ],
+    "summary": "These techniques round out the proof toolkit \u2014 exhaustion handles finite cases rigorously, while a single counterexample is the fastest way to disprove a false general claim.",
+    "quick_revision": [
+      "Exhaustion: check every case in a finite set",
+      "Counterexample: one case disproves a 'for all' claim",
+      "Choose method based on the statement's structure"
+    ],
+    "related_topics": [
+      "Mathematical Proof",
+      "Proof by Contradiction",
+      "Proof by Deduction"
+    ],
+    "prerequisites": [
+      "Mathematical Proof"
+    ],
+    "images": []
+  },
+  {
+    "id": 31,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Linear Inequalities",
+    "explanation": "Linear inequalities compare expressions using <, >, \u2264, or \u2265 and are solved like linear equations, except the inequality sign flips when multiplying or dividing by a negative number.",
+    "key_concepts": [
+      "Flipping the inequality sign",
+      "Representing solutions on a number line",
+      "Combined/compound inequalities"
+    ],
+    "definitions": [
+      {
+        "term": "Inequality",
+        "definition": "A mathematical statement comparing two expressions using <, >, \u2264, or \u2265 rather than =."
+      }
+    ],
+    "formulas": [
+      "If a<b and c<0, then ac>bc (sign flips)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Solve 3x - 2 < 10",
+        "steps": [
+          "Add 2: 3x < 12",
+          "Divide by 3: x < 4"
+        ],
+        "answer": "x < 4"
+      },
+      {
+        "problem": "Solve -2x + 5 \u2265 11",
+        "steps": [
+          "Subtract 5: -2x \u2265 6",
+          "Divide by -2, flip sign: x \u2264 -3"
+        ],
+        "answer": "x \u2264 -3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Solve 2x + 3 > 9",
+        "answer": "x > 3"
+      },
+      {
+        "q": "Solve 5 - x \u2264 2",
+        "answer": "x \u2265 3"
+      },
+      {
+        "q": "Solve -3x < 12",
+        "answer": "x > -4"
+      },
+      {
+        "q": "Solve 4(x-1) \u2265 2x + 6",
+        "answer": "x \u2265 5"
+      },
+      {
+        "q": "Solve -1 < 2x - 3 \u2264 5",
+        "answer": "1 < x \u2264 4"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Solve the inequality 3(2x-1) < 5x + 4, and represent the solution on a number line.",
+        "answer": "6x-3<5x+4, x<7"
+      },
+      {
+        "q": "Solve -4 \u2264 3x + 2 < 11",
+        "answer": "-2 \u2264 x < 3"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to flip the inequality sign when multiplying/dividing by a negative",
+      "Treating compound inequalities as two separate unrelated statements",
+      "Sign errors when expanding brackets first"
+    ],
+    "tips": [
+      "Always flip the sign when multiplying or dividing by a negative number",
+      "Solve compound inequalities by applying the same operation to all three parts",
+      "Sketch a quick number line to sanity-check your solution"
+    ],
+    "summary": "Linear inequalities use the same algebra as linear equations, with the single crucial rule of flipping the sign on multiplication/division by a negative.",
+    "quick_revision": [
+      "Solve like an equation",
+      "Flip sign when \u00d7/\u00f7 by a negative",
+      "Compound inequalities: apply the same step to all parts"
+    ],
+    "related_topics": [
+      "Quadratic Inequalities",
+      "Modulus Inequalities",
+      "Simultaneous Equations"
+    ],
+    "prerequisites": [
+      "Algebraic Manipulation"
+    ],
+    "images": [
+      {
+        "filename": "addmaths-linear-inequalities-31-1.webp",
+        "type": "diagram",
+        "description": "A number line showing the solution x > 4, with an open circle at x=4 and a shaded/arrowed line extending to the right.",
+        "purpose": "Shows students how to represent an inequality solution set visually, including the open-circle convention for strict inequalities.",
+        "placement": "After the worked examples, alongside the tips section."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Modulus Expressions",
+    "explanation": "The modulus (absolute value) of a number or expression, written |x|, gives its distance from zero, always returning a non-negative value.",
+    "key_concepts": [
+      "Distance from zero",
+      "Piecewise definition",
+      "Properties of modulus"
+    ],
+    "definitions": [
+      {
+        "term": "Modulus",
+        "definition": "|x| = x if x \u2265 0, and |x| = -x if x < 0."
+      }
+    ],
+    "formulas": [
+      "|x| = x if x\u22650; |x| = -x if x<0",
+      "|x|^2 = x^2",
+      "|xy| = |x||y|"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Evaluate |-7|",
+        "steps": [
+          "Since -7<0, |-7|=-(-7)"
+        ],
+        "answer": "7"
+      },
+      {
+        "problem": "Simplify |3x-6| for x=1",
+        "steps": [
+          "3(1)-6=-3",
+          "|-3|=3"
+        ],
+        "answer": "3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Evaluate |5|",
+        "answer": "5"
+      },
+      {
+        "q": "Evaluate |-12|",
+        "answer": "12"
+      },
+      {
+        "q": "Write |x-4| in piecewise form",
+        "answer": "x-4 if x\u22654; 4-x if x<4"
+      },
+      {
+        "q": "Simplify |2\u00d7-3|",
+        "answer": "6 (product rule: |2|\u00d7|-3|)"
+      },
+      {
+        "q": "Evaluate |3-8|+|8-3|",
+        "answer": "5+5=10"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Sketch and describe the graph of y=|x-2|",
+        "answer": "V-shaped graph, vertex at (2,0), symmetric about x=2"
+      },
+      {
+        "q": "Write |2x+1| as a piecewise function and evaluate at x=-3",
+        "answer": "2x+1 if x\u2265-0.5; -(2x+1) if x<-0.5; at x=-3: -(2(-3)+1)=-(-5)=5"
+      }
+    ],
+    "common_mistakes": [
+      "Assuming |x| always simply equals x",
+      "Forgetting the negative branch when x could be negative",
+      "Errors squaring |x| incorrectly"
+    ],
+    "tips": [
+      "Always consider both branches: x\u22650 and x<0",
+      "|x|\u00b2 = x\u00b2 is a useful identity for solving modulus equations",
+      "Sketch a quick V-shaped graph to visualise modulus expressions"
+    ],
+    "summary": "The modulus function is central to distance-based reasoning in Add Maths and underlies modulus equations, inequalities, and certain graph transformations.",
+    "quick_revision": [
+      "|x| is always \u2265 0",
+      "Piecewise: x if x\u22650, -x if x<0",
+      "|x|\u00b2=x\u00b2"
+    ],
+    "related_topics": [
+      "Modulus Equations",
+      "Modulus Inequalities",
+      "Modulus Functions"
+    ],
+    "prerequisites": [
+      "Algebraic Manipulation"
+    ],
+    "images": [
+      {
+        "filename": "addmaths-modulus-expressions-32-1.webp",
+        "type": "graph",
+        "description": "A V-shaped graph of y=|x|, with the vertex at the origin labelled and the two linear branches (slope -1 and +1) annotated.",
+        "purpose": "Shows the piecewise, always-non-negative nature of the modulus function visually.",
+        "placement": "Alongside the definition of modulus, before the worked examples."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Modulus Equations",
+    "explanation": "Modulus equations involve an unknown inside a modulus symbol, and are solved by splitting into two cases (the expression equal to the positive and negative value) or by squaring both sides.",
+    "key_concepts": [
+      "Splitting into two cases",
+      "Squaring both sides",
+      "Checking solutions are valid"
+    ],
+    "definitions": [
+      {
+        "term": "Modulus equation",
+        "definition": "An equation containing |f(x)| set equal to some value or another expression."
+      }
+    ],
+    "formulas": [
+      "|f(x)| = a (a>0) \u27f9 f(x) = a or f(x) = -a",
+      "|f(x)| = |g(x)| \u27f9 f(x) = \u00b1g(x)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Solve |2x-1| = 7",
+        "steps": [
+          "Case 1: 2x-1=7 \u2192 x=4",
+          "Case 2: 2x-1=-7 \u2192 x=-3"
+        ],
+        "answer": "x = 4 or x = -3"
+      },
+      {
+        "problem": "Solve |x-3| = |2x+1|",
+        "steps": [
+          "Case 1: x-3=2x+1 \u2192 x=-4",
+          "Case 2: x-3=-(2x+1) \u2192 3x=2 \u2192 x=2/3"
+        ],
+        "answer": "x = -4 or x = 2/3"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Solve |x+2| = 5",
+        "answer": "x = 3 or x = -7"
+      },
+      {
+        "q": "Solve |3x-4| = 8",
+        "answer": "x = 4 or x = -4/3"
+      },
+      {
+        "q": "Solve |x-1| = |x+5|",
+        "answer": "x = -2"
+      },
+      {
+        "q": "Solve |2x| = 10",
+        "answer": "x = 5 or x = -5"
+      },
+      {
+        "q": "Solve |x-2| = 0",
+        "answer": "x = 2"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Solve |2x-3| = x+1, checking both solutions are valid.",
+        "answer": "Case 1: 2x-3=x+1 \u2192 x=4 (valid); Case 2: 2x-3=-(x+1) \u2192 3x=2 \u2192 x=2/3 (valid, since x+1>0)"
+      },
+      {
+        "q": "Solve |x^2-4| = 5",
+        "answer": "x^2-4=5 \u2192 x=\u00b13; x^2-4=-5 \u2192 x^2=-1, no real solution. So x=3 or x=-3"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting the negative case entirely",
+      "Not checking that the RHS (when it contains x) is non-negative for validity",
+      "Sign errors setting up the negative case"
+    ],
+    "tips": [
+      "Always split into two cases for |f(x)|=k",
+      "When RHS contains x, verify each solution makes RHS \u2265 0",
+      "Squaring both sides is often the fastest route for |f(x)|=|g(x)|"
+    ],
+    "summary": "Modulus equations require systematically considering both the positive and negative case, with validity checks whenever the comparison side contains the variable.",
+    "quick_revision": [
+      "|f(x)|=a \u2192 f(x)=\u00b1a",
+      "|f(x)|=|g(x)| \u2192 f(x)=\u00b1g(x)",
+      "Check validity when RHS involves x"
+    ],
+    "related_topics": [
+      "Modulus Expressions",
+      "Modulus Inequalities",
+      "Simultaneous Equations"
+    ],
+    "prerequisites": [
+      "Modulus Expressions",
+      "Linear Inequalities"
+    ],
+    "images": []
+  },
+  {
+    "id": 34,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Modulus Inequalities",
+    "explanation": "Modulus inequalities involve an unknown inside a modulus symbol compared to a value, and are solved by translating |f(x)| < a into -a < f(x) < a (or |f(x)| > a into f(x) < -a or f(x) > a).",
+    "key_concepts": [
+      "Translating modulus inequality into a compound or disjoint inequality",
+      "Interval notation for solutions"
+    ],
+    "definitions": [
+      {
+        "term": "Modulus inequality",
+        "definition": "An inequality involving a modulus expression, e.g. |x-2|<5."
+      }
+    ],
+    "formulas": [
+      "|f(x)| < a (a>0) \u27f9 -a < f(x) < a",
+      "|f(x)| > a (a>0) \u27f9 f(x) < -a or f(x) > a"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Solve |x-3| < 4",
+        "steps": [
+          "-4 < x-3 < 4",
+          "-1 < x < 7"
+        ],
+        "answer": "-1 < x < 7"
+      },
+      {
+        "problem": "Solve |2x+1| \u2265 5",
+        "steps": [
+          "2x+1 \u2264 -5 or 2x+1 \u2265 5",
+          "2x \u2264 -6 or 2x \u2265 4",
+          "x \u2264 -3 or x \u2265 2"
+        ],
+        "answer": "x \u2264 -3 or x \u2265 2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Solve |x| < 6",
+        "answer": "-6 < x < 6"
+      },
+      {
+        "q": "Solve |x-5| \u2264 2",
+        "answer": "3 \u2264 x \u2264 7"
+      },
+      {
+        "q": "Solve |2x-1| > 3",
+        "answer": "x < -1 or x > 2"
+      },
+      {
+        "q": "Solve |x+4| \u2265 1",
+        "answer": "x \u2264 -5 or x \u2265 -3"
+      },
+      {
+        "q": "Solve |3x| < 9",
+        "answer": "-3 < x < 3"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Solve |3x-2| < 7, giving your answer as an inequality.",
+        "answer": "-7<3x-2<7, -5<3x<9, -5/3<x<3"
+      },
+      {
+        "q": "Solve |x-1| > |2x-4|",
+        "answer": "Square both sides: (x-1)^2>(2x-4)^2, leads to 3x^2-14x+15<0, giving 5/3<x<3"
+      }
+    ],
+    "common_mistakes": [
+      "Using the wrong translation (< gives compound, > gives disjoint 'or')",
+      "Sign errors when dividing by a negative during the compound inequality",
+      "Mixing up < and > translation rules"
+    ],
+    "tips": [
+      "Remember: 'less than' gives a between (compound) inequality; 'greater than' gives an 'or' (disjoint) inequality",
+      "A useful mnemonic: less-thAND, greatOR",
+      "Flip signs carefully when isolating x within a compound inequality"
+    ],
+    "summary": "Modulus inequalities extend modulus equations to ranges \u2014 correctly identifying whether the solution is a single interval or two disjoint intervals is the key skill.",
+    "quick_revision": [
+      "|f(x)|<a \u2192 -a<f(x)<a",
+      "|f(x)|>a \u2192 f(x)<-a or f(x)>a",
+      "'Less than' = between; 'greater than' = or"
+    ],
+    "related_topics": [
+      "Modulus Equations",
+      "Linear Inequalities",
+      "Rational Inequalities"
+    ],
+    "prerequisites": [
+      "Modulus Equations",
+      "Linear Inequalities"
+    ],
+    "images": []
+  },
+  {
+    "id": 35,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Rational Inequalities",
+    "explanation": "Rational inequalities involve an algebraic fraction compared to a value, solved by finding critical values (where numerator or denominator is zero) and testing the sign of the expression in each resulting interval.",
+    "key_concepts": [
+      "Critical values",
+      "Sign diagrams/testing intervals",
+      "Never multiplying through by an expression that could be negative"
+    ],
+    "definitions": [
+      {
+        "term": "Critical value",
+        "definition": "A value of x where the numerator or denominator of the rational expression equals zero."
+      }
+    ],
+    "formulas": [
+      "Rearrange to have zero on one side, find critical values, test sign in each interval"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Solve (x-2)/(x+1) > 0",
+        "steps": [
+          "Critical values: x=2, x=-1",
+          "Test intervals: x<-1 (positive/negative=neg), -1<x<2 (neg/pos=neg), x>2 (pos/pos=pos)"
+        ],
+        "answer": "x < -1 or x > 2"
+      },
+      {
+        "problem": "Solve (x+3)/(x-1) \u2264 2",
+        "steps": [
+          "Subtract 2: (x+3)/(x-1) - 2 \u2264 0",
+          "Combine: [(x+3)-2(x-1)]/(x-1) \u2264 0 \u2192 (5-x)/(x-1) \u2264 0",
+          "Critical values x=5, x=1",
+          "Test intervals"
+        ],
+        "answer": "x < 1 or x \u2265 5"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Solve (x-1)/(x+2) > 0",
+        "answer": "x < -2 or x > 1"
+      },
+      {
+        "q": "Solve (2x)/(x-3) < 0",
+        "answer": "0 < x < 3"
+      },
+      {
+        "q": "Solve (x+4)/(x-2) \u2265 0",
+        "answer": "x \u2264 -4 or x > 2"
+      },
+      {
+        "q": "Solve 1/(x-1) < 2",
+        "answer": "x < 1 or x > 3/2"
+      },
+      {
+        "q": "Solve (x-5)/(x+1) \u2264 1",
+        "answer": "x < -1 (since numerator-denominator gives -6/(x+1)\u22640)"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Solve the inequality (3x-1)/(x+2) > 1, showing your critical values clearly.",
+        "answer": "Rearrange to (2x-3)/(x+2)>0; critical values x=3/2, x=-2; solution x<-2 or x>3/2"
+      },
+      {
+        "q": "Solve 2/(x-3) \u2265 1/(x+1)",
+        "answer": "Combine over common denominator, find critical values x=-1,3,7; test intervals to get -1<x<3 or x\u22657"
+      }
+    ],
+    "common_mistakes": [
+      "Multiplying both sides by (x+a) without knowing its sign, which can flip the inequality incorrectly",
+      "Forgetting to exclude values that make the denominator zero",
+      "Not combining into a single fraction before finding critical values"
+    ],
+    "tips": [
+      "Never multiply through by an expression containing x unless you know its sign",
+      "Rearrange to have zero on one side, then combine into a single fraction",
+      "Always use a sign diagram/table to test each interval systematically"
+    ],
+    "summary": "Rational inequalities require finding critical values and testing intervals rather than cross-multiplying blindly \u2014 this is one of the more error-prone Add Maths topics if the sign-testing step is skipped.",
+    "quick_revision": [
+      "Rearrange to have 0 on one side",
+      "Combine into a single fraction",
+      "Find critical values, test sign in each interval",
+      "Exclude values making denominator zero"
+    ],
+    "related_topics": [
+      "Algebraic Fractions",
+      "Modulus Inequalities",
+      "Quadratic Inequalities"
+    ],
+    "prerequisites": [
+      "Algebraic Fractions",
+      "Linear Inequalities"
+    ],
+    "images": []
+  },
+  {
+    "id": 36,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Simultaneous Equations",
+    "explanation": "Simultaneous equations are two or more equations solved together to find values that satisfy all of them at once, using substitution or elimination for linear systems (and substitution for linear-quadratic systems).",
+    "key_concepts": [
+      "Elimination method",
+      "Substitution method",
+      "Linear-quadratic simultaneous equations"
+    ],
+    "definitions": [
+      {
+        "term": "Simultaneous equations",
+        "definition": "A set of equations sharing common variables, solved together to find values satisfying all equations."
+      }
+    ],
+    "formulas": [
+      "No fixed formula \u2014 method depends on equation type (elimination or substitution)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Solve 2x+y=7 and x-y=2",
+        "steps": [
+          "Add equations: 3x=9, x=3",
+          "Substitute: y=7-2(3)=1"
+        ],
+        "answer": "x=3, y=1"
+      },
+      {
+        "problem": "Solve y=x+1 and y=x^2-1 simultaneously",
+        "steps": [
+          "Substitute: x+1=x^2-1",
+          "x^2-x-2=0, (x-2)(x+1)=0",
+          "x=2 or x=-1",
+          "y=3 or y=0"
+        ],
+        "answer": "(2,3) or (-1,0)"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Solve 3x+2y=16 and x-y=2",
+        "answer": "x=4, y=2"
+      },
+      {
+        "q": "Solve x+y=5 and xy=6",
+        "answer": "x=2,y=3 or x=3,y=2"
+      },
+      {
+        "q": "Solve y=2x-1 and y=x^2-4",
+        "answer": "x^2-2x-3=0, x=3 or x=-1; (3,5) or (-1,-3)"
+      },
+      {
+        "q": "Solve 4x-3y=1 and 2x+y=9",
+        "answer": "x=2.8, y=3.4"
+      },
+      {
+        "q": "Solve x^2+y^2=25 and y=x+1",
+        "answer": "2x^2+2x-24=0, x^2+x-12=0, (x+4)(x-3)=0; x=3,y=4 or x=-4,y=-3"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Solve the simultaneous equations y=x-2 and x^2+y^2=10, giving exact answers.",
+        "answer": "x^2+(x-2)^2=10, 2x^2-4x-6=0, x^2-2x-3=0, (x-3)(x+1)=0; (3,1) or (-1,-3)"
+      },
+      {
+        "q": "Solve 2x-y=3 and x^2-y=1",
+        "answer": "y=2x-3, x^2-(2x-3)=1, x^2-2x+2=1, x^2-2x+1=0, (x-1)^2=0, x=1, y=-1 (repeated/tangent solution)"
+      }
+    ],
+    "common_mistakes": [
+      "Sign errors during elimination",
+      "Substituting incorrectly into the wrong equation",
+      "Not finding both pairs of solutions in linear-quadratic systems"
+    ],
+    "tips": [
+      "For linear-linear, choose elimination or substitution based on which is quicker",
+      "For linear-quadratic, always substitute the linear equation into the quadratic",
+      "Always find the corresponding y for every x solution"
+    ],
+    "summary": "Simultaneous equations are foundational across coordinate geometry, circles, and curve intersections \u2014 linear-quadratic systems in particular appear constantly in Add Maths.",
+    "quick_replay_note": null,
+    "quick_revision": [
+      "Elimination or substitution for linear-linear systems",
+      "Substitute linear into quadratic for linear-quadratic systems",
+      "Find both x and corresponding y for every solution"
+    ],
+    "related_topics": [
+      "Quadratic Simultaneous Equations",
+      "Intersection of Lines",
+      "Circle-Line Intersections"
+    ],
+    "prerequisites": [
+      "Quadratic Equations",
+      "Algebraic Manipulation"
+    ],
+    "images": []
+  },
+  {
+    "id": 37,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Partial Fractions",
+    "explanation": "Partial fractions decomposition splits a complicated algebraic fraction into a sum of simpler fractions with linear or irreducible quadratic denominators, which is essential for integration and series expansion.",
+    "key_concepts": [
+      "Linear distinct factors",
+      "Repeated linear factors",
+      "Irreducible quadratic factors",
+      "Improper fractions requiring division first"
+    ],
+    "definitions": [
+      {
+        "term": "Proper fraction",
+        "definition": "An algebraic fraction where the numerator's degree is less than the denominator's degree."
+      }
+    ],
+    "formulas": [
+      "f(x)/[(x-a)(x-b)] = A/(x-a) + B/(x-b)",
+      "f(x)/[(x-a)^2] = A/(x-a) + B/(x-a)^2",
+      "f(x)/[(x-a)(x^2+bx+c)] = A/(x-a) + (Bx+C)/(x^2+bx+c)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "Express (3x+5)/[(x+1)(x+2)] in partial fractions",
+        "steps": [
+          "3x+5 = A(x+2)+B(x+1)",
+          "x=-1: 2=A(1), A=2",
+          "x=-2: -1=B(-1), B=1"
+        ],
+        "answer": "2/(x+1) + 1/(x+2)"
+      },
+      {
+        "problem": "Express (2x+1)/(x-1)^2 in partial fractions",
+        "steps": [
+          "2x+1 = A(x-1)+B",
+          "x=1: 3=B",
+          "Compare x coeff: 2=A"
+        ],
+        "answer": "2/(x-1) + 3/(x-1)^2"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "Express (5x-1)/[(x-1)(x+3)] in partial fractions",
+        "answer": "1/(x-1) + 4/(x+3)"
+      },
+      {
+        "q": "Express (x+7)/[(x+2)(x-1)] in partial fractions",
+        "answer": "5/(3(x+2))... exact: A=5/(-3), recompute: use x=-2: 5=A(-3),A=-5/3; x=1: 8=B(3),B=8/3 \u2192 (-5/3)/(x+2) + (8/3)/(x-1)"
+      },
+      {
+        "q": "Express (4x)/[(x-2)^2] in partial fractions",
+        "answer": "4/(x-2) + 8/(x-2)^2"
+      },
+      {
+        "q": "Express (x^2+1)/[x(x-1)] in partial fractions (improper \u2014 divide first)",
+        "answer": "1 + 1/x + 2/(x-1)"
+      },
+      {
+        "q": "Express 3/[(x-1)(x^2+1)] in partial fractions",
+        "answer": "(3/2)/(x-1) + (-3x/2 - 3/2)/(x^2+1)"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Express (7x-6)/[(x-2)(x+1)] as partial fractions, and hence find \u222b(7x-6)/[(x-2)(x+1)] dx.",
+        "answer": "8/3/(x-2) + 13/3/(x+1); integral = (8/3)ln|x-2| + (13/3)ln|x+1| + C"
+      },
+      {
+        "q": "Express (2x^2+3x-1)/[x(x+1)^2] in partial fractions.",
+        "answer": "A/x + B/(x+1) + C/(x+1)^2 with A=-1, B=3, C=-4 (verify by substitution)"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to check if the fraction is improper (degree of numerator \u2265 denominator) and needing polynomial division first",
+      "Using the wrong form for repeated or quadratic factors",
+      "Sign or arithmetic errors solving for constants"
+    ],
+    "tips": [
+      "Always check numerator degree vs denominator degree first \u2014 divide if improper",
+      "Match the decomposition form to the factor type (linear, repeated, quadratic)",
+      "Substitute convenient x-values to solve for constants quickly"
+    ],
+    "summary": "Partial fractions are a key preparatory technique for integration and series work \u2014 recognising which decomposition form to use for each factor type is the main skill.",
+    "quick_revision": [
+      "Check numerator/denominator degrees first \u2014 divide if improper",
+      "Distinct linear factors \u2192 separate A/(x-a) terms",
+      "Repeated factor \u2192 extra term with squared denominator",
+      "Irreducible quadratic \u2192 linear numerator (Bx+C)"
+    ],
+    "related_topics": [
+      "Algebraic Fractions",
+      "Integration Using Partial Fractions",
+      "Factor Theorem"
+    ],
+    "prerequisites": [
+      "Algebraic Fractions",
+      "Factor Theorem",
+      "Simultaneous Equations"
+    ],
+    "images": []
+  },
+  {
+    "id": 38,
+    "category": "Algebra & Algebraic Techniques",
+    "topic": "Reducing Relationships to Linear Form",
+    "explanation": "Some non-linear relationships (such as y=ax^n or y=ab^x) can be transformed into a straight-line equation by taking logarithms, allowing constants to be found from the gradient and intercept of a plotted graph.",
+    "key_concepts": [
+      "Taking logs of both sides",
+      "Identifying gradient and intercept as unknown constants",
+      "Distinguishing power-law from exponential relationships"
+    ],
+    "definitions": [
+      {
+        "term": "Linearisation",
+        "definition": "Transforming a non-linear equation into the form Y=mX+c by an appropriate substitution, usually involving logs."
+      }
+    ],
+    "formulas": [
+      "y=ax^n \u27f9 log y = n log x + log a (plot log y vs log x)",
+      "y=ab^x \u27f9 log y = x log b + log a (plot log y vs x)"
+    ],
+    "worked_examples": [
+      {
+        "problem": "y=ax^n; a graph of log y against log x has gradient 3 and intercept 0.5. Find n and a.",
+        "steps": [
+          "Gradient = n, so n=3",
+          "Intercept = log a = 0.5, so a=10^0.5"
+        ],
+        "answer": "n = 3, a \u2248 3.16"
+      },
+      {
+        "problem": "y=ab^x; log y plotted against x gives gradient 0.3 and intercept 1. Find a and b.",
+        "steps": [
+          "Intercept = log a = 1, a=10",
+          "Gradient = log b = 0.3, b=10^0.3"
+        ],
+        "answer": "a = 10, b \u2248 2.00"
+      }
+    ],
+    "practice_questions": [
+      {
+        "q": "y=kx^2 is linearised by plotting log y against log x. State the gradient.",
+        "answer": "2"
+      },
+      {
+        "q": "For y=Ab^x, state what quantity should be plotted against x to get a straight line.",
+        "answer": "log y (or ln y)"
+      },
+      {
+        "q": "A graph of ln y against x has gradient -0.5 and intercept 2. Find the relationship y=Ae^(kx).",
+        "answer": "k=-0.5, ln A=2 so A=e^2; y=e^2\u00b7e^(-0.5x)"
+      },
+      {
+        "q": "y=ax^n; log y vs log x gives a line through (0,1) with gradient 4. Find a and n.",
+        "answer": "n=4, log a=1, a=10"
+      },
+      {
+        "q": "State why taking logs converts y=ax^n into a linear relationship.",
+        "answer": "log y = log a + n log x is linear in log x, with gradient n and intercept log a"
+      }
+    ],
+    "exam_style_questions": [
+      {
+        "q": "Experimental data suggests y=Ax^n. Taking logs, a graph of log\u2081\u2080y against log\u2081\u2080x is a straight line passing through (0, 0.7) with gradient 1.5. Find A and n, and hence estimate y when x=100.",
+        "answer": "n=1.5, log A=0.7 so A\u22485.01; y=5.01\u00d7100^1.5=5.01\u00d71000\u22485012"
+      },
+      {
+        "q": "A radioactive decay is modelled by N=N\u2080e^(-kt). A graph of ln N against t has gradient -0.023 and intercept 5.3. Find N\u2080 and k.",
+        "answer": "k=0.023, N\u2080=e^5.3\u2248200.3"
+      }
+    ],
+    "common_mistakes": [
+      "Confusing which relationship (power-law vs exponential) requires plotting against log x vs plotting against x itself",
+      "Forgetting the intercept represents log(constant), not the constant itself",
+      "Sign errors when the gradient is negative (decay)"
+    ],
+    "tips": [
+      "Power law y=ax^n \u2192 plot log y vs log x (gradient = n)",
+      "Exponential y=ab^x \u2192 plot log y vs x (gradient = log b)",
+      "Always convert back from log(constant) to the constant using 10^ or e^ as appropriate"
+    ],
+    "summary": "This technique bridges algebra and statistics, turning curved experimental data into a straight line so unknown constants can be read off as gradient and intercept.",
+    "quick_revision": [
+      "Power law: log y vs log x, gradient = n, intercept = log a",
+      "Exponential: log y vs x, gradient = log b, intercept = log a",
+      "Always exponentiate the intercept to recover the constant"
+    ],
+    "related_topics": [
+      "Laws of Logarithms",
+      "Exponential Growth",
+      "Linear Regression"
+    ],
+    "prerequisites": [
+      "Laws of Logarithms",
+      "Gradient of a Line"
+    ],
+    "images": []
+  }
+]

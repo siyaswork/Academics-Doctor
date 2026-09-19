@@ -1,0 +1,1664 @@
+[
+  {
+    "id": "phy-141",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Elasticity",
+    "difficulty": "Intermediate",
+    "description": "The ability of a material to return to its original shape and size after a deforming force is removed.",
+    "learning_objectives": [
+      "Define elasticity as a material property",
+      "Explain the relationship between elasticity and the elastic limit",
+      "Compare the elasticity of different everyday materials"
+    ],
+    "explanation": "Elasticity is the property of a material that allows it to return to its original shape and size once a deforming force (stretching, compressing, or bending) is removed. This behaviour occurs because, when a material is deformed within its elastic limit, the intermolecular forces between its particles act as restoring forces, pulling or pushing the particles back toward their original positions once the external force is taken away, in a manner explored quantitatively through Hooke's law and the Young's modulus of the material. Different materials show very different degrees of elasticity: rubber and many springs are highly elastic, able to stretch significantly and still return fully to their original shape; other materials, such as some metals, are elastic only for small deformations, quickly reaching their elastic limit and undergoing permanent (plastic) deformation beyond that point; and brittle materials, such as glass, show very little elastic deformation before fracturing entirely. Elasticity is a material property distinct from, though closely related to, strength (the ability to withstand a large force without breaking) and stiffness (the resistance to deformation in the first place, as measured by the Young's modulus).",
+    "key_concepts": [
+      "Material returns to original shape/size after deforming force removed",
+      "Explained by restoring intermolecular forces, within the elastic limit",
+      "Distinct from strength and stiffness"
+    ],
+    "definitions": [
+      {
+        "term": "Elasticity",
+        "definition": "The property of a material that allows it to return to its original shape and size after a deforming force is removed."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "A rubber band and a piece of modelling clay are both stretched by hand and then released. Describe and explain the difference in their behaviour.",
+        "steps": [
+          "The rubber band, being highly elastic, returns fully to its original shape and length once released, since the deformation remained within its elastic limit.",
+          "The modelling clay, being an inelastic (plastic) material, does not return to its original shape once released; it retains the new, stretched shape it was given.",
+          "This difference arises because the clay's particles can permanently slide past and rearrange relative to one another under an applied force, unlike the rubber band's particles, which are restored to their original arrangement by strong intermolecular restoring forces."
+        ],
+        "answer": "The rubber band returns to its original shape (elastic behaviour), while the clay retains its new shape (largely inelastic/plastic behaviour), reflecting the very different intermolecular behaviour of the two materials."
+      }
+    ],
+    "practical_applications": [
+      "Selecting appropriately elastic materials for springs, elastic bands, and shock-absorbing components",
+      "Structural engineering, ensuring building materials remain within their elastic range under normal loads",
+      "Sports equipment design, relying on controlled elasticity (e.g. trampolines, archery bows)"
+    ],
+    "common_mistakes": [
+      "Assuming all materials are equally elastic, or that elasticity and strength are the same property",
+      "Assuming a material remains elastic no matter how large the deforming force is"
+    ],
+    "misconceptions": [
+      "That a highly elastic material is automatically also a strong material — elasticity describes whether a material returns to its original shape after a (typically moderate) deformation, while strength describes how large a force or stress the material can withstand before breaking; a material can be highly elastic but relatively weak (like a rubber band, which stretches easily and returns to shape, but breaks under a comparatively small force), or strong but only slightly elastic."
+    ],
+    "tips": [
+      "Distinguish elasticity (returning to original shape) from strength (resisting breaking) and stiffness (resisting deformation in the first place) as three separate, though related, material properties."
+    ],
+    "practice_questions": {
+      "basic": [
+        "Define elasticity."
+      ],
+      "intermediate": [
+        "Explain why a rubber band is described as a highly elastic material."
+      ],
+      "advanced": [
+        "Explain why a material can be elastic for small deformations but behave plastically (non-elastically) for larger deformations."
+      ]
+    },
+    "exam_questions": [
+      "Explain, in terms of intermolecular forces, why an elastic material returns to its original shape after a deforming force is removed, provided the elastic limit is not exceeded."
+    ],
+    "answers": {
+      "basic": [
+        "Elasticity is the property of a material that allows it to return to its original shape and size after a deforming force is removed."
+      ],
+      "intermediate": [
+        "A rubber band can be stretched significantly and, when released, returns fully to its original length and shape, demonstrating that its intermolecular restoring forces are strong enough to reverse a large deformation, characteristic of a highly elastic material."
+      ],
+      "advanced": [
+        "For small deformations, the applied force only stretches or compresses the bonds/forces between particles without permanently rearranging them, so removing the force allows these restoring forces to pull the particles back to their original positions (elastic behaviour); beyond the elastic limit, the applied force becomes large enough to permanently rearrange the particles' relative positions (e.g. by causing layers to slide past one another), so removing the force no longer restores the original arrangement, resulting in permanent (plastic) deformation instead."
+      ],
+      "exam": [
+        "Within the elastic limit, deforming a material (such as stretching it) only stretches the intermolecular forces/bonds between its particles without permanently rearranging them; once the deforming force is removed, these intermolecular forces act as restoring forces, pulling the particles back toward their original relative positions, returning the material to its original shape and size."
+      ]
+    },
+    "summary": "Elasticity is a material's ability to return to its original shape and size after a deforming force is removed, explained by restoring intermolecular forces acting within the elastic limit. It is distinct from strength and stiffness.",
+    "revision_notes": [
+      "Elasticity: returns to original shape/size after force removed",
+      "Explained by restoring intermolecular forces (within elastic limit)",
+      "Distinct from strength (resists breaking) and stiffness (resists deforming)"
+    ],
+    "related_topics": [
+      "Hooke's Law",
+      "Elastic Limit",
+      "Young's Modulus",
+      "Stress"
+    ],
+    "prerequisites": [
+      "Elastic Deformation"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-142",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Stress",
+    "difficulty": "Intermediate",
+    "description": "The force applied per unit cross-sectional area within a material, describing the internal effect of an external deforming force.",
+    "learning_objectives": [
+      "Define stress and state its equation",
+      "Calculate the stress in a material given the applied force and cross-sectional area",
+      "Distinguish stress from ordinary force and from pressure"
+    ],
+    "explanation": "Stress is defined as the force applied per unit cross-sectional area within a material, calculated using the equation stress = F/A, where F is the applied force and A is the cross-sectional area over which that force acts, measured perpendicular to the force. Stress is measured in pascals (Pa), the same unit as pressure, since the two quantities share the same underlying mathematical definition (force per unit area), though stress specifically describes the internal effect of a force within a solid material (such as a stretched wire or a loaded beam), while pressure is more commonly used to describe a fluid's force per unit area on a surface. Applying a given force to a material with a smaller cross-sectional area produces a greater stress than applying the same force to a larger cross-sectional area, which is why thin wires or cables are more easily stretched or broken than thick ones under the same load. Stress is a key quantity in analysing how materials respond to applied forces, forming the basis for the stress-strain graphs used to determine properties such as the Young's modulus and the elastic limit of a material.",
+    "key_concepts": [
+      "stress = F/A",
+      "Unit: pascal (Pa), same as pressure",
+      "Smaller cross-sectional area = greater stress for the same force"
+    ],
+    "definitions": [
+      {
+        "term": "Stress",
+        "definition": "The force applied per unit cross-sectional area within a material, calculated as stress = F/A."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Stress",
+        "equation": "stress = F / A",
+        "variables": {
+          "stress": "stress, Pa",
+          "F": "applied force, N",
+          "A": "cross-sectional area, m^2"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "stress",
+        "si_unit": "pascal",
+        "symbol": "Pa"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A wire with a cross-sectional area of 2.0 x 10^-6 m^2 is stretched by a force of 60 N. Calculate the stress in the wire.",
+        "steps": [
+          "Use stress = F/A.",
+          "Substitute: stress = 60 / (2.0x10^-6)."
+        ],
+        "answer": "3.0 x 10^7 Pa (30 MPa)"
+      }
+    ],
+    "practical_applications": [
+      "Structural engineering, ensuring components can withstand the stresses they experience in use",
+      "Material selection for cables, ropes, and structural supports",
+      "Calculating the safe working load of engineering components before failure occurs"
+    ],
+    "common_mistakes": [
+      "Using the total force applied to a structure rather than the cross-sectional area relevant to the specific material being analysed",
+      "Confusing stress (an internal, material-level quantity) with the total applied external force"
+    ],
+    "misconceptions": [
+      "That stress and force are simply two names for the same thing — stress specifically accounts for how a given force is distributed over a material's cross-sectional area, meaning the same force can produce very different stress values depending on the area it acts over, which is why area matters as much as force when assessing whether a material might fail."
+    ],
+    "tips": [
+      "Always identify the correct cross-sectional area — the area perpendicular to the direction of the applied force — before calculating stress."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for stress, defining each symbol."
+      ],
+      "intermediate": [
+        "A rod with a cross-sectional area of 5.0 x 10^-4 m^2 experiences a stress of 4.0 x 10^6 Pa. Calculate the force causing this stress."
+      ],
+      "advanced": [
+        "Two wires, A and B, made from the same material, experience the same applied force, but wire A has half the cross-sectional area of wire B. Compare the stress in each wire."
+      ]
+    },
+    "exam_questions": [
+      "Explain why a thin cable is more likely to break under a given load than a thicker cable of the same material, referring to the concept of stress."
+    ],
+    "answers": {
+      "basic": [
+        "stress = F/A, where stress is in Pa, F is force in N, and A is cross-sectional area in m^2."
+      ],
+      "intermediate": [
+        "F = stress x A = (4.0x10^6)(5.0x10^-4) = 2000 N."
+      ],
+      "advanced": [
+        "Since stress = F/A, for the same force, wire A (with half the cross-sectional area of wire B) experiences twice the stress of wire B."
+      ],
+      "exam": [
+        "For a given applied force, a thinner cable has a smaller cross-sectional area, and since stress = F/A, a smaller area results in a greater stress for the same force; since materials typically fail (break) once stress exceeds a certain maximum value (the material's tensile strength), the thinner cable, experiencing greater stress under the same load, is more likely to reach this failure point and break."
+      ]
+    },
+    "summary": "Stress is the force applied per unit cross-sectional area within a material, calculated as stress = F/A and measured in pascals. A smaller cross-sectional area produces greater stress for the same applied force, affecting how likely a material is to deform or fail.",
+    "revision_notes": [
+      "stress = F/A (Pa)",
+      "Smaller area = greater stress, same force",
+      "Foundation for stress-strain analysis (Young's modulus, elastic limit)"
+    ],
+    "related_topics": [
+      "Strain",
+      "Young's Modulus",
+      "Elastic Limit"
+    ],
+    "prerequisites": [
+      "Force",
+      "Pressure"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-143",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Strain",
+    "difficulty": "Intermediate",
+    "description": "The fractional change in length of a material caused by an applied stress, expressed as a dimensionless ratio.",
+    "learning_objectives": [
+      "Define strain and state its equation",
+      "Calculate strain given the extension and original length of a material",
+      "Explain why strain has no unit"
+    ],
+    "explanation": "Strain is defined as the fractional (proportional) change in length of a material caused by an applied stress, calculated as strain = extension / original length (or, more generally, change in length / original length), often given the symbol epsilon. Because strain is a ratio of two lengths (both measured in the same unit, typically metres), the units cancel out entirely, meaning strain is a dimensionless quantity, with no unit — it is often expressed simply as a decimal, or sometimes as a percentage. For example, a wire that stretches from an original length of 2.0 m to a new length of 2.01 m has an extension of 0.01 m, giving a strain of 0.01/2.0 = 0.005 (or 0.5%). Strain is directly linked to stress through a material's stress-strain graph, and for a material obeying Hooke's law within its elastic limit, stress is directly proportional to strain, with the constant of proportionality being the material's Young's modulus.",
+    "key_concepts": [
+      "strain = extension / original length",
+      "Dimensionless (no unit); often given as decimal or percentage",
+      "Stress directly proportional to strain within elastic limit (Hooke's law)"
+    ],
+    "definitions": [
+      {
+        "term": "Strain",
+        "definition": "The fractional change in length of a material caused by an applied stress, calculated as strain = extension / original length; dimensionless."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Strain",
+        "equation": "strain = extension / original length",
+        "variables": {
+          "strain": "strain (no unit)",
+          "extension": "change in length, m",
+          "original length": "original (unstretched) length, m"
+        }
+      }
+    ],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "A wire with an original length of 1.5 m is stretched by 3 mm. Calculate the strain in the wire.",
+        "steps": [
+          "Convert the extension to metres: 3 mm = 0.003 m.",
+          "Use strain = extension / original length.",
+          "Substitute: strain = 0.003 / 1.5."
+        ],
+        "answer": "0.002 (or 0.2%)"
+      }
+    ],
+    "practical_applications": [
+      "Assessing the deformation of structural components under load in civil and mechanical engineering",
+      "Strain gauges, electronic sensors used to measure strain directly in materials testing and structural monitoring",
+      "Comparing the deformability of different materials independent of their original size"
+    ],
+    "common_mistakes": [
+      "Forgetting to use consistent units for extension and original length before dividing (e.g. mixing mm and m)",
+      "Assuming strain has a unit, since it is calculated from two length measurements"
+    ],
+    "misconceptions": [
+      "That strain and extension are the same quantity — extension is the actual change in length, in metres, while strain is this extension expressed as a fraction (proportion) of the material's original length, allowing materials of different original sizes to be compared fairly on the same, dimensionless scale."
+    ],
+    "tips": [
+      "Always convert extension and original length into the same unit before dividing, to ensure the units correctly cancel and give a dimensionless strain value."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for strain, defining each symbol."
+      ],
+      "intermediate": [
+        "A spring with an original length of 0.2 m stretches to 0.24 m. Calculate the strain."
+      ],
+      "advanced": [
+        "A material has a strain of 0.008 under a certain stress. If its original length was 4.0 m, calculate its extension."
+      ]
+    },
+    "exam_questions": [
+      "Explain why strain, unlike stress, has no unit."
+    ],
+    "answers": {
+      "basic": [
+        "strain = extension / original length."
+      ],
+      "intermediate": [
+        "Extension = 0.24 - 0.2 = 0.04 m. strain = 0.04 / 0.2 = 0.2."
+      ],
+      "advanced": [
+        "extension = strain x original length = 0.008 x 4.0 = 0.032 m."
+      ],
+      "exam": [
+        "Strain is calculated as extension (a length) divided by original length (also a length); since both quantities are measured in the same unit (e.g. metres), these units cancel out completely in the division, leaving a pure, dimensionless ratio (number) with no unit, unlike stress, which involves dividing force (N) by area (m^2), giving units of Pa that do not cancel."
+      ]
+    },
+    "summary": "Strain is the fractional change in length of a material (strain = extension / original length), a dimensionless quantity. It is directly proportional to stress within a material's elastic limit, with the Young's modulus as the constant of proportionality.",
+    "revision_notes": [
+      "strain = extension / original length",
+      "Dimensionless (no unit)",
+      "Proportional to stress within elastic limit"
+    ],
+    "related_topics": [
+      "Stress",
+      "Young's Modulus",
+      "Hooke's Law"
+    ],
+    "prerequisites": [
+      "Stress"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-144",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Young's Modulus",
+    "difficulty": "Advanced",
+    "description": "A measure of the stiffness of a material, calculated as the ratio of stress to strain within its elastic (linear) region.",
+    "learning_objectives": [
+      "Define Young's modulus and state its equation",
+      "Calculate Young's modulus from stress and strain, or from the gradient of a stress-strain graph",
+      "Compare the stiffness of different materials using their Young's modulus values"
+    ],
+    "explanation": "Young's modulus, given the symbol E, is a measure of the stiffness of a material — how much it resists being stretched or compressed elastically — calculated as the ratio of stress to strain, within the material's elastic (linear, Hooke's-law-obeying) region: E = stress/strain. Since strain is dimensionless, Young's modulus has the same unit as stress, the pascal (Pa), though because typical values are extremely large for solid materials, they are very often expressed in gigapascals (GPa, 10^9 Pa) for convenience. A material with a high Young's modulus (such as steel) is very stiff, requiring a large stress to produce even a small strain; a material with a low Young's modulus (such as rubber) is much less stiff, deforming significantly (a large strain) even under a relatively small stress. Young's modulus can be calculated directly from a single stress-strain data point within the elastic region using E = stress/strain, or, more robustly, from the gradient of the straight-line (linear, elastic) portion of a full stress-strain graph, since gradient = (change in stress)/(change in strain), which is exactly the definition of E.",
+    "key_concepts": [
+      "E = stress / strain (within elastic region)",
+      "Unit: pascal (Pa), often GPa for solids",
+      "High E = stiff material; low E = flexible material"
+    ],
+    "definitions": [
+      {
+        "term": "Young's modulus",
+        "definition": "A measure of the stiffness of a material, calculated as the ratio of stress to strain within its elastic region, E = stress/strain."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Young's modulus",
+        "equation": "E = stress / strain",
+        "variables": {
+          "E": "Young's modulus, Pa",
+          "stress": "stress, Pa",
+          "strain": "strain (no unit)"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "Young's modulus",
+        "si_unit": "pascal",
+        "symbol": "Pa"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A wire experiences a stress of 4.5 x 10^7 Pa when subjected to a strain of 0.0015. Calculate the Young's modulus of the wire's material.",
+        "steps": [
+          "Use E = stress / strain.",
+          "Substitute: E = (4.5x10^7) / 0.0015."
+        ],
+        "answer": "3.0 x 10^10 Pa (30 GPa)"
+      },
+      {
+        "problem": "A stress-strain graph shows a straight line passing through (0, 0) and (0.002, 4.0 x 10^7 Pa) within the elastic region. Calculate the Young's modulus.",
+        "steps": [
+          "Young's modulus equals the gradient of the linear region: E = (change in stress) / (change in strain).",
+          "Substitute: E = (4.0x10^7 - 0) / (0.002 - 0)."
+        ],
+        "answer": "2.0 x 10^10 Pa (20 GPa)"
+      }
+    ],
+    "practical_applications": [
+      "Selecting appropriately stiff materials for structural engineering, from flexible cables to rigid support beams",
+      "Comparing the stiffness of metals, plastics, and composite materials in material science",
+      "Calculating the expected extension of structural components under known loads before construction"
+    ],
+    "common_mistakes": [
+      "Calculating Young's modulus using data from beyond the elastic limit, where the stress-strain relationship is no longer linear",
+      "Confusing Young's modulus (a material's inherent stiffness) with the spring constant (a specific spring's stiffness, which depends on both material and geometry)"
+    ],
+    "misconceptions": [
+      "That Young's modulus and spring constant describe the same thing — Young's modulus is a property of a MATERIAL, independent of the specific shape or size of a sample, while spring constant, k, describes a specific SPRING's stiffness, which depends on both the material's Young's modulus and the spring's specific geometry (such as its wire thickness, coil diameter, and number of coils)."
+    ],
+    "tips": [
+      "Use the gradient of the straight-line (elastic) region of a stress-strain graph to find Young's modulus reliably, since this uses multiple data points rather than relying on a single, potentially less accurate, measurement."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for Young's modulus, defining each symbol."
+      ],
+      "intermediate": [
+        "A material experiences a stress of 8.0 x 10^7 Pa under a strain of 0.004. Calculate its Young's modulus."
+      ],
+      "advanced": [
+        "Two materials, A and B, have Young's moduli of 200 GPa and 70 GPa respectively. Explain which material is stiffer, and what this means for the strain each would experience under the same applied stress."
+      ]
+    },
+    "exam_questions": [
+      "Explain how the Young's modulus of a material can be found from the gradient of its stress-strain graph."
+    ],
+    "answers": {
+      "basic": [
+        "E = stress / strain."
+      ],
+      "intermediate": [
+        "E = (8.0x10^7) / 0.004 = 2.0x10^10 Pa (20 GPa)."
+      ],
+      "advanced": [
+        "Material A (200 GPa) is stiffer than material B (70 GPa), since it has a higher Young's modulus; under the same applied stress, material A would experience a smaller strain than material B, since strain = stress/E, and a larger E (for the same stress) gives a smaller resulting strain."
+      ],
+      "exam": [
+        "The straight-line, elastic region of a stress-strain graph has a gradient equal to (change in stress)/(change in strain), which is exactly the definition of Young's modulus (E = stress/strain); therefore, calculating the gradient of this linear section directly gives the material's Young's modulus."
+      ]
+    },
+    "summary": "Young's modulus, E = stress/strain, measures a material's stiffness within its elastic region, found from a single data point or from the gradient of a stress-strain graph's linear section. A high E indicates a stiff material; a low E indicates a flexible one.",
+    "revision_notes": [
+      "E = stress/strain (Pa, often GPa)",
+      "E = gradient of linear (elastic) region of stress-strain graph",
+      "High E = stiff; low E = flexible; property of the material, not a specific sample"
+    ],
+    "related_topics": [
+      "Stress",
+      "Strain",
+      "Elastic Limit",
+      "Hooke's Law"
+    ],
+    "prerequisites": [
+      "Stress",
+      "Strain"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A stress-strain graph with a straight linear region (labelled as Young's modulus = gradient) followed by a curved plastic region beyond the elastic limit]"
+    ],
+    "images": [
+      {
+        "filename": "physics-youngs-modulus-144-01.webp",
+        "type": "graph",
+        "description": "A stress-strain graph with a straight blue line from the origin up to an 'elastic limit' marker, labelled as the linear/elastic region where Young's modulus equals the gradient, followed by a curved red line representing the plastic region beyond the elastic limit.",
+        "purpose": "Shows exactly where and how Young's modulus is measured on a real stress-strain graph, and where this calculation stops being valid (beyond the elastic limit).",
+        "placement": "Directly after the explanation paragraph, before the worked examples."
+      }
+    ]
+  },
+  {
+    "id": "phy-145",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Tensile Strength",
+    "difficulty": "Intermediate",
+    "description": "The maximum tensile (stretching) stress a material can withstand before it breaks.",
+    "learning_objectives": [
+      "Define tensile strength",
+      "Explain the difference between tensile strength and the elastic limit",
+      "Compare the tensile strength of different materials and their suitability for different applications"
+    ],
+    "explanation": "Tensile strength is the maximum tensile (stretching) stress a material can withstand before it fractures (breaks) completely, measured in pascals, the same unit as stress. This is an important but distinct property from the elastic limit: a material's elastic limit marks the point beyond which deformation becomes permanent (plastic), but the material can often continue to withstand increasing stress for some time after this point (undergoing plastic deformation) before it finally reaches its tensile strength and breaks entirely. Materials with a high tensile strength, such as steel and certain high-performance fibres (like Kevlar), can withstand very large stretching forces relative to their cross-sectional area before breaking, making them suitable for applications such as structural cables, ropes, and load-bearing components; materials with a low tensile strength break more easily under tension, even if they may still be reasonably stiff or elastic for smaller stresses.",
+    "key_concepts": [
+      "Maximum tensile stress before fracture",
+      "Distinct from elastic limit (comes after, at the point of breaking)",
+      "High tensile strength materials suited to load-bearing/structural uses"
+    ],
+    "definitions": [
+      {
+        "term": "Tensile strength",
+        "definition": "The maximum tensile (stretching) stress a material can withstand before it breaks."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "tensile strength",
+        "si_unit": "pascal",
+        "symbol": "Pa"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A cable has a tensile strength of 4.0 x 10^8 Pa and a cross-sectional area of 5.0 x 10^-5 m^2. Calculate the maximum tensile force the cable can withstand before breaking.",
+        "steps": [
+          "Use stress = F/A, rearranged: F = stress x A.",
+          "Substitute the tensile strength as the maximum stress: F = (4.0x10^8)(5.0x10^-5)."
+        ],
+        "answer": "20,000 N"
+      }
+    ],
+    "practical_applications": [
+      "Selecting cables and ropes for cranes, lifts, and load-bearing engineering structures",
+      "Designing safety margins in structural engineering, ensuring working stresses remain well below tensile strength",
+      "Material selection in aerospace and construction, balancing tensile strength against weight and cost"
+    ],
+    "common_mistakes": [
+      "Confusing tensile strength (maximum stress before breaking) with the elastic limit (maximum stress for full recovery)",
+      "Assuming a material's tensile strength and its stiffness (Young's modulus) are directly related, when they can vary independently"
+    ],
+    "misconceptions": [
+      "That reaching a material's elastic limit means it is about to break — the elastic limit only marks where permanent (plastic) deformation begins; many materials, particularly ductile ones like many metals, can withstand substantially more stress and continue deforming plastically well beyond this point before finally reaching their tensile strength and fracturing."
+    ],
+    "tips": [
+      "Remember the order of events on a typical stress-strain graph for a ductile material: elastic limit is reached first (permanent deformation begins), and tensile strength (breaking point) is reached later, at a higher stress."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State what tensile strength describes."
+      ],
+      "intermediate": [
+        "A rod has a tensile strength of 6.0 x 10^7 Pa and a cross-sectional area of 2.0 x 10^-4 m^2. Calculate the maximum force it can withstand before breaking."
+      ],
+      "advanced": [
+        "Explain why a material engineer might choose a material with a lower Young's modulus but a higher tensile strength for a particular application, rather than the reverse."
+      ]
+    },
+    "exam_questions": [
+      "Explain the difference between a material's elastic limit and its tensile strength."
+    ],
+    "answers": {
+      "basic": [
+        "The maximum tensile stress a material can withstand before breaking."
+      ],
+      "intermediate": [
+        "F = stress x A = (6.0x10^7)(2.0x10^-4) = 12,000 N."
+      ],
+      "advanced": [
+        "A material with a lower Young's modulus deforms more easily (is less stiff), which can be desirable where some flexibility or shock absorption is needed, while a high tensile strength ensures the material can still withstand large forces without breaking; depending on the application (e.g. a component that needs to flex under load without failing), this combination might be preferred over a very stiff but more brittle material with a lower tensile strength."
+      ],
+      "exam": [
+        "The elastic limit is the stress beyond which a material no longer returns fully to its original shape when the force is removed (permanent, plastic deformation begins); tensile strength is the maximum stress a material can withstand before it fractures completely — tensile strength is reached at a higher stress than the elastic limit, since the material typically continues to withstand increasing stress (deforming plastically) for a period after its elastic limit is exceeded, before finally breaking."
+      ]
+    },
+    "summary": "Tensile strength is the maximum tensile stress a material can withstand before breaking, distinct from and typically greater than its elastic limit. Materials with high tensile strength are used for load-bearing structural applications.",
+    "revision_notes": [
+      "Tensile strength: max stress before fracture",
+      "Comes after (higher stress than) elastic limit",
+      "High tensile strength = suited to load-bearing uses"
+    ],
+    "related_topics": [
+      "Stress",
+      "Elastic Limit",
+      "Compressive Strength",
+      "Material Testing"
+    ],
+    "prerequisites": [
+      "Stress",
+      "Elastic Limit"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-146",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Compressive Strength",
+    "difficulty": "Intermediate",
+    "description": "The maximum compressive stress a material can withstand before it fails, such as by crushing, buckling, or shattering.",
+    "learning_objectives": [
+      "Define compressive strength",
+      "Distinguish compressive strength from tensile strength",
+      "Explain why some materials have very different tensile and compressive strengths"
+    ],
+    "explanation": "Compressive strength is the maximum compressive (squeezing) stress a material can withstand before it fails under compression, whether by crushing, buckling, or shattering, depending on the material and its shape. Unlike tensile strength, which describes resistance to being pulled apart, compressive strength describes resistance to being pushed together. Many materials, especially brittle ones such as concrete, stone, and ceramics, have a much greater compressive strength than tensile strength, since they resist being squeezed together far better than being pulled apart (where internal microscopic cracks or flaws can more easily propagate and cause failure); this is why concrete structures are typically designed to be under compression wherever possible, and are often reinforced with steel (which has good tensile strength) specifically to handle any tensile stresses that would otherwise cause the concrete to crack. Other materials, particularly many ductile metals, tend to have more similar tensile and compressive strengths, since their failure mechanisms under both types of loading are more comparable.",
+    "key_concepts": [
+      "Maximum compressive stress before failure (crushing/buckling/shattering)",
+      "Distinct from tensile strength; can differ significantly for the same material",
+      "Brittle materials (e.g. concrete, stone): compressive strength >> tensile strength"
+    ],
+    "definitions": [
+      {
+        "term": "Compressive strength",
+        "definition": "The maximum compressive stress a material can withstand before it fails, such as by crushing, buckling, or shattering."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "compressive strength",
+        "si_unit": "pascal",
+        "symbol": "Pa"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain why reinforced concrete (concrete combined with steel bars) is commonly used in construction, rather than concrete alone.",
+        "steps": [
+          "Concrete has a high compressive strength, meaning it withstands being squeezed together very well.",
+          "However, concrete has a relatively low tensile strength, meaning it is prone to cracking when subjected to stretching (tensile) forces, which commonly occur in parts of a structure (such as the underside of a beam) even when the overall load is compressive.",
+          "Steel, by contrast, has a high tensile strength, so embedding steel bars within the concrete allows the combined material (reinforced concrete) to resist both compressive forces (handled well by the concrete) and tensile forces (handled well by the steel), overcoming concrete's individual weakness."
+        ],
+        "answer": "Reinforced concrete combines concrete's high compressive strength with steel's high tensile strength, compensating for concrete's weakness in tension."
+      }
+    ],
+    "practical_applications": [
+      "Structural engineering, selecting and combining materials based on their compressive and tensile strength profiles",
+      "Foundation and load-bearing wall design, relying primarily on compressive strength",
+      "Testing and quality control of building materials such as concrete, brick, and stone"
+    ],
+    "common_mistakes": [
+      "Assuming a material's tensile and compressive strengths are always equal",
+      "Confusing compressive strength (resistance to being squeezed) with tensile strength (resistance to being pulled apart)"
+    ],
+    "misconceptions": [
+      "That a material strong in one type of loading (tension or compression) must be equally strong in the other — many materials, particularly brittle ones, show a large difference between their tensile and compressive strength, since the physical mechanisms of failure (such as crack propagation under tension versus crushing/buckling under compression) can be very different."
+    ],
+    "tips": [
+      "When assessing whether a material is suitable for a structural application, always check both its tensile AND compressive strength separately, since a material well suited to one type of loading may be poorly suited to the other."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State what compressive strength describes."
+      ],
+      "intermediate": [
+        "Explain why concrete is often reinforced with steel bars in construction."
+      ],
+      "advanced": [
+        "Explain why a tall, narrow concrete column might fail by buckling under a compressive load, even if the applied stress is below the material's theoretical crushing (compressive) strength."
+      ]
+    },
+    "exam_questions": [
+      "Explain why concrete has a much higher compressive strength than tensile strength, and describe how this property influences its use in construction."
+    ],
+    "answers": {
+      "basic": [
+        "The maximum compressive stress a material can withstand before it fails."
+      ],
+      "intermediate": [
+        "Steel bars are added because concrete alone has a low tensile strength and is prone to cracking under tensile (stretching) forces, which occur in various parts of most structures even under an overall compressive load; the steel provides the tensile strength that concrete lacks, while the concrete provides excellent compressive strength, together forming a stronger overall composite material."
+      ],
+      "advanced": [
+        "A tall, narrow column can fail by buckling — a sideways bending or collapse under compressive load — before the material itself actually crushes, since buckling depends on the column's geometry (its slenderness) as well as the material's compressive strength; a tall, thin shape is more prone to this kind of instability failure at a lower load than the material's raw compressive strength alone would suggest."
+      ],
+      "exam": [
+        "Concrete's compressive strength is much higher than its tensile strength because concrete resists being squeezed together far better than being pulled apart, largely due to how internal microscopic flaws and cracks within the material behave differently under the two types of loading; because of this significant difference, concrete structures are designed wherever possible to keep the concrete under compression, with tensile forces instead handled by embedded steel reinforcement (reinforced concrete)."
+      ]
+    },
+    "summary": "Compressive strength is the maximum compressive stress a material can withstand before failing. Brittle materials such as concrete typically have much greater compressive strength than tensile strength, influencing how they are used and reinforced in construction.",
+    "revision_notes": [
+      "Compressive strength: max stress before crushing/buckling/shattering",
+      "Distinct from tensile strength; often very different for brittle materials",
+      "Reinforced concrete: combines concrete's compressive strength with steel's tensile strength"
+    ],
+    "related_topics": [
+      "Tensile Strength",
+      "Stress",
+      "Material Testing"
+    ],
+    "prerequisites": [
+      "Stress",
+      "Tensile Strength"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-147",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Shear Stress",
+    "difficulty": "Advanced",
+    "description": "The stress produced when a force is applied parallel to a material's surface, causing layers of the material to slide relative to one another.",
+    "learning_objectives": [
+      "Define shear stress and state its equation",
+      "Distinguish shear stress from tensile and compressive stress",
+      "Identify everyday examples of shear stress"
+    ],
+    "explanation": "Shear stress is the stress that arises when a force is applied parallel (tangential) to a material's surface or cross-section, rather than perpendicular to it, causing (or tending to cause) layers within the material to slide relative to one another. This is distinct from tensile stress (a pulling force perpendicular to a cross-section, stretching a material) and compressive stress (a pushing force perpendicular to a cross-section, squeezing a material), both of which act along the same direction as the material's length; shear stress instead acts sideways, across the material's cross-section. Shear stress is calculated using the same general formula as other types of stress, shear stress = F/A, but here F is specifically the force component acting parallel to the surface, and A is the area of that surface being sheared. Everyday examples of shear stress include the force exerted by scissors cutting paper (each blade exerts a force parallel to the cutting plane, causing the paper's layers to be sheared apart), a bolt experiencing shear forces where two connected plates try to slide past each other, and the internal shearing occurring within a beam that is bending under a load.",
+    "key_concepts": [
+      "Force parallel (tangential) to a surface, not perpendicular",
+      "shear stress = F/A (using the parallel force component and the sheared area)",
+      "Distinct from tensile stress and compressive stress"
+    ],
+    "definitions": [
+      {
+        "term": "Shear stress",
+        "definition": "The stress produced when a force is applied parallel to a material's surface, causing layers of the material to slide relative to one another."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Shear stress",
+        "equation": "shear stress = F / A",
+        "variables": {
+          "shear stress": "shear stress, Pa",
+          "F": "force acting parallel to the surface, N",
+          "A": "area of the surface being sheared, m^2"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "shear stress",
+        "si_unit": "pascal",
+        "symbol": "Pa"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A bolt with a cross-sectional area of 3.0 x 10^-5 m^2 experiences a shear force of 1500 N, acting parallel to its cross-section, at a joint between two plates. Calculate the shear stress on the bolt.",
+        "steps": [
+          "Use shear stress = F/A.",
+          "Substitute: shear stress = 1500 / (3.0x10^-5)."
+        ],
+        "answer": "5.0 x 10^7 Pa (50 MPa)"
+      }
+    ],
+    "practical_applications": [
+      "Analysing bolted and riveted joints in engineering structures, which commonly experience shear forces",
+      "Understanding the internal forces within beams and structural components under bending loads",
+      "Manufacturing and cutting processes, such as scissors, shears, and punching operations"
+    ],
+    "common_mistakes": [
+      "Confusing shear stress with tensile or compressive stress, since all three share the same basic F/A formula but describe different force directions",
+      "Failing to correctly identify which force component acts parallel (rather than perpendicular) to the relevant surface"
+    ],
+    "misconceptions": [
+      "That shear stress, tensile stress, and compressive stress are fundamentally different physical quantities with different formulas — all three are calculated using the same basic definition, stress = force / area; what differs between them is the DIRECTION of the applied force relative to the surface or cross-section being considered (perpendicular and pulling for tensile, perpendicular and pushing for compressive, parallel/sideways for shear)."
+    ],
+    "tips": [
+      "To identify shear stress, look for a force acting parallel to (sliding along) a surface or cross-section, rather than directly toward or away from it (which would be compressive or tensile stress instead)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for shear stress."
+      ],
+      "intermediate": [
+        "A rivet with a cross-sectional area of 4.0 x 10^-5 m^2 experiences a shear stress of 8.0 x 10^7 Pa. Calculate the shear force acting on it."
+      ],
+      "advanced": [
+        "Explain, using the concept of shear stress, how a pair of scissors cuts through a sheet of paper."
+      ]
+    },
+    "exam_questions": [
+      "Explain the difference between tensile stress, compressive stress, and shear stress, in terms of the direction of the applied force relative to the material's surface."
+    ],
+    "answers": {
+      "basic": [
+        "shear stress = F/A."
+      ],
+      "intermediate": [
+        "F = shear stress x A = (8.0x10^7)(4.0x10^-5) = 3200 N."
+      ],
+      "advanced": [
+        "The two blades of the scissors apply forces in opposite directions, parallel to (along) the plane of the paper at the point of contact, rather than perpendicular to it; this parallel, offset force pair creates a shear stress within the paper at that point, and once this shear stress exceeds the paper's shear strength, the layers of paper fibres are forced to slide past and separate from one another, cutting the paper."
+      ],
+      "exam": [
+        "Tensile stress arises from a force acting perpendicular to a material's cross-section, pulling it apart (stretching); compressive stress arises from a force acting perpendicular to a cross-section, pushing it together (squeezing); shear stress arises from a force acting parallel (tangential) to a surface or cross-section, causing layers of the material to slide sideways relative to one another, rather than being stretched or compressed along their length."
+      ]
+    },
+    "summary": "Shear stress arises from a force acting parallel to a material's surface, causing layers to slide relative to one another, calculated as shear stress = F/A. It is distinct from tensile and compressive stress, which involve forces perpendicular to a cross-section.",
+    "revision_notes": [
+      "Shear stress: force parallel to a surface (sliding)",
+      "shear stress = F/A (same formula, different force direction)",
+      "Distinct from tensile (pulling) and compressive (pushing) stress"
+    ],
+    "related_topics": [
+      "Stress",
+      "Tensile Strength",
+      "Compressive Strength"
+    ],
+    "prerequisites": [
+      "Stress"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-148",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Bulk Modulus",
+    "difficulty": "Advanced",
+    "description": "A measure of a material's resistance to uniform compression from all directions, relating the change in pressure applied to the resulting fractional change in volume.",
+    "learning_objectives": [
+      "Define bulk modulus and state its equation",
+      "Calculate bulk modulus from a change in pressure and the resulting fractional volume change",
+      "Compare the bulk modulus of solids, liquids, and gases"
+    ],
+    "explanation": "Bulk modulus, given the symbol K, is a measure of a material's resistance to uniform compression from all directions (such as being submerged deep in a fluid, where pressure acts equally on every surface), calculated as the ratio of the change in pressure applied to the resulting fractional change in volume: K = -(change in pressure) / (fractional change in volume), often written as K = -(delta P) / (delta V / V), where the negative sign accounts for the fact that volume decreases as pressure increases (giving a positive value for K). Bulk modulus is measured in pascals, the same unit as pressure and stress. Solids and liquids generally have very high bulk modulus values, meaning they strongly resist changes in volume even under large pressure changes (they are difficult to compress), which is consistent with their particles already being closely packed together; gases have a much lower bulk modulus, meaning their volume changes much more readily in response to a change in applied pressure, consistent with their particles being spread far apart with much empty space available to be compressed into.",
+    "key_concepts": [
+      "K = -(change in pressure) / (fractional change in volume)",
+      "Unit: pascal (Pa)",
+      "Solids and liquids: high K (resist compression); gases: low K (compress easily)"
+    ],
+    "definitions": [
+      {
+        "term": "Bulk modulus",
+        "definition": "A measure of a material's resistance to uniform compression from all directions, calculated as K = -(change in pressure) / (fractional change in volume)."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Bulk modulus",
+        "equation": "K = -(delta P) / (delta V / V)",
+        "variables": {
+          "K": "bulk modulus, Pa",
+          "delta P": "change in pressure, Pa",
+          "delta V": "change in volume, m^3",
+          "V": "original volume, m^3"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "bulk modulus",
+        "si_unit": "pascal",
+        "symbol": "Pa"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A sample of liquid with an original volume of 0.50 m^3 experiences an increase in pressure of 2.0 x 10^6 Pa, causing its volume to decrease by 0.0002 m^3. Calculate the bulk modulus of the liquid.",
+        "steps": [
+          "Calculate the fractional change in volume: delta V / V = 0.0002 / 0.50 = 0.0004.",
+          "Use K = -(delta P) / (delta V / V), noting the volume decreased (so the fractional change is conventionally taken as negative, giving a positive K).",
+          "Substitute: K = (2.0x10^6) / 0.0004."
+        ],
+        "answer": "5.0 x 10^9 Pa (5.0 GPa)"
+      }
+    ],
+    "practical_applications": [
+      "Understanding deep-sea pressure effects on submerged structures and vessels",
+      "Selecting appropriate hydraulic fluids, which must have a high bulk modulus to transmit force efficiently without significant compression",
+      "Geophysics, where bulk modulus is used to model how rock and Earth materials respond to pressure changes"
+    ],
+    "common_mistakes": [
+      "Forgetting to express the volume change as a fraction of the original volume, rather than using the raw volume change alone",
+      "Confusing bulk modulus (response to uniform, all-direction pressure) with Young's modulus (response to a linear, one-directional stretching/compressing force)"
+    ],
+    "misconceptions": [
+      "That bulk modulus and Young's modulus describe the same kind of material response — Young's modulus describes a material's stiffness under a one-directional (linear) stress, such as stretching a wire, while bulk modulus specifically describes a material's resistance to a uniform pressure change acting equally from all directions, such as being submerged in a fluid; these are related but distinct measures of a material's elastic response."
+    ],
+    "tips": [
+      "Remember that a high bulk modulus corresponds to a material that strongly resists volume change under pressure (like most liquids and solids), while a low bulk modulus corresponds to a material that compresses easily (like a gas)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for bulk modulus."
+      ],
+      "intermediate": [
+        "Explain, in terms of particle spacing, why a gas has a much lower bulk modulus than a liquid."
+      ],
+      "advanced": [
+        "A gas has a bulk modulus of 1.0 x 10^5 Pa. Estimate the fractional change in volume if the pressure on the gas increases by 2.0 x 10^4 Pa."
+      ]
+    },
+    "exam_questions": [
+      "Define bulk modulus, and explain why liquids generally have a much higher bulk modulus than gases."
+    ],
+    "answers": {
+      "basic": [
+        "K = -(delta P) / (delta V / V)."
+      ],
+      "intermediate": [
+        "In a gas, particles are widely spaced with a large amount of empty space between them, so an applied pressure increase can significantly reduce the volume by pushing particles into this available space, giving a relatively large fractional volume change for a given pressure increase (low bulk modulus); in a liquid, particles are already packed closely together with very little empty space remaining, so the same pressure increase produces only a very small fractional volume change (high bulk modulus)."
+      ],
+      "advanced": [
+        "delta V/V = delta P / K = (2.0x10^4) / (1.0x10^5) = 0.2, i.e. a 20% fractional decrease in volume."
+      ],
+      "exam": [
+        "Bulk modulus is a measure of a material's resistance to uniform compression from all directions, calculated as K = -(change in pressure)/(fractional change in volume); liquids have a much higher bulk modulus than gases because their particles are already packed closely together with very little empty space remaining, so a given increase in pressure produces only a very small fractional change in volume, whereas a gas's widely spaced particles allow a much larger fractional volume change for the same pressure increase, since there is much more empty space available to be compressed."
+      ]
+    },
+    "summary": "Bulk modulus measures a material's resistance to uniform compression from all directions, K = -(change in pressure)/(fractional change in volume). Solids and liquids have a high bulk modulus (resist compression), while gases have a much lower bulk modulus (compress easily).",
+    "revision_notes": [
+      "K = -(delta P) / (delta V / V) (Pa)",
+      "High K = resists compression (solids, liquids); low K = compresses easily (gases)",
+      "Distinct from Young's modulus (linear stress vs uniform pressure)"
+    ],
+    "related_topics": [
+      "Pressure",
+      "Young's Modulus",
+      "Density"
+    ],
+    "prerequisites": [
+      "Pressure",
+      "Young's Modulus"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-149",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Deformation of Materials",
+    "difficulty": "Intermediate",
+    "description": "The overall study of how materials change shape or size in response to applied forces, encompassing both elastic and plastic behaviour.",
+    "learning_objectives": [
+      "Summarise the different types of deformation a material can undergo",
+      "Interpret a stress-strain graph to identify a material's elastic and plastic behaviour",
+      "Compare the deformation behaviour of ductile, brittle, and elastic materials"
+    ],
+    "explanation": "Deformation of materials refers to the overall study of how a material's shape or size changes in response to an applied force or stress, bringing together the concepts of elastic deformation, plastic deformation, stress, strain, and the various measures of strength (tensile, compressive, shear) covered elsewhere in this category. A material's full deformation behaviour, from an initial small applied stress up to the point of failure, is typically summarised on a stress-strain graph: a straight, linear portion represents elastic (fully reversible) deformation, obeying Hooke's law, with a gradient equal to the Young's modulus; beyond the elastic limit, the curve typically becomes non-linear, representing plastic (permanent) deformation, until the material eventually reaches its tensile (or compressive) strength and fails. Materials are often broadly classified by their overall deformation behaviour: ductile materials (such as many metals) can undergo substantial plastic deformation before breaking, often stretching and thinning noticeably; brittle materials (such as glass and ceramics) show very little plastic deformation, breaking suddenly and with minimal warning shortly after (or even at) their elastic limit; and elastic materials (such as rubber) can undergo very large, fully reversible elastic deformation before reaching their elastic limit.",
+    "key_concepts": [
+      "Combines elastic and plastic deformation, stress, and strain into a full material response",
+      "Stress-strain graph: linear (elastic) region, then non-linear (plastic) region, then failure",
+      "Ductile (large plastic deformation), brittle (little plastic deformation), and highly elastic materials"
+    ],
+    "definitions": [
+      {
+        "term": "Ductile material",
+        "definition": "A material that can undergo substantial plastic deformation, often stretching and thinning noticeably, before breaking."
+      },
+      {
+        "term": "Brittle material",
+        "definition": "A material that shows very little plastic deformation, breaking suddenly shortly after (or at) its elastic limit."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "stress",
+        "si_unit": "pascal",
+        "symbol": "Pa"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Compare, using a stress-strain graph description, the likely behaviour of a ductile metal wire and a brittle glass rod as they are stretched to breaking point.",
+        "steps": [
+          "The ductile metal wire would show a straight, linear (elastic) region initially, followed by a long, curved (plastic) region as it deforms substantially and permanently, stretching and thinning noticeably, before finally breaking at a comparatively large strain value.",
+          "The brittle glass rod would show a much shorter straight, linear (elastic) region, with very little or no noticeable plastic (curved) region, breaking suddenly at a relatively small strain value, shortly after (or essentially at) its elastic limit."
+        ],
+        "answer": "The metal wire's stress-strain graph would show a long plastic region before eventual failure at a large strain, while the glass rod's graph would show almost no plastic region, breaking suddenly at a small strain, close to its elastic limit."
+      }
+    ],
+    "practical_applications": [
+      "Selecting materials appropriate for their expected deformation behaviour in engineering design (e.g. ductile materials for crash safety, brittle materials avoided in impact-prone applications)",
+      "Interpreting stress-strain test data to classify and characterise new materials",
+      "Predicting failure modes of structures and components under load"
+    ],
+    "common_mistakes": [
+      "Assuming all materials behave the same way (either purely elastically or purely plastically) under stress",
+      "Confusing 'brittle' (breaks suddenly, little plastic deformation) with 'weak' (a material can be brittle yet still have a high tensile strength, such as some ceramics)"
+    ],
+    "misconceptions": [
+      "That a brittle material is automatically weaker than a ductile one — brittleness describes the LACK of plastic deformation before breaking (a sudden failure with little warning), not necessarily a lower tensile or compressive strength; some brittle materials, such as certain ceramics, can have very high strength, they simply fail suddenly rather than deforming and giving warning signs beforehand."
+    ],
+    "tips": [
+      "When describing a material's deformation behaviour, address both how much it deforms elastically (before the elastic limit) and how much it deforms plastically (between the elastic limit and eventual failure), since these can vary independently between materials."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the key difference in behaviour between a ductile material and a brittle material as they approach breaking point."
+      ],
+      "intermediate": [
+        "Sketch, in words, the general shape of a stress-strain graph for a typical ductile metal, from zero stress up to the point of fracture."
+      ],
+      "advanced": [
+        "Explain why brittle materials are often avoided in applications involving sudden impacts, even if they have a high tensile strength."
+      ]
+    },
+    "exam_questions": [
+      "Explain the difference between a ductile and a brittle material, referring to their typical behaviour on a stress-strain graph."
+    ],
+    "answers": {
+      "basic": [
+        "A ductile material undergoes substantial plastic (permanent) deformation before breaking, while a brittle material breaks suddenly with very little plastic deformation."
+      ],
+      "intermediate": [
+        "A straight, linear section from the origin up to the elastic limit (elastic deformation, Hooke's law), followed by a curved section as the material continues to stretch and deform plastically under increasing (though more slowly increasing) stress, ending at a peak point representing the tensile strength, where the material finally fractures."
+      ],
+      "advanced": [
+        "Brittle materials fail suddenly, with little or no warning plastic deformation to signal an impending failure, and can shatter or crack catastrophically, especially under a sudden, high-force impact, since they cannot absorb and dissipate the impact energy through gradual plastic deformation the way a ductile material can; this makes them risky in applications where sudden impacts are likely, even if their overall (gradual) strength rating is high."
+      ],
+      "exam": [
+        "A ductile material shows a stress-strain graph with a substantial curved (plastic) region after its initial linear (elastic) region, indicating significant permanent deformation before it finally breaks, often at a relatively high strain value; a brittle material shows almost no curved (plastic) region, with the graph proceeding almost directly from the linear (elastic) region to a sudden fracture point at a comparatively low strain value, indicating very little warning or permanent deformation before breaking."
+      ]
+    },
+    "summary": "Deformation of materials encompasses elastic and plastic behaviour under stress, summarised on a stress-strain graph. Ductile materials show substantial plastic deformation before failure; brittle materials fail suddenly with little plastic deformation, regardless of their overall strength.",
+    "revision_notes": [
+      "Stress-strain graph: linear (elastic) -> curved (plastic) -> fracture",
+      "Ductile: large plastic deformation before breaking",
+      "Brittle: little/no plastic deformation, sudden failure"
+    ],
+    "related_topics": [
+      "Elastic Deformation",
+      "Plastic Deformation",
+      "Stress",
+      "Strain",
+      "Tensile Strength"
+    ],
+    "prerequisites": [
+      "Elastic Deformation",
+      "Plastic Deformation",
+      "Stress",
+      "Strain"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-150",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Springs in Series",
+    "difficulty": "Intermediate",
+    "description": "The combined behaviour of two or more springs connected end to end, resulting in a smaller overall (effective) spring constant.",
+    "learning_objectives": [
+      "Describe how springs connected in series share the same applied force",
+      "Derive and apply the equation for the combined spring constant of springs in series",
+      "Explain why the combined spring constant of springs in series is smaller than any individual spring"
+    ],
+    "explanation": "When two or more springs are connected in series (end to end, one after another, such that the same applied force passes through each spring in turn), each individual spring experiences the same force, but each stretches by its own individual extension according to its own spring constant, with the total extension of the combination equal to the sum of the individual extensions. Since each spring obeys Hooke's law (extension = F/k), the total extension is F/k1 + F/k2 (for two springs), and the combined (effective) spring constant, k(combined), for the whole series arrangement satisfies 1/k(combined) = 1/k1 + 1/k2 (extending to more springs by adding further 1/k terms). This means the combined spring constant for springs in series is always smaller than the smallest individual spring constant in the combination, making the series arrangement 'softer' (easier to stretch, for the same applied force) than any single spring within it, since the springs' individual extensions add together for the same shared force.",
+    "key_concepts": [
+      "Springs in series: same force through each spring; extensions add",
+      "1/k(combined) = 1/k1 + 1/k2 + ...",
+      "Combined k is smaller than any individual spring's k (softer overall)"
+    ],
+    "definitions": [
+      {
+        "term": "Springs in series",
+        "definition": "Two or more springs connected end to end, such that the same force acts through each spring and their individual extensions add together."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Combined spring constant (series)",
+        "equation": "1/k(combined) = 1/k1 + 1/k2",
+        "variables": {
+          "k(combined)": "combined (effective) spring constant, N/m",
+          "k1, k2": "individual spring constants, N/m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "spring constant",
+        "si_unit": "newton per metre",
+        "symbol": "N/m"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Two springs, with spring constants 100 N/m and 150 N/m, are connected in series. Calculate the combined spring constant.",
+        "steps": [
+          "Use 1/k(combined) = 1/k1 + 1/k2.",
+          "Substitute: 1/k(combined) = 1/100 + 1/150 = 0.01 + 0.00667 = 0.01667.",
+          "Take the reciprocal: k(combined) = 1/0.01667."
+        ],
+        "answer": "60 N/m (softer than either individual spring)"
+      }
+    ],
+    "practical_applications": [
+      "Designing suspension systems and mechanical linkages using multiple springs in series",
+      "Understanding the combined flexibility of chained or linked elastic components",
+      "Analysing complex spring networks in engineering and physics problems"
+    ],
+    "common_mistakes": [
+      "Adding spring constants directly (as for parallel springs) instead of using the reciprocal formula for series springs",
+      "Forgetting to take the reciprocal at the final step, giving an answer for 1/k(combined) instead of k(combined) itself"
+    ],
+    "misconceptions": [
+      "That connecting springs in series makes the combination stiffer, in the same way that connecting resistors in parallel reduces total resistance — the two situations are mathematically similar in form but combine oppositely from what intuition might suggest: springs in SERIES behave like resistors in PARALLEL (combined value is smaller, using the reciprocal-sum formula), while springs in PARALLEL behave like resistors in SERIES (combined value is simply the sum), so care is needed not to mix up which physical arrangement corresponds to which type of combination formula."
+    ],
+    "tips": [
+      "Remember: springs in series produce a SMALLER combined spring constant (softer overall) than any individual spring, since their extensions add for the same shared force."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State whether the combined spring constant of springs in series is larger or smaller than any individual spring constant."
+      ],
+      "intermediate": [
+        "Two identical springs, each with spring constant 80 N/m, are connected in series. Calculate the combined spring constant."
+      ],
+      "advanced": [
+        "Three springs, with spring constants 60 N/m, 90 N/m, and 180 N/m, are connected in series. Calculate the combined spring constant."
+      ]
+    },
+    "exam_questions": [
+      "Explain, in terms of force and extension, why the combined spring constant of two springs connected in series is smaller than either individual spring constant."
+    ],
+    "answers": {
+      "basic": [
+        "Smaller."
+      ],
+      "intermediate": [
+        "1/k(combined) = 1/80 + 1/80 = 2/80 = 1/40, so k(combined) = 40 N/m."
+      ],
+      "advanced": [
+        "1/k(combined) = 1/60 + 1/90 + 1/180 = 3/180 + 2/180 + 1/180 = 6/180 = 1/30, so k(combined) = 30 N/m."
+      ],
+      "exam": [
+        "In a series arrangement, both springs experience the same applied force, but each stretches by its own extension according to its own spring constant, and these individual extensions add together to give the total extension of the combination; since the combination stretches further than either individual spring would alone under the same force, it behaves as a 'softer' spring overall, meaning its combined spring constant (force needed per unit extension) is smaller than that of either individual spring."
+      ]
+    },
+    "summary": "Springs connected in series experience the same force but have extensions that add together, giving a combined spring constant found from 1/k(combined) = 1/k1 + 1/k2, which is always smaller than any individual spring constant.",
+    "revision_notes": [
+      "Series: same force, extensions add",
+      "1/k(combined) = 1/k1 + 1/k2 + ...",
+      "Combined k < smallest individual k (softer overall)"
+    ],
+    "related_topics": [
+      "Hooke's Law",
+      "Spring Constant",
+      "Springs in Parallel"
+    ],
+    "prerequisites": [
+      "Spring Constant"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: Two springs connected end to end (series) alongside two springs connected side by side (parallel), each with a shared applied force arrow]"
+    ],
+    "images": [
+      {
+        "filename": "physics-springs-series-parallel-150-01.webp",
+        "type": "diagram",
+        "description": "Two panels: the left shows two springs of different colours connected end to end (in series) with a single force arrow applied at the far end; the right shows two springs connected side by side between the same two fixed points (in parallel) with a single force arrow applied to the shared connection point.",
+        "purpose": "Gives students a clear visual distinction between the series and parallel spring arrangements, which are easy to confuse conceptually despite having opposite combination rules.",
+        "placement": "Directly after the explanation paragraph, before the worked example. (This image is shared with the Springs in Parallel topic.)"
+      }
+    ]
+  },
+  {
+    "id": "phy-151",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Springs in Parallel",
+    "difficulty": "Intermediate",
+    "description": "The combined behaviour of two or more springs connected side by side, resulting in a larger overall (effective) spring constant.",
+    "learning_objectives": [
+      "Describe how springs connected in parallel share the applied load and extension",
+      "Derive and apply the equation for the combined spring constant of springs in parallel",
+      "Explain why the combined spring constant of springs in parallel is larger than any individual spring"
+    ],
+    "explanation": "When two or more springs are connected in parallel (side by side, both attached between the same two points, such that they share the same overall extension), each individual spring stretches by the same amount, but each contributes its own share of the total force needed to produce that shared extension, with the total force equal to the sum of the individual forces provided by each spring. Since each spring obeys Hooke's law (F = kx), the total force is k1(x) + k2(x) (for two springs sharing extension x), and the combined (effective) spring constant, k(combined), for the whole parallel arrangement is simply the sum of the individual spring constants: k(combined) = k1 + k2 (extending to more springs by adding further k terms). This means the combined spring constant for springs in parallel is always larger than the largest individual spring constant in the combination, making the parallel arrangement 'stiffer' (harder to stretch, for the same applied force) than any single spring within it, since the springs share the load between them.",
+    "key_concepts": [
+      "Springs in parallel: same extension for each spring; forces add",
+      "k(combined) = k1 + k2 + ...",
+      "Combined k is larger than any individual spring's k (stiffer overall)"
+    ],
+    "definitions": [
+      {
+        "term": "Springs in parallel",
+        "definition": "Two or more springs connected side by side between the same two points, such that they share the same extension and their individual forces add together."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Combined spring constant (parallel)",
+        "equation": "k(combined) = k1 + k2",
+        "variables": {
+          "k(combined)": "combined (effective) spring constant, N/m",
+          "k1, k2": "individual spring constants, N/m"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "spring constant",
+        "si_unit": "newton per metre",
+        "symbol": "N/m"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Two springs, with spring constants 100 N/m and 150 N/m, are connected in parallel. Calculate the combined spring constant.",
+        "steps": [
+          "Use k(combined) = k1 + k2.",
+          "Substitute: k(combined) = 100 + 150."
+        ],
+        "answer": "250 N/m (stiffer than either individual spring)"
+      }
+    ],
+    "practical_applications": [
+      "Vehicle suspension systems, using multiple springs in parallel to support a load",
+      "Mattress and furniture design, distributing load across multiple springs in parallel",
+      "Engineering structures using multiple parallel supports for increased overall stiffness"
+    ],
+    "common_mistakes": [
+      "Using the reciprocal-sum formula (correct for series springs) instead of the direct sum formula for parallel springs",
+      "Confusing which arrangement (series or parallel) corresponds to which combination rule"
+    ],
+    "misconceptions": [
+      "That connecting springs in parallel makes the combination softer or weaker, by analogy with some other physical systems — springs in parallel share the applied load between them, each contributing its own force for the same shared extension, which makes the combination stiffer overall, requiring a greater total force to produce the same extension as any single spring would alone."
+    ],
+    "tips": [
+      "Remember: springs in parallel produce a LARGER combined spring constant (stiffer overall) than any individual spring, since their forces add for the same shared extension."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State whether the combined spring constant of springs in parallel is larger or smaller than any individual spring constant."
+      ],
+      "intermediate": [
+        "Two identical springs, each with spring constant 80 N/m, are connected in parallel. Calculate the combined spring constant."
+      ],
+      "advanced": [
+        "Three springs, with spring constants 60 N/m, 90 N/m, and 180 N/m, are connected in parallel. Calculate the combined spring constant."
+      ]
+    },
+    "exam_questions": [
+      "Explain, in terms of force and extension, why the combined spring constant of two springs connected in parallel is larger than either individual spring constant."
+    ],
+    "answers": {
+      "basic": [
+        "Larger."
+      ],
+      "intermediate": [
+        "k(combined) = 80 + 80 = 160 N/m."
+      ],
+      "advanced": [
+        "k(combined) = 60 + 90 + 180 = 330 N/m."
+      ],
+      "exam": [
+        "In a parallel arrangement, both springs stretch by the same extension, but each contributes its own share of the total force needed to produce that extension, with these individual forces adding together to give the total force required for the combination; since a greater total force is needed to produce the same extension as any individual spring would alone, the combination behaves as a 'stiffer' spring overall, meaning its combined spring constant is larger than that of either individual spring."
+      ]
+    },
+    "summary": "Springs connected in parallel share the same extension but have forces that add together, giving a combined spring constant found from k(combined) = k1 + k2, which is always larger than any individual spring constant.",
+    "revision_notes": [
+      "Parallel: same extension, forces add",
+      "k(combined) = k1 + k2 + ...",
+      "Combined k > largest individual k (stiffer overall)"
+    ],
+    "related_topics": [
+      "Hooke's Law",
+      "Spring Constant",
+      "Springs in Series"
+    ],
+    "prerequisites": [
+      "Spring Constant"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: Two springs connected side by side (parallel) sharing the same applied force and extension]"
+    ],
+    "images": [
+      {
+        "filename": "physics-springs-series-parallel-150-01.webp",
+        "type": "diagram",
+        "description": "Two panels: the left shows two springs of different colours connected end to end (in series) with a single force arrow applied at the far end; the right shows two springs connected side by side between the same two fixed points (in parallel) with a single force arrow applied to the shared connection point.",
+        "purpose": "Gives students a clear visual distinction between the series and parallel spring arrangements, which are easy to confuse conceptually despite having opposite combination rules.",
+        "placement": "Directly after the explanation paragraph, before the worked example. (This image is shared with the Springs in Series topic.)"
+      }
+    ]
+  },
+  {
+    "id": "phy-152",
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "title": "Material Testing",
+    "difficulty": "Intermediate",
+    "description": "Experimental methods used to determine the mechanical properties of materials, such as their stiffness, strength, and elastic limit.",
+    "learning_objectives": [
+      "Describe the basic method of a tensile test to obtain a stress-strain graph",
+      "Explain how key material properties are determined from tensile test data",
+      "Discuss factors affecting the accuracy and reliability of material testing"
+    ],
+    "explanation": "Material testing involves a range of experimental methods used to determine the mechanical properties of a material, such as its stiffness (Young's modulus), strength (tensile or compressive strength), and elastic limit, allowing engineers and scientists to select appropriate materials for specific applications and verify that materials meet required specifications. One of the most common tests is the tensile test, in which a sample of the material (often shaped into a standard 'dog-bone' form to concentrate stress and failure at the centre, away from the clamped ends) is gradually stretched by a controlled, increasing force in a tensile testing machine, while the applied force and the resulting extension are continuously and precisely measured. This data is used to calculate stress and strain at each point, producing a stress-strain graph for the material, from which the Young's modulus (gradient of the linear region), elastic limit (end of the linear region), and tensile strength (maximum stress reached before fracture) can all be directly determined. Careful experimental technique, such as ensuring the sample is tested at a controlled, consistent rate and that its exact dimensions are precisely measured beforehand, is essential for producing accurate and repeatable material testing results.",
+    "key_concepts": [
+      "Tensile test: sample stretched under controlled force, extension measured",
+      "Produces a stress-strain graph",
+      "Young's modulus, elastic limit, and tensile strength all determined from this graph"
+    ],
+    "definitions": [
+      {
+        "term": "Tensile test",
+        "definition": "A material testing method in which a sample is gradually stretched under a controlled, increasing force, while force and extension are measured to produce a stress-strain graph."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "stress",
+        "si_unit": "pascal",
+        "symbol": "Pa"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain how the elastic limit of a material could be identified from the data collected during a tensile test.",
+        "steps": [
+          "Throughout the tensile test, the applied force and resulting extension are recorded and converted into stress and strain values.",
+          "This stress-strain data is plotted as a graph.",
+          "The elastic limit is identified as the point on this graph where the initially straight, linear relationship between stress and strain begins to curve, indicating that the material has stopped behaving in a fully reversible (elastic) manner."
+        ],
+        "answer": "The elastic limit is identified from the tensile test data as the point where the stress-strain graph first deviates from a straight line."
+      }
+    ],
+    "practical_applications": [
+      "Quality control and certification of structural and engineering materials",
+      "Research and development of new materials with specific desired mechanical properties",
+      "Verifying that manufactured components meet safety and performance specifications"
+    ],
+    "common_mistakes": [
+      "Failing to account for the original dimensions of the test sample when converting force and extension into stress and strain",
+      "Testing at an inconsistent rate, which can affect measured material properties, particularly for materials sensitive to the speed of loading"
+    ],
+    "misconceptions": [
+      "That a single tensile test on one sample gives a fully reliable, universally applicable measurement of a material's properties — real materials often show some natural variation between different samples (due to manufacturing imperfections, microstructure variation, etc.), so multiple repeated tests on different samples are typically needed to obtain a reliable average value and assess the consistency (or spread) of a material's properties."
+    ],
+    "tips": [
+      "Always measure and record the exact original dimensions (cross-sectional area and length) of a test sample precisely before testing, since these are essential for accurately converting the raw force and extension data into stress and strain."
+    ],
+    "practice_questions": {
+      "basic": [
+        "Name the standard test used to obtain a material's stress-strain graph."
+      ],
+      "intermediate": [
+        "Describe how a material's tensile strength can be determined from tensile test data."
+      ],
+      "advanced": [
+        "Explain why multiple samples of the same material are often tested, rather than relying on the result from a single tensile test."
+      ]
+    },
+    "exam_questions": [
+      "Describe the tensile test method, and explain how the resulting data is used to determine a material's Young's modulus."
+    ],
+    "answers": {
+      "basic": [
+        "The tensile test."
+      ],
+      "intermediate": [
+        "The tensile strength is identified as the maximum stress value reached on the stress-strain graph before the material fractures (breaks)."
+      ],
+      "advanced": [
+        "Testing multiple samples accounts for natural variation between individual samples of the same material (arising from manufacturing imperfections or microstructural differences), allowing an average, more reliable value for the material's properties to be calculated, and also allowing the consistency (spread or scatter) of the material's behaviour to be assessed, rather than relying on a single, potentially unrepresentative result."
+      ],
+      "exam": [
+        "In a tensile test, a sample of the material is gradually stretched by a controlled, increasing force while the force and resulting extension are continuously measured; these measurements, combined with the sample's known original dimensions, are used to calculate stress and strain at each point, producing a stress-strain graph, and the Young's modulus is then determined by calculating the gradient of the initial, straight-line (linear, elastic) section of this graph."
+      ]
+    },
+    "summary": "Material testing, particularly the tensile test, determines a material's mechanical properties by gradually stretching a sample under a controlled force and measuring the resulting extension, producing a stress-strain graph from which Young's modulus, elastic limit, and tensile strength can all be determined.",
+    "revision_notes": [
+      "Tensile test: controlled stretching, force and extension measured",
+      "Produces stress-strain graph",
+      "Determines: Young's modulus (gradient), elastic limit, tensile strength (peak)"
+    ],
+    "related_topics": [
+      "Stress",
+      "Strain",
+      "Young's Modulus",
+      "Tensile Strength"
+    ],
+    "prerequisites": [
+      "Stress",
+      "Strain",
+      "Young's Modulus"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-153",
+    "subject": "Physics",
+    "category": "Thermal Physics",
+    "title": "Temperature",
+    "difficulty": "Foundational",
+    "description": "A measure of how hot or cold an object is, related to the average kinetic energy of the particles that make it up.",
+    "learning_objectives": [
+      "Define temperature in terms of particle kinetic energy",
+      "Explain the difference between temperature and thermal (internal) energy",
+      "State common units used to measure temperature"
+    ],
+    "explanation": "Temperature is a measure of how hot or cold an object is, and at the particle level, it is directly related to the average kinetic energy of the particles making up that object: a higher temperature corresponds to particles with a greater average kinetic energy (moving, vibrating, or rotating more vigorously on average), while a lower temperature corresponds to a smaller average kinetic energy. Temperature is commonly measured using the Celsius scale (degrees Celsius, °C) in everyday contexts, or the Kelvin scale (kelvin, K), the SI unit of temperature, used throughout most of physics, particularly wherever a true, absolute measure of thermal energy is required, as covered further in Temperature Scales. It is important to distinguish temperature from thermal (internal) energy: temperature reflects the AVERAGE kinetic energy per particle, while thermal energy reflects the TOTAL internal energy of all the particles in an object combined, meaning a large, cool object can have more total thermal energy than a small, hot object, even though its temperature (average per-particle energy) is lower.",
+    "key_concepts": [
+      "Temperature relates to AVERAGE kinetic energy per particle",
+      "Distinct from thermal (internal) energy, which is the TOTAL energy of all particles",
+      "Measured in °C (everyday) or K (SI, physics)"
+    ],
+    "definitions": [
+      {
+        "term": "Temperature",
+        "definition": "A measure of how hot or cold an object is, related to the average kinetic energy of the particles making up that object."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "temperature",
+        "si_unit": "kelvin",
+        "symbol": "K"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A small cup of boiling water and a large swimming pool of lukewarm water are compared. Explain why the swimming pool, despite having a much lower temperature, can contain more total thermal energy than the cup of boiling water.",
+        "steps": [
+          "Temperature reflects the AVERAGE kinetic energy per particle; the boiling water has a higher average kinetic energy per particle (higher temperature) than the lukewarm pool water.",
+          "Thermal (internal) energy reflects the TOTAL kinetic energy of ALL the particles combined, which depends on both the average energy per particle AND the total number of particles present.",
+          "The swimming pool contains a vastly greater number of water particles than the small cup, and even though each individual pool water particle has less average kinetic energy than each boiling water particle, the enormous total number of particles in the pool means their combined (total) kinetic energy — the total thermal energy — can be much greater than that of the small cup of boiling water."
+        ],
+        "answer": "The pool has lower temperature (lower average kinetic energy per particle) but can have greater total thermal energy, because it contains a vastly greater total number of particles than the small cup."
+      }
+    ],
+    "practical_applications": [
+      "Weather forecasting and everyday temperature reporting",
+      "Medical thermometry, monitoring body temperature for health assessment",
+      "Industrial and scientific processes requiring precise temperature control"
+    ],
+    "common_mistakes": [
+      "Treating temperature and thermal (internal) energy as interchangeable, rather than distinct quantities",
+      "Assuming a larger object automatically has a higher temperature than a smaller one, rather than recognising this depends on particle kinetic energy, not object size"
+    ],
+    "misconceptions": [
+      "That a hotter object always contains more total thermal energy than a cooler one — as the swimming pool example shows, a much larger but cooler object can contain more total thermal energy (total particle kinetic energy) than a much smaller but hotter object, since total thermal energy depends on the number of particles as well as their average kinetic energy (temperature)."
+    ],
+    "tips": [
+      "Remember temperature = AVERAGE energy per particle; thermal energy = TOTAL energy of all particles — always consider both the 'per particle' and 'how many particles' aspects when comparing objects of very different sizes."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the particle-level quantity that temperature is related to."
+      ],
+      "intermediate": [
+        "Explain the difference between temperature and thermal (internal) energy."
+      ],
+      "advanced": [
+        "A small metal ball is heated to a very high temperature and dropped into a large tank of cool water. Explain, in terms of average and total kinetic energy, why the water's temperature only rises slightly, despite the ball's very high initial temperature."
+      ]
+    },
+    "exam_questions": [
+      "Explain, at the particle level, what a higher temperature indicates about the particles of a substance."
+    ],
+    "answers": {
+      "basic": [
+        "The average kinetic energy of the particles."
+      ],
+      "intermediate": [
+        "Temperature is a measure of the average kinetic energy per particle in a substance, while thermal (internal) energy is the total kinetic energy of all the particles in that substance combined — the two are related but distinct, since total thermal energy also depends on how many particles are present, not just their average energy."
+      ],
+      "advanced": [
+        "The ball, though very hot (high average kinetic energy per particle), contains relatively few particles compared with the large tank of water; when they reach thermal equilibrium, the total (fixed) amount of thermal energy transferred from the ball is shared out across the vastly greater number of water particles, resulting in only a small increase in the AVERAGE kinetic energy per water particle (and therefore only a small rise in the water's temperature), even though a significant amount of energy was transferred overall."
+      ],
+      "exam": [
+        "A higher temperature indicates that the particles of a substance have, on average, a greater kinetic energy — they are moving, vibrating, or rotating more vigorously on average than the particles of a substance at a lower temperature."
+      ]
+    },
+    "summary": "Temperature is a measure of the average kinetic energy of a substance's particles, distinct from thermal (internal) energy, which is the total kinetic energy of all particles combined. Temperature is measured in degrees Celsius or kelvin.",
+    "revision_notes": [
+      "Temperature = AVERAGE kinetic energy per particle",
+      "Thermal energy = TOTAL kinetic energy of all particles",
+      "Units: °C (everyday), K (SI)"
+    ],
+    "related_topics": [
+      "Temperature Scales",
+      "Internal Energy",
+      "Thermal Equilibrium"
+    ],
+    "prerequisites": [
+      "Particle Theory"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-154",
+    "subject": "Physics",
+    "category": "Thermal Physics",
+    "title": "Temperature Scales",
+    "difficulty": "Foundational",
+    "description": "Systems used to numerically measure and compare temperature, including the Celsius and Kelvin (absolute) scales.",
+    "learning_objectives": [
+      "Convert temperatures between the Celsius and Kelvin scales",
+      "Explain the significance of absolute zero on the Kelvin scale",
+      "Explain why the Kelvin scale is preferred for most physics calculations"
+    ],
+    "explanation": "Temperature scales provide standardised, numerical systems for measuring and comparing temperature. The Celsius scale, widely used in everyday life, defines 0 °C as the freezing point of water and 100 °C as its boiling point (at standard atmospheric pressure), with the scale divided into 100 equal degree intervals between these two reference points. The Kelvin scale, the SI unit of temperature and the scale most commonly used throughout physics, is defined so that 0 K (called absolute zero) represents the theoretical lowest possible temperature, at which particles have the minimum possible kinetic energy (in classical physics, this would correspond to particles having no kinetic energy at all, though quantum mechanical effects mean a small amount of motion remains even at this limit); each unit interval (kelvin) on this scale is defined to be exactly the same size as one degree Celsius, so converting between the two scales is a simple addition or subtraction: T(K) = T(°C) + 273.15 (often simplified to +273 for everyday calculations). The Kelvin scale is preferred for most physics calculations, particularly those involving gas laws and thermal physics equations, because it is an absolute scale (starting from a true physical zero point, with no negative values), avoiding the mathematical complications and physically meaningless results that can arise from using negative Celsius temperatures directly in certain equations.",
+    "key_concepts": [
+      "Celsius: 0 = freezing point of water, 100 = boiling point",
+      "Kelvin: 0 K = absolute zero (lowest possible temperature), same interval size as Celsius",
+      "T(K) = T(°C) + 273.15 (or +273)"
+    ],
+    "definitions": [
+      {
+        "term": "Absolute zero",
+        "definition": "The theoretical lowest possible temperature (0 K, equal to -273.15 °C), at which particles have the minimum possible kinetic energy."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Celsius to Kelvin conversion",
+        "equation": "T(K) = T(°C) + 273.15",
+        "variables": {
+          "T(K)": "temperature in kelvin",
+          "T(°C)": "temperature in degrees Celsius"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "temperature",
+        "si_unit": "kelvin",
+        "symbol": "K"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Convert a temperature of -15 °C into kelvin.",
+        "steps": [
+          "Use T(K) = T(°C) + 273.15.",
+          "Substitute: T(K) = -15 + 273.15."
+        ],
+        "answer": "258.15 K"
+      }
+    ],
+    "practical_applications": [
+      "Scientific research and gas law calculations, which require the Kelvin (absolute) scale",
+      "Everyday weather reporting and cooking, which use the Celsius (or Fahrenheit) scale",
+      "Cryogenics and low-temperature physics, working with temperatures approaching absolute zero"
+    ],
+    "common_mistakes": [
+      "Using Celsius temperatures directly in equations (such as the ideal gas equation) that specifically require kelvin",
+      "Forgetting to add (or subtract) the full 273.15 (or 273) when converting between scales"
+    ],
+    "misconceptions": [
+      "That negative temperatures are impossible or meaningless in physics — negative temperatures are entirely valid and common on the Celsius scale (representing temperatures below the freezing point of water); however, since the Kelvin scale is defined starting from an actual absolute physical minimum (absolute zero), negative values are not possible on the Kelvin scale under normal physical conditions, which is precisely why it is preferred for many physics equations."
+    ],
+    "tips": [
+      "Whenever a physics equation involves temperature in a way connected to particle kinetic energy or gas behaviour (such as the gas laws), always convert to kelvin first, even if the original data is given in Celsius."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the value, in °C, that corresponds to absolute zero."
+      ],
+      "intermediate": [
+        "Convert a temperature of 45 °C into kelvin."
+      ],
+      "advanced": [
+        "Convert a temperature of 310 K into degrees Celsius, and state what this temperature roughly corresponds to (hint: typical human body temperature)."
+      ]
+    },
+    "exam_questions": [
+      "Explain why the Kelvin scale is generally preferred over the Celsius scale for calculations in physics, particularly those involving gas laws."
+    ],
+    "answers": {
+      "basic": [
+        "-273.15 °C (often approximated as -273 °C)."
+      ],
+      "intermediate": [
+        "T(K) = 45 + 273.15 = 318.15 K."
+      ],
+      "advanced": [
+        "T(°C) = 310 - 273.15 = 36.85 °C, which is close to typical human body temperature (approximately 37 °C)."
+      ],
+      "exam": [
+        "The Kelvin scale is an absolute scale, starting from a true physical minimum temperature (absolute zero) with no negative values, unlike the Celsius scale, which allows negative values below the freezing point of water; many physics equations, particularly those relating temperature directly to particle kinetic energy (such as the gas laws), require an absolute measure of temperature to give physically sensible results, since a negative Celsius value substituted directly into such an equation would produce a nonsensical (e.g. negative) result for a quantity like pressure or volume that cannot physically be negative."
+      ]
+    },
+    "summary": "Temperature scales include Celsius (0 = water's freezing point, 100 = boiling point) and Kelvin (0 K = absolute zero, the true physical minimum temperature), related by T(K) = T(°C) + 273.15. Kelvin is preferred in physics since it is an absolute scale with no negative values.",
+    "revision_notes": [
+      "Celsius: 0 = freezing, 100 = boiling (water)",
+      "Kelvin: 0 K = absolute zero (true minimum)",
+      "T(K) = T(°C) + 273.15; use Kelvin for gas laws/physics equations"
+    ],
+    "related_topics": [
+      "Temperature",
+      "Absolute Temperature",
+      "Ideal Gas Equation"
+    ],
+    "prerequisites": [
+      "Temperature"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-155",
+    "subject": "Physics",
+    "category": "Thermal Physics",
+    "title": "Thermal Equilibrium",
+    "difficulty": "Foundational",
+    "description": "The state reached when two or more objects in contact reach the same temperature, with no further net transfer of thermal energy between them.",
+    "learning_objectives": [
+      "Define thermal equilibrium",
+      "Explain why thermal energy flows from hotter to cooler objects until equilibrium is reached",
+      "Describe how thermal equilibrium is used in practical temperature measurement"
+    ],
+    "explanation": "Thermal equilibrium is the state reached when two or more objects that are in thermal contact (able to exchange thermal energy) reach the same temperature, at which point there is no further NET transfer of thermal energy between them. When two objects at different temperatures are placed in contact, thermal energy naturally flows from the hotter object (with particles of higher average kinetic energy) to the cooler object (with particles of lower average kinetic energy), through processes such as conduction, as faster-moving particles transfer some of their kinetic energy to slower-moving neighbouring particles through collisions; this net flow of energy continues until both objects reach the same temperature, at which point their particles have the same average kinetic energy, and although individual particle collisions and energy exchanges continue to occur in both directions, there is no longer any NET transfer of energy from one object to the other overall. Thermal equilibrium is a foundational concept used throughout thermal physics, and underlies the practical operation of thermometers, which are designed to reach thermal equilibrium with whatever they are measuring, so that the thermometer's own final temperature accurately reflects the temperature of the object or substance being measured.",
+    "key_concepts": [
+      "Same temperature; no further NET thermal energy transfer",
+      "Energy flows hot -> cold until equilibrium",
+      "Basis for how thermometers work"
+    ],
+    "definitions": [
+      {
+        "term": "Thermal equilibrium",
+        "definition": "The state reached when two or more objects in thermal contact reach the same temperature, with no further net transfer of thermal energy between them."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "temperature",
+        "si_unit": "kelvin",
+        "symbol": "K"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A hot metal spoon is placed into a cup of cooler tea. Describe what happens to the temperatures of the spoon and the tea over time, and explain why this process eventually stops.",
+        "steps": [
+          "Initially, the spoon is at a higher temperature than the tea, so thermal energy flows from the spoon (hotter) to the tea (cooler) through conduction.",
+          "As this energy transfer continues, the spoon's temperature decreases while the tea's temperature increases.",
+          "This process continues until the spoon and the tea reach the same temperature (thermal equilibrium), at which point there is no longer a net flow of thermal energy in either direction, so both temperatures stop changing."
+        ],
+        "answer": "The spoon cools down and the tea warms up until they reach the same temperature (thermal equilibrium), after which both temperatures remain constant, since there is no further net transfer of energy between them."
+      }
+    ],
+    "practical_applications": [
+      "The operation of thermometers, which rely on reaching thermal equilibrium with the substance being measured",
+      "Designing insulation and heating/cooling systems, understanding how objects approach thermal equilibrium with their surroundings",
+      "Food safety and cooking, understanding how quickly food reaches thermal equilibrium with its environment (e.g. cooling or heating)"
+    ],
+    "common_mistakes": [
+      "Assuming thermal energy transfer stops instantly once two objects touch, rather than continuing until they reach the same temperature",
+      "Assuming thermal equilibrium means all particle motion stops, rather than meaning the average kinetic energies (temperatures) become equal"
+    ],
+    "misconceptions": [
+      "That reaching thermal equilibrium means no further energy exchange occurs at all between the particles of the two objects — at thermal equilibrium, individual particles are still constantly colliding and exchanging small amounts of energy back and forth in both directions; what stops is the NET (overall) flow of energy in one particular direction, since the exchanges in both directions become balanced once the average kinetic energies (temperatures) are equal."
+    ],
+    "tips": [
+      "Remember thermal equilibrium is defined by equal TEMPERATURE (average kinetic energy per particle), not necessarily equal total thermal energy, especially if the two objects have very different sizes or masses."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the condition, in terms of temperature, that defines thermal equilibrium between two objects."
+      ],
+      "intermediate": [
+        "Explain why a thermometer must be given time to reach thermal equilibrium with a substance before an accurate temperature reading can be taken."
+      ],
+      "advanced": [
+        "Two objects of very different mass reach thermal equilibrium with each other. Explain why they have the same temperature, but not necessarily the same total thermal energy."
+      ]
+    },
+    "exam_questions": [
+      "Explain, in terms of particle kinetic energy, why thermal energy flows from a hot object to a cooler object in contact with it, and why this flow eventually stops."
+    ],
+    "answers": {
+      "basic": [
+        "Both objects are at the same temperature."
+      ],
+      "intermediate": [
+        "The thermometer itself must exchange thermal energy with the substance and reach the same temperature as it (thermal equilibrium) before its own reading (which reflects the thermometer's own temperature) accurately represents the temperature of the substance being measured; if read too soon, the thermometer may not yet have fully equalised with the substance, giving an inaccurate reading."
+      ],
+      "advanced": [
+        "Temperature reflects average kinetic energy per particle, which becomes equal for both objects at thermal equilibrium, regardless of their size or mass; total thermal energy, however, depends on both this average energy per particle AND the total number of particles present, so the more massive object, having many more particles, would have a greater total thermal energy than the less massive object, even though both have reached the same temperature."
+      ],
+      "exam": [
+        "In the hotter object, particles have a greater average kinetic energy than in the cooler object; when the two are in contact, faster-moving particles in the hotter object collide with and transfer some kinetic energy to the slower-moving particles in the cooler object, more often than the reverse, producing a net flow of thermal energy from hot to cold; as this continues, the average kinetic energies of both objects' particles become closer together, and once they become exactly equal (the same temperature), the energy transfers in each direction balance out exactly, and there is no further net flow of energy, defining thermal equilibrium."
+      ]
+    },
+    "summary": "Thermal equilibrium is reached when two objects in contact reach the same temperature, with no further net transfer of thermal energy between them. Energy flows from hotter to cooler objects until this equilibrium is reached, underlying the operation of thermometers.",
+    "revision_notes": [
+      "Thermal equilibrium: same temperature, no further NET energy transfer",
+      "Energy flows hot -> cold until equilibrium reached",
+      "Basis for thermometer operation"
+    ],
+    "related_topics": [
+      "Temperature",
+      "Internal Energy",
+      "Conduction"
+    ],
+    "prerequisites": [
+      "Temperature"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  }
+]

@@ -1,0 +1,1641 @@
+[
+  {
+    "id": "phy-156",
+    "subject": "Physics",
+    "category": "Thermal Physics",
+    "title": "Internal Energy",
+    "difficulty": "Intermediate",
+    "description": "The total kinetic and potential energy of all the particles within a substance.",
+    "learning_objectives": [
+      "Define internal energy as the sum of particle kinetic and potential energy",
+      "Explain how internal energy can change without a change in temperature",
+      "Relate internal energy changes to heating and changes of state"
+    ],
+    "explanation": "Internal energy is the total energy stored within a substance, calculated as the sum of the kinetic energy of all its particles (due to their random motion, vibration, or rotation) and the potential energy of all its particles (due to the intermolecular forces and relative positions between them). Increasing an object's temperature by heating it increases the average kinetic energy of its particles, and therefore increases the kinetic energy component of its internal energy. However, internal energy can also change without any change in temperature at all: during a change of state, such as melting or boiling, energy supplied to a substance goes entirely into overcoming the intermolecular forces holding particles together (increasing their potential energy, as they move further apart), rather than increasing their average kinetic energy, which is why temperature remains constant during a change of state even as energy continues to be transferred in (as covered in Heating Curves). This distinction is central to understanding thermal physics.",
+    "key_concepts": [
+      "Internal energy = total kinetic energy + total potential energy of all particles",
+      "Kinetic component relates to temperature",
+      "Potential component relates to state/intermolecular arrangement (changes during phase changes without temperature change)"
+    ],
+    "definitions": [
+      {
+        "term": "Internal energy",
+        "definition": "The total energy stored within a substance, equal to the sum of the kinetic and potential energy of all its particles."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "internal energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain, in terms of internal energy, why the temperature of a substance remains constant while it is melting, even though thermal energy is continuously being supplied.",
+        "steps": [
+          "The energy being supplied during melting is being used entirely to overcome the intermolecular forces holding the solid's particles in their fixed positions, increasing their potential energy as they move further apart into the liquid arrangement.",
+          "Since this energy is going into potential energy (state change) rather than kinetic energy, the average kinetic energy of the particles - and therefore the temperature - does not change during this process.",
+          "Once melting is complete, any further energy supplied then increases the particles' kinetic energy again, and the temperature begins rising once more."
+        ],
+        "answer": "During melting, supplied energy increases the particles' potential energy rather than kinetic energy, so temperature remains constant until melting is complete."
+      }
+    ],
+    "practical_applications": [
+      "Understanding why phase-change materials are used for thermal energy storage, absorbing large amounts of energy at constant temperature",
+      "Explaining refrigeration and air conditioning, which rely on manipulating a refrigerant's internal energy during phase changes",
+      "Interpreting heating and cooling curves in thermal physics experiments"
+    ],
+    "common_mistakes": [
+      "Assuming internal energy and thermal energy (or temperature) are identical, rather than recognising internal energy includes a potential energy component as well",
+      "Assuming a substance's temperature must always rise when energy is supplied to it"
+    ],
+    "misconceptions": [
+      "That supplying energy to a substance always raises its temperature - during a change of state, supplied energy goes into increasing potential energy rather than kinetic energy, so temperature can remain completely constant even while substantial energy continues to be transferred in."
+    ],
+    "tips": [
+      "Whenever asked to explain what happens to internal energy 'in terms of particles', always separately address both the kinetic energy component (particle speed/temperature) and the potential energy component (particle arrangement/state)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the two components that make up a substance's internal energy."
+      ],
+      "intermediate": [
+        "Explain why a substance's internal energy increases during boiling, even though its temperature does not change."
+      ],
+      "advanced": [
+        "Explain why liquid water at 100 degC has a lower internal energy than an equal mass of steam at the same 100 degC, referring to latent heat."
+      ]
+    },
+    "exam_questions": [
+      "Define internal energy, and explain why it can increase during a change of state even though temperature remains constant."
+    ],
+    "answers": {
+      "basic": [
+        "The kinetic energy of the particles and the potential energy of the particles."
+      ],
+      "intermediate": [
+        "During boiling, energy supplied to the liquid is used to overcome the intermolecular forces holding the liquid's particles together, increasing their potential energy; since this energy increases potential energy rather than average kinetic energy, temperature stays constant even as internal energy continues to increase."
+      ],
+      "advanced": [
+        "Steam at 100 degC has a greater internal energy than liquid water at the same temperature, because the steam's particles have greater potential energy (they are far more separated, having overcome the liquid's intermolecular forces during boiling); this extra internal energy is exactly what must be released again as the steam condenses back to liquid water."
+      ],
+      "exam": [
+        "Internal energy is the total energy of a substance, equal to the sum of the kinetic energy and the potential energy of all its particles; during a change of state, energy supplied is used to overcome the intermolecular forces holding particles together, increasing their potential energy without increasing their average kinetic energy, so internal energy increases even though temperature remains constant."
+      ]
+    },
+    "summary": "Internal energy is the total kinetic and potential energy of a substance's particles. Temperature relates only to the kinetic component; during a change of state, supplied energy increases the potential energy component instead, so internal energy rises while temperature stays constant.",
+    "revision_notes": [
+      "Internal energy = KE (particles) + PE (particles)",
+      "Temperature relates to KE component only",
+      "Phase change: energy goes to PE component, temperature constant"
+    ],
+    "related_topics": [
+      "Temperature",
+      "Thermal Energy",
+      "Heating Curves",
+      "Specific Latent Heat"
+    ],
+    "prerequisites": [
+      "Temperature",
+      "Particle Theory"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-157",
+    "subject": "Physics",
+    "category": "Thermal Physics",
+    "title": "Thermal Energy",
+    "difficulty": "Foundational",
+    "description": "The total kinetic energy stored within a substance due to the random motion of its particles.",
+    "learning_objectives": [
+      "Define thermal energy",
+      "Distinguish thermal energy from temperature and from total internal energy",
+      "Explain how thermal energy is transferred between objects at different temperatures"
+    ],
+    "explanation": "Thermal energy is the energy a substance possesses due to the random motion of its particles, and in many everyday and introductory contexts, is used essentially interchangeably with the kinetic energy component of internal energy. Thermal energy naturally transfers from a hotter object to a cooler object when they are in contact, through processes such as conduction, convection, and radiation, continuing until the two objects reach thermal equilibrium at the same temperature. It is important to distinguish thermal energy from temperature: temperature is a measure of the AVERAGE kinetic energy per particle, while thermal energy reflects the TOTAL kinetic energy of all the particles in an object, meaning the total amount of thermal energy an object contains depends on both its temperature and its mass (or the total number of particles it contains).",
+    "key_concepts": [
+      "Thermal energy: energy due to random particle motion (kinetic energy)",
+      "Distinct from temperature (average per particle) - thermal energy is a total quantity",
+      "Transfers from hot to cold via conduction, convection, radiation, until thermal equilibrium"
+    ],
+    "definitions": [
+      {
+        "term": "Thermal energy",
+        "definition": "The energy a substance possesses due to the random motion of its particles."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "thermal energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain why a large block of ice at 0 degC requires more thermal energy to be supplied to fully melt than a small ice cube at the same temperature.",
+        "steps": [
+          "Both the large block and the small cube are at the same temperature, meaning their particles have the same average kinetic energy.",
+          "However, the large block contains many more particles than the small cube.",
+          "Melting requires supplying enough thermal energy to overcome the intermolecular forces holding EVERY particle in place; since the large block has far more particles, it needs a correspondingly greater total amount of thermal energy to fully melt."
+        ],
+        "answer": "The large block requires more thermal energy because it contains far more particles, each needing energy supplied to overcome the intermolecular forces holding it in place."
+      }
+    ],
+    "practical_applications": [
+      "Calculating energy requirements for heating and cooling systems, based on both temperature change and the mass of material involved",
+      "Designing thermal insulation to reduce unwanted thermal energy transfer",
+      "Understanding energy transfer in cooking, refrigeration, and industrial heating processes"
+    ],
+    "common_mistakes": [
+      "Treating thermal energy and temperature as directly interchangeable quantities",
+      "Assuming an object at a higher temperature always contains more total thermal energy than a cooler, larger object"
+    ],
+    "misconceptions": [
+      "That a hotter object always has more thermal energy than a cooler one, regardless of size - total thermal energy depends on the number of particles (related to mass) as well as temperature, so a large, moderately warm object can contain more total thermal energy than a small, very hot one."
+    ],
+    "tips": [
+      "When comparing the thermal energy of different objects, always consider both their temperature and their mass/quantity, not temperature alone."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State what thermal energy is due to, at the particle level."
+      ],
+      "intermediate": [
+        "Explain why thermal energy naturally transfers from a hot object to a cooler object in contact with it."
+      ],
+      "advanced": [
+        "Two objects, A and B, are at the same temperature, but object A has twice the mass of object B (same material). Compare their thermal energy content."
+      ]
+    },
+    "exam_questions": [
+      "Explain the difference between thermal energy and temperature."
+    ],
+    "answers": {
+      "basic": [
+        "The random motion (kinetic energy) of its particles."
+      ],
+      "intermediate": [
+        "The hotter object's particles have a greater average kinetic energy; when in contact, faster-moving particles transfer some kinetic energy to slower-moving neighbouring particles through collisions, producing a net transfer of thermal energy from the hotter object until they reach thermal equilibrium."
+      ],
+      "advanced": [
+        "Since object A has twice the mass (and roughly twice the number of particles) of object B at the same temperature, object A contains approximately twice the total thermal energy of object B."
+      ],
+      "exam": [
+        "Temperature is a measure of the average kinetic energy per particle; thermal energy is the total kinetic energy of all the particles combined - thermal energy depends on both temperature and the total number of particles present, while temperature depends only on the average energy per particle."
+      ]
+    },
+    "summary": "Thermal energy is the total kinetic energy of a substance's particles due to their random motion, distinct from temperature, which measures only the average kinetic energy per particle. Thermal energy transfers from hot to cold objects until thermal equilibrium is reached.",
+    "revision_notes": [
+      "Thermal energy: total KE of particles (random motion)",
+      "Distinct from temperature (average, not total)",
+      "Transfers hot -> cold until thermal equilibrium"
+    ],
+    "related_topics": [
+      "Temperature",
+      "Internal Energy",
+      "Thermal Equilibrium",
+      "Conduction"
+    ],
+    "prerequisites": [
+      "Temperature"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-158",
+    "subject": "Physics",
+    "category": "Thermal Physics",
+    "title": "Specific Heat Capacity",
+    "difficulty": "Intermediate",
+    "description": "The amount of thermal energy required to raise the temperature of one kilogram of a substance by one degree Celsius (or one kelvin).",
+    "learning_objectives": [
+      "Define specific heat capacity and state its equation",
+      "Calculate the thermal energy transferred using the specific heat capacity equation",
+      "Explain why different substances have different specific heat capacities"
+    ],
+    "explanation": "Specific heat capacity, given the symbol c, is the amount of thermal energy required to raise the temperature of one kilogram of a substance by one degree Celsius. It is calculated using the equation Q = mc(delta T), where Q is the thermal energy transferred, m is the mass, c is specific heat capacity, and delta T is the resulting change in temperature. Specific heat capacity is measured in joules per kilogram per degree Celsius. Water has an unusually high specific heat capacity (approximately 4200 J/(kg degC)), meaning it takes a relatively large amount of energy to change its temperature, which is why large bodies of water moderate the climate of nearby land areas and why water is widely used as a coolant; metals typically have much lower specific heat capacities, meaning they heat up (and cool down) much more quickly for the same energy transfer and mass.",
+    "key_concepts": [
+      "Q = mc(delta T)",
+      "Unit: J/(kg degC) or J/(kg K)",
+      "Water has an unusually high specific heat capacity"
+    ],
+    "definitions": [
+      {
+        "term": "Specific heat capacity",
+        "definition": "The amount of thermal energy required to raise the temperature of one kilogram of a substance by one degree Celsius (or one kelvin)."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Thermal energy from specific heat capacity",
+        "equation": "Q = mc(delta T)",
+        "variables": {
+          "Q": "thermal energy transferred, J",
+          "m": "mass, kg",
+          "c": "specific heat capacity, J/(kg degC)",
+          "delta T": "change in temperature, degC (or K)"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "specific heat capacity",
+        "si_unit": "joule per kilogram per degree Celsius",
+        "symbol": "J/(kg degC)"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Calculate the thermal energy required to raise the temperature of 2.0 kg of water from 20 degC to 80 degC (specific heat capacity of water = 4200 J/(kg degC)).",
+        "steps": [
+          "Calculate the temperature change: delta T = 80 - 20 = 60 degC.",
+          "Use Q = mc(delta T).",
+          "Substitute: Q = 2.0 x 4200 x 60."
+        ],
+        "answer": "504,000 J (504 kJ)"
+      }
+    ],
+    "practical_applications": [
+      "Selecting materials for cooking equipment and thermal storage systems based on their specific heat capacity",
+      "Calculating heating and cooling energy requirements in engineering and industrial processes",
+      "Explaining why coastal climates are more moderate than inland climates, due to water's high specific heat capacity"
+    ],
+    "common_mistakes": [
+      "Forgetting to calculate the temperature change (delta T) correctly as final minus initial temperature",
+      "Confusing specific heat capacity with specific latent heat, which applies during a change of state rather than a temperature change"
+    ],
+    "misconceptions": [
+      "That all substances heat up at the same rate for the same energy input and mass - different substances have very different specific heat capacities, meaning some substances (like water) require far more energy to achieve the same temperature rise than others (like most metals), for the same mass."
+    ],
+    "tips": [
+      "Remember Q = mc(delta T) applies only to a temperature CHANGE within a single state, not during melting or boiling."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for thermal energy in terms of specific heat capacity, defining each symbol."
+      ],
+      "intermediate": [
+        "Calculate the energy required to raise the temperature of 0.5 kg of a substance with specific heat capacity 900 J/(kg degC) by 40 degC."
+      ],
+      "advanced": [
+        "A 1.5 kg block absorbs 27,000 J of thermal energy, and its temperature rises from 15 degC to 35 degC. Calculate the specific heat capacity of the material."
+      ]
+    },
+    "exam_questions": [
+      "Explain why water is commonly used as a coolant in engines and cooling systems, referring to its specific heat capacity."
+    ],
+    "answers": {
+      "basic": [
+        "Q = mc(delta T), where Q is thermal energy in J, m is mass in kg, c is specific heat capacity in J/(kg degC), and delta T is the temperature change in degC."
+      ],
+      "intermediate": [
+        "Q = 0.5 x 900 x 40 = 18,000 J."
+      ],
+      "advanced": [
+        "delta T = 35 - 15 = 20 degC. c = Q / (m x delta T) = 27,000 / (1.5 x 20) = 900 J/(kg degC)."
+      ],
+      "exam": [
+        "Water has a very high specific heat capacity, meaning it can absorb a large amount of thermal energy from a hot engine while only experiencing a relatively small increase in its own temperature; this makes it highly effective at removing large quantities of unwanted thermal energy without needing excessive coolant volumes or reaching dangerously high coolant temperatures."
+      ]
+    },
+    "summary": "Specific heat capacity is the thermal energy needed to raise the temperature of one kilogram of a substance by one degree, calculated using Q = mc(delta T). Water has an unusually high specific heat capacity, making it useful for temperature regulation and cooling applications.",
+    "revision_notes": [
+      "Q = mc(delta T)",
+      "Unit: J/(kg degC) or J/(kg K)",
+      "Water: unusually high c, ~4200 J/(kg degC)"
+    ],
+    "related_topics": [
+      "Thermal Energy",
+      "Temperature",
+      "Specific Latent Heat"
+    ],
+    "prerequisites": [
+      "Thermal Energy",
+      "Temperature"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-159",
+    "subject": "Physics",
+    "category": "Thermal Physics",
+    "title": "Specific Latent Heat",
+    "difficulty": "Intermediate",
+    "description": "The amount of thermal energy required to change the state of one kilogram of a substance, without any change in temperature.",
+    "learning_objectives": [
+      "Define specific latent heat and state its equation",
+      "Calculate the thermal energy transferred during a change of state using the specific latent heat equation",
+      "Explain why specific latent heat calculations do not involve a temperature change"
+    ],
+    "explanation": "Specific latent heat, given the symbol L, is the amount of thermal energy required to change the state of one kilogram of a substance without any accompanying change in temperature. It is calculated using the equation Q = mL, where Q is the thermal energy transferred, m is the mass undergoing the change of state, and L is the specific latent heat for that particular change. Unlike specific heat capacity, specific latent heat relates energy directly to a mass undergoing a phase change, with no temperature term in the equation, since temperature remains constant throughout a change of state - all the supplied energy instead goes into overcoming intermolecular forces rather than increasing kinetic energy. There are two specific types: the specific latent heat of fusion (melting/freezing) and the specific latent heat of vaporisation (boiling/condensing), which generally have different numerical values even for the same substance.",
+    "key_concepts": [
+      "Q = mL",
+      "No temperature term (state changes at constant temperature)",
+      "Two types: fusion (melting/freezing) and vaporisation (boiling/condensing)"
+    ],
+    "definitions": [
+      {
+        "term": "Specific latent heat",
+        "definition": "The amount of thermal energy required to change the state of one kilogram of a substance, without any change in temperature, calculated as Q = mL."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Thermal energy from specific latent heat",
+        "equation": "Q = mL",
+        "variables": {
+          "Q": "thermal energy transferred, J",
+          "m": "mass, kg",
+          "L": "specific latent heat, J/kg"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "specific latent heat",
+        "si_unit": "joule per kilogram",
+        "symbol": "J/kg"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Calculate the thermal energy required to completely melt 0.3 kg of ice, given the specific latent heat of fusion of ice is 334,000 J/kg.",
+        "steps": [
+          "Use Q = mL.",
+          "Substitute: Q = 0.3 x 334,000."
+        ],
+        "answer": "100,200 J (100.2 kJ)"
+      }
+    ],
+    "practical_applications": [
+      "Calculating energy requirements for industrial melting, freezing, and evaporation processes",
+      "Understanding the significant cooling effect of sweat evaporating from skin (using latent heat of vaporisation)",
+      "Designing phase-change materials for thermal energy storage in buildings and devices"
+    ],
+    "common_mistakes": [
+      "Including a temperature change term in a specific latent heat calculation, when the equation Q = mL has no temperature term at all",
+      "Confusing specific latent heat with specific heat capacity, and using the wrong equation for a given scenario"
+    ],
+    "misconceptions": [
+      "That state changes require little extra energy compared with warming - changes of state generally require a very significant amount of extra energy input compared with a modest temperature change of the same substance while remaining in a single state, which is why heating curves show much longer flat plateaus at melting and boiling points than the sloped sections either side."
+    ],
+    "tips": [
+      "Check carefully whether a problem describes a temperature CHANGE (use Q = mc(delta T)) or a CHANGE OF STATE (use Q = mL)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for thermal energy in terms of specific latent heat, defining each symbol."
+      ],
+      "intermediate": [
+        "Calculate the thermal energy required to completely boil away 0.2 kg of water, given the specific latent heat of vaporisation of water is 2,260,000 J/kg."
+      ],
+      "advanced": [
+        "A sample of a substance absorbs 45,000 J of energy while completely changing state, with a mass of 0.15 kg. Calculate the specific latent heat of the substance for this change."
+      ]
+    },
+    "exam_questions": [
+      "Explain why the equation for calculating thermal energy during a change of state (Q = mL) does not include a temperature term."
+    ],
+    "answers": {
+      "basic": [
+        "Q = mL, where Q is thermal energy in J, m is mass in kg, and L is specific latent heat in J/kg."
+      ],
+      "intermediate": [
+        "Q = 0.2 x 2,260,000 = 452,000 J."
+      ],
+      "advanced": [
+        "L = Q/m = 45,000 / 0.15 = 300,000 J/kg."
+      ],
+      "exam": [
+        "During a change of state, temperature remains constant throughout the entire process, since the energy supplied is used to overcome intermolecular forces rather than increasing average kinetic energy; because temperature does not change, no temperature-change term is needed in the equation for the energy involved."
+      ]
+    },
+    "summary": "Specific latent heat is the thermal energy required to change the state of one kilogram of a substance, without any temperature change, calculated as Q = mL. It applies specifically to melting/freezing (fusion) or boiling/condensing (vaporisation).",
+    "revision_notes": [
+      "Q = mL (no temperature term)",
+      "Fusion (melting/freezing) and vaporisation (boiling/condensing)",
+      "Energy goes into overcoming intermolecular forces, not raising temperature"
+    ],
+    "related_topics": [
+      "Latent Heat of Fusion",
+      "Latent Heat of Vaporisation",
+      "Internal Energy",
+      "Heating Curves"
+    ],
+    "prerequisites": [
+      "Internal Energy",
+      "Specific Heat Capacity"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-160",
+    "subject": "Physics",
+    "category": "Thermal Physics",
+    "title": "Latent Heat of Fusion",
+    "difficulty": "Intermediate",
+    "description": "The specific latent heat associated with the change of state between a solid and a liquid (melting or freezing).",
+    "learning_objectives": [
+      "Define the specific latent heat of fusion",
+      "Calculate thermal energy transferred during melting or freezing using Q = mL(fusion)",
+      "Explain the process of melting and freezing at the particle level"
+    ],
+    "explanation": "The specific latent heat of fusion is the specific latent heat associated with the change of state between a solid and a liquid: it is the amount of thermal energy required to completely melt one kilogram of a solid into a liquid at its melting point, without any change in temperature, or equivalently, the amount of thermal energy released when one kilogram of that liquid completely freezes back into a solid. It is calculated using Q = mL(fusion). During melting, the supplied thermal energy is used to partially overcome the intermolecular forces holding a solid's particles in their fixed lattice positions, allowing them to move as a liquid; during freezing, the reverse process occurs, releasing this same amount of energy. The specific latent heat of fusion is generally significantly smaller than the specific latent heat of vaporisation for the same substance, since melting requires only partially overcoming the intermolecular forces between particles.",
+    "key_concepts": [
+      "Q = mL(fusion) for melting or freezing",
+      "Melting: energy absorbed, overcoming intermolecular forces partially",
+      "Freezing: energy released, particles settle into fixed positions"
+    ],
+    "definitions": [
+      {
+        "term": "Specific latent heat of fusion",
+        "definition": "The amount of thermal energy required to completely melt one kilogram of a solid into a liquid at its melting point, without a change in temperature."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Thermal energy for melting/freezing",
+        "equation": "Q = mL(fusion)",
+        "variables": {
+          "Q": "thermal energy, J",
+          "m": "mass, kg",
+          "L(fusion)": "specific latent heat of fusion, J/kg"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "specific latent heat of fusion",
+        "si_unit": "joule per kilogram",
+        "symbol": "J/kg"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Calculate the thermal energy released when 0.4 kg of liquid lead completely freezes into a solid, given the specific latent heat of fusion of lead is 23,000 J/kg.",
+        "steps": [
+          "Use Q = mL(fusion).",
+          "Substitute: Q = 0.4 x 23,000."
+        ],
+        "answer": "9200 J"
+      }
+    ],
+    "practical_applications": [
+      "Industrial casting and metalworking, accounting for the energy released when molten metal solidifies",
+      "Ice-based cooling systems, relying on the significant energy absorbed as ice melts",
+      "Understanding weather phenomena involving freezing/thawing processes"
+    ],
+    "common_mistakes": [
+      "Using the specific latent heat of vaporisation value by mistake when a melting/freezing (fusion) process is described",
+      "Forgetting that freezing releases energy, while melting absorbs energy"
+    ],
+    "misconceptions": [
+      "That melting and freezing require completely different physical processes with unrelated energy values - both involve exactly the same magnitude of specific latent heat of fusion; the only difference is the direction of energy transfer (absorbed during melting, released during freezing)."
+    ],
+    "tips": [
+      "Remember 'fusion' refers to the solid-liquid transition, distinct from 'vaporisation', which refers to the liquid-gas transition."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for thermal energy during melting or freezing, defining each symbol."
+      ],
+      "intermediate": [
+        "Calculate the energy required to melt 0.6 kg of ice, given the specific latent heat of fusion of ice is 334,000 J/kg."
+      ],
+      "advanced": [
+        "A 2.0 kg block of a substance releases 92,000 J of energy as it completely freezes. Calculate the specific latent heat of fusion of the substance."
+      ]
+    },
+    "exam_questions": [
+      "Explain, at the particle level, what happens to the intermolecular forces between particles during the melting of a solid."
+    ],
+    "answers": {
+      "basic": [
+        "Q = mL(fusion), where Q is thermal energy in J, m is mass in kg, and L(fusion) is the specific latent heat of fusion in J/kg."
+      ],
+      "intermediate": [
+        "Q = 0.6 x 334,000 = 200,400 J."
+      ],
+      "advanced": [
+        "L(fusion) = Q/m = 92,000 / 2.0 = 46,000 J/kg."
+      ],
+      "exam": [
+        "During melting, the thermal energy supplied is used to partially overcome the intermolecular forces holding the solid's particles in their fixed lattice positions; once sufficiently overcome, the particles are able to move and slide past one another while remaining relatively close together, transitioning into the liquid arrangement."
+      ]
+    },
+    "summary": "The specific latent heat of fusion is the thermal energy required to melt (or released by freezing) one kilogram of a substance at its melting point, calculated as Q = mL(fusion). Melting absorbs energy to weaken intermolecular forces; freezing releases the same energy.",
+    "revision_notes": [
+      "Q = mL(fusion): solid <-> liquid transition",
+      "Melting absorbs energy; freezing releases the same amount",
+      "Generally smaller than latent heat of vaporisation for the same substance"
+    ],
+    "related_topics": [
+      "Specific Latent Heat",
+      "Latent Heat of Vaporisation",
+      "Heating Curves"
+    ],
+    "prerequisites": [
+      "Specific Latent Heat"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-161",
+    "subject": "Physics",
+    "category": "Thermal Physics",
+    "title": "Latent Heat of Vaporisation",
+    "difficulty": "Intermediate",
+    "description": "The specific latent heat associated with the change of state between a liquid and a gas (boiling/evaporation or condensation).",
+    "learning_objectives": [
+      "Define the specific latent heat of vaporisation",
+      "Calculate thermal energy transferred during boiling or condensation using Q = mL(vaporisation)",
+      "Explain why the specific latent heat of vaporisation is generally greater than that of fusion for the same substance"
+    ],
+    "explanation": "The specific latent heat of vaporisation is the specific latent heat associated with the change of state between a liquid and a gas: the amount of thermal energy required to completely boil one kilogram of a liquid into a gas at its boiling point, without a change in temperature, or equivalently, the energy released when one kilogram of that gas completely condenses back into a liquid. It is calculated using Q = mL(vaporisation). The specific latent heat of vaporisation is generally significantly greater than the specific latent heat of fusion for the same substance, since the liquid-to-gas transition requires COMPLETELY overcoming the intermolecular forces between particles, whereas the solid-to-liquid transition only requires PARTIALLY overcoming these forces.",
+    "key_concepts": [
+      "Q = mL(vaporisation) for boiling/evaporation or condensation",
+      "Boiling: energy absorbed, completely overcoming intermolecular forces",
+      "L(vaporisation) generally much greater than L(fusion) for the same substance"
+    ],
+    "definitions": [
+      {
+        "term": "Specific latent heat of vaporisation",
+        "definition": "The amount of thermal energy required to completely boil one kilogram of a liquid into a gas at its boiling point, without a change in temperature."
+      }
+    ],
+    "formulas": [
+      {
+        "name": "Thermal energy for boiling/condensing",
+        "equation": "Q = mL(vaporisation)",
+        "variables": {
+          "Q": "thermal energy, J",
+          "m": "mass, kg",
+          "L(vaporisation)": "specific latent heat of vaporisation, J/kg"
+        }
+      }
+    ],
+    "units": [
+      {
+        "quantity": "specific latent heat of vaporisation",
+        "si_unit": "joule per kilogram",
+        "symbol": "J/kg"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Calculate the thermal energy required to completely boil away 0.5 kg of water, given the specific latent heat of vaporisation of water is 2,260,000 J/kg.",
+        "steps": [
+          "Use Q = mL(vaporisation).",
+          "Substitute: Q = 0.5 x 2,260,000."
+        ],
+        "answer": "1,130,000 J (1.13 MJ)"
+      }
+    ],
+    "practical_applications": [
+      "Understanding the significant cooling effect of sweating in human thermoregulation",
+      "Power station design, particularly steam turbines, which rely on large latent heat of vaporisation values",
+      "Refrigeration systems, using the evaporation and condensation of a refrigerant to transfer thermal energy"
+    ],
+    "common_mistakes": [
+      "Using the specific latent heat of fusion value by mistake when a boiling/evaporation process is described",
+      "Underestimating the amount of energy involved in boiling, given its typically much larger value compared with melting"
+    ],
+    "misconceptions": [
+      "That evaporation always requires reaching the full boiling point - evaporation can occur at any temperature below the boiling point, whenever individual particles at the liquid's surface gain enough kinetic energy to escape; boiling refers to this process happening more vigorously throughout the entire liquid, once the boiling point is reached."
+    ],
+    "tips": [
+      "Remember 'vaporisation' refers to the liquid-gas transition, distinct from 'fusion', which refers to the solid-liquid transition, and that vaporisation values are typically much larger."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the equation for thermal energy during boiling or condensation, defining each symbol."
+      ],
+      "intermediate": [
+        "Calculate the energy released when 0.25 kg of steam completely condenses into water, given the specific latent heat of vaporisation of water is 2,260,000 J/kg."
+      ],
+      "advanced": [
+        "Explain why burns from steam at 100 degC are often more severe than burns from an equal mass of boiling water at the same temperature."
+      ]
+    },
+    "exam_questions": [
+      "Explain why the specific latent heat of vaporisation of a substance is generally much greater than its specific latent heat of fusion."
+    ],
+    "answers": {
+      "basic": [
+        "Q = mL(vaporisation), where Q is thermal energy in J, m is mass in kg, and L(vaporisation) is the specific latent heat of vaporisation in J/kg."
+      ],
+      "intermediate": [
+        "Q = 0.25 x 2,260,000 = 565,000 J."
+      ],
+      "advanced": [
+        "When steam condenses on the skin, it releases its large specific latent heat of vaporisation in addition to any further energy released as it cools; boiling water at the same temperature transfers correspondingly less total energy for the same mass, making steam burns generally more severe."
+      ],
+      "exam": [
+        "Melting only requires partially overcoming the intermolecular forces between particles, since liquid particles remain relatively close together; boiling requires completely overcoming these intermolecular forces, separating the particles to the widely spaced arrangement of a gas, which requires substantially more energy input, resulting in a much greater specific latent heat of vaporisation than fusion."
+      ]
+    },
+    "summary": "The specific latent heat of vaporisation is the thermal energy required to boil (or released by condensing) one kilogram of a substance at its boiling point, calculated as Q = mL(vaporisation). It is generally much greater than the latent heat of fusion, since vaporisation completely overcomes intermolecular forces.",
+    "revision_notes": [
+      "Q = mL(vaporisation): liquid <-> gas transition",
+      "Boiling absorbs energy; condensing releases the same amount",
+      "Generally much greater than latent heat of fusion (complete vs partial force separation)"
+    ],
+    "related_topics": [
+      "Specific Latent Heat",
+      "Latent Heat of Fusion",
+      "Heating Curves"
+    ],
+    "prerequisites": [
+      "Specific Latent Heat"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-162",
+    "subject": "Physics",
+    "category": "Thermal Physics",
+    "title": "Heating Curves",
+    "difficulty": "Intermediate",
+    "description": "Graphs showing how the temperature of a substance changes over time as thermal energy is supplied at a constant rate, including flat sections during changes of state.",
+    "learning_objectives": [
+      "Interpret a heating curve to identify solid, liquid, and gas phases, and changes of state",
+      "Explain why heating curves show flat (plateau) sections at melting and boiling points",
+      "Relate the length of a plateau section to the specific latent heat of the substance"
+    ],
+    "explanation": "A heating curve is a graph showing how the temperature of a substance changes over time as thermal energy is supplied to it at a constant rate, typically starting from a solid at a low temperature and continuing until it becomes a gas at a high temperature. The graph shows a characteristic pattern: sloped sections, where temperature rises steadily within a single state, alternating with flat plateau sections, occurring exactly at the melting point and boiling point, where temperature remains completely constant even though thermal energy continues to be supplied. These plateaus occur because, during a change of state, all the supplied energy is used to overcome intermolecular forces rather than increase kinetic energy. Since energy is supplied at a constant, known rate, the length of each plateau directly indicates the amount of energy needed for that change of state, and can be used to calculate a substance's specific latent heat, if mass and power are also known.",
+    "key_concepts": [
+      "Sloped sections: within a state, temperature rises with heating",
+      "Flat plateaus: at melting/boiling point, constant temperature despite continued heating",
+      "Plateau length relates to specific latent heat (energy for that change of state)"
+    ],
+    "definitions": [
+      {
+        "term": "Heating curve",
+        "definition": "A graph of temperature against time for a substance being heated at a constant rate, showing sloped sections and flat plateau sections during changes of state."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "temperature",
+        "si_unit": "kelvin",
+        "symbol": "K"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A heating curve for a substance shows a flat plateau at 0 degC lasting 200 s, during which a constant 500 W heater supplies energy to 0.3 kg of the substance. Calculate the specific latent heat of fusion of the substance.",
+        "steps": [
+          "Calculate the total energy supplied during the plateau: Q = power x time = 500 x 200.",
+          "Q = 100,000 J.",
+          "Use Q = mL(fusion), rearranged: L(fusion) = Q / m.",
+          "Substitute: L(fusion) = 100,000 / 0.3."
+        ],
+        "answer": "Approximately 333,333 J/kg"
+      }
+    ],
+    "practical_applications": [
+      "Determining unknown specific latent heat and specific heat capacity values experimentally",
+      "Understanding and predicting the thermal behaviour of substances during heating and cooling processes",
+      "Interpreting phase-change data in materials science and engineering"
+    ],
+    "common_mistakes": [
+      "Assuming a plateau on a heating curve means the substance has stopped absorbing energy",
+      "Confusing which plateau corresponds to melting and which corresponds to boiling"
+    ],
+    "misconceptions": [
+      "That a substance stops absorbing thermal energy during a plateau on a heating curve - the substance continues to absorb energy at the same constant rate throughout the plateau; what changes is that this energy is used entirely to change state rather than raise temperature."
+    ],
+    "tips": [
+      "When interpreting a heating curve, identify each section systematically: sloped sections use Q = mc(delta T), flat sections use Q = mL."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State what a flat (plateau) section on a heating curve represents."
+      ],
+      "intermediate": [
+        "Explain why the temperature of a substance does not rise during the plateau section of its heating curve, despite continued heating."
+      ],
+      "advanced": [
+        "A heating curve shows a longer plateau at the boiling point than at the melting point, for the same substance and heating rate. Explain what this indicates about the substance's specific latent heats."
+      ]
+    },
+    "exam_questions": [
+      "Sketch, in words, the shape of a heating curve for a substance starting as a solid well below its melting point and ending as a gas well above its boiling point, identifying each section."
+    ],
+    "answers": {
+      "basic": [
+        "A change of state (melting or boiling) occurring at constant temperature."
+      ],
+      "intermediate": [
+        "During the plateau, the energy being continuously supplied is used entirely to overcome the intermolecular forces holding particles together, rather than to increase their average kinetic energy, so temperature does not rise during this period."
+      ],
+      "advanced": [
+        "A longer boiling plateau indicates that more total energy was required for boiling than for melting, consistent with the specific latent heat of vaporisation being greater than the specific latent heat of fusion for the same mass of substance."
+      ],
+      "exam": [
+        "The curve begins with a sloped section as the solid warms toward its melting point; this is followed by a flat plateau at the melting point, as the solid melts at constant temperature; next comes another sloped section as the liquid warms toward its boiling point; this is followed by a second flat plateau at the boiling point, as the liquid boils at constant temperature; finally, a further sloped section shows the resulting gas continuing to warm above the boiling point."
+      ]
+    },
+    "summary": "A heating curve shows temperature against time for a substance heated at a constant rate, with sloped sections representing temperature rise within a state and flat plateaus representing changes of state at constant temperature. Plateau length relates to the specific latent heat involved.",
+    "revision_notes": [
+      "Sloped sections: heating within a state (Q = mc(delta T))",
+      "Flat plateaus: change of state, constant temperature (Q = mL)",
+      "Boiling plateau usually longer than melting plateau (L(vap) > L(fusion))"
+    ],
+    "related_topics": [
+      "Internal Energy",
+      "Specific Latent Heat",
+      "Cooling Curves",
+      "Specific Heat Capacity"
+    ],
+    "prerequisites": [
+      "Internal Energy",
+      "Specific Latent Heat"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A temperature-time heating curve showing sloped sections for solid, liquid, and gas heating, with flat plateaus at the melting and boiling points]"
+    ],
+    "images": [
+      {
+        "filename": "physics-heating-curves-162-01.webp",
+        "type": "graph",
+        "description": "A temperature-time graph showing a substance being heated from below its melting point to above its boiling point: a sloped rising section (solid heating), a flat plateau at 0C (melting), another sloped rising section (liquid heating), a flat plateau at 100C (boiling), and a final sloped rising section (gas heating), each section labelled.",
+        "purpose": "Gives students the canonical, fully-labelled reference diagram for interpreting any heating curve, showing exactly where each type of behaviour occurs.",
+        "placement": "Directly after the explanation paragraph, before the worked example."
+      }
+    ]
+  },
+  {
+    "id": "phy-163",
+    "subject": "Physics",
+    "category": "Thermal Physics",
+    "title": "Cooling Curves",
+    "difficulty": "Intermediate",
+    "description": "Graphs showing how the temperature of a substance changes over time as it loses thermal energy, including flat sections during changes of state.",
+    "learning_objectives": [
+      "Interpret a cooling curve to identify phases and changes of state",
+      "Explain why cooling curves show flat (plateau) sections at freezing and condensation points",
+      "Compare cooling curves with heating curves"
+    ],
+    "explanation": "A cooling curve is a graph showing how the temperature of a substance changes over time as it loses thermal energy to its surroundings, typically starting from a gas at a high temperature and continuing until it becomes a solid at a low temperature - essentially the reverse process of a heating curve. Like a heating curve, a cooling curve shows sloped sections, where temperature falls steadily within a single state, alternating with flat plateau sections at the condensation point (equal to the boiling point) and freezing point (equal to the melting point), where temperature remains constant even as thermal energy continues to be lost. These plateaus occur because, during freezing or condensing, particles release potential energy as they move into a more closely bound, lower-energy arrangement; this released potential energy is transferred away as the substance cools, without any corresponding decrease in average kinetic energy, so temperature does not fall during this period.",
+    "key_concepts": [
+      "Sloped sections: temperature falls as substance cools within a state",
+      "Flat plateaus: at freezing/condensation point, constant temperature despite continued cooling",
+      "Reverse process of a heating curve"
+    ],
+    "definitions": [
+      {
+        "term": "Cooling curve",
+        "definition": "A graph of temperature against time for a substance losing thermal energy, showing sloped sections and flat plateau sections during changes of state, such as freezing or condensing."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "temperature",
+        "si_unit": "kelvin",
+        "symbol": "K"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain why the temperature of a liquid remains constant during the plateau section of its cooling curve, at its freezing point, even though the liquid is continuously losing thermal energy to its surroundings.",
+        "steps": [
+          "As the liquid begins to freeze, its particles move from the higher-potential-energy liquid arrangement into the fixed, lower-potential-energy solid lattice arrangement.",
+          "This transition releases potential energy, which is transferred away as thermal energy is lost.",
+          "Because this released energy comes from potential energy rather than kinetic energy, the average kinetic energy - and therefore the temperature - does not change during this process."
+        ],
+        "answer": "The temperature stays constant during freezing because the energy released comes from a decrease in potential energy, not kinetic energy, which is what determines temperature."
+      }
+    ],
+    "practical_applications": [
+      "Understanding and controlling industrial cooling, freezing, and crystallisation processes",
+      "Predicting weather phenomena involving condensation, such as cloud and fog formation",
+      "Metallurgy and materials science, analysing how metals solidify from a molten state"
+    ],
+    "common_mistakes": [
+      "Assuming a substance stops losing thermal energy during a plateau on a cooling curve",
+      "Confusing the direction of a cooling curve with a heating curve"
+    ],
+    "misconceptions": [
+      "That a cooling curve is simply a mirror image of a heating curve with no meaningful physical distinction - while the shape is the reverse pattern, the underlying physical process at each plateau is genuinely different in direction: energy is being released as particles move into a lower-potential-energy arrangement, rather than absorbed to overcome intermolecular forces."
+    ],
+    "tips": [
+      "Use the same systematic approach as with heating curves, but remember energy is being released, not absorbed, throughout a cooling curve."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State what a flat (plateau) section on a cooling curve represents."
+      ],
+      "intermediate": [
+        "Explain why a cooling curve for water would show a flat plateau at 0 degC."
+      ],
+      "advanced": [
+        "Explain why the plateau on a cooling curve, at a given change of state, has the same length as the corresponding plateau on the heating curve for the same substance and mass, assuming the same rate of energy transfer."
+      ]
+    },
+    "exam_questions": [
+      "Sketch, in words, the shape of a cooling curve for a substance starting as a gas well above its boiling point and ending as a solid well below its melting point, identifying each section."
+    ],
+    "answers": {
+      "basic": [
+        "A change of state (freezing or condensing) occurring at constant temperature."
+      ],
+      "intermediate": [
+        "At 0 degC, water freezes into ice; during this process, the water's particles release potential energy as they settle into the fixed, ordered arrangement of ice, and this occurs at constant temperature, appearing as a flat plateau."
+      ],
+      "advanced": [
+        "The energy required to change one kilogram of a substance from one state to another is exactly equal in magnitude to the energy released when that same mass changes back, since both processes involve overcoming or forming the same intermolecular bonds; with the same constant rate of energy transfer, the same total energy corresponds to the same duration on each graph."
+      ],
+      "exam": [
+        "The curve begins with a sloped section as the gas cools toward its condensation point; this is followed by a flat plateau at the condensation point, as the gas condenses at constant temperature; next comes another sloped section as the liquid cools toward its freezing point; this is followed by a second flat plateau at the freezing point, as the liquid freezes at constant temperature; finally, a further sloped section shows the resulting solid continuing to cool."
+      ]
+    },
+    "summary": "A cooling curve shows temperature against time as a substance loses thermal energy, with sloped sections representing temperature fall within a state and flat plateaus representing changes of state at constant temperature, as particles release potential energy.",
+    "revision_notes": [
+      "Sloped sections: cooling within a state",
+      "Flat plateaus: freezing/condensing, constant temperature (potential energy released)",
+      "Reverse pattern (and process) of a heating curve"
+    ],
+    "related_topics": [
+      "Heating Curves",
+      "Internal Energy",
+      "Specific Latent Heat"
+    ],
+    "prerequisites": [
+      "Heating Curves"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-164",
+    "subject": "Physics",
+    "category": "Thermal Physics",
+    "title": "Thermal Expansion",
+    "difficulty": "Foundational",
+    "description": "The tendency of a substance to increase in size (length, area, or volume) when its temperature increases.",
+    "learning_objectives": [
+      "Describe thermal expansion at the particle level",
+      "Explain why most substances expand when heated",
+      "Identify everyday consequences and applications of thermal expansion"
+    ],
+    "explanation": "Thermal expansion is the tendency of a substance to increase in size when its temperature increases. At the particle level, increasing temperature increases the average kinetic energy of a substance's particles, causing them to vibrate (in a solid) or move (in a liquid or gas) more vigorously and over a slightly greater average range; this increased average particle motion results in the particles occupying a very slightly larger amount of space, causing the substance to expand slightly. The degree of thermal expansion varies significantly between states: gases generally expand the most for a given temperature change, since their particles are already free to move; liquids expand less than gases but more than solids; and solids expand the least, since their particles are held tightly in a fixed lattice arrangement. Thermal expansion has significant practical consequences, requiring engineers to account for it in the design of bridges, railway tracks, and other structures.",
+    "key_concepts": [
+      "Substances generally expand when heated (contract when cooled)",
+      "Caused by increased average particle vibration/motion (kinetic energy) with temperature",
+      "Gases expand most, then liquids, then solids (least) for a given temperature change"
+    ],
+    "definitions": [
+      {
+        "term": "Thermal expansion",
+        "definition": "The tendency of a substance to increase in size (length, area, or volume) as its temperature increases."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "Explain, at the particle level, why a metal rod becomes very slightly longer when heated.",
+        "steps": [
+          "As the metal rod is heated, its particles gain kinetic energy and vibrate more vigorously about their fixed lattice positions.",
+          "This increased vibration means each particle, on average, occupies a very slightly larger effective space within the lattice.",
+          "As every particle throughout the rod occupies a slightly larger average space, the overall length of the rod increases very slightly."
+        ],
+        "answer": "The rod expands because heating increases the average kinetic energy of its particles, causing them to vibrate more vigorously and occupy a very slightly larger average space, adding up across the whole rod."
+      }
+    ],
+    "practical_applications": [
+      "Expansion gaps in bridges, railway tracks, and buildings, allowing for safe thermal expansion and contraction",
+      "Bimetallic strips in thermostats, using the different expansion rates of two metals to detect temperature changes",
+      "Designing precision engineering components that must maintain accurate dimensions across temperature ranges"
+    ],
+    "common_mistakes": [
+      "Assuming particles themselves increase in size when heated, rather than the spacing between them increasing",
+      "Assuming thermal expansion is negligible or unimportant in engineering design"
+    ],
+    "misconceptions": [
+      "That thermal expansion occurs because individual particles get physically bigger when heated - the particles themselves do not change size; thermal expansion occurs because increased particle motion causes particles to occupy a slightly larger average space."
+    ],
+    "tips": [
+      "Remember the general ordering: gases expand the most for a given temperature change, then liquids, then solids expand the least."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State what generally happens to the size of a substance when its temperature increases."
+      ],
+      "intermediate": [
+        "Explain, at the particle level, why gases generally expand more than solids for the same increase in temperature."
+      ],
+      "advanced": [
+        "Explain why engineers include expansion gaps in the design of long bridges and railway tracks."
+      ]
+    },
+    "exam_questions": [
+      "Explain, at the particle level, why most substances expand when heated."
+    ],
+    "answers": {
+      "basic": [
+        "It generally increases (expands)."
+      ],
+      "intermediate": [
+        "Gas particles are already free to move throughout the available space; a given increase in kinetic energy allows them to move faster and occupy significantly more space, whereas solid particles remain constrained to vibrating about fixed lattice positions, producing much less overall expansion."
+      ],
+      "advanced": [
+        "Bridges and railway tracks experience significant temperature variation; without expansion gaps, thermal expansion and contraction could cause the structure to buckle, crack, or become misaligned, so gaps are included to allow the material room to expand and contract safely."
+      ],
+      "exam": [
+        "Heating a substance increases the average kinetic energy of its particles, causing them to vibrate or move more vigorously; this increased particle motion means the particles occupy a slightly larger amount of space than before, which, summed across the entire substance, results in an overall increase in its size - thermal expansion."
+      ]
+    },
+    "summary": "Thermal expansion is the increase in size of a substance as its temperature rises, caused by increased particle vibration or motion occupying more average space. Gases expand most, solids least, for the same temperature change, and expansion has important practical engineering consequences.",
+    "revision_notes": [
+      "Heating -> more particle vibration/motion -> more average space -> expansion",
+      "Gases expand most; solids expand least (for same delta T)",
+      "Engineering: expansion gaps needed in structures"
+    ],
+    "related_topics": [
+      "Expansion of Solids",
+      "Expansion of Liquids",
+      "Expansion of Gases",
+      "Particle Theory"
+    ],
+    "prerequisites": [
+      "Particle Theory",
+      "Temperature"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-165",
+    "subject": "Physics",
+    "category": "Thermal Physics",
+    "title": "Expansion of Solids",
+    "difficulty": "Intermediate",
+    "description": "The relatively small increase in the length, area, or volume of a solid as its temperature increases.",
+    "learning_objectives": [
+      "Describe the thermal expansion behaviour of solids",
+      "Explain why different solid materials expand by different amounts for the same temperature change",
+      "Identify practical examples and engineering solutions for solid thermal expansion"
+    ],
+    "explanation": "Solids expand when heated, but by a relatively small amount compared with liquids and gases, since their particles remain held in a fixed lattice arrangement by strong intermolecular forces, only vibrating slightly more vigorously as temperature increases. Different solid materials expand by different amounts for the same temperature change, a property described by their linear expansivity - metals generally expand more than materials such as glass or ceramics, which is why bimetallic strips bend when heated, since one metal expands more than the other along their shared length. This differing rate of expansion between materials must be carefully considered in engineering, particularly where different materials are used together, since mismatched expansion rates can cause stress, cracking, or structural failure if not properly accounted for.",
+    "key_concepts": [
+      "Solids expand least among the three states for a given temperature change",
+      "Different materials have different expansion rates (linear expansivity)",
+      "Bimetallic strips exploit differing expansion rates between two metals"
+    ],
+    "definitions": [
+      {
+        "term": "Linear expansivity",
+        "definition": "A measure of how much a material's length increases per unit length for each degree increase in temperature, characteristic of a specific solid material."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "length",
+        "si_unit": "metre",
+        "symbol": "m"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A bimetallic strip is made from a metal that expands significantly when heated, bonded to a metal that expands much less. Explain what happens to the strip when it is heated.",
+        "steps": [
+          "As the strip is heated, both metals expand, but the metal with the higher expansion rate increases in length more.",
+          "Since the two metals are bonded together, the metal expanding more is forced to curve around the metal expanding less.",
+          "This mismatch causes the whole strip to bend, with the more-expanding metal on the outside of the curve."
+        ],
+        "answer": "The bimetallic strip bends, with the metal that expands more forming the outer (longer) side of the curve."
+      }
+    ],
+    "practical_applications": [
+      "Bimetallic strips used in thermostats and thermal switches, converting a temperature change into mechanical movement",
+      "Expansion joints in bridges, railway lines, and pipelines, accommodating solid thermal expansion safely",
+      "Precision manufacturing, accounting for the expansion rates of different materials used together"
+    ],
+    "common_mistakes": [
+      "Assuming all solid materials expand by the same amount for the same temperature change",
+      "Ignoring the practical significance of even small amounts of solid thermal expansion in large-scale structures"
+    ],
+    "misconceptions": [
+      "That solid thermal expansion is too small to matter in practical engineering - over the very large scale of structures such as bridges or railway lines, even a small percentage expansion can correspond to a significant absolute length change, which must be carefully accommodated in design."
+    ],
+    "tips": [
+      "When explaining a bimetallic strip's behaviour, identify which metal expands more and explain that this causes the strip to bend toward the metal that expands less."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State whether solids generally expand more or less than gases for the same temperature increase."
+      ],
+      "intermediate": [
+        "Explain why railway tracks are often laid with small gaps between sections."
+      ],
+      "advanced": [
+        "Explain why a metal lid on a glass jar can sometimes be easier to remove after running it under hot water."
+      ]
+    },
+    "exam_questions": [
+      "Explain how a bimetallic strip, made from two different metals, is used in a simple thermostat to detect a temperature change."
+    ],
+    "answers": {
+      "basic": [
+        "Less."
+      ],
+      "intermediate": [
+        "The gaps allow the metal rails to expand slightly in hot weather without buckling or becoming misaligned."
+      ],
+      "advanced": [
+        "The metal lid generally has a higher rate of thermal expansion than the glass jar; running the lid under hot water causes it to expand more than the glass, slightly loosening the fit, making it easier to twist off."
+      ],
+      "exam": [
+        "The bimetallic strip is made from two different metals with different expansion rates, bonded together along their length; as temperature changes, the two metals expand by different amounts, causing the strip to bend; this bending can be used to open or close an electrical contact at a specific temperature, triggering a heating or cooling system automatically."
+      ]
+    },
+    "summary": "Solids expand relatively little when heated, since their particles remain fixed in a lattice, only vibrating more vigorously. Different materials expand at different rates, a property exploited in bimetallic strips and requiring careful accommodation in engineering design.",
+    "revision_notes": [
+      "Solids: least expansion (fixed lattice, particles vibrate more but stay in place)",
+      "Different materials: different expansion rates (linear expansivity)",
+      "Bimetallic strips: two metals, different rates, bend when heated"
+    ],
+    "related_topics": [
+      "Thermal Expansion",
+      "Expansion of Liquids",
+      "Solids"
+    ],
+    "prerequisites": [
+      "Thermal Expansion",
+      "Solids"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-166",
+    "subject": "Physics",
+    "category": "Thermal Physics",
+    "title": "Expansion of Liquids",
+    "difficulty": "Intermediate",
+    "description": "The moderate increase in the volume of a liquid as its temperature increases, generally greater than for solids but less than for gases.",
+    "learning_objectives": [
+      "Describe the thermal expansion behaviour of liquids",
+      "Explain why liquids generally expand more than solids for the same temperature change",
+      "Describe the anomalous thermal expansion behaviour of water near 4 degC"
+    ],
+    "explanation": "Liquids expand when heated, generally by a greater amount than solids but a smaller amount than gases, reflecting their intermediate particle arrangement: liquid particles are not held in fixed positions, allowing somewhat greater freedom of expansion, but remain relatively close together, limiting how much they can spread out. Liquid thermal expansion is used in liquid-in-glass thermometers, which rely on a liquid expanding predictably as temperature increases, rising up a thin, calibrated tube. One notable exception is water, which shows anomalous expansion: as it cools from higher temperatures, water contracts until it reaches 4 degC, but between 4 degC and 0 degC, it actually expands slightly as it continues to cool toward freezing, meaning water is at its most dense at 4 degC rather than at its freezing point - this is important ecologically, since ice forms and floats on the surface of bodies of water, insulating the water beneath and allowing aquatic life to survive through cold winters.",
+    "key_concepts": [
+      "Liquids expand more than solids, less than gases (for the same temperature change)",
+      "Used in liquid-in-glass thermometers",
+      "Water: anomalous expansion, most dense at 4 degC (expands again on cooling below this to 0 degC)"
+    ],
+    "definitions": [
+      {
+        "term": "Anomalous expansion of water",
+        "definition": "The unusual behaviour of water, which becomes less dense (expands slightly) as it cools between 4 degC and 0 degC, rather than continuing to contract."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "volume",
+        "si_unit": "cubic metre",
+        "symbol": "m^3"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain why a liquid-in-glass thermometer relies on the thermal expansion of the liquid it contains.",
+        "steps": [
+          "As the temperature increases, the liquid inside the thermometer expands due to thermal expansion.",
+          "Since the liquid is contained within a sealed bulb connected to a very narrow tube, even a small expansion in overall volume causes the liquid's level within the narrow tube to rise noticeably.",
+          "This rise, calibrated against known reference temperatures, allows the thermometer to give an accurate temperature reading."
+        ],
+        "answer": "The thermometer works because the liquid's thermal expansion, confined to a narrow tube, produces a measurable, calibrated rise in liquid level corresponding to temperature."
+      }
+    ],
+    "practical_applications": [
+      "Liquid-in-glass thermometers, relying on predictable liquid thermal expansion",
+      "Understanding why ice floats and forms on the surface of lakes and ponds, protecting aquatic ecosystems in winter",
+      "Engineering systems involving liquid coolants and hydraulic fluids, accounting for expansion with temperature"
+    ],
+    "common_mistakes": [
+      "Assuming all liquids, including water near freezing, always contract when cooled",
+      "Assuming liquid thermal expansion is negligible compared with solids, when it is actually greater"
+    ],
+    "misconceptions": [
+      "That water always contracts as it cools, like most other substances - water is a notable exception, expanding slightly as it cools from 4 degC down to 0 degC, meaning it is less dense as ice than at 4 degC, which is why ice floats."
+    ],
+    "tips": [
+      "Remember water's anomalous behaviour: it is densest at 4 degC, not at its freezing point, the opposite of what would be expected from typical thermal expansion/contraction behaviour."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State whether liquids generally expand more or less than solids for the same temperature increase."
+      ],
+      "intermediate": [
+        "Explain why ice floats on liquid water, referring to water's anomalous expansion behaviour."
+      ],
+      "advanced": [
+        "Explain the ecological importance of water's anomalous expansion behaviour for aquatic life in a frozen lake."
+      ]
+    },
+    "exam_questions": [
+      "Describe water's anomalous thermal expansion behaviour between 4 degC and 0 degC, and explain its ecological significance."
+    ],
+    "answers": {
+      "basic": [
+        "More."
+      ],
+      "intermediate": [
+        "Water's anomalous expansion means it becomes less dense as it cools from 4 degC to 0 degC and then freezes; since ice is less dense than the liquid water at 4 degC, it floats on top of the denser liquid water below."
+      ],
+      "advanced": [
+        "Because ice floats and forms an insulating layer on the surface of a lake, the liquid water beneath remains insulated from the very cold air above and stays close to 4 degC, providing a survivable environment for fish and other aquatic life throughout the winter, rather than the entire lake freezing solid."
+      ],
+      "exam": [
+        "As water cools from higher temperatures down to 4 degC, it contracts as expected; however, as it continues cooling from 4 degC to 0 degC, it expands slightly rather than continuing to contract, meaning it is less dense at 0 degC than at 4 degC, and less dense still once frozen into ice; this means ice, being less dense than the water beneath it, floats on the surface of lakes and ponds, insulating the liquid water below from further heat loss and allowing aquatic organisms to survive the winter."
+      ]
+    },
+    "summary": "Liquids generally expand more than solids but less than gases when heated. Water is a notable exception, showing anomalous expansion between 4 degC and 0 degC, becoming less dense as it approaches freezing, which is why ice floats and insulates bodies of water in winter.",
+    "revision_notes": [
+      "Liquids: expand more than solids, less than gases",
+      "Used in liquid-in-glass thermometers",
+      "Water: anomalous, densest at 4 degC, expands 4C -> 0C, ice floats"
+    ],
+    "related_topics": [
+      "Thermal Expansion",
+      "Expansion of Solids",
+      "Density",
+      "Liquids"
+    ],
+    "prerequisites": [
+      "Thermal Expansion",
+      "Liquids"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-167",
+    "subject": "Physics",
+    "category": "Thermal Physics",
+    "title": "Expansion of Gases",
+    "difficulty": "Intermediate",
+    "description": "The large increase in the volume (or pressure, if volume is fixed) of a gas as its temperature increases.",
+    "learning_objectives": [
+      "Describe the thermal expansion behaviour of gases",
+      "Explain why gases expand more than solids or liquids for the same temperature change",
+      "Relate gas expansion to the gas laws"
+    ],
+    "explanation": "Gases show the greatest thermal expansion of the three states for a given temperature change, since their particles are already spread far apart with only weak or negligible intermolecular forces, allowing them to spread out significantly further as their average kinetic energy increases. If a gas is free to expand at constant pressure, heating it causes a substantial increase in its volume, as described by Charles's law. If a gas is instead held at a fixed, constant volume, heating it cannot cause it to expand; instead, the increased particle speed and more forceful collisions with the container walls result in a significant increase in the gas's pressure, as described by the Pressure Law. These relationships, together with Boyle's law, form the foundation of the gas laws.",
+    "key_concepts": [
+      "Gases expand the most among the three states, for a given temperature change",
+      "Free to expand (constant pressure): volume increases significantly (Charles's law)",
+      "Fixed volume: pressure increases significantly instead (Pressure Law)"
+    ],
+    "definitions": [
+      {
+        "term": "Gas expansion",
+        "definition": "The significant increase in volume (if free to expand) or pressure (if held at fixed volume) of a gas as its temperature increases."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "volume",
+        "si_unit": "cubic metre",
+        "symbol": "m^3"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "A sealed, rigid metal canister containing gas is left in direct sunlight and heats up significantly. Explain, in terms of particle behaviour, why this could cause the canister to become dangerously pressurised.",
+        "steps": [
+          "As the gas inside the canister is heated, its particles gain kinetic energy and move faster on average.",
+          "Since the canister is sealed and rigid, the gas cannot expand in volume to accommodate this increased motion.",
+          "Instead, the gas particles collide with the container walls more frequently and with greater force, resulting in a significant increase in the gas's pressure, which could exceed the canister's structural strength."
+        ],
+        "answer": "Heating the sealed canister increases the gas's pressure since it cannot expand in volume, and if pressure becomes too great, the canister could fail structurally."
+      }
+    ],
+    "practical_applications": [
+      "Hot air balloons, using heated air's reduced density to generate lift",
+      "Safety design and warning labels for pressurised gas canisters and aerosols",
+      "Understanding and predicting gas behaviour in engines, refrigeration, and industrial processes"
+    ],
+    "common_mistakes": [
+      "Assuming a gas always simply expands in volume when heated, regardless of whether it is free to do so",
+      "Confusing which gas law applies to a given scenario, based on which quantity is held constant"
+    ],
+    "misconceptions": [
+      "That heating a gas always results in the same type of response - whether volume or pressure increases depends entirely on the physical constraints of the container, even though the underlying particle-level cause (increased kinetic energy) is the same in both cases."
+    ],
+    "tips": [
+      "Before analysing a heated-gas scenario, identify first whether the gas is free to expand (Charles's law) or held at a fixed volume (Pressure Law)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State whether gases generally expand more or less than solids for the same temperature increase."
+      ],
+      "intermediate": [
+        "Explain, in terms of particle motion, why the pressure of a gas increases if it is heated within a sealed, rigid container."
+      ],
+      "advanced": [
+        "Explain why a hot air balloon rises, referring to the thermal expansion of the air inside it."
+      ]
+    },
+    "exam_questions": [
+      "Explain, at the particle level, the difference between what happens when a gas is heated at constant pressure compared with when it is heated at constant volume."
+    ],
+    "answers": {
+      "basic": [
+        "More."
+      ],
+      "intermediate": [
+        "Heating increases the average kinetic energy of the gas particles, causing them to move faster; since the fixed volume prevents them from spreading out further, they collide with the container walls more frequently and forcefully, increasing pressure."
+      ],
+      "advanced": [
+        "Heating the air inside the balloon causes it to expand, reducing its density compared with the surrounding cooler air; since the heated air is now less dense, an upward force acts on the balloon, causing it to rise."
+      ],
+      "exam": [
+        "When heated at constant pressure, the gas's increased particle kinetic energy causes it to spread out and occupy a significantly larger volume; when heated at constant volume, the particles cannot spread out further, so the same increase in kinetic energy instead results in more frequent and more forceful collisions with the fixed container walls, increasing pressure instead of volume."
+      ]
+    },
+    "summary": "Gases show the greatest thermal expansion of the three states. Heating a gas free to expand increases its volume (Charles's law); heating a gas at fixed volume increases its pressure instead (Pressure Law), both arising from increased particle kinetic energy and motion.",
+    "revision_notes": [
+      "Gases: greatest expansion for a given temperature change",
+      "Free to expand (constant P): volume increases (Charles's law)",
+      "Fixed volume: pressure increases instead (Pressure Law)"
+    ],
+    "related_topics": [
+      "Thermal Expansion",
+      "Charles's Law",
+      "Pressure Law",
+      "Kinetic Theory"
+    ],
+    "prerequisites": [
+      "Thermal Expansion",
+      "Gases"
+    ],
+    "diagram_recommendations": [],
+    "images": []
+  },
+  {
+    "id": "phy-168",
+    "subject": "Physics",
+    "category": "Thermal Physics",
+    "title": "Conduction",
+    "difficulty": "Foundational",
+    "description": "The transfer of thermal energy through a material by direct particle-to-particle contact and collision, without the particles themselves moving from one place to another.",
+    "learning_objectives": [
+      "Describe conduction at the particle level",
+      "Explain why metals are generally good thermal conductors",
+      "Identify examples of good and poor thermal conductors"
+    ],
+    "explanation": "Conduction is the transfer of thermal energy through a material by direct contact and collision between neighbouring particles, without the particles themselves undergoing any large-scale movement. When one end of a material is heated, particles there gain kinetic energy and vibrate more vigorously; these particles collide with their neighbours, transferring kinetic energy, and this process repeats throughout the material, gradually transferring thermal energy from the hot end toward the cooler end. Conduction occurs in all three states but is generally most effective in solids, where particles are held closely together allowing frequent collisions; it is much less effective in gases, where particles are widely spaced. Metals are particularly good thermal conductors because they also contain free (delocalised) electrons that move freely throughout the metal's structure, rapidly carrying kinetic energy from hot to cool regions far more quickly than particle vibration alone.",
+    "key_concepts": [
+      "Energy transfer via particle vibration and collision, no large-scale particle movement",
+      "Most effective in solids (close, fixed particles); least effective in gases",
+      "Metals: especially good conductors due to free electrons"
+    ],
+    "definitions": [
+      {
+        "term": "Conduction",
+        "definition": "The transfer of thermal energy through a material by direct particle-to-particle contact and collision, without the particles themselves moving from one place to another."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "thermal energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain, at the particle level, why a metal spoon left in a hot cup of tea quickly becomes hot to the touch at its handle, even though only the bowl of the spoon is submerged in the tea.",
+        "steps": [
+          "The particles of the spoon in contact with the hot tea gain kinetic energy and vibrate more vigorously.",
+          "These particles collide with neighbouring particles further along the spoon, transferring kinetic energy.",
+          "This process repeats particle by particle along the spoon, gradually transferring thermal energy toward the handle.",
+          "The metal's free electrons also move rapidly through the structure, further speeding up this transfer."
+        ],
+        "answer": "Thermal energy conducts along the spoon through particle vibration and collision, aided by free electrons, transferring energy to the handle relatively quickly."
+      }
+    ],
+    "practical_applications": [
+      "Selecting good thermal conductors (e.g. copper, aluminium) for cooking pans and heat sinks",
+      "Selecting poor thermal conductors for pan handles and insulation materials",
+      "Designing efficient heat exchangers and thermal management systems in engineering"
+    ],
+    "common_mistakes": [
+      "Assuming conduction involves particles physically moving from the hot region to the cold region",
+      "Assuming all solids conduct heat equally well, ignoring the difference between metals and insulators"
+    ],
+    "misconceptions": [
+      "That conduction involves particles themselves travelling from the hot end to the cold end - individual particles remain in roughly the same location, passing kinetic energy to their neighbours through collisions; the particles do not undergo significant large-scale movement, unlike in convection."
+    ],
+    "tips": [
+      "Remember the key distinguishing feature of conduction: energy is passed from particle to particle through vibration and collision, with no significant large-scale movement of the particles themselves."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the mechanism by which thermal energy is transferred during conduction."
+      ],
+      "intermediate": [
+        "Explain why metals are generally much better thermal conductors than non-metallic materials such as wood or plastic."
+      ],
+      "advanced": [
+        "Explain why gases are generally poor thermal conductors, referring to the spacing and behaviour of their particles."
+      ]
+    },
+    "exam_questions": [
+      "Explain, at the particle level, how thermal energy is transferred by conduction through a solid metal rod heated at one end."
+    ],
+    "answers": {
+      "basic": [
+        "Direct particle-to-particle contact and collision, with no large-scale movement of the particles themselves."
+      ],
+      "intermediate": [
+        "Metals contain free (delocalised) electrons that move relatively freely through their structure, in addition to their vibrating lattice particles; these free electrons carry kinetic energy far more rapidly than particle vibration alone, giving metals much higher thermal conductivity than non-metallic materials."
+      ],
+      "advanced": [
+        "Gas particles are spread far apart, with infrequent collisions occurring; since conduction relies on particles colliding with neighbours to transfer kinetic energy, this widely spaced arrangement makes conduction through a gas relatively slow and inefficient compared with a solid or liquid."
+      ],
+      "exam": [
+        "The particles at the heated end of the rod gain kinetic energy and vibrate more vigorously; through collisions with immediate neighbours, they transfer some of this extra kinetic energy along the rod, and this process repeats particle by particle, gradually transferring thermal energy from the hot end toward the cooler end, with each particle remaining in roughly the same position throughout."
+      ]
+    },
+    "summary": "Conduction transfers thermal energy through particle-to-particle vibration and collision, without particles themselves moving location. It is most effective in solids, especially metals, which also benefit from rapidly moving free electrons.",
+    "revision_notes": [
+      "Conduction: particle vibration/collision, no large-scale particle movement",
+      "Most effective: solids (especially metals, due to free electrons)",
+      "Least effective: gases (widely spaced particles, infrequent collisions)"
+    ],
+    "related_topics": [
+      "Convection",
+      "Radiation",
+      "Thermal Conductivity",
+      "Particle Theory"
+    ],
+    "prerequisites": [
+      "Particle Theory",
+      "Thermal Energy"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: Three panels illustrating conduction (particle vibration/collision), convection (circulating fluid), and radiation (waves from a hot source)]"
+    ],
+    "images": [
+      {
+        "filename": "physics-conduction-convection-radiation-168-01.webp",
+        "type": "diagram",
+        "description": "Three panels: the first shows a block with closely-packed dots, red (hot) on one side transitioning to blue (cool) on the other, illustrating conduction; the second shows a circular arrow path within a container illustrating convection currents; the third shows a glowing sun-like circle with arrows radiating outward in all directions illustrating radiation.",
+        "purpose": "Gives a single reference image distinguishing the three heat transfer mechanisms side by side, useful across all three related topics.",
+        "placement": "Directly after the explanation paragraph, before the worked example. (This image is shared with the Convection and Radiation topics.)"
+      }
+    ]
+  },
+  {
+    "id": "phy-169",
+    "subject": "Physics",
+    "category": "Thermal Physics",
+    "title": "Convection",
+    "difficulty": "Foundational",
+    "description": "The transfer of thermal energy through a fluid (liquid or gas) by the large-scale circulation of heated, less dense fluid rising and cooler, denser fluid sinking.",
+    "learning_objectives": [
+      "Describe convection at the particle and fluid level",
+      "Explain why convection occurs due to density differences caused by heating",
+      "Identify everyday examples of convection currents"
+    ],
+    "explanation": "Convection is the transfer of thermal energy through a fluid by the large-scale movement and circulation of the fluid itself, driven by density differences caused by uneven heating. When part of a fluid is heated, its particles gain kinetic energy and, through thermal expansion, spread out slightly, becoming less dense than the surrounding cooler fluid; this less dense, heated fluid then rises, while cooler, denser fluid sinks to take its place, setting up a continuous circulating flow called a convection current. As the heated fluid rises and moves away from the heat source, it gradually cools, becomes denser again, and eventually sinks back down, continuing the cycle. Unlike conduction, convection requires the fluid's particles to physically move from one location to another, which is why convection can only occur in liquids and gases, not in solids.",
+    "key_concepts": [
+      "Convection: circulation of a fluid, driven by density differences from uneven heating",
+      "Heated fluid (less dense) rises; cooler fluid (denser) sinks",
+      "Only occurs in fluids (liquids and gases), not solids"
+    ],
+    "definitions": [
+      {
+        "term": "Convection",
+        "definition": "The transfer of thermal energy through a fluid by the large-scale circulation of heated, less dense fluid rising and cooler, denser fluid sinking."
+      },
+      {
+        "term": "Convection current",
+        "definition": "The continuous circulating flow of a fluid established by convection, as heated fluid rises and cooler fluid sinks to replace it."
+      }
+    ],
+    "formulas": [],
+    "units": [],
+    "worked_examples": [
+      {
+        "problem": "Explain, using convection, why a radiator positioned near the floor of a room is effective at heating the entire room, rather than just the air immediately around it.",
+        "steps": [
+          "The air in direct contact with the hot radiator is heated, gains kinetic energy, and expands, becoming less dense than the surrounding cooler air.",
+          "This less dense, heated air rises upward, due to the upthrust exerted on it by the surrounding denser, cooler air.",
+          "As this warm air rises and spreads across the room, it gradually cools, becomes denser again, and sinks back down, returning toward the radiator to be reheated.",
+          "This continuous circulating convection current gradually distributes thermal energy throughout the entire room."
+        ],
+        "answer": "The radiator heats the whole room because the warmed, less dense air rises and circulates as a convection current, distributing thermal energy beyond the radiator's immediate vicinity."
+      }
+    ],
+    "practical_applications": [
+      "Central heating and air conditioning systems, relying on convection currents to distribute conditioned air throughout a room",
+      "Weather systems and atmospheric circulation, driven by large-scale convection currents in the atmosphere",
+      "Ocean currents, driven partly by convection resulting from temperature differences in seawater"
+    ],
+    "common_mistakes": [
+      "Assuming convection can occur in solids, forgetting that it specifically requires large-scale movement of fluid particles",
+      "Confusing convection with conduction"
+    ],
+    "misconceptions": [
+      "That convection and conduction are simply two names for the same underlying process - conduction transfers energy through particle vibration and collision without the particles themselves moving location, while convection specifically requires the fluid's particles to physically move, carrying their thermal energy with them."
+    ],
+    "tips": [
+      "Remember convection requires a fluid and involves the actual movement/circulation of that fluid, driven by density differences - it cannot occur in a rigid solid."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the two states of matter in which convection can occur."
+      ],
+      "intermediate": [
+        "Explain why heated air rises, in terms of density."
+      ],
+      "advanced": [
+        "Explain why a refrigerator's cooling element is typically positioned near the top of the fridge compartment, rather than at the bottom."
+      ]
+    },
+    "exam_questions": [
+      "Explain, using the concept of density, how a convection current is set up when a fluid is heated from below."
+    ],
+    "answers": {
+      "basic": [
+        "Liquids and gases (fluids)."
+      ],
+      "intermediate": [
+        "Heating causes air to expand, spreading its particles further apart; since the same mass now occupies a larger volume, its density decreases, becoming less than the surrounding cooler air, causing it to rise."
+      ],
+      "advanced": [
+        "Cool air is denser than warm air, so a cooling element near the top cools the air there, making it denser and causing it to sink; this, combined with warmer air rising to take its place, sets up an effective convection current circulating and cooling the entire compartment."
+      ],
+      "exam": [
+        "When a fluid is heated from below, particles near the heat source gain kinetic energy and expand, reducing their density; this less dense, heated fluid experiences a net upward force from the surrounding denser fluid and rises, while cooler, denser fluid sinks to take its place, where it is heated in turn - this continuous cycle establishes a convection current."
+      ]
+    },
+    "summary": "Convection transfers thermal energy through a fluid via the large-scale circulation of heated, less dense fluid rising and cooler, denser fluid sinking, setting up a convection current. It only occurs in liquids and gases, not solids, since it requires the physical movement of particles.",
+    "revision_notes": [
+      "Convection: fluid circulation, driven by density differences",
+      "Heated (less dense) fluid rises; cooler (denser) fluid sinks",
+      "Only in fluids (liquids/gases), not solids"
+    ],
+    "related_topics": [
+      "Conduction",
+      "Radiation",
+      "Density",
+      "Thermal Expansion"
+    ],
+    "prerequisites": [
+      "Density",
+      "Thermal Expansion"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A container of fluid with a circular arrow path showing warm fluid rising and cool fluid sinking, forming a convection current]"
+    ],
+    "images": [
+      {
+        "filename": "physics-conduction-convection-radiation-168-01.webp",
+        "type": "diagram",
+        "description": "Three panels: the first shows a block with closely-packed dots, red (hot) on one side transitioning to blue (cool) on the other, illustrating conduction; the second shows a circular arrow path within a container illustrating convection currents; the third shows a glowing sun-like circle with arrows radiating outward in all directions illustrating radiation.",
+        "purpose": "Gives a single reference image distinguishing the three heat transfer mechanisms side by side, useful across all three related topics.",
+        "placement": "Directly after the explanation paragraph, before the worked example. (This image is shared with the Conduction and Radiation topics.)"
+      }
+    ]
+  },
+  {
+    "id": "phy-170",
+    "subject": "Physics",
+    "category": "Thermal Physics",
+    "title": "Radiation",
+    "difficulty": "Foundational",
+    "description": "The transfer of thermal energy by electromagnetic waves, requiring no medium (particles) to travel through.",
+    "learning_objectives": [
+      "Describe thermal (infrared) radiation as electromagnetic waves",
+      "Explain why radiation, unlike conduction and convection, does not require a medium",
+      "Describe factors affecting how much thermal radiation an object emits or absorbs"
+    ],
+    "explanation": "Radiation (specifically, thermal radiation) is the transfer of thermal energy in the form of electromagnetic waves, primarily infrared radiation, emitted by any object as a result of its temperature. Unlike conduction and convection, which both rely on particles to transfer energy, radiation does not require a medium at all, and can travel through the vacuum of empty space, which is how thermal energy from the Sun reaches the Earth. Every object emits thermal radiation to some degree, with hotter objects emitting significantly more than cooler ones, and the amount of radiation emitted or absorbed by a surface also depends strongly on the nature of that surface: dark, matt (dull) surfaces are generally good emitters and good absorbers of thermal radiation, while light-coloured, shiny (reflective) surfaces are generally poor emitters and poor absorbers, instead tending to reflect thermal radiation away.",
+    "key_concepts": [
+      "Transfer via electromagnetic waves (infrared), no medium required",
+      "Hotter objects emit more radiation",
+      "Dark, matt surfaces: good emitters/absorbers; light, shiny surfaces: poor emitters/absorbers (good reflectors)"
+    ],
+    "definitions": [
+      {
+        "term": "Thermal radiation",
+        "definition": "The transfer of thermal energy in the form of electromagnetic waves (primarily infrared), emitted by any object due to its temperature, requiring no medium."
+      }
+    ],
+    "formulas": [],
+    "units": [
+      {
+        "quantity": "thermal energy",
+        "si_unit": "joule",
+        "symbol": "J"
+      }
+    ],
+    "worked_examples": [
+      {
+        "problem": "Explain why thermal energy from the Sun is able to reach the Earth, despite the vast, largely empty vacuum of space between them.",
+        "steps": [
+          "Unlike conduction and convection, which both require particles to transfer thermal energy, radiation transfers energy in the form of electromagnetic waves.",
+          "Electromagnetic waves, including infrared radiation, do not require a medium to travel through, and can propagate through the vacuum of space.",
+          "This means thermal energy from the Sun can be transferred to the Earth by radiation, even though the space between them contains essentially no particles."
+        ],
+        "answer": "Thermal energy reaches the Earth by radiation, since electromagnetic waves can travel through the vacuum of space, requiring no medium of particles."
+      }
+    ],
+    "practical_applications": [
+      "Choosing clothing colour appropriately for hot or cold climates, based on absorption/reflection of radiation",
+      "Thermos flask design, using shiny, reflective surfaces to minimise thermal radiation loss",
+      "Spacecraft thermal management, using surface coatings to control radiation absorption and emission"
+    ],
+    "common_mistakes": [
+      "Assuming radiation requires a medium (particles) to transfer energy, like conduction and convection",
+      "Assuming all surfaces emit and absorb thermal radiation equally, regardless of colour or texture"
+    ],
+    "misconceptions": [
+      "That radiation, like conduction and convection, requires particles to transfer thermal energy - radiation is fundamentally different, transferring energy via electromagnetic waves, which can propagate through a vacuum with no particles present at all."
+    ],
+    "tips": [
+      "Remember: dark, matt surfaces are both good emitters AND good absorbers of thermal radiation; light, shiny surfaces are both poor emitters AND poor absorbers (and therefore good reflectors)."
+    ],
+    "practice_questions": {
+      "basic": [
+        "State the type of electromagnetic wave primarily responsible for thermal radiation."
+      ],
+      "intermediate": [
+        "Explain why wearing dark-coloured clothing on a hot, sunny day generally makes a person feel hotter than wearing light-coloured clothing."
+      ],
+      "advanced": [
+        "Explain why a thermos flask often has a shiny, reflective inner surface, in terms of thermal radiation."
+      ]
+    },
+    "exam_questions": [
+      "Explain why radiation is able to transfer thermal energy through the vacuum of space, unlike conduction or convection."
+    ],
+    "answers": {
+      "basic": [
+        "Infrared radiation."
+      ],
+      "intermediate": [
+        "Dark-coloured clothing is a good absorber of thermal radiation, so it absorbs more of the Sun's radiated energy, increasing the thermal energy transferred to the wearer, making them feel hotter than in light-coloured clothing, which reflects more radiation away."
+      ],
+      "advanced": [
+        "A shiny, reflective inner surface is a poor emitter of thermal radiation, meaning it radiates away very little of the thermal energy of a hot liquid inside the flask, helping to keep the contents hot for longer."
+      ],
+      "exam": [
+        "Radiation transfers thermal energy via electromagnetic waves, which do not require a medium made of particles to travel through, unlike conduction or convection; since electromagnetic waves can propagate through a vacuum, radiation is the only one of the three thermal energy transfer mechanisms able to transfer energy across truly empty space."
+      ]
+    },
+    "summary": "Radiation transfers thermal energy via electromagnetic waves (primarily infrared), requiring no medium, unlike conduction or convection. Dark, matt surfaces are good emitters and absorbers of radiation; light, shiny surfaces are poor emitters and absorbers, reflecting radiation instead.",
+    "revision_notes": [
+      "Radiation: electromagnetic waves (infrared), no medium required, works in a vacuum",
+      "Hotter objects emit more radiation",
+      "Dark/matt: good emitter+absorber; light/shiny: poor emitter+absorber (good reflector)"
+    ],
+    "related_topics": [
+      "Conduction",
+      "Convection",
+      "Emissivity",
+      "Black Body Radiation"
+    ],
+    "prerequisites": [
+      "Electromagnetic Spectrum",
+      "Thermal Energy"
+    ],
+    "diagram_recommendations": [
+      "[DIAGRAM: A glowing hot object with arrows radiating outward in all directions, representing emitted thermal radiation, with no surrounding medium shown]"
+    ],
+    "images": [
+      {
+        "filename": "physics-conduction-convection-radiation-168-01.webp",
+        "type": "diagram",
+        "description": "Three panels: the first shows a block with closely-packed dots, red (hot) on one side transitioning to blue (cool) on the other, illustrating conduction; the second shows a circular arrow path within a container illustrating convection currents; the third shows a glowing sun-like circle with arrows radiating outward in all directions illustrating radiation.",
+        "purpose": "Gives a single reference image distinguishing the three heat transfer mechanisms side by side, useful across all three related topics.",
+        "placement": "Directly after the explanation paragraph, before the worked example. (This image is shared with the Conduction and Convection topics.)"
+      }
+    ]
+  }
+]
