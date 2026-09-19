@@ -1,0 +1,97 @@
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.eyebrow {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.title {
+  margin: 4px 0 4px;
+}
+
+.subtitle {
+  color: var(--color-text-secondary);
+  margin: 0 0 20px;
+}
+
+.navTabs {
+  display: flex;
+  gap: 8px;
+  border-bottom: 1px solid var(--color-border, #ddd);
+  margin-bottom: 20px;
+}
+
+.tabLink {
+  padding: 10px 16px;
+  text-decoration: none;
+  color: var(--color-text-secondary);
+  border-bottom: 2px solid transparent;
+  font-size: 0.95rem;
+}
+
+.tabLinkActive {
+  color: var(--color-text-primary, inherit);
+  border-bottom-color: var(--color-primary, #1c2b39);
+  font-weight: 600;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid var(--color-border, #ddd);
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.sectionHeader {
+  font-size: 1.1rem;
+  margin: 0 0 12px;
+}
+
+.statusArea {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.statusRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 0.95rem;
+}
+
+.statusLabel {
+  color: var(--color-text-secondary);
+}
+
+.statusValue {
+  font-weight: 500;
+  text-align: right;
+}
+
+.logoutSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-border, #ddd);
+}
+
+.logoutButton {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--color-border, #ccc);
+  background: transparent;
+  cursor: pointer;
+}
