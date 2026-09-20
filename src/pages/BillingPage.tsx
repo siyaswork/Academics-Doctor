@@ -6,7 +6,7 @@ import { STORAGE_KEYS } from '../utils/storage'
 import styles from './BillingPage.module.css'
 
 const MONTHLY_PRICE = '$4.99'
-const PAYPAL_CLIENT_ID = 'BAAHshxgeFe2tdsq9gO2g4S8I7LTcYgN7lt0b7gKAwR-r1VEtIsp_UPo_kHLpv9GNL5Jgiii2CCD2USzBM'
+const PAYPAL_CLIENT_ID = 'AV3XOqmt_8emDUvoG5xr_v4M3n8F6ky29bI-gMNGDPeThlXKFI-3i8igTZK_WOa_VaNoRzvHCO1H9kbQ'
 const FUNCTIONS_BASE = 'https://mclrsjpykirklszrfnau.supabase.co/functions/v1'
 
 interface SubscriptionRow {
