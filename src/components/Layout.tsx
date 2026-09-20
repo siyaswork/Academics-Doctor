@@ -4,6 +4,8 @@ import { useTheme } from '../contexts/ThemeContext'
 import { useCalculator } from '../contexts/CalculatorContext'
 import { AdvancedCalculator } from './AdvancedCalculator'
 import { CalculatorHistory } from './CalculatorHistory'
+import { useSubscriptionAccess } from '../hooks/useSubscriptionAccess'
+import { TrialExpiredNotice } from './TrialExpiredNotice'
 import styles from './Layout.module.css'
 
 const NAV_ITEMS = [
@@ -13,16 +15,25 @@ const NAV_ITEMS = [
   { to: '/workspace', label: 'Study Workspace' },
 ]
 
+// Routes that must always stay reachable even when access is blocked —
+// otherwise someone locked out couldn't ever get to Billing to pay, or to
+// their own Account page.
+const ALWAYS_ACCESSIBLE_PREFIXES = ['/billing', '/account']
+
 export const Layout: React.FC = () => {
   const { theme, toggleTheme } = useTheme()
   const { isOpen, closeCalculator, openCalculator } = useCalculator()
   const [isNavOpen, setIsNavOpen] = React.useState(false)
   const location = useLocation()
   const navigate = useNavigate()
+  const { loading: accessLoading, hasAccess } = useSubscriptionAccess()
 
   React.useEffect(() => {
     setIsNavOpen(false)
   }, [location.pathname])
+
+  const isExemptRoute = ALWAYS_ACCESSIBLE_PREFIXES.some((prefix) => location.pathname.startsWith(prefix))
+  const blocked = !accessLoading && !hasAccess && !isExemptRoute
 
   return (
     <div className={styles.shell}>
@@ -72,7 +83,12 @@ export const Layout: React.FC = () => {
             >
               Search
             </button>
-            <button type="button" className={styles.calcButton} onClick={() => openCalculator()} aria-label="Open calculator">
+            <button
+              type="button"
+              className={styles.calcButton}
+              onClick={() => (blocked ? navigate('/billing') : openCalculator())}
+              aria-label="Open calculator"
+            >
               Calculator
             </button>
             <button
@@ -95,10 +111,10 @@ export const Layout: React.FC = () => {
         </nav>
       </header>
       <main id="main-content" className={styles.content}>
-        <Outlet />
+        {accessLoading ? <div style={{ padding: 16 }}>Loading...</div> : blocked ? <TrialExpiredNotice /> : <Outlet />}
       </main>
 
-      {isOpen && (
+      {isOpen && !blocked && (
         <div
           className={styles.calcOverlay}
           onClick={closeCalculator}
